@@ -1,0 +1,47 @@
+{
+  "title": "Settings",
+  "languageCard": {
+    "selectLanguage": "Select Language",
+    "languageFormat": "Language: {{language}}"
+  },
+  "count": {
+    "chars": "Characters:",
+    "arts": "Artifacts:",
+    "weapons": "Weapons:",
+    "total": "Total:",
+    "new": "New:",
+    "updated": "Updated:",
+    "removed": "Removed:",
+    "unchanged": "Unchanged:",
+    "invalid": "Invalid:"
+  },
+  "downloadCard": {
+    "databaseDownload": "Database Download",
+    "button": {
+      "download": "Download",
+      "copy": "Copy to Clipboard",
+      "delete": "Delete Database"
+    }
+  },
+  "uploadCard": {
+    "title": "Database Upload",
+    "replaceDatabase": "Replace Database",
+    "hint": "Upload your JSON file here...",
+    "hintPaste": "...or paste your data below.",
+    "dbSource": "Data source:",
+    "goUpload": {
+      "title": "<strong>Genshin Optimizer</strong> format",
+      "migrate": "Database will be migrated to a newer version. Please consider re-downloading the database after import.",
+      "deleteDatabasePrompt": "Are you sure you want to replace your database? All existing characters and artifacts will be deleted."
+    },
+    "goodUpload": {
+      "title": "<strong>Genshin Open Object Description</strong> (GOOD) format"
+    },
+    "error": {
+      "jsonParse": "Unable to parse JSON file.",
+      "unknown": "Unknown file format.",
+      "monaInvalid": "Invalid Mona-Uranai file format",
+      "goInvalid": "Invalid GO backup file format."
+    }
+  }
+}
