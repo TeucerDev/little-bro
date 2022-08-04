@@ -1,0 +1,158 @@
+{
+  "name": "Tighnari",
+  "title": "???",
+  "description": "",
+  "constellationName": "",
+  "auto": {
+    "name": "Rompedor de Barreiras Khanda",
+    "fields": {
+      "normal": {
+        "0": "<strong><strong>Ataque Normal</strong>",
+        "1": "Realiza até 4 disparos consecutivos com um arco."
+      },
+      "charged": {
+        "0": "<strong>Ataque Carregado</strong>",
+        "1": "Realiza um <strong>Disparo com Mira</strong> mais preciso com Dano aumentado.",
+        "2": "Ao mirar, o poder do Dendro irá se acumular na ponta da flecha antes que ela seja lançada. Possui diferentes efeitos baseado em quanto tempo a energia foi carregada:",
+        "3": [
+          "Carga Nível 1: Dispara uma flecha carregando o poder da flora que causa<dendro>Dano Dendro</dendro>.",
+          "Carga Nível 2: Dispara uma Flecha Floral que causa <dendro>Dano Dendro</dendro>. Ao acertar, a Flecha Floral irá criar 4 Flechas Florescentes que irão perseguir os oponentes próximos automaticamente e causar <dendro>Dano Dendro</dendro>."
+        ]
+      },
+      "plunging": {
+        "0": "<strong>Ataque Imersivo</strong>",
+        "1": "Dispara uma chuva de flechas durante o ar antes de cair e atingir o chão, causando Dano em uma AdE no impacto."
+      }
+    },
+    "skillParams": {
+      "0": "Dano do 1° Golpe",
+      "1": "Dano do 2° Golpe",
+      "2": "Dano do 3° Golpe",
+      "3": "Dano do 4º Golpe",
+      "4": "Disparo com Mira",
+      "5": "Disparo Carregado com Mira Nv.1",
+      "6": "Dano de Flecha Floral",
+      "7": "Dano de Flecha da Florescência",
+      "8": "Dano Durante a Queda",
+      "9": "Dano de Queda de Baixa/Alta Altitude",
+      "10": "",
+      "11": "",
+      "12": "",
+      "13": "",
+      "14": "",
+      "15": ""
+    }
+  },
+  "skill": {
+    "name": "Mina Vijnana-Phala",
+    "description": {
+      "0": "Tighnari lança um Núcleo Vijnana para frente que causa <dendro>Dano Dendro em uma AdE</dendro>, criando um Campo Vijnana-Khanda que faz com que os oponentes fiquem confusos dentro dela.",
+      "1": "Adicionalmente, Tighnari ganha o efeito de Perfurador Vijnana, que irá reduzir o Tempo de Carga da próxima Flecha Floral em 1.5s. Esse efeito irá se dissipar uma vez que a duração da habilidade termine ou depois que Tighnari disparar 3 Flechas Florais.",
+      "2": "<br/>",
+      "3": "<i>\"Se uma semente murchar longe do solo, ela continuará como uma única semente. Mas se ela retornar ao solo, ela se multiplicará milhões de vezes.</i>"
+    },
+    "skillParams": {
+      "0": "Dano de Habilidade",
+      "1": "Duração da Área de Vijnana-Khanda",
+      "2": "Duração do Perfurador Vijnana",
+      "3": "Tempo de Recarga",
+      "4": "",
+      "5": "",
+      "6": "",
+      "7": "",
+      "8": "",
+      "9": "",
+      "10": "",
+      "11": "",
+      "12": "",
+      "13": "",
+      "14": "",
+      "15": ""
+    }
+  },
+  "burst": {
+    "name": "Flecha Enraizadora Artificial",
+    "description": {
+      "0": "Combina o poder de todas as sementes para disparar 6 Flechas Enraizadoras que podem perseguir o inimigo e causar <dendro>Dano Dendro</dendro>.",
+      "1": "Depois que elas acertam, as Flechas Enraizadoras irão criar uma segunda onda de Flechas Enraizadoras que também perseguem os inimigos e causam <dendro>Dano Dendro</dendro> ao acertarem.",
+      "2": "<br/>",
+      "3": "<i>\"Não tente escapar tão facilmente. As vinhas crescem sem parar. As coisas ficam complicadas se você não se livrar de cada uma delas.</i>"
+    },
+    "skillParams": {
+      "0": "Dano da Flecha Enraizadora",
+      "1": "Dano Secundário da Flecha Enraizadora",
+      "2": "Tempo de Recarga",
+      "3": "Energia Elemental",
+      "4": "",
+      "5": "",
+      "6": "",
+      "7": "",
+      "8": "",
+      "9": "",
+      "10": "",
+      "11": "",
+      "12": "",
+      "13": "",
+      "14": "",
+      "15": ""
+    }
+  },
+  "passive1": {
+    "name": "Visão Aguçada",
+    "description": {
+      "0": "Depois que Tighnari dispara uma <strong>Flecha Floral</strong>, sua Proficiência Elemental é aumentada em 50 por 4s."
+    }
+  },
+  "passive2": {
+    "name": "Conhecedor da Flora",
+    "description": {
+      "0": "Para cada ponto de Proficiência Elemental que Tighnari possui, o Dano do seu Ataque Carregado e da <strong>Flecha Enraizadora Artificial</strong> são aumentados em 0.05%.",
+      "1": "O Dano máximo obtido dessa forma é 50%."
+    }
+  },
+  "passive3": {
+    "name": "Conhecimento Enciclopédico",
+    "description": {
+      "0": "Mostra a localização de <strong>recursos únicos de Sumeru</strong> próximos no mapa."
+    }
+  },
+  "constellation1": {
+    "name": "Começos Determinados Pela Raiz",
+    "description": {
+      "0": "A Taxa CRIT dos Ataques Carregados de Tighnari são aumentados em 15%."
+    }
+  },
+  "constellation2": {
+    "name": "Origens Conhecidas Pelo Caule",
+    "description": {
+      "0": "Quando houverem oponentes dentro do campo Vijnana-Khanda criado pela <strong>Mina Vijnana-Phala</strong>, Tighnari ganha 20% de <dendro>Bônus de Dano Dendro</dendro>.",
+      "1": "O efeito dura cerca de 6s se o campo de confusão terminar ou não tiver mais oponentes dentro dele."
+    }
+  },
+  "constellation3": {
+    "name": "Ramos da Fortuna",
+    "description": {
+      "0": "Aumenta o nível da <strong>Flecha Enraizadora Artificial</strong> em 3.",
+      "1": "O nível máximo de elevação é 15."
+    }
+  },
+  "constellation4": {
+    "name": "Vislumbre das Folhas Murchas",
+    "description": {
+      "0": "Quando a <strong>Flecha Enraizadora Artificial</strong> é desencadeada, todos os membros da equipe ganham 60 de Proficiência Elemental por 8s. Se a Flecha Enraizadora Artificial causar uma reação Elemental de Queimaduras, Florescimento, Aceleração ou Propagação, sua Proficiência Elemental será aumentada ainda mais em 60. Este último caso também irá reiniciar a duração da bonificação do estado."
+    }
+  },
+  "constellation5": {
+    "name": "Compreensão em Meio as Flores",
+    "description": {
+      "0": "Aumenta o nível da <strong>Mina Vijnana-Phala</strong> em 3.",
+      "1": "O nível máximo de elevação é 15."
+    }
+  },
+  "constellation6": {
+    "name": "Frutos Cármicos",
+    "description": {
+      "0": "O tempo de carga da <strong>Flecha Floral</strong> é reduzido em 0.9s, e irá produzir 1 Flecha Florescente adicional ao acertar um inimigo."
+    }
+  }
+}
