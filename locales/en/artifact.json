@@ -8,6 +8,7 @@
     "rarity": "Rarity",
     "level": "Level",
     "unknownPieceName": "Unknown Piece Name",
+    "unknownSetName": "Unknown Set Name",
     "mainSelect": "Select a Main Stat",
     "curSubEff": "Current Roll Value",
     "curSubEffDesc": "Every 4 artifact upgrades, you get a substat roll. <strong>Roll Value</strong> calculates how high the substat rolled as a percentage.",
@@ -59,7 +60,8 @@
     "title": "Substats to use in Roll Value calculation"
   },
   "filterLocation": {
-    "any": "Location: Any",
+    "location": "Location",
+    "any": "Any",
     "inventory": "Inventory",
     "currentlyEquipped": "Currently Equipped"
   },
@@ -83,6 +85,7 @@
   ],
   "exclusionDisplay": "Exclusion: {{value}}",
   "exclusion": {
+    "exclusion": "Exclusion",
     "any": "Any",
     "excluded": "Excluded",
     "included": "Included"
@@ -97,5 +100,14 @@
   "showingNum_one": "Showing <1>{{count}}</1> out of {{value}} Artifact",
   "showingNum_other": "Showing <1>{{count}}</1> out of {{value}} Artifacts",
   "resetFilters": "Reset Filters",
-  "excludeArtifactTip": "Excluding an artifact will prevent the build generator from picking it for builds."
+  "edit": "Edit Artifact",
+  "excludeArtifactTip": "Excluding an artifact will prevent the build generator from picking it for builds.",
+  "excluded": "This artifact is excluded.",
+  "included": "This artifact is not excluded.",
+  "autocompleteLabels": {
+    "sets": "Artifact Sets",
+    "mainStats": "Main Stats",
+    "substats": "Sub-Stats",
+    "set": "Artifact Set"
+  }
 }
