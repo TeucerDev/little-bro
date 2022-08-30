@@ -1,8 +1,8 @@
 {
   "name": "Collei",
-  "title": "???",
-  "description": "",
-  "constellationName": "",
+  "title": "Sprout of Rebirth",
+  "description": "Seorang Penjaga Hutan Pemula yang aktif di Hutan Avidya. Tutur kata dan perbuatannya sangat lembut, namun kepribadiannya sedikit tertutup.",
+  "constellationName": "Leptailurus Cervarius",
   "auto": {
     "name": "Supplicant's Bowmanship",
     "fields": {
@@ -13,7 +13,7 @@
       "charged": {
         "0": "<strong>Charged Attack</strong>",
         "1": "Mengerahkan sebuah <strong>Serangan Membidik</strong> yang lebih akurat untuk mengakibatkan DMG lebih besar.",
-        "2": "Saat membidik, elemen Dendro akan berkumpul di ujung anak panah. Panah dengan elemen Dendro yang terkumpul penuh akan mengakibatkan <strong>Dendro DMG</strong>."
+        "2": "Saat membidik, elemen Dendro akan berkumpul di ujung anak panah. Panah dengan elemen Dendro yang terkumpul penuh akan mengakibatkan <dendro>Dendro DMG</dendro>."
       },
       "plunging": {
         "0": "<strong>Plunging Attack</strong>",
@@ -42,7 +42,7 @@
   "skill": {
     "name": "Floral Brush",
     "description": {
-      "0": "Melemparkan Floral Ring yang mengakibatkan 1 kali <dendro>Dendro DMG</dendro> terhadap musuh di jalurnya.",
+      "0": "Melemparkan Floral Ring yang mengakibatkan 1 kali <dendro>Dendro DMG</dendro> pada target yang terkena.",
       "1": "Floral Ring akan kembali setelah dilemparkan dalam kurun waktu tertentu, dan akan mengakibatkan <dendro>Dendro DMG</dendro> lagi.",
       "2": "<br/>",
       "3": "<i>Ini adalah peralatan yang digunakan Collei untuk menghadapi hewan-hewan yang buas. Setelah hewan-hewan itu dipukul dengan alat ini beberapa kali, biasanya mereka akan kembali menjadi jinak. Prinsip ini juga bisa diterapkan terhadap para orang-orang jahat.</i>"
@@ -67,16 +67,16 @@
     }
   },
   "burst": {
-    "name": "Treasure Kitty",
+    "name": "Trump-Card Kitty",
     "description": {
-      "0": "Mengundang 柯里安巴 yang bisa diandalkan untuk membantu di medan pertempuran.",
-      "1": "Melemparkan boneka 柯里安巴, saat meledak, mengakibatkan <dendro>Dendro DMG Area</dendro> dan akan menghasilkan medan 柯里安巴. 柯里安巴 akan terus bergerak di dalam medan dan mengakibatkan <dendro>Dendro DMG Area<dendro>.",
+      "0": "Mengundang Cuilein-Anbar yang bisa diandalkan untuk membantu di medan pertempuran.",
+      "1": "Melemparkan boneka Cuilein-Anbar yang saat meledak akan mengakibatkan <dendro>Dendro DMG Area</dendro> dan akan menghasilkan Zona Cuilein-Anbar. Cuilein-Anbar akan terus memantul-mantul di dalam areanya dan mengakibatkan <dendro>Dendro DMG Area</dendro>.",
       "2": "<br/>",
-      "3": "\"Bagaimana? Hebat kan! ... Apa? Dari mana asal nama 柯里安巴? Anu, ini ... eh ....\"</i>"
+      "3": "<i>\"Bagaimana? Hebat, kan! ... Apa? Dari mana asal nama Cuilein-Anbar? Anu, ini ... eh ....\"</i>"
     },
     "skillParams": {
       "0": "DMG Elemental Burst",
-      "1": "DMG Gerakan",
+      "1": "DMG Pantulan",
       "2": "Durasi",
       "3": "Cooldown",
       "4": "Konsumsi Energy",
@@ -96,28 +96,28 @@
   "passive1": {
     "name": "Floral Sidewinder",
     "description": {
-      "0": "Sebelum <strong>Floral Ring</strong> kembali, jika ada Karakter di dalam party yang memicu reaksi Burning, Quicken, Intensify, Spread, Overgrow, Hyperbloom, atau Burgeon, akan memberikan status \"Sprout\" untuk Karakter, yang akan mengakibatkan <dendro>Dendro DMG</dendro> secara terus-menerus kepada musuh di sekitar sebesar 40% dari ATK Collei selama 3 detik.",
-      "1": "Jika efek Sprout terpicu lagi selama durasinya masih berlangsung, maka efek yang awal akan dihapus."
+      "0": "Sebelum <strong>Floral Ring</strong> kembali, jika ada Karakter di dalam party yang memicu reaksi Burning, Quicken, Aggravate, Spread, Bloom, Hyperbloom, atau Burgeon, akan memberikan status \"Sprout\" untuk Karakter, yang akan mengakibatkan <dendro>Dendro DMG</dendro> secara terus-menerus kepada musuh di sekitar sebesar 40% dari ATK Collei selama 3 detik.",
+      "1": "Jika efek Sprout terpicu lagi selama durasinya masih berlangsung, maka efek yang awal akan dihapus. DMG yang diakibatkan oleh efek Sprout akan dianggap sebagai DMG Elemental Skill."
     }
   },
   "passive2": {
     "name": "The Languid Wood",
     "description": {
-      "0": "Saat Karakter yang berada di dalam <strong>Area Cuilein-Anbar</strong> memicu efek Burning, Quicken, Intensify, Spread, Overgrow, Hyperbloom, atau Burgeon, maka durasi area akan diperpanjang 1 detik.",
+      "0": "Saat Karakter yang berada di dalam <strong>Zona Cuilein-Anbar</strong> memicu efek Burning, Quicken, Aggravate, Spread, Bloom, Hyperbloom, atau Burgeon, maka durasi area akan diperpanjang 1 detik.",
       "1": "Dalam 1 kali <strong>Trump-Card Kitty</strong>, perpanjangan durasi yang bisa didapatkan dengan cara ini maksimum sebanyak 3 kali."
     }
   },
   "passive3": {
-    "name": "\"Gliding Champion of Sumeru\"",
+    "name": "Gliding Champion of Sumeru",
     "description": {
-      "0": "Mengurangi 20% konsumsi Stamina karakter sendiri saat meluncur.",
-      "1": "Efek tidak dapat ditumpuk dengan Talenta Pasif lain yang memiliki efek yang sama."
+      "0": "Mengurangi 20% konsumsi Stamina Karakter sendiri saat meluncur.",
+      "1": "Efek tidak dapat ditumpuk dengan Talenta Pasif lain yang memiliki efek yang sama persis."
     }
   },
   "constellation1": {
     "name": "Deepwood Patrol",
     "description": {
-      "0": "Ketika Collei berada di dalam party namun tidak sedang bertempur, Energy Recharge Collei meningkat 20%."
+      "0": "Ketika Collei ada dalam party namun sedang tidak berada di medan pertempuran, Energy Recharge Collei meningkat 20%."
     }
   },
   "constellation2": {
@@ -125,8 +125,8 @@
     "description": {
       "0": "Talenta Pasif \"Floral Sidewinder\" akan berubah menjadi:",
       "1": "Saat <strong>Floral Ring</strong> kembali, Talenta Pasif \"Floral Sidewinder\" akan memberikan status \"Sprout\" untuk Karakter, yang akan mengakibatkan <dendro>Dendro DMG</dendro> secara terus-menerus kepada musuh di sekitar sebesar 40% dari ATK Collei selama 3 detik.",
-      "2": "Sejak melancarkan <strong>Floral Brush</strong> dan sebelum status Sprout kali ini hilang, jika ada Karakter di dalam party yang memicu reaksi Burning, Quicken, Intensify, Spread, Overgrow, Hyperbloom, atau Burgeon, maka durasi efek Sprout kali ini diperpanjang 3 detik.",
-      "3": "Perpanjangan durasi efek Sprout yang bisa didapatkan dengan cara ini adalah 1 kali. Jika efek Sprout terpicu lagi selama durasinya berlangsung, maka efek yang awal akan dihapus.",
+      "2": "Sejak melancarkan <strong>Floral Brush</strong> dan sebelum status Sprout kali ini hilang, jika ada Karakter di dalam party yang memicu reaksi Burning, Quicken, Aggravate, Spread, Bloom, Hyperbloom, atau Burgeon, maka durasi efek Sprout kali ini diperpanjang 3 detik.",
+      "3": "Perpanjangan durasi efek Sprout yang bisa didapatkan dengan cara ini adalah 1 kali. Jika efek Sprout terpicu lagi selama durasinya berlangsung, maka efek yang awal akan dihapus. DMG yang diakibatkan oleh efek Sprout dianggap sebagai DMG Elemental Skill.",
       "4": "Harus sudah membuka Talenta Pasif Floral Sidewinder lebih dulu."
     }
   },
@@ -153,7 +153,7 @@
   "constellation6": {
     "name": "Forest of Falling Arrows",
     "description": {
-      "0": "Saat <strong>Floral Ring</strong> mengenai musuh, akan menghasilkan 1 miniatur Cuilein-Anbar dan mengakibatkan <dendro>Dendro DMG</dendro> sebesar 200% dari ATK Collei.",
+      "0": "Saat <strong>Floral Ring</strong> mengenai target, akan menghasilkan 1 miniatur Cuilein-Anbar dan mengakibatkan <dendro>Dendro DMG</dendro> sebesar 200% dari ATK Collei.",
       "1": "Hanya 1 miniatur Cuilein-Anbar yang bisa dihasilkan setiap kali melancarkan <strong>Floral Brush</strong>."
     }
   }

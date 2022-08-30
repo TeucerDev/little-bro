@@ -12,7 +12,7 @@
       },
       "charged": {
         "0": "<strong>Ataque Carregado</strong>",
-        "1": "Consome uma certa quantidade de Stamina para avançar para frente realizando Iaidô."
+        "1": "Consome uma certa quantidade de Stamina para avançar para frente realizando Iaido."
       },
       "plunging": {
         "0": "<strong>Ataque Imersivo</strong>",
@@ -41,11 +41,11 @@
   "skill": {
     "name": "Arte Kamisato: Beleza Refletida",
     "description": {
-      "0": "Kamisato Ayato troca de posição e entra no estado \"Reflexão Torrencial\".Após esta troca, ele deixará uma Ilusão de Água na localização original.",
-      "1": "Após sua formação, a Ilusão de Água explodirá se os oponentes estiverem ao redor ou quando sua duração terminar, infligindo <hydro>Dano Hydro em AdE</hydro>.",
+      "0": "Kamisato Ayato troca de posição e entra no estado \"Reflexão Torrencial\".",
+      "1": "Após esta troca, ele deixará uma Ilusão de Água na sua localização original. Após sua formação, a Ilusão de Água explodirá se os oponentes estiverem próximos ou quando sua duração terminar, infligindo <hydro>Dano Hydro em AdE</hydro>.",
       "2": "<br/>",
       "3": "<strong>Reflexão Torrencial</strong>",
-      "4": "Nesse estado, Kamisato Ayato usa sua Espada Aquática para realizar ataques rápidos, fazendo com que o Dano de seus Ataques Normais seja convertido em <hydro>Dano Hydro em AdE</hydro> que não pode ser substituído pelo encantamento.",
+      "4": "Nesse estado, Kamisato Ayato usa sua Espada Aquática para realizar ataques rápidos, fazendo com que o Dano de seus Ataques Normais seja convertido em <hydro>Dano Hydro em AdE</hydro> que não pode ser substituído pelo encantamento de outros elementos.",
       "5": "Além disso, também possui as seguintes propriedades:",
       "6": [
         " Quando os ataques da Espada Aquática atingem um inimigo, darão a Ayato o efeito de Ondas Brilhantes, aumentando o Dano infligido pela Espada Aquática baseado na Vida Máxima atual de Ayato. O número máximo inicial de acúmulos de Ondas Brilhantes é 4, e é possível obter um acúmulo através da Espada Aquática a cada 0.1s. Esse efeito desaparecerá quando a Reflexão Torrencial acabar.",
@@ -55,7 +55,7 @@
       "7": "A Reflexão Torrencial será eliminada quando Ayato sair do campo de batalha. Usar Arte Kamisato: Beleza Refletida novamente enquanto ainda estiver no estado Reflexão Torrencial encerrará tal estado.",
       "8": "<br/>",
       "9": "<i>Me pergunto quando você teve a ilusão que estava ganhando?</i>",
-      "10": "<i>Ayato é assim tanto na proeza marcial quanto intriga política, mas para preservar a dignidade de seus colegas de outras duas Comissões, ele não diz tais coisas a eles. Dessa forma, somente Thoma, Itto e Ayaka ouviram isso.</i>"
+      "10": "<i>Ayato é assim tanto na proeza marcial quanto na intriga política, mas para preservar a dignidade de seus colegas das outras duas Comissões, ele não diz tais coisas a eles. Dessa forma, somente Thoma, Itto e Ayaka ouviram isso.</i>"
     },
     "skillParams": {
       "0": "Dano do 1° Golpe da Espada Aquática",
@@ -80,9 +80,9 @@
     "name": "Arte Kamisato: Jardim Aquático",
     "description": {
       "0": "Revela um jardim puro que extingue toda a cacofonia.",
-      "1": "Enquanto esse espaço existir, Lâminas de Flores de Água constantemente cairão e atacarão inimigos em sua AdE, infligindo <hydro>Dano Hydro</hydro> e aumentando o dano do Ataque Normal dos personagens dentro da AdE..",
+      "1": "Enquanto esse espaço existir, Lâminas de Flores de Água constantemente cairão e atacarão os inimigos em sua AdE, infligindo <hydro>Dano Hydro</hydro> e aumentando o dano do Ataque Normal dos personagens dentro da AdE.",
       "2": "<br/>",
-      "3": "\"<i>Eu já vi. Posso ver ondas de batimento de seu coração nesse reino de águas paradas\".</i>"
+      "3": "\"<i>Eu vejo, posso ver ondas de batimento de seu coração nesse reino de águas paradas\".</i>"
     },
     "skillParams": {
       "0": "Dano da Lâmina de Flores de Água",
@@ -109,7 +109,7 @@
       "0": "<strong>Arte Kamisato: Beleza Refletida</strong> possui as seguintes propriedades:",
       "1": [
         " Depois de ser lançada, Kamisato Ayato obtém 2 acúmulos de Ondas Brilhantes;",
-        " Depois de sua Ilusão de Água explodir, Kamisato Ayato obterá um efeito de Ondas Brilhantes iguais ao máximo dos acúmulos."
+        " Depois de sua Ilusão de Água explodir, Kamisato Ayato obterá um efeito de Ondas Brilhantes igual ao máximo de número de acúmulos possíveis."
       ]
     }
   },
@@ -122,7 +122,7 @@
   "passive3": {
     "name": "Arte Kamisato: Cozinha Diária",
     "description": {
-      "0": "Quando uma Comida Perfeita é feita, tem uma chance de 18% de receber uma Comida Estranha de mesmo gênero."
+      "0": "Quando uma Comida Perfeita é feita, tem uma chance de 18% de receber uma Comida Estranha de mesmo tipo."
     }
   },
   "constellation1": {
@@ -160,8 +160,8 @@
   "constellation6": {
     "name": "Origem Ilimitada",
     "description": {
-      "0": "Depois de usar <strong>Arte Kamisato: Beleza Refletida</strong>, se o próximo ataque de Espada Aquática atingir um inimigo, o Kamisato Ayato atacará adicionalmente 2 vezes com a sua Espada Aquática, causando Dano equivalente a 450% de ATQ por vez.",
-      "1": "Estes dois ataques não receberão bônus de Onda Brilhante."
+      "0": "Depois de usar <strong>Arte Kamisato: Beleza Refletida</strong>, o próximo ataque de Espada Aquática de Kamisato Ayato que atingir um inimigo desencadeará dois ataques de Espadas Aquáticas adicionais, cada um infligindo Dano equivalente a 450% do Dano do Ataque de Kamisato Ayato.",
+      "1": "Estes dois ataques da Espada Aquática não receberão bônus de Onda Brilhante."
     }
   }
 }

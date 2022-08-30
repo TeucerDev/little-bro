@@ -1,8 +1,8 @@
 {
   "name": "Collei",
-  "title": "???",
-  "description": "",
-  "constellationName": "",
+  "title": "Germe de renaissance",
+  "description": "Une garde forestière en formation active dans la Forêt d'Avidya. Derrière ses paroles et ses actions enthousiastes se cache une personnalité légèrement introvertie.",
+  "constellationName": "Leptailurus Cervarius",
   "auto": {
     "name": "Archerie de l'implorant",
     "fields": {
@@ -42,7 +42,7 @@
   "skill": {
     "name": "Brosse florale",
     "description": {
-      "0": "Lance un anneau floral qui inflige une fois des <dendro>DGT Dendro</dendro> aux ennemis en chemin.",
+      "0": "Lance un anneau floral qui inflige une fois des <dendro>DGT Dendro</dendro> aux cibles touchées.",
       "1": "L'anneau floral revient ensuite après un certain temps, infligeant une nouvelle fois des <dendro>DGT Dendro</dendro>.",
       "2": "<br/>",
       "3": "<i>C'est le gadget incontournable de Collei pour faire face aux bêtes sauvages indisciplinées : quelques petits coups bien placés avec cet instrument améliorent généralement leur comportement. Évidemment, ce même principe fonctionne tout aussi bien sur les malfaiteurs...</i>"
@@ -70,7 +70,7 @@
     "name": "Atout félin",
     "description": {
       "0": "Le fidèle Cuilein-Anbar arrive pour apporter son aide !",
-      "1": "Lance la poupée nommée Cuilein-Anbar, provoquant une explosion qui inflige des <dendro>DGT Dendro de zone</dendro> tout en créant un territoire de Cuilein-Anbar. Cuilein-Anbar bondira alors sans cesse dans son territoire, infligeant des <dendro>DGT Dendro de zone</dendro>.",
+      "1": "Lance une poupée nommée Cuilein-Anbar, provoquant une explosion qui inflige des <dendro>DGT Dendro de zone</dendro> tout en créant un territoire de Cuilein-Anbar. Cuilein-Anbar bondira alors sans cesse dans son territoire, infligeant des <dendro>DGT Dendro de zone</dendro>.",
       "2": "<br/>",
       "3": "<i>« Pas mal, hein ? ... Hein ? D'où est-ce que j'ai sorti le nom de Cuilein-Anbar ? Euh, eh bien, je... »</i>"
     },
@@ -97,7 +97,7 @@
     "name": "Retour folié",
     "description": {
       "0": "Si un membre de votre équipe déclenche une réaction de Brûlure, de Stimulation, de Suractivation, de Propagation, de Fleurissement, d'Exubérance ou de Bourgeonnement avant le retour de l'<strong>anneau floral </strong>, le personnage obtient l'effet Germe au retour de l'anneau, ce qui inflige de façon continue aux ennemis proches des <dendro>DGT Dendro</dendro> d'une valeur équivalant à 40 % de l'ATQ de Collei pendant 3 s.",
-      "1": "Si un nouvel effet Germe est déclenché pendant la durée d'un effet Germe existant, l'effet d'origine est supprimé."
+      "1": "Si un nouvel effet Germe est déclenché pendant la durée d'un effet Germe existant, l'effet d'origine est supprimé. Les DGT infligés par l'effet Germe sont considérés comme étant des DGT de compétence élémentaire."
     }
   },
   "passive2": {
@@ -126,7 +126,7 @@
       "0": "L'aptitude passive « Retour folié » est modifiée :",
       "1": "Au retour de l'<strong>anneau floral</strong>, le personnage obtient l'effet Germe de l'aptitude passive « Retour folié », infligeant de façon continue aux ennemis proches des <dendro>DGT Dendro</dendro> d'une valeur équivalant à 40 % de l'ATQ de Collei pendant 3 s.",
       "2": "Si un membre de votre équipe déclenche une réaction de Brûlure, de Stimulation, de Suractivation, de Propagation, de Fleurissement, d'Exubérance ou de Bourgeonnement entre l'utilisation de <strong>Brosse florale</strong> et l'arrêt de cet effet Germe, la durée de l'effet est prolongée de 3 s.",
-      "3": "L'effet peut être prolongé 1 fois maximum de cette manière. Si un nouvel effet Germe est déclenché pendant la durée d'un effet Germe existant, l'effet d'origine est supprimé.",
+      "3": "L'effet peut être prolongé 1 fois maximum de cette manière. Si un nouvel effet Germe est déclenché pendant la durée d'un effet Germe existant, l'effet d'origine est supprimé. Les DGT infligés par l'effet Germe sont considérés comme étant des DGT de compétence élémentaire.",
       "4": "L'aptitude passive « Retour folié » doit être déjà débloquée."
     }
   },
@@ -140,7 +140,7 @@
   "constellation4": {
     "name": "Don de la nature",
     "description": {
-      "0": "L'utilisation d'<strong>Atout félin</strong> augmente la maîtrise élémentaire de tous les personnages (hors Collei) de l'équipe à proximité de 60 pts pendant 12 s."
+      "0": "L'utilisation d'<strong>Atout félin</strong> augmente la maîtrise élémentaire de tous les personnages (hormis Collei) de l'équipe à proximité de 60 pts pendant 12 s."
     }
   },
   "constellation5": {
@@ -153,7 +153,7 @@
   "constellation6": {
     "name": "Bosquet de flèches",
     "description": {
-      "0": "Lorsque l'<strong>anneau floral</strong> touche un ennemi, il crée un Cuilein-Anbar miniature qui inflige des <dendro>DGT Dendro</dendro> d'une valeur équivalant à 200 % de l'ATQ de Collei.",
+      "0": "Lorsque l'<strong>anneau floral</strong> touche, il crée un Cuilein-Anbar miniature qui inflige des <dendro>DGT Dendro</dendro> d'une valeur équivalant à 200 % de l'ATQ de Collei.",
       "1": "Chaque utilisation de <strong>Brosse florale</strong> permet de créer 1 Cuilein-Anbar miniature maximum."
     }
   }

@@ -1,8 +1,8 @@
 {
   "name": "Dori",
-  "title": "???",
-  "description": "",
-  "constellationName": "",
+  "title": "Treasure of Dream Garden",
+  "description": "Pedagang keliling yang sulit dipahami dan paling suka dengan Mora yang berkilauan.",
+  "constellationName": "Magicae Lucerna",
   "auto": {
     "name": "Marvelous Sword-Dance (Modified)",
     "fields": {
@@ -42,7 +42,7 @@
     "name": "Spirit-Warding Lamp: Troubleshooter Cannon",
     "description": {
       "0": "Memerintahkan Spirit-Warding Lamp untuk menembakkan Troubleshooter Shot terhadap musuh, mengakibatkan <electro>Electro DMG</electro>.",
-      "1": "Ketika Fixer Shot mengenai musuh, akan menghasilkan 2 buah After-Sales Service Round yang akan otomatis mengikuti musuh di sekitar dan mengakibatkan <electro>Electro DMG</electro>.",
+      "1": "Setelah Troubleshooter Shot mengenai target, akan menghasilkan 2 buah After-Sales Service Round yang akan otomatis mengikuti musuh di sekitar dan mengakibatkan <electro>Electro DMG</electro>.",
       "2": "<br/>",
       "3": "<i>Konon katanya, Dori akan bisa menyelesaikan semua masalahmu ... asal harganya cocok.</i>"
     },
@@ -68,19 +68,25 @@
   "burst": {
     "name": "Alcazarzaray's Exactitude",
     "description": {
-      "0": "Memanggil arwah yang berada di dalam lentera dan menyediakan bantuan yang beragam kepada klien.",
+      "0": "Memanggil Jinni yang berada di dalam lampu dan menyediakan bantuan yang beragam kepada klien.",
       "1": "<br/>",
       "2": "<strong>Lamp Spirit</strong>",
       "3": "<br/>",
-      "4": "Akan bisa terhubung dengan Karakter di sekitar. HP Karakter yang terhubung dengan Lamp Spirit akan terus-menerus dipulihkan berdasarkan Max HP Dori, dan akan terus menerus memulihkan Energy Karakter.",
-      "5": "Saat penghubung antara Karakter dan Lamp Spirit menyentuh musuh, akan mengakibatkan <electro>Electro DMG</electro> terhadap musuh setiap 0,4 detik.",
+      "4": "Akan bisa terhubung dengan Karakter di sekitar. Karakter yang terhubung dengan Jinni akan:",
+      "5": [
+        "Terus-menerus memulihkan HP berdasarkan Max HP Dori;",
+        "Terus menerus memulihkan Energy Karakter;",
+        "Berada dalam status <electro>terpengaruh oleh efek Electro</electro>."
+      ],
       "6": "<br/>",
-      "7": "Hanya satu Lamp Spirit yang bisa aktif dalam waktu bersamaan.",
+      "7": "Selain itu, saat penghubung antara Karakter dan Jinni menyentuh musuh, akan mengakibatkan satu kali <electro>Electro DMG</electro> terhadap musuh setiap 0,4 detik.",
       "8": "<br/>",
-      "9": "<i>\"Eh? Anda yakin mau memilih lentera ini? Duh! Selera Anda tinggi sekali! Sayangnya, aku tidak bisa buka harga untuk benda berharga yang satu ini. Misalnya saja, sama seperti Anda pasti tidak akan pernah bisa menjual maskot yang ada di sisi Anda, berapa pun Mora yang ditawarkan kepada Anda, benar seperti itu kan?\"</i>"
+      "9": "Hanya satu Jinni yang bisa muncul dalam waktu bersamaan.",
+      "10": "<br/>",
+      "11": "<i>\"Eh? Anda yakin mau memilih lampu ini? Duh! Selera Anda tinggi sekali! Sayangnya, aku tidak bisa buka harga untuk benda berharga yang satu ini. Misalnya saja, Anda pasti tidak akan pernah bisa menjual maskot yang ada di sisi Anda, berapa pun Mora yang ditawarkan kepada Anda, benar seperti itu kan?\"</i>"
     },
     "skillParams": {
-      "0": "Damage Connector",
+      "0": "DMG Connector",
       "1": "Heal Berkelanjutan",
       "2": "Pemulihan Energy",
       "3": "Durasi",
@@ -101,7 +107,7 @@
   "passive1": {
     "name": "An Eye for Gold",
     "description": {
-      "0": "Setelah Karakter yang terhubung dengan <strong>Lamp Spirit</strong> memicu Electro-Charged, Superconduct, Overloaded, Quicken, Intensify, atau Spread, CD <strong>Spirit-Warding Lamp: Troubleshooter Cannon</strong> berkurang 1 detik.",
+      "0": "Setelah Karakter yang terhubung dengan <strong>Jinni</strong> memicu Electro-Charged, Superconduct, Overloaded, Quicken, Aggravate, Hyperbloom, atau reaksi Swirl atau Crystallize dari Electro, maka CD <strong>Spirit-Warding Lamp: Troubleshooter Cannon</strong> berkurang 1 detik.",
       "1": " Efek ini dapat terpicu setiap 3 detik."
     }
   },
@@ -109,7 +115,7 @@
     "name": "Compound Interest",
     "description": {
       "0": "Saat Troubleshooter Shot atau After-Sales Service Round dari <strong>Spirit-Warding Lamp: Troubleshooter Cannon</strong> mengenai musuh, Dori akan memulihkan 5 Energy untuk setiap 100% Energy Recharge yang dimiliki Dori.",
-      "1": "Untuk setiap Spirit-Warding Lamp: Troubleshooter Cannon, maksimal 15 Energy yang bisa dipulihkan dengan cara ini."
+      "1": "Untuk setiap Spirit-Warding Lamp: Troubleshooter Cannon, hanya satu pemulihan Energi yang dapat terpicu dan maksimal 15 Energy yang bisa dipulihkan dengan cara ini."
     }
   },
   "passive3": {
@@ -121,26 +127,26 @@
   "constellation1": {
     "name": "Additional Investment",
     "description": {
-      "0": "Jumlah After Sales Service Round yang diciptakan dari <strong>Troubleshooter Shots</strong> bertambah 1."
+      "0": "Jumlah After Sales Service Round yang diciptakan dari <strong>Troubleshooter Shot</strong> bertambah 1."
     }
   },
   "constellation2": {
     "name": "Special Franchise",
     "description": {
-      "0": "Ketika <strong>Lamp Spirit</strong> memulihkan HP Karakter yang terhubung, maka akan menembakkan Jinni Toop dari posisi berdiri Karakter tersebut dan mengakibatkan DMG setara dengan 20% dari ATK Dori."
+      "0": "Saat berada dalam status pertempuran, saat <strong>Jinni</strong> memulihkan HP Karakter yang terhubung, maka akan menembakkan Jinni Toop dari posisi berdiri Karakter tersebut dan mengakibatkan DMG setara dengan 50% dari ATK Dori."
     }
   },
   "constellation3": {
-    "name": "Value for Mora",
+    "name": "Wonders Never Cease",
     "description": {
-      "0": "Meningkatkan 3 level <strong>Spirit-Warding Lamp: Troubleshooter Cannon</strong>.",
+      "0": "Meningkatkan 3 level <strong>Alcazarzaray's Exactitude</strong>.",
       "1": "Maksimum: Lv. 15."
     }
   },
   "constellation4": {
     "name": "Discretionary Supplement",
     "description": {
-      "0": "Karakter yang terhubung dengan <strong>Lamp Spirit</strong> akan mendapatkan buff berikut berdasarkan HP dan Energy sekarang:",
+      "0": "Karakter yang terhubung dengan <strong>Jinni</strong> akan mendapatkan buff berikut berdasarkan HP dan Energy sekarang:",
       "1": [
         "Meningkatkan 50% Bonus Pemulihan saat HP kurang dari 50%;",
         "Meningkatkan 30% Energy Recharge saat Energy kurang dari 50%."
@@ -148,9 +154,9 @@
     }
   },
   "constellation5": {
-    "name": "Wonders Never Cease",
+    "name": "Value for Mora",
     "description": {
-      "0": "Meningkatkan 3 level <strong>Alcazarzaray's Exactitude</strong>.",
+      "0": "Meningkatkan 3 level <strong>Spirit-Warding Lamp: Troubleshooter Cannon</strong>.",
       "1": "Maksimum: Lv. 15."
     }
   },
@@ -161,7 +167,7 @@
       "1": [
         "<electro>Electro Infusion</electro>;"
       ],
-      "2": "Saat Normal Attack mengenai musuh, memulihkan HP kepada seluruh anggota party sebesar 4% Max HP Dori. Pemulihan HP dengan cara ini bisa terjadi setiap 0.1 detik sekali."
+      "2": "Saat Normal Attack mengenai musuh, memulihkan HP kepada seluruh anggota party di sekitar sebesar 4% Max HP Dori. Pemulihan HP dengan cara ini bisa terjadi setiap 0.1 detik sekali."
     }
   }
 }

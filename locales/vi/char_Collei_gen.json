@@ -1,8 +1,8 @@
 {
   "name": "Collei",
-  "title": "???",
-  "description": "",
-  "constellationName": "",
+  "title": "Mầm Non Tái Sinh",
+  "description": "Kiểm lâm tập sự nhiệt tình của Rừng Avidya, nhưng đằng sau sự nhiệt tình đó là một trái tim hướng nội đau buồn.",
+  "constellationName": "Cung Tẩu Miêu",
   "auto": {
     "name": "Mũi Tên Chúc Tụng",
     "fields": {
@@ -42,7 +42,7 @@
   "skill": {
     "name": "Xua Hoa Quét Lá",
     "description": {
-      "0": "Ném Phi Diệp Luân, gây một lần <dendro>Sát Thương Nguyên Tố Thảo</dendro> cho kẻ địch trên đường.",
+      "0": "Ném Phi Diệp Luân, gây một lần <dendro>Sát Thương Nguyên Tố Thảo</dendro> cho mỗi mục tiêu trúng phải.",
       "1": "Phi Diệp Luân sẽ quay về sau một quãng thời gian, gây thêm một lần <dendro>Sát Thương Nguyên Tố Thảo</dendro>.",
       "2": "<br/>",
       "3": "<i>Món đạo cụ nhỏ mà Collei dùng để đối phó với dã thú. Sau khi bị món này gõ cho vài cái thì chúng sẽ trở nên ngoan ngoãn hơn. Ngoài ra cũng khá là hữu dụng khi đối phó với những kẻ không có ý tốt.</i>"
@@ -96,14 +96,14 @@
   "passive1": {
     "name": "Lá Khẽ Bay Nghiêng",
     "description": {
-      "0": "Trước khi <strong>Phi Diệp Luân</strong> quay về, nếu một nhân vật trong đội kích hoạt phản ứng Thiêu Đốt, Sinh Trưởng, Tăng Cường, Lan Tràn, Xum Xuê, Nở Rộ hoặc Bung Tỏa thì sẽ cung cấp cho nhân vật trạng thái \"Lá Mới\" khi Phi Diệp Luân quay về, liên tục gây cho kẻ địch xung quanh một lượng <dendro>Sát Thương Nguyên Tố Thảo</dendro> bằng 40% tấn công của Collei, duy trì 3s.",
-      "1": "Trong thời gian duy trì hiệu ứng Lá Mới nếu như nhận lại hiệu ứng trùng lặp sẽ hủy hiệu ứng trước đó."
+      "0": "Trước khi <strong>Phi Diệp Luân</strong> quay về, nếu nhân vật của bản thân trong đội kích hoạt phản ứng Thiêu Đốt, Sinh Trưởng, Tăng Cường, Lan Tràn, Sum Suê, Nở Rộ hoặc Bung Tỏa thì sẽ cung cấp cho nhân vật trạng thái \"Lá Mới\" khi Phi Diệp Luân quay về, liên tục gây cho kẻ địch xung quanh một lượng <dendro>Sát Thương Nguyên Tố Thảo</dendro> bằng 40% tấn công của Collei, duy trì 3s.",
+      "1": "Trong thời gian duy trì hiệu ứng Lá Mới nếu như nhận lại hiệu ứng trùng lặp sẽ hủy hiệu ứng trước đó. Sát thương hiệu ứng Lá Mới gây ra được tính là sát thương Kỹ Năng Nguyên Tố."
     }
   },
   "passive2": {
     "name": "Rừng Rộng Gió Thoảng",
     "description": {
-      "0": "Nhân vật trong <strong>Khu Vực Cuilein-Anbar</strong> khi kích hoạt phản ứng Thiêu Đốt, Sinh Trưởng, Tăng Cường, Lan Tràn, Xum Xuê, Nở Rộ hoặc Bung Tỏa sẽ khiến cho khu vực này duy trì thêm 1s.",
+      "0": "Nhân vật trong <strong>Khu Vực Cuilein-Anbar</strong> khi kích hoạt phản ứng Thiêu Đốt, Sinh Trưởng, Tăng Cường, Lan Tràn, Sum Suê, Nở Rộ hoặc Bung Tỏa sẽ khiến cho khu vực này duy trì thêm 1s.",
       "1": "Trong một lần <strong>Báu Vật Meo Meo</strong>, tối đa có thể kéo dài thời gian duy trì 3 lần thông qua cách này."
     }
   },
@@ -111,7 +111,7 @@
     "name": "Quán Quân Bay Lượn Sumeru",
     "description": {
       "0": "Giảm 20% tiêu hao thể lực nhân vật của bản thân trong đội khi bay lượn.",
-      "1": "Đối với buff Thiên Phú cố định có hiệu quả hoàn toàn giống sẽ không thể cộng dồn."
+      "1": "Không thể cộng dồn với buff Thiên Phú cố định có hiệu quả giống hoàn toàn."
     }
   },
   "constellation1": {
@@ -124,9 +124,9 @@
     "name": "Dạo Bước Đồi Cỏ",
     "description": {
       "0": "Thiên phú cố định \"Lá Khẽ Bay Nghiêng\" sẽ chuyển thành:",
-      "1": "Khi <strong>Phi Diệp Luân</strong> quay về sẽ cung cấp cho nhân vật trạng thái \"Lá Mới\", liên tục gây cho kẻ địch xung quanh một lượng <dendro>Sát Thương Nguyên Tố Thảo</dendro> bằng 40% tấn công của Collei, duy trì 3s.",
-      "2": "Từ khi thi triển <strong>Xua Hoa Quét Lá</strong> đến trước khi trạng thái \"Lá Mới\" lần này kết thúc, nếu một nhân vật trong đội kích hoạt phản ứng Thiêu Đốt, Sinh Trưởng, Tăng Cường, Lan Tràn, Xum Xuê, Nở Rộ hoặc Bung Tỏa sẽ khiến trạng thái \"Lá Mới\" lần đó kéo dài thêm 3s.",
-      "3": "Trạng thái Lá Mới tối đa kéo dài thời gian duy trì một lần thông qua cách này; khi trong thời gian duy trì nếu kích hoạt hiệu ứng Lá Mới lần nữa sẽ xóa hiệu ứng ban đầu.",
+      "1": "Khi <strong>Phi Diệp Luân</strong> quay về sẽ cung cấp cho nhân vật trạng thái \"Lá Mới\" của thiên phú cố định \"Lá Khẽ Bay Nghiêng\", liên tục gây cho kẻ địch xung quanh một lượng <dendro>Sát Thương Nguyên Tố Thảo</dendro> bằng 40% tấn công của Collei, duy trì 3s.",
+      "2": "Từ khi thi triển <strong>Xua Hoa Quét Lá</strong> đến trước khi trạng thái \"Lá Mới\" lần này kết thúc, nếu nhân vật của bản thân trong đội kích hoạt phản ứng Thiêu Đốt, Sinh Trưởng, Tăng Cường, Lan Tràn, Sum Suê, Nở Rộ hoặc Bung Tỏa sẽ khiến trạng thái \"Lá Mới\" lần này kéo dài thêm 3s.",
+      "3": "Trạng thái Lá Mới tối đa kéo dài thời gian duy trì một lần thông qua cách này; khi trong thời gian duy trì nếu kích hoạt hiệu ứng Lá Mới lần nữa sẽ xóa hiệu ứng ban đầu. Sát thương gây ra của hiệu ứng Lá Mới được tính là sát thương Kỹ Năng Nguyên Tố.",
       "4": "Cần mở khóa thiên phú cố định \"Lá Khẽ Bay Nghiêng\"."
     }
   },
@@ -140,7 +140,7 @@
   "constellation4": {
     "name": "Quà Tặng Rừng Sâu",
     "description": {
-      "0": "Khi thi triển <strong>Báu Vật Meo Meo</strong>, khiến tất cả nhân vật trong đội gần đó (Không bao gồm Collei) tăng 60 điểm Tinh Thông Nguyên Tố, duy trì 12s."
+      "0": "Khi thi triển <strong>Báu Vật Meo Meo</strong>, sẽ khiến tất cả nhân vật trong đội gần đó (không bao gồm Collei) tăng 60 điểm Tinh Thông Nguyên Tố, duy trì 12s."
     }
   },
   "constellation5": {
@@ -153,7 +153,7 @@
   "constellation6": {
     "name": "Rừng Nơi Tên Đáp",
     "description": {
-      "0": "<strong>Phi Diệp Luân</strong> mỗi khi đánh trúng kẻ địch sẽ sản sinh một Cuilein-Anbar Mini, gây một lượng <dendro>Sát Thương Nguyên Tố Thảo</dendro> bằng 200% tấn công của Collei.",
+      "0": "<strong>Phi Diệp Luân</strong> mỗi khi đánh trúng sẽ sản sinh một Cuilein-Anbar Mini, gây một lượng <dendro>Sát Thương Nguyên Tố Thảo</dendro> bằng 200% tấn công của Collei.",
       "1": "Mỗi lần thi triển <strong>Xua Hoa Quét Lá</strong> tối đa sản sinh 1 lần Cuilein-Anbar Mini."
     }
   }

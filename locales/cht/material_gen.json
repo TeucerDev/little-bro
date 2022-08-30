@@ -153,7 +153,7 @@
   },
   "MoonlitCragstone": {
     "name": "幽蘊礪石",
-    "description": "You can gain rewards during \"Perilous Trail.\""
+    "description": "蘊含著奇異光彩的石塊，僅存於層岩巨淵的個別地點，來歷與成分不明，但具有奇特的性質——崩落之時的形狀規整，斷面相當光潔，如鏡般映照事象。其中年歲較久的那些石塊，或許也見證過當年的鏖戰吧。\\n在「危途疑蹤」期間，可以換取寶物。"
   },
   "IridescentFlotsam": {
     "name": "花簇簇的漂流物",
@@ -161,7 +161,7 @@
   },
   "StratagemShard": {
     "name": "戰策碎珀",
-    "description": "This can be used in the \"Realms of Guile and War\" of \"Perilous Trails\" to draw Stratagems or allow characters who have fallen to take to the field once again."
+    "description": "凝聚著深奧力量的晶體，如同石珀的碎塊，有著純粹的岩元素色彩。在層岩巨淵下方的這片空間中，似能激發出一定的力量，有助於戰勝魔物。\\n在「危途疑蹤」的「譎域戰境」中，可以用來抽取「戰策」，或是讓倒下的角色重新上陣。"
   },
   "CreativeNote": {
     "name": "巧思手記",
@@ -174,6 +174,18 @@
   "AncientIronCoin": {
     "name": "古鐵錢",
     "description": "烏爾曼所說能賣大錢的古鐵錢。摸起來似乎沒什麼特別的…"
+  },
+  "BusinessEarnings": {
+    "name": "",
+    "description": ""
+  },
+  "UsableFunds": {
+    "name": "",
+    "description": ""
+  },
+  "StrategicInspiration": {
+    "name": "",
+    "description": ""
   },
   "Primogem": {
     "name": "原石",
@@ -497,15 +509,27 @@
   },
   "Collei": {
     "name": "柯萊",
-    "description": "待補充"
+    "description": "活躍於道成林的見習巡林員，熱情的言行背後是一顆依舊稍顯內向的心。"
   },
   "Dori": {
     "name": "多莉",
-    "description": "待補充"
+    "description": "神出鬼沒的旅行百貨商人，最喜歡閃亮亮的摩拉。"
   },
   "Tighnari": {
     "name": "提納里",
-    "description": "待補充"
+    "description": "精通植物學的少年學者，現於道成林任巡林官一職。直率熱忱，擅長教導腦袋糊塗的人。"
+  },
+  "Nilou": {
+    "name": "",
+    "description": ""
+  },
+  "Cyno": {
+    "name": "",
+    "description": ""
+  },
+  "Candace": {
+    "name": "",
+    "description": ""
   },
   "KamisatoAyakasStellaFortuna": {
     "name": "神里綾華的命星",
@@ -721,11 +745,23 @@
   },
   "DorisStellaFortuna": {
     "name": "多莉的命星",
-    "description": "多莉的命之座啟動素材"
+    "description": "多莉的命之座啟用素材"
   },
   "TighnarisStellaFortuna": {
     "name": "提納里的命星",
     "description": "提納里的命之座啟用素材"
+  },
+  "NilousStellaFortuna": {
+    "name": "",
+    "description": ""
+  },
+  "CynosStellaFortuna": {
+    "name": "",
+    "description": ""
+  },
+  "CandacesStellaFortuna": {
+    "name": "",
+    "description": ""
   },
   "GnosticHymnOldNotes": {
     "name": "珍珠紀行·初稿",
@@ -2145,7 +2181,7 @@
   },
   "ValleyWeaverPerfume": {
     "name": "「山陰錦簇」香膏",
-    "description": "特殊品種的霓裳花手工熬製成的香膏。\\n這種渾厚淩人的芬芳，聽說很受富家千金歡迎。"
+    "description": "特殊品種的霓裳花手工熬製成的香膏。\\n這種渾厚凌人的芬芳，聽說很受富家千金歡迎。"
   },
   "FatesYearningPerfume": {
     "name": "「縹緲仙緣」香膏",
@@ -2209,7 +2245,7 @@
   },
   "PageOfScribbledWriting": {
     "name": "胡亂塗寫的書頁",
-    "description": "字跡十分淩亂的書頁，上面的字都被粗重的筆跡劃去，又被水浸透，什麼也看不清了。"
+    "description": "字跡十分凌亂的書頁，上面的字都被粗重的筆跡劃去，又被水浸透，什麼也看不清了。"
   },
   "NoctilucousJadeSample": {
     "name": "夜泊石樣品",
@@ -2253,7 +2289,7 @@
   },
   "NamelessTreasure": {
     "name": "無名的寶藏",
-    "description": "從清墟浦處得到的無名寶藏，表面有著意義不明的紋飾。或許可以拿給璃月港裡懂古玩的人看看…"
+    "description": "從青墟浦處得到的無名寶藏，表面有著意義不明的紋飾。或許可以拿給璃月港裡懂古玩的人看看…"
   },
   "StoneOfRemembrance": {
     "name": "追敘之石",
@@ -3721,23 +3757,23 @@
   },
   "MidlanderSwordBillet": {
     "name": "央陸單手劍原胚",
-    "description": "生產武器的原材料。透過鍛造，可以生產出4星的單手劍。\\n哲學中認為塵世間事物，皆具備四種成因。這些原胚的「目的」，正是成為陪伴英雄的武器。"
+    "description": "生產武器的原素材。透過鍛造，可以生產出4星的單手劍。\\n哲學中認為塵世間事物，皆具備四種成因。這些原胚的「目的」，正是成為陪伴英雄的武器。"
   },
   "MidlanderBowBillet": {
     "name": "央陸弓原胚",
-    "description": "生產武器的原材料。透過鍛造，可以生產出4星的弓。\\n哲學中認為塵世間事物，皆具備四種成因。這些原胚的「目的」，正是成為陪伴英雄的武器。"
+    "description": "生產武器的原素材。透過鍛造，可以生產出4星的弓。\\n哲學中認為塵世間事物，皆具備四種成因。這些原胚的「目的」，正是成為陪伴英雄的武器。"
   },
   "MidlanderClaymoreBillet": {
     "name": "央陸雙手劍原胚",
-    "description": "生產武器的原材料。透過鍛造，可以生產出4星的雙手劍。\\n哲學中認為塵世間事物，皆具備四種成因。這些原胚的「目的」，正是成為陪伴英雄的武器。"
+    "description": "生產武器的原素材。透過鍛造，可以生產出4星的雙手劍。\\n哲學中認為塵世間事物，皆具備四種成因。這些原胚的「目的」，正是成為陪伴英雄的武器。"
   },
   "MidlanderCatalystBillet": {
     "name": "央陸法器原胚",
-    "description": "生產武器的原材料。透過鍛造，可以生產出4星的法器。\\n哲學中認為塵世間事物，皆具備四種成因。這些原胚的「目的」，正是成為陪伴英雄的武器。"
+    "description": "生產武器的原素材。透過鍛造，可以生產出4星的法器。\\n哲學中認為塵世間事物，皆具備四種成因。這些原胚的「目的」，正是成為陪伴英雄的武器。"
   },
   "MidlanderPolearmBillet": {
     "name": "央陸長柄武器原胚",
-    "description": "生產武器的原材料。透過鍛造，可以生產出4星的長柄武器。\\n哲學中認為塵世間事物，皆具備四種成因。這些原胚的「目的」，正是成為陪伴英雄的武器。"
+    "description": "生產武器的原素材。透過鍛造，可以生產出4星的長柄武器。\\n哲學中認為塵世間事物，皆具備四種成因。這些原胚的「目的」，正是成為陪伴英雄的武器。"
   },
   "Onikabuto": {
     "name": "鬼兜蟲",
@@ -3815,13 +3851,25 @@
     "name": "須彌薔薇",
     "description": "明豔而深沉的紫色花卉，散發出使行人駐足的馥郁芬芳。雖然被稱作薔薇但其實嚴格來說應該算作玫瑰。"
   },
-  "BloomingStarshroom": {
-    "name": "活化的星蕈",
-    "description": "傘蓋形如五角星星一樣的菌類，生命力十分頑強。看起來似乎充滿了活力。"
+  "Redcrest": {
+    "name": "",
+    "description": ""
   },
-  "BurntStarshroom": {
+  "Ajilenakh": {
+    "name": "",
+    "description": ""
+  },
+  "Scarab": {
+    "name": "",
+    "description": ""
+  },
+  "ActivatedStarshroom": {
+    "name": "活化的星蕈",
+    "description": "傘蓋形如五角星星一般的菌類，生命力十分頑強。看起來似乎充滿了活力。"
+  },
+  "ScorchedStarshroom": {
     "name": "枯焦的星蕈",
-    "description": "傘蓋形如五角星星一樣的菌類，生命力十分頑強。看起來似乎被烤焦了。"
+    "description": "傘蓋形如五角星星一般的菌類，生命力十分頑強。看起來似乎被烤焦了。"
   },
   "Viparyas": {
     "name": "毗波耶",
@@ -3876,12 +3924,12 @@
     "description": "產自「輝樹」的木材，似乎有著與普通木材不同的構造，質地較軟，但極為堅韌，易於染色，用途較為特別。\\n可用於製作擺設。"
   },
   "KarmaphalaWood": {
-    "name": "",
-    "description": ""
+    "name": "業果木",
+    "description": "「業果樹」出產的木材，只需簡單的處理就能得到光滑的切面，無需精細加工就極為美觀。\\n可用於製作擺設。"
   },
   "AdhigamaWood": {
-    "name": "",
-    "description": ""
+    "name": "證悟木",
+    "description": "產自「證悟樹」的木材，幾乎隨處可見，看似平凡，實則有著輕便耐用的特點。\\n可用於製作擺設。"
   },
   "MountainDateWood": {
     "name": "刺葵木",
@@ -4297,7 +4345,7 @@
   },
   "StorehouseSecurityKeyNo": {
     "name": "庫房安全鑰匙·甲字號",
-    "description": "一把庫房的鑰匙，藏在很顯眼的地方，並且沒有被找到，盜寶團的業務能力可見一斑。"
+    "description": "一把庫房的鑰匙，藏在很顯眼的地方，並且沒有被找到，盜寶團的專業能力可見一斑。"
   },
   "ASetOfCannonballs": {
     "name": "一組彈丸",
@@ -4380,8 +4428,8 @@
     "description": "裡面裝有岳川回信的漂流瓶。不知道能不能順利被小蒙撿到…"
   },
   "HiraizumisGoods": {
-    "name": "？？？",
-    "description": "？？？"
+    "name": "平泉的貨物",
+    "description": "十分新鮮的豆乳，如果儲存不善，品質很快就會下降。"
   },
   "CellKey": {
     "name": "牢房的鑰匙",
@@ -4500,8 +4548,8 @@
     "description": "昭明今日運勢的特製紙籤，本質上與其他「御神籤」沒有區別，不過這一張卻是讓柳達希卡敞開心扉的鑰匙。\\n籤文再次回到了手中時，也包含了她真誠的祝福。如果有時間的話，就去鳴神大社看看她吧。"
   },
   "TheMiraculousAdventuresOfTheTraveler": {
-    "name": "???",
-    "description": "???"
+    "name": "《旅行者的奇妙冒險》",
+    "description": "「十分正統的輕小說故事，是根據提瓦特現實世界做的合理改編。令人意外的是，作者似乎對海祇島也有著非常廣泛的瞭解，許多描繪都栩栩如生。」——希娜小姐"
   },
   "FrostglazeCrystal": {
     "name": "琉璃寒晶",
@@ -4528,40 +4576,40 @@
     "description": "受飛雲商會的阿旭所託，需要交付給輝山廳駐層岩巨淵專員沐寧。沉甸甸的，裡面應當有不少摩拉。"
   },
   "AFirsthandGuideToSummoningSpirits": {
-    "name": "???",
-    "description": "???"
+    "name": "《真實探靈筆記》",
+    "description": "稻妻最近流行的輕小說，裡面詳細的講述了各種古代妖怪們的奇聞軼事。"
   },
   "DreamSakura": {
-    "name": "???",
-    "description": "???"
+    "name": "夢櫻",
+    "description": "在離開雷電真的意識空間之前，{F#妳}{M#你}手中握住的一瓣櫻花。\\n它的存在如謎，雖然模樣和普通的櫻花瓣別無二致，也像正常物體一樣安靜地躺在行囊之中，但{F#妳}{M#你}已無法再觸碰到它，也感受不到它的重量與溫度。當物體缺少了令人習以為常的基本屬性，又應該怎麼證明它確實「存在」呢？\\n回想在得到它之前目睹的諸多景象，{F#妳}{M#你}產生了猜想：維繫這瓣櫻花在此世留存的力量，是源於誰人的意志。但這個人究竟是誰，是有意還是無心，無法確定；這份意志是懷念，還是信任或感激，亦無法驗證。\\n或許在「誰人的意志」變化的那一刻，這瓣櫻花也會跟著消失。\\n還是偶爾確認一下它是否還在吧。"
   },
   "AphotiumOre": {
     "name": "淵海髓礦",
-    "description": "???"
+    "description": "因為海祇御靈祭而產生的特殊礦藏。因為淵下宮的環境發生了劇變，海祇彌散的回憶和思念也固化為髓質，而後變為礦物。"
   },
   "TokoyoLegume": {
     "name": "常世之莢",
-    "description": "???"
+    "description": "因為海祇御靈祭而產生的特殊植物。因珊瑚王蟲甦醒，淵下宮的元素力變得溫和。這種肥田作物自然生長，等待著腐朽在土地裡化為壤土。"
   },
   "HuskGem": {
     "name": "殼之寶石",
-    "description": "???"
+    "description": "特殊的黯色空殼被擊敗後，從崩落的盔甲間拾取到的寶石。可以感受到內部湧動的意志。或許不能說是這種意志驅動著空殼，而是這種意志藉助盔甲得以顯現。"
   },
   "FragmentedAccessory": {
-    "name": "???",
-    "description": "???"
+    "name": "破碎的飾品",
+    "description": "從心海那裡拿到的小飾品，看起來像是什麼東西的碎片。據心海說有可能會派上用場。"
   },
   "TsumisMap": {
-    "name": "???",
-    "description": "???"
+    "name": "阿祇的地圖",
+    "description": "阿祇繪製的地圖。上面有些標記。"
   },
   "HakuenMichimitsuAmenoma": {
     "name": "「薄緣滿光天目」",
     "description": "岩藏家代代流傳的寶刀。\\n雖然匠人的工藝極其出色，也經歷了許多年月與真劍廝殺，但刀本身其實並沒有任何特別的力量。歷代岩藏之胤不曾獲得過神之眼，他們傲人的劍術只來自對身、心、技的長年修煉。\\n這把刀在水中浸泡了一些日子。如今已經完全鏽壞了。"
   },
   "WoodenCageKey": {
-    "name": "？？？",
-    "description": "？？？"
+    "name": "木籠的鑰匙",
+    "description": "勘定奉行的役人丟下的鑰匙，用這個應該能將新之丞救出來。"
   },
   "DamagedStoneSlate": {
     "name": "破損的石坂",
@@ -4580,28 +4628,28 @@
     "description": "黑蛇騎士遺留下的信，收件人一欄工整地寫著「親愛的姐姐，卡塔琳娜·雪奈茨夫娜」，寄件人署名很潦草，勉強可以辨認出寫的是「妳的弟弟，尼古拉，雪奈茨維奇」。"
   },
   "FragrantSeasoning": {
-    "name": "香氣四溢的調料",
-    "description": "???"
+    "name": "香氣四溢的調味料",
+    "description": "根據娜扎法琳給的配方，製作出來的調味料。帶有撲鼻的香氣，加入到料理中似乎能激發出更多風味。"
   },
   "FragrantVegetarianAbalone": {
-    "name": "???",
-    "description": "???"
+    "name": "香氣四溢的素鮑魚",
+    "description": "加入了調味料的美味料理，散發著誘人的香氣。不知道適合誰的喜好呢？快去邀請夥伴們試吃吧！"
   },
   "TheAlmightyAratakiGreatAndGloriousDrumalongFestival": {
     "name": "荒瀧盛世豪鼓大祭典！",
     "description": "從款式到內容都很浮誇的邀請函，函中描繪了一場規模龐大、意義深遠、堪稱舉國盛會般的大型活動，而{F#妳}{M#你}將作為尊貴的客人，成為盛會中最燦爛醒目的那顆明星。"
   },
   "WorksiteRecords": {
-    "name": "？？？",
-    "description": "？？？"
+    "name": "工地紀錄",
+    "description": "原本是帳本，現在似乎被當做紀錄本來使用了。上面記錄了黑岩廠最近的日常，不過並沒有太多有用的資訊。"
   },
   "FragrantMintSalad": {
-    "name": "???",
-    "description": "???"
+    "name": "香氣四溢的涼拌薄荷",
+    "description": "加入了調味料的美味料理，散發著誘人的香氣。不知道適合誰的喜好呢？快去邀請夥伴們試吃吧！"
   },
   "FragrantTripleLayeredConsomm": {
-    "name": "???",
-    "description": "???"
+    "name": "香氣四溢的扣三絲",
+    "description": "加入了調味料的美味料理，散發著誘人的香氣。不知道適合誰的喜好呢？快去邀請夥伴們試吃吧！"
   },
   "OldNotes": {
     "name": "陳舊的筆記",
@@ -4612,128 +4660,128 @@
     "description": "一位年輕冒險家留下的信，帶著一點點苦澀的清心氣味。"
   },
   "ArrivalSchedule": {
-    "name": "？？？",
-    "description": "？？？"
+    "name": "到港時刻表",
+    "description": "寫有容彩祭嘉賓乘坐船隻資訊的時刻表。\\n{F#妳}{M#你}的任務就是根據這張表上的資訊，到離島的港口接引嘉賓，並為他們提供幫助。"
   },
   "FiveKasenSummary": {
-    "name": "？？？",
-    "description": "？？？"
+    "name": "五歌仙資料匯總",
+    "description": "由八重堂編輯長平山整理的五歌仙資料，用以説明白堊老師完成五歌仙畫像。\\n雖然內容十分有限，但仍能從中窺見當年五歌仙的風采。"
   },
   "TheFiveKasensSplendorSuikou": {
-    "name": "？？？",
-    "description": "？？？"
+    "name": "《五歌仙容彩·翠光篇》",
+    "description": "溫迪在港口倉庫的貨箱裡發現的紙片，上面寫有一首名為《五歌仙容彩·翠光篇》的詩。"
   },
   "TheFiveKasensSplendorAoiNoOkina": {
-    "name": "？？？",
-    "description": "？？？"
+    "name": "《五歌仙容彩·葵之翁篇》",
+    "description": "行秋在行李下面發現的紙片，似乎是有人趁著他打瞌睡放在那裡的。紙上寫有一首名為《五歌仙容彩·葵之翁篇》的詩。"
   },
   "TheFiveKasensSplendorAkahito": {
-    "name": "？？？",
-    "description": "？？？"
+    "name": "《五歌仙容彩·赤人篇》",
+    "description": "某個神秘人留下的紙片。此人應該原本是想把紙片放在萬葉身上，卻不料氣息被萬葉察覺，倉皇中只好將它扔在地上後逃走。紙上寫有一首名為《五歌仙容彩·赤人篇》的詩。"
   },
   "TheFiveKasensSplendorSumizome": {
-    "name": "？？？",
-    "description": "？？？"
+    "name": "《五歌仙容彩·墨染篇》",
+    "description": "綾華在容彩祭會場的花架上發現的紙片，但這張紙上只寫了一句話。"
   },
   "AncientForgingBlueprint": {
-    "name": "？？？",
-    "description": "？？？"
+    "name": "古老的鍛造圖譜",
+    "description": "一卷古老的鍛造圖譜，將軍曾命令楓原家依照它鍛造御神刀。\\n經過浸泡後，圖譜上有一些文字變得模糊了——有人透過篡改它，導致了鍛刀失敗，並引發了後續的一系列慘劇…"
   },
   "KaedeharaYoshinorisLetter": {
-    "name": "？？？",
-    "description": "？？？"
+    "name": "楓原義慶的信",
+    "description": "藏在古舊花盆夾層中的空白紙張，沾上水後，就會浮現出塵封多年的秘密。\\n在將信上記述的真相告訴大家後，萬葉說「這封信對{F#妳}{M#你}或許還有用」，便將它交給了{F#妳}{M#你}。"
   },
   "TaliesinsManuscript": {
     "name": "塔列辛的詩稿",
     "description": "厚厚的一疊詩稿，內容往好評價品質平平，如實評論則嘔啞難讀。比起詩歌不如更像枯燥的歷史記錄。"
   },
   "FragrantStirFriedShrimp": {
-    "name": "???",
-    "description": "???"
+    "name": "香氣四溢的清炒蝦仁",
+    "description": "加入了調味料的美味料理，散發著誘人的香氣。不知道適合誰的喜好呢？快去邀請夥伴們試吃吧！"
   },
   "FragrantGoldenShrimpBalls": {
-    "name": "???",
-    "description": "???"
+    "name": "香氣四溢的金絲蝦球",
+    "description": "加入了調味料的美味料理，散發著誘人的香氣。不知道適合誰的喜好呢？快去邀請夥伴們試吃吧！"
   },
   "FragrantQingceStirFry": {
-    "name": "???",
-    "description": "???"
+    "name": "香氣四溢的輕策農家菜",
+    "description": "加入了調味料的美味料理，散發著誘人的香氣。不知道適合誰的喜好呢？快去邀請夥伴們試吃吧！"
   },
   "FragrantBlackBackPerchStew": {
-    "name": "???",
-    "description": "???"
+    "name": "香氣四溢的水煮黑背鱸",
+    "description": "加入了調味料的美味料理，散發著誘人的香氣。不知道適合誰的喜好呢？快去邀請夥伴們試吃吧！"
   },
   "FragrantStirFriedFilet": {
-    "name": "???",
-    "description": "???"
+    "name": "香氣四溢的爆炒肉片",
+    "description": "加入了調味料的美味料理，散發著誘人的香氣。不知道適合誰的喜好呢？快去邀請夥伴們試吃吧！"
   },
   "FragrantGrilledTigerFish": {
-    "name": "???",
-    "description": "???"
+    "name": "香氣四溢的烤吃虎魚",
+    "description": "加入了調味料的美味料理，散發著誘人的香氣。不知道適合誰的喜好呢？快去邀請夥伴們試吃吧！"
   },
   "FragrantCrabRoeTofu": {
-    "name": "???",
-    "description": "???"
+    "name": "香氣四溢的蟹黃豆腐",
+    "description": "加入了調味料的美味料理，散發著誘人的香氣。不知道適合誰的喜好呢？快去邀請夥伴們試吃吧！"
   },
   "FragrantGoldenCrab": {
-    "name": "???",
-    "description": "???"
+    "name": "香氣四溢的黃金蟹",
+    "description": "加入了調味料的美味料理，散發著誘人的香氣。不知道適合誰的喜好呢？快去邀請夥伴們試吃吧！"
   },
   "FragrantJewelrySoup": {
-    "name": "???",
-    "description": "???"
+    "name": "香氣四溢的珍珠翡翠白玉湯",
+    "description": "加入了調味料的美味料理，散發著誘人的香氣。不知道適合誰的喜好呢？快去邀請夥伴們試吃吧！"
   },
   "FragrantBambooShootSoup": {
-    "name": "???",
-    "description": "???"
+    "name": "香氣四溢的醃篤鮮",
+    "description": "加入了調味料的美味料理，散發著誘人的香氣。不知道適合誰的喜好呢？快去邀請夥伴們試吃吧！"
   },
   "FragrantNoodlesWithMountainDelicacies": {
-    "name": "???",
-    "description": "???"
+    "name": "香氣四溢的山珍熱滷麵",
+    "description": "加入了調味料的美味料理，散發著誘人的香氣。不知道適合誰的喜好呢？快去邀請夥伴們試吃吧！"
   },
   "FragrantMoraMeat": {
-    "name": "???",
-    "description": "???"
+    "name": "香氣四溢的摩拉肉",
+    "description": "加入了調味料的美味料理，散發著誘人的香氣。不知道適合誰的喜好呢？快去邀請夥伴們試吃吧！"
   },
   "FragrantStirFriedFishNoodles": {
-    "name": "???",
-    "description": "???"
+    "name": "香氣四溢的乾炒魚河",
+    "description": "加入了調味料的美味料理，散發著誘人的香氣。不知道適合誰的喜好呢？快去邀請夥伴們試吃吧！"
   },
   "FragrantUniversalPeace": {
-    "name": "???",
-    "description": "???"
+    "name": "香氣四溢的四方和平",
+    "description": "加入了調味料的美味料理，散發著誘人的香氣。不知道適合誰的喜好呢？快去邀請夥伴們試吃吧！"
   },
   "FragrantRiceBuns": {
-    "name": "???",
-    "description": "???"
+    "name": "香氣四溢的米窩窩",
+    "description": "加入了調味料的美味料理，散發著誘人的香氣。不知道適合誰的喜好呢？快去邀請夥伴們試吃吧！"
   },
   "FragrantAlmondTofu": {
-    "name": "???",
-    "description": "???"
+    "name": "香氣四溢的杏仁豆腐",
+    "description": "加入了調味料的美味料理，散發著誘人的香氣。不知道適合誰的喜好呢？快去邀請夥伴們試吃吧！"
   },
   "FragrantLotusFlowerCrisp": {
-    "name": "???",
-    "description": "???"
+    "name": "香氣四溢的蓮花酥",
+    "description": "加入了調味料的美味料理，散發著誘人的香氣。不知道適合誰的喜好呢？快去邀請夥伴們試吃吧！"
   },
   "SayusSalary": {
-    "name": "???",
-    "description": "???"
+    "name": "早柚的工資袋",
+    "description": "原計劃用於購置寢具、改善睡眠的資金，但早柚還不想就此長眠。"
   },
   "StatueOfHerExcellencyTheAlmightyNarukamiOgoshoGodOfThunder": {
-    "name": "???",
-    "description": "???"
+    "name": "御建鳴神主尊大御所大人像",
+    "description": "裟羅心心念念的「御建鳴神主尊大御所大人像」，快帶去給她看看吧。"
   },
   "KokomisShoppingList": {
-    "name": "???",
-    "description": "???"
+    "name": "心海的採購單",
+    "description": "心海所列的購書清單，上面用娟秀的字體清晰羅列出了所有要購買書籍的種類、單價與數量。"
   },
   "ToyFox": {
-    "name": "???",
-    "description": "???"
+    "name": "狐狸玩偶",
+    "description": "容彩祭上，五郎幫心海購買童話書時獲贈的狐狸玩偶。之後，五郎將它作為陪同買書的謝禮送給了{F#妳}{M#你}。\\n每當看到玩偶，就忍不住想起五郎在聽到「狐狸」二字時，尾巴上的毛全部豎起來的景象。"
   },
   "SalaryBag": {
-    "name": "？？？",
-    "description": "？？？"
+    "name": "裝有「工資」的包裹",
+    "description": "據稱貿然打開會有不幸纏身的包裹，重量似乎比預想的要輕一些…？"
   },
   "ACompleteChartOfAkosTreasure": {
     "name": "秘寶所藏之海圖·全",
@@ -4748,20 +4796,20 @@
     "description": "澤維爾連夜寫出的新映影劇本，比上一部映影劇本厚得多。你手上的還只是第一幕的部分。\\n人一旦有了目標，真的會爆發出恐怖的意志力。"
   },
   "ALegendOfSwordVI": {
-    "name": "？？？",
-    "description": "???"
+    "name": "沉秋拾劍錄·六",
+    "description": "「上演在星海的大戰，本質其實與十年前那場貧瘠星球的草民械鬥並無二致…」不久後，那個男人的名字，就將和帝國皇帝的名字一樣，被整個銀河熟知。"
   },
   "ShogunAlmightyRebornAsRaidenWithUnlimitedPower": {
-    "name": "？？？",
-    "description": "???"
+    "name": "轉生成為雷電將軍，然後天下無敵",
+    "description": "流行於稻妻的輕小說，講述了一個普通人突然變成雷電將軍的故事。由於故事新奇有趣，此書深受歡迎，還激發了很多輕小說作者的創作靈感。"
   },
   "PrettyPleaseKitsuneGuuji": {
-    "name": "？？？",
-    "description": "???"
+    "name": "拜託了我的狐仙宮司",
+    "description": "流行於稻妻的輕小說。講述了廢柴將軍大人與萬能狐仙宮司的故事，與《轉生成為雷電將軍，然後天下無敵》是姊妹篇，但是並非同一作者所著，最大共同特徵是都很受歡迎。"
   },
   "LetsGoDodoco": {
-    "name": "？？？",
-    "description": "？？？"
+    "name": "出發吧！嘟嘟可",
+    "description": "編輯寄語：《出發吧！嘟嘟可》是一個大女孩和一個小女孩共同完成的故事，故事中的所有小小片段都包含著她們的溫柔與祝福，也是她們送給諸位讀者的禮物。希望這本薄薄的小書能讓讀者們在繁忙的工作之餘獲得一些簡單的快樂。"
   },
   "AkosTreasureLocation": {
     "name": "赤穗秘寶所藏·其一",
@@ -4793,7 +4841,7 @@
   },
   "Vasmrti": {
     "name": "桓斯彌利底",
-    "description": ""
+    "description": "一次遍歷苗圃的土地後得到的東西，晶瑩剔透彷彿凝結了大地的記憶。"
   },
   "SeaRouteLog": {
     "name": "航路留書",
@@ -4817,14 +4865,14 @@
   },
   "Garland": {
     "name": "「花冠」",
-    "description": "蘭羅摩編織成的花冠。\\n這種花冠象徵著整個桓那蘭那的祝福。在與「無留陀的化身」戰鬥時，一度源源不斷地湧出力量。但或許是因為過度燃燒，如今耀眼的光芒已經消退了。\\n\\n每一朵花，都連接著一顆蘭那羅小小的心；而將所有的花朵編制成的花冠，既是連接著「瑪哈桓那蘭那薜那」的門扉。蘭那羅會為戴著這種花冠的朋友聲援，為朋友分擔痛苦，抵擋噩夢，幫助朋友戰勝黑暗的時日，填補心中的虛空。"
+    "description": "蘭羅摩編織成的花冠。\\n這種花冠象徵著整個桓那蘭那的祝福。在與「無留陀的化身」戰鬥時，一度源源不斷地湧出力量。但或許是因為過度燃燒，如今耀眼的光芒已經消退了。\\n\\n每一朵花，都連接著一顆蘭那羅小小的心；而將所有的花朵編製成的花冠，既是連接著「瑪哈桓那蘭那薜那」的門扉。蘭那羅會為戴著這種花冠的朋友聲援，為朋友分擔痛苦，抵擋噩夢；幫助朋友戰勝黑暗的時日，填補心中的虛空。"
   },
   "Bija": {
     "name": "惟耶之實",
     "description": "蘭那羅最寶貴的事物的結晶。雖說是果實，但也是希望之種。"
   },
   "AranasFlower": {
-    "name": "蘭拉娜",
+    "name": "蘭拉娜的花",
     "description": "蘭拉娜贈送的花朵。\\n答應了蘭拉娜，要懲罰惡人。"
   },
   "ArajasFlower": {
@@ -4875,15 +4923,15 @@
     "name": "蘭伽盧的花",
     "description": "蘭伽盧贈送的花朵。\\n對於培育「毗波耶」的他來說，值得送給朋友的花，應該是十分寶貴的東西。"
   },
-  "TheSiblingsFlower": {
+  "TheSiblingsFlowers": {
     "name": "「兄妹們」的花",
     "description": "蘭帕卡提與「哥哥們」贈送的花朵。\\n因為嚮往「兄妹」之間的牽絆，而長久扮演著「兄妹」的蘭那羅。對烹飪的癡迷也是來自與親人分享食物的願望。\\n但無論如何，蘭那羅的味蕾實在令人無法信任。"
   },
-  "TheSongGatherersFlower": {
+  "TheSongGatherersFlowers": {
     "name": "採歌者的花",
-    "description": "採歌者們贈送的花朵。\\n「不管天空、大地有多麼灰暗，只要{F#妳}{M#你}的心一直像太陽一樣，發出金色的、溫暖的光，那就有一直都會有希望。」"
+    "description": "採歌者們贈送的花朵。\\n「不管天空、大地有多麼灰暗，只要{F#妳}{M#你}的心一直像太陽一樣，發出金色的、溫暖的光，那就一直都會有希望。」"
   },
-  "AralilaAndAranishatsFlower": {
+  "AralilaAndAranishatsFlowers": {
     "name": "蘭梨婁與蘭難世的花",
     "description": "蘭梨婁與蘭難世贈送的花朵。\\n最強的果然還是自己！"
   },
@@ -4896,8 +4944,8 @@
     "description": "與蘭那羅一同冒險的過程中，產生了許許多多的奇妙故事。在重視故事的蘭那羅世界裡，或許有誰願意進行「交換」吧。"
   },
   "EmergencyAdjustmentPlan": {
-    "name": "",
-    "description": ""
+    "name": "「緊急調整計畫圖」",
+    "description": "名為奧列格的愚人眾不慎落下的計畫書中所附地圖，上面標注了所有營地的位置，以及愚人眾進行巡邏的路線。"
   },
   "BottleOfSpringWater": {
     "name": "裝滿泉水的瓶子",
@@ -4981,27 +5029,27 @@
   },
   "LivingSpring": {
     "name": "活源水",
-    "description": "在水天叢林的河流源頭收集到的水，按蘭阿帕斯所說，用此處的活源水做出的湯，就是「無上珍饈」。但這真的和普通的水有差別嗎…"
+    "description": "在水天叢林的河流源頭收集到的水，按蘭阿帕斯所說，用此處的活源水做出的湯，就是「至上珍饈」。但這真的和普通的水有差別嗎…"
   },
   "ABoxOfComponents": {
     "name": "一盒零件",
     "description": "滿滿一盒零件。這些零件看起來似乎沒有受到什麼損傷，也許是因為魔物對它們一點興趣也沒有吧…"
   },
   "NoteOfUnknownOriginI": {
-    "name": "？？？",
-    "description": "？？？"
+    "name": "不知來歷的紙條 其一",
+    "description": "在謎之空間內找到的紙條。內容疑似日記。"
   },
   "NoteOfUnknownOriginII": {
-    "name": "？？？",
-    "description": "？？？"
+    "name": "不知來歷的紙條 其二",
+    "description": "在謎之空間內找到的紙條。內容疑似日記。"
   },
   "NoteOfUnknownOriginIII": {
-    "name": "？？？",
-    "description": "？？？"
+    "name": "不知來歷的紙條 其三",
+    "description": "在謎之空間內找到的紙條。內容疑似日記。"
   },
   "NoteOfUnknownOriginIV": {
-    "name": "？？？",
-    "description": "？？？"
+    "name": "不知來歷的紙條 其四",
+    "description": "在謎之空間內找到的紙條。內容疑似日記。"
   },
   "ANote": {
     "name": "一張紙條",
@@ -5040,8 +5088,8 @@
     "description": "滿是折痕的研究日誌內頁，字跡依舊清晰可見。"
   },
   "NoteOfUnknownOrigin": {
-    "name": "？？？",
-    "description": "？？？"
+    "name": "不知來歷的紙條",
+    "description": "在謎之空間內找到的紙條。內容疑似日記。"
   },
   "CrystallineCore": {
     "name": "晶核",
@@ -5117,15 +5165,63 @@
   },
   "SpecialBirdEgg": {
     "name": "特別的鳥蛋",
-    "description": "漁師凱萬製作特別魚餌所需的鳥蛋。雖然是從指定的樹上搜集到的，但看不出來厲害在什麼地方。"
+    "description": "漁師凱萬製作特別魚餌所需的鳥蛋。雖然是從指定的樹上收集到的，但看不出來厲害在什麼地方。"
   },
   "SpecialMushroom": {
     "name": "特別的蘑菇",
     "description": "漁師凱萬製作特別魚餌所需的蘑菇。不知為何，似乎對魔物有一定的吸引力，居然會被魔物主動採摘…"
   },
+  "SpecialMint": {
+    "name": "特別的薄荷",
+    "description": "漁師凱萬製作特別魚餌所需的薄荷。不知為何，似乎對魔物有一定的吸引力，居然會被魔物主動採摘…"
+  },
+  "SpecialHarraFruit": {
+    "name": "特别的香辛果",
+    "description": "漁師凱萬製作特別魚餌所需的香辛果。不知為何，似乎對魔物有一定的吸引力，居然會被魔物主動採摘…"
+  },
   "SpecialSweetFlower": {
     "name": "特別的甜甜花",
     "description": "漁師凱萬製作特別魚餌所需的甜甜花。不知為何，似乎對魔物有一定的吸引力，居然會被魔物主動採摘…"
+  },
+  "BoxLunchFromTighnari": {
+    "name": "提納里的便當盒",
+    "description": "提納里為海芭夏準備的應急便當，派蒙悄悄打開看了一眼，裡面裝著一些傳統的須彌飯菜，似乎很美味的樣子。"
+  },
+  "LetterToHaypasia": {
+    "name": "給海芭夏的信",
+    "description": "提納里寫給海芭夏的信，信中簡要介紹了旅行者身分與來到須彌後的種種情況，並言明希望她能為旅行者答疑解惑。"
+  },
+  "BoxLunchFromTheTraveler": {
+    "name": "旅行者手製便當",
+    "description": "旅行者親手製作的便當，裡面放入了拿手的甜甜花釀雞和蘿蔔時蔬湯，希望海芭夏能夠喜歡。"
+  },
+  "TighnarisIntroductionLetter": {
+    "name": "提納里的介紹信",
+    "description": "提納里寫給生論派研究員魯哈維的信，信中請求魯哈維能發揮自身優勢，幫助旅行者打探消息。\\n紙上還附有魯哈維在須彌城的住址。"
+  },
+  "BagOfTransactionFunds": {
+    "name": "交易資金袋",
+    "description": "由艾爾海森提供，用以購買罐裝知識的交易資金，放在手上沉甸甸的。"
+  },
+  "PackageOfCannedKnowledge": {
+    "name": "罐裝知識包裹",
+    "description": "由艾爾海森出資，在多莉攤位上購入的數枚罐裝知識，為了掩人耳目被放進了常見的商品包裹中。"
+  },
+  "CannedKnowledgeSwordfightingTechniquesVIII": {
+    "name": "罐裝知識「單手劍戰鬥技巧·八」",
+    "description": "名為「單手劍戰鬥技巧·八」的罐裝知識，在派蒙的慫恿下以十萬摩拉的價格從多莉攤位上購入。雖然不知道前七個在哪，但「戰鬥技巧」這種東西總會有用的…大概。"
+  },
+  "BagOfIntelTransactionFunds": {
+    "name": "購買情報的資金袋",
+    "description": "由艾爾海森提供，用以購買「神明罐裝知識」去向的資金。"
+  },
+  "PictureOfTheTransaction": {
+    "name": "交易現場畫片",
+    "description": "多莉拍攝的「神明罐裝知識」交易現場畫片。\\n從畫片中能清晰地看到「阿赫瑪爾之眼」的團長密茲里，和他手中那枚散發著耀眼紅光的罐裝知識。"
+  },
+  "InformantCodeChart": {
+    "name": "線人暗號表",
+    "description": "艾爾海森提供的暗號表，據說找多莉交易「特殊商品」的人，都要先過了這一關才行。\\n在去找多莉的線人之前，最好還是確認一下上面的內容吧。"
   },
   "MisplacedConch": {
     "name": "錯位的海螺一",
@@ -5147,6 +5243,10 @@
     "name": "新鮮的香辛果",
     "description": "漁師凱萬製作特別魚餌所需的香辛果。不知為何，似乎對魔物有一定的吸引力，讓魔物們在附近徘徊…"
   },
+  "FreshZaytunPeach": {
+    "name": "新鮮的墩墩桃",
+    "description": "漁師凱萬製作特別魚餌所需的墩墩桃，看起來和普通的墩墩桃似乎並沒有區別…"
+  },
   "RedDyedFabric": {
     "name": "染紅的布料",
     "description": ""
@@ -5167,6 +5267,10 @@
     "name": "莎莉的便條",
     "description": "這次要找的是一隻名為「拉勒」的「黑白色」小貓。用「貓語」呼喚牠的話，發音應該是「喵，喵喵喵，喵——」。發音時音調要先下後上，最後一聲喵要高高揚起。"
   },
+  "FreshNilotpalaLotus": {
+    "name": "新鮮的月蓮",
+    "description": "生長於林中濕地，夜間綻放的花卉，新鮮的花瓣也是治療魔鱗病的重要藥材。"
+  },
   "RoseSprout": {
     "name": "幼嫩的薔薇",
     "description": "在「無留陀」退去的死地新生的花朵，幼嫩但頑強不已。"
@@ -5183,6 +5287,14 @@
     "name": "原產地的新鮮蘑菇",
     "description": "在範兵衛的指定地點採集到的蘑菇。這些蘑菇雖然生長在樹幹上，但看起來也沒什麼特別之處。這些蘑菇總不會惹出什麼麻煩了吧…"
   },
+  "StrangeSumeruRose": {
+    "name": "異常的須彌薔薇",
+    "description": "受地脈影響的須彌薔薇，和平時相比略微有些不同…？"
+  },
+  "RiddleNote": {
+    "name": "寫有謎語的紙條",
+    "description": "「無鏡之鏡，照見諸戲。」\\n從上一處謎語所指示的寶箱裡拿到的又一則謎語。\\n到底是誰寫下的這些謎語呢…"
+  },
   "RafiqsShipbuildingMaterials": {
     "name": "拉菲克的造船材料",
     "description": "拉菲克購置的造船材料。據說花了他不少摩拉…"
@@ -5190,6 +5302,10 @@
   "LittleDriedFlower": {
     "name": "風乾的小花",
     "description": "看起來很普通的風乾小花，卻是一度珍貴的禮物，一定要好好珍惜它，正如珍惜往昔被遺忘的友誼。"
+  },
+  "ActivatedCannedKnowledge": {
+    "name": "已啟動·罐裝知識",
+    "description": "名為「單手劍戰鬥技巧·八」的罐裝知識，在派蒙的慫恿下以十萬摩拉的價格從多莉攤位上購入。雖然不知道前七個在哪，但「戰鬥技巧」這種東西總會有用的…大概。"
   },
   "PersikovsManuscript": {
     "name": "佩爾西科夫的手稿",
@@ -5206,6 +5322,102 @@
   "TreasureMapInABox": {
     "name": "箱底的藏寶圖",
     "description": "被放在箱底的藏寶圖。圖上用簡單的標記註明了「好東西」的所在。"
+  },
+  "GlintingComponent": {
+    "name": "",
+    "description": ""
+  },
+  "SacredSealValley": {
+    "name": "",
+    "description": ""
+  },
+  "SacredSealBirdHead": {
+    "name": "",
+    "description": ""
+  },
+  "SacredSealRaisedArm": {
+    "name": "",
+    "description": ""
+  },
+  "SacredSealSandstorm": {
+    "name": "",
+    "description": ""
+  },
+  "SacredSealAuricle": {
+    "name": "",
+    "description": ""
+  },
+  "SacredSealForest": {
+    "name": "",
+    "description": ""
+  },
+  "SacredSealThunderstrike": {
+    "name": "",
+    "description": ""
+  },
+  "SacredSealDanger": {
+    "name": "",
+    "description": ""
+  },
+  "SacredSealChiselHammer": {
+    "name": "",
+    "description": ""
+  },
+  "SacredSealSunrise": {
+    "name": "",
+    "description": ""
+  },
+  "SacredSealRightToRule": {
+    "name": "",
+    "description": ""
+  },
+  "SacredSealSheepHead": {
+    "name": "",
+    "description": ""
+  },
+  "SacredSealCrocodileHead": {
+    "name": "",
+    "description": ""
+  },
+  "SacredSealGiantSerpent": {
+    "name": "",
+    "description": ""
+  },
+  "SacredSealCeremony": {
+    "name": "",
+    "description": ""
+  },
+  "SacredSealLabor": {
+    "name": "",
+    "description": ""
+  },
+  "SacredSealDune": {
+    "name": "",
+    "description": ""
+  },
+  "GoldenRoseSeeds": {
+    "name": "",
+    "description": ""
+  },
+  "TransparentRuinsRecordI": {
+    "name": "",
+    "description": ""
+  },
+  "RecordOfLambEaterRock": {
+    "name": "",
+    "description": ""
+  },
+  "RecordOfTheTombOfFullFlagons": {
+    "name": "",
+    "description": ""
+  },
+  "SoheilsOldNotes": {
+    "name": "",
+    "description": ""
+  },
+  "RecordOfAarusReflection": {
+    "name": "",
+    "description": ""
   },
   "TwilightTheaterHeadsNotes": {
     "name": "暮夜劇團團長的手稿",
@@ -5225,7 +5437,7 @@
   },
   "RemeltingDevice": {
     "name": "重熔裝置",
-    "description": "由煉金術士哈賈娜德開發的裝置，設計較為精巧，具有能夠承受高壓與高溫的內部腔室，用以承載「重熔效應」的爆炸。特殊的閥門則能在適當的時機自動開啟，釋放充分混合後的藥劑煙霧，為使用者提供戰鬥的助力。\\n不過，從這個裝置的部分細節可以判斷，它似乎是壓縮成本的實驗品。哈賈娜德的研發資金好像並不充裕…"
+    "description": "由煉金術士哈賈娜德開發的裝置，設計較為精巧，具有能夠承受高壓與高溫的內部倉室，用以承載「重熔效應」的爆炸。特殊的閥門則能在適當的時機自動開啟，釋放充分混合後的藥劑煙霧，為使用者提供戰鬥的助力。\\n不過，從這個裝置的部分細節可以判斷，它似乎是壓縮成本的實驗品。哈賈娜德的研發資金好像並不充裕…"
   },
   "RemeltingTablet": {
     "name": "重熔片劑",
@@ -5233,6 +5445,10 @@
   },
   "EmployersOrders": {
     "name": "雇主的命令",
+    "description": ""
+  },
+  "UnknownObjectWithAnEarthyGlow": {
+    "name": "",
     "description": ""
   },
   "PyroShard": {
@@ -5381,11 +5597,11 @@
   },
   "NagadusEmeraldChunk": {
     "name": "生長碧翡塊",
-    "description": "角色突破素材。\\n「我做了一個很長很長的夢…\\n「人們手握著手轉圈。賢人與愚者，舞女與勇士，人偶與神像…」"
+    "description": "角色突破素材。\\n「我做了一個很長很長的夢」…\\n「人們手握著手轉圈。賢人與愚者，舞女與勇士，人偶與神像…」"
   },
   "NagadusEmeraldGemstone": {
     "name": "生長碧翡",
-    "description": "角色突破素材。\\n「我做了一個很長很長的夢…\\n「人們手握著手轉圈。賢人與愚者，舞女與勇士，人偶與神像…\\n「大家的歡舞裡蘊藏著宇宙的一切。『生命』一直都是目的，『智慧』才是手段。」"
+    "description": "角色突破素材。\\n「我做了一個很長很長的夢」…\\n「人們手握著手轉圈。賢人與愚者，舞女與勇士，人偶與神像…」\\n「大家的歡舞裡蘊藏著宇宙的一切。『生命』一直都是目的，『智慧』才是手段。」"
   },
   "VajradaAmethystSliver": {
     "name": "最勝紫晶碎屑",
@@ -5567,6 +5783,42 @@
     "name": "「天光」的哲學",
     "description": "天賦培養素材。\\n雷之國土的願望是天光。\\n即使永遠生活在地下，人也會不屈地祈求天光。人總是追逐超越，無可止步。靜止封閉的永恆亦固然壯麗，但其本質終究是死亡。"
   },
+  "TeachingsOfAdmonition": {
+    "name": "「諍言」的教導",
+    "description": "天賦培養素材。\\n「諍言」是智慧之國的枝幹。\\n諍言出於純淨的心智。唯有清醒純善的言語，方能表達深秘的智慧，令睿智之種突破傲慢的壅阻，生根繁茂。"
+  },
+  "GuideToAdmonition": {
+    "name": "「諍言」的指引",
+    "description": "天賦培養素材。\\n「諍言」是智慧之國的枝幹。\\n諍言相伴巧妙的思慮。多思多慮方能出言謙遜明晰，令智者折服，使愚者醒悟，讓智慧如川流一般暢通不息。"
+  },
+  "PhilosophiesOfAdmonition": {
+    "name": "「諍言」的哲學",
+    "description": "天賦培養素材。\\n「諍言」是智慧之國的枝幹。\\n諍言終於至善的操行。行為賦予言語真實含義，言、思、行的協同一致，是令智慧之樹結出善果的豐厚養分。"
+  },
+  "TeachingsOfIngenuity": {
+    "name": "「巧思」的教導",
+    "description": "天賦培養素材。\\n「巧思」是智慧之國的葉脈。\\n巧思生自良善的意旨。所謂「毒樹不結善果」，良善堅定的意念才能孕育巧妙周到的思謀，方不玷污智慧之名。"
+  },
+  "GuideToIngenuity": {
+    "name": "「巧思」的指引",
+    "description": "天賦培養素材。\\n「巧思」是智慧之國的葉脈。\\n巧思引導正直的言語。巧妙而周密的向善思索，令出口之言不偏離福祉之正道；怠慢與歹意則令言行卑劣不堪。"
+  },
+  "PhilosophiesOfIngenuity": {
+    "name": "「巧思」的哲學",
+    "description": "天賦培養素材。\\n「巧思」是智慧之國的葉脈。\\n巧思成於諧和的品行。行為賦予思想完美形態，思、言、行的彼此印證，是令智慧之樹綻放出花朵的忠實基幹。"
+  },
+  "TeachingsOfPraxis": {
+    "name": "「篤行」的教導",
+    "description": "天賦培養素材。\\n「篤行」是智慧之國的根系。\\n篤行源於明晰的真性。不懈求索的實踐，正是一切智慧最終顯現的必經之途。不拘善行，明思與雅言亦無土壤。"
+  },
+  "GuideToPraxis": {
+    "name": "「篤行」的指引",
+    "description": "天賦培養素材。\\n「篤行」是智慧之國的根系。\\n篤行印證直率的言說。所思所行皆是為善，仍不可稱之為智慧。智慧孕育於行動之中，為正直的言語篆下封印。"
+  },
+  "PhilosophiesOfPraxis": {
+    "name": "「篤行」的哲學",
+    "description": "天賦培養素材。\\n「篤行」是智慧之國的根系。\\n篤行促生智慧的果實。行為實證行為本身的意義，行、言、思的聯結一體，是令賢智之人得見完美的唯一通途。"
+  },
   "SanctifyingDroplet": {
     "name": "祝聖之滴",
     "description": ""
@@ -5649,11 +5901,11 @@
   },
   "Lumenspar": {
     "name": "流明晶石",
-    "description": "湛藍如天幕的晶石，表面光芒明滅，似乎在呼應著地層深處不可見的高遠天空…\\n側耳細聽，彷彿能聽到其中傳來細微的歎息。\\n說來奇怪，這塊晶石有一種溫暖的觸感。"
+    "description": "湛藍如天幕的晶石，表面光芒明滅，似乎在呼應著地層深處不可見的高遠天空…\\n側耳細聽，彷彿能聽到其中傳來細微的嘆息。\\n說來奇怪，這塊晶石有一種溫暖的觸感。"
   },
   "Dendroculus": {
     "name": "散失的草神瞳",
-    "description": ""
+    "description": "濃烈的草元素能量積聚成的物質。獻給草的神像，能彌補它在漫長歲月中散失的力量。"
   },
   "SumeruShrineOfDepthsKey": {
     "name": "須彌地靈龕之鑰",
@@ -6209,7 +6461,7 @@
   },
   "SuspiciousNoodlesWithMountainDelicacies": {
     "name": "奇怪的山珍熱滷麵",
-    "description": "葷素搭配的滷麵。似乎所有水分都隨熱氣消散了，麵條的口感便得異常乾澀。就算放慢下嚥的速度還是很仍意被噎到。"
+    "description": "葷素搭配的滷麵。似乎所有水分都隨熱氣消散了，麵條的口感變得異常乾澀。就算放慢下嚥的速度還是很仍意被噎到。"
   },
   "NoodlesWithMountainDelicacies": {
     "name": "山珍熱滷麵",
@@ -6225,7 +6477,7 @@
   },
   "SurvivalGrilledFish": {
     "name": "絕境求生烤魚",
-    "description": "刻晴的特色料理。並非以火烤熟，而是藉由雷元素的精細操控將於肉從內部炸熟。輕輕一咬，微焦的魚皮包裹著香酥的魚肉，程度卻是恰到好處。露宿荒野時，她就是憑藉著這些技巧生存下去的嗎？真是不可貌相。"
+    "description": "刻晴的特色料理。並非以火烤熟，而是藉由雷元素的精細操控將魚肉從內部炸熟。輕輕一咬，微焦的魚皮包裹著香酥的魚肉，程度卻是恰到好處。露宿荒野時，她就是憑藉著這些技巧生存下去的嗎？真是不可貌相。"
   },
   "NutritiousMealV": {
     "name": "伍玖三式營養餐",
@@ -6253,7 +6505,7 @@
   },
   "SuspiciousBambooShootSoup": {
     "name": "奇怪的醃篤鮮",
-    "description": "久經燉煮的湯羹。火候的掌握不當讓鮮肉口感便得有點柴，火腿的鹹味也掩蓋了應有的鮮味。這樣看來，吸收了二者肉香的竹筍，算是勉強能被接受的一味食材了。"
+    "description": "久經燉煮的湯羹。火候的掌握不當讓鮮肉口感變得有點柴，火腿的鹹味也掩蓋了應有的鮮味。這樣看來，吸收了二者肉香的竹筍，算是勉強能被接受的一味食材了。"
   },
   "BambooShootSoup": {
     "name": "醃篤鮮",
@@ -6261,7 +6513,7 @@
   },
   "DeliciousBambooShootSoup": {
     "name": "美味的醃篤鮮",
-    "description": "久經燉煮的湯羹。輕輕一聞已覺食欲大振，一勺高湯入口，濃縮至極的鮮味頃刻浸染周身。如同展開雙翼拂曉直上，淩空漫步在由香氣凝成的雲端。"
+    "description": "久經燉煮的湯羹。輕輕一聞已覺食欲大振，一勺高湯入口，濃縮至極的鮮味頃刻浸染全身。如同展開雙翼拂曉直上，凌空漫步在由香氣凝成的雲端。"
   },
   "SuspiciousTripleLayeredConsomm": {
     "name": "奇怪的扣三絲",
@@ -6856,7 +7108,7 @@
     "description": "宵宮的特色料理。在看煙花的時候，被宵宮塞入懷裡的點心，耳邊傳來她無憂無慮如孩童般的笑聲，加上砰砰炸響的煙花聲，在這獨一無二的旋律裡，手中圓嘟嘟的金魚彷彿下一刻就要擺尾游動…"
   },
   "DizzinessBeGoneNoJutsuVersion": {
-    "name": "頭暈迴避術・改",
+    "name": "頭暈迴避術·改",
     "description": "早柚的特色料理。飯糰被早柚捏成了可愛的形狀，要記好造型是貉，千萬不要和狸貓搞混了。話說回來，這就是早柚能夠吃一頓就睡上一整天的秘密之術嗎？"
   },
   "SpecialMushroomPizza": {
@@ -7137,7 +7389,7 @@
   },
   "SuspiciousSangayaki": {
     "name": "奇怪的山家燒",
-    "description": "樸實無華的漁家小菜。過量的鹽與魚肉的腥氣交雜著，仿佛風暴一般席捲了味蕾，下次可千萬小心不要手抖呀…"
+    "description": "樸實無華的漁家小菜。過量的鹽與魚肉的腥氣交雜著，彷彿風暴一般席捲了味蕾，下次可千萬小心不要手抖呀…"
   },
   "Sangayaki": {
     "name": "山家燒",
@@ -7176,20 +7428,20 @@
     "description": "營養均衡的餐點。香甜鬆軟的麵包帶來飽腹感，酥脆多汁的炸肉排挑起味蕾的興致，一口下去，從舌尖到胃裡都得到了滿足。到底是誰第一個想出了如此出色的搭配呢？"
   },
   "SuspiciousRainbowAster": {
-    "name": "？？？",
-    "description": "？？？"
+    "name": "奇怪的紫苑雲霓",
+    "description": "別具一格的飲品。光看顏色的話似乎還不錯，如果能忽略堇瓜處理不當帶來的澀味，還算是一杯能被人接受的飲品…"
   },
   "RainbowAster": {
-    "name": "？？？",
-    "description": "？？？"
+    "name": "紫苑雲霓",
+    "description": "別具一格的飲品。在著名小說《拜託了我的狐仙宮司》中登場過的特別飲料，經遠航之風與八重堂聯合研發，還原了其神奇風味。由於不含豆製品，與容彩祭特別限定款相比，口味略有差別，不過，也就不用擔心豆子過敏問題啦。"
   },
   "DeliciousRainbowAster": {
-    "name": "？？？",
-    "description": "？？？"
+    "name": "美味的紫苑雲霓",
+    "description": "別具一格的飲品。蒙德生長的嘟嘟蓮和稻妻特產堇瓜，跨越了山海碰撞於一處，柔滑的牛奶與清新的瓜果香氣交織相融，帶給人耳目一新的享受。難怪書中生病了的將軍大人喝完後也會打起精神，簡直毫不誇張！"
   },
   "QuietElegance": {
     "name": "「靜寂閒雅」",
-    "description": "神里綾人的特色料理。擺盤精緻典雅，照應綾人本人的處事風格，多一分是盈，少一分則虧。細細品嘗，味道居然和烏有亭一模一樣，真是奇妙。最後將筷子伸向那朵晶瑩的椿花時，卻被綾人攔了下來…「那是練劍時的順手之作，只是個裝飾品。」"
+    "description": "神里綾人的特色料理。擺盤精緻典雅，照應綾人本人的處事風格，多一分是盈，少一分則虧。細細品嚐，味道居然和烏有亭一模一樣，真是奇妙。最後將筷子伸向那朵晶瑩的椿花時，卻被綾人攔了下來…「那是練劍時的順手之作，只是個裝飾品。」"
   },
   "OmuriceWaltz": {
     "name": "蛋包飯圓舞曲",
@@ -7209,7 +7461,7 @@
   },
   "ButterChicken": {
     "name": "奶油雞",
-    "description": "風味濃郁的菜餚。醃製好的雞肉塊，先用油炸一遍。加熱奶油再加入番茄碎和香辛料，煮成糊狀後加入炸好的雞塊。成品配上主食一起吃，是最能撥動須彌人心弦的美味。"
+    "description": "風味濃郁的菜餚。醃製好的雞肉塊，先用油炸一遍。加熱奶油再加入番茄丁和香辛料，煮成糊狀後加入炸好的雞塊。成品配上主食一起吃，是最能撥動須彌人心弦的美味。"
   },
   "DeliciousButterChicken": {
     "name": "美味的奶油雞",
@@ -7217,15 +7469,15 @@
   },
   "SuspiciousShawarmaWrap": {
     "name": "奇怪的烤肉卷",
-    "description": "以烤肉為餡的卷餅。焦黑的烤肉宛如木炭一般，就算餅皮再完美也無法拯救了…看來無論哪一部分都容不得分心呀。"
+    "description": "以烤肉為餡的捲餅。焦黑的烤肉宛如木炭一般，就算餅皮再完美也無法拯救了…看來無論哪一部分都容不得分心呀。"
   },
   "ShawarmaWrap": {
     "name": "烤肉卷",
-    "description": "以烤肉為餡的卷餅。從直立烤肉架上切下獸肉，和蔬菜、醬汁一併夾入薄餅中。一道道地又可口的須彌街頭美食就這樣簡簡單單地完成了。"
+    "description": "以烤肉為餡的捲餅。從直立烤肉架上切下獸肉，和蔬菜、醬汁一併夾入薄餅中。一道道地又可口的須彌街頭美食就這樣簡簡單單地完成了。"
   },
   "DeliciousShawarmaWrap": {
     "name": "美味的烤肉卷",
-    "description": "以烤肉為餡的卷餅。外焦裡嫩的烤肉被香辛料注入了靈魂，水靈的蔬菜帶來了清爽的口感，薄而不硬的餅皮包裹著美味，一口下去令人直歎滿足，就連不小心溢出的肉汁都捨不得放過。"
+    "description": "以烤肉為餡的捲餅。外焦裡嫩的烤肉被香辛料注入了靈魂，水嫩的蔬菜帶來了清爽的口感，薄而不硬的餅皮包裹著美味，一口下去令人直嘆滿足，就連不小心溢出的肉汁都捨不得放過。"
   },
   "SuspiciousSelvaSalad": {
     "name": "奇怪的雨林沙拉",
@@ -7261,19 +7513,19 @@
   },
   "DeliciousMushroomHodgepodge": {
     "name": "美味的雜菇薈萃",
-    "description": "經過派蒙苦思冥想改良後的蘭那羅燒菇，其實也就是市面上常見的須彌燒菇多加了點調味料。火候和時間根據蘑菇的種類進行了細微調整。由是，三種菇的口感和風味也產生了奇妙的區分，令人回味無窮。究竟是一起咽下，還是一支一支細細咀嚼比對，那就看個人的愛好了。"
+    "description": "經過派蒙苦思冥想改良後的蘭那羅燒菇，其實也就是市面上常見的須彌燒菇多加了點調味料。火候和時間根據蘑菇的種類進行了細微調整。於是，三種菇的口感和風味也產生了奇妙的區分，令人回味無窮。究竟是一起咽下，還是一根一根細細咀嚼比對，那就看個人的愛好了。"
   },
   "SuspiciousPitaPocket": {
     "name": "奇怪的口袋餅",
-    "description": "內餡多樣的面餅。粗糙的餅皮像沙礫一般磨過舌尖，加上已經失去原有色澤的乾硬內餡…恐怕只有餓了三天的迷路之人才願意接受這樣一份食物。"
+    "description": "內餡多樣的麵餅。粗糙的餅皮像沙礫一般磨過舌尖，加上已經失去原有色澤的乾硬內餡…恐怕只有餓了三天的迷路之人才願意接受這樣一份食物。"
   },
   "PitaPocket": {
     "name": "口袋餅",
-    "description": "內餡多樣的面餅。扁扁的麵團經過烤炙後，像炮魨一般變得圓鼓鼓的，切開後就像口袋一樣，由此而得名。據說以前的須彌人偏好蘸醬直接吃，而現在的主流吃法則是，往裡塞入各式各樣的餡料，大口大口吃下。"
+    "description": "內餡多樣的麵餅。扁扁的麵團經過烤炙後，像炮魨一般變得圓鼓鼓的，切開後就像口袋一樣，由此而得名。據說以前的須彌人偏好蘸醬直接吃，而現在的主流吃法則是，往裡塞入各式各樣的餡料，大口大口吃下。"
   },
   "DeliciousPitaPocket": {
     "name": "美味的口袋餅",
-    "description": "內餡多樣的面餅。醬汁像是燈光一般，襯托出舞臺中央食材的魅力，肉香和蔬菜的脆爽配合得天衣無縫，這個「口袋」就像是魔術表演中的百寶袋一般，帶給人接連不斷的驚喜。"
+    "description": "內餡多樣的麵餅。醬汁像是燈光一般，襯托出舞臺中央食材的魅力，肉香和蔬菜的脆爽配合得天衣無縫，這個「口袋」就像是魔術表演中的百寶袋一般，帶給人接連不斷的驚喜。"
   },
   "SuspiciousPanipuri": {
     "name": "奇怪的綠汁脆球",
@@ -7299,25 +7551,25 @@
     "name": "美味的薄荷豆湯",
     "description": "用料簡單的濃湯。濃厚的稠湯，帶著淡淡的豆香迎面而來；絲滑的口感，夾雜有薄荷清爽的氣息。味道樸實但不失可圈可點之處，讓人彷彿在涼爽的樹蔭下漫步，享受著淳樸的快樂。"
   },
-  "SuspiciousBeastlyRicePuffs": {
+  "SuspiciousBiryani": {
     "name": "奇怪的獸米香香",
     "description": "肉香四溢的抓飯。被油浸潤至透明的米飯，散發著膩人的味道，吃完後，碗底還留有厚厚的一層油…大概之後三天都不會想吃油葷了吧…"
   },
-  "BeastlyRicePuffs": {
+  "Biryani": {
     "name": "獸米香香",
     "description": "肉香四溢的抓飯。先將處理好的獸肉炒得外焦裡嫩，再將全部配菜與長米一併燉煮，最後出鍋的時候綴以帕蒂沙蘭。獸肉的脂香與調味料的複合香氣，融入到飽滿的米粒之中，可謂是須彌珍味。"
   },
-  "DeliciousBeastlyRicePuffs": {
+  "DeliciousBiryani": {
     "name": "美味的獸米香香",
     "description": "肉香四溢的抓飯。帕蒂沙蘭的花瓣宛如星羅棋佈的綠洲一般，橫臥在長米與肉塊鋪就的金黃寶座之上，香辛料的誘人香氣均勻地纏繞著粒粒分明的米飯，每一口都是五味俱全的享受。不消半刻，盤子已經見底，食客仍是忍不住咂嘴舔唇，想要留住最後一絲回味。"
   },
   "SuspiciousTahchin": {
     "name": "奇怪的米圓塔",
-    "description": "超大份量富有飽食感的經典主食。外殼的顏色看起來很深，感覺不太妙。嘗了一口，過度的焦硬給人一種食物在和牙齒吱吱嘎嘎打架的錯覺。為了牙齒的健康，只吃裡面的部分好了…"
+    "description": "超大份量富有飽食感的經典主食。外殼的顏色看起來很深，感覺不太妙。嚐了一口，過度的焦硬給人一種食物在和牙齒吱吱嘎嘎打架的錯覺。為了牙齒的健康，只吃裡面的部分好了…"
   },
   "Tahchin": {
     "name": "米圓塔",
-    "description": "超大份量富有飽食感的經典主食。先將米飯煮好，在米飯中央加上經優酪乳醃制過的肉塊，再將表面烘烤至酥脆，最後別忘了撒上帕蒂沙蘭。不管是米飯還是肉塊都能帶給人充分的飽腹感，因此在大巴扎非常受歡迎。"
+    "description": "超大份量富有飽食感的經典主食。先將米飯煮好，在米飯中央加上經優酪乳醃製過的肉塊，再將表面烘烤至酥脆，最後別忘了撒上帕蒂沙蘭。不管是米飯還是肉塊都能帶給人充分的飽腹感，因此在大巴扎非常受歡迎。"
   },
   "DeliciousTahchin": {
     "name": "美味的米圓塔",
@@ -7333,7 +7585,7 @@
   },
   "DeliciousLambadFishRoll": {
     "name": "美味的蘭巴德魚卷",
-    "description": "略帶花香的烤魚。金黃的魚肉，宛如染上晚霞的浪花一般，卷起細碎的薔薇，帶著花香撲面而來。難怪這道菜餚有著「海員的浪漫」這一別稱…莫、莫非蘭巴德大叔的那些冒險故事也不盡是誇誇其談？"
+    "description": "略帶花香的烤魚。金黃的魚肉，宛如染上晚霞的浪花一般，捲起細碎的薔薇，帶著花香撲面而來。難怪這道菜餚有著「海員的浪漫」這一別稱…莫、莫非蘭巴德大叔的那些冒險故事也不盡是誇誇其談？"
   },
   "SuspiciousCurryShrimp": {
     "name": "奇怪的咖哩蝦",
@@ -7349,7 +7601,7 @@
   },
   "SuspiciousTandooriRoastChicken": {
     "name": "奇怪的唐杜爾烤雞",
-    "description": "須彌特有的禽肉菜餚。在高溫的烤制中雞肉失去了汁水，變得又乾又柴，香料的味道蓋過了雞肉原有的香味，就算是喜歡吃肉乾的人，也需要配合大量的湯水才能順利咽下去。"
+    "description": "須彌特有的禽肉菜餚。在高溫的烤製中雞肉失去了汁水，變得又乾又柴，香料的味道蓋過了雞肉原有的香味，就算是喜歡吃肉乾的人，也需要配合大量的湯水才能順利咽下去。"
   },
   "TandooriRoastChicken": {
     "name": "唐杜爾烤雞",
@@ -7361,15 +7613,15 @@
   },
   "SuspiciousPotatoBoat": {
     "name": "奇怪的馬鈴薯船",
-    "description": "烤制而成的小吃。馬鈴薯半生不熟，甚至還能在表面看到泥土的痕跡…看來就算是搭配萬能的乳酪，也無法令這道料理起死回生了。"
+    "description": "烤製而成的小吃。馬鈴薯半生不熟，甚至還能在表面看到泥土的痕跡…看來就算是搭配萬能的乳酪，也無法令這道料理起死回生了。"
   },
   "PotatoBoat": {
     "name": "馬鈴薯船",
-    "description": "烤制而成的小吃。馬鈴薯洗淨，加入起司和樹王聖體菇一併烘烤而成。趁熱食用尤為享受，因此在須彌街頭很受歡迎。唯一需要注意的是，吃的時候小心不要被燙到嘴巴哦。"
+    "description": "烤製而成的小吃。馬鈴薯洗淨，加入起司和樹王聖體菇一併烘烤而成。趁熱食用尤為享受，因此在須彌街頭很受歡迎。唯一需要注意的是，吃的時候小心不要被燙到嘴巴哦。"
   },
   "DeliciousPotatoBoat": {
     "name": "美味的馬鈴薯船",
-    "description": "烤制而成的小吃。乳酪濃縮著迷人香氣，宛如一條流金之河，載著鮮美的樹王聖體菇，攜著細膩綿軟的馬鈴薯，一併入口，讓人彷彿乘著船在河上悠閒飄蕩，希望這段縱享美味之旅能夠再長一些…"
+    "description": "烤製而成的小吃。乳酪濃縮著迷人香氣，宛如一條流金之河，載著鮮美的樹王聖體菇，攜著細膩綿軟的馬鈴薯，一併入口，讓人彷彿乘著船在河上悠閒飄蕩，希望這段縱享美味之旅能夠再長一些…"
   },
   "SuspiciousFishWithCreamSauce": {
     "name": "奇怪的奶醬鮮魚",
@@ -7394,6 +7646,114 @@
   "ShowMeTheMora": {
     "name": "摩拉急速來",
     "description": "多莉的特色料理。付了一大筆餐費後，終於有幸吃上了桑歌瑪哈巴依老爺親手製作的料理。絲滑的醬汁如同綢緞一般包裹著緊實的雞肉…在這欲罷不能的美味影響下，竟然有種奇妙的衝動——還想要掏出摩拉，再買一份！"
+  },
+  "SuspiciousMeatLoversMushroomPizza": {
+    "name": "奇怪的肉肉烤蘑菇披薩",
+    "description": "烘烤而成的披薩。乳酪和配菜雜亂地擠作一團，散發著膩人的氣息，厚硬的餅底更是加大了這場挑戰的難度。嗯——問題到底是出在烘烤時間上呢，還是發酵程度上呢？"
+  },
+  "MeatLoversMushroomPizza": {
+    "name": "肉肉烤蘑菇披薩",
+    "description": "烘烤而成的披薩。大塊大塊的獸肉，佐以新鮮蘑菇，鋪滿整個餅皮。再配合拉絲的香甜乳酪，簡直令人難以抗拒。剛一出爐就會被一搶而空，因此，品嚐美味的秘訣在於眼疾手快。"
+  },
+  "DeliciousMeatLoversMushroomPizza": {
+    "name": "美味的肉肉烤蘑菇披薩",
+    "description": "烘烤而成的披薩。肉塊的濃郁脂香絲絲滲入鬆軟的餅底之中，與鮮美蘑菇的配合可謂絕妙。一口下去，醇香的乳酪味撲面而來，讓人不禁沉醉其中，這塊尚未吃完，便忍不住伸手探向下一塊…"
+  },
+  "SuspiciousSunsetBerryTea": {
+    "name": "奇怪的日落莓莓茶",
+    "description": "酸甜怡人的果飲。為了壓住酸澀的味道，不小心加入了過量的糖。本想著喝一杯解解渴，沒想到越喝越渴，還是再加點水吧…"
+  },
+  "SunsetBerryTea": {
+    "name": "日落莓莓茶",
+    "description": "酸甜怡人的果飲。醇正的茶底，融合了果物的芳香。清涼的口感伴隨著咕咚咕咚的聲響，能驅散所有的燥悶煩熱。"
+  },
+  "DeliciousSunsetBerryTea": {
+    "name": "美味的日落莓莓茶",
+    "description": "酸甜怡人的果飲。綿長空幽的茶香帶著思緒走遠，彷彿置身於枝葉繁茂的果園之中，一陣風拂過，送來甘甜沁爽的果香，引人沉醉。"
+  },
+  "SuspiciousMilkyMushroomCrispTower": {
+    "name": "奇怪的奶香菌菇脆塔",
+    "description": "口感酥脆的小吃。從配菜的乾癟憔悴中看出放置時間已久，麵包片失去了水分，變得又乾又硬，一口下去，臉頰隱隱發酸…下次要記得趁熱吃…"
+  },
+  "MilkyMushroomCrispTower": {
+    "name": "奶香菌菇脆塔",
+    "description": "口感酥脆的小吃。在麵包片上放上食材和乳酪，烘烤而成。僅是聞到香氣，便令人滿心期待，一口下去，鮮美中滿口盡是令人無法抗拒的香甜。"
+  },
+  "DeliciousMilkyMushroomCrispTower": {
+    "name": "美味的奶香菌菇脆塔",
+    "description": "口感酥脆的小吃。若有似無的奶香在舌尖微微化開，柔韌的菌菇與其融合，隨著鬆脆麵包片的喀嚓喀嚓聲…這無與倫比的滿足感，讓人連指尖殘留的麵包屑都不想要放過。"
+  },
+  "SuspiciousCoconutCharcoalCakes": {
+    "name": "",
+    "description": ""
+  },
+  "CoconutCharcoalCakes": {
+    "name": "",
+    "description": ""
+  },
+  "DeliciousCoconutCharcoalCakes": {
+    "name": "",
+    "description": ""
+  },
+  "SuspiciousBaklava": {
+    "name": "",
+    "description": ""
+  },
+  "Baklava": {
+    "name": "",
+    "description": ""
+  },
+  "DeliciousBaklava": {
+    "name": "",
+    "description": ""
+  },
+  "SuspiciousCandiedAjilenakhNut": {
+    "name": "",
+    "description": ""
+  },
+  "CandiedAjilenakhNut": {
+    "name": "",
+    "description": ""
+  },
+  "DeliciousCandiedAjilenakhNut": {
+    "name": "",
+    "description": ""
+  },
+  "SuspiciousPadisarahPudding": {
+    "name": "",
+    "description": ""
+  },
+  "PadisarahPudding": {
+    "name": "",
+    "description": ""
+  },
+  "DeliciousPadisarahPudding": {
+    "name": "",
+    "description": ""
+  },
+  "SuspiciousAaruMixedRice": {
+    "name": "",
+    "description": ""
+  },
+  "AaruMixedRice": {
+    "name": "",
+    "description": ""
+  },
+  "DeliciousAaruMixedRice": {
+    "name": "",
+    "description": ""
+  },
+  "SwirlingSteps": {
+    "name": "",
+    "description": ""
+  },
+  "DuelSoul": {
+    "name": "",
+    "description": ""
+  },
+  "UtmostCare": {
+    "name": "",
+    "description": ""
   },
   "RecipeItem": {
     "name": "食譜道具",
@@ -7832,8 +8192,8 @@
     "description": "步驟詳實的食譜，記載著「炸肉排三明治」的製作方法。"
   },
   "RecipeRainbowAster": {
-    "name": "？？？",
-    "description": "？？？"
+    "name": "食譜：紫苑雲霓",
+    "description": "步驟詳實的食譜，記載著「紫苑雲霓」的製作方法。"
   },
   "RecipeButterChicken": {
     "name": "食譜：奶油雞",
@@ -7845,19 +8205,19 @@
   },
   "RecipeSelvaSalad": {
     "name": "食譜：雨林沙拉",
-    "description": "步驟詳實的食譜，記載著「雨林沙拉」的製作方法。"
+    "description": "在冒險中獲得，經由派蒙改良後的食譜，記載著「雨林沙拉」的製作方法。"
   },
   "RecipeMasalaCheeseBalls": {
     "name": "食譜：馬薩拉起司球",
-    "description": "步驟詳實的食譜，記載著「馬薩拉起司球」的製作方法。"
+    "description": "A recipe for making Masala Cheese Balls that you found during your adventure. It has been further refined by Paimon."
   },
   "RecipeMushroomHodgepodge": {
     "name": "食譜：雜菇薈萃",
-    "description": "步驟詳實的食譜，記載著「雜菇薈萃」的製作方法。"
+    "description": "在冒險中獲得，經由派蒙改良後的食譜，記載著「雜菇薈萃」的製作方法。"
   },
   "RecipePitaPocket": {
     "name": "食譜：口袋餅",
-    "description": ""
+    "description": "一份手抄的「口袋餅」食譜，還用小字註明了詳細的烹飪要點。從字跡來看作者並不怎麼擅長書寫，或許是因為受疾病影響，某些字跡還有點抖動，但紙上的每一筆都寫得很認真。\\n如果學會了它，下次來化城郭的時候，再和她一起分享這種美味的食物吧。"
   },
   "RecipePanipuri": {
     "name": "食譜：綠汁脆球",
@@ -7867,7 +8227,7 @@
     "name": "食譜：薄荷豆湯",
     "description": "步驟詳實的食譜，記載著「薄荷豆湯」的製作方法。"
   },
-  "RecipeBeastlyRicePuffs": {
+  "RecipeBiryani": {
     "name": "食譜：獸米香香",
     "description": "步驟詳實的食譜，記載著「獸米香香」的製作方法。"
   },
@@ -7894,6 +8254,38 @@
   "RecipeFishWithCreamSauce": {
     "name": "食譜：奶醬鮮魚",
     "description": "步驟詳實的食譜，記載著「奶醬鮮魚」的製作方法。"
+  },
+  "RecipeMeatLoversMushroomPizza": {
+    "name": "食譜：肉肉烤蘑菇披薩",
+    "description": "步驟詳實的食譜，記載著「肉肉烤蘑菇披薩」的製作方法。"
+  },
+  "RecipeSunsetBerryTea": {
+    "name": "食譜：日落莓莓茶",
+    "description": "步驟詳實的食譜，記載著「日落莓莓茶」的製作方法。"
+  },
+  "RecipeMilkyMushroomCrispTower": {
+    "name": "食譜：奶香菌菇脆塔",
+    "description": "步驟詳實的食譜，記載著「奶香菌菇脆塔」的製作方法。"
+  },
+  "RecipeCharcoalBakedAjilenakhCake": {
+    "name": "",
+    "description": ""
+  },
+  "RecipeBaklava": {
+    "name": "",
+    "description": ""
+  },
+  "RecipeCandiedAjilenakhNut": {
+    "name": "",
+    "description": ""
+  },
+  "RecipePadisarahPudding": {
+    "name": "",
+    "description": ""
+  },
+  "RecipeAaruMixedRice": {
+    "name": "",
+    "description": ""
   },
   "CraftedItems": {
     "name": "合成產物",
@@ -8041,7 +8433,7 @@
   },
   "SugardewBait": {
     "name": "甘露餌",
-    "description": "以薔薇花露為基底的魚餌，混入了曬乾後的香辛果粉，入口辛辣，回味卻交織甜蜜。如此滋味，一如釣魚佬的生活。所謂雨打風吹日暴曬，潮湧波洶浪翻天，經受考驗後的收穫，才格外令人欣喜吧。\\n\\n適用魚種：角魨類、斧槍魚類。"
+    "description": "以薔薇花露為基底的魚餌，混入了曬乾後的香辛果粉，入口辛辣，回味卻交織甜蜜。如此滋味，一如釣客的生活。所謂雨打風吹日暴曬，潮湧波洶浪翻天，經受考驗後的收穫，才格外令人欣喜吧。\\n\\n適用魚種：角魨類、斧槍魚類。"
   },
   "PrimordialEssence": {
     "name": "原質",
@@ -8297,7 +8689,7 @@
   },
   "RobustFungalNucleus": {
     "name": "茁壯菌核",
-    "description": "蕈獸的部分身體組織，在外界元素的劇烈刺激下才會形成。\\n一般認為，蕈獸之所以演化出移動能力，是為了將孢子散佈在更為廣泛的天地中。\\n曾有詩人稱，在蕈獸共同的夢中，孢子覆蓋了山嶽與海洋，世界無比寧靜。蕈獸演化成遊魚、走獸、飛禽、人與神，仰賴雨水、土地與回歸土地的同伴而生。"
+    "description": "蕈獸的部分身體組織，在外界元素的劇烈刺激下才會形成。\\n一般認為，蕈獸之所以演化出移動能力，是為了將孢子散佈在更為廣泛的天地中。\\n曾有詩人稱，在蕈獸共同的夢中，孢子覆蓋了山嶽與海洋，世界無比寧靜。蕈獸演化成游魚、走獸、飛禽、人與神，仰賴雨水、土地與回歸土地的同伴而生。"
   },
   "FadedRedSatin": {
     "name": "褪色紅綢",
@@ -8322,6 +8714,18 @@
   "ChaosBolt": {
     "name": "混沌錨栓",
     "description": "來自不再活動的古代遺蹟龍獸。\\n已經失落的古國之中，曾有一派人醉心於擬生之原理。無論是無相的純粹秩序元素，或是龍的亙古原始力量，都應該加以擬造、改良，最終達成超越。\\n如此便能以更為優越的無垢之身，取代終將朽敗、終將破碎的秩序。"
+  },
+  "DamagedPrism": {
+    "name": "",
+    "description": ""
+  },
+  "TurbidPrism": {
+    "name": "",
+    "description": ""
+  },
+  "RadiantPrism": {
+    "name": "",
+    "description": ""
   },
   "HurricaneSeed": {
     "name": "颶風之種",
@@ -8448,16 +8852,16 @@
     "description": "擊敗深海龍蜥之後，可以拾取到的一截生物組織。\\n雖然看起來像是鯊鰭，但其實並不能發揮什麼作用。\\n曾經的白夜國之民對深海龍蜥有深入的研究。牠們最為不同的一點就是可以靠意志決定自身特徵的去留與遺傳。因為厭惡人造光源，龍蜥成年就會失去視覺上的大部分細節；同時為了戰鬥，牠們進化出了其他元素的行為多態性。"
   },
   "MudraOfTheMaleficGeneral": {
-    "name": "???",
-    "description": ""
+    "name": "凶將之手眼",
+    "description": "從淨土中取回來的人偶關節，這一部分乃是象徵著「所見即所為」的手眼造型。\\n已經化做禍神的「她」，同樣可以駕馭此等手眼神通。目光所見之瞬間，便已斬出一刀。\\n然而萬劫太過久遠，凶將之骸亦得春生。"
   },
   "TearsOfTheCalamitousGod": {
-    "name": "???",
-    "description": "???"
+    "name": "禍神之禊淚",
+    "description": "從淨土中取回的人偶關節，這一部分乃是「惡曜之眼」的造型。\\n僅僅依靠凝視就可以降下災禍與詛咒，因此把人生之不順歸咎於「禍神」似乎理所當然。但是好好想想吧，倘若意志足夠強大，信念足夠堅定…\\n萬劫太過久遠，凶星惡曜亦能以淚滌淨自身。"
   },
   "TheMeaningOfAeons": {
-    "name": "???",
-    "description": "???"
+    "name": "萬劫之真意",
+    "description": "在一切塵埃落定之後，從淨土帶回的小小頭飾。\\n一念則萬劫盡，總有思念可以超越時間。\\n百千萬劫，「真」實之意，不知道是否傳達到了。"
   },
   "RunicFang": {
     "name": "符紋之齒",
@@ -8469,7 +8873,15 @@
   },
   "ThunderclapFruitcore": {
     "name": "藏雷野實",
-    "description": "被鋒銳樹葉包裹著的掣電樹核心，肆意向周身散發雷元素。\\n大地深處咆哮的能量急切地想要傾瀉暴怒，於是不幸的藤蔓也沾染了狂躁的氣息，揮舞著扭曲的枝條哀號，不知是想要讓他人品嘗雷火穿身的苦痛，還是掙扎著期待必至的末日。"
+    "description": "被鋒銳樹葉包裹著的掣電樹核心，肆意向周身散發雷元素。\\n大地深處咆哮的能量急切地想要傾瀉暴怒，於是不幸的藤蔓也沾染了狂躁的氣息，揮舞著扭曲的枝條哀號，不知是想要讓他人品嚐雷火穿身的苦痛，還是掙扎著期待必至的末日。"
+  },
+  "PerpetualCaliber": {
+    "name": "",
+    "description": ""
+  },
+  "LightGuidingTetrahedron": {
+    "name": "",
+    "description": ""
   },
   "TileOfDecarabiansTower": {
     "name": "高塔孤王的破瓦",
@@ -8615,6 +9027,54 @@
     "name": "今昔劇畫之鬼人",
     "description": "賦予武器突破之力的材料。\\n背上「雷之三重巴」的紋樣時名為「千代」的鬼族女武者，面對漆黑的軍勢時，曾被虎軀蛇尾的世外之獸吞下。最後她撕開魔獸的胸腔，得以倖存。\\n這是「虎齧的千代」之名的來由。在此後的歲月中，這一名號漸漸簡化為「虎千代」。\\n但在深邃之獸的腹中，她染上了深罪的黯色，也透過猩紅的利齒看見同行者被撕碎。沉湎於漆黑景色的她最終向御建鳴神主尊拔劍；後來，她持刀之臂與尖角被斬落，如同負傷的野獸般從城中逃向林野；再後來似乎是被天狗、或是終末番，抑或山中修行的岩藏之胤當成不認得的怪物，收拾掉了罷，因為她俊美的容貌已經因為漆黑的仇恨與負傷痛苦變得猙獰扭曲。抑或是遇見了大蛇遺骸附近的鬼面執劍人形，故此結束了命運的旅途。\\n昔日曾與淵藪戰鬥者難免夢見漆黑的劇畫。曾與魔獸廝殺又淪為當中一員者亦不在少數。世界的邊緣正在變得稀薄而脆弱，這種侵蝕或許並非是單向的。"
   },
+  "CopperTalismanOfTheForestDew": {
+    "name": "謐林涓露的銅符",
+    "description": "賦予武器突破之力的素材。\\n在最初的賢者指導下，雨林的先民曾將枯木雕成神符，以供奉紀念綠草與高木的主人。\\n神符仿照林間清露的形狀雕成，象徵著智慧的涓滴在凡人的心智中滲流。"
+  },
+  "IronTalismanOfTheForestDew": {
+    "name": "謐林涓露的鐵符",
+    "description": "賦予武器突破之力的素材。\\n後來，草木的主人教會了人們鍛造黑鐵的奧秘。就這樣，天真的凡人學會了使用火與利刃的知識。\\n草木的主人為之歡欣，縱使火與金屬會傷害她，但亦會使凡人強大。"
+  },
+  "SilverTalismanOfTheForestDew": {
+    "name": "謐林涓露的銀符",
+    "description": "賦予武器突破之力的素材。\\n在森林的諸多故事中，身披烈火般條紋斗篷的王是迷宮的大君，是映月之水的主人。\\n當他俯首與草木的主人締結友誼，信物便是閃爍著似水光澤的寶石與月光似的白銀。\\n作為友誼的珍貴交換，草木的主人承諾為迷宮之王保守秘密，保護雨林綺麗的夢想。\\n儘管後來，一切秘密與夢構成的華美宮闕都在遺忘的深黑烈焰之下煙消雲散，又融入厚重土壤，化作了新生雨林的養料。"
+  },
+  "GoldenTalismanOfTheForestDew": {
+    "name": "謐林涓露的金符",
+    "description": "賦予武器突破之力的素材。\\n「為人只有三物值得相顧：懷抱月光的泉水、生命的綠色，與不老的容顏…」\\n「智慧」的本質並不在於掌控一切思維，謀取一切利益，而在於其能夠令平凡的生命最終也獲得超越桎梏的自由。\\n儘管密林中不再回蕩著攝人心魄的虎嘯，堅強的衛士也退隱孩童的夢中…在秘密的黃金封印都被揭開，所有的夢想在月光下如琥珀閃閃發亮的那一夜，或許她與她所深愛的凡人們將會贏得真正的自由。"
+  },
+  "OasisGardensReminiscence": {
+    "name": "綠洲花園的追憶",
+    "description": "賦予武器突破之力的素材。\\n人們曾說，花的王者是歡樂與幸福之主。清泉從她的袖口湧流而出，沙漠中便有了百花盛開的綠洲；鮮花與香草緊隨著她的腳步，銀白的月光為她開道。\\n在高天轉過臉去的艱苦時代裡，花的女主人為凡人遍灑恩惠，人們開始重新認識到快樂與自我，於是再度拾起了閒暇與奢侈。"
+  },
+  "OasisGardensKindness": {
+    "name": "綠洲花園的恩惠",
+    "description": "賦予武器突破之力的素材。\\n在被黃沙掩埋的古老文獻中，花的王者是夢的女主人。\\n她曾為被放逐之人、癲狂之人與癡愚之人展現夢想，在夢想中為他們奉上甘美的歡樂，即使人們的手中只有黑鐵的碗砵，依舊為花之女王的魅力所折服，深醉於她美麗的形象與無微不至的關懷之中。"
+  },
+  "OasisGardensMourning": {
+    "name": "綠洲花園的哀思",
+    "description": ""
+  },
+  "OasisGardensTruth": {
+    "name": "綠洲花園的真諦",
+    "description": "賦予武器突破之力的素材。\\n「何人會敬奉已死的神祇？」\\n花的王者曾與彼時的兩位神王結成同盟，在智慧與威權之外，她為蒙昧的子民帶來了慈悲與歡樂。\\n正如大地不能只有烈日和雨水那般，理性與強力之下，歡樂與愛、歌聲與樂曲、酒與奢侈同樣重要。\\n人們說，鮮花盛開的目的即是燦爛的死亡，而死亡正是花之主人從最開始便盡力追尋的終焉——因為死亡為失去的歡樂增添苦澀的風味，讓它愈發濃烈地在無窮回憶之中顯現。\\n黃沙的無知之王從未明曉她的道理，僅僅迷醉於她無窮的魅力與柔情——執著的追憶儘管妄入歧途，卻也在花之女王的計算之中。"
+  },
+  "EchoOfScorchingMight": {
+    "name": "烈日威權的殘響",
+    "description": "賦予武器突破之力的素材。\\n很久很久以前，黃沙的居民以頑強的甲蟲為原型雕成王印，用以紀念朝暮輪迴的紅日與無始無終的時光。\\n儘管那位王者的名諱如今已不再被人掛在嘴邊，但這些小巧的王印卻保留下來，隱約透露著舊日的威名。\\n它們隨鍍金的子孫流散四方，依然沉默地傾訴著舊主的往事。"
+  },
+  "RemnantGlowOfScorchingMight": {
+    "name": "烈日威權的餘光",
+    "description": "賦予武器突破之力的素材。\\n編織萬千思緒，統治萬千靈魂，此所謂威權之道。\\n然而威權之道並非冷酷的暴政，其目的恰恰最為深郁——創造不再有人苦惱，不再需要迫害與奴役的真實樂土。\\n正如沉默的王從晶石的秘密中望見的一切，正如已然消逝的伴侶曾經的教誨那般。\\n玄色的蟲印與鐵色的裁決，就這樣成為了王國法度的基石。"
+  },
+  "DreamOfScorchingMight": {
+    "name": "烈日威權的夢想",
+    "description": "賦予武器突破之力的素材。\\n白銀的月光與碧藍的清泉，曾裝點了綠洲樂園的美景。但隨著花的主人謝落在蔽日的沙暴中，無憂的黃金樂園也被死亡所淹沒。\\n在鍍金部族的詩歌中，銀白的月光照在猩紅的袍裾上，令哀慟之王阿赫瑪爾發狂。\\n憂傷的沙漠歌謠唱道，出於對舊日回憶的執著，孤獨的君王在沙漠中央塑造了無法老去的夢鄉。在那裡凝聚著不被擾動的純潔泉水，與永遠停留在日暮時分的露光。"
+  },
+  "OldenDaysOfScorchingMight": {
+    "name": "烈日威權的舊日",
+    "description": "賦予武器突破之力的素材。\\n愚癡的黃沙之王統治的年代裡，烈日般黃金的權力遍灑大地。\\n古舊的石碑記錄，王的威權化作七道烈光或七座柱梁；王的慈悲平均地賜予每一個人手中，沒有人受到忽視，亦沒有人心懷不滿。\\n那是一個被遺忘的黃金時代，彼時花的女王已謝落塵沙，草木的主人也決定離去。但只有黃沙的子嗣選擇與他們的神祇同在，即使災禍的陰影漸行漸近，他們所信賴的威權依舊如琥珀與黃金那般閃耀著不滅的光芒。\\n但災禍終究還是降臨了，黃金的蟲印也被葬在了神殿與宮闕深處、曾雕著鷲獸與牛頭的破碎柱基之下。"
+  },
   "StarterSupplyBundle": {
     "name": "啟程補給包",
     "description": "協會為涉世未深之人準備的一些補給。應該會幫到{F#妳}{M#你}很多。"
@@ -8673,11 +9133,11 @@
   },
   "MaterialShareBundle": {
     "name": "材料分享包",
-    "description": ""
+    "description": "協會例行分享的優質素材，其中有一些蘊藏著無限潛能。\\n\\n使用後可從以下選項中選擇一項取得：\\n·高塔孤王的破瓦\\n·凜風奔狼的始齔\\n·獅牙鬥士的枷鎖\\n·孤雲寒林的光砂\\n·霧海雲間的鉛丹\\n·漆黑隕鐵的一粒\\n·遠海夷地的瑚枝\\n·鳴神御靈的明惠\\n·今昔劇畫之惡尉\\n·謐林涓露的銅符\\n·綠洲花園的追憶\\n·烈日威權的殘響"
   },
   "EminentShareBundle": {
     "name": "良材分享包",
-    "description": ""
+    "description": "協會例行分享的一些繁匯良材，其中有一些蘊藏著無限潛能。\\n\\n使用後可從以下選項中選擇一項取得：\\n·高塔孤王的殘垣\\n·凜風奔狼的裂齒\\n·獅牙鬥士的鐵鍊\\n·孤雲寒林的輝岩\\n·霧海雲間的汞丹\\n·漆黑隕鐵的一片\\n·遠海夷地的玉枝\\n·鳴神御靈的歡喜\\n·今昔劇畫之虎齧\\n·謐林涓露的鐵符\\n·綠洲花園的恩惠\\n·烈日威權的餘光"
   },
   "WeaponAscensionBundleHigh": {
     "name": "武器突破自選-高級",
@@ -8799,6 +9259,10 @@
     "name": "給旅行者的小蛋糕",
     "description": "在某個意義重大的日子獲得的禮品。\\n\\n獻給星海之中熠熠生輝的{F#妳}{M#你}。\\n祈願{F#妳}{M#你}在這片大地上的旅程美好幸福。"
   },
+  "ANoteAlraniLeftForNiloofar": {
+    "name": "愛拉尼給妮露法的便條",
+    "description": "愛拉尼給導師妮露法的便條，字跡潦草，但十分用力，能感受到寫字人的激烈情緒。\\n\\n「我不想寫論文了！！！！！」"
+  },
   "AResearchPaperByPirKavikavus": {
     "name": "迦毗鳩師的論文",
     "description": "標題為《非穩定態混沌爐心之安全性提升理論與實踐——以降諸魔山之古國坎瑞亞遺蹟巨像為例》的論文。正文充滿大量術語，若非妙論派的資深學者，恐怕很難理解論文中的論證過程。"
@@ -8828,8 +9292,8 @@
     "description": "遺留在秘密基地裡的「冒險手冊」，似乎記錄了孩子們的冒險和各種有趣的事情。不過歪歪斜斜的字跡實在很難看懂寫了些什麼…"
   },
   "LostEnergyBlock": {
-    "name": "",
-    "description": ""
+    "name": "遺落的能量塊",
+    "description": "由純粹能量凝練而成的能量塊，似乎可以用來啟動某些古代遺蹟構裝體的記錄裝置。"
   },
   "StrangeParchment": {
     "name": "詭異的羊皮卷",
@@ -8855,25 +9319,65 @@
     "name": "破舊的架子",
     "description": "一副很破舊的架子。不知道是用來做什麼的…"
   },
+  "JavisDream": {
+    "name": "賈維的「夢想」",
+    "description": "裝有「夢想」的小盒子。但許下夢想之人，卻已經將夢想之事遺忘。"
+  },
   "TheShepherdAndTheMagicBottle": {
     "name": "牧童與魔瓶的故事",
     "description": "牧童在沙漠中偶遇銀瓶，以及其中囚禁的不速之客的故事。"
   },
-  "TheTaleOfHiruyAndShirinI": {
+  "TheTaleOfShiruyehAndShirinI": {
     "name": "希魯伊與希琳的故事·卷一",
     "description": "鎮靈在夜風中講與牧童的故事，不知何來，荒誕不羈。"
   },
-  "TheTaleOfHiruyAndShirinII": {
+  "TheTaleOfShiruyehAndShirinII": {
     "name": "希魯伊與希琳的故事·卷二",
     "description": "鎮靈在夜風中講與牧童的故事，不知何來，荒誕不羈。"
   },
-  "TheLayOfAynAlAhmar": {
+  "TheLayOfAlAhmar": {
     "name": "阿赫瑪爾的故事",
     "description": "有關某位不知名遠古神王的故事，由飄忽的鎮靈講述，真實性不可查考"
+  },
+  "TheFolioOfFoliageI": {
+    "name": "遐葉論經·卷一",
+    "description": "古須彌學者撰寫的行傳，記述了草王於災厄之年的行跡"
+  },
+  "TheFolioOfFoliageII": {
+    "name": "遐葉論經·卷二",
+    "description": "古須彌學者撰寫的行傳，記述了草王於災厄之年的行跡"
+  },
+  "TheFolioOfFoliageIII": {
+    "name": "遐葉論經·卷三",
+    "description": "古須彌學者撰寫的行傳，記述了草王於災厄之年的行跡"
+  },
+  "ScrollOfStreamingSongI": {
+    "name": "浮槃歌卷·卷一",
+    "description": "教令院因論派的學者自砂海的遺蹟中挖掘出的古代殘卷，無從判斷作者身分。"
+  },
+  "ScrollOfStreamingSongII": {
+    "name": "浮槃歌卷·卷二",
+    "description": "教令院因論派的學者自砂海的遺蹟中挖掘出的古代殘卷，無從判斷作者身分。"
+  },
+  "ScrollOfStreamingSongIII": {
+    "name": "浮槃歌卷·卷三",
+    "description": "教令院因論派的學者自砂海的遺蹟中挖掘出的古代殘卷，無從判斷作者身分。"
   },
   "AnOdeToSoulLight": {
     "name": "靈光頌",
     "description": "傳說是失落的沙漠教團流傳的歌謠，不知由何人錄成文稿。"
+  },
+  "TransparentRuinsRecordII": {
+    "name": "",
+    "description": ""
+  },
+  "TransparentRuinsRecordIII": {
+    "name": "",
+    "description": ""
+  },
+  "AKey": {
+    "name": "A Key",
+    "description": ""
   },
   "UnsealedParchment": {
     "name": "啟封的羊皮卷",
@@ -8919,7 +9423,143 @@
     "name": "殘破的出勤紀錄",
     "description": "殘破的出勤紀錄"
   },
+  "MedicalRecords": {
+    "name": "",
+    "description": ""
+  },
+  "DiagnosticReport": {
+    "name": "",
+    "description": ""
+  },
+  "ShevirmesFunds": {
+    "name": "",
+    "description": ""
+  },
+  "QuqingsFunds": {
+    "name": "",
+    "description": ""
+  },
+  "GuanchuisFunds": {
+    "name": "",
+    "description": ""
+  },
+  "ZakariyasPrescriptionForMaruf": {
+    "name": "",
+    "description": ""
+  },
+  "ZakariyasMedicineForMaruf": {
+    "name": "",
+    "description": ""
+  },
   "AnElegantlyWrittenNote": {
+    "name": "字跡優雅的筆記本",
+    "description": "看口吻的確是迪娜澤黛留下的筆記本，字跡很優雅，如果不是受魔鱗病的影響而有些難以控制力道，字跡還會更好看一些。"
+  },
+  "NerminsMintyBeanSoup": {
+    "name": "",
+    "description": ""
+  },
+  "FutureStar": {
+    "name": "",
+    "description": ""
+  },
+  "RaefsBag": {
+    "name": "",
+    "description": ""
+  },
+  "NerminsSpices": {
+    "name": "",
+    "description": ""
+  },
+  "KeystoneI": {
+    "name": "",
+    "description": ""
+  },
+  "TornPageAThousandNightsI": {
+    "name": "",
+    "description": ""
+  },
+  "TornPageAThousandNightsII": {
+    "name": "",
+    "description": ""
+  },
+  "TornPageAThousandNightsIII": {
+    "name": "",
+    "description": ""
+  },
+  "TornPageAThousandNightsIV": {
+    "name": "",
+    "description": ""
+  },
+  "TornPageAThousandNightsV": {
+    "name": "",
+    "description": ""
+  },
+  "TornPageAThousandNightsVI": {
+    "name": "",
+    "description": ""
+  },
+  "AThousandNightsI": {
+    "name": "",
+    "description": ""
+  },
+  "AThousandNightsII": {
+    "name": "",
+    "description": ""
+  },
+  "AThousandNightsIII": {
+    "name": "",
+    "description": ""
+  },
+  "AThousandNightsIV": {
+    "name": "",
+    "description": ""
+  },
+  "AThousandNightsV": {
+    "name": "",
+    "description": ""
+  },
+  "AThousandNightsVI": {
+    "name": "",
+    "description": ""
+  },
+  "SamersMissive": {
+    "name": "",
+    "description": ""
+  },
+  "ShevirmesInvoice": {
+    "name": "",
+    "description": ""
+  },
+  "QuqingsInvoice": {
+    "name": "",
+    "description": ""
+  },
+  "GuanchuisInvoice": {
+    "name": "",
+    "description": ""
+  },
+  "KeystoneII": {
+    "name": "",
+    "description": ""
+  },
+  "AzalaisPayment": {
+    "name": "",
+    "description": ""
+  },
+  "RamasReceipt": {
+    "name": "",
+    "description": ""
+  },
+  "ButrusReceipt": {
+    "name": "",
+    "description": ""
+  },
+  "JutsReceipt": {
+    "name": "",
+    "description": ""
+  },
+  "JahangirsReceipt": {
     "name": "",
     "description": ""
   },
@@ -9117,27 +9757,27 @@
   },
   "TrueFruitAngler": {
     "name": "真果角魨",
-    "description": ""
+    "description": "體型圓潤的中型魚類，生有犄角般的軟骨結構，據說牠們會用這一結構開鑿水下洞穴，建造棲身之所，或是驅趕試圖傷害自己的生物。\\n體表呈現出青綠色彩的角魨是這一譜系中最常見的品種，狀如枝頭尚未成熟的果實，因而得名「真果」。\\n雖說這種角魨魚刺極少，肉質肥美，但要是處理的方式不當，或是摘除膽囊的時間較晚，魚肉就會像未熟果實般的酸澀。因此，「能否製作鮮美的角魨料理」也成了衡量須彌廚師技藝的標準之一。"
   },
   "PeachOfTheDeepWaves": {
     "name": "沉波蜜桃",
-    "description": ""
+    "description": "體型圓潤的中型魚類，生有犄角般的軟骨結構，據說牠們會用這一結構開鑿水下洞穴，建造棲身之所，或是驅趕試圖傷害自己的生物。\\n通體粉紅，尾鰭嫩綠的角豚，常讓人聯想到的墩墩桃。魚如其名，牠們的口感確實相當甜美，以至於被魚師們認定「用來做甜品都不為過」。\\n當然，在種種因素的影響下，魚師們期待的魚肉甜品並未獲得成功。加上這種角魨較為少見，價格高昂，難以作為食材，人們通常將牠作為觀賞魚養殖。\\n由於不想花費大筆錢財購買這種角魨，但又喜愛其明豔色彩的客群廣大，甚至有商人反其道而行之，真的用墩墩桃製作了這種角魨的模型，銷量還相當不錯。"
   },
   "SandstormAngler": {
     "name": "吹沙角魨",
-    "description": ""
+    "description": "體型圓潤的中型魚類，生有犄角般的軟骨結構，據說牠們會用這一結構開鑿水下洞穴，建造棲身之所，或是驅趕試圖傷害自己的生物。\\n這種角魨有著黃沙般的色澤，其貌不揚，卻是相當重要的品種。學者們根據這種角魨的生理結構，推斷出了整個角魨譜系的生態特點——這種角魨有著同族中最強的力量和最堅硬的犄角，扮演著「水下工人」的角色。由於長期在河床與湖底活動，與彌漫的河沙與湖沙為伴，牠們也進化出了相應的保護色。"
   },
   "SunsetCloudAngler": {
     "name": "暮雲角魨",
-    "description": ""
+    "description": "體型圓潤的中型魚類，生有犄角般的軟骨結構，據說牠們會用這一結構開鑿水下洞穴，建造棲身之所，或是驅趕試圖傷害自己的生物。\\n作為角魨中最為長壽的品種，牠們有著淡暮雲灰的體色，易於辨識。這種體色來源於牠們獨特的生存之道——牠們的皮質中含有和膽汁相似的成分，酸澀程度遠超其他角魨，許多水下生物對其敬而遠之。\\n不過用特殊的手法烹飪後，這種酸味反倒能為魚肉的鮮美增色，導致這種角魨的銷路極佳。在須彌的魚市經常能看見「請勿將暮雲角魨與其他食用魚類飼養在同一水池中」的告示牌。"
   },
   "LazuriteAxeMarlin": {
     "name": "青金斧槍魚",
-    "description": ""
+    "description": "形貌獨特的魚類，是蝶魚的須彌遠親。這種魚類的骨架寬大，身形曲線獨具一格。相傳最早釣上這種魚的魚師將釣竿斜放在尾鰭末端，發現兩者結合後形如某種長柄武器，為其取名「斧槍魚」。與牠的學名「錨鉤蝶」相比，這個名稱更為生動，因而在民間廣為流傳。\\n雖說名字來源於武器，體內蘊含的力量在魚類之中也位居前列，但斧槍魚大多有著溫厚的性格，體表生有著青金色紋路的斧槍魚尤其如此。得益於堅硬的鱗片和力量的優勢，斧槍魚能從容應對其他水生生物的攻擊，等到對方精疲力竭後悠然離去。\\n牠們的力氣對於魚師而言也是一種挑戰，唯有做好對抗大型猛獸的準備，在牠們咬鉤時就全力以赴，才能有效消耗牠們的體能，將牠們釣獲。"
   },
   "HalcyonJadeAxeMarlin": {
     "name": "翡玉斧槍魚",
-    "description": ""
+    "description": "形貌獨特的魚類，是蝶魚的須彌遠親。這種魚類的骨架寬大，身形曲線獨具一格。相傳最早釣上這種魚的魚師將釣竿斜放在尾鰭末端，發現兩者結合後形如某種長柄武器，為其取名「斧槍魚」。與牠的學名「錨鉤蝶」相比，這個名稱更為生動，因而在民間廣為流傳。\\n色澤如翡玉的斧槍魚喜歡在水生植物茂盛的區域活動，身形極易與背景相融，若隱若現。穿行在水草間的小魚常常撞上牠們屏障般的身體，暈頭轉向，不過翡玉斧槍魚也不會被激怒，反而會適時為這些鄰居提供庇護。"
   },
   "WingsOfFirstFlight": {
     "name": "初始之翼",
@@ -9176,8 +9816,8 @@
     "description": "風之翼款式。見證響徹星海的合奏而獲贈的禮物。"
   },
   "WingsOfTheForest": {
-    "name": "",
-    "description": ""
+    "name": "森鬱花繁之翼",
+    "description": "風之翼款式。因為得到須彌的認可與嘉許，而獲贈的禮物。"
   },
   "RadiantSpincrystal": {
     "name": "旋曜玉帛·其一",
@@ -9237,11 +9877,15 @@
   },
   "GlowingGem": {
     "name": "霞色寶珠",
-    "description": "「落霞」专用的精炼道具。"
+    "description": "「落霞」專用的精煉道具。\\n以層岩巨淵先民的古老工藝精緻打磨而成的石珀寶珠。能夠微微散發出如同黎明或夕暮的輝光。對於在不見天日的岩窟中，與漆黑之敵戰鬥的人而言，或許能帶來小小的慰藉吧。"
   },
   "OriginalFishOintment": {
     "name": "原海魚油",
     "description": "「竭澤」專用的精煉道具。\\n從北方大湖的漁獲中提煉出的油膏，能短暫地讓成為良弓的魚恢復生機。\\n據說那個大湖中生活著大陸別處絕對無法見到的水生物種。"
+  },
+  "PlumeOfTheChangingWinds": {
+    "name": "",
+    "description": "？？？"
   },
   "FalconsDance": {
     "name": "鷹隼之舞",
@@ -9636,7 +10280,7 @@
     "description": "名片紋飾。\\n請讓我來當這項奇蹟的見證者吧。"
   },
   "TravelNotesChalk": {
-    "name": "纪行·白堊",
+    "name": "紀行·白堊",
     "description": "名片紋飾。\\n踏足雪山，注意保暖。"
   },
   "FrostbearingAncientTree": {
@@ -9868,12 +10512,12 @@
     "description": "名片紋飾。\\n八重神子的狐狸形態在哪裡能看到呢？在夢裡吧。"
   },
   "TravelNotesAwakening": {
-    "name": "???",
-    "description": "???"
+    "name": "紀行·蟄醒",
+    "description": "名片紋飾。\\n三界震動，天地醒轉。珊瑚王蟲也從永眠中恢復了過來。"
   },
   "KamisatoAyatoRipple": {
-    "name": "？？？",
-    "description": "？？？"
+    "name": "神里綾人·漣漪",
+    "description": "名片紋飾。\\n椿花浮鏡，澄水泛波。"
   },
   "LumensStoneOfLight": {
     "name": "流明·輝石",
@@ -9884,12 +10528,12 @@
     "description": "名片紋飾。\\n聽啊，叢雲間回蕩的聲響。那是它的嗟怨忿怒，與一個小小的願望。"
   },
   "AchievementChasm": {
-    "name": "？？？",
-    "description": "？？？"
+    "name": "成就·層岩",
+    "description": "名片紋飾。\\n礦工曾奔忙穿梭的棧道與礦山，如今被寂靜籠罩。僅有千年的琉璃晶砂與玉髓閃爍著幽光。"
   },
   "TravelNotesIrodori": {
-    "name": "？？？",
-    "description": "？？？"
+    "name": "紀行·容彩",
+    "description": "名片紋飾。\\n同好之人，謂之「同人」。趁著狐狸總編還沒想到版權法，大家好好描繪心中的故事吧。——又或者，她想到了，但並不在乎？"
   },
   "YelanThrow": {
     "name": "夜蘭·一擲",
@@ -9900,8 +10544,8 @@
     "description": "名片紋飾。\\n「稻妻不是有那種鳴草輪嗎？穿過去可以驅邪落穢那種。小忍就想到既然邪物不願意主動鑽圈，把草輪做成主動捲人的樣子就好了。妹妹她做巫女的才能，真是可怕啊。」"
   },
   "TravelNotesDivineWill": {
-    "name": "？？？",
-    "description": "？？？"
+    "name": "紀行·天命",
+    "description": "名片紋飾。\\n「昔有忠魂，似那飛鴻散東西。」\\n「今我引燈，唯願英靈毋歧迷。」"
   },
   "ShikanoinHeizouTemari": {
     "name": "鹿野院平藏·鞠毬",
@@ -9911,27 +10555,55 @@
     "name": "紀行·海藍",
     "description": "名片紋飾。\\n就像{F#妳}{M#你}多年後，從舊夢中醒來。紀念的螺殼裡，仍存在著那年夏天的海。"
   },
+  "TighnariDewKissed": {
+    "name": "提納里·沐露",
+    "description": "名片紋飾。\\n提納里用花露精心調製的精油，用來保養毛茸茸的大尾巴，淡淡的清香有著安神的功效。"
+  },
+  "ColleiGoodVirtue": {
+    "name": "柯萊·豹蔚",
+    "description": "名片紋飾。\\n「是…是柯里安巴喔！…嗚…」"
+  },
+  "DoriJinni": {
+    "name": "多莉·魔燈",
+    "description": "名片紋飾。\\n擦一擦遞給{F#妳}{M#你}的魔燈，再擦一擦遞給她的摩拉，無論是什麼樣的願望都能實現…大概吧？"
+  },
   "TravelNotesWoodlands": {
-    "name": "",
-    "description": ""
+    "name": "紀行·深林",
+    "description": "名片紋飾。\\n深林幽谷之間，薔薇伴月安綻。若得與{F#妳}{M#你}相伴，此處便是樂園。"
   },
   "AchievementRoaming": {
-    "name": "",
-    "description": ""
+    "name": "成就·漫行",
+    "description": "名片紋飾。\\n每一段旅途、每一段回憶，都是只屬於旅人的、獨一無二的奇蹟。"
   },
   "AchievementFatedEncounter": {
-    "name": "",
-    "description": ""
+    "name": "成就·逢緣",
+    "description": "名片紋飾。\\n總有一天，此刻的相逢，將會成為值得眷戀的思念。"
   },
   "SumeruShimmeringWoods": {
-    "name": "",
-    "description": ""
+    "name": "須彌·瑤林",
+    "description": "名片紋飾。\\n那些靜靜沉睡在林中的故事，又寄託著什麼樣的美夢呢？"
   },
   "SumeruObservance": {
+    "name": "須彌·照覽",
+    "description": "名片紋飾。\\n遍覽世間相，一念徹天光。"
+  },
+  "SumeruUnsullied": {
+    "name": "須彌·正明",
+    "description": "名片紋飾。\\n洞悉真諦的智者不受罪惡沾染，如沐濯雨露卻依然清淨的月蓮。"
+  },
+  "TravelNotesReturningWinds": {
     "name": "",
     "description": ""
   },
-  "SumeruUnsullied": {
+  "AchievementSevenLights": {
+    "name": "",
+    "description": ""
+  },
+  "SumeruSandtreader": {
+    "name": "",
+    "description": ""
+  },
+  "AchievementMirroredDreams": {
     "name": "",
     "description": ""
   },
@@ -10113,7 +10785,7 @@
   },
   "Kusava": {
     "name": "「苦舍桓」",
-    "description": "裝備後，可以在特定的場合下施展蘭那羅的力量。\\n「既是胖胖的種子，亦是苦澀的果子。」\\n是蘭那羅記憶的暫居所，也是蘭納羅力量的暫存處。"
+    "description": "裝備後，可以在特定的場合下施展蘭那羅的力量。\\n「既是胖胖的種子，亦是苦澀的果子。」\\n是蘭那羅記憶的暫居所，也是蘭那羅力量的暫存處。"
   },
   "Aranyaka": {
     "name": "「森林書」",
@@ -10129,27 +10801,39 @@
   },
   "TheBoonOfTheElderTree": {
     "name": "「王樹瑞佑」",
-    "description": "使用時，能獲得附近樹木的木材。\\n在須彌的林野中有時能夠見到的神秘護符，具有召集草木力量的能力。\\n為了防止沙漠入侵森林，以及在更黑暗的歲月中，為了防止惡獸入侵，樹木藤蔓會結成嚴密的藩籬。持有這種護符的人便被森林認作朋友，能不受阻礙地穿行在樹籬的迷宮中，得到溪流與月光的指引。不過那是古代傳說中的事情了。"
+    "description": "使用時，能獲得附近樹木的木材。\\n在須彌的林野中有時能夠見到的神秘護符，具有召集草木力量的能力。\\n為了防止沙漠入侵森林，以及在更黑暗的歲月中，為了抵禦惡獸的入侵，樹木藤蔓會結成嚴密的藩籬。持有這種護符的人便被森林認作朋友，能不受阻礙地穿行在樹籬的迷宮中，得到溪流與月光的指引。不過那是古代傳說中的事情了。"
   },
   "UltraHotBurnerLampTestModel": {
     "name": "試驗型超燃燈",
-    "description": "能夠透過消耗礦物，提高食材加工效率的小裝置。\\n教令院的年輕學者有著利用實驗器材進行烹飪的習慣。為了提高效率，節約時間，有人發明了「超燃燈」這種能將礦物中的能量提取出來，增加功率的裝置。\\n手中的是這種超燃燈的民用試驗型，限制了出力功率，消除了明火，以降低火災風險。不過，就算如此，還是能夠熬制果醬、烘乾香腸，十分方便。"
+    "description": "能夠透過消耗礦物，提高食材加工效率的小裝置。\\n教令院的年輕學者有著利用實驗器材烹飪的習慣。為了提高效率，節約時間，有人發明了「超燃燈」這種能將礦物中的能量提取出來，增加功率的裝置。\\n手中的是這種超燃燈的民用試驗型，限制了出力功率，消除了明火，以降低火災風險。不過，就算如此，還是能夠熬製果醬、烘乾香腸，十分方便。"
   },
   "MiniSeelieMoss": {
     "name": "迷你仙靈·苔綠",
     "description": "「秘寶迷蹤」活動的紀念，裝備後可以獲得迷你仙靈的陪伴。\\n綠色的迷你仙靈。每次靠近樹木時，它都會格外高興。"
   },
   "ExquisiteKamera": {
+    "name": "精緻的「留影機」",
+    "description": "小朋友拉齊從桑歌瑪哈巴依老爺店裡借的留影機，是拍攝風景、野外取材、節慶留念時的好幫手！\\n比起一般的留影機多了一些金屬裝飾，看起來要昂貴不少，可千萬不要弄壞了！\\n另外，根據租借條款規定，這台留影機只能在須彌境內使用。"
+  },
+  "BanusWisdom": {
     "name": "",
-    "description": "This Kamera is adorned with metal decorations and thus looks a lot more expensive than regular Kameras. Be careful with it!\\nAccording to the leasing agreement, it can only be used within Sumeru's borders."
+    "description": ""
   },
   "FishingLineStabilizer": {
     "name": "魚線穩定器",
-    "description": "一種具有自我調整能力的張力穩定器，安裝在魚竿上後，可以平緩魚線的張力波動，提高釣魚成功率。穩定器可以自動測錄不同魚類的掙扎力度，測錄的資料越豐富，穩定效果越出色。\\n\\n原型是一位楓丹發明家的無用小發明，長時間處於無人問津的狀態。直到被楓丹釣魚協會發現，幾經改造才有了如今的魚線穩定器。成品一經問世，就受到了大多成員的認可，漸漸推廣到了其他地區。\\n在至冬國的推廣尤為順利，據說是因為受到了某位執行官大人的喜愛。"
+    "description": "一種具有自我調整能力的張力穩定器，安裝在魚竿上後，可以平緩魚線的張力波動，幫助人們更輕鬆地釣魚。穩定器可以自動測錄不同魚類的掙扎力度，測錄的資料越豐富，穩定效果越出色。\\n\\n原型是一位楓丹發明家的無用小發明，長時間處於無人問津的狀態。直到被楓丹釣魚協會發現，幾經改造才有了如今的魚線穩定器。成品一經問世，就受到了大多成員的認可，漸漸推廣到了其他地區。\\n在至冬國的推廣尤為順利，據說是因為受到了某位執行官大人的喜愛。"
   },
   "VintageLyre": {
     "name": "老舊的詩琴",
-    "description": "使用後，可以進行演奏的蒙德傳統樂器。在須彌的森林中，有時似乎能發揮神奇的效果。\\n從維摩莊的阿瑪茲亞處借來的老舊詩琴。\\n蒙德有詩與歌的傳統。吟游詩人會將自己樂器稱為自己的「摯友」、「伴侶」，因此將樂器作為信物託付給阿瑪茲亞無疑是十分親密、充滿信賴的行為。"
+    "description": "使用後，可以進行演奏的蒙德傳統樂器。在須彌的森林中，有時似乎能發揮神奇的效果。\\n從維摩莊的阿瑪茲亞處借來的老舊詩琴。\\n蒙德有詩與歌的傳統。吟遊詩人會將自己樂器稱為自己的「摯友」、「伴侶」，因此將樂器作為信物託付給阿瑪茲亞無疑是十分親密、充滿信賴的行為。"
+  },
+  "ScarletSandSlate": {
+    "name": "",
+    "description": ""
+  },
+  "BubblyKamera": {
+    "name": "「清冽水沫留影機」",
+    "description": "使用時會記錄儲存當下的景象，並附帶特殊色調的便利道具。\\n來歷不明的奇特道具，成像效果尤為別緻，機器內部明明沒有多餘的水分，拍攝出的畫片周圍卻有著繽紛的泡沫，讓畫面具備一種夢幻的觀感。\\n因此，某位騎兵隊長形容這台機器「捕捉到了人們對清涼的期待」。"
   },
   "InstructionsAnemoculusResonanceStone": {
     "name": "說明：風神瞳共鳴石",
@@ -10369,7 +11053,7 @@
   },
   "ToTheChurchsFreeSpirit": {
     "name": "致教會自由人",
-    "description": "蘿莎莉亞的裝扮款式。這套衣服似乎是教會為她專門定制的禮物。"
+    "description": "蘿莎莉亞的裝扮款式。這套衣服似乎是教會為她專門定製的禮物。"
   },
   "AdventurerCamp": {
     "name": "冒險家的臨時營地",
@@ -10604,8 +11288,8 @@
     "description": "步驟詳實的圖紙，記載著「玉面簷枋牆」的製作方法。\\n使用後可進入製作介面查看。"
   },
   "DarkWoodArchWall": {
-    "name": "深色木製拱劵牆",
-    "description": "步驟詳實的圖紙，記載著「深色木製拱劵牆」的製作方法。\\n使用後可進入製作介面查看。"
+    "name": "",
+    "description": ""
   },
   "MapleWoodVaultedWall": {
     "name": "楓木拱頂牆",
@@ -11304,8 +11988,8 @@
     "description": "步驟詳實的圖紙，記載著「夢見木『禮待』著物架」的製作方法。\\n使用後可進入製作介面查看。"
   },
   "PearOrchardStageYunHanStyle": {
-    "name": "？？？",
-    "description": "？？？"
+    "name": "梨園台榭-「雲翰風致」",
+    "description": "步驟詳實的圖紙，記載著「梨園台榭-『雲翰風致』」的製作方法。\\n使用後可進入製作介面查看。"
   },
   "MultiArchedMondstadtBuilding": {
     "name": "多重拱門的蒙德建築",
@@ -11615,9 +12299,9 @@
     "name": "稻妻民居-「風沫之屋」",
     "description": "步驟詳實的圖紙，記載著「稻妻民居-『風沫之屋』」的製作方法。\\n使用後可進入製作介面查看。"
   },
-  "DeepwoodDwellersDetermination": {
-    "name": "「林居之人的篤定」",
-    "description": "步驟詳實的圖紙，記載著「『林居之人的篤定』」的製作方法。\\n使用後可進入製作介面查看。"
+  "DeepwoodDwellersDeliberation": {
+    "name": "「林居之人的酌定」",
+    "description": "步驟詳實的圖紙，記載著「『林居之人的酌定』」的製作方法。\\n使用後可進入製作介面查看。"
   },
   "DeepwoodDwellersEstimation": {
     "name": "「林居之人的恰切」",
@@ -12160,12 +12844,12 @@
     "description": "步驟詳實的圖紙，記載著「『狐仙宮司』限定畫旗」的製作方法。\\n使用後可進入製作介面查看。"
   },
   "PearOrchardScreenDexterous": {
-    "name": "？？？",
-    "description": "？？？"
+    "name": "梨園畫屏-「巧上」",
+    "description": "步驟詳實的圖紙，記載著「梨園畫屏-『巧上』」的製作方法。\\n使用後可進入製作介面查看。"
   },
   "PearOrchardScreenDeft": {
-    "name": "？？？",
-    "description": "？？？"
+    "name": "梨園畫屏-「巧下」",
+    "description": "步驟詳實的圖紙，記載著「梨園畫屏-『巧下』」的製作方法。\\n使用後可進入製作介面查看。"
   },
   "DodocosTravelBag": {
     "name": "「嘟嘟可的出遊行囊」",
@@ -12280,8 +12964,8 @@
     "description": "步驟詳實的圖紙，記載著「『靈沼雲池』」的製作方法。\\n使用後可進入製作介面查看。"
   },
   "ShadedClarity": {
-    "name": "「澄波遊影」",
-    "description": "步驟詳實的圖紙，記載著「『澄波遊影』」的製作方法。\\n使用後可進入製作介面查看。"
+    "name": "「澄波游影」",
+    "description": "步驟詳實的圖紙，記載著「『澄波游影』」的製作方法。\\n使用後可進入製作介面查看。"
   },
   "WeatheredBambooFence": {
     "name": "飽經風雨的竹製圍籬",
@@ -12408,8 +13092,8 @@
     "description": "步驟詳實的圖紙，記載著「梨園賓位-『曲中茶香』」的製作方法。\\n使用後可進入製作介面查看。"
   },
   "PearOrchardAccessoryAttendAndListen": {
-    "name": "？？？",
-    "description": "？？？"
+    "name": "梨園砌末-「且聽分解」",
+    "description": "步驟詳實的圖紙，記載著「梨園砌末-『且聽分解』」的製作方法。\\n使用後可進入製作介面查看。"
   },
   "WineShopDisplayCounterToYourHeartsContent": {
     "name": "酒肆貨櫃-「會須百杯飲」",

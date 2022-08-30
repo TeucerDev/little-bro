@@ -175,6 +175,18 @@
     "name": "Ancient Iron Coin",
     "description": "Ancient iron currency which, according to Ulman, is worth an awful lot of money. However, it doesn't feel like anything special to the touch..."
   },
+  "BusinessEarnings": {
+    "name": "Business Earnings",
+    "description": "A sizable amount of Fairbrew Jelly, representing the sum total of your earnings in this charity event. As the Weinlesefest draws to a close, Bernhard will exchange these for Mora to give to old folks and children who need it."
+  },
+  "UsableFunds": {
+    "name": "Usable Funds",
+    "description": "A sizable amount of Fairbrew Jelly, representing the base capital used in setting up your shop.\\nAttracting customers and increasing earnings — these two are the key goals of all shopkeepers. As such, you must plan out your spending and increase the attractiveness of your shop."
+  },
+  "StrategicInspiration": {
+    "name": "Strategic Inspiration",
+    "description": "Materials that contain various theories and case studies related to mercantile practice. To those with the appropriate experience, every page and every word is filled with possible inspiration for ways to improve."
+  },
   "Primogem": {
     "name": "Primogem",
     "description": "A primordial crystalline gem that's beyond the mundane world. Shines with the condensed hopes and dreams of universes that once were."
@@ -507,6 +519,18 @@
     "name": "Tighnari",
     "description": "A young researcher well-versed in botany who currently serves as a Forest Watcher in Avidya Forest. He is a straight shooter with a warm heart — and a dab hand at guiding even the dullest of pupils."
   },
+  "Nilou": {
+    "name": "Nilou",
+    "description": "TBA"
+  },
+  "Cyno": {
+    "name": "Cyno",
+    "description": "TBA"
+  },
+  "Candace": {
+    "name": "Candace",
+    "description": "TBA"
+  },
   "KamisatoAyakasStellaFortuna": {
     "name": "Kamisato Ayaka's Stella Fortuna",
     "description": "Kamisato Ayaka's Constellation Activation Material"
@@ -726,6 +750,18 @@
   "TighnarisStellaFortuna": {
     "name": "Tighnari's Stella Fortuna",
     "description": "Tighnari's Constellation Activation Material"
+  },
+  "NilousStellaFortuna": {
+    "name": "Nilou's Stella Fortuna",
+    "description": "Nilou's Constellation Activation Material"
+  },
+  "CynosStellaFortuna": {
+    "name": "Cyno's Stella Fortuna",
+    "description": "Cyno's Constellation Activation Material"
+  },
+  "CandacesStellaFortuna": {
+    "name": "Candace's Stella Fortuna",
+    "description": "Candace's Constellation Activation Material"
   },
   "GnosticHymnOldNotes": {
     "name": "Gnostic Hymn - Old Notes",
@@ -3815,12 +3851,24 @@
     "name": "Sumeru Rose",
     "description": "Bright and beautiful, these pure purple flowers give off a pleasant fragrance that will give any passerby pause. While some like to call this a type of \"rambler rose,\" its relative lack of multiple flowers means that it falls under a different floral classification."
   },
-  "BloomingStarshroom": {
-    "name": "Blooming Starshroom",
+  "Redcrest": {
+    "name": "Redcrest",
+    "description": "A fruit that grows even in the most hostile of desert environments. Its vibrant crimson fruits are made even more lovely against a backdrop of yellow sand."
+  },
+  "Ajilenakh": {
+    "name": "Ajilenakh",
+    "description": "A fruit that grows on evergreen trees within desert oases. The flesh under the tough skin is thick, sweet, and delicious, making it an important food source amongst the desert peoples."
+  },
+  "Scarab": {
+    "name": "Scarab",
+    "description": "A tenacious beetle that finds repose within the vast ocean of desert sand. The golden pattern on such beetles' shells hints at some deep relationship between them and the ancient ruins that dot the desert."
+  },
+  "ActivatedStarshroom": {
+    "name": "Activated Starshroom",
     "description": "A fungus with a cap that resembles a five-pointed star. It seems to be bursting with vitality."
   },
-  "BurntStarshroom": {
-    "name": "Burnt Starshroom",
+  "ScorchedStarshroom": {
+    "name": "Scorched Starshroom",
     "description": "A fungus with a cap that resembles a five-pointed star. It seems to be a little singed."
   },
   "Viparyas": {
@@ -3877,7 +3925,7 @@
   },
   "KarmaphalaWood": {
     "name": "Karmaphala Wood",
-    "description": "The wood of the Karmaphala Tree. One can easily get a nice, smooth surface while working on this material and obtain a rather eye-pleasing result without going through any sophisticated processes.\\Can be used to create furnishings."
+    "description": "The wood of the Karmaphala Tree. One can easily get a nice, smooth surface while working on this material and obtain a rather eye-pleasing result without going through any sophisticated processes.\\nCan be used to create furnishings."
   },
   "AdhigamaWood": {
     "name": "Adhigama Wood",
@@ -4769,7 +4817,7 @@
   },
   "YajnaGrass": {
     "name": "Yajna Grass",
-    "description": "One of the ingredients for making the elixir known as Arahaoma. \"Yajna\" is said to mean \"the realization of death.\""
+    "description": "One of the ingredients for making the elixir Arahaoma. \"Yajna\" is said to mean \"the realization of death.\""
   },
   "ZohrahMushroom": {
     "name": "Zohrah Mushroom",
@@ -4777,7 +4825,7 @@
   },
   "BarsamFlower": {
     "name": "Barsam Flower",
-    "description": "One of the ingredients for making the elixir Arahaoma. Barsam is said to be a sacred tree that has long vanished in history."
+    "description": "One of the ingredients for making the elixir Arahaoma. \"Barsam\" is said to be a sacred tree that has long vanished in history."
   },
   "Arahaoma": {
     "name": "Arahaoma",
@@ -4793,7 +4841,7 @@
   },
   "Vasmrti": {
     "name": "Vasmrti",
-    "description": "An item you obtained after traversing the nursery. It is translucent and seems to contain the memories of the Earth."
+    "description": "An item you obtained after traversing the nursery. It is translucent and seems to contain the memories of the earth."
   },
   "SeaRouteLog": {
     "name": "Sea Route Log",
@@ -4813,11 +4861,11 @@
   },
   "VasomaFruit": {
     "name": "Vasoma Fruit",
-    "description": "A fruit with mysterious powers.\\nBija is indispensable for helping Nara, and the Vasoma Fruit is indispensable for obtaining Bija."
+    "description": "A fruit with mysterious powers.\\nBija is indispensable for helping Rana, and the Vasoma Fruit is indispensable for obtaining Bija."
   },
   "Garland": {
     "name": "Garland",
-    "description": "A garland woven by Aranara.\\nGarlands of this kind represent the blessings from all of Vanarana and once channeled endless powers during the fight with Marana's Avatar. But their blazing light has now faded, perhaps because they burned so relentlessly.\\n\\nEvery flower on the garland is connected with the lovely, tiny heart of an Aranara, and all of them together constitute the gate to Mahavanaranapna. Aranara will support those who wear such garlands. As friends, they ease the wearers' pains, ward off their nightmares, aid them through lightless days, and fill the emptiness in their hearts."
+    "description": "A garland woven by Arama.\\nGarlands of this kind represent the blessings from all of Vanarana and once channeled endless powers during the fight with Marana's Avatar. But their blazing light has now faded, perhaps because they burned so relentlessly.\\n\\nEvery flower on the garland is connected with the lovely, tiny heart of an Aranara, and all of them together constitute the gate to Mahavanaranapna. Aranara will support those who wear such garlands. As friends, they ease the wearers' pains, ward off their nightmares, aid them through lightless days, and fill the emptiness in their hearts."
   },
   "Bija": {
     "name": "Bija",
@@ -4853,7 +4901,7 @@
   },
   "AranagasFlower": {
     "name": "Aranaga's Flower",
-    "description": "A flower gifted to you by Aranaga.\\n\"Season of rain returns, plants rejoice... Pomegranate sings, apples applaud.\""
+    "description": "A flower gifted to you by Aranaga.\\n\"Season of rain returns, plants rejoice... The pomegranate sings, the apples clap.\""
   },
   "AranakinsFlower": {
     "name": "Aranakin's Flower",
@@ -4875,17 +4923,17 @@
     "name": "Arakara's Flower",
     "description": "A flower gifted to you by Arakara.\\nFor Arakara, who nurtures Viparyas, flowers given to friends must be most precious indeed."
   },
-  "TheSiblingsFlower": {
-    "name": "The Siblings' Flower",
-    "description": "A flower gifted by Arapacati and her brothers.\\nLonging to be connected as \"siblings\" are, these Aranara have each taken on the role of sister or brother. Their obsession with cooking stems from the wish to share food with family.\\nThat being said, an Aranara's tastebuds are not to be trusted."
+  "TheSiblingsFlowers": {
+    "name": "The Siblings' Flowers",
+    "description": "Flowers gifted by Arapacati and her brothers.\\nLonging to be connected as \"siblings\" are, these Aranara have each taken on the role of sister or brother. Their obsession with cooking stems from the wish to share food with family.\\nThat being said, an Aranara's tastebuds are not to be trusted."
   },
-  "TheSongGatherersFlower": {
-    "name": "The Song Gatherer's Flower",
-    "description": "A flower gifted to you by the Song Gatherer.\\n\"Also, no matter how dark the sky and land get, as long as your spirit emits warm, golden light like the sun, there will always be hope.\""
+  "TheSongGatherersFlowers": {
+    "name": "The Song Gatherers' Flowers",
+    "description": "Flowers gifted to you by the Song Gatherers.\\n\"No matter how dark the sky and land get, as long as your spirit emits warm, golden light like the sun, there will always be hope.\""
   },
-  "AralilaAndAranishatsFlower": {
-    "name": "Aralila and Aranishat's Flower",
-    "description": "A flower gifted by Aralila and Aranishat.\\nWe ourselves are the strongest. Of that, there is no doubt!"
+  "AralilaAndAranishatsFlowers": {
+    "name": "Aralila and Aranishat's Flowers",
+    "description": "Flowers gifted by Aralila and Aranishat.\\nWe ourselves are the strongest. Of that, there is no doubt!"
   },
   "ArakantasFlower": {
     "name": "Arakanta's Flower",
@@ -4981,7 +5029,7 @@
   },
   "LivingSpring": {
     "name": "Living Spring",
-    "description": "Water obtained from the source of the rivers flowing across Apam Woods. The soup made from such spring water is the supreme delicacy. But one wonders if it really is different from ordinary water..."
+    "description": "Water obtained from the source of the rivers flowing across Apam Woods. According to Arapas, soup made from such spring water is a Supreme Delicacy. But one wonders if it really is any different from ordinary water..."
   },
   "ABoxOfComponents": {
     "name": "A Box of Components",
@@ -5077,7 +5125,7 @@
   },
   "WhopperflowerRootSoil": {
     "name": "Whopperflower Root Soil",
-    "description": "Soil collected from the root of Whopperflower. What will Akim use it for?"
+    "description": "Soil collected from Whopperflower roots. What will Akim use it for?"
   },
   "MoistSoil": {
     "name": "Moist Soil",
@@ -5123,9 +5171,57 @@
     "name": "Special Mushroom",
     "description": "A mushroom needed for making Angler Kayvan's special bait. For some reason, mushrooms of this kind hold some appeal for monsters such that they would willingly collect them..."
   },
+  "SpecialMint": {
+    "name": "Special Mint",
+    "description": "Mint needed for making Angler Kayvan's special bait. For some reason, mints of this kind hold some appeal for monsters such that they would willingly collect them..."
+  },
+  "SpecialHarraFruit": {
+    "name": "Special Harra Fruit",
+    "description": "Harra Fruit needed for making Angler Kayvan's special bait. For some reason, Harra Fruits of this kind hold some appeal for monsters such that they would willingly collect them..."
+  },
   "SpecialSweetFlower": {
     "name": "Special Sweet Flower",
     "description": "Sweet Flower needed for making Angler Kayvan's special bait. For some reason, Sweet Flowers of this kind hold some appeal for monsters such that they would willingly collect them..."
+  },
+  "BoxLunchFromTighnari": {
+    "name": "Box Lunch from Tighnari",
+    "description": "Emergency food that Tighnari prepared for Haypasia. Paimon took a peek into the lunchbox, finding some traditional Sumeru delicacies that looked very tasty inside."
+  },
+  "LetterToHaypasia": {
+    "name": "Letter to Haypasia",
+    "description": "A letter from Tighnari to Haypasia. In the letter, Tighnari explains your identity and situation after coming to Sumeru and requests that Haypasia help clear up your doubts."
+  },
+  "BoxLunchFromTheTraveler": {
+    "name": "Box Lunch from the Traveler",
+    "description": "Food that you have specifically prepared for Haypasia. The box contains Sweet Madame and Radish Veggie Soup. You hope Haypasia will like it."
+  },
+  "TighnarisIntroductionLetter": {
+    "name": "Tighnari's Introduction Letter",
+    "description": "A letter from Tighnari to Rohawi, a researcher from Amurta. In the letter, Tighnari requests that Rohawi use his prowess in collecting information to help you.\\nRohawi's address in Sumeru City is also attached therein."
+  },
+  "BagOfTransactionFunds": {
+    "name": "Bag of Transaction Funds",
+    "description": "A bag of Mora given by Alhaitham for purchasing Canned Knowledge. You can feel the heavy weight of the bag."
+  },
+  "PackageOfCannedKnowledge": {
+    "name": "Package of Canned Knowledge",
+    "description": "Canned Knowledge purchased at Dori's booth with the Mora given to you by Alhaitham. Packaged as common commodities to keep it low-key."
+  },
+  "CannedKnowledgeSwordfightingTechniquesVIII": {
+    "name": "Canned Knowledge \"Swordfighting Techniques VIII\"",
+    "description": "Canned Knowledge labeled \"Swordfighting Techniques VIII.\" It was bought from Dori's booth at the price of 100,000 Mora at Paimon's instigation. You have no idea where the first seven in the series are, but things like \"Combat Techniques\" will always be useful. Well, probably."
+  },
+  "BagOfIntelTransactionFunds": {
+    "name": "Bag of Intel Transaction Funds",
+    "description": "A bag of Mora provided by Alhaitham for buying the intel on the whereabouts of the Divine Knowledge Capsule."
+  },
+  "PictureOfTheTransaction": {
+    "name": "Picture of the Transaction",
+    "description": "A picture of a scene where the \"Divine Knowledge Capsule\" is being traded.\\nIn the picture, there is Mizri, the leader of Ayn Al-Ahmar, and the Divine Knowledge Capsule giving off a red glow in his hand."
+  },
+  "InformantCodeChart": {
+    "name": "Informant Code Chart",
+    "description": "A code chart given to you by Alhaitham. Seems like whoever seeks to purchase \"special commodities\" from Dori has to provide the right code first.\\nCheck this code chart before visiting Dori's contact, just in case."
   },
   "MisplacedConch": {
     "name": "Misplaced Conch 1",
@@ -5145,7 +5241,11 @@
   },
   "FreshHarraFruit": {
     "name": "Fresh Harra Fruit",
-    "description": "Harra Fruit needed for making Angler Kayvan's special bait. For some reason, Harra Fruits of this kind have an appeal for monsters that they would linger around areas where those Harra Fruits are..."
+    "description": "Harra Fruit needed for making Angler Kayvan's special bait. For some reason, Harra Fruits of this kind have an appeal to monsters. They would often linger around areas where these Harra Fruits are..."
+  },
+  "FreshZaytunPeach": {
+    "name": "Fresh Zaytun Peach",
+    "description": "A special Zaytun Peach needed for making Angler Kayvan's special bait. It seems nothing different than a regular Zaytun Peach."
   },
   "RedDyedFabric": {
     "name": "Red-Dyed Fabric",
@@ -5167,6 +5267,10 @@
     "name": "Sareh's Note",
     "description": "This time, we are looking for a kitten named Lale with black and white fur. If you wish to call for Lale's attention in cat language, you need to say \"Meow, meow meow meow, meow—\" with the tone going downward then upward, before ending on an even higher note."
   },
+  "FreshNilotpalaLotus": {
+    "name": "Fresh Nilotpala Lotus",
+    "description": "Flowers that grow in wetlands in the forest and bloom at night. Their fresh petals are important ingredients for the treatment of Eleazar."
+  },
   "RoseSprout": {
     "name": "Rose Sprout",
     "description": "A flower sprouting in the faded Withering Zone, tender yet tough."
@@ -5183,6 +5287,14 @@
     "name": "Freshly-Picked Mushroom",
     "description": "Mushrooms collected at the location designated by Hanbei. Although these mushrooms grow on tree trunks, they don't look special at all. They aren't going to cause any trouble, aren't they?"
   },
+  "StrangeSumeruRose": {
+    "name": "Strange Sumeru Rose",
+    "description": "A Sumeru Rose affected by the Ley Lines. It seems a little different from normal..."
+  },
+  "RiddleNote": {
+    "name": "Riddle Note",
+    "description": "\"A mirror not made of glass reflects every drama.\"\\nAnother riddle you got from the chest indicated by the previous riddle.\\nWho wrote these riddles...\\nMaybe the answer is hidden somewhere associated with dramas?"
+  },
   "RafiqsShipbuildingMaterials": {
     "name": "Rafiq's Shipbuilding Materials",
     "description": "Shipbuilding materials Rafiq bought. You've heard that these have cost him a fortune..."
@@ -5190,6 +5302,10 @@
   "LittleDriedFlower": {
     "name": "Little Dried Flower",
     "description": "It looks like an ordinary little dried flower, but it was once a precious gift. It deserves to be cherished, just like the forgotten friendship of the past."
+  },
+  "ActivatedCannedKnowledge": {
+    "name": "Activated·Canned Knowledge",
+    "description": "Canned Knowledge labeled \"Swordfighting Techniques VIII.\" It was bought from Dori's booth at the price of 100,000 Mora at Paimon's instigation. You have no idea where the first seven in the series are, but things like \"Combat Techniques\" will always be useful. Well, probably."
   },
   "PersikovsManuscript": {
     "name": "Persikov's Manuscript",
@@ -5206,6 +5322,102 @@
   "TreasureMapInABox": {
     "name": "Treasure Map in a Box",
     "description": "A treasure map placed at the bottom of a box. It indicates the location of the \"good stuff\" with simple markings."
+  },
+  "GlintingComponent": {
+    "name": "Glinting Component",
+    "description": "A piece of the Primal Construct that barred your path. This component seems to be reacting with nearby devices, constantly gleaming and glinting as it does."
+  },
+  "SacredSealValley": {
+    "name": "Sacred Seal: Valley",
+    "description": "A stone plate with ancient text on it that seems to have once been part of a certain building. The desert sands play host to many an unknown wish. Who made them, and who carries them now? Either way, researchers believe this symbol to have initially stood for \"valley.\""
+  },
+  "SacredSealBirdHead": {
+    "name": "Sacred Seal: Bird Head",
+    "description": "A stone plate with ancient text on it that seems to have once been part of a certain building. The desert sands play host to many an unknown wish. Who made them, and who carries them now? Most believe the etchings here to symbolize a bird's head."
+  },
+  "SacredSealRaisedArm": {
+    "name": "Sacred Seal: Raised Arm",
+    "description": "A stone plate with ancient text on it that seems to have once been part of a certain building. The desert sands play host to many an unknown wish. Who made them, and who carries them now? Either way, researchers believe this symbol to have been a phonetic symbol, and that its extended meanings may have included respect or submission."
+  },
+  "SacredSealSandstorm": {
+    "name": "Sacred Seal: Sandstorm",
+    "description": "A stone plate with ancient text on it that seems to have once been part of a certain building. The desert sands play host to many an unknown wish. Who made them, and who carries them now? The shape of this symbol should be derived from the storms that ravage the desert."
+  },
+  "SacredSealAuricle": {
+    "name": "Sacred Seal: Auricle",
+    "description": "A stone plate with ancient text on it that seems to have once been part of a certain building. The desert sands play host to many an unknown wish. Who made them, and who carries them now? The symbol on this plate looks like an auricle, but there are some academic differences on this matter."
+  },
+  "SacredSealForest": {
+    "name": "Sacred Seal: Forest",
+    "description": "A stone plate with ancient text on it that seems to have once been part of a certain building. The desert sands play host to many an unknown wish. Who made them, and who carries them now? A majority of researchers believe this to represent the forest, and that this suggests that the modern-day desert was not always a desolate wasteland."
+  },
+  "SacredSealThunderstrike": {
+    "name": "Sacred Seal: Thunderstrike",
+    "description": "A stone plate with ancient text on it that seems to have once been part of a certain building. The desert sands play host to many an unknown wish. Who made them, and who carries them now? The shape of this symbol should be derived from the lightning that is ever so rare a sight in the desert."
+  },
+  "SacredSealDanger": {
+    "name": "Sacred Seal: Danger",
+    "description": "A stone plate with ancient text on it that seems to have once been part of a certain building. The desert sands play host to many an unknown wish. Who made them, and who carries them now? The words here seem to indicate the hazardous circumstance of hanging a chisel hammer on a cliff. This symbol is thought to have emerged at a later date."
+  },
+  "SacredSealChiselHammer": {
+    "name": "Sacred Seal: Chisel Hammer",
+    "description": "A stone plate with ancient text on it that seems to have once been part of a certain building. The desert sands play host to many an unknown wish. Who made them, and who carries them now? The symbol for a chisel hammer is one of the earliest words to emerge."
+  },
+  "SacredSealSunrise": {
+    "name": "Sacred Seal: Sunrise",
+    "description": "A stone plate with ancient text on it that seems to have once been part of a certain building. The desert sands play host to many an unknown wish. Who made them, and who carries them now? The origin of this symbol is the rising sun."
+  },
+  "SacredSealRightToRule": {
+    "name": "Sacred Seal: Right to Rule",
+    "description": "A stone plate with ancient text on it that seems to have once been part of a certain building. The desert sands play host to many an unknown wish. Who made them, and who carries them now? This symbol is the spitting image of a ruler seated upon a throne."
+  },
+  "SacredSealSheepHead": {
+    "name": "Sacred Seal: Sheep Head",
+    "description": "A stone plate with ancient text on it that seems to have once been part of a certain building, though the origin of this writing seems unclear. The desert sands play host to many an unknown wish. Who made them, and who carries them now? Most believe that the etchings here symbolize a sheep's head."
+  },
+  "SacredSealCrocodileHead": {
+    "name": "Sacred Seal: Crocodile Head",
+    "description": "A stone plate with ancient text on it that seems to have once been part of a certain building. The desert sands play host to many an unknown wish. Who made them, and who carries them now? The source of this symbol is probably the Spinocrocodile's frighteningly huge maw."
+  },
+  "SacredSealGiantSerpent": {
+    "name": "Sacred Seal: Giant Serpent",
+    "description": "A stone plate with ancient text on it that seems to have once been part of a certain building. The desert sands play host to many an unknown wish. Who made them, and who carries them now? Though Haravatat researchers believe this to be a symbol for a giant serpent, Amurta researchers have proposed a different view, arguing that the great red deserts have never been home to any snakes. As such, the meaning of and inspiration for this word is still being contested."
+  },
+  "SacredSealCeremony": {
+    "name": "Sacred Seal: Ceremony",
+    "description": "A stone plate with ancient text on it that seems to have once been part of a certain building. The desert sands play host to many an unknown wish. Who made them, and who carries them now? The original meaning of this word was most likely \"sacrifice,\" with an extended meaning of \"rites\" or \"ceremonies\" emerging later."
+  },
+  "SacredSealLabor": {
+    "name": "Sacred Seal: Labor",
+    "description": "A stone plate with ancient text on it that seems to have once been part of a certain building. The desert sands play host to many an unknown wish. Who made them, and who carries them now? The symbol here appeared at the same time as a chisel hammer, and is one of the earliest words to emerge."
+  },
+  "SacredSealDune": {
+    "name": "Sacred Seal: Dune",
+    "description": "A stone plate with ancient text on it that seems to have once been part of a certain building. The desert sands play host to many an unknown wish. Who made them, and who carries them now? The civilization from the era of the Scarlet King had different words for different dunes of different shapes, something that has brought researchers no lack of headaches."
+  },
+  "GoldenRoseSeeds": {
+    "name": "Golden Rose Seeds",
+    "description": "Compared to Sumeru Roses, Golden Roses are a unique species more suited to the deserts. To survive, it has had to protect itself with a shield of mud and stone, but in the right environment, it may yet recoup its original beauty."
+  },
+  "TransparentRuinsRecordI": {
+    "name": "Transparent Ruins Record (I)",
+    "description": "A stone slate that you found in the transparent ruins near The Scarlet King's Mausoleum. This seems to be a record left by a lost civilization."
+  },
+  "RecordOfLambEaterRock": {
+    "name": "Record of Lamb-Eater Rock",
+    "description": "A stone slate that you found in the secret base within Lamb-Eating Rock. This seems to be a record left by a lost civilization."
+  },
+  "RecordOfTheTombOfFullFlagons": {
+    "name": "Record of the Tomb of Full Flagons",
+    "description": "A stone slate that you found in the Tomb of Full Flagons. This seems to be a record left by a lost civilization."
+  },
+  "SoheilsOldNotes": {
+    "name": "Soheil's Old Notes",
+    "description": "These are the notes left by Soheil, an Akademiya researcher, who entered the desert to study when he was young. They look very old, but they are not crinkled."
+  },
+  "RecordOfAarusReflection": {
+    "name": "Record of Aaru's Reflection",
+    "description": "A stone slate that you found at the highest point of The Scarlet King's Mausoleum. This seems to be a record left by a lost civilization."
   },
   "TwilightTheaterHeadsNotes": {
     "name": "Twilight Theater Head's Notes",
@@ -5229,11 +5441,15 @@
   },
   "RemeltingTablet": {
     "name": "Remelting Tablet",
-    "description": "A masterpiece of the alchemist Hajanad, a truly special solid potion. Theoretically, this alchemy tablet can be stored for a long time and is quite safe and easy to carry and transport. However, when in use, the tablet needs to be put into the \"remelting device,' where the two solid agents will be mixed via micro-explosion to obtain complete efficacy.\\nAnd it is always a little disturbing to think that the device in hand may explode..."
+    "description": "A masterpiece of the alchemist Hajanad, a truly special solid potion. Theoretically, this alchemy tablet can be stored for a long time and is quite safe and easy to carry and transport. However, when in use, the tablet needs to be put into the \"remelting device,\" where the two solid agents will be mixed via micro-explosion to obtain complete efficacy.\\nAnd it is always a little disturbing to think that the device in hand may explode..."
   },
   "EmployersOrders": {
     "name": "Employer's Orders",
     "description": ""
+  },
+  "UnknownObjectWithAnEarthyGlow": {
+    "name": "Unknown Object With an Earthy Glow",
+    "description": "A strange object wrapped up in mud and stones. You can see something faintly bright emitting from between the cracks of its hard exterior. Without a doubt, this thing is alive in some way, but you do not presently know what to do with it."
   },
   "PyroShard": {
     "name": "Pyro Shard",
@@ -5566,6 +5782,42 @@
   "PhilosophiesOfLight": {
     "name": "Philosophies of Light",
     "description": "Talent Level-Up material.\\nLight is the yearning of the land of thunder.\\nThough they must live forever on the earth, humanity will always reach for the light. Mortals will pursue and surpass, and they will never stop. A sealed eternity may, perhaps, look magnificent, but its essence is death."
+  },
+  "TeachingsOfAdmonition": {
+    "name": "Teachings of Admonition",
+    "description": "Talent Level-Up material.\\nAdmonition is the branches of the nation of wisdom.\\nAdmonition comes from a pure heart. Only sensible words of goodwill can express profound wisdom and free the sprout of knowledge from the shackles of arrogance."
+  },
+  "GuideToAdmonition": {
+    "name": "Guide to Admonition",
+    "description": "Talent Level-Up material.\\nAdmonition is the branches of the nation of wisdom.\\nAdmonition is paired with wise thinking. Careful deliberation affords humble words a clarity that convinces the wise and enlightens the foolish. Such words allow wisdom to flow like an unobstructed river."
+  },
+  "PhilosophiesOfAdmonition": {
+    "name": "Philosophies of Admonition",
+    "description": "Talent Level-Up material.\\nAdmonition is the branches of the nation of wisdom.\\nAdmonition is completed by good deeds. What is done confers real meaning upon what is said. When one's mind, words, and deeds are aligned, their nourishment shall guarantee the fruition of wisdom's tree."
+  },
+  "TeachingsOfIngenuity": {
+    "name": "Teachings of Ingenuity",
+    "description": "Talent Level-Up material.\\nIngenuity is the leaf-veins of the nation of wisdom.\\nIngenuity springs forth from benevolent consideration. They say that \"a poisonous tree bears no kind fruit.\" Similarly, ingenious nascent ideas are always born from determined and benign minds, for only they are worthy bearers of wisdom."
+  },
+  "GuideToIngenuity": {
+    "name": "Guide to Ingenuity",
+    "description": "Talent Level-Up material.\\nIngenuity is the leaf-veins of the nation of wisdom. Ingenuity sets words of integrity on the right path. One who thinks out of goodwill and in a clever and careful fashion never deviates from the path of boons. Yet one who thinks with contempt and malice shall taint their words with despicable colors."
+  },
+  "PhilosophiesOfIngenuity": {
+    "name": "Philosophies of Ingenuity",
+    "description": "Talent Level-Up material.\\nIngenuity is the leaf-veins of the nation of wisdom.\\nIngenuity is completed by harmonious conduct. What is done completes what is thought. Wisdom blooms where the mind, words, and practice converge."
+  },
+  "TeachingsOfPraxis": {
+    "name": "Teachings of Praxis",
+    "description": "Talent Level-Up material.\\nPraxes are the roots of the nation of wisdom.\\nPraxes stem from an unwavering will. All wisdom is manifested through the unyielding pursuit of goodness. Where goodness is not practiced, ingenuity and eloquence wither."
+  },
+  "GuideToPraxis": {
+    "name": "Guide to Praxis",
+    "description": "Talent Level-Up material.\\nPraxes are the roots of the nation of wisdom.\\nPraxes validate words of honesty. Though one speaks and acts out of goodwill, one has not yet obtained wisdom. Wisdom, born from action, is a signet pressed upon honest words."
+  },
+  "PhilosophiesOfPraxis": {
+    "name": "Philosophies of Praxis",
+    "description": "Talent Level-Up material.\\nPraxes are the roots of the nation of wisdom.\\nPraxes bring forth the fruit of wisdom. Practice grants itself meaning, and it is only by treading a path that unites action, speech, and thought that the wise may reach perfection."
   },
   "SanctifyingDroplet": {
     "name": "Sanctifying Droplet",
@@ -7209,7 +7461,7 @@
   },
   "ButterChicken": {
     "name": "Butter Chicken",
-    "description": "A flavorful dish. Spices and chopped tomatoes were mixed with warm butter, and then cooked into a creamy sauce. Into it went marinated and pan-fried chicken pieces. People from Sumeru prefer eating the dish with rice or flatbread, which allows them to savor the dish's enticing flavor better."
+    "description": "A flavorful dish. Spice and chopped tomatoes were mixed with warm butter, and then cooked into a creamy sauce. Into it went marinated and pan-fried chicken pieces. People from Sumeru prefer eating the dish with rice or flatbread, which allows them to savor the dish's enticing flavor better."
   },
   "DeliciousButterChicken": {
     "name": "Delicious Butter Chicken",
@@ -7233,7 +7485,7 @@
   },
   "SelvaSalad": {
     "name": "Selva Salad",
-    "description": "An Aranara-style salad that Paimon drained her brain juice dry to improve. It is, in fact, a rather traditional recipe in Sumeru. Fresh and crispy Zaytun Peach slices are mixed with gently-squeezed Sumeru Rose, which adds a touch of distinctive flavor. Mints are used instead of sugar to avoid getting a sickening sweetness. A refreshing dish that pleases both the eyes and the nose."
+    "description": "An Aranara-style salad that Paimon drained her brain juice dry to improve. It is, in fact, a rather traditional recipe in Sumeru. Fresh and crispy Zaytun Peach slices are mixed with gently-squeezed Sumeru Roses, which adds a touch of distinctive flavor. Mint is used instead of sugar to avoid getting a sickening sweetness. A refreshing dish that pleases both the eyes and the nose."
   },
   "DeliciousSelvaSalad": {
     "name": "Delicious Selva Salad",
@@ -7241,27 +7493,27 @@
   },
   "SuspiciousMasalaCheeseBalls": {
     "name": "Suspicious Masala Cheese Balls",
-    "description": "An Aranara-style salad that Paimon drained her brain juice dry to improve. It is, in fact, a rather traditional recipe in Sumeru. The Cheese Balls are under-cooked, and as a result, you got a mouthful of half-melted cheese and coarse potato chunks. Fry it for a while longer next time, would you?"
+    "description": "An Aranara-style dish that Paimon drained her brain juice dry to improve. It is, in fact, a rather traditional recipe in Sumeru. The cheese balls are under-cooked, and as a result, you got a mouthful of half-melted cheese and coarse potato chunks. Fry it for a while longer next time, would you?"
   },
   "MasalaCheeseBalls": {
     "name": "Masala Cheese Balls",
-    "description": "An Aranara-style salad that Paimon drained her brain juice dry to improve. It is, in fact, a rather traditional recipe in Sumeru. The freshly cooked cheese balls give off a titillating aroma, for a special technique has been used to mix the spices into the dough. A small bite and you will see hot cheese oozing out immediately. Also, potato has been stewed till it softened properly. This creamy combination will keep you full for a long time."
+    "description": "An Aranara-style dish that Paimon drained her brain juice dry to improve. It is, in fact, a rather traditional recipe in Sumeru. The freshly cooked cheese balls give off a titillating aroma, for a special technique has been used to mix the spices into the dough. A small bite and you will see hot cheese oozing out immediately. Also, potatoes have been stewed till they softened properly. This creamy combination will keep you full for a long time."
   },
   "DeliciousMasalaCheeseBalls": {
     "name": "Delicious Masala Cheese Balls",
-    "description": "An Aranara-style salad that Paimon drained her brain juice dry to improve. It is, in fact, a rather traditional recipe in Sumeru. The spices were mixed with the other ingredients in a special way to bring out the most original scents. They awaken your taste buds and create a multi-layered flavor profile. The cheese ball is crispy on the outside and soft on the inside. It goes deliciously well with steamy hot potatoes."
+    "description": "An Aranara-style dish that Paimon drained her brain juice dry to improve. It is, in fact, a rather traditional recipe in Sumeru. The spices were mixed with the other ingredients in a special way to bring out the most original scents. They awaken your taste buds and create a multi-layered flavor profile. The cheese balls are crispy on the outside and soft on the inside. They go deliciously well with steamy hot potatoes."
   },
   "SuspiciousMushroomHodgepodge": {
     "name": "Suspicious Mushroom Hodgepodge",
-    "description": "An Aranara-style salad that Paimon drained her brain juice dry to improve. But in fact, it only requires a few common mushrooms from Sumeru, along with some extra seasonings. As for its flavor, you believe you've tasted the wildness of nature — ahem, \"the scent of the remaining heaps of dirt\" is probably the more accurate description though. Such bounties of the mountains and forests are best left for the boars to savor."
+    "description": "An Aranara-style dish that Paimon drained her brain juice dry to improve. But in fact, it only requires a few common mushrooms from Sumeru, along with some extra seasonings. As for its flavor, you'd believe you've tasted the wildness of nature — ahem, \"the scent of the remaining heaps of dirt\" is probably the more accurate description though. Such bounties of the mountains and forests are best left for the boars to savor."
   },
   "MushroomHodgepodge": {
     "name": "Mushroom Hodgepodge",
-    "description": "An Aranara-style salad that Paimon drained her brain juice dry to improve. But in fact, it only requires a few common mushrooms from Sumeru, along with some extra seasonings. Paimon selected three different mushrooms, and they were prepared and then cooked in a simple way, but the texture and flavor aren't bad at all."
+    "description": "An Aranara-style dish that Paimon has drained her brain juice dry to improve. But in fact, it only requires a few common mushrooms from Sumeru, along with some extra seasonings. Paimon selected three types of mushrooms, and they were prepared and then cooked in a simple way, but the texture and flavor aren't bad at all."
   },
   "DeliciousMushroomHodgepodge": {
     "name": "Delicious Mushroom Hodgepodge",
-    "description": "An Aranara-style salad that Paimon drained her brain juice dry to improve. But in fact, it only requires a few common mushrooms from Sumeru, along with some extra seasonings. The heat and cooking time have been adjusted to preserve the distinctive flavors of three different mushrooms. Depending on one's preference, they can either be eaten together or one at a time to study the subtly varying flavors."
+    "description": "An Aranara-style dish that Paimon drained her brain juice dry to improve. But in fact, it only requires a few common mushrooms from Sumeru, along with some extra seasonings. The heat and cooking time have been adjusted to preserve the distinctive flavors of three different types of mushrooms. Depending on one's preference, they can either be eaten together or one at a time to study the subtly varying flavors."
   },
   "SuspiciousPitaPocket": {
     "name": "Suspicious Pita Pocket",
@@ -7273,7 +7525,7 @@
   },
   "DeliciousPitaPocket": {
     "name": "Delicious Pita Pocket",
-    "description": "A bread with varied fillings. Aromatic meat and crunchy vegetables are the leading actors of this big show. The sauce, or the \"gaffer,\" has expertly focused the limelight on their duet, while this \"pocket\" is full of surprises, just like a magician's bag."
+    "description": "A bread with varied fillings. Aromatic meat and crunchy vegetables are the leading actors of this big show. The sauce, or the \"gaffer,\" has expertly focused the limelight on their duet, while each \"pocket\" is full of surprises, just like a magician's bag."
   },
   "SuspiciousPanipuri": {
     "name": "Suspicious Panipuri",
@@ -7285,7 +7537,7 @@
   },
   "DeliciousPanipuri": {
     "name": "Delicious Panipuri",
-    "description": "A delicacy that is served with dipping sauce. The round panipuri reminds you of slimes. Anticipate the mysterious, bright-colored spicy water within, and bring it to your mouth — the coolness, sourness, and tingling sensations are bouncing freely on your tongue as if someone has ignited a stick of dreamy dynamite. No wonder that some people in Sumeru are so obsessed with it..."
+    "description": "A delicacy that is served with dipping sauce. The round panipuri balls remind you of Slimes. Anticipate the mysterious, bright-colored juice within, and bring it to your mouth — the coolness, sourness, and tingling sensations are bouncing freely on your tongue as if someone has ignited a stick of dreamy dynamite. No wonder that some people in Sumeru are so obsessed with it..."
   },
   "SuspiciousMintyBeanSoup": {
     "name": "Suspicious Minty Bean Soup",
@@ -7299,17 +7551,17 @@
     "name": "Delicious Minty Bean Soup",
     "description": "A rich soup made with simple ingredients. The smooth texture caresses your taste buds, filling your mouth with the refreshing scent of beans and mints. The unadorned yet pleasant flavor reminds you of a leisurely walk in the shade. Who can refuse such simple delight?"
   },
-  "SuspiciousBeastlyRicePuffs": {
-    "name": "Suspicious Beastly Rice Puffs",
-    "description": "An aromatic pilaf. The rice grains are soaked in oil and have thus become translucent. Its greasy smell is rather unpleasant. A layer of oil remains on the plate even after you finish the dish... Best to stay away from greasy food for the next few days..."
+  "SuspiciousBiryani": {
+    "name": "Suspicious Biryani",
+    "description": "An aromatic rice dish. The rice grains are soaked in oil and have thus become translucent. Its greasy smell is rather unpleasant. A layer of oil remains on the plate even after you finish the dish... Best to stay away from greasy food for the next few days..."
   },
-  "BeastlyRicePuffs": {
-    "name": "Beastly Rice Puffs",
-    "description": "An aromatic pilaf. Stir-fry the meat such that it is crispy on the outside and tender on the inside. Then stew it with condiments and long-grain rice. Sprinkle a few Padisarah petals before serving. Every grain is saturated with the aroma of fatty meat and condiments. The dish has an exquisite taste only found in Sumeru."
+  "Biryani": {
+    "name": "Biryani",
+    "description": "An aromatic rice dish. Stir-fry the meat such that it is crispy on the outside and tender on the inside. Then stew it with condiments and long-grain rice. Sprinkle a few Padisarah petals before serving. Every grain is saturated with the aroma of fatty meat and condiments. The dish has an exquisite taste only found in Sumeru."
   },
-  "DeliciousBeastlyRicePuffs": {
-    "name": "Delicious Beastly Rice Puffs",
-    "description": "An aromatic pilaf. The golden crown made of long-grain rice and meat is adorned with Padisarah petals, a picture that reminds you of a desert dotted with oases. The enticing scent of spices dances across each grain of rice. Every mouthful soothes your whole body. It won't take long for a customer to empty the plate. They can't help but lick their mouth, savoring the lingering scent."
+  "DeliciousBiryani": {
+    "name": "Delicious Biryani",
+    "description": "An aromatic rice dish. The golden crown made of long-grain rice and meat is adorned with Padisarah petals, a picture that reminds you of a desert dotted with oases. The enticing scent of spices dances across each grain of rice. Every mouthful soothes your whole body. It won't take long for a customer to empty the plate. They can't help but lick their mouth, savoring the lingering scent."
   },
   "SuspiciousTahchin": {
     "name": "Suspicious Tahchin",
@@ -7325,7 +7577,7 @@
   },
   "SuspiciousLambadFishRoll": {
     "name": "Suspicious Lambad Fish Roll",
-    "description": "A grilled fish dish with a faint floral scent. Oh dearie me. The rank smell of fish and the stench of charred meat are most telling signs of your terrible skills. Take the dish away before Lambad sees it, or he might make you pay twice as much for your next order."
+    "description": "A grilled fish dish with a faint floral scent. Oh dearie me. The rank smell of fish and the stench of charred meat are the most telling signs of your terrible skills. Take the dish away before Lambad sees it, or he might make you pay twice as much for your next order."
   },
   "LambadFishRoll": {
     "name": "Lambad Fish Roll",
@@ -7341,7 +7593,7 @@
   },
   "CurryShrimp": {
     "name": "Curry Shrimp",
-    "description": "A simple, common dish in Sumeru. Flavorful curry is combined with seafood, with the shrimps being shimmered until chewy and then added into the curry soup. The combination of freshness and spiciness sets one's stomach growling. This dish is served in every Sumeru household, with a distinctive flavor under each roof. Every Sumeru family, it seems, has a customized curry shrimp recipe of their own."
+    "description": "A common household dish in Sumeru. The shrimps are first boiled until chewy, then added into the curry broth. The perfect blend of savory curry and flavors from the ocean is enough to make one's stomach growl. Though it's a common household dish, almost every family seems to have made their own variations to the recipe. Perhaps one could say that for every Sumeru household, there'll be a different version of curry shrimp."
   },
   "DeliciousCurryShrimp": {
     "name": "Delicious Curry Shrimp",
@@ -7361,26 +7613,26 @@
   },
   "SuspiciousPotatoBoat": {
     "name": "Suspicious Potato Boat",
-    "description": "A baked appetizer. The undercooked potatoes even have dirt on them... A failed attempt at cooking, it seems, and even the cheese that usually goes well with any other ingredients will not be able to save the day."
+    "description": "A baked appetizer. The undercooked potato even has dirt on it... A failed attempt at cooking, it seems, and even the cheese that usually goes well with any other ingredients will not be able to save the day."
   },
   "PotatoBoat": {
     "name": "Potato Boat",
-    "description": "A baked appetizer. The potatoes were washed clean and then baked together with cheese and Rukkhashava Mushrooms. The dish guarantees an unmatched experience when eaten hot. This explains its popularity on the streets of Sumeru. Still, be careful not to burn your tongue."
+    "description": "A baked appetizer. The potato was washed clean and then baked together with cheese and Rukkhashava Mushrooms. The dish guarantees an unmatched experience when eaten hot. This explains its popularity on the streets of Sumeru. Still, be careful not to burn your tongue."
   },
   "DeliciousPotatoBoat": {
     "name": "Delicious Potato Boat",
-    "description": "A baked appetizer. The oozing cheese flows forth like a golden river, carrying an alluring aroma into your mouth. Soon, you will be amazed by the freshness of the Rukkhashava Mushrooms and the softness of the potatoes. You can't help but wish that this leisurely and savory tour might last a little longer..."
+    "description": "A baked appetizer. The oozing cheese flows forth like a golden river, carrying an alluring aroma into your mouth. Soon, you will be amazed by the freshness of the Rukkhashava Mushrooms and the softness of the potato. You can't help but wish that this leisurely and savory tour might last a little longer..."
   },
   "SuspiciousFishWithCreamSauce": {
-    "name": "Suspicious Fish with Cream Sauce",
+    "name": "Suspicious Fish With Cream Sauce",
     "description": "A fish dish served in sauce. The outside was burnt in searing hot oil. It is rather hard not to notice the sharp contrast between the charcoal-black fish and the milk-white sauce. Only the meat inside seems edible... Wait, what's with this sourness?"
   },
   "FishWithCreamSauce": {
-    "name": "Fish with Cream Sauce",
+    "name": "Fish With Cream Sauce",
     "description": "A fish served in sauce. Fresh fish filets were dried before pan-fried until crispy, then drizzled with a creamy white dressing and sprinkled with fresh mint. A unique dish that can be made through the simplest methods."
   },
   "DeliciousFishWithCreamSauce": {
-    "name": "Delicious Fish with Cream Sauce",
+    "name": "Delicious Fish With Cream Sauce",
     "description": "A fish dish served in sauce. The translucent fillet lies upon exquisite cream sauce. With only a small mouthful, one might even see fish leaping on the sea surface."
   },
   "ForestWatchersChoice": {
@@ -7389,11 +7641,119 @@
   },
   "Yearning": {
     "name": "Yearning",
-    "description": "Collei's specialty. Nutrient-rich ingredients have been stuffed inside the soft pastry shell to create a filling dish fit for those on the move. According to Collei, the cutlet in it is named \"Forest Ranger's barbecue!\" ... You know, this rather reminds you of a certain enthusiastic girl in red. The dish must be the embodiment of Collei's innermost admiration."
+    "description": "Collei's specialty. Nutrient-rich ingredients have been stuffed inside the soft pastry shell to create a filling dish fit for those on the move. According to Collei, the cutlet in it is named \"Forest Rangers' barbecue!\" ... You know, this rather reminds you of a certain enthusiastic girl in red. The dish must be the embodiment of Collei's innermost admiration."
   },
   "ShowMeTheMora": {
     "name": "Show Me the Mora",
-    "description": "Dori's specialty. After paying a large sum of Mora, you finally got a chance to taste the dish cooked by the Lord Sangemah Bay herself. Firm chicken is covered in the silky sauce with a smooth texture. With the mind-controlling charm of its great flavor, this dish is spurring an impulse in you to spend another fortune just to get another bite!"
+    "description": "Dori's specialty. After paying a large sum of Mora, you finally got a chance to taste the dish cooked by Lord Sangemah Bay herself. Firm chicken is covered in the silky sauce with a smooth texture. With the mind-controlling charm of its great flavor, this dish is spurring an impulse in you to spend another fortune just to get another bite!"
+  },
+  "SuspiciousMeatLoversMushroomPizza": {
+    "name": "Suspicious Meat Lovers' Mushroom Pizza",
+    "description": "A pizza freshly baked in an oven. The messy lumps of cheese and ingredients give off a greasy smell, with a rock-hard crust just to make things worse. Well, what has the poor dish gone through to end up in this state? Was it the baking time or the excessive fermentation?"
+  },
+  "MeatLoversMushroomPizza": {
+    "name": "Meat Lovers' Mushroom Pizza",
+    "description": "A pizza freshly baked from the oven. The crust is dotted with large chunks of meat and fresh mushroom slices. The sweet, stretchy cheese further adds to the charm. You have no doubt that every slice will be snatched away the moment it is served. Speed, therefore, is a gourmet's best buddy when this pizza is on the table."
+  },
+  "DeliciousMeatLoversMushroomPizza": {
+    "name": "Delicious Meat Lovers' Mushroom Pizza",
+    "description": "A pizza freshly baked in an oven. Every inch of the crust is saturated with the fatty aroma of meat. Some mushrooms have been sprinkled on top to add freshness. Just a small mouthful shall greet your taste buds with the rich scent of cheese — most enticing indeed. You can't help reaching for another slice before you've even finished off the one in your hand."
+  },
+  "SuspiciousSunsetBerryTea": {
+    "name": "Suspicious Sunset Berry Tea",
+    "description": "A fruity drink with a pleasantly sour taste. You added sugar to temper the sourness of the tea but accidentally lost control of the added quantity. What should have been a thirst-quenching beverage has now become a throat-clenching liquid. Water, let's have some more water..."
+  },
+  "SunsetBerryTea": {
+    "name": "Sunset Berry Tea",
+    "description": "A fruity drink with a pleasantly sour taste. This scented tea gives off the pleasant aroma of fresh fruit. Its cold and refreshing taste is sure to dispel the stifling heat with each gulp."
+  },
+  "DeliciousSunsetBerryTea": {
+    "name": "Delicious Sunset Berry Tea",
+    "description": "A fruity drink with a pleasantly sour taste. The redolence of tea carries your thoughts away. With one sip of this tea, you feel as if you are lazing in a flourishing orchard, tipsy in the gentle breeze that carries a fruity scent."
+  },
+  "SuspiciousMilkyMushroomCrispTower": {
+    "name": "Suspicious Milky Mushroom Crisp Tower",
+    "description": "A crunchy delicacy. From the sorry side of the dish, it is easy to tell that this dish has been left out here for some time — water loss has already dried up and hardened the bread slices. Biting into it makes your chin sore... Next time, do remember to eat it while it's still nice and fresh..."
+  },
+  "MilkyMushroomCrispTower": {
+    "name": "Milky Mushroom Crisp Tower",
+    "description": "A crunchy appetizer that's baked with mushrooms and cheese on top of bread slices. A single whiff of its amazing smell is enough to fill one with anticipation. Give it a bite, and you'll experience a pleasant burst of sweetness."
+  },
+  "DeliciousMilkyMushroomCrispTower": {
+    "name": "Delicious Milky Mushroom Crisp Tower",
+    "description": "A crunchy delicacy. The faint creamy notes melt on your tongue as you munch on the succulent mushrooms and crispy bread. This unmatched sense of satisfaction somehow leaves you insatiable — you do not even hesitate to lick the bread crumbs off your fingertips."
+  },
+  "SuspiciousCoconutCharcoalCakes": {
+    "name": "Suspicious Coconut Charcoal Cakes",
+    "description": "A dark-colored pastry. One look is all it takes to tell that this is a disaster dish and a half. Your immense courage in trying one bite is rewarded with a supremely dry, coarse mouthfeel... Is this some kind of mistake? Was the charcoal plated up instead of the cake?"
+  },
+  "CoconutCharcoalCakes": {
+    "name": "Coconut Charcoal Cakes",
+    "description": "A dark-colored pastry. The Ajilenakh Nuts were first roasted and processed into powder before being filtered through a sieve, added to a batter, mixed evenly, and then baked. The product by no means looks impressive, but the fresh aroma of Ajilenakh wafts off it, and it tastes better still with some jam."
+  },
+  "DeliciousCoconutCharcoalCakes": {
+    "name": "Delicious Coconut Charcoal Cakes",
+    "description": "A dark-colored pastry. The pastry is fine, almost lustrous, and the fragrance of the Ajilenakh Nuts is both vivid and full of warmth. The cake is fluffy and delicate as it enters your mouth, exorcising exhaustion and muzzling misery. Ah, just as a book may not be judged by its cover, so too should a cake not be convicted by its crust."
+  },
+  "SuspiciousBaklava": {
+    "name": "Suspicious Baklava",
+    "description": "A traditional Sumeru dessert. The sickly sweetness explodes in your mouth like a bomb, leaving your teeth rattling in the wake of its saccharine shockwave. The appropriate amount of sweetness lifts the spirits, but too much of it becomes a terrible burden."
+  },
+  "Baklava": {
+    "name": "Baklava",
+    "description": "A traditional Sumeru dessert. This puff pastry contains chopped nuts and has been baked after having butter drizzled atop it — and not forgetting some syrup once it comes out of the oven. Some researchers will specially order this veritable \"fortress of sweetness\" to replenish their energies before an exam. This is also why this dish has great pride of place as the Akademiya's favorite dessert."
+  },
+  "DeliciousBaklava": {
+    "name": "Delicious Baklava",
+    "description": "A traditional Sumeru dessert. A certain researcher once said that the people of Sumeru can be split into two categories. Those who eat desserts to live, and those who live to eat desserts. The thin puff pastry layers of this dish, and the bone-piercing aroma of butter and honey, may yet consign all who taste it into the second camp."
+  },
+  "SuspiciousCandiedAjilenakhNut": {
+    "name": "Suspicious Candied Ajilenakh Nut",
+    "description": "A rich dessert. The hard nut is almost like a stone lying hidden in the sand, waiting to strike. Sweetness brings happiness, yes, but the feeling of the hard bits stuck between your teeth rather ruins it by half."
+  },
+  "CandiedAjilenakhNut": {
+    "name": "Candied Ajilenakh Nut",
+    "description": "A rich dessert. First, the syrup is boiled till clear, then mixed with fillings and sesame paste from Sumeru. Then at last, the evenly-mixed syrup is poured into a mold and allowed to solidify into this crunchy form. It is said that the cold lands of Snezhnaya play host to a similar dish, with some differences in flavor. Of course, both sides intractably believe theirs to be the greatest in all Teyvat."
+  },
+  "DeliciousCandiedAjilenakhNut": {
+    "name": "Delicious Candied Ajilenakh Nut",
+    "description": "A rich dessert. The syrup itself melts upon contact with your mouth, revealing the nut like a gem swathed in velvet, layer leading on to layer of joy. One small bite, and it is as if you are soaked in a tub of silken sweetness. Why, you really, really must make a few pieces more next time!"
+  },
+  "SuspiciousPadisarahPudding": {
+    "name": "Suspicious Padisarah Pudding",
+    "description": "A popular dessert in Sumeru. A single bite yields a mix of milky and floral flavors... Which isn't bad, exactly, but remains a far cry from what you expected from this pudding. Did you get the ingredient proportions wrong or something?"
+  },
+  "PadisarahPudding": {
+    "name": "Padisarah Pudding",
+    "description": "A popular dessert in Sumeru. Juices are squeezed from the petals of Padisarahs and Sumeru Roses before being mixed with milk, gelatin, sugar, and other ingredients, before being allowed to solidify. It looks cute and is very tasty, making it a commo sight at celebratory events in Sumeru."
+  },
+  "DeliciousPadisarahPudding": {
+    "name": "Delicious Padisarah Pudding",
+    "description": "A popular dessert in Sumeru. The moment it enters your mouth, the springy mouthfeel makes you feel like you're wandering atop the milk-flavored clouds. As you savor its flavors, the blended fragrance of Padisarah and Sumeru Rose fills the air. When you finally do reach that very last bite, it feels like something has been left unfinished. You cannot help but lick the back of your spoon, as if to savor the final sublime moments of enjoyment."
+  },
+  "SuspiciousAaruMixedRice": {
+    "name": "Suspicious Aaru Mixed Rice",
+    "description": "A large serving of filling staple food. In your hurry, you did not mix the various ingredients well before eating, resulting in a ridiculously thick tomato flavor on one side of the rice, and an utter blandness on the other... Best you mix it a bit better next time."
+  },
+  "AaruMixedRice": {
+    "name": "Aaru Mixed Rice",
+    "description": "A large serving of filling staple food. In this dish that has joined rice, noodles, and beans together, the secret to deliciousness lies in the sweet and sour flavor imparted by the tomatoes. Owing to its common nature and low price, this dish is a great choice for sating one's hunger — which is one of the key reasons why this recipe has spread from Aaru Village to the rest of Sumeru."
+  },
+  "DeliciousAaruMixedRice": {
+    "name": "Delicious Aaru Mixed Rice",
+    "description": "A large serving of filling staple food. Each grain of rice is distinct and distinctly coated in flavorful sauce as you spoon them into your mouth. No oily meats were used to make this dish, and yet its flavor is more alluring still. This dish stacks flavor like the endless dunes themselves, bringing a most unique satisfction."
+  },
+  "SwirlingSteps": {
+    "name": "Swirling Steps",
+    "description": "Nilou's specialty. The crystal-clear cup that reminds you of an ornate jewel case contains a soft, melt-in-your-mouth pudding. The reddish coloration, like a fleeting trance, reminds you ever so much of Nilou's radiant, dancing form. Ah, would that this dance might last forever."
+  },
+  "DuelSoul": {
+    "name": "Duel Soul",
+    "description": "Cyno's specialty. The golden grains of rice have been piled up like a most remarkable hill. As you scoop out a chunk and place the fragrant meat into your mouth, an impulse you cannot name rises within your chest — a desire to whip out your Genius Invokation deck and duel!"
+  },
+  "UtmostCare": {
+    "name": "Utmost Care",
+    "description": "Candace's specialty. The aroma of this dish hits your nose long before it can be plated up. It would seem that Candace's adept guardianship also extends to sustaining appetites... But, uh, this really is an extraordinary amount of Aaru Mixed Rice. How are you supposed to deal with this mountain of \"overflowing consideration\"?"
   },
   "RecipeItem": {
     "name": "Recipe Item",
@@ -7857,7 +8217,7 @@
   },
   "RecipePitaPocket": {
     "name": "Recipe: Pita Pocket",
-    "description": "A handwritten Pita Pocket recipe, with detailed cooking tips in small letters. The writer's penmanship seems questionable. Some letters are shaky, perhaps due to the bad conditio she was in. However, every word was written carefully.\\nIf you have learned how to cook it, don't forget to enjoy this delicious food together with her the next time you visit Gandharva Ville."
+    "description": "A handwritten Pita Pocket recipe, with detailed cooking tips in small letters. The writer's penmanship seems questionable. Some letters are shaky, perhaps due to the bad condition she was in. However, every word was written carefully.\\nIf you have learned how to cook it, don't forget to enjoy this delicious food together with her the next time you visit Gandharva Ville."
   },
   "RecipePanipuri": {
     "name": "Recipe: Panipuri",
@@ -7867,9 +8227,9 @@
     "name": "Recipe: Minty Bean Soup",
     "description": "A detailed step-by-step recipe for making Minty Bean Soup."
   },
-  "RecipeBeastlyRicePuffs": {
-    "name": "Recipe: Beastly Rice Puffs",
-    "description": "A detailed step-by-step recipe for making Beastly Rice Puffs."
+  "RecipeBiryani": {
+    "name": "Recipe: Biryani",
+    "description": "A detailed step-by-step recipe for making Biryani."
   },
   "RecipeTahchin": {
     "name": "Recipe: Tahchin",
@@ -7892,8 +8252,40 @@
     "description": "A detailed step-by-step recipe for making a Potato Boat."
   },
   "RecipeFishWithCreamSauce": {
-    "name": "Recipe: Fish with Cream Sauce",
-    "description": "A detailed step-by-step recipe for making Fish with Cream Sauce."
+    "name": "Recipe: Fish With Cream Sauce",
+    "description": "A detailed step-by-step recipe for making Fish With Cream Sauce."
+  },
+  "RecipeMeatLoversMushroomPizza": {
+    "name": "Recipe: Meat Lovers' Mushroom Pizza",
+    "description": "A detailed step-by-step recipe for making Meat Lovers' Mushroom Pizza."
+  },
+  "RecipeSunsetBerryTea": {
+    "name": "Recipe: Sunset Berry Tea",
+    "description": "A detailed step-by-step recipe for making Sunset Berry Tea."
+  },
+  "RecipeMilkyMushroomCrispTower": {
+    "name": "Recipe: Milky Mushroom Crisp Tower",
+    "description": "A detailed step-by-step recipe for making a Milky Mushroom Crisp Tower."
+  },
+  "RecipeCharcoalBakedAjilenakhCake": {
+    "name": "Recipe: Charcoal-Baked Ajilenakh Cake",
+    "description": "A detailed step-by-step recipe for making Charcoal-Baked Ajilenakh Cake."
+  },
+  "RecipeBaklava": {
+    "name": "Recipe: Baklava",
+    "description": "A detailed step-by-step recipe for making Baklava."
+  },
+  "RecipeCandiedAjilenakhNut": {
+    "name": "Recipe: Candied Ajilenakh Nut",
+    "description": "A detailed step-by-step recipe for making Candied Ajilenakh Nut."
+  },
+  "RecipePadisarahPudding": {
+    "name": "Recipe: Padisarah Pudding",
+    "description": "A detailed step-by-step recipe for making Padisarah Pudding."
+  },
+  "RecipeAaruMixedRice": {
+    "name": "Recipe: Aaru Mixed Rice",
+    "description": "A detailed step-by-step recipe for making Aaru Mixed Rice."
   },
   "CraftedItems": {
     "name": "Crafted Items",
@@ -7949,7 +8341,7 @@
   },
   "Spice": {
     "name": "Spice",
-    "description": "A seasoning with varied flavors. It is made from dried Harra Fruits and can enrich the taste of a dish. Therefore, Sumeru locals say, \"spice goes well with anything.\""
+    "description": "A seasoning with varied flavors. It is made from dried Harra Fruits and can enrich the taste of a dish. Therefore, Sumeru locals say, \"Spice goes well with anything.\""
   },
   "HeatshieldPotion": {
     "name": "Heatshield Potion",
@@ -8041,7 +8433,7 @@
   },
   "SugardewBait": {
     "name": "Sugardew Bait",
-    "description": "The bait is based on rose dew and has been mixed with sun-dried harra fruit powder. It has a spicy taste and a sweet aftertaste, just like the life of a fisherman. The harvest after going through all the weather-beaten days and roaring waves is particularly gratifying.\\n\\nSuitable for: Angler and Axe Marlin."
+    "description": "The bait is based on rose dew and has been mixed with sun-dried Harra Fruit powder. It has a spicy taste and a sweet aftertaste, just like the life of a fisherman. The harvest after going through all the weather-beaten days and roaring waves is particularly gratifying.\\n\\nSuitable for: Angler and Axe Marlin."
   },
   "PrimordialEssence": {
     "name": "Primordial Essence",
@@ -8289,7 +8681,7 @@
   },
   "InactivatedFungalNucleus": {
     "name": "Inactivated Fungal Nucleus",
-    "description": "Body tissue left behind by a Fungus that has been exposed to intense elemental stimulation.\\nIts soothing texture makes it shockingly good for stress relief. However, frequent usage can also easily lead to the Fungi multiplying, and thus is not suitable for any commercial use."
+    "description": "Body tissue left behind by a Fungus that has been exposed to intense elemental stimulation.\\nIts soothing texture makes it shockingly good for stress relief. However, frequent usage can also easily lead to the Fungi multiplying, and thus the material is not suitable for any commercial use."
   },
   "DormantFungalNucleus": {
     "name": "Dormant Fungal Nucleus",
@@ -8309,7 +8701,7 @@
   },
   "RichRedBrocade": {
     "name": "Rich Red Brocade",
-    "description": "A piece of red brocade woven in golden silks.\\nThe remnants born in the gilded desert under the sun occasionally sing a song, of which the meaning has been forgotten. They would praise the scorching sun that illuminates the earth as equally as ever and bewail the afterglow at the end of the dusk. Some unfamiliar words recur at the end of the song, which are said to be the names of ancient gods. Legend has it that when the King of the Desert was still alive, his people chose to cover their eyes as they dared not look upon him, whose brilliance was beyond that of the sun."
+    "description": "A piece of red brocade woven with golden thread.\\nThose born in the gilded desert under the sun occasionally sing a song, of which the meaning has been forgotten. They would praise the scorching sun that illuminates the earth as equally as ever and bewail the afterglow at the end of the dusk. Some unfamiliar words recur at the end of the song, which are said to be the names of ancient gods. Legend has it that when the King of the Desert was still alive, his people chose to cover their eyes as they dared not look upon him, whose brilliance was beyond that of the sun."
   },
   "ChaosStorage": {
     "name": "Chaos Storage",
@@ -8322,6 +8714,18 @@
   "ChaosBolt": {
     "name": "Chaos Bolt",
     "description": "Comes from a now-inactive ancient Ruin Drake.\\nAmong the lost ancient kingdoms, there was a group of people who were obsessed with the idea of mimesis. Be it the Hypostases' pure ordered elements or the ancient primitive power of the dragons, these people believed that they might all be replicated and modified to the point where they had surpassed their natural counterparts.\\nBy this means, a superior and unsullied bodily form could replace the continuously decaying and shattering order."
+  },
+  "DamagedPrism": {
+    "name": "Damaged Prism",
+    "description": "A damaged component obtained from defeating a Primal Construct.\\nThese uniquely-shaped machines are the eternal sentinels of the desert ruins, and they possess the power to pierce the mountains and reshape rocks. The same principles that power many mysterious devices above and beneath the earth also power these machines."
+  },
+  "TurbidPrism": {
+    "name": "Turbid Prism",
+    "description": "A damaged component obtained from defeating a Primal Construct.\\nIt is said that these machines are different from those ruin machines that come from deep within the desert, for they were not made as heralds of destruction or conquest."
+  },
+  "RadiantPrism": {
+    "name": "Radiant Prism",
+    "description": "A damaged component obtained from defeating a Primal Construct.\\nThe lord of the barren desert once had a dream, and once made a great many promises.\\nThe legends of the desert say that these machines were originally vehicles for these unknown promises, which now live on only within their mechanical memory banks."
   },
   "HurricaneSeed": {
     "name": "Hurricane Seed",
@@ -8471,6 +8875,14 @@
     "name": "Thunderclap Fruitcore",
     "description": "The core of an Electro Regisvine, wrapped in razor-sharp leaves, wantonly emits Electro energy.\\nThe roaring energy rampaging deep within the earth is eager to pour out its rage, thus even tainting these unfortunate vines with its mania, causing them to wail and flail their branches frantically. One can hardly tell whether it longs for others to taste the pain of being continuously electrocuted and charred or if it is struggling, looking forward to its inevitable doom."
   },
+  "PerpetualCaliber": {
+    "name": "Perpetual Caliber",
+    "description": "A motive device obtained from a mysterious ruin machine.\\nThe machine it once powered may have been destroyed, but it continues to rotate all the same.\\nThere should be no such thing as an energy source that can sustain itself forever in this world, and most research results obtained in the field of \"perpetual motion\" have been eventually proved false. Yet, this device is proof that a now-destroyed civilization once reached heights that present-day nations could not hope to match..."
+  },
+  "LightGuidingTetrahedron": {
+    "name": "Light Guiding Tetrahedron",
+    "description": "A core component obtained via defeating a mysterious ruin machine.\\nTo this day, these ancient devices have not forgotten the dreams of their masters or their own duties: to build a thousand palaces, to administrate three thousand machines, to sow ten thousand flowers that shall never bloom again, and to recreate a paradise now buried beneath the desert sands for the sake of all who live in this world.\\nThough the lord of the desert no longer lives, and those dreams have long been corrupted by sinful whispers, and though all the magical pillars have been broken and have collapsed, the great beast once favored by the king hides still within the great searing storm."
+  },
   "TileOfDecarabiansTower": {
     "name": "Tile of Decarabian's Tower",
     "description": "Weapon Ascension Material.\\nThe place now known as Stormterror's Lair was once the capital city of Decarabian, the God of Storms. Since this dream of prosperity was created entirely by his divine might, the broken pieces left behind by the shattering of that dream still possess great power."
@@ -8614,6 +9026,54 @@
   "MaskOfTheKijin": {
     "name": "Mask of the Kijin",
     "description": "Weapon Ascension Material.\\nChiyo, a warrior of the oni tribe with the Electro Mitsudomoe emblem emblazoned on her back, was once swallowed whole by a beast from beyond this world that had a tiger's body and a serpent's tail while holding back the forces of darkness. At last, she tore the creature's innards apart from within, breaking free.\\nThis is the origin of the phrase \"Chiyo the Tiger-Bite,\" and would be changed over many years to \"Torachiyo.\"\\nBut within the belly of the beast, she was stained by a deep sin and saw her comrades ripped to shreds by those blood-red teeth. Steeped in darkness as far as the eye could see, she would eventually draw her sword upon the Almighty Narukami Ogosho. Her sword-arm and one horn would be cloven, and she would flee from the city into the forest like a wounded beast. There, they say that she was taken for some unknown monster and slain by the tengu, or perhaps by the Shuumatsuban — or perhaps by a scion of the Iwakura Clan training deep in the mountains, for her features had been twisted by hatred and the agony of her wounds. Or perhaps she even met the oni-masked, sword-bearing doll near the corpse of the giant serpent, and there ended her life's journey.\\nFew among those who fought against the abyss in those days were spared pitch-dark dreams. Those who slew monsters and then became them were hardly the minority. The border between worlds grows fragile, and corruption of this kind is perhaps not merely monodirectional."
+  },
+  "CopperTalismanOfTheForestDew": {
+    "name": "Copper Talisman of the Forest Dew",
+    "description": "Weapon Ascension Material.\\nUnder the instructions of the First Sage, the ancestors of the forest people made these talismans using withered trees to commemorate the Lord of Verdure.\\nThe talisman's shape was inspired by the forest dew. It symbolizes the permeation of wisdom into mortal minds."
+  },
+  "IronTalismanOfTheForestDew": {
+    "name": "Iron Talisman of the Forest Dew",
+    "description": "Weapon Ascension Material.\\nLater, the Lord of Verdure taught people the mystery of the forging of black iron. The innocent mortals thus grasped the knowledge of using fire to forge blades.\\nThe Lord of Verdure took pleasure in their knowledge — Lethal as fire and blades were to her, they made ordinary people powerful."
+  },
+  "SilverTalismanOfTheForestDew": {
+    "name": "Silver Talisman of the Forest Dew",
+    "description": "Weapon Ascension Material.\\nIn the myriad lore of the forest, the one in the striped cape that resembled blazing flames was the Greater Lord of the Labyrinths and the Owner of the Moon-Mirrored Spring.\\nWhen he bowed his head and struck up a friendship with the Lord of Verdure, the tokens of their friendship were the gems that glimmered like water and silver that gleamed like the moonlight.\\nTo repay such a gesture, the Lord of Verdure promised to keep secrets for the Greater Lord of the Labyrinths and safeguard the intricate and beautiful dreams of the rainforest.\\nNo one could have foretold that the magnificent mansion of secrets and dreams would later fade away amidst the shroud of the dark flame of oblivion, after which its ash returned to the soil and became nutrients for the virgin rainforests."
+  },
+  "GoldenTalismanOfTheForestDew": {
+    "name": "Golden Talisman of the Forest Dew",
+    "description": "Weapon Ascension Material.\\n\"Mortals hold dear three things only: the spring water that embraces the moonlight, verdant life, and ageless youth...\"\\nThe nature of \"wisdom\" is not domination over all minds or scheming to gain all the benefit. Instead, it is about empowering even ordinary beings to one day overcome their imposed constraints.\\nThough the roar of the tiger is no longer heard in the forest and the resilient guardians would seclude themselves within the dreams of children... On the night when every secret golden seal is lifted and all dreams glow like amber in the moonlight, perhaps she and her beloved people will eventually win genuine freedom."
+  },
+  "OasisGardensReminiscence": {
+    "name": "Oasis Garden's Reminiscence",
+    "description": "Weapon Ascension Material.\\nPeople used to say that the Lord of Flowers was the Lord of Joy and Happiness. Freshwater sprang from her sleeves, and thus was the oasis of blossoming flowers born in the desert. Flowers and grasses followed in her footsteps, and gleaming moonlight cleared the way for her.\\nIn the bitter days when the sky turned its back on the ground, the Lord of Flowers extended her mercy to each and every one of the mortals, letting them regain their happiness and egos, allowing leisure and luxury to resume."
+  },
+  "OasisGardensKindness": {
+    "name": "Oasis Garden's Kindness",
+    "description": "Weapon Ascension Material.\\nIn the literature buried deep beneath the yellow sands, the Lord of Flowers was the Mistress of Dreams.\\nShe bestowed dreams upon the exiled, the manic, and the foolish. In those dreams, they were presented with their dearest delights. Burdened by the brutality of reality, they were fascinated by the charm of the Lord of Flowers and captivated by her beauty and care."
+  },
+  "OasisGardensMourning": {
+    "name": "Oasis Garden's Mourning",
+    "description": "Weapon Ascension Material.\\nThe Lord of Flowers was in an amicable relationship with the Jinn.\\nThe Mistress of Flowers and Oases joined hands with the Lord of Deserts and built Ay-Khanoum, the \"City of Amphitheaters,\" which carried the meaning of \"City of the Moon Maiden\" in the ancient language of the Jinn.\\nLater, however, it was said that the Lord of Flowers died due to the malice of the burning sun and yellow sand, after which the blossoms of purple Padisarahs were never seen again in the oases.\\nAfter the departure of the Lord of Flowers, the sandstorms keened, the Jinn sobbed, and the moonlight-silver gem disc lost its original, glad purpose, giving off a mournful glimmer."
+  },
+  "OasisGardensTruth": {
+    "name": "Oasis Garden's Truth",
+    "description": "Weapon Ascension Material.\\n\"Who would worship a departed god?\"\\nThe Lord of Flowers was once in alliance with two other gods. Apart from wisdom and power, she also brought mercy and joy to her people.\\nJust as the earth needs more than the burning sunshine and pouring rain, to the people of the Lord of Flowers, joy and love, singing and music, and wine and extravagance were just as vital as strength and sensibility.\\nIt is said that flowers blossom so that they may enjoy a spectacular death, and that death was precisely the wholehearted pursuit of the Lord of Flowers — for death adds bitterness to lost joy, and intensifies with time across endless memories.\\nThe ignorant Lord of Deserts was never aware of her reasoning. He only reveled in her immense charm and grace — and as misguided as such fervent affections might be, they were well within the calculations of the Lord of Flowers."
+  },
+  "EchoOfScorchingMight": {
+    "name": "Echo of Scorching Might",
+    "description": "Weapon Ascension Material.\\nA long time ago, the people of the Lord of Deserts carved these imperial insignias based on robust beetles to memorialize the bright sun that marked the shifting of day and night, as well as the infinity of such times.\\nThough the name of that Lord is no longer mentioned, these imperial insignias have been preserved through time, each bearing a faint ambiance of those past glories.\\nThese insignias travel with the descendants of the Eremite Tribe, silently telling the tales of their then-Lord."
+  },
+  "RemnantGlowOfScorchingMight": {
+    "name": "Remnant Glow of Scorching Might",
+    "description": "Weapon Ascension Material.\\nTo weave together myriad thoughts and reign over countless souls — this is the essence of power.\\nHowever, power is not cold-blooded tyranny. Its true ideal, at its heart, is to create a utopia free of worry, schemes, and slavery.\\nIt was just as the silent lord saw in the crystal's secrets, and just as the lost companion had once taught.\\nThe dark insect insignia and the steel judgment thus laid the foundations of the kingdom's rules."
+  },
+  "DreamOfScorchingMight": {
+    "name": "Dream of Scorching Might",
+    "description": "Weapon Ascension Material.\\nSilver moonlight and clear springs once completed the scenery of the oases. But as the Lord of Flowers faded in the darkening sandstorm, so was the worriless golden paradise submerged by death.\\nIn the poetry of the Eremite Tribe, the moon cast its silver light on the crimson mantle, causing Al-Ahmar, the Mourning King, to be driven to madness.\\nIn a melancholic desert ballad, driven by the haunting nostalgia, the lonely king created an ever-youthful dreamland in the center of the desert, where undisturbed water sprang up and perpetual dusk remained."
+  },
+  "OldenDaysOfScorchingMight": {
+    "name": "Olden Days of Scorching Might",
+    "description": "Weapon Ascension Material.\\nIn the era when the ignorant Lord of Deserts ruled, his power descended upon every inch of the land like the scorching sun.\\nAncient stone tablets record that he turned his power into seven rays of blinding light or seven pillars, which he granted equally and mercifully to everyone. No one was neglected, nor was anyone discontented.\\nThat was a forgotten golden era, an era when the Lord of Flowers had faded into the sands and the Lord of Verdure was determined to leave. Only the descendants in the yellow sand chose to follow their god. Even as the grim shadow of calamity loomed, the power in which they had faith shone brightly like amber and gold.\\nYet calamity befell nonetheless, and the golden insectoid insignias were buried beneath the depths of shrine and palace, under collapsed pillars engraved with images of eagles and bulls."
   },
   "StarterSupplyBundle": {
     "name": "Starter Supply Bundle",
@@ -8799,6 +9259,10 @@
     "name": "Cake for Traveler",
     "description": "A gift given to a very special someone on a very special day.\\n\\nHere's to you, the brightest star in the night sky.\\nWishing you a joyous journey in this great big world."
   },
+  "ANoteAlraniLeftForNiloofar": {
+    "name": "A Note Alrani Left for Niloofar",
+    "description": "A note Alrani left for her tutor Niloofar. The handwriting is fairly sloppy, but the writer pressed so hard on the paper that anyone reading the note can immediately feel her then intense emotions.\\n\\n\"I HATE writing papers!\""
+  },
   "AResearchPaperByPirKavikavus": {
     "name": "A Research Paper by Pir Kavikavus",
     "description": "This paper is titled \"Theory and Practice: Enhancing the Safety of the Chaos Core in Unstable Conditions Using the Khaenri'ah Ruin Golem of Devantaka Mountain as an Example.\" The body of the paper is riddled with jargon. If you are not a senior Kshahrewar researcher, chances are that the paper's argument will be no less than unfathomable."
@@ -8855,25 +9319,65 @@
     "name": "Shabby Rack",
     "description": "An incredibly shabby rack. It is unclear what it is used for..."
   },
+  "JavisDream": {
+    "name": "Javi's Dream",
+    "description": "A box containing a dream. However, the one who once cherished the dream has long forgotten about it."
+  },
   "TheShepherdAndTheMagicBottle": {
     "name": "The Shepherd and the Magic Bottle",
     "description": "The story of a shepherd who came across a magic bottle within which an unexpected being was confined."
   },
-  "TheTaleOfHiruyAndShirinI": {
-    "name": "The Tale of Hiruy and Shirin (I)",
+  "TheTaleOfShiruyehAndShirinI": {
+    "name": "The Tale of Shiruyeh and Shirin (I)",
     "description": "A Jinni tells a tale on the night wind, a story about itself and a shepherd. It's a story of unknown origin and is full of absurdities."
   },
-  "TheTaleOfHiruyAndShirinII": {
-    "name": "The Tale of Hiruy and Shirin (II)",
+  "TheTaleOfShiruyehAndShirinII": {
+    "name": "The Tale of Shiruyeh and Shirin (II)",
     "description": "A Jinni tells a tale on the night wind, a story about itself and a shepherd. It's a story of unknown origin and is full of absurdities."
   },
-  "TheLayOfAynAlAhmar": {
-    "name": "The Lay of Ayn Al-Ahmar",
+  "TheLayOfAlAhmar": {
+    "name": "The Lay of Al-Ahmar",
     "description": "A story about an ancient god whose name has been lost to history. The story is told by a floating Jinni. The veracity of the story cannot be determined."
+  },
+  "TheFolioOfFoliageI": {
+    "name": "The Folio of Foliage (I)",
+    "description": "A biography written by researchers from ancient Sumeru. It records the trail of the Dendro Archon during the times of calamity."
+  },
+  "TheFolioOfFoliageII": {
+    "name": "The Folio of Foliage (II)",
+    "description": "A biography written by researchers from ancient Sumeru. It records the trail of the Dendro Archon during the times of calamity."
+  },
+  "TheFolioOfFoliageIII": {
+    "name": "The Folio of Foliage (III)",
+    "description": "A biography written by researchers from ancient Sumeru. It records the trail of the Dendro Archon during the times of calamity."
+  },
+  "ScrollOfStreamingSongI": {
+    "name": "Scroll of Streaming Song (I)",
+    "description": "A torn page discovered in the desert ruins and retrieved by researchers from the Vahumana school of the Akademiya. The author of this page has yet to be confirmed."
+  },
+  "ScrollOfStreamingSongII": {
+    "name": "Scroll of Streaming Song (II)",
+    "description": "A torn page discovered in the desert ruins and retrieved by researchers from the Vahumana school of the Akademiya. The author of this page has yet to be confirmed."
+  },
+  "ScrollOfStreamingSongIII": {
+    "name": "Scroll of Streaming Song (III)",
+    "description": "A torn page discovered in the desert ruins and retrieved by researchers from the Vahumana school of the Akademiya. The author of this page has yet to be confirmed."
   },
   "AnOdeToSoulLight": {
     "name": "An Ode to Soul-Light",
     "description": "Lore reportedly passed down within a lost religious group in the desert. Someone has transcribed it into a script."
+  },
+  "TransparentRuinsRecordII": {
+    "name": "Transparent Ruins Record (II)",
+    "description": "A stone slate that you found in the transparent ruins near The Scarlet King's Mausoleum. This seems to be a record left by a lost civilization."
+  },
+  "TransparentRuinsRecordIII": {
+    "name": "Transparent Ruins Record (III)",
+    "description": "A stone slate that you found in the transparent ruins near The Scarlet King's Mausoleum. This seems to be a record left by a lost civilization."
+  },
+  "AKey": {
+    "name": "A Key",
+    "description": "A key stolen by a Weasel Thief. If there is a key, then there must be a lock that matches it. But what would an abandoned hospital still have to hide?"
   },
   "UnsealedParchment": {
     "name": "Unsealed Parchment",
@@ -8881,11 +9385,11 @@
   },
   "GuidingParchment": {
     "name": "Guiding Parchment",
-    "description": "An ancient and mysterious roll of parchment looks like a note left by an adventurer. New words keep appearing on it."
+    "description": "An ancient and mysterious roll of parchment. It looks like a note left by an adventurer. New words keep appearing on it."
   },
   "WhisperingParchment": {
     "name": "Whispering Parchment",
-    "description": "An ancient and mysterious roll of parchment. It looks like a note left by an adventurer. New words keep appearing all the time."
+    "description": "An ancient and mysterious roll of parchment. It looks like a note left by an adventurer. New words keep appearing on it."
   },
   "MysteriousParchment": {
     "name": "Mysterious Parchment",
@@ -8919,9 +9423,145 @@
     "name": "Ragged Attendance Record",
     "description": "Ragged Attendance Record"
   },
+  "MedicalRecords": {
+    "name": "Medical Records",
+    "description": "A complete set of medical documentation that seems to have been extracted from a larger book."
+  },
+  "DiagnosticReport": {
+    "name": "Diagnostic Report",
+    "description": "A complete set of medical documentation that seems to have been extracted from a larger book."
+  },
+  "ShevirmesFunds": {
+    "name": "Shevirme's Funds",
+    "description": "The funds possessed by the shop owner named Shevirme. The Fairbrew Jelly within is meant to be used to purchase 50 boxes of Fruits of the Festival from Angel's Share."
+  },
+  "QuqingsFunds": {
+    "name": "Quqing's Funds",
+    "description": "The funds possessed by the shop owner named Quqing. The Fairbrew Jelly within is meant to be used to purchase 65 boxes of Mintberries from The Cat's Tail."
+  },
+  "GuanchuisFunds": {
+    "name": "Guanchui's Funds",
+    "description": "The funds possessed by the chef named Guanchui. The Fairbrew Jelly within is meant to be used to purchase 100 boxes of Fruits of the Festival from Angel's Share."
+  },
+  "ZakariyasPrescriptionForMaruf": {
+    "name": "Zakariya's Prescription for Maruf",
+    "description": "The words on this prescription resemble nothing so much as a serpentine dance. You can barely make out of the phrases \"Mint,\" \"high flame,\" and \"the herbs float.\""
+  },
+  "ZakariyasMedicineForMaruf": {
+    "name": "Zakariya's Medicine for Maruf",
+    "description": "The medicine that Zakariya has made for Maruf. It smells and looks like something bitterly terrible..."
+  },
   "AnElegantlyWrittenNote": {
     "name": "An Elegantly-Written Note",
-    "description": "???"
+    "description": "Judging by the wording, it seems to be a notebook that Dunyarzad has left behind. If the writer's hands hadn't turned shaky under the influence of Eleazar, the gracefully-penned writings could appear more elegant."
+  },
+  "NerminsMintyBeanSoup": {
+    "name": "Nermin's Minty Bean Soup",
+    "description": "A serving of Minty Bean Soup that Nermin made herself. She even added Zaytun Peaches to it. It should taste quite good, you think..."
+  },
+  "FutureStar": {
+    "name": "Future Star",
+    "description": "In a certain cosmological setting, the Great Future Star is a precious treasure that contains hope and infinite possibility, and that Future Stars are naught but fragments of that larger whole. If you can gather all six fragments together, you can summon the true Greater Star forth. As for what this greater object looks like or what it can be used for, that has gone unstated.\\nOf course, in some other settings, it might be an object kept in storage by an organization known as the Akademiya, and perhaps its recorded name might even be the Parvo Core. There is a thin layer of dust over this object due to a long period of disuse."
+  },
+  "RaefsBag": {
+    "name": "Raef's Bag",
+    "description": "This bag contains pots, flower seeds, fertilizers and many other gardening suppplies. It is very heavy indeed. It must have been quite difficult to carry it across the desert..."
+  },
+  "NerminsSpices": {
+    "name": "Nermin's Spices",
+    "description": "Spices that Nermin ordered from Azalai. Not too expensive, and the quality is pretty good, too."
+  },
+  "KeystoneI": {
+    "name": "Keystone (I)",
+    "description": "A stone slate with some kind of power remaining within it. It can be used to open nearby paths. Well, one might suppose that this is some ancient key, eh?"
+  },
+  "TornPageAThousandNightsI": {
+    "name": "Torn Page: A Thousand Nights (I)",
+    "description": "Collect all 10 pages to form A Thousand Nights (I).\\n\\nThis flimsy page has seemingly dropped from the spine of a storybook of storied age.\\nPerhaps you might be able to reconstruct the complete text, should you find other torn pages elsewhere."
+  },
+  "TornPageAThousandNightsII": {
+    "name": "Torn Page: A Thousand Nights (II)",
+    "description": "Collect all 10 pages to form A Thousand Nights (II).\\n\\nThis flimsy page has seemingly dropped from the spine of a storybook of storied age.\\nPerhaps you might be able to reconstruct the complete text, should you find other torn pages elsewhere."
+  },
+  "TornPageAThousandNightsIII": {
+    "name": "Torn Page: A Thousand Nights (III)",
+    "description": "Collect all 10 pages to form A Thousand Nights (III).\\n\\nThis flimsy page has seemingly dropped from the spine of a storybook of storied age.\\nPerhaps you might be able to reconstruct the complete text, should you find other torn pages elsewhere."
+  },
+  "TornPageAThousandNightsIV": {
+    "name": "Torn Page: A Thousand Nights (IV)",
+    "description": "Collect all 10 pages to form A Thousand Nights (IV).\\n\\nThis flimsy page has seemingly dropped from the spine of a storybook of storied age.\\nPerhaps you might be able to reconstruct the complete text, should you find other torn pages elsewhere."
+  },
+  "TornPageAThousandNightsV": {
+    "name": "Torn Page: A Thousand Nights (V)",
+    "description": "Collect all 10 pages to form A Thousand Nights (V).\\n\\nThis flimsy page has seemingly dropped from the spine of a storybook of storied age.\\nPerhaps you might be able to reconstruct the complete text, should you find other torn pages elsewhere."
+  },
+  "TornPageAThousandNightsVI": {
+    "name": "Torn Page: A Thousand Nights (VI)",
+    "description": "Collect all 10 pages to form A Thousand Nights (VI).\\n\\nThis flimsy page has seemingly dropped from the spine of a storybook of storied age.\\nPerhaps you might be able to reconstruct the complete text, should you find other torn pages elsewhere."
+  },
+  "AThousandNightsI": {
+    "name": "A Thousand Nights (I)",
+    "description": "A wandering researcher once walked through rainforest, desert, and city during a time of great catastrophe, collecting these stories along the way. It is said that the original work truly did contain countless tales and that naught but a fragment of that is still extant today."
+  },
+  "AThousandNightsII": {
+    "name": "A Thousand Nights (II)",
+    "description": "A wandering researcher once walked through rainforest, desert, and city during a time of great catastrophe, collecting these stories along the way. It is said that the original work truly did contain countless tales and that naught but a fragment of that is still extant today."
+  },
+  "AThousandNightsIII": {
+    "name": "A Thousand Nights (III)",
+    "description": "A wandering researcher once walked through rainforest, desert, and city during a time of great catastrophe, collecting these stories along the way. It is said that the original work truly did contain countless tales and that naught but a fragment of that is still extant today."
+  },
+  "AThousandNightsIV": {
+    "name": "A Thousand Nights (IV)",
+    "description": "A wandering researcher once walked through rainforest, desert, and city during a time of great catastrophe, collecting these stories along the way. It is said that the original work truly did contain countless tales and that naught but a fragment of that is still extant today."
+  },
+  "AThousandNightsV": {
+    "name": "A Thousand Nights (V)",
+    "description": "A wandering researcher once walked through rainforest, desert, and city during a time of great catastrophe, collecting these stories along the way. It is said that the original work truly did contain countless tales and that naught but a fragment of that is still extant today."
+  },
+  "AThousandNightsVI": {
+    "name": "A Thousand Nights (VI)",
+    "description": "A wandering researcher once walked through rainforest, desert, and city during a time of great catastrophe, collecting these stories along the way. It is said that the original work truly did contain countless tales and that naught but a fragment of that is still extant today."
+  },
+  "SamersMissive": {
+    "name": "Samer's Missive",
+    "description": ""
+  },
+  "ShevirmesInvoice": {
+    "name": "Shevirme's Invoice",
+    "description": "An invoice that Georg wrote for Shevirme. It records the price for the 50 boxes of Fruits of the Festival, the details of various fees, the transaction time, and the estimated time when the goods will arrive. This will surely put your client at ease."
+  },
+  "QuqingsInvoice": {
+    "name": "Quqing's Invoice",
+    "description": "An invoice that Diane wrote for Quqing. It records the price for the 65 boxes of Mintberries, the details of various fees, the transaction time, and the estimated time when the goods will arrive. This will surely put your client at ease."
+  },
+  "GuanchuisInvoice": {
+    "name": "Guanchui's Invoice",
+    "description": "An invoice that Georg wrote for Guanchui. It records the price for the 100 boxes of Fruits of the Festival, the details of various fees, the transaction time, and the estimated time when the goods will arrive. This will surely put your client at ease."
+  },
+  "KeystoneII": {
+    "name": "Keystone (II)",
+    "description": "A stone slate with some kind of power remaining within it. It can be used to open nearby paths. Well, one might suppose that this is some ancient key, eh?"
+  },
+  "AzalaisPayment": {
+    "name": "Azalai's Payment",
+    "description": "Azalai's payment. It seems quite substantial..."
+  },
+  "RamasReceipt": {
+    "name": "Rama's Receipt",
+    "description": "A receipt you got from Rama. You can use it to receive Rama's goods on his behalf."
+  },
+  "ButrusReceipt": {
+    "name": "Butrus' Receipt",
+    "description": "A receipt you got from Butrus. You can use it to receive Butrus' goods on his behalf."
+  },
+  "JutsReceipt": {
+    "name": "Jut's Receipt",
+    "description": "A receipt you got from Jut. You can use it to receive Jut's goods on his behalf."
+  },
+  "JahangirsReceipt": {
+    "name": "Jahangir's Receipt",
+    "description": "A receipt you got from Jahangir. You can use it to receive Jahangir's goods on his behalf."
   },
   "SilkFlowerSeed": {
     "name": "Silk Flower Seed",
@@ -9129,7 +9769,7 @@
   },
   "SunsetCloudAngler": {
     "name": "Sunset Cloud Angler",
-    "description": "A medium-sized, round fish with horn-like cartilage that is used to dig underwater burrows, build shelters and drive away creatures that try to harm it.\\nAs the longest-living species of pufferfish, they have a light gray color and are easy to identify. The color comes from their unique way of survival — their cutis contains a substance similar to bile, which is far more acidic than that of other fish, causing them to be shunned by many underwater creatures.\\nBut when cooked in a special way, the acidity actually adds to the freshness of the fish. As a result, this fish sells very well. At Sumeru's fish markets, you can often see signs that say: \"Do not keep pufferfish in the same tank as other fish meant for consumption.\""
+    "description": "A medium-sized, round fish with horn-like cartilage that is used to dig underwater burrows, build shelters and drive away creatures that try to harm it.\\nAs the longest-living species of pufferfish, they have a light gray color and are easy to identify. The color comes from their unique way of survival — their cutis contains a substance similar to bile, which is far more acidic than that of other fish, causing them to be shunned by many underwater creatures.\\nBut when cooked in a special way, the acidity actually adds to the freshness of the fish. As a result, this fish sells very well. At Sumeru's fish markets, you can often see signs that say: \"Do not keep Sunset Cloud Anglers in the same tank as other fish meant for consumption.\""
   },
   "LazuriteAxeMarlin": {
     "name": "Lazurite Axe Marlin",
@@ -9241,7 +9881,11 @@
   },
   "OriginalFishOintment": {
     "name": "Original Fish Ointment",
-    "description": "Specialized refinement material for \"The Trawler.\"\\nOintment refined from a catch from the great lake in the north. It has the effect of temporarily restoring the energy of the fish that could be made into fine bows.\\nIt is said that in the lake dwell aquatic creatures that cannot be seen anywhere else in Teyvat."
+    "description": "Specialized refinement material for \"End of the Line.\"\\nOintment refined from a catch from the great lake in the north. It has the effect of temporarily restoring the energy of the fish that could be made into fine bows.\\nIt is said that in the lake dwell aquatic creatures that cannot be seen anywhere else in Teyvat."
+  },
+  "PlumeOfTheChangingWinds": {
+    "name": "Plume of the Changing Winds",
+    "description": "？？？"
   },
   "FalconsDance": {
     "name": "Falcon's Dance",
@@ -9911,6 +10555,18 @@
     "name": "Travel Notes: Azure Main",
     "description": "Namecard style.\\nYears have gone by, and you wake from an old dream. Inside the keepsake shell, lingers the blue ocean of those summer days."
   },
+  "TighnariDewKissed": {
+    "name": "Tighnari: Dew-Kissed",
+    "description": "Namecard style.\\nTighnari takes good care of his big, fluffy tail. The essential oil he uses was extracted from flowers and mixed together meticulously. It gives off a faint, calming scent."
+  },
+  "ColleiGoodVirtue": {
+    "name": "Collei: Good Virtue",
+    "description": "Namecard style.\\n\"I—It's Cuilein-Anbar! I, uh...\""
+  },
+  "DoriJinni": {
+    "name": "Dori: Jinni",
+    "description": "Namecard style.\\nIf you wipe the lamp she gave you and then scrub the Mora you gave her, no wish is unattainable... right?"
+  },
   "TravelNotesWoodlands": {
     "name": "Travel Notes: Woodlands",
     "description": "Namecard style.\\nBeneath the tranquil moon and inside the deep valley grows blooming roses. 'Tis a paradise with your presence."
@@ -9934,6 +10590,22 @@
   "SumeruUnsullied": {
     "name": "Sumeru: Unsullied",
     "description": "Namecard style.\\nThe wise, graced with the thorough knowledge of the truth, will not be sullied by sin. They are like the Nilotpala Lotus, which remains clear and pure even after the rains and winds have passed."
+  },
+  "TravelNotesReturningWinds": {
+    "name": "Travel Notes: Returning Winds",
+    "description": "Namecard style.\\nThe years come and go. Only remembrance and the winds that return do not change."
+  },
+  "AchievementSevenLights": {
+    "name": "Achievement: Seven Lights",
+    "description": "Namecard style.\\nAnyone can play a tune that belongs just to them, and like the dew upon grass, can reflect the seven lights of heaven."
+  },
+  "SumeruSandtreader": {
+    "name": "Sumeru: Sandtreader",
+    "description": "Namecard style.\\nThe sands subsume the tracks of travelers, and they await the day when a gust of wind will reveal gilded memories once more."
+  },
+  "AchievementMirroredDreams": {
+    "name": "Achievement: Mirrored Dreams",
+    "description": "Namecard style.\\n\"A illennium of obsession and tragic yearning has long been lost in the sandstorms of those blazing nights. But the eternal verdant oasis of her dreams is, in all likelihood, as tender as it was at the first...\""
   },
   "AnemoculusResonanceStone": {
     "name": "Anemoculus Resonance Stone",
@@ -10141,15 +10813,27 @@
   },
   "ExquisiteKamera": {
     "name": "Exquisite Kamera",
-    "description": "This Kamera is adorned with metal decorations and thus looks a lot more expensive than regular Kameras. Be careful with it!\\nAccording to the leasing agreement, it can only be used within Sumeru's borders."
+    "description": "A Kamera that Razi borrowed from Lord Sangemah Bay. It will come in handy when you take photos of beautiful scenery, look for inspiration in the wilderness, or wish to keep festive memories!\\nThis Kamera is adorned with metal decorations and thus looks a lot more expensive than regular Kameras. Be careful with it!\\nAccording to the leasing agreement, it can only be used within Sumeru's borders."
+  },
+  "BanusWisdom": {
+    "name": "Banu's Wisdom",
+    "description": "In some cosmological settings, this is a staff filled with mystical power. It can resonate with the Future Stars and show the way to them.\\nOf course, in some other settings, it might be an object kept in storage by an organization known as the Akademiya, and perhaps its recorded name might even be the Ayesha's Chaos Prospector. There is a thin layer of dust over this object due to a long period of disuse."
   },
   "FishingLineStabilizer": {
     "name": "Fishing Line Stabilizer",
-    "description": "A self-adaptive tension stabilizer that can be installed on a fishing rod to increase your chances of catching fish. The device can automatically detect and record how hard different fish struggle. The more the data it collects, the better the stabilizer works.\\n\\nThe device's prototype was the pointless invention of a Fontaine inventor that drew little interest for the longest time until the Fontaine Fishing Association discovered it and modified the product into the fishing line stabilizer used today. When the device first came out, it was most warmly received by the Association members, and now it has gradually been promoted in other regions.\\nIt is an exceptionally hot commodity in the Snezhnayan market. Word has it that one of the Lord Harbingers is particularly fond of the product, which explains the hype."
+    "description": "A self-adaptive tension stabilizer that can be installed on a fishing rod to facilitate fishing. The device can automatically detect and record how hard different fish struggle. The more data it collects, the better the stabilizer works.\\n\\nThe device's prototype was the pointless invention of a Fontaine inventor that drew little interest for the longest time until the Fontaine Fishing Association discovered it and modified the product into the fishing line stabilizer used today. When the device first came out, it was most warmly received by the Association members, and now it has gradually been promoted in other regions.\\nIt is an exceptionally hot commodity in the Snezhnayan market. Word has it that one of the Lord Harbingers is particularly fond of the product, which explains the hype."
   },
   "VintageLyre": {
     "name": "Vintage Lyre",
     "description": "Use this traditional instrument from Mondstadt to play songs. It may work wonders when played in the forests of Sumeru.\\nA vintage lyre borrowed from Amadhiah in Vimara Village.\\nMondstadt has a long-standing tradition of poetry and song. Bards from there tend to address their instruments as \"Friend\" or \"Partner.\" Thus, one of them trusting Amadhiah with the instrument was nothing less than a gesture of intimacy and trust."
+  },
+  "ScarletSandSlate": {
+    "name": "Scarlet Sand Slate",
+    "description": "This object has long been the subject of Akademiya Researcher Abdullah's research. From its etchings and its craftsmanship, it is a relic of the Scarlet King's civilization. It seems to have the power to command devices within ruins associated with the Scarlet King..."
+  },
+  "BubblyKamera": {
+    "name": "\"Bubbly Kamera\"",
+    "description": "When used, this useful gadget can save and store the scenery before it and add a special color tone to it.\\nA strange device of unknown origin. The photos it takes have a peculiar effect. Who would've thought that a machine with no water inside could produce photos with jovial bubbles in them that lend them a sense of fantasy?\\nA certain Cavalry Captain once described this machine as being able to \"capture people's desire for cool and refreshing days.\""
   },
   "InstructionsAnemoculusResonanceStone": {
     "name": "Instructions: Anemoculus Resonance Stone",
@@ -10225,11 +10909,11 @@
   },
   "TaleOfTheForestKing": {
     "name": "Tale of the Forest King",
-    "description": "Through this tale, you can master the method to make the claymore \"Forest Regalia.\"\\n\\nThis tale is about the Forest King.\\n\"The forest used to be a giant maze in the days before many moons hung up in the sky...\""
+    "description": "Through this tale, you can master the method to make the claymore \"Forest Regalia.\"\\n\\nThis tale is about the Forest King.\\n\"The forest used to be a giant maze many, many moons ago...\""
   },
   "TaleOfTheDesert": {
     "name": "Tale of the Desert",
-    "description": "Through this tale, you can master the method to make the sword \"Sapwood Blade.\"\\n\\nThis tale is about a friend lost in the desert.\\n\"This tale comes from Valuka...\""
+    "description": "Through this tale, you can master the method to make the sword \"Sapwood Blade.\"\\n\\nThis tale is about a friend lost in the desert.\\n\"This is a story from Valuka...\""
   },
   "TaleOfTheKingsSquire": {
     "name": "Tale of the King's Squire",
@@ -10237,11 +10921,11 @@
   },
   "TaleOfTheMoonlight": {
     "name": "Tale of the Moonlight",
-    "description": "Through this tale, you can master the method to make the polearm \"Moonpiercer.\"\\n\\nThis tale is about moonlight and magic.\\n\"This tale is about all the kids obsessed with moonlight...\""
+    "description": "Through this tale, you can master the method to make the polearm \"Moonpiercer.\"\\n\\nThis tale is about moonlight and magic.\\n\"This story is about all the children who are fascinated by the moonlight...\""
   },
   "TaleOfThePortent": {
     "name": "Tale of the Portent",
-    "description": "Through this tale, you can master the method to make the catalyst \"Fruit of Fulfillment.\"\\n\\nThis tale is about portents and disasters.\\n\"In truth, the moon was not always round as a pearl, as it is today...\""
+    "description": "Through this tale, you can master the method to make the catalyst \"Fruit of Fulfillment.\"\\n\\nThis tale is about portents and disasters.\\n\"In truth, the moon did not always look like a pearl...\""
   },
   "InstructionsElectroculusResonanceStone": {
     "name": "Instructions: Electroculus Resonance Stone",
@@ -10269,7 +10953,7 @@
   },
   "FormulaSugardewBait": {
     "name": "Formula: Sugardew Bait",
-    "description": "A detailed step-by-step formula for making Sugardew Bait Bait."
+    "description": "A detailed step-by-step formula for making Sugardew Bait."
   },
   "InstructionsDendroculusResonanceStone": {
     "name": "Instructions: Dendroculus Resonance Stone",
@@ -11615,9 +12299,9 @@
     "name": "Inazuman Home: Stormhouse",
     "description": "A detailed step-by-step blueprint for making an Inazuman Home: Stormhouse.\\nAfter using this item, you can view it in the Creation Screen."
   },
-  "DeepwoodDwellersDetermination": {
-    "name": "Deepwood Dweller's Determination",
-    "description": "A detailed step-by-step blueprint for making Deepwood Dweller's Determination.\\nAfter using this item, you can view it in the Creation Screen."
+  "DeepwoodDwellersDeliberation": {
+    "name": "Deepwood Dweller's Deliberation",
+    "description": "A detailed step-by-step blueprint for making Deepwood Dweller's Deliberation.\\nAfter using this item, you can view it in the Creation Screen."
   },
   "DeepwoodDwellersEstimation": {
     "name": "Deepwood Dweller's Estimation",
@@ -11821,7 +12505,7 @@
   },
   "NoFishingAhead": {
     "name": "\"No Fishing Ahead\"",
-    "description": "A detailed step-by-step blueprint for making a Fisherman's Bottom-Line.\\nAfter using this item, you can view it in the Creation Screen."
+    "description": "A detailed step-by-step blueprint for making \"No Fishing Ahead.\"\\nAfter using this item, you can view it in the Creation Screen."
   },
   "FoundationsOfStoneFortunateTimes": {
     "name": "Foundations of Stone: Fortunate Times",
@@ -11985,7 +12669,7 @@
   },
   "FishermansStorageSolution": {
     "name": "Fisherman's Storage Solution",
-    "description": "A detailed step-by-step blueprint for making a Fisherman's Business Promotion.\\nAfter using this item, you can view it in the Creation Screen."
+    "description": "A detailed step-by-step blueprint for making a Fisherman's Storage Solution.\\nAfter using this item, you can view it in the Creation Screen."
   },
   "FishermansEfforts": {
     "name": "Fisherman's Efforts",

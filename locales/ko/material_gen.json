@@ -129,7 +129,7 @@
   },
   "AgedToken": {
     "name": "부식된 병부",
-    "description": "남아있는 목제 병패. 과거 「결록음양료」에서 싸운 무사의 이름이 기록되어 있는 듯 하다.\\n「미로의 전사」 이벤트에서 진귀한 보물과 교환하는 데 사용할 수 있다"
+    "description": "남아있는 목제 병부. 과거 「결록음양료」에서 싸운 무사의 이름이 기록되어 있는 듯 하다.\\n「미로의 전사」 이벤트에서 진귀한 보물과 교환하는 데 사용할 수 있다"
   },
   "SnowstriderSeal": {
     "name": "답설 휘장",
@@ -153,7 +153,7 @@
   },
   "MoonlitCragstone": {
     "name": "그윽한 숫돌",
-    "description": "You can gain rewards during \"Perilous Trail.\""
+    "description": "기이한 색깔이 담긴 돌. 층암거연의 특정 지점에만 존재하며 출처와 성분을 알 수 없다. 그러나 떨어질 때의 형상이 그대로 남아 있으며 단면이 매끈매끈해 거울처럼 사물을 비출 수 있는 특이한 성질을 지니고 있다. 이 중 비교적 오래된 돌들은 아마 당시의 치열한 전투를 목격했으리라.\\n「위험한 길, 수상한 발자취」 이벤트 기간 동안 보물로 교환할 수 있다"
   },
   "IridescentFlotsam": {
     "name": "화려한 표류물",
@@ -161,17 +161,29 @@
   },
   "StratagemShard": {
     "name": "전략 조각",
-    "description": "This can be used in the \"Realms of Guile and War\" of \"Perilous Trails\" to draw Stratagems or allow characters who have fallen to take to the field once again."
+    "description": "신비한 힘이 응집된 결정체. 콜 라피스의 조각과 같은 형상으로 순수한 바위 원소 색깔이 칠해져 있다. 층암거연 아래의 공간에서는 일정한 힘을 발휘할 수 있는 듯하다.\\n「위험한 길, 수상한 발자취」의 「기만과 전투의 영역」에서 「전략」을 뽑는데 사용하거나 전투 불능이 된 캐릭터를 다시 출전시키는 데 사용할 수 있다"
   },
   "CreativeNote": {
-    "name": "",
-    "description": ""
+    "name": "아이디어 노트",
+    "description": "모험 도중 어떻게 하면 「아란나라 목각」의 인기를 더 높일 수 있을지 동료들과 상의 후 정리한 섬세한 의견. 「동심 조각」 이벤트 기간 귀중한 보물을 교환하는 데 사용할 수 있다"
   },
   "WhimsicalDraft": {
+    "name": "초안 모음집",
+    "description": "모험 도중 「아란나라 목각」에 대한 영감을 신속하게 적어둔 기록물. 「동심 조각」 이벤트 기간 귀중한 보물을 교환하는 데 사용할 수 있다"
+  },
+  "AncientIronCoin": {
+    "name": "고철전",
+    "description": "울만이 언급한 비싸게 팔린다는 고철전. 만졌을 때 별다른 특별함이 느껴지진 않는다…"
+  },
+  "BusinessEarnings": {
     "name": "",
     "description": ""
   },
-  "AncientIronCoin": {
+  "UsableFunds": {
+    "name": "",
+    "description": ""
+  },
+  "StrategicInspiration": {
     "name": "",
     "description": ""
   },
@@ -225,7 +237,7 @@
   },
   "DendroSigil": {
     "name": "풀의 인장",
-    "description": ""
+    "description": "수메르 초목의 인정을 받아 획득한 표식.\\n숲속 깊은 곳의 「꿈 나무」에 공양해 숲의 찬사를 받을 수 있다"
   },
   "ElectroSigil": {
     "name": "번개의 인장",
@@ -252,8 +264,8 @@
     "description": "몬드 평판 등급을 올린다"
   },
   "SumeruReputationEXP": {
-    "name": "",
-    "description": ""
+    "name": "평판 경험치·수메르",
+    "description": "수메르 평판 등급을 올린다"
   },
   "LiyueReputationEXP": {
     "name": "평판 경험치·리월",
@@ -465,7 +477,7 @@
   },
   "YaeMiko": {
     "name": "야에 미코",
-    "description": "나루카미 다이샤의 궁사 겸 「야에 출판사」 편집장. 아름다운 외모 아래 예상 밖의 지혜와 교활함이 숨겨져 있다."
+    "description": "나루카미 다이샤의 궁사 겸 「야에 출판사」 편집장. 아름다운 외모 아래 예상 밖의 지혜와 교활함이 숨겨져 있다"
   },
   "ShikanoinHeizou": {
     "name": "시카노인 헤이조",
@@ -492,18 +504,30 @@
     "description": "노련하고 믿음직한 「아라타키파」의 조수 - 특별 설명: '노련하고 믿음직한'은 「아라타키파」가 아닌 조수를 형용하는 말이다"
   },
   "KamisatoAyato": {
-    "name": "",
+    "name": "카미사토 아야토",
     "description": "야시로 봉행 카미사토 가문의 현 가주. 온화하고 예의 바르며, 수완이 탁월하다"
   },
   "Collei": {
-    "name": "",
-    "description": ""
+    "name": "콜레이",
+    "description": "아비디야 숲에서 활약하는 숲의 견습 순찰자. 열정적인 겉모습 뒤에 조금은 내성적인 성격이 숨겨져 있다"
   },
   "Dori": {
+    "name": "도리",
+    "description": "신출귀몰한 여행 잡화 상인. 빛나는 모라를 가장 좋아한다"
+  },
+  "Tighnari": {
+    "name": "타이나리",
+    "description": "식물학에 정통한 소년학자. 현재 아비디야 숲에서 숲의 순찰관직을 맡고 있다. 솔직하고 열정적이며 어리석은 사람을 가르치는 데 일가견이 있다"
+  },
+  "Nilou": {
     "name": "",
     "description": ""
   },
-  "Tighnari": {
+  "Cyno": {
+    "name": "",
+    "description": ""
+  },
+  "Candace": {
     "name": "",
     "description": ""
   },
@@ -716,16 +740,28 @@
     "description": "카미사토 아야토의 운명의 자리 활성화 소재"
   },
   "ColleisStellaFortuna": {
-    "name": "",
-    "description": ""
+    "name": "콜레이의 운명의 별",
+    "description": "콜레이의 운명의 자리 활성화 소재"
   },
   "DorisStellaFortuna": {
+    "name": "도리의 운명의 별",
+    "description": "도리의 운명의 자리 활성화 소재"
+  },
+  "TighnarisStellaFortuna": {
+    "name": "타이나리의 운명의 별",
+    "description": "타이나리의 운명의 자리 활성화 소재"
+  },
+  "NilousStellaFortuna": {
     "name": "",
     "description": ""
   },
-  "TighnarisStellaFortuna": {
+  "CynosStellaFortuna": {
     "name": "",
     "description": ""
+  },
+  "CandacesStellaFortuna": {
+    "name": "캔디스의 운명의 별",
+    "description": "캔디스의 운명의 자리 활성화 소재"
   },
   "GnosticHymnOldNotes": {
     "name": "진주기행·초안",
@@ -1164,8 +1200,8 @@
     "description": "육지 뱀장어의 신선한 살코기. 알맞게 조리하면 훌륭한 요리가 된다"
   },
   "GlabrousBeans": {
-    "name": "",
-    "description": ""
+    "name": "반질반질콩",
+    "description": "티바트에서 흔히 볼 수 있는 콩류 작물. 은은한 향을 풍기고 있으며 활용 방법이 다양한 덕분에 각지의 주민들에게 인기를 끌고 있다"
   },
   "JeansDocumentPackage": {
     "name": "진의 서류가방",
@@ -3720,24 +3756,24 @@
     "description": "북대륙의 미지의 장병기"
   },
   "MidlanderSwordBillet": {
-    "name": "",
-    "description": ""
+    "name": "중앙 대륙의 한손검 원형",
+    "description": "무기를 생산하는 원재료. 단조를 통해 ★4 한손검을 만들 수 있다.\\n철학에서는 속세의 모든 사물에 네 종류의 형성 원인이 있다고 여긴다. 이 원형의 「목적」은 영웅과 동행하는 무기가 되는 것이다"
   },
   "MidlanderBowBillet": {
-    "name": "",
-    "description": ""
+    "name": "중앙 대륙의 활 원형",
+    "description": "무기를 생산하는 원재료. 단조를 통해 ★4 활을 만들 수 있다.\\n철학에서는 속세의 모든 사물에 네 종류의 형성 원인이 있다고 여긴다. 이 원형의 「목적」은 영웅과 동행하는 무기가 되는 것이다"
   },
   "MidlanderClaymoreBillet": {
-    "name": "",
-    "description": ""
+    "name": "중앙 대륙의 양손검 원형",
+    "description": "무기를 생산하는 원재료. 단조를 통해 ★4 양손검을 만들 수 있다.\\n철학에서는 속세의 모든 사물에 네 종류의 형성 원인이 있다고 여긴다. 이 원형의 「목적」은 영웅과 동행하는 무기가 되는 것이다"
   },
   "MidlanderCatalystBillet": {
-    "name": "",
-    "description": ""
+    "name": "중앙 대륙의 법구 원형",
+    "description": "무기를 생산하는 원재료. 단조를 통해 ★4 법구를 만들 수 있다.\\n철학에서는 속세의 모든 사물에 네 종류의 형성 원인이 있다고 여긴다. 이 원형의 「목적」은 영웅과 동행하는 무기가 되는 것이다"
   },
   "MidlanderPolearmBillet": {
-    "name": "",
-    "description": ""
+    "name": "중앙 대륙의 장병기 원형",
+    "description": "무기를 생산하는 원재료. 단조를 통해 ★4 장병기를 만들 수 있다.\\n철학에서는 속세의 모든 사물에 네 종류의 형성 원인이 있다고 여긴다. 이 원형의 「목적」은 영웅과 동행하는 무기가 되는 것이다"
   },
   "Onikabuto": {
     "name": "귀신풍뎅이",
@@ -3788,44 +3824,56 @@
     "description": "균모가 별 모양으로 된 균류, 생명력이 무척 강하다. 성숙하면 균모 중앙이 갈라진다"
   },
   "RukkhashavaMushrooms": {
-    "name": "",
-    "description": ""
+    "name": "룩카데바타 성체 버섯",
+    "description": "구름바다처럼 겹겹이 자라는 균류. 대부분 우림 깊숙한 곳에 있는 교목에 기생하기 때문에 수메르 사람들에게 룩카데바타가 남긴 기운이 깃든 성체(圣体)라고 여겨진다"
   },
   "Padisarah": {
-    "name": "",
-    "description": ""
+    "name": "파디사라",
+    "description": "성스럽고 고귀한 꽃. 성장 환경에 대한 요구가 매우 까다롭다. 꽃술은 가공을 거쳐 귀중한 향신료로 제작할 수 있다"
   },
   "NilotpalaLotus": {
-    "name": "",
-    "description": ""
+    "name": "달 연꽃",
+    "description": "숲속 습지에서 자라며 달처럼 휘영청 밝은 빛을 내뿜는 꽃. 밤에만 꽃을 피운다"
   },
   "HarraFruit": {
-    "name": "",
-    "description": ""
+    "name": "향신과",
+    "description": "무덥고 습한 우림에서 자라며 특이하게 매운 향을 풍기는 열매. 가루로 갈아 향신료로 만들 수 있다. 수메르에서 가장 중요한 향신료 식물이다"
   },
   "KalpalataLotus": {
-    "name": "",
-    "description": ""
+    "name": "겁의 연꽃",
+    "description": "절벽 위에서 자라는 덩굴 식물의 꽃. 연꽃과 비슷한 외형 때문에 겁의 연꽃이라 불리지만 사실 연꽃과는 아무런 관련도 없다"
   },
   "ZaytunPeach": {
-    "name": "",
-    "description": ""
+    "name": "뚠뚠 복숭아",
+    "description": "숲속 관목에 열리는 열매. 과육이 단단하며 달고 맛있다. 먹으면 마음을 진정시키는 효과가 있다고 한다"
   },
   "SumeruRose": {
-    "name": "",
+    "name": "수메르 장미",
+    "description": "화려하고 짙은 보라색 꽃. 행인들의 걸음을 멈추게 하는 그윽한 향기를 풍긴다. 장미라고 불리지만 정확한 명칭은 해당화다"
+  },
+  "Redcrest": {
+    "name": "적념과",
     "description": ""
   },
-  "BloomingStarshroom": {
-    "name": "",
+  "Ajilenakh": {
+    "name": "대추야자",
     "description": ""
   },
-  "BurntStarshroom": {
-    "name": "",
+  "Scarab": {
+    "name": "황금 딱정벌레",
     "description": ""
+  },
+  "ActivatedStarshroom": {
+    "name": "활력 넘치는 별 버섯",
+    "description": "버섯갓이 별 모양으로 된 균류. 생명력이 무척 강하며 에너지가 넘쳐흐르는 듯한 느낌을 준다"
+  },
+  "ScorchedStarshroom": {
+    "name": "건조된 별 버섯",
+    "description": "버섯갓이 별 모양으로 된 균류. 생명력이 무척 강하며 불에 탄 것 같은 모양새다"
   },
   "Viparyas": {
-    "name": "",
-    "description": ""
+    "name": "비파랴스",
+    "description": "씨앗이 없는 꽃.\\n대지가 다시 기억하게 되면 비파랴스가 피어날 것이다"
   },
   "BirchWood": {
     "name": "자작나무",
@@ -3853,7 +3901,7 @@
   },
   "FirWood": {
     "name": "삼나무",
-    "description": "「상록교목」에서 얻어낸 목재.우수한 재질과 정교한 무늬로 다양한 분야에서 활용되고 있다.\\n장식 제작용으로 사용할 수 있다"
+    "description": "「상록교목」에서 얻어낸 목재. 우수한 재질과 정교한 무늬로 다양한 분야에서 활용되고 있다.\\n장식 제작용으로 사용할 수 있다"
   },
   "YumemiruWood": {
     "name": "꿈의 나무",
@@ -3872,24 +3920,24 @@
     "description": "「오토기나무」에서 얻어낸 목재. 수분과 유지의 함량이 꼭 알맞아 다양한 용도로 쓰이고 있다\\n장식 제작용으로 사용할 수 있다"
   },
   "Brightwood": {
-    "name": "",
-    "description": ""
+    "name": "빛나는 나무 원목",
+    "description": "「빛나는 나무」에서 얻어낸 목재. 일반 목재와 구조가 다르며 부드러우면서도 강인한 질감을 가지고 있다. 손쉽게 색을 입힐 수 있으며 특별한 용도로 사용된다.\\n장식 제작용으로 사용할 수 있다"
   },
   "KarmaphalaWood": {
-    "name": "",
-    "description": ""
+    "name": "카르마팔라 나무 원목",
+    "description": "「카르마팔라 나무」에서 얻은 목재로, 간단한 처리만으로도 매끄러운 절단면이 만들어지기에 복잡한 가공 없이도 아름답다.\\n장식을 만드는 데 사용할 수 있다"
   },
   "AdhigamaWood": {
-    "name": "",
-    "description": ""
+    "name": "아디가마 나무 원목",
+    "description": "「아디가마 나무」에서 얻은 목재로, 거의 어디서나 흔히 볼 수 있는 목재지만 가볍고 내구성이 강하다는 특징이 있다.\\n장식을 만드는 데 사용할 수 있다"
   },
   "MountainDateWood": {
-    "name": "",
-    "description": ""
+    "name": "산대추야자 원목",
+    "description": "「산대추야자」에서 얻어낸 목재. 질감과 무늬가 뛰어나진 않지만 수분 보유력이 탁월하여 쉽게 가꿀 수 있다.\\n장식 제작용으로 사용할 수 있다"
   },
   "AthelWood": {
-    "name": "",
-    "description": ""
+    "name": "에셀나무 원목",
+    "description": "「에셀나무」에서 얻어낸 목재. 재질이 특별하고 가뭄과 습기를 견딜 수 있어 쉽게 훼손되지 않는다.\\n장식 제작용으로 사용할 수 있다"
   },
   "Fabric": {
     "name": "직물",
@@ -4213,7 +4261,7 @@
   },
   "DebatesOnTheViceroyOfTheEast": {
     "name": "「동왕」사론",
-    "description": "바다 주민의 노래 중 내려져 오는 「동왕」 혹은 「동산왕」은, 번개의 땅에서는 「아쿠오」의 이름으로 널리 알려져 있다. 그는 거대한 뱀 오로바시가 책립한 첫 번째 왕이자, 마지막 왕이다"
+    "description": "와타츠미 백성들의 섬노래에서 「동왕」 혹은 「동산왕」이라 불리는 존재는, 번개의 땅에선 「아쿠오」라는 이름으로 널리 알려져 있다. 그는 거대한 뱀 오로바시가 책봉한 첫 번째이자 마지막 왕이다"
   },
   "TreasuredTalesOfTheChoukenShinkageuchiI": {
     "name": "진설징연진영타·권1",
@@ -4284,8 +4332,8 @@
     "description": "소몽의 고민이 담겨 있는 해류병, 안에 적힌 내용은 알 수 없다…"
   },
   "Lumenstone": {
-    "name": "유명석",
-    "description": "층암거연의 지하에서 채굴한 진귀한 광석, 「촉매」로 사용할 수 있다고 한다.\\n어두운 광갱에 있을 때는 눈 부신 빛을 뿜지만, 층암거연의 지하 광갱을 벗어나면 기능을 잃는다.\\n아직 발견하지 못한 신기한 특성을 지닌 듯하다"
+    "name": "유명석(流明石)",
+    "description": "층암거연의 지하에서 채굴한 진귀한 광석, 「촉매」로 사용할 수 있다고 한다.\\n어두운 광갱에 있을 때는 눈 부신 빛을 뿜지만, 층암거연의 지하 갱도를 벗어나면 기능을 잃는다.\\n아직 발견하지 못한 신기한 특성을 지닌 듯하다"
   },
   "MuningsNote": {
     "name": "목영의 쪽지",
@@ -4301,15 +4349,15 @@
   },
   "ASetOfCannonballs": {
     "name": "포탄 한 세트",
-    "description": "「개산포」, 또는 「안전거리 폭파 기관·215 육지형」의 포탄. 유명석의 「촉매」를 사용해 포탄의 오염 물질을 제거했지만, 여전히 썩 유쾌하지 않은 냄새가 코를 찌른다. 심지어 코를 막아도 스며든다.\\n이 포탄을 만지는 건 정말 끔찍한 일이다!"
+    "description": "「개산포」, 또는 「안전거리 폭파 기관·215 육지형」의 포탄. 유명석 「촉매」를 사용해 포탄의 오염 물질을 제거했지만, 여전히 썩 유쾌하지 않은 냄새가 코를 찌른다. 심지어 코를 막아도 스며든다.\\n이 포탄을 만지는 건 정말 끔찍한 일이다!"
   },
   "SpecialUnmovingEssentialOil": {
-    "name": "특수 반암 오일",
-    "description": ""
+    "name": "특수 반석의 오일",
+    "description": "클리토퍼의 레시피에 따라 제작한 위험한 연고. 반석의 오일 두 개를 농축해 제련한 것으로 지나치게 많은 바위 원소가 함유되어 있다.\\n성질이 극히 불안정한 것으로 알려져 대개 미치광이나 노련한 광부들만 사용하며 흔히 볼 수 있는 물건은 아니다.\\n반드시 조심히 다뤄야 한다!"
   },
   "KeyToAStonyHall": {
     "name": "「암청의 열쇠」",
-    "description": "헤디브의 대략적인 감정을 거쳐, 이 장치는 어떤 유적의 대문을 열 수 있는 「열쇠」로 판단된다"
+    "description": "헤디브의 대략적인 감정에 따르면, 이 장치는 어떤 유적의 문을 열 수 있는 「열쇠」인 것 같다"
   },
   "PhotoOfAStrangeRock": {
     "name": "이상한 돌의 사진",
@@ -4317,10 +4365,10 @@
   },
   "AkademiyaRecommendationLetter": {
     "name": "아카데미아 추천장",
-    "description": ""
+    "description": "정성껏 쓴 편지. 봉랍 위에는 「생태학자 헤디브·푸르시나」라는 휘장이 찍혀 있다.\\n헤디브한테서 획득한 보수. 본인의 말로는 황금보다 더 귀한 물건이며, 이것만 있으면 푸르비루니 가문의 도움을 받을 수 있다고 한다.\\n헤디브는 개인적으로 모라를 보수로 주는 건 모욕적인 행위라고 생각한다. 제발 이게 수메르 사람들의 보편적인 관점은 아니기를"
   },
   "OrbOfTheBlueDepths": {
-    "name": "연청 보주",
+    "name": "푸른 심연의 보주",
     "description": "심연에서 온 적이 남긴 기이한 보주. 자세히 들여다보면 안갯속에 숨겨진 오래된 꿈이 보이는 것만 같다"
   },
   "MinersKey": {
@@ -4356,7 +4404,7 @@
     "description": "층암거연에 흩어져 있다고 전해지는 여섯 가지 공물 중 하나. 돌도, 옥도 아닌 이 물건은 불행히도 보물 사냥단의 전리품으로 되었다.\\n과거 도적의 손에 넘어간 이 잔은 맛 좋은 술, 보물, 심지어 피를 담은 적도 있었지만, 지금은 치욕을 씻고 새로운 기억을 담으려 하고 있다"
   },
   "HelmOfWarding": {
-    "name": "수호의 왕관",
+    "name": "수호의 투구",
     "description": "층암거연에 흩어져 있다고 전해지는 여섯 가지 공물 중 하나. 광부들의 거처에 숨겨져 있어 자세히 관찰하지 않으면 광부용 모자로 보이기 십상이다.\\n여기저기에 가득한 긁힌 자국으로 보아, 얼마나 많은 광부의 안전을 지켜줬을지 알 수 없다"
   },
   "WarriorsSpear": {
@@ -4373,15 +4421,15 @@
   },
   "LumenstoneOre": {
     "name": "유명석 원석",
-    "description": "유명석 원석. 조금만 다듬으면 현재 갖고 있는 유명석의 「촉매」를 강화시킬 수 있을 듯하다, 근우한테 물어보는 건 어떨까…"
+    "description": "유명석 원석. 조금만 다듬으면 현재 갖고 있는 유명석 「촉매」를 강화시킬 수 있을 듯하다, 근우한테 물어보는 건 어떨까…"
   },
   "YueChuansDriftingBottle": {
     "name": "악천의 해류병",
     "description": "악천의 답장이 들어 있는 해류병, 소몽이가 문제없이 주울 수 있을까…"
   },
   "HiraizumisGoods": {
-    "name": "？？？",
-    "description": "？？？"
+    "name": "히라이즈미의 화물",
+    "description": "신선한 두유. 보관에 유의하지 않으면 품질이 급격히 떨어진다"
   },
   "CellKey": {
     "name": "감옥 열쇠",
@@ -4429,11 +4477,11 @@
   },
   "FinalInstructions": {
     "name": "「최종 지령」",
-    "description": "류도히카에게서 받은 우인단 행동 지령, 와타츠미섬에서 집행해야 할 임무가 상세하게 적혀있다. 사람들의 안위가 걸려있기 때문에 정말 중요한 정보이다"
+    "description": "류다치카에게서 받은 우인단 행동 지령, 와타츠미섬에서 집행해야 할 임무가 상세하게 적혀있다. 사람들의 안위가 걸려있기 때문에 정말 중요한 정보이다"
   },
   "BagOfClothes": {
     "name": "옷을 담은 종이가방",
-    "description": "류도히카의 우인단 제복이 담겨 있는 종이가방. 우인단 신분의 민감성을 고려해 다른 사람에게 보여주지 않는 게 좋을듯하다"
+    "description": "류다치카의 우인단 제복이 담겨 있는 종이가방. 우인단 신분의 민감성을 고려해 다른 사람에게 보여주지 않는 게 좋을듯하다"
   },
   "SpecialFortuneSlip": {
     "name": "특별한 「점괘」",
@@ -4444,7 +4492,7 @@
     "description": "층암거연의 지하 수역에서 낚은 이상한 물건. 다소 축축하며 생물인지, 아닌지 판단하기 어렵다"
   },
   "BedrockKeyLocationDiagram": {
-    "name": "「반건」 위치 약도",
+    "name": "「반건」 위치 안내도",
     "description": "지경이 대충 그린 간략한 약도. 광갱 지상에 있는 「반건」의 대체적인 위치를 표기했다"
   },
   "LightMoraPurse": {
@@ -4468,12 +4516,12 @@
     "description": "운근이 시윤에게 쓴 친필 편지. 상황을 반전시킬 키 포인트일지도?"
   },
   "LyudochkasLetter": {
-    "name": "류도히카의 편지",
-    "description": "류도히카가 야에 출판사 직원에게 부탁해 당신에게 건네주라고 한 편지, 편지에는 그녀가 말없이 떠난 이유가 적혀있다. 하지만 납득을 하든 않든 나중에 생각할 일이다.\\n당신이 그녀의 존재를 발견하고, 그의 운명을 바꿨으니… 더 많은 일도 할 수 있지 않을까? 예를 들면 모든 사람이 행복할 수 있게 만든다든지?"
+    "name": "류다치카의 편지",
+    "description": "류다치카가 야에 출판사 직원에게 부탁해 당신에게 건네주라고 한 편지, 편지에는 그녀가 말없이 떠난 이유가 적혀있다. 하지만 납득을 하든 않든 나중에 생각할 일이다.\\n당신이 그녀의 존재를 발견하고, 그의 운명을 바꿨으니… 더 많은 일도 할 수 있지 않을까? 예를 들면 모든 사람이 행복할 수 있게 만든다든지?"
   },
   "LyudochkasMoraPurse": {
-    "name": "류도히카의 모라 주머니",
-    "description": "류도히카가 남긴 모라 주머니, 안에는 많은 돈이 들어 있지만 페이몬은 그것을 받지 않으려고 한다"
+    "name": "류다치카의 모라 주머니",
+    "description": "류다치카가 남긴 모라 주머니, 안에는 많은 돈이 들어 있지만 페이몬은 그것을 받지 않으려고 한다"
   },
   "FatuiCodeSheet": {
     "name": "「우인단 은어표」",
@@ -4496,72 +4544,72 @@
     "description": "슈스터가 직접 딴 고리고리 열매. 마물들이 열매들을 건들지 않아서 다행이다"
   },
   "LyudochkasFortuneSlip": {
-    "name": "류도히카의 점괘",
-    "description": "금일의 운세를 점칠 수 있는 특제 종이 점괘, 본질은 다른 「점괘」와 차이는 없지만 이건 류도히카의 마음을 열 수 있는 열쇠이다.\\n점괘에는 그녀의 진심 어린 축복이 적혀있다. 시간이 있을 때 나루카미 다이샤에 그녀를 보러 가자"
+    "name": "류다치카의 점괘",
+    "description": "금일의 운세를 점칠 수 있는 특제 종이 점괘, 본질은 다른 「점괘」와 차이는 없지만 이건 류다치카의 마음을 열 수 있는 열쇠이다.\\n점괘에는 그녀의 진심 어린 축복이 적혀있다. 시간이 있을 때 나루카미 다이샤에 그녀를 보러 가자"
   },
   "TheMiraculousAdventuresOfTheTraveler": {
-    "name": "???",
-    "description": "???"
+    "name": "《여행자의 기묘한 모험》",
+    "description": "「티바트의 현실 세계를 합리적으로 각색한 정통 라이트 노벨이에요. 놀라운 점은 작가가 와타츠미섬에 대해 정말 잘 알고 있다는 거예요. 필력도 좋아서 마치 이야기가 눈앞에서 펼쳐지는 것만 같죠」——히나"
   },
   "FrostglazeCrystal": {
-    "name": "혹한의 유리 수정",
+    "name": "서늘한 유리 수정",
     "description": "층암거연 깊은 곳에서 산출되는 유리 덩어리. 이 특수한 유리 모래 광석은 신비한 기계 독사와의 격전 중에 튕겨져 나온 조각 중 하나다. 유리 모래 광석은 층암거연에서 흔히 볼 수 있는 특산이지만 이 광석은 좀 다르다.\\n이 광석은 짙푸른 수정석의 방사와 심연의 힘의 영향을 받아 기이한 소용돌이 문양이 생성됐고, 촉감은 얼음같이 차가워 소름이 끼칠 정도다.\\n천공에서 내려온 강한 힘과 지하 심연에 맴돌면서 상승한 오염된 공기가 부드럽고 윤기 나던 모래를 이러한 형태로 만들어 놨다. 마치 평범한 인간들에게 경고라도 하는 듯이.\\n무심한 하늘과 땅이 금석을 이렇게까지 뒤틀리게 할 수 있는데, 그 평범한 용사한테 정말 어둠의 종점을 지켜볼 기회가 생긴다면, 그녀는 자신이 발견한 이 모든 걸 과연 어떻게 받아들일까…?"
   },
   "LightRealmSigil": {
     "name": "광계의 인장",
-    "description": "연하궁 토코요노카미의 인정을 받아 획득한 인장.\\n어사 조각상에 공양해 보쿠소의 함의 등급을 올릴 수 있다"
+    "description": "연하궁 토코요노카미의 인정을 받아 획득한 인장.\\n어사 석상에 공양해 보쿠소의 함의 등급을 올릴 수 있다"
   },
   "LightRealmCore": {
     "name": "광계의 핵",
-    "description": "검은 안개가 연하궁을 뒤덮을 때 조사하다 얻은 특이한 돌.\\n심연에 맞서기 위해 광계가 인간에게 약간의 도음을 줬다"
+    "description": "검은 안개가 연하궁을 뒤덮을 때 조사하다 얻은 특이한 돌.\\n심연에 맞서고자 광계가 인간에게 약간의 도움을 줬다"
   },
   "BloodiedSergeantsInsignia": {
     "name": "피에 물든 사관의 휘장",
     "description": "혈흔과 흙이 묻은 우인단 사관의 휘장. 무슨 이유에서인지 층암거연 깊은 곳에 떨어져 있다"
   },
   "CorporalNikolaysDiary": {
-    "name": "니콜라 하사의 노트",
-    "description": "니콜라 하사가 남긴 노트, 내용은 완전하지 않다"
+    "name": "니콜라이 하사의 노트",
+    "description": "니콜라이 하사가 남긴 노트, 내용은 완전하지 않다"
   },
   "MoraPurse": {
     "name": "모라 주머니",
     "description": "비운 상회 욱이의 부탁을 받고, 휘산청 소속의 층암거연 상주 담당자 목영에게 전해줄 모라 주머니. 묵직한 걸 보니 모라가 적잖게 들어 있는 듯하다"
   },
   "AFirsthandGuideToSummoningSpirits": {
-    "name": "???",
-    "description": "???"
+    "name": "《혼령 소환 가이드》",
+    "description": "최근 이나즈마에서 유행하는 라이트 노벨. 각종 고대 요괴에 대한 이야기가 상세하게 적혀있다"
   },
   "DreamSakura": {
-    "name": "???",
-    "description": "???"
+    "name": "꿈의 벚나무",
+    "description": "라이덴 마코토의 의식 공간을 떠나기 전에 손에 쥐었던 벚꽃잎.\\n그것의 존재는 아직 수수께끼다. 모습은 일반 벚꽃잎과 큰 차이도 없고, 평범하게 배낭에 잘 들어있다. 하지만 만질 수 없고, 무게와 온도도 느낄 수 없다. 한 물체가 사람들에게 익숙한 기본적인 속성이 사라지면 그것이 「존재」한다는 것을 어떻게 증명해야 할까?\\n이것을 얻기 전 목격했던 수많은 장면을 떠올리며 추측해 본다. 벚꽃잎이 이 세계에 남을 수 있도록 유지하는 힘은 누구의 의지인가. 하지만 도대체 누가, 의도한 건지 의도하지 않았는지도 알 수가 없다. 이 의지는 그리움인지, 믿음인지 고마움인지도 알 수가 없다.\\n「그의 의지」가 변하는 순간 이 벚꽃잎도 사라지지 않을까?\\n가끔씩 벚꽃잎이 있는지 확인해 보는 게 좋을 것 같다"
   },
   "AphotiumOre": {
     "name": "염해 광석",
-    "description": "???"
+    "description": "와타츠미 어령 제사로 인해 생긴 특수 광물. 연하궁의 환경에 급격한 변화가 생겨 와타츠미의 추억과 그리움이 굳어 광물이 되었다"
   },
   "TokoyoLegume": {
     "name": "상세의 협과",
-    "description": "???"
+    "description": "와타츠미 어령 제사로 인해 생긴 특수 식물. 산호왕충이 깨어나 연하궁의 원소력이 완만해졌다. 이로 인해 자연히 작물들이 자라났고 썩어서 토지의 양토가 되기만을 기다린다"
   },
   "HuskGem": {
     "name": "갑주의 보석",
-    "description": "???"
+    "description": "특수한 암흑의 빈 갑주가 패배한 후 떨어져 나온 갑옷에서 주운 보석. 내부에서 용솟음치는 의지를 느낄 수 있다. 이 의지가 빈 껍데기를 조종하는 것은 아니고, 의지가 껍데기를 빌려 발현하는 것 같다"
   },
   "FragmentedAccessory": {
-    "name": "???",
-    "description": "???"
+    "name": "부서진 장식품",
+    "description": "코코미에게서 받은 작은 장식품. 어떤 물건의 조각처럼 보인다. 코코미는 유용하게 쓸 수 있을 거라고 한다"
   },
   "TsumisMap": {
-    "name": "???",
-    "description": "???"
+    "name": "츠미의 지도",
+    "description": "츠미가 그린 지도. 위에 츠미가 남긴 표식이 있다"
   },
   "HakuenMichimitsuAmenoma": {
     "name": "「하쿠엔 미치미츠 아메노마」",
     "description": "이와쿠라 가문 대대로 전해지는 명검.\\n검을 만든 장인의 기술이 뛰어나고 이 검으로 많은 적을 해치웠지만 검 자체에 특별한 힘이 있는 것은 아니다. 역대 이와쿠라의 후손은 신의 눈을 얻은 적이 없으며, 그들의 뛰어난 검술은 다년간의 몸과 마음, 기술의 수련으로 얻어낸 결과다.\\n며칠 동안 물속에 잠겨 있던 검은 이미 완전히 녹슬었다"
   },
   "WoodenCageKey": {
-    "name": "？？？",
-    "description": "？？？"
+    "name": "나무 우리 열쇠",
+    "description": "간조 봉행의 간수가 버린 열쇠. 이 열쇠로 신노죠를 구출할 수 있을 듯하다"
   },
   "DamagedStoneSlate": {
     "name": "부서진 석판",
@@ -4576,32 +4624,32 @@
     "description": "그나마 완전한 쪽지. 글씨체가 무척 깔끔하다. 옛 친구에게 남긴 편지로 보인다"
   },
   "NikolaysLetter": {
-    "name": "니콜라의 편지",
-    "description": "흑 뱀 기사가 남긴 편지. 받는 이는 「사랑하는 누나, 카타리나·슈나이제브나」로 반듯하게 적혀있지만, 보내는 이 서명에는 「동생, 니콜라, 슈나이제비치」라는 이름을 간신히 알아볼 수 있을 정도로 휘갈겨 적혀있다"
+    "name": "니콜라이의 편지",
+    "description": "흑 뱀 기사가 남긴 편지. 받는 이는 「사랑하는 누나, 카타리나·슈나이제브나」로 반듯하게 적혀있지만, 보내는 이 서명에는 「동생, 니콜라이·슈나이제비치」라는 이름을 간신히 알아볼 수 있을 정도로 휘갈겨 적혀있다"
   },
   "FragrantSeasoning": {
     "name": "향기로운 조미료",
-    "description": "???"
+    "description": "나자파린이 준 레시피에 따라 제작한 조미료. 군침 도는 향이 풍긴다, 요리에 넣으면 더욱 다양한 맛을 낼 수 있을 듯하다"
   },
   "FragrantVegetarianAbalone": {
-    "name": "???",
-    "description": "???"
+    "name": "향기로운 채식 전복",
+    "description": "조미료를 넣은 맛있는 요리, 군침 도는 향기를 풍긴다. 과연 이 요리는 누구의 입맛에 맞을까? 어서 동료들에게 맛 보여 주자!"
   },
   "TheAlmightyAratakiGreatAndGloriousDrumalongFestival": {
     "name": "아라타키 천하제일 초호화 북 축제!",
     "description": "양식부터 내용까지 전부 과장된 초대장. 초대장은 이 축제를 거대한 규모와 깊은 의미를 지닌 거국적 대형 이벤트라고 설명하고 있다. 당신은 존귀한 손님으로서 성대한 이번 축제의 가장 빛나는 주인공이 될 것이다"
   },
   "WorksiteRecords": {
-    "name": "？？？",
-    "description": "？？？"
+    "name": "공사 현장 기록",
+    "description": "원래는 장부였으나 현재는 기록하는데 사용되는 것 같다. 흑암 공장의 최근 일상이 기록되어 있지만 유용한 정보는 많지 않아 보인다"
   },
   "FragrantMintSalad": {
-    "name": "???",
-    "description": "???"
+    "name": "향기로운 허브냉채",
+    "description": "조미료를 넣은 맛있는 요리, 군침 도는 향기를 풍긴다. 과연 이 요리는 누구의 입맛에 맞을까? 어서 동료들에게 맛 보여 주자!"
   },
   "FragrantTripleLayeredConsomm": {
-    "name": "???",
-    "description": "???"
+    "name": "향기로운 고기죽순데침",
+    "description": "조미료를 넣은 맛있는 요리, 군침 도는 향기를 풍긴다. 과연 이 요리는 누구의 입맛에 맞을까? 어서 동료들에게 맛 보여 주자!"
   },
   "OldNotes": {
     "name": "낡은 메모",
@@ -4612,128 +4660,128 @@
     "description": "젊은 모험가가 남긴 편지, 쌉싸름한 청심의 향이 은은하게 풍긴다"
   },
   "ArrivalSchedule": {
-    "name": "？？？",
-    "description": "？？？"
+    "name": "입항 시간표",
+    "description": "이로도리 축제 손님이 탑승한 선박의 정보가 적힌 시간표.\\n여행자의 임무는 시간표 정보에 따라 이도의 항구에서 손님을 맞이하고 도움을 제공하는 것이다"
   },
   "FiveKasenSummary": {
-    "name": "？？？",
-    "description": "？？？"
+    "name": "다섯 가선 자료 모음",
+    "description": "백악 선생님을 도와 다섯 가선의 그림을 완성하기 위해 야에 출판사의 편집장 히라야마가 정리한 다섯 가선 자료.\\n제한적인 정보지만, 여전히 과거 다섯 가선의 기개를 충분히 엿볼 수 있다"
   },
   "TheFiveKasensSplendorSuikou": {
-    "name": "？？？",
-    "description": "？？？"
+    "name": "《고카센 이로도리·스이코 편》",
+    "description": "벤티가 항구 창고의 화물 상자에서 발견한 종잇조각. 위에는 《고카센 이로도리·스이코 편》이라는 제목의 시가 적혀 있다"
   },
   "TheFiveKasensSplendorAoiNoOkina": {
-    "name": "？？？",
-    "description": "？？？"
+    "name": "《고카센 이로도리·아오이 노 오키나 편》",
+    "description": "행추가 짐 아래에서 발견한 종잇조각. 행추가 졸고 있는 틈을 타 누군가가 놓아둔 듯하다. 종이에는 《고카센 이로도리·아오이 노 오키나 편》이라는 제목의 시가 적혀 있다"
   },
   "TheFiveKasensSplendorAkahito": {
-    "name": "？？？",
-    "description": "？？？"
+    "name": "《고카센 이로도리·아카히토 편》",
+    "description": "수수께끼의 인물이 놓고 간 종잇조각. 카즈하의 주머니에 몰래 넣을 계획이었던 듯하나, 카즈하가 그의 기척을 눈치채는 바람에 당황하며 바닥에 버리고 도망친 듯하다. 종이에는 《고카센 이로도리·아카히토 편》이라는 제목의 시가 적혀 있다"
   },
   "TheFiveKasensSplendorSumizome": {
-    "name": "？？？",
-    "description": "？？？"
+    "name": "《고카센 이로도리·스미조메 편》",
+    "description": "아야카가 이로도리 축제 행사장의 화분대 위에서 발견한 종잇조각. 이 종잇조각 위에는 오직 한마디만 적혀 있다"
   },
   "AncientForgingBlueprint": {
-    "name": "？？？",
-    "description": "？？？"
+    "name": "오래된 단조 설계도",
+    "description": "오래된 단조 설계도. 과거 쇼군은 카에데하라 가문에 이 설계도에 따라 고신토(御神刀)의 단조를 명했다.\\n물에 젖은 탓에 설계도의 일부 문자가 희미해졌다——과거 누군가가 설계도를 조작했고 그 결과, 고신토 단조에 실패해서 일련의 참극을 빚어냈다…"
   },
   "KaedeharaYoshinorisLetter": {
-    "name": "？？？",
-    "description": "？？？"
+    "name": "카에데하라 요시노리의 편지",
+    "description": "오래된 화분의 틈새에 숨겨져 있는 빈 종잇조각. 물에 젖으면 오랜 시간 봉인되어 있던 비밀이 드러난다.\\n편지에 적힌 진상을 모두에게 알린 후, 카즈하는 「이 편지는 네게 도움이 될지도 모른다」며 편지를 여행자에게 넘긴다"
   },
   "TaliesinsManuscript": {
     "name": "탈리에신의 시 원고",
     "description": "두꺼운 시 원고. 내용은 좋게 말하면 평범하고, 솔직하게 평가하면 읽기가 힘들다. 시보다는 따분한 역사기록에 가깝다"
   },
   "FragrantStirFriedShrimp": {
-    "name": "???",
-    "description": "???"
+    "name": "향기로운 새우살 볶음",
+    "description": "조미료를 넣은 맛있는 요리, 군침 도는 향기를 풍긴다. 과연 이 요리는 누구의 입맛에 맞을까? 어서 동료들에게 맛 보여 주자!"
   },
   "FragrantGoldenShrimpBalls": {
-    "name": "???",
-    "description": "???"
+    "name": "향기로운 황금 새우볼",
+    "description": "조미료를 넣은 맛있는 요리, 군침 도는 향기를 풍긴다. 과연 이 요리는 누구의 입맛에 맞을까? 어서 동료들에게 맛 보여 주자!"
   },
   "FragrantQingceStirFry": {
-    "name": "???",
-    "description": "???"
+    "name": "향기로운 경책 가정식",
+    "description": "조미료를 넣은 맛있는 요리, 군침 도는 향기를 풍긴다. 과연 이 요리는 누구의 입맛에 맞을까? 어서 동료들에게 맛 보여 주자!"
   },
   "FragrantBlackBackPerchStew": {
-    "name": "???",
-    "description": "???"
+    "name": "향기로운 삶은 검정 농어",
+    "description": "조미료를 넣은 맛있는 요리, 군침 도는 향기를 풍긴다. 과연 이 요리는 누구의 입맛에 맞을까? 어서 동료들에게 맛 보여 주자!"
   },
   "FragrantStirFriedFilet": {
-    "name": "???",
-    "description": "???"
+    "name": "향기로운 고기볶음",
+    "description": "조미료를 넣은 맛있는 요리, 군침 도는 향기를 풍긴다. 과연 이 요리는 누구의 입맛에 맞을까? 어서 동료들에게 맛 보여 주자!"
   },
   "FragrantGrilledTigerFish": {
-    "name": "???",
-    "description": "???"
+    "name": "향기로운 흘호어 구이",
+    "description": "조미료를 넣은 맛있는 요리, 군침 도는 향기를 풍긴다. 과연 이 요리는 누구의 입맛에 맞을까? 어서 동료들에게 맛 보여 주자!"
   },
   "FragrantCrabRoeTofu": {
-    "name": "???",
-    "description": "???"
+    "name": "향기로운 꽃게알 두부",
+    "description": "조미료를 넣은 맛있는 요리, 군침 도는 향기를 풍긴다. 과연 이 요리는 누구의 입맛에 맞을까? 어서 동료들에게 맛 보여 주자!"
   },
   "FragrantGoldenCrab": {
-    "name": "???",
-    "description": "???"
+    "name": "향기로운 골든크랩",
+    "description": "조미료를 넣은 맛있는 요리, 군침 도는 향기를 풍긴다. 과연 이 요리는 누구의 입맛에 맞을까? 어서 동료들에게 맛 보여 주자!"
   },
   "FragrantJewelrySoup": {
-    "name": "???",
-    "description": "???"
+    "name": "향기로운 진주비취백옥탕",
+    "description": "조미료를 넣은 맛있는 요리, 군침 도는 향기를 풍긴다. 과연 이 요리는 누구의 입맛에 맞을까? 어서 동료들에게 맛 보여 주자!"
   },
   "FragrantBambooShootSoup": {
-    "name": "???",
-    "description": "???"
+    "name": "향기로운 죽순 수프",
+    "description": "조미료를 넣은 맛있는 요리, 군침 도는 향기를 풍긴다. 과연 이 요리는 누구의 입맛에 맞을까? 어서 동료들에게 맛 보여 주자!"
   },
   "FragrantNoodlesWithMountainDelicacies": {
-    "name": "???",
-    "description": "???"
+    "name": "향기로운 산미 울면",
+    "description": "조미료를 넣은 맛있는 요리, 군침 도는 향기를 풍긴다. 과연 이 요리는 누구의 입맛에 맞을까? 어서 동료들에게 맛 보여 주자!"
   },
   "FragrantMoraMeat": {
-    "name": "???",
-    "description": "???"
+    "name": "향기로운 모라육",
+    "description": "조미료를 넣은 맛있는 요리, 군침 도는 향기를 풍긴다. 과연 이 요리는 누구의 입맛에 맞을까? 어서 동료들에게 맛 보여 주자!"
   },
   "FragrantStirFriedFishNoodles": {
-    "name": "???",
-    "description": "???"
+    "name": "향기로운 생선 볶음면",
+    "description": "조미료를 넣은 맛있는 요리, 군침 도는 향기를 풍긴다. 과연 이 요리는 누구의 입맛에 맞을까? 어서 동료들에게 맛 보여 주자!"
   },
   "FragrantUniversalPeace": {
-    "name": "???",
-    "description": "???"
+    "name": "향기로운 세계 평화",
+    "description": "조미료를 넣은 맛있는 요리, 군침 도는 향기를 풍긴다. 과연 이 요리는 누구의 입맛에 맞을까? 어서 동료들에게 맛 보여 주자!"
   },
   "FragrantRiceBuns": {
-    "name": "???",
-    "description": "???"
+    "name": "향기로운 쌀 찐빵",
+    "description": "조미료를 넣은 맛있는 요리, 군침 도는 향기를 풍긴다. 과연 이 요리는 누구의 입맛에 맞을까? 어서 동료들에게 맛 보여 주자!"
   },
   "FragrantAlmondTofu": {
-    "name": "???",
-    "description": "???"
+    "name": "향기로운 행인두부",
+    "description": "조미료를 넣은 맛있는 요리, 군침 도는 향기를 풍긴다. 과연 이 요리는 누구의 입맛에 맞을까? 어서 동료들에게 맛 보여 주자!"
   },
   "FragrantLotusFlowerCrisp": {
-    "name": "???",
-    "description": "???"
+    "name": "향기로운 연꽃 파이",
+    "description": "조미료를 넣은 맛있는 요리, 군침 도는 향기를 풍긴다. 과연 이 요리는 누구의 입맛에 맞을까? 어서 동료들에게 맛 보여 주자!"
   },
   "SayusSalary": {
-    "name": "???",
-    "description": "???"
+    "name": "사유의 월급 주머니",
+    "description": "수면의 질을 개선하기 위해, 침구를 구매할 용도로 계획되었던 자금. 하지만 사유는 여기서 영원한 잠을 자고 싶진 않은 모양이다"
   },
   "StatueOfHerExcellencyTheAlmightyNarukamiOgoshoGodOfThunder": {
-    "name": "???",
-    "description": "???"
+    "name": "위대하신 나루카미 쇼군상",
+    "description": "사라가 간절히 바라던 「위대하신 나루카미 쇼군상」, 얼른 가져가서 사라에게 보여주자"
   },
   "KokomisShoppingList": {
-    "name": "???",
-    "description": "???"
+    "name": "코코미의 구매 리스트",
+    "description": "코코미가 작성한 구매 리스트. 수려한 글씨체로 구매할 책의 종류, 가격과 수량이 정연하게 나열되어 있다"
   },
   "ToyFox": {
-    "name": "???",
-    "description": "???"
+    "name": "여우 인형",
+    "description": "고로가 이로도리 축제에서 코코미의 부탁으로 동화책을 구매할 때 받은 여우 인형 증정품. 그 후 고로는 같이 책을 사러 가준 답례로 여행자에게 인형을 선물한다.\\n인형을 보면 고로가 「여우」라는 두 글자를 들을 때마다 모든 꼬리 털을 바싹 세우던 장면이 생각난다"
   },
   "SalaryBag": {
-    "name": "？？？",
-    "description": "？？？"
+    "name": "「급여」가 들어있는 보따리",
+    "description": "함부로 열면 불행이 찾아온다는 보따리를 풀어본다. 생각했던 것보다 무게가 가벼운데…?"
   },
   "ACompleteChartOfAkosTreasure": {
     "name": "보물이 숨겨진 곳의 해도·전체",
@@ -4748,40 +4796,40 @@
     "description": "자비에가 밤새도록 작성한 새로운 활동 사진 대본. 전편보다 훨씬 두껍다. 지금 들고 있는 건 제1막일 뿐이다.\\n목표가 생긴 사람의 의지력은 정말 무시무시하다"
   },
   "ALegendOfSwordVI": {
-    "name": "？？？",
-    "description": "???"
+    "name": "침추습검록·Ⅵ",
+    "description": "「별바다에서 펼쳐진 대 전투의 본질은 십여 년 전, 척박한 행성의 백성들 사이에서 벌어진 전투와 같다….」 얼마 후, 그 남자의 이름은 제국 황제의 이름과 같이, 모든 은하계 사람들에게 널리 퍼졌다"
   },
   "ShogunAlmightyRebornAsRaidenWithUnlimitedPower": {
-    "name": "？？？",
-    "description": "???"
+    "name": "라이덴 쇼군으로 환생하면 천하무적이 된다",
+    "description": "이나즈마에서 유행하는 라이트 노벨, 일반인이 갑자기 라이덴 쇼군으로 변하는 이야기다. 신기하고 흥미로운 내용으로 인해 큰 인기를 끌었고 많은 라이트 노벨 작가들에게 창작의 영감을 주었다"
   },
   "PrettyPleaseKitsuneGuuji": {
-    "name": "？？？",
-    "description": "???"
+    "name": "부탁해요, 나의 여우 신선 궁사님",
+    "description": "이나즈마에서 유행하는 라이트 노벨. 덜떨어진 쇼군과 만능 여우 신선 궁사에 관한 이야기이다. 《라이덴 쇼군으로 환생하면 천하무적이 된다》의 자매편이지만 원작자의 작품은 아니다. 가장 큰 특징은 큰 인기를 끌었단 것이다"
   },
   "LetsGoDodoco": {
-    "name": "？？？",
-    "description": "？？？"
+    "name": "출발! 도도코",
+    "description": "편집자 메시지: 《출발! 도도코》는 소녀와 여자아이가 함께 완성한 스토리로, 이야기 곳곳에 그녀들의 따뜻함과 축복이 묻어있는 그녀들이 독자들에게 주는 선물 같은 책이다. 얇은 책이지만 독자들이 이 책을 통해 바쁜 직장 생활 속에서 소소한 즐거움을 느끼길 바란다"
   },
   "AkosTreasureLocation": {
     "name": "아코의 보물이 숨겨진 곳·첫 번째",
     "description": "이곳을 떠난 「아코 도메키 일당」이 남긴 보물. 일당은 보물을 묻으면서 다시 제도에 모이는 날 꺼내기로 약속했고, 보물이 숨겨진 곳의 단서를 네 개로 나누었다. 이것은 그 첫 번째 단서이다"
   },
   "YajnaGrass": {
-    "name": "",
-    "description": ""
+    "name": "야즈나 풀",
+    "description": "「야즈나 풀」은 영약 「아란하오마」의 원료 중 하나로, 「야즈나」는 「죽음의 실현」을 의미한다고 한다"
   },
   "ZohrahMushroom": {
-    "name": "",
-    "description": ""
+    "name": "조흐라 버섯",
+    "description": "「조흐라 버섯」은 영약 「아란하오마」의 원료 중 하나로, 「조흐라」는 「꿈에 취하다」를 의미한다고 한다"
   },
   "BarsamFlower": {
-    "name": "",
-    "description": ""
+    "name": "발삼꽃",
+    "description": "「발삼꽃」은 영약 「아란하오마」의 원료 중 하나로, 「발삼」은 사라진 지 오래된 신목이라고 한다"
   },
   "Arahaoma": {
-    "name": "",
-    "description": ""
+    "name": "아란하오마",
+    "description": "아란나라의 영약 「아란하오마」. 단 한 방울만으로도 숲이 아란나라의 순수한 꿈을 느낄 수 있다"
   },
   "JinwusSoup": {
     "name": "근우의 수프",
@@ -4789,11 +4837,11 @@
   },
   "BagOfOrnaments": {
     "name": "장신구 한 주머니",
-    "description": "취 씨가 당 씨의 보상으로 준 장신구 한 주머니. 층암거연에서 보석, 광물을 밀매하던 보물 사냥단을 위해 만든 것이다. 거칠고 소박한 제작 방식과 그나마 설계의 흔적이 보이는 외관 디자인은 이 장신구들이 리월에서 팔릴 수 있는 모든 가능성을 차단했다. 그나마 양심적인 점은, 이 장신구들은 전부 진짜 재료들로 만들어졌다는 점이랄까…"
+    "description": "취 씨가 당무적의 보상으로 준 장신구 한 주머니. 층암거연에서 보석, 광물을 밀매하던 보물 사냥단을 위해 만든 것이다. 거칠고 소박한 제작 방식과 그나마 설계의 흔적이 보이는 외관 디자인은 이 장신구들이 리월에서 팔릴 수 있는 모든 가능성을 차단했다. 그나마 양심적인 점은, 이 장신구들은 전부 진짜 재료들로 만들어졌다는 점이랄까…"
   },
   "Vasmrti": {
-    "name": "",
-    "description": ""
+    "name": "바스므리티",
+    "description": "모밭의 땅을 돌아본 후 얻은 것으로, 대지의 기억이 응결된 듯 영롱하게 빛난다"
   },
   "SeaRouteLog": {
     "name": "항로에 남겨진 기록",
@@ -4812,92 +4860,92 @@
     "description": "하늘을 수놓는 별의 무늬가 새겨진 신비로운 파편. 어떤 장치의 수수께끼를 푸는 데 사용되는 듯하다"
   },
   "VasomaFruit": {
-    "name": "",
-    "description": ""
+    "name": "바소마 열매",
+    "description": "신비한 힘이 가득한 열매.\\n라나를 돕기 위해서는 반드시 비야의 열매를 얻어야 하고, 비야의 열매를 얻기 위해서는 반드시 바소마 열매를 얻어야 한다"
   },
   "Garland": {
-    "name": "",
-    "description": ""
+    "name": "「화관」",
+    "description": "아란마가 엮어 만든 화관.\\n이런 화관은 바나라나 전체의 축복을 상징한다. 「마라나의 화신」과 싸울 때 끊임없이 힘을 뿜어냈으나 힘을 너무 많이 사용했는지 이제는 눈부신 빛을 잃었다.\\n\\n각각의 꽃송이는 아란나라의 작은 마음과 연결되어 있으며 모든 꽃을 엮어 만든 화관은 「마하바나라나프나」로 이어지는 문이 된다. 아란나라는 이 화관을 쓴 친구를 응원하며 친구의 고통을 함께 나누고 악몽에 저항한다. 또한 친구가 어두운 날들을 이겨낼 수 있도록 돕고 마음의 공허함을 채워준다"
   },
   "Bija": {
-    "name": "",
-    "description": ""
+    "name": "비야의 열매",
+    "description": "아란나라에게 있어 가장 귀중한 사물의 결실. 열매인 동시에 희망의 씨앗이기도 하다"
   },
   "AranasFlower": {
-    "name": "",
-    "description": ""
+    "name": "아란나의 꽃",
+    "description": "아란나가 선물한 꽃.\\n악인을 벌하겠다고 아란나와 약속했다"
   },
   "ArajasFlower": {
-    "name": "",
-    "description": ""
+    "name": "아란자의 꽃",
+    "description": "아란자가 선물한 꽃.\\n아란자는 중요한 기억을 잃은 것 같다"
   },
   "NamelessFlower": {
-    "name": "",
-    "description": ""
+    "name": "이름 없는 꽃",
+    "description": "이름 모를 아란나라가 선물한 꽃.\\n이런 꽃은 아란나라의 우정을 상징하기 때문에 선물을 받아들이면 아란나라의 우정을 허락함을 의미한다"
   },
   "ArapandusFlower": {
-    "name": "",
-    "description": ""
+    "name": "아란판두의 꽃",
+    "description": "아란판두가 선물한 꽃.\\n「바루나 신기」를 구동하고 대지의 수분을 조절해 숲을 번성하게 할 수 있다"
   },
   "ArakuntisFlower": {
-    "name": "",
-    "description": ""
+    "name": "아란쿤티의 꽃",
+    "description": "아란쿤티가 선물한 꽃.\\n친구와 함께하는 즐거움은 물속의 달 연꽃을 닮았다"
   },
   "AranakulasFlower": {
-    "name": "",
-    "description": ""
+    "name": "아란나쿨라의 꽃",
+    "description": "아란나쿨라가 선물한 꽃.\\n아무리 두려워도 「돌의 기억」을 돌보려면 버섯몬의 숲으로 들어가야 한다"
   },
   "ArabalikasFlower": {
-    "name": "",
-    "description": ""
+    "name": "아란바리카의 꽃",
+    "description": "아란바리카가 선물한 꽃.\\n유적 가디언을 한방에 처치할 힘이 깃들어 있는 것 같다"
   },
   "AranagasFlower": {
-    "name": "",
-    "description": ""
+    "name": "아란나가의 꽃",
+    "description": "아란나가가 선물한 꽃.\\n「우기가 돌아오니, 초목이 기뻐하네… 석류는 노래하고, 사과는 박수를 치네」"
   },
   "AranakinsFlower": {
-    "name": "",
-    "description": ""
+    "name": "아란나킨의 꽃",
+    "description": "아란나킨이 선물한 꽃.\\n「돌아오지 않는 바람이여, 거꾸로 흐르지 않는 물이여… 달콤한 꿈과 씁쓸한 회상이여」"
   },
   "AragarusFlower": {
-    "name": "",
-    "description": ""
+    "name": "아란가루의 꽃",
+    "description": "아란가루가 선물한 꽃.\\n「나이 든 푸른 잎, 가득 핀 과실들… 바랜 꿈, 영락한 꽃」"
   },
   "ArarycansFlower": {
-    "name": "",
-    "description": ""
+    "name": "아란리캔의 꽃",
+    "description": "아란리캔이 선물한 꽃.\\n유적 거상 내부에는 흙도 없고 물도 없어서 아란리캔에게는 두려운 곳일 것이다"
   },
   "AraeshasFlower": {
-    "name": "",
-    "description": ""
+    "name": "아란에샤의 꽃",
+    "description": "아란에샤가 선물한 꽃.\\n가장 풀기 어려운 수수께끼는 어째서 아란에샤가 수수께끼를 「맛있다」라고 표현했는가이다… 설마 모두 식자재이기 때문일까?"
   },
   "ArakarasFlower": {
-    "name": "",
-    "description": ""
+    "name": "아란카라의 꽃",
+    "description": "아란카라가 선물한 꽃.\\n「비파랴스」를 키우는 아란카라에게 있어 친구에게 선물할 만한 꽃은 매우 귀중했을 것이다"
   },
-  "TheSiblingsFlower": {
-    "name": "",
-    "description": ""
+  "TheSiblingsFlowers": {
+    "name": "「남매들」의 꽃",
+    "description": "아란파카티와 「오빠들」이 선물한 꽃.\\n「남매」간의 관계를 동경하여 오랫동안 「남매」를 연기해왔다. 요리에 대한 집착도 가족과 음식을 나누고 싶다는 마음에서 비롯되었다.\\n하지만 아란나라의 미뢰는 도저히 믿을 수가 없다"
   },
-  "TheSongGatherersFlower": {
-    "name": "",
-    "description": ""
+  "TheSongGatherersFlowers": {
+    "name": "채곡가의 꽃",
+    "description": "채곡가들이 선물한 꽃.\\n「하늘과 대지가 아무리 어두워도 네 마음이 태양처럼 금빛으로 따뜻하게 빛난다면 항상 희망이 보일 거야」"
   },
-  "AralilaAndAranishatsFlower": {
-    "name": "",
-    "description": ""
+  "AralilaAndAranishatsFlowers": {
+    "name": "아란릴라와 아란니샤트의 꽃",
+    "description": "아란릴라와 아란니샤트가 선물한 꽃.\\n최강자는 역시 나야!"
   },
   "ArakantasFlower": {
-    "name": "",
-    "description": ""
+    "name": "아란칸타의 꽃",
+    "description": "아란칸타가 선물한 꽃.\\n원래는 머리깃 호랑이와 노는 걸 좋아했던 것 같지만 나라 친구를 위해 새로운 게임을 만들었다"
   },
   "StoriesOfYouAndTheAranara": {
-    "name": "",
-    "description": ""
+    "name": "당신과 아란나라에 대한 이야기",
+    "description": "아란나라와 함께 모험하면서 수많은 기묘한 이야기가 탄생했다. 이야기를 중시하는 아란나라의 세계라면 이야기를 「교환」하려는 자가 있을지도 모른다"
   },
   "EmergencyAdjustmentPlan": {
-    "name": "",
-    "description": ""
+    "name": "「긴급 조정 계획서」",
+    "description": "올레그라는 우인단이 실수로 떨어트린 계획서 속의 지도에는 모든 야영지의 위치와 우인단의 순찰 노선이 표시되어 있다"
   },
   "BottleOfSpringWater": {
     "name": "샘물이 담긴 병",
@@ -4980,28 +5028,28 @@
     "description": "유난히 단단한 분재 산석. 견고하며 무거운 암석의 기운이 깃들어 있다. 분재 오른쪽에 배치할 수 있다"
   },
   "LivingSpring": {
-    "name": "",
-    "description": ""
+    "name": "활원수",
+    "description": "수천삼림에 있는 강의 근원에서 수집한 물. 아란파스의 말에 따르면 이곳의 활원수로 만든 수프는 「최고의 진미」라고 한다. 그런데 정말로 평범한 물이랑 다를까…"
   },
   "ABoxOfComponents": {
     "name": "부품 한 상자",
     "description": "부품이 가득 담긴 상자. 이 부품들은 별로 손상을 입지 않은 듯하다. 마물의 흥미를 끌지 못해서일지도…"
   },
   "NoteOfUnknownOriginI": {
-    "name": "？？？",
-    "description": "？？？"
+    "name": "출처를 알 수 없는 쪽지 첫 번째",
+    "description": "수수께끼 공간에서 찾은 쪽지. 일기를 적은 듯하다"
   },
   "NoteOfUnknownOriginII": {
-    "name": "？？？",
-    "description": "？？？"
+    "name": "출처를 알 수 없는 쪽지 두 번째",
+    "description": "수수께끼 공간에서 찾은 쪽지. 일기를 적은 듯하다"
   },
   "NoteOfUnknownOriginIII": {
-    "name": "？？？",
-    "description": "？？？"
+    "name": "출처를 알 수 없는 쪽지 세 번째",
+    "description": "수수께끼 공간에서 찾은 쪽지. 일기를 적은 듯하다"
   },
   "NoteOfUnknownOriginIV": {
-    "name": "？？？",
-    "description": "？？？"
+    "name": "출처를 알 수 없는 쪽지 네 번째",
+    "description": "수수께끼 공간에서 찾은 쪽지. 일기를 적은 듯하다"
   },
   "ANote": {
     "name": "쪽지 한 장",
@@ -5040,8 +5088,8 @@
     "description": "꾸깃꾸깃하게 접힌 자국이 가득한 연구 일지 안쪽. 글씨는 여전히 뚜렷하게 보인다"
   },
   "NoteOfUnknownOrigin": {
-    "name": "？？？",
-    "description": "？？？"
+    "name": "출처를 알 수 없는 쪽지",
+    "description": "수수께끼 공간에서 찾은 쪽지. 일기를 적은 듯하다"
   },
   "CrystallineCore": {
     "name": "수정 코어",
@@ -5072,16 +5120,16 @@
     "description": "다이루크가 보낸 선물. 포장이 호화로운 포도 주스다. 페이몬이 오랫동안 기대한 음료수이자, 동료와 함께 위기를 극복한 것을 기념하는 기념품이다.\\n다이루크가 가장 좋아하는 주스로, 다운 와이너리의 최상급 포도를 사용해 만들었다.\\n「다이루크 어르신이 가장 좋아하는 포도 주스」라는 속성만 봐도 엄청난 상업적 가치가 있는 게 아닐까?"
   },
   "SlimeCondensateSoakedSoil": {
-    "name": "",
-    "description": ""
+    "name": "슬라임 응축액이 스며든 진흙",
+    "description": "슬라임 응축액이 스며든 진흙. 아킴은 이렇게 끈적끈적한 진흙으로 뭘 하려는 걸까…"
   },
   "WhopperflowerRootSoil": {
-    "name": "",
-    "description": ""
+    "name": "구라구라꽃 뿌리의 진흙",
+    "description": "구라구라꽃 뿌리에서 채취한 진흙. 아킴은 이걸로 뭘 하려는 걸까…"
   },
   "MoistSoil": {
-    "name": "",
-    "description": ""
+    "name": "음습한 진흙",
+    "description": "바위 밑에서 획득한 음습한 진흙. 아킴은 이걸로 뭘 하려는 걸까…"
   },
   "StarlightCoalescence": {
     "name": "응축된 별빛",
@@ -5096,16 +5144,16 @@
     "description": "단죄의 황녀가 직접 서명하고 발급한 계약서. 항해 정류소의 개통 권한을 부여할 수 있다. 이 문서를 제출하는 사용자는 밤낮이 교차할 때 칠흑같이 검은 깃털을 펼치고 하늘을 삼킬 자격이 주어진다"
   },
   "SpecialConcresoilForToys": {
-    "name": "",
-    "description": ""
+    "name": "장난감 전용·「젤리 진흙」",
+    "description": "아킴이 니마를 위해 특별 제작한 「젤리 진흙」. 니마가 이걸로 어떤 「토기 전사」를 만들어낼까…"
   },
   "FertileSoilReportedly": {
-    "name": "",
-    "description": ""
+    "name": "비옥하다는 소문이 도는 진흙",
+    "description": "비옥한지 아닌지 알 수 없는 진흙.\\n아킴은 이걸로 뭘 하려는 걸까…"
   },
   "DiscardedConcresoil": {
-    "name": "",
-    "description": ""
+    "name": "폐기된 「젤리 진흙」",
+    "description": "품질에 문제가 있는 「젤리 진흙」. 아주 엉망인 것처럼 보인다…"
   },
   "TenryouCommissionsMissingPersonPoster": {
     "name": "봉행소의 사람 찾기 의뢰",
@@ -5116,44 +5164,96 @@
     "description": "금사과 제도에서 찾아낸 열쇠. 어딘가를 여는 열쇠인 듯하다…"
   },
   "SpecialBirdEgg": {
-    "name": "",
-    "description": ""
+    "name": "특별한 새알",
+    "description": "낚시꾼 케이반이 특별한 낚시용 미끼를 제작할 때 필요한 새알. 지정된 나무에서 수집하긴 했지만 어디가 특별하다는 건지 전혀 모르겠다"
   },
   "SpecialMushroom": {
-    "name": "",
-    "description": ""
+    "name": "특별한 버섯",
+    "description": "낚시꾼 케이반이 특별한 낚시용 미끼를 제작할 때 필요한 버섯. 무슨 까닭인지 마물의 주의를 끌어 채집 당한다…"
+  },
+  "SpecialMint": {
+    "name": "특별한 허브",
+    "description": "낚시꾼 케이반이 특별한 낚시용 미끼를 제작할 때 필요한 허브. 무슨 까닭인지 마물의 주의를 끌어 채집 당한다…"
+  },
+  "SpecialHarraFruit": {
+    "name": "특별한 향신과",
+    "description": "낚시꾼 케이반이 특별한 낚시용 미끼를 제작할 때 필요한 향신과. 무슨 까닭인지 마물의 주의를 끌어 채집 당한다…"
   },
   "SpecialSweetFlower": {
-    "name": "",
-    "description": ""
+    "name": "특별한 달콤달콤꽃",
+    "description": "낚시꾼 케이반이 특별한 낚시용 미끼를 제작할 때 필요한 달콤달콤꽃. 무슨 까닭인지 마물의 주의를 끌어 채집 당한다…"
+  },
+  "BoxLunchFromTighnari": {
+    "name": "타이나리의 도시락통",
+    "description": "타이나리가 하이파시아를 위해 준비한 비상용 도시락. 페이몬이 슬쩍 열어봤는데 맛있어 보이는 전통 수메르 요리가 가득 들어 있었다고 한다"
+  },
+  "LetterToHaypasia": {
+    "name": "하이파시아에게 보내는 편지",
+    "description": "타이나리가 하이파시아에게 쓴 편지. 여행자에 대한 궁금증을 풀어줄 수 있길 바라며 여행자의 신분과 수메르에 도착한 뒤 있었던 일들을 간략하게 적었다"
+  },
+  "BoxLunchFromTheTraveler": {
+    "name": "여행자의 수제 도시락",
+    "description": "여행자가 직접 만든 도시락. 가장 자신 있는 요리인 달콤달콤 닭고기 스튜와 무 수프를 넣었다. 하이파시아가 좋아했으면 좋겠다"
+  },
+  "TighnarisIntroductionLetter": {
+    "name": "타이나리의 소개장",
+    "description": "타이나리가 생론파 연구원 로하위에게 쓴 편지. 여행자가 정보를 수집할 수 있도록 로하위만의 장점을 이용해 도와달라는 내용이 적혀있다.\\n편지에는 수메르성에 사는 로하위의 주소도 첨부돼 있다"
+  },
+  "BagOfTransactionFunds": {
+    "name": "거래 자금 주머니",
+    "description": "알하이탐이 제공한 거래 자금. 항아리 지식을 구매하는 데 사용된다. 주머니가 꽤 묵직하다"
+  },
+  "PackageOfCannedKnowledge": {
+    "name": "항아리 지식 보따리",
+    "description": "알하이탐이 지원한 자금을 사용해 도리의 노점에서 구매한 항아리 지식. 사람들의 눈을 속이기 위해 평범한 상품용 보따리에 담았다"
+  },
+  "CannedKnowledgeSwordfightingTechniquesVIII": {
+    "name": "항아리 지식 「한손검 전투 기술·8」",
+    "description": "「한손검 전투 기술·8」이라는 이름의 항아리 지식. 페이몬의 선동으로 도리의 노점에서 십만 모라를 주고 구매했다. 앞의 일곱 개는 어디 갔는지 모르겠지만 그래도 「전투 기술」이라면 유용하게 쓸 수 있지 않을까…"
+  },
+  "BagOfIntelTransactionFunds": {
+    "name": "정보 구매용 자금 주머니",
+    "description": "알하이탐이 제공한 자금. 「신의 항아리 지식」의 행방에 대한 정보를 구매하는 데 사용된다"
+  },
+  "PictureOfTheTransaction": {
+    "name": "거래 현장 사진",
+    "description": "도리가 촬영한 「신의 항아리 지식」 거래 현장 사진.\\n「아흐마르의 눈」의 단장 미쯔리와 그의 손에서 눈부신 붉은 빛을 뿜어내는 항아리 지식을 선명하게 포착했다"
+  },
+  "InformantCodeChart": {
+    "name": "정보원의 암호표",
+    "description": "알하이탐이 제공한 암호표. 도리와 「특수 상품」을 거래하려는 사람은 모두 이 관문을 먼저 통과해야 한다고 한다.\\n도리의 정보원을 찾아가기 전에 암호표의 내용을 확인해 두자"
   },
   "MisplacedConch": {
     "name": "잘못된 위치의 소라1",
     "description": "다른 곳에 있었어야 할 영상 소라가 엉뚱한 곳에 버려져, 잘못된 화면을 보여주고 있다. 영상 소라를 원래 자리로 돌려놓으면 뭔가 새로운 것을 발견할 수 있을지도 모른다…"
   },
   "PrescriptionMedicationFromBimarstanForGurgen": {
-    "name": "",
-    "description": ""
+    "name": "「비마르스탄」에서 구르겐에게 처방한 약",
+    "description": "구르겐에게 준 약. 충분한 휴식과 함께 복용해야 한다"
   },
   "PrescriptionMedicationFromBimarstanForAzra": {
-    "name": "",
-    "description": ""
+    "name": "「비마르스탄」에서 아즈라에게 처방한 약",
+    "description": "아즈라에게 준 약. 아주 쓴 맛이 나는 듯하다"
   },
   "PrescriptionMedicationFromBimarstanForAftab": {
-    "name": "",
-    "description": ""
+    "name": "「비마르스탄」에서 아프탑에게 처방한 약",
+    "description": "아프탑에게 준 약. 담백한 음식과 함께 복용해야 한다"
   },
   "FreshHarraFruit": {
-    "name": "",
-    "description": ""
+    "name": "신선한 향신과",
+    "description": "낚시꾼 케이반이 특별한 낚시용 미끼를 제작할 때 필요한 향신과. 무슨 까닭인지 마물의 주의를 끌며 마물을 근처에 맴돌게 한다…"
+  },
+  "FreshZaytunPeach": {
+    "name": "신선한 뚠뚠 복숭아",
+    "description": "낚시꾼 케이반이 특별한 낚시용 미끼를 제작할 때 필요한 뚠뚠 복숭아. 평범한 뚠뚠 복숭아와 다를 바 없어 보인다…"
   },
   "RedDyedFabric": {
     "name": "붉게 물든 원단",
     "description": ""
   },
   "TheBestWater": {
-    "name": "",
-    "description": ""
+    "name": "「가장 맛있는 물」",
+    "description": "맑고 차가운 바나라나의 물. 잎이 물에 떨어지면 공중에 떠 있는 듯한 착각을 불러일으킨다. 한눈에 봐도 수질이 매우 좋다는 것을 알 수 있다"
   },
   "SilverPocketWatch": {
     "name": "은도금 회중시계",
@@ -5164,47 +5264,159 @@
     "description": "우인단의 휘장인 듯하다. 하지만 어째서인지 표면에 스크래치가 잔뜩 나 있다"
   },
   "SarehsNote": {
-    "name": "",
-    "description": ""
+    "name": "사레의 메모",
+    "description": "이번에는 「라레」라는 이름의 「하얗고 까만」 고양이를 찾아야 한다. 「고양이 언어」로 부르려면 「야옹, 야옹야옹야옹, 야옹——」이라고 해보자. 발음할 때는 먼저 톤을 내렸다가 올리고 마지막 야옹은 소리를 높여야 한다"
+  },
+  "FreshNilotpalaLotus": {
+    "name": "신선한 달 연꽃",
+    "description": "숲속 습지에서 자라며 밤에 피는 꽃. 신선한 꽃잎은 비늘병을 치료하는 중요한 약재이다"
   },
   "RoseSprout": {
-    "name": "",
-    "description": ""
+    "name": "여린 장미",
+    "description": "「마라나」가 물러간 죽은 땅에서 새로 태어난 꽃송이. 여리면서도 강인하다"
   },
   "EagleFeatherOfTheBrave": {
-    "name": "",
-    "description": ""
+    "name": "용사의 매 깃털",
+    "description": "단단한 매의 깃털이야말로 「자반스」라고 불리는 젊은 용사들의 상징이다"
   },
   "FlorescentTalisman": {
-    "name": "",
-    "description": ""
+    "name": "꽃으로 만든 호신 부적",
+    "description": "여린 손놀림으로 엮은 호신 부적. 무슨 뜻이 담겼는지는 모르겠지만 부착된 풀 원소가 꽃송이를 방금 딴 상태처럼 신선하게 유지해준다. 하지만 풀 원소가 부착된 것을 제외하면 다른 특별한 점이 보이지 않는다"
   },
   "FreshlyPickedMushroom": {
-    "name": "",
-    "description": ""
+    "name": "원산지의 신선한 버섯",
+    "description": "함베이가 지정한 장소에서 채집한 버섯. 나무줄기에서 자랐지만 특별해 보이지는 않는다. 이 버섯들이 무슨 문제를 일으키지는 않았겠지…"
+  },
+  "StrangeSumeruRose": {
+    "name": "비정상적인 수메르 장미",
+    "description": "지맥의 영향을 받은 수메르 장미다. 평소와 조금 다른 것 같은데…?"
+  },
+  "RiddleNote": {
+    "name": "수수께끼가 적힌 쪽지",
+    "description": "「거울이 없는 거울, 많은 연극을 비추다.」\\n지난번 수수께끼를 통해 획득한 보물상자에서 얻은 또 하나의 수수께끼.\\n도대체 누가 이런 수수께끼를 남겼을까…?\\n어쩌면 그 답은 「연극」과 관련된 곳 근처에 있을지도…?"
   },
   "RafiqsShipbuildingMaterials": {
-    "name": "",
-    "description": ""
+    "name": "라픽의 배 제작 재료",
+    "description": "라픽이 사들인 배 제작 재료. 듣자 하니 꽤 많은 모라를 썼다고 한다…"
   },
   "LittleDriedFlower": {
-    "name": "",
-    "description": ""
+    "name": "바람에 말린 작은 꽃",
+    "description": "매우 평범해 보이는 바람에 말린 꽃이지만 한때는 귀중한 선물로 사용되었다. 잊힌 옛 우정을 간직하는 것처럼 소중히 다루어야 한다…"
+  },
+  "ActivatedCannedKnowledge": {
+    "name": "활성화 완료·항아리 지식",
+    "description": "「한손검 전투 기술·8」이라는 이름의 항아리 지식. 페이몬의 선동으로 도리의 노점에서 십만 모라를 주고 구매했다. 앞의 일곱 개는 어디 갔는지 모르겠지만 그래도 「전투 기술」이라면 유용하게 쓸 수 있지 않을까…"
   },
   "PersikovsManuscript": {
     "name": "페르시코프의 원고",
     "description": "우인단 연구원 페르시코프의 원고. 지도가 그려져 있으며, 지도가 가리키는 바에 따르면 「지감 의태」 장치의 부족한 수정 코어를 찾을 수 있을 것 같다…"
   },
   "NormalWood": {
-    "name": "",
-    "description": ""
+    "name": "일반 목재",
+    "description": "빅토르가 주문한 목재. 목조품 제작에 사용할 거라고 한다"
   },
   "FatuiMeal": {
+    "name": "우인단의 식사",
+    "description": "「파니푸리」 두 개가 담긴 도시락. 빅토르와 프세볼로트도 배가 고프겠지…"
+  },
+  "TreasureMapInABox": {
+    "name": "상자 바닥의 보물지도",
+    "description": "상자 바닥에 놓인 보물지도. 지도 위에 간단한 표기로 「좋은 것」의 위치를 표시했다"
+  },
+  "GlintingComponent": {
     "name": "",
     "description": ""
   },
-  "TreasureMapInABox": {
+  "SacredSealValley": {
     "name": "",
+    "description": ""
+  },
+  "SacredSealBirdHead": {
+    "name": "",
+    "description": ""
+  },
+  "SacredSealRaisedArm": {
+    "name": "",
+    "description": ""
+  },
+  "SacredSealSandstorm": {
+    "name": "",
+    "description": ""
+  },
+  "SacredSealAuricle": {
+    "name": "",
+    "description": ""
+  },
+  "SacredSealForest": {
+    "name": "",
+    "description": ""
+  },
+  "SacredSealThunderstrike": {
+    "name": "",
+    "description": ""
+  },
+  "SacredSealDanger": {
+    "name": "",
+    "description": ""
+  },
+  "SacredSealChiselHammer": {
+    "name": "",
+    "description": ""
+  },
+  "SacredSealSunrise": {
+    "name": "",
+    "description": ""
+  },
+  "SacredSealRightToRule": {
+    "name": "",
+    "description": ""
+  },
+  "SacredSealSheepHead": {
+    "name": "",
+    "description": ""
+  },
+  "SacredSealCrocodileHead": {
+    "name": "",
+    "description": ""
+  },
+  "SacredSealGiantSerpent": {
+    "name": "",
+    "description": ""
+  },
+  "SacredSealCeremony": {
+    "name": "",
+    "description": ""
+  },
+  "SacredSealLabor": {
+    "name": "",
+    "description": ""
+  },
+  "SacredSealDune": {
+    "name": "",
+    "description": ""
+  },
+  "GoldenRoseSeeds": {
+    "name": "",
+    "description": ""
+  },
+  "TransparentRuinsRecordI": {
+    "name": "투명 유적 기록·첫 번째",
+    "description": ""
+  },
+  "RecordOfLambEaterRock": {
+    "name": "양을 삼킨 바위 기록",
+    "description": ""
+  },
+  "RecordOfTheTombOfFullFlagons": {
+    "name": "포식의 릉 기록",
+    "description": ""
+  },
+  "SoheilsOldNotes": {
+    "name": "",
+    "description": ""
+  },
+  "RecordOfAarusReflection": {
+    "name": "아루의 그림자 기록",
     "description": ""
   },
   "TwilightTheaterHeadsNotes": {
@@ -5212,26 +5424,30 @@
     "description": "《극야 환상극·검을 든 왕녀!》의 대본. 조잡한 글씨는 단장의 주석이다. 하지만 일부 주석은 너무 과격해서 아마 받아들여지지 않을 것 같다"
   },
   "FreshlyPickedHarraFruit": {
-    "name": "",
-    "description": ""
+    "name": "방금 딴 향신과",
+    "description": "방금 채집한 향신과. 요리에 쓰기 좋다"
   },
   "UnsignedNote": {
-    "name": "",
-    "description": ""
+    "name": "서명이 없는 쪽지",
+    "description": "서명이 없는 쪽지. 누가 남겼는지 알 수 없다…"
   },
   "RaggedRecords": {
-    "name": "",
+    "name": "파손된 기록",
     "description": ""
   },
   "RemeltingDevice": {
-    "name": "",
-    "description": ""
+    "name": "재용해 장치",
+    "description": "연금술사 하자나드가 개발한 장치. 정교한 설계로 고압과 고온을 견딜 수 있는 내부 챔버를 갖추고 있어 「재용해 효과」의 폭발을 감당할 수 있다. 특수 밸브는 적절한 타이밍에 자동으로 열려 충분히 혼합된 포션의 증기를 방출하고 사용자의 전투를 지원한다.\\n그러나 일부 디테일로 미루어 볼 때, 이 장치는 원가 절감을 위한 실험품인 것 같다. 혹시 하자나드의 연구 자금이 넉넉하지 않은 걸까…"
   },
   "RemeltingTablet": {
-    "name": "",
-    "description": ""
+    "name": "재용해 약제",
+    "description": "연금술사 하자나드가 온 힘을 쏟아 만든 매우 특별한 고체 포션. 이론상 이런 연금용 포션은 장기간 보관할 수 있고 휴대와 운반이 간편하고 안전성이 좋다고 한다. 하지만 사용 시에는 약제를 「재용해 장치」 안에 넣고 미세한 폭발을 통해 두 종류의 고체 약제를 혼합해야만 완전한 약효를 얻을 수 있다.\\n손에 든 장치의 내부에서 폭발이 일어날 수 있다고 생각하니 불안감이 스멀스멀 올라오는데…"
   },
   "EmployersOrders": {
+    "name": "고용주의 명령",
+    "description": ""
+  },
+  "UnknownObjectWithAnEarthyGlow": {
     "name": "",
     "description": ""
   },
@@ -5377,15 +5593,15 @@
   },
   "NagadusEmeraldFragment": {
     "name": "자라나는 비취 조각",
-    "description": ""
+    "description": "캐릭터 돌파 소재.\\n「아주 기나긴 꿈을 꾸었어…」"
   },
   "NagadusEmeraldChunk": {
     "name": "자라나는 비취 덩이",
-    "description": ""
+    "description": "캐릭터 돌파 소재.\\n「아주 기나긴 꿈을 꾸었어…」\\n「사람들은 서로 손을 잡고 빙글빙글 돌았어. 현자와 어리석은 자, 무녀와 용사, 인형과 신상까지…」"
   },
   "NagadusEmeraldGemstone": {
     "name": "자라나는 비취",
-    "description": ""
+    "description": "캐릭터 돌파 소재.\\n「아주 기나긴 꿈을 꾸었어…」\\n「사람들은 서로 손을 잡고 빙글빙글 돌았어. 현자와 어리석은 자, 무녀와 용사, 인형과 신상까지…」\\n「모두의 흥겨운 춤에는 우주의 모든 것이 담겨 있었지. 『생명』은 언제나 목적이고, 『지혜』는 수단이야」"
   },
   "VajradaAmethystSliver": {
     "name": "승리의 자수정 가루",
@@ -5567,6 +5783,42 @@
     "name": "「천광」의 철학",
     "description": "특성 육성 소재\\n번개의 나라의 염원은 곧 천광이다\\n영원토록 지하에 살고 있어도, 인간들은 불요불굴의 의지로 천광을 기도한다. 인간은 늘 쉬지 않고 초월을 추구한다. 봉쇄되고 멈춘 영원함도 물론 웅장하고 장려하나, 그 본질은 결국 죽음이다"
   },
+  "TeachingsOfAdmonition": {
+    "name": "「간언」의 가르침",
+    "description": "특성 육성 소재.\\n「간언」은 지혜의 나라의 줄기와 가지다.\\n간언은 순수한 마음에서 나온다. 냉철하고 순수한 말만이 깊은 지혜를 표현하고, 지혜의 씨앗이 오만의 장벽을 돌파하고 뿌리를 내려 무성하게 자랄 수 있다"
+  },
+  "GuideToAdmonition": {
+    "name": "「간언」의 인도",
+    "description": "특성 육성 소재.\\n「간언」은 지혜의 나라의 줄기와 가지다.\\n간언은 정교한 생각을 동반한다. 사려 깊은 사람만이 겸손하고 명료하게 말할 수 있어, 현명한 이는 설득하고, 어리석은 자는 깨닫게 해 지혜를 강물처럼 흐르게 할 수 있다"
+  },
+  "PhilosophiesOfAdmonition": {
+    "name": "「간언」의 철학",
+    "description": "특성 육성 소재.\\n「간언」은 지혜의 나라의 줄기와 가지다.\\n간언은 지극한 선을 행하는 행위이다. 행동은 언어에 진의를 부여하고, 언어와 사고, 행동의 일치는 지혜의 나무가 좋은 열매를 맺을 수 있게 하는 풍부한 영양소가 된다"
+  },
+  "TeachingsOfIngenuity": {
+    "name": "「창의」의 가르침",
+    "description": "특성 육성 소재.\\n「창의」는 지혜의 나라의 잎맥이다.\\n창의는 선량한 의도에서 나온다. 「독나무는 절대 선량한 열매를 맺지 않는다」는 말이 이를 설명해 준다. 선량하고 강건한 의지는 절묘하고 사려 깊은 사고를 불러일으켜 지혜의 이름을 더럽히지 않게 한다"
+  },
+  "GuideToIngenuity": {
+    "name": "「창의」의 인도",
+    "description": "특성 육성 소재.\\n「창의」는 지혜의 나라의 잎맥이다.\\n창의는 정직한 언어를 이끌어 낸다. 절묘하고 사려 깊은 사고는, 입에서 나오는 말이 행복을 향한 바른길을 벗어나지 않게 이끈다. 반면 태만과 사념은 비열한 언행을 불러일으킬 뿐이다"
+  },
+  "PhilosophiesOfIngenuity": {
+    "name": "「창의」의 철학",
+    "description": "특성 육성 소재.\\n「창의」는 지혜의 나라의 잎맥이다.\\n창의는 조화로운 품행에서 나온다. 행동은 생각을 온전한 형태로 만들고, 사고와 언어, 행동을 서로 확인하게 해, 지혜의 나무가 꽃을 피우게 하는 충실한 근간이 된다"
+  },
+  "TeachingsOfPraxis": {
+    "name": "「실천」의 가르침",
+    "description": "특성 육성 소재.\\n「실천」은 지혜의 나라의 뿌리이다.\\n실천은 명확한 의지에서 나온다. 모든 지혜는 끈질긴 탐구와 실천을 통해서만 실현된다. 선함이 동반되지 않으면 올곧은 사상과 뛰어난 언변도 아무 의미가 없다"
+  },
+  "GuideToPraxis": {
+    "name": "「실천」의 인도",
+    "description": "특성 육성 소재.\\n「실천」은 지혜의 나라의 뿌리이다.\\n실천은 솔직한 언행의 증거다. 생각과 행동이 선하다고 해서, 이를 지혜라고 부를 수는 없다. 지혜는 행동 속에 잠들어 있고, 정직한 말속에 숨겨져 있다"
+  },
+  "PhilosophiesOfPraxis": {
+    "name": "「실천」의 철학",
+    "description": "특성 육성 소재.\\n「실천」은 지혜의 나라의 뿌리이다.\\n행동은 행동이 가지는 그 본연의 의미를 실증하고, 행동과 언어, 사고를 일체화 시킨다. 실천은 지혜를 가진 자가 자신을 드러낼 수 있는 유일한 길이다"
+  },
   "SanctifyingDroplet": {
     "name": "축성의 물방울",
     "description": ""
@@ -5621,7 +5873,7 @@
   },
   "FragileResin": {
     "name": "약한 레진",
-    "description": "퓨어 레진을 보충할 수 있는 아이템. 개당 60pt 보충 가능하다.\\n소량의 에너지가 담긴 결정체. 퓨어 레진에 흡수될 수 있다.\\n여러 에너지의 흐름이 이 세계의 많은 아름다운과 도전을 만들어냈다. 이 결정체에도 이런 에너지가 담겨있다"
+    "description": "퓨어 레진을 보충할 수 있는 아이템. 개당 60pt 보충 가능하다.\\n소량의 에너지가 담긴 결정체. 퓨어 레진에 흡수될 수 있다.\\n여러 에너지의 흐름이 이 세계의 많은 아름다움과 도전을 만들어냈다. 이 결정체에도 이런 에너지가 담겨있다"
   },
   "CrimsonAgate": {
     "name": "진홍의 옥수",
@@ -5652,12 +5904,12 @@
     "description": "하늘빛처럼 파란 수정석. 표면이 희미하게 빛나고 있어, 지하 깊은 곳에서는 볼 수 없는 푸른 하늘을 부르고 있는 것만 같다….\\n귀를 기울여 경청하면, 마치 그 속에서 옅은 한숨 소리가 들리는 듯하다.\\n이상하게도 이 수정석에서는 왠지 모를 따스한 촉감이 느껴진다"
   },
   "Dendroculus": {
-    "name": "",
-    "description": ""
+    "name": "사라진 풀의 신의 눈동자",
+    "description": "진한 풀 원소 에너지가 모여 만들어진 물질. 풀의 신상에 제물로 바치면 오랜 시간이 흐르며 잃어버렸던 힘을 찾을 수 있다"
   },
   "SumeruShrineOfDepthsKey": {
-    "name": "",
-    "description": ""
+    "name": "수메르의 지령 감실 열쇠",
+    "description": "수메르 대지 곳곳에 흩어져 있는 옛 지령 감실의 봉인을 파괴할 수 있다.\\n대지에 우뚝 솟아 있는 오래된 감실은 문명의 멸망과 함께 자신을 봉인했다. 깊숙한 비경에서 획득한 열쇠로 봉인을 깨는 것은 과거의 기운을 살려 감실이 모든 것을 단지 잊게 하는 것일지도 모른다"
   },
   "Dish": {
     "name": "요리",
@@ -6105,7 +6357,7 @@
   },
   "FishFlavoredToast": {
     "name": "어향 토스트",
-    "description": "클레의 특제 요리. 폭탄을 마구 던져 물고기가 모두 도망치게 했다. 진의 가르침 아래 클레는 토스트 만드는 법을 열심히 배워 어부들에게 선물했다. 맛도 좋고 포만감까지 최고인 요리이다. 이제 클레가 하루 종일 물에다 폭탄을 던져도 배를 곪을 걱정 없다"
+    "description": "클레의 특제 요리. 폭탄을 마구 던져 물고기를 도망가게 한 클레는, 진의 지도 아래 이 토스트를 만들어 어부들에게 사과 했다. 맛이 좋고 포만감을 오래 유지할 수 있는 이 요리 덕에, 폭탄으로 물고기를 도망가게 해도, 클레는 굶을 걱정을 하지 않아도 된다"
   },
   "TeyvatCharredEgg": {
     "name": "티바트 바삭 프라이",
@@ -6129,7 +6381,7 @@
   },
   "DeliciousLotusSeedAndBirdEggSoup": {
     "name": "맛있는 연밥 계란찜",
-    "description": "쩌서 만든 계란 요리. 탱탱한 계란찜을 입에 넣으면 금방이라도 녹을 것처럼 부드럽고 연꽃이 피어난 듯한 달콤한 향이 입안 가득 퍼진다"
+    "description": "쪄서 만든 계란 요리. 탱탱한 계란찜을 입에 넣으면 금방이라도 녹을 것처럼 부드럽고 연꽃이 피어난 듯한 달콤한 향이 입안 가득 퍼진다"
   },
   "SuspiciousAdeptusTemptation": {
     "name": "이상한 선도장",
@@ -6856,7 +7108,7 @@
     "description": "요이미야의 특제 요리. 폭죽을 볼 때 요이미야가 품에 안겨준 디저트. 귓가에는 그녀의 아이 같은 천진난만한 웃음소리가, 팡팡 터지는 폭죽 소리가 울려 퍼지고 있다. 이 유일무이한 선율 속에서, 손에 있는 통통한 생선이 마치 금방이라도 살아서 헤엄칠 것만 같다…"
   },
   "DizzinessBeGoneNoJutsuVersion": {
-    "name": "어지러움 방지술・개조",
+    "name": "어지러움 방지술·개조",
     "description": "사유의 특제 요리. 사유가 귀여운 모양으로 뭉친 주먹밥. 라쿤이 아니라 너구리 모양임을 꼭 기억하자. 그나저나, 사유가 한 끼만 먹어도 종일 잘 수 있는 비법이 이 주먹밥인가?"
   },
   "SpecialMushroomPizza": {
@@ -7149,7 +7401,7 @@
   },
   "SuspiciousUdonNoodles": {
     "name": "이상한 우동",
-    "description": "쫄깃쫄깃한 면 요리. 많이 밍밍한 면과 국물에서 뭔가 심심한 느낌이 많이 든다. 역시 간 맞추기에 소홀하면 안 될 것 같다"
+    "description": "쫄깃쫄깃한 면 요리. 많이 밍밍한 면과 국물에서 뭔가 심심한 느낌이 많이 든다. 역시 간 맞추기에 소홀하면 안 되는 것 같다"
   },
   "UdonNoodles": {
     "name": "우동",
@@ -7164,31 +7416,31 @@
     "description": "야에 미코의 특제 요리. 중간에 있는 유부는 점잖은 「여우 아가씨」의 특별 주문 작품이다. 소문에 따르면 경건한 마음으로 한입에 해치우면 그날은 「여우 아가씨」의 비호를 받아 불운은 멀어지고 행운만 가득한 하루가 된다고 한다"
   },
   "SuspiciousKatsuSandwich": {
-    "name": "이상한 스테이크 샌드위치",
+    "name": "이상한 돈가스 샌드위치",
     "description": "영양 밸런스가 좋은 한 끼 식사. 시든 채소 잎에 마르고 질긴 커틀릿, 게다가 과하게 딱딱한 빵조각까지… 어쩔 수 없지, 배를 채우는 게 중요하니까 그냥 먹자…"
   },
   "KatsuSandwich": {
-    "name": "스테이크 샌드위치",
+    "name": "돈가스 샌드위치",
     "description": "영양 밸런스가 좋은 한 끼 식사. 빵 사이에 끼워진 도톰하고 바삭한 커틀릿에 새콤달콤 소스가 느끼함을 달랜다. 이국적인 느낌과 현지 맛의 완벽한 조합이다"
   },
   "DeliciousKatsuSandwich": {
-    "name": "맛있는 스테이크 샌드위치",
+    "name": "맛있는 돈가스 샌드위치",
     "description": "영양 밸런스가 좋은 한 끼 식사. 달콤하고 부드러운 빵은 포만감을 선사해 주고 바삭바삭하고 육즙 가득한 커틀릿은 혀를 자극한다. 한입 맛보면 혀끝부터 위까지 만족감에 휩싸인다. 대체 이렇게 훌륭한 조합을 가장 먼저 생각해낸 사람은 누굴까?"
   },
   "SuspiciousRainbowAster": {
-    "name": "？？？",
-    "description": "？？？"
+    "name": "이상한 보랏빛 비구름",
+    "description": "이색 음료. 색만 보면 괜찮은 것 같다. 제비꽃 열매를 잘못 처리하는 바람에 생긴 쓴맛을 무시할 수 있다면, 그럭저럭 받아들일 수 있는 음료다…"
   },
   "RainbowAster": {
-    "name": "？？？",
-    "description": "？？？"
+    "name": "보랏빛 비구름",
+    "description": "이색 음료. 유명 소설 《부탁해요, 나의 여우 신선 궁사님》에 등장한 음료로, 항해의 바람과 야에 출판사가 공동 개발해 신기한 풍미를 살렸다. 콩이 들어가지 않아 이로도리 축제의 한정 음료와는 맛이 조금 다르지만, 콩 알레르기 걱정은 없다"
   },
   "DeliciousRainbowAster": {
-    "name": "？？？",
-    "description": "？？？"
+    "name": "맛있는 보랏빛 비구름",
+    "description": "이색 음료. 몬드에서 자라는 통통 연꽃과 이나즈마 특산인 제비꽃 열매가 산과 바다를 넘어 한 곳에서 만났다. 부드러운 우유와 상큼한 열매의 향이 어우러져 눈과 귀의 즐거움을 선사한다. 책에서 병든 쇼군님이 이걸 마시고 정신을 차렸다고 쓴 건 조금도 과장이 아니었다!"
   },
   "QuietElegance": {
-    "name": "「우아한 정적」",
+    "name": "「고요한 정취」",
     "description": "카미사토 아야토의 특제 요리. 정교하고 우아한 플레이팅은 아야토의 과하지도, 모자라지도 않은 일 처리 방식과 무척 닮아 있다. 자세히 음미하면 오유정(烏有亭)의 맛과 똑같아서 무척 신기하다. 마지막으로 영롱한 동백꽃에 젓가락을 뻗어보지만 아야토가 막아선다… 「그건 검술 연습할 때 겸사겸사 만든 장식품입니다」"
   },
   "OmuriceWaltz": {
@@ -7204,195 +7456,303 @@
     "description": "시카노인 헤이조의 특제 요리. 풍부한 육즙의 황금색 돈가스가 달걀노른자 위에 놓여 거부할 수 없는 향긋한 냄새를 풍긴다…. 다 먹어 치우고 나면 마음속 깊은 곳에서 숨겨둔 비밀을 털어놓고 싶은 충동이 생긴다. 설마 이게 바로 헤이조의 비밀 무기인 건가?"
   },
   "SuspiciousButterChicken": {
-    "name": "",
-    "description": ""
+    "name": "이상한 버터 치킨",
+    "description": "풍미가 진한 요리. 조미료의 양 조절에 실패한 탓에 맛이 지나치게 강하고 자극적이다. 물을 많이 마시면 어떻게든 통째로 삼킬 수 있다…"
   },
   "ButterChicken": {
-    "name": "",
-    "description": ""
+    "name": "버터 치킨",
+    "description": "풍미가 진한 요리. 절여둔 닭고기를 기름에 한 번 튀긴다. 버터를 녹여 다진 토마토와 향신료를 넣은 뒤 걸쭉해질 때까지 끓이고 튀겨둔 닭을 넣는다. 완성된 요리는 주식에 곁들여 먹을 수 있으며 수메르 사람들의 심금을 가장 잘 울릴 수 있는 요리이다"
   },
   "DeliciousButterChicken": {
-    "name": "",
-    "description": ""
+    "name": "맛있는 버터 치킨",
+    "description": "풍미가 진한 요리. 부드러운 소스가 폭신하고 촉촉한 닭고기를 골고루 감싸고 있다. 한입 베어 물면 다양하고 풍부한 조미료가 입안에서 「맛있는 원소폭발」을 일으킨다…. 아, 마지막 한 방울의 소스마저 남김없이 전병에 찍어 먹다 보면 어느새 텅 빈 접시를 발견하게 된다"
   },
   "SuspiciousShawarmaWrap": {
-    "name": "",
-    "description": ""
+    "name": "이상한 샤와르마",
+    "description": "구운 고기가 들어간 샤와르마. 숯불을 연상케 하는 까맣게 탄 고기는 아무리 완벽한 전병으로 감쌀지라도 구제할 수 없다…. 모든 재료에 주의를 기울여야 할 듯하다"
   },
   "ShawarmaWrap": {
-    "name": "",
-    "description": ""
+    "name": "샤와르마",
+    "description": "구운 고기가 들어간 샤와르마. 세로로 고정된 꼬치에 꿴 짐승고기를 썰어서 야채와 소스를 얇은 전병 속에 넣으면, 전통적이고 맛있는 수메르 길거리 음식을 간단하게 맛볼 수 있다"
   },
   "DeliciousShawarmaWrap": {
-    "name": "",
-    "description": ""
+    "name": "맛있는 샤와르마",
+    "description": "구운 고기가 들어간 샤와르마. 겉은 바싹하고 속은 촉촉한 고기에 향신료로 영혼을 불어넣고 싱싱한 채소로 신선한 맛을 더해준다. 환상적인 맛을 감싸고 있는 얇고 말랑한 전병을 한입 베어 물면 만족감이 입안 한가득 느껴져 실수로 흘러나온 육즙마저 아까울 정도다"
   },
   "SuspiciousSelvaSalad": {
-    "name": "",
-    "description": ""
+    "name": "이상한 우림 샐러드",
+    "description": "페이몬이 고심 끝에 개량한 아란나라의 샐러드. 하지만 수메르에는 이미 똑같은 레시피의 샐러드가 있었다. 뚠뚠 복숭아가 숙성을 넘어서 발효에 가까운 이상한 냄새를 풍기고 있으며 허브와 장미의 비율도 균형을 잃었다…"
   },
   "SelvaSalad": {
-    "name": "",
-    "description": ""
+    "name": "우림 샐러드",
+    "description": "페이몬이 고심 끝에 개량한 아란나라의 샐러드. 하지만 수메르에는 이미 똑같은 레시피의 샐러드가 있었다. 뚠뚠 복숭아는 신선하고 아삭한 식감을 자랑하며 청량한 허브로 설탕의 달콤함을 대체했다. 풍미를 선사하기 위해 수메르 장미 액기스를 약간 넣었다. 미각과 후각을 동시에 사로잡는 상큼한 요리이다"
   },
   "DeliciousSelvaSalad": {
-    "name": "",
-    "description": ""
+    "name": "맛있는 우림 샐러드",
+    "description": "페이몬이 고심 끝에 개량한 아란나라의 샐러드. 하지만 수메르에는 이미 똑같은 레시피의 샐러드가 있었다. 식자재로 선택한 뚠뚠 복숭아는 부드럽고 과즙이 가득하며 허브의 상큼함과 성숙한 장미에서 퍼지는 향기가 위장에 밀려 들어온다. 적당한 단맛과 시원함이 느껴진다. 이게 바로 「즐거운 맛」이 아닐까?"
   },
   "SuspiciousMasalaCheeseBalls": {
-    "name": "",
-    "description": ""
+    "name": "이상한 마살라 치즈볼",
+    "description": "페이몬이 고심 끝에 개량한 아란나라의 요리. 하지만 수메르 현지에는 똑같은 레시피의 요리가 이미 오래전부터 있었다. 치즈볼이 제대로 튀겨지지 않은 탓에 한입 베어 물면 생치즈의 맛이 느껴지며 감자도 딱딱한 게 아직 덜 익은 듯하다. 다음에는 조금 더 오래 튀기는 게 좋겠다…"
   },
   "MasalaCheeseBalls": {
-    "name": "",
-    "description": ""
+    "name": "마살라 치즈볼",
+    "description": "페이몬이 고심 끝에 개량한 아란나라의 요리. 하지만 수메르 현지에는 똑같은 레시피의 요리가 이미 오래전부터 있었다. 특별한 방식으로 향신료를 넣으면 완성된 음식에서 거부할 수 없는 향기를 풍긴다. 부드러운 식감의 치즈볼을 한입 베어 물면 잘 녹은 치즈가 흘러나오며 오랫동안 구워서 흐물흐물해진 감자와 함께 먹으면 엄청난 포만감을 느낄 수 있다"
   },
   "DeliciousMasalaCheeseBalls": {
-    "name": "",
-    "description": ""
+    "name": "맛있는 마살라 치즈볼",
+    "description": "페이몬이 고심 끝에 개량한 아란나라의 요리. 하지만 수메르 현지에는 똑같은 레시피의 요리가 이미 오래전부터 있었다. 특수한 향신료 사용법으로 식자재 본연의 맛을 더욱 돋보이게 하며 미뢰에 약간의 자극을 줌으로써 미각의 경지를 높여준다…. 바삭하고 촉촉한 치즈볼과 따끈따끈한 감자가 환상적으로 어울린다"
   },
   "SuspiciousMushroomHodgepodge": {
-    "name": "",
-    "description": ""
+    "name": "이상한 모둠 버섯",
+    "description": "페이몬이 고심 끝에 개량한 아란나라의 버섯구이. 실상은 시중에서 흔히 보이는 수메르 버섯구이에 조미료를 첨가한 것이다. 야생의 맛이 느껴진다고 해야 할까 아니면… 제대로 씻지 않은 흙의 향기가 가득하다고 해야 할까. 휴, 이런 자연의 선물은 숲속의 산멧돼지들이나 맛있게 먹을 수 있을 듯하다"
   },
   "MushroomHodgepodge": {
-    "name": "",
-    "description": ""
+    "name": "모둠 버섯",
+    "description": "페이몬이 고심 끝에 개량한 아란나라의 버섯구이. 실상은 시중에서 흔히 보이는 수메르 버섯구이에 조미료를 첨가한 것이다. 세 종류의 서로 다른 버섯을 골라 적절히 손질한 다음 간단한 방법으로 요리하면 식감과 풍미 모두 잡을 수 있다"
   },
   "DeliciousMushroomHodgepodge": {
-    "name": "",
-    "description": ""
+    "name": "맛있는 모둠 버섯",
+    "description": "페이몬이 고심 끝에 개량한 아란나라의 버섯구이. 실상은 시중에서 흔히 보이는 수메르 버섯구이에 조미료를 첨가한 것이다. 불의 세기와 조리 시간은 버섯의 종류에 따라 조금씩 달라지는데, 이 때문에 세 가지 버섯의 식감과 맛에도 묘한 차이점이 나타나 환상적인 뒷맛을 선사한다. 한입에 꿀꺽할지 하나씩 천천히 음미하면서 맛을 비교할지는 개인의 취향에 달렸다"
   },
   "SuspiciousPitaPocket": {
-    "name": "",
-    "description": ""
+    "name": "이상한 포켓 피타",
+    "description": "다양한 고기가 들어간 밀가루 빵. 빵의 거친 표면은 모래처럼 혀끝을 스치고 속 재료는 본연의 광택을 잃고 딱딱하게 말라 버렸다…. 길을 잃고 삼일 정도 헤맨 사람이라면 간신히 먹을 수 있을 듯하다"
   },
   "PitaPocket": {
-    "name": "",
-    "description": ""
+    "name": "포켓 피타",
+    "description": "다양한 고기가 들어간 밀가루 빵. 납작한 빵을 구우면 대포 복어처럼 동그랗게 부풀어 오르는데, 부풀어 오른 빵을 자르면 그 모양이 주머니와 비슷하여 포켓 피타라고 부른다. 옛날 수메르 사람들은 빵에 바로 소스를 찍어 먹는 걸 좋아했지만 지금 유행하는 방법은 빵 속에 각종 재료를 넣어 크게 베어 무는 것이다"
   },
   "DeliciousPitaPocket": {
-    "name": "",
-    "description": ""
+    "name": "맛있는 포켓 피타",
+    "description": "다양한 고기가 들어간 밀가루 빵. 무대 중앙을 비추는 조명처럼 소스가 식자재의 매력을 돋보이게 하고 있으며, 고기의 향과 채소의 아삭함이 완벽한 조화를 이루고 있다. 이 「주머니」는 마치 마술 공연의 만능 포켓처럼 끊임없는 놀라움을 선사한다"
   },
   "SuspiciousPanipuri": {
-    "name": "",
-    "description": ""
+    "name": "이상한 파니푸리",
+    "description": "소스를 찍어 먹는 간식. 배합한 녹색 소스는 기묘하고 심상치 않은 냄새를 풍기며 빛깔도 뭔가 이상하다…. 소스는 포기하고 그냥 먹는 게 더 나은 선택일 듯하다"
   },
   "Panipuri": {
-    "name": "",
-    "description": ""
+    "name": "파니푸리",
+    "description": "소스를 찍어 먹는 간식. 뜨거운 기름에 튀긴 작은 볼에 구멍을 내서 속을 채운 뒤 녹색 소스에 찍어 먹는다. 크기가 적당해서 한입에 먹을 수 있으며 수메르에서 흔히 볼 수 있는 간식이다"
   },
   "DeliciousPanipuri": {
-    "name": "",
-    "description": ""
+    "name": "맛있는 파니푸리",
+    "description": "소스를 찍어 먹는 간식. 슬라임처럼 동그란 볼에 산뜻하고 신비로운 소스를 곁들인다. 한입 베어 물면 상큼함, 짜릿함, 새콤함 등 다양한 맛들이 혀끝에서 폭발을 일으켜 환상 같은 맛의 충격을 선사한다. 어쩐지 이 맛에 푹 빠진 수메르 사람들이 있더라니…"
   },
   "SuspiciousMintyBeanSoup": {
-    "name": "",
-    "description": ""
+    "name": "이상한 완두콩 민트 수프",
+    "description": "간단한 재료로 만든 수프. 물을 지나치게 많이 넣은 탓에 수프가 묽어져서 요리보다는 음료에 가까운 듯하다. 차라리 얼음을 좀 넣어서 「완두콩 민트 음료」로 개량하는 게 나을 듯하다…"
   },
   "MintyBeanSoup": {
-    "name": "",
-    "description": ""
+    "name": "완두콩 민트 수프",
+    "description": "간단한 재료로 만든 수프. 허브와 콩을 냄비에 넣어 잘 익히고 부드럽게 으깬다. 약한 불로 걸쭉해질 때까지 천천히 끓인 다음 콩가루와 허브를 넣어 장식해준다. 완성된 요리는 상큼한 맛을 자랑하며 차갑게 먹어도 되고 따뜻하게 먹어도 된다"
   },
   "DeliciousMintyBeanSoup": {
-    "name": "",
-    "description": ""
+    "name": "맛있는 완두콩 민트 수프",
+    "description": "간단한 재료로 만든 수프. 진한 수프가 은은한 콩의 향을 풍기고 있으며, 부드러운 식감 사이에 허브의 상큼함이 담겨있다. 소박하지만 뛰어난 맛을 지니고 있어 마치 시원한 나무 그늘 아래에서 소소한 즐거움을 누리며 산책하는 듯한 기분을 느끼게 해준다"
   },
-  "SuspiciousBeastlyRicePuffs": {
-    "name": "",
-    "description": ""
+  "SuspiciousBiryani": {
+    "name": "이상한 짐승고기 필라프",
+    "description": "고기 향이 확 느껴지는 필라프. 기름을 잔뜩 머금은 투명한 쌀이 느끼한 냄새를 풍기며 접시를 비운 후에도 접시 바닥에 두꺼운 기름이 한층 남아있다…. 먹고 나면 사흘 정도는 기름진 고기 생각이 싹 사라질 것이다…"
   },
-  "BeastlyRicePuffs": {
-    "name": "",
-    "description": ""
+  "Biryani": {
+    "name": "짐승고기 필라프",
+    "description": "고기 향이 확 느껴지는 필라프. 먼저 겉은 바삭하고 속은 촉촉하게 짐승고기를 손질한 후, 다른 재료 및 길쭉한 쌀과 함께 밥을 짓고 마지막엔 파디사라로 장식해 준다. 짐승고기와 조미료의 향기가 속이 꽉 찬 밥알에 녹아들어 수메르의 진미라고 해도 과언이 아니다"
   },
-  "DeliciousBeastlyRicePuffs": {
-    "name": "",
-    "description": ""
+  "DeliciousBiryani": {
+    "name": "맛있는 짐승고기 필라프",
+    "description": "고기 향이 확 느껴지는 필라프. 마치 총총한 별빛이 비치는 오아시스처럼 파디사라의 꽃잎이 길쭉한 쌀과 고기가 깔린 황금색 보좌 위에 놓여 있다. 향신료의 군침 도는 향기가 속이 꽉 찬 밥알을 골고루 감싸고 있어 한입 베어 물면 단맛, 신맛, 쓴맛, 매운맛, 짠맛을 골고루 느낄 수 있다. 순식간에 그릇이 비워졌지만, 식객은 마지막 뒷맛을 잡아두고자 저도 모르게 입맛을 다신다"
   },
   "SuspiciousTahchin": {
-    "name": "",
-    "description": ""
+    "name": "이상한 타친",
+    "description": "양이 많아 배부르게 먹을 수 있는 주식. 겉면의 색이 지나치게 짙은 것이 상태가 썩 좋아 보이지는 않는다. 한입 베어 물면 딱딱하게 탄 맛이 느껴지며 식자재들이 치아 사이에서 시끄럽게 싸우는 듯한 착각마저 든다. 치아 건강을 위해 안쪽만 먹도록 하자…"
   },
   "Tahchin": {
-    "name": "",
-    "description": ""
+    "name": "타친",
+    "description": "양이 많아 배부르게 먹을 수 있는 주식. 먼저 밥을 짓고 중앙에 요구르트에 절인 고기를 추가한다. 겉을 바삭하게 구운 다음 마지막에는 꼭 파디사라를 뿌려준다. 밥이든 고기든 엄청난 포만감을 안겨주기 때문에 바자르에서 인기를 끄는 요리이다"
   },
   "DeliciousTahchin": {
-    "name": "",
-    "description": ""
+    "name": "맛있는 타친",
+    "description": "양이 많아 배부르게 먹을 수 있는 주식. 처음 베어 물었을 때는 바삭하고 맛있는 겉면이 치아 사이에서 바스락거리며 경쾌한 소리를 낸다. 두 번째에는 부드럽고 촉촉한 밥알과 육즙이 가득한 고기가 혀끝에서 혼연일체를 이룬다. 세 번째에는 파디사라의 향기가 입안에서 활짝 피어난다…. 마지막엔 계속 이 오묘한 즐거움을 느끼고 싶지만 터질 듯한 위장이 안타까울 뿐이다…. 내일 다시 먹는 게 어떨까?"
   },
   "SuspiciousLambadFishRoll": {
-    "name": "",
-    "description": ""
+    "name": "이상한 람바드 생선 롤",
+    "description": "은은한 꽃향기가 나는 생선구이. 큰일이다. 생선의 비린내와 탄내가 요리 실력의 부족함을 드러내고 있다. 다음 주문 때 람바드 아저씨에게 두 배로 값을 지불하고 싶지 않다면 이 요리를 들키지 않는 게 좋을 듯하다…"
   },
   "LambadFishRoll": {
-    "name": "",
-    "description": ""
+    "name": "람바드 생선 롤",
+    "description": "은은한 꽃향기가 나는 생선구이. 람바드 아저씨는 젊을 적 각지를 모험하며 다양한 생선구이를 먹었는데, 수메르에는 대표적인 생선구이가 없다는 사실이 아쉬워 직접 이 요리를 개발했다고 한다. 술집 미식가들은 람바드가 모험을 했는지 안 했는지에 대한 진실 여부는 따져봐야 한다고 했지만, 생선 롤이 맛있다는 것엔 의심의 여지가 없다고 한다"
   },
   "DeliciousLambadFishRoll": {
-    "name": "",
-    "description": ""
+    "name": "맛있는 람바드 생선 롤",
+    "description": "은은한 꽃향기가 나는 생선구이. 마치 노을에 물든 파도처럼 자그마한 장미를 감싼 황금빛 생선 살코기는 그윽한 꽃향기를 풍긴다. 이 요리에 「선원의 낭만」이라는 별칭이 붙은 건… 서, 설마 람바드 아저씨가 했던 모험담이 과장이 아니었던 건가?"
   },
   "SuspiciousCurryShrimp": {
-    "name": "",
-    "description": ""
+    "name": "이상한 새우 카레",
+    "description": "수메르의 가정식 요리. 강렬하고 자극적인 냄새로 이 요리가 카레라는 걸 어렴풋이 알아차릴 수 있다. 걸쭉해진 재료들 사이에서 말라비틀어진 새우를 어렵사리 찾아냈다. 새우 카레이긴 한데… 대체 어디서부터 입을 대야 할까?"
   },
   "CurryShrimp": {
-    "name": "",
-    "description": ""
+    "name": "새우 카레",
+    "description": "수메르의 가정식 요리. 짙은 카레 향과 바다 내음이 어우러지고 탱글탱글하게 삶아진 새우는 신선하게 카레에 녹아들어 식욕을 돋운다. 웬만한 수메르 사람이라면 새우 카레를 만들 줄 알지만 맛과 만드는 방법은 집마다 천차만별이다"
   },
   "DeliciousCurryShrimp": {
-    "name": "",
-    "description": ""
+    "name": "맛있는 새우 카레",
+    "description": "수메르의 가정식 요리. 걸쭉하면서도 부드럽고 진한 소스가 토실토실한 새우에 깊숙하게 침투했다. 정열적인 향기가 순식간에 코를 파고들어 입맛이 없는 계절에도 이 요리를 보면 입안 가득 군침이 돌 것이다"
   },
   "SuspiciousTandooriRoastChicken": {
-    "name": "",
-    "description": ""
+    "name": "이상한 탄두리 치킨",
+    "description": "수메르에만 있는 독특한 새고기 요리. 높은 온도에서 구운 탓에 육즙이 완전히 말라버린 닭고기는 건조하고 질기다. 향신료가 닭고기 본연의 맛을 해치는 바람에 아무리 육포를 즐기는 사람이라 해도 대량의 육수와 함께 먹어야 간신히 넘길 수 있을 듯하다"
   },
   "TandooriRoastChicken": {
-    "name": "",
-    "description": ""
+    "name": "탄두리 치킨",
+    "description": "수메르에만 있는 독특한 새고기 요리. 화려한 기술 없이 향신료에 붉게 재운 닭고기를 아궁이에 넣고 익히면 끝이다. 이렇게 맛있는 수메르 음식이 이런 볼품없는 아궁이 속에서 탄생했다는 게 믿기지 않는다. 모험가가 생사의 갈림길을 함께한 검을 소중히 여기는 것처럼, 수메르의 요리사에겐 아궁이가 그런 존재라고 한다"
   },
   "DeliciousTandooriRoastChicken": {
-    "name": "",
-    "description": ""
+    "name": "맛있는 탄두리 치킨",
+    "description": "수메르에만 있는 독특한 새고기 요리. 일렁이는 불꽃으로 불그스름한 닭고기 겉면의 신선함을 꽉 잡았다. 한입 베어 물면 단계적으로 느껴지는 풍부한 맛이 순간적으로 입안을 가득 점령한다. 혀끝에 닿은 닭고기는 향신료의 리듬에 맞춰 신비하고 매력적인 수메르의 춤을 추며 뜨겁게 달아오른 축제로 우리를 초대하는 듯하다…"
   },
   "SuspiciousPotatoBoat": {
-    "name": "",
-    "description": ""
+    "name": "이상한 감자 보트",
+    "description": "구워서 만든 간식. 감자는 익지 않은 데다 겉에는 흙이 묻어있다…. 마법의 치즈를 곁들여도 이 요리를 되살릴 순 없을 듯하다"
   },
   "PotatoBoat": {
-    "name": "",
-    "description": ""
+    "name": "감자 보트",
+    "description": "구워서 만든 간식. 깨끗하게 씻은 감자에 치즈와 룩카데바타 성체 버섯을 넣고 만들었다. 따뜻할 때 먹으면 더욱 맛있으며 아주 인기 있는 수메르 길거리 음식이다. 한 가지 주의할 점은 먹을 때 입을 데지 않도록 각별히 조심해야 한다"
   },
   "DeliciousPotatoBoat": {
-    "name": "",
-    "description": ""
+    "name": "맛있는 감자 보트",
+    "description": "구워서 만든 간식. 군침 도는 향기를 풍기는 농축된 치즈는 마치 금빛의 강처럼 신선한 룩카데바타 성체 버섯을 싣고 있다. 부드럽고 말랑한 감자와 함께 한입 베어 물면 강에서 나룻배를 타고 여유롭게 노니는 듯한 착각마저 든다. 이 미식 여행을 조금 더 오래 즐길 수 있기를…"
   },
   "SuspiciousFishWithCreamSauce": {
-    "name": "",
-    "description": ""
+    "name": "이상한 크림소스 생선",
+    "description": "소스를 곁들인 생선요리. 과열된 기름으로 까맣게 그을린 생선 껍질이 흰 소스와 선명한 대비를 이루고 있어 흑백이 분명하다. 생선 껍질은 포기하고 생선 살코기를 한입 베어 물면… 잠깐, 이 신맛은 대체 뭐야?"
   },
   "FishWithCreamSauce": {
-    "name": "",
-    "description": ""
+    "name": "크림소스 생선",
+    "description": "소스를 곁들인 생선요리. 신선한 생선의 물기를 깨끗이 닦은 후 껍질이 바삭해지도록 구워 크림소스와 허브를 곁들인 요리이다. 만드는 방법은 간단하지만 독특하고 뛰어난 맛을 자랑한다"
   },
   "DeliciousFishWithCreamSauce": {
-    "name": "",
-    "description": ""
+    "name": "맛있는 크림소스 생선",
+    "description": "소스를 곁들인 생선요리. 하얗고 투명한 생선 살코기가 절묘한 크림소스 위에 가로놓여 있다. 한입 베어 물면 싱싱한 물고기가 물 위로 뛰어오르는 것 같은 신선한 맛의 충격을 느낄 수 있다"
   },
   "ForestWatchersChoice": {
-    "name": "",
-    "description": ""
+    "name": "숲의 순찰관 특선",
+    "description": "타이나리의 특제 요리. 숲의 순찰관 타이나리가 엄선한 식용 버섯으로 조리했다. 평범한 버섯 외에 처음 보는 신비한 품종들도 있으며 향신료를 추가하지 않아 오히려 버섯 본연의 신선함이 느껴진다…. 이 산해진미를 조리하기 위해 연구 외의 시간을 많이 쏟아부은 듯하다"
   },
   "Yearning": {
-    "name": "",
-    "description": ""
+    "name": "동경",
+    "description": "콜레이의 특제 요리. 말랑한 빵 안에 영양이 풍부한 재료를 가득 넣어 쉽게 휴대하고 배불리 먹을 수 있다. 콜레이의 보충 설명에 따르면 안에 들어 있는 스테이크의 이름은 「숲의 순찰자 바비큐!」라고 한다. 음——붉은색의 활발한 그림자가 떠오르는데… 이 요리도 콜레이의 마음속 깊은 곳에 뿌리 박힌 아름다운 동경인 듯하다"
   },
   "ShowMeTheMora": {
-    "name": "",
+    "name": "쇼미더모라",
+    "description": "도리의 특제 요리. 엄청난 비용을 지급한 뒤에야 산게마 바이 어르신의 수제 요리를 맛볼 수 있었다. 비단처럼 부드러운 소스가 탄탄한 닭고기를 감싸고 있다…. 벗어날 수 없는 황홀한 맛을 느끼고 나니 모라를 탈탈 털어서라도 한 그릇 더 주문하고 싶은 기묘한 충동마저 느껴진다!"
+  },
+  "SuspiciousMeatLoversMushroomPizza": {
+    "name": "이상한 고기 버섯피자",
+    "description": "구워서 만든 피자. 치즈와 다른 재료들이 뒤죽박죽 엉켜있어 느끼한 냄새를 풍긴다. 두툼한 도우는 이 요리의 도전 난도를 한층 더 높여주고 있다. 음——굽는 과정에서 문제가 생긴 걸까 아니면 발효 정도에 실수가 있었던 걸까?"
+  },
+  "MeatLoversMushroomPizza": {
+    "name": "고기 버섯피자",
+    "description": "맛있게 구워진 피자. 큼직한 짐승고기와 신선한 버섯이 반죽을 가득 채우고, 거기에 쭉 늘어나는 치즈까지 더하면 군침이 도는 피자가 완성된다. 나오자마자 다 팔리기 때문에 맛있는 음식을 맛보는 비결은 날쌘 손놀림이다"
+  },
+  "DeliciousMeatLoversMushroomPizza": {
+    "name": "맛있는 고기 버섯피자",
+    "description": "구워서 만든 피자. 고기의 진한 육즙이 말랑한 빵 속 깊숙이 침투해 신선한 버섯과 완벽한 조화를 이룬다. 한입 베어 물면 나도 모르게 진한 치즈 향에 빠져들어 하나를 다 먹기도 전에 한 조각을 더 찾게 된다…"
+  },
+  "SuspiciousSunsetBerryTea": {
+    "name": "이상한 일몰베리 티",
+    "description": "새콤달콤한 과일 음료. 신맛을 잡기 위해 실수로 대량의 설탕을 넣었다. 갈증을 해소하기 위해 한잔 마셨으나 마실수록 목이 더 말라온다. 물을 조금 더 넣는 게 좋을 듯하다…"
+  },
+  "SunsetBerryTea": {
+    "name": "일몰베리 티",
+    "description": "새콤달콤한 과일 음료. 상큼한 차에 과일의 향긋함을 더했다. 청량한 음료를 꿀꺽꿀꺽 들이켜면 모든 더위가 씻은 듯이 사라진다"
+  },
+  "DeliciousSunsetBerryTea": {
+    "name": "맛있는 일몰베리 티",
+    "description": "새콤달콤한 과일 음료. 무성한 잎사귀로 가득 찬 과수원에 감미롭고 상큼한 과일 향을 실은 한 줄기 살랑바람이 불어오는 듯하다. 아득하고 여운 가득한 차의 향기가 모든 생각을 저 멀리 이끌며 한없이 취하게 한다"
+  },
+  "SuspiciousMilkyMushroomCrispTower": {
+    "name": "이상한 바삭 크림 버섯 타워",
+    "description": "바삭한 식감의 간식. 마르고 시든 재료를 통해 오랫동안 방치됐음을 알아차릴 수 있다. 수분을 잃은 지 오래인 식빵은 딱딱하고 건조해서 한입 베어 물면 볼이 시큰거릴 정도다…. 다음에는 따끈할 때 먹는 게 좋을 듯하다…"
+  },
+  "MilkyMushroomCrispTower": {
+    "name": "바삭 크림 버섯 타워",
+    "description": "바삭한 식감의 간식. 빵 위에 재료와 치즈를 올려 구운 음식. 냄새만 맡아도 기대가 되는 음식이다. 한입 베어 물면 달콤함이 온몸을 지배하는 느낌을 준다"
+  },
+  "DeliciousMilkyMushroomCrispTower": {
+    "name": "맛있는 바삭 크림 버섯 타워",
+    "description": "바삭한 식감의 간식. 은은한 우유 향이 혀끝에서 살며시 녹아내리고 거기에 부드럽고 쫄깃한 버섯이 더해져 바삭한 식빵과 함께 바스락 소리를 낸다…. 이 독보적인 만족감에 손끝에 묻은 부스러기조차 놓치고 싶지 않다…"
+  },
+  "SuspiciousCoconutCharcoalCakes": {
+    "name": "이상한 코코넛 숯탄 전병",
+    "description": ""
+  },
+  "CoconutCharcoalCakes": {
+    "name": "코코넛 숯탄 전병",
+    "description": ""
+  },
+  "DeliciousCoconutCharcoalCakes": {
+    "name": "맛있는 코코넛 숯탄 전병",
+    "description": ""
+  },
+  "SuspiciousBaklava": {
+    "name": "이상한 바클라바",
+    "description": ""
+  },
+  "Baklava": {
+    "name": "바클라바",
+    "description": ""
+  },
+  "DeliciousBaklava": {
+    "name": "맛있는 바클라바",
+    "description": ""
+  },
+  "SuspiciousCandiedAjilenakhNut": {
+    "name": "이상한 대추야자 사탕",
+    "description": ""
+  },
+  "CandiedAjilenakhNut": {
+    "name": "대추야자 사탕",
+    "description": ""
+  },
+  "DeliciousCandiedAjilenakhNut": {
+    "name": "맛있는 대추야자 사탕",
+    "description": ""
+  },
+  "SuspiciousPadisarahPudding": {
+    "name": "이상한 파디사라 푸딩",
+    "description": ""
+  },
+  "PadisarahPudding": {
+    "name": "파디사라 푸딩",
+    "description": ""
+  },
+  "DeliciousPadisarahPudding": {
+    "name": "맛있는 파디사라 푸딩",
+    "description": ""
+  },
+  "SuspiciousAaruMixedRice": {
+    "name": "이상한 아루 비빔밥",
+    "description": ""
+  },
+  "AaruMixedRice": {
+    "name": "아루 비빔밥",
+    "description": ""
+  },
+  "DeliciousAaruMixedRice": {
+    "name": "맛있는 아루 비빔밥",
+    "description": ""
+  },
+  "SwirlingSteps": {
+    "name": "살랑살랑 춤사위",
+    "description": ""
+  },
+  "DuelSoul": {
+    "name": "결투의 혼",
+    "description": ""
+  },
+  "UtmostCare": {
+    "name": "지극정성",
     "description": ""
   },
   "RecipeItem": {
@@ -7828,72 +8188,104 @@
     "description": "조리 과정이 자세히 적혀 있는 레시피. 「우동」의 조리 방법이 적혀있다"
   },
   "RecipeKatsuSandwich": {
-    "name": "레시피: 스테이크 샌드위치",
-    "description": "조리 과정이 자세히 적혀 있는 레시피. 「스테이크 샌드위치」의 조리 방법이 적혀있다"
+    "name": "레시피: 돈가스 샌드위치",
+    "description": "조리 과정이 자세히 적혀 있는 레시피. 「돈가스 샌드위치」의 조리 방법이 적혀있다"
   },
   "RecipeRainbowAster": {
-    "name": "？？？",
-    "description": "？？？"
+    "name": "레시피: 보랏빛 비구름",
+    "description": "조리 과정이 자세히 적혀 있는 레시피. 「보랏빛 비구름」의 조리 방법이 적혀있다"
   },
   "RecipeButterChicken": {
-    "name": "",
-    "description": ""
+    "name": "레시피: 버터 치킨",
+    "description": "조리 과정이 자세히 적혀 있는 레시피. 「버터 치킨」의 조리 방법이 적혀있다"
   },
   "RecipeShawarmaWrap": {
-    "name": "",
-    "description": ""
+    "name": "레시피: 샤와르마",
+    "description": "조리 과정이 자세히 적혀 있는 레시피. 「샤와르마」의 조리 방법이 적혀있다"
   },
   "RecipeSelvaSalad": {
-    "name": "",
-    "description": ""
+    "name": "레시피: 우림 샐러드",
+    "description": "모험 중 획득하고, 페이몬이 개량한 레시피. 「우림 샐러드」의 조리 방법이 적혀있다"
   },
   "RecipeMasalaCheeseBalls": {
-    "name": "",
-    "description": ""
+    "name": "레시피: 마살라 치즈볼",
+    "description": "A recipe for making Masala Cheese Balls that you found during your adventure. It has been further refined by Paimon."
   },
   "RecipeMushroomHodgepodge": {
-    "name": "",
-    "description": ""
+    "name": "레시피: 모둠 버섯",
+    "description": "모험 중 획득하고, 페이몬이 개량한 레시피. 「모둠 버섯」의 조리 방법이 적혀있다"
   },
   "RecipePitaPocket": {
-    "name": "",
-    "description": ""
+    "name": "레시피: 포켓 피타",
+    "description": "손글씨로 정리한 「포켓 피타」 레시피. 작은 글씨로 요리의 요점을 자세히 명시했다. 필적을 보면 글쓴이는 글을 잘 쓰지 못하는 듯하다. 병 때문인지 일부 글씨는 약간 삐뚤빼뚤하지만 제법 또박또박 써놓았다.\\n레시피를 익히면 다음에 간다르바 성곽에 올 때 그녀와 함께 이 맛있는 음식을 맛볼 수 있다"
   },
   "RecipePanipuri": {
-    "name": "",
-    "description": ""
+    "name": "레시피: 파니푸리",
+    "description": "조리 과정이 자세히 적혀 있는 레시피. 「파니푸리」의 조리 방법이 적혀있다"
   },
   "RecipeMintyBeanSoup": {
-    "name": "",
-    "description": ""
+    "name": "레시피: 완두콩 민트 수프",
+    "description": "조리 과정이 자세히 적혀 있는 레시피. 「완두콩 민트 수프」의 조리 방법이 적혀있다"
   },
-  "RecipeBeastlyRicePuffs": {
-    "name": "",
-    "description": ""
+  "RecipeBiryani": {
+    "name": "레시피: 짐승고기 필라프",
+    "description": "조리 과정이 자세히 적혀 있는 레시피. 「짐승고기 필라프」의 조리 방법이 적혀있다"
   },
   "RecipeTahchin": {
-    "name": "",
-    "description": ""
+    "name": "레시피: 타친",
+    "description": "조리 과정이 자세히 적혀 있는 레시피. 「타친」의 조리 방법이 적혀있다"
   },
   "RecipeLambadFishRoll": {
-    "name": "",
-    "description": ""
+    "name": "레시피: 람바드 생선 롤",
+    "description": "조리 과정이 자세히 적혀 있는 레시피. 「람바드 생선 롤」의 조리 방법이 적혀있다"
   },
   "RecipeCurryShrimp": {
-    "name": "",
-    "description": ""
+    "name": "레시피: 새우 카레",
+    "description": "조리 과정이 자세히 적혀 있는 레시피. 「새우 카레」의 조리 방법이 적혀있다"
   },
   "RecipeTandooriRoastChicken": {
-    "name": "",
-    "description": ""
+    "name": "레시피: 탄두리 치킨",
+    "description": "조리 과정이 자세히 적혀 있는 레시피. 「탄두리 치킨」의 조리 방법이 적혀있다"
   },
   "RecipePotatoBoat": {
-    "name": "",
-    "description": ""
+    "name": "레시피: 감자 보트",
+    "description": "조리 과정이 자세히 적혀 있는 레시피. 「감자 보트」의 조리 방법이 적혀있다"
   },
   "RecipeFishWithCreamSauce": {
-    "name": "",
-    "description": ""
+    "name": "레시피: 크림소스 생선",
+    "description": "조리 과정이 자세히 적혀 있는 레시피. 「크림소스 생선」의 조리 방법이 적혀있다"
+  },
+  "RecipeMeatLoversMushroomPizza": {
+    "name": "레시피: 고기 버섯피자",
+    "description": "조리 과정이 자세히 적혀 있는 레시피. 「고기 버섯피자」의 조리 방법이 적혀있다"
+  },
+  "RecipeSunsetBerryTea": {
+    "name": "레시피: 일몰베리 티",
+    "description": "조리 과정이 자세히 적혀 있는 레시피. 「일몰베리 티」의 조리 방법이 적혀있다"
+  },
+  "RecipeMilkyMushroomCrispTower": {
+    "name": "레시피: 바삭 크림 버섯 타워",
+    "description": "조리 과정이 자세히 적혀 있는 레시피. 「바삭 크림 버섯 타워」의 조리 방법이 적혀있다"
+  },
+  "RecipeCharcoalBakedAjilenakhCake": {
+    "name": "레시피: 코코넛 숯탄 전병",
+    "description": "조리 과정이 자세히 적혀 있는 레시피. 「코코넛 숯탄 전병」의 조리 방법이 적혀있다"
+  },
+  "RecipeBaklava": {
+    "name": "레시피: 바클라바",
+    "description": "조리 과정이 자세히 적혀 있는 레시피. 「바클라바」의 조리 방법이 적혀있다"
+  },
+  "RecipeCandiedAjilenakhNut": {
+    "name": "레시피: 대추야자 사탕",
+    "description": "조리 과정이 자세히 적혀 있는 레시피. 「대추야자 사탕」의 조리 방법이 적혀있다"
+  },
+  "RecipePadisarahPudding": {
+    "name": "레시피: 파디사라 푸딩",
+    "description": "조리 과정이 자세히 적혀 있는 레시피. 「파디사라 푸딩」의 조리 방법이 적혀있다"
+  },
+  "RecipeAaruMixedRice": {
+    "name": "레시피: 아루 비빔밥",
+    "description": "조리 과정이 자세히 적혀 있는 레시피. 「아루 비빔밥」의 조리 방법이 적혀있다"
   },
   "CraftedItems": {
     "name": "합성 산물",
@@ -7948,8 +8340,8 @@
     "description": ""
   },
   "Spice": {
-    "name": "",
-    "description": ""
+    "name": "향신료",
+    "description": "복합적인 맛의 조미료. 말린 향신과를 가공해 제작했다. 요리에 다양한 맛을 더해주어 민간에는 「어떤 요리든 향신료가 답이다」라는 명언도 전해지고 있다"
   },
   "HeatshieldPotion": {
     "name": "내열 포션",
@@ -8040,8 +8432,8 @@
     "description": "마법 수정석과 해초로 제작한 특수한 미끼. 어두운 곳에서 밝게 빛을 내며, 광명을 추구하는 자들에게는 더없이 매력적이다\\n전부 소모할 경우 쿠지라이 모미지에서 중복 수령할 수 있다.\\n\\n적용 어종: 모든 어류"
   },
   "SugardewBait": {
-    "name": "",
-    "description": ""
+    "name": "감로 미끼",
+    "description": "장미 이슬을 베이스로 한 낚시용 미끼. 말린 향신과 가루를 섞어 매콤한 첫맛과 달콤한 뒷맛이 난다. 몰아치는 비바람과 타오르는 태양, 높은 파도의 소용돌이를 이겨내야만 놀라운 수확을 얻을 수 있는 낚시꾼의 생활도 이와 같은 맛이다.\\n\\n적용 어종: 뿔복어류, 미늘창 물고기류"
   },
   "PrimordialEssence": {
     "name": "원질",
@@ -8073,7 +8465,7 @@
   },
   "DiviningScroll": {
     "name": "이능 두루마리",
-    "description": ""
+    "description": "어떤 마법에 관한 두루마리의 남은 조각인 듯하다. 이상한 기운과 불길한 온기를 은은하게 내뿜고 있다"
   },
   "SealedScroll": {
     "name": "봉마의 두루마리",
@@ -8109,15 +8501,15 @@
   },
   "GloomyStatuette": {
     "name": "어두운 조각상",
-    "description": ""
+    "description": "누군가의 형상이 흐릿하게 새겨진 조각상.\\n긴 세월이 지났지만 여전히 멀쩡하다. 옛 주인이 성물 모시듯 관리한 것 같다"
   },
   "DarkStatuette": {
     "name": "흑야의 조각상",
-    "description": ""
+    "description": "누군가의 형상이 새겨진 외눈 조각상.\\n손에 들고 있으면 마치 친구의 손을 잡은 것처럼 따뜻함이 느껴지는 것 같다. 아마 조각상의 의미를 아는 사람에게 앞으로 나아갈 용기를 주는 듯하다"
   },
   "DeathlyStatuette": {
     "name": "그윽한 조각상",
-    "description": ""
+    "description": "불길한 에너지를 내뿜고 있는 외눈 조각상, 어떤 재료로 만들어졌는지 알 수 없다.\\n조각상을 보고 있으면 소름 끼치는 소리가 들리는 거 같다….\\n「나의 아이들아, 보아라. 하늘 아래의 만물은 혼란 속에서 소멸될 것이다. 영원히 고요한 어둠이 모든 것을 집어삼킬 지니」"
   },
   "DeadLeyLineBranch": {
     "name": "지맥의 낡은 가지",
@@ -8276,52 +8668,64 @@
     "description": "수계 늑대 무리의 날카로운 발톱.\\n진귀한 보물이지만 「백악층」의 최고 걸작과 비교해보면 아무것도 아니다"
   },
   "FungalSpores": {
-    "name": "버섯 괴물 포자",
-    "description": ""
+    "name": "둥실 버섯 포자",
+    "description": "둥실 버섯이 남긴 포자 분말, 미세한 빛이 반짝인다. 재채기 한 번에 흔적도 없이 흩어질 거 같다"
   },
   "LuminescentPollen": {
-    "name": "형광 포자 가루",
-    "description": ""
+    "name": "형광 포자 분말",
+    "description": "형광 불빛이 나는 둥실 버섯 포자 분말, 우림의 나라에서 흔히 보이는 약재다. 상인들은 보통 종이로 포장해서 판매한다"
   },
   "CrystallineCystDust": {
-    "name": "포자 주머니 결정 가루",
-    "description": ""
+    "name": "포낭 결정 가루",
+    "description": "온전한 포자낭에서 정성을 다해 수집한 덩어리 포자 분말, 적절한 환경이 갖춰진다면 규모가 큰 둥실 버섯 군락을 만들 수 있을 것 같다…"
   },
   "InactivatedFungalNucleus": {
-    "name": "",
-    "description": ""
+    "name": "활기를 잃은 버섯핵",
+    "description": "버섯몬의 일부 신체 조직. 외부 원소의 격렬한 자극으로 인해 형성된다.\\n촉감이 좋아 스트레스를 풀기에 좋으나 버섯몬이 대량 번식할 수 있어 상업적인 용도로는 삼가는 게 좋다"
   },
   "DormantFungalNucleus": {
-    "name": "",
-    "description": ""
+    "name": "잠든 버섯핵",
+    "description": "버섯몬의 일부 신체 조직. 외부 원소의 격렬한 자극으로 인해 형성된다.\\n생론파의 학자들은 버섯몬이 식물인지 동물인지를 놓고 기나긴 논쟁을 벌였다. 그 결과 양쪽은 버섯몬이 동식물 어느 쪽에도 속하지 않는다는 결론을 내리고 더 이상 토론하지 않기로 했다"
   },
   "RobustFungalNucleus": {
-    "name": "",
-    "description": ""
+    "name": "튼튼한 버섯핵",
+    "description": "버섯몬의 일부 신체 조직. 외부 원소의 격렬한 자극으로 인해 형성된다.\\n버섯몬이 이동 능력을 갖춘 쪽으로 진화한 이유는 포자를 보다 널리 퍼뜨리기 위함이라고 여겨진다.\\n과거의 한 시인이 말하길, 버섯몬들의 공통된 꿈은 포자가 산과 바다를 뒤덮어 온 세상이 고요해지는 것으로 버섯몬은 그 안에서 헤엄치는 물고기, 육지 짐승, 하늘을 나는 새, 인간과 신으로 변해 빗물과 땅 그리고 땅으로 돌아간 동료에게 의지하며 살아간다"
   },
   "FadedRedSatin": {
-    "name": "",
-    "description": ""
+    "name": "빛바랜 붉은 비단",
+    "description": "눈을 가리는 데 사용되는 살짝 찢긴 빨간 비단.\\n도금 여단에는 직물로 두 눈을 가리는 자가 많다. 그러나 이 행동의 기원은 이미 시간의 모래바다 속에 사라졌다"
   },
   "TrimmedRedSilk": {
-    "name": "",
-    "description": ""
+    "name": "장식된 붉은 비단",
+    "description": "간단하게 장식한 붉은 비단.\\n노련한 전사는 상대방의 눈빛에서 허점을 파악해 기회를 포착한다. 도금 여단은 충성을 바칠 지도자를 잃은 지 오래라 믿을 수 있는 건 자신밖에 없다. 그들은 세상 만물과 자신의 두 눈조차 자신을 배신할 수 있을 거라 굳게 믿고 있다"
   },
   "RichRedBrocade": {
-    "name": "",
-    "description": ""
+    "name": "금자수 붉은 비단",
+    "description": "금실로 무늬를 놓은 붉은 비단.\\n햇빛 아래 금빛으로 반짝이는 사막에서 태어난 유민들은 가끔 이미 무슨 뜻인지도 잊어버린 민요를 부르며 평등하게 대지를 비추는 태양을 칭송하고 황혼 끝자락의 노을을 아쉬워한다. 민요의 마지막 장에 반복해 출현하는 뜻 모를 단어는 고대 신의 존함이라고 전해진다. 전해지는 바에 의하면 사막의 왕이 아직 존재하던 시기의 백성들은 태양과 같은 빛을 감히 보지 못해 자신의 두 눈을 가렸다고 한다"
   },
   "ChaosStorage": {
-    "name": "",
-    "description": ""
+    "name": "혼돈 용기",
+    "description": "더 이상 활동하지 않는 고대 유적 드래곤에게서 얻은 것.\\n유적 드래곤은 바깥세상의 원소 에너지를 흡수해 「목」 부위에 저장할 수 있다"
   },
   "ChaosModule": {
-    "name": "",
-    "description": ""
+    "name": "혼돈 모듈",
+    "description": "더 이상 활동하지 않는 고대 유적 드래곤에게서 얻은 것.\\n「드래곤」은 패배와 정복으로 억제 혹은 동화되기 전까지 가장 원시적이고 오래된 최상급 원소들이 육신을 가진 형태였다"
   },
   "ChaosBolt": {
-    "name": "",
-    "description": ""
+    "name": "혼돈 볼트",
+    "description": "더 이상 활동하지 않는 고대 유적 드래곤에게서 얻은 것.\\n더 이상 존재하지 않는 고대 국가에는 생명을 모방하는 원리를 연구한 자들이 있었다. 무상의 순수 질서 원소 혹은 드래곤의 원시적 힘을 본뜨고 개량하여 초월을 이루어내야 한다.\\n그러면 훨씬 우월하고 무결한 신체를 획득해 결국엔 부서지고 부패하는 질서를 대체할 수 있다"
+  },
+  "DamagedPrism": {
+    "name": "파손된 결정",
+    "description": "원 에너지 구조체를 처치 후 획득 가능한 파손된 부품.\\n이런 독특한 모양의 기계는 사막 유적의 영원한 수호자로서 바위산을 뚫고 거대한 바위를 재구축하는 힘을 가지고 있다. 이 기계를 작동시키는 원리는 지상, 지하에 있는 수많은 신비한 장치들과 비슷하다"
+  },
+  "TurbidPrism": {
+    "name": "혼탁한 결정",
+    "description": "원 에너지 구조체를 처치 후 획득 가능한 낡은 부품.\\n이 기계들은 같은 모래 바다 깊은 곳에서 온 「유적 장치」와 달리 섬멸과 정복의 역할로 만든 것이 아니라고 한다"
+  },
+  "RadiantPrism": {
+    "name": "찬란하게 빛나는 결정",
+    "description": "원 에너지 구조체를 처치 후 획득 가능한 정교한 부품.\\n황량한 사막의 왕은 예전에 꿈을 꾸었고 수많은 약속을 했다.\\n하지만 지금은 약속을 이행하는 도구였던 이 기계 창조물들의 기억 장치 속에만 아무도 기억하지 못하는 꿈과 약속이 새겨져 있다"
   },
   "HurricaneSeed": {
     "name": "폭풍의 씨앗",
@@ -8445,31 +8849,39 @@
   },
   "DragonheirsFalseFin": {
     "name": "용 자손의 가짜 지느러미",
-    "description": "심해 용 도마뱀을 처치하면 얻을 수 있는 생체조직의 일부이다.\\n 보기에는 상어 지느러미 같지만 아무런 실용성이 없다.\\n백야국의 주민들이 심해 용 도마뱀에 대해 깊이 연구했다. 그들의 가장 다른 점은 바로 자신의 의지로 특징과 유전을 결정할 수 있다는 것이다. 인조적인 빛을 싫어하여 용 도마뱀은 성체가 되면 시각을 대부분 잃고 전투를 위해 다양한 다른 원소로 진화했다"
+    "description": "심해 용 도마뱀을 처치하면 얻을 수 있는 생체조직의 일부이다.\\n보기에는 상어 지느러미 같지만 아무런 실용성이 없다.\\n백야국의 주민들이 심해 용 도마뱀에 대해 깊이 연구했다. 그들의 가장 다른 점은 바로 자신의 의지로 특징과 유전을 결정할 수 있다는 것이다. 인조적인 빛을 싫어하여 용 도마뱀은 성체가 되면 시각을 대부분 잃고 전투를 위해 다양한 다른 원소로 진화했다"
   },
   "MudraOfTheMaleficGeneral": {
-    "name": "???",
-    "description": ""
+    "name": "흉장의 수안",
+    "description": "정토에서 가지고 온 인형의 관절. 이 부분은 「보이는 대로」를 상징하는 수안(手眼) 모형이다.\\n「그녀」는 재앙신으로 변했어도 수안의 신통력을 제어할 수 있다. 눈빛이 향하는 순간, 검은 이미 휘두른 뒤다.\\n만겁의 세월은 매우 길었고, 흉장(凶将)의 뼈도 다시 봄날을 맞게 되었다"
   },
   "TearsOfTheCalamitousGod": {
-    "name": "???",
-    "description": "???"
+    "name": "재앙신의 액운을 쫓는 눈물",
+    "description": "정토에서 가지고 온 인형 관절. 이 부분은 「악요의 눈」처럼 생겼다.\\n쳐다보는 것만으로 재앙과 저주를 내릴 수 있다. 그래서 인생이 순탄하지 못하면 모두 자연스레 「재앙신」의 탓으로 돌린다. 하지만 잘 생각해 보자. 의지가 강하고, 신념만 굳건하다면…\\n만겁의 세월이 흘러도, 재앙의 별이 빛날지라도 눈물로 자신을 깨끗이 정화할 수 있다"
   },
   "TheMeaningOfAeons": {
-    "name": "???",
-    "description": "???"
+    "name": "만겁의 진의",
+    "description": "모든 사건이 일단락된 후, 정토에서 가져온 머리 장식이다.\\n생각하는 것만으로 만겁의 세월을 끝낼 수 있고, 시간을 초월하는 그리움은 언제나 존재한다.\\n헤아릴 수 없는 세월이 흐른 지금 「진(마코토)」실의 마음은 잘 전달되었을까?"
   },
   "RunicFang": {
     "name": "룬 무늬 이빨",
-    "description": ""
+    "description": "뱀 형태의 신비한 고대 기계, 절벽을 깎을 때 사용되는 「톱니」 위에는 알 수 없는 불길한 룬 문자가 적혀있다.\\n전설에 따르면 대지의 검은 틈 사이에는 거대한 독사가 살고 있다는데 그들은 영원히 세상에 대한 증오와 악의, 알 수 없는 위험한 목적을 가지고 거대한 터널을 발굴하고 있다고 한다…"
   },
   "MajesticHookedBeak": {
-    "name": "",
-    "description": ""
+    "name": "버섯왕의 뾰족한 부리",
+    "description": "공포의 취령 버섯을 처치한 후 획득한 각질 부분.\\n학자들은 지금까지도 부드러운 버섯몬이 이렇게 단단하고 뾰족한 부리로 진화한 것은 기적이라 여기고 있다. 화려하고 아름다운 버섯들의 왕은 진화의 마지막 단계에서 여유롭게 거닐며 이따금 우림의 만물에 다음과 같은 경고를 울부짖는다. 아무리 약하고 겁이 많은 생명체라도 미래에는 숲의 주인이 될 수 있다"
   },
   "ThunderclapFruitcore": {
-    "name": "",
-    "description": ""
+    "name": "번개를 품은 야생 열매",
+    "description": "예리한 나뭇잎에 싸인 번개 나무의 코어. 사정없이 주변에 번개 원소를 방출한다.\\n대지 깊은 곳에서 포효하는 에너지는 긴박한 분노를 표출하려 하고, 불행한 넝쿨조차 광기에 잠식돼 뒤틀린 가지를 휘두르며 울부짖는다. 번갯불이 몸을 관통하는 고통을 타인에게도 선사하려는 것일까? 아니면 피할 수 없는 종말을 기대하며 몸부림치는 것일까?"
+  },
+  "PerpetualCaliber": {
+    "name": "영구동력 칩",
+    "description": "신비한 유적 기계에서 가져온 동력 장치. \\n본체는 파괴되었지만 아직도 작동을 멈추지 않았다.\\n지상에는 무한 재생 가능한 에너지가 없는 것이 당연하므로 「영구동력」에 관한 연구 성과 발표도 대부분 거짓임이 증명되었다. 하지만 이 칩을 통해 과거에 멸망한 문명이 한때는 인간이 도달할 수 없는 영역까지 닿았다는 것을 알 수 있다"
+  },
+  "LightGuidingTetrahedron": {
+    "name": "빛 인도 사면체",
+    "description": "신비한 장치 세트를 처치한 후 획득 가능한 코어 부품.\\n이 오래된 기계는 지금까지 주인의 꿈과 자신의 책임을 한 번도 잊지 않았다: 1,000개의 궁전을 구축하고, 3,000대의 기계를 통솔하며, 10,000송이의 이제 더는 피지 않는 꽃을 심어 지상의 모든 영혼이 있는 자들을 위해 모래 바다에 묻힌 「낙원」을 재현하는 것 말이다.\\n황량한 사막의 왕은 사라지고, 꿈은 깊은 죄의 속삭임에 부패하고, 모든 마력의 기둥이 부러지고 무너져도 왕의 사랑을 받던 괴수는 여전히 뜨거운 사막의 폭풍 속으로 몸을 숨긴다"
   },
   "TileOfDecarabiansTower": {
     "name": "고탑 왕의 잔해",
@@ -8615,6 +9027,54 @@
     "name": "금석극화의 귀인(鬼人)",
     "description": "무기에 돌파의 힘을 부여하는 재료\\n「번개의 삼파문」의 문양을 지닌 「치요」라고 불리는 오니족 여무사는, 과거 암흑의 세력에 맞서 싸울 때 호랑이의 몸과 뱀의 꼬리를 한 이질적인 괴수에 삼켜졌다고 한다. 결국 그녀는 마수의 가슴을 찢어내고 살아남게 된다\\n「토라의 치요」라는 명칭은 이에 유래했다. 그 후, 이 이름은 점점 간소화되어 나중에는 「토라치요」로 불리게 되었다\\n그러나 심연의 마수의 뱃속에서, 그녀는 죄악의 어두운 빛으로 물들었고, 선홍빛 이빨을 통해 그녀와 함께하던 이들이 갈기갈기 찢어지는 것을 보았다. 칠흑 같은 경치에 빠져든 그녀는 결국 위대하신 나루카미 쇼군을 향해 검을 뽑아 든다. 그 후, 검을 쥐었던 그녀의 팔과 날카로운 뿔은 잘려 나갔고, 부상당한 야수처럼 숲으로 도망치게 되었다. 나중에는 그녀를 괴물로 여긴 텐구나 종말번대, 또는 산에서 수행을 하던 이와쿠라의 후손에 의해 최후를 맞은 듯하다. 그녀의 아름답던 용모는 암흑의 원한과 부상의 고통으로 추악하고 비틀려진 지 오래였기 때문이다. 또는, 뱀의 신 유골 근처의 검을 든 여행자에 의해 생을 마감했을지도 모른다\\n과거 심연과 싸웠던 이들은 칠흑 같은 극화의 꿈을 꾸기 마련이다. 과거에는 마수에 맞서 싸웠지만, 결국 그들의 일원이 된 사람도 적지는 않다. 세상의 끝자락은 점점 얇고 취약해지고 있다. 이러한 침식은 어쩌면 일방적인 침식이 아닐지도 모른다"
   },
+  "CopperTalismanOfTheForestDew": {
+    "name": "숲의 이슬을 닮은 동 부적",
+    "description": "무기에 돌파의 힘을 부여하는 재료.\\n최초의 현자의 지도 아래, 우림의 선민들은 마른 나무를 호신부로 조각해 풀과 고목의 주인에게 공양하고, 그를 기리는 데 사용했다.\\n호신부는 숲의 푸른 이슬의 형상을 모방해 조각했으며, 지혜의 물방울이 범인의 마음속에 스며드는 것을 상징한다"
+  },
+  "IronTalismanOfTheForestDew": {
+    "name": "숲의 이슬을 닮은 철 부적",
+    "description": "무기에 돌파의 힘을 부여하는 재료.\\n훗날 초목의 주인은 인간들에게 흑철 단조 기술을 전수했다. 무지했던 인간들은 그렇게 날카로운 검과 불을 사용하는 방법을 깨우쳤다.\\n설령 불과 금속이 그녀를 다치게 할지라도, 인간들을 강하게 만들어줄 수 있음에 초목의 주인은 무척 기뻐했다"
+  },
+  "SilverTalismanOfTheForestDew": {
+    "name": "숲의 이슬을 닮은 은 부적",
+    "description": "무기에 돌파의 힘을 부여하는 재료.\\n숲속 수많은 이야기에 등장하는 열화의 불꽃무늬 망토를 두른 왕은 미궁의 군주이자 달이 비치는 물의 주인이다.\\n그는 고개를 숙여 초목의 주인과 우의를 맺었고, 물빛으로 빛나는 보석과 달빛을 닮은 은을 증표로 삼았다.\\n초목의 주인은 우정의 답례로 미궁 주인의 비밀을 지켜주고 아름다운 우림의 꿈을 보호해 주기로 약속한다.\\n훗날 시간이 흘러 비밀과 꿈으로 이루어진 화려한 궁전은 모두 어둠의 불길 속으로 사라졌고, 그 위에는 두꺼운 흙이 덮여 새로운 우림의 양분이 되었지만 말이다"
+  },
+  "GoldenTalismanOfTheForestDew": {
+    "name": "숲의 이슬을 닮은 금 부적",
+    "description": "무기에 돌파의 힘을 부여하는 재료.\\n「인간으로서 마주할 가치가 있는 것은 오직 세 가지. 달빛을 품은 샘물, 생명의 초록빛, 그리고 늙지 않는 얼굴뿐이다….」\\n「지혜」의 본질은 모든 사고를 통제하고, 모든 이익을 도모하는 것에 있는 게 아니라 평범한 생명들도 결국 족쇄를 초월하는 자유를 얻게 하는 것이다.\\n밀림에 더 이상 호랑이의 포효가 울려 퍼지지 않고 강인한 호위들이 아이들의 꿈속으로 사라진다고 할지라도…. 비밀의 황금 봉인이 드러나고 모든 꿈이 달빛 아래 호박처럼 반짝이는 밤이 되면, 그녀와 그녀가 사랑했던 인간들도 진정한 자유를 얻게 되겠지"
+  },
+  "OasisGardensReminiscence": {
+    "name": "오아시스 화원의 추억",
+    "description": "무기에 돌파의 힘을 부여하는 재료.\\n사람들은 꽃의 왕이 즐거움과 행복의 주인이라고 말한다. 그녀의 소매에서 솟구친 맑은 샘물로 사막에는 꽃들이 만개하는 오아시스가 생겼다. 싱싱한 꽃과 향기로운 풀잎이 그녀의 뒤를 따랐으며 하얀 달빛은 그녀를 위해 길을 인도해 주었다.\\n하늘마저 외면한 그 고난의 시대에 꽃의 여주인은 인간들에게 은혜를 베풀었으며 즐거움과 자아를 되찾은 인간들은 다시금 여유와 사치를 즐기게 되었다"
+  },
+  "OasisGardensKindness": {
+    "name": "오아시스 화원의 은혜",
+    "description": "무기에 돌파의 힘을 부여하는 재료.\\n모래에 묻힌 오래된 문헌에 따르면 꽃의 왕은 꿈의 여주인이라고 기록되어 있다.\\n과거 그녀는 추방된 자와 미쳐버린 자, 어리석은 자를 위해 꿈을 펼쳐 그 속에서 그들에게 달콤한 즐거움을 선사했다. 사손에 흑철로 된 그릇밖에 없었을지언정, 사람들은 여전히 꽃의 여왕의 매력에 굴복되었고 그녀의 아름다운 모습과 다정한 배려에 빠져들었다"
+  },
+  "OasisGardensMourning": {
+    "name": "오아시스 화원의 애념",
+    "description": ""
+  },
+  "OasisGardensTruth": {
+    "name": "오아시스 화원의 진리",
+    "description": "무기에 돌파의 힘을 부여하는 재료.\\n「어떤 자가 죽은 신을 섬길까?」\\n꽃의 왕은 당시의 두 신왕과 동맹을 맺고, 무지몽매한 백성들에게 지혜와 권위 외에, 자비와 즐거움도 선사했다.\\n대지에 작열하는 태양과 빗방울만 존재할 수는 없는 것처럼, 이성과 강력한 힘, 기쁨과 사랑, 노랫소리와 멜로디, 술과 사치도 중요했다.\\n사람들은 꽃이 활짝 피는 것은 찬란한 죽음을 위함이고, 죽음은 꽃의 주인이 처음부터 애타게 추구하던 종말이라고 말했다——죽음은 잃어버린 즐거움에 씁쓸함을 더해, 무한한 추억 속에 더욱 선명히 돋보이게 하기 때문이다.\\n황사의 무지한 왕은 그녀의 이치를 깨우치지 못한 채 그녀의 무한한 매력과 다정함에만 취했고, 잘못된 길로 들어서면서까지 추억에 집착했다. 하지만 이 또한 꽃의 여왕이 예상한 대로였다"
+  },
+  "EchoOfScorchingMight": {
+    "name": "태양 같은 권위의 메아리",
+    "description": "무기에 돌파의 힘을 부여하는 재료.\\n아주 오래 전, 황사의 주민들은 딱딱한 갑충을 모티브로 왕의 인장을 조각했고, 그로써 밤낮을 윤회하는 붉은 태양과 끝없는 세월을 기념했다.\\n그 왕의 이름은 더 이상 사람들의 입에 오르내리지 않지만, 남겨진 작고 정교한 왕의 인장에서 희미하게나마 과거의 명성을 찾아볼 수 있다.\\n인장은 도금의 자손들을 따라 곳곳에 흩어졌으며, 여전히 옛 주인의 과거를 조용히 토로하고 있다"
+  },
+  "RemnantGlowOfScorchingMight": {
+    "name": "태양 같은 권위의 여광",
+    "description": "무기에 돌파의 힘을 부여하는 재료.\\n수많은 생각들을 엮고, 수천수만 개의 영혼을 다스리는 것이 바로 권위의 길이다.\\n허나 권위의 길은 냉혹한 폭정이 아니라 가장 심오한 목적을 가지고 있다——아무도 고통받지 않고, 아무도 예속되거나 박해받지 않는 진정한 낙원을 만드는 것이다.\\n침묵한 왕이 수정석의 비밀에서 본 광경은 이미 사라진 반려자가 타일렀던 것들이었다.\\n그리하여 검은 갑충 인장과 철의 색을 띤 판결은 왕국 법도의 초석이 되었다"
+  },
+  "DreamOfScorchingMight": {
+    "name": "태양 같은 권위의 꿈",
+    "description": "무기에 돌파의 힘을 부여하는 재료.\\n하얀 달빛과 푸르른 샘물은 한때 오아시스 낙원의 아름다운 풍경을 수놓았다. 하지만 꽃의 주인이 태양마저 가린 모래 폭풍에 목숨을 잃은 후, 근심 없던 황금의 낙원도 죽음 속에 파묻히게 되었다.\\n도금 부족의 시에 따르면, 하얀 달빛이 선홍빛의 옷자락에 내려앉자, 비통한 왕 아흐마르가 광기에 사로잡혔다고 한다.\\n구슬픈 사막의 민요는 이렇게 노래했다. 과거의 추억에 집착한 외로운 군왕은 사막 한가운데에 영원한 꿈의 세계를 만들어 냈고, 그곳에는 일렁이지 않는 순수한 샘물과 영원히 해질녁에 머무는 이슬빛을 담고 있다고…"
+  },
+  "OldenDaysOfScorchingMight": {
+    "name": "태양 같은 권위의 과거",
+    "description": "무기에 돌파의 힘을 부여하는 재료.\\n우매한 황사의 왕이 대지를 다스리던 시절, 작열하는 태양 같은 황금의 권력이 온 대지에 내려앉았다.\\n오랜 비석의 기록에 따르면, 왕의 권위는 일곱 개의 기둥이 되었다고 한다. 왕의 자비는 모든 이에게 닿았고, 외면받는 사람도 불만을 품는 사람도 없었다.\\n잊힌 황금의 시대, 꽃의 왕은 모래에서 영락했고 초목의 주인도 영영 떠나기로 결정했다. 하지만 황사의 자손들은 설령 재앙의 어두운 그림자가 가까워질지라도 그들의 신과 함께 하기를 택했다. 그들이 믿는 권위가 여전히 호박과 황금처럼 꺼지지 않는 빛을 내뿜고 있었기 때문이다.\\n하지만 재앙은 결국 도래했고, 황금의 갑충 인장은 신전과 궁궐의 깊은 곳, 독수리와 황소의 머리가 새겨진 부서진 기둥 아래 묻히게 된다"
+  },
   "StarterSupplyBundle": {
     "name": "초심자 보급 패키지",
     "description": "길드에서 세상 물정을 모르는 사람을 위해 준비한 보급. 큰 도움이 될 것이다"
@@ -8629,7 +9089,7 @@
   },
   "ExoticShareBundle": {
     "name": "진귀한 공유 패키지",
-    "description": ""
+    "description": "길드는 관례대로 진귀한 이석들을 공유하는데, 그중 원소의 힘이 담긴 것들도 있다.\\n\\n사용 후 아래의 선택지 중 하나를 획득할 수 있다:\\n·불타오르는 마노 조각\\n·순수한 청금석 조각\\n·자라나는 비취 조각\\n·승리의 자수정 조각\\n·자유로운 터키석 조각\\n·서늘한 빙옥 조각\\n·단단한 황옥 조각"
   },
   "CharacterAscensionBundleHigh": {
     "name": "캐릭터 돌파 셀렉션-고급",
@@ -8645,7 +9105,7 @@
   },
   "VirtuousShareBundle": {
     "name": "미덕 공유 패키지",
-    "description": ""
+    "description": "미덕을 기르기 위해 길드에서 나눠주는 서적. 성품은 개인의 능력이기도 하다.\\n\\n사용 후 아래 항목 중 한 가지를 획득할 수 있다:\\n·「자유」의 인도\\n·「투쟁」의 인도\\n·「시문」의 인도\\n·「번영」의 인도\\n·「근면」의 인도\\n·「황금」의 인도\\n·「부세」의 인도\\n·「풍아」의 인도\\n·「천광」의 인도\\n·「간언」의 인도\\n·「창의」의 인도\\n·「실천」의 인도"
   },
   "TalentMaterialsBundleHigh": {
     "name": "특성책 셀렉션-고급",
@@ -8673,11 +9133,11 @@
   },
   "MaterialShareBundle": {
     "name": "재료 공유 패키지",
-    "description": ""
+    "description": "길드는 관례대로 질 좋은 재료를 공유하는데, 그중에는 무한한 잠재력이 깃든 것들도 있다.\\n\\n사용 시 다음 중 하나를 선택해 획득할 수 있다.\\n·고탑 왕의 잔해\\n·칼바람 울프의 젖니\\n·라이언 투사의 족쇄\\n·고운한림의 매끄러운 모래\\n·안개구름 속의 흑연단\\n·흑운철 한 알\\n·먼바다의 산호 가지\\n·나루카미 어령의 은혜\\n·금석극화의 가면\\n·숲의 이슬을 닮은 동 부적\\n·오아시스 화원의 추억\\n·태양 같은 권위의 메아리"
   },
   "EminentShareBundle": {
     "name": "재료 공유 패키지",
-    "description": ""
+    "description": "길드는 관례대로 질 좋은 재료를 공유하는데, 그중에는 무한한 잠재력이 깃든 것들도 있다.\\n\\n사용 시 다음 중 하나를 선택해 획득할 수 있다.\\n·고탑 왕의 절망\\n·칼바람 울프의 이빨\\n·라이언 투사의 쇠사슬\\n·고운한림의 휘암\\n·안개구름 속의 수은단\\n·흑운철 조각\\n·먼바다의 옥빛 가지\\n·나루카미 어령의 환희\\n·금석극화의 호교(虎噛)\\n·숲의 이슬을 닮은 철 부적\\n·오아시스 화원의 은혜\\n·태양 같은 권위의 여광"
   },
   "WeaponAscensionBundleHigh": {
     "name": "무기 돌파 셀렉션-고급",
@@ -8716,20 +9176,20 @@
     "description": "사쿠야에게서 획득한 원예 패키지. 사용 후 세 가지 화분대 중 한 가지를 고를 수 있다"
   },
   "YashiroCommissionGift": {
-    "name": "",
-    "description": ""
+    "name": "야시로 봉행의 선물",
+    "description": "야시로 봉행의 선물, 정성껏 만든 장식품 같다"
   },
   "ExquisiteGiftFurnishing": {
-    "name": "",
-    "description": ""
+    "name": "정교한 장식 선물",
+    "description": "한 친구의 선물, 정성껏 만든 장식품 같다"
   },
   "AmazingGiftFurnishing": {
-    "name": "",
-    "description": ""
+    "name": "기묘한 장식 선물",
+    "description": "한 라이트 노벨의 증정품, 정성껏 만든 장식품 같다"
   },
   "MidlanderBilletTrove": {
-    "name": "",
-    "description": ""
+    "name": "중앙 대륙 원형 상자",
+    "description": "충만한 가능성을 가진 원형이 담긴 보물상자, 주인의 소망에 따라, 원하는 무기의 원형으로 나타난다.\\n\\n사용 후 아래의 선택지 중 하나를 획득할 수 있다.\\n·중앙 대륙의 한손검 원형\\n·중앙 대륙의 활 원형\\n·중앙 대륙의 양손검 원형\\n·중앙 대륙의 법구 원형\\n·중앙 대륙의 장병기 원형"
   },
   "BEP": {
     "name": "기행 경험치",
@@ -8761,31 +9221,31 @@
   },
   "GuidanceOfTheLandOfThunder": {
     "name": "하늘 번개의 인도",
-    "description": "번개의 나라 「이나즈마」를 여행하다 깨달은 것으로 기예를 향상시킬 수 있는 소장품이 들어있다\\n\\n사용 후 아래 보상 중 한 가지를 선택할 수 있다:\\n·「속세」의 인도\\n·「고상함」의 인도\\n·「천광」의 인도"
+    "description": "번개의 나라 「이나즈마」를 여행하다 깨달은 것으로 기예를 향상시킬 수 있는 소장품이 들어있다\\n\\n사용 후 아래 보상 중 한 가지를 선택할 수 있다:\\n·「부세」의 인도\\n·「풍아」의 인도\\n·「천광」의 인도"
   },
   "PhilosophiesOfTheLandOfThunder": {
     "name": "하늘 번개의 철학",
     "description": "번개의 나라 「이나즈마」를 여행하다 깨달은 것으로 기예를 향상시킬 수 있는 소장품이 들어있다\\n\\n사용 후 아래 보상 중 한 가지를 선택할 수 있다:\\n·「부세」의 철학\\n·「풍아」의 철학\\n·「천광」의 철학"
   },
   "GuidanceOfTheLandOfVerdure": {
-    "name": "",
-    "description": ""
+    "name": "신록의 인도",
+    "description": "풀의 나라 「수메르」를 여행하다 발견한 것으로 기예를 향상할 수 있는 소장품이 들어있다.\\n\\n사용 후 아래 보상 중 한 가지를 선택할 수 있다:\\n·「간언」의 인도\\n·「창의」의 인도\\n·「실천」의 인도"
   },
   "PhilosophiesOfTheLandOfVerdure": {
-    "name": "",
-    "description": ""
+    "name": "신록의 철학",
+    "description": "풀의 나라 「수메르」를 여행하다 깨달은 것으로 기예를 향상할 수 있는 소장품이 들어있다.\\n\\n사용 후 아래 보상 중 한 가지를 선택할 수 있다:\\n·「간언」의 철학\\n·「창의」의 철학\\n·「실천」의 철학"
   },
   "DomainReliquaryTierIII": {
     "name": "심비 성물함·3등급",
-    "description": ""
+    "description": "성유물을 넣어둔 성물함. 발견한 이가 존경을 받길.\\n\\n모든 성물 상자에서 아래 성유물 세트 중 한 개를 획득할 수 있다:\\n·「전투광」\\n·「교관」\\n·「유배자」"
   },
   "DomainReliquaryTierII": {
     "name": "심비 성물함·2등급",
-    "description": ""
+    "description": "성유물을 넣어둔 성물상자. 이를 발견한 이에게 축복을.\\n\\n모든 성물 상자에서 아래 성유물 세트 중 한 개를 획득할 수 있다:\\n·「검투사의 피날레」\\n·「대지를 유랑하는 악단」\\n·「전투광」\\n·「교관」\\n·「유배자」"
   },
   "DomainReliquaryTierI": {
     "name": "심비 성물함·1등급",
-    "description": ""
+    "description": "성유물을 넣어둔 성물 상자. 이를 발견한 이에게 기적을.\\n\\n모든 성물 상자에서 아래 성유물 세트 중 한 개를 획득할 수 있다:\\n·「검투사의 피날레」\\n·「대지를 유랑하는 악단」"
   },
   "ReliquaryWanderersTroupeAndGladiator": {
     "name": "성유물 함·떠돌이 악단과 검투사",
@@ -8799,128 +9259,308 @@
     "name": "여행자에게 주는 케이크",
     "description": "중요한 날에 받은 선물.\\n\\n별바다에서 가장 찬란하게 빛나는 당신에게 바칩니다.\\n이곳에서 아름답고 행복한 여행하시길 바랍니다"
   },
+  "ANoteAlraniLeftForNiloofar": {
+    "name": "엘라니가 닐루파에게 남긴 메모",
+    "description": "엘라니가 지도 교수님 닐루파에게 남긴 메모. 흘겨 쓴 필체지만 힘이 있어 메모를 남길 당시의 격한 감정을 엿볼 수 있다.\\n\\n「전 더 이상 논문을 쓰고 싶지 않아요!!!!!」"
+  },
   "AResearchPaperByPirKavikavus": {
-    "name": "",
-    "description": ""
+    "name": "대스승 카비카부스의 논문",
+    "description": "《불안정한 상태의 혼돈 노심 안전성 제고를 위한 이론과 실천——데반타카산의 고대 국가 켄리아 유적 거상을 예시로》라는 제목의 논문. 본문에는 대량의 전문 용어가 함유되어 있어 경험이 풍부한 묘론파 학자가 아니라면 논문의 논증 과정을 이해하기 힘들 것이다"
   },
   "DriedFlower": {
-    "name": "",
-    "description": ""
+    "name": "바람에 말린 꽃",
+    "description": "모험 핸드북에 끼워진 꽃. 누군가가 잃어버린 기억이 그 안에 응결된 듯하다…"
   },
   "AmitiDeviceFragmentI": {
-    "name": "",
-    "description": ""
+    "name": "아미티 장치 조각·첫 번째",
+    "description": "고대 유적 장치의 조각. 전부 조합하면 「유적 거상」의 문을 열 수 있다고 한다"
   },
   "AmitiDeviceFragmentII": {
-    "name": "",
-    "description": ""
+    "name": "아미티 장치 조각·두 번째",
+    "description": "고대 유적 장치의 조각. 전부 조합하면 「유적 거상」의 문을 열 수 있다고 한다"
   },
   "AmitiDeviceFragmentIII": {
-    "name": "",
-    "description": ""
+    "name": "아미티 장치 조각·세 번째",
+    "description": "고대 유적 장치의 조각. 전부 조합하면 「유적 거상」의 문을 열 수 있다고 한다"
   },
   "JazarisMoraPurse": {
-    "name": "",
-    "description": ""
+    "name": "쟈자리의 모라 주머니",
+    "description": "묵직한 모라 주머니. 안에는 쟈자리가 반년 동안 사용할 수 있는 연구 경비가 들어있다. 만약 실수로 전부 써버린다면 쟈자리는 분명 통곡하겠지…"
   },
   "TheUltraInvincibleAdventureHandbook": {
-    "name": "",
-    "description": ""
+    "name": "「천하무적」 모험 핸드북",
+    "description": "비밀기지에 남아 있는 「모험 핸드북」. 아이들의 모험과 각종 재미있는 일들을 기록한 듯하지만 비뚤어진 필체 때문에 뭐라고 적혀 있는지 알아보기 힘들다…"
   },
   "LostEnergyBlock": {
-    "name": "",
-    "description": ""
+    "name": "잃어버린 에너지 덩어리",
+    "description": "순수한 에너지로 응축된 에너지 덩어리. 일부 고대 유적 구조체의 기록 장치를 가동하는 데 사용할 수 있을 것 같다"
   },
   "StrangeParchment": {
-    "name": "",
-    "description": ""
+    "name": "기이한 양피지",
+    "description": "신비함을 간직한 오래된 양피지. 어떤 모험가가 남긴 메모인 듯하다"
   },
   "WitheredKusava": {
-    "name": "",
-    "description": ""
+    "name": "메마른 쿠사바",
+    "description": "모든 힘을 다 써버린 쿠사바. 이미 시든 듯하지만 소중한 기억이 담긴 씨앗은 아직 살아있다"
   },
   "GulabgirsSpecialPetSnakeFood": {
-    "name": "",
-    "description": ""
+    "name": "굴랍기르의 특제 애완용 뱀 사료",
+    "description": "굴랍기르가 특별히 제작한 애완용 뱀 사료. 무슨 맛일까…"
   },
   "StrangeBead": {
-    "name": "",
-    "description": ""
+    "name": "이상한 구슬",
+    "description": "야영지에서 찾은 이상한 구슬. 무슨 용도일까…"
   },
   "StrangeTinyHats": {
-    "name": "",
-    "description": ""
+    "name": "이상한 소형 모자",
+    "description": "이상한 소형 모자 더미. 누가 쓰는 걸까…"
   },
   "ShabbyRack": {
-    "name": "",
-    "description": ""
+    "name": "낡은 선반",
+    "description": "매우 낡은 선반. 무슨 용도일까…"
+  },
+  "JavisDream": {
+    "name": "자비의 「꿈」",
+    "description": "「꿈」을 담은 작은 상자. 하지만 꿈의 주인은 더 이상 그것을 기억하지 못한다"
   },
   "TheShepherdAndTheMagicBottle": {
-    "name": "",
-    "description": ""
+    "name": "목동과 요술병 이야기",
+    "description": "사막에서 우연히 은색 병을 발견한 목동과 그 안에 갇힌 불청객의 이야기를 담고 있다"
   },
-  "TheTaleOfHiruyAndShirinI": {
-    "name": "",
-    "description": ""
+  "TheTaleOfShiruyehAndShirinI": {
+    "name": "시루이와 시린의 이야기·권1",
+    "description": "진령이 밤바람을 맞으며 들려주는 목동의 이야기. 출처가 불분명하고 황당무계하다"
   },
-  "TheTaleOfHiruyAndShirinII": {
-    "name": "",
-    "description": ""
+  "TheTaleOfShiruyehAndShirinII": {
+    "name": "시루이와 시린의 이야기·권2",
+    "description": "진령이 밤바람을 맞으며 들려주는 목동의 이야기. 출처가 불분명하고 황당무계하다"
   },
-  "TheLayOfAynAlAhmar": {
-    "name": "",
-    "description": ""
+  "TheLayOfAlAhmar": {
+    "name": "아흐마르의 이야기",
+    "description": "변덕스러운 진령이 들려주는 태고의 이름 모를 신왕의 이야기. 진실성은 고증하기 어렵다"
+  },
+  "TheFolioOfFoliageI": {
+    "name": "오래된 나뭇잎 경전·권1",
+    "description": "고대 수메르 학자가 기록한 행록. 쿠사나리 화신의 재앙의 시대 행적을 기록했다"
+  },
+  "TheFolioOfFoliageII": {
+    "name": "오래된 나뭇잎 경전·권2",
+    "description": "고대 수메르 학자가 기록한 행록. 쿠사나리 화신의 재앙의 시대 행적을 기록했다"
+  },
+  "TheFolioOfFoliageIII": {
+    "name": "오래된 나뭇잎 경전·권3",
+    "description": "고대 수메르 학자가 기록한 행록. 쿠사나리 화신의 재앙의 시대 행적을 기록했다"
+  },
+  "ScrollOfStreamingSongI": {
+    "name": "푸시의 시가 모음집·권1",
+    "description": "아카데미아의 인론파 학자가 모래 바다의 유적에서 발굴한 훼손된 고대 서적. 저자의 신원은 알 수 없다"
+  },
+  "ScrollOfStreamingSongII": {
+    "name": "푸시의 시가 모음집·권2",
+    "description": "아카데미아의 인론파 학자가 모래 바다의 유적에서 발굴한 훼손된 고대 서적. 저자의 신원은 알 수 없다"
+  },
+  "ScrollOfStreamingSongIII": {
+    "name": "푸시의 시가 모음집·권3",
+    "description": "아카데미아의 인론파 학자가 모래 바다의 유적에서 발굴한 훼손된 고대 서적. 저자의 신원은 알 수 없다"
   },
   "AnOdeToSoulLight": {
+    "name": "영혼의 빛에게 바치는 찬가",
+    "description": "사라진 사막 교단에서 유래된 민요라고 전해지며 신원을 알 수 없는 필자에 의해 문서로 기록되었다"
+  },
+  "TransparentRuinsRecordII": {
+    "name": "투명 유적 기록·두 번째",
+    "description": ""
+  },
+  "TransparentRuinsRecordIII": {
+    "name": "투명 유적 기록·세 번째",
+    "description": ""
+  },
+  "AKey": {
     "name": "",
     "description": ""
   },
   "UnsealedParchment": {
-    "name": "",
-    "description": ""
+    "name": "개봉된 양피지",
+    "description": "신비함을 간직한 오래된 양피지. 어떤 모험가가 남긴 메모인 듯하다. 계속해서 새로운 문자가 출현하는 것 같다"
   },
   "GuidingParchment": {
-    "name": "",
-    "description": ""
+    "name": "길을 인도하는 양피지",
+    "description": "신비함을 간직한 오래된 양피지. 어떤 모험가가 남긴 메모인 듯하다. 계속해서 새로운 문자가 출현하는 것 같다"
   },
   "WhisperingParchment": {
-    "name": "",
-    "description": ""
+    "name": "속삭이는 양피지",
+    "description": "신비함을 간직한 오래된 양피지. 어떤 모험가가 남긴 메모인 듯하다. 계속해서 새로운 문자가 출현하는 것 같다"
   },
   "MysteriousParchment": {
-    "name": "",
-    "description": ""
+    "name": "신비로운 양피지",
+    "description": "신비함을 간직한 오래된 양피지. 어떤 모험가의 종말을 기록한 듯하다"
   },
   "AncientWorkLog": {
-    "name": "",
-    "description": ""
+    "name": "오래된 업무 일지",
+    "description": "오래된 업무 일지"
   },
   "AkademiyaInvestigationTeamsInterimReport": {
-    "name": "",
-    "description": ""
+    "name": "아카데미아 탐사대의 임시 보고",
+    "description": "아카데미아 탐사대의 임시 보고"
   },
   "ZandiksNote": {
-    "name": "",
-    "description": ""
+    "name": "잔디크의 메모",
+    "description": "잔디크의 메모"
   },
   "SohrehsNote": {
-    "name": "",
-    "description": ""
+    "name": "쇼레의 메모",
+    "description": "쇼레의 메모"
   },
   "SumeruInvestigationTeamsNote": {
-    "name": "",
-    "description": ""
+    "name": "수메르 탐사대의 메모",
+    "description": "수메르 탐사대의 메모"
   },
   "DissectionRecords": {
-    "name": "",
-    "description": ""
+    "name": "해부 기록",
+    "description": "해부 기록"
   },
   "RaggedAttendanceRecord": {
+    "name": "파손된 출근 기록",
+    "description": "파손된 출근 기록"
+  },
+  "MedicalRecords": {
+    "name": "병력 기록",
+    "description": "기록이 온전한 병원 서류의 한 페이지. 차트에서 빠져나온 것 같다"
+  },
+  "DiagnosticReport": {
+    "name": "진단서",
+    "description": "기록이 온전한 병원 서류의 한 페이지. 차트에서 빠져나온 것 같다"
+  },
+  "ShevirmesFunds": {
     "name": "",
     "description": ""
   },
-  "AnElegantlyWrittenNote": {
+  "QuqingsFunds": {
     "name": "",
+    "description": ""
+  },
+  "GuanchuisFunds": {
+    "name": "",
+    "description": ""
+  },
+  "ZakariyasPrescriptionForMaruf": {
+    "name": "자카리야가 마루프에게 발급한 「처방전」",
+    "description": "휘갈겨 쓴 필체의 처방전. 「허브」, 「강불」, 「약재가 둥둥 뜨면」이라는 몇몇 단어들만 어렴풋이 알아볼 수 있다…"
+  },
+  "ZakariyasMedicineForMaruf": {
+    "name": "자카리야가 마루프에게 내준 약",
+    "description": "자카리야가 마루프를 위해 만든 약. 냄새도 쓰고 보기에도 쓴맛이 느껴진다…"
+  },
+  "AnElegantlyWrittenNote": {
+    "name": "필체가 우아한 노트",
+    "description": "우아한 필체와 말투를 보아하니 두냐르자드가 남긴 노트가 확실하다. 만약 비늘병의 영향을 받아 힘 조절이 어려워지지 않았다면 글씨는 더 아름다웠을 것이다"
+  },
+  "NerminsMintyBeanSoup": {
+    "name": "네르민이 만든 「완두콩 민트 수프」",
+    "description": "네르민이 직접 만든 「완두콩 민트 수프」. 「뚠뚠 복숭아」까지 추가해서 맛있어 보인다…"
+  },
+  "FutureStar": {
+    "name": "",
+    "description": ""
+  },
+  "RaefsBag": {
+    "name": "리프의 상자",
+    "description": "화분, 씨앗, 비료, 그리고 많은 원예용품이 들어있는 상자. 묵직해서 이를 메고 사막을 건너기는 결코 쉽지 않을 듯하다"
+  },
+  "NerminsSpices": {
+    "name": "네르민의 향신료",
+    "description": "네르민이 아잘라이에게서 주문한 향신료. 가격도 비싸지 않고 품질도 괜찮다"
+  },
+  "KeystoneI": {
+    "name": "",
+    "description": ""
+  },
+  "TornPageAThousandNightsI": {
+    "name": "",
+    "description": ""
+  },
+  "TornPageAThousandNightsII": {
+    "name": "",
+    "description": ""
+  },
+  "TornPageAThousandNightsIII": {
+    "name": "",
+    "description": ""
+  },
+  "TornPageAThousandNightsIV": {
+    "name": "",
+    "description": ""
+  },
+  "TornPageAThousandNightsV": {
+    "name": "",
+    "description": ""
+  },
+  "TornPageAThousandNightsVI": {
+    "name": "",
+    "description": ""
+  },
+  "AThousandNightsI": {
+    "name": "",
+    "description": ""
+  },
+  "AThousandNightsII": {
+    "name": "",
+    "description": ""
+  },
+  "AThousandNightsIII": {
+    "name": "",
+    "description": ""
+  },
+  "AThousandNightsIV": {
+    "name": "",
+    "description": ""
+  },
+  "AThousandNightsV": {
+    "name": "",
+    "description": ""
+  },
+  "AThousandNightsVI": {
+    "name": "",
+    "description": ""
+  },
+  "SamersMissive": {
+    "name": "사머의 메시지",
+    "description": ""
+  },
+  "ShevirmesInvoice": {
+    "name": "",
+    "description": ""
+  },
+  "QuqingsInvoice": {
+    "name": "",
+    "description": ""
+  },
+  "GuanchuisInvoice": {
+    "name": "",
+    "description": ""
+  },
+  "KeystoneII": {
+    "name": "",
+    "description": ""
+  },
+  "AzalaisPayment": {
+    "name": "",
+    "description": "아잘라이의 대금, 무게가 약간 묵직하다…"
+  },
+  "RamasReceipt": {
+    "name": "",
+    "description": ""
+  },
+  "ButrusReceipt": {
+    "name": "",
+    "description": ""
+  },
+  "JutsReceipt": {
+    "name": "",
+    "description": ""
+  },
+  "JahangirsReceipt": {
+    "name": "자한기르의 수취증",
     "description": ""
   },
   "SilkFlowerSeed": {
@@ -9016,16 +9656,16 @@
     "description": "사쿠야에게서 획득한 꽃씨. 생명력이 넘치며 품질이 우수하다. 주전자 속 선계의 논밭에 재배하면 일정 시간 후 「꿈의 꽃·유홍초」로 성장한다"
   },
   "HarraFruitSeed": {
-    "name": "",
-    "description": ""
+    "name": "「향신과」의 씨앗",
+    "description": "「씨앗 함」을 통해 획득한 씨앗. 생명력이 넘치며 품질이 우수하다. 주전자 속 선계의 논밭에 심으면 일정 시간 후 「향신과」로 자라난다"
   },
   "ZaytunPeachSeed": {
-    "name": "",
-    "description": ""
+    "name": "「뚠뚠 복숭아」의 씨앗",
+    "description": "「씨앗 함」을 통해 획득한 씨앗. 생명력이 넘치며 품질이 우수하다. 주전자 속 선계의 논밭에 심으면 일정 시간 후 「뚠뚠 복숭아」로 자라난다"
   },
   "SumeruRoseSeed": {
-    "name": "",
-    "description": ""
+    "name": "「수메르 장미」의 씨앗",
+    "description": "「씨앗 함」을 통해 획득한 씨앗. 생명력이 넘치며 품질이 우수하다. 주전자 속 선계의 논밭에 심으면 일정 시간 후 「수메르 장미」로 자라난다"
   },
   "Medaka": {
     "name": "구피",
@@ -9037,7 +9677,7 @@
   },
   "SweetFlowerMedaka": {
     "name": "달콤달콤 구피",
-    "description": ""
+    "description": "활동적이고 작은 구피.아름다운 꽃잎 모양 꼬리로 유명하다.\\n아마 단 것을 가장 좋아하는 구피가 아닐까 싶다. 모든 신체 부위가 단맛 탐지기이며, 달콤함에 이끌려 티바트의 모든 시냇물을 유람했다. 모든 단 음식을 동등하게 대우하고 바늘이 끼어 있는 달콤한 미끼라고 해서 예외는 없다. 미끼를 던져라, 그럼 물것이니.\\n낚시 초보자에게 딱 이다"
   },
   "AizenMedaka": {
     "name": "파란 구피",
@@ -9116,28 +9756,28 @@
     "description": "한때 환상의 생물로 여겨졌던 기이한 가오리. 와타츠미섬의 오래된 그림으로만 기록이 남아있다. 지금은 닫혀있던 해연이 열리면서 비로소 진실된 모습을 드러냈다.\\n이 기이한 생물의 체색은 시간에 따라 변한다고 전해지는데, 유년기에는 보통 해와 같은 연한 금색을 띠며, 성년이 되면 색이 짙어지고 날개도 밤의 장막과 같은 어두운색으로 덮인다. 그림의 기록에서 알 수 있듯, 그것들은 「포말로」 라는 명칭으로 불렸고, 의미는 「탐욕스러운 입」이라는 뜻이다"
   },
   "TrueFruitAngler": {
-    "name": "",
-    "description": ""
+    "name": "과실 뿔복어",
+    "description": "동그란 체형의 중형 어류. 뿔과 같은 연골을 가지고 있어 이 연골로 물속에 동굴을 만든 다음 그 안에서 서식하거나 자신을 해치려는 생물을 쫓아낸다고 한다.\\n청녹색의 뿔복어는 이 계보에서 가장 흔하게 볼 수 있는 품종으로 가지가 아직 여물지 않은 과실의 모습을 하고 있어 「과실」이라는 이름이 붙여졌다.\\n이런 종류의 뿔복어는 가시가 아주 적고 육질이 두텁지만 처리 방법이 잘못됐거나 담낭을 늦게 떼어내면 생선 살코기가 덜 익은 과실처럼 시큼한 맛을 낸다. 이로 인해 「뿔복어 요리를 얼마나 맛있게 만드는가」가 수메르에서 요리 기술을 판단하는 기준 중 하나로 자리매김했다"
   },
   "PeachOfTheDeepWaves": {
-    "name": "",
-    "description": ""
+    "name": "파도에 빠진 복숭아",
+    "description": "동그란 체형의 중형 어류. 뿔과 같은 연골을 가지고 있어 이 연골로 물속에 동굴을 만든 다음 그 안에서 서식하거나 자신을 해치려는 생물을 쫓아낸다고 한다.\\n온몸이 분홍색이고 꼬리지느러미는 연두색인 뿔복어로 「뚠뚠 복숭아」를 떠올리게 하여 파도에 빠진 복숭아라는 이름이 붙여졌다. 이름에서 알 수 있듯 달콤한 식감을 가지고 있어 전문 낚시꾼들에게 「디저트를 만들기에 최상의 어류」로 인정받았다.\\n그러나 여러가지 이유로 인해 그들이 기대한 생선 살코기 디저트는 결국 성공을 거두지 못했다. 게다가 이런 희귀한 뿔복어는 높은 가격으로 인해 식자재로 삼기가 어려웠다. 그래서 사람들은 파도에 빠진 복숭아를 주로 관상어로 기르곤 한다.\\n큰돈을 들여 파도에 빠진 복숭아를 구매하기는 싫지만 그 화려한 색감을 좋아하는 손님들이 많아짐에 따라 뚠뚠 복숭아로 이 뿔복어의 모형을 만들어 파는 상인까지 등장했는데, 그 판매량이 제법 우수하다고 전해진다"
   },
   "SandstormAngler": {
-    "name": "",
-    "description": ""
+    "name": "모래 폭풍 뿔복어",
+    "description": "동그란 체형의 중형 어류. 뿔과 같은 연골을 가지고 있어 이 연골로 물속에 동굴을 만든 다음 그 안에서 서식하거나 자신을 해치려는 생물을 쫓아낸다고 한다.\\n모래와 같은 색깔을 띠고 있어 눈에 잘 띄지는 않지만 매우 중요한 품종이다. 학자들은 이 뿔복어의 생체 구조에 따라 해당 뿔복어 계열의 생태 특징을 밝혀냈는데, 모래 뿔복어는 동족 중에서도 가장 강력한 힘과 가장 단단한 뿔을 가지고 있어 「수중인부」의 역할을 담당한다. 오랜 기간 동안 강과 호수의 밑바닥에서 생활하며 모래와 함께한 덕에 그에 알맞은 보호색을 지니도록 진화하게 되었다"
   },
   "SunsetCloudAngler": {
-    "name": "",
-    "description": ""
+    "name": "놀구름 뿔복어",
+    "description": "동그란 체형의 중형 어류. 뿔과 같은 연골을 가지고 있어 이 연골로 물속에 동굴을 만든 다음 그 안에서 서식하거나 자신을 해치려는 생물을 쫓아낸다고 한다.\\n뿔복어 중에서 가장 장수하는 품종으로 붉게 노을이 진 구름빛을 띠고 있어 식별하기 쉽다. 이러한 색깔은 독특한 생존 방식과 관련이 깊은데, 외피에 담즙과 유사한 성분을 지니고 있어 다른 뿔복어보다 훨씬 시고 떫다. 이로 인해 다른 수중 생물들이 가까이하지 않지 않는다.\\n하지만 특수한 조리 방식을 거친 신맛은 오히려 생선 살코기의 풍미를 더해주었기에 놀구름 뿔복어는 곧 엄청난 판매량을 자랑하게 되었다. 수메르의 어시장에서는 「놀구름 뿔복어와 다른 식용 어류를 같은 연못에서 키우지 마세요」라는 경고 문구를 자주 볼 수 있다"
   },
   "LazuriteAxeMarlin": {
-    "name": "",
-    "description": ""
+    "name": "청금 미늘창 물고기",
+    "description": "수메르에서만 볼 수 있는 형태가 독특한 어류. 나비고기의 먼 친척이라 볼 수 있다. 이러한 어류는 골격이 장대하고 특별한 곡선을 보여준다. 가장 처음 이 물고기를 낚은 전문 낚시꾼이 낚싯대를 꼬리지느러미 끝부분에 기대어 놓자 두 사물이 결합된 모습이 흡사 장병기 같아 「미늘창 물고기」라는 이름을 지었다 한다. 학명인 「닻가지 나비고기」에 비해 이 이름이 그 형태를 훨씬 잘 설명하고 있어 민간에 널리 알려지게 되었다.\\n비록 무기의 이름을 하고 있고 체내에 깃든 힘도 어류 중에서 상위권이지만 미늘창 물고기는 성격이 온순한데, 그중에서도 청금색 무늬를 타고난 미늘창 물고기가 가장 온순하다. 단단한 비늘과 힘의 우위로 인해 다른 수중 생물들의 공격에 여유롭게 대처하며 상대가 지친 후에 유유히 그곳을 떠나가곤 한다.\\n미늘창 물고기의 힘은 전문 낚시꾼에게 있어 하나의 도전이라고 볼 수 있다. 대형 맹수를 상대하듯 만반의 준비를 하고 입질할 때 온 힘을 쏟아부어 녀석의 체력을 고갈시켜야 미늘창 물고기를 낚을 수 있을 것이다"
   },
   "HalcyonJadeAxeMarlin": {
-    "name": "",
-    "description": ""
+    "name": "비옥 미늘창 물고기",
+    "description": "수메르에서만 볼 수 있는 형태가 독특한 어류. 나비고기의 먼 친척이라 볼 수 있다. 이러한 어류는 골격이 장대하고 특별한 곡선을 보여준다. 가장 처음 이 물고기를 낚은 전문 낚시꾼이 낚싯대를 꼬리지느러미 끝부분에 기대어 놓자 두 사물이 결합된 모습이 흡사 장병기 같아 「미늘창 물고기」라는 이름을 지었다 한다. 학명인 「닻가지 나비고기」에 비해 이 이름이 그 형태를 훨씬 잘 설명하고 있어 민간에 널리 알려지게 되었다.\\n비옥색을 띠고 있는 미늘창 물고기는 수중 식물이 무성한 구역에서 활동하는 것을 좋아하며 존재를 눈치채기 어려울 정도로 그 구역에 녹아드는 모습을 보여준다. 수초 사이를 오가는 작은 물고기들은 종종 이 방벽 같은 녀석에 부딪혀 어리둥절해하곤 하는데, 비옥 미늘창 물고기는 이에 화를 내기는커녕 시기적절하게 자신의 이웃들을 보호해 주곤 한다"
   },
   "WingsOfFirstFlight": {
     "name": "최초의 날개",
@@ -9176,8 +9816,8 @@
     "description": "바람의 날개 디자인. 별바다까지 울려 퍼진 합주의 증인이 되어 획득한 선물"
   },
   "WingsOfTheForest": {
-    "name": "",
-    "description": ""
+    "name": "울창한 숲의 날개",
+    "description": "바람의 날개 디자인. 수메르의 인정과 칭찬을 얻어 받게 된 선물"
   },
   "RadiantSpincrystal": {
     "name": "빛나는 결정·1",
@@ -9232,16 +9872,20 @@
     "description": "「진사의 방추」 전용 재련 아이템.\\n은은하게 속세를 초월한 빛을 뿜어내는 은백색 액체. 지상의 존재에겐 뼈도 부식하는 맹독성을 지니고 있지만, 물질을 승화하는 힘도 있다"
   },
   "OintmentOfSight": {
-    "name": "눈에 좋은 연고",
-    "description": "「맹세의 눈동자」 전용 재련 아이템.\\n특별한 심해 뱀장어의 기름으로 만들었다. 연하궁의 신기를 관리할 때 쓴 적이 있는데, 바를 때 눈에서 밝게 빛이 났다"
+    "name": "눈을 밝히는 연고",
+    "description": "「맹세의 눈동자」 전용 재련 아이템.\\n특별한 심해 뱀장어의 기름으로 만들었다. 연하궁의 신기를 관리할 때 쓴 적이 있는데, 바를 때 눈이 밝게 빛이 났다"
   },
   "GlowingGem": {
     "name": "노을빛 보주",
-    "description": "Specialized refinement material for the Fading Twilight."
+    "description": "「노을」 전용 재련 아이템.\\n층암거연에 살았던 주민의 고대 제작 방식으로 만든 콜 라피스 보주. 어렴풋이 새벽이나 석양 시간에 볼 수 있는 빛을 발산하고 있다. 햇빛이 들지 않는 바위 동굴 속에서 암흑의 적과 전투하는 사람들에게 작은 희망을 선사할 수 있을 것이다"
   },
   "OriginalFishOintment": {
+    "name": "원조 어유",
+    "description": "「메마른 연못」 전용 재련 아이템.\\n북쪽의 큰 연못에서 포획한 물고기로부터 추출한 연고로, 우수한 활이 된 물고기의 생기를 아주 잠깐 회복시킨다.\\n들리는 바에 의하면 그 호수에는 대륙 다른 곳에서는 절대 볼 수 없는 수중 생물들이 서식하고 있다고 한다"
+  },
+  "PlumeOfTheChangingWinds": {
     "name": "",
-    "description": ""
+    "description": "？？？"
   },
   "FalconsDance": {
     "name": "송골매의 춤",
@@ -9432,8 +10076,8 @@
     "description": "낚시 중 최적 장력 구간에서 이 낚싯대를 사용해 장력을 유지한다면 이 낚싯대는 낚인 물고기의 몸부림 시간을 가속 단축한다. 최적 장력 구간 벗어나면 가속 과정은 초기화된다.\\n\\n「해중월」 때문에 특별 제작된 특제 낚싯대. 전설의 대어를 낚기 위해 제작자는 낚싯대와 낚싯줄에 희귀한 기능이 있는 재료를 섞어, 뛰어난 유연성을 자랑할 뿐만 아니라 천 근의 무게도 견딜 수 있다. 이 특제 낚싯대로 일반 물고기를 상대하는 건 식은 죽 먹기다. 하지만 항상 조무래기들만 상대하는 건 특제 낚싯대에게 치욕이 아닐까?"
   },
   "Serendipity": {
-    "name": "",
-    "description": ""
+    "name": "세렌디피티",
+    "description": "낚시 중 최적 장력 구간에서 이 낚싯대를 사용해 장력을 컨트롤하면 물고기의 저항하는 시간을 안정적으로 단축시킬 수 있고 낚시 성공률을 높일 수 있다. 수메르 지역에서만 적용된다.\\n\\n고풍스러운 외관의 수메르 낚싯대. 백옥 같은 조각과 짙은 금색의 문양이 둘려 있고 파란색의 보석으로 포인트를 주었다. 순수한 아름다움을 지닌 외관 아래 「생명」과 관련된 뜻을 내재하고 있는 듯하다. 수메르에서 가장 오래된 낚싯대는 넝쿨이 얽힌 나뭇가지였다고 하는데 수많은 낚시꾼이 이런 낚싯대로 「기적의 낚시」를 일구어냈다고 전해진다. 오늘날의 낚시꾼들도 이런 유구한 역사를 지닌 낚싯대가 그들에게 행운을 가져다주길 기원하고 있다"
   },
   "GenshinImpactANewWorld": {
     "name": "원신·인상",
@@ -9465,7 +10109,7 @@
   },
   "JeanTheWindsCourse": {
     "name": "진·풍향",
-    "description": "명함 스킨.\\n민들레는 「사자의 이빨」이라고도 불리는, 바풍향에 가장 민감한 꽃이다"
+    "description": "명함 스킨.\\n민들레는 「사자의 이빨」이라고도 불리는, 풍향에 가장 민감한 꽃이다"
   },
   "BarbaraFlow": {
     "name": "바바라·흐름",
@@ -9861,35 +10505,35 @@
   },
   "CelebrationBingeVessel": {
     "name": "축제·술잔",
-    "description": "명함 스킨.\\n이곳에는 엄청난 스토리가 숨겨져 있지만, 알코올이 없어서 페이몬도 마실 수 있다"
+    "description": "명함 스킨.\\n여기에는 많은 이야기가 담겨있지만, 알코올이 없어서 페이몬도 마실 수 있다"
   },
   "YaeMikoKitsuneDreaming": {
-    "name": "야에 미코·꿈의 여우",
+    "name": "야에 미코·여우의 꿈",
     "description": "명함 스킨.\\n야에 미코의 여우 모습은 언제 볼 수 있을까? 꿈속에서?"
   },
   "TravelNotesAwakening": {
-    "name": "???",
-    "description": "???"
+    "name": "기행·계칩",
+    "description": "명함 스킨.\\n삼계가 흔들리며 천지가 깨어나고, 산호왕충도 영면에서 깨어난다"
   },
   "KamisatoAyatoRipple": {
-    "name": "？？？",
-    "description": "？？？"
+    "name": "카미사토 아야토·잔물결",
+    "description": "명함 스킨.\\n거울 같은 연못 위에 동백꽃이 비치고, 맑은 물이 물결친다"
   },
   "LumensStoneOfLight": {
-    "name": "",
-    "description": ""
+    "name": "유명·휘석",
+    "description": "명함 스킨.\\n이름도 없고 정체를 알 수 없는 짙푸른 수정석. 수정석 안에는 높은 하늘의 비밀스러운 이야기나, 거연의 속삭임이 흐르고 있을지도…?"
   },
   "AchievementThunderclap": {
-    "name": "",
-    "description": ""
+    "name": "업적·뇌음",
+    "description": "명함 스킨.\\n들어봐, 구름에서 들려오는 소리. 저건 그것이 원통해하며 분노하는 소리이자, 작은 소원을 속삭이는 소리야"
   },
   "AchievementChasm": {
-    "name": "？？？",
-    "description": "？？？"
+    "name": "업적·층암",
+    "description": "명함 스킨.\\n광부들이 바쁘게 오가던 잔도와 광산은 오늘날 고요함으로 뒤덮였고, 천 년 된 유리 모래와 옥수만 은은하게 빛 나고 있다"
   },
   "TravelNotesIrodori": {
-    "name": "？？？",
-    "description": "？？？"
+    "name": "기행·이로도리",
+    "description": "명함 스킨.\\n취향이 같은 사람을 「동인」이라고 부른다. 여우 편집장이 저작권법에 대해 신경 쓰기 전에 마음속의 이야기를 마음껏 그려보자. ——아 어쩌면 편집장은 이미 알고 있지만 내버려 두는 걸지도?"
   },
   "YelanThrow": {
     "name": "야란·일척",
@@ -9900,8 +10544,8 @@
     "description": "명함 스킨.\\n「이나즈마엔 들어가면 부정한 것을 퇴치하는 울림풀 고리가 있어. 시노부는 부정한 것들이 고리를 피하니까 그럼 고리를 두르고 다니면 된다고 생각했지. 정말 무시무시한 무녀의 재능이라니깐」"
   },
   "TravelNotesDivineWill": {
-    "name": "？？？",
-    "description": "？？？"
+    "name": "기행·천명",
+    "description": "명함 스킨.\\n「과거에 충성을 다한 영혼이 기러기처럼 사방으로 흩어졌구나」「오늘 내가 등불을 들고 길을 인도하니, 영웅의 넋이 길을 잃지 않기를 바랄 뿐이다」"
   },
   "ShikanoinHeizouTemari": {
     "name": "시카노인 헤이조·테마리",
@@ -9911,27 +10555,55 @@
     "name": "기행·바닷빛",
     "description": "명함 스킨.\\n마치 여러 해가 지나고 오랜 꿈에서 깨어난 것처럼, 기념으로 간직했던 소라 껍데기 안에 여전히 그날의 여름 바다가 존재하고 있다"
   },
+  "TighnariDewKissed": {
+    "name": "타이나리·이슬 오일",
+    "description": "명함 스킨.\\n타이나리가 꽃이슬로 정성스럽게 조제한 오일로 보송보송한 꼬리를 케어하는 데 사용되며, 은은한 향기는 안정 효과가 있다"
+  },
+  "ColleiGoodVirtue": {
+    "name": "콜레이·표변",
+    "description": "명함 스킨.\\n「이건… 콜린엔바야! 윽…」"
+  },
+  "DoriJinni": {
+    "name": "도리·요술 램프",
+    "description": "명함 스킨.\\n요술 램프와 내게 줄 모라를 닦아주면 모든 소원이 이루어질 거야… 아마도?"
+  },
   "TravelNotesWoodlands": {
-    "name": "",
-    "description": ""
+    "name": "기행·깊은 숲",
+    "description": "명함 스킨.\\n깊은 숲속 으슥한 골짜기 사이로 달과 함께 장미가 피어난다. 너와 함께라면 이곳은 낙원이다"
   },
   "AchievementRoaming": {
-    "name": "",
-    "description": ""
+    "name": "업적·만행",
+    "description": "명함 스킨.\\n모든 여정과 추억은 여행자만의 유일무이한 기적이다"
   },
   "AchievementFatedEncounter": {
-    "name": "",
-    "description": ""
+    "name": "업적·인연",
+    "description": "명함 스킨.\\n지금 이 순간의 만남은 언젠가는 그리움이 될 거야"
   },
   "SumeruShimmeringWoods": {
-    "name": "",
-    "description": ""
+    "name": "수메르·눈부신 숲",
+    "description": "명함 스킨.\\n숲속에 조용히 잠든 이야기들은 또 어떤 꿈을 품고 있을까"
   },
   "SumeruObservance": {
+    "name": "수메르·조람",
+    "description": "명함 스킨.\\n세상 만상을 조람하다, 하늘의 빛을 일념에 깨닫네"
+  },
+  "SumeruUnsullied": {
+    "name": "수메르·정명",
+    "description": "명함 스킨.\\n비바람의 지나가도 청정한 달 연꽃처럼, 참뜻을 꿰뚫는 지혜로운 자는 죄악에 물들지 않는다"
+  },
+  "TravelNotesReturningWinds": {
     "name": "",
     "description": ""
   },
-  "SumeruUnsullied": {
+  "AchievementSevenLights": {
+    "name": "",
+    "description": ""
+  },
+  "SumeruSandtreader": {
+    "name": "",
+    "description": ""
+  },
+  "AchievementMirroredDreams": {
     "name": "",
     "description": ""
   },
@@ -10053,11 +10725,11 @@
   },
   "SeedDispensary": {
     "name": "씨앗 함",
-    "description": ""
+    "description": "평 할머니가 준 신비한 상자. 평 할머니의 말에 따르면, 이 상자는 「씨앗 생성」 능력을 지니고 있다…. 식물 본연의 특성에 따라 「씨앗 생성」으로 획득한 씨앗을 「속세의 주전자」 속 상응하는 논밭에 심을 수 있다.\\n재배 가능한 식물: 예상꽃, 달콤달콤꽃, 세실리아꽃, 유리백합, 풍차 국화, 청심, 유리주머니, 낙락베리, 등불꽃, 절운고추, 당근, 흰 무, 허브, 버섯, 울림풀, 말총, 금어초, 연꽃받침, 통통 연꽃, 해초, 바다 불로초, 향신과, 뚠뚠 복숭아, 수메르 장미"
   },
   "ElectroTreasureCompass": {
     "name": "번개의 보물찾기 나침반",
-    "description": "이나즈마에서 사용하면 근처의 보물 상자를 찾을 수 있다\\n번개의 제도의 땅을 많은 핍박을 받아왔다. 그 상처, 그리고 그 회복과 함께 잇따른 건 각 섬에 묻혀있는 수많은 보물이다"
+    "description": "이나즈마에서 사용하면 근처의 보물 상자를 찾을 수 있다\\n번개 제도의 땅은 많은 핍박을 받아왔다. 그 상처, 그리고 그 회복과 함께 잇따른 건 각 섬에 묻혀있는 수많은 보물이다"
   },
   "RedFeatherFan": {
     "name": "붉은 깃털 부채",
@@ -10097,7 +10769,7 @@
   },
   "LumenstoneAdjuvant": {
     "name": "유명석 촉매",
-    "description": "「층암거연·지하 광갱」에서 장착 시, 광원을 제공할 수 있는 진귀한 결정체.\\n\\n성분은 층암거연에서 산출되는 유리 모래와 매우 비슷하지만, 더욱 강렬한 힘이 담겨 있다.\\n유명 수정석이 손안의 작은 태양처럼 어둠 속의 길을 비추고 위안이 되길 바란다"
+    "description": "「층암거연·지하 광구」에서 장착 시, 광원을 제공할 수 있는 진귀한 결정체.\\n\\n성분은 층암거연에서 산출되는 유리 모래와 매우 비슷하지만, 더욱 강렬한 힘이 담겨 있다.\\n유명 수정석이 손안의 작은 태양처럼 어둠 속의 길을 비추고 위안이 되길 바란다"
   },
   "BokusoBox": {
     "name": "보쿠소의 함",
@@ -10112,44 +10784,56 @@
     "description": "기계 제조업자 베르트랑이 제작한 수집기. 단계에 따라 제조에 필요한 각각의 재료를 수집할 수 있다. 「울트라 대왕 머신」에 연결해 재료를 원자재로 삼아 넣으면 로봇 장식을 만들 수 있다"
   },
   "Kusava": {
-    "name": "",
-    "description": ""
+    "name": "「쿠사바」",
+    "description": "장착 후 특정 장소에서 아란나라의 힘을 사용할 수 있다.\\n「통통한 씨앗이자 씁쓸한 열매야.」\\n아란나라 기억의 임시 거처이자 아란나라의 힘을 잠시 보관해두는 곳이다"
   },
   "Aranyaka": {
-    "name": "",
-    "description": ""
+    "name": "「숲의 책」",
+    "description": "아란마가 건네준 책.\\n수많은 세월을 겪은 듯하다. 원래는 무언가 기록되어 있었던 것 같지만 이제는 사라지고 없다.\\n아란나라와 함께 모험한 이야기를 기록하는 데 사용하자"
   },
   "DendroculusResonanceStone": {
-    "name": "",
-    "description": ""
+    "name": "풀의 신의 눈동자 공명석",
+    "description": "수메르에서 사용하면 근처의 「사라진 풀의 신의 눈동자」를 찾을 수 있다.\\n풀의 일곱신상과 비슷한 성질을 가진 특이한 부적. 풀 원소의 신의 눈동자에 끌린다.\\n향긋한 풀과 나무, 넝쿨과 꽃처럼 풀 원소에 의지하는 생명은 수많은 형태를 가지고 있다. 각자 형태도 다르고 생명과 생명 사이에는 장벽이 존재하지만, 같은 대지에서 태어난 것은 결국 같은 대지로 돌아가기 마련이다"
   },
   "DendroTreasureCompass": {
-    "name": "",
-    "description": ""
+    "name": "풀의 보물찾기 나침반",
+    "description": "수메르에서 사용하면 근처의 보물상자를 찾을 수 있다.\\n어떤 사람들에게 있어 삶의 의미는 탐사와 개척에 있을 것이다. 탐사와 개척의 종점에는 종종 풍부한 보물이 그들을 기다리고 있다"
   },
   "TheBoonOfTheElderTree": {
-    "name": "",
-    "description": ""
+    "name": "「나무왕의 가호」",
+    "description": "사용 시 주변에 있는 나무의 목재를 획득할 수 있다.\\n수메르 숲에서 간혹 발견할 수 있는 신비한 부적으로 초목의 힘을 모으는 능력이 있다.\\n숲에 사막이 침입하는 걸 저지하고 암흑의 세월 속 맹수들의 침입을 막기 위해, 나무와 넝쿨은 울타리를 만들어 숲을 보호해 왔다. 이 부적을 지닌 사람은 숲의 친구로 인정받게 되며, 시냇물과 달빛의 인도를 받아 나무 울타리로 만들어진 미궁에서 헤매지 않을 수 있다고 한다. 다만, 이는 고대 전설에서만 전해지는 이야기이다"
   },
   "UltraHotBurnerLampTestModel": {
-    "name": "",
-    "description": ""
+    "name": "특급 가열 램프 프로토타입",
+    "description": "광물을 소모해 식자재의 가공 효율을 높일 수 있는 작은 장치.\\n아카데미아의 젊은 학자들은 실험 도구로 요리하는 습관이 있다. 그중 어떤 학자는 효율을 높이고 시간을 절약하기 위해 광물 속 에너지를 추출해 출력을 높이는 「특급 가열 램프」라는 장치를 발명했다.\\n손에 있는 이 특급 가열 램프는 민간용 테스트 버전으로 안전을 위해 출력을 제한하고 불씨를 사용하지 않도록 만들었다. 하지만 과일잼을 만들고 소시지를 건조하는 등 편리한 장치로 사용되고 있다"
   },
   "MiniSeelieMoss": {
-    "name": "",
-    "description": ""
+    "name": "작은 선령·이끼",
+    "description": "「잃어버린 보물」 이벤트 기념 아이템. 장착 시 작은 선령이 동행한다.\\n녹색의 작은 선령. 나무에 가까이 다가갈 때마다 크게 기뻐한다"
   },
   "ExquisiteKamera": {
+    "name": "정교한 「사진기」",
+    "description": "꼬마 라지가 산게마 바이 어르신 가게에서 빌린 사진기. 풍경 촬영, 야외 취재, 축제 기념사진을 찍을 때 유용하게 사용할 수 있다!\\n일반 사진기에 비해 금속 장식이 더해져 훨씬 값비싸 보이므로 절대 망가뜨리지 않도록 조심해야 한다!\\n또한, 대여 약관에 따라 수메르 내에서만 이 사진기를 사용할 수 있다는 점, 유의하자"
+  },
+  "BanusWisdom": {
     "name": "",
-    "description": "This Kamera is adorned with metal decorations and thus looks a lot more expensive than regular Kameras. Be careful with it!\\nAccording to the leasing agreement, it can only be used within Sumeru's borders."
+    "description": ""
   },
   "FishingLineStabilizer": {
+    "name": "낚싯줄 안정 장치",
+    "description": "자가 적응 기능을 갖춘 장력 안정 장치. 낚싯대에 장착하면 낚싯줄의 장력 파동을 안정화하여 낚시를 도와준다. 안정 장치는 각종 어류의 몸부림 정도를 자동으로 기록하며 데이터가 많을수록 안정 효과도 좋아진다.\\n\\n원형은 폰타인의 한 발명가의 쓸모없는 작은 발명품에서 비롯되었으며 오랫동안 아무에게도 사용되지 않다가 폰타인 낚시 협회에 의해 발견되었다. 그 뒤 몇 번의 개조를 거쳐 지금의 낚싯줄 안정 장치가 완성되었는데 완성품이 세간에 공개되자마자 대다수 회원의 인정을 받으며 점차 다른 지역으로 퍼져나갔다.\\n특히 스네즈나야에서의 홍보가 성공적이어서 어떤 집행관님의 큰 애정을 받고 있다고 한다"
+  },
+  "VintageLyre": {
+    "name": "낡은 하프",
+    "description": "사용 시 연주가 가능한 몬드 전통 악기. 수메르의 숲에서 가끔 신기한 효과를 발휘하는 듯하다.\\n비마라 마을의 아마디아에게 빌린 낡은 하프.\\n몬드에는 시와 노래의 전통이 있다. 음유시인은 자신의 악기를 「참된 벗」 또는 「동반자」로 여기기 때문에 악기를 증표로 삼고, 아마디아에게 맡기는 것은 아주 큰 친밀감과 신뢰의 표시라고 볼 수 있다"
+  },
+  "ScarletSandSlate": {
     "name": "",
     "description": ""
   },
-  "VintageLyre": {
-    "name": "",
-    "description": ""
+  "BubblyKamera": {
+    "name": "「시원한 거품 사진기」",
+    "description": "눈앞에 있는 화면을 기록하고 저장할 수 있는 간편 아이템.\\n정체불명의 특이한 아이템, 사진기계 내부에는 수분이 없지만 찍은 사진 주위에는 화려한 거품이 있어 몽환적인 느낌을 준다.\\n그래서 어떤 기병대장은 이 기계를 「사람들의 청량감에 대한 기대를 캐치했다」고 표현했다"
   },
   "InstructionsAnemoculusResonanceStone": {
     "name": "설명서: 바람 신의 눈동자 공명석",
@@ -10224,24 +10908,24 @@
     "description": "무녀 「하나치루사토」가 착용했던 가면. 안측에 짙은 얼룩이 져 있다.\\n그중엔 일부 기억이 담겨 있는데, 그 기억을 통해 법구 「하쿠신의 고리」의 단조 방법을 습득할 수 있다.\\n이제 하나치루사토는 가면을 쓰지 않게 됐으니, 페이몬도 더 이상 그녀를 「가면 무녀」라고 부르지 않을 것이다"
   },
   "TaleOfTheForestKing": {
-    "name": "",
-    "description": ""
+    "name": "숲의 왕에 대한 이야기",
+    "description": "이 이야기를 통해 양손검 「숲의 리게일리어」의 제작 방법을 습득할 수 있다.\\n\\n이 이야기는 숲의 왕과 관련이 있다.\\n「아주아주 많은 달이 있기 전에 숲은 하나의 거대한 미궁이었어…」"
   },
   "TaleOfTheDesert": {
-    "name": "",
-    "description": ""
+    "name": "사막에 대한 이야기",
+    "description": "이 이야기를 통해 한손검 「원목 검」의 제작 방법을 습득할 수 있다.\\n\\n이 이야기는 모래바다 한가운데에서 사라진 친구와 관련이 있다.\\n「이건 바루카의 이야기야…」"
   },
   "TaleOfTheKingsSquire": {
-    "name": "",
-    "description": ""
+    "name": "왕의 시종에 대한 이야기",
+    "description": "이 이야기를 통해 활 「왕의 측근」 제작 방법을 습득할 수 있다.\\n\\n이 이야기는 숲의 미궁에서 실종된 소녀와 관련이 있다.\\n「옛날 옛적, 공주가 있었어…」"
   },
   "TaleOfTheMoonlight": {
-    "name": "",
-    "description": ""
+    "name": "달빛에 대한 이야기",
+    "description": "이 이야기를 통해 장병기 「달을 꿰뚫는 화살」의 제작 방법을 습득할 수 있다.\\n\\n이 이야기는 달빛의 마력과 관련이 있다.\\n「이 이야기는 달빛을 따라가다 길을 잃은 모든 아이들에 대한 거야…」"
   },
   "TaleOfThePortent": {
-    "name": "",
-    "description": ""
+    "name": "이상한 징조에 대한 이야기",
+    "description": "이 이야기를 통해 법구 「충만의 열매」의 제작 방법을 습득할 수 있다.\\n\\n이 이야기는 이상한 징조, 그리고 재앙과 관련이 있다.\\n「사실 달이 늘 진주처럼 둥글기만 한 건 아냐…」"
   },
   "InstructionsElectroculusResonanceStone": {
     "name": "설명서: 번개 신의 눈동자 공명석",
@@ -10268,16 +10952,16 @@
     "description": "제조 과정이 자세히 적혀 있는 제조법. 「가짜 날벌레 미끼」의 제조 방법이 적혀있다"
   },
   "FormulaSugardewBait": {
-    "name": "",
-    "description": ""
+    "name": "제조법: 감로 미끼",
+    "description": "제조 과정이 자세히 적혀 있는 제조법. 「감로 미끼」의 제조 방법이 적혀있다"
   },
   "InstructionsDendroculusResonanceStone": {
-    "name": "",
-    "description": ""
+    "name": "설명서: 풀의 신의 눈동자 공명석",
+    "description": "제작 과정이 자세히 적혀 있는 설명서로 「풀의 신의 눈동자 공명석」의 제작 방법이 적혀있다. 습득 후 「사라진 풀의 신의 눈동자」를 찾을 수 있는 아이템을 제작할 수 있다"
   },
   "DiagramDendroTreasureCompass": {
-    "name": "",
-    "description": ""
+    "name": "설계도: 풀의 보물찾기 나침반",
+    "description": "제작 과정이 자세히 적혀 있는 설계도로 「풀의 보물찾기 나침반」의 제작 방법이 적혀있다. 해당 나침반을 이용하면 수메르에서 보물을 손쉽게 찾을 수 있다"
   },
   "SilkenPrint": {
     "name": "「회기의 베개 자국」",
@@ -10369,7 +11053,7 @@
   },
   "ToTheChurchsFreeSpirit": {
     "name": "성당의 자유인에게",
-    "description": "로자리아의 코스튬, 이 옷은 성당에서 그녀를 위해 특별 제작한 선물인 것 같다"
+    "description": "로자리아의 코스튬, 성당에서 그녀를 위해 특별 제작한 선물인 듯하다"
   },
   "AdventurerCamp": {
     "name": "모험가 임시 캠프",
@@ -10493,11 +11177,11 @@
   },
   "AmidstPoeticPondering": {
     "name": "시상이 떠오르는 방",
-    "description": "작업 순서가 상세히 적힌 도면,「시상이 떠오르는 방」의 배치 방법이 기록되어 있다.\\n정교한 배치가 돋보이는 서재, 기사단의 사무실을 참고해 만들어졌다. 서재에 배치된 모든 장식품은 엄격한 규칙을 가지고 배치되어 있다. 촛불과 그림자가 완벽하게 어우러져 독특한 빛 효과를 만들어 낸다. 문예 서적을 선호하는 독자나 글을 쓰는 사람은 이 공간에서 샘솟는 영감을 느낄 수 있고, 바쁜 사람은 마음을 가라앉히고 효율적으로 업무에 임할 수 있다 \\n사용 후 배치 화면에서 확인할 수 있다.\\n해당 장식 세트를 선호하는 친구: 진, 리사, 피슬, 모나, 유라"
+    "description": "작업 순서가 상세히 적힌 도면, 「시상이 떠오르는 방」의 배치 방법이 기록되어 있다.\\n정교한 배치가 돋보이는 서재, 기사단의 사무실을 참고해 만들어졌다. 서재에 배치된 모든 장식품은 엄격한 규칙을 가지고 배치되어 있다. 촛불과 그림자가 완벽하게 어우러져 독특한 빛 효과를 만들어 낸다. 문예 서적을 선호하는 독자나 글을 쓰는 사람은 이 공간에서 샘솟는 영감을 느낄 수 있고, 바쁜 사람은 마음을 가라앉히고 효율적으로 업무에 임할 수 있다 \\n사용 후 배치 화면에서 확인할 수 있다.\\n해당 장식 세트를 선호하는 친구: 진, 리사, 피슬, 모나, 유라"
   },
   "AmidstWhisperingWinds": {
     "name": "바람이 속삭이는 방",
-    "description": "작업 순서가 상세히 적힌 도면,「바람이 속삭이는 방」의 배치 방법이 기록되어 있다.\\n어디에서나 「배려의 마음」을 엿볼 수 있는 침실. 하루를 바쁘게 보내는 사람에겐 침실은 그저 침대가 놓여있고, 밤에 잠을 자는 공간으로 여겨질 수도 있지만, 비교적 세심한 사람의 눈에는 집안의 모든 곳이 관심을 기울여야 하는 대상이다.\\n자유를 갈망하는 바람이든, 항쟁을 고수하는 바람이든, 처음 바람이 불 때는 모두 부드러운 미풍이다. 스스로에게 꼭 필요한 보살핌을 주어야만, 비로소 깊은 곳까지 갈 수 있다. 만약 방안의 생활 환경이 안정적이라면, 피곤도 자연스레 사라질 수 있을 것이다.\\n사용 후 배치 화면에서 확인할 수 있다.\\n해당 장식 세트를 선호하는 친구: 바바라, 유라, 노엘"
+    "description": "작업 순서가 상세히 적힌 도면, 「바람이 속삭이는 방」의 배치 방법이 기록되어 있다.\\n어디에서나 「배려의 마음」을 엿볼 수 있는 침실. 하루를 바쁘게 보내는 사람에겐 침실은 그저 침대가 놓여있고, 밤에 잠을 자는 공간으로 여겨질 수도 있지만, 비교적 세심한 사람의 눈에는 집안의 모든 곳이 관심을 기울여야 하는 대상이다.\\n자유를 갈망하는 바람이든, 항쟁을 고수하는 바람이든, 처음 바람이 불 때는 모두 부드러운 미풍이다. 스스로에게 꼭 필요한 보살핌을 주어야만, 비로소 깊은 곳까지 갈 수 있다. 만약 방안의 생활 환경이 안정적이라면, 피곤도 자연스레 사라질 수 있을 것이다.\\n사용 후 배치 화면에서 확인할 수 있다.\\n해당 장식 세트를 선호하는 친구: 바바라, 유라, 노엘"
   },
   "FeiyunStudyRoom": {
     "name": "비운 서재",
@@ -10553,7 +11237,7 @@
   },
   "CourtOfTheUpright": {
     "name": "정격의 정원",
-    "description": "작업 순서가 상세히 적힌 도면, 「진짜배기 정원」의 설치 방법이 기재되어 있다.\\n웅장한 이나즈마 정원. 삼봉행 저택의 건물과 봉행소의 시설이 절묘하게 어우러진다. 명문가 저택의 기백과 집행 기관의 노련미를 겸비해 「진짜배기」라 불리는 아름다움을 드러낸다.\\n이러한 정원 설계는 출신이 뛰어나고 올곧은 인재의 마음에 들기 마련이다. 듣자 하니 텐료 봉행의 어느 대장이——쇼군님이 추구하는 「영원함」에 온 힘을 쏟을 수 있도록, 관료들이 근처에 거주할 필요가 있다고 건의했다는 말이 있다.\\n사용 후 배치 화면에서 확인할 수 있다.\\n해당 장식 세트를 선호하는 친구: 쿠죠 사라, 카미사토 아야토"
+    "description": "작업 순서가 상세히 적힌 도면, 「정격의 정원」의 설치 방법이 기재되어 있다.\\n웅장한 이나즈마 정원. 삼봉행 저택의 건물과 봉행소의 시설이 절묘하게 어우러진다. 명문가 저택의 기백과 집행 기관의 노련미를 겸비해 「진짜배기」라 불리는 아름다움을 드러낸다.\\n이러한 정원 설계는 출신이 뛰어나고 올곧은 인재의 마음에 들기 마련이다. 듣자 하니 텐료 봉행의 어느 대장이——쇼군님이 추구하는 「영원함」에 온 힘을 쏟을 수 있도록, 관료들이 근처에 거주할 필요가 있다고 건의했다는 말이 있다.\\n사용 후 배치 화면에서 확인할 수 있다.\\n해당 장식 세트를 선호하는 친구: 쿠죠 사라, 카미사토 아야토"
   },
   "WakefulSpring": {
     "name": "개운한 온천",
@@ -10565,7 +11249,7 @@
   },
   "AncientBranchShrine": {
     "name": "지부 신사의 추억",
-    "description": "작업 순서가 상세히 적힌 도면,「지부 신사의 추억」의 설치 방법이 기재되어 있다.\\n수려하고 고요한 지부, 건물의 배치, 붉은 색채와 전체 구조는 오늘의 「나루카미 다이샤」와 같은 분위기다. 속세를 뜬 사람에게 이곳은 마음을 가라앉히고 잡념을 정리하기에 좋은 곳이다. 하지만 쇼군님의 눈에 담기는 이곳 풍경은 몽롱한 그림이 되어, 오래된 기억을 불러일으킨다…\\n사용 후 배치 화면에서 확인할 수 있다.\\n해당 장식 세트를 선호하는 친구: 라이덴 쇼군, 야에 미코"
+    "description": "작업 순서가 상세히 적힌 도면, 「지부 신사의 추억」의 설치 방법이 기재되어 있다.\\n수려하고 고요한 지부, 건물의 배치, 붉은 색채와 전체 구조는 오늘의 「나루카미 다이샤」와 같은 분위기다. 속세를 뜬 사람에게 이곳은 마음을 가라앉히고 잡념을 정리하기에 좋은 곳이다. 하지만 쇼군님의 눈에 담기는 이곳 풍경은 몽롱한 그림이 되어, 오래된 기억을 불러일으킨다…\\n사용 후 배치 화면에서 확인할 수 있다.\\n해당 장식 세트를 선호하는 친구: 라이덴 쇼군, 야에 미코"
   },
   "MilitaryExerciseGrounds": {
     "name": "천군 토벌 연병장",
@@ -10584,7 +11268,7 @@
     "description": "작업 순서가 상세히 적힌 도면, 「벚꽃으로 물든 거리」의 설치 방법이 기재되어 있다.\\n이나즈마성의 상점가를 원형으로 삼아 공들여 장식한 거리.\\n바깥 세상이 어떻게 변하든, 이나즈마성의 대다수 주민은 평화로운 분위기에서 살아간다. 친근한 길거리는 주민들의 생활을 반영하며, 이는 이 도시의 가장 진실된 모습이다. 카미사토 가문의 가사 관리원 같은 현지 정보통을 따라 가게를 구경하다 보면 매력적인 정취와 풍습을 느낄 수 있다.\\n사용 후 배치 화면에서 확인할 수 있다.\\n해당 장식 세트를 선호하는 친구: 요이미야, 토마, 쿠키 시노부"
   },
   "EternalDomainOfFleetingDreams": {
-    "name": "순간의 꿈",
+    "name": "오랜 순간의 꿈",
     "description": "작업 순서가 상세히 적힌 도면, 「오랜 순간의 꿈」의 설치 방법이 기재되어 있다.\\n이나즈마 특색이 가득한 침실. 다른 나라의 인테리어 이념도 적용해 전통과 실용 사이에서 절묘한 밸런스를 유지했다. 투숙객 입장에서 고민한 설계로 편하게 푹 쉴 수 있다. 짧은 휴식에도 마치 꿈에서 오랜 시간을 보낸 것처럼 단잠 효과를 볼 수 있다. 센스 있게 설치한 코타츠는 나가지 않아도 다양한 업무를 처리할 수 있게 해 준다.\\n사용 후 배치 화면에서 확인할 수 있다.\\n해당 장식 세트를 선호하는 친구: 사유, 산고노미야 코코미, 시카노인 헤이조"
   },
   "AThousandSwings": {
@@ -10592,7 +11276,7 @@
     "description": "작업 순서가 상세히 적힌 도면, 「부흥」의 설치 방법이 기재되어 있다.\\n정통 검술을 연마하는 도장. 전해져 내려온 칼 거치대가 사방에 진열되어 있으며, 바른 자세로 꼿꼿이 앉은 갑옷이 엄숙한 분위기를 풍긴다. 장식품인 「파사의 활」과 「구마의 하고이타」는 주변의 악귀와 수행자의 사악한 생각을 좇는 효과가 있다.\\n이나즈마 대다수의 무인은 검도 연습은 둘째치고, 검술의 의지를 전력으로 연마하면 검술의 극치에 가까워진다고 믿는다.\\n사용 후 배치 화면에서 확인할 수 있다.\\n해당 장식 세트를 선호하는 친구: 라이덴 쇼군, 카미사토 아야카"
   },
   "ScholarlyTrove": {
-    "name": "먹향의 책방",
+    "name": "먹향의 서재",
     "description": "작업 순서가 상세히 적힌 도면, 「먹향의 서재」의 설치 방법이 기재되어 있다.\\n다양한 장식을 갖춘 서재. 모든 삼봉행이 구매한 대형 책장 양식으로 수천 권의 책을 수납할 수 있다. 하지만 일부 이나즈마 사람들에게 있어 서재의 장서량은 중요하지 않다. 「정확」과 「응집」이야말로 그들이 추구하는 것이다. 좋은 책은 「마음을 파고드는 글귀」가 있어야 하는 법. 그러므로 책장의 책은 개인의 취향대로 배치하고, 이미 마음에 새긴 책은 빌려주거나 팔아도 상관없다. 와타츠미섬의 존귀한 「아라히토가미 무녀」도 같은 습관이 있다고 한다.\\n사용 후 배치 화면에서 확인할 수 있다.\\n해당 장식 세트를 선호하는 친구: 산고노미야 코코미, 쿠키 시노부"
   },
   "OfMapleAndTeaScentsEntwined": {
@@ -10604,8 +11288,8 @@
     "description": "작업 순서가 상세히 적힌 도면, 「깔끔한 목제 처마 벽」의 제작 방법이 기재되어 있다.\\n사용 후 제작 화면 상세보기에서 확인 할 수 있다"
   },
   "DarkWoodArchWall": {
-    "name": "짙은색 나무 아치벽",
-    "description": "작업 순서가 상세히 적힌 도면, 「짙은색 나무벽」의 제작 방법이 기재되어 있다.\\n사용 후 제작 화면 상세보기에서 확인 할 수 있다"
+    "name": "",
+    "description": ""
   },
   "MapleWoodVaultedWall": {
     "name": "단풍나무 아치벽",
@@ -10704,16 +11388,16 @@
     "description": "작업 순서가 상세히 적힌 도면, 「암석 공장 휴대용 등불-『광갱을 밝히는 불빛』」의 제작 방법이 기재되어 있다.\\n사용 후 제작화면 상세보기에서 확인할 수 있다"
   },
   "SlumberingDewlight": {
-    "name": "",
-    "description": ""
+    "name": "「이슬이 잠든 빛」",
+    "description": "작업 순서가 상세히 적힌 도면, 「『이슬이 잠든 빛』」의 제작 방법이 기재되어 있다.\\n사용 후 제작 화면 상세보기에서 확인할 수 있다"
   },
   "DrippingVerdantLight": {
-    "name": "",
-    "description": ""
+    "name": "「새파란 빛」",
+    "description": "작업 순서가 상세히 적힌 도면, 「『새파란 빛』」의 제작 방법이 기재되어 있다.\\n사용 후 제작 화면 상세보기에서 확인할 수 있다"
   },
   "DeepwoodIllumination": {
-    "name": "",
-    "description": ""
+    "name": "「촘촘한 빛」",
+    "description": "작업 순서가 상세히 적힌 도면, 「『촘촘한 빛』」의 제작 방법이 기재되어 있다.\\n사용 후 제작 화면 상세보기에서 확인할 수 있다"
   },
   "NorthernBirchFoldingCounter": {
     "name": "북대륙 자작나무 코너 카운터",
@@ -10740,8 +11424,8 @@
     "description": "작업 순서가 상세히 적힌 도면, 「각사나무 금박 무늬 옷장」의 제작 방법이 기재되어 있다.\\n사용 후 제작 화면 상세보기에서 확인 할 수 있다"
   },
   "PlainBrightwoodShelf": {
-    "name": "",
-    "description": ""
+    "name": "빛나는 나무 원목의 깔끔한 선반",
+    "description": "작업 순서가 상세히 적힌 도면, 「『빛나는 나무 원목의 깔끔한 선반』」의 제작 방법이 기재되어 있다.\\n사용 후 제작 화면 상세보기에서 확인할 수 있다"
   },
   "TwoTierLibraryBookshelf": {
     "name": "도서관 이층 책장",
@@ -10844,8 +11528,8 @@
     "description": "작업 순서가 상세히 적힌 도면, 「찻집 테이블-『틈이 없는 자리』」의 제작 방법이 기재되어 있다.\\n사용 후 제작화면 상세보기에서 확인할 수 있다"
   },
   "BrightwoodPotteryWorktable": {
-    "name": "",
-    "description": ""
+    "name": "빛나는 나무 원목의 물레 탁자",
+    "description": "작업 순서가 상세히 적힌 도면, 「『빛나는 나무 원목의 물레 탁자』」의 제작 방법이 기재되어 있다.\\n사용 후 제작 화면 상세보기에서 확인할 수 있다"
   },
   "BreezeBlessedBed": {
     "name": "바람의 가호를 받는 침대",
@@ -10968,32 +11652,32 @@
     "description": "작업 순서가 상세히 적힌 도면, 「축제향기-『금과 옥』」의 제작 방법이 기재되어 있다.\\n사용 후 제작화면 상세보기에서 확인할 수 있다"
   },
   "HuedVaseCerulean": {
-    "name": "",
-    "description": ""
+    "name": "영롱한 보물병-「쪽빛」",
+    "description": "작업 순서가 상세히 적힌 도면, 「영롱한 보물병-『쪽빛』」의 제작 방법이 기재되어 있다.\\n사용 후 제작 화면 상세보기에서 확인할 수 있다"
   },
   "HuedVaseMalachite": {
-    "name": "",
-    "description": ""
+    "name": "영롱한 보물병-「덩굴 녹색」",
+    "description": "작업 순서가 상세히 적힌 도면, 「영롱한 보물병-『덩굴 녹색』」의 제작 방법이 기재되어 있다.\\n사용 후 제작 화면 상세보기에서 확인할 수 있다"
   },
   "HuedVaseAmber": {
-    "name": "",
-    "description": ""
+    "name": "영롱한 보물병-「여문 보리색」",
+    "description": "작업 순서가 상세히 적힌 도면, 「영롱한 보물병-『여문 보리색』」의 제작 방법이 기재되어 있다.\\n사용 후 제작 화면 상세보기에서 확인할 수 있다"
   },
   "PlainVaseBronze": {
-    "name": "",
-    "description": ""
+    "name": "소박한 보물병-「고동색」",
+    "description": "작업 순서가 상세히 적힌 도면, 「소박한 보물병-『고동색』」의 제작 방법이 기재되어 있다.\\n사용 후 제작 화면 상세보기에서 확인할 수 있다"
   },
   "PlainVaseTawny": {
-    "name": "",
-    "description": ""
+    "name": "소박한 보물병-「황갈색」",
+    "description": "작업 순서가 상세히 적힌 도면, 「소박한 보물병-『황갈색』」의 제작 방법이 기재되어 있다.\\n사용 후 제작 화면 상세보기에서 확인할 수 있다"
   },
   "PlainVaseOcher": {
-    "name": "",
-    "description": ""
+    "name": "소박한 보물병-「황토색」",
+    "description": "작업 순서가 상세히 적힌 도면, 「소박한 보물병-『황토색』」의 제작 방법이 기재되어 있다.\\n사용 후 제작 화면 상세보기에서 확인할 수 있다"
   },
   "PlainVaseSepia": {
-    "name": "",
-    "description": ""
+    "name": "소박한 보물병-「진갈색」",
+    "description": "작업 순서가 상세히 적힌 도면, 「소박한 보물병-『진갈색』」의 제작 방법이 기재되어 있다.\\n사용 후 제작 화면 상세보기에서 확인할 수 있다"
   },
   "MondstadtRugCrimsonArdor": {
     "name": "몬드풍 카펫-「정열의 빨강」",
@@ -11012,16 +11696,16 @@
     "description": "작업 순서가 상세히 적힌 도면, 「접대용 카펫-『따뜻한 환영 인사』」의 제작 방법이 기재되어 있다.\\n사용 후 제작 화면 상세보기에서 확인 할 수 있다"
   },
   "GloriousEmeraldTapestry": {
-    "name": "",
-    "description": ""
+    "name": "「푸른 빛으로 빛나는 무늬」",
+    "description": "작업 순서가 상세히 적힌 도면, 「『푸른 빛으로 빛나는 무늬』」의 제작 방법이 기재되어 있다.\\n사용 후 제작 화면 상세보기에서 확인할 수 있다"
   },
   "DazzlingGoldenTapestry": {
-    "name": "",
-    "description": ""
+    "name": "「태양처럼 찬란한 무늬」",
+    "description": "작업 순서가 상세히 적힌 도면, 「『태양처럼 찬란한 무늬』」의 제작 방법이 기재되어 있다.\\n사용 후 제작 화면 상세보기에서 확인할 수 있다"
   },
   "MusingTawnyTapestry": {
-    "name": "",
-    "description": ""
+    "name": "「야자처럼 짙은 무늬」",
+    "description": "작업 순서가 상세히 적힌 도면, 「『야자처럼 짙은 무늬』」의 제작 방법이 기재되어 있다.\\n사용 후 제작 화면 상세보기에서 확인할 수 있다"
   },
   "TrustyPortableLamp": {
     "name": "꺼지지 않는 휴대용 등불",
@@ -11116,8 +11800,8 @@
     "description": "작업 순서가 상세히 적힌 도면, 「백자 다기-『순수한 진심』」의 제작 방법이 기재되어 있다.\\n사용 후 제작 화면 상세보기에서 확인할 수 있다"
   },
   "TeaWispCloudedWhiteCouch": {
-    "name": "「차연(茶烟)이 자욱한 백상」",
-    "description": "작업 순서가 상세히 적힌 도면, 「『차연(茶烟)이 자욱한 백상』」의 제작 방법이 기재되어 있다.\\n사용 후 제작화면 상세보기에서 확인할 수 있다"
+    "name": "「차연(茶烟)이 자욱한 백상」",
+    "description": "작업 순서가 상세히 적힌 도면, 「『차연(茶烟)이 자욱한 백상』」의 제작 방법이 기재되어 있다.\\n사용 후 제작화면 상세보기에서 확인할 수 있다"
   },
   "TeahouseVesselScentSealer": {
     "name": "찻집 기물-「쇠향롱」",
@@ -11148,12 +11832,12 @@
     "description": "작업 순서가 상세히 적힌 도면, 「『천문 회전체』」의 제작 방법이 기재되어 있다.\\n사용 후 제작 화면 상세보기에서 확인할 수 있다"
   },
   "ALushGlimpse": {
-    "name": "",
-    "description": ""
+    "name": "「무성한 숲의 조각」",
+    "description": "작업 순서가 상세히 적힌 도면,「『무성한 숲의 조각』」의 제작 방법이 기재되어 있다.\\n사용 후 제작 화면 상세 보기에서 확인할 수 있다"
   },
   "JubilantPosture": {
-    "name": "",
-    "description": ""
+    "name": "「흥겨운 자태」",
+    "description": "작업 순서가 상세히 적힌 도면, 「『흥겨운 자태』」의 제작 방법이 기재되어 있다.\\n사용 후 제작 화면 상세보기에서 확인할 수 있다"
   },
   "LandscapePaintingCountryHome": {
     "name": "풍경화-「시골 민가」",
@@ -11241,7 +11925,7 @@
   },
   "LingeringMoment": {
     "name": "「유대의 순간」",
-    "description": "작업 순서가 상세히 적힌 도면. 「유대의 순간」의 제작 방법이 기재되어 있다.\\n사용 후 제작화면 상세보기에서 확인할 수 있다"
+    "description": "작업 순서가 상세히 적힌 도면, 「유대의 순간」의 제작 방법이 기재되어 있다.\\n사용 후 제작화면 상세보기에서 확인할 수 있다"
   },
   "StrawHut": {
     "name": "건초 오두막",
@@ -11304,8 +11988,8 @@
     "description": "작업 순서가 상세히 적힌 도면, 「꿈의 나무『예우』기모노 선반」의 제작 방법이 기재되어 있다.\\n사용 후 제작화면 상세보기에서 확인할 수 있다"
   },
   "PearOrchardStageYunHanStyle": {
-    "name": "？？？",
-    "description": "？？？"
+    "name": "이원 누각-「운한의 경치」",
+    "description": "작업 순서가 상세히 적힌 도면, 「이원 누각-『운한의 경치』」의 제작 방법이 기재되어 있다.\\n사용 후 제작 화면 상세보기에서 확인할 수 있다"
   },
   "MultiArchedMondstadtBuilding": {
     "name": "다중 아치문 몬드풍 건축물",
@@ -11377,51 +12061,51 @@
   },
   "OtogiWoodRamenStand": {
     "name": "오토기나무 라멘 포장마차",
-    "description": "작업 순서가 상세히 적힌 도면. 「오토기나무 라멘 포장마차」의 제작 방법이 기재되어 있다.\\n사용 후 제작화면 상세보기에서 확인할 수 있다"
+    "description": "작업 순서가 상세히 적힌 도면, 「오토기나무 라멘 포장마차」의 제작 방법이 기재되어 있다.\\n사용 후 제작화면 상세보기에서 확인할 수 있다"
   },
   "WovenDepth": {
-    "name": "",
-    "description": ""
+    "name": "「방직의 깊이」",
+    "description": "작업 순서가 상세히 적힌 도면, 「『방직의 깊이』」의 제작 방법이 기재되어 있다.\\n사용 후 제작 화면 상세보기에서 확인할 수 있다"
   },
   "WovenLength": {
-    "name": "",
-    "description": ""
+    "name": "「방직의 척도」",
+    "description": "작업 순서가 상세히 적힌 도면, 「『방직의 척도』」의 제작 방법이 기재되어 있다.\\n사용 후 제작 화면 상세보기에서 확인할 수 있다"
   },
   "WovenFruition": {
-    "name": "",
-    "description": ""
+    "name": "「방직의 보람」",
+    "description": "작업 순서가 상세히 적힌 도면, 「『방직의 보람』」의 제작 방법이 기재되어 있다.\\n사용 후 제작 화면 상세보기에서 확인할 수 있다"
   },
   "SweetnessInExchange": {
-    "name": "",
-    "description": ""
+    "name": "「흘러넘치는 달콤함」",
+    "description": "작업 순서가 상세히 적힌 도면, 「『흘러넘치는 달콤함』」의 제작 방법이 기재되어 있다.\\n사용 후 제작 화면 상세보기에서 확인할 수 있다"
   },
   "SweetnessInTheShade": {
-    "name": "",
-    "description": ""
+    "name": "「그늘 아래의 달콤함」",
+    "description": "작업 순서가 상세히 적힌 도면, 「『그늘 아래의 달콤함』」의 제작 방법이 기재되어 있다.\\n사용 후 제작 화면 상세보기에서 확인할 수 있다"
   },
   "SweetnessInStorage": {
-    "name": "",
-    "description": ""
+    "name": "「땅굴 속 달콤함」",
+    "description": "작업 순서가 상세히 적힌 도면, 「『땅굴 속 달콤함』」의 제작 방법이 기재되어 있다.\\n사용 후 제작 화면 상세보기에서 확인할 수 있다"
   },
   "FishermansDealings": {
-    "name": "",
-    "description": ""
+    "name": "「어부의 거래 장소」",
+    "description": "작업 순서가 상세히 적힌 도면, 「『어부의 거래 장소』」의 제작 방법이 기재되어 있다.\\n사용 후 제작 화면 상세보기에서 확인할 수 있다"
   },
   "FishermansPreservationTrick": {
-    "name": "",
-    "description": ""
+    "name": "「어부의 저장법」",
+    "description": "작업 순서가 상세히 적힌 도면, 「『어부의 저장법』」의 제작 방법이 기재되어 있다.\\n사용 후 제작 화면 상세보기에서 확인할 수 있다"
   },
   "FishermansMaintenance": {
-    "name": "",
-    "description": ""
+    "name": "「어부의 재활용」",
+    "description": "작업 순서가 상세히 적힌 도면, 「『어부의 재활용』」의 제작 방법이 기재되어 있다.\\n사용 후 제작 화면 상세보기에서 확인할 수 있다"
   },
   "BrightwoodGroceryStall": {
-    "name": "",
-    "description": ""
+    "name": "빛나는 나무 원목의 천막 잡화점",
+    "description": "작업 순서가 상세히 적힌 도면, 「『빛나는 나무 원목의 천막 잡화점』」의 제작 방법이 기재되어 있다.\\n사용 후 제작 화면 상세보기에서 확인할 수 있다"
   },
   "BrightwoodKebabCart": {
-    "name": "",
-    "description": ""
+    "name": "빛나는 나무 원목의 바비큐 노점",
+    "description": "작업 순서가 상세히 적힌 도면, 「『빛나는 나무 원목의 바비큐 노점』」의 제작 방법이 기재되어 있다.\\n사용 후 제작 화면 상세보기에서 확인할 수 있다"
   },
   "HilichurlOutpostHut": {
     "name": "츄츄족 초소",
@@ -11488,12 +12172,12 @@
     "description": "작업 순서가 상세히 적힌 도면, 「불빛의 막사·홍옥」의 제작 방법이 기재되어 있다.\\n사용 후 제작화면 상세보기에서 확인 할 수 있다"
   },
   "FestivalBoothStrangeWonders": {
-    "name": "축제 진열대-「오묘함」",
-    "description": "작업 순서가 상세히 적힌 도면, 「축제 진열대-『오묘함』」의 제작 방법이 기재되어 있다.\\n사용 후 제작화면 상세보기에서 확인할 수 있다"
+    "name": "축제 부스-「오묘」",
+    "description": "작업 순서가 상세히 적힌 도면, 「축제 부스-『오묘』」의 제작 방법이 기재되어 있다.\\n사용 후 제작화면 상세보기에서 확인할 수 있다"
   },
   "FestivalBoothLiteraryTalent": {
-    "name": "축제 진열대-「화려한 색채」",
-    "description": "작업 순서가 상세히 적힌 도면, 「축제 진열대-『문채』」의 제작 방법이 기재되어 있다.\\n사용 후 제작화면 상세보기에서 확인할 수 있다"
+    "name": "축제 부스-「문채」",
+    "description": "작업 순서가 상세히 적힌 도면, 「축제 부스-『문채』」의 제작 방법이 기재되어 있다.\\n사용 후 제작화면 상세보기에서 확인할 수 있다"
   },
   "DodocosSummertime": {
     "name": "「도도코의 여름날」",
@@ -11501,11 +12185,11 @@
   },
   "RitualShrine": {
     "name": "「항고의 감실」",
-    "description": "작업 순서가 상세히 적힌 도면. 「항고의 감실」의 제작 방법이 기재되어 있다.\\n사용 후 제작 화면 상세보기에서 확인할 수 있다"
+    "description": "작업 순서가 상세히 적힌 도면, 「항고의 감실」의 제작 방법이 기재되어 있다.\\n사용 후 제작 화면 상세보기에서 확인할 수 있다"
   },
   "CleansingShrine": {
     "name": "「정양의 감실」",
-    "description": "작업 순서가 상세히 적힌 도면. 「정양의 감실」의 제작 방법이 기재되어 있다.\\n사용 후 제작 화면 상세보기에서 확인할 수 있다"
+    "description": "작업 순서가 상세히 적힌 도면, 「정양의 감실」의 제작 방법이 기재되어 있다.\\n사용 후 제작 화면 상세보기에서 확인할 수 있다"
   },
   "InazumanMansionAsOne": {
     "name": "이나즈마 대저택-「한마음 한뜻」",
@@ -11615,21 +12299,21 @@
     "name": "이나즈마 민가-「바람의 방」",
     "description": "작업 순서가 상세히 적힌 도면, 「이나즈마 민가-『바람의 방』」의 제작 방법이 기재되어 있다.\\n사용 후 제작화면 상세보기에서 확인할 수 있다"
   },
-  "DeepwoodDwellersDetermination": {
-    "name": "",
-    "description": ""
+  "DeepwoodDwellersDeliberation": {
+    "name": "「숲 주민의 확신」",
+    "description": "작업 순서가 상세히 적힌 도면, 「『숲 주민의 확신』」의 제작 방법이 기재되어 있다.\\n사용 후 제작 화면 상세보기에서 확인할 수 있다"
   },
   "DeepwoodDwellersEstimation": {
-    "name": "",
-    "description": ""
+    "name": "「숲 주민의 안락」",
+    "description": "작업 순서가 상세히 적힌 도면, 「『숲 주민의 안락』」의 제작 방법이 기재되어 있다.\\n사용 후 제작 화면 상세보기에서 확인할 수 있다"
   },
   "DeepwoodDwellersLonesome": {
-    "name": "",
-    "description": ""
+    "name": "「숲 주민의 고독」",
+    "description": "작업 순서가 상세히 적힌 도면, 「『숲 주민의 고독』」의 제작 방법이 기재되어 있다.\\n사용 후 제작 화면 상세보기에서 확인할 수 있다"
   },
   "DeepwoodDwellersPerseverance": {
-    "name": "",
-    "description": ""
+    "name": "「숲 주민의 집념」",
+    "description": "작업 순서가 상세히 적힌 도면, 「『숲 주민의 집념』」의 제작 방법이 기재되어 있다.\\n사용 후 제작 화면 상세보기에서 확인할 수 있다"
   },
   "BirdAndBlossomDesignFountain": {
     "name": "꽃과 새 장식 분수",
@@ -11657,7 +12341,7 @@
   },
   "ScarletToriiGateDoorOfSilence": {
     "name": "주홍 도리이-「고요의 문」",
-    "description": "작업 순서가 상세히 적힌 도면. 「주홍 도리이-『고요의 문』」의 제작 방법이 기재되어 있다.\\n사용 후 제작 화면 상세보기에서 확인할 수 있다"
+    "description": "작업 순서가 상세히 적힌 도면, 「주홍 도리이-『고요의 문』」의 제작 방법이 기재되어 있다.\\n사용 후 제작 화면 상세보기에서 확인할 수 있다"
   },
   "ScarletToriiGateWayOfRestoration": {
     "name": "주홍 도리이-「안정의 길」",
@@ -11681,7 +12365,7 @@
   },
   "OfFieldsGreenClearSpringFountain": {
     "name": "푸른빛 싱그러움-「맑고 차가운 샘물」",
-    "description": "작업 순서가 상세히 적힌 도면. 「푸른빛 싱그러움- 『맑고 차가운 샘물』」의 제작 방법이 기재되어 있다.\\n사용 후 제작화면 상세보기에서 확인할 수 있다"
+    "description": "작업 순서가 상세히 적힌 도면, 「푸른빛 싱그러움- 『맑고 차가운 샘물』」의 제작 방법이 기재되어 있다.\\n사용 후 제작화면 상세보기에서 확인할 수 있다"
   },
   "SubSpaceCabochonInSoaringFlight": {
     "name": "외경 기석-「명실상부」",
@@ -11749,11 +12433,11 @@
   },
   "KeyFenceSelfRestraint": {
     "name": "요충지 울타리-「자기 단속」",
-    "description": "작업 순서가 상세히 적힌 도면. 「요충지 울타리-『자기 단속』」의 제작 방법이 기재되어 있다.\\n사용 후 제작화면 상세보기에서 확인할 수 있다"
+    "description": "작업 순서가 상세히 적힌 도면, 「요충지 울타리-『자기 단속』」의 제작 방법이 기재되어 있다.\\n사용 후 제작화면 상세보기에서 확인할 수 있다"
   },
   "FenceCornerLongWatch": {
     "name": "울타리 모서리-「기나긴 주시」",
-    "description": "작업 순서가 상세히 적힌 도면. 「울타리 모서리-『기나긴 주시』」의 제작 방법이 기재되어 있다.\\n사용 후 제작화면 상세보기에서 확인할 수 있다"
+    "description": "작업 순서가 상세히 적힌 도면, 「울타리 모서리-『기나긴 주시』」의 제작 방법이 기재되어 있다.\\n사용 후 제작화면 상세보기에서 확인할 수 있다"
   },
   "OtogiKintakeCourtyardGate": {
     "name": "오토기나무 「킨타케」 마당 문",
@@ -11765,15 +12449,15 @@
   },
   "EncampmentFenceJaggedTeeth": {
     "name": "병영 울타리-「들쑥날쑥」",
-    "description": "작업 순서가 상세히 적힌 도면. 「병영 울타리-『들쑥날쑥』」의 제작 방법이 기재되어 있다.\\n사용 후 제작화면 상세보기에서 확인할 수 있다"
+    "description": "작업 순서가 상세히 적힌 도면, 「병영 울타리-『들쑥날쑥』」의 제작 방법이 기재되어 있다.\\n사용 후 제작화면 상세보기에서 확인할 수 있다"
   },
   "EncampmentFenceDecisiveJudgment": {
     "name": "병영 울타리-「절단」",
-    "description": "작업 순서가 상세히 적힌 도면. 「병영 울타리-『절단』」의 제작 방법이 기재되어 있다.\\n사용 후 제작화면 상세보기에서 확인할 수 있다"
+    "description": "작업 순서가 상세히 적힌 도면, 「병영 울타리-『절단』」의 제작 방법이 기재되어 있다.\\n사용 후 제작화면 상세보기에서 확인할 수 있다"
   },
   "EncampmentFenceHoningGoad": {
     "name": "병영 말뚝-「가시」",
-    "description": "작업 순서가 상세히 적힌 도면. 「병영 말뚝-『가시』」의 제작 방법이 기재되어 있다.\\n사용 후 제작화면 상세보기에서 확인할 수 있다"
+    "description": "작업 순서가 상세히 적힌 도면, 「병영 말뚝-『가시』」의 제작 방법이 기재되어 있다.\\n사용 후 제작화면 상세보기에서 확인할 수 있다"
   },
   "ShrineCorridorSakuraDustedPath": {
     "name": "신사 회랑-「벚꽃이 쌓인 길」",
@@ -11816,12 +12500,12 @@
     "description": "작업 순서가 상세히 적힌 도면, 「온천 현관-『추위 피하기』」의 제작 방법이 기재되어 있다.\\n사용 후 제작화면 상세보기에서 확인할 수 있다"
   },
   "FishermansFence": {
-    "name": "",
-    "description": ""
+    "name": "「어부의 경계벽」",
+    "description": "작업 순서가 상세히 적힌 도면, 「『어부의 경계벽』」의 제작 방법이 기재되어 있다.\\n사용 후 제작 화면 상세보기에서 확인할 수 있다"
   },
   "NoFishingAhead": {
-    "name": "",
-    "description": ""
+    "name": "「어부 활동 금지 구역」",
+    "description": "작업 순서가 상세히 적힌 도면, 「『어부 활동 금지 구역』」의 제작 방법이 기재되어 있다.\\n사용 후 제작 화면 상세보기에서 확인할 수 있다"
   },
   "FoundationsOfStoneFortunateTimes": {
     "name": "의석 지반-「행운의 시간」",
@@ -11929,11 +12613,11 @@
   },
   "HeadquartersAlarmSoundOfThunder": {
     "name": "병영의 범종-「천둥의 아우성」",
-    "description": "작업 순서가 상세히 적힌 도면. 「병영의 범종-『천둥의 아우성』」의 제작 방법이 기재되어 있다.\\n사용 후 제작 화면 상세보기에서 확인할 수 있다"
+    "description": "작업 순서가 상세히 적힌 도면, 「병영의 범종-『천둥의 아우성』」의 제작 방법이 기재되어 있다.\\n사용 후 제작 화면 상세보기에서 확인할 수 있다"
   },
   "WarDrumLineBreakingReverb": {
     "name": "군마의 징과 북-「적진을 뚫는 울림」",
-    "description": "작업 순서가 상세히 적힌 도면. 「군마의 징과 북-『적진을 뚫는 울림』」의 제작 방법이 기재되어 있다.\\n사용 후 제작 화면 상세보기에서 확인할 수 있다"
+    "description": "작업 순서가 상세히 적힌 도면, 「군마의 징과 북-『적진을 뚫는 울림』」의 제작 방법이 기재되어 있다.\\n사용 후 제작 화면 상세보기에서 확인할 수 있다"
   },
   "SimpleOtogiWorkshop": {
     "name": "오토기나무 간이 작업장",
@@ -11953,7 +12637,7 @@
   },
   "ReplicaAncientOtogiKeg": {
     "name": "새로운 오토기나무 술통",
-    "description": "작업 순서가 상세히 적힌 도면, 「오토기나무 리뉴얼 술통」의 제작 방법이 기재되어 있다.\\n사용 후 제작화면 상세보기에서 확인할 수 있다"
+    "description": "작업 순서가 상세히 적힌 도면, 「새로운 오토기나무 술통」의 제작 방법이 기재되어 있다.\\n사용 후 제작화면 상세보기에서 확인할 수 있다"
   },
   "ReplicaAncientOtogiCrate": {
     "name": "오토기나무 리뉴얼 상자",
@@ -11964,36 +12648,36 @@
     "description": "작업 순서가 상세히 적힌 도면, 「산처럼 쌓인 선물」의 제작 방법이 기재되어 있다.\\n사용 후 제작화면 상세보기에서 확인 할 수 있다"
   },
   "HeavyDutyRestaurantStove": {
-    "name": "대형 레스토랑 전용 부뚜막",
-    "description": "작업 순서가 상세히 적힌 도면, 「대형 식당 전용 부뚜막」의 제작 방법이 기재되어 있다.\\n사용 후 제작 화면 상세보기에서 확인 할 수 있다"
+    "name": "음식점 전용 대형 부뚜막",
+    "description": "작업 순서가 상세히 적힌 도면, 「음식점 전용 대형 부뚜막」의 제작 방법이 기재되어 있다.\\n사용 후 제작화면 상세보기에서 확인 할 수 있다"
   },
   "SereneFlames": {
-    "name": "여유로움의 불",
-    "description": "작업 순서가 상세히 적힌 도면, 「여유로움의 불」의 제작 방법이 기재되어 있다.\\n사용 후 제작화면 상세보기에서 확인할 수 있다"
+    "name": "유유한 불길",
+    "description": "작업 순서가 상세히 적힌 도면, 「유유한 불길」의 제작 방법이 기재되어 있다.\\n사용 후 제작화면 상세보기에서 확인할 수 있다"
   },
   "AllegroBloomSpecialTuning": {
     "name": "「빠른 연주의 음률꽃·특수 조율」",
     "description": "작업 순서가 상세히 적힌 도면, 「『빠른 연주의 음률꽃·특수 조율』」의 제작 방법이 기재되어 있다.\\n사용 후 제작 화면 상세보기에서 확인할 수 있다"
   },
   "FishermansCatch": {
-    "name": "",
-    "description": ""
+    "name": "「어부의 대어를 낚는 소리」",
+    "description": "작업 순서가 상세히 적힌 도면, 「『어부의 대어를 낚는 소리』」의 제작 방법이 기재되어 있다.\\n사용 후 제작 화면 상세보기에서 확인할 수 있다"
   },
   "FishermansDelicacy": {
-    "name": "",
-    "description": ""
+    "name": "「어부의 일상다반」",
+    "description": "작업 순서가 상세히 적힌 도면, 「『어부의 일상다반』」의 제작 방법이 기재되어 있다.\\n사용 후 제작 화면 상세보기에서 확인할 수 있다"
   },
   "FishermansStorageSolution": {
-    "name": "",
-    "description": ""
+    "name": "「어부의 판매 요령」",
+    "description": "작업 순서가 상세히 적힌 도면, 「『어부의 판매 요령』」의 제작 방법이 기재되어 있다.\\n사용 후 제작 화면 상세보기에서 확인할 수 있다"
   },
   "FishermansEfforts": {
-    "name": "",
-    "description": ""
+    "name": "「어부의 티끌 모아 태산」",
+    "description": "작업 순서가 상세히 적힌 도면, 「『어부의 티끌 모아 태산』」의 제작 방법이 기재되어 있다.\\n사용 후 제작 화면 상세보기에서 확인할 수 있다"
   },
   "FishermansClemency": {
-    "name": "",
-    "description": ""
+    "name": "「어부의 도구 선택」",
+    "description": "작업 순서가 상세히 적힌 도면, 「『어부의 도구 선택』」의 제작 방법이 기재되어 있다.\\n사용 후 제작 화면 상세보기에서 확인할 수 있다"
   },
   "PottedPlantVerdantVastness": {
     "name": "식물용 화분-「작고 푸른 낙원」",
@@ -12152,20 +12836,20 @@
     "description": "작업 순서가 상세히 적힌 도면, 「금빛 무늬 액막이 깃발」의 제작 방법이 기재되어 있다.\\n사용 후 제작화면 상세보기에서 확인 할 수 있다"
   },
   "TanukiHugsPhotoBoard": {
-    "name": "포옹 너구리 포토 스팟",
-    "description": "작업 순서가 상세히 적힌 도면, 「너구리 포옹 포토 스팟」의 제작 방법이 기재되어 있다.\\n사용 후 제작 화면 상세보기에서 확인 할 수 있다"
+    "name": "너구리 포옹 포토 스팟",
+    "description": "작업 순서가 상세히 적힌 도면, 「너구리 포옹 포토 스팟」의 제작 방법이 기재되어 있다.\\n사용 후 제작화면 상세보기에서 확인 할 수 있다"
   },
   "KitsuneGuujiExclusivePaintedFlagBanner": {
     "name": "「여우 신선 궁사」 한정 깃발",
-    "description": "작업 순서가 상세히 적힌 도면, 「『여우 신선 궁사』 한정 깃발」의 제작 방법이 기재되어 있다.\\n사용 후 제작 화면 상세보기에서 확인 할 수 있다"
+    "description": "작업 순서가 상세히 적힌 도면, 「『여우 신선 궁사』 한정 깃발」의 제작 방법이 기재되어 있다.\\n사용 후 제작화면 상세보기에서 확인 할 수 있다"
   },
   "PearOrchardScreenDexterous": {
-    "name": "？？？",
-    "description": "？？？"
+    "name": "이원 병풍-「교상」",
+    "description": "작업 순서가 상세히 적힌 도면, 「이원 병풍-『교상』」의 제작 방법이 기재되어 있다.\\n사용 후 제작 화면 상세보기에서 확인할 수 있다"
   },
   "PearOrchardScreenDeft": {
-    "name": "？？？",
-    "description": "？？？"
+    "name": "이원 병풍-「교하」",
+    "description": "작업 순서가 상세히 적힌 도면, 「이원 병풍-『교하』」의 제작 방법이 기재되어 있다.\\n사용 후 제작 화면 상세보기에서 확인할 수 있다"
   },
   "DodocosTravelBag": {
     "name": "「도도코의 여행 배낭」",
@@ -12188,28 +12872,28 @@
     "description": "작업 순서가 상세히 적힌 도면, 「『도도코의 청량한 우산』」의 제작 방법이 기재되어 있다.\\n사용 후 제작 화면 상세보기에서 확인할 수 있다"
   },
   "FishermansCraftsmanship": {
-    "name": "",
-    "description": ""
+    "name": "「어부의 직조 아이디어」",
+    "description": "작업 순서가 상세히 적힌 도면, 「『어부의 직조 아이디어』」의 제작 방법이 기재되어 있다.\\n사용 후 제작 화면 상세보기에서 확인할 수 있다"
   },
   "TheEssentials": {
-    "name": "",
-    "description": ""
+    "name": "「없어서는 안 되는 물건」",
+    "description": "작업 순서가 상세히 적힌 도면, 「『없어서는 안 되는 물건』」의 제작 방법이 기재되어 있다.\\n사용 후 제작 화면 상세보기에서 확인할 수 있다"
   },
   "TheEremitesFlameOfVigor": {
-    "name": "",
-    "description": ""
+    "name": "「여단의 위엄」",
+    "description": "작업 순서가 상세히 적힌 도면, 「『여단의 위엄』」의 제작 방법이 기재되어 있다.\\n사용 후 제작 화면 상세보기에서 확인할 수 있다"
   },
   "EmbodimentOfWarfare": {
-    "name": "",
-    "description": ""
+    "name": "「정벌 구상」",
+    "description": "작업 순서가 상세히 적힌 도면, 「『정벌 구상』」의 제작 방법이 기재되어 있다.\\n사용 후 제작 화면 상세보기에서 확인할 수 있다"
   },
   "SteelStopper": {
-    "name": "",
-    "description": ""
+    "name": "「날카로운 차단목」",
+    "description": "작업 순서가 상세히 적힌 도면, 「『날카로운 차단목』」의 제작 방법이 기재되어 있다.\\n사용 후 제작 화면 상세보기에서 확인할 수 있다"
   },
   "TheEremitesOdyssey": {
-    "name": "",
-    "description": ""
+    "name": "「여단의 수레」",
+    "description": "작업 순서가 상세히 적힌 도면, 「『여단의 수레』」의 제작 방법이 기재되어 있다.\\n사용 후 제작 화면 상세보기에서 확인할 수 있다"
   },
   "WroughtIronCarvedStreetLight": {
     "name": "조각문양 철제 가로등",
@@ -12237,15 +12921,15 @@
   },
   "ThreeReachesBright": {
     "name": "「지척의 빛」",
-    "description": "작업 순서가 상세히 적힌 도면. 「지척의 빛」의 제작 방법이 기재되어 있다.\\n사용 후 제작 화면 상세보기에서 확인할 수 있다"
+    "description": "작업 순서가 상세히 적힌 도면, 「지척의 빛」의 제작 방법이 기재되어 있다.\\n사용 후 제작 화면 상세보기에서 확인할 수 있다"
   },
   "WhitestoneMeichuuStandingLamp": {
     "name": "백석 「명주」 스탠드",
-    "description": "작업 순서가 상세히 적힌 도면. 「백석 『명주』 스탠드」의 제작 방법이 기재되어 있다.\\n사용 후 제작 화면 상세보기에서 확인할 수 있다"
+    "description": "작업 순서가 상세히 적힌 도면, 「백석 『명주』 스탠드」의 제작 방법이 기재되어 있다.\\n사용 후 제작 화면 상세보기에서 확인할 수 있다"
   },
   "OtogiMeichuuStandingLamp": {
     "name": "오토기나무 「명주」 스탠드",
-    "description": "작업 순서가 상세히 적힌 도면. 「오토기나무 『명주』 스탠드」의 제작 방법이 기재되어 있다.\\n사용 후 제작 화면 상세보기에서 확인할 수 있다"
+    "description": "작업 순서가 상세히 적힌 도면, 「오토기나무 『명주』 스탠드」의 제작 방법이 기재되어 있다.\\n사용 후 제작 화면 상세보기에서 확인할 수 있다"
   },
   "FiveLanternFestivalGate": {
     "name": "5개의 초롱이 달린 문",
@@ -12277,11 +12961,11 @@
   },
   "PoolOfSapphireGrace": {
     "name": "「신비한 구름 연못」",
-    "description": "작업 순서가 상세히 적힌 도면. 「『신비한 구름 연못』」의 제작 방법이 기재되어 있다.\\n사용 후 제작 화면 상세보기에서 확인할 수 있다"
+    "description": "작업 순서가 상세히 적힌 도면, 「『신비한 구름 연못』」의 제작 방법이 기재되어 있다.\\n사용 후 제작 화면 상세보기에서 확인할 수 있다"
   },
   "ShadedClarity": {
-    "name": "",
-    "description": ""
+    "name": "「투명한 물에 비친 그림자」",
+    "description": "작업 순서가 상세히 적힌 도면, 「『투명한 물에 비친 그림자』」의 제작 방법이 기재되어 있다.\\n사용 후 제작 화면 상세보기에서 확인할 수 있다"
   },
   "WeatheredBambooFence": {
     "name": "풍파를 겪은 대나무 울타리",
@@ -12408,8 +13092,8 @@
     "description": "작업 순서가 상세히 적힌 도면, 「이원 객석-『곡에 흐르는 차 향기』」의 제작 방법이 기재되어 있다.\\n사용 후 제작 화면 상세보기에서 확인할 수 있다"
   },
   "PearOrchardAccessoryAttendAndListen": {
-    "name": "？？？",
-    "description": "？？？"
+    "name": "이원 소품-「경청」",
+    "description": "작업 순서가 상세히 적힌 도면, 「이원 소품-『경청』」의 제작 방법이 기재되어 있다.\\n사용 후 제작 화면 상세보기에서 확인할 수 있다"
   },
   "WineShopDisplayCounterToYourHeartsContent": {
     "name": "술 진열대-「백 잔의 술」",
@@ -12441,7 +13125,7 @@
   },
   "OfFieldsGreenCookieRoad": {
     "name": "푸른빛 싱그러움-「과자로 만든 돌길」",
-    "description": "작업 순서가 상세히 적힌 도면. 「푸른빛 싱그러움- 『과자로 만든 돌길』」의 제작 방법이 기재되어 있다.\\n사용 후 제작화면 상세보기에서 확인할 수 있다"
+    "description": "작업 순서가 상세히 적힌 도면, 「푸른빛 싱그러움- 『과자로 만든 돌길』」의 제작 방법이 기재되어 있다.\\n사용 후 제작화면 상세보기에서 확인할 수 있다"
   },
   "FoundationsOfStoneGrandDesign": {
     "name": "의석 지반-「원대한 구상」",

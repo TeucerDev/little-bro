@@ -1,8 +1,8 @@
 {
   "name": "Tighnari",
-  "title": "???",
-  "description": "",
-  "constellationName": "",
+  "title": "Verdant Strider",
+  "description": "Peneliti muda yang berpengalaman di bidang botani yang saat ini menjabat sebagai Pelindung Hutan di Hutan Avidya. Seorang penembak dengan hati penuh kebajikan — dan juga seorang yang andal dalam membimbing bahkan murid yang paling bodoh sekalipun.",
+  "constellationName": "Vulpes Zerda",
   "auto": {
     "name": "Khanda Barrier-Buster",
     "fields": {
@@ -11,9 +11,10 @@
         "1": "Melancarkan hingga 4 serangan berturut-turut dengan busur."
       },
       "charged": {
-        "0": "<strong>Charged Attack</strong>Melancarkan sebuah <strong>Serangan Membidik</strong> yang lebih akurat untuk mengakibatkan DMG lebih besar.",
-        "1": "Saat membidik, kekuatan Dendro akan berkumpul di ujung anak panah. Memiliki efek yang berbeda tergantung dari lama serangannya ditahan:",
-        "2": [
+        "0": "<strong>Charged Attack</strong>",
+        "1": "Melancarkan sebuah <strong>Serangan Membidik</strong> yang lebih akurat untuk mengakibatkan DMG lebih besar.",
+        "2": "Saat membidik, kekuatan Dendro akan berkumpul di ujung anak panah. Memiliki efek yang berbeda tergantung dari lama serangannya ditahan:",
+        "3": [
           "Charge Tahap 1: Menembakkan panah yang penuh dengan kekuatan tumbuhan yang mengakibatkan <dendro>Dendro DMG</dendro>;",
           "Charge Tahap 2: Menembakkan sebuah Wreath Arrow yang mengakibatkan <dendro>Dendro DMG</dendro>. Setelah mengenai target, Wreath Arrow akan menciptakan 4 Clusterbloom Arrow yang akan otomatis mengikuti musuh di sekitar dan mengakibatkan <dendro>Dendro DMG</dendro>."
         ]
@@ -45,15 +46,15 @@
   "skill": {
     "name": "Vijnana-Phala Mine",
     "description": {
-      "0": "Tighnari melemparkan sebuah Vijnana Stormheart ke depan dan memberikan <dendro>Dendro DMG area</dendro>, yang menciptakan sebuah Vijnana-Khanda Field yang akan membuat musuh di dalamnya berputar kebingungan.",
-      "1": "Selain itu, Tighnari memperoleh efek Vijnana Penetrator yang akan mengurangi waktu membidik Wreath Arrow selanjutnya sebesar 1,5 detik. Efek ini akan hilang setelah durasi skill berakhir atau setelah Tighnari menembakkan 3 Wreath Arrow.",
+      "0": "Tighnari melemparkan sebuah Vijnana Stormheart ke depan dan memberikan <dendro>Dendro DMG area</dendro>, yang menciptakan sebuah Vijnana-Khanda Field. Bayangan-bayangan dalam area ini akan terus menarik perhatian musuh dan serangan mereka.",
+      "1": "Selain itu, Tighnari memperoleh efek Vijnana Suffusion yang akan mengurangi waktu membidik Wreath Arrow selanjutnya sebesar 2,4 detik. Efek ini akan hilang setelah durasi skill berakhir atau setelah Tighnari menembakkan 3 Wreath Arrow.",
       "2": "<br/>",
       "3": "<i>\"Jika sebuah benih layu dan mati di luar tanah, maka ia akan mati sebagai satu benih saja. Tapi jika dikembalikan ke dalam tanah, maka ia akan tumbuh menjadi jutaan kali lipat banyaknya.\"</i>"
     },
     "skillParams": {
       "0": "DMG Skill",
       "1": "Durasi Vijnana-Khanda Field",
-      "2": "Durasi Vijnana Penetrator",
+      "2": "Durasi Vijnana Suffusion",
       "3": "Cooldown",
       "4": "",
       "5": "",
@@ -105,8 +106,8 @@
   "passive2": {
     "name": "Scholarly Blade",
     "description": {
-      "0": "Setiap poin Elemental Mastery yang dimiliki Tighnari, akan meningkatkan 0,05% DMG yang diakibatkan oleh Charged Attack dan <strong>Fashioner's Tanglevine Shaft</strong>.",
-      "1": "Maksimum bonus DMG yang bisa diperoleh dengan cara ini adalah 50%."
+      "0": "Untuk setiap Elemental Mastery yang dimiliki Tighnari, DMG Charged Attack dan <strong>Fashioner's Tanglevine Shaft</strong> akan meningkat 0,06%.",
+      "1": "Maksimum bonus DMG yang bisa diperoleh dengan cara ini adalah 60%."
     }
   },
   "passive3": {
@@ -125,7 +126,7 @@
     "name": "Origins Known From the Stem",
     "description": {
       "0": "Saat ada musuh di dalam Vijnana-Khanda Field yang dihasilkan <strong>Vijnana-Phala Mine</strong>, Tighnari memperoleh 20% <dendro>Dendro DMG Bonus</dendro>.",
-      "1": "Setelah durasi aktif Vijnana-Khanda Field berakhir atau sudah tidak ada musuh di dalamnya, efek ini akan berlangsung 6 detik lebih lama."
+      "1": "Setelah durasi aktif Vijnana-Khanda Field berakhir atau sudah tidak ada musuh di dalamnya, efek ini akan bertahan hingga 6 detik."
     }
   },
   "constellation3": {
@@ -138,7 +139,7 @@
   "constellation4": {
     "name": "Withering Glimpsed in the Leaves",
     "description": {
-      "0": "Saat melancarkan <strong>Fashioner's Tanglevine Shaft</strong>, Elemental Mastery seluruh anggota party akan meningkat 60 poin selama 8 detik. Jika Fashioner's Tanglevine Shaft memicu reaksi Burning, Overgrow, Intensify, atau Spread, maka Elemental Mastery mereka akan mengalami peningkatan tambahan sebesar 60 poin dan akan memperbarui durasi berlangsungnya buff ini."
+      "0": "Saat melancarkan <strong>Fashioner's Tanglevine Shaft</strong>, Elemental Mastery seluruh anggota party di sekitar akan meningkat 60 poin selama 8 detik. Jika Fashioner's Tanglevine Shaft memicu reaksi Burning, Bloom, Quicken, atau Spread, maka Elemental Mastery mereka akan mengalami peningkatan tambahan sebesar 60 poin dan akan memperbarui durasi berlangsungnya buff ini."
     }
   },
   "constellation5": {
@@ -151,7 +152,7 @@
   "constellation6": {
     "name": "Karma Adjudged From the Leaden Fruit",
     "description": {
-      "0": "Waktu charge <strong>Wreath Arrow</strong> berkurang 0,9 detik dan akan menghasilkan 1 Clusterbloom Arrow tambahan setelah mengenai musuh."
+      "0": "Waktu charge <strong>Wreath Arrow</strong> berkurang 0,9 detik dan akan menghasilkan 1 Clusterbloom Arrow tambahan setelah mengenai musuh, mengakibatkan DMG sebesar 150% ATK Tighnari."
     }
   }
 }

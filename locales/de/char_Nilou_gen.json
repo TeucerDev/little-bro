@@ -1,0 +1,169 @@
+{
+  "name": "Nilou",
+  "title": "？？？",
+  "description": "",
+  "constellationName": "",
+  "auto": {
+    "name": "Tanz des Sichelmondsßßß",
+    "fields": {
+      "normal": {
+        "0": "<strong><strong>Standardangriff</strong>",
+        "1": "Führt bis zu 3 Schwerthiebe hintereinander aus."
+      },
+      "charged": {
+        "0": "<strong>Heftiger Schlag</strong>",
+        "1": "Verbraucht eine gewisse Menge Ausdauer und führt drehendßßß einen Hieb aus."
+      },
+      "plunging": {
+        "0": "<strong>Angriff aus dem Fall</strong>",
+        "1": "Schlägt beim Fallen aus der Luft auf den Boden, greift alle Gegner in der Bahn an und verursacht beim Aufkommen Flächenschaden."
+      }
+    },
+    "skillParams": {
+      "0": "SCH Phase 1",
+      "1": "SCH Phase 2",
+      "2": "SCH Phase 3",
+      "3": "SCH heftiger Schläge",
+      "4": "Ausdauerverbrauch heftiger Schläge",
+      "5": "SCH beim Fallen",
+      "6": "SCH beim Fallen aus niedriger/großer Höhe",
+      "7": "",
+      "8": "",
+      "9": "",
+      "10": "",
+      "11": "",
+      "12": "",
+      "13": "",
+      "14": "",
+      "15": ""
+    }
+  },
+  "skill": {
+    "name": "Tanz der sieben Reicheßßß",
+    "description": {
+      "0": "Wechselt in den Pirouetten-Modusßßß und fügt den Gegnern in der Nähe basierend auf Nilous max. LP <hydro>Hydro-Schaden</hydro> zu.",
+      "1": "Im Pirouetten-Modusßßß werden Nilous Standardangriffe und Elementarfähigkeit jeweils in „Schwerttanzschritteßßß“ und „Wirbeltanzschritteßßß“ umgewandelt, die <hydro>Hydro-Schaden</hydro> verursachen, der nicht von anderen Elementen überdeckt werden kann und als Schaden der Elementarfähigkeit gilt.",
+      "2": "<br/>",
+      "3": "Dabei beendet Nilous dritter Tanzschrittßßß den Pirouetten-Modusßßß und bewirkt je nach dem Typ dieses Tanzschritts folgende Effekte:",
+      "4": [
+        " Schwerttanzschrittßßß: Entfesselt einen Wassermondßßß, der den Gegnern, die er berührt, <hydro>Hydro-Schaden</hydro> zufügt und Nilou in den Mondgebets-Modusßßß versetzt. In diesem Modus werden Nilous Standardangriffe in Schwerttanzschritteßßß umgewandelt und ihr letzter Hieb entfesselt einen neuen Wassermondßßß.",
+        " Wirbeltanzschrittßßß: Entfesselt ein reinigendes Wasserradßßß, das <hydro>Hydro-Flächenschaden</hydro> verursacht und eine Gelassenheits-Auraßßß erzeugt, die der aktuellen Figur der eigenen Truppe folgt und die Gegner in ihrem Wirkungsbereich fortlaufend in den Zustand <hydro>Nass</hydro> versetzt."
+      ],
+      "5": "<br/>",
+      "6": "Nilou kann keine heftigen Schläge ausführen, wenn sie sich im Pirouetten-Modusßßß oder im Mondgebets-Modusßßß befindet. Diese Modi werden entfernt, sobald Nilou ausgewechselt wird.",
+      "7": "<br/>",
+      "8": "<i>„Kurz und sanft berühren ihre zarten Zehen das Wasser und das Licht, das daraus hervordringt, ist der Pracht von sieben Himmeln ebenbürtig.“</i>"
+    },
+    "skillParams": {
+      "0": "Fähigkeits-SCH",
+      "1": "SCH Phase 1 der Schwert-/Wirbeltanzschritte",
+      "2": "SCH Phase 2 der Schwert-/Wirbeltanzschritte",
+      "3": "SCH des Wassermonds/Wasserrads",
+      "4": "Dauer des Pirouetten-Modus",
+      "5": "Dauer des Mondgebets-Modus",
+      "6": "Dauer der Gelassenheits-Aura",
+      "7": "Abklingzeit",
+      "8": "",
+      "9": "",
+      "10": "",
+      "11": "",
+      "12": "",
+      "13": "",
+      "14": "",
+      "15": ""
+    }
+  },
+  "burst": {
+    "name": "Lotostanzßßß – Ferner Traum am Bachßßß",
+    "description": {
+      "0": "Beginnt den Tanz des fernen Traums am Bachßßß und lässt den Lotos des fernen Gewässers erblühen. Verursacht <hydro>Hydro-Flächenschaden</hydro> basierend auf Nilous max. LP und versetzt alle davon getroffenen Gegner in den Zustand „Fließende Äonenßßß“.",
+      "1": "Nach einem kurzen Intervall erleiden die von diesem Zustand betroffenen Gegner <hydro>Hydro-Schaden</hydro>.",
+      "2": "<br/>",
+      "3": "<i>„Wir haben den fernen Traum zwar nie erlebt, aber dieser Tanz kann ihn zum Leben erwecken.“</i>"
+    },
+    "skillParams": {
+      "0": "Fähigkeits-SCH",
+      "1": "SCH von „Fließende Äonen“",
+      "2": "Abklingzeit",
+      "3": "Elementarenergie",
+      "4": "",
+      "5": "",
+      "6": "",
+      "7": "",
+      "8": "",
+      "9": "",
+      "10": "",
+      "11": "",
+      "12": "",
+      "13": "",
+      "14": "",
+      "15": ""
+    }
+  },
+  "passive1": {
+    "name": "Hof der wirbelnden Blütenßßß",
+    "description": {
+      "0": "Ist der Elementartyp aller Truppenmitglieder entweder <dendro>Dendro</dendro> oder <hydro>Hydro</hydro> und gibt es mindestens jeweils eine Dendro- und eine Hydro-Figur, verleiht der Blumentanzßßß von Nilous <strong>Tanz der sieben Reiche</strong> allen Figuren in der Nähe 30 s lang den Effekt „Überfluss im goldenen Kelchßßß“.",
+      "1": "Erhöht 10 s lang die Elementarkunde der Figuren unter dem Effekt „Überfluss im goldenen Kelchßßß“ um 60 Punkte, wenn sie <dendro>Dendro-Angriffe</dendro> erlitten haben. Außerdem werden durch die Reaktion „Sprießen“ Kerne der Fülleßßß anstelle der Dendro-Kerne erschaffen.",
+      "2": "Anders als Dendro-Kerne explodieren Kerne der Fülleßßß schneller, sobald sie erschaffen werden, und verursachen auch umfangreicheren Flächenschaden.",
+      "3": "Kerne der Fülleßßß können weder „Flammenspross“ noch „Supraspross“ auslösen und sie teilen das Anzahllimit der Dendro-Kerne. Angriff der Kerne der Fülleßßß gilt als Angriff der Dendro-Kerne durch die Reaktion „Sprießen“."
+    }
+  },
+  "passive2": {
+    "name": "Äonischer Traumtanz",
+    "description": {
+      "0": "Erhöht je 1.000 Punkte der max. LP über 30.000 den Schaden durch Kerne der Fülleßßß, den die Figuren unter dem Effekt „Überfluss im goldenen Kelchßßß“ ausgelöst haben, um 8 %.",
+      "1": "Auf diese Weise verursachter Schaden durch Kerne der Fülleßßß kann um bis zu 300 % erhöht werden."
+    }
+  },
+  "passive3": {
+    "name": "Weißer Jadelotosßßß",
+    "description": {
+      "0": "Stellt bei der perfekten Zubereitung eines Gerichts mit Abenteuer-Funktion mit einer Wahrscheinlichkeit von 12 % den 2-fachen Ertrag her."
+    }
+  },
+  "constellation1": {
+    "name": "Tanz des abnehmenden Mondesßßß",
+    "description": {
+      "0": "Gibt der Elementarfähigkeit <strong>Tanz der sieben Reiche</strong> folgende Boni:",
+      "1": [
+        " Erhöht den Schaden des Wassermondsßßß um 65 %.",
+        " Verlängert die Dauer der Gelassenheits-Auraßßß um 6 s."
+      ]
+    }
+  },
+  "constellation2": {
+    "name": "Blumenregen des Sternenhimmelsßßß",
+    "description": {
+      "0": "Verringert den <hydro>Hydro-WDS</hydro> des Gegners 10 s lang um 35 %, nachdem diesem Gegner <hydro>Hydro-SCH</hydro> durch die Figuren unter dem Effekt „Überfluss im goldenen Kelchßßß“ zugefügt worden ist. Verringert den <hydro>Dendro-WDS</hydro> des Gegners 10 s lang um 35 %, nachdem die Reaktion „Sprießen“ diesem Gegner Schaden zugefügt hat.",
+      "1": "Das passive Talent „Wirbelnde Blüten im Hofßßß“ muss zuerst freigeschaltet werden."
+    }
+  },
+  "constellation3": {
+    "name": "Schattenschritt des Lotosßßß",
+    "description": {
+      "0": "Erhöht die Stufe der Fähigkeit <strong>Lotustanzßßß: Ferner Traum am Bachßßß</strong> um 3.",
+      "1": "Höchststufe 15."
+    }
+  },
+  "constellation4": {
+    "name": "Ruckender Rhythmusßßß",
+    "description": {
+      "0": "Stellt Nilou 15 Punkte Elementarenergie wieder her, wenn der dritte Tanzschritt im Pirouette-Modusßßß der Elementarfähigkeit <strong>Tanz der sieben Reiche</strong> Gegner trifft, und erhöht den SCH ihrer Spezialfähigkeit <strong>Lotustanzßßß: Ferner Traum am Bachßßß</strong> 8 s lang um 50 %."
+    }
+  },
+  "constellation5": {
+    "name": "Glanz der Pirouetteßßß",
+    "description": {
+      "0": "Erhöht die Stufe der Fähigkeit <strong>Tanz der sieben Reiche</strong> um 3.",
+      "1": "Höchststufe 15."
+    }
+  },
+  "constellation6": {
+    "name": "Melodie des Frostbrechersßßß",
+    "description": {
+      "0": "Jede 1.000 Punkte von Nilous max. LP erhöhen ihren KT und KSCH jeweils um 0,6 % bzw. 1,2 %.",
+      "1": "Auf diese Weise können KT und KSCH maximal jeweils um 30 % bzw. 60 % erhöht werden."
+    }
+  }
+}

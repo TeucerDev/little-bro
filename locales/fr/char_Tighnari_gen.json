@@ -1,8 +1,8 @@
 {
   "name": "Tighnari",
-  "title": "???",
-  "description": "",
-  "constellationName": "",
+  "title": "Marcheur verdoyant",
+  "description": "Un jeune chercheur doué en botanique qui sert actuellement de brigadier forestier dans la Forêt d'Avidya. Il est franc et chaleureux, et on le qualifie de main habile pouvant guider même les élèves les plus ternes.",
+  "constellationName": "Vulpes Zerda",
   "auto": {
     "name": "Khanda anti-barrière",
     "fields": {
@@ -15,7 +15,7 @@
         "1": "Effectue un <strong>tir visé</strong> plus précis et infligeant davantage de DGT.",
         "2": "Lors du tir visé, la puissance de la nature vient se concentrer sur la pointe de la flèche. Les effets varient selon le nombre de charges :",
         "3": [
-          " 1 charge : Tire une flèche bio qui inflige des <dendro>DGT Dendro</dendro>.",
+          " 1 charge : Tire une flèche écologique qui inflige des <dendro>DGT Dendro</dendro>.",
           " 2 charges : Tire une flèche florale qui inflige des <dendro>DGT Dendro</dendro>. En touchant, elle génère 4 flèches fleuronnées qui poursuivent automatiquement les ennemis pour infliger des <dendro>DGT Dendro</dendro>."
         ]
       },
@@ -46,15 +46,15 @@
   "skill": {
     "name": "Mine de vijnana-phala",
     "description": {
-      "0": "Tighnari lance un éclœur de vijnana en avant, infligeant des <dendro>DGT Dendro de zone</dendro> et créant un champ de vijnana-khanda qui trouble les ennemis à l'intérieur.",
-      "1": "De plus, Tighnari gagne l'effet Perforation de vijnana, qui diminue le temps de charge des flèches florales de 1,5 s. Cet effet se dissipe une fois la durée terminée ou si Tighnari a tiré 3 flèches florales.",
+      "0": "Tighnari lance un éclœur de vijnana en avant, infligeant des <dendro>DGT Dendro de zone</dendro> et créant un champ de vijnana-khanda qui crée des illusions mystérieuses qui narguent les ennemis et attirent leurs attaques.",
+      "1": "De plus, Tighnari gagne l'effet Suffusion de vijnana, qui diminue le temps de charge des flèches florales de 2,4 s. Cet effet se dissipe une fois la durée terminée ou si Tighnari a tiré 3 flèches florales.",
       "2": "<br/>",
       "3": "<i>« Même si une graine se flétrit en dehors de la terre, elle reste néanmoins une graine. Mais si elle est renvoyée à la terre, elle se multipliera par millions. »</i>"
     },
     "skillParams": {
       "0": "DGT compétence",
       "1": "Durée de champ de vijnana-khanda",
-      "2": "Durée de perforation de vijnana",
+      "2": "Durée de suffusion de vijnana",
       "3": "Temps de recharge",
       "4": "",
       "5": "",
@@ -71,16 +71,16 @@
     }
   },
   "burst": {
-    "name": "Flèche de vigne artificielle",
+    "name": "Flèche de liane artificielle",
     "description": {
-      "0": "Concentre la puissance de toutes les graines pour tirer 6 flèches de vigne qui poursuivent les ennemis pour infliger des <dendro>DGT Dendro</dendro>.",
-      "1": "En touchant, les flèches de vigne génèrent une seconde vague de flèches de vigne qui poursuivent également les ennemis proches pour infliger des <dendro>DGT Dendro</dendro> en touchant.",
+      "0": "Concentre la puissance de toutes les graines pour tirer 6 flèches de liane qui poursuivent les ennemis pour infliger des <dendro>DGT Dendro</dendro>.",
+      "1": "En touchant, les flèches de liane génèrent une seconde vague de flèches de liane qui poursuivent également les ennemis proches pour infliger des <dendro>DGT Dendro</dendro> en touchant.",
       "2": "<br/>",
-      "3": "<i>« Ne cherchez pas à vous échapper si facilement car les vignes poussent et repoussent toujours. Les choses pourraient devenir risquées si vous ne les éliminez pas jusqu'à la dernière. »</i>"
+      "3": "<i>« Ne cherchez pas à vous échapper si facilement car les lianes poussent et repoussent toujours. Les choses pourraient devenir risquées si vous ne les éliminez pas jusqu'à la dernière. »</i>"
     },
     "skillParams": {
-      "0": "DGT flèche de vigne",
-      "1": "DGT flèche de vigne (2e vague)",
+      "0": "DGT flèche de liane",
+      "1": "DGT flèche de liane (2e vague)",
       "2": "Temps de recharge",
       "3": "Énergie élémentaire",
       "4": "",
@@ -100,14 +100,14 @@
   "passive1": {
     "name": "Vue aiguë",
     "description": {
-      "0": "Lorsque que Tighnari a tiré une <strong>flèche florale</strong>, sa maîtrise élémentaire augmente de 50 pts pendant 4 s."
+      "0": "Lorsque Tighnari a tiré une <strong>flèche florale</strong>, sa maîtrise élémentaire augmente de 50 pts pendant 4 s."
     }
   },
   "passive2": {
     "name": "Lame d'érudition",
     "description": {
-      "0": "Chaque point de maîtrise élémentaire que Tighnari possède augmente les DGT infligés par ses attaques chargées et par <strong>Flèche de vigne artificielle</strong> de 0,05 %.",
-      "1": "Ces DGT peuvent être augmentées d'un maximum de 50 % de cette manière."
+      "0": "Chaque point de maîtrise élémentaire que Tighnari possède augmente les DGT infligés par ses attaques chargées et par <strong>Flèche de liane artificielle</strong> de 0,06 %.",
+      "1": "Ces DGT peuvent être augmentés d'un maximum de 60 % de cette manière."
     }
   },
   "passive3": {
@@ -125,21 +125,21 @@
   "constellation2": {
     "name": "Origine connue dans la tige",
     "description": {
-      "0": "Lorsqu'un ennemi est dans le champ de vijnana-phala créé par <strong>Mine de vijnana-phala</strong>, Tighnari obtient un <dendro>bonus de DGT Dendro</dendro> de 20 %.",
-      "1": "Cet effet dure 6 s si la durée du champ de vijnana-phala se termine ou s'il n'y a plus d'ennemis à l'intérieur."
+      "0": "Lorsqu'un ennemi est dans le champ de vijnana-khanda créé par <strong>Mine de vijnana-phala</strong>, Tighnari obtient un <dendro>bonus de DGT Dendro</dendro> de 20 %.",
+      "1": "Cet effet dure 6 s si la durée du champ de vijnana-khanda se termine ou s'il n'y a plus d'ennemis à l'intérieur."
     }
   },
   "constellation3": {
     "name": "Destin lu parmi les branches",
     "description": {
-      "0": "Niveau d'aptitude <strong>Flèche de vigne artificielle</strong> +3.",
+      "0": "Niveau d'aptitude <strong>Flèche de liane artificielle</strong> +3.",
       "1": "Niveau max : 15"
     }
   },
   "constellation4": {
     "name": "Flétrissement entrevu grâce aux feuilles",
     "description": {
-      "0": "Lorsque <strong>Flèche de vigne artificielle</strong> est utilisée, la maîtrise élémentaire de tous les personnages de l'équipe augmente de 60 pts pendant 8 s. Si Flèche de vigne artificielle déclenche une réaction de Brûlure, de Fleurissement, de Stimulation ou de Propagation, la maîtrise élémentaire augmente de 60 pts supplémentaires et la durée de l'effet est réinitialisée."
+      "0": "Lorsque <strong>Flèche de liane artificielle</strong> est utilisée, la maîtrise élémentaire de tous les personnages de l'équipe à proximité augmente de 60 pts pendant 8 s. Si Flèche de liane artificielle déclenche une réaction de Brûlure, de Fleurissement, de Stimulation ou de Propagation, la maîtrise élémentaire augmente de 60 pts supplémentaires et la durée de l'effet est réinitialisée."
     }
   },
   "constellation5": {
@@ -152,7 +152,7 @@
   "constellation6": {
     "name": "Karma jugé par les fruits",
     "description": {
-      "0": "Le temps de charge des <strong>flèches florales</strong> diminue de 0,9 s et 1 flèche fleuronnée supplémentaire est créée en touchant un ennemi."
+      "0": "Le temps de charge des <strong>flèches florales</strong> diminue de 0,9 s et 1 flèche fleuronnée supplémentaire est créée en touchant un ennemi, pouvant infliger des DGT équivalant à 150 % de l'ATQ de Tighnari."
     }
   }
 }

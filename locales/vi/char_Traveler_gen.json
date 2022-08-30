@@ -157,7 +157,7 @@
   "name": "Nhà Lữ Hành",
   "title": "",
   "description": "Nhà Lữ Hành lưu lạc đến đây từ thế giới khác, bị Thần cướp mất người thân, từ đó bước vào con đường đi tìm 7 vị Thần.",
-  "constellationName": "Lữ Khách",
+  "constellationName": "Cung Lữ Khách",
   "anemo": {
     "auto": {
       "name": "Gió Sắt Nơi Xa",
@@ -469,7 +469,7 @@
         },
         "charged": {
           "0": "<strong>Trọng Kích</strong>",
-          "1": "Tiêu hao thể lực nhất định, đánh ra hai kiếm về phía trước trong chớp mắt."
+          "1": "Tiêu hao thể lực nhất định, vung ra hai nhát kiếm về phía trước trong chớp mắt."
         },
         "plunging": {
           "0": "<strong>Tấn Công Khi Đáp</strong>",
@@ -530,7 +530,7 @@
         "3": "<strong>Ánh Sen Biến Hóa</strong>",
         "4": "Thảo Liên Đăng khi tiếp xúc với <hydro>Nguyên Tố Thủy</hydro>/<electro>Nguyên Tố Lôi</electro>/<pyro>Nguyên Tố Hỏa</pyro> sẽ có những thay đổi sau:",
         "5": [
-          "<hydro>Nguyên Tố Thủy</hydro>: Khuếch đại phạm vi ảnh hưởng của Thảo Liên Đăng để gia tăng phạm vi tấn công;",
+          "<hydro>Nguyên Tố Thủy</hydro>: Khuếch đại phạm vi khu vực Thảo Liên Đăng, và gia tăng phạm vi ảnh hưởng khi tấn công của nó;",
           "<electro>Nguyên Tố Lôi</electro>: Tăng tốc độ tấn công của Thảo Liên Đăng;",
           "<pyro>Nguyên Tố Hỏa</pyro>: Thảo Liên Đăng sẽ phát nổ sau thời gian ngắn, gây <dendro>Sát Thương Phạm Vi Nguyên Tố Thảo</dendro>."
         ],
@@ -562,19 +562,19 @@
     "passive1": {
       "name": "Ngọn Cỏ Sinh Trưởng",
       "description": {
-        "0": "<strong>Thảo Liên Đăng</strong> trong thời gian tồn tại, mỗi giây sẽ nhận được một tầng hiệu ứng Ánh Sen Chiếu Rọi, khiến Tinh Thông Nguyên Tố của nhân vật trong khu vực đó tăng 6 điểm. Hiệu ứng Ánh Sen Chiếu Rọi của Thảo Liên Đăng tối đa cộng dồn 10 tầng."
+        "0": "Trong thời gian <strong>Thảo Liên Đăng</strong> tồn tại, mỗi giây sẽ nhận được một tầng hiệu ứng Ánh Sen Chiếu Rọi, khiến nhân vật trong trận đang trong khu vực đó tăng 6 điểm Tinh Thông Nguyên Tố. Hiệu ứng Ánh Sen Chiếu Rọi của Thảo Liên Đăng tối đa cộng dồn 10 tầng."
       }
     },
     "passive2": {
-      "name": "Cỏ Cây Xum Xuê",
+      "name": "Cỏ Cây Sum Suê",
       "description": {
-        "0": "Mỗi điểm Tinh Thông Nguyên Tố của Nhà Lữ Hành sẽ khiến sát thương gây ra của <strong>Thảo Duyên Kiếm</strong> tăng 0.15%, sát thương gây ra của <strong>Yển Thảo Nhược Hóa</strong> tăng 0.1%."
+        "0": "Mỗi điểm Tinh Thông Nguyên Tố của Nhà Lữ Hành sẽ tăng 0.15% sát thương của <strong>Thảo Duyên Kiếm</strong> gây ra, tăng 0.1% sát thương của <strong>Yển Thảo Nhược Hóa</strong> gây ra."
       }
     },
     "constellation1": {
       "name": "Hạt Giống Ký Sinh",
       "description": {
-        "0": "<strong>Thảo Duyên Kiếm</strong> khi đánh trúng kẻ địch sẽ hồi cho Nhà Lữ Hành 3.5 Năng Lượng Nguyên Tố."
+        "0": "<strong>Thảo Duyên Kiếm</strong> khi đánh trúng kẻ địch sẽ hồi cho Nhà Lữ Hành 3.5 điểm Năng Lượng Nguyên Tố."
       }
     },
     "constellation2": {
@@ -598,7 +598,7 @@
       }
     },
     "constellation5": {
-      "name": "Đồng Cỏ Xum Xuê",
+      "name": "Đồng Cỏ Sum Suê",
       "description": {
         "0": "Cấp kỹ năng <strong>Yển Thảo Nhược Hóa</strong> +3.",
         "1": "Tăng tối đa đến cấp 15."
@@ -607,7 +607,7 @@
     "constellation6": {
       "name": "Mảng Xanh Hùng Vĩ",
       "description": {
-        "0": "Nhân vật trong trạng thái Ánh Sen Chiếu Rọi của <strong>Thảo Liên Đăng</strong> sẽ tăng 12% <dendro>Sát Thương Nguyên Tố Thảo</dendro>; Nếu Thảo Liên Đăng kích hoạt Ánh Sen Biến Hóa sẽ tăng thêm 12% sát thương nguyên tố tương ứng."
+        "0": "Nhân vật chịu ảnh hưởng từ Ánh Sen Chiếu Rọi của <strong>Thảo Liên Đăng</strong> sẽ nhận được 12% <dendro>Buff Sát Thương Nguyên Tố Thảo</dendro>; Nếu Thảo Liên Đăng kích hoạt Ánh Sen Biến Hóa sẽ nhận được 12% buff sát thương nguyên tố tương ứng."
       }
     }
   }

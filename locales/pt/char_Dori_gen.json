@@ -1,10 +1,10 @@
 {
   "name": "Dori",
-  "title": "???",
-  "description": "",
-  "constellationName": "",
+  "title": "Tesouro do Jardim dos Sonhos",
+  "description": "Uma comerciante viajante imprevisível, cuja maior paixão é a Mora brilhante.",
+  "constellationName": "Magicae Lucerna",
   "auto": {
-    "name": "Dança de Espadas Fantástica (Modificado)",
+    "name": "Dança de Espadas Fantástica (Modificada)",
     "fields": {
       "normal": {
         "0": "<strong><strong>Ataque Normal</strong>",
@@ -22,7 +22,7 @@
     },
     "skillParams": {
       "0": "Dano do 1° Golpe",
-      "1": "Dano do 2º Golpe",
+      "1": "Dano do 2° Golpe",
       "2": "Dano do 3° Golpe",
       "3": "Dano de Loop de Ataque Carregado",
       "4": "Dano Final de Ataque Carregado",
@@ -42,13 +42,14 @@
   "skill": {
     "name": "Lâmpada da Proteção: Canhão Apaziguador",
     "description": {
-      "0": "Direciona uma Lâmpada da Proteção para atirar tiros Apaziguadores aos oponentes, causando <electro>Dano Electro</electro>. Quando os tiros acertam os oponentes, eles criam 2 Munições Pós-venda que irão automaticamente rastrear os oponentes e causar <electro>Dano Electro</electro>.",
-      "1": "<br/>",
-      "2": "<i>Dizem que Dori consegue resolver qualquer tipo de problema para você... pelo preço certo.</i>"
+      "0": "Mira uma Lâmpada da Proteção contra os inimigos para disparar Tiros Apaziguadores, infligindo <electro>Dano Electro</electro>.",
+      "1": "Quando os Tiros Apaziguadores acertam os oponentes, eles criam 2 Munições Pós-venda que perseguirão os oponentes próximos automaticamente, infligindo <electro>Dano Electro</electro>.",
+      "2": "<br/>",
+      "3": "<i>Dizem que a Dori consegue resolver qualquer tipo de problema para você... pelo preço certo.</i>"
     },
     "skillParams": {
       "0": "Dano do Tiro Apaziguador",
-      "1": "Dano da Bala Pós-venda",
+      "1": "Dano da Munição Pós-venda",
       "2": "Tempo de Recarga",
       "3": "",
       "4": "",
@@ -68,18 +69,24 @@
   "burst": {
     "name": "Meticulosidade de Alcazarzaray",
     "description": {
-      "0": "Invoca o espírito da lâmpada para oferecer todo tipo de assistência aos clientes.",
+      "0": "Invoca o Gênio da Lâmpada para oferecer todo tipo de assistência aos clientes.",
       "1": "<br/>",
-      "2": "<strong>Espírito da Lâmpada</strong>",
-      "3": "Se conecta com um personagem próximo. O personagem conectado irá continuamente recuperar Vida baseada na Vida Máxima de Dori, e continuamente regenerar Energia.",
-      "4": "Quando o conector entre o Espírito da Lâmpada e o personagem tocam os inimigos, ela causa<electro>Dano Electro</electro> neles a cada 0.4s.",
+      "2": "<strong>Gênio da Lâmpada</strong>",
+      "3": "Se conecta com um personagem próximo. O personagem conectado irá:",
+      "4": [
+        " Regenerar Vida continuamente baseada na Vida Máxima de Dori;",
+        " Regenerar Energia Elemental continuamente.",
+        " <electro>Ficar afetado por Electro</electro>."
+      ],
       "5": "<br/>",
-      "6": "Apenas um Espírito da Lâmpada pode existir por vez.",
+      "6": "Além disso, quando a conexão entre o Gênio da Lâmpada e o personagem tocam os inimigos, infligirá <electro>Dano Electro</electro> contra eles uma vez a cada 0.4s.",
       "7": "<br/>",
-      "8": "<i>\"Hmm? Você vai escolher essa lâmpada? Caramba, você tem um bom gosto! Infelizmente, não há um preço para esse tesouro — é incalculável, eu diria. Afinal, você não venderia essa sua mascote que fica ao seu lado por nenhum preço no mundo.\"</i>"
+      "8": "Apenas um Gênio da Lâmpada pode existir por vez.",
+      "9": "<br/>",
+      "10": "<i>\"Hmm? Você vai escolher essa lâmpada? Caramba, você tem um bom gosto! Infelizmente, não há um preço para esse tesouro — é incalculável, eu diria. Afinal, você não venderia essa sua mascote que fica ao seu lado por nenhum preço no mundo.\"</i>"
     },
     "skillParams": {
-      "0": "Dano do Conector",
+      "0": "Dano da Conexão",
       "1": "Cura Contínua",
       "2": "Regeneração de Energia Elemental",
       "3": "Duração",
@@ -100,56 +107,56 @@
   "passive1": {
     "name": "Um Olho Para Ouro",
     "description": {
-      "0": "Depois que um personagem conectado ao <strong>Espírito da Lâmpada</strong> desencadear uma reação de Eletricamente Carregado, Supercondutor, Sobrecarga, Aceleração, Intensificação ou Propagação, o Tempo de Recarga da <strong>Lâmpada da Proteção: Canhão Apaziguador</strong> é reduzido em 1s.",
+      "0": "Quando um personagem conectado ao <strong>Gênio da Lâmpada</strong> desencadear uma reação de Eletricamente Carregado, Supercondutor, Sobrecarga, Aceleração, Intensificação, Superflorescimento, Redemoinho Electro ou uma reação de Cristalização Electro, o Tempo de Recarga da <strong>Lâmpada da Proteção: Canhão Apaziguador</strong> é reduzido em 1s.",
       "1": "Esse efeito pode ser desencadeado uma vez a cada 3s."
     }
   },
   "passive2": {
     "name": "Interesse Composto",
     "description": {
-      "0": "Quando os Tiros Apaziguadores ou Rodadas de Pós-venda da <strong>Lâmpada da Proteção: Canhão Apaziguador</strong> acertam oponentes, Dori irá recuperar 5 de Energia Elemental para cada 100% de Recarga de Energia possuída.",
-      "1": "Um máximo de 15 de Energia pode ser recuperada dessa forma por cada Lâmpada da Proteção: Canhão Apaziguador."
+      "0": "Quando os Tiros Apaziguadores ou Munições Pós-venda da <strong>Lâmpada da Proteção: Canhão Apaziguador</strong> acertam oponentes, Dori recuperará 5 de Energia Elemental para cada 100% de Recarga de Energia possuída.",
+      "1": "Em cada uso de Lâmpada da Proteção: Canhão Apaziguador, só é possível restaurar Energia Elemental uma vez desta maneira, e no máximo é possível restaurar 15 de Energia Elemental."
     }
   },
   "passive3": {
     "name": "Venda Inesperada",
     "description": {
-      "0": "Possui 25% de chance de recuperar alguns dos materiais usados ao fabricar Materiais de Personagem e Arma."
+      "0": "Possui 25% de chance de devolver alguns dos materiais usados ao fabricar Materiais de Personagem e Arma."
     }
   },
   "constellation1": {
     "name": "Investimento Adicional",
     "description": {
-      "0": "O número de Rodadas Pós-venda criadas pelo <strong>Tiro Apaziguador</strong> é aumentado em 1."
+      "0": "O número de Munições Pós-venda criadas pelo <strong>Tiro Apaziguador</strong> ao atingir os inimigos é aumentado em 1."
     }
   },
   "constellation2": {
     "name": "Franquia Especial",
     "description": {
-      "0": "Quando o <strong>Espírito da Lâmpada</strong> cura o personagem em que está conectado, ele irá disparar um Tiro Apaziguador da posição daquele personagem que causa 20% do Dano da Dori."
+      "0": "Quando o <strong>Gênio da Lâmpada</strong> cura o personagem a que está conectado em batalha, ele disparará um Tiro Jinni da posição desse personagem que inflige Dano equivalente a 50% do ATQ da Dori."
     }
   },
   "constellation3": {
-    "name": "Qualidade e Preço",
+    "name": "Maravilhas Sem Fim",
     "description": {
-      "0": "Aumenta o nível da <strong>Lâmpada da Proteção: Canhão Apaziguador</strong> em 3.",
+      "0": "Aumenta o nível da habilidade de <strong>Meticulosidade de Alcazarzaray</strong> em 3.",
       "1": "O nível máximo de elevação é 15."
     }
   },
   "constellation4": {
     "name": "Suplemento Descritivo",
     "description": {
-      "0": "O personagem conectado ao <strong>Espírito da Lâmpada</strong> irá obter os seguintes bônus baseado na sua Vida Atual e Energia:",
+      "0": "Os personagens conectados ao <strong>Gênio da Lâmpada</strong> irão obter os seguintes bônus baseado na sua Vida Atual e Energia Elemental:",
       "1": [
-        "Quando sua Vida está abaixo de 50% eles ganham 50% de Bônus de Cura.",
-        "Quando sua Energia está abaixo de 50%, eles ganham 30% de Recarga de Energia."
+        " Quando sua Vida está abaixo de 50% eles ganham 50% de Bônus de Cura.",
+        " Quando sua Energia Elemental está abaixo de 50%, eles ganham 30% de Recarga de Energia."
       ]
     }
   },
   "constellation5": {
-    "name": "Maravilhas Sem Fim",
+    "name": "Qualidade e Preço",
     "description": {
-      "0": "Aumenta o nível de <strong>Meticulosidade de Alcazarzaray</strong> em 3.",
+      "0": "Aumenta o nível da habilidade da <strong>Lâmpada da Proteção: Canhão Apaziguador</strong> em 3.",
       "1": "O nível máximo de elevação é 15."
     }
   },
@@ -157,9 +164,9 @@
     "name": "Peso Leve",
     "description": {
       "0": "Dori ganha os seguintes efeitos por 3s após usar <strong>Lâmpada da Proteção: Canhão Apaziguador</strong>:",
-      "1": "<electro>Infusão Electro</electro>.",
-      "2": [
-        "Quando Ataques Normais acertam os oponentes, todos os membros da equipe irão curar sua Vida equivalente a 4% da Vida Máxima da Dori. Esse tipo de cura pode acontecer uma vez a cada 0.1s."
+      "1": [
+        " <electro>Encantamento Electro</electro>.",
+        " Quando Ataques Normais acertam os oponentes, todos os membros da equipe ao redor regenerarão Vida equivalente a 4% da Vida Máxima da Dori. Essa regeneração pode acontecer 1 vez a cada 0.1s."
       ]
     }
   }

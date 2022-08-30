@@ -75,7 +75,7 @@
         },
         "charged": {
           "0": "<strong>Attaque chargée</strong>",
-          "1": "Consomme de l'endurance pour exécuter deux coups d'épée rapides."
+          "1": "Consomme de l'endurance pour déclencher deux coups d'épée rapides."
         },
         "plunging": {
           "0": "<strong>Attaque plongeante</strong>",
@@ -265,7 +265,7 @@
     "passive2": {
       "name": "Vent de guérison",
       "description": {
-        "0": "<strong>Vortex destructeur</strong> restaure 2 % des PV par seconde pendant 5 s lorsqu'il élimine un ennemi.",
+        "0": "<strong>Vortex destructeur</strong> restaure 2 % des PV toutes les secondes pendant 5 s lorsqu'il élimine un ennemi.",
         "1": "Cet effet peut être déclenché une fois toutes les 5 s."
       }
     },
@@ -528,11 +528,11 @@
         "3": "<strong>Transfiguration lotumineuse</strong>",
         "4": "Le lotus lumineux subit les changements suivants au contact des éléments <hydro>Hydro</hydro>, <electro>Électro</electro> ou <pyro>Pyro</pyro> :",
         "5": [
-          "<hydro>Hydro</hydro> : la portée du lotus et la zone d'effet de ses attaques augmentent.",
-          "<electro>Électro</electro> : la VIT d'attaque du lotus augmente.",
-          "<pyro>Pyro</pyro> : le lotus disparaît après un court délai en exposant, infligeant des <dendro>DGT Dendro de zone</dendro>."
+          " <hydro>Hydro</hydro> : la portée du lotus et la zone d'effet de ses attaques augmentent.",
+          " <electro>Électro</electro> : la VIT d'attaque du lotus augmente.",
+          " <pyro>Pyro</pyro> : le lotus disparaît après un court délai en exposant, infligeant des <dendro>DGT Dendro de zone</dendro>."
         ],
-        "6": "Chaque lotus lumineux ne peut faire l'objet que d'une seule transfiguration lotumineuse.",
+        "6": "Le lotus lumineux ne peut faire l'objet que d'une seule transfiguration lotumineuse.",
         "7": "<br/>",
         "8": "{M#Le voyageur}{F#La voyageuse} ne peut générer qu'un seul lotus lumineux à la fois.",
         "9": "<br/>",
@@ -566,19 +566,19 @@
     "passive2": {
       "name": "Luxe verdoyant",
       "description": {
-        "0": "Chaque point de maîtrise élémentaire que {M#le voyageur}{F#la voyageuse} possède augmente les DGT infligés par <strong>Gerbe acérée</strong>de 0,15 %, et ceux de <strong>Manifestation surgente</strong> de 0,1 %."
+        "0": "Chaque point de maîtrise élémentaire que {M#le voyageur}{F#la voyageuse} possède augmente les DGT infligés par <strong>Gerbe acérée</strong> de 0,15{NON_BREAK_SPACE}%, et ceux de <strong>Manifestation surgente</strong> de 0,1 %."
       }
     },
     "constellation1": {
-      "name": "Couvre-sol parasitique",
+      "name": "Couvre-sol symbiotique",
       "description": {
-        "0": "{M#Le voyageur}{F#La voyageuse} restaure 3,5 pts d'énergie élémentaire après avoir touché un ennemi avec <strong>Gerbe acérée</strong>."
+        "0": "{M#Le voyageur}{F#La voyageuse} récupère 3,5 pts d'énergie élémentaire après avoir touché un ennemi avec <strong>Gerbe acérée</strong>."
       }
     },
     "constellation2": {
       "name": "Résilience verte",
       "description": {
-        "0": "La durée du <strong>lotus lumineux|</strong> augmente de 3 s."
+        "0": "La durée du <strong>lotus lumineux</strong> augmente de 3 s."
       }
     },
     "constellation3": {
@@ -605,7 +605,7 @@
     "constellation6": {
       "name": "Agrégation flétrissante",
       "description": {
-        "0": "Les personnages affectés par l'effet Lumière lotiforme du <strong>lotus lumineux</strong> obtiennent un <dendro>bonus de DGT Dendro</dendro> de 12 %. Si le lotus lumineux a déjà fait l'objet d'une transfiguration lotumineuse, les personnages obtiennent également un bonus de DGT de 12 % pour l'élément correspondant."
+        "0": "Les personnages affectés par l'effet de la Lumière lotiforme du <strong>lotus lumineux</strong> obtiennent un <dendro>bonus de DGT Dendro</dendro> de 12 %. Si le lotus lumineux a déjà fait l'objet d'une transfiguration lotumineuse, les personnages obtiennent également un bonus de DGT de 12 % pour l'élément correspondant."
       }
     }
   }

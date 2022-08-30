@@ -42,21 +42,21 @@
     "name": "Kamisato Art: Kyouka",
     "description": {
       "0": "Kamisato Ayato menggeser posisinya dan memasuki kondisi Takimeguri Kanka.",
-      "1": "Setelah menggeser posisinya, Kamisato Ayato akan meninggalkan ilusi air pada lokasi aslinya. Setelah ilusi air terbentuk secara sempurna, ilusi air akan meledak saat ada musuh di sekitar atau setelah durasinya habis, mengakibatkan <hydro>Hydro DMG Area</hydro>.",
+      "1": "Setelah berpindah posisi, Ayato akan meninggalkan ilusi air di posisi sebelumnya. Setelah terbentuk, ilusi air akan meledak saat ada musuh di sekitar atau setelah durasinya habis, mengakibatkan <hydro>Hydro DMG Area</hydro>.",
       "2": "<br/>",
       "3": "<strong>Takimeguri Kanka</strong>",
-      "4": "Dalam kondisi ini, Kamisato Ayato menggunakan Shunsuiken untuk melakukan serangan yang sangat cepat, sehingga mengakibatkan DMG Normal Attack berubah menjadi <hydro>Hydro DMG Area</hydro> yang tidak bisa ditimpa Elemental Infusion lainnya.",
+      "4": "Dalam kondisi ini, Kamisato Ayato menggunakan Shunsuiken miliknya untuk melakukan serangan yang sangat cepat, mengakibatkan DMG Normal Attack berubah menjadi <hydro>Hydro DMG Area</hydro> yang tidak bisa ditimpa Elemental Infusion lainnya.",
       "5": "Lalu juga mempunyai efek berikut:",
       "6": [
-        "Setelah serangan Shunsuiken mengenai musuh, Ayato akan mendapatkan efek Namisen, yang meningkatkan DMG yang diakibatkan oleh Shunsuiken berdasarkan dari Max HP Ayato saat ini. Namisen dapat ditumpuk hingga 4 lapis, dan setiap 0,1 detik bisa mendapatkan maksimum 1 lapis dari serangan Shunsuiken. Efek ini akan hilang saat Takimeguri Kanka berakhir.",
+        "Setelah serangan Shunsuiken mengenai musuh, Ayato akan mendapatkan efek Namisen, yang meningkatkan DMG yang diakibatkan oleh Shunsuiken berdasarkan dari Max HP Ayato saat ini. Namisen dapat ditumpuk hingga 4 lapis, dan setiap 0,1 detik bisa mendapatkan 1 lapis dari serangan Shunsuiken. Efek ini akan hilang saat Takimeguri Kanka berakhir.",
         "Meningkatkan ketahanan Kamisato Ayato terhadap interupsi.",
         "Tidak bisa melancarkan Charged dan Plunging Attack."
       ],
       "7": "<br/>",
-      "8": "Takimeguri Kanka akan hilang saat Ayato meninggalkan medan pertempuran. Jika Kamisato Art: Kyouka dilancarkan lagi saat masih dalam kondisi Takimeguri Kanka, maka kondisi Takimeguri Kanka tersebut akan berakhir.",
+      "8": "Takimeguri Kanka akan selesai saat Ayato meninggalkan medan pertempuran. Jika Kamisato Art: Kyouka dilancarkan lagi saat masih dalam kondisi Takimeguri Kanka, maka kondisi Takimeguri Kanka tersebut akan berakhir dan diganti dengan yang baru.",
       "9": "<br/>",
-      "10": "<i>Sejak kapan kamu berhalusinasi bahwa kamu menang?</i>",
-      "11": "<i> —Ayato memang orang yang seperti ini baik dari segi bela diri maupun kecakapannya dalam berpolitik, tapi untuk menjaga martabat sesama Komisaris, dia tidak mengatakan hal seperti itu kepada mereka. Karenanya, hanya Thoma, Itto, dan Ayaka yang pernah mendengar kalimat ini.</i>__"
+      "10": "<i>Sudah merasa menang? Halusinasi ya?</i>",
+      "11": "<i> Demikianlah perilaku seorang Ayato baik dari segi bela diri maupun kecakapannya dalam berpolitik, tapi untuk menjaga agar Komisaris lainnya tidak tersinggung, dia tidak bicara seperti itu di depan mereka. Hanya Thoma, Itto, dan Ayaka yang pernah mendengar kalimat ini keluar dari mulutnya.</i>"
     },
     "skillParams": {
       "0": "DMG Tahap 1 Shunsuiken",
@@ -81,9 +81,9 @@
     "name": "Kamisato Art: Suiyuu",
     "description": {
       "0": "Mengungkap sebuah taman penyucian yang menyingkirkan segala hiruk pikuk di dalamnya.",
-      "1": "Saat medan taman tersebut ada di lapangan, Bloomwater Blades akan terus menghujani dan menyerang musuh di dalam areanya, menyebabkan <hydro>Hydro DMG</hydro> dan meningkatkan DMG Normal Attack Karakter di dalamnya.",
+      "1": "Saat taman tersebut ada, Bloomwater Blade akan terus menghujani dan menyerang musuh di dalam areanya, mengakibatkan <hydro>Hydro DMG</hydro> dan meningkatkan DMG Normal Attack Karakter di dalamnya.",
       "2": "<br/>",
-      "3": "<i>\"Aku bisa melihat mereka. Tetesan riak dan detak jantung yang berdetak di dalam alam air yang tenang ini.\"</i>__"
+      "3": "<i>\"Aku bisa melihatnya. Riak dari detak jantungmu di dunia air yang tenang ini\".</i>"
     },
     "skillParams": {
       "0": "DMG Bloomwater Blade",
@@ -111,13 +111,13 @@
       "1": [
         "Kamisato Ayato akan mendapatkan 2 lapis Namisen saat melancarkan skill ini."
       ],
-      "2": "Setelah ilusi air meledak, Kamisato Ayato akan mendapatkan efek Namisen setara dengan jumlah maksimum tempukan lapis.__"
+      "2": "Setelah ilusi air meledak, Kamisato Ayato akan mendapatkan efek Namisen setara dengan jumlah tumpukan maksimum lapisan."
     }
   },
   "passive2": {
     "name": "Kamisato Art: Michiyuku Hagetsu",
     "description": {
-      "0": "Saat Kamisato Ayato berada dalam party tapi tidak ada di medan pertempuran dan Energy-nya kurang dari 40 poin, akan memulihkan 2 poin Energy-nya sendiri setiap detik.__"
+      "0": "Saat Kamisato Ayato ada di dalam party tapi tidak sedang aktif di medan pertempuran, dan jika jumlah Energy-nya kurang dari 40 poin, maka dia akan memulihkan 2 Energy-nya sendiri setiap detik."
     }
   },
   "passive3": {
@@ -135,7 +135,7 @@
   "constellation2": {
     "name": "World Source",
     "description": {
-      "0": "Tumpukan maksimum <strong>Namisen</strong> bertambah menjadi 5 lapis. Max HP Kamisato Ayato akan bertambah 50% saat memiliki setidaknya 3 lapis Namisen.__"
+      "0": "Tumpukan maksimum <strong>Namisen</strong> bertambah menjadi 5 lapis. Max HP Kamisato Ayato akan bertambah 50% saat memiliki setidaknya 3 lapis Namisen."
     }
   },
   "constellation3": {
