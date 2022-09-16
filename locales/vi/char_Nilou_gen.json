@@ -1,8 +1,8 @@
 {
   "name": "Nilou",
-  "title": "？？？",
-  "description": "",
-  "constellationName": "",
+  "title": "Vũ Điệu Ánh Sen",
+  "description": "Vũ công nổi danh của Nhà Hát Zubayr, điệu nhảy sống động và tính cách hồn nhiên ấm áp.",
+  "constellationName": "Cung Thụy Liên",
   "auto": {
     "name": "Vũ Điệu Bán Nguyệt",
     "fields": {
@@ -102,12 +102,18 @@
   },
   "passive1": {
     "name": "Sảnh Đường Ngân Nga",
-    "description": {}
+    "description": {
+      "0": "Khi loại nguyên tố của toàn bộ nhân vật trong đội là <dendro>Thảo</dendro> hoặc <hydro>Thủy</hydro>, đồng thời có ít nhất một nhân vật nguyên tố Thảo, một nhân vật nguyên tố Thủy, Nilou hoàn thành Vũ Điệu thứ ba từ <strong>Vũ Điệu Thất Vực</strong> sẽ cung cấp trạng thái Phước Lành Ly Vàng cho tất cả nhân vật gần đó trong 30s.",
+      "1": "Nhân vật trong trạng thái Phước Lành Ly Vàng khi chịu phải <dendro>tấn công Nguyên Tố Thảo</dendro> sẽ khiến tất cả nhân vật gần đó tăng 60 Tinh Thông Nguyên Tố trong 10s; Ngoài ra, khi kích hoạt phản ứng Sum Suê, Hạt Nhân Thảo sẽ được thay thế bằng \"Hạt Nhân Căng Tràn\".",
+      "2": "So với Hạt Nhân Thảo thì Hạt Nhân Căng Tràn sẽ phát nổ nhanh hơn và phạm vi ảnh hưởng cũng rộng hơn.",
+      "3": "Hạt Nhân Căng Tràn sẽ không thể kích hoạt được phản ứng Nở Rộ và Bung Tỏa, số lượng tồn tại giới hạn sẽ dùng chung với Hạt Nhân Thảo. Sát thương của Hạt Nhân Căng Tràn sẽ được tính là sát thương phản ứng Sum Suê của Hạt Nhân Thảo.",
+      "4": "Khi loại nguyên tố của nhân vật trong đội không đáp ứng yêu cầu của thiên phú, sẽ giải trừ hiệu quả Phước Lành Ly Vàng đã có."
+    }
   },
   "passive2": {
     "name": "Giấc Mơ Ca Múa Ngàn Đời",
     "description": {
-      "0": "Cắn cứ vào phần dư ra của 30000 giới hạn HP, cứ mỗi 1000 giới hạn HP sẽ tăng 8% sát thương nhân vật gây ra khi kích hoạt Hạt Nhân Căng Tràn của trạng thái \"Phước Lành Ly Vàng\".",
+      "0": "Cắn cứ vào phần dư ra của 30000 giới hạn HP của Nilou, cứ mỗi 1000 giới hạn HP sẽ tăng 8% sát thương nhân vật gây ra khi kích hoạt Hạt Nhân Căng Tràn của trạng thái \"Phước Lành Ly Vàng\".",
       "1": "Sát thương Hạt Nhân Căng Tràn gây ra tối đa tăng đến 300% bằng cách này."
     }
   },

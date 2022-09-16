@@ -1,8 +1,8 @@
 {
   "name": "Candace",
-  "title": "？？？",
-  "description": "",
-  "constellationName": "",
+  "title": "บุหลันดั้นปฏิญาณ",
+  "description": "Test Character",
+  "constellationName": "Sagitta Scutum",
   "auto": {
     "name": "Gleaming Spear - Guardian Stance",
     "fields": {
@@ -74,14 +74,14 @@
   "burst": {
     "name": "Sacred Rite: Wagtail's Tide",
     "description": {
-      "0": "ยกอาวุธขึ้นสูงเพื่อขอพรจากเทพเจ้า แล้วสร้าง<hydro>ความเสียหายน้ำวงกว้าง</hydro>ที่ขึ้นกับพลังชีวิตสูงสุดของตัวเธอเอง และมอบสถานะ \"Prayer of the Crimson Crown\" ให้แก่ตัวละครทั้งหมดในทีมของตัวเอง",
+      "0": "ยกอาวุธขึ้นสูงเพื่อขอพรจากเทพเจ้า แล้วสร้าง<hydro>ความเสียหายน้ำวงกว้าง</hydro>ที่ขึ้นกับพลังชีวิตสูงสุดของตัวเธอเอง และมอบสถานะ \"Prayer of the Crimson Crown\" ให้แก่ตัวละครของตัวเองที่เข้าร่วมการต่อสู้ในขณะนั้นอย่างต่อเนื่อง",
       "1": "<br/>",
       "2": "<strong>Prayer of the Crimson Crown</strong>",
       "3": "มีคุณลักษณะพิเศษดังนี้:",
       "4": [
         "เมื่อการโจมตีปกติของตัวละครสร้างความเสียหายธาตุ ความเสียหายที่สร้างจะเพิ่มสูงขึ้น;",
         "เมื่อตัวละครเข้าสู่การต่อสู้ จะปล่อยคลื่นน้ำออกมาโจมตี เพื่อสร้าง<hydro>ความเสียหายน้ำ</hydro>แก่ศัตรูที่อยู่โดยรอบ โดยที่เอฟเฟกต์นี้ จะเกิดขึ้นได้อย่างจำกัดในระหว่างช่วงเวลาต่อเนื่องของสกิล;",
-        "ตัวละครที่ใช้ดาบ, ดาบใหญ่ และหอกที่อยู่ในสภาวะดังกล่าว และเข้าร่วมการต่อสู้ในขณะนั้น จะได้รับ<hydro>พลังแห่งน้ำ</hydro>"
+        "ตัวละครที่ใช้ดาบ, ดาบใหญ่ และหอกที่อยู่ในสภาวะดังกล่าว จะได้รับ<hydro>พลังแห่งน้ำ</hydro>"
       ],
       "5": "<br/>",
       "6": "<i>พิธีกรรมลับที่สืบทอดต่อกันมาจากรุ่นสู่รุ่นในตระกูลของ Candace ถึงแม้ว่าความเชื่อในสมัยโบราณจะมลายหายไปท่ามกลางกาลเวลานับพันปี แต่ทะเลทรายจะยังคงปกป้องเหล่าคนรุ่นหลังของดินแดนโบราณ</i>"
@@ -106,13 +106,13 @@
     }
   },
   "passive1": {
-    "name": "Featherflow Guard",
+    "name": "Aegis of Crossed Arrows",
     "description": {
       "0": "หาก Candace ถูกโจมตีระหว่างช่วงเวลาที่กดค้างของ <strong>Sacred Rite: Heron's Sanctum</strong> จะทำให้การชาร์จเสร็จสิ้นโดยทันที"
     }
   },
   "passive2": {
-    "name": "Sand Arch",
+    "name": "Celestial Dome of Sand",
     "description": {
       "0": "เมื่อการโจมตีปกติของตัวละครที่อยู่ภายใต้สภาวะ Prayer of the Crimson Crown ของ <strong>Sacred Rite: Wagtail's Tide</strong> สร้างความเสียหายธาตุแก่ศัตรู ทุก 1,000 หน่วย ของค่าพลังชีวิตสูงสุดของ Candace จะทำให้ความเสียหายในครั้งนี้เพิ่มขึ้น 0.5%"
     }
@@ -125,7 +125,7 @@
     }
   },
   "constellation1": {
-    "name": "Returning Heir of the Scarlet Sands",
+    "name": "Returning Heiress of the Scarlet Sands",
     "description": {
       "0": "ช่วงเวลาต่อเนื่องของสภาวะ Prayer of the Crimson Crown ที่เกิดจาก <strong>Sacred Rite: Wagtail's Tide</strong> เพิ่มขึ้น 3 วินาที"
     }
@@ -150,7 +150,7 @@
     }
   },
   "constellation5": {
-    "name": "Golden Eye",
+    "name": "Heterochromatic Gaze",
     "description": {
       "0": "เพิ่มเลเวลสกิลของ <strong>Sacred Rite: Heron's Sanctum</strong> ขึ้น 3 ระดับ",
       "1": "เพิ่มได้สูงสุดถึงระดับ 15"
@@ -159,8 +159,8 @@
   "constellation6": {
     "name": "The Overflow",
     "description": {
-      "0": "เมื่อการโจมตีปกติ ของตัวละครที่เข้าร่วมการต่อสู้ในขณะนั้น และอยู่ภายใต้สภาวะ Prayer of the Crimson Crown ของ <strong>Sacred Rite: Wagtail's Tide</strong> (ไม่รวมตัวของ Candace เอง) สร้างความเสียหายธาตุแก่ศัตรู จะปล่อยคลื่นน้ำของ Sacred Rite: Wagtail's Tide ออกมา",
-      "1": "ในทุก 2.3 วินาที เอฟเฟกต์นี้จะเกิดขึ้นได้มากสุดหนึ่งครั้ง และการปล่อยออกมา จะไม่ใช้จำนวนของคลื่นน้ำของสภาวะ Prayer of the Crimson Crown"
+      "0": "เมื่อการโจมตีปกติ ของตัวละครที่เข้าร่วมการต่อสู้ในขณะนั้น (ไม่รวมตัวของ Candace เอง) และอยู่ภายใต้สภาวะ Prayer of the Crimson Crown ของ <strong>Sacred Rite: Wagtail's Tide</strong> สร้างความเสียหายธาตุแก่ศัตรู จะปล่อยคลื่นโจมตีออกมา ซึ่งจะทำให้เกิด<hydro>ความเสียหายน้ำวงกว้าง</hydro>เป็น 15% ของพลังชีวิตสูงสุดของ Candace",
+      "1": "ในทุก 2.3 วินาที เอฟเฟกต์นี้จะเกิดขึ้นได้มากสุดหนึ่งครั้ง และความเสียหายที่สร้าง จะถูกมองว่าเป็นความเสียหายท่าไม้ตาย"
     }
   }
 }

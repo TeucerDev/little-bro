@@ -1,8 +1,8 @@
 {
   "name": "Candace",
-  "title": "？？？",
-  "description": "",
-  "constellationName": "",
+  "title": "Gelübde beim treibenden Gold",
+  "description": "Test Character",
+  "constellationName": "Sagitta Scutum",
   "auto": {
     "name": "Funkelnde Speertechnik – Abwehrßßß",
     "fields": {
@@ -74,14 +74,14 @@
   "burst": {
     "name": "Heiliger Ritus – Bachstelzenflutßßß",
     "description": {
-      "0": "Candace erhebt ihre Waffe und ruft den göttlichen Segen herbei. Verursacht <hydro>Hydro-Flächenschaden</hydro> basierend auf Candaces max. LP und verleiht allen Figuren der eigenen Truppe den Effekt „Gebet der roten Kroneßßß“.",
+      "0": "Candace erhebt ihre Waffe und ruft den göttlichen Segen herbei. Verursacht <hydro>Hydro-Flächenschaden</hydro> basierend auf Candaces max. LP und verleiht fortlaufend der eigenen aktuellen Figur den Effekt „Gebet der roten Krone“.",
       "1": "<br/>",
       "2": "<strong>Gebet der roten Krone</strong>",
       "3": "Merkmale:",
       "4": [
         " Verursachen Figuren mit ihren Standardangriffen Elementar-Schaden, wird der Schaden erhöht.",
-        " Wird eine Figur eingewechselt, löst sie einen Wellenstoß ßßß aus, der den Gegnern in der Nähe <hydro>Hydro-Schaden</hydro> zufügt. Anzahl der auslösbaren Wellenstöße während der Effektsdauer ist begrenzt.",
-        " Verleiht allen aktuellen Figuren mit Einhändern, Zweihändern und Stangenwaffen, die unter diesem Effekt stehen, das <hydro>Hydro-Attribut</hydro>."
+        " Wird eine Figur eingewechselt, löst sie einen Wellenstoß aus, der den Gegnern in der Nähe <hydro>Hydro-Schaden</hydro> zufügt. Die Anzahl der auslösbaren Wellenstöße während der Effektdauer ist begrenzt.",
+        " Verleiht den Figuren mit Einhänder, Zweihänder und Stangenwaffe, die unter diesem Effekt stehen, das <hydro>Hydro-Attribut</hydro>."
       ],
       "5": "<br/>",
       "6": "<i>Dieser geheime Ritus wurde in Candaces Klan von Generation zu Generation weitergegeben. Obwohl der alte Glaube im Laufe der Jahre verloren gegangen ist, schützt das Sandmeer noch immer die Nachkommen des alten Reiches.</i>"
@@ -108,7 +108,7 @@
   "passive1": {
     "name": "Schutz des Federflussesßßß",
     "description": {
-      "0": "Wird Candace beim Gedrückthalten der Elementarfähigkeit <colour=#FFD780FF>Heiliger Ritus: Heiligtum des Reihersßßß</colour> angegriffen, wird das Aufladen der Fähigkeit sofort abgeschlossen."
+      "0": "Wird Candace beim Gedrückthalten der Elementarfähigkeit <strong>Heiliger Ritus: Heiligtum des Reihersßßß</strong> angegriffen, wird das Aufladen der Fähigkeit sofort abgeschlossen."
     }
   },
   "passive2": {
@@ -125,7 +125,7 @@
     }
   },
   "constellation1": {
-    "name": "Wiederkehrende Erbin der scharlachroten Sandeßßß",
+    "name": "Wiederkehrende Erbin der roten Sandeßßß",
     "description": {
       "0": "Verlängert die Dauer des Effekts  „Gebet der roten Krone“ der Fähigkeit <strong>Heiliger Ritus – Bachstelzenflut</strong> um 3 s."
     }
@@ -133,11 +133,11 @@
   "constellation2": {
     "name": "Monddurchdringender Glanzßßß",
     "description": {
-      "0": "Erhöht Candaces max. LP beim Treffern von Gegnern mit der Fähigkeit <strong>Heiliger Ritus – Heiligtum des Reihers</strong> um 20 %, hält 15 s."
+      "0": "Erhöht Candaces max. LP beim Treffen von Gegnern mit der Fähigkeit <strong>Heiliger Ritus – Heiligtum des Reihers</strong> um 20 %, hält 15 s."
     }
   },
   "constellation3": {
-    "name": "Bittgesuch der JägerßßßBittgebet der Jägerßßß",
+    "name": "Bittgesuch der Jägerßßß",
     "description": {
       "0": "Erhöht die Stufe der Fähigkeit <strong>Heiliger Ritus – Bachstelzenflut</strong> um 3.",
       "1": "Höchststufe 15."
@@ -159,8 +159,8 @@
   "constellation6": {
     "name": "Überlaufende Abendflutßßß",
     "description": {
-      "0": "Verursachen die aktuellen Figuren (außer Candace) unterm Effekt „Gebet der roten Krone“ der Fähigkeit <strong>Heiliger Ritus – Bachstelzenflut</strong> mit Standardangriff Elementar-SCH, wird ein Wellenstoß der Fähigkeit „Heiliger Ritus – Bachstelzenflut“ ausgelöst.",
-      "1": "2,3 s Abklingzeit, verbraucht keine Wellenstoß-Mengen des Effekts „Gebet der roten Krone“."
+      "0": "Verursacht die aktuelle Figur (außer Candace) unter dem Effekt „Gebet der roten Krone“ der Fähigkeit <strong>Heiliger Ritus – Bachstelzenflut</strong> mit Standardangriffen Elementar-Schaden, wird ein Flutstoß ausgelöst, der <hydro>Hydro-Flächenschaden</hydro> in Höhe von 15 % der max. LP von Candace verursacht.",
+      "1": "2,3 s Abklingzeit. Der damit verursachte Schaden gilt als Schaden der Spezialfähigkeit."
     }
   }
 }

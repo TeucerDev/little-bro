@@ -1,8 +1,8 @@
 {
   "name": "Nilou",
-  "title": "？？？",
-  "description": "",
-  "constellationName": "",
+  "title": "Dance of Lotuslight",
+  "description": "Penari terkenal di Teater Zubayr. Tariannya elegan dan gemulai, pembawaannya ramah dan polos.",
+  "constellationName": "Lotos Somno",
   "auto": {
     "name": "Dance of the Bowstring Moon",
     "fields": {
@@ -12,11 +12,11 @@
       },
       "charged": {
         "0": "<strong>Charged Attack</strong>",
-        "1": "Mengonsumsi sejumlah Stamina untuk melakukan serangan berputar__."
+        "1": "Mengonsumsi sejumlah Stamina untuk melakukan tebasan memutar."
       },
       "plunging": {
         "0": "<strong>Plunging Attack</strong>",
-        "1": "Menerjang dari udara untuk menghantam tanah di bawahnya, menyerang musuh di jalurnya dan mengakibatkan DMG area saat mendarat.__"
+        "1": "Menerjang dari udara untuk menghantam tanah di bawahnya, menyerang musuh di jalurnya dan mengakibatkan DMG area saat mendarat."
       }
     },
     "skillParams": {
@@ -46,19 +46,19 @@
       "2": "<br/>",
       "3": "Dalam status ini, langkah tarian ketiga Nilou akan menghapus status Pirouette dan akan menghasilkan efek berikut sesuai dengan kategori langkah tarian ketiganya:",
       "4": [
-        "Sword Dance: Melepaskan Watery Moon yang akan menyebabkan <hydro>Hydro DMG</hydro> terhadap musuh yang menyentuhnya, dan memberikan status Lunar Prayer kepada Nilou. Dalam status ini, saat Nilou melancarkan Normal Attack, akan dikonversi menjadi Sword Dance, dan akan melepaskan Watery Moon saat melakukan serangan yang terakhir;",
-        "Whirling  Steps: Melepaskan sebuah Water Wheel yang meluncur dengan cepat dan mengakibatkan <hydro>Hydro DMG Area</hydro>, juga akan menghasilkan sebuah aura Tranquility yang akan bergerak mengikuti Karakter aktif dan memberikan status <hydro>Wet</hydro> terhadap musuh yang berada di dalamnya."
+        "Sword Dance: Melepaskan Luminous Illusion yang akan menyebabkan <hydro>Hydro DMG</hydro> terhadap musuh yang menyentuhnya, dan memberikan status Lunar Prayer kepada Nilou. Dalam status ini, saat Nilou melancarkan Normal Attack, akan dikonversi menjadi Sword Dance, dan akan melepaskan Luminous Illusion saat melakukan serangan yang terakhir;",
+        "Whirling  Steps: Melepaskan sebuah Whirling Water Wheel yang meluncur dengan cepat dan mengakibatkan <hydro>Hydro DMG Area</hydro>, juga akan menghasilkan sebuah aura Tranquility yang akan bergerak mengikuti Karakter aktif dan memberikan status <hydro>Wet</hydro> terhadap musuh yang berada di dalamnya."
       ],
       "5": "<br/>",
       "6": "Saat berada dalam status Pirouette dan Lunar Prayer, Nilou tidak akan bisa melancarkan Charged Attack; Semua status ini akan hilang setelah Nilou meninggalkan medan pertempuran.",
       "7": "<br/>",
-      "8": "<i>\"Dengan anggun jari-jari kakinya menyentuh permukaan air, dan cahaya yang beriak darinya bahkan sama dengan ketujuh langit.\"</i>__"
+      "8": "<i>\"Dengan anggun jari-jari kakinya menyentuh permukaan air, dan cahaya yang beriak darinya bahkan sama dengan ketujuh langit.\"</i>"
     },
     "skillParams": {
       "0": "DMG Skill",
       "1": "DMG Tahap 1 Sword Dance/Whirling Steps",
       "2": "DMG Tahap 2 Sword Dance/Whirling Steps",
-      "3": "DMG Watery Moon/Water Wheel",
+      "3": "DMG Luminous Illusion/Water Wheel",
       "4": "Durasi Pirouette",
       "5": "Durasi Lunar Prayer",
       "6": "Durasi Tranquility Aura",
@@ -103,16 +103,17 @@
   "passive1": {
     "name": "Court of Dancing Petals",
     "description": {
-      "0": "Saat seluruh anggota party adalah <dendro>Dendro</dendro> atau <hydro>Hydro</hydro>, dan memiliki minimal 1 Karakter Dendro dan 1 Karakter Hydro, tarian bunga <strong>Dance of the Seven Realms</strong> Nilou akan memberikan status Golden Chalice's Bounty yang bertahan 30 detik kepada seluruh Karakter di sekitar.",
-      "1": "Setelah Karakter yang berada dalam status Golden Chalice's Bounty menerima <dendro>Dendro ATK</dendro>, Elemental Mastery akan meningkat 60 poin selama 10 detik; Selain itu, saat memicu reaksi Bloom, akan menghasilkan Bountiful Core yang akan menggantikan Dendro Core.",
+      "0": "Saat seluruh anggota party adalah <dendro>Dendro</dendro> atau <hydro>Hydro</hydro>, dan memiliki minimal 1 Karakter Dendro dan 1 Karakter Hydro, saat menyelesaikan langkah tarian <strong>Dance of the Seven Realms</strong> tahap ketiga, Nilou akan memberikan status Golden Chalice's Bounty yang bertahan 30 detik kepada seluruh Karakter di sekitar.",
+      "1": "Setelah Karakter yang berada dalam status Golden Chalice's Bounty menerima <dendro>Dendro ATK</dendro>, Elemental Mastery seluruh Karakter di sekitar meningkat 60 poin selama 10 detik; Selain itu, saat memicu reaksi Bloom, akan menghasilkan Bountiful Core yang akan menggantikan Dendro Core.",
       "2": "Jika dibandingkan dengan Dendro Core, Bountiful Core akan meledak sangat cepat setelah diciptakan dan memiliki cakupan area yang lebih luas.",
-      "3": "Bountiful Core tidak akan bisa memicu reaksi Hyperbloom atau Burgeon, dan memiliki batas jumlah yang sama dengan Dendro Core. Serangan Bountiful Core akan dianggap sebagai serangan Dendro Core dari reaksi Bloom."
+      "3": "Bountiful Core tidak akan bisa memicu reaksi Hyperbloom atau Burgeon, dan memiliki batas jumlah yang sama dengan Dendro Core. Serangan Bountiful Core akan dianggap sebagai serangan Dendro Core dari reaksi Bloom.",
+      "4": "Saat jenis elemen Karakter di dalam party tidak cukup untuk memicu Talenta Pasif, maka efek Golden Chalice's Bounty akan dihapus."
     }
   },
   "passive2": {
     "name": "Dreamy Dance of Aeons",
     "description": {
-      "0": "Saat Max HP lebih dari 30.000, untuk setiap kelebihan 1.000 Max HP, akan membuat DMG Bountiful Core yang diakibatkan Karakter yang berada dalam status Golden Chalice's Bounty meningkat 8%.",
+      "0": "Saat Max HP Nilou lebih dari 30.000, untuk setiap kelebihan 1.000 Max HP, akan membuat DMG Bountiful Core yang diakibatkan Karakter yang berada dalam status Golden Chalice's Bounty meningkat 7%.",
       "1": "Batas maksimum peningkatan DMG yang diakibatkan Bountiful Core dengan cara ini adalah 300%."
     }
   },
@@ -127,8 +128,8 @@
     "description": {
       "0": "<strong>Dance of the Seven Realms</strong> mendapatkan penguatan berikut:",
       "1": [
-        "DMG yang diakibatkan Watery Moon/Water Wheel meningkat sebesar 65%；",
-        "Durasi Tranquility Aura meningkat selama 6 detik.__"
+        "DMG yang diakibatkan Luminous Illusion meningkat sebesar 65%；",
+        "Durasi Tranquility Aura meningkat 6 detik."
       ]
     }
   },

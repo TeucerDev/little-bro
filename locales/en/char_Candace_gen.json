@@ -1,14 +1,14 @@
 {
   "name": "Candace",
-  "title": "？？？",
-  "description": "",
-  "constellationName": "",
+  "title": "Golden Vow",
+  "description": "Test Character",
+  "constellationName": "Sagitta Scutum",
   "auto": {
     "name": "Gleaming Spear - Guardian Stance",
     "fields": {
       "normal": {
         "0": "<strong><strong>Normal Attack</strong>",
-        "1": "Performs up to four consecutive spear strikes."
+        "1": "Performs up to 4 consecutive spear strikes."
       },
       "charged": {
         "0": "<strong>Charged Attack</strong>",
@@ -74,14 +74,14 @@
   "burst": {
     "name": "Sacred Rite: Wagtail's Tide",
     "description": {
-      "0": "Raising her weapon on high, Candace calls upon a divine blessing that deals <hydro>AoE Hydro DMG</hydro> based on her Max HP and confers the Prayer of the Crimson Crown on all your party members.",
+      "0": "Raising her weapon on high, Candace calls upon a divine blessing that deals <hydro>AoE Hydro DMG</hydro> based on her Max HP and continuously confers the Prayer of the Crimson Crown on your active character.",
       "1": "<br/>",
       "2": "<strong>Prayer of the Crimson Crown</strong>",
       "3": "This effect has the following properties:",
       "4": [
         "Characters deal increased Elemental DMG with their Normal Attacks.",
         "Whenever a character takes the field, they will unleash a rippling wave of water that deals <hydro>Hydro DMG</hydro> to nearby opponents. There is a limited number of waves that can be triggered in the duration of this skill.",
-        "Active Sword, Claymore, and Polearm-wielding character(s) under this effect will obtain a <hydro>Hydro Infusion</hydro>."
+        "Sword, Claymore, and Polearm-wielding character(s) under this effect will obtain a <hydro>Hydro Infusion</hydro>."
       ],
       "5": "<br/>",
       "6": "<i>This secret rite has been passed down through Candace's clan from generation to generation. Though the old faiths have become lost over the years, the sands still protect the heirs of the ancient realm.</i>"
@@ -106,13 +106,13 @@
     }
   },
   "passive1": {
-    "name": "Featherflow Guard",
+    "name": "Aegis of Crossed Arrows",
     "description": {
       "0": "If Candace is hit by an attack in the Hold duration of <strong>Sacred Rite: Heron's Sanctum</strong>, that skill will finish charging instantly."
     }
   },
   "passive2": {
-    "name": "Sand Arch",
+    "name": "Celestial Dome of Sand",
     "description": {
       "0": "Characters affected by the Prayer of the Crimson Crown caused by <strong>Sacred Rite: Wagtail's Tide</strong> will deal 0.5% increased DMG to opponents for every 1,000 points of Candace's Max HP when they deal Elemental DMG with their Normal Attacks."
     }
@@ -125,7 +125,7 @@
     }
   },
   "constellation1": {
-    "name": "Returning Heir of the Scarlet Sands",
+    "name": "Returning Heiress of the Scarlet Sands",
     "description": {
       "0": "The duration of Prayer of the Crimson Crown effect triggered by <strong>Sacred Rite: Wagtail's Tide</strong> is increased by 3s."
     }
@@ -150,7 +150,7 @@
     }
   },
   "constellation5": {
-    "name": "Golden Eye",
+    "name": "Heterochromatic Gaze",
     "description": {
       "0": "Increases the Level of <strong>Sacred Rite: Heron's Guard</strong> by 3.",
       "1": "Maximum upgrade level is 15."
@@ -159,8 +159,8 @@
   "constellation6": {
     "name": "The Overflow",
     "description": {
-      "0": "When characters (excluding Candace herself) affected by the Prayer of the Crimson Crown caused by <strong>Sacred Rite: Wagtail's Tide</strong> deal Elemental DMG to opponents using normal Attacks, it will unleash the wave attack from Wagtail's Tide.",
-      "1": "This effect can trigger once every 2.3s, and triggering this will not consume the base Wave instances granted by Prayer of the Crimson Crown."
+      "0": "When characters (excluding Candace herself) affected by the Prayer of the Crimson Crown caused by <strong>Sacred Rite: Wagtail's Tide</strong> deal Elemental DMG to opponents using Normal Attacks, an attack wave will be unleashed that deals <hydro>AoE Hydro DMG</hydro> equal to 15% of Candace's Max HP.",
+      "1": "This effect can trigger once every 2.3s and is considered Elemental Burst DMG."
     }
   }
 }

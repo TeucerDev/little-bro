@@ -1,8 +1,8 @@
 {
   "name": "Candace",
-  "title": "？？？",
-  "description": "",
-  "constellationName": "",
+  "title": "La Devota Áurea",
+  "description": "Test Character",
+  "constellationName": "Sagitta Scutum",
   "auto": {
     "name": "Lanza radiante - Defensa",
     "fields": {
@@ -44,7 +44,7 @@
       "0": "Con su estilo de combate, Candace es capaz de resistir contra toda una marea de enemigos.",
       "1": "<br/>",
       "2": "<strong>Pulsar una vez</strong>",
-      "3": "Ataca con su escudo para infligir  <hydro>Daño Hydro</hydro> contra los enemigos frente a ella.",
+      "3": "Ataca con su escudo para infligir <hydro>Daño Hydro</hydro> contra los enemigos frente a ella.",
       "4": "<br/>",
       "5": "<strong>Mantener pulsado</strong>",
       "6": "Usa su escudo para resistir los ataques de los enemigos cercanos, lo que crea un escudo que absorbe daño en función de la Vida Máx. de Candance, que tiene un 250% de efectividad de absorción de Daño Hydro y que dura hasta que se deje de mantener pulsada la Habilidad Elemental.",
@@ -74,14 +74,14 @@
   "burst": {
     "name": "Rito sagrado: Marea de aguzanieves",
     "description": {
-      "0": "Candace alza su arma para implorar una bendición divina que inflige <hydro>Daño Hydro en el AdE</hydro> en función de su Vida Máx. y otorga el estado de “oración de la corona escarlata” a todos los miembros de tu equipo.",
+      "0": "Candace alza su arma para implorar una bendición divina que inflige <hydro>Daño Hydro en el AdE</hydro> en función de su Vida Máx. y otorga continuamente el estado de “oración de la corona escarlata” al personaje en uso.",
       "1": "<br/>",
-      "2": "<strong>Oración de la corona escarlata<strong>",
+      "2": "<strong>Oración de la corona escarlata</strong>",
       "3": "Tiene las siguientes propiedades:",
       "4": [
         "Aumenta el Daño Elemental que infligen los personajes con sus Ataques Normales.",
         "Cuando un personaje entra en el campo de batalla, libera una onda de agua que inflige <hydro>Daño Hydro</hydro> contra los enemigos cercanos. Esto solo se puede activar un determinado número de veces mientras este efecto está activo.",
-        "<hydro>Imbuye del elemento Hydro</hydro> a los personajes en uso que utilizan espada ligera, mandoble o lanza y que están bajo los efectos de este estado."
+        "<hydro>Imbuye del elemento Hydro</hydro> a los personajes que utilizan espada ligera, mandoble o lanza y que están bajo los efectos de este estado."
       ],
       "5": "<br/>",
       "6": "<i>Este es el ritual secreto heredado por generaciones en el clan de Candace. Aunque estas viejas creencias ya se han perdido con el paso del tiempo, el desierto sigue protegiendo a los descendientes del antiguo reino.</i>"
@@ -106,13 +106,13 @@
     }
   },
   "passive1": {
-    "name": "Defensa plumífera",
+    "name": "Escudo antiflechas",
     "description": {
       "0": "Si Candace recibe un ataque mientras mantiene pulsado <strong>Rito sagrado: Garza guardiana</strong>, la habilidad se cargará por completo inmediatamente."
     }
   },
   "passive2": {
-    "name": "Bóveda de las arenas",
+    "name": "Bóveda celestial de las arenas",
     "description": {
       "0": "Cuando un personaje en el estado de oración de la corona escarlata de <strong>Rito sagrado: Marea de aguzanieves</strong> inflige Daño Elemental contra un enemigo con un Ataque Normal, este daño aumenta en un 0.5% por cada 1000 pts. de Vida Máx. que tenga Candace."
     }
@@ -159,8 +159,8 @@
   "constellation6": {
     "name": "Marea inundatoria",
     "description": {
-      "0": "Cuando un personaje en uso (a excepción de Candace) que está en el estado de oración de la corona escarlata de <strong>Rito sagrado: Marea de aguzanieves</strong> inflige Daño Elemental con un Ataque Normal contra un enemigo, se libera una onda de agua de Rito sagrado: Marea de aguzanieves.",
-      "1": "Este efecto solo se puede activar una vez cada 2.3 s y, al activarse, no consumirá activaciones de ondas de agua de oración de la corona escarlata."
+      "0": "Cuando un personaje en uso (a excepción de Candace) que está en el estado de oración de la corona escarlata de <strong>Rito sagrado: Marea de aguzanieves</strong> inflige Daño Elemental con un Ataque Normal contra un enemigo, se libera una onda de agua de Rito sagrado: Marea de aguzanieves que inflige <hydro>Daño Hydro en el AdE</hydro> en una cantidad equivalente al 15% de la Vida Máx. de Candace.",
+      "1": "Este efecto solo se puede activar una vez cada 2.3 s y su daño se considera daño de Habilidad Definitiva."
     }
   }
 }

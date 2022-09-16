@@ -1,10 +1,10 @@
 {
   "name": "Nilou",
-  "title": "？？？",
-  "description": "",
-  "constellationName": "",
+  "title": "Danseuse du lotus lumineux",
+  "description": "La star du théâtre Zubayr. Pleine de chaleur et d'innocence, ses danses sont vives et élégantes.",
+  "constellationName": "Lotos Somno",
   "auto": {
-    "name": "Danse de la lune à cordes",
+    "name": "Danse de shamshir",
     "fields": {
       "normal": {
         "0": "<strong><strong>Attaque normale</strong>",
@@ -39,7 +39,7 @@
     }
   },
   "skill": {
-    "name": "Danse des Sept Royaumes",
+    "name": "Danse des haftkarsvars",
     "description": {
       "0": "Active l'état de Pirouette, infligeant des <hydro>DGT Hydro</hydro> aux ennemis proches selon les PV max de Nilou.",
       "1": "En état de Pirouette, les attaques normales et les compétences élémentaires de Nilou la feront entrer respectivement dans les postures de Danse d'épée et de Danse de tourbillon, provoquant la conversion de ses DGT en <hydro>DGT Hydro</hydro> ne pouvant pas être enchantés et étant considérés comme des DGT de compétence élémentaire.",
@@ -74,7 +74,7 @@
     }
   },
   "burst": {
-    "name": "Danse des lotus : Rêves lointains",
+    "name": "Danse d'abzendegi : Ruisseau des rêves lointains",
     "description": {
       "0": "Commence la danse des rêves éloignés et des sources à l'écoute, faisant ainsi fleurir un lotus des eaux lointaines infligeant des <hydro>DGT Hydro de zone</hydro> selon les PV max de Nilou et affligeant l'effet Éon persistant aux ennemis touchés.",
       "1": "Après un court délai, les ennemis affectés par Éon persistant subissent des <hydro>DGT Hydro</hydro>.",
@@ -103,16 +103,17 @@
   "passive1": {
     "name": "Cour des pétales dansants",
     "description": {
-      "0": "Lorsque tous les personnages de l'équipe sont de l'élément <dendro>Dendro</dendro> ou <hydro>Hydro</hydro> et qu'il y a au moins un personnage Dendro et un personnage Hydro, la <strong>Danse des Sept Royaumes</strong> de Nilou accorde à tous les personnages à proximité l'effet Prime du calice d'or pendant 30 s.",
-      "1": "Les personnages sous l'effet du Prime du calice d'or verront leur maîtrise élémentaire augmenter de 60 pts pendant 10 s chaque fois qu'ils sont touchés par une <dendro>attaque Dendro</dendro>. De plus, déclencher une réaction de Fleurissement permet de créer des noyaux d'abondance au lieu de noyaux Dendro.",
+      "0": "Lorsque tous les personnages de l'équipe sont de l'élément <dendro>Dendro</dendro> ou <hydro>Hydro</hydro> et qu'il y a au moins un personnage Dendro et un personnage Hydro, le troisième pas de la <strong>Danse des haftkarsvars</strong> de Nilou accorde à tous les personnages à proximité l'effet Prime du calice d'or pendant 30 s.",
+      "1": "Lorsqu'un personnage sous l'effet de Prime du calice d'or subit une <dendro>attaque Dendro</dendro>, la maîtrise élémentaire de tous les personnages à proximité augmente de 60 pts pendant 10 s. De plus, déclencher une réaction de Fleurissement permet de créer des noyaux d'abondance au lieu de noyaux Dendro.",
       "2": "Comparés aux noyaux Dendro, ces noyaux d'abondance éclatent très rapidement après avoir été créés et possèdent une zone d'effet plus grande.",
-      "3": "Les noyaux d'abondance ne peuvent pas déclencher de réactions d'Exubérance ou de Bourgeonnement et partagent une limite avec les noyaux Dendro. Les attaques des noyaux d'abondance sont considérées comme étant des attaques infligées par les noyaux Dendro générés par la réaction de Fleurissement."
+      "3": "Les noyaux d'abondance ne peuvent pas déclencher de réactions d'Exubérance ou de Bourgeonnement et partagent une limite avec les noyaux Dendro. Les attaques des noyaux d'abondance sont considérées comme étant des attaques infligées par les noyaux Dendro générés par la réaction de Fleurissement.",
+      "4": "Quand le type élémentaire des personnages de l'équipe ne remplit pas les conditions de cette aptitude passive, tous les effets existants de Prime du calice d'or sont annulés."
     }
   },
   "passive2": {
     "name": "Danse onirique des éons",
     "description": {
-      "0": "Pour chaque tranche de 1 000 au-dessus de 30 000 PV max, les DGT infligés par les noyaux d'abondance déclenchés par les personnages sous l'effet du Prime du calice d'or augmentent de 8 %.",
+      "0": "Pour chaque tranche de 1 000 au-dessus de 30 000 PV max que Nilou possède, les DGT infligés par les noyaux d'abondance déclenchés par les personnages sous l'effet de Prime du calice d'or augmentent de 7 %.",
       "1": "Les DGT des noyaux d'abondance peuvent être augmentés d'un maximum de 300 % de cette manière."
     }
   },
@@ -125,7 +126,7 @@
   "constellation1": {
     "name": "Danse de la lune décroissante",
     "description": {
-      "0": "<strong>Danse des Sept Royaumes</strong> bénéficie des améliorations suivantes :",
+      "0": "<strong>Danse des haftkarsvars</strong> bénéficie des améliorations suivantes :",
       "1": [
         " Les DGT infligés par la lune aqueuse augmentent de 80 %.",
         " La durée de l'aura de tranquillité augmente de 6 s."
@@ -135,27 +136,27 @@
   "constellation2": {
     "name": "Pluie de fleurs du ciel étoilé",
     "description": {
-      "0": "Lorsqu'un personnage sous l'effet du Prime du calice d'or a infligé des <hydro>DGT Hydro</hydro> à un ennemi, la <hydro>RÉS Hydro</hydro> de ce dernier diminue de 35 % pendant 10 s. Lorsqu'une réaction de Fleurissement a infligé des DGT à un ennemi, la <dendro>RÉS Dendro</dendro> de ce dernier diminue de 35 % pendant 10 s.",
+      "0": "Lorsqu'un personnage sous l'effet de Prime du calice d'or a infligé des <hydro>DGT Hydro</hydro> à un ennemi, la <hydro>RÉS Hydro</hydro> de ce dernier diminue de 35 % pendant 10 s. Lorsqu'une réaction de Fleurissement a infligé des DGT à un ennemi, la <dendro>RÉS Dendro</dendro> de ce dernier diminue de 35 % pendant 10 s.",
       "1": "L'aptitude passive « Cour des pétales dansants » doit être déjà débloquée."
     }
   },
   "constellation3": {
     "name": "Pas d'ombre séduisant",
     "description": {
-      "0": "Niveau d'aptitude <strong>Danse des lotus : Rêves lointains</strong> +3.",
+      "0": "Niveau d'aptitude <strong>Danse d'abzendegi : Ruisseau des rêves lointains</strong> +3.",
       "1": "Niveau max : 15"
     }
   },
   "constellation4": {
     "name": "Impulsion fricative",
     "description": {
-      "0": "Lorsque le troisième pas de danse de l'état de Pirouette de <strong>Danse des Sept Royaumes</strong> a touché un ennemi, Nilou récupère 15 pts d'énergie élémentaire et les DGT qu'elle inflige en utilisant <strong>Danse des lotus : Rêves lointains</strong> augmentent de 50 % pendant 8 s."
+      "0": "Lorsque le troisième pas de danse de l'état de Pirouette de <strong>Danse des haftkarsvars</strong> a touché un ennemi, Nilou récupère 15 pts d'énergie élémentaire et les DGT qu'elle inflige en utilisant <strong>Danse d'abzendegi : Ruisseau des rêves lointains</strong> augmentent de 50 % pendant 8 s."
     }
   },
   "constellation5": {
     "name": "Lumière tourbillonnante",
     "description": {
-      "0": "Niveau d'aptitude <strong>Danse des Sept Royaumes</strong> +3.",
+      "0": "Niveau d'aptitude <strong>Danse des haftkarsvars</strong> +3.",
       "1": "Niveau max : 15"
     }
   },

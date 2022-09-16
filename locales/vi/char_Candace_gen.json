@@ -1,8 +1,8 @@
 {
   "name": "Candace",
-  "title": "？？？",
-  "description": "",
-  "constellationName": "",
+  "title": "Thề Nguyện Ánh Kim",
+  "description": "Test Character",
+  "constellationName": "Cung Tiễn Thuẫn",
   "auto": {
     "name": "Thương Thuật Lấp Lánh - Thế Thủ",
     "fields": {
@@ -74,17 +74,17 @@
   "burst": {
     "name": "Nghi Thức Thần Thánh - Thủy Triều Chìa Vôi",
     "description": {
-      "0": "Giơ cao vũ khí, triệu hồi lời cầu phúc thần thánh, gây <hydro>Sát Thương Phạm Vi Nguyên Tố Thủy</hydro> dựa vào giới hạn HP của Candace, đồng thời khiến tất cả nhân vật trong đội nhận trạng thái \"Lời Chúc Vương Miện Đỏ\".",
+      "0": "Giơ cao vũ khí, triệu hồi lời cầu phúc thần thánh, gây <hydro>Sát Thương Phạm Vi Nguyên Tố Thủy</hydro> dựa vào giới hạn HP của Candace, đồng thời liên tục cung cấp trạng thái \"Lời Chúc Vương Miện Đỏ\" cho nhân vật của bản thân đang trong trận.",
       "1": "<br/>",
       "2": "<strong>Lời Chúc Vương Miện Đỏ</strong>",
       "3": "Có đặc tính sau:",
       "4": [
-        " Đòn đánh thường của nhân vật khi gây sát thương nguyên tố cho kẻ địch sẽ gia tăng sát thương gây ra;",
-        " Khi nhân vật ra trận sẽ phát động Sóng Nước Xung Kích, gây <hydro>Sát Thương Nguyên Tố Thủy</hydro> cho kẻ địch xung quanh. Số lần kích hoạt trong thời gian duy trì hiệu quả này là có giới hạn;",
-        " Nhân vật sử dụng kiếm đơn, trọng kiếm, vũ khí cán dài khi ở trong trạng thái này sẽ nhận được <hydro>đính kèm Nguyên Tố Thủy</hydro>."
+        "Đòn đánh thường của nhân vật khi gây sát thương nguyên tố cho kẻ địch sẽ gia tăng sát thương gây ra;",
+        "Khi nhân vật ra trận sẽ phát động Sóng Nước Xung Kích, gây <hydro>Sát Thương Nguyên Tố Thủy</hydro> cho kẻ địch xung quanh. Số lần kích hoạt trong thời gian duy trì hiệu quả này là có giới hạn;",
+        "Nhân vật sử dụng kiếm đơn, trọng kiếm, vũ khí cán dài khi ở trong trạng thái này sẽ nhận được <hydro>đính kèm Nguyên Tố Thủy</hydro>."
       ],
       "5": "<br/>",
-      "6": "<i>Nghi thức kế thừa nhiều đời của gia tộc Candace. Cho dù tín ngưỡng cổ đại đã chìm sâu theo năm tháng, nhưng trong biển cát mênh mông vẫn sẽ bảo vệ hậu duệ của vương quốc cổ.</i>"
+      "6": "<i>Nghi thức kế thừa nhiều đời của gia tộc Candace. Cho dù tín ngưỡng cổ đại đã chìm sâu theo năm tháng, nhưng biển cát mênh mông vẫn sẽ bảo vệ hậu duệ của vương quốc cổ.</i>"
     },
     "skillParams": {
       "0": "Sát Thương Kỹ Năng",
@@ -159,8 +159,8 @@
   "constellation6": {
     "name": "Thủy Triều Dâng Trào",
     "description": {
-      "0": "When characters (excluding Candace herself) affected by the Prayer of the Crimson Crown caused by <strong>Sacred Rite: Wagtail's Tide</strong> deal Elemental DMG to opponents using normal Attacks, it will unleash the wave attack from Wagtail's Tide.",
-      "1": "This effect can trigger once every 2.3s, and triggering this will not consume the base Wave instances granted by Prayer of the Crimson Crown."
+      "0": "Nhân vật đang trong trận hiện tại khi trong trạng thái Lời Chúc Vương Miện Đỏ của <strong>Nghi Thức Thần Thánh - Thủy Triều Chìa Vôi</strong> (không bao gồm bản thân Candace), nếu tấn công thường trúng kẻ địch gây sát thương nguyên tố, sẽ thi triển Thủy Triều Xung Kích, gây <hydro>Sát Thương Phạm Vi Nguyên Tố Thủy</hydro> tương đương 15% giới hạn HP của Candace.",
+      "1": "Hiệu quả này mỗi 2.3s tối đa kích hoạt một lần, sát thương gây ra được tính là sát thương kỹ năng nộ."
     }
   }
 }

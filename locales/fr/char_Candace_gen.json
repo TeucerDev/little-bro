@@ -1,8 +1,8 @@
 {
   "name": "Candace",
-  "title": "？？？",
-  "description": "",
-  "constellationName": "",
+  "title": "Serment doré",
+  "description": "Test Character",
+  "constellationName": "Sagitta Scutum",
   "auto": {
     "name": "Lance étincelante (Posture protectrice)",
     "fields": {
@@ -74,14 +74,14 @@
   "burst": {
     "name": "Liturgie : Marée de la bergeronnette",
     "description": {
-      "0": "Brandissant son arme en l'air, Candace invoque une bénédiction divine qui inflige des <hydro>DGT Hydro de zone</hydro> selon ses PV max et confère l'état de Prière de couronne cramoisie à tous les personnages de votre équipe.",
+      "0": "Brandissant son arme en l'air, Candace invoque une bénédiction divine qui inflige des <hydro>DGT Hydro de zone</hydro> selon ses PV max et confère l'état de Prière de couronne cramoisie à votre personnage déployé.",
       "1": "<br/>",
       "2": "<strong>Prière de couronne cramoisie</strong>",
       "3": "Les caractéristiques suivantes s'appliquent :",
       "4": [
         " Lorsque l'attaque normale d'un personnage inflige des DGT élémentaires à un ennemi, les DGT infligés augmentent.",
         " Lorsqu'un personnage est déployé au combat, un impact hydrique est déclenché, infligeant des <hydro>DGT Hydro</hydro> aux ennemis proches. Le nombre d'impacts pouvant être déclenchés pendant la durée de cette compétence est limité.",
-        " Sous l'effet de cet état, les personnages déployés maniant une épée à une ou deux mains ou une arme d'hast obtiennent un <hydro>enchantement Hydro</hydro>."
+        " Sous l'effet de cet état, les personnages maniant une épée à une ou deux mains ou une arme d'hast obtiennent un <hydro>enchantement Hydro</hydro>."
       ],
       "5": "<br/>",
       "6": "<i>Ce rite secret a été transmis à travers le clan de Candace de génération en génération. Bien que les anciennes croyances se soient perdues au fil des ans, les sables protègent toujours les héritiers de l'ancien royaume.</i>"
@@ -106,13 +106,13 @@
     }
   },
   "passive1": {
-    "name": "Garde du flot des plumes",
+    "name": "Égide des flèches croisées",
     "description": {
       "0": "Si Candace est touchée par une attaque pendant l'appui long de <strong>Liturgie : Sanctuaire de la héronne</strong>, la charge se complète immédiatement."
     }
   },
   "passive2": {
-    "name": "Arche des sables",
+    "name": "Dôme céleste de sable",
     "description": {
       "0": "Lorsqu'un personnage affecté par l'état de Prière de couronne cramoisie de <strong>Liturgie : Marée de la bergeronnette</strong> inflige des DGT élémentaires à un ennemi avec une attaque normale, les DGT augmentent de 0,5 % pour chaque tranche de 1 000 PV max de Candace."
     }
@@ -150,7 +150,7 @@
     }
   },
   "constellation5": {
-    "name": "Œil doré",
+    "name": "Regard hétérochromatique",
     "description": {
       "0": "Niveau d'aptitude <strong>Liturgie : Sanctuaire de la héronne</strong> +3.",
       "1": "Niveau max : 15"
@@ -159,8 +159,8 @@
   "constellation6": {
     "name": "Débordement",
     "description": {
-      "0": "Lorsqu'un personnage déployé (hormis Candace) affecté par l'état de Prière de couronne cramoisie de <strong>Liturgie : Marée de la bergeronnette</strong> inflige des DGT élémentaires à un ennemi avec une attaque normale, il déclenche un impact hydrique de Liturgie : Marée de la bergeronnette.",
-      "1": "Cet effet peut être déclenché une fois toutes les 2,3 s, et son déclenchement ne diminue pas le nombre d'impacts pouvant être déclenchés pendant l'état de Prière de couronne cramoisie."
+      "0": "Lorsqu'un personnage déployé (hormis Candace) affecté par l'état de Prière de couronne cramoisie de <strong>Liturgie : Marée de la bergeronnette</strong> inflige des DGT élémentaires à un ennemi avec une attaque normale, il déclenche une marée d'impact, infligeant des <hydro>DGT Hydro de zone</hydro> d'une valeur équivalant à 15 % des PV max de Candace.",
+      "1": "Cet effet peut être déclenché une fois toutes les 2,3 s. Les DGT infligés sont considérés comme des DGT de déchaînement élémentaire."
     }
   }
 }

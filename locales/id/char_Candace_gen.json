@@ -1,8 +1,8 @@
 {
   "name": "Candace",
-  "title": "？？？",
-  "description": "",
-  "constellationName": "",
+  "title": "Golden Vow",
+  "description": "Test Character",
+  "constellationName": "Sagitta Scutum",
   "auto": {
     "name": "Gleaming Spear - Guardian Stance",
     "fields": {
@@ -74,14 +74,14 @@
   "burst": {
     "name": "Sacred Rite: Wagtail's Tide",
     "description": {
-      "0": "Mengangkat senjata dan meminta perlindungan dewa, yang akan mengakibatkan <hydro>Hydro DMG Area</hydro> berdasarkan Max HP Candace, juga memberikan status Crimson Crown kepada seluruh Karakter dalam party.",
+      "0": "Mengangkat senjata dan meminta perlindungan dewa, yang akan mengakibatkan <hydro>Hydro DMG Area</hydro> berdasarkan Max HP Candace, juga terus-menerus memberikan status Crimson Crown kepada Karakter aktif.",
       "1": "<br/>",
       "2": "<strong>Crimson Crown</strong>",
       "3": "Memiliki karakteristik berikut:",
       "4": [
         "Saat Normal Attack Karakter mengakibatkan Elemental DMG, akan meningkatkan DMG yang diakibatkan;",
         "Saat Karakter memasuki medan pertempuran, akan menghasilkan sebuah gelombang riak yang mengakibatkan <hydro>Hydro DMG</hydro> terhadap musuh di sekitar. Jumlah gelombang riak yang bisa terpicu selama durasi skill ini bersifat terbatas;",
-        "Saat Karakter aktif yang menggunakan Senjata Sword, Claymore, and Polearm berada dalam status ini, akan mendapatkan <hydro>Hydro Infusion</hydro>."
+        "Saat Karakter yang menggunakan Senjata Sword, Claymore, and Polearm berada dalam status ini, akan mendapatkan <hydro>Hydro Infusion</hydro>."
       ],
       "5": "<i>Ritual rahasia ini sudah diturunkan oleh klan Candace dari generasi ke generasi. Meskipun kepercayaan lama sudah pudar selama bertahun-tahun, namun pasir masih melindungi para pewaris dari bangsa kuno.</i>"
     },
@@ -158,8 +158,8 @@
   "constellation6": {
     "name": "The Overflow",
     "description": {
-      "0": "Saat Karakter (kecuali Candace sendiri) yang terpengaruh efek Prayer of the Crimson Crown yang disebabkan oleh <strong>Sacred Rite: Wagtail's Tide</strong> mengakibatkan Elemental DMG kepada lawan dengan Normal Attack, maka akan melepaskan serangan gelombang dari Wagtail's Tide.",
-      "1": "Efek ini dapat terpicu setiap 2,3 detik, dan memicu efek ini tidak akan mengonsumsi Wave dasar yang dihasilkan dari Prayer of the Crimson Crown.__"
+      "0": "Saat Karakter (kecuali Candace sendiri) yang terpengaruh efek Prayer of the Crimson Crown yang disebabkan oleh <strong>Sacred Rite: Wagtail's Tide</strong> mengakibatkan Elemental DMG kepada lawan dengan Normal Attack, akan melepaskan serangan gelombang dan mengakibatkan <hydro>Hydro DMG Area</hydro> yang setara dengan 15% Max HP Candace.",
+      "1": "Efek ini dapat terpicu setiap 2,3 detik, dan DMG yang diakibatkan akan dianggap sebagai DMG Elemental Burst."
     }
   }
 }

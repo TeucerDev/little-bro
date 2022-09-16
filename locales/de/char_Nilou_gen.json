@@ -1,10 +1,10 @@
 {
   "name": "Nilou",
-  "title": "？？？",
-  "description": "",
-  "constellationName": "",
+  "title": "Lotoslicht auf der Tanzbühne",
+  "description": "Die berühmte Tänzerin des Theaters Zubayr. Sie hat ein reines Herz und ist voller Wärme. Ihre Tänze sind elegant und anmutig.",
+  "constellationName": "Lotos Somno",
   "auto": {
-    "name": "Tanz des Sichelmondsßßß",
+    "name": "Samser-Tanz",
     "fields": {
       "normal": {
         "0": "<strong><strong>Standardangriff</strong>",
@@ -39,7 +39,7 @@
     }
   },
   "skill": {
-    "name": "Tanz der sieben Reicheßßß",
+    "name": "Haftkarsvar-Tanz",
     "description": {
       "0": "Wechselt in den Pirouetten-Modusßßß und fügt den Gegnern in der Nähe basierend auf Nilous max. LP <hydro>Hydro-Schaden</hydro> zu.",
       "1": "Im Pirouetten-Modusßßß werden Nilous Standardangriffe und Elementarfähigkeit jeweils in „Schwerttanzschritteßßß“ und „Wirbeltanzschritteßßß“ umgewandelt, die <hydro>Hydro-Schaden</hydro> verursachen, der nicht von anderen Elementen überdeckt werden kann und als Schaden der Elementarfähigkeit gilt.",
@@ -74,7 +74,7 @@
     }
   },
   "burst": {
-    "name": "Lotostanzßßß – Ferner Traum am Bachßßß",
+    "name": "Abzendegi-Tanz – Ferner Traum am Bachßßß",
     "description": {
       "0": "Beginnt den Tanz des fernen Traums am Bachßßß und lässt den Lotos des fernen Gewässers erblühen. Verursacht <hydro>Hydro-Flächenschaden</hydro> basierend auf Nilous max. LP und versetzt alle davon getroffenen Gegner in den Zustand „Fließende Äonenßßß“.",
       "1": "Nach einem kurzen Intervall erleiden die von diesem Zustand betroffenen Gegner <hydro>Hydro-Schaden</hydro>.",
@@ -103,17 +103,18 @@
   "passive1": {
     "name": "Hof der wirbelnden Blütenßßß",
     "description": {
-      "0": "Ist der Elementartyp aller Truppenmitglieder entweder <dendro>Dendro</dendro> oder <hydro>Hydro</hydro> und gibt es mindestens jeweils eine Dendro- und eine Hydro-Figur, verleiht der Blumentanzßßß von Nilous <strong>Tanz der sieben Reiche</strong> allen Figuren in der Nähe 30 s lang den Effekt „Überfluss im goldenen Kelchßßß“.",
-      "1": "Erhöht 10 s lang die Elementarkunde der Figuren unter dem Effekt „Überfluss im goldenen Kelchßßß“ um 60 Punkte, wenn sie <dendro>Dendro-Angriffe</dendro> erlitten haben. Außerdem werden durch die Reaktion „Sprießen“ Kerne der Fülleßßß anstelle der Dendro-Kerne erschaffen.",
-      "2": "Anders als Dendro-Kerne explodieren Kerne der Fülleßßß schneller, sobald sie erschaffen werden, und verursachen auch umfangreicheren Flächenschaden.",
-      "3": "Kerne der Fülleßßß können weder „Flammenspross“ noch „Supraspross“ auslösen und sie teilen das Anzahllimit der Dendro-Kerne. Angriff der Kerne der Fülleßßß gilt als Angriff der Dendro-Kerne durch die Reaktion „Sprießen“."
+      "0": "Ist der Elementartyp aller Truppenmitglieder entweder <dendro>Dendro</dendro> oder <hydro>Hydro</hydro> und gibt es mindestens jeweils eine Dendro- und eine Hydro-Figur, verleiht der dritte abgeschlossene Tanzschritt von Nilous <strong>Haftkarsvar-Tanz</strong> allen Figuren in der Nähe 30 s lang den Effekt „Überfluss im goldenen Kelch“.",
+      "1": "Erhöht 10 s lang die Elementarkunde aller Figuren in der Nähe um 60 Punkte, wenn die Figur unter dem Effekt „Überfluss im goldenen Kelch“ <dendro>Dendro-Angriffe</dendro> erlitten hat. Außerdem werden durch die Reaktion „Sprießen“ Kerne der Fülle anstelle der Dendro-Kerne erschaffen.",
+      "2": "Anders als Dendro-Kerne explodieren Kerne der Fülle schneller, sobald sie erschaffen werden, und verursachen auch umfangreicheren Flächenschaden.",
+      "3": "Kerne der Fülle können weder „Flammenspross“ noch „Supraspross“ auslösen und sie teilen das Anzahllimit der Dendro-Kerne. Angriff der Kerne der Fülle gilt als Angriff der Dendro-Kerne durch die Reaktion „Sprießen“.",
+      "4": "Sollten die Elementartypen in der Truppe die Bedingungen für dieses passive Talent nicht erfüllen, wird der bestehende Effekt „Überfluss im goldenen Kelch“ entfernt."
     }
   },
   "passive2": {
     "name": "Äonischer Traumtanz",
     "description": {
-      "0": "Erhöht je 1.000 Punkte der max. LP über 30.000 den Schaden durch Kerne der Fülleßßß, den die Figuren unter dem Effekt „Überfluss im goldenen Kelchßßß“ ausgelöst haben, um 8 %.",
-      "1": "Auf diese Weise verursachter Schaden durch Kerne der Fülleßßß kann um bis zu 300 % erhöht werden."
+      "0": "Erhöht je 1.000 Punkte der max. LP von Nilou über 30.000 den Schaden durch Kerne der Fülleßßß, den die Figuren unter dem Effekt „Überfluss im goldenen Kelchßßß“ ausgelöst haben, um 7 %.",
+      "1": "Auf diese Weise kann der durch Kerne der Fülleßßß verursachte Schaden maximal um 300 % erhöht werden."
     }
   },
   "passive3": {
@@ -125,7 +126,7 @@
   "constellation1": {
     "name": "Tanz des abnehmenden Mondesßßß",
     "description": {
-      "0": "Gibt der Elementarfähigkeit <strong>Tanz der sieben Reiche</strong> folgende Boni:",
+      "0": "Gibt der Elementarfähigkeit <strong>Haftkarsvar-Tanz</strong> folgende Boni:",
       "1": [
         " Erhöht den Schaden des Wassermondsßßß um 65 %.",
         " Verlängert die Dauer der Gelassenheits-Auraßßß um 6 s."
@@ -135,34 +136,34 @@
   "constellation2": {
     "name": "Blumenregen des Sternenhimmelsßßß",
     "description": {
-      "0": "Verringert den <hydro>Hydro-WDS</hydro> des Gegners 10 s lang um 35 %, nachdem diesem Gegner <hydro>Hydro-SCH</hydro> durch die Figuren unter dem Effekt „Überfluss im goldenen Kelchßßß“ zugefügt worden ist. Verringert den <hydro>Dendro-WDS</hydro> des Gegners 10 s lang um 35 %, nachdem die Reaktion „Sprießen“ diesem Gegner Schaden zugefügt hat.",
-      "1": "Das passive Talent „Wirbelnde Blüten im Hofßßß“ muss zuerst freigeschaltet werden."
+      "0": "Verringert den <hydro>Hydro-WDS</hydro> des Gegners 10 s lang um 35 %, nachdem diesem Gegner <hydro>Hydro-Schaden</hydro> durch Figuren unter dem Effekt „Überfluss im goldenen Kelchßßß“ zugefügt worden ist. Verringert den <hydro>Dendro-WDS</hydro> des Gegners 10 s lang um 35 %, nachdem die Reaktion „Sprießen“ diesem Gegner Schaden zugefügt hat.",
+      "1": "Das passive Talent „Hof der wirbelnden Blüten“ muss zuerst freigeschaltet werden."
     }
   },
   "constellation3": {
     "name": "Schattenschritt des Lotosßßß",
     "description": {
-      "0": "Erhöht die Stufe der Fähigkeit <strong>Lotustanzßßß: Ferner Traum am Bachßßß</strong> um 3.",
+      "0": "Erhöht die Stufe der Fähigkeit <strong>Abzendegi-Tanz – Ferner Traum am Bach</strong> um 3.",
       "1": "Höchststufe 15."
     }
   },
   "constellation4": {
     "name": "Ruckender Rhythmusßßß",
     "description": {
-      "0": "Stellt Nilou 15 Punkte Elementarenergie wieder her, wenn der dritte Tanzschritt im Pirouette-Modusßßß der Elementarfähigkeit <strong>Tanz der sieben Reiche</strong> Gegner trifft, und erhöht den SCH ihrer Spezialfähigkeit <strong>Lotustanzßßß: Ferner Traum am Bachßßß</strong> 8 s lang um 50 %."
+      "0": "Stellt Nilou 15 Punkte Elementarenergie wieder her, wenn der dritte Tanzschritt im Pirouetten-Modusßßß der Elementarfähigkeit <strong>Haftkarsvar-Tanz</strong> Gegner trifft, und erhöht den Schaden ihrer Spezialfähigkeit <strong>Abzendegi-Tanz – Ferner Traum am Bach</strong> 8 s lang um 50 %."
     }
   },
   "constellation5": {
     "name": "Glanz der Pirouetteßßß",
     "description": {
-      "0": "Erhöht die Stufe der Fähigkeit <strong>Tanz der sieben Reiche</strong> um 3.",
+      "0": "Erhöht die Stufe der Fähigkeit <strong>Haftkarsvar-Tanze</strong> um 3.",
       "1": "Höchststufe 15."
     }
   },
   "constellation6": {
     "name": "Melodie des Frostbrechersßßß",
     "description": {
-      "0": "Jede 1.000 Punkte von Nilous max. LP erhöhen ihren KT und KSCH jeweils um 0,6 % bzw. 1,2 %.",
+      "0": "Erhöht je 1.000 Punkte von Nilous max. LP ihre KT bzw. ihren KSCH jeweils um 0,6 % bzw. 1,2 %.",
       "1": "Auf diese Weise können KT und KSCH maximal jeweils um 30 % bzw. 60 % erhöht werden."
     }
   }
