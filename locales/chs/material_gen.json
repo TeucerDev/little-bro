@@ -3283,6 +3283,10 @@
     "name": "锈蚀的钥匙",
     "description": "在绀田村的井下，找到的老旧钥匙。\\n常言「既然有钥匙，那就有锁」。不知这把钥匙对应的锁，又位于何方呢。"
   },
+  "MaskOfMemories": {
+    "name": "附有记忆的面具（废弃）",
+    "description": "巫女「花散里」曾经戴着的面具，内侧有着深色的污渍。\\n其中承载着一部分记忆。通过这份记忆，可以学会法器「白辰之环」的锻造方法。\\n如今面具与花散里分别了，派蒙也不会叫她「面具巫女」了吧。"
+  },
   "TheVioletOnisBlade": {
     "name": "「堇鬼」的刀",
     "description": "岩藏流破门弟子柳叶岚士曾经使用的爱刀。\\n是某一把名刀的影打，断裂后重铸而成的。与冈崎寅卫门的刀是一对。"
@@ -3855,7 +3859,7 @@
     "name": "赤念果",
     "description": "在恶劣的沙漠环境中也能存活的植物所结的果子，赤红的果实在黄沙映衬下显得格外动人。"
   },
-  "Ajilenakh": {
+  "AjilenakhNut": {
     "name": "枣椰",
     "description": "沙漠绿洲中的常绿乔木结出的果实。坚硬果皮下的果肉肉质绵厚，甘甜可口，对沙海子民而言是重要的食物来源。"
   },
@@ -5446,10 +5450,6 @@
   "EmployersOrders": {
     "name": "雇主的命令",
     "description": "（test）雇主的命令"
-  },
-  "UnknownObjectWithAnEarthyGlow": {
-    "name": "泛着土色的不明物体",
-    "description": "被泥巴和石头包裹着的奇怪物体。在它坚硬外壳间的缝隙间，似乎隐隐露出一抹亮色。毫无疑问，这是有生命的物体，但现在还不知道它能派上什么用场。"
   },
   "PyroShard": {
     "name": "火元素晶片",
@@ -7683,15 +7683,15 @@
     "name": "美味的奶香菌菇脆塔",
     "description": "口感酥脆的小吃。若有似无的奶香在舌尖微微化开，柔韧的菌菇与其融合，随着松脆面包片的咔嚓咔嚓声…这无与伦比的满足感，让人连指尖残留的面包屑都不想要放过。"
   },
-  "SuspiciousCoconutCharcoalCakes": {
+  "SuspiciousCoconutCharcoalCake": {
     "name": "奇怪的椰炭饼",
     "description": "乌漆墨黑的甜饼。乍一看是黑暗料理，鼓起勇气尝一口，这干燥粗糙的口感…难道是不小心搞混了，把木炭端上了餐桌？"
   },
-  "CoconutCharcoalCakes": {
+  "CoconutCharcoalCake": {
     "name": "椰炭饼",
     "description": "乌漆墨黑的甜饼。先将枣椰烧制成粉状，过筛提纯，再加入面糊，搅拌均匀后烤熟。其貌不扬的成品带有淡淡的枣椰清香，搭配果酱尤为香甜。"
   },
-  "DeliciousCoconutCharcoalCakes": {
+  "DeliciousCoconutCharcoalCake": {
     "name": "美味的椰炭饼",
     "description": "乌漆墨黑的甜饼。饼身细腻，带有光泽，枣椰带来灿烂和煦的气息，入口绵软微润…不管食客此刻是疲惫还是难过，糟糕的心情都能被这样一份「黑色甜蜜」驱散。人不可貌相，饼也不可以。"
   },
@@ -7743,6 +7743,18 @@
     "name": "美味的阿如拌饭",
     "description": "量大管饱的主食。米饭粒粒分明，被浓郁的酱汁包裹着送入口中，明明没有加入油荤却比肉香更加诱人。如随处可见的沙丘般堆叠着的美味，带来非同寻常的满足感。"
   },
+  "SuspiciousFruitsOfTheFestival": {
+    "name": "奇怪的假日果酿",
+    "description": "色彩清丽的无酒精饮品。没能处理好钩钩果的酸涩，导致舌头隐隐发麻。怎、怎么回事…耳边还回荡起了奔狼领的狼嚎声，应该是幻觉吧…"
+  },
+  "FruitsOfTheFestival": {
+    "name": "假日果酿",
+    "description": "色彩清丽的无酒精饮品。将日落果和钩钩果分别捣出汁液调味后，再依次倒入杯中。冰爽的口感加上清凉的颜色，能轻易让人想起关于假日的美好回忆。为了顺利制作出渐变效果，千万不能弄错顺序哦！"
+  },
+  "DeliciousFruitsOfTheFestival": {
+    "name": "美味的假日果酿",
+    "description": "色彩清丽的无酒精饮品。沁人心脾的味道，带来如同虚幻梦境般的曼妙享受。只须浅浅一口，便能置身于莹白沙滩上，波光粼粼的海水打着节拍，在诗歌中谱写出假日的悠闲。"
+  },
   "SwirlingSteps": {
     "name": "婆娑一舞",
     "description": "妮露的特色料理。晶莹剔透的杯子宛若华美的珠宝盒一般，装着入口即化的香软布丁。这一抹红艳的色泽…恍惚间让人联想到了妮露婆娑起舞之时，那熠熠生辉的身影。不由希望这一舞能永远没有落幕的时刻。"
@@ -7754,6 +7766,10 @@
   "UtmostCare": {
     "name": "关怀备至",
     "description": "坎蒂丝的特色料理。在端上来之前先已闻到扑鼻的香气，看来坎蒂丝在守护「胃口」方面也颇有心得…只是这分量比寻常的阿如拌饭还要来得更多一些，该、该如何才能将这一份「备至到过量的关怀」全部吃完呢？"
+  },
+  "SparklingBerryJuice": {
+    "name": "气泡酸莓汁",
+    "description": "全新推出的无酒精饮品。不同成熟度的落落莓为果汁增加了由甜到酸的回味层次，冰凉的气泡水沁人心脾，伴你享受惬意的休闲时光。"
   },
   "RecipeItem": {
     "name": "食谱道具",
@@ -8267,7 +8283,7 @@
     "name": "食谱：奶香菌菇脆塔",
     "description": "步骤详实的食谱，记载着「奶香菌菇脆塔」的制作方法。"
   },
-  "RecipeCharcoalBakedAjilenakhCake": {
+  "RecipeCoconutCharcoalCake": {
     "name": "食谱：椰炭饼",
     "description": "步骤详实的食谱，记载着「椰炭饼」的制作方法。"
   },
@@ -8286,6 +8302,10 @@
   "RecipeAaruMixedRice": {
     "name": "食谱：阿如拌饭",
     "description": "步骤详实的食谱，记载着「阿如拌饭」的制作方法。"
+  },
+  "RecipeFruitsOfTheFestival": {
+    "name": "食谱：假日果酿",
+    "description": "步骤详实的食谱，记载着「假日果酿」的制作方法。"
   },
   "CraftedItems": {
     "name": "合成产物",
@@ -9377,7 +9397,7 @@
   },
   "AncientKey": {
     "name": "陈旧的钥匙",
-    "description": "被盗宝鼬偷走的钥匙。既然有钥匙那么就有对应的锁，明明这座医院已经被废弃，却还要隐藏起来的东西，会是什么呢？"
+    "description": "被面具鼬偷走的钥匙。既然有钥匙那么就有对应的锁，明明这座医院已经被废弃，却还要隐藏起来的东西，会是什么呢？"
   },
   "UnsealedParchment": {
     "name": "启封的羊皮卷",
@@ -9423,6 +9443,10 @@
     "name": "残破的出勤记录",
     "description": "残破的出勤记录"
   },
+  "PurchasedGoods": {
+    "name": "采购物资",
+    "description": "妮露为祖拜尔剧场采购的物资，除了演出道具的制作材料之外，还有很多日常与庆祝用品。想要单人搬运的话，负担的确有些大，但经验丰富的冒险家清楚应该如何收纳。"
+  },
   "MedicalRecords": {
     "name": "病历记录",
     "description": "一页完好的医院文件记录，似乎是从簿册中脱落出来的。"
@@ -9467,7 +9491,7 @@
     "name": "里夫的包裹",
     "description": "装有花盆，花种，肥料和许多园艺用品的包裹。拿起来十分沉重，想扛着它跨越沙漠，想必不是一件容易的事…"
   },
-  "NerminsSpices": {
+  "NerminsPerfumeIngredients": {
     "name": "内尔敏的香料",
     "description": "内尔敏向阿扎莱订购的香料。价钱不算贵，质量也不错。"
   },
@@ -9539,6 +9563,22 @@
     "name": "关垂的订货单据",
     "description": "格奥尔格写给关垂的订货单据，记载着100箱「假日果酿」成交的价格、各项费用的细节、交易的时间和货品预计送达的日期。采购货物的客人阅读后，想必会深感安心。"
   },
+  "CynosIntroductionLetter": {
+    "name": "赛诺的介绍信",
+    "description": "由赛诺写下的介绍信，象征着大风纪官赛诺的信任。"
+  },
+  "AncientMap": {
+    "name": "古旧地图",
+    "description": "从塔杰房间内找到的地图，上面标有归寂之庭的位置。"
+  },
+  "AuctionInformation": {
+    "name": "拍卖会资料",
+    "description": "由多莉收集和整理的拍卖会信息，上面记录了在沙漠举办的罐装知识拍卖会的信息。"
+  },
+  "SealedMaterialsTheCourtOfDesolation": {
+    "name": "封藏资料「归寂之庭」",
+    "description": ""
+  },
   "KeystoneII": {
     "name": "锁钥之石·其二",
     "description": "尚残留些许能量的石板，可以打开附近的通路。某种意义上说，是非常古老的钥匙？"
@@ -9562,6 +9602,30 @@
   "JahangirsReceipt": {
     "name": "贾汉吉尔的收货单",
     "description": "从贾汉吉尔那里拿到的收货单。可以凭此单据接收贾汉吉尔的货物。"
+  },
+  "LimitedEditionDesertSpecialTravelPack": {
+    "name": "「限定款沙漠特别旅行包」",
+    "description": "从多莉手中购置的旅行包，里面装满了各种奇奇怪怪的东西。乍一看让人摸不着头脑，仔细研究发现其实很实用…？"
+  },
+  "AShortLetter": {
+    "name": "一封短信",
+    "description": "用密语写就的短信。不知是谁，出于何种目的置于此处。"
+  },
+  "VaguelyReadableInscription": {
+    "name": "依稀可以辨认的铭文",
+    "description": ""
+  },
+  "AkademiyaInvestigationTeamsReport": {
+    "name": "教令院调查团的报告",
+    "description": ""
+  },
+  "SealedOrders": {
+    "name": "缄封的命令书",
+    "description": ""
+  },
+  "OldOrders": {
+    "name": "古老的命令书",
+    "description": ""
   },
   "SilkFlowerSeed": {
     "name": "「霓裳花」的种子",
@@ -9885,7 +9949,7 @@
   },
   "PlumeOfTheChangingWinds": {
     "name": "迁风的苍翎",
-    "description": "？？？"
+    "description": "「风信之锋」专用的精炼道具。\\n由松石雕而成的古旧羽翮，在过去似乎曾被用作饰品或信物。"
   },
   "FalconsDance": {
     "name": "鹰隼之舞",
@@ -10595,6 +10659,18 @@
     "name": "纪行·归风",
     "description": "名片纹饰。\\n岁月流转，唯有思念与归风不变。"
   },
+  "CynoSilence": {
+    "name": "赛诺·幽缄",
+    "description": "名片纹饰。\\n赛诺看上去幽沉而肃默的时候，未必总是在想着什么沉肃的审判，也有可能只是在思考幽默的笑点。"
+  },
+  "CandaceGreyHeron": {
+    "name": "坎蒂丝·苍鹭",
+    "description": "名片纹饰。\\n往昔的炽风撩拂着苍鹭的尾羽，那鸟儿却只是望向初晓的晨星。"
+  },
+  "NilouLotusDance": {
+    "name": "妮露·莲舞",
+    "description": "名片纹饰。\\n绽于净水的莲华，不过是她足尖下的一刹流光。"
+  },
   "AchievementSevenLights": {
     "name": "成就·七芒",
     "description": "名片纹饰。\\n无论是谁，都能奏响属于自己的美妙乐章，正如草上的浅露，也能映出天光的七芒。"
@@ -10827,13 +10903,21 @@
     "name": "老旧的诗琴",
     "description": "使用后，可以进行演奏的蒙德传统乐器。在须弥的森林中，有时似乎能发挥神奇的效果。\\n从维摩庄的阿玛兹亚处借来的老旧诗琴。\\n蒙德有诗与歌的传统。吟游诗人会将自己乐器称为自己的「挚友」、「伴侣」，因此将乐器作为信物托付给阿玛兹亚无疑是十分亲密、充满信赖的行为。"
   },
+  "JumpyDumptyPartyPopper": {
+    "name": "蹦蹦庆典拉炮",
+    "description": "使用后，会释放出彩带和亮片的拉炮。\\n「蹦蹦是可莉的好朋友，也是一起炸鱼的好帮手，但庆典上把蹦蹦拿出来会被琴团长凶的…不过你别担心，在阿贝多哥哥的完美改良下，蹦蹦已经有了全新的本领！你看，只要拉一下它的小尾巴，就能放出好多漂亮的彩带！」"
+  },
   "ScarletSandSlate": {
     "name": "赤沙石板",
-    "description": "教令院学者阿卜杜拉多年来的研究对象，从纹样与工艺来看是赤王文明的造物。似乎隐藏着催动赤王遗迹机关的权能…"
+    "description": "教令院学者提尔扎德多年来的研究对象，从纹样与工艺来看是赤王文明的造物。似乎隐藏着催动赤王遗迹机关的权能…"
   },
   "BubblyKamera": {
     "name": "「清冽水沫留影机」",
     "description": "使用时，会记录储存当前景象，并附带特殊色调的便利道具。\\n来历不明的奇特道具，成像效果尤为别致，机器内部明明没有多余的水分，拍摄出的画片周围却有着缤纷的泡沫，使得画面具备了一种梦幻的观感。\\n因此，某位骑兵队长形容这台机器「捕捉到了人们对清凉的期待」。"
+  },
+  "CloudRetainersDamaskedDevice": {
+    "name": "缥锦机关·留云",
+    "description": "由纸叠成，外型如鸟的轻盈机关，由留云借风真君所赠。\\n虽然说是「机关」，但从外部几乎看不到任何传统的机关结构。 \\n那位仙人的「机关术」，似乎又向前进了一步…"
   },
   "InstructionsAnemoculusResonanceStone": {
     "name": "说明：风神瞳共鸣石",
@@ -10902,10 +10986,6 @@
   "DiagramWarmingBottle": {
     "name": "图谱：放热瓶",
     "description": "步骤详实的图谱，记载着「放热瓶」的制作方法。掌握后，可以制作抵抗严寒的消耗道具。"
-  },
-  "MaskOfMemories": {
-    "name": "附有记忆的面具",
-    "description": "巫女「花散里」曾经戴着的面具，内侧有着深色的污渍。\\n其中承载着一部分记忆。通过这份记忆，可以学会法器「白辰之环」的锻造方法。\\n如今面具与花散里分别了，派蒙也不会叫她「面具巫女」了吧。"
   },
   "TaleOfTheForestKing": {
     "name": "关于森林王的故事",

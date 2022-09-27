@@ -4,19 +4,31 @@
     "selectLanguage": "언어 선택",
     "languageFormat": "언어: {{language}}"
   },
-  "downloadCard": {
-    "databaseDownload": "데이터베이스 다운로드",
-    "databaseDisclaimer": "알림: 레진 타이머 등 \"기타 기능\" 페이지의 데이터들은 다운로드 데이터베이스에 포함되지 않습니다.",
-    "button": {
-      "download": "다운로드",
-      "copy": "클립보드에 복사",
-      "delete": "데이터베이스 삭제"
-    }
-  },
   "uploadCard": {
     "title": "데이터베이스 업로드",
     "replaceDatabase": "데이터베이스 덮어쓰기",
     "hint": "JSON 파일 불러오기...",
-    "hintPaste": "...아니면 내용을 아래에 붙여넣기."
+    "hintPaste": "...아니면 내용을 아래에 붙여넣기.",
+    "goUpload": {
+      "title": "<strong>Genshin Optimizer</strong> 형식",
+      "migrate": "데이터베이스가 새 버전으로 전환됩니다. import 이후 새로 다운로드 받으시길 권장드립니다.",
+      "deleteDatabasePrompt": "데이터베이스를 정말 지우시겠습니까?"
+    },
+    "error": {
+      "jsonParse": "JSON 파일을 해석 할 수 없습니다.",
+      "unknown": "알 수 없는 파일 형식입니다.",
+      "monaInvalid": "잘못된 Mona-Uranai 파일 형식",
+      "goInvalid": "잘못된 GO 백업 파일 형식"
+    }
+  },
+  "count": {
+    "chars": "캐릭터:",
+    "arts": "성유물:",
+    "weapons": "무기:"
+  },
+  "DatabaseCard": {
+    "button": {
+      "copy": "클립보드로 복사"
+    }
   }
 }

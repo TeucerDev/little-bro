@@ -1,10 +1,10 @@
 {
   "name": "Candace",
   "title": "La Devota Áurea",
-  "description": "Test Character",
+  "description": "Custodia de la Aldea Aaru. Esta muchacha con un ojo color ámbar es descendiente del Rey Deshret.",
   "constellationName": "Sagitta Scutum",
   "auto": {
-    "name": "Lanza radiante - Defensa",
+    "name": "Lanza radiante - En guardia",
     "fields": {
       "normal": {
         "0": "<strong><strong>Ataque Normal</strong>",
@@ -47,10 +47,10 @@
       "3": "Ataca con su escudo para infligir <hydro>Daño Hydro</hydro> contra los enemigos frente a ella.",
       "4": "<br/>",
       "5": "<strong>Mantener pulsado</strong>",
-      "6": "Usa su escudo para resistir los ataques de los enemigos cercanos, lo que crea un escudo que absorbe daño en función de la Vida Máx. de Candance, que tiene un 250% de efectividad de absorción de Daño Hydro y que dura hasta que se deje de mantener pulsada la Habilidad Elemental.",
-      "7": "Tras mantener pulsado durante cierto tiempo, el escudo se carga por completo y, cuando dejes de mantener pulsada la habilidad, cuando termine su duración o cuando el escudo se rompa, Candace ejecuta un salto ofensivo que inflige <hydro>Daño Hydro</hydro> contra los enemigos frente a ella.",
+      "6": "Usa su escudo para resistir los ataques de los enemigos de alrededor, lo que crea un escudo que absorbe daño en función de la Vida Máx. de Candance. Dicho escudo tiene un 250% de efectividad de absorción de <hydro>Daño Hydro</hydro> y dura hasta que se libera la Habilidad Elemental.",
+      "7": "Tras mantener pulsado durante cierto tiempo, el escudo se carga por completo y, al dejar de mantener pulsada la habilidad, cuando termine su duración o cuando el escudo se rompa, Candace ejecuta un salto ofensivo que inflige <hydro>Daño Hydro</hydro> contra los enemigos frente a ella.",
       "8": "<br/>",
-      "9": "<i>El juramento que hereda un guardián debe ser aún más firme que el escudo que hereda de sus ancestros.</i>"
+      "9": "<i>El juramento que hereda un custodio debe ser aún más firme que el escudo que hereda de sus ancestros.</i>"
     },
     "skillParams": {
       "0": "Absorción de daño del escudo",
@@ -127,7 +127,7 @@
   "constellation1": {
     "name": "Heredera de las arenas escarlata",
     "description": {
-      "0": "Aumenta en 3 s la duración del estado de oración de la corona escarlata de <strong>Rito sagrado: Marea de aguzanieves</strong>."
+      "0": "Aumenta en 3{NON_BREAK_SPACE}s la duración del estado de oración de la corona escarlata de <strong>Rito sagrado: Marea de aguzanieves</strong>."
     }
   },
   "constellation2": {
@@ -150,7 +150,7 @@
     }
   },
   "constellation5": {
-    "name": "Ojos dorados",
+    "name": "Mirada heterocromática",
     "description": {
       "0": "Aumenta el nivel de habilidad de <strong>Rito sagrado: Garza guardiana</strong> +3.",
       "1": "Puede ser aumentado hasta Niv. 15."
@@ -160,7 +160,7 @@
     "name": "Marea inundatoria",
     "description": {
       "0": "Cuando un personaje en uso (a excepción de Candace) que está en el estado de oración de la corona escarlata de <strong>Rito sagrado: Marea de aguzanieves</strong> inflige Daño Elemental con un Ataque Normal contra un enemigo, se libera una onda de agua de Rito sagrado: Marea de aguzanieves que inflige <hydro>Daño Hydro en el AdE</hydro> en una cantidad equivalente al 15% de la Vida Máx. de Candace.",
-      "1": "Este efecto solo se puede activar una vez cada 2.3 s y su daño se considera daño de Habilidad Definitiva."
+      "1": "Este efecto solo se puede activar una vez cada 2.3{NON_BREAK_SPACE}s y su daño se considera daño de Habilidad Definitiva."
     }
   }
 }

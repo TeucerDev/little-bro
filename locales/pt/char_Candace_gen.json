@@ -1,7 +1,7 @@
 {
   "name": "Candace",
   "title": "Promessa Dourada",
-  "description": "Test Character",
+  "description": "Guardiã da Vila Aaru, descendente do Rei Deshret, seu olho esquerdo é da cor do âmbar.",
   "constellationName": "Sagitta Scutum",
   "auto": {
     "name": "Lança Reluzente - Postura Guardiã",
@@ -74,17 +74,17 @@
   "burst": {
     "name": "Ritual Sagrado: Maré dos Alvéolas",
     "description": {
-      "0": "Candace ergue sua arma e invoca uma bênção divina que inflige <hydro>Dano Hydro em AdE</hydro> baseado em sua Vida Máxima, e aplica continuamente o estado \"Súplica da Coroa Escarlate\" nos seus próprios personagens da equipe.",
+      "0": "Candace ergue sua arma e invoca uma bênção divina que inflige <hydro>Dano Hydro em AdE</hydro> baseado em sua Vida Máxima, e aplica continuamente o estado \"Súplica da Coroa Escarlate\" no seu personagem ativo no campo de batalha.",
       "1": "<br/>",
       "2": "<strong>Súplica da Coroa Escarlate</strong>",
       "3": "Possui as seguintes características:",
       "4": [
         " Quando o Ataque Normal do personagem inflige Dano Elemental contra os inimigos, aumenta o Dano infligido;",
-        " Quando o personagem se torna o ativo no campo de batalha, lança uma Onda do Dilúvio que inflige <hydro>Dano Hydro</hydro> contra os inimigos próximos. Esse efeito possui um limite de vezes que pode ser desencadeado dentro da duração dessa habilidade;",
+        " Quando um personagem se torna o ativo no campo de batalha, lança uma Onda do Dilúvio que inflige <hydro>Dano Hydro</hydro> contra os inimigos próximos. Esse efeito possui um limite de vezes que pode ser desencadeado dentro da duração dessa habilidade;",
         " Personagens sob esse efeito que usem Espada, Espadão ou Lança obterão <hydro>Encantamento Hydro</hydro>."
       ],
       "5": "<br/>",
-      "6": "<i>Esse ritual secreto foi passado de geração em geração pelo clã de Candace. Apesar da antiga fé ter se perdid com o passar do tempo, as areias ainda protegem os herdeiros do antigo reino.</i>"
+      "6": "<i>Esse ritual secreto foi passado de geração em geração pelo clã de Candace. Apesar da antiga fé ter se perdido com o passar do tempo, as areias ainda protegem os herdeiros do antigo reino.</i>"
     },
     "skillParams": {
       "0": "Dano de Habilidade",
@@ -108,13 +108,13 @@
   "passive1": {
     "name": "Proteção Plúmea",
     "description": {
-      "0": "Quando Candace recebe um ataque enquanto manter pressionado <strong>Ritual Sagrado: Garça Guardiã</strong>, a habilidade carregará por completo imediatamente."
+      "0": "Se Candace sofrer um ataque durante o Manter Pressionado de <strong>Ritual Sagrado: Garça Guardiã</strong>, carregará a habilidade completamente."
     }
   },
   "passive2": {
     "name": "Arco das Areias",
     "description": {
-      "0": "Personagens afetados pela Súplica da Coroa Escarlate causado pelo <strong>Ritual Sagrado: Maré dos Alvéolas</strong> aumentam o dano aos oponentes em 0,5% para cada 1.000 pontos de Vida Máxima de Candace quando causam Dano Elemental com seus Ataques Normais."
+      "0": "Personagens sob estado Súplica da Coroa Escarlate causado por <strong>Ritual Sagrado: Maré dos Alvéolas</strong> aumentam o Dano infligido contra os oponentes em 0,5% para cada 1.000 pontos de Vida Máxima de Candace quando causam Dano Elemental com seus Ataques Normais."
     }
   },
   "passive3": {
@@ -127,7 +127,7 @@
   "constellation1": {
     "name": "Herdeira das Areias Escarlates Ressurgida",
     "description": {
-      "0": "Estende a duração de Súplica da Coroa Escarlate de <strong>Ritual Sagrado: Maré dos Alvéolas</strong> em 3s."
+      "0": "Estende a duração do estado Súplica da Coroa Escarlate de <strong>Ritual Sagrado: Maré dos Alvéolas</strong> em 3s."
     }
   },
   "constellation2": {
@@ -146,7 +146,7 @@
   "constellation4": {
     "name": "Juramento da Sentinela",
     "description": {
-      "0": "A recarga do Manter Pressionado de <strong>Ritual Sagrado: Garça Guardiã</strong> é reduzida para a recarga do Pressionar."
+      "0": "A recarga do Manter Pressionado de <strong>Ritual Sagrado: Garça Guardiã</strong> é reduzida para a mesma recarga do Pressionar."
     }
   },
   "constellation5": {
@@ -159,8 +159,8 @@
   "constellation6": {
     "name": "Inundação",
     "description": {
-      "0": "Quando o personagem ativo no campo de batalha estiver sob o estado Súplica da Coroa Escarlate de <strong>Ritual Sagrado: Maré dos Alvéolas</strong> (exceto a própria Candace) infligir Dano Elemental contra um inimigo com um Ataque Normal, lançará uma Onda Torrencial que infligirá <hydro>Dano Hydro em AdE</hydro> equivalente a 15% da Vida Máxima de Candace.",
-      "1": "Esse efeito só pode ser desencadeado uma vez a cada 2,3s, e o Dano infligido é considerado Dano de Supremo."
+      "0": "Quando o personagem ativo no campo de batalha estiver sob o estado Súplica da Coroa Escarlate de <strong>Ritual Sagrado: Maré dos Alvéolas</strong> (exceto a própria Candace) e infligir Dano Elemental contra um inimigo com um Ataque Normal, lançará uma Onda Torrencial que infligirá <hydro>Dano Hydro em AdE</hydro> equivalente a 15% da Vida Máxima de Candace.",
+      "1": "Esse efeito só pode ser desencadeado uma vez a cada 2.3s, e o Dano infligido é considerado Dano de Supremo."
     }
   }
 }

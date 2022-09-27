@@ -1,8 +1,8 @@
 {
   "name": "Cyno",
-  "title": "？？？",
-  "description": "",
-  "constellationName": "",
+  "title": "การพิพากษาอันซ่อนเร้น",
+  "description": "\"เจ้าหน้าที่มหามาตรา\" ผู้รับหน้าที่ดูแลนักวิชาการในสถาบัน...ในตอนที่ทำงาน มีประสิทธิภาพมากกว่า \"กลไกมหามนตรา\" ที่ผลิตโดยคณะ Kshahrewar เสียอีก",
+  "constellationName": "Lupus Aureus",
   "auto": {
     "name": "Invoker's Spear",
     "fields": {
@@ -104,7 +104,7 @@
   "passive1": {
     "name": "Featherfall Judgment",
     "description": {
-      "0": "เมื่อ Cyno อยู่ในสภาวะ Pactsworn Pathclearer ของ <strong>Sacred Rite: Wolf's Swiftness</strong> จะเข้าสู่สภาวะ Endseer เป็นระยะ ๆ ซึ่งเมื่อใช้ <strong>Secret Rite: Chasmic Soulfarer</strong> ในสภาวะดังกล่าว จะทำให้เกิดเอฟเฟกต์ \"Judication\" ซึ่งจะทำให้ Secret Rite: Chasmic Soulfarer ในครั้งนี้สร้างความเสียหายเพิ่มขึ้น 35% และปล่อย Duststalker Bolt ออกไปข้างหน้า 3 อัน โดยจะทำให้เกิด<electro>ความเสียหายไฟฟ้า</electro>เป็น 50% ของพลังโจมตีของ Cyno",
+      "0": "เมื่อ Cyno อยู่ในสภาวะ Pactsworn Pathclearer ของ <strong>Sacred Rite: Wolf's Swiftness</strong> จะเข้าสู่สภาวะ \"Endseer\" เป็นระยะ ๆ ซึ่งเมื่อใช้ <strong>Secret Rite: Chasmic Soulfarer</strong> ในสภาวะดังกล่าว จะทำให้เกิดเอฟเฟกต์ \"Judication\" ซึ่งจะทำให้ Secret Rite: Chasmic Soulfarer ในครั้งนี้สร้างความเสียหายเพิ่มขึ้น 35% และปล่อย Duststalker Bolt ออกไปข้างหน้า 3 อัน โดยจะทำให้เกิด<electro>ความเสียหายไฟฟ้า</electro>เป็น 100% ของพลังโจมตีของ Cyno",
       "1": "ความเสียหายที่ Duststalker Bolt สร้าง จะถูกมองว่าเป็นความเสียหายของสกิลธาตุ"
     }
   },
@@ -113,8 +113,8 @@
     "description": {
       "0": "การโจมตีต่อไปนี้ของ Cyno จะสร้างความเสียหายเพิ่มขึ้น โดยขึ้นกับความชำนาญธาตุของเขาเอง:",
       "1": [
-        "การโจมตีปกติภายใต้สภาวะ Pactsworn Pathclearer สร้างความเสียหายเพิ่มขึ้น 100% ของความชำนาญธาตุ;",
-        "Duststalker Bolt ของพรสวรรค์จากการปลดล็อก \"Featherfall Judgment\" สร้างความเสียหายเพิ่มขึ้น 250% ของความชำนาญธาตุ"
+        "การโจมตีปกติภายใต้สภาวะ Pactsworn Pathclearer สร้างความเสียหายเพิ่มขึ้น 150% ของความชำนาญธาตุ;",
+        "Duststalker Bolt ของพรสวรรค์ติดตัว \"Featherfall Judgment\" สร้างความเสียหายเพิ่มขึ้น 250% ของความชำนาญธาตุ"
       ]
     }
   },
@@ -127,14 +127,14 @@
   "constellation1": {
     "name": "Ordinance: Unceasing Vigil",
     "description": {
-      "0": "หลังจากใช้ <strong>Sacred Rite: Wolf's Swiftness</strong> ความเร็วการโจมตีปกติของ Cyno จะเพิ่มขึ้น 20% เป็นเวลา 10 วินาที และหากเกิดเอฟเฟกต์ Judication ของพรสวรรค์จากการปลดล็อก \"Featherfall Judgment\" ระหว่างช่วงเวลาของ <strong>Secret Rite: Chasmic Soulfarer</strong> ช่วงเวลาต่อเนื่องของเอฟเฟกต์ดังกล่าวจะถูกรีเฟรช",
+      "0": "หลังจากใช้ <strong>Sacred Rite: Wolf's Swiftness</strong> ความเร็วการโจมตีปกติของ Cyno จะเพิ่มขึ้น 20% เป็นเวลา 10 วินาที และหากทำให้เกิดเอฟเฟกต์ Judication ของพรสวรรค์ติดตัว \"Featherfall Judgment\" ระหว่างช่วงเวลาของ <strong>Secret Rite: Chasmic Soulfarer</strong> ระยะต่อเนื่องของความสามารถที่เพิ่มขึ้นมาจะถูกรีเฟรช",
       "1": "ต้องปลดล็อกพรสวรรค์ติดตัว \"Featherfall Judgment\" ก่อน"
     }
   },
   "constellation2": {
     "name": "Ceremony: Homecoming of Spirits",
     "description": {
-      "0": "เมื่อการโจมตีปกติของ Cyno ถูกศัตรู การโจมตีปกติจะมีอัตราคริเพิ่มขึ้น 3% และมีความแรงคริเพิ่มขึ้น 6% เป็นเวลา 4 วินาที โดยที่เอฟเฟกต์นี้ ในทุก 0.1 วินาที จะเกิดขึ้นได้มากสุดหนึ่งครั้ง ซ้อนทับกันได้มากสุด 5 ชั้น ซึ่งช่วงเวลาต่อเนื่องของแต่ละชั้น จะคิดแยกกัน"
+      "0": "หลังจากที่การโจมตีปกติของ Cyno ถูกศัตรู โบนัส<electro>ความเสียหายไฟฟ้า</electro>จะเพิ่มขึ้น 10% เป็นเวลา 4 วินาที โดยที่ทุก 0.1 วินาที เอฟเฟกต์นี้จะเกิดขึ้นได้มากสุดหนึ่งครั้ง ซ้อนทับได้มากสุด 5 ชั้น"
     }
   },
   "constellation3": {
@@ -147,7 +147,7 @@
   "constellation4": {
     "name": "Austerity: Forbidding Guard",
     "description": {
-      "0": "เมื่อ Cyno อยู่ในสภาวะ Pactsworn Pathclearer ของ <strong>Sacred Rite: Wolf's Swiftness</strong> หลังจากทำให้เกิดปฏิกิริยาชาร์จไฟฟ้า, นำไฟฟ้า, โอเวอร์โหลด, ปลุกเร้า, บีบอัด, ไฮเปอร์บลูม, การกระจายธาตุไฟฟ้า หรือการตกผลึกธาตุไฟฟ้าแล้ว จะฟื้นฟูพลังงานธาตุให้ตัวละครทั้งหมดในทีม ที่อยู่ในบริเวณใกล้เคียง (ไม่รวมตัวของ Cyno เอง) 3 หน่วย",
+      "0": "เมื่อ Cyno อยู่ในสภาวะ Pactsworn Pathclearer ของ <strong>Sacred Rite: Wolf's Swiftness</strong> หลังจากทำให้เกิดปฏิกิริยาชาร์จไฟฟ้า, นำไฟฟ้า, โอเวอร์โหลด, ปลุกเร้า, บีบอัด, ไฮเปอร์บลูม และการกระจายธาตุไฟฟ้าแล้ว จะฟื้นฟูพลังงานธาตุ 3 หน่วย ให้ตัวละครทั้งหมดในทีมที่อยู่ในบริเวณใกล้เคียง (ไม่รวมตัวของ Cyno เอง)",
       "1": "ในระหว่าง <strong>Sacred Rite: Wolf's Swiftness</strong> หนึ่งครั้ง เอฟเฟกต์นี้จะเกิดขึ้นได้มากสุด 5 ครั้ง"
     }
   },
@@ -161,8 +161,10 @@
   "constellation6": {
     "name": "Raiment: Just Scales",
     "description": {
-      "0": "ในตอนที่ใช้ <strong>Sacred Rite: Wolf's Swiftness</strong> หรือทำให้เกิดเอฟเฟกต์ \"Judication\" Cyno จะได้รับเอฟเฟกต์ \"Day of the Jackal\" 4 ชั้น และในตอนที่การโจมตีปกติถูกศัตรู จะใช้เอฟเฟกต์ \"Day of the Jackal\" หนึ่งชั้น เพื่อปล่อย Duststalker Bolt ออกมาหนึ่งอัน โดยที่เอฟเฟกต์ \"Day of the Jackal\" จะคงอยู่ได้ 8 วินาที ซ้อนทับได้มากสุด 8 ชั้น และในทุก 0.4 วินาที จะถูกใช้ได้มากสุดหนึ่งครั้ง และจะหายไปทั้งหมดหลังจากที่สภาวะ Pactsworn Pathclearer สิ้นสุดลง",
-      "1": "ต้องปลดล็อกพรสวรรค์ติดตัว \"Featherfall Judgment\" ก่อน"
+      "0": "หลังจากใช้ <strong>Sacred Rite: Wolf's Swiftness</strong> หรือทำให้เกิดเอฟเฟกต์ \"Judication\" ของพรสวรรค์ติดตัว \"Featherfall Judgment\" Cyno จะได้รับเอฟเฟกต์ \"Day of the Jackal\" 4 ชั้น โดยเมื่อการโจมตีปกติของ Cyno ถูกศัตรู จะใช้เอฟเฟกต์ Day of the Jackal หนึ่งชั้น และปล่อย Duststalker Bolt ออกมาหนึ่งอัน",
+      "1": "Day of the Jackal จะคงอยู่เป็นเวลา 8 วินาที ซ้อนทับได้มากสุด 8 ชั้น และจะถูกลบล้างหลังจากที่สภาวะ Pactsworn Pathclearer ของ Sacred Rite: Wolf's Swiftness สิ้นสุดลง",
+      "2": "ในทุก 0.4 วินาที จะสามารถปล่อย Duststalker Bolt ออกมาด้วยวิธีนี้ได้มากสุดหนึ่งอัน",
+      "3": "ต้องปลดล็อกพรสวรรค์ติดตัว \"Featherfall Judgment\" ก่อน"
     }
   }
 }

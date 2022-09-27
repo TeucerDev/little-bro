@@ -50,7 +50,7 @@
         "Danza espiral: libera una rueda de agua purificadora que inflige <hydro>Daño Hydro en el AdE</hydro> y crea un aura de quietud que sigue a tu personaje en uso y que aplica continuamente sobre él el estado de <hydro>Mojado</hydro>."
       ],
       "5": "<br/>",
-      "6": "En los estados de pirueta y rezo lunar, Nilou no puede ejecutar Ataques Cargados, y dichos estados se anulan si es retirada de combate.",
+      "6": "En los estados de pirueta y rezo lunar, Nilou no puede ejecutar Ataques Cargados. Dichos estados se anulan si es retirada de combate.",
       "7": "<br/>",
       "8": "<i>Cuando sus delicados pies tocan suavemente el agua, crea unas ondulaciones tan resplandecientes como los siete cielos.</i>"
     },
@@ -76,8 +76,8 @@
   "burst": {
     "name": "Danza del loto: Manantial onírico",
     "description": {
-      "0": "Interpreta la danza del manantial onírico y hace que florezaca un loto de aguas lejanas para infligir <hydro>Daño Hydro en el AdE</hydro> en función de la Vida Máx. de Nilou y aplicar el estado de “eón perpetuo” sobre los enemigos golpeados.",
-      "1": "Tras un breve lapso de tiempo, los enemigos afectados por este estado reciben <hydro>Daño Hydro</hydro>.",
+      "0": "Interpreta la danza del manantial onírico y hace que florezca un loto de aguas lejanas para infligir <hydro>Daño Hydro en el AdE</hydro> en función de la Vida Máx. de Nilou y aplicar el estado de “eón perpetuo” sobre los enemigos golpeados.",
+      "1": "Tras un breve lapso de tiempo, los enemigos afectados por el estado de eón perpetuo reciben <hydro>Daño Hydro</hydro>.",
       "2": "<br/>",
       "3": "<i>Nunca hemos visto ese sueño lejano con nuestros propios ojos, pero esta danza puede recrearlo.</i>"
     },
@@ -103,8 +103,8 @@
   "passive1": {
     "name": "Corte de los pétalos danzantes",
     "description": {
-      "0": "Cuando todos los personajes del equipo son o bien <dendro>Dendro</dendro>, o bien <hydro>Hydro</hydro>, y hay al menos un personaje Dendro y uno Hydro en el equipo, cuando Nilou completa el tercer paso de baile de <strong>Danza de los siete reinos</strong>, otorga a los personajes cercanos el estado de “cáliz de la abundancia” durante 30 s.",
-      "1": "Cuando un personaje bajo el estado de cáliz de la abundancia recibe un <dendro>ataque Dendro</dendro>, la Maestría Elemental de todos los personajes cercanos aumenta en 60 pts. durante 10 s. Además, al causar una reacción de Florecimiento, se crearán núcleos feraces en lugar de núcleos Dendro.",
+      "0": "Si el equipo está formado únicamente por personajes <dendro>Dendro</dendro> o <hydro>Hydro</hydro> y hay al menos un personaje Dendro y uno Hydro en él, cuando Nilou completa el tercer paso de baile de <strong>Danza de los siete reinos</strong>, otorga a los personajes cercanos el estado de “cáliz de la abundancia” durante 30 s.",
+      "1": "Cuando un personaje bajo el estado de cáliz de la abundancia recibe un <dendro>ataque Dendro</dendro>, la Maestría Elemental de todos los personajes cercanos aumenta en 100 pts. durante 10 s. Además, al causar una reacción de Florecimiento, se crearán núcleos feraces en lugar de núcleos Dendro.",
       "2": "A diferencia de estos últimos, los núcleos feraces explotan rápidamente tras ser creados y tienen una mayor AdE.",
       "3": "Sin embargo, estos núcleos no pueden activar las reacciones de Sobreflorecimiento y Crepitar y comparten la misma limitación de cantidad que los núcleos Dendro. Los ataques de los núcleos feraces se consideran ataques de núcleos Dendro causados por la reacción de Florecimiento.",
       "4": "Cuando el equipo no cumple con los requisitos de los tipos elementales necesarios para este talento pasivo, se eliminarán los efectos de cáliz de la abundancia existentes."
@@ -113,8 +113,8 @@
   "passive2": {
     "name": "Sueño de la danza eónica",
     "description": {
-      "0": "Por cada 1000 pts. de Vida Máx. que Nilou tenga una vez superados los 30{NON_BREAK_SPACE}000 pts. de Vida Máx., el daño de los núcleos feraces creados por los personajes en el estado de cáliz de la abundancia aumenta en un 7%.",
-      "1": "El daño infligido con los núcleos feraces solo puede aumentar un máximo de 300% de esta manera."
+      "0": "Por cada 1000 pts. de Vida Máx. que Nilou tenga una vez superados los 30{NON_BREAK_SPACE}000 pts. de Vida Máx., el daño de los núcleos feraces creados por los personajes en el estado de cáliz de la abundancia aumenta en un 9%.",
+      "1": "El daño infligido con los núcleos feraces solo puede aumentar un máximo del 400% de esta manera."
     }
   },
   "passive3": {
@@ -124,7 +124,7 @@
     }
   },
   "constellation1": {
-    "name": "Danza de la luna cóncava",
+    "name": "Danza de la luna menguante",
     "description": {
       "0": "<strong>Danza de los siete reinos</strong> obtiene los siguientes fortalecimientos:",
       "1": [

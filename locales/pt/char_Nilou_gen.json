@@ -1,7 +1,7 @@
 {
   "name": "Nilou",
   "title": "Dança da Luz de Lótus",
-  "description": "A Estrela no Teatro Zubayr. Seu estilo de dança é alegre e elegante, e possui caráter pura e bondosa.",
+  "description": "A Estrela do Teatro Zubayr, ela é bondosa e inocente. Seu estilo de dança é alegre e elegante.",
   "constellationName": "Lotos Somno",
   "auto": {
     "name": "Dança da Meia-Lua",
@@ -42,17 +42,17 @@
     "name": "Dança dos Sete Reinos",
     "description": {
       "0": "Entra no estado de \"Pirueta\", infligindo <hydro>Dano Hydro</hydro> baseado na Vida Máxima de Nilou.",
-      "1": "Enquanto estiver no estado de Pirueta, quando Nilou desfere Ataques Normais ou lança sua Habilidade Elemental, entrará nas posições \"Dança de Espadas\" e \"Dança Rodopiante\" respectivamente, fazendo com que o Dano infligido seja convertido em <hydro>Dano Hydro</hydro> que não pode ser substituído, e é considerado Dano de Habilidade Elemental.",
+      "1": "Enquanto estiver no estado de Pirueta, ao desferir Ataques Normais ou lançar sua Habilidade Elemental, Nilou entrará nas posições \"Dança de Espadas\" e \"Dança Rodopiante\" respectivamente, fazendo com que o Dano infligido seja convertido em <hydro>Dano Hydro</hydro> que não pode ser substituído, e é considerado Dano de Habilidade Elemental.",
       "2": "<br/>",
-      "3": "Nesse estado, o terceiro movimento de dança de Nilou eliminará o estado de Pirueta e, de acordo com o tipo do terceiro movimento, desencadeará os seguintes efeitos:",
+      "3": "Nesse estado, o terceiro passo da dança de Nilou eliminará o estado de Pirueta e, de acordo com o tipo do terceiro passo, desencadeará os seguintes efeitos:",
       "4": [
-        " Dança da Espada: lança uma Lua Aquática, que inflige <hydro>Dano Hydro</hydro> contra os inimigos que atinge e faz Nilou entrar no estado \"Súplica Lunar\". Nesse estado, ao realizar um Ataque Normal, ela passará a fazer Dança da Espada, e ao realizar o último ataque, será lançada uma Lua Aquática;",
-        " Dança Rodopiante: lança uma Roda d'Água, infligindo <hydro>Dano Hydro em AdE</hydro>, e gerando uma Aura da Tranquilidade que segue o personagem ativo, continuamente aplicando o estado <hydro>Molhado</hydro> aos oponentes."
+        " Dança de Espadas: lança uma Lua Aquática, que inflige <hydro>Dano Hydro</hydro> contra os inimigos que atinge e faz Nilou entrar no estado \"Súplica Lunar\". Nesse estado, ao realizar Ataques Normais, eles serão convertidos em Dança de Espadas e, ao realizar o último ataque, será lançada uma Lua Aquática;",
+        " Dança Rodopiante: lança uma Roda d'Água, infligindo <hydro>Dano Hydro em AdE</hydro>, e gerando uma \"Aura da Tranquilidade\" que segue o personagem ativo, continuamente aplicando o estado <hydro>Molhado</hydro> aos oponentes."
       ],
       "5": "<br/>",
       "6": "Enquanto Nilou estiver no estado de Pirueta ou da Súplica Lunar, ela não poderá desferir Ataques Carregados; esses estados serão eliminados quando Nilou sair do campo de batalha.",
       "7": "<br/>",
-      "8": "<i>\"Seus dedos gentilmente tocam a superfície da água, e a luz das ondulações é como a dos sete céus.\"</i>"
+      "8": "<i>\"Quando seus pés delicados tocam suavemente a água, ela cria ondulações tão resplandecentes quanto os sete céus.\"</i>"
     },
     "skillParams": {
       "0": "Dano de Habilidade",
@@ -103,18 +103,19 @@
   "passive1": {
     "name": "Corte das Pétalas Dançantes",
     "description": {
-      "0": "Quando todos os personagens da equipe são do tipo elemental <dendro>Dendro</dendro> ou <hydro>Hydro</hydro>, e quando há pelo menos um personagem Dendro e Hydro, ao completar a terceira etapa da <strong>Dança dos Sete Reinos</strong>, Nilou concede a todos os membros próximos da equipe o estado \"Recompensa do Cálice Dourado\" que dura por 30s.",
-      "1": "Personagens que estão sob o estado Recompensa do Cálice Dourado, ao sofrerem um <dendro>Ataque Dendro</dendro>, aumentarão a Proficiência Elemental de todos os personagens próximos em 60 por 10s; além disso, ao desencadearem a reação de Florescimento, substituirão a criação de um Núcleo Dendro por um \"Núcleo da Riqueza\".",
-      "2": "Diferente do Núcleo Dendro, o Núcleo da Riqueza explode e tem uma AdE maior.",
-      "3": "O Núcleo da Riqueza não pode desencadear as reações de Germinação e Superflorescimento, e compartilha o limite de quantidade com os Núcleos Dendro. O Dano do Núcleo da Riqueza é considerado como Dano de Núcleo Dendro criado pela reação de Florescimento.",
-      "4": "Quando os requisitos de Talento Passivo de tipo de elementos dos personagens da equipe não forem atendidos, os efeitos da Recompensa do Cálice Dourado existentes serão removidos."
+      "0": "Quando todos os personagens da equipe são do tipo elemental <dendro>Dendro</dendro> e <hydro>Hydro</hydro>, e quando há pelo menos um personagem Dendro e Hydro:",
+      "1": "Ao completar a terceira etapa da <strong>Dança dos Sete Reinos</strong>, Nilou concede a todos os membros próximos da equipe o estado \"Recompensa do Cálice Dourado\" que dura por 30s.",
+      "2": "Personagens que estão sob o estado Recompensa do Cálice Dourado, ao sofrerem um <dendro>Ataque Dendro</dendro>, aumentarão a Proficiência Elemental de todos os personagens próximos em 100 por 10s; além disso, ao desencadearem a reação de Florescimento, substituirão a criação de um Núcleo Dendro por um \"Núcleo da Riqueza\".",
+      "3": "Diferente do Núcleo Dendro, o Núcleo da Riqueza explode rapidamente e tem uma AdE maior.",
+      "4": "O Núcleo da Riqueza não pode desencadear as reações de Germinação e Superflorescimento, e compartilha o limite de quantidade com os Núcleos Dendro. O Dano do Núcleo da Riqueza é considerado como Dano de Núcleo Dendro criado pela reação de Florescimento.",
+      "5": "Quando os requisitos de Talento Passivo do tipo de elementos dos personagens da equipe não forem atendidos, os efeitos da Recompensa do Cálice Dourado existentes serão removidos."
     }
   },
   "passive2": {
     "name": "Sonhos da Dança de Eras",
     "description": {
-      "0": "Para cada 1.000 pontos de Vida Máxima de Nilou acima de 30.000, aumenta o Dano infligido pelos Núcleos da Riqueza criados pelos personagens sob o estado de \"Recompensa do Cálice Dourado\" em 7%.",
-      "1": "O aumento de Dano infligido pelos Núcleos da Riqueza desta forma pode ser de até 300%."
+      "0": "Para cada 1.000 pontos de Vida Máxima de Nilou acima de 30.000, aumenta o Dano infligido pelos Núcleos da Riqueza criados pelos personagens sob o estado de \"Recompensa do Cálice Dourado\" em 9%.",
+      "1": "O aumento de Dano infligido pelos Núcleos da Riqueza desta forma pode ser de até 400%."
     }
   },
   "passive3": {
@@ -128,13 +129,13 @@
     "description": {
       "0": "A <strong>Dança dos Sete Reinos</strong> obtém os seguintes fortalecimentos:",
       "1": "Aumenta o Dano CRIT de Lua Aquática em 65%.",
-      "2": "A AdE da Aura da Tranquilidade é aumentada em 6s."
+      "2": "A Duração da Aura da Tranquilidade é aumentada em 6s."
     }
   },
   "constellation2": {
     "name": "Chuva Florestelar",
     "description": {
-      "0": "Quando um personagem que foi afetado pelo efeito de \"Recompensa do Cálice Dourado\", causa <hydro>Dano Hydro</hydro> aos oponentes a <hydro>RES Hydro</hydro> deles será reduzida em 35% por 10s. Quando um oponente recebe Dano de uma reação de Florescimento, a <dendro>RES Dendro</dendro> deles é reduzida em 35% por 10s.",
+      "0": "Quando um personagem que foi afetado pelo efeito de \"Recompensa do Cálice Dourado\" inflige <hydro>Dano Hydro</hydro> contra um inimigo, a <hydro>RES Hydro</hydro> desse inimigo será reduzida em 35% por 10s. Quando um inimigo sofre Dano de uma reação de Florescimento, a <dendro>RES Dendro</dendro> dele é reduzida em 35% por 10s.",
       "1": "É necessário ter desbloqueado o Talento \"Corte das Pétalas Dançantes\"."
     }
   },
@@ -148,7 +149,7 @@
   "constellation4": {
     "name": "Pulso Sibilante",
     "description": {
-      "0": "Após o terceiro passo da Pirueta da <strong>Dança dos Sete Reinos</strong> acertar o oponente, Nilou regenerará 15 de Energia Elemental, e o Dano de sua <strong>Dança da Lótus: Nascente Longínqua Onírica</strong> aumentará em 50% por 8s."
+      "0": "Após o terceiro passo do estado Pirueta da <strong>Dança dos Sete Reinos</strong> acertar o oponente, Nilou regenerará 15 de Energia Elemental, e o Dano de sua <strong>Dança da Lótus: Nascente Longínqua Onírica</strong> aumentará em 50% por 8s."
     }
   },
   "constellation5": {
@@ -161,7 +162,7 @@
   "constellation6": {
     "name": "Melodia Rompegelo",
     "description": {
-      "0": "A cada 1000 pontos de Vida Máxima de Nilou, aumenta a sua Taxa CRIT em 0.6% e seu Dano CRIT em 1.2%.",
+      "0": "A cada 1.000 pontos de Vida Máxima de Nilou, aumenta a sua Taxa CRIT em 0.6% e seu Dano CRIT em 1.2%.",
       "1": "O aumento máximo de Taxa CRIT é de 30% e de Dano CRIT é de 60%."
     }
   }

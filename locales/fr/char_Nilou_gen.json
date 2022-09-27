@@ -103,18 +103,19 @@
   "passive1": {
     "name": "Cour des pétales dansants",
     "description": {
-      "0": "Lorsque tous les personnages de l'équipe sont de l'élément <dendro>Dendro</dendro> ou <hydro>Hydro</hydro> et qu'il y a au moins un personnage Dendro et un personnage Hydro, le troisième pas de la <strong>Danse des haftkarsvars</strong> de Nilou accorde à tous les personnages à proximité l'effet Prime du calice d'or pendant 30 s.",
-      "1": "Lorsqu'un personnage sous l'effet de Prime du calice d'or subit une <dendro>attaque Dendro</dendro>, la maîtrise élémentaire de tous les personnages à proximité augmente de 60 pts pendant 10 s. De plus, déclencher une réaction de Fleurissement permet de créer des noyaux d'abondance au lieu de noyaux Dendro.",
-      "2": "Comparés aux noyaux Dendro, ces noyaux d'abondance éclatent très rapidement après avoir été créés et possèdent une zone d'effet plus grande.",
-      "3": "Les noyaux d'abondance ne peuvent pas déclencher de réactions d'Exubérance ou de Bourgeonnement et partagent une limite avec les noyaux Dendro. Les attaques des noyaux d'abondance sont considérées comme étant des attaques infligées par les noyaux Dendro générés par la réaction de Fleurissement.",
-      "4": "Quand le type élémentaire des personnages de l'équipe ne remplit pas les conditions de cette aptitude passive, tous les effets existants de Prime du calice d'or sont annulés."
+      "0": "Lorsque les personnages de l'équipe sont de l'élément <dendro>Dendro</dendro> ou <hydro>Hydro</hydro> et qu'il y a au moins un personnage Dendro et un personnage Hydro :",
+      "1": "Le troisième pas de la <strong>Danse des haftkarsvars</strong> de Nilou accorde à tous les personnages à proximité l'effet Prime du calice d'or pendant 30{NON_BREAK_SPACE}s.",
+      "2": "Lorsqu'un personnage sous l'effet de Prime du calice d'or subit une <dendro>attaque Dendro</dendro>, la maîtrise élémentaire de tous les personnages à proximité augmente de 100 pts pendant 10 s. De plus, déclencher une réaction de Fleurissement permet de créer des noyaux d'abondance au lieu de noyaux Dendro.",
+      "3": "Comparés aux noyaux Dendro, ces noyaux d'abondance éclatent très rapidement après avoir été créés et possèdent une zone d'effet plus grande.",
+      "4": "Les noyaux d'abondance ne peuvent pas déclencher de réactions d'Exubérance ou de Bourgeonnement et partagent une limite avec les noyaux Dendro. Les attaques des noyaux d'abondance sont considérées comme étant des attaques infligées par les noyaux Dendro générés par la réaction de Fleurissement.",
+      "5": "Quand le type élémentaire des personnages de l'équipe ne remplit pas les conditions de cette aptitude passive, tous les effets existants de Prime du calice d'or sont annulés."
     }
   },
   "passive2": {
     "name": "Danse onirique des éons",
     "description": {
-      "0": "Pour chaque tranche de 1 000 au-dessus de 30 000 PV max que Nilou possède, les DGT infligés par les noyaux d'abondance déclenchés par les personnages sous l'effet de Prime du calice d'or augmentent de 7 %.",
-      "1": "Les DGT des noyaux d'abondance peuvent être augmentés d'un maximum de 300 % de cette manière."
+      "0": "Pour chaque tranche de 1 000 au-dessus de 30 000 PV max que Nilou possède, les DGT infligés par les noyaux d'abondance déclenchés par les personnages sous l'effet de Prime du calice d'or augmentent de 9 %.",
+      "1": "Les DGT des noyaux d'abondance peuvent être augmentés d'un maximum de 400 % de cette manière."
     }
   },
   "passive3": {
@@ -128,7 +129,7 @@
     "description": {
       "0": "<strong>Danse des haftkarsvars</strong> bénéficie des améliorations suivantes :",
       "1": [
-        " Les DGT infligés par la lune aqueuse augmentent de 80 %.",
+        " Les DGT infligés par la lune aqueuse augmentent de 65 %.",
         " La durée de l'aura de tranquillité augmente de 6 s."
       ]
     }
