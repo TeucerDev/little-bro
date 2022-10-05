@@ -187,6 +187,18 @@
     "name": "Cảm Hứng Chiến Lược",
     "description": "Tài liệu ghi chép các lý thuyết kinh doanh và các trường hợp kinh doanh khác nhau, đối với những người có kinh nghiệm, mỗi trang mỗi câu chữ đều có thể đem lại cảm hứng để họ cải thiện chiến lược kinh doanh của tiệm mình."
   },
+  "MushroomCurrency": {
+    "name": "Tiền Nấm",
+    "description": ""
+  },
+  "FungusMedal": {
+    "name": "Huy Chương Nấm",
+    "description": ""
+  },
+  "ShatteredPhenocryst": {
+    "name": "Tinh Thể Vỡ Vụn",
+    "description": "Tinh thể tìm được sau khi đánh bại Nguyên Tố Nguyên Bản mạnh mẽ trong bí cảnh thần bí, màu sắc đẹp đẽ như dấu tích nguyên tố tan biến để lại.\\nTrong sự kiện \"Giao Hưởng Nguyên Bản - Sonata\", có thể dùng để đổi vật tư quý giá."
+  },
   "Primogem": {
     "name": "Nguyên Thạch",
     "description": "Tinh Thạch Nguyên Thủy, nằm trong vũ trụ hắc ám, ánh sáng được kết tinh từ hy vọng và mộng tưởng."
@@ -531,6 +543,14 @@
     "name": "Candace",
     "description": "Hậu duệ của Vua Deshret với con mắt bên trái màu hổ phách, là người thủ hộ của Làng Aaru."
   },
+  "Nahida": {
+    "name": "Nahida",
+    "description": "Chờ bổ sung"
+  },
+  "Layla": {
+    "name": "Layla",
+    "description": "Chờ Bổ Sung"
+  },
   "KamisatoAyakasStellaFortuna": {
     "name": "Chòm Sao Của Kamisato Ayaka",
     "description": "Nguyên liệu kích hoạt cung mệnh Kamisato Ayaka"
@@ -762,6 +782,14 @@
   "CandacesStellaFortuna": {
     "name": "Chòm Sao Của Candace",
     "description": "Nguyên liệu kích hoạt cung mệnh Candace"
+  },
+  "NahidasStellaFortuna": {
+    "name": "Chòm Sao Của Nahida",
+    "description": "Nguyên liệu kích hoạt cung mệnh Nahida"
+  },
+  "LaylasStellaFortuna": {
+    "name": "Chòm Sao Của Layla",
+    "description": "Nguyên liệu kích hoạt cung mệnh Layla"
   },
   "GnosticHymnOldNotes": {
     "name": "Nhật Ký Hành Trình Trân Châu - Khởi Đầu",
@@ -3283,10 +3311,6 @@
     "name": "Chìa Khóa Gỉ Sét",
     "description": "Chìa khóa cũ tìm thấy dưới giếng Làng Konda.\\nCó câu \"Nếu đã có chìa khóa, thì chắc chắn có ổ khóa\". Không biết ổ khóa này đang ở nơi nào."
   },
-  "MaskOfMemories": {
-    "name": "Mặt Nạ Đầy Ký Ức",
-    "description": "Mặt nạ mà pháp sư \"Hanachirusato\" đã từng đeo, có những vết sẫm màu ở bên trong.\\nTrong đó chứa đựng một phần ký ức, thông qua phần ký ức này có thể học được cách rèn pháp khí \"Vòng Bạch Thần\".\\nBây giờ mặt nạ đã không còn thuộc về Hanachirusato nữa, Paimon cũng sẽ không gọi cô ấy là \"Pháp Sư Mặt Nạ\" nữa."
-  },
   "TheVioletOnisBlade": {
     "name": "Thanh Đao \"Tử Quỷ\"",
     "description": "Thanh đao yêu dấu mà Yanagiha Arashi - đệ tử Trường Phái Iwakura đã từng sử dụng.\\nLà bản sao của một thanh đao nào đó, được đúc lại sau khi đã vỡ nát. Là một cặp với thanh đao của Okazaki Toraemon."
@@ -3609,7 +3633,7 @@
   },
   "SecretNotes": {
     "name": "Nhật Ký Bí Mật",
-    "description": "Nhật Ký Của Kokomi (test)"
+    "description": ""
   },
   "HighQualityRice": {
     "name": "Lúa Nước Hảo Hạng",
@@ -4933,7 +4957,7 @@
   },
   "TheSongGatherersFlowers": {
     "name": "Hoa Người Lấy Nhạc",
-    "description": "Hoa của những Người Lấy Nhạc khác tặng.\\nDù bầu trời hay mặt đất có tối tăm đến thế nào, chỉ cần trái tim bạn luôn như mặt trời, tỏa ra ánh sáng vàng ấm áp, thì sẽ luôn có hy vọng.\""
+    "description": "Hoa của những Người Lấy Nhạc tặng.\\n\"Dù bầu trời hay mặt đất có tối tăm đến thế nào, chỉ cần trái tim bạn luôn như mặt trời, tỏa ra ánh sáng vàng ấm áp, thì sẽ luôn có hy vọng.\""
   },
   "AralilaAndAranishatsFlowers": {
     "name": "Hoa Aralila Và Aranishat",
@@ -7771,6 +7795,26 @@
     "name": "Nước Trái Cây Sủi Bọt",
     "description": "Thức uống không cồn hoàn toàn mới. Quả Dâu Đỏ có độ chín khác nhau tạo nên dư vị từ ngọt đến chua cho nước ép, nước có ga mát lạnh làm sảng khoái tâm hồn, đồng hành cùng bạn để tận hưởng khoảng thời gian giải trí thú vị."
   },
+  "SuspiciousRoseCustard": {
+    "name": "Sữa Trứng Tường Vi Kỳ Lạ",
+    "description": "Món tráng miệng làm từ sữa lên men, nhìn thì ngon nhưng ăn vào thì... chua đến ê cả răng. Việc thiếu gia vị có thể giải quyết bằng cách cho thêm đường, nhưng nỗi sợ chua kéo dài trong lòng bạn không thể nào nguôi ngoai được."
+  },
+  "RoseCustard": {
+    "name": "Sữa Trứng Tường Vi",
+    "description": "Món tráng miệng làm từ sữa lên men. Sữa lên men xong đem lọc, sau khi làm sữa chua, trộn với đường, trang trí bằng tường vi khô và các loại hạt. Cách ăn này ban đầu chỉ phổ biến ở những nhà thám hiểm và thương nhân bôn ba khắp nơi. Nhưng giờ nó đã lưu truyền khắp Sumeru, có thể thấy bóng dáng của nó trong bữa ăn sáng và cả món tráng miệng buổi chiều."
+  },
+  "DeliciousRoseCustard": {
+    "name": "Sữa Trứng Tường Vi Ngon",
+    "description": "Món tráng miệng được làm từ sữa lên men. Sữa đông đặc, cánh hoa tươi và các loại hạt mềm mịn hòa quyện với nhau tạo nên hương vị êm dịu và ngọt ngào. Điều khiến bạn mê đắm trong cổ họng là hương sữa thoảng qua và điều đọng lại trong tim bạn là hương hoa ngập tràn lúc này."
+  },
+  "ExtravagantSlumber": {
+    "name": "Giấc Ngủ Xa Hoa",
+    "description": "Món ăn đặc sắc của Layla. Những quả hạch rải rác giống như những vì sao điểm xuyết trong đêm khuya tĩnh lặng. Nếm thử một miếng, thân thể bôn ba cả ngày bỗng cảm thấy được bình yên. Sau khi nói cho Layla biết cảm nhận, cô ấy lộ ra vẻ mặt phức tạp cả vui lẫn hối tiếc... \"Tốt, tối quá! Ôi, nếu như cũng hiệu quả với tôi thì tốt quá.\""
+  },
+  "Halvamazd": {
+    "name": "Halvamazd",
+    "description": "Món ăn đặc sắc của Nahida. Nghe nói \"mazd\" có nghĩa là \"trí tuệ\" ở Sumeru, \"trí tuệ\" tinh tế linh hoạt như vậy, thật khiến người ta không thể từ chối được. Ánh mắt của Nahida chứa nụ cười dịu dàng: \"Hải quỳ giúp và chứng kiến cho sự trưởng thành của cá, món quà nho nhỏ của cá cũng là lẽ đương nhiên.\""
+  },
   "RecipeItem": {
     "name": "Đạo Cụ Công Thức",
     "description": "Mở Đạo Cụ Công Thức"
@@ -8306,6 +8350,10 @@
   "RecipeFruitsOfTheFestival": {
     "name": "Công Thức: Hương Vị Lễ Hội",
     "description": "Công thức món ăn, ghi lại cách làm món \"Hương Vị Lễ Hội\""
+  },
+  "RecipeRoseCustard": {
+    "name": "Công Thức: Sữa Trứng Tường Vi",
+    "description": "Công thức món ăn, ghi lại cách làm món \"Sữa Trứng Tường Vi\""
   },
   "CraftedItems": {
     "name": "Sản Phẩm Ghép",
@@ -8902,6 +8950,10 @@
   "LightGuidingTetrahedron": {
     "name": "Khối Tứ Diện Dẫn Sáng",
     "description": "Hạt nhân nhận được sau khi đánh bại tổ hợp cơ quan thần bí.\\nCho đến bây giờ, cỗ máy cổ xưa vẫn không bao giờ quên ước mơ của chủ nhân và trách nhiệm của nó: Xây dựng một nghìn cung điện, cai trị hơn ba nghìn cỗ máy, trồng mười nghìn bông hoa bây giờ không còn nở nữa, tái hiện \"thiên đường\" bị chôn vùi trong biển cát cho tất cả các linh hồn trên mặt đất.\\nNgay cả khi vị vua của sa mạc không còn nữa, những giấc mơ bị hủy hoại bởi những lời thì thầm của tội lỗi sâu thẳm; Ngay cả khi tất cả các trụ cột ma thuật hoàn toàn bị phá vỡ và sụp đổ, con thú từng được nhà vua sủng ái vẫn ẩn mình trong cơn bão cát nóng."
+  },
+  "QuelledCreeper": {
+    "name": "Dây Leo Chế Ngự",
+    "description": "Hình thái cuối cùng mà Thảo Nguyên Bản ngưng tụ thành, tinh thể nguyên tố thuần túy được bao bọc dưới lớp dây leo.\\nNguyên tố Thảo nghịch lý nhất, nhưng cũng rất thích nghi nhất với sự sống, vốn dĩ không nên kết hợp với Nguyên Tố Nguyên Bản xa xưa nhất với hình thái xa cách mọi sự sống để xuất hiện trên mặt đất này. Có nhận định cho rằng Nguyên Tố Nguyên Bản có trí tuệ \"học tập\", cho nên đã hiểu được sự đặc sắc và giấc mơ của rừng sâu. Trải qua hơn ngàn năm, cũng đã biến thành hình thái thế này."
   },
   "TileOfDecarabiansTower": {
     "name": "Ngói Vỡ Tháp Cô Vương",
@@ -10683,6 +10735,10 @@
     "name": "Thành Tựu - Giấc Mơ Phản Chiếu",
     "description": "Hoa văn danh thiếp.\\nNgàn năm kiêu ngạo và những ước nguyện buồn bã đều đã tan biến trong cát đêm rực cháy. Nhưng ốc đảo vĩnh hằng trong giấc mơ của cô vẫn mềm mại và tươi tốt như ngày nào...\""
   },
+  "TravelNotesFungusLand": {
+    "name": "Nhật Ký Hành Trình Rừng Nấm",
+    "description": "Hoa văn danh thiếp.\\n\"...Nhà Lữ Hành, đừng đau lòng, vì cơn gió bình minh đó sẽ mang theo bào tử nấm của giấc mơ đẹp, thổi đến cánh đồng trong khao khát của bạn...\""
+  },
   "AnemoculusResonanceStone": {
     "name": "Đá Cộng Hưởng Phong Thần Đồng",
     "description": "Khi sử dụng ở Mondstadt, có thể tìm được \"Mảnh Phong Thần Đồng\" ở gần đó.\\nLà đĩa đá do con người tạo ra có tính chất tương tự như Thất Thiên Thần Tượng Phong, cộng hưởng với Phong Thần Đồng.\\nĐá Cộng Hưởng Thần Đồng là những vật mô phỏng không hoàn hảo so với chất liệu gây dựng Thất Thiên Thần Tượng được người xưa đặt khắp đại lục. Chính vì sự không hoàn hảo, mới khao khát sức mạnh của Thần Đồng, tạo cơ hội cho những người thành kính và nhà mạo hiểm tìm kiếm Thần Đồng."
@@ -10915,6 +10971,10 @@
     "name": "\"Máy Ảnh Bọt Nước Trong Vắt\"",
     "description": "Khi sử dụng, sẽ ghi và lưu trữ lại bối cảnh hiện tại, và điều chỉnh màu sắc đặc biệt cho bức ảnh.\\nMột thiết bị lạ không rõ nguồn gốc. Những bức ảnh mà nó chụp có một hiệu ứng đặc biệt. Ai có thể nghĩ rằng một chiếc máy không có nước bên trong lại có thể tạo ra những bức ảnh có bong bóng vui nhộn, làm cho bức ảnh có cảm giác kỳ ảo.\\nVì vậy, một đội trưởng kỵ binh nào đó từng hình dung chiếc máy này là \"nắm bắt được kỳ vọng của mọi người về sự mát mẻ.\""
   },
+  "WisdomOrb": {
+    "name": "Ngọc Trí Tuệ",
+    "description": "Đạo cụ quan trọng mà ban tổ chức Giải Đấu Luyện Thú Cúp Hoa Sen Nilotpala đã cung cấp, có thể bắt, dung nạp và chỉ huy Nấm Quỷ có linh tính, nghe nói là phát minh của học giả Kautlia. Chỉ khi thuần thục sử dụng đạo cụ này, mới được tham gia Giải Đấu Luyện Thú Cúp Hoa Sen Nilotpala. Có điều, đạo cụ này cứ có cảm giác quen thuộc, dường như đã thấy ở đâu rồi..."
+  },
   "CloudRetainersDamaskedDevice": {
     "name": "Cơ Quan Giấy Lụa - Lưu Vân",
     "description": "Một cơ quan nhẹ được làm bằng giấy và trông giống như một con chim, do Lưu Vân Tá Phong Chân Quân ban tặng.\\nMặc dù nói là \"cơ quan\", nhưng nhìn từ bên ngoài hầu như không thấy cấu trúc cơ quan truyền thống nào cả.\\n\"Cơ quan thuật\" của vị tiên nhân đó hình như lại tiến thêm một bước rồi..."
@@ -10987,6 +11047,10 @@
     "name": "Bản vẽ: Bình Phát Nhiệt",
     "description": "Bản vẽ ghi rõ từng bước làm \"Bình Phát Nhiệt\". Có thể dùng để chế tạo đạo cụ chống lạnh."
   },
+  "MaskOfMemories": {
+    "name": "Mặt Nạ Đầy Ký Ức",
+    "description": "Mặt nạ mà pháp sư \"Hanachirusato\" đã từng đeo, có những vết sẫm màu ở bên trong.\\nTrong đó chứa đựng một phần ký ức, thông qua phần ký ức này có thể học được cách rèn pháp khí \"Vòng Bạch Thần\".\\nBây giờ mặt nạ đã không còn thuộc về Hanachirusato nữa, Paimon cũng sẽ không gọi cô ấy là \"Pháp Sư Mặt Nạ\" nữa."
+  },
   "TaleOfTheForestKing": {
     "name": "Câu Chuyện Về Vua Rừng Sâu",
     "description": "Thông qua câu chuyện này, có thể nắm được cách chế tạo trọng kiếm \"Vương Khí Rừng Sâu\".\\n\\nCâu chuyện này kể về Vua Rừng Sâu.\\n\"Rất nhiều rất nhiều mặt trăng trước, khu rừng là một mê cung khổng lồ...\""
@@ -11046,6 +11110,10 @@
   "SilkenPrint": {
     "name": "\"Dấu Ấn Sắc Màu\"",
     "description": "Thẻ cầu nguyện được trang trí bằng tranh, điêu khắc từ Gỗ Mơ Mộng thượng hạng, mô tả phong cảnh tươi đẹp của Inazuma.\\nMượn \"sức mạnh ngoại cảnh\" để đưa cảnh sắc tao nhã trong tranh vào trong Ấm Trần Ca..."
+  },
+  "NaturesTrueFruit": {
+    "name": "Hoa Quả Của Rừng Rậm",
+    "description": "Loài quả mang hương thơm kỳ diệu, là món quà kỷ niệm mà Tiên Ấm Chu Du Chubby đã mang về từ Sumeru.\\nNgửi nhẹ hương thơm của loại quả này, trong đầu dường như sẽ hiện ra một cảnh tượng nào đó. Mượn \"sức mạnh ngoại cảnh\" có thể xây dựng nên cảnh sắc Sumeru kỳ diệu..."
   },
   "TheMountainCloudsLetDownGoldenRain": {
     "name": "Mây Trôi Nghìn Trùng Đón Tiếng Mưa",

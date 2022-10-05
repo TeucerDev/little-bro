@@ -187,6 +187,18 @@
     "name": "Inspiration stratégique",
     "description": "Matériaux contenant diverses théories et études de cas liées à la pratique commerciale. Pour ceux qui ont l'expérience appropriée, chaque page et chaque mot est rempli d'inspiration potentielle pour s'améliorer..."
   },
+  "MushroomCurrency": {
+    "name": "Pièce fongique",
+    "description": ""
+  },
+  "FungusMedal": {
+    "name": "Médaille mycophile",
+    "description": ""
+  },
+  "ShatteredPhenocryst": {
+    "name": "Phénocristal brisé",
+    "description": "Une mystérieuse substance cristalline que vous avez obtenue après avoir vaincu les puissantes Hypostases dans un donjon que nul n'a encore découvert. Ses jolies couleurs rappellent les vestiges lumière que laissent les éléments en se dispersant.\\nCet objet peut être échangé contre de précieuses ressources lors de l'événement « Symphonie Hypostase : Sonate »."
+  },
   "Primogem": {
     "name": "Primo-gemme",
     "description": "Une gemme cristalline originelle qui brille grâce à la condensation des espoirs et des rêves des univers d'autrefois."
@@ -531,6 +543,14 @@
     "name": "Candace",
     "description": "Descendante du roi Deshret avec un œil gauche de couleur ambre, c'est la protectrice du Village d'Aaru."
   },
+  "Nahida": {
+    "name": "Nahida",
+    "description": "En attente"
+  },
+  "Layla": {
+    "name": "Layla",
+    "description": "En attente"
+  },
   "KamisatoAyakasStellaFortuna": {
     "name": "Stella Fortuna de Kamisato Ayaka.",
     "description": "Matériau d'activation de la constellation d'Ayaka."
@@ -762,6 +782,14 @@
   "CandacesStellaFortuna": {
     "name": "Stella Fortuna de Candace",
     "description": "Matériau d'activation de la constellation de Candace."
+  },
+  "NahidasStellaFortuna": {
+    "name": "Stella Fortuna de Nahida",
+    "description": "Matériau d'activation de la constellation de Nahida."
+  },
+  "LaylasStellaFortuna": {
+    "name": "Stella Fortuna de Layla",
+    "description": "Matériau d'activation de la constellation de Layla."
   },
   "GnosticHymnOldNotes": {
     "name": "Pass de bataille « Gnostique » - Ébauche",
@@ -3283,10 +3311,6 @@
     "name": "Clé usée par la rouille",
     "description": "Une vieille clé trouvée au fond du puits du Village de Konda. On dit que « là où il y a une clé, il y a une serrure à ouvrir ». Qui sait où se trouve la serrure de cette clé..."
   },
-  "MaskOfMemories": {
-    "name": "",
-    "description": "Hanachirusato, la prêtresse du sanctuaire, portait ce masque auparavant. Il est profondément taché.\\nLes souvenirs qu'il contient permettent d'apprendre à fabriquer le catalyseur connu sous le nom d'« Anneau des Hakushin ».\\nMaintenant que Hanachirusato n'a plus ce masque, Paimon ne pourra plus l'appeler « prêtresse masquée »..."
-  },
   "TheVioletOnisBlade": {
     "name": "Épée de l'Oni violine",
     "description": "L'épée préférée de Yanagiha Arashi, un membre banni de l'École Iwakura.\\nC'est une copie d'une certaine épée célèbre, qui a été reforgée après avoir été brisée. Elle va de pair avec l'arme d'Okazaki Toraemon."
@@ -3609,7 +3633,7 @@
   },
   "SecretNotes": {
     "name": "Notes secrètes",
-    "description": "心海写的日记（test）"
+    "description": ""
   },
   "HighQualityRice": {
     "name": "Riz de qualité",
@@ -6492,8 +6516,8 @@
     "description": "Une boisson typique de Liyue. Explorer une région aussi vaste que Liyue demande de l'énergie, et on aimerait que chaque tasse de thé que l'on prend sur la route soit de plus en plus grande."
   },
   "WolfhookJuice": {
-    "name": "Jus de baies à crochet glacé",
-    "description": "Une boisson fraîche non alcoolisée très en vogue dernièrement. Ajoutez quelques glaçons dans du jus de baies à crochet fraîchement pressé et mélangez pour lui faire prendre une couleur violette."
+    "name": "Jus de baie à crochet glacé",
+    "description": "Une boisson fraîche non alcoolisée très en vogue dernièrement. Ajoutez quelques glaçons dans du jus de baie à crochet fraîchement pressé et mélangez pour lui faire prendre une couleur violette."
   },
   "BerryMintBurst": {
     "name": "Boisson aux baies et à la menthe",
@@ -7771,6 +7795,26 @@
     "name": "Jus de tombaie pétillant",
     "description": "Une boisson non alcoolisée qui vient de sortir. Des tombaies de maturités différentes sont utilisées pour sa préparation, ce qui lui donne un goût aigre-doux, tandis que l'eau pétillante glaciale vient rafraîchir les sens. Cette boisson est idéale pour accompagner vos moments de détente."
   },
+  "SuspiciousRoseCustard": {
+    "name": "Crème à la rose (suspecte)",
+    "description": "Un dessert confectionné à partir de lait fermenté. Il a l'air normal en apparence, mais vos dents seront attaquées par son acidité. L'absence de goût peut se rattraper en ajoutant un peu plus de sucre. Cependant, vous n'êtes pas près d'oublier cet arrière-goût désagréable."
+  },
+  "RoseCustard": {
+    "name": "Crème à la rose",
+    "description": "Un dessert confectionné à partir de lait fermenté. Une fois que le lait fermenté est filtré pour faire du yaourt, ajoutez du sucre et mélangez bien avant d'y incorporer des roses séchées et des fruits secs. Cet encas qui était autrefois seulement apprécié des aventuriers et des marchants ambulants, est servi pour le petit déjeuner et le thé à travers tout Sumeru."
+  },
+  "DeliciousRoseCustard": {
+    "name": "Crème à la rose (délicieuse)",
+    "description": "Un dessert confectionné à partir de lait fermenté. Lorsqu'ils sont mélangés, le lait caillé, les pétales parfumés et les fruits secs craquants créent une saveur douce et sucrée. C'est comme si vous la fragrance des fleurs d'antan vous chatouillaient les sens lorsque vous avalez ce délice lacté."
+  },
+  "ExtravagantSlumber": {
+    "name": "Sommeil extravagant",
+    "description": "Spécialité culinaire de Layla. Les fruits secs éparpillés rappellent des étoiles dans le ciel nocturne tranquille. Une bouchée suffit à détendre et apaiser votre corps et votre esprit après une longue journée de labeur. Après avoir dit à Layla ce que son plat vous inspirait, un air mêlant joie et regret apparait sur son visage : « C—C'est génial ! J'aurais aimé que ça me fasse le même effet. »"
+  },
+  "Halvamazd": {
+    "name": "Halvamazd",
+    "description": "Spécialité culinaire de Nahida. Le terme « mazd » signifie sagesse en sumérien et personne ne peut résister à ce genre de « sagesse ». Un sourire apparaît dans les yeux de Nahida : « L'anémone de mer a aidé le petit poisson à grandir, et ce dernier veut évidemment lui rendre la pareille. »"
+  },
   "RecipeItem": {
     "name": "Ingrédient",
     "description": "Objet pour débloquer des recettes"
@@ -8306,6 +8350,10 @@
   "RecipeFruitsOfTheFestival": {
     "name": "Recette : Jus de fruits du festival",
     "description": "Étapes de préparation du jus de fruits du festival."
+  },
+  "RecipeRoseCustard": {
+    "name": "Recette : Crème à la rose",
+    "description": "Étapes de préparation de la crème à la rose."
   },
   "CraftedItems": {
     "name": "Produit synthétisé",
@@ -8902,6 +8950,10 @@
   "LightGuidingTetrahedron": {
     "name": "Tétraèdre de lumière",
     "description": "Un composant essentiel que vous avez obtenu après avoir vaincu un mystérieux ensemble de mécanismes.\\nJusqu'à nos jours, ces anciennes machines n'ont pas oublié les rêves de leurs maîtres ni leurs devoirs : construire mille palais, administrer trois mille machines, semer dix mille fleurs qui ne fleuriront plus jamais, et recréer un paradis désormais enfoui sous les sables du désert pour le bien de tous ceux qui vivent dans ce monde.\\nBien que le roi du désert ne soit plus, que son rêve ait été depuis longtemps corrompu par des murmures impies et que tous les piliers magiques aient été brisés avant de s'effondrer, l'immense créature des temps anciens que le roi appréciait tant se cache toujours au sein des tempêtes de sable brûlantes."
+  },
+  "QuelledCreeper": {
+    "name": "Liane d'oblitération",
+    "description": "La forme finale condensée d'une Hypostase Dendro. Des lianes robustes protègent un cristal élémentaire pur.\\nL'élément Dendro, dont l'existence est la plus opposée à l'ordre naturel des choses, mais l'élément le plus compatible avec la vie, et une Hypostase, un être élémentaire très éloigné de toutes les autres formes de vie, n'auraient pas dû avoir la possibilité de ne faire qu'un dans ce monde. On raconte qu'une Hypostase est capable d'« apprendre » de leur environnement. C'est pour cette raison que les rêves et les nuances de la forêt n'ont aucun secret pour celle-ci en particulier. Sa forme actuelle est le fruit de milliers d'années de transformation."
   },
   "TileOfDecarabiansTower": {
     "name": "Tuile cassée de Décabarian",
@@ -10683,6 +10735,10 @@
     "name": "Succès - Rêves reflétés",
     "description": "Thème.\\n« Un millénaire d'obsession et de nostalgie tragique s'est perdu depuis longtemps dans les tempêtes de sable de ces nuits flamboyantes. Mais l'éternelle oasis verdoyante de ses rêves est, selon toute vraisemblance, aussi douce qu'elle l'était au premier jour... »"
   },
+  "TravelNotesFungusLand": {
+    "name": "PB - Fongisme",
+    "description": "Thème.\\n« ... {M#Voyageur}{F#Voyageuse}, nul besoin d'être triste. À l'aube, un nouveau vent soufflera les spores qui transportent de merveilleux rêves vers tes terres d'espoir... »"
+  },
   "AnemoculusResonanceStone": {
     "name": "Pierre de résonance Anémoculus",
     "description": "Outil permettant de détecter les Anémoculus proches à Mondstadt.\\nUn disque de pierre fabriqué par l'homme, dont les caractéristiques se rapprochent de celles des Statues des Sept et capable de résonner avec les Anémoculus.\\nCe type de pierre résonnant avec les Oculus est un dérivé maladroit des Statues des Sept construites autrefois à travers les terres. C'est précisément cette infériorité qui explique cette soif de résonance vis-à-vis des statues représentant les Archons, en faisant un ustensile prisé des aventuriers et des croyants pour la collecte d'Oculus."
@@ -10915,6 +10971,10 @@
     "name": "« Daguerréotype pétillant »",
     "description": "Ce gadget permet d'enregistrer et de stocker des paysages tout en y ajoutant un filtre de couleur spécial.\\nUn objet à la provenance inconnue. Il capture des images qui ne ressemblent à nulle autre, car celles-ci sont entourées de bulles, ce qui leur donne un aspect fantaisiste. C'est assez curieux, étant donné que l'intérieur de l'appareil ne contient pas d'eau.\\nUn certain capitaine de cavalerie a dit au sujet de cette machine qu'elle « capture le désir de fraîcheur des gens »."
   },
+  "WisdomOrb": {
+    "name": "Orbe de sagesse",
+    "description": "Un objet important que vous a remis l'organisateur du tournoi de dompteur de la Coupe des nilotpalotus et qui aurait été inventé par le chercheur Kautilya. Utilisez-le pour capturer, héberger et commander des Fongus intelligents. Seuls ceux qui sont capables d'en faire usage peuvent participer au tournoi. Étrangement, cet orbe vous donne une sensation de déjà-vu..."
+  },
   "CloudRetainersDamaskedDevice": {
     "name": "Appareil turquoise de Souffle-Nuages",
     "description": "Ce mécanisme léger fait à partir de papier et à l'apparence d'un oiseau vous a été offert par Souffle-Nuages.\\nBien qu'il s'agisse effectivement d'un mécanisme, il est impossible de distinguer un quelconque composant quand on le regarde.\\nIl semblerait que cet Adepte se soit encore amélioré dans l'art de fabriquer des mécanismes..."
@@ -10987,6 +11047,10 @@
     "name": "Plan : Fiole exothermique",
     "description": "Plan détaillé pour la fabrication d'une Fiole exothermique. Une fois maîtrisé, vous pourrez créer un outil vous permettant de résister au Grand Froid."
   },
+  "MaskOfMemories": {
+    "name": "Masque des souvenirs",
+    "description": "Hanachirusato, la prêtresse du sanctuaire, portait ce masque auparavant. Il est profondément taché.\\nLes souvenirs qu'il contient permettent d'apprendre à fabriquer le catalyseur connu sous le nom d'« Anneau des Hakushin ».\\nMaintenant que Hanachirusato n'a plus ce masque, Paimon ne pourra plus l'appeler « prêtresse masquée »..."
+  },
   "TaleOfTheForestKing": {
     "name": "Conte du roi de la forêt",
     "description": "Avec cette histoire, vous pourrez maîtriser les techniques de fabrication de l'épée à deux mains « Apparat de la forêt ».\\n\\nC'est une histoire qui parle du roi de la forêt.\\n« Il y a de très nombreuses lunes, la forêt était un immense labyrinthe...{NON_BREAK_SPACE}»"
@@ -11046,6 +11110,10 @@
   "SilkenPrint": {
     "name": "Imprimé de soie",
     "description": "Un ema sur lequel figure un paysage inazumien, gravé sur du bois de rêve d'excellente qualité.\\nVous pourrez modifier le décor de votre Sérénithéière grâce à l'énergie dimensionnelle..."
+  },
+  "NaturesTrueFruit": {
+    "name": "Vérifruit de la nature",
+    "description": "Un fruit qui dégage un parfum délicieux. Toby, l'esprit itinérant, l'a ramené comme souvenir de Sumeru.\\nUn relent de celui-ci vous évoque certaines images que vous pouvez manipuler grâce à l'énergie dimensionnelle pour recréer de merveilleux paysages de Sumeru dans votre royaume intérieur..."
   },
   "TheMountainCloudsLetDownGoldenRain": {
     "name": "Des nuages de montagne, la pluie dorée tombe",

@@ -187,6 +187,18 @@
     "name": "Strategische Inspiration",
     "description": "Hier sind die verschiedensten Unternehmenstheorien und Beispiele für den erfolgreichen Betrieb verzeichnet. Für belesene Leute kann jede Seite, jedes Wort eine inspirierende Wirkung mit sich bringen und ihnen dabei helfen, ihre Geschäftsstrategie zu verbessern."
   },
+  "MushroomCurrency": {
+    "name": "Pilztalerßßß",
+    "description": ""
+  },
+  "FungusMedal": {
+    "name": "Pilzabzeichenßßß",
+    "description": ""
+  },
+  "ShatteredPhenocryst": {
+    "name": "Phänokristall-Bruckstück",
+    "description": "Eine mysteriöse kristalline Substanz, die nach dem Sieg über die Hypostase in einer unbekannten Sphäre erhalten wird. Ihre strahlenden Farben sind wie das Nachleuchten aufgelöster Elementarkraft.\\nTausche diese Gegenstände in der Aktion „Sinfonie der Hypostasen – Sonate“ gegen wertvolle Materialien ein."
+  },
   "Primogem": {
     "name": "Urgestein",
     "description": "Ein urzeitliches Mineral, das dem finsteren Universum einen Glanz, gemacht aus Träumen und Hoffnung, gibt."
@@ -531,6 +543,14 @@
     "name": "Candace",
     "description": "Beschützerin des Aaru-Dorfs, die Nachfahrin von König Deshret, deren linkes Auge golden wie Bernstein strahlt."
   },
+  "Nahida": {
+    "name": "Nahida",
+    "description": "Zu vervollständigen"
+  },
+  "Layla": {
+    "name": "Layla",
+    "description": "Zu vervollständigen"
+  },
   "KamisatoAyakasStellaFortuna": {
     "name": "Stella Fortuna von Kamisato Ayaka",
     "description": "Material zum Aktivieren von Kamisato Ayakas Sternbild"
@@ -762,6 +782,14 @@
   "CandacesStellaFortuna": {
     "name": "Stella Fortuna von Candace",
     "description": "Material zum Aktivieren von Candaces Sternbild"
+  },
+  "NahidasStellaFortuna": {
+    "name": "Stella Fortuna von Nahida",
+    "description": "Material zum Aktivieren von Nahidas Sternbild"
+  },
+  "LaylasStellaFortuna": {
+    "name": "Stella Fortuna von Layla",
+    "description": "Material zum Aktivieren von Laylas Sternbild"
   },
   "GnosticHymnOldNotes": {
     "name": "Gnostiker-Erlebnispass – Erste Aufzeichnungen",
@@ -3283,10 +3311,6 @@
     "name": "Verrosteter Schlüssel",
     "description": "Ein alter Schlüssel, der am Boden des Konda-Dorfbrunnens gefunden wurde. Man sagt, „wo ein Schlüssel ist, da ist auch ein Schloss“. Wer weiß, wo das Schloss für diesen Schlüssel ist ..."
   },
-  "MaskOfMemories": {
-    "name": "Maske der Erinnerungen",
-    "description": "Hanachirusato, die Schreinjungfer, hat diese Maske getragen. Sie ist innen dunkel befleckt.\\nEinige Erinnerungen sind darin enthalten, durch die man die Kunst der Erschaffung des Katalysators, bekannt als „Hakushin-Ring“, erlernen kann.\\nNun, da Hanachirusato von dieser Maske getrennt wurde, darf Paimon sie nicht mehr die „maskierte Jungfer“ nennen, richtig?"
-  },
   "TheVioletOnisBlade": {
     "name": "Klinge des lila Oni",
     "description": "Das Lieblingsschwert von Yanagiha Arashi, einem ausgestoßenen Mitglied der Iwakura-Schule.\\nEs ist eine übrig gebliebene Kopie eines bestimmten berühmten Schwertes und wurde neu geschmiedet, nachdem es zerbrochen worden war. Es bildet mit der Waffe von Okazaki Toraemon ein Paar."
@@ -4933,7 +4957,7 @@
   },
   "TheSongGatherersFlowers": {
     "name": "Blume der Liedersammler",
-    "description": "Eine von Liedersammlern geschenkte Blume.\\n"
+    "description": "Eine von Liedersammlern geschenkte Blume.\\n„Wie düster der Himmel und die Erde erscheinen mögen, solange dein Herz genau wie die Sonne ein goldenes, warmes Licht ausstrahlt, wird es stets Hoffnung geben.“"
   },
   "AralilaAndAranishatsFlowers": {
     "name": "Blumen von Aralila und Aranishat",
@@ -7737,7 +7761,7 @@
   },
   "AaruMixedRice": {
     "name": "Gemischter Aaru-Reis",
-    "description": "Ein sättigendes Hauptgericht. Dieses Nahrungsmittel bringt Reis, Weizenmehl und Bohnen zusammen. Sein wahres Geheimnis ist aber der süßsaure Geschmack der Tomate. Aufgrund seiner weit verbreiteten Zutaten und deren günstigen Preises ist es eine gute Wahl, um den Hunger zu stillen. Daher breitet sich die Art der Herstellung allmählich vom Aaru-Dorf auf das ganze Gebiet von Sumeru aus."
+    "description": "Ein sättigendes Hauptgericht. Dieses Nahrungsmittel bringt Reis, Weizenmehl und Bohnen zusammen. Sein wahres Geheimnis ist aber der süßsaure Geschmack der Tomate. Aufgrund seiner weit verbreiteten Zutaten und deren günstigen Preise ist es eine gute Wahl, um den Hunger zu stillen. Daher breitet sich die Art der Herstellung allmählich vom Aaru-Dorf auf das ganze Gebiet von Sumeru aus."
   },
   "DeliciousAaruMixedRice": {
     "name": "Leckerer gemischter Aaru-Reis",
@@ -7770,6 +7794,26 @@
   "SparklingBerryJuice": {
     "name": "Sprudelnd-saurer Beerensaft",
     "description": "Ein neu kreiertes alkoholfreies Getränk. Valbeeren unterschiedlicher Reife fügen dem Beerensaft Schichten von Nachgeschmack, die von Süß bis Sauer reichen, hinzu. Das eiskalte, mit Kohlensäure versetzte Wasser erfrischt das Herz und erlaubt dir, eine unbesorgte Zeit zu verbringen."
+  },
+  "SuspiciousRoseCustard": {
+    "name": "Misslungenes Rosenmus",
+    "description": "Ein Dessert aus fermentierter Milch. Es mag in Ordnung erscheinen, aber sobald man einen Bissen nimmt ... lässt die Säure seine Zähne zittern. Der fehlende Geschmack kann noch durch die Zugabe von mehr Zucker ausgeglichen werden. Diese anhaltende Säure ist jedoch schwer zu vergessen."
+  },
+  "RoseCustard": {
+    "name": "Rosenmus",
+    "description": "Ein Dessert aus fermentierter Milch. Zuerst die Milch fermentieren und zu Joghurt filtrieren, dann Zucker hinzufügen und gut rühren, zuletzt mit getrockneten Rosen und gehackten Nüssen garnieren. Ursprünglich war dieses Gericht nur bei Abenteurern und reisenden Händlern beliebt, aber jetzt hat es sich in ganz Sumeru verbreitet. Es kann als Frühstück oder als Dessert am Nachmittag serviert werden."
+  },
+  "DeliciousRoseCustard": {
+    "name": "Leckeres Rosenmus",
+    "description": "Ein Dessert aus fermentierter Milch. Beim Mischen verbinden sich dicker Quark, duftende Blütenblätter und knackige Nüsse zu einem reichen und süßen Geschmack. Wenn dieses duftende milchige Mus deine Kehle hinunterfließt, kannst du den Duft der blühenden Blumen riechen."
+  },
+  "ExtravagantSlumber": {
+    "name": "Extravaganter Schlummerßßß",
+    "description": "Laylas Spezialzubereitung. Die verstreuten Nüsse sind wie Sterne in einem tiefen, ruhigen Nachthimmel. Mit nur einem Bissen lassen sich Geist und Körper nach einem langen Arbeitstag sofort entspannen. Nachdem du Layla gesagt hattest, wie du dich fühlst, zeigte sie einen gemischten Ausdruck von Freude und Neid. „Das ... Das ist toll! Ah, wenn es nur auch bei mir funktionieren könnte.“"
+  },
+  "Halvamazd": {
+    "name": "Halvamazdßßß",
+    "description": "Nahidas Spezialzubereitung. Es wird gesagt, dass „Mazd“ in Sumeru „Weisheit“ bedeutet, und solch exquisite und zarte „Weisheit“ ist einfach unwiderstehlich. In Nahidas Augen breitet sich ein sanftes Lächeln aus: „Seeanemonen haben Fisch beim Wachsen geholfen und sein Wachstum begleitet, daher ist es für Fisch selbstverständlich, etwas zurückzugeben.“"
   },
   "RecipeItem": {
     "name": "Objekt für Rezepte",
@@ -8233,7 +8277,7 @@
   },
   "RecipePitaPocket": {
     "name": "Rezept: Taschenfladen",
-    "description": "Ein handgeschriebenes Rezept für „Taschenfladen“, bei dem mit kleiner Schrift alle wichtigen Einzelheiten der Zubereitung notiert sind. Am Schriftbild ist leicht erkennbar, dass die Verfasserin nicht allzu geübt im Schreiben ist, vielleicht aufgrund des Einflusses ihrer Krankheit, und einige Zeichen etwas verwackelt sind, allerdings ist jedes einzelne Zeichen sehr gewissenhaft geschrieben worden.\\nNach Lernen dieses Rezeptes kannst du diese Köstlichkeit mit ihr Teilen, wenn du das nächste Mal nach Gandharva zurückkommst."
+    "description": "Ein handgeschriebenes Rezept für „Taschenfladen“, bei dem mit kleiner Schrift alle wichtigen Einzelheiten der Zubereitung notiert sind. Am Schriftbild ist leicht erkennbar, dass die Verfasserin nicht allzu geübt im Schreiben ist, vielleicht aufgrund des Einflusses ihrer Krankheit, und einige Zeichen etwas verwackelt sind, allerdings ist jedes einzelne Zeichen sehr gewissenhaft geschrieben worden.\\nNach Lernen dieses Rezeptes kannst du diese Köstlichkeit mit ihr teilen, wenn du das nächste Mal nach Gandharva zurückkommst."
   },
   "RecipePanipuri": {
     "name": "Rezept: Panipuri",
@@ -8306,6 +8350,10 @@
   "RecipeFruitsOfTheFestival": {
     "name": "Rezept: Festtagssaft",
     "description": "Rezept mit detaillierten Schritten zur Zubereitung von „Festtagssaft“."
+  },
+  "RecipeRoseCustard": {
+    "name": "Rezept: Rosenmus",
+    "description": "Rezept mit detaillierten Schritten zur Zubereitung von „Rosenmus“."
   },
   "CraftedItems": {
     "name": "Hergestelltes Produkt",
@@ -8902,6 +8950,10 @@
   "LightGuidingTetrahedron": {
     "name": "Lichtgesteuerter Tetraeder",
     "description": "Ein nach dem Besiegen einer mysteriösen Kombination von Vorrichtungen erhaltener Kernbestandteil.\\nNoch heute haben diese antiken Maschinen weder den Traum ihres Herrn noch ihre eigenen Pflichten vergessen: Eintausend Paläste errichten, dreitausend Maschinen beherrschen, zehntausend Blumen einer heute verlorenen Art pflanzen, für alle Seelen der Erde das im Wüstenmeer untergegangene „Paradies“ wiederaufleben lassen.\\nAuch wenn der König der Wüste nicht mehr existieren mag und der Traum aufgrund der tiefen Schuld nur noch geflüstert wird und verdorben ist, auch wenn alle monströsen Säulen gebrochen und niedergeworfen wurden und die einst von der Gnade des Königs beglückten riesigen Bestien längst im heißen Sandsturm verschwunden sind."
+  },
+  "QuelledCreeper": {
+    "name": "Ranke der Auslöschungßßß",
+    "description": "Ein von Ranken überwucherter seltsamer harter purer Elementarkristall, zu dem die Dendro-Hypostase schließlich kondensiert wurde.\\nEs ist kaum zu verstehen, dass es auf der Welt eine Verbindung zwischen dem Dendro-Element, welches die engste Verbindung mit dem Leben hat, und der Hypostaste, die mit allen Lebensformen so wenig zu tun hat, gibt. Man sagt, dass die Hypostasen die Intelligenz zum „Lernen“ besitzen und deshalb die vielen Formen und Träume des Waldes verstehen und mit deren Einflüssen von mehr als ein tausend Jahren diese Form angemommen haben."
   },
   "TileOfDecarabiansTower": {
     "name": "Decabarians zerbrochener Ziegel",
@@ -10683,6 +10735,10 @@
     "name": "Errungenschaft – Gespiegelte Träume",
     "description": "Namenskärtchen.\\n„Wahn und Demut von tausend Jahren, schon lange vergangen unter dem die Nacht verbrennenden Flugsand. Doch in ihrem Traum ist die grüne Oase wohl noch immer so sanft und üppig wie damals ...“"
   },
+  "TravelNotesFungusLand": {
+    "name": "Erlebnispass – Pilzfeld",
+    "description": "Ein Motiv für Namenskärtchen.\\n„... {F#Reisende}{M#Reisender}, sei nicht traurig, denn der Morgenwind wird die Pilzsporen, die deine Träume enthalten, zu dem Feld tragen, von dem du träumst ...“"
+  },
   "AnemoculusResonanceStone": {
     "name": "Anemoculus-Resonanzstein",
     "description": "Im Gebiet von Mondstadt angewendet kannst du hiermit verlorene Anemoculi in der Nähe aufspüren.\\nDiese künstliche Steinplatte besitzt eine gewisse Charakteristik, die der der Anemo-Statuen der Sieben ähnelt und ihr die Kraft verleiht, mit den Anemoculi zu interagieren.\\nOculus-Resonanzsteine sind grobe Imitationen der Statuen der Sieben, die von den Menschen des Altertums gebaut wurden. Gerade die Rohheit solcher Steine ist es, was sie dazu bringt, nach der Kraft der Oculi zu verlangen, um Anhängern der Götter und Abenteurern die Möglichkeit zu geben, Oculi zu finden."
@@ -10909,11 +10965,15 @@
   },
   "ScarletSandSlate": {
     "name": "Steinplatte roter Sande",
-    "description": "Dies ist ein langzeitiges Forschungsobjekt des Gelehrten der Akademie Tirzad. Anhand der eingeätzten Mustern und der Kunstfertigkeit ist es als Relikt der Zivilisation von König Deshret zu erkennen. Es scheint die Berechtigungen zu besitzen, Vorrichtungen in den Ruinen von König Deshret steuern zu können."
+    "description": "Dies ist ein langzeitiges Forschungsobjekt des Gelehrten der Akademie Tirzad. Anhand der eingeätzten Muster und der Kunstfertigkeit ist es als Relikt der Zivilisation von König Deshret zu erkennen. Es scheint die Berechtigungen zu besitzen, Vorrichtungen in den Ruinen von König Deshret steuern zu können."
   },
   "BubblyKamera": {
     "name": "„Blasenfotoapparat“",
     "description": "Wenn es benutzt wird, kann dieses nützliche Hilfsmittel die Szenerie vor ihm speichern und ihr einen besonderen Farbton verleihen.\\nEin seltsames Gerät unbekannter Herkunft. Die Fotos, die es aufnimmt, haben einen merkwürdigen Effekt. Obwohl kein Wasser darin ist, werden beim Fotografieren viele Blasen erzeugt, die ein fantastisches Gefühl vermitteln.\\nAuf Grund dieser besonderen Eigenschaft beschrieb ein Rittmeister diese Maschine als „die Sehnsucht der Menschen, kühle und erfrischende Tage einzufangen“."
+  },
+  "WisdomOrb": {
+    "name": "„Weisheitsperle“",
+    "description": "Ein wichtiger Gegenstand, der vom Veranstalter des Zähmer-Wettbewerbs der „Nilotpala-Lotos-Meisterschaftßßß“ zur Verfügung gestellt wurde. Mit ihm kann man intelligente Pilze fangen, lagern und kommandieren. Es soll vom Gelehrten Kautlia erfunden worden sein. Nur diejenigen, die diesen Gegenstand gekonnt einsetzen können, sind zur Teilnahme an diesem Zähmer-Wettbewerbßßß berechtigt. Aber bestimmte Merkmale des Gegenstands rufen ein starkes Déjà-vu-Gefühl hervor. Scheint, als hätte man ihn bereits woanders gesehen ..."
   },
   "CloudRetainersDamaskedDevice": {
     "name": "Türkis verzierte Papiervorrichtung – Stehende Wolken",
@@ -10987,6 +11047,10 @@
     "name": "Bauplan: Wärmflasche",
     "description": "Bauplan mit detaillierten Schritten zur Herstellung von „Wärmflasche“. Hiermit kannst du ein Objekt herstellen, das das Ansammeln bitterer Kälte verringert."
   },
+  "MaskOfMemories": {
+    "name": "Maske der Erinnerungen",
+    "description": "Hanachirusato, die Schreinjungfer, hat diese Maske getragen. Sie ist innen dunkel befleckt.\\nEinige Erinnerungen sind darin enthalten, durch die man die Kunst der Erschaffung des Katalysators, bekannt als „Hakushin-Ring“, erlernen kann.\\nNun, da Hanachirusato von dieser Maske getrennt wurde, darf Paimon sie nicht mehr die „maskierte Jungfer“ nennen, richtig?"
+  },
   "TaleOfTheForestKing": {
     "name": "Geschichte des Waldkönigs",
     "description": "Durch diese Geschichte lernst du die Herstellung des Zweihänders „Waldkönigsschwert“.\\n\\nDiese Geschichte hat eine enge Verbindung zum Waldkönig.\\n„Vor sehr, sehr vielen Monden war der Wald ein riesiger Irrgarten ...“"
@@ -11046,6 +11110,10 @@
   "SilkenPrint": {
     "name": "Seidendruck",
     "description": "Eine Gebetstafel mit farbiger Malerei, die die liebliche Landschaft von Inazuman zeigt, geschnitzt auf exquisitem Yumemiru-Holz.\\nDu kannst die Raumschaffung verwenden, um diese elegante Landschaft auf der Tafel in deine Kanne der Vergänglichkeit zu übertragen ..."
+  },
+  "NaturesTrueFruit": {
+    "name": "„Wahre Frucht des Waldes“",
+    "description": "Eine Frucht mit einem wunderbaren Aroma. Sie wurde von Bolle, dem Kannengeist auf der Durchreise, als Andenken aus Sumeru zurückgebracht.\\nAllein der Geruch dieser Frucht erzeugt bestimmte Bilder in deinem Kopf. Du kannst die Raumschaffung verwenden, um die wundersame Landschaft von Sumeru in das Kannenreich zu übertragen ..."
   },
   "TheMountainCloudsLetDownGoldenRain": {
     "name": "Von Bergwolken fällt der goldene Regen",
