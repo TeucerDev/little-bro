@@ -1,6 +1,6 @@
 {
   "name": "Nahida",
-  "title": "???",
+  "title": "Physic of Purity",
   "description": "",
   "constellationName": "Sapientia Oromasdis",
   "auto": {
@@ -41,7 +41,7 @@
   "skill": {
     "name": "All Schemes to Know",
     "description": {
-      "0": "Sends forth karmic bonds of wood and tree from her side, dealing <dendro>AoE Dendro DMG</dendro> and marking opponents hit with the Seed of Skandha.",
+      "0": "Sends forth karmic bonds of wood and tree from her side, dealing AoE Dendro DMG and marking up to 8 opponents hit with the Seed of Skandha.",
       "1": "When held, this skill will trigger differently.",
       "2": "<br/>",
       "3": "<strong>Hold</strong>",
@@ -89,7 +89,9 @@
       "4": "<br/>",
       "5": "If there are at least 2 party members of the aforementioned Elemental Types present when the field is deployed, the aforementioned effects will be increased further.",
       "6": "<br/>",
-      "7": "<i>Perhaps all that dwell under the bowers of trees are naught but a fleeting upside-down dream in the eyes of the God of Wisdom.</i>"
+      "7": "Even if Nahida is not on the field, these bonuses will still take effect so long as party members are within the Shrine of Maya.",
+      "8": "<br/>",
+      "9": "<i>Perhaps all that dwell under the bowers of trees are naught but a fleeting upside-down dream in the eyes of the God of Wisdom.</i>"
     },
     "skillParams": {
       "0": "Pyro: DMG Bonus",
@@ -114,8 +116,8 @@
     "name": "Compassion Illuminated",
     "description": {
       "0": "When unleashing <strong>Illusory Heart</strong>, the Shrine of Maya will gain the following effects:",
-      "1": "The Elemental Mastery of the active character within the field will be increased by 20% of the Elemental Mastery of the party member with the highest Elemental Mastery.",
-      "2": "You can gain a maximum of 200 Elemental Mastery in this manner."
+      "1": "The Elemental Mastery of the active character within the field will be increased by 25% of the Elemental Mastery of the party member with the highest Elemental Mastery.",
+      "2": "You can gain a maximum of 250 Elemental Mastery in this manner."
     }
   },
   "passive2": {
