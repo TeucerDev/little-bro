@@ -1,10 +1,10 @@
 {
   "name": "Nahida",
-  "title": "???",
-  "description": "",
-  "constellationName": "Domina Sophia",
+  "title": "Physique de pureté",
+  "description": "Une oiselle en cage isolée dans les profondeurs du Sanctuaire de Surasthana qui ne peut voir le monde que dans ses rêves.",
+  "constellationName": "Sapientia Oromasdis",
   "auto": {
-    "name": "Forme",
+    "name": "Akara",
     "fields": {
       "normal": {
         "0": "<strong><strong>Attaque normale</strong>",
@@ -41,7 +41,7 @@
   "skill": {
     "name": "Omniscience des plans",
     "description": {
-      "0": "Envoie des liens karmiques de bois depuis son flanc, infligeant des <dendro>DGT Dendro de zone</dendro> et apposant une graine de Skandha aux ennemis touchés.",
+      "0": "Envoie des liens karmiques de bois depuis son flanc, infligeant des <dendro>DGT Dendro de zone</dendro> et apposant une graine de Skandha à un maximum de 8 ennemis touchés.",
       "1": "En cas d'appui long, la compétence est déclenchée différemment.",
       "2": "<br/>",
       "3": "<strong>Appui long</strong>",
@@ -51,7 +51,7 @@
       "7": "<br/>",
       "8": "<strong>Graine de Skandha</strong>",
       "9": "Les ennemis marqués par une graine de Skandha sont liés les uns aux autres jusqu'à une certaine distance.",
-      "10": "Après avoir déclenché une réaction élémentaire sur un ennemi affecté par une graine de Skandha et lui avoir infligé des DGT grâce à un noyau Dendro (incluant Bourgeonnement et Exubérance), Nahida déclenche une purification trikarmique sur cet ennemi et tous les ennemis liés, infligeant des <dendro>DGT Dendro</dendro>.",
+      "10": "Après avoir déclenché une réaction élémentaire sur un ennemi affecté par une graine de Skandha ou lui avoir infligé des DGT grâce à un noyau Dendro (incluant Bourgeonnement et Exubérance), Nahida déclenche une purification trikarmique sur cet ennemi et tous les ennemis liés, infligeant des <dendro>DGT Dendro</dendro>.",
       "11": "La purification trikarmique ne peut être déclenchée qu'une fois par intervalle de temps défini.",
       "12": "<br/>",
       "13": "<i>Toisez, la divinité de l'herbe et des arbres fait briller sa vérité ultime dans le vide, éclairant l'origine et la destruction des trois karmas.</i>"
@@ -89,18 +89,20 @@
       "4": "<br/>",
       "5": "Si un minimum de 2 personnages des types élémentaires susmentionnés sont présents lorsque le champ est déployé, ces effets augmentent davantage.",
       "6": "<br/>",
-      "7": "<i>Peut-être tout ce qui habite sous les berceaux des arbres n'est qu'un rêve éphémère inversé aux yeux de la divinité de la sagesse...</i>"
+      "7": "Même si Nahida fait partie de l'équipe mais n'est pas déployée, les effets mentionnés ci-dessus peuvent être obtenus tant que l'équipe est dans le sanctuaire de Maya.",
+      "8": "<br/>",
+      "9": "<i>Peut-être tout ce qui habite sous les berceaux des arbres n'est qu'un rêve éphémère inversé aux yeux de la divinité de la sagesse...</i>"
     },
     "skillParams": {
       "0": "(Pyro) Bonus ATQ",
-      "1": "(Électro) Diminution d'intervalle",
-      "2": "Hydro : Prolongation de durée",
-      "3": "Durée de base",
-      "4": "Temps de recharge",
-      "5": "Énergie élémentaire",
-      "6": "",
-      "7": "",
-      "8": "",
+      "1": "(Pyro) Bonus ATQ",
+      "2": "(Électro) Diminution d'intervalle",
+      "3": "(Électro) Diminution d'intervalle",
+      "4": "Hydro : Prolongation de durée",
+      "5": "Hydro : Prolongation de durée",
+      "6": "Durée de base",
+      "7": "Temps de recharge",
+      "8": "Énergie élémentaire",
       "9": "",
       "10": "",
       "11": "",
@@ -114,8 +116,8 @@
     "name": "Compassion illuminée",
     "description": {
       "0": "<strong>Cœur illusoire</strong> accorde l'effet suivant au sanctuaire de Maya :",
-      "1": "Augmente la maîtrise élémentaire du personnage déployé à portée d'une valeur équivalant à 20 % de la maîtrise élémentaire du personnage de l'équipe en ayant le plus.",
-      "2": "La maîtrise élémentaire peut être augmentée d'un maximum de 200 pts de cette manière."
+      "1": "Augmente la maîtrise élémentaire du personnage déployé à portée d'une valeur équivalant à 25 % de la maîtrise élémentaire du personnage de l'équipe en ayant le plus.",
+      "2": "La maîtrise élémentaire peut être augmentée d'un maximum de 250 pts de cette manière."
     }
   },
   "passive2": {
@@ -171,9 +173,9 @@
   "constellation6": {
     "name": "Fruit d'aboutissement rationnel",
     "description": {
-      "0": "Lorsque Nahida touche un ennemi affecté par une graine de Skandha d'<strong>Omniscience des plans</strong> avec une attaque normale ou chargée après avoir utilisé <strong>Cœur illusoire</strong>, elle utilise un oubli karmique sur cet ennemi et tous les autres ennemis liés, infligeant des <dendro>DGT Dendro</dendro> d'une valeur équivalant à 200 % de son ATQ et 400 % de sa maîtrise élémentaire.",
-      "1": "Les DGT infligés par l'oubli karmique sont considérés comme étant des DGT de compétence élémentaire et peuvent être déclenchés une fois tous les 0,2 s.",
-      "2": "Cet effet dure 10 s ou disparaît après avoir déclenché un oubli karmique 6 fois."
+      "0": "Lorsque Nahida touche un ennemi affecté par une graine de Skandha d'<strong>Omniscience des plans</strong> avec une attaque normale ou chargée après avoir utilisé <strong>Cœur illusoire</strong>, elle utilise une « Purification trikarmique : Oubli karmique » sur cet ennemi et tous les autres ennemis liés, infligeant des <dendro>DGT Dendro</dendro> d'une valeur équivalant à 200 % de son ATQ et 400 % de sa maîtrise élémentaire.",
+      "1": "Les DGT infligés par la « Purification trikarmique : Oubli karmique » sont considérés comme étant des DGT de compétence élémentaire et peuvent être déclenchés une fois tous les 0,2 s.",
+      "2": "Cet effet dure 10 s ou disparaît après avoir déclenché une « Purification trikarmique : Oubli karmique » 6 fois."
     }
   }
 }

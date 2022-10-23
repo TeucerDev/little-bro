@@ -1,7 +1,7 @@
 {
   "name": "Nahida",
-  "title": "???",
-  "description": "",
+  "title": "Physic of Purity",
+  "description": "Seorang gadis yang dikurung bak burung di dalam sangkar Sanctuary of Surasthana, hanya bisa melihat dunia dari dalam mimpi.",
   "constellationName": "Domina Sophia",
   "auto": {
     "name": "Form",
@@ -41,11 +41,11 @@
   "skill": {
     "name": "All Schemes to Know",
     "description": {
-      "0": "Melepaskan belenggu karma dari kayu dan pepohonan di sekitarnya dan mengakibatkan <dendro>Dendro DMG Area</dendro>, serta memberikan status Seed of Skandha terhadap musuh yang terkena serangan.",
+      "0": "Melepaskan belenggu karma dari kayu dan pepohonan di sekitarnya dan mengakibatkan <dendro>Dendro DMG Area</dendro>, serta memberikan status Seed of Skandha terhadap musuh yang terkena serangan, maksimal hingga 8 musuh.",
       "1": "Saat ditahan, akan melancarkan serangan dengan cara yang berbeda.",
       "2": "<br/>",
       "3": "<strong>Tahan</strong>",
-      "4": "Memasuki Mode Membidik untuk memilih musuh dalam jumlah tertentu yang berada di dalam area yang ditentukan. Ketahanan Nahida terhadap interupsi Nahida saat berada dalam status ini juga akan meningkat.",
+      "4": "Memasuki Mode Membidik untuk memilih sejumlah musuh dalam jarak tertentu dan meningkatkan ketahanan Nahida terhadap interupsi saat Nahida berada dalam status ini.",
       "5": "Saat Mode Tahan selesai, akan mengakibatkan <dendro>Dendro DMG</dendro> terhadap musuh yang terpilih dan menambahkan Seed of Skandha kepada mereka.",
       "6": "Mode Membidik bertahan maksimal selama 5 detik, dan bisa memilih hingga maksimal 8 musuh.",
       "7": "<br/>",
@@ -87,18 +87,20 @@
       "3": "<br/>",
       "4": "Saat membentuk medan, jika Karakter dengan elemen yang disebutkan di atas berjumlah 2 atau lebih, maka efek yang terpicu akan ditingkatkan lebih lanjut.",
       "5": "<br/>",
-      "6": "Mungkin semua yang berjuang di permukaan pohon tidak lebih dari sekadar mimpi terbalik yang sekejap saja di mata Dewa Kebijaksanaan.</i>"
+      "6": "Saat Nahida ada di dalam party namun tidak berada di medan pertempuran, asalkan party ini berada dalam Shrine of Maya, akan tetap memperoleh peningkatan efek yang disebutkan di atas.",
+      "7": "<br/>",
+      "8": "<i>Mungkin semua yang berjuang di permukaan pohon tidak lebih dari sekadar mimpi terbalik yang sekejap saja di mata Dewa Kebijaksanaan.</i>"
     },
     "skillParams": {
       "0": "Pyro: DMG Meningkat",
-      "1": "Electro: Jeda Berkurang",
-      "2": "Hydro: Peningkatan Durasi",
-      "3": "Durasi Dasar",
-      "4": "Cooldown",
-      "5": "Konsumsi Energy",
-      "6": "",
-      "7": "",
-      "8": "",
+      "1": "Pyro: DMG Meningkat",
+      "2": "Electro: Jeda Berkurang",
+      "3": "Electro: Jeda Berkurang",
+      "4": "Hydro: Peningkatan Durasi",
+      "5": "Hydro: Peningkatan Durasi",
+      "6": "Durasi Dasar",
+      "7": "Cooldown",
+      "8": "Konsumsi Energy",
       "9": "",
       "10": "",
       "11": "",
@@ -112,8 +114,8 @@
     "name": "Compassion Illuminated",
     "description": {
       "0": "Saat melancarkan <strong>Illusory Heart</strong>, Shrine of Maya akan mendapatkan efek sebagai berikut:",
-      "1": "Meningkatkan Elemental Mastery Karakter aktif yang berada di dalam medan Shrine of Maya sebesar 20% dari Karakter yang memiliki Elemental Mastery tertinggi di dalam party.",
-      "2": "Elemental Mastery yang bisa diperoleh dengan cara ini maksimal hingga 200 poin Elemental Mastery."
+      "1": "Meningkatkan Elemental Mastery Karakter aktif yang berada di dalam medan Shrine of Maya sebesar 25% dari Karakter yang memiliki Elemental Mastery tertinggi di dalam party.",
+      "2": "Elemental Mastery yang bisa diperoleh dengan cara ini maksimal hingga 250 poin Elemental Mastery."
     }
   },
   "passive2": {
@@ -169,9 +171,9 @@
   "constellation6": {
     "name": "The Fruit of Reason's Culmination",
     "description": {
-      "0": "Setelah melancarkan <strong>Illusory Heart</strong>, saat Normal Attack atau Charged Attack Nahida mengenai musuh yang berada dalam status Seed of Skandha dari <strong>All Schemes to Know</strong>, akan melancarkan Karmic Oblivion terhadap musuh ini dan seluruh musuh yang terhubung, mengakibatkan <dendro>Dendro DMG</dendro> sebesar 200% ATK dan 400% Elemental Mastery Nahida.",
-      "1": "DMG yang diakibatkan Karmic Oblivion akan dianggap sebagai DMG Elemental Skill dan dapat terpicu 0,2 detik sekali.",
-      "2": "Efek ini bisa bertahan selama 10 detik, dan akan hilang setelah Nahida melancarkan 6 kali Karmic Oblivion."
+      "0": "Setelah melancarkan <strong>Illusory Heart</strong>, saat Normal Attack atau Charged Attack Nahida mengenai musuh yang berada dalam status Seed of Skandha dari <strong>All Schemes to Know</strong>, akan melancarkan Tri-Karma Purification: Karmic Oblivion terhadap musuh ini dan seluruh musuh yang terhubung, mengakibatkan <dendro>Dendro DMG</dendro> sebesar 200% ATK dan 400% Elemental Mastery Nahida.",
+      "1": "DMG yang diakibatkan Tri-Karma Purification: Karmic Oblivion akan dianggap sebagai DMG Elemental Skill dan dapat terpicu 0,2 detik sekali.",
+      "2": "Efek ini bisa bertahan selama 10 detik, dan akan hilang setelah Nahida melancarkan 6 kali Tri-Karma Purification: Karmic Oblivion."
     }
   }
 }

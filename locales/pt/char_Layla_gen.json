@@ -1,7 +1,7 @@
 {
   "name": "Layla",
-  "title": "???",
-  "description": "",
+  "title": "Contemplações da Estrela Noturna",
+  "description": "Estudante dos Rtawahist, especializada em astrologia teórica. Sofre de sonambulismo e insônia, ela está sempre enfrentando distúrbios de sono.",
   "constellationName": "Luscinia",
   "auto": {
     "name": "Espada do Caminho Radiante",
@@ -41,16 +41,17 @@
   "skill": {
     "name": "Noites Solenes",
     "description": {
-      "0": "Coloca um escudo conhecido como Cortina do Sono, causando <cryo>Dano Cryo em uma AdE</cryo>. A Absorção de Dano da Cortina do Sono é baseada na Vida Máxima de Layla e absorve <cryo>Dano Cryo</cryo> com 250% de eficácia. Quando o escudo é implantado, Layla terá <cryo>Cryo</cryo> aplicado a ela por um breve momento.",
-      "1": "<br/>",
-      "2": "<strong>Estrelas Noturnas e Estrelas Voadoras</strong>",
-      "3": "Enquanto a Cortina do Sono estiver ativa, ela criará 1 Estrela Noturna que ficará ligada a ela a cada 1,5s. Quando um personagem protegido por esse escudo usar uma Habilidade Elemental, 2 Estrelas Noturnas serão criadas. Estrelas Noturnas podem ser criadas uma vez a cada 0,3s dessa forma. Um máximo de 4 Estrelas Noturnas pode ser acumulado de cada vez.",
-      "4": "Quando a Cortina do Sono acumula 4 Estrelas Noturnas e existem oponentes por perto, essas Estrelas Noturnas se transformarão em Estrelas Voadoras que serão disparadas em sequência, causando <cryo>Dano Cryo</cryo> nos oponentes atingidos.",
-      "5": "Se a duração da Cortina do Sono acabar ou se ela for destruída, as Estrelas Noturnas desaparecerão. Se elas já estiverem disparando como Estrelas Voadoras, essas Estrelas Voadoras durarão até que essa onda de disparos acabe.",
-      "6": "<br/>",
-      "7": "Não é possível criar novas Estrelas Noturnas até que a onda anterior de Estrelas Voadoras tenha encerrado os disparos.",
-      "8": "<br/>",
-      "9": "<i>\"Eu e ela somos como duas mestras artesãs que nunca se conheceram, mas sentam na mesma almofada, bordando a mesma Flor Onírica.\"</i>"
+      "0": "Coloca um escudo conhecido como Cortina do Sono, causando <cryo>Dano Cryo em uma AdE</cryo>.",
+      "1": "A Absorção de Dano da Cortina do Sono é baseada na Vida Máxima de Layla e absorve <cryo>Dano Cryo</cryo> com 250% de eficácia. Quando o escudo é implantado, Layla terá <cryo>Cryo</cryo> aplicado a ela por um breve momento.",
+      "2": "<br/>",
+      "3": "<strong>Estrelas Noturnas e Estrelas Voadoras</strong>",
+      "4": "Enquanto o Escudo da Cortina do Sono estiver ativa, ele criará a cada 1.5s 1 Estrela Noturna que ficará ligada a ele. Quando um personagem protegido por esse escudo usar uma Habilidade Elemental, 2 Estrelas Noturnas serão criadas. Estrelas Noturnas podem ser criadas uma vez a cada 0,3s dessa forma. Um máximo de 4 Estrelas Noturnas podem ser acumuladas de cada vez.",
+      "5": "Quando a Cortina do Sono acumula 4 Estrelas Noturnas e existem oponentes por perto, essas Estrelas Noturnas se transformarão em Estrelas Voadoras que serão disparadas em sequência, infligindo <cryo>Dano Cryo</cryo> nos oponentes atingidos.",
+      "6": "Se a duração da Cortina do Sono acabar ou se ela for destruída, as Estrelas Noturnas desaparecerão. Se elas já estiverem disparando como Estrelas Voadoras, essas Estrelas Voadoras durarão até que essa onda de disparos acabe.",
+      "7": "<br/>",
+      "8": "Não é possível criar novas Estrelas Noturnas até que a onda anterior de Estrelas Voadoras tenha encerrado os disparos.",
+      "9": "<br/>",
+      "10": "<i>\"Eu e ela somos como duas mestras artesãs que nunca se conheceram, mas sentam na mesma almofada, bordando a mesma Flor Onírica.\"</i>"
     },
     "skillParams": {
       "0": "Dano de Habilidade",
@@ -75,7 +76,7 @@
     "name": "Sonho das Correntes Estelares",
     "description": {
       "0": "Lança uma Esfera de Sonhos Celestes que dispara continuamente Bombas Estelares contra os inimigos dentro de uma AdE, infligindo <cryo>Dano Cryo</cryo>.",
-      "1": "Quando a Bomba Estelar atinge um inimigo, gera 1 Estrela Noturna para escudos Cortinas do Sono próximos. Cada Escudo da Cortina do Sono pode obter uma Estrela Noturna dessa forma a cada 0.5s.",
+      "1": "Quando a Bomba Estelar atinge um inimigo, gera 1 Estrela Noturna para Escudos da Cortinas do Sono próximos. Cada Escudo da Cortina do Sono pode obter uma Estrela Noturna dessa forma a cada 0.5s.",
       "2": "<br/>",
       "3": "<i>\"Durma, e que muitos destinos sejam revelados para seus olhos sonolentos em sonhos repletos de estrelas.\"</i>"
     },
@@ -117,14 +118,14 @@
   "passive3": {
     "name": "Sinais de Sonho Sombrio",
     "description": {
-      "0": "Quando sintetiza Materiais para aprimoramento de Talento do Personagem, tem uma chance de 10% de obter o dobro da Produção."
+      "0": "Quando Layla sintetiza Materiais para aprimoramento de Talento do Personagem, tem uma chance de 10% de obter o dobro da Produção."
     }
   },
   "constellation1": {
     "name": "Fortaleza da Fantasia",
     "description": {
       "0": "Aumenta a absorção do Escudo da Cortina do Sono de <strong>Noites Solenes</strong> em 20%.",
-      "1": "Além disso, ao lançar Noites Solenes, gerará um escudo com absorção de Dano equivalente a 35% do Escudo da Cortina do Sono para os personagens da equipe que não estão sob a proteção do Escudo da Cortina do Sono. Esse escudo dura 12s e possui 250% de eficácia contra <cryo>Dano Cryo</cryo>."
+      "1": "Além disso, ao lançar Noites Solenes, um escudo será gerado com absorção de Dano equivalente a 35% do Escudo da Cortina do Sono para os personagens da equipe que não estão sob a proteção do Escudo da Cortina do Sono. Esse escudo dura 12s e possui 250% de eficácia contra <cryo>Dano Cryo</cryo>."
     }
   },
   "constellation2": {

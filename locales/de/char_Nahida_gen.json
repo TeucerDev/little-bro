@@ -1,7 +1,7 @@
 {
   "name": "Nahida",
-  "title": "???",
-  "description": "",
+  "title": "Natürliche Reinheit",
+  "description": "Ein Vogel, der in einem Käfig im Heiligtum von Surasthana eingesperrt ist, kann die Welt nur in seinen Träumen sehen.",
   "constellationName": "Sapientia Oromasdis",
   "auto": {
     "name": "Akara",
@@ -39,26 +39,27 @@
     }
   },
   "skill": {
-    "name": "Kennerin aller Tricksßßß",
+    "name": "Kennerin aller Tricks",
     "description": {
-      "0": "Entsendet von Nahidas Seite karmische Bünde aus Pflanzen, die <dendro>Dendro-Flächenschaden</dendro> verursachen und getroffene Gegner mit dem Samen von Skandha markieren.",
+      "0": "Entsendet von Nahidas Seite karmische Bünde aus Pflanzen, die <dendro>Dendro-Flächenschaden</dendro> verursachen und getroffene max. 8 Gegner mit dem Samen von Skandha markieren.",
       "1": "Beim Gedrückthalten nimmt diese Fähigkeit einen anderen Modus an.",
       "2": "<br/>",
       "3": "<strong>Gedrückthalten</strong>",
-      "4": "Startet den Zielmodus, in dem man in einem bestimmten Bereich eine bestimmte Anzahl an Zielen auswählen kann. In diesem Modus wird Nahidas Unterbrechungs-WDS erhöht. Sobald nicht mehr gedrückt gehalten wird oder der Zielmodus seine Höchstdauer erreicht hat, wird den gewählten Gegnern <dendro>Dendro-Schaden</dendro> zugefügt und sie werden mit dem Samen von Skandha markiert.",
-      "5": "Der Zielmodus hat eine Höchstdauer von 5 s und es können bis zu 8 Gegner ausgewählt werden.",
-      "6": "<br/>",
-      "7": "<strong>Samen von Skandha</strong>",
-      "8": "Verkettet Gegner, die mit dem Samen von Skandha markiert wurden, innerhalb einer bestimmten Distanz miteinander.",
-      "9": "Nachdem an einem mit dem Samen von Skandha markierten Gegner Elementarreaktionen ausgelöst werden oderßßß nachdem diesem Gegner von Dendro-Kernen (einschließlich Flammenspross und Supraspross) Schaden zugefügt wird, wird diesem und allen mit diesem Gegner verketteten Gegnern basierend auf Nahidas ANG und Elementarkunde die dreifache Karma-Läuterungßßß und damit <dendro>Dendro-Schaden</dendro> zugefügt.",
-      "10": "Innerhalb eines kurzen Zeitraums kann die dreifache Karma-Läuterungßßß nur 1-mal ausgelöst werden.",
-      "11": "<br/>",
-      "12": "<i>Die Herrin der Pflanzen lässt ihre ultimative Wahrheit in die Leere strahlen, erleuchtet den Ursprung und die Zerstörung der drei Karma.</i>"
+      "4": "Startet den Zielmodus, in dem man in einem bestimmten Bereich eine bestimmte Anzahl an Zielen auswählen kann. In diesem Modus wird Nahidas Unterbrechungs-WDS erhöht.",
+      "5": "Sobald nicht mehr gedrückt gehalten wird oder der Zielmodus seine Höchstdauer erreicht hat, wird den gewählten Gegnern <dendro>Dendro-Schaden</dendro> zugefügt und sie werden mit dem Samen von Skandha markiert.",
+      "6": "Der Zielmodus hat eine Höchstdauer von 5 s und es können bis zu 8 Gegner ausgewählt werden.",
+      "7": "<br/>",
+      "8": "<strong>Samen von Skandha</strong>",
+      "9": "Verkettet Gegner, die mit dem Samen von Skandha markiert wurden, innerhalb einer bestimmten Distanz miteinander.",
+      "10": "Nachdem an einem mit dem Samen von Skandha markierten Gegner Elementarreaktionen ausgelöst werden oder nachdem diesem Gegner von Dendro-Kernen (einschließlich Flammenspross und Supraspross) Schaden zugefügt wird, wird diesem und allen mit diesem Gegner verketteten Gegnern die dreifache Karma-Läuterung und damit basierend auf Nahidas ANG und Elementarkunde <dendro>Dendro-Schaden</dendro> zugefügt.",
+      "11": "Innerhalb eines kurzen Zeitraums kann die dreifache Karma-Läuterung nur 1-mal ausgelöst werden.",
+      "12": "<br/>",
+      "13": "<i>Die Herrin der Pflanzen hat die ultimative Wahrheit in der Leere erblickt. Das Sprießen und Verdorren der sterblichen Welt zeigen nun ihr wahres Gesicht vor ihr.</i>"
     },
     "skillParams": {
       "0": "SCH bei Drücken",
       "1": "SCH bei Gedrückthalten",
-      "2": "SCH drei dreifachen Karma-Läuterung",
+      "2": "SCH der dreifachen Karma-Läuterung",
       "3": "Auslösungsintervall der dreifachen Karma-Läuterung",
       "4": "Dauer der Samen von Skandha",
       "5": "Abklingzeit für Drücken",
@@ -75,31 +76,33 @@
     }
   },
   "burst": {
-    "name": "Illusorisches Herzßßß",
+    "name": "Illusorisches Herz",
     "description": {
-      "0": "Lässt den Palast der Träumeßßß Form annehmen und entfaltet den „Schrein von Mayaßßß“.",
+      "0": "Lässt den Palast der Träume Form annehmen und entfaltet den „Schrein von Maya“.",
       "1": "<br/>",
       "2": "Löst, während der Schrein entfaltet ist, die folgenden Effekte je nach den Elementartypen der in der Truppe vorhandenen Figuren aus:",
       "3": [
-        " <pyro>Pyro</pyro>: Erhöht, während sich Nahida im Schrein von Mayaßßß befindet, den Schaden durch die dreifache Karma-Läuterungßßß der Elementarfähigkeit „Kennerin aller Tricksßßß“.",
-        " <electro>Elektro</electro>: Verringert, während sich Nahida im Schrein von Mayaßßß befindet, das Intervall der dreifachen Karma-Läuterungßßß der Elementarfähigkeit „Kennerin aller Tricksßßß“.",
-        " <hydro>Hydro</hydro>: Verlängert die Dauer des Schreins von Mayaßßß."
+        " <pyro>Pyro</pyro>: Erhöht, während sich Nahida im Schrein von Maya befindet, den Schaden durch die dreifache Karma-Läuterung der Elementarfähigkeit „Kennerin aller Tricks“.",
+        " <electro>Elektro</electro>: Verringert, während sich Nahida im Schrein von Maya befindet, das Intervall des Auslösens der dreifachen Karma-Läuterung der Elementarfähigkeit „Kennerin aller Tricks“.",
+        " <hydro>Hydro</hydro>: Verlängert die Dauer des Schreins von Maya."
       ],
       "4": "<br/>",
       "5": "Verstärkt den entsprechenden Effekt, wenn sich beim Entfalten des Schreins mindestens zwei Figuren der oben genannten Elementartypen in der Truppe befinden.",
       "6": "<br/>",
-      "7": "<i>In den Augen der Göttin der Weisheit sind womöglich alle, die unter den Kronen der Bäume leben, nichts anderes als der umgekehrte Traum von Mayaßßß.</i>"
+      "7": "Nahida erhält weiter die oben genannten Boni, auch wenn sie sich inaktiv in der Truppe befindet, solange die Truppe innerhalb des Schreins von Maya bleibt.",
+      "8": "<br/>",
+      "9": "<i>In den Augen der Göttin der Weisheit sind womöglich alle, die unter den Kronen der Bäume leben, nichts anderes als der umgekehrte Traum von Mayaßßß.</i>"
     },
     "skillParams": {
       "0": "Pyro: SCH-Bonus",
-      "1": "Elektro: Verringerung des Intervalls",
-      "2": "Hydro: Verlängerung der Dauer",
-      "3": "Basisdauer",
-      "4": "Abklingzeit",
-      "5": "Elementarenergie",
-      "6": "",
-      "7": "",
-      "8": "",
+      "1": "Pyro: SCH-Bonus",
+      "2": "Elektro: Verringerung des Intervalls",
+      "3": "Elektro: Verringerung des Intervalls",
+      "4": "Hydro: Verlängerung der Dauer",
+      "5": "Hydro: Verlängerung der Dauer",
+      "6": "Basisdauer",
+      "7": "Abklingzeit",
+      "8": "Elementarenergie",
       "9": "",
       "10": "",
       "11": "",
@@ -112,22 +115,22 @@
   "passive1": {
     "name": "Illuminiertes Mitgefühlßßß",
     "description": {
-      "0": "Beim Auslösen von <strong>Illusorisches Herzßßß</strong> erhält der Schrein von Mayaßßß die folgenden Effekte:",
-      "1": "Erhöht innerhalb des Schreins die Elementarkunde der aktuellen Figur um 20 % der Elementarkunde der Figur mit der höchsten Elementarkunde in der Truppe.",
-      "2": "Auf diese Weise kann die Elementarkunde höchstens um 200 Punkte erhöht werden."
+      "0": "Beim Auslösen von <strong>Illusorisches Herz</strong> erhält der Schrein von Maya die folgenden Effekte:",
+      "1": "Erhöht innerhalb des Schreins die Elementarkunde der aktuellen Figur um 25 % der Elementarkunde der Figur mit der höchsten Elementarkunde in der Truppe.",
+      "2": "Auf diese Weise kann die Elementarkunde höchstens um 250 Punkte erhöht werden."
     }
   },
   "passive2": {
-    "name": "Geläutertes Erwachenßßß",
+    "name": "Geläutertes Erwachen",
     "description": {
-      "0": "Erhöht für jeden Punkt von Nahidas Elementarkunde über 200 Punkten den mit der dreifachen Karma-Läuterungßßß von <strong>Kennerin aller Tricksßßß</strong> verursachten Schaden um 0,1 % und ihre KT um 0,03 %.",
-      "1": "Auf diese Weise kann der Schaden der Drei-Karma-Läuterungßßß höchstens um 80 % und ihreßßß KT höchstens um 24 % erhöht werden."
+      "0": "Erhöht für jeden Punkt von Nahidas Elementarkunde über 200 Punkten den mit der dreifachen Karma-Läuterung von <strong>Kennerin aller Tricks</strong> verursachten Schaden um 0,1 % und KT der dreifachen Karma-Läuterung um 0,03 %.",
+      "1": "Auf diese Weise kann der Schaden der dreifachen Karma-Läuterung höchstens um 80 % und ihre KT höchstens um 24 % erhöht werden."
     }
   },
   "passive3": {
-    "name": "Universelle Meditationßßß",
+    "name": "Universelle Meditation",
     "description": {
-      "0": "Nahida kann durch <strong>Kennerin aller Tricksßßß</strong> mit einem Teil der Rohstoffe in einem bestimmten Bereich interagieren.",
+      "0": "Nahida kann durch <strong>Kennerin aller Tricks</strong> mit einem Teil der Rohstoffe in einem bestimmten Bereich interagieren.",
       "1": "Vielleicht hat diese Fähigkeit noch andere Effekte ..."
     }
   },
@@ -170,9 +173,9 @@
   "constellation6": {
     "name": "Frucht der Kulmination der Vernunftßßß",
     "description": {
-      "0": "Wenn Nahida nach Auslösen von <strong>Illusorisches Herzßßß</strong> einen mit Samen von Skandha von <strong>Kennerin aller Tricksßßß</strong> markierten Gegner mit einem Standardangriff oder einem heftigen Schlag trifft, wird diesem Gegner und allen mit diesem verketteten Gegnern karmisches Vergessenßßß zugefügt. Dadurch wird diesen Gegnern <dendro>Dendro-Schaden</dendro> in Höhe von 200 % von Nahidas ANG plusßßß 400 % ihrer Elementarkunde zugefügt.",
-      "1": "Der von karmisches Vergessenßßß verursachte Schaden gilt als Schaden der Elementarfähigkeit, 0,2 s Abklingzeit.",
-      "2": "Dieser Effekt hält bis zu 10 s und wird entfernt, sobald Nahida 6-mal karmisches Vergessenßßß ausgelöst hat."
+      "0": "Trifft Nahida nach Auslösen von <strong>Illusorisches Herz</strong> einen mit Samen von Skandha von <strong>Kennerin aller Tricks</strong> markierten Gegner mit einem Standardangriff oder einem heftigen Schlag, wird diesem Gegner und allen mit diesem verketteten Gegnern „Dreifache Karma-Läuterung – karmisches Vergessen“ zugefügt. Dadurch wird diesen Gegnern <dendro>Dendro-Schaden</dendro> basierend auf 200 % von Nahidas ANG und 400 % ihrer Elementarkunde zugefügt.",
+      "1": "Der von „Dreifache Karma-Läuterung – karmisches Vergessen“ verursachte Schaden gilt als Schaden der Elementarfähigkeit, 0,2 s Abklingzeit.",
+      "2": "Dieser Effekt hält höchstens 10 s und wird entfernt, sobald Nahida 6-mal „Dreifache Karma-Läuterung – karmisches Vergessen“ ausgelöst hat."
     }
   }
 }

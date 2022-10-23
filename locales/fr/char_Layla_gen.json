@@ -1,7 +1,7 @@
 {
   "name": "Layla",
-  "title": "???",
-  "description": "",
+  "title": "Merveilleuse étoile vespérale",
+  "description": "Une étudiante du Rtawahist spécialisée en astrologie théorique. Parfois somnambule, parfois insomniaque, elle souffre de troubles du sommeil.",
   "constellationName": "Luscinia",
   "auto": {
     "name": "Épée de radiance",
@@ -41,16 +41,17 @@
   "skill": {
     "name": "Nuits de solennité",
     "description": {
-      "0": "Brandit un bouclier connu sous le nom de « Rideau de sommeil » et inflige des <cryo>DGT Cryo de zone</cryo>. L'absorption de DGT d'un rideau de sommeil est basée sur les PV max de Layla et ce dernier absorbe les <cryo>DGT Cryo</cryo> 250 % plus efficacement. Lorsque le bouclier est déployé, Layla obtient une brève <cryo>application Cryo</cryo>.",
-      "1": "<br/>",
-      "2": "<strong>Étoiles vespérales et étoiles filantes</strong>",
-      "3": "Tant qu'un rideau de sommeil est actif, il obtient 1 étoile vespérale toutes les 1,5 s. Lorsqu'un personnage protégé par ce bouclier utilise une compétence élémentaire, le bouclier obtient 2 étoiles vespérales, des étoiles vespérales pouvant être créées une fois toutes les 0,3 s de cette manière. Un maximum de 4 étoiles vespérales peut être cumulé en même temps.",
-      "4": "Lorsqu'un rideau de sommeil a cumulé 4 étoiles vespérales et que des ennemis sont à proximité, ces étoiles vespérales se transforment en étoiles filantes à tête chercheuse qui sont tirées en séquence, infligeant des <cryo>DGT Cryo</cryo> aux ennemis touchés.",
-      "5": "Si la durée d'un rideau de sommeil se termine ou s'il est détruit, les étoiles vespérales disparaissent, mais si une ou plusieurs étoiles filantes ont déjà été tirée, ces dernières durent jusqu'à la fin de cette vague de tirs.",
-      "6": "<br/>",
-      "7": "Il est impossible de créer de nouvelles étoiles vespérales tant que la vague d'étoiles filantes n'a pas fini d'être tirée.",
-      "8": "<br/>",
-      "9": "<i>« Elle et moi sommes comme deux maîtres artisans qui ne se sont jamais rencontrés, mais qui sont assis sur le même siège rembourré, brodant la même fleur de rêve. »</i>"
+      "0": "Brandit un bouclier connu sous le nom de « Rideau de sommeil » et inflige des <cryo>DGT Cryo de zone</cryo>.",
+      "1": "L'absorption de DGT d'un rideau de sommeil est basée sur les PV max de Layla et ce dernier absorbe les <cryo>DGT Cryo</cryo> 250 % plus efficacement. Lorsque le bouclier est déployé, Layla obtient une brève <cryo>application Cryo</cryo>.",
+      "2": "<br/>",
+      "3": "<strong>Étoiles vespérales et étoiles filantes</strong>",
+      "4": "Tant qu'un rideau de sommeil est actif, il obtient 1 étoile vespérale toutes les 1,5 s. Lorsqu'un personnage protégé par ce bouclier utilise une compétence élémentaire, le bouclier obtient 2 étoiles vespérales, des étoiles vespérales pouvant être créées une fois toutes les 0,3 s de cette manière. Un maximum de 4 étoiles vespérales peut être cumulé en même temps.",
+      "5": "Lorsqu'un rideau de sommeil a cumulé 4 étoiles vespérales et que des ennemis sont à proximité, ces étoiles vespérales se transforment en étoiles filantes à tête chercheuse qui sont tirées en séquence, infligeant des <cryo>DGT Cryo</cryo> aux ennemis touchés.",
+      "6": "Si la durée d'un rideau de sommeil se termine ou s'il est détruit, les étoiles vespérales disparaissent, mais si une ou plusieurs étoiles filantes ont déjà été tirées, ces dernières durent jusqu'à la fin de cette vague de tirs.",
+      "7": "<br/>",
+      "8": "Il est impossible de créer de nouvelles étoiles vespérales tant que la vague d'étoiles filantes n'a pas fini d'être tirée.",
+      "9": "<br/>",
+      "10": "<i>« Elle et moi sommes comme deux maîtres artisans qui ne se sont jamais rencontrés, mais qui sont assis sur le même siège rembourré, brodant la même fleur de rêve. »</i>"
     },
     "skillParams": {
       "0": "DGT compétence",
@@ -111,7 +112,7 @@
   "passive2": {
     "name": "Sommeil imperturbable",
     "description": {
-      "0": "Augmente les DGT infligés par les étoiles stellaires tirées par <strong>Nuits de solennité</strong> d'une valeur équivalant à 1,5 % des PV max de Layla."
+      "0": "Augmente les DGT infligés par les étoiles filantes tirées par <strong>Nuits de solennité</strong> d'une valeur équivalant à 1,5 % des PV max de Layla."
     }
   },
   "passive3": {
@@ -143,8 +144,8 @@
   "constellation4": {
     "name": "Illumination étoilée",
     "description": {
-      "0": "Lorsque <strong>Nuits de solennité</strong> commence à tirer des étoiles filantes, tous les personnages de l'équipe à proximité obtiennent l'effet Largesse d'esprit, augmentant les DGT de leurs attaques normales et chargées d'une valeur équivalant à 5 % des PV max de Layla.",
-      "1": "L'effet Largesse d'esprit dure 3 s ou disparaît 0,05 s après avoir infligé des DGT d'attaque normale ou chargée."
+      "0": "Lorsque <strong>Nuits de solennité</strong> commence à tirer des étoiles filantes, tous les personnages de l'équipe à proximité obtiennent l'effet Étoile d'aube, augmentant les DGT de leurs attaques normales et chargées d'une valeur équivalant à 5 % des PV max de Layla.",
+      "1": "L'effet Étoile d'aube dure 3 s ou disparaît 0,05 s après avoir infligé des DGT d'attaque normale ou chargée."
     }
   },
   "constellation5": {

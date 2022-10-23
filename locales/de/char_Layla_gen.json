@@ -1,10 +1,10 @@
 {
   "name": "Layla",
-  "title": "???",
-  "description": "",
+  "title": "Verträumter Abendstern",
+  "description": "Eine Rtawahist-Studentin, die sich auf theoretische Astrologie spezialisiert hat. Manchmal schlafwandelnd, manchmal schlaflos. Sie leidet immer unter Schlafproblemen.",
   "constellationName": "Luscinia",
   "auto": {
-    "name": "Schwert des strahlenden Pfadsßßß",
+    "name": "Schwert des strahlenden Pfads",
     "fields": {
       "normal": {
         "0": "<strong><strong>Standardangriff</strong>",
@@ -39,18 +39,19 @@
     }
   },
   "skill": {
-    "name": "Nacht des feierlichen Fokusßßß",
+    "name": "Nacht des feierlichen Fokus",
     "description": {
-      "0": "Breitet einen Schutzschild, der als Vorhang des sanften Schlummersßßß bekannt ist, aus und verursacht <cryo>Kryo-Flächenschaden</cryo>. Vorhang des sanften Schlummersßßß hält Schaden basierend auf Laylas max. LP und bei <cryo>Kryo-Schaden</cryo> hat 250 % ab. Beim Ausbreiten des Vorhangs ist Layla kurzzeitig von <cryo>Kryo-Kraft</cryo> betroffen.",
-      "1": "<br/>",
-      "2": "<strong>Abendsterne und Sternschnuppenßßß</strong>",
-      "3": "Während der Dauer des Vorhangs des sanften Schlummersßßß entsteht alle 1,5 s 1 sich an diesem anheftender Abendsternßßß. Wenn eine im Schutz dieses Schilds stehende Figur ihre Elementarfähigkeit anwendet, entstehen 2 Abendsterneßßß. 0,3 s Abklingzeit für das Entstehen von Abendsternenßßß auf diese Weise. Zu jeder Zeit können bis zu 4 Abendsterneßßß gleichzeitig vorhanden sein.",
-      "4": "Sobald sich am Vorhang des sanften Schlummersßßß 4 Abendsterneßßß befinden und sich Gegner in der Nähe befinden, werden die Abendsterneßßß als selbstständig zielsuchende Sternschnuppenßßß abgefeuert, die den von ihnen getroffenen Gegnern <cryo>Kryo-Schaden</cryo> zufügen.",
-      "5": "Nach Ablauf der Dauer des Vorhangs des sanften Schlummersßßß oder dessen Zerstörung verschwinden zugleich auch die Abendsterneßßß. Sollten bereits Sternschnuppenßßß abgefeuert werden, werden diese weiterhin abgefeuert, bis sie aufgebraucht sind.",
-      "6": "<br/>",
-      "7": "Bevor die Sternschnuppenßßß abgefeuert wurden, können keine neuen Abendsterneßßß entstehen.",
-      "8": "<br/>",
-      "9": "<i>„Sie und ich sind wie zwei Meisterhandwerker, die einander nie begegnet sind und doch auf dem gleichen Stuhl sitzen und die gleiche Traumblume sticken.“</i>"
+      "0": "Breitet einen Schutzschild, der als Vorhang des sanften Schlummers bekannt ist, aus und verursacht <cryo>Kryo-Flächenschaden</cryo>.",
+      "1": "Vorhang des sanften Schlummers hält Schaden basierend auf Laylas max. LP und bei <cryo>Kryo-Schaden</cryo> hat 250 % ab. Beim Ausbreiten des Vorhangs ist Layla kurzzeitig von <cryo>Kryo-Kraft</cryo> betroffen.",
+      "2": "<br/>",
+      "3": "<strong>Abendsterne und Sternschnuppen</strong>",
+      "4": "Während der Dauer des Vorhangs des sanften Schlummers entsteht alle 1,5 s 1 sich an diesem anheftender Abendstern. Wenn eine im Schutz dieses Schilds stehende Figur ihre Elementarfähigkeit anwendet, entstehen 2 Abendsterne. 0,3 s Abklingzeit für das Entstehen von Abendsternen auf diese Weise. Zu jeder Zeit können bis zu 4 Abendsterne gleichzeitig vorhanden sein.",
+      "5": "Sobald sich am Vorhang des sanften Schlummers 4 Abendsterne befinden und sich Gegner in der Nähe befinden, werden die Abendsterne als selbstständig zielsuchende Sternschnuppen abgefeuert, die den von ihnen getroffenen Gegnern <cryo>Kryo-Schaden</cryo> zufügen.",
+      "6": "Nach Ablauf der Dauer des Vorhangs des sanften Schlummers oder dessen Zerstörung verschwinden zugleich auch die Abendsterne. Sollten bereits Sternschnuppenßßß abgefeuert werden, werden diese weiterhin abgefeuert, bis sie aufgebraucht sind.",
+      "7": "<br/>",
+      "8": "Bevor die Sternschnuppenßßß abgefeuert wurden, können keine neuen Abendsterne entstehen.",
+      "9": "<br/>",
+      "10": "<i>„Sie und ich sind wie zwei Meisterhandwerker, die einander nie begegnet sind und doch auf dem gleichen Stuhl sitzen und die gleiche Traumblume sticken.“</i>"
     },
     "skillParams": {
       "0": "Fähigkeits-SCH",
@@ -72,10 +73,10 @@
     }
   },
   "burst": {
-    "name": "Traum des Sternenstrom-Schüttlersßßß",
+    "name": "Traum des Sternenstrom-Schüttlers",
     "description": {
-      "0": "Entfesselt einen himmlischen Traumball, der fortlaufend Sternenlichtgeschosseßßß auf Gegner in ihrer Reichweite abfeuert, welche <cryo>Kryo-Schaden</cryo> verursachen.",
-      "1": "Bei Treffern mit Sternenlichtgeschossenßßß entsteht am Vorhang des sanften Schlummersßßß in der Nähe 1 Abendsternßßß. 0,5 s Abklingzeit für das Entstehen von Abendsternenßßß auf diese Weise pro Vorhang des sanften Schlummers.",
+      "0": "Entfesselt ein himmlisches Mobile, der fortlaufend Sternenlichtgeschosse auf Gegner in ihrer Reichweite abfeuert, welche <cryo>Kryo-Schaden</cryo> verursachen.",
+      "1": "Bei Treffern mit Sternenlichtgeschossen entsteht am Vorhang des sanften Schlummers in der Nähe 1 Abendstern. 0,5 s Abklingzeit für das Entstehen von Abendsternen auf diese Weise pro Vorhang des sanften Schlummers.",
       "2": "<br/>",
       "3": "<i>„Schlaf schön, schlaf schön! Ich weiß, so viele Sterne fliegen in deinem Traum, so viele Schicksale offenbaren sich vor deinen vom Schlaf verschwommenen Augen.“</i>"
     },
@@ -99,12 +100,12 @@
     }
   },
   "passive1": {
-    "name": "Erste Sonnenstrahlenßßß",
+    "name": "Erste Sonnenstrahlen",
     "description": {
-      "0": "Während des Bestehens des <strong>Vorhangs des sanften Schlummersßßß</strong> wird beim Erhalt eines Abendsternsßßß der Tiefschlaf-Effektßßß ausgelöst:",
+      "0": "Während des Bestehens des <strong>Vorhangs des sanften Schlummers</strong> wird beim Erhalt eines Abendsterns der Tiefschlaf-Effekt ausgelöst:",
       "1": [
         " Erhöht für Figuren, die sich im Schutz dieses Schildes befinden, die Schildeffizienz um 6 %.",
-        " Dieser Effekt ist höchstens 4-mal stapelbar und hält an, bis der Vorhangs des sanften Schlummersßßß verschwindet."
+        " Dieser Effekt ist höchstens 4-mal stapelbar und hält an, bis der Vorhangs des sanften Schlummers verschwindet."
       ]
     }
   },
@@ -115,7 +116,7 @@
     }
   },
   "passive3": {
-    "name": "Schattenhafte Traumzeichenßßß",
+    "name": "Schattenhafte Traumzeichen",
     "description": {
       "0": "Stellt beim Zusammensetzen von Material für Figurentalente mit einer Wahrscheinlichkeit von 10 % den 2-fachen Ertrag her."
     }

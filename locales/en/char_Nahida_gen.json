@@ -1,18 +1,18 @@
 {
   "name": "Nahida",
-  "title": "???",
-  "description": "",
+  "title": "Physic of Purity",
+  "description": "A caged bird secluded within the confines of the Sanctuary of Surasthana who can only see the world in her dreams.",
   "constellationName": "Sapientia Oromasdis",
   "auto": {
     "name": "Akara",
     "fields": {
       "normal": {
         "0": "<strong><strong>Normal Attack</strong>",
-        "1": "Performs up to 4 attacks that deal <dendro>Dendro DMG</dendro>."
+        "1": "Performs up to 4 attacks that deal <dendro>Dendro DMG</dendro> to opponents in front of her."
       },
       "charged": {
         "0": "<strong>Charged Attack</strong>",
-        "1": "Consumes a certain amount of Stamina to deal <dendro>AoE Dendro DMG</dendro> after a short casting time."
+        "1": "Consumes a certain amount of Stamina to deal <dendro>AoE Dendro DMG</dendro> to opponents in front of her after a short casting time."
       },
       "plunging": {
         "0": "<strong>Plunging Attack</strong>",
@@ -41,7 +41,7 @@
   "skill": {
     "name": "All Schemes to Know",
     "description": {
-      "0": "Sends forth karmic bonds of wood and tree from her side, dealing <dendro>AoE Dendro DMG</dendro> and marking opponents hit with the Seed of Skandha.",
+      "0": "Sends forth karmic bonds of wood and tree from her side, dealing <dendro>AoE Dendro DMG</dendro> and marking up to 8 opponents hit with the Seed of Skandha.",
       "1": "When held, this skill will trigger differently.",
       "2": "<br/>",
       "3": "<strong>Hold</strong>",
@@ -51,7 +51,7 @@
       "7": "<br/>",
       "8": "<strong>Seed of Skandha</strong>",
       "9": "Opponents who have been marked by the Seed of Skandha will be linked to one another up till a certain distance.",
-      "10": "After you trigger Elemental Reactions on opponents who are affected by the Seeds of Skandha and when they take DMG from Dendro Cores (including Burgeon and Hyperbloom DMG), Nahida will unleash Tri-Karma Purification on the opponents and all connected opponents, dealing <dendro>Dendro DMG</dendro> based on her ATK and Elemental Mastery.",
+      "10": "After you trigger Elemental Reactions on opponents who are affected by the Seeds of Skandha or when they take DMG from Dendro Cores (including Burgeon and Hyperbloom DMG), Nahida will unleash Tri-Karma Purification on the opponents and all connected opponents, dealing <dendro>Dendro DMG</dendro> based on her ATK and Elemental Mastery.",
       "11": "You can trigger at most 1 Tri-Karma Purification within a short period of time.",
       "12": "<br/>",
       "13": "<i>Lo, the god of grass and trees shines her ultimate truth into the void, illuminating the origin and destruction of the three karmas.</i>"
@@ -63,7 +63,7 @@
       "3": "Tri-Karma Purification Trigger Interval",
       "4": "Seed of Skandha Duration",
       "5": "Press CD",
-      "6": "CD (hold)",
+      "6": "Hold CD",
       "7": "",
       "8": "",
       "9": "",
@@ -89,18 +89,20 @@
       "4": "<br/>",
       "5": "If there are at least 2 party members of the aforementioned Elemental Types present when the field is deployed, the aforementioned effects will be increased further.",
       "6": "<br/>",
-      "7": "<i>Perhaps all that dwell under the bowers of trees are naught but a fleeting upside-down dream in the eyes of the God of Wisdom.</i>"
+      "7": "Even if Nahida is not on the field, these bonuses will still take effect so long as party members are within the Shrine of Maya.",
+      "8": "<br/>",
+      "9": "<i>Perhaps all that dwell under the bowers of trees are naught but a fleeting upside-down dream in the eyes of the God of Wisdom.</i>"
     },
     "skillParams": {
       "0": "Pyro: DMG Bonus",
-      "1": "Electro: CD Decrease",
-      "2": "Hydro: Duration Extension",
-      "3": "Base Duration",
-      "4": "CD",
-      "5": "Energy Cost",
-      "6": "",
-      "7": "",
-      "8": "",
+      "1": "Pyro: DMG Bonus",
+      "2": "Electro: CD Decrease",
+      "3": "Electro: CD Decrease",
+      "4": "Hydro: Duration Extension",
+      "5": "Hydro: Duration Extension",
+      "6": "Base Duration",
+      "7": "CD",
+      "8": "Energy Cost",
       "9": "",
       "10": "",
       "11": "",
@@ -143,7 +145,7 @@
     "description": {
       "0": "Opponents that are marked by <strong>Seeds of Skandha</strong> applied by Nahida herself will be affected by the following effects:",
       "1": [
-        "Burning, Bloom, Hyperbloom, Burgeon Reaction DMG can score CRIT Hits. CRIT Rate and CRIT DMG are fixed at 20% and 100% respectively.",
+        "Burning, Bloom, Hyperbloom, and Burgeon Reaction DMG can score CRIT Hits. CRIT Rate and CRIT DMG are fixed at 20% and 100% respectively.",
         "Within 8s of being affected by Quicken, Aggravate, Spread, DEF is decreased by 30%."
       ]
     }
@@ -171,9 +173,9 @@
   "constellation6": {
     "name": "The Fruit of Reason's Culmination",
     "description": {
-      "0": "When Nahida hits an opponent affected by <strong>All Schemes to Know</strong>'s Seeds of Skandha with Normal or Charged Attacks after unleashing <strong>Illusory Heart</strong>, she will use Karmic Oblivion on this opponent and all connected opponents, dealing <dendro>Dendro DMG</dendro> based on 200% of Nahida's ATK and 400% of her Elemental Mastery.",
-      "1": "DMG dealt by Karmic Oblivion is considered Elemental Skill DMG and can be triggered once every 0.2s.",
-      "2": "This effect can last up to 10s and will be removed after Nahida has unleashed 6 instances of Karmic Oblivion."
+      "0": "When Nahida hits an opponent affected by <strong>All Schemes to Know</strong>'s Seeds of Skandha with Normal or Charged Attacks after unleashing <strong>Illusory Heart</strong>, she will use Tri-Karma Purification: Karmic Oblivion on this opponent and all connected opponents, dealing <dendro>Dendro DMG</dendro> based on 200% of Nahida's ATK and 400% of her Elemental Mastery.",
+      "1": "DMG dealt by Tri-Karma Purification: Karmic Oblivion is considered Elemental Skill DMG and can be triggered once every 0.2s.",
+      "2": "This effect can last up to 10s and will be removed after Nahida has unleashed 6 instances of Tri-Karma Purification: Karmic Oblivion."
     }
   }
 }
