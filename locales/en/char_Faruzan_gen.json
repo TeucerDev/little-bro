@@ -42,11 +42,11 @@
   "skill": {
     "name": "Wind Realm of Nasamjnin",
     "description": {
-      "0": "Faruzan deploys a polyhedron that deals AoE Anemo DMG to nearby opponents. She will also enter the Manifest Gale state.",
-      "1": "While in the Manifest Gale state, Faruzan's next fully charged shot will consume this state and will become a Hurricane Arrow that deals <anemo>Anemo DMG</anemo> to opponents hit. This DMG will be considered Charged Attack DMG.",
+      "0": "Faruzan deploys a polyhedron that deals <anemo>AoE Anemo DMG</anemo> to nearby opponents. She will also enter the Manifest Gale state.",
+      "1": "While in the Manifest Gale state, Faruzan's next fully charged shot will consume this state and will become a Hurricane Arrow that contains high-pressure currents. This arrow deals <anemo>Anemo DMG</anemo> based on the DMG of a fully charged Aimed Shot from \"Normal Attack: Turnaround Shooter.\"",
       "2": "<br/>",
       "3": "<strong>Pressurized Collapse</strong>",
-      "4": "The Hurricane Arrow will create a Pressurized Collapse effect at its point of impact, applying the Pressurized Collapse effect to the opponent or character hit. This effect will be removed after a short delay, creating a vortex that deals <anemo>AoE Anemo DMG</anemo> and pulls nearby objects and opponents in.",
+      "4": "The Hurricane Arrow will apply a Pressurized Collapse effect to the opponent or character hit. This effect will be removed after a short delay, creating a vortex that deals <anemo>AoE Anemo DMG</anemo> and pulls nearby objects and opponents in. If the Hurricane Arrow does not hit any opponent or character, it will create a Pressurized Collapse effect at its point of impact.",
       "5": "The vortex DMG is considered Elemental Skill DMG.",
       "6": "·Jumping expends extra Sky-Dweller Points to increase hovering height; holding jump will cause persistent Sky-Dweller point consumption to increase hovering height.",
       "7": "<br/>",
@@ -55,9 +55,9 @@
     "skillParams": {
       "0": "Skill DMG",
       "1": "Pressurized Collapse Vortex DMG",
-      "2": "Hurricane Arrow Hit DMG",
-      "3": "Manifest Gale Duration",
-      "4": "CD",
+      "2": "Manifest Gale Duration",
+      "3": "CD",
+      "4": "",
       "5": "",
       "6": "",
       "7": "",
@@ -79,7 +79,7 @@
       "2": "<br/>",
       "3": "<strong>Whirlwind Pulse</strong>",
       "4": "·When the Whirlwind Pulse hits opponents, it will apply Perfidious Wind's Ruin to them, decreasing their <anemo>Anemo RES</anemo>.",
-      "5": "·The Whirlwind Pulse will also apply Prayerful Wind's Gift to all nearby characters when it is unleashed, granting them <anemo>Anemo DMG Bonus</anemo>.",
+      "5": "·The Whirlwind Pulse will also apply Prayerful Wind's Gift to all nearby party members when it is unleashed, granting them <anemo>Anemo DMG Bonus</anemo>.",
       "6": "<br/>",
       "7": "<i>One must have respect for the unknown wisdom that one might find hidden in ancient ruins.</i>"
     },
@@ -111,7 +111,7 @@
   "passive2": {
     "name": "Lost Wisdom of the Seven Caverns",
     "description": {
-      "0": "When characters affected by The Wind's Secret Ways' Prayerful Wind's Gift deal <anemo>Anemo DMG</anemo> to opponents, this DMG will be increased based on 57.4% of Faruzan's own ATK. This DMG Bonus will be cleared 0.1s after dealing <anemo>Anemo DMG</anemo> to opponents, and can be triggered once every 1s."
+      "0": "When characters affected by The Wind's Secret Ways' Prayerful Wind's Gift deal <anemo>Anemo DMG</anemo> to opponents, this DMG will be increased based on 45.9% of Faruzan's Base ATK. This DMG Bonus will be cleared 0.1s after dealing <anemo>Anemo DMG</anemo> to opponents, and can be triggered once every 0.8s."
     }
   },
   "passive3": {
@@ -156,7 +156,7 @@
   "constellation6": {
     "name": "The Wondrous Path of Truth",
     "description": {
-      "0": "Characters affected by <strong>The Wind's Secret Ways</strong>' Prayerful Wind's Gift have 40% bonus CRIT DMG when they deal <anemo>Anemo DMG</anemo>. When your own active character deals DMG while affected by Prayerful Wind's Gift, they will fire another Hurricane Arrow at opponents. This effect can be triggered once every 2.5s."
+      "0": "Characters affected by <strong>The Wind's Secret Ways</strong>' Prayerful Wind's Gift have 40% increased CRIT DMG when they deal <anemo>Anemo DMG</anemo>. When your own active character deals DMG while affected by Prayerful Wind's Gift, they will fire another Hurricane Arrow at opponents. This effect can be triggered once every 3s."
     }
   }
 }

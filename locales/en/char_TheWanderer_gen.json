@@ -39,7 +39,7 @@
     }
   },
   "skill": {
-    "name": "Hanega: Fushi Kakka",
+    "name": "Hanega: Song of the Wind",
     "description": {
       "0": "Concentrates the power of the winds to break free from the shackles of the earth, dealing <anemo>AoE Anemo DMG</anemo> before leaping into the air and entering the Windfavored state.",
       "1": "<br/>",
@@ -74,10 +74,10 @@
     }
   },
   "burst": {
-    "name": "Kyougen: Shikiraku Gobandate",
+    "name": "Kyougen: Five Ceremonial Plays",
     "description": {
       "0": "Compresses the atmosphere into a singular vacuum that grinds all troubles away, dealing multiple instances of <anemo>AoE Anemo DMG</anemo>.",
-      "1": "If character is in the Windfavored state due to the skill Hanega: Fushi Kakka, Windfavored state will end after casting.",
+      "1": "If character is in the Windfavored state due to the skill Hanega: Song of the Wind, Windfavored state will end after casting.",
       "2": "<br/>",
       "3": "<i>\"Bright be the narrowed gaze of the sky, casting its gaze on dreams both past and present, like radiance washing over dust on the winds.\"</i>"
     },
@@ -103,11 +103,11 @@
   "passive1": {
     "name": "Jade-Claimed Flower",
     "description": {
-      "0": "If <strong>Hanega: Fushi Kakka</strong> comes into contact with Hydro/Pyro/Cryo/Electro, this instance of the Windfavored state will obtain buffs according to the contacted element:",
+      "0": "If <strong>Hanega: Song of the Wind</strong> comes into contact with Hydro/Pyro/Cryo/Electro, this instance of the Windfavored state will obtain buffs according to the contacted element:",
       "1": "·<hydro>Hydro</hydro>: Sky-Dweller Point cap increases by 20.",
       "2": "·<pyro>Pyro</pyro>: ATK increases by 30%.",
       "3": "·<cryo>Cryo</cryo>: CRIT Rate increases by 20%.",
-      "4": "·<electro>Electro</electro>: When Normal and Charged Attacks hit opponents, 0.6 Energy will be restored. Energy can be restored in this manner every 0.2s.",
+      "4": "·<electro>Electro</electro>: When Normal and Charged Attacks hit opponents, 0.8 Energy will be restored. Energy can be restored in this manner every 0.2s.",
       "5": "<br/>",
       "6": "You can have 2 different kinds of these buffs simultaneously."
     }
@@ -126,41 +126,42 @@
     }
   },
   "constellation1": {
-    "name": "Shoban: Mofuryu Hagyou",
+    "name": "Shoban: Ostentatious Plumage",
     "description": {
-      "0": "When in the <strong>Windfavored</strong> State, The Wanderer's Normal and Charged Attack SPD is increased by 10%."
+      "0": "When in the <strong>Windfavored</strong> State, The Wanderer's Normal and Charged Attack SPD is increased by 10%.",
+      "1": "Additionally, the wind arrows fired by the Passive Talent \"Gales of Reverie\" will deal an additional 25% of his ATK as DMG. You must unlock the Passive Talent \"Gales of Reverie\" first."
     }
   },
   "constellation2": {
     "name": "Niban: Ebirajima Tsuki no Shiranami",
     "description": {
-      "0": "When in the <strong>Windfavored</strong> State, the <strong>Kyougen: Shikiraku Gobandate</strong> skill will see its DMG increased by 3% per point of difference between the max amount of Sky-Dweller Points contrasted with Sky-Dweller's present capacity when using this skill.",
-      "1": "Through this method, you can increase Kyougen: Shikiraku Gobandate's DMG by a maximum of 150%."
+      "0": "When in the <strong>Windfavored</strong> State, the <strong>Kyougen: Five Ceremonial Plays</strong> skill will see its DMG increased by 4% per point of difference between the max amount of Sky-Dweller Points contrasted with Sky-Dweller's present capacity when using this skill.",
+      "1": "Through this method, you can increase Kyougen: Five Ceremonial Plays's DMG by a maximum of 200%."
     }
   },
   "constellation3": {
-    "name": "Sanban: Kusemai Yugao",
+    "name": "Sanban: Moonflower Kusemai",
     "description": {
-      "0": "Increases the Level of <strong>Hanega: Fushi Kakka</strong> by 3.",
+      "0": "Increases the Level of <strong>Hanega: Song of the Wind</strong> by 3.",
       "1": "Maximum upgrade level is 15."
     }
   },
   "constellation4": {
-    "name": "Yonban: Hanazuki Uta no Ukibane",
+    "name": "Yonban: Set Adrift into Spring",
     "description": {
-      "0": "When casting <strong>Hanega: Fushi Kakka</strong>, should the Passive Talent \"Jade-Claimed Flower\" be triggered, the character will gain enhancement effects in correspondence to the contacted Elemental Type(s), and also gain a random untriggered enhancement effect.",
+      "0": "When casting <strong>Hanega: Song of the Wind</strong>, should the Passive Talent \"Jade-Claimed Flower\" be triggered, the character will gain enhancement effects in correspondence to the contacted Elemental Type(s), and also gain a random untriggered enhancement effect.",
       "1": "You need to unlock the Passive Talent \"Jade-Claimed Flower.\""
     }
   },
   "constellation5": {
-    "name": "Matsuban: Konjaku Torai Tono",
+    "name": "Matsuban: Ancient Illuminator From Abroad",
     "description": {
-      "0": "Increases the Level of <strong>Kyougen: Shikiraku Gobandate</strong> by 3.",
+      "0": "Increases the Level of <strong>Kyougen: Five Ceremonial Plays</strong> by 3.",
       "1": "Maximum upgrade level is 15."
     }
   },
   "constellation6": {
-    "name": "Shugen: Kasumimaku Katami Matsukaze",
+    "name": "Shugen: The Curtains' Melancholic Sway",
     "description": {
       "0": "When The Wanderer actively hits opponents with Normal Attacks while in the <strong>Windfavored</strong> state, the following effects will occur:",
       "1": "·Deals an instance of 40% ATK as <anemo>Anemo DMG</anemo>. This DMG will be considered Normal Attack DMG.",
