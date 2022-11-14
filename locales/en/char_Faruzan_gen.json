@@ -4,7 +4,7 @@
   "description": "",
   "constellationName": "Arabisca",
   "auto": {
-    "name": "Turnaround Shooter",
+    "name": "Parthian Shot",
     "fields": {
       "normal": {
         "0": "<strong><strong>Normal Attack</strong>",
@@ -78,17 +78,17 @@
       "1": "While the Dazzling Polyhedron persists, it will continuously move along a triangular path. Once it reaches each corner of that triangular path, it will unleash 1 more Whirlwind Pulse.",
       "2": "<br/>",
       "3": "<strong>Whirlwind Pulse</strong>",
-      "4": "·When the Whirlwind Pulse hits opponents, it will apply Perfidious Wind's Ruin to them, decreasing their <anemo>Anemo RES</anemo>.",
-      "5": "·The Whirlwind Pulse will also apply Prayerful Wind's Gift to all nearby party members when it is unleashed, granting them <anemo>Anemo DMG Bonus</anemo>.",
+      "4": "·When the Whirlwind Pulse hits opponents, it will apply Perfidious Wind's Bale to them, decreasing their <anemo>Anemo RES</anemo>.",
+      "5": "·The Whirlwind Pulse will also apply Prayerful Wind's Benefit to all nearby party members when it is unleashed, granting them an <anemo>Anemo DMG Bonus</anemo>.",
       "6": "<br/>",
       "7": "<i>One must have respect for the unknown wisdom that one might find hidden in ancient ruins.</i>"
     },
     "skillParams": {
       "0": "Skill DMG",
       "1": "Anemo DMG Bonus",
-      "2": "Prayerful Wind's Gift Duration",
+      "2": "Prayerful Wind's Benefit Duration",
       "3": "Anemo RES Decrease",
-      "4": "Perfidious Wind's Ruin Duration",
+      "4": "Perfidious Wind's Bale Duration",
       "5": "Dazzling Polyhedron Duration",
       "6": "CD",
       "7": "Energy Cost",
@@ -105,13 +105,13 @@
   "passive1": {
     "name": "Impetuous Flow",
     "description": {
-      "0": "When Faruzan is in the Manifest Gale state created by <strong>Wind Realm of Nasamjnin</strong>, the amount of time taken to charge a shot is decreased by 60%, and she can apply <strong>The Wind's Secret Ways</strong>' Perfidious Wind's Ruin to opponents who are hit by the vortex created by Pressurized Collapse."
+      "0": "When Faruzan is in the Manifest Gale state created by <strong>Wind Realm of Nasamjnin</strong>, the amount of time taken to charge a shot is decreased by 60%, and she can apply <strong>The Wind's Secret Ways</strong>' Perfidious Wind's Bale to opponents who are hit by the vortex created by Pressurized Collapse."
     }
   },
   "passive2": {
     "name": "Lost Wisdom of the Seven Caverns",
     "description": {
-      "0": "When characters affected by The Wind's Secret Ways' Prayerful Wind's Gift deal <anemo>Anemo DMG</anemo> to opponents, this DMG will be increased based on 45.9% of Faruzan's Base ATK. This DMG Bonus will be cleared 0.1s after dealing <anemo>Anemo DMG</anemo> to opponents, and can be triggered once every 0.8s."
+      "0": "When characters affected by <strong>The Wind's Secret Ways</strong>' Prayerful Wind's Benefit deal <anemo>Anemo DMG</anemo> using Normal, Charged, Plunging Attacks, Elemental Skills, or Elemental Bursts to opponents, they will gain the Hurricane Guard effect: This DMG will be increased based on 32% of Faruzan's Base ATK. 1 instance of Hurricane Guard can occur once every 0.8s. This DMG Bonus will be cleared after dealing <anemo>Anemo DMG</anemo> to opponents once."
     }
   },
   "passive3": {
@@ -156,7 +156,8 @@
   "constellation6": {
     "name": "The Wondrous Path of Truth",
     "description": {
-      "0": "Characters affected by <strong>The Wind's Secret Ways</strong>' Prayerful Wind's Gift have 40% increased CRIT DMG when they deal <anemo>Anemo DMG</anemo>. When your own active character deals DMG while affected by Prayerful Wind's Gift, they will fire another Hurricane Arrow at opponents. This effect can be triggered once every 3s."
+      "0": "Characters affected by <strong>The Wind's Secret Ways</strong>' Prayerful Wind's Benefit have 40% increased CRIT DMG when they deal <anemo>Anemo DMG</anemo>. When your own active character deals DMG while affected by Prayerful Wind's Benefit, they will apply Pressurized Collapse to the opponent damaged.",
+      "1": "This effect can be triggered once every 3s."
     }
   }
 }
