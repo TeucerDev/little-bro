@@ -207,6 +207,14 @@
     "name": "Biglietto della prova di coraggio",
     "description": "Un biglietto ottenuto per aver completato le sfide speciali dell'evento prova di coraggio organizzato dalla Commissione Yashiro, dando prova del proprio valore.\\nPuoi scambiare questi biglietti con ricompense durante l'evento Akitsu Kimodameshi."
   },
+  "FloralCoupons": {
+    "name": "",
+    "description": ""
+  },
+  "FestiveTickets": {
+    "name": "",
+    "description": ""
+  },
   "Primogem": {
     "name": "Primogemma",
     "description": "Una gemma cristallina primordiale di origini ultramondane. Risplende delle speranze e dei sogni di universi che furono."
@@ -569,11 +577,19 @@
   },
   "Yaoyao": {
     "name": "Yaoyao",
-    "description": "La più giovane discepola di Raminga dei sentieri. Una \"piccola adulta\" e gentile e premurosa."
+    "description": "La più giovane discepola di Raminga dei sentieri. Una \"piccola adulta\" gentile e premurosa."
   },
   "Alhaitham": {
     "name": "Alhaitham",
-    "description": "L'attuale scriba dell'Akademiya di Sumeru, dotato d'intelligenza e talento fuori dal comune. Vive in libertà. Libero dagli occhi che lo cercano e dalla gente comune, perlomeno."
+    "description": "L'attuale scriba dell'Akademiya di Sumeru, dotato d'intelligenza e talento fuori dal comune. Vive libero... dagli occhi che lo cercano e dalla gente comune, perlomeno."
+  },
+  "Dehya": {
+    "name": "",
+    "description": ""
+  },
+  "Mika": {
+    "name": "",
+    "description": ""
   },
   "KamisatoAyakasStellaFortuna": {
     "name": "Stella Fortuna di Kamisato Ayaka",
@@ -830,6 +846,14 @@
   "AlhaithamsStellaFortuna": {
     "name": "Stella Fortuna di Alhaitham",
     "description": "Materiale per l'attivazione della costellazione di Alhaitham"
+  },
+  "DehyasStellaFortuna": {
+    "name": "",
+    "description": ""
+  },
+  "MikasStellaFortuna": {
+    "name": "",
+    "description": ""
   },
   "GnosticHymnOldNotes": {
     "name": "Inno gnostico - Vecchi appunti",
@@ -1160,7 +1184,7 @@
     "description": "Un cristallo prezioso condensato di Geo che si forma in concomitanza con altri minerali. Conosciuto comunemente anche come \"Cor Petrae\"."
   },
   "RawMeat": {
-    "name": "Carne cruda",
+    "name": "Pezzo di carne cruda",
     "description": "Un pezzo di carne fresca. Se trattata in modo appropriato, può diventare un piatto delizioso."
   },
   "BirdEgg": {
@@ -1232,7 +1256,7 @@
     "description": "Il nucleo di una farfalla di cristallo. Assorbe l'energia elementale rilasciata nell'atmosfera."
   },
   "RawMeatS": {
-    "name": "Carne cruda (S)",
+    "name": "Pezzo di carne cruda (S)",
     "description": "Un pezzo di carne fresca. Se trattata in modo appropriato, può diventare un piatto delizioso."
   },
   "FowlS": {
@@ -1264,12 +1288,12 @@
     "description": "Tutto il sapore del mare in un piccolo invertebrato. Ricco di nutrienti e dal sapore delizioso."
   },
   "ChilledMeat": {
-    "name": "Carne congelata",
+    "name": "Pezzo di carne congelata",
     "description": "Tipo raro di carne fresca.\\nQuesta specie di cinghiale sembra essersi estinta diversi secoli fa e si è preservata grazie alle temperature estreme sul Picco del Drago. Per i buongustai di Teyvat, si tratta di un ingrediente d'indicibile sacralità."
   },
   "EelMeat": {
-    "name": "Carne di unagi",
-    "description": "Carne fresca di unagi. Se trattata in modo appropriato, può diventare un piatto delizioso."
+    "name": "Carne di anguilla",
+    "description": "Carne fresca di unagi o anguilla. Se trattata in modo appropriato, può diventare un piatto delizioso."
   },
   "GlabrousBeans": {
     "name": "Fagioli glabri",
@@ -1278,6 +1302,10 @@
   "MysteriousMeat": {
     "name": "Carne misteriosa",
     "description": "Un pezzo di carne fresca che sembra emanare un'aura enigmatica. Che sapore avrà?"
+  },
+  "CoffeeBean": {
+    "name": "",
+    "description": ""
   },
   "JeansDocumentPackage": {
     "name": "Pacchetto di documenti di Jean",
@@ -2688,7 +2716,7 @@
     "description": "Un dente di drago infuso di vitalità. Anche solo la sua lucentezza e la sua consistenza bastano per incutere una sensazione d'inquietudine..."
   },
   "PrincessBox": {
-    "name": "Scrigno della principessa",
+    "name": "Scatola della principessa",
     "description": "Uno scrigno con un motivo decorativo nella parte inferiore. L'ornamento sembra essere costituto da un disegno in tre parti. Una volta completato, potrebbe aprire una porta da qualche parte.\\n\"Temo di non poter finire l'affresco.\"\\n\"Ne è passato di tempo dall'ultima volta che ho visto il cielo blu e l'erba verde. Non so quali colori usare per raffigurare il paesaggio che mio padre desidera vedere così tanto, ossia il ghiaccio e la neve che si sciolgono.\"\\n\"Quando tornerà, tutto sarà di nuovo come prima. Ma non riesco più a sopportare questo freddo.\"\\n\"Perdonami, padre. Ukko, mi dispiace che tu debba vederci così.\"\\n\"Vorrei poterti incontrare di nuovo, Imunlaukr...\""
   },
   "PriestsBox": {
@@ -3052,11 +3080,11 @@
     "description": "Una comune asse di legno. Può essere usata in molti modi."
   },
   "FreshRawMeat": {
-    "name": "Carne cruda fresca",
+    "name": "Pezzo di carne cruda fresca",
     "description": "Della carne fresca ricavata da una recente battuta di caccia. Ha delle parti dure e altre tenere."
   },
   "HighQualityChilledMeat": {
-    "name": "Carne congelata d'alta qualità",
+    "name": "Pezzo di carne congelata d'alta qualità",
     "description": "Della carne congelata d'alta qualità proveniente dal Picco del Drago. Ha un sapore unico."
   },
   "PictureOfWindblumeFestival": {
@@ -3713,7 +3741,7 @@
   },
   "TatteredPaper": {
     "name": "Carta stracciata",
-    "description": "Un foglio accartocciato il cui contenuto risulta illeggibile."
+    "description": "Un foglio accartocciato scritto da qualcuno con una grafia praticamente illeggibile."
   },
   "PictureCommemoratingSeiraiIsland": {
     "name": "Foto ricordo dell'Isola di Seirai",
@@ -3901,7 +3929,7 @@
   },
   "RukkhashavaMushrooms": {
     "name": "Funghi di Rukkhashava",
-    "description": "Un tipo di fungo che cresce sviluppando strati uno sopra l'altro, come a formare un mare di nuvole, e che cresce principalmente sugli alberi nel profondo della foresta pluviale. Per questo motivo il popolo di Sumeru ritiene che siano la sacra cristallizzazione dell'eredità di Rukkhadevata."
+    "description": "Un tipo di fungo che cresce sviluppando strati uno sopra l'altro, come a formare un mare di nuvole, e che cresce principalmente sugli alberi nel profondo della foresta pluviale."
   },
   "Padisarah": {
     "name": "Padisarah",
@@ -5737,11 +5765,11 @@
   },
   "PrithivaTopazChunk": {
     "name": "Pezzo di topazio Prithiva",
-    "description": "Materiale d'ascensione dei personaggi.\\n\"Tutte le monete che scorrono su questo terra sono il mio sangue e la mia carne.\\nCosì sono diventato il garante del duro lavoro, della saggezza e del futuro della gente.\""
+    "description": "Materiale d'ascensione dei personaggi.\\n\"Tutte le monete che scorrono su questa terra sono il mio sangue e la mia carne.\\nCosì sono diventato il garante del duro lavoro, della saggezza e del futuro della gente.\""
   },
   "PrithivaTopazGemstone": {
     "name": "Gemma di topazio Prithiva",
-    "description": "Materiale d'ascensione dei personaggi.\\n\"Tutte le monete che scorrono su questo terra sono il mio sangue e la mia carne.\\nCosì sono diventato il garante del duro lavoro, della saggezza e del futuro della gente.\\nQuesta è la fiducia che ho riposto in loro. Tradiscila, e sporcherai il mio sangue.\""
+    "description": "Materiale d'ascensione dei personaggi.\\n\"Tutte le monete che scorrono su questa terra sono il mio sangue e la mia carne.\\nCosì sono diventato il garante del duro lavoro, della saggezza e del futuro della gente.\\nQuesta è la fiducia che ho riposto in loro. Tradiscila, e sporcherai il mio sangue.\""
   },
   "DustOfAzoth": {
     "name": "Polvere di Azoth",
@@ -6445,7 +6473,7 @@
   },
   "FishFlavoredToast": {
     "name": "Toast marino",
-    "description": "La specialità di Klee. Klee ha usato le sue bombe in modo sfrenato e ha spaventato i pesci, così Jean l'ha incaricato di preparare questo toast per i pescatori per scusarsi. È sostanzioso e gustoso. Klee non morirà più di fame, anche dopo un'intera giornata passata a far esplodere i pesci."
+    "description": "La specialità di Klee. Klee ha usato le sue bombe in modo sfrenato e ha spaventato i pesci, così Jean l'ha incaricata di preparare questo toast per scusarsi con i pescatori. È sostanzioso e gustoso. Klee non morirà più di fame, anche dopo un'intera giornata passata a far esplodere i pesci."
   },
   "TeyvatCharredEgg": {
     "name": "Uovo scottato di Teyvat",
@@ -7935,6 +7963,38 @@
     "name": "Carne di coccodrillo essiccata",
     "description": "Carne di coccodrillo preparata usando una ricetta speciale della tribù dei Tanit. Sebbene sia un po' dura da masticare, la sua facilità di conservazione fa sì che sia una delizia consumata spesso dai cacciatori tribali.\\nNonostante abbia un sapore simile a quello del pollame, si dice che il valore nutrizionale della carne di coccodrillo sia otto volte superiore rispetto alla carne delle bestie comunemente mangiate."
   },
+  "SuspiciousHoneyedFruit": {
+    "name": "",
+    "description": ""
+  },
+  "HoneyedFruit": {
+    "name": "",
+    "description": ""
+  },
+  "DeliciousHoneyedFruit": {
+    "name": "",
+    "description": ""
+  },
+  "SuspiciousGildedPots": {
+    "name": "",
+    "description": ""
+  },
+  "GildedPot": {
+    "name": "",
+    "description": ""
+  },
+  "DeliciousGildedPot": {
+    "name": "",
+    "description": ""
+  },
+  "GoldflamePot": {
+    "name": "",
+    "description": ""
+  },
+  "SurveyorsBreakfastSandwich": {
+    "name": "",
+    "description": ""
+  },
   "RecipeItem": {
     "name": "Ingrediente",
     "description": "Oggetto per sbloccare le ricette"
@@ -8486,6 +8546,14 @@
   "RecipeScentedMeatBalls": {
     "name": "Ricetta: polpette di carne aromatizzate",
     "description": "Una ricetta passo dopo passo per preparare delle polpette di carne aromatizzate."
+  },
+  "RecipeHoneyedFruit": {
+    "name": "",
+    "description": ""
+  },
+  "RecipeGildedPot": {
+    "name": "",
+    "description": ""
   },
   "CraftedItems": {
     "name": "Oggetti creati",
@@ -9923,6 +9991,10 @@
     "name": "Zaino da viaggio speciale per deserto in edizione limitata",
     "description": "Una borsa da viaggio che hai acquistato da Dori. Al suo interno è contenuta ogni sorta di strano oggetto. Non riesci a trovare un senso al suo contenuto, ma a un esame più approfondito sembra tutto molto utile..."
   },
+  "NascentBambooShoots": {
+    "name": "Germogli di bambù nascente",
+    "description": "In alcune stagioni, i germogli di bambù che crescono nel Villaggio di Qingce diffondono nell'aria una fragranza estremamente allettante. All'interno di alcune ricette, questo aroma costituisce l'ingrediente più decantato."
+  },
   "AShortLetter": {
     "name": "Una breve lettera",
     "description": "Una breve lettera scritta in codice. Non sai chi l'abbia scritta o perché, ma è finita qui comunque."
@@ -10179,6 +10251,10 @@
     "name": "Frammenti d'arma imprecisati",
     "description": "I frammenti di un qualche tipo di arma. Non è chiaro come abbia fatto a rompersi così..."
   },
+  "UnattributedRamenVoucher": {
+    "name": "Buono per ramen non attribuito",
+    "description": "Un regalo di ringraziamento per aver aiutato il Re Combattente Stercorario Supremo Arataki Itto a combattere contro il Granmaestro Hanakado nella Straordinaria, esaltante ed estrema Lotta degli Scarabei di Arataki l'Onnipotente. Serve anche come prova della rapida ascesa delle due star delle lotte tra scarabei: Braccio destro del Re oni e Melonlavanda Biancoferro Squarciatrice dei cieli.\\nIl Re Combattente Stercorario Supremo afferma che, se presenterai questo buono alla bancarella, avrai diritto a una scodella di ramen gratis per due mesi! Ma... qual è la bancarella, precisamente?"
+  },
   "NeatNote": {
     "name": "Biglietto ben scritto",
     "description": "Biglietto ben scritto"
@@ -10219,7 +10295,7 @@
     "name": "Archivi delle oasi antiche: Parte X",
     "description": "Archivi delle oasi antiche: Parte X"
   },
-  "TabletOfEmployeeConduct": {
+  "EmploymentCodeOfConductTablet": {
     "name": "Tavoletta di condotta degli impiegati",
     "description": "Tavoletta di condotta degli impiegati"
   },
@@ -10231,9 +10307,21 @@
     "name": "Appunti di Jeht",
     "description": "Appunti di Jeht"
   },
+  "PipingHotBambooShootSoup": {
+    "name": "Zuppa di germogli di bambù fumante",
+    "description": "Una zuppa di germogli di bambù creata dalla Macchina da cucina suprema. Il piatto è stato descritto da Zhongli con le seguenti parole: \"Un aspetto delizioso e un aroma ricco e intenso\". Gli ingredienti principali di questa ricetta includono i germogli di bambù nascenti. Essendo questi ultimi molto difficili da reperire, il loro valore simbolico supera di gran lunga il loro valore in quanto ingredienti da cucina... Essendo questo un piatto preparato da un Adeptus, non dovrebbe andare a male neanche se lo si lascia in borsa per lunghi periodi."
+  },
   "WarriorsSpiritSwordfightingArenaTicket": {
     "name": "Biglietto per l'arena dell'Esibizione di scherma Spirito del guerriero",
     "description": "Oltre le nazioni, oltre le identità, uniti solo dalla tempra e dalla forza."
+  },
+  "LaylasLetterMissiveFromSumeru": {
+    "name": "",
+    "description": ""
+  },
+  "MikosLetterInazumanMailFromAfar": {
+    "name": "",
+    "description": ""
   },
   "SilkFlowerSeed": {
     "name": "Seme di Fiordiseta",
@@ -10494,6 +10582,74 @@
   "RadiantSpincrystal": {
     "name": "Voltacristallo radioso 1",
     "description": "Questo meraviglioso cristallo contiene un certo ritmo, come una meraviglia intessuta con della seta delicata. Questi oggetti sono sparsi per tutto il continente o si possono reperire dai mercanti che collezionano rarità. La melodia contenuta all'interno del cristallo può essere ravvivata nella Serenteiera usando Eufonio libero Sinuosità o Eufonio libero Crescendo. La melodia contenuta all'interno di questo Voltacristallo radioso è Dawn Winery Theme."
+  },
+  "FragrantSteak": {
+    "name": "",
+    "description": ""
+  },
+  "FragrantMondstadtGrilledFish": {
+    "name": "",
+    "description": ""
+  },
+  "FragrantNorthernSmokedChicken": {
+    "name": "",
+    "description": ""
+  },
+  "FragrantChickenMushroomSkewer": {
+    "name": "",
+    "description": ""
+  },
+  "FragrantSatisfyingSalad": {
+    "name": "",
+    "description": ""
+  },
+  "FragrantCrabHamVeggieBake": {
+    "name": "",
+    "description": ""
+  },
+  "FragrantStickyHoneyRoast": {
+    "name": "",
+    "description": ""
+  },
+  "FragrantFishermansToast": {
+    "name": "",
+    "description": ""
+  },
+  "FragrantFriedRadishBalls": {
+    "name": "",
+    "description": ""
+  },
+  "FragrantTeaBreakPancake": {
+    "name": "",
+    "description": ""
+  },
+  "FragrantRadishVeggieSoup": {
+    "name": "",
+    "description": ""
+  },
+  "FragrantMushroomPizza": {
+    "name": "",
+    "description": ""
+  },
+  "FragrantColdCutPlatter": {
+    "name": "",
+    "description": ""
+  },
+  "FragrantCallaLilySeafoodSoup": {
+    "name": "",
+    "description": ""
+  },
+  "FragrantMintJelly": {
+    "name": "",
+    "description": ""
+  },
+  "FragrantSunshineSprat": {
+    "name": "",
+    "description": ""
+  },
+  "NewFragrantSeasoning": {
+    "name": "",
+    "description": ""
   },
   "LanternFiber": {
     "name": "Fibra per lanterna",
@@ -11020,7 +11176,7 @@
     "description": "Stile per la carta giocatore.\\nUn cuore freddo è solo un guscio per difendere sé stessi."
   },
   "TravelNotesSubSpaceRecreation": {
-    "name": "Appunti di viaggio: Mondi alternativi",
+    "name": "Appunti di viaggio - Mondi alternativi",
     "description": "Stile per la carta giocatore.\\nQuante notti hai passato con una pietra come cuscino?"
   },
   "AchievementTeaTime": {
@@ -11323,7 +11479,19 @@
     "name": "Appunti di viaggio: Fiumi spirituali",
     "description": "Stile per la carta giocatore.\\nIl nome della festa è andato da tempo dimenticato, i tre fiumi si disperdono in un mare di nuvole, ma l'autunno indugia ancora tra le sfumature del crepuscolo."
   },
-  "TravelNotesRhyme": {
+  "AlhaithamEnlightenment": {
+    "name": "Alhaitham: Illuminazione",
+    "description": "Stile per la carta giocatore.\\n\"Le uniche cose a cui i ricercatori dovrebbero attenersi sono i dibattiti e la dialettica. Si può evitare di cadere nel pregiudizio solo mettendo tutto in dubbio.\""
+  },
+  "YaoyaoYuegui": {
+    "name": "Yaoyao: Yuegui",
+    "description": "Stile per la carta giocatore.\\n\"Riesci a indovinare chi sia Yuegui tra questi? Proprio così, lo sono tutti!\""
+  },
+  "CelebrationLenticularClouds": {
+    "name": "Celebrazione: Nuvole lenticolari",
+    "description": "Stile per la carta giocatore.\\nCon il sorgere del sole, le nuvole fluttuanti si dispersero tra le montagne."
+  },
+  "TravelNotesRhythmAndRhyme": {
     "name": "Appunti di viaggio: Rima",
     "description": "Stile per la carta giocatore.\\nSotto un cielo notturno illuminato, celebriamo l'anno che si è appena concluso con il dolce suono delle campane a vento. I palazzi dorati sono decorati con tende perlate, le ringhiere colorate d'argento dal chiaro di luna, le tavole rallegrate da canti e danze. Sono fiori o fuochi d'artificio? Gli strumenti suonano all'uniscono, producendo melodie armoniose e incantevoli."
   },
@@ -11569,7 +11737,7 @@
   },
   "JinniInTheMagicBottleLiloupar": {
     "name": "Djinn nella bottiglia magica - Liloupar",
-    "description": "Liloupar, la grande djinn nata dalle ninfee, la cui anima fu frammentata da un'antica punizione e venne rinchiusa in una bottiglia magica trasparente...\\nSembra aver trovato {F#una nuova padrona}{M#un nuovo padrone}...\\n\\Sebbene ora possieda solo una centomilionesima parte del suo potere passato, lo userà per aiutare {F#la sua padrona}{M#il suo padrone} ad attraversare le sabbie cocenti e le antiche rovine del Deserto di Hadramaveth."
+    "description": "Liloupar, la grande djinn nata dalle ninfee, la cui anima fu frammentata da un'antica punizione e venne rinchiusa in una bottiglia magica trasparente...\\nSembra aver trovato {F#una nuova padrona}{M#un nuovo padrone}...\\nSebbene ora possieda solo una centomilionesima parte del suo potere passato, lo userà per aiutare {F#la sua padrona}{M#il suo padrone} ad attraversare le sabbie cocenti e le antiche rovine del Deserto di Hadramaveth."
   },
   "WisdomOrb": {
     "name": "Globo della saggezza",
@@ -11582,6 +11750,14 @@
   "WildernessCompass": {
     "name": "Bussola della natura",
     "description": "Una bussola speciale ottenuta dalla Gilda degli avventurieri. Gira voce che possa offrirti un pizzico di fortuna in più..."
+  },
+  "WindblumeKamera": {
+    "name": "",
+    "description": ""
+  },
+  "FestiveDrum": {
+    "name": "",
+    "description": ""
   },
   "InstructionsAnemoculusResonanceStone": {
     "name": "Istruzioni: pietra di risonanza per Anemoculi",
@@ -11793,135 +11969,143 @@
   },
   "RhodeiaOfLoch": {
     "name": "Rhodeia di Loch",
-    "description": "Una carta per il gioco da tavolo Invokazione del genio. Sono resistenti e decorate con delle illustrazioni sul davanti, il che le rende preziose e molto belle."
+    "description": "Una carta per il gioco da tavolo Invokazione del genio. È fatta di materiale resistente, e l'illustrazione sulla parte frontale è realizzata con un metodo di stampa speciale che le dona un aspetto assolutamente impeccabile."
   },
   "FatuiPyroAgent": {
     "name": "Agente dei Fatui di Pyro",
-    "description": "Una carta per il gioco da tavolo Invokazione del genio. Sono resistenti e decorate con delle illustrazioni sul davanti, il che le rende preziose e molto belle."
+    "description": "Una carta per il gioco da tavolo Invokazione del genio. È fatta di materiale resistente, e l'illustrazione sulla parte frontale è realizzata con un metodo di stampa speciale che le dona un aspetto assolutamente impeccabile."
   },
   "MaguuKenki": {
     "name": "Maguu Kenki",
-    "description": "Una carta per il gioco da tavolo Invokazione del genio. Sono resistenti e decorate con delle illustrazioni sul davanti, il che le rende preziose e molto belle."
+    "description": "Una carta per il gioco da tavolo Invokazione del genio. È fatta di materiale resistente, e l'illustrazione sulla parte frontale è realizzata con un metodo di stampa speciale che le dona un aspetto assolutamente impeccabile."
   },
   "StonehideLawachurl": {
     "name": "Lawachurl Mantodipietra",
-    "description": "Una carta per il gioco da tavolo Invokazione del genio. Sono resistenti e decorate con delle illustrazioni sul davanti, il che le rende preziose e molto belle."
+    "description": "Una carta per il gioco da tavolo Invokazione del genio. È fatta di materiale resistente, e l'illustrazione sulla parte frontale è realizzata con un metodo di stampa speciale che le dona un aspetto assolutamente impeccabile."
   },
   "MirrorMaiden": {
     "name": "Sacerdotessa degli specchi",
-    "description": "Una carta per il gioco da tavolo Invokazione del genio. Sono resistenti e decorate con delle illustrazioni sul davanti, il che le rende preziose e molto belle."
+    "description": "Una carta per il gioco da tavolo Invokazione del genio. È fatta di materiale resistente, e l'illustrazione sulla parte frontale è realizzata con un metodo di stampa speciale che le dona un aspetto assolutamente impeccabile."
   },
   "JadeplumeTerrorshroom": {
     "name": "Fungostro Cresta di giada",
-    "description": "Una carta per il gioco da tavolo Invokazione del genio. Sono resistenti e decorate con delle illustrazioni sul davanti, il che le rende preziose e molto belle."
+    "description": "Una carta per il gioco da tavolo Invokazione del genio. È fatta di materiale resistente, e l'illustrazione sulla parte frontale è realizzata con un metodo di stampa speciale che le dona un aspetto assolutamente impeccabile."
   },
   "UndividedHeart": {
     "name": "Cuore indivisibile",
-    "description": "Una carta per il gioco da tavolo Invokazione del genio. Sono resistenti e decorate con delle illustrazioni sul davanti, il che le rende preziose e molto belle."
+    "description": "Una carta per il gioco da tavolo Invokazione del genio. È fatta di materiale resistente, e l'illustrazione sulla parte frontale è realizzata con un metodo di stampa speciale che le dona un aspetto assolutamente impeccabile."
   },
   "ColdBloodedStrike": {
     "name": "A sangue freddo",
-    "description": "Una carta per il gioco da tavolo Invokazione del genio. Sono resistenti e decorate con delle illustrazioni sul davanti, il che le rende preziose e molto belle."
+    "description": "Una carta per il gioco da tavolo Invokazione del genio. È fatta di materiale resistente, e l'illustrazione sulla parte frontale è realizzata con un metodo di stampa speciale che le dona un aspetto assolutamente impeccabile."
   },
   "SteadyBreathing": {
     "name": "Respiro regolare",
-    "description": "Una carta per il gioco da tavolo Invokazione del genio. Sono resistenti e decorate con delle illustrazioni sul davanti, il che le rende preziose e molto belle."
+    "description": "Una carta per il gioco da tavolo Invokazione del genio. È fatta di materiale resistente, e l'illustrazione sulla parte frontale è realizzata con un metodo di stampa speciale che le dona un aspetto assolutamente impeccabile."
   },
   "KantenSenmyouBlessing": {
     "name": "Benedizione Kanten Senmyou",
-    "description": "Una carta per il gioco da tavolo Invokazione del genio. Sono resistenti e decorate con delle illustrazioni sul davanti, il che le rende preziose e molto belle."
+    "description": "Una carta per il gioco da tavolo Invokazione del genio. È fatta di materiale resistente, e l'illustrazione sulla parte frontale è realizzata con un metodo di stampa speciale che le dona un aspetto assolutamente impeccabile."
   },
   "TheScentRemained": {
     "name": "Aroma persistente",
-    "description": "Una carta per il gioco da tavolo Invokazione del genio. Sono resistenti e decorate con delle illustrazioni sul davanti, il che le rende preziose e molto belle."
+    "description": "Una carta per il gioco da tavolo Invokazione del genio. È fatta di materiale resistente, e l'illustrazione sulla parte frontale è realizzata con un metodo di stampa speciale che le dona un aspetto assolutamente impeccabile."
   },
   "ProphecyOfSubmersion": {
     "name": "Profezia sommersa",
-    "description": "Una carta per il gioco da tavolo Invokazione del genio. Sono resistenti e decorate con delle illustrazioni sul davanti, il che le rende preziose e molto belle."
+    "description": "Una carta per il gioco da tavolo Invokazione del genio. È fatta di materiale resistente, e l'illustrazione sulla parte frontale è realizzata con un metodo di stampa speciale che le dona un aspetto assolutamente impeccabile."
   },
   "FlowingFlame": {
     "name": "Corrente di fiamme",
-    "description": "Una carta per il gioco da tavolo Invokazione del genio. Sono resistenti e decorate con delle illustrazioni sul davanti, il che le rende preziose e molto belle."
+    "description": "Una carta per il gioco da tavolo Invokazione del genio. È fatta di materiale resistente, e l'illustrazione sulla parte frontale è realizzata con un metodo di stampa speciale che le dona un aspetto assolutamente impeccabile."
   },
   "Crossfire": {
     "name": "Fuoco incrociato",
-    "description": "Una carta per il gioco da tavolo Invokazione del genio. Sono resistenti e decorate con delle illustrazioni sul davanti, il che le rende preziose e molto belle."
+    "description": "Una carta per il gioco da tavolo Invokazione del genio. È fatta di materiale resistente, e l'illustrazione sulla parte frontale è realizzata con un metodo di stampa speciale che le dona un aspetto assolutamente impeccabile."
   },
   "GrandExpectation": {
     "name": "Desiderio di avventura",
-    "description": "Una carta per il gioco da tavolo Invokazione del genio. Sono resistenti e decorate con delle illustrazioni sul davanti, il che le rende preziose e molto belle."
+    "description": "Una carta per il gioco da tavolo Invokazione del genio. È fatta di materiale resistente, e l'illustrazione sulla parte frontale è realizzata con un metodo di stampa speciale che le dona un aspetto assolutamente impeccabile."
   },
   "NaganoharaMeteorSwarm": {
     "name": "Sciame di meteoriti di Naganohara",
-    "description": "Una carta per il gioco da tavolo Invokazione del genio. Sono resistenti e decorate con delle illustrazioni sul davanti, il che le rende preziose e molto belle."
+    "description": "Una carta per il gioco da tavolo Invokazione del genio. È fatta di materiale resistente, e l'illustrazione sulla parte frontale è realizzata con un metodo di stampa speciale che le dona un aspetto assolutamente impeccabile."
   },
   "StellarPredator": {
     "name": "Predatore di stelle",
-    "description": "Una carta per il gioco da tavolo Invokazione del genio. Sono resistenti e decorate con delle illustrazioni sul davanti, il che le rende preziose e molto belle."
+    "description": "Una carta per il gioco da tavolo Invokazione del genio. È fatta di materiale resistente, e l'illustrazione sulla parte frontale è realizzata con un metodo di stampa speciale che le dona un aspetto assolutamente impeccabile."
   },
   "Awakening": {
     "name": "Risveglio",
-    "description": "Una carta per il gioco da tavolo Invokazione del genio. Sono resistenti e decorate con delle illustrazioni sul davanti, il che le rende preziose e molto belle."
+    "description": "Una carta per il gioco da tavolo Invokazione del genio. È fatta di materiale resistente, e l'illustrazione sulla parte frontale è realizzata con un metodo di stampa speciale che le dona un aspetto assolutamente impeccabile."
   },
   "ThunderingPenance": {
     "name": "Penitenza del tuono",
-    "description": "Una carta per il gioco da tavolo Invokazione del genio. Sono resistenti e decorate con delle illustrazioni sul davanti, il che le rende preziose e molto belle."
+    "description": "Una carta per il gioco da tavolo Invokazione del genio. È fatta di materiale resistente, e l'illustrazione sulla parte frontale è realizzata con un metodo di stampa speciale che le dona un aspetto assolutamente impeccabile."
   },
   "ChaoticEntropy": {
     "name": "Entropia caotica",
-    "description": "Una carta per il gioco da tavolo Invokazione del genio. Sono resistenti e decorate con delle illustrazioni sul davanti, il che le rende preziose e molto belle."
+    "description": "Una carta per il gioco da tavolo Invokazione del genio. È fatta di materiale resistente, e l'illustrazione sulla parte frontale è realizzata con un metodo di stampa speciale che le dona un aspetto assolutamente impeccabile."
   },
   "LandsOfDandelion": {
     "name": "Regno dei denti di leone",
-    "description": "Una carta per il gioco da tavolo Invokazione del genio. Sono resistenti e decorate con delle illustrazioni sul davanti, il che le rende preziose e molto belle."
+    "description": "Una carta per il gioco da tavolo Invokazione del genio. È fatta di materiale resistente, e l'illustrazione sulla parte frontale è realizzata con un metodo di stampa speciale che le dona un aspetto assolutamente impeccabile."
   },
   "StrategicReserve": {
     "name": "Riserva strategica",
-    "description": "Una carta per il gioco da tavolo Invokazione del genio. Sono resistenti e decorate con delle illustrazioni sul davanti, il che le rende preziose e molto belle."
+    "description": "Una carta per il gioco da tavolo Invokazione del genio. È fatta di materiale resistente, e l'illustrazione sulla parte frontale è realizzata con un metodo di stampa speciale che le dona un aspetto assolutamente impeccabile."
   },
   "IGotYourBack": {
     "name": "Ti guardo le spalle",
-    "description": "Una carta per il gioco da tavolo Invokazione del genio. Sono resistenti e decorate con delle illustrazioni sul davanti, il che le rende preziose e molto belle."
+    "description": "Una carta per il gioco da tavolo Invokazione del genio. È fatta di materiale resistente, e l'illustrazione sulla parte frontale è realizzata con un metodo di stampa speciale che le dona un aspetto assolutamente impeccabile."
   },
   "FloralSidewinder": {
     "name": "Brezza di ritorno floreale",
-    "description": "Una carta per il gioco da tavolo Invokazione del genio. Sono resistenti e decorate con delle illustrazioni sul davanti, il che le rende preziose e molto belle."
+    "description": "Una carta per il gioco da tavolo Invokazione del genio. È fatta di materiale resistente, e l'illustrazione sulla parte frontale è realizzata con un metodo di stampa speciale che le dona un aspetto assolutamente impeccabile."
   },
   "StreamingSurge": {
     "name": "Ondata torrenziale",
-    "description": "Una carta per il gioco da tavolo Invokazione del genio. Sono resistenti e decorate con delle illustrazioni sul davanti, il che le rende preziose e molto belle."
+    "description": "Una carta per il gioco da tavolo Invokazione del genio. È fatta di materiale resistente, e l'illustrazione sulla parte frontale è realizzata con un metodo di stampa speciale che le dona un aspetto assolutamente impeccabile."
   },
   "PaidInFull": {
     "name": "Pagamento saldato",
-    "description": "Una carta per il gioco da tavolo Invokazione del genio. Sono resistenti e decorate con delle illustrazioni sul davanti, il che le rende preziose e molto belle."
+    "description": "Una carta per il gioco da tavolo Invokazione del genio. È fatta di materiale resistente, e l'illustrazione sulla parte frontale è realizzata con un metodo di stampa speciale che le dona un aspetto assolutamente impeccabile."
   },
   "TranscendentAutomaton": {
     "name": "Automa trascendente",
-    "description": "Una carta per il gioco da tavolo Invokazione del genio. Sono resistenti e decorate con delle illustrazioni sul davanti, il che le rende preziose e molto belle."
+    "description": "Una carta per il gioco da tavolo Invokazione del genio. È fatta di materiale resistente, e l'illustrazione sulla parte frontale è realizzata con un metodo di stampa speciale che le dona un aspetto assolutamente impeccabile."
   },
   "StonehideReforged": {
     "name": "Mantodipietra riforgiato",
-    "description": "Una carta per il gioco da tavolo Invokazione del genio. Sono resistenti e decorate con delle illustrazioni sul davanti, il che le rende preziose e molto belle."
+    "description": "Una carta per il gioco da tavolo Invokazione del genio. È fatta di materiale resistente, e l'illustrazione sulla parte frontale è realizzata con un metodo di stampa speciale che le dona un aspetto assolutamente impeccabile."
   },
   "ShakenNotPurred": {
     "name": "Agitato, non \"miaoscolato\"",
-    "description": "Una carta per il gioco da tavolo Invokazione del genio. Sono resistenti e decorate con delle illustrazioni sul davanti, il che le rende preziose e molto belle."
+    "description": "Una carta per il gioco da tavolo Invokazione del genio. È fatta di materiale resistente, e l'illustrazione sulla parte frontale è realizzata con un metodo di stampa speciale che le dona un aspetto assolutamente impeccabile."
   },
   "FeatherfallJudgment": {
     "name": "Giudizio della piuma cadente",
-    "description": "Una carta per il gioco da tavolo Invokazione del genio. Sono resistenti e decorate con delle illustrazioni sul davanti, il che le rende preziose e molto belle."
+    "description": "Una carta per il gioco da tavolo Invokazione del genio. È fatta di materiale resistente, e l'illustrazione sulla parte frontale è realizzata con un metodo di stampa speciale che le dona un aspetto assolutamente impeccabile."
   },
   "GloriousSeason": {
     "name": "Stagione gloriosa",
-    "description": "Una carta per il gioco da tavolo Invokazione del genio. Sono resistenti e decorate con delle illustrazioni sul davanti, il che le rende preziose e molto belle."
+    "description": "Una carta per il gioco da tavolo Invokazione del genio. È fatta di materiale resistente, e l'illustrazione sulla parte frontale è realizzata con un metodo di stampa speciale che le dona un aspetto assolutamente impeccabile."
   },
   "MirrorCage": {
     "name": "Gabbia di specchi",
-    "description": "Una carta per il gioco da tavolo Invokazione del genio. Sono resistenti e decorate con delle illustrazioni sul davanti, il che le rende preziose e molto belle."
+    "description": "Una carta per il gioco da tavolo Invokazione del genio. È fatta di materiale resistente, e l'illustrazione sulla parte frontale è realizzata con un metodo di stampa speciale che le dona un aspetto assolutamente impeccabile."
   },
   "ProliferatingSpores": {
     "name": "Spore proliferanti",
-    "description": "Una carta per il gioco da tavolo Invokazione del genio. Sono resistenti e decorate con delle illustrazioni sul davanti, il che le rende preziose e molto belle."
+    "description": "Una carta per il gioco da tavolo Invokazione del genio. È fatta di materiale resistente, e l'illustrazione sulla parte frontale è realizzata con un metodo di stampa speciale che le dona un aspetto assolutamente impeccabile."
+  },
+  "WellspringOfWarLust": {
+    "name": "",
+    "description": ""
+  },
+  "TamanooyasCasket": {
+    "name": "",
+    "description": ""
   },
   "PoundingSurprise": {
     "name": "Batosta a sorpresa",
@@ -11931,337 +12115,349 @@
     "name": "Tempesta di fulmini",
     "description": "Una carta per il gioco da tavolo Invokazione del genio. È fatta di materiale resistente, e l'illustrazione sulla parte frontale è realizzata con un metodo di stampa speciale che le dona un aspetto assolutamente impeccabile."
   },
+  "SinOfPride": {
+    "name": "",
+    "description": ""
+  },
   "MagicGuide": {
     "name": "Manuale di magia",
-    "description": "Una carta per il gioco da tavolo Invokazione del genio. Sono resistenti e decorate con delle illustrazioni sul davanti, il che le rende preziose e molto belle."
+    "description": "Una carta per il gioco da tavolo Invokazione del genio. È fatta di materiale resistente, e l'illustrazione sulla parte frontale è realizzata con un metodo di stampa speciale che le dona un aspetto assolutamente impeccabile."
   },
   "SacrificialFragments": {
     "name": "Frammenti sacrificali",
-    "description": "Una carta per il gioco da tavolo Invokazione del genio. Sono resistenti e decorate con delle illustrazioni sul davanti, il che le rende preziose e molto belle."
+    "description": "Una carta per il gioco da tavolo Invokazione del genio. È fatta di materiale resistente, e l'illustrazione sulla parte frontale è realizzata con un metodo di stampa speciale che le dona un aspetto assolutamente impeccabile."
   },
   "SkywardAtlas": {
     "name": "Atlante celeste",
-    "description": "Una carta per il gioco da tavolo Invokazione del genio. Sono resistenti e decorate con delle illustrazioni sul davanti, il che le rende preziose e molto belle."
+    "description": "Una carta per il gioco da tavolo Invokazione del genio. È fatta di materiale resistente, e l'illustrazione sulla parte frontale è realizzata con un metodo di stampa speciale che le dona un aspetto assolutamente impeccabile."
   },
   "RavenBow": {
     "name": "Arco corvino",
-    "description": "Una carta per il gioco da tavolo Invokazione del genio. Sono resistenti e decorate con delle illustrazioni sul davanti, il che le rende preziose e molto belle."
+    "description": "Una carta per il gioco da tavolo Invokazione del genio. È fatta di materiale resistente, e l'illustrazione sulla parte frontale è realizzata con un metodo di stampa speciale che le dona un aspetto assolutamente impeccabile."
   },
   "SacrificialBow": {
     "name": "Arco sacrificale",
-    "description": "Una carta per il gioco da tavolo Invokazione del genio. Sono resistenti e decorate con delle illustrazioni sul davanti, il che le rende preziose e molto belle."
+    "description": "Una carta per il gioco da tavolo Invokazione del genio. È fatta di materiale resistente, e l'illustrazione sulla parte frontale è realizzata con un metodo di stampa speciale che le dona un aspetto assolutamente impeccabile."
   },
   "SkywardHarp": {
     "name": "Arpa celeste",
-    "description": "Una carta per il gioco da tavolo Invokazione del genio. Sono resistenti e decorate con delle illustrazioni sul davanti, il che le rende preziose e molto belle."
+    "description": "Una carta per il gioco da tavolo Invokazione del genio. È fatta di materiale resistente, e l'illustrazione sulla parte frontale è realizzata con un metodo di stampa speciale che le dona un aspetto assolutamente impeccabile."
   },
   "WhiteIronGreatsword": {
     "name": "Spadone di ferro bianco",
-    "description": "Una carta per il gioco da tavolo Invokazione del genio. Sono resistenti e decorate con delle illustrazioni sul davanti, il che le rende preziose e molto belle."
+    "description": "Una carta per il gioco da tavolo Invokazione del genio. È fatta di materiale resistente, e l'illustrazione sulla parte frontale è realizzata con un metodo di stampa speciale che le dona un aspetto assolutamente impeccabile."
   },
   "SacrificialGreatsword": {
     "name": "Spadone sacrificale",
-    "description": "Una carta per il gioco da tavolo Invokazione del genio. Sono resistenti e decorate con delle illustrazioni sul davanti, il che le rende preziose e molto belle."
+    "description": "Una carta per il gioco da tavolo Invokazione del genio. È fatta di materiale resistente, e l'illustrazione sulla parte frontale è realizzata con un metodo di stampa speciale che le dona un aspetto assolutamente impeccabile."
   },
   "WolfsGravestone": {
     "name": "Trapasso ululante",
-    "description": "Una carta per il gioco da tavolo Invokazione del genio. Sono resistenti e decorate con delle illustrazioni sul davanti, il che le rende preziose e molto belle."
+    "description": "Una carta per il gioco da tavolo Invokazione del genio. È fatta di materiale resistente, e l'illustrazione sulla parte frontale è realizzata con un metodo di stampa speciale che le dona un aspetto assolutamente impeccabile."
   },
   "WhiteTassel": {
     "name": "Pennacchio bianco",
-    "description": "Una carta per il gioco da tavolo Invokazione del genio. Sono resistenti e decorate con delle illustrazioni sul davanti, il che le rende preziose e molto belle."
+    "description": "Una carta per il gioco da tavolo Invokazione del genio. È fatta di materiale resistente, e l'illustrazione sulla parte frontale è realizzata con un metodo di stampa speciale che le dona un aspetto assolutamente impeccabile."
   },
   "LithicSpear": {
     "name": "Lancia litica",
-    "description": "Una carta per il gioco da tavolo Invokazione del genio. Sono resistenti e decorate con delle illustrazioni sul davanti, il che le rende preziose e molto belle."
+    "description": "Una carta per il gioco da tavolo Invokazione del genio. È fatta di materiale resistente, e l'illustrazione sulla parte frontale è realizzata con un metodo di stampa speciale che le dona un aspetto assolutamente impeccabile."
   },
   "SkywardSpine": {
     "name": "Lancia d'osso celeste",
-    "description": "Una carta per il gioco da tavolo Invokazione del genio. Sono resistenti e decorate con delle illustrazioni sul davanti, il che le rende preziose e molto belle."
+    "description": "Una carta per il gioco da tavolo Invokazione del genio. È fatta di materiale resistente, e l'illustrazione sulla parte frontale è realizzata con un metodo di stampa speciale che le dona un aspetto assolutamente impeccabile."
   },
   "TravelersHandySword": {
     "name": "Spada del viaggiatore",
-    "description": "Una carta per il gioco da tavolo Invokazione del genio. Sono resistenti e decorate con delle illustrazioni sul davanti, il che le rende preziose e molto belle."
+    "description": "Una carta per il gioco da tavolo Invokazione del genio. È fatta di materiale resistente, e l'illustrazione sulla parte frontale è realizzata con un metodo di stampa speciale che le dona un aspetto assolutamente impeccabile."
   },
   "SacrificialSword": {
     "name": "Spada sacrificale",
-    "description": "Una carta per il gioco da tavolo Invokazione del genio. Sono resistenti e decorate con delle illustrazioni sul davanti, il che le rende preziose e molto belle."
+    "description": "Una carta per il gioco da tavolo Invokazione del genio. È fatta di materiale resistente, e l'illustrazione sulla parte frontale è realizzata con un metodo di stampa speciale che le dona un aspetto assolutamente impeccabile."
   },
   "AquilaFavonia": {
     "name": "Aquila Favonia",
-    "description": "Una carta per il gioco da tavolo Invokazione del genio. Sono resistenti e decorate con delle illustrazioni sul davanti, il che le rende preziose e molto belle."
+    "description": "Una carta per il gioco da tavolo Invokazione del genio. È fatta di materiale resistente, e l'illustrazione sulla parte frontale è realizzata con un metodo di stampa speciale che le dona un aspetto assolutamente impeccabile."
   },
   "AdventurersBandana": {
     "name": "Bandana dell'avventuriere",
-    "description": "Una carta per il gioco da tavolo Invokazione del genio. Sono resistenti e decorate con delle illustrazioni sul davanti, il che le rende preziose e molto belle."
+    "description": "Una carta per il gioco da tavolo Invokazione del genio. È fatta di materiale resistente, e l'illustrazione sulla parte frontale è realizzata con un metodo di stampa speciale che le dona un aspetto assolutamente impeccabile."
   },
   "LuckyDogsSilverCirclet": {
     "name": "Corona d'argento di Fortunato",
-    "description": "Una carta per il gioco da tavolo Invokazione del genio. Sono resistenti e decorate con delle illustrazioni sul davanti, il che le rende preziose e molto belle."
+    "description": "Una carta per il gioco da tavolo Invokazione del genio. È fatta di materiale resistente, e l'illustrazione sulla parte frontale è realizzata con un metodo di stampa speciale che le dona un aspetto assolutamente impeccabile."
   },
   "TravelingDoctorsHandkerchief": {
     "name": "Fazzoletto della dottoressa errante",
-    "description": "Una carta per il gioco da tavolo Invokazione del genio. Sono resistenti e decorate con delle illustrazioni sul davanti, il che le rende preziose e molto belle."
+    "description": "Una carta per il gioco da tavolo Invokazione del genio. È fatta di materiale resistente, e l'illustrazione sulla parte frontale è realizzata con un metodo di stampa speciale che le dona un aspetto assolutamente impeccabile."
   },
   "GamblersEarrings": {
     "name": "Orecchini della scommettitrice",
-    "description": "Una carta per il gioco da tavolo Invokazione del genio. Sono resistenti e decorate con delle illustrazioni sul davanti, il che le rende preziose e molto belle."
+    "description": "Una carta per il gioco da tavolo Invokazione del genio. È fatta di materiale resistente, e l'illustrazione sulla parte frontale è realizzata con un metodo di stampa speciale che le dona un aspetto assolutamente impeccabile."
   },
   "InstructorsCap": {
     "name": "Cappello dell'istruttore",
-    "description": "Una carta per il gioco da tavolo Invokazione del genio. Sono resistenti e decorate con delle illustrazioni sul davanti, il che le rende preziose e molto belle."
+    "description": "Una carta per il gioco da tavolo Invokazione del genio. È fatta di materiale resistente, e l'illustrazione sulla parte frontale è realizzata con un metodo di stampa speciale che le dona un aspetto assolutamente impeccabile."
   },
   "ExilesCirclet": {
     "name": "Corona dell'esule",
-    "description": "Una carta per il gioco da tavolo Invokazione del genio. Sono resistenti e decorate con delle illustrazioni sul davanti, il che le rende preziose e molto belle."
+    "description": "Una carta per il gioco da tavolo Invokazione del genio. È fatta di materiale resistente, e l'illustrazione sulla parte frontale è realizzata con un metodo di stampa speciale che le dona un aspetto assolutamente impeccabile."
   },
   "BrokenRimesEcho": {
     "name": "Eco dell'inverno",
-    "description": "Una carta per il gioco da tavolo Invokazione del genio. Sono resistenti e decorate con delle illustrazioni sul davanti, il che le rende preziose e molto belle."
+    "description": "Una carta per il gioco da tavolo Invokazione del genio. È fatta di materiale resistente, e l'illustrazione sulla parte frontale è realizzata con un metodo di stampa speciale che le dona un aspetto assolutamente impeccabile."
   },
   "BlizzardStrayer": {
     "name": "Nomade della tormenta",
-    "description": "Una carta per il gioco da tavolo Invokazione del genio. Sono resistenti e decorate con delle illustrazioni sul davanti, il che le rende preziose e molto belle."
+    "description": "Una carta per il gioco da tavolo Invokazione del genio. È fatta di materiale resistente, e l'illustrazione sulla parte frontale è realizzata con un metodo di stampa speciale che le dona un aspetto assolutamente impeccabile."
   },
   "WineStainedTricorne": {
     "name": "Tricorno macchiato di vino",
-    "description": "Una carta per il gioco da tavolo Invokazione del genio. Sono resistenti e decorate con delle illustrazioni sul davanti, il che le rende preziose e molto belle."
+    "description": "Una carta per il gioco da tavolo Invokazione del genio. È fatta di materiale resistente, e l'illustrazione sulla parte frontale è realizzata con un metodo di stampa speciale che le dona un aspetto assolutamente impeccabile."
   },
   "HeartOfDepth": {
     "name": "Cuore profondo",
-    "description": "Una carta per il gioco da tavolo Invokazione del genio. Sono resistenti e decorate con delle illustrazioni sul davanti, il che le rende preziose e molto belle."
+    "description": "Una carta per il gioco da tavolo Invokazione del genio. È fatta di materiale resistente, e l'illustrazione sulla parte frontale è realizzata con un metodo di stampa speciale che le dona un aspetto assolutamente impeccabile."
   },
   "WitchsScorchingHat": {
     "name": "Cappello infuocato della strega",
-    "description": "Una carta per il gioco da tavolo Invokazione del genio. Sono resistenti e decorate con delle illustrazioni sul davanti, il che le rende preziose e molto belle."
+    "description": "Una carta per il gioco da tavolo Invokazione del genio. È fatta di materiale resistente, e l'illustrazione sulla parte frontale è realizzata con un metodo di stampa speciale che le dona un aspetto assolutamente impeccabile."
   },
   "CrimsonWitchOfFlames": {
     "name": "Strega cremisi delle fiamme",
-    "description": "Una carta per il gioco da tavolo Invokazione del genio. Sono resistenti e decorate con delle illustrazioni sul davanti, il che le rende preziose e molto belle."
+    "description": "Una carta per il gioco da tavolo Invokazione del genio. È fatta di materiale resistente, e l'illustrazione sulla parte frontale è realizzata con un metodo di stampa speciale che le dona un aspetto assolutamente impeccabile."
   },
   "ThunderSummonersCrown": {
     "name": "Corona dell'invocatore di fulmini",
-    "description": "Una carta per il gioco da tavolo Invokazione del genio. Sono resistenti e decorate con delle illustrazioni sul davanti, il che le rende preziose e molto belle."
+    "description": "Una carta per il gioco da tavolo Invokazione del genio. È fatta di materiale resistente, e l'illustrazione sulla parte frontale è realizzata con un metodo di stampa speciale che le dona un aspetto assolutamente impeccabile."
   },
   "ThunderingFury": {
     "name": "Furia tonante",
-    "description": "Una carta per il gioco da tavolo Invokazione del genio. Sono resistenti e decorate con delle illustrazioni sul davanti, il che le rende preziose e molto belle."
+    "description": "Una carta per il gioco da tavolo Invokazione del genio. È fatta di materiale resistente, e l'illustrazione sulla parte frontale è realizzata con un metodo di stampa speciale che le dona un aspetto assolutamente impeccabile."
   },
   "ViridescentVenerersDiadem": {
     "name": "Diadema della Cacciatrice smeraldo",
-    "description": "Una carta per il gioco da tavolo Invokazione del genio. Sono resistenti e decorate con delle illustrazioni sul davanti, il che le rende preziose e molto belle."
+    "description": "Una carta per il gioco da tavolo Invokazione del genio. È fatta di materiale resistente, e l'illustrazione sulla parte frontale è realizzata con un metodo di stampa speciale che le dona un aspetto assolutamente impeccabile."
   },
   "ViridescentVenerer": {
     "name": "Cacciatrice smeraldo",
-    "description": "Una carta per il gioco da tavolo Invokazione del genio. Sono resistenti e decorate con delle illustrazioni sul davanti, il che le rende preziose e molto belle."
+    "description": "Una carta per il gioco da tavolo Invokazione del genio. È fatta di materiale resistente, e l'illustrazione sulla parte frontale è realizzata con un metodo di stampa speciale che le dona un aspetto assolutamente impeccabile."
   },
   "MaskOfSolitudeBasalt": {
     "name": "Maschera di basalto inerte",
-    "description": "Una carta per il gioco da tavolo Invokazione del genio. Sono resistenti e decorate con delle illustrazioni sul davanti, il che le rende preziose e molto belle."
+    "description": "Una carta per il gioco da tavolo Invokazione del genio. È fatta di materiale resistente, e l'illustrazione sulla parte frontale è realizzata con un metodo di stampa speciale che le dona un aspetto assolutamente impeccabile."
   },
   "ArchaicPetra": {
     "name": "Roccia arcaica",
-    "description": "Una carta per il gioco da tavolo Invokazione del genio. Sono resistenti e decorate con delle illustrazioni sul davanti, il che le rende preziose e molto belle."
+    "description": "Una carta per il gioco da tavolo Invokazione del genio. È fatta di materiale resistente, e l'illustrazione sulla parte frontale è realizzata con un metodo di stampa speciale che le dona un aspetto assolutamente impeccabile."
   },
   "LaurelCoronet": {
     "name": "Corona d'alloro",
-    "description": "Una carta per il gioco da tavolo Invokazione del genio. Sono resistenti e decorate con delle illustrazioni sul davanti, il che le rende preziose e molto belle."
+    "description": "Una carta per il gioco da tavolo Invokazione del genio. È fatta di materiale resistente, e l'illustrazione sulla parte frontale è realizzata con un metodo di stampa speciale che le dona un aspetto assolutamente impeccabile."
   },
   "DeepwoodMemories": {
     "name": "Memorie di Boscoprofondo",
-    "description": "Una carta per il gioco da tavolo Invokazione del genio. Sono resistenti e decorate con delle illustrazioni sul davanti, il che le rende preziose e molto belle."
+    "description": "Una carta per il gioco da tavolo Invokazione del genio. È fatta di materiale resistente, e l'illustrazione sulla parte frontale è realizzata con un metodo di stampa speciale che le dona un aspetto assolutamente impeccabile."
+  },
+  "OrnateKabuto": {
+    "name": "",
+    "description": ""
+  },
+  "GeneralsAncientHelm": {
+    "name": "",
+    "description": ""
   },
   "LiyueHarborWharf": {
     "name": "Molo del Porto di Liyue",
-    "description": "Una carta per il gioco da tavolo Invokazione del genio. Sono resistenti e decorate con delle illustrazioni sul davanti, il che le rende preziose e molto belle."
+    "description": "Una carta per il gioco da tavolo Invokazione del genio. È fatta di materiale resistente, e l'illustrazione sulla parte frontale è realizzata con un metodo di stampa speciale che le dona un aspetto assolutamente impeccabile."
   },
   "KnightsOfFavoniusLibrary": {
     "name": "Biblioteca dei Cavalieri di Favonius",
-    "description": "Una carta per il gioco da tavolo Invokazione del genio. Sono resistenti e decorate con delle illustrazioni sul davanti, il che le rende preziose e molto belle."
+    "description": "Una carta per il gioco da tavolo Invokazione del genio. È fatta di materiale resistente, e l'illustrazione sulla parte frontale è realizzata con un metodo di stampa speciale che le dona un aspetto assolutamente impeccabile."
   },
   "JadeChamber": {
     "name": "Dimora di giada",
-    "description": "Una carta per il gioco da tavolo Invokazione del genio. Sono resistenti e decorate con delle illustrazioni sul davanti, il che le rende preziose e molto belle."
+    "description": "Una carta per il gioco da tavolo Invokazione del genio. È fatta di materiale resistente, e l'illustrazione sulla parte frontale è realizzata con un metodo di stampa speciale che le dona un aspetto assolutamente impeccabile."
   },
   "DawnWinery": {
     "name": "Vigneto Prima Luce",
-    "description": "Una carta per il gioco da tavolo Invokazione del genio. Sono resistenti e decorate con delle illustrazioni sul davanti, il che le rende preziose e molto belle."
+    "description": "Una carta per il gioco da tavolo Invokazione del genio. È fatta di materiale resistente, e l'illustrazione sulla parte frontale è realizzata con un metodo di stampa speciale che le dona un aspetto assolutamente impeccabile."
   },
   "WangshuInn": {
     "name": "Locanda Wangshu",
-    "description": "Una carta per il gioco da tavolo Invokazione del genio. Sono resistenti e decorate con delle illustrazioni sul davanti, il che le rende preziose e molto belle."
+    "description": "Una carta per il gioco da tavolo Invokazione del genio. È fatta di materiale resistente, e l'illustrazione sulla parte frontale è realizzata con un metodo di stampa speciale che le dona un aspetto assolutamente impeccabile."
   },
   "FavoniusCathedral": {
     "name": "Cattedrale di Favonius",
-    "description": "Una carta per il gioco da tavolo Invokazione del genio. Sono resistenti e decorate con delle illustrazioni sul davanti, il che le rende preziose e molto belle."
+    "description": "Una carta per il gioco da tavolo Invokazione del genio. È fatta di materiale resistente, e l'illustrazione sulla parte frontale è realizzata con un metodo di stampa speciale che le dona un aspetto assolutamente impeccabile."
   },
   "Paimon": {
     "name": "Paimon",
-    "description": "Una carta per il gioco da tavolo Invokazione del genio. Sono resistenti e decorate con delle illustrazioni sul davanti, il che le rende preziose e molto belle."
+    "description": "Una carta per il gioco da tavolo Invokazione del genio. È fatta di materiale resistente, e l'illustrazione sulla parte frontale è realizzata con un metodo di stampa speciale che le dona un aspetto assolutamente impeccabile."
   },
   "Katheryne": {
     "name": "Katheryne",
-    "description": "Una carta per il gioco da tavolo Invokazione del genio. Sono resistenti e decorate con delle illustrazioni sul davanti, il che le rende preziose e molto belle."
+    "description": "Una carta per il gioco da tavolo Invokazione del genio. È fatta di materiale resistente, e l'illustrazione sulla parte frontale è realizzata con un metodo di stampa speciale che le dona un aspetto assolutamente impeccabile."
   },
   "Timaeus": {
     "name": "Timaeus",
-    "description": "Una carta per il gioco da tavolo Invokazione del genio. Sono resistenti e decorate con delle illustrazioni sul davanti, il che le rende preziose e molto belle."
+    "description": "Una carta per il gioco da tavolo Invokazione del genio. È fatta di materiale resistente, e l'illustrazione sulla parte frontale è realizzata con un metodo di stampa speciale che le dona un aspetto assolutamente impeccabile."
   },
   "Wagner": {
     "name": "Wagner",
-    "description": "Una carta per il gioco da tavolo Invokazione del genio. Sono resistenti e decorate con delle illustrazioni sul davanti, il che le rende preziose e molto belle."
+    "description": "Una carta per il gioco da tavolo Invokazione del genio. È fatta di materiale resistente, e l'illustrazione sulla parte frontale è realizzata con un metodo di stampa speciale che le dona un aspetto assolutamente impeccabile."
   },
   "ChefMao": {
     "name": "Chef Mao",
-    "description": "Una carta per il gioco da tavolo Invokazione del genio. Sono resistenti e decorate con delle illustrazioni sul davanti, il che le rende preziose e molto belle."
+    "description": "Una carta per il gioco da tavolo Invokazione del genio. È fatta di materiale resistente, e l'illustrazione sulla parte frontale è realizzata con un metodo di stampa speciale che le dona un aspetto assolutamente impeccabile."
   },
   "Tubby": {
     "name": "Tonda",
-    "description": "Una carta per il gioco da tavolo Invokazione del genio. Sono resistenti e decorate con delle illustrazioni sul davanti, il che le rende preziose e molto belle."
+    "description": "Una carta per il gioco da tavolo Invokazione del genio. È fatta di materiale resistente, e l'illustrazione sulla parte frontale è realizzata con un metodo di stampa speciale che le dona un aspetto assolutamente impeccabile."
   },
   "Timmie": {
     "name": "Timmie",
-    "description": "Una carta per il gioco da tavolo Invokazione del genio. Sono resistenti e decorate con delle illustrazioni sul davanti, il che le rende preziose e molto belle."
+    "description": "Una carta per il gioco da tavolo Invokazione del genio. È fatta di materiale resistente, e l'illustrazione sulla parte frontale è realizzata con un metodo di stampa speciale che le dona un aspetto assolutamente impeccabile."
   },
   "Liben": {
     "name": "Liben",
-    "description": "Una carta per il gioco da tavolo Invokazione del genio. Sono resistenti e decorate con delle illustrazioni sul davanti, il che le rende preziose e molto belle."
+    "description": "Una carta per il gioco da tavolo Invokazione del genio. È fatta di materiale resistente, e l'illustrazione sulla parte frontale è realizzata con un metodo di stampa speciale che le dona un aspetto assolutamente impeccabile."
   },
   "ChangTheNinth": {
     "name": "Chang il Nono",
-    "description": "Una carta per il gioco da tavolo Invokazione del genio. Sono resistenti e decorate con delle illustrazioni sul davanti, il che le rende preziose e molto belle."
+    "description": "Una carta per il gioco da tavolo Invokazione del genio. È fatta di materiale resistente, e l'illustrazione sulla parte frontale è realizzata con un metodo di stampa speciale che le dona un aspetto assolutamente impeccabile."
   },
   "Ellin": {
     "name": "Ellin",
-    "description": "Una carta per il gioco da tavolo Invokazione del genio. Sono resistenti e decorate con delle illustrazioni sul davanti, il che le rende preziose e molto belle."
+    "description": "Una carta per il gioco da tavolo Invokazione del genio. È fatta di materiale resistente, e l'illustrazione sulla parte frontale è realizzata con un metodo di stampa speciale che le dona un aspetto assolutamente impeccabile."
   },
   "IronTongueTian": {
     "name": "Tian Lingua di ferro",
-    "description": "Una carta per il gioco da tavolo Invokazione del genio. Sono resistenti e decorate con delle illustrazioni sul davanti, il che le rende preziose e molto belle."
+    "description": "Una carta per il gioco da tavolo Invokazione del genio. È fatta di materiale resistente, e l'illustrazione sulla parte frontale è realizzata con un metodo di stampa speciale che le dona un aspetto assolutamente impeccabile."
   },
   "LiuSu": {
     "name": "Liu Su",
-    "description": "Una carta per il gioco da tavolo Invokazione del genio. Sono resistenti e decorate con delle illustrazioni sul davanti, il che le rende preziose e molto belle."
+    "description": "Una carta per il gioco da tavolo Invokazione del genio. È fatta di materiale resistente, e l'illustrazione sulla parte frontale è realizzata con un metodo di stampa speciale che le dona un aspetto assolutamente impeccabile."
   },
   "NRE": {
     "name": "Sacca di nutrienti",
-    "description": "Una carta per il gioco da tavolo Invokazione del genio. Sono resistenti e decorate con delle illustrazioni sul davanti, il che le rende preziose e molto belle."
+    "description": "Una carta per il gioco da tavolo Invokazione del genio. È fatta di materiale resistente, e l'illustrazione sulla parte frontale è realizzata con un metodo di stampa speciale che le dona un aspetto assolutamente impeccabile."
   },
   "ElementalResonanceWovenIce": {
     "name": "Risonanza elementale: Ghiaccio intrecciato",
-    "description": "Una carta per il gioco da tavolo Invokazione del genio. Sono resistenti e decorate con delle illustrazioni sul davanti, il che le rende preziose e molto belle."
+    "description": "Una carta per il gioco da tavolo Invokazione del genio. È fatta di materiale resistente, e l'illustrazione sulla parte frontale è realizzata con un metodo di stampa speciale che le dona un aspetto assolutamente impeccabile."
   },
   "ElementalResonanceShatteringIce": {
     "name": "Risonanza elementale: Ghiaccio dirompente",
-    "description": "Una carta per il gioco da tavolo Invokazione del genio. Sono resistenti e decorate con delle illustrazioni sul davanti, il che le rende preziose e molto belle."
+    "description": "Una carta per il gioco da tavolo Invokazione del genio. È fatta di materiale resistente, e l'illustrazione sulla parte frontale è realizzata con un metodo di stampa speciale che le dona un aspetto assolutamente impeccabile."
   },
   "ElementalResonanceWovenWaters": {
     "name": "Risonanza elementale: Acque intrecciate",
-    "description": "Una carta per il gioco da tavolo Invokazione del genio. Sono resistenti e decorate con delle illustrazioni sul davanti, il che le rende preziose e molto belle."
+    "description": "Una carta per il gioco da tavolo Invokazione del genio. È fatta di materiale resistente, e l'illustrazione sulla parte frontale è realizzata con un metodo di stampa speciale che le dona un aspetto assolutamente impeccabile."
   },
   "ElementalResonanceSoothingWater": {
     "name": "Risonanza elementale: Placide acque",
-    "description": "Una carta per il gioco da tavolo Invokazione del genio. Sono resistenti e decorate con delle illustrazioni sul davanti, il che le rende preziose e molto belle."
+    "description": "Una carta per il gioco da tavolo Invokazione del genio. È fatta di materiale resistente, e l'illustrazione sulla parte frontale è realizzata con un metodo di stampa speciale che le dona un aspetto assolutamente impeccabile."
   },
   "ElementalResonanceWovenFlames": {
     "name": "Risonanza elementale: Fiamme intrecciate",
-    "description": "Una carta per il gioco da tavolo Invokazione del genio. Sono resistenti e decorate con delle illustrazioni sul davanti, il che le rende preziose e molto belle."
+    "description": "Una carta per il gioco da tavolo Invokazione del genio. È fatta di materiale resistente, e l'illustrazione sulla parte frontale è realizzata con un metodo di stampa speciale che le dona un aspetto assolutamente impeccabile."
   },
   "ElementalResonanceFerventFlames": {
     "name": "Risonanza elementale: Fiamme impetuose",
-    "description": "Una carta per il gioco da tavolo Invokazione del genio. Sono resistenti e decorate con delle illustrazioni sul davanti, il che le rende preziose e molto belle."
+    "description": "Una carta per il gioco da tavolo Invokazione del genio. È fatta di materiale resistente, e l'illustrazione sulla parte frontale è realizzata con un metodo di stampa speciale che le dona un aspetto assolutamente impeccabile."
   },
   "ElementalResonanceWovenThunder": {
     "name": "Risonanza elementale: Tuono intrecciato",
-    "description": "Una carta per il gioco da tavolo Invokazione del genio. Sono resistenti e decorate con delle illustrazioni sul davanti, il che le rende preziose e molto belle."
+    "description": "Una carta per il gioco da tavolo Invokazione del genio. È fatta di materiale resistente, e l'illustrazione sulla parte frontale è realizzata con un metodo di stampa speciale che le dona un aspetto assolutamente impeccabile."
   },
   "ElementalResonanceHighVoltage": {
     "name": "Risonanza elementale: Alta tensione",
-    "description": "Una carta per il gioco da tavolo Invokazione del genio. Sono resistenti e decorate con delle illustrazioni sul davanti, il che le rende preziose e molto belle."
+    "description": "Una carta per il gioco da tavolo Invokazione del genio. È fatta di materiale resistente, e l'illustrazione sulla parte frontale è realizzata con un metodo di stampa speciale che le dona un aspetto assolutamente impeccabile."
   },
   "ElementalResonanceWovenWinds": {
     "name": "Risonanza elementale: Venti intrecciati",
-    "description": "Una carta per il gioco da tavolo Invokazione del genio. Sono resistenti e decorate con delle illustrazioni sul davanti, il che le rende preziose e molto belle."
+    "description": "Una carta per il gioco da tavolo Invokazione del genio. È fatta di materiale resistente, e l'illustrazione sulla parte frontale è realizzata con un metodo di stampa speciale che le dona un aspetto assolutamente impeccabile."
   },
   "ElementalResonanceImpetuousWinds": {
     "name": "Risonanza elementale: Venti impetuosi",
-    "description": "Una carta per il gioco da tavolo Invokazione del genio. Sono resistenti e decorate con delle illustrazioni sul davanti, il che le rende preziose e molto belle."
+    "description": "Una carta per il gioco da tavolo Invokazione del genio. È fatta di materiale resistente, e l'illustrazione sulla parte frontale è realizzata con un metodo di stampa speciale che le dona un aspetto assolutamente impeccabile."
   },
   "ElementalResonanceWovenStone": {
     "name": "Risonanza elementale: Pietra intrecciata",
-    "description": "Una carta per il gioco da tavolo Invokazione del genio. Sono resistenti e decorate con delle illustrazioni sul davanti, il che le rende preziose e molto belle."
+    "description": "Una carta per il gioco da tavolo Invokazione del genio. È fatta di materiale resistente, e l'illustrazione sulla parte frontale è realizzata con un metodo di stampa speciale che le dona un aspetto assolutamente impeccabile."
   },
   "ElementalResonanceEnduringRock": {
     "name": "Risonanza elementale: Roccia infrangibile",
-    "description": "Una carta per il gioco da tavolo Invokazione del genio. Sono resistenti e decorate con delle illustrazioni sul davanti, il che le rende preziose e molto belle."
+    "description": "Una carta per il gioco da tavolo Invokazione del genio. È fatta di materiale resistente, e l'illustrazione sulla parte frontale è realizzata con un metodo di stampa speciale che le dona un aspetto assolutamente impeccabile."
   },
   "ElementalResonanceWovenWeeds": {
     "name": "Risonanza elementale: Grovigli intrecciati",
-    "description": "Una carta per il gioco da tavolo Invokazione del genio. Sono resistenti e decorate con delle illustrazioni sul davanti, il che le rende preziose e molto belle."
+    "description": "Una carta per il gioco da tavolo Invokazione del genio. È fatta di materiale resistente, e l'illustrazione sulla parte frontale è realizzata con un metodo di stampa speciale che le dona un aspetto assolutamente impeccabile."
   },
   "ElementalResonanceSprawlingGreenery": {
     "name": "Risonanza elementale: Vegetazione proliferante",
-    "description": "Una carta per il gioco da tavolo Invokazione del genio. Sono resistenti e decorate con delle illustrazioni sul davanti, il che le rende preziose e molto belle."
+    "description": "Una carta per il gioco da tavolo Invokazione del genio. È fatta di materiale resistente, e l'illustrazione sulla parte frontale è realizzata con un metodo di stampa speciale che le dona un aspetto assolutamente impeccabile."
   },
   "TheBestestTravelCompanion": {
     "name": "La miglior compagna di viaggio!",
-    "description": "Una carta per il gioco da tavolo Invokazione del genio. Sono resistenti e decorate con delle illustrazioni sul davanti, il che le rende preziose e molto belle."
+    "description": "Una carta per il gioco da tavolo Invokazione del genio. È fatta di materiale resistente, e l'illustrazione sulla parte frontale è realizzata con un metodo di stampa speciale che le dona un aspetto assolutamente impeccabile."
   },
   "ChangingShifts": {
     "name": "Cambio di turno",
-    "description": "Una carta per il gioco da tavolo Invokazione del genio. Sono resistenti e decorate con delle illustrazioni sul davanti, il che le rende preziose e molto belle."
+    "description": "Una carta per il gioco da tavolo Invokazione del genio. È fatta di materiale resistente, e l'illustrazione sulla parte frontale è realizzata con un metodo di stampa speciale che le dona un aspetto assolutamente impeccabile."
   },
   "TossUp": {
     "name": "Testa o croce",
-    "description": "Una carta per il gioco da tavolo Invokazione del genio. Sono resistenti e decorate con delle illustrazioni sul davanti, il che le rende preziose e molto belle."
+    "description": "Una carta per il gioco da tavolo Invokazione del genio. È fatta di materiale resistente, e l'illustrazione sulla parte frontale è realizzata con un metodo di stampa speciale che le dona un aspetto assolutamente impeccabile."
   },
   "Strategize": {
     "name": "Pianifica",
-    "description": "Una carta per il gioco da tavolo Invokazione del genio. Sono resistenti e decorate con delle illustrazioni sul davanti, il che le rende preziose e molto belle."
+    "description": "Una carta per il gioco da tavolo Invokazione del genio. È fatta di materiale resistente, e l'illustrazione sulla parte frontale è realizzata con un metodo di stampa speciale che le dona un aspetto assolutamente impeccabile."
   },
   "IHaventLostYet": {
     "name": "Non ho ancora perso!",
-    "description": "Una carta per il gioco da tavolo Invokazione del genio. Sono resistenti e decorate con delle illustrazioni sul davanti, il che le rende preziose e molto belle."
+    "description": "Una carta per il gioco da tavolo Invokazione del genio. È fatta di materiale resistente, e l'illustrazione sulla parte frontale è realizzata con un metodo di stampa speciale che le dona un aspetto assolutamente impeccabile."
   },
   "LeaveItToMe": {
     "name": "Lascia fare a me!",
-    "description": "Una carta per il gioco da tavolo Invokazione del genio. Sono resistenti e decorate con delle illustrazioni sul davanti, il che le rende preziose e molto belle."
+    "description": "Una carta per il gioco da tavolo Invokazione del genio. È fatta di materiale resistente, e l'illustrazione sulla parte frontale è realizzata con un metodo di stampa speciale che le dona un aspetto assolutamente impeccabile."
   },
   "WhenTheCraneReturned": {
     "name": "Quando ritornò la gru",
-    "description": "Una carta per il gioco da tavolo Invokazione del genio. Sono resistenti e decorate con delle illustrazioni sul davanti, il che le rende preziose e molto belle."
+    "description": "Una carta per il gioco da tavolo Invokazione del genio. È fatta di materiale resistente, e l'illustrazione sulla parte frontale è realizzata con un metodo di stampa speciale che le dona un aspetto assolutamente impeccabile."
   },
   "Starsigns": {
     "name": "Presagio stellare",
-    "description": "Una carta per il gioco da tavolo Invokazione del genio. Sono resistenti e decorate con delle illustrazioni sul davanti, il che le rende preziose e molto belle."
+    "description": "Una carta per il gioco da tavolo Invokazione del genio. È fatta di materiale resistente, e l'illustrazione sulla parte frontale è realizzata con un metodo di stampa speciale che le dona un aspetto assolutamente impeccabile."
   },
   "CalxsArts": {
     "name": "Arti di Calx",
-    "description": "Una carta per il gioco da tavolo Invokazione del genio. Sono resistenti e decorate con delle illustrazioni sul davanti, il che le rende preziose e molto belle."
+    "description": "Una carta per il gioco da tavolo Invokazione del genio. È fatta di materiale resistente, e l'illustrazione sulla parte frontale è realizzata con un metodo di stampa speciale che le dona un aspetto assolutamente impeccabile."
   },
   "MasterOfWeaponry": {
     "name": "Maestro degli armamenti",
-    "description": "Una carta per il gioco da tavolo Invokazione del genio. Sono resistenti e decorate con delle illustrazioni sul davanti, il che le rende preziose e molto belle."
+    "description": "Una carta per il gioco da tavolo Invokazione del genio. È fatta di materiale resistente, e l'illustrazione sulla parte frontale è realizzata con un metodo di stampa speciale che le dona un aspetto assolutamente impeccabile."
   },
   "BlessingOfTheDivineRelicsInstallation": {
     "name": "Benedizione della reliquia divina",
-    "description": "Una carta per il gioco da tavolo Invokazione del genio. Sono resistenti e decorate con delle illustrazioni sul davanti, il che le rende preziose e molto belle."
+    "description": "Una carta per il gioco da tavolo Invokazione del genio. È fatta di materiale resistente, e l'illustrazione sulla parte frontale è realizzata con un metodo di stampa speciale che le dona un aspetto assolutamente impeccabile."
   },
   "QuickKnit": {
     "name": "Intreccio rapido",
-    "description": "Una carta per il gioco da tavolo Invokazione del genio. Sono resistenti e decorate con delle illustrazioni sul davanti, il che le rende preziose e molto belle."
+    "description": "Una carta per il gioco da tavolo Invokazione del genio. È fatta di materiale resistente, e l'illustrazione sulla parte frontale è realizzata con un metodo di stampa speciale che le dona un aspetto assolutamente impeccabile."
   },
   "SendOff": {
     "name": "Espulsione",
-    "description": "Una carta per il gioco da tavolo Invokazione del genio. Sono resistenti e decorate con delle illustrazioni sul davanti, il che le rende preziose e molto belle."
+    "description": "Una carta per il gioco da tavolo Invokazione del genio. È fatta di materiale resistente, e l'illustrazione sulla parte frontale è realizzata con un metodo di stampa speciale che le dona un aspetto assolutamente impeccabile."
   },
   "GuardiansOath": {
     "name": "Giuramento del Guardiano",
-    "description": "Una carta per il gioco da tavolo Invokazione del genio. Sono resistenti e decorate con delle illustrazioni sul davanti, il che le rende preziose e molto belle."
+    "description": "Una carta per il gioco da tavolo Invokazione del genio. È fatta di materiale resistente, e l'illustrazione sulla parte frontale è realizzata con un metodo di stampa speciale che le dona un aspetto assolutamente impeccabile."
   },
   "AbyssalSummons": {
     "name": "Chiamata abissale",
-    "description": "Una carta per il gioco da tavolo Invokazione del genio. Sono resistenti e decorate con delle illustrazioni sul davanti, il che le rende preziose e molto belle."
+    "description": "Una carta per il gioco da tavolo Invokazione del genio. È fatta di materiale resistente, e l'illustrazione sulla parte frontale è realizzata con un metodo di stampa speciale che le dona un aspetto assolutamente impeccabile."
   },
   "Origin": {
     "name": "Origine",
@@ -12354,6 +12550,14 @@
   "ToTheChurchsFreeSpirit": {
     "name": "Per lo spirito libero della Chiesa",
     "description": "Il completo di Rosaria. Sembra che la Chiesa lo abbia realizzato su misura appositamente per lei."
+  },
+  "SpringbloomMissive": {
+    "name": "Missiva primaverile",
+    "description": "Il completo di viaggio di Ayaka. Il suo design si basa sugli abiti di Fontaine raffigurati nelle illustrazioni delle light novel, e sembra rispecchiare lo stile di vita delle gentildonne di quella nazione."
+  },
+  "ASobriquetUnderShade": {
+    "name": "Un nomignolo all'ombra",
+    "description": "Un completo commissionato da Lisa quando è tornata in visita a Sumeru. Un equilibrio perfetto tra praticità ed eleganza, il completo assomiglia alla vecchia uniforme di Lisa ai tempi dell'Akademiya."
   },
   "AdventurerCamp": {
     "name": "Accampamento dell'avventuriere",
@@ -12497,7 +12701,7 @@
   },
   "CottageKitchen": {
     "name": "Cucina fumo e legna",
-    "description": "Un progetto con istruzioni passo dopo passo per realizzare un set Cucina fumo e legna.\\nUna cucina attrezzata di tutto punto con una credenza piena di spezie scelte con cura.\\nI cuochi che ricercano l'eccellenza comprano quotidianamente ingredienti freschi al mercato, e i veri artisti della cucina prestano addirittura attenzione alla legna usata per i loro fornelli. Una volta, il giovane capocuoco del Ristorante Wanmin rese noto che, per preparare i piatti tradizionali del Villaggio di Qingce, si devono prima adagiare dei trucioli di bambù ben asciutti nel fornello e controllare attentamente la fiamma. Chi è in grado di trasformare gli arbusti accanto alle Bacche uncinate in sottile legna da ardere può persino aggiungervi un vago aroma di Mondstadt.\\nDiversi tipi di legna producono effetti molto distinti, e la maggior parte dei cuochi non riuscirà mai davvero a padroneggiarli. Ecco perché il Ristorante Wanmin ha il monopolio su questa particolare tecnica.\\nDopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di posizionamento.\\nQuesto set decorativo è particolarmente apprezzato dai seguenti compagni: Tartaglia, Mona, Xiao, Xiangling, Razor, Yaoyao"
+    "description": ""
   },
   "WeaponForgingStation": {
     "name": "Fucina di armi",
@@ -12529,7 +12733,7 @@
   },
   "IterAdAstraAbyssosque": {
     "name": "Iter ad astra abyssosque",
-    "description": "Un progetto con istruzioni passo dopo passo per allestire un set Iter ad astra abyssosque.\\nUn accampamento da avventurieri che si vede spesso in mezzo alla natura e che sfrutta gli ultimi ritrovati in materia di progettazione delle tende.\\nGli avventurieri esperti sono abituati a condurre una vita spartana: anche in mezzo alle tempeste, gli basta una tenda leggera e resistente per dormire bene, recuperare le forze e raggiungere la meta successiva. Ecco perché tende economiche e appetibili come queste vanno sempre a ruba.\\nDopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di posizionamento.\\nQuesto set decorativo è particolarmente apprezzato dai seguenti compagni: Bennett, Qiqi, Chongyun, Fischl, Albedo, Aloy"
+    "description": ""
   },
   "DawnOrchard": {
     "name": "Frutteto Prima Luce",
@@ -12593,7 +12797,7 @@
   },
   "FervidAroma": {
     "name": "Aroma fervido",
-    "description": "L'ispirazione per questo ristorante magnificamente decorato è una famosa taverna nella Città di Sumeru... modificata per essere utilizzabile all'interno delle Serenteiera, ovviamente. L'aria è ricolma di vapore e dell'aroma di varie spezie che si mescolano tra loro e stimolano i sensi. Basta un po' di compagnia e qualche caraffa di vino buono per godersi la cena perfetta.\\nPer coloro che sono spesso in viaggio, i ristoranti che offrono il barbecue sono perfetti quando si tratta di accomodare molte persone e di servire tonnellate di cibo. Per coloro che si muovono da soli invece, il chiasso di questi posti aiuta a far perdere le proprie tracce, oltre mettere in condizione di osservare, complottare, o anche solo stare al sicuro.\\nQuesto set decorativo piace particolarmente ad Alhaitham"
+    "description": ""
   },
   "OfSettledThoughts": {
     "name": "Pensieri radicati",
@@ -12609,7 +12813,7 @@
   },
   "AmidstProsperingMarkets": {
     "name": "Nel mezzo di mercati prosperi",
-    "description": "Un distretto mercantile squisitamente decorato che rende omaggio alla disposizione delle strade della Città di Sumeru e del Gran Bazaar. I banchetti dei mercanti vendono frutta fresca, piatti deliziosi e primizie di ogni tipo. Dopo pochi passi proverai la tipica atmosfera che solo un mercato animato può offrire.\\nSi dice che i negozi e i banchetti lungo le strade di Sumeru siano stati modificati in base a specifiche regole nate in seguito alle ricerche dell'Akademiya, in modo da offrire un servizio olistico riducendo al minimo le difficoltà e la superficie occupata.\\nQuesto set decorativo piace particolarmente a Dori."
+    "description": "Un distretto mercantile squisitamente decorato che rende omaggio alla disposizione delle strade di Città di Sumeru e del Gran Bazaar. I banchetti di mercanti vendono frutta fresca, piatti deliziosi e primizie di ogni tipo. Dopo pochi passi proverai la tipica atmosfera che solo un mercato animato può offrire.\\nSi dice che i negozi e i banchetti lungo le strade di Sumeru siano stati modificati in base a specifiche regole nate in seguito alle ricerche dell'Akademiya, in modo da offrire un servizio olistico riducendo al minimo le difficoltà e la superficie occupata.\\nQuesto set decorativo piace particolarmente a Dori e Faruzan."
   },
   "DeepInTheQuietForest": {
     "name": "Nelle profondità della tranquilla foresta",
@@ -12621,7 +12825,7 @@
   },
   "QuietTimesByTheRiverbank": {
     "name": "Serenità sulla riva del fiume",
-    "description": "Un pacifico insediamento ispirato al peculiare stile del Villaggio di Vimara. Anche se questo set di decorazioni non si trova vicino a un fiume o in riva al mare, respirare il delicato aroma di pesce che aleggia in questo villaggio porterà il suono dell'acqua alle tue orecchie.\\nIl Villaggio di Vimara ha un'atmosfera molto diversa rispetto all'accampamento dei guardaboschi. Gli abitanti non portano il peso di grandi responsabilità e vivono serenamente, rendendolo un ottimo posto per coloro che desiderano rilassarsi."
+    "description": "Un pacifico insediamento ispirato al peculiare stile del Villaggio di Vimara. Anche se questo set di decorazioni non si trova vicino a un fiume o in riva al mare, respirare il delicato aroma di pesce che aleggia in quel villaggio porterà il suono dell'acqua alle tue orecchie.\\nIl Villaggio di Vimara ha un'atmosfera molto diversa rispetto all'accampamento dei guardaboschi. Gli abitanti non portano il peso di grandi responsabilità e vivono serenamente, rendendolo un ottimo posto per coloro che desiderano rilassarsi.\\nQuesto set decorativo piace particolarmente a {REALNAME[ID(1)|HOSTONLY(true)]}"
   },
   "SetekhDemurs": {
     "name": "Obiezioni del Setekh",
@@ -12629,7 +12833,7 @@
   },
   "TheTravelingTroopsPomp": {
     "name": "Pomposità della truppa itinerante",
-    "description": "Questo accampamento in stile militare è ricco di ogni ben di dio. L'area è fortificata e i falò ben posizionati sono la spina dorsale delle operazioni notturne. In teoria, questo tipo di accampamento è in grado di resistere all'assalto di orde di nemici, può perfino formare il fulcro di una linea di difesa a patto di avere un numero sufficiente di personale.\\nNon importa quanto sia tedioso il trasporto dei materiali, né quanti guai porti la mancanza di tende a protezione dalle intemperie... Ai truci mercenari basta un letto di paglia per dormire come sassi, e non si curano di piccole scocciature del genere."
+    "description": ""
   },
   "AmidstScentsAndSerenity": {
     "name": "Tra aromi e serenità",
@@ -12637,7 +12841,7 @@
   },
   "ChorusOfDesertAndWood": {
     "name": "Ritornello di legno e deserto",
-    "description": "In questo luogo meraviglioso cresce una grande varietà di piante grazie alla capacità della Creazione di Mondi alternativi di armonizzare le varie specialità possedute da queste piante in modo che perfino piante provenienti da deserto e della foresta siano in grado di coesistere fianco a fianco, orchestrando un magnifico coro di fiori, alberi ed erba selvatica.\\nPer gli studiosi che amano le piante, tali aree sono vere e proprie miniere d'oro per le loro ricerche, anche se queste splendide foreste sono allo stesso modo in grado di catturare l'interesse dei comuni passanti.\\nQuesto set decorativo piace particolarmente a Tighnari."
+    "description": "In questo luogo meraviglioso cresce una grande varietà di piante grazie alla capacità della Creazione di Mondi alternativi, in grado di armonizzare le varie peculiarità possedute da questi organismi vegetali. In questo modo, perfino piante provenienti dal deserto e dalla foresta sono in grado di coesistere fianco a fianco, orchestrando un magnifico coro di fiori, alberi ed erba selvatica.\\nQueste splendide aree forestali sono vere e proprie miniere d'oro per le ricerche degli studiosi che amano le piante, ma sono allo stesso modo in grado di catturare l'interesse dei comuni passanti.\\nQuesto set decorativo piace particolarmente a Tighnari e {REALNAME[ID(1)|HOSTONLY(true)]}"
   },
   "TimberWallWithJadeEaves": {
     "name": "Parete di legno con grondaia di giada",
@@ -12751,6 +12955,10 @@
     "name": "Lanterne arcobaleno Celebrazione dell'alba",
     "description": "Un progetto con istruzioni passo dopo passo per realizzare delle lanterne arcobaleno Celebrazione dell'alba.\\nDopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione."
   },
+  "CountlessHomesLightUpTheMoon": {
+    "name": "Infinite case illuminano la luna",
+    "description": "Un progetto con istruzioni passo dopo passo per realizzare Infinite case illuminano la luna.\\nDopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione."
+  },
   "StoneworksLampDeepingGloomCandle": {
     "name": "Lampada per muratura Candela delle profondità",
     "description": "Un progetto con istruzioni passo dopo passo per realizzare una lampada per muratura Candela delle profondità.\\nDopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione."
@@ -12831,13 +13039,13 @@
     "name": "Comodino in Legno dello splendore Invigorimento",
     "description": "Un progetto con istruzioni passo dopo passo per realizzare un comodino in Legno dello splendore Invigorimento.\\nDopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione."
   },
-  "AthelDoubleDrawerCabinet": {
-    "name": "Comodino a due cassetti in legno di athel",
-    "description": "Un progetto con istruzioni passo dopo passo per realizzare un comodino a due cassetti in legno di athel.\\nDopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione."
+  "AthelTripleDrawerCabinet": {
+    "name": "Comodino a due cassetti in legno di Athel",
+    "description": "Un progetto con istruzioni passo dopo passo per realizzare un comodino a due cassetti in legno di Athel.\\nDopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione."
   },
-  "AthelPotteryShelves": {
-    "name": "Scaffale in legno di athel",
-    "description": "Un progetto con istruzioni passo dopo passo per realizzare uno scaffale in legno di athel.\\nDopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione."
+  "AthelPotteryShelf": {
+    "name": "Scaffale in legno di Athel",
+    "description": "Un progetto con istruzioni passo dopo passo per realizzare uno scaffale in legno di Athel.\\nDopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione."
   },
   "TwoTierLibraryBookshelf": {
     "name": "Libreria a due piani",
@@ -12971,7 +13179,7 @@
     "name": "Tavolo per due",
     "description": "Un progetto con istruzioni passo dopo passo per realizzare un Tavolo per due.\\nDopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione."
   },
-  "LongAdhighamaChamferTable": {
+  "LongAdhigamaChamferTable": {
     "name": "Tavolo smussato lungo di Adhighama",
     "description": "Un progetto con istruzioni passo dopo passo per realizzare un tavolo smussato lungo di Adhighama.\\nDopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione."
   },
@@ -13556,8 +13764,8 @@
     "description": "Un progetto con istruzioni passo dopo passo per realizzare Riflessioni del Guardiano della foresta.\\nDopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione."
   },
   "AthelwoodMetalCombatShield": {
-    "name": "Scudo metallico in legno di athel",
-    "description": "Un progetto con istruzioni passo dopo passo per realizzare uno scudo metallico in legno di athel.\\nDopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione."
+    "name": "Scudo metallico in legno di Athel",
+    "description": "Un progetto con istruzioni passo dopo passo per realizzare uno scudo metallico in legno di Athel.\\nDopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione."
   },
   "LingeringMoment": {
     "name": "Momento indimenticabile",
@@ -14163,15 +14371,15 @@
     "name": "Gru di uso comune di Porto Ormos III",
     "description": "Un progetto con istruzioni passo dopo passo per realizzare una Gru di uso comune di Porto Ormos III.\\nDopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione."
   },
-  "CompositeTimberLongDistanceHandTruck": {
+  "CompositeTimberLongDistanceHandCart": {
     "name": "Carro per lunghi percorsi in legno composito",
     "description": "Un progetto con istruzioni passo dopo passo per realizzare un carro per lunghi percorsi in legno composito.\\nDopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione."
   },
-  "CompositeTimberInPortTransferTruck": {
+  "CompositeTimberInPortTransferCart": {
     "name": "Carro per trasporti portuali in legno composito",
     "description": "Un progetto con istruzioni passo dopo passo per realizzare un carro per trasporti portuali in legno composito.\\nDopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione."
   },
-  "FourWheeledMountainHandTruck": {
+  "ThreeWheeledMountainHandCart": {
     "name": "Carro da montagna a quattro ruote",
     "description": "Un progetto con istruzioni passo dopo passo per realizzare un carro da montagna a quattro ruote.\\nDopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione."
   },
@@ -14531,7 +14739,7 @@
     "name": "Corde, penne e traiettorie",
     "description": "Un progetto con istruzioni passo dopo passo per realizzare Corde, penne e traiettorie.\\nDopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione."
   },
-  "IngenuityOfForestForager": {
+  "IngenuityOfTheForestForager": {
     "name": "Ingenuità del foraggiatore della foresta",
     "description": "Un progetto con istruzioni passo dopo passo per realizzare Ingenuità del foraggiatore della foresta.\\nDopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione."
   },
@@ -14778,6 +14986,30 @@
   "TeaBreakShade": {
     "name": "Ombrellone Pausa del tè",
     "description": "Un progetto con istruzioni passo dopo passo per realizzare un ombrellone Pausa del tè.\\nDopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione."
+  },
+  "PropitiousScreenFogGatheringOnSmokyMountains": {
+    "name": "Paravento del buon auspicio Nebbia sulle montagne",
+    "description": "Un progetto con istruzioni passo dopo passo per realizzare un paravento del buon auspicio Nebbia sulle montagne.\\nDopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione."
+  },
+  "PropitiousScreenFleetFeathersAgainstEmeraldWaves": {
+    "name": "Paravento del buon auspicio Onda di luce",
+    "description": "Un progetto con istruzioni passo dopo passo per realizzare un paravento del buon auspicio Onda di luce.\\nDopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione."
+  },
+  "PropitiousScreenInstrumentsInTheDistance": {
+    "name": "Paravento del buon auspicio Strumenti distanti",
+    "description": "Un progetto con istruzioni passo dopo passo per realizzare un paravento del buon auspicio Strumenti distanti.\\nDopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione."
+  },
+  "PropitiousScreenOldSongsLingering": {
+    "name": "Paravento del buon auspicio Languide vecchie canzoni",
+    "description": "Un progetto con istruzioni passo dopo passo per realizzare un paravento del buon auspicio Languide vecchie canzoni.\\nDopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione."
+  },
+  "PropitiousScreenOverlappingCloudsAbovePeaks": {
+    "name": "Paravento del buon auspicio Cumuli di nuvole sulle montagne",
+    "description": "Un progetto con istruzioni passo dopo passo per realizzare un paravento del buon auspicio Cumuli di nuvole sulle montagne.\\nDopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione."
+  },
+  "PropitiousScreenGenuineWordsTravelFar": {
+    "name": "Paravento del buon auspicio Le parole sincere viaggiano lontano",
+    "description": "Un progetto con istruzioni passo dopo passo per realizzare un paravento del buon auspicio Le parole sincere viaggiano lontano.\\nDopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione."
   },
   "TrumpetAndFirewood": {
     "name": "Trombetta e falò",

@@ -48,11 +48,11 @@
       "4": "Entra no modo de mira para ajustar a direção do arremesso.",
       "5": "<br/>",
       "6": "<strong>Yuegui: Modo de Arremesso</strong>",
-      "7": "Joga um Rabanete de Jade Branca. Quando o Rabanete de Jade Branca atinge um personagem ou inimigo, explodirá, causando <dendro>Dano Dendro</dendro> contra os inimigos dentro de uma certa AdE e regenerando Vida para os personagens dentro dela. A Cura é baseada na Vida Máxima de Yaoyao. Se não atingir inimigos ou personagens, o Rabanete de Jade Branca ficará na posição em que foi arremessado, e quando for tocado por um personagem ou inimigo, ou quando sua duração acabar, explodirá.",
+      "7": "Joga um Rabanete de Jade Branca. Quando o Rabanete de Jade Branca atinge um personagem ou inimigo, explodirá, causando <dendro>Dano Dendro</dendro> contra os inimigos dentro de uma certa AdE e regenerando Vida para os personagens dentro dela. A Cura é baseada na Vida Máxima de Yaoyao. Se não atingir inimigos ou personagens, o Rabanete de Jade Branca ficará na posição em que caiu, e quando for tocado por um personagem ou inimigo, ou quando sua duração acabar, explodirá.",
       "8": "A escolha do alvo de arremesso do Rabanete de Jade Branca será definida de acordo com a situação das proximidades:",
       "9": [
-        " Se a Vida média dos personagens próximos for maior que 70% , arremessará contra um inimigo próximo;",
-        " Se houver um personagem próximo com Vida igual ou inferior a 70%, jogará na direção próxima do personagem ativo com menor porcentagem de Vida. Se não houverem inimigos próximos, mesmo que a Vida média dos personagens sejam superior a 70%, arremessará na direção de um personagem."
+        " Se a Vida de todos os personagens próximos for maior que 70%, arremessará contra um inimigo próximo;",
+        " Se houver um personagem próximo com Vida igual ou inferior a 70%, jogará na direção próxima do personagem ativo com menor porcentagem de Vida. Se não houverem inimigos próximos, e caso que a Vida de todos os personagens seja superior a 70% e inferior a 100%, arremessará na direção de um personagem; caso contrário, arremessará em qualquer direção ao redor."
       ],
       "10": "<br/>",
       "11": "É possível existir até 2 Yuegui: Modo de Arremesso simultaneamente.",
@@ -81,12 +81,12 @@
   "burst": {
     "name": "Descida da Lua de Jade",
     "description": {
-      "0": "Sob comando de uma certa Adeptus, todo o potencial de Yuegui pode ser lançado em uma emergência, causando <dendro>Dano Dendro</dendro> contra os inimigos ao redor, fazendo-o entrar (de certa forma) no invencível estado \"Legado Adepti\".",
+      "0": "Sob comando de uma certa Adeptus, todo o potencial de Yuegui pode ser lançado em uma emergência, causando <dendro>Dano Dendro</dendro> contra os inimigos ao redor, e entra no invencível (de certa forma) estado \"Legado Adepti\".",
       "1": "<br/>",
       "2": "<strong>Legado Adepti</strong>",
       "3": [
-        " Rabanetes de Jade Branca gerados são convertidos para curar e causar Dano baseado nos atributos detalhados dessa Habilidade. Ao explodirem, regenerarão Vida para todos os personagens próximos da equipe e causarão <dendro>Dano Dendro</dendro>, e esse Dano Dendro é considerado Dano de Supremo.",
-        " Periodicamente invoca \"Yuegui: Modo de Salto\" até atingir o limite máximo. A forma de ação de Yuegui: Modo de Salto e Yuegui: Modo de Arremesso da Habilidade Elemental \"Rabanete das Nuvens\" é igual. É possível existir até 3 Yuegui: Modo de Salto simultaneamente.",
+        " Rabanetes de Jade Branca gerados são convertidos para curar e causar Dano baseado nos atributos detalhados dessa Habilidade. Ao explodirem, regenerarão Vida para todos os personagens próximos da equipe e causarão <dendro>Dano Dendro</dendro>, e esse Dano é considerado Dano de Supremo.",
+        " Periodicamente invoca \"Yuegui: Modo de Salto\" até atingir o limite máximo. A forma de ação de Yuegui: Modo de Salto e Yuegui: Modo de Arremesso da Habilidade Elemental \"Rabanete das Nuvens\" é igual. É possível existir até 3 Yuegui: Modo de Salto simultaneamente;",
         " Aumenta a Veloc. Mov. de Yaoyao em 15%; Yaoyao obtém aumento de <dendro>RES Dendro</dendro>."
       ],
       "4": "<br/>",
@@ -116,7 +116,7 @@
   "passive1": {
     "name": "Chuva de Estrelas",
     "description": {
-      "0": "Quando Yaoyao estiver no estado Legado Adepti de <strong>Descida da Lua de Jade</strong> e correr, saltar ou estiver correndo, jogará Rabanetes de Jade Branca constantemente contra os inimigos próximos. É possível jogar 1 Rabanete de Jade Branca a cada 0.6s dessa forma."
+      "0": "Quando estiver no estado Legado Adepti de <strong>Descida da Lua de Jade</strong> e Yaoyao correr, saltar ou estiver correndo, jogará Rabanetes de Jade Branca constantemente contra os inimigos próximos. É possível jogar 1 Rabanete de Jade Branca a cada 0.6s dessa forma."
     }
   },
   "passive2": {
@@ -141,7 +141,7 @@
   "constellation2": {
     "name": "Inocência",
     "description": {
-      "0": "Ao ser afetada pelo estado Legado Adepti da <strong>Descida da Lua de Jade</strong>, caso a explosão do Rabanete de Jade Branca cause Dano contra um inimigo atingido, Yaoyao regenerará 3 de Energia Elemental. Esta regeneração de Energia Elemental pode ocorrer uma vez a cada 0.8s."
+      "0": "Quando estiver no estado Legado Adepti da <strong>Descida da Lua de Jade</strong>, caso a explosão do Rabanete de Jade Branca cause Dano contra um inimigo atingido, Yaoyao regenerará 3 de Energia Elemental. Esta regeneração de Energia Elemental pode ocorrer uma vez a cada 0.8s."
     }
   },
   "constellation3": {
@@ -167,7 +167,7 @@
   "constellation6": {
     "name": "Benevolente",
     "description": {
-      "0": "Para cada 2 Rabanetes de Jade Branca jogados por <strong>Yuegui: Modo de Arremesso</strong>, na próxima vez que jogar, jogará um Super Incrível Grande Rabanete adicional. Comparado a um Rabanete de Jade Branca, o Super Incrível Grande Rabanete explode em AdE maior, e gera os seguintes efeitos ao explodir:",
+      "0": "Para cada 2 Rabanetes de Jade Branca jogados por <strong>Yuegui: Modo de Arremesso</strong>, na próxima vez que jogar, jogará um Super Incrível Grande Rabanete adicional. Comparado a um Rabanete de Jade Branca, o Super Incrível Grande Rabanete explode em uma AdE maior, e gera os seguintes efeitos ao explodir:",
       "1": [
         " Causa <dendro>Dano Dendro em AdE</dendro> baseado em 75% do ATQ de Yaoyao;",
         " Regenera Vida para o personagem ativo no campo de batalha baseado em 7.5% da Vida Máxima de Yaoyao."

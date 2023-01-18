@@ -50,7 +50,7 @@
       "6": "<strong>Espelho Cortante</strong>",
       "7": "Ao lançar, Alhaitham gerará 1 Espelho Cortante; se ainda não possuir nenhum Espelho Cortante, gerará um adicional. O Espelho Cortante possui os seguintes efeitos:",
       "8": [
-        " Ao possuir um Espelho Cortante, os Ataques Normais, Carregados e Imersivos de Alhaitham serão convertidos em <dendro>Dano Dendro</dendro> que não pode ser substituído por outros elementos;",
+        " Ao possuir Espelhos Cortantes, os Ataques Normais, Carregados e Imersivos de Alhaitham serão convertidos em <dendro>Dano Dendro</dendro> que não pode ser substituído por outros elementos;",
         " Quando o ataque descrito acima atinge um inimigo, o Espelho Cortante fará o ataque Cortina de Luz, causando <dendro>Dano Dendro em AdE</dendro> baseado na quantidade de Espelhos Cortantes;",
         " É possível possuir até 3 Espelhos Cortantes;",
         " Os Espelhos Cortantes desaparecerão com o passar do tempo, e todos serão eliminados quando Alhaitham sair do campo de batalha."
@@ -61,9 +61,9 @@
     "skillParams": {
       "0": "Dano de Ataque de Investida",
       "1": "Intervalo de Ataque da Cortina de Luz",
-      "2": "Dano de Ataque de 1 Cortina de Luz",
-      "3": "Dano do Ataque de 2 Cortinas de Luz",
-      "4": "Dano de Ataque de 3 Cortinas de Luz",
+      "2": "Dano de Ataque da Cortina de Luz com 1 Espelho Cortante",
+      "3": "Dano do Ataque da Cortina de Luz com 2 Espelhos Cortantes",
+      "4": "Dano de Ataque da Cortina de Luz com 3 Espelhos Cortantes",
       "5": "Intervalo do desaparecimento do Espelho Cortante",
       "6": "Tempo de Recarga",
       "7": "",
@@ -82,16 +82,16 @@
     "description": {
       "0": "Cria um reino especial, causando várias instâncias de <dendro>Dano Dendro em AdE</dendro>.",
       "1": "Se ao lançar possuir Espelhos Cortantes, consumirá todos eles para aumentar o número de vezes de Dano causado.",
-      "2": "Depois de 2s, se ao lançar a Habilidade tiver consumido 0/1/2/3 Espelho(s) Cortante(s), gerará 3/2/1/0 Espelho(s) Cortante(s) para Alhaitham.",
+      "2": "Depois de 2s, se ao lançar essa Habilidade tiver consumido 0/1/2/3 Espelho(s) Cortante(s), gerará 3/2/1/0 Espelho(s) Cortante(s) para Alhaitham.",
       "3": "<br/>",
       "4": "<i>\"Se um estudioso decide buscar a sabedoria como seu objetivo, ele precisará tratar cada palavra que leu como inimiga, pois só assim evitará seus preconceitos.\"</i>"
     },
     "skillParams": {
-      "0": "Dano Único",
+      "0": "Dano de uma instância",
       "1": "Quantidade de Ataques Básicos",
-      "2": "Ataques de 1 Cortina",
-      "3": "Ataques de 2 Cortinas",
-      "4": "Ataque de 3 Cortinas",
+      "2": "Ataques com 1 Espelho Cortante",
+      "3": "Ataques com 2 Espelhos Cortantes",
+      "4": "Ataque com 3 Espelhos Cortantes",
       "5": "Tempo de Recarga",
       "6": "Energia Elemental",
       "7": "",
@@ -115,7 +115,7 @@
     "name": "Revelação da Floresta dos Enigmas",
     "description": {
       "0": "Cada ponto de Proficiência Elemental de Alhaitham aumentará o Dano causado por Cortina de Luz e <strong>Alienação: Restrição da Ilustração</strong> em 0.1%.",
-      "1": "É possível aumentar o Dano da Cortina da Luz e de Alienação: Restrição da Ilustração em até 100% dessa forma."
+      "1": "É possível aumentar o Dano da Cortina de Luz e de Alienação: Restrição da Ilustração em até 100% dessa forma."
     }
   },
   "passive3": {
@@ -139,7 +139,8 @@
   "constellation3": {
     "name": "Anotações Escondidas",
     "description": {
-      "0": "Aumenta o nível de <strong>Entendimento Mútuo: Representação do Conhecimento</strong> em 3. O nível máximo de elevação é 15."
+      "0": "Aumenta o nível de <strong>Entendimento Mútuo: Representação do Conhecimento</strong> em 3.",
+      "1": "O nível máximo de elevação é 15."
     }
   },
   "constellation4": {
@@ -157,7 +158,8 @@
   "constellation5": {
     "name": "O Grau da Sabedoria",
     "description": {
-      "0": "Aumenta o nível da Habilidade <strong>Alienação: Restrição da Ilustração</strong> em 3. O nível máximo é 15."
+      "0": "Aumenta o nível da Habilidade <strong>Alienação: Restrição da Ilustração</strong> em 3.",
+      "1": "O nível máximo é 15."
     }
   },
   "constellation6": {
@@ -165,10 +167,10 @@
     "description": {
       "0": "Alhaitham obtém os seguintes efeitos:",
       "1": [
-        " Depois de 2s de lançar <strong>Alienação: Restrição da Ilustração</strong>, ignora o número de Espelhos Cortantes consumidos e cria 3 Espelhos Cortantes;",
+        " Após 2s de lançar <strong>Alienação: Restrição da Ilustração</strong>, ignora o número de Espelhos Cortantes consumidos e cria 3 Espelhos Cortantes;",
         " Quando Alhaitham gera um Espelho Cortante, se o número de Espelhos Cortantes já houver alcançado o máximo, aumentará sua Taxa CRIT em 10% e seu Dano CRIT em 70% por 6s."
       ],
-      "2": "Se esse efeito for desencadeado várias vezes na sua duração, a duração restante será aumentada em 6s."
+      "2": "Se esse efeito for desencadeado novamente na sua duração, a duração restante será aumentada em 6s."
     }
   }
 }

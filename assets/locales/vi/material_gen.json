@@ -207,6 +207,14 @@
     "name": "Vé Thưởng Đại Hội Dũng Cảm",
     "description": "Vé thưởng nhận được khi hoàn thành khiêu chiến đặc biệt nào đó trong \"Đại Hội Dũng Cảm\" do Hiệp Hội Yashiro tổ chức, giống như chứng nhận dành cho người tham gia có lòng can đảm hơn người.\\nCó thể đổi lấy các vật tư quý hiếm trong sự kiện \"Akitsu Kimodameshi\""
   },
+  "FloralCoupons": {
+    "name": "Phiếu Trục Hoa",
+    "description": "Phiếu thưởng nhận được khi tham gia \"Cờ Trục Hoa\" trong Lễ Hội Hoa Gió. Trong thời gian hoạt động, có thể dùng để đổi thưởng."
+  },
+  "FestiveTickets": {
+    "name": "Phiếu Lễ Hội",
+    "description": "Tham gia các hoạt động trong Lễ Hội Hoa Gió sẽ nhận được phiếu thưởng. Trong thời gian hoạt động, có thể dùng để đổi thưởng."
+  },
   "Primogem": {
     "name": "Nguyên Thạch",
     "description": "Tinh Thạch Nguyên Thủy, nằm trong vũ trụ hắc ám, ánh sáng được kết tinh từ hy vọng và mộng tưởng."
@@ -575,6 +583,14 @@
     "name": "Alhaitham",
     "description": "Quan Thư Ký đương nhiệm của Giáo Viện Sumeru, có tài năng và trí tuệ hơn người. Cuộc sống tự do tự tại, người thường cơ bản là sẽ không thể tìm được anh ấy."
   },
+  "Dehya": {
+    "name": "Dehya",
+    "description": ""
+  },
+  "Mika": {
+    "name": "Mika",
+    "description": ""
+  },
   "KamisatoAyakasStellaFortuna": {
     "name": "Chòm Sao Của Kamisato Ayaka",
     "description": "Nguyên liệu kích hoạt cung mệnh Kamisato Ayaka"
@@ -830,6 +846,14 @@
   "AlhaithamsStellaFortuna": {
     "name": "Chòm Sao Của Alhaitham",
     "description": "Nguyên liệu kích hoạt cung mệnh Alhaitham"
+  },
+  "DehyasStellaFortuna": {
+    "name": "Chòm Sao Của Dehya",
+    "description": "Nguyên liệu kích hoạt cung mệnh Dehya"
+  },
+  "MikasStellaFortuna": {
+    "name": "Chòm Sao Của Mika",
+    "description": "Nguyên liệu kích hoạt cung mệnh Mika"
   },
   "GnosticHymnOldNotes": {
     "name": "Nhật Ký Hành Trình Trân Châu - Khởi Đầu",
@@ -1278,6 +1302,10 @@
   "MysteriousMeat": {
     "name": "Thịt Thần Bí",
     "description": "Miếng thịt tươi ngon tỏa ra hương thơm thần bí. Không biết ăn vào sẽ có mùi vị thế nào đây?"
+  },
+  "CoffeeBean": {
+    "name": "",
+    "description": ""
   },
   "JeansDocumentPackage": {
     "name": "Tài liệu của Jean",
@@ -6640,15 +6668,15 @@
     "description": "Một trong những món điểm tâm truyền thống ở Liyue. Thổi nhẹ một hơi khẽ nhìn những cánh hoa rung động, dường như chúng cũng có sức sống vậy; Nhắm mặt lại rồi cắn một miếng, hương thơm ngọt ngào lan tỏa trong miệng. Làn gió, cánh hoa, tiếng sáo và cả tiếng chim dần bay lượn trong đầu."
   },
   "SuspiciousMoonPie": {
-    "name": "Bánh Trung Thu Kỳ Lạ",
+    "name": "Bánh Mặt Trăng Kỳ Lạ",
     "description": "Món ăn chính truyền thống tại Mondstadt. Vỏ bánh cháy vàng khác xa so với tưởng tượng. Tốt nhất đừng để người dân bản địa Mondstadt nhìn thấy thứ này, nếu không... Họ sẽ nhiệt tình dạy bạn làm bằng được thứ bánh này thì mới thôi."
   },
   "MoonPie": {
-    "name": "Bánh Trung Thu",
+    "name": "Bánh Mặt Trăng",
     "description": "Món ăn chính truyền thống tại Mondstadt. Thịt tẩm ướp không chỉ đậm đà mà lớp vỏ bánh sau khi nướng vẫn giữ được vị ngọt thơm, không bị khô. Là món ăn không thể thiếu trong ngày lễ tết ở Mondstadt."
   },
   "DeliciousMoonPie": {
-    "name": "Bánh Trung Thu Ngon",
+    "name": "Bánh Mặt Trăng Ngon",
     "description": "Món ăn chính truyền thống tại Mondstadt. Cắt một góc thịt nhỏ, hương bơ quyện cùng mùi thịt lan tỏa lên mũi. Vị ngọt thơm khiến con người ta nhớ lại những ngày lễ tết và vụ mùa bội thu, còn nụ cười đã nở rộ trên môi từ lúc nào không hay."
   },
   "SuspiciousAdventurersBreakfastSandwich": {
@@ -7935,6 +7963,38 @@
     "name": "Khô Cá Sấu",
     "description": "Khô cá sấu được chế biến theo công thức bí mật của bộ tộc Tanit. Cho dù nhai có hơi mỏi miệng, nhưng đặc tính dễ dàng bảo quản đã khiến nó trở thành món ngon được các thợ săn trong bộ tộc yêu thích.\\nHương vị hơi giống thịt rừng, nhưng nghe nói hàm lượng dinh dưỡng cao gấp 8 lần trở lên so với thịt bình thường..."
   },
+  "SuspiciousHoneyedFruit": {
+    "name": "Mật Vàng Bao Phủ Kỳ Lạ",
+    "description": "Món ngọt được chế biến bằng cách chiên. Do không kịp thời vớt bột chiên từ trong dầu ra, nên thành phẩm vừa cho vào miệng đã cảm thấy đầy dầu mỡ, ực nhanh một ly cà phê mới miễn cưỡng thoát khỏi cảm giác ngọt gắt."
+  },
+  "HoneyedFruit": {
+    "name": "Mật Vàng Bao Phủ",
+    "description": "Món ngọt được chế biến bằng cách chiên. Cho bột mì đã được nắn thành hình trực tiếp vào chảo dầu, chiên đến khi vàng đều thì vớt ra, nhân lúc còn nóng ngâm vào nước đường, là món đồ ngọt không thể thiếu trong đời sống thường ngày của người dân Sumeru."
+  },
+  "DeliciousHoneyedFruit": {
+    "name": "Mật Vàng Bao Phủ Ngon",
+    "description": "Món ngọt được chế biến bằng cách chiên. Phần bánh vàng ươm, cuộn trong nước đường thơm ngọt, ngoạm một phát là hết một cái, chớp mắt đã ăn sạch cả dĩa. Ưm, trên dĩa hình như còn dính chút nước đường, hay là...?"
+  },
+  "SuspiciousGildedPots": {
+    "name": "Nồi Eremite Kỳ Lạ",
+    "description": "Món thịt được chế biến bằng cách hầm. Nhìn có vẻ cũng được, nhưng nếm thử một miếng, thì phần thịt khô queo làm cho người ăn như có cảm giác đang nhai củi. Rốt cuộc là do nắp nồi bị hư hay là cách dùng không đúng đây?"
+  },
+  "GildedPot": {
+    "name": "Nồi Eremite",
+    "description": "Món thịt được chế biến bằng cách hầm. Chiếc nắp nồi có hình chóp nhọn độc đáo, giúp làm giảm việc mất nước của món ăn trong quá trình hầm nấu, là phương thức nấu nướng đầy trí tuệ độc quyền của người sa mạc. Hương vị này theo bước chân của Eremite cũng đã dần thịnh hành ở Sumeru, do đó đã có cái tên này."
+  },
+  "DeliciousGildedPot": {
+    "name": "Nồi Eremite Ngon",
+    "description": "Món thịt được chế biến bằng cách hầm. Thịt rừng từng miếng to, thấm đẫm trong nước canh đậm đà, cắn nhẹ là đã tan ra trong miệng. Phần gia vị độc đáo phối hợp với hương thơm của thịt, như tấu lên một khúc hoan ca trên đầu lưỡi."
+  },
+  "GoldflamePot": {
+    "name": "Nồi Rực Lửa",
+    "description": "Món ăn đặc sắc của Dehya. Mở chiếc nắp nồi trông có vẻ tầm thường ra, thì bên trong là miếng thịt thơm mềm, cho vào miệng sẽ cảm nhận được vị thịt thơm ngon lan tỏa đến mê người... Xem ra tài nghệ làm bếp của Dehya cũng giống như thực lực của cô vậy, vô cùng đáng tin."
+  },
+  "SurveyorsBreakfastSandwich": {
+    "name": "Sandwich Của Người Đo Vẽ Bản Đồ",
+    "description": "Món ăn đặc sắc của Mika. Các nguyên liệu phong phú được xếp chồng lên nhau, cắn nhẹ một miếng, vị ngọt và mặn của từng tầng nhanh chóng khuếch tán, giống như đang trèo lên đỉnh cao của ẩm thực. Chẳng lẽ đây là tài nghệ nấu nướng mà Mika đã rèn luyện được trong khi hành quân sao?"
+  },
   "RecipeItem": {
     "name": "Đạo Cụ Công Thức",
     "description": "Mở Đạo Cụ Công Thức"
@@ -8120,8 +8180,8 @@
     "description": "Công thức món ăn, ghi lại cách làm món \"Bánh Hoa Sen\"."
   },
   "RecipeMoonPie": {
-    "name": "Công Thức: Bánh Trung Thu",
-    "description": "Công thức món ăn, ghi lại cách làm món \"Bánh Trung Thu\"."
+    "name": "Công Thức: Bánh Mặt Trăng",
+    "description": "Công thức món ăn, ghi lại cách làm món \"Bánh Mặt Trăng\"."
   },
   "RecipeAdventurersBreakfastSandwich": {
     "name": "Công Thức: Trứng Ốp Nhà Mạo Hiểm",
@@ -8486,6 +8546,14 @@
   "RecipeScentedMeatBalls": {
     "name": "Công Thức: Thịt Viên Thơm Nồng",
     "description": "Công thức món ăn, ghi lại cách làm món \"Thịt Viên Thơm Nồng\"."
+  },
+  "RecipeHoneyedFruit": {
+    "name": "Công Thức: Mật Vàng Bao Phủ",
+    "description": "Công thức món ăn, ghi lại cách làm món \"Mật Vàng Bao Phủ\"."
+  },
+  "RecipeGildedPot": {
+    "name": "Công Thức: Nồi Eremite",
+    "description": "Công thức món ăn, ghi lại cách làm món \"Nồi Eremite\"."
   },
   "CraftedItems": {
     "name": "Sản Phẩm Ghép",
@@ -9277,7 +9345,7 @@
   },
   "OasisGardensReminiscence": {
     "name": "Hồi Ức Vườn Hoa Ốc Đảo",
-    "description": "Nguyên liệu có sức mạnh đột phá vũ khí.\\nNgười ta nói rằng vua của các loài hoa là chủ nhân của niềm vui và hạnh phúc. Một dòng suối trong vắt chảy ra từ cổ tay áo của cô ấy, và có một ốc đảo đầy hoa trong sa mạc; Hoa tươi và hương thảo mọc theo từng bước chân, và ánh trăng bạc soi đường cho cô ấy.\\nTrong lúc khó khăn khi trời cao ngoảnh mặt làm ngơ, nữ chủ nhân của muôn hoa đã gieo duyên cho phàm nhân, con người bắt đầu nhìn nhận lại hạnh phúc và bản ngã, nên lại tìm đến sự nhàn hạ và xa hoa."
+    "description": "Nguyên liệu có sức mạnh đột phá vũ khí.\\nNgười ta nói rằng vua của các loài hoa là chủ nhân của niềm vui và hạnh phúc. Một dòng suối trong vắt chảy ra từ cổ tay áo của cô ấy, và có một ốc đảo đầy hoa trong sa mạc; Hoa tươi và hương thảo mọc theo từng bước chân, và ánh trăng bạc soi đường cho cô ấy.\\nTrong lúc khó khăn khi trời cao ngoảnh mặt làm ngơ, nữ vương của muôn hoa đã gieo duyên cho phàm nhân, con người bắt đầu nhìn nhận lại hạnh phúc và bản ngã, nên lại tìm đến sự nhàn hạ và xa hoa."
   },
   "OasisGardensKindness": {
     "name": "Ân Huệ Vườn Hoa Ốc Đảo",
@@ -9923,6 +9991,10 @@
     "name": "Túi Du Lịch Sa Mạc Đặc Biệt Phiên Bản Giới Hạn",
     "description": "Một chiếc túi du lịch mua từ chỗ Dori, bên trong chứa đầy những thứ độc lạ. Thoạt nghe thì có vẻ khó hiểu, nhưng sau khi nghiên cứu kỹ thì phát hiện ra nó rất thực dụng chăng...?"
   },
+  "NascentBambooShoots": {
+    "name": "Măng Trúc Non",
+    "description": "Loại măng trúc non mới lú khỏi mặt đất, chỉ mọc ở Khinh Sách Trang vào mùa nhất định, tỏa ra hương thơm tươi mát, là loại nguyên liệu quý giá khó tìm."
+  },
   "AShortLetter": {
     "name": "Bức Thư Ngắn",
     "description": "Bức thư ngắn viết bằng mật ngữ. Không biết ai đã viết nó, tại sao hoặc mục đích xuất hiện ở đây."
@@ -10179,6 +10251,10 @@
     "name": "\"Mảnh\" Vũ Khí Nào Đó",
     "description": "Mảnh vỡ của loại vũ khí nào đó. Không biết vì lý do gì mà bị hủy hoại đến mức này..."
   },
+  "UnattributedRamenVoucher": {
+    "name": "Phiếu Ưu Đãi Ramen Không Biết Của Tiệm Nào",
+    "description": "Món quà cảm ơn nhận được sau khi giúp \"Quỷ Vương Đấu Bọ Thiên Tài\" Arataki Itto đối đầu với cao thủ đấu bọ \"Tướng Quân Hanakado\" trong Đại Hội Đấu Bọ Arataki Siêu Hoành Tráng, cũng là minh chứng cho sự phát triển vượt bậc của hai ngôi sao đấu bọ mới nổi là \"Cánh Tay Phải Của Quỷ Vương\" và \"Dưa Tím Thép Trắng Kinh Thiên Động Địa\".\\n\"Quỷ Vương Đấu Bọ Thiên Tài\" nói rằng chỉ cần đưa lá phiếu ưu đãi này cho chủ tiệm thì sẽ có thể \"ăn miễn phí một bát ramen mỗi ngày trong suốt hai tháng liền\". Nhưng mà... phiếu ưu đãi này rốt cuộc được áp dụng cho tiệm ramen nào chứ?"
+  },
   "NeatNote": {
     "name": "Ghi Chép Gọn Gàng",
     "description": "Một dòng chữ ngay ngắn"
@@ -10219,7 +10295,7 @@
     "name": "Ghi Chép Về Ốc Đảo Cổ Đại X",
     "description": "Ghi Chép Về Ốc Đảo Cổ Đại X"
   },
-  "TabletOfEmployeeConduct": {
+  "EmploymentCodeOfConductTablet": {
     "name": "Phiến Đá Điều Lệ Thuê Mướn",
     "description": "Phiến Đá Điều Lệ Thuê Mướn"
   },
@@ -10231,9 +10307,21 @@
     "name": "Tin Nhắn Của Jeht",
     "description": "Tin Nhắn Của Jeht"
   },
+  "PipingHotBambooShootSoup": {
+    "name": "Măng Chua Nóng Hổi",
+    "description": "Món \"Măng Chua\" được làm từ Cơ Quan Nấu Nướng Thần Kỳ. Được Zhongli đánh giá là \"Màu sắc đậm đà, hương vị thơm ngon\". Một trong các nguyên liệu của nó là loại măng trúc non, không hề dễ tìm... Với những nguyên nhân này mà ý nghĩa kỷ niệm của nó đã vượt qua hẳn giá trị của một món ăn. Nếu đã là sản phẩm của tiên gia, thì cứ thế cho vào túi chắc cũng không bị hỏng đâu nhỉ?"
+  },
   "WarriorsSpiritSwordfightingArenaTicket": {
     "name": "Phiếu Tham Gia \"Tinh Thần Võ Đạo\"",
     "description": "Không phân quốc tịch, không màng thân phận, luận võ kết giao, chuyên tâm võ đạo."
+  },
+  "LaylasLetterMissiveFromSumeru": {
+    "name": "Thư Của Layla: Thư Gửi Từ Sumeru",
+    "description": ""
+  },
+  "MikosLetterInazumanMailFromAfar": {
+    "name": "Thư Của Miko: Thư Đường Dài Gửi Từ Inazuma",
+    "description": ""
   },
   "SilkFlowerSeed": {
     "name": "Hạt giống Hoa Nghê Thường",
@@ -10494,6 +10582,74 @@
   "RadiantSpincrystal": {
     "name": "Ngọc Thạch Âm Vang 1",
     "description": "Kết tinh ẩn chứa vần điệu kỳ diệu, như một viên ngọc bích tuyệt đẹp dệt từ dải lụa mỏng manh. Chúng được phân bổ ở khắp nơi trên vùng đất này hoặc ở trong tay những thương nhân bảo vật. Có thể vào trong \"Ấm Trần Ca\", dùng \"Âm Vang Vạn Dặm - Phiêu Dương\" hoặc \"Âm Vang Vạn Dặm - Mậu Nhiễu\" để khôi phục lại giai điệu bên trong. Giai điệu ẩn chứa trong \"Ngọc Thạch Âm Vang\" này là \"Tửu Trang Dawn\""
+  },
+  "FragrantSteak": {
+    "name": "Sườn Nướng Thơm Lừng",
+    "description": "Món ăn ngon sau khi được thêm gia vị, có mùi thơm hấp dẫn. Không biết phù hợp với khẩu vị của ai nhỉ? Mau đi mời bạn bè dùng thử đi nào!"
+  },
+  "FragrantMondstadtGrilledFish": {
+    "name": "Cá Nướng Mondstadt Thơm Lừng",
+    "description": "Món ăn ngon sau khi được thêm gia vị, có mùi thơm hấp dẫn. Không biết phù hợp với khẩu vị của ai nhỉ? Mau đi mời bạn bè dùng thử đi nào!"
+  },
+  "FragrantNorthernSmokedChicken": {
+    "name": "Gà Xông Khói Phía Bắc Thơm Lừng",
+    "description": "Món ăn ngon sau khi được thêm gia vị, có mùi thơm hấp dẫn. Không biết phù hợp với khẩu vị của ai nhỉ? Mau đi mời bạn bè dùng thử đi nào!"
+  },
+  "FragrantChickenMushroomSkewer": {
+    "name": "Xiên Thịt Gà Nấm Thơm Lừng",
+    "description": "Món ăn ngon sau khi được thêm gia vị, có mùi thơm hấp dẫn. Không biết phù hợp với khẩu vị của ai nhỉ? Mau đi mời bạn bè dùng thử đi nào!"
+  },
+  "FragrantSatisfyingSalad": {
+    "name": "Gỏi Mãn Nguyện Thơm Lừng",
+    "description": "Món ăn ngon sau khi được thêm gia vị, có mùi thơm hấp dẫn. Không biết phù hợp với khẩu vị của ai nhỉ? Mau đi mời bạn bè dùng thử đi nào!"
+  },
+  "FragrantCrabHamVeggieBake": {
+    "name": "Bánh Rau Giăm Bông Gạch Cua Thơm Lừng",
+    "description": "Món ăn ngon sau khi được thêm gia vị, có mùi thơm hấp dẫn. Không biết phù hợp với khẩu vị của ai nhỉ? Mau đi mời bạn bè dùng thử đi nào!"
+  },
+  "FragrantStickyHoneyRoast": {
+    "name": "Thịt Nướng Mật Ong Thơm Lừng",
+    "description": "Món ăn ngon sau khi được thêm gia vị, có mùi thơm hấp dẫn. Không biết phù hợp với khẩu vị của ai nhỉ? Mau đi mời bạn bè dùng thử đi nào!"
+  },
+  "FragrantFishermansToast": {
+    "name": "Bánh Người Cá Thơm Lừng",
+    "description": "Món ăn ngon sau khi được thêm gia vị, có mùi thơm hấp dẫn. Không biết phù hợp với khẩu vị của ai nhỉ? Mau đi mời bạn bè dùng thử đi nào!"
+  },
+  "FragrantFriedRadishBalls": {
+    "name": "Củ Cải Viên Chiên Thơm Lừng",
+    "description": "Món ăn ngon sau khi được thêm gia vị, có mùi thơm hấp dẫn. Không biết phù hợp với khẩu vị của ai nhỉ? Mau đi mời bạn bè dùng thử đi nào!"
+  },
+  "FragrantTeaBreakPancake": {
+    "name": "Bánh Xốp Thơm Lừng",
+    "description": "Món ăn ngon sau khi được thêm gia vị, có mùi thơm hấp dẫn. Không biết phù hợp với khẩu vị của ai nhỉ? Mau đi mời bạn bè dùng thử đi nào!"
+  },
+  "FragrantRadishVeggieSoup": {
+    "name": "Canh Rau Củ Thơm Lừng",
+    "description": "Món ăn ngon sau khi được thêm gia vị, có mùi thơm hấp dẫn. Không biết phù hợp với khẩu vị của ai nhỉ? Mau đi mời bạn bè dùng thử đi nào!"
+  },
+  "FragrantMushroomPizza": {
+    "name": "Pizza Nấm Rơm Nướng Thơm Lừng",
+    "description": "Món ăn ngon sau khi được thêm gia vị, có mùi thơm hấp dẫn. Không biết phù hợp với khẩu vị của ai nhỉ? Mau đi mời bạn bè dùng thử đi nào!"
+  },
+  "FragrantColdCutPlatter": {
+    "name": "Thịt Lạnh Thơm Lừng",
+    "description": "Món ăn ngon sau khi được thêm gia vị, có mùi thơm hấp dẫn. Không biết phù hợp với khẩu vị của ai nhỉ? Mau đi mời bạn bè dùng thử đi nào!"
+  },
+  "FragrantCallaLilySeafoodSoup": {
+    "name": "Súp Hải Sản Hoa Calla Lily Thơm Lừng",
+    "description": "Món ăn ngon sau khi được thêm gia vị, có mùi thơm hấp dẫn. Không biết phù hợp với khẩu vị của ai nhỉ? Mau đi mời bạn bè dùng thử đi nào!"
+  },
+  "FragrantMintJelly": {
+    "name": "Thạch Bạc Hà Thơm Lừng",
+    "description": "Món ăn ngon sau khi được thêm gia vị, có mùi thơm hấp dẫn. Không biết phù hợp với khẩu vị của ai nhỉ? Mau đi mời bạn bè dùng thử đi nào!"
+  },
+  "FragrantSunshineSprat": {
+    "name": "Cá Chiên Bơ Thơm Lừng",
+    "description": "Món ăn ngon sau khi được thêm gia vị, có mùi thơm hấp dẫn. Không biết phù hợp với khẩu vị của ai nhỉ? Mau đi mời bạn bè dùng thử đi nào!"
+  },
+  "NewFragrantSeasoning": {
+    "name": "Gia Vị Mới Thơm Lừng",
+    "description": "Gia vị làm ra dựa theo công thức của Nazafarin. Mùi hương nức mũi, nếu thêm vào món ăn hình như có thể kích hoạt thêm nhiều hương vị."
   },
   "LanternFiber": {
     "name": "Giấy Đèn",
@@ -11323,7 +11479,19 @@
     "name": "Nhật Ký Hành Trình - Dòng Đời",
     "description": "Hoa văn danh thiếp.\\nYến tiệc xa xưa mang tên chi, ba dòng nước chảy hòa mây khói, sông thu vẫn rực ánh hoàng hôn."
   },
-  "TravelNotesRhyme": {
+  "AlhaithamEnlightenment": {
+    "name": "Alhaitham - Giác Ngộ",
+    "description": "Hoa văn danh thiếp.\\n\"Thứ mà học giả nên tuân thủ, chỉ có tri thức luận và biện chứng. Chỉ có luôn luôn đặt ra nghi vấn với tất cả mọi thứ, mới tránh khỏi rơi vào góc nhìn phiến diện.\""
+  },
+  "YaoyaoYuegui": {
+    "name": "Yaoyao - Nguyệt Quế",
+    "description": "Hoa văn danh thiếp.\\n\"Hãy thử đoán xem, ở đây ai là Nguyệt Quế nào? Không sai, tất cả ở đây đều là Nguyệt Quế đó!\""
+  },
+  "CelebrationLenticularClouds": {
+    "name": "Lễ Hội - Mây Trôi",
+    "description": "Hoa văn danh thiếp.\\nMây lững lờ trôi về ngàn đỉnh núi."
+  },
+  "TravelNotesRhythmAndRhyme": {
     "name": "Nhật Ký Hành Trình - Hòa Tấu",
     "description": "Hoa văn danh thiếp.\\nHải Đăng rực rỡ muôn sắc màu, đêm nay hợp tấu khúc xuân xanh. Kim điện rèm châu trăng dát bạc, dạ yến tưng bừng rộn tiếng ca. Hoa tựa sương khói, đàn ngân vang; tiếng sáo hòa theo thật nhịp nhàng."
   },
@@ -11582,6 +11750,14 @@
   "WildernessCompass": {
     "name": "La Bàn Hoang Dã",
     "description": "Chiếc la bàn đặc biệt nhận được từ chỗ Hiệp Hội Nhà Mạo Hiểm, nghe nói sẽ mang đến vận may...?"
+  },
+  "WindblumeKamera": {
+    "name": "Máy Ảnh Hoa Gió",
+    "description": "Máy ảnh mượn được từ chỗ Fassben. Lúc dùng nhớ cẩn thận, đừng làm hỏng nhé..."
+  },
+  "FestiveDrum": {
+    "name": "Trống Yến Tiệc",
+    "description": "Nhạc cụ dùng để diễn tấu.\\nChiếc trống nhỏ có cấu tạo độc đáo, âm sắc trong trẻo. Ngoại hình tao nhã, thủ công tinh xảo, sử dụng loại nguyên liệu thượng hạng, đảm bảo cả về chất âm, chuẩn âm và độ bền khi sử dụng trong thời gian dài.\\nTương truyền, loại trống này kết hợp giữa nhạc cụ truyền thống của Inazuma và đặc điểm của trống ở nước ngoài, khi diễn tấu còn đem lại may mắn cho mọi người..."
   },
   "InstructionsAnemoculusResonanceStone": {
     "name": "Giải Thích: Đá Cộng Hưởng Phong Thần Đồng",
@@ -11923,12 +12099,24 @@
     "name": "Bào Tử Sinh Sôi",
     "description": "Thẻ bài \"Thất Thánh Triệu Hồi\", chất liệu rất tốt. Hình minh họa trên đó không biết là dùng cách in ấn đặc biệt nào để làm ra, trông rất tinh tế."
   },
+  "WellspringOfWarLust": {
+    "name": "Lòng Hiếu Chiến Trỗi Dậy",
+    "description": "Thẻ bài \"Thất Thánh Triệu Hồi\", chất liệu rất tốt. Hình minh họa trên đó không biết là dùng cách in ấn đặc biệt nào để làm ra, trông rất tinh tế."
+  },
+  "TamanooyasCasket": {
+    "name": "Rương Báu Tamanooya",
+    "description": "Thẻ bài \"Thất Thánh Triệu Hồi\", chất liệu rất tốt. Hình minh họa trên đó không biết là dùng cách in ấn đặc biệt nào để làm ra, trông rất tinh tế."
+  },
   "PoundingSurprise": {
     "name": "Món Quà Bằng Bằng",
     "description": "Thẻ bài \"Thất Thánh Triệu Hồi\", chất liệu rất tốt. Hình minh họa trên đó không biết là dùng cách in ấn đặc biệt nào để làm ra, trông rất tinh tế."
   },
   "LightningStorm": {
     "name": "Sấm Sét Đầy Trời",
+    "description": "Thẻ bài \"Thất Thánh Triệu Hồi\", chất liệu rất tốt. Hình minh họa trên đó không biết là dùng cách in ấn đặc biệt nào để làm ra, trông rất tinh tế."
+  },
+  "SinOfPride": {
+    "name": "Bản Ngã",
     "description": "Thẻ bài \"Thất Thánh Triệu Hồi\", chất liệu rất tốt. Hình minh họa trên đó không biết là dùng cách in ấn đặc biệt nào để làm ra, trông rất tinh tế."
   },
   "MagicGuide": {
@@ -12069,6 +12257,14 @@
   },
   "DeepwoodMemories": {
     "name": "Ký Ức Rừng Sâu",
+    "description": "Thẻ bài \"Thất Thánh Triệu Hồi\", chất liệu rất tốt. Hình minh họa trên đó không biết là dùng cách in ấn đặc biệt nào để làm ra, trông rất tinh tế."
+  },
+  "OrnateKabuto": {
+    "name": "Nón Hoa Mỹ",
+    "description": "Thẻ bài \"Thất Thánh Triệu Hồi\", chất liệu rất tốt. Hình minh họa trên đó không biết là dùng cách in ấn đặc biệt nào để làm ra, trông rất tinh tế."
+  },
+  "GeneralsAncientHelm": {
+    "name": "Nón Nguyên Soái",
     "description": "Thẻ bài \"Thất Thánh Triệu Hồi\", chất liệu rất tốt. Hình minh họa trên đó không biết là dùng cách in ấn đặc biệt nào để làm ra, trông rất tinh tế."
   },
   "LiyueHarborWharf": {
@@ -12284,7 +12480,7 @@
     "description": "Lưng bài nhận được trong \"Thất Thánh Triệu Hồi\", tạo hình rất đa dạng, chất liệu cũng có đôi chút khác nhau. Có nhiều bài thủ có sở thích và đam mê sưu tập lưng bài."
   },
   "Legend": {
-    "name": "Truyền Thuyết",
+    "name": "Huyền Thoại",
     "description": "Lưng bài nhận được trong \"Thất Thánh Triệu Hồi\", tạo hình rất đa dạng, chất liệu cũng có đôi chút khác nhau. Có nhiều bài thủ có sở thích và đam mê sưu tập lưng bài."
   },
   "Adept": {
@@ -12354,6 +12550,14 @@
   "ToTheChurchsFreeSpirit": {
     "name": "Tu Nữ Tự Do",
     "description": "Phong cách của Rosaria. Bộ trang phục này dường như là món quà mà Giáo Hội đã đặc biệt làm riêng cho cô ấy."
+  },
+  "SpringbloomMissive": {
+    "name": "Thư Từ Hoa Xuân",
+    "description": "Trang phục đi chơi của Kamisato Ayaka. Bộ váy được may dựa theo kiểu dáng trang phục nữ giới Fontaine trong tiểu thuyết, dường như có thể thông qua đó để nhìn thấy được diện mạo cuộc sống của các cô gái Fontaine."
+  },
+  "ASobriquetUnderShade": {
+    "name": "Danh Vang Trong Lá",
+    "description": "Trang phục Lisa đã đặt làm khi đến thăm Sumeru. Váy gọn gàng nhưng không kém phần trang nhã, có phần giống với đồng phục thời học sinh của cô."
   },
   "AdventurerCamp": {
     "name": "Doanh trại tạm thời của Nhà Mạo Hiểm",
@@ -12497,7 +12701,7 @@
   },
   "CottageKitchen": {
     "name": "Khói Bếp Lam Chiều",
-    "description": "Bản vẽ chi tiết từng bước, ghi lại cách bày trí \"Khói Bếp Lam Chiều\".\\nNhà bếp có đủ loại dụng cụ nấu nướng, trong tủ đầy đủ gia vị được chế biến tỉ mỉ.\\nNgười đầu bếp theo đuổi sự hoàn hảo sẽ mua các nguyên liệu tươi ngon từ chợ, còn đầu bếp đạt cấp độ xuất thần, thì ngay cả củi đốt lò cũng sẽ nghiên cứu kỹ lưỡng. Đầu bếp trẻ của Vạn Dân Đường đã từng chia sẻ kinh nghiệm – muốn làm ra món ngon truyền thống của Khinh Sách Trang, cần phải cho mảnh trúc khô vào lò, chú ý khống chế mức lửa; nếu tìm được bụi cây gần Quả Móc Câu, chẻ thành mảnh nhỏ và dài, càng có thể chế biến ra món ngon Mondstadt thuần vị.\\nĐặc tính của các loại củi sẽ khác nhau, hầu hết các đầu bếp không thể nắm bắt được, do đó, Vạn Dân Đường luôn dẫn đầu trong bộ môn nghệ thuật này.\\nSau khi dùng có thể đến giao diện bày trí để xem.\\nBạn đồng hành thích bộ trang trí này: Tartaglia, Mona, Xiao, Xiangling, Razor, Yaoyao"
+    "description": "Bản vẽ chi tiết từng bước, ghi lại cách bày trí \"Khói Bếp Lam Chiều\".\\nNhà bếp có đủ loại dụng cụ nấu nướng, trong tủ đầy đủ gia vị được chế biến tỉ mỉ.\\nNgười đầu bếp theo đuổi sự hoàn hảo sẽ mua các nguyên liệu tươi ngon từ chợ, còn đầu bếp đạt cấp độ xuất thần, thì ngay cả củi đốt lò cũng sẽ nghiên cứu kỹ lưỡng. Đầu bếp trẻ của Vạn Dân Đường đã từng chia sẻ kinh nghiệm – muốn làm ra món ngon truyền thống của Khinh Sách Trang, cần phải cho mảnh trúc khô vào lò, chú ý khống chế mức lửa; nếu tìm được bụi cây gần Quả Móc Câu, chẻ thành mảnh nhỏ và dài, càng có thể chế biến ra món ngon Mondstadt thuần vị.\\nĐặc tính của các loại củi sẽ khác nhau, hầu hết các đầu bếp không thể nắm bắt được, do đó, Vạn Dân Đường luôn dẫn đầu trong bộ môn nghệ thuật này.\\nSau khi dùng có thể đến giao diện bày trí để xem.\\nBạn đồng hành thích bộ trang trí này: Tartaglia, Mona, Xiao, Xiangling, Razor, Yaoyao, Mika"
   },
   "WeaponForgingStation": {
     "name": "Trạm Rèn Vũ Khí",
@@ -12529,7 +12733,7 @@
   },
   "IterAdAstraAbyssosque": {
     "name": "Hành Trình Ngôi Sao Và Vực Sâu",
-    "description": "Bản vẽ chi tiết từng bước, ghi lại cách bày trí \"Hành Trình Ngôi Sao Và Vực Sâu\".\\nDoanh trại Nhà Mạo Hiểm thường thấy, dùng loại lều phổ biến nhất của đại lục.\\nNhà Mạo Hiểm có kinh nghiệm phong phú chỉ cần một chiếc lều gọn nhẹ là có thể ngủ ngon trong bão táp, nhanh chóng hồi phục thể lực. Do đó, loại lều này luôn bán rất chạy.\\nSau khi dùng có thể đến giao diện bày trí để xem.\\nBạn đồng hành thích bộ trang trí này: Bennett, Qiqi, Chongyun, Fischl, Albedo, Aloy"
+    "description": "Bản vẽ chi tiết từng bước, ghi lại cách bày trí \"Hành Trình Ngôi Sao Và Vực Sâu\".\\nDoanh trại Nhà Mạo Hiểm thường thấy, dùng loại lều phổ biến nhất của đại lục.\\nNhà Mạo Hiểm có kinh nghiệm phong phú chỉ cần một chiếc lều gọn nhẹ là có thể ngủ ngon trong bão táp, nhanh chóng hồi phục thể lực. Do đó, loại lều này luôn bán rất chạy.\\nSau khi dùng có thể đến giao diện bày trí để xem.\\nBạn đồng hành thích bộ trang trí này: Bennett, Qiqi, Chongyun, Fischl, Albedo, Aloy, Mika"
   },
   "DawnOrchard": {
     "name": "Vườn Cây Dawn",
@@ -12593,7 +12797,7 @@
   },
   "FervidAroma": {
     "name": "Hương Thơm Nồng Nhiệt",
-    "description": "Nhà ăn được bố trí tỉ mỉ dựa theo nguyên mẫu của quán rượu và quán cà phê trong Thành Sumeru, đồng thời điều chỉnh theo bố cục của Động Tiên. Hơi nóng và hương thơm tràn ngập khiến người ta vô cùng tận hưởng. Nếu có bạn thân bầu bạn, thêm vài bình rượu ngon, thì có thể trải nghiệm một bữa ăn hoàn hảo.\\nNhững người thường đi cùng với đoàn thể khi lựa chọn quán ăn sẽ suy nghĩ đến chỗ ngồi và lượng thức ăn, đối với những người này, quán thịt nướng thường là lựa chọn thỏa đáng nhất. Còn những người độc hành cũng có thể mượn không khí náo nhiệt của quán thịt nướng để che lấp hành tung của bản thân, hoặc tạo điều kiện an toàn và tương đối khiêm tốn để quan sát, truy vết hoặc để suy nghĩ một vấn đề gì đó.\\nBạn đồng hành thích bộ trang trí này: Alhaitham"
+    "description": "Nhà ăn được bố trí tỉ mỉ dựa theo nguyên mẫu của quán rượu và quán cà phê trong Thành Sumeru, đồng thời điều chỉnh theo bố cục của Động Tiên. Hơi nóng và hương thơm tràn ngập khiến người ta vô cùng tận hưởng. Nếu có bạn thân bầu bạn, thêm vài bình rượu ngon, thì có thể trải nghiệm một bữa ăn hoàn hảo.\\nNhững người thường đi cùng với đoàn thể khi lựa chọn quán ăn sẽ suy nghĩ đến chỗ ngồi và lượng thức ăn, đối với những người này, quán thịt nướng thường là lựa chọn thỏa đáng nhất. Còn những người độc hành cũng có thể mượn không khí náo nhiệt của quán thịt nướng để che lấp hành tung của bản thân, hoặc tạo điều kiện an toàn và tương đối khiêm tốn để quan sát, truy vết hoặc để suy nghĩ một vấn đề gì đó.\\nBạn đồng hành thích bộ trang trí này: Alhaitham, Dehya"
   },
   "OfSettledThoughts": {
     "name": "Nơi Tri Thức Lắng Đọng",
@@ -12629,7 +12833,7 @@
   },
   "TheTravelingTroopsPomp": {
     "name": "Trận Địa Của Lữ Đoàn",
-    "description": "Doanh trại bày trí đủ loại thiết bị quân dụng, vật tư phong phú, xây dựng tuyến phòng thủ, bố trí lửa trại để sẵn sàng cho việc tác chiến giữa đêm. Trên lý thuyết, doanh trại như thế này đủ để ứng phó với sự tấn công của quân địch đông đảo, khi nhân lực đầy đủ, thậm chí còn có thể làm điểm trọng yếu trong tuyến phòng thủ.\\nDù cho việc bố trí và di chuyển khá phiền phức, cũng chưa được dựng lều trại tránh mưa gió, điều kiện khá gian khổ... Nhưng những người lính đánh thuê thiện chiến chỉ cần một chiếc đệm cỏ là có thể vào giấc an lành, hoàn toàn không để tâm đến những thiếu sót nho nhỏ này."
+    "description": "Doanh trại bày trí đủ loại thiết bị quân dụng, vật tư phong phú, xây dựng tuyến phòng thủ, bố trí lửa trại để sẵn sàng cho việc tác chiến giữa đêm. Trên lý thuyết, doanh trại như thế này đủ để ứng phó với sự tấn công của quân địch đông đảo, khi nhân lực đầy đủ, thậm chí còn có thể làm điểm trọng yếu trong tuyến phòng thủ.\\nDù cho việc bố trí và di chuyển khá phiền phức, cũng chưa được dựng lều trại tránh mưa gió, điều kiện khá gian khổ... Nhưng những người lính đánh thuê thiện chiến chỉ cần một chiếc đệm cỏ là có thể vào giấc an lành, hoàn toàn không để tâm đến những thiếu sót nho nhỏ này.\\nBạn đồng hành thích bộ trang trí này: Dehya"
   },
   "AmidstScentsAndSerenity": {
     "name": "Đắm Chìm Trong Hương Thơm Nhàn Nhã",
@@ -12751,6 +12955,10 @@
     "name": "Đèn Cầu Vồng - Nguyên Thần Cát Khánh",
     "description": "Bản vẽ chi tiết từng bước, ghi lại cách chế tạo Đèn Cầu Vồng - Nguyên Thần Cát Khánh.\\nSau khi dùng có thể đến giao diện chế tạo để xem."
   },
+  "CountlessHomesLightUpTheMoon": {
+    "name": "Vạn Gia Hoa Đăng Chiếu Lãng Nguyệt",
+    "description": "Bản vẽ chi tiết từng bước, ghi lại cách chế tạo \"Vạn Gia Hoa Đăng Chiếu Lãng Nguyệt\".\\nSau khi dùng có thể đến giao diện chế tạo để xem."
+  },
   "StoneworksLampDeepingGloomCandle": {
     "name": "Đèn Nham Xưởng - Nến Vực Sâu",
     "description": "Bản vẽ chi tiết từng bước, ghi lại cách chế tạo \"Đèn Nham Xưởng - Nến Vực Sâu\".\\nSau khi dùng có thể đến giao diện chế tạo để xem."
@@ -12831,11 +13039,11 @@
     "name": "Tủ Đầu Giường \"Chữa Trị\" Gỗ Sáng",
     "description": "Bản vẽ chi tiết từng bước, ghi lại cách chế tạo Tủ Đầu Giường \"Chữa Trị\" Gỗ Sáng.\\nSau khi dùng có thể đến giao diện chế tạo để xem."
   },
-  "AthelDoubleDrawerCabinet": {
+  "AthelTripleDrawerCabinet": {
     "name": "Tủ Gỗ Sanh Ba Lớp",
     "description": "Bản vẽ chi tiết từng bước, ghi lại cách chế tạo \"Tủ Gỗ Sanh Ba Lớp\".\\nSau khi dùng có thể đến giao diện chế tạo để xem."
   },
-  "AthelPotteryShelves": {
+  "AthelPotteryShelf": {
     "name": "Tủ Trưng Đồ Gốm Gỗ Sanh",
     "description": "Bản vẽ chi tiết từng bước, ghi lại cách chế tạo \"Tủ Trưng Đồ Gốm Gỗ Sanh\".\\nSau khi dùng có thể đến giao diện chế tạo để xem."
   },
@@ -12971,7 +13179,7 @@
     "name": "Nhâm Nhi Vài Chén",
     "description": "Bản vẽ chi tiết từng bước, ghi lại cách chế tạo Nhâm Nhi Vài Chén.\\nSau khi dùng có thể đến giao diện chế tạo để xem."
   },
-  "LongAdhighamaChamferTable": {
+  "LongAdhigamaChamferTable": {
     "name": "Bàn Gỗ Adhigama Dài",
     "description": "Bản vẽ chi tiết từng bước, ghi lại cách chế tạo \"Bàn Gỗ Adhigama Dài\".\\nSau khi dùng có thể đến giao diện chế tạo để xem."
   },
@@ -14069,7 +14277,7 @@
   },
   "NightOfSerenityInTheSandyBreeze": {
     "name": "Gió Cát Giữa Đêm Lặng",
-    "description": "Bản vẽ chi tiết từng bước, ghi lại cách chế tạo \"Gió Cát Giữa Đêm Lặngt\".\\nSau khi dùng có thể đến giao diện chế tạo để xem."
+    "description": "Bản vẽ chi tiết từng bước, ghi lại cách chế tạo \"Gió Cát Giữa Đêm Lặng\".\\nSau khi dùng có thể đến giao diện chế tạo để xem."
   },
   "BirdAndBlossomDesignFountain": {
     "name": "Đài Phun Nước Hoa Và Chim",
@@ -14163,15 +14371,15 @@
     "name": "Cần Cẩu Đa Năng Loại 3 Cảng Ormos",
     "description": "Bản vẽ chi tiết từng bước, ghi lại cách chế tạo \"Cần Cẩu Đa Năng Loại 3 Cảng Ormos\".\\nSau khi dùng có thể đến giao diện chế tạo để xem."
   },
-  "CompositeTimberLongDistanceHandTruck": {
+  "CompositeTimberLongDistanceHandCart": {
     "name": "Xe Hàng Đường Dài Gỗ Hỗn Hợp",
     "description": "Bản vẽ chi tiết từng bước, ghi lại cách chế tạo \"Xe Hàng Đường Dài Gỗ Hỗn Hợp\".\\nSau khi dùng có thể đến giao diện chế tạo để xem."
   },
-  "CompositeTimberInPortTransferTruck": {
+  "CompositeTimberInPortTransferCart": {
     "name": "Xe Hàng Trong Cảng Gỗ Hỗn Hợp",
     "description": "Bản vẽ chi tiết từng bước, ghi lại cách chế tạo \"Xe Hàng Trong Cảng Gỗ Hỗn Hợp\".\\nSau khi dùng có thể đến giao diện chế tạo để xem."
   },
-  "FourWheeledMountainHandTruck": {
+  "ThreeWheeledMountainHandCart": {
     "name": "Xe Hàng Đường Núi Hai Loại Bánh",
     "description": "Bản vẽ chi tiết từng bước, ghi lại cách chế tạo \"Xe Hàng Đường Núi Hai Loại Bánh\".\\nSau khi dùng có thể đến giao diện chế tạo để xem."
   },
@@ -14531,7 +14739,7 @@
     "name": "Dây, Lông Vũ Và Đường Tên",
     "description": "Bản vẽ chi tiết từng bước, ghi lại cách chế tạo \"Dây, Lông Vũ Và Đường Tên\".\\nSau khi dùng có thể đến giao diện chế tạo để xem."
   },
-  "IngenuityOfForestForager": {
+  "IngenuityOfTheForestForager": {
     "name": "Bí Quyết Kiếm Ăn Trong Rừng",
     "description": "Bản vẽ chi tiết từng bước, ghi lại cách chế tạo \"Bí Quyết Kiếm Ăn Trong Rừng\".\\nSau khi dùng có thể đến giao diện chế tạo để xem."
   },
@@ -14779,9 +14987,33 @@
     "name": "Bóng Râm Thưởng Trà",
     "description": "Bản vẽ chi tiết từng bước, ghi lại cách chế tạo \"Bóng Râm Thưởng Trà\".\\nSau khi dùng có thể đến giao diện chế tạo để xem."
   },
+  "PropitiousScreenFogGatheringOnSmokyMountains": {
+    "name": "Bình Phong Cát Tường - Núi Mù Sương",
+    "description": "Bản vẽ chi tiết từng bước, ghi lại cách chế tạo \"Bình Phong Cát Tường - Núi Mù Sương\".\\nSau khi dùng có thể đến giao diện chế tạo để xem."
+  },
+  "PropitiousScreenFleetFeathersAgainstEmeraldWaves": {
+    "name": "Bình Phong Cát Tường - Tung Cánh Sóng Xanh",
+    "description": "Bản vẽ chi tiết từng bước, ghi lại cách chế tạo \"Bình Phong Cát Tường - Tung Cánh Sóng Xanh\".\\nSau khi dùng có thể đến giao diện chế tạo để xem."
+  },
+  "PropitiousScreenInstrumentsInTheDistance": {
+    "name": "Bình Phong Cát Tường - Nhạc Đưa Lá Trúc",
+    "description": "Bản vẽ chi tiết từng bước, ghi lại cách chế tạo \"Bình Phong Cát Tường - Nhạc Đưa Lá Trúc\".\\nSau khi dùng có thể đến giao diện chế tạo để xem."
+  },
+  "PropitiousScreenOldSongsLingering": {
+    "name": "Bình Phong Cát Tường - Khúc Xưa Vang Vọng",
+    "description": "Bản vẽ chi tiết từng bước, ghi lại cách chế tạo \"Bình Phong Cát Tường - Khúc Xưa Vang Vọng\".\\nSau khi dùng có thể đến giao diện chế tạo để xem."
+  },
+  "PropitiousScreenOverlappingCloudsAbovePeaks": {
+    "name": "Bình Phong Cát Tường - Mây Mù Bủa Vây",
+    "description": "Bản vẽ chi tiết từng bước, ghi lại cách chế tạo \"Bình Phong Cát Tường - Mây Mù Bủa Vây\".\\nSau khi dùng có thể đến giao diện chế tạo để xem."
+  },
+  "PropitiousScreenGenuineWordsTravelFar": {
+    "name": "Bình Phong Cát Tường - Giai Điệu Ngân Xa",
+    "description": "Bản vẽ chi tiết từng bước, ghi lại cách chế tạo \"Bình Phong Cát Tường - Giai Điệu Ngân Xa\".\\nSau khi dùng có thể đến giao diện chế tạo để xem."
+  },
   "TrumpetAndFirewood": {
-    "name": "Tù Và Cùng Củi",
-    "description": "Bản vẽ chi tiết từng bước, ghi lại cách chế tạo \"Tù Và Cùng Củi\".\\nSau khi dùng có thể đến giao diện chế tạo để xem."
+    "name": "Tù Và Với Củi Đốt",
+    "description": "Bản vẽ chi tiết từng bước, ghi lại cách chế tạo \"Tù Và Với Củi Đốt\".\\nSau khi dùng có thể đến giao diện chế tạo để xem."
   },
   "WroughtIronCarvedStreetLight": {
     "name": "Đèn Đường Khắc Hoa",

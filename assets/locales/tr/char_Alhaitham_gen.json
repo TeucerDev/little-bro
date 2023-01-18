@@ -51,7 +51,7 @@
       "7": "Bu beceri kullanıldığında Alhaitham 1 Hafif Keski Ayna oluşturur. Oluşturduğu sırada ayna yoksa ek 1 ayna oluşturur. Hafif Keski Aynalar şu özelliklere sahiptir:",
       "8": [
         "Alhaitham, Hafif Keski Aynalara sahip olduğunda Normal, Yüklü ve Havadan Saldırıları <dendro>Doğa Hasarı verir</dendro>. Bu sonradan değiştirilemez.",
-        "Bu türden saldırılar düşmanlara isabet ettiğinde Hafif Keski Aynalar, savaş alanındaki Ayna miktarına göre <dendro>Doğa Alan Hasarı</dendro> veren Yöneltme Saldırısı gerçekleştirir.",
+        "Bu türden saldırılar düşmanlara isabet ettiğinde Hafif Keski Aynalar, savaş alanındaki Ayna miktarına göre <dendro>Doğa Alan Hasarı</dendro> veren Yansıma Saldırısı gerçekleştirir.",
         "Tek seferde yalnızca 3 Hafif Keski Ayna var olabilir.",
         "Hafif Keski Aynalar, bir süre sonra art arda veya Alhaitham savaş alanından çıktıktan sonra kaybolurlar."
       ],
@@ -60,10 +60,10 @@
     },
     "skillParams": {
       "0": "Atılma Saldırısı Hasarı",
-      "1": "Yöneltme Saldırısı Aralığı",
-      "2": "1 Ayna Yöneltme Saldırısı Hasarı",
-      "3": "2 Ayna Yöneltme Saldırısı Hasarı",
-      "4": "3 Ayna Yöneltme Saldırısı Hasarı",
+      "1": "Yansıma Saldırısı Aralığı",
+      "2": "1 Ayna Yansıma Saldırısı Hasarı",
+      "3": "2 Ayna Yansıma Saldırısı Hasarı",
+      "4": "3 Ayna Yansıma Saldırısı Hasarı",
       "5": "Hafif Keski Ayna Kaldırma Aralığı",
       "6": "BS",
       "7": "",
@@ -114,7 +114,7 @@
   "passive2": {
     "name": "Gizemlerin Gözler Önüne Serilişi",
     "description": {
-      "0": "Alhaitham'ın sahip olduğu her bir Element Ustalığı puanı, Yöneltme Saldırılarının ve <strong>Bağlam Alanı: Görüntü Zincirinin</strong> verdiği Hasarı %0,1 artırır.",
+      "0": "Alhaitham'ın sahip olduğu her bir Element Ustalığı puanı, Yansıma Saldırılarının ve <strong>Bağlam Alanı: Görüntü Zincirinin</strong> verdiği Hasarı %0,1 artırır.",
       "1": "İki saldırının da bu şekilde elde edilebileceği maksimum Hasar artışı %100'dür."
     }
   },
@@ -127,7 +127,7 @@
   "constellation1": {
     "name": "İçgüdü",
     "description": {
-      "0": "Bir Yöneltme Saldırısı, bir düşmana isabet ettiğinde <strong>Evrensellik: Ayna Teorisi</strong> becerisinin Bekleme Süresi 1,2 saniye azalır. Bu etki her 1 saniyede bir tetiklenebilir."
+      "0": "Bir Yansıma Saldırısı, bir düşmana isabet ettiğinde <strong>Evrensellik: Ayna Teorisi</strong> becerisinin Bekleme Süresi 1,2 saniye azalır. Bu etki her 1 saniyede bir tetiklenebilir."
     }
   },
   "constellation2": {
@@ -137,7 +137,7 @@
     }
   },
   "constellation3": {
-    "name": "Ret",
+    "name": "İnkar",
     "description": {
       "0": "<strong>Evrensellik: Ayna Teorisi</strong> seviyesini 3 artırır.",
       "1": "Maksimum yükseltme seviyesi 15'tir."

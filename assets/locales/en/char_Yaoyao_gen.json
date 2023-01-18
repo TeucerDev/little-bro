@@ -52,7 +52,7 @@
       "8": "Yuegui: Throwing Mode will choose its radish-throw targets.",
       "9": [
         "If all nearby characters have more than 70% HP remaining, then it will throw the radish at a nearby opponent.",
-        "If nearby characters have 70% or less HP remaining, it will throw a radish at the character with the lowest HP percentage remaining. If no opponents exist nearby, Yuegui will throw White Jade Radishes at characters even if they all have more than 70% HP remaining."
+        "If nearby characters have 70% or less HP remaining, it will throw a radish at the character with the lowest HP percentage remaining. If no opponents exist nearby, Yuegui will also throw White Jade Radishes at characters if they all have more than 70% HP and less than 100% HP remaining. Otherwise, it will throw radishes into the area at random."
       ],
       "10": "<br/>",
       "11": "A maximum of 2 instances of Yuegui: Throwing Mode can exist at any one time.",
@@ -142,7 +142,7 @@
   "constellation2": {
     "name": "Innocent",
     "description": {
-      "0": "While affected by the Adeptal Legacy state caused by <strong>Moonjade Descent</strong>, if White Jade Radish explosions damage opponents, 3 Energy will be restored to Yaoyao. This form of Energy regeneration can occur once every 0.8s."
+      "0": "While affected by the Adeptal Legacy state caused by <strong>Moonjade Descent</strong>, if White Jade Radish explosions hit opponents, 3 Energy will be restored to Yaoyao. This form of Energy regeneration can occur once every 0.8s."
     }
   },
   "constellation3": {
@@ -174,7 +174,7 @@
         "Restores HP for the active character based on 7.5% of Yaoyao's Max HP."
       ],
       "2": "<br/>",
-      "3": "Every Yuegei: Throwing Mode can throw out a maximum of 2 Mega Radishes."
+      "3": "Every Yuegui: Throwing Mode can throw out a maximum of 2 Mega Radishes."
     }
   }
 }

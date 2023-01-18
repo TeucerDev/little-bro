@@ -1,0 +1,179 @@
+{
+  "name": "Dehya",
+  "title": "???",
+  "description": "",
+  "constellationName": "",
+  "auto": {
+    "name": "Gold-Duster Assault",
+    "fields": {
+      "normal": {
+        "0": "<strong><strong>Normal Attack</strong>",
+        "1": "Melancarkan hingga 4 serangan berturut-turut dengan menggabungkan Claymore dan teknik bela dirinya."
+      },
+      "charged": {
+        "0": "<strong>Charged Attack</strong>",
+        "1": "Terus menguras Stamina untuk melancarkan tebasan berkelanjutan.",
+        "2": "Diakhiri dengan sebuah tebasan yang sangat kuat."
+      },
+      "plunging": {
+        "0": "<strong>Plunging Attack</strong>",
+        "1": "Menerjang dari udara untuk menghantam tanah, menyerang semua musuh di jalurnya dan mengakibatkan DMG Area saat mendarat."
+      }
+    },
+    "skillParams": {
+      "0": "DMG Tahap 1",
+      "1": "DMG Tahap 2",
+      "2": "DMG Tahap 3",
+      "3": "DMG Tahap 4",
+      "4": "DMG Berputar Charged Attack",
+      "5": "DMG Akhir Charged Attack",
+      "6": "Konsumsi Stamina Charged Attack",
+      "7": "Durasi Maksimum",
+      "8": "DMG Selama Plunging",
+      "9": "DMG Plunging Attack Min./Maks.",
+      "10": "",
+      "11": "",
+      "12": "",
+      "13": "",
+      "14": "",
+      "15": ""
+    }
+  },
+  "skill": {
+    "name": "Molten Inferno",
+    "description": {
+      "0": "Dehya melancarkan teknik bertempur ciptaannya sendiri sesuai dengan situasi pertempuran.",
+      "1": "<br/>",
+      "2": "<strong>Indomitable Flame</strong>",
+      "3": "Akan dilancarkan saat tidak ada Fiery Sanctum yang diciptakan oleh Dehya di medan pertempuran.",
+      "4": "Mengakibatkan <pyro>Pyro DMG Area</pyro> dan menghasilkan sebuah medan yang disebut Fiery Sanctum.",
+      "5": "<br/>",
+      "6": "<strong>Ranging Flame</strong>",
+      "7": "Akan dilancarkan saat sudah ada medan Fiery Sanctum yang diciptakan oleh Dehya di medan pertempuran.",
+      "8": "Melancarkan serangan melompat dan mengakibatkan <pyro>Pyro DMG Area</pyro>, kemudian menciptakan kembali medan Fiery Sanctum di posisi Dehya yang baru.",
+      "9": "Medan Fiery Sanctum yang diciptakan dengan cara ini akan mewarisi durasi awal dari medan Fiery Sanctum sebelumnya.",
+      "10": "<br/>",
+      "11": "Dehya hanya bisa melancarkan Ranging Flame 1 kali dalam 1 kali durasi medan Fiery Sanctum.",
+      "12": "<br/>",
+      "13": "<strong>Fiery Sanctum</strong>",
+      "14": "Saat musuh di dalam medan Fiery Sanctum menerima DMG, Fiery Sanctum akan melancarkan serangan terkoordinasi dan mengakibatkan <pyro>Pyro DMG Area</pyro> terhadap mereka. Efek ini bisa terpicu setiap 2,5 detik.",
+      "15": "Ketahanan Karakter aktif terhadap interupsi di medan ini akan meningkat. Saat Karakter aktif ini menerima DMG, sebagian DMG-nya akan tertahan dan dialirkan ke dalam Redmane's Blood. Kemudian Dehya akan menanggung DMG ini dalam rentang waktu 10 detik.",
+      "16": "Redmane's Blood tidak akan bisa menahan DMG lagi setelah nilai DMG yang tertahan telah mencapai atau melebihi persentase tertentu dari Max HP Dehya.",
+      "17": "<br/>",
+      "18": "Hanya 1 Fiery Sanctum yang bisa diciptakan oleh Dehya pada saat bersamaan.",
+      "19": "<br/>",
+      "20": "<i>Jalani siksaan yang berapi-api ini denganku, bersihkan semua kekotoran, sama seperti hewan api yang harus turun dalam bara.</i>"
+    },
+    "skillParams": {
+      "0": "DMG Indomitable Flame",
+      "1": "DMG Ranging Flame",
+      "2": "DMG Medan",
+      "3": "Pengurangan DMG",
+      "4": "Batas Redmane's Blood",
+      "5": "Durasi Medan",
+      "6": "CD",
+      "7": "",
+      "8": "",
+      "9": "",
+      "10": "",
+      "11": "",
+      "12": "",
+      "13": "",
+      "14": "",
+      "15": ""
+    }
+  },
+  "burst": {
+    "name": "The Lioness' Bite",
+    "description": {
+      "0": "Dehya meluapkan seluruh kemarahan membaranya, melepaskan pedang besarnya kemudian memasuki status Blazing Lioness dan meningkatkan ketahanannya terhadap interupsi.",
+      "1": "Dalam status ini, Dehya akan otomatis dan terus-menerus melancarkan Flame-Mane's Fist yang mengakibatkan <pyro>Pyro DMG</pyro>, dan akan melancarkan tendangan Incineration Drive yang mengakibatkan <pyro>Pyro DMG Area</pyro> saat durasinya berakhir.",
+      "2": "Dalam status ini, Normal Attack Dehya akan digantikan oleh Roaring Barrage. Melancarkan Roaring Barrage dalam waktu 0,4 detik setelah melancarkan Flame-Mane's Fist akan meningkatkan kecepatan melancarkan Flame Mane's Fist selanjutnya.",
+      "3": "<br/>",
+      "4": "Saat melancarkan skill ini, jika ada medan Fiery Sanctum yang diciptakan dari Elemental Skill \"Molten Inferno\" milik Dehya di medan pertempuran, Dehya akan menarik medan Fiery Sanctum-nya, dan akan menciptakan medan Fiery Sanctum yang lain setelah durasi Blazing Lioness berakhir. Medan Fiery Sanctum yang diciptakan kembali ini akan mewarisi durasi medan Fiery Sanctum awal yang ditarik olehnya.",
+      "5": "<br/>",
+      "6": "<i>Bahkan api yang mengalir harus mematuhi amarahnya dan menjadi taring dan cakarnya atas perintahnya.</i>"
+    },
+    "skillParams": {
+      "0": "DMG Flame-Mane's Fist",
+      "1": "DMG Incineration Drive",
+      "2": "Durasi",
+      "3": "CD",
+      "4": "Konsumsi Energy",
+      "5": "",
+      "6": "",
+      "7": "",
+      "8": "",
+      "9": "",
+      "10": "",
+      "11": "",
+      "12": "",
+      "13": "",
+      "14": "",
+      "15": ""
+    }
+  },
+  "passive1": {
+    "name": "Unstinting Succor",
+    "description": {
+      "0": "Dalam 6 detik setelah melancarkan <strong>Molten Inferno: Ranging Flame</strong> atau <strong>The Lioness' Bite</strong>, Damage yang diterima Dehya berkurang 60% saat dia menanggung DMG dari Redmane's Blood.",
+      "1": "Jika efek ini terpicu kembali selama durasinya masih aktif, maka sisa durasinya akan bertambah 6 detik."
+    }
+  },
+  "passive2": {
+    "name": "Stalwart and True",
+    "description": {
+      "0": "Saat HP sedang berada di bawah 30%, Dehya akan memulihkan 20% Max HP-nya. Dan dalam 10 detik berikutnya, Dehya akan memulihkan 10% Max HP-nya setiap 2 detik sekali. Efek ini bisa terpicu setiap 20 detik sekali."
+    }
+  },
+  "passive3": {
+    "name": "The Sunlit Way",
+    "description": {
+      "0": "Saat pagi sampai sore hari (6:00 -18:00), meningkatkan 10% Movement SPD anggota party sendiri.",
+      "1": "Efek ini tidak aktif dalam Domain, Trounce Domain, atau Spiral Abyss. Efek ini tidak dapat ditumpuk dengan Talenta Pasif lain dengan efek yang sama."
+    }
+  },
+  "constellation1": {
+    "name": "The Flame Incandescent",
+    "description": {
+      "0": "Max HP Dehya meningkat 20%; Selain itu, DMG serangan Dehya di bawah ini akan mendapatkan peningkatan berdasarkan Max HP-nya:",
+      "1": [
+        "DMG <strong>Molten Inferno</strong> meningkat 1% dari Max HP-nya;",
+        "DMG <strong>The Lioness' Bite</strong> meningkat 2% dari Max HP-nya."
+      ]
+    }
+  },
+  "constellation2": {
+    "name": "The Sand-Blades Glittering",
+    "description": {
+      "0": "Saat Dehya melancarkan <strong>Molten Inferno</strong>, durasi medan Fiery Sanctum yang diciptakan kembali akan diperpanjang 6 detik.",
+      "1": "Selain itu, saat ada medan Fiery Sanctum yang terbentuk di medan pertempuran, jika Karakter aktif yang berada di dalam medan ini menerima serangan, DMG serangan terkoordiasi selanjutnya dari Fiery Sanctum meningkat 25%."
+    }
+  },
+  "constellation3": {
+    "name": "A Rage Swift as Fire",
+    "description": {
+      "0": "Meningkatkan 3 level <strong>The Lioness' Bite</strong>. Maksimum: Lv. 15."
+    }
+  },
+  "constellation4": {
+    "name": "An Oath Abiding",
+    "description": {
+      "0": "Saat Flame-Mane's Fist dan Incineration Drive dari <strong>The Lioness' Bite</strong> mengenai musuh, akan memulihkan 1,5 poin Energy Dehya dan akan memulihkan 2% Max HP-nya. Efek ini dapat terpicu satu kali setiap 0,2 detik."
+    }
+  },
+  "constellation5": {
+    "name": "The Alpha Unleashed",
+    "description": {
+      "0": "Meningkatkan 3 level <strong>Molten Inferno</strong>.",
+      "1": "Maksimum: Lv. 15."
+    }
+  },
+  "constellation6": {
+    "name": "The Burning Claws Cleaving",
+    "description": {
+      "0": "CRIT Rate <strong>The Lioness' Bite</strong> meningkat 10%.",
+      "1": "Selain itu, selama durasi satu kali The Lioness' Bite, setelah Flame-Mane's Fist mengenai musuh, CRIT DMG The Lioness' Bite meningkat 15% selama sisa durasi ini dan sisa durasi The Lioness' Bite juga akan meningkat 0,5 detik. Efek ini dapat terpicu satu kali setiap 0,2 detik. Peningkatan durasi yang bisa diperoleh dengan cara ini adalah maksimum 2 detik, dan peningkatan CRIT DMG yang bisa diperoleh dengan cara ini adalah maksimum 60%."
+    }
+  }
+}
