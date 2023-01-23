@@ -2,7 +2,7 @@
   "name": "Mika",
   "title": "???",
   "description": "",
-  "constellationName": "Columba",
+  "constellationName": "Palumbus",
   "auto": {
     "name": "Lança de Favonius — Ponto de Passagem",
     "fields": {
@@ -45,7 +45,7 @@
       "1": "Gera efeitos diferentes e for lançado Pressionando ou Mantendo Pressionado.",
       "2": "<br/>",
       "3": "<strong>Pressionar</strong>",
-      "4": "Dispara uma Flecha Gélida rapidamente que penetrar os inimigos, causando <cryo>Dano Cryo</cryo>.",
+      "4": "Dispara uma Flecha Gélida rapidamente que penetra os inimigos, causando <cryo>Dano Cryo</cryo>.",
       "5": "<br/>",
       "6": "<strong>Manter Pressionado</strong>",
       "7": "Entra no modo de mira, e dispara um Sinal Estelar Gélido contra o inimigo fixado na mira, causando <cryo>Dano Cryo</cryo>. Quando o Sinal Estelar Gélido atinge o inimigo, ascenderá e explodirá, disparando Fragmentos Estelares Gélidos contra até 3 inimigos próximos, causando <cryo>Dano Cryo</cryo>.",
@@ -107,7 +107,7 @@
       "0": "O estado Alma do Vento de <strong>Redemoinho Estelar Gelado</strong> concederá nas seguintes circunstâncias aos personagens o efeito Detector, aumentando o Dano Físico causado em 10%:",
       "1": [
         " Quando a Flecha Gélida atinge mais de um inimigo, gera 1 acúmulo do efeito Detector para cada inimigo adicional atingido;",
-        " Quando um Fragmento Estelar Gélido atinge um inimigo, gera 1 acúmulo do efeito Detector."
+        " Quando um Fragmento Estelar Gélido atinge um inimigo, gera 1 acúmulo do efeito Detector. Cada Fragmento Estela Gélido só pode desencadear este efeito uma vez."
       ],
       "2": "<br/>",
       "3": "É possível ter até 3 acúmulos do efeito Detector no estado Alma do Vento. Lançar Redemoinho Estelar Gelado novamente nessa duração removerá o estado Alma do Vento original e os seus acúmulos de efeito Detector."
@@ -116,8 +116,8 @@
   "passive2": {
     "name": "Mapeamento Topográfico",
     "description": {
-      "0": "Personagens que estiverem simultaneamente no estado Pena do Falcão de <strong>Canção da Pena do Céu</strong> e Alma do Vento de <strong>Redemoinho Estelar Gelado</strong>, ao causarem Dano CRIT farão o estado Alma do Vento gerar 1 acúmulo do efeito Detector do Talento Passivo \"Supressão de Disparo Rápido\". É possível gerar até 1 acúmulo do efeito Detector em uma duração do estado Pena do Falcão.",
-      "1": "Além disso, o número máximo de acúmulos que podem ser obtidos no estado Alma do Vento é aumentado 1.",
+      "0": "Personagens que estiverem simultaneamente no estado Pena do Falcão de <strong>Canção da Pena do Céu</strong> e Alma do Vento de <strong>Redemoinho Estelar Gelado</strong>, ao causarem Dano CRIT com um ataque farão o estado Alma do Vento gerar 1 acúmulo do efeito Detector do Talento Passivo \"Supressão de Disparo Rápido\". É possível gerar até 1 acúmulo do efeito Detector em uma duração do estado Pena do Falcão.",
+      "1": "Além disso, o número máximo de acúmulos que podem ser obtidos no estado Alma do Vento é aumentado em 1.",
       "2": "É necessário desbloquear o Talento Passivo \"Supressão de Disparo Rápido\"."
     }
   },

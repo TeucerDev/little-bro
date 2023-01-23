@@ -2,7 +2,7 @@
   "name": "Mika",
   "title": "???",
   "description": "",
-  "constellationName": "Columbaßßß",
+  "constellationName": "Palumbus",
   "auto": {
     "name": "Favonius Speerkunst – Erbe der Bolzenßßß",
     "fields": {
@@ -41,7 +41,7 @@
   "skill": {
     "name": "Sternenfrost-Strudel",
     "description": {
-      "0": "Mika greift Feinde mit seiner Armbrust an und gewährt außerdem aktuellen Figuren in der Nähe Seelenböe, die deren Angriffs-GSW erhöht.",
+      "0": "Mika greift Gegner mit seiner Armbrust an und gewährt außerdem aktuellen Figuren in der Nähe Seelenböe, die deren Angriffs-GSW erhöht.",
       "1": "Je nachdem, ob getippt oder gedrückt gehalten wird, wird ein anderer Effekt erzeugt.",
       "2": "<br/>",
       "3": "<strong>Tippen</strong>",
@@ -74,19 +74,19 @@
   "burst": {
     "name": "Der Federn Wunsch",
     "description": {
-      "0": "Mika ermuntert seine Gefährten mithilfe des Gebets des Ritterordens weiter voranzuschreiten. Stellt allen Truppenmitgliedern in der Nähe LP basierend auf Mikas max. LP wieder her, und verleiht ihnen außerdem den Status Falkenfeder.",
+      "0": "Mika ermuntert seine Gefährten mithilfe des Gebets des Ritterordens weiter voranzuschreiten. Stellt allen Truppenmitgliedern in der Nähe LP basierend auf Mikas max. LP wieder her und verleiht ihnen außerdem den Status Falkenfeder.",
       "1": "<br/>",
       "2": "<strong>Falkenfeder</strong>",
       "3": "Wenn Figuren unter dem Effekt Falkenfeder Gegner mit ihrem Standardangriff treffen, stellt Mika bei diesen LP basierend auf seinen max. LP wieder her.",
       "4": "Figuren unter diesem Effekt können innerhalb kurzer Zeit nur einmal auf diese Weise LP wiederherstellen.",
       "5": "<br/>",
-      "6": "<i>„Hoffnung in der Not, Wachsamkeit in guten Zeiten ... denn die weiße Feder wird den verirrten Reisenden auf den richtigen Weg führen.“<i>"
+      "6": "<i>„Hoffnung in der Not, Wachsamkeit in guten Zeiten ... denn die weiße Feder wird den verirrten Reisenden auf den richtigen Weg führen.“</i>"
     },
     "skillParams": {
       "0": "Wiederherstellung bei Auslösen",
-      "1": "Falkenfeder Wiederherstellung",
-      "2": "Falkenfeder Wiederherstelungsintervall",
-      "3": "Falkenfeder Dauer",
+      "1": "Falkenfeder-Wiederherstellung",
+      "2": "Falkenfeder-Wiederherstelungsintervall",
+      "3": "Falkenfeder-Dauer",
       "4": "Abklingzeit",
       "5": "Elementarenergie",
       "6": "",
@@ -107,7 +107,7 @@
       "0": "Im Zustand Seelenböe des <strong>Sternenfrost-Strudels</strong> wird in folgenden Situationen Entdeckung gewährt, wodurch der von Figuren verursachte physische Schaden um 10 % erhöht wird:",
       "1": [
         " Wenn der Frostfluss-Pfeil mehr als 1 Gegner trifft, wird pro zusätzlich getroffenen Gegner 1 Stapelung des Effekts Entdeckung erschaffen.",
-        " Für jeden von Eisstern-Splitter getroffenen Gegner wird 1 Stapelung des Effekts Entdeckung erschaffen."
+        " Trifft ein Eisstern-Splitter einen Gegner, wird 1 Stapelung des Effekts Entdeckung erschaffen. Jeder Eisstern-Splitter kann diesen Effekt jeweils nur einmal auslösen."
       ],
       "2": "<br/>",
       "3": "Der Effekt Entdeckung des Zustands Seelenböe ist 3-fach stapelbar. Wenn Sternenfrost-Strudel während der Dauer erneut eingesetzt wird, werden der ursprüngliche Zustand von Seelenböe und dessen Effekt Entdeckung entfernt."
@@ -116,7 +116,7 @@
   "passive2": {
     "name": "Geomorphologische Kartografierung",
     "description": {
-      "0": "Wenn Figuren mit ihren Angriffen kritische Treffer auslösen, während sie sich gleichzeitig in den Zuständen Falkenfeder von <strong>Der Federn Wunsch</strong> und Seelenböe des <strong>Sternenfrost-Strudels</strong> befinden, erschafft Seelenböe 1 Stapelung des Effekts Entdeckung des passiven Talents „Schnellfeuer-Unterdrückung“. Während der Dauer des einen Zustands Falkenfeder kann über diese Methode höchstens 1 Stapel des Effekts Entdeckung erschaffen werden.",
+      "0": "Wenn Figuren mit ihren Angriffen kritische Treffer auslösen, während sie sich gleichzeitig in den Zuständen Falkenfeder von <strong>Der Federn Wunsch</strong> und Seelenböe des <strong>Sternenfrost-Strudels</strong> befinden, erschafft Seelenböe 1 Stapelung des Effekts Entdeckung des passiven Talents „Schnellfeuer-Unterdrückung“. Während der Dauer des einen Zustands Falkenfeder kann über diese Methode höchstens 1 Stapelung des Effekts Entdeckung erschaffen werden.",
       "1": "Außerdem kann im Zustand Seelenböe die maximale Stapelung des Effekts Entdeckung um 1 erhöht werden.",
       "2": "Das passive Talent „Schnellfeuer-Unterdrückung“ muss zuerst freigeschaltet werden."
     }
@@ -162,7 +162,7 @@
     "name": "Unterstützung von Mitstreitern",
     "description": {
       "0": "Erhöht die maximale Stapelung des Effekts Entdeckung des Zustands Seelenböe von <strong>Sternenfrost-Strudel</strong> um 1. Das passive Talent „Schnellfeuer-Unterdrückung“ muss zuerst freigeschaltet werden.",
-      "1": "Außerdem wird der Kritische Schaden des physischen Schadens der vom Effekt Seelenböe betroffenen Figuren um 60 % erhöht."
+      "1": "Außerdem wird der KSCH des physischen Schadens der vom Effekt Seelenböe betroffenen Figuren um 60 % erhöht."
     }
   }
 }

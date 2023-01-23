@@ -2,7 +2,7 @@
   "name": "Dehya",
   "title": "¿?",
   "description": "",
-  "constellationName": "",
+  "constellationName": "Mantichora",
   "auto": {
     "name": "Sacudida áurea",
     "fields": {
@@ -85,13 +85,15 @@
   "burst": {
     "name": "Dentellada ignívoma de la Leona",
     "description": {
-      "0": "Dehya desata su furia y prescinde del engorroso mandoble para entrar en el estado de “Leona fogosa”, durante el que aumenta su RES a interrupción.",
-      "1": "En este estado, asesta puñetazos leoninos de forma automática y continuada, los cuales infligen <pyro>Daño Pyro</pyro>. Al terminar su duración, lanza una patada incineradora que inflige <pyro>Daño Pyro en el AdE</pyro>.",
-      "2": "En este estado, los Ataques Normales de Dehya se sustituyen por una “andanada rugiente”. Si liberas una andanada rugiente 0.4{NON_BREAK_SPACE}s después de asestar un puñetazo leonino, asestarás el siguiente puñetazo leonino más rápidamente.",
-      "3": "<br/>",
-      "4": "Al usar esta Habilidad Definitiva, si en el campo de batalla ya existe un cerco ígneo creado por la propia Dehya con su Habilidad Elemental, Fundición infernal, lo retirará del combate y creará otro en una nueva ubicación cuando termine el estado de Leona fogosa. El nuevo cerco ígneo heredará la duración del que fue retirado.",
-      "5": "<br/>",
-      "6": "<i>Hasta el fuego, siempre cambiante, obedece el mandato de su furia y se transforma en unas afiladas garras y colmillos.</i>"
+      "0": "Dehya desata su furia abrasadora y prescinde del engorroso mandoble para entrar en el estado de “Leona fogosa”, durante el cual aumenta su RES a interrupción.",
+      "1": "En este estado, asesta puñetazos leoninos de forma automática y continua, los cuales infligen <pyro>Daño Pyro</pyro>. Al terminar su duración, lanza una patada incineradora que inflige <pyro>Daño Pyro en el AdE</pyro>.",
+      "2": "Al usar esta Habilidad Definitiva, si en el campo de batalla ya existe un cerco ígneo creado por la propia Dehya con su Habilidad Elemental, Fundición infernal, lo retirará del combate y creará otro en una nueva ubicación cuando termine el estado de Leona fogosa. El nuevo cerco ígneo heredará la duración del que fue retirado.",
+      "3": "En este estado, Dehya no puede lanzar su Habilidad Elemental ni ejecutar Ataques Normales, Cargados o Descendentes. Además, su Ataque Normal: Sacudida áurea y su Habilidad Elemental, Fundición infernal, se sustituyen por “andanada rugiente”.",
+      "4": "<br/>",
+      "5": "<strong>Andanada rugiente</strong>",
+      "6": "Si liberas la andanada rugiente 0.4{NON_BREAK_SPACE}s después de asestar un puñetazo leonino, asestarás el siguiente puñetazo más rápidamente.",
+      "7": "<br/>",
+      "8": "<i>Hasta el fuego, siempre cambiante, obedece el mandato de su furia y se transforma en unas afiladas garras y colmillos.</i>"
     },
     "skillParams": {
       "0": "Daño de puñetazo leonino",
@@ -115,14 +117,14 @@
   "passive1": {
     "name": "Auxilio abnegado",
     "description": {
-      "0": "Tras liberar la <strong>acometida ardiente de Fundición infernal</strong> o <strong>Dentellada ignívoma de la Leona</strong>, el daño que soporta Dehya procedente de sangre de la Leona escarlata se reduce en un 60% durante 6{NON_BREAK_SPACE}s.",
-      "1": "Si el efecto se vuelve a activar antes de que concluya su duración, esta aumentará en 6{NON_BREAK_SPACE}s."
+      "0": "Tras retirar un cerco ígneo mediante la <strong>acometida ardiente de Fundición infernal</strong> o <strong>Dentellada ignívoma de la Leona</strong>, el daño que soporta Dehya procedente de sangre de la Leona escarlata se reduce en un 60% durante 6{NON_BREAK_SPACE}s. Este efecto puede activarse una vez cada 2{NON_BREAK_SPACE}s.",
+      "1": "Además, tras ser creado, el cerco ígneo otorga RES a interrupción adicional para los personajes situados dentro de él durante 4{NON_BREAK_SPACE}s. Este efecto puede activarse una vez cada 8{NON_BREAK_SPACE}s."
     }
   },
   "passive2": {
     "name": "Rectitud incondicional",
     "description": {
-      "0": "Cuando la Vida de Dehya está por debajo del 30%, recupera Vida en una cantidad equivalente al 20% de su Vida Máx. Además, durante los siguientes 10{NON_BREAK_SPACE}s, recupera Vida cada 2{NON_BREAK_SPACE}s en una cantidad equivalente al 10% de su Vida Máx. Este efecto solo puede ocurrir una vez cada 20{NON_BREAK_SPACE}s."
+      "0": "Cuando la Vida de Dehya está por debajo del 40%, recupera Vida en una cantidad equivalente al 20% de su Vida Máx. Además, durante los siguientes 10{NON_BREAK_SPACE}s, recupera Vida cada 2{NON_BREAK_SPACE}s en una cantidad equivalente al 6% de su Vida Máx. Este efecto solo puede ocurrir una vez cada 20{NON_BREAK_SPACE}s."
     }
   },
   "passive3": {
@@ -135,10 +137,10 @@
   "constellation1": {
     "name": "Filoígneo impoluto",
     "description": {
-      "0": "La Vida Máx. de Dehya aumenta en un 20%. Además, el daño infligido por sus siguientes ataques aumenta en proporción a su Vida Máx.:",
+      "0": "La Vida Máx. de Dehya aumenta en un 15%. Además, el daño infligido por sus siguientes ataques aumenta en proporción a su Vida Máx.:",
       "1": [
-        "El daño de <strong>Fundición infernal</strong> aumenta en un 1% de su Vida Máx.",
-        "El daño de <strong>Dentellada ignívoma de la Leona</strong> aumenta en un 2% de su Vida Máx."
+        "El daño de <strong>Fundición infernal</strong> aumenta en un 5.2% de su Vida Máx.",
+        "El daño de <strong>Dentellada ignívoma de la Leona</strong> aumenta en un 8.4% de su Vida Máx."
       ]
     }
   },
@@ -159,7 +161,7 @@
   "constellation4": {
     "name": "Juramento inquebrantable",
     "description": {
-      "0": "Al golpear a un enemigo con los puñetazos leoninos o la patada incineradora de </undefined>Dentellada ignívoma de la Leona</undefined>, Dehya recupera 1.5{NON_BREAK_SPACE}pts. de Energía Elemental, y también recupera Vida en una cantidad equivalente al 2% de su Vida Máx. Este efecto solo puede ocurrir una vez cada 0.2{NON_BREAK_SPACE}s."
+      "0": "Al golpear a un enemigo con los puñetazos leoninos o la patada incineradora de </undefined>Dentellada ignívoma de la Leona</undefined>, Dehya recupera 1.5{NON_BREAK_SPACE}pts. de Energía Elemental, y también recupera Vida en una cantidad equivalente al 2.5% de su Vida Máx. Este efecto solo puede ocurrir una vez cada 0.2{NON_BREAK_SPACE}s."
     }
   },
   "constellation5": {
