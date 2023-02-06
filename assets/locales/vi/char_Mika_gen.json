@@ -1,6 +1,6 @@
 {
   "name": "Mika",
-  "title": "???",
+  "title": "Dấu Hiệu Sương Mai",
   "description": "",
   "constellationName": "Cung Lâm Cáp",
   "auto": {
@@ -41,7 +41,7 @@
   "skill": {
     "name": "Sao Băng Lưu Chuyển",
     "description": {
-      "0": "Dùng nỏ tấn công kẻ địch và tạo trạng thái Gió Linh Hồn, tăng tốc độ tấn công cho nhân vật trong trận gần đó.",
+      "0": "Dùng nỏ tấn công kẻ địch và tạo trạng thái Gió Linh Hồn cho tất cả nhân vật trong đội gần đó. Nhân vật có trạng thái Gió Linh Hồn khi ra trận sẽ tăng tốc độ tấn công.",
       "1": "Căn cứ vào nhấn và nhấn giữ để sản sinh hiệu quả khác nhau.",
       "2": "<br/>",
       "3": "<strong>Nhấn</strong>",
@@ -77,7 +77,7 @@
       "0": "Cổ vũ đồng đội tiến công từ những lời chúc học được trong Đội Kỵ Sĩ, hồi phục HP cho tất cả nhân vật trong đội gần đó, lượng hồi phục sẽ căn cứ vào giới hạn HP của Mika, đồng thời cung cấp trạng thái Lông Vũ Chim Ưng cho họ.",
       "1": "<br/>",
       "2": "<strong>Lông Vũ Chim Ưng</strong>",
-      "3": "Nhân vật trong trạng thái Lông Vũ Chim Ưng khi tấn công thường trúng kẻ địch, Mika sẽ hồi phục HP cho họ, lượng hồi phục căn cứ vào giới hạn HP của Mika.",
+      "3": "Nhân vật trong trận có trạng thái Lông Vũ Chim Ưng khi tấn công thường trúng kẻ địch, Mika sẽ hồi phục HP cho họ, lượng hồi phục căn cứ vào giới hạn HP của Mika.",
       "4": "Nhân vật có trạng thái này trong thời gian ngắn tối đa chỉ có thể hồi phục một lần HP thông qua cách này.",
       "5": "<br/>",
       "6": "<i>\"Hãy mang theo hy vọng khi gặp khó khăn, và luôn cảnh giác khi mọi việc đều tốt đẹp... Vì lông vũ trắng thuần khiết đó cuối cùng sẽ dẫn đường cho những người lữ hành lạc lối.\"</i>"
@@ -104,7 +104,7 @@
   "passive1": {
     "name": "Hỏa Lực Yểm Trợ",
     "description": {
-      "0": "Trong trạng thái Gió Linh Hồn của <strong>Sao Băng Lưu Chuyển</strong>, sẽ nhận thêm hiệu quả Do Thám, tăng 10% sát thương vật lý gây ra trong các tình huống sau:",
+      "0": "Trong các tình huống sau, Gió Linh Hồn của <strong>Sao Băng Lưu Chuyển</strong> sẽ cường hóa hiệu quả Do Thám, tăng 10% sát thương vật lý gây ra cho nhân vật trong trận:",
       "1": [
         "Mũi Tên Băng Giá khi trúng hơn 1 kẻ địch, mỗi kẻ địch trúng thêm sẽ sản sinh 1 tầng hiệu quả Do Thám;",
         "Mảnh Sao Băng khi trúng kẻ địch sẽ sản sinh 1 tầng hiệu quả Do Thám. Mỗi Mảnh Sao Băng chỉ có thể kích hoạt một lần."
@@ -116,7 +116,7 @@
   "passive2": {
     "name": "Đo Vẽ Địa Hình",
     "description": {
-      "0": "Nhân vật đồng thời ở trong trạng thái Lông Vũ Chim Ưng của <strong>Lông Vũ Chúc Tụng</strong> và Gió Linh Hồn của <strong>Sao Băng Lưu Chuyển</strong> khi tấn công gây ra bạo kích, trạng thái Gió Linh Hồn sẽ sản sinh 1 tầng hiệu quả Do Thám của thiên phú \"Hỏa Lực Yểm Trợ\". Trong một lần thời gian duy trì của trạng thái Lông Vũ Chim Ưng chỉ có thể sản sinh 1 tầng Do Thám thông qua cách này.",
+      "0": "Nhân vật trong trận đồng thời ở trong trạng thái Lông Vũ Chim Ưng của <strong>Lông Vũ Chúc Tụng</strong> và Gió Linh Hồn của <strong>Sao Băng Lưu Chuyển</strong> khi tấn công gây ra bạo kích, trạng thái Gió Linh Hồn sẽ sản sinh 1 tầng hiệu quả Do Thám của thiên phú \"Hỏa Lực Yểm Trợ\". Trong một lần thời gian duy trì của trạng thái Gió Linh Hồn chỉ có thể sản sinh 1 tầng Do Thám thông qua cách này.",
       "1": "Ngoài ra, giới hạn số tầng hiệu quả Do Thám của Gió Linh Hồn tăng thêm 1.",
       "2": "Cần mở khóa thiên phú \"Hỏa Lực Yểm Trợ\"."
     }
@@ -150,7 +150,7 @@
   "constellation4": {
     "name": "Chúc Nguyện Giá Lạnh",
     "description": {
-      "0": "Trạng thái Lông Vũ Chim Ưng từ kỹ năng <strong>Lông Vũ Chúc Tụng</strong> của bản thân Mika khi trị liệu nhân vật khác trong đội sẽ khiến cho Mika hồi phục 3 điểm Năng Lượng Nguyên Tố. Một lần trạng thái Lông Vũ Chim Ưng từ kỹ năng Lông Vũ Chúc Tụng tối đa hồi phục 5 lần Năng Lượng Nguyên Tố."
+      "0": "Trạng thái Lông Vũ Chim Ưng từ kỹ năng <strong>Lông Vũ Chúc Tụng</strong> của bản thân Mika khi trị liệu nhân vật trong đội sẽ khiến cho Mika hồi phục 3 điểm Năng Lượng Nguyên Tố. Một lần trạng thái Lông Vũ Chim Ưng từ kỹ năng Lông Vũ Chúc Tụng tối đa hồi phục 5 lần Năng Lượng Nguyên Tố."
     }
   },
   "constellation5": {
@@ -164,7 +164,7 @@
     "name": "Chung Sức Phối Hợp",
     "description": {
       "0": "Giới hạn số tầng hiệu quả Do Thám từ trạng thái Gió Linh Hồn của kỹ năng <strong>Sao Băng Lưu Chuyển</strong> tăng 1 tầng. Cần mở khóa thiên phú \"Hỏa Lực Yểm Trợ\".",
-      "1": "Ngoài ra, nhân vật trong trạng thái Gió Linh Hồn sẽ tăng 60% sát thương bạo kích vật lý."
+      "1": "Ngoài ra, nhân vật ra trận trong trạng thái Gió Linh Hồn sẽ tăng 60% sát thương bạo kích vật lý."
     }
   }
 }

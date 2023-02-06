@@ -1,10 +1,10 @@
 {
   "name": "Dehya",
-  "title": "???",
+  "title": "Crinière ardente",
   "description": "",
   "constellationName": "Mantichora",
   "auto": {
-    "name": "Poussière d'or",
+    "name": "Assaut sablé",
     "fields": {
       "normal": {
         "0": "<strong><strong>Attaque normale</strong>",
@@ -56,7 +56,7 @@
       "11": "Un seul champ flamboyant peut être déclenché pendant la durée d'une zone de sanctuaire ardent.",
       "12": "<br/>",
       "13": "<strong>Sanctuaire ardent</strong>",
-      "14": "Lorsqu'un ennemi dans la zone subit des DGT, le sanctuaire ardent déclenche une attaque coordonnée, lui infligeant des <pyro>DGT Pyro de zone</pyro>. Cet effet peut être déclenché une fois toutes les 2,5 s.",
+      "14": "Lorsqu'un ennemi dans la zone subit des DGT, le sanctuaire ardent déclenche une attaque coordonnée, lui infligeant des <pyro>DGT Pyro de zone</pyro> selon l'ATQ et les PV max de Dehya. Cet effet peut être déclenché une fois toutes les 2,5 s.",
       "15": "Les personnages déployés dans la zone voient leur RÉS à l'interruption augmentée et lorsqu'ils subissent des DGT, une partie des DGT est atténuée et transférée dans le sang de crinière rouge, avant d'être subie par Dehya sur 10 s. Lorsque les DGT dans le sang de crinière rouge atteignent ou dépassent un certain pourcentage des PV max de Dehya, les DGT ne sont plus atténués.",
       "16": "<br/>",
       "17": "Il ne peut exister qu'un seul sanctuaire ardent créé par Dehya à la fois.",
@@ -69,7 +69,7 @@
       "2": "DGT zone",
       "3": "Atténuation",
       "4": "Limite de sang de crinière rouge",
-      "5": "Durée de zone",
+      "5": "Durée du champ",
       "6": "Temps de recharge",
       "7": "",
       "8": "",
@@ -83,12 +83,12 @@
     }
   },
   "burst": {
-    "name": "Morsure de la lionne",
+    "name": "Morsure léonine",
     "description": {
       "0": "Libérant sa colère brûlante et jetant sa lame sur le côté comme s'il s'agissait d'un fardeau, Dehya entre dans l'état Lionne flamboyante et augmente sa RÉS à l'interruption.",
-      "1": "Dans cet état, Dehya déchaîne automatiquement et de façon continue ses poings de crinière enflammée pour infliger des <pyro>DGT Pyro</pyro> et, une fois la durée écoulée, elle utilise son pied plongeant d'incinération qui inflige des <pyro>DGT Pyro de zone</pyro>.",
+      "1": "Dans cet état, Dehya déchaîne automatiquement et de façon continue ses poings de crinière enflammée pour infliger des <pyro>DGT Pyro</pyro> selon son ATQ et ses PV max, et, une fois la durée écoulée, elle utilise son pied plongeant d'incinération qui inflige des <pyro>DGT Pyro de zone</pyro>, toujours selon son ATQ et ses PV max.",
       "2": "Si une zone de sanctuaire ardent créée par la compétence élémentaire de Dehya « Enfer en fusion » est présente sur le champ de bataille lorsque cette capacité est utilisée, Dehya la récupère et en crée une autre à son nouvel emplacement une fois la durée de l'état Lionne flamboyante expirée. Cette nouvelle zone hérite alors de la durée de la zone précédente au moment de sa récupération.",
-      "3": "Dans cet état, Dehya ne peut pas utiliser de compétence élémentaire, ni effectuer d'attaque normale, chargée ou plongeante. Son « Attaque normale : Poussière d'or » et sa compétence élémentaire « Enfer en fusion » : sont remplacées par Raclée rugissante.",
+      "3": "Dans cet état, Dehya ne peut pas utiliser de compétence élémentaire, ni effectuer d'attaque normale, chargée ou plongeante. Son « Attaque normale : Assaut sablé » et sa compétence élémentaire « Enfer en fusion » sont remplacées par Raclée rugissante.",
       "4": "<br/>",
       "5": "<strong>Raclée rugissante</strong>",
       "6": "Le déclenchement d'une raclée rugissante dans les 0,4 s après un poing de crinière enflammée accélère le déclenchement du prochain poing de crinière enflammée.",
@@ -117,8 +117,8 @@
   "passive1": {
     "name": "Secours sans faille",
     "description": {
-      "0": "Pendant 6 s après que Dehya récupère un sanctuaire ardent en utilisant <strong>Enfer en fusion : Champ flamboyant</strong> ou <strong>Morsure de la lionne</strong>, les DGT que Dehya subit du sang de crinière rouge diminuent de 60 %. Cet effet peut être déclenché une fois toutes les 2 s.",
-      "1": "De plus, pendant 4 s après la création d'un sanctuaire ardent, les personages à l'intérieur bénéficient d'une RÉS à l'interruption accrue. Cet effet peut être déclenché une fois toutes les 8 s."
+      "0": "Pendant 6 s après que Dehya récupère un sanctuaire ardent en utilisant <strong>Enfer en fusion : Champ flamboyant</strong> ou <strong>Morsure léonine</strong>, les DGT que Dehya subit du sang de crinière rouge diminuent de 60 %. Cet effet peut être déclenché une fois toutes les 2 s.",
+      "1": "De plus, pendant 9 s après que Dehya déclenche <strong>Enfer en fusion : Flamme indomptable</strong>, elle accorde l'état Forgé d'or à tous les personnages de l'équipe : augmente davantage la RÉS à l'interruption des personnages à l'intérieur d'une zone de sanctuaire ardent. L'état Forgé d'or peut être déclenché une fois toutes les 18 s."
     }
   },
   "passive2": {
@@ -137,31 +137,31 @@
   "constellation1": {
     "name": "Brillante flamme d'incandescence",
     "description": {
-      "0": "Augmente les PV max de Dehya de 15 %, et augmente les DGT infligés par les attaques de Dehya citées ci-dessous en fonction de ses PV max :",
+      "0": "Augmente les PV max de Dehya de 20 %, et augmente les DGT infligés par les attaques de Dehya citées ci-dessous en fonction de ses PV max :",
       "1": [
-        " Augmentation des DGT d'<strong>Enfer en fusion</strong> : 5,2 % des PV max.",
-        " Augmentation des DGT de <strong>Morsure de la lionne</strong> : 8,4 % des PV max."
+        " Augmentation des DGT d'<strong>Enfer en fusion</strong> : 3,6 % des PV max.",
+        " Augmentation des DGT de <strong>Morsure léonine</strong> : 6 % des PV max."
       ]
     }
   },
   "constellation2": {
     "name": "Scintillante lame de sable",
     "description": {
-      "0": "Lors de l'utilisation d'<strong>Enfer en fusion : Champ flamboyant</strong>, la durée de la zone de sanctuaire ardent créée une nouvelle fois augmente de 6 s.",
-      "1": "De plus, si une zone de sanctuaire ardent est présente sur le champ de bataille et si un personnage déployé subit une attaque en son sein, les DGT infligés par la prochaine attaque coordonnée du sanctuaire ardent augmentent de 25 %."
+      "0": "Lors de l'utilisation d'<strong>Enfer en fusion : Champ flamboyant</strong>, la durée de la zone de sanctuaire ardent créée une nouvelle fois augmente de 4 s.",
+      "1": "De plus, si une zone de sanctuaire ardent est présente sur le champ de bataille et si un personnage déployé subit une attaque en son sein, les DGT infligés par la prochaine attaque coordonnée du sanctuaire ardent augmentent de 50 %."
     }
   },
   "constellation3": {
     "name": "Précipitante rage de feu",
     "description": {
-      "0": "Niveau d'aptitude <strong>Morsure de la lionne</strong> +3.",
+      "0": "Niveau d'aptitude <strong>Morsure léonine</strong> +3.",
       "1": "Niveau max : 15"
     }
   },
   "constellation4": {
     "name": "Liant serment de respect",
     "description": {
-      "0": "Lorsqu'un poing de crinière enflammée ou un pied plongeant d'incinération de <strong>Morsure de la lionne</strong> touche un ennemi, Dehya récupère 1,5 pt d'énergie élémentaire et se soigne pour une valeur équivalant à 2,5 % de ses PV max. Cet effet peut être déclenché une fois toutes les 0,2 s."
+      "0": "Lorsqu'un poing de crinière enflammée ou un pied plongeant d'incinération de <strong>Morsure léonine</strong> touche un ennemi, Dehya récupère 1,5 pt d'énergie élémentaire et se soigne pour une valeur équivalant à 2,5 % de ses PV max. Cet effet peut être déclenché une fois toutes les 0,2 s."
     }
   },
   "constellation5": {
@@ -174,7 +174,7 @@
   "constellation6": {
     "name": "Brûlante griffe de clivage",
     "description": {
-      "0": "Augmente le taux CRIT de <strong>Morsure de la lionne</strong> de 10 %.",
+      "0": "Augmente le taux CRIT de <strong>Morsure léonine</strong> de 10 %.",
       "1": "De plus, toucher un ennemi et infliger un coup CRIT avec un poing de crinière enflammée pendant un état Lionne flamboyante permet d'augmenter les DGT CRIT de Morsure de la lionne de 15 % jusqu'à la fin de la durée de l'état Lionne flamboyante et de prolonger cette durée de 0,5 s. Cet effet peut être déclenché une fois toutes les 0,2 s. La durée peut être prolongée d'un maximum de 2 s et les DGT CRIT augmentés d'un maximum de 60{NON_BREAK_SPACE}% de cette manière."
     }
   }

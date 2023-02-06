@@ -1,10 +1,10 @@
 {
   "name": "Mika",
-  "title": "???",
+  "title": "Coordinates of Clear Frost",
   "description": "",
   "constellationName": "Palumbus",
   "auto": {
-    "name": "Spear of Favonius - Point Passage",
+    "name": "Spear of Favonius - Arrow's Passage",
     "fields": {
       "normal": {
         "0": "<strong><strong>Normal Attack</strong>",
@@ -41,7 +41,7 @@
   "skill": {
     "name": "Starfrost Swirl",
     "description": {
-      "0": "Mika uses his crossbow to attack, granting nearby active characters in your party Soulwind, which increases their ATK SPD.",
+      "0": "Mika uses his crossbow to attack, granting all nearby characters in your party Soulwind. When characters in the Soulwind state are on the field, their ATK SPD will be increased.",
       "1": "Will take effect in different ways if Tapped or Held.",
       "2": "<br/>",
       "3": "<strong>Tap</strong>",
@@ -74,10 +74,10 @@
   "burst": {
     "name": "Skyfeather Song",
     "description": {
-      "0": "Derives the ability to spur his teammates on from the recited prayers of the knightly order, regenerating HP for all nearby party members. This healing is based on Mika's Max HP, and will grant them the Eagleplume state.",
+      "0": "Derives the ability to spur his teammates on from the recited prayers of the knightly order, regenerating HP for all nearby party members. This healing is based on Mika's Max HP and will grant them the Eagleplume state.",
       "1": "<br/>",
       "2": "<strong>Eagleplume</strong>",
-      "3": "When the Normal Attacks of characters affected by Eagleplume hit an opponent, Mika will help them regenerate HP based on his Max HP.",
+      "3": "When the Normal Attacks of active characters affected by Eagleplume hit an opponent, Mika will help them regenerate HP based on his Max HP.",
       "4": "Characters affected by this state can only regenerate HP in this way once per short interval of time.",
       "5": "<br/>",
       "6": "<i>\"Carry hope when in dire straits, and keep vigil when all is well... For that pure white plume shall at last guide the lost wayfarers.\"</i>"
@@ -102,9 +102,9 @@
     }
   },
   "passive1": {
-    "name": "Rapid-Fire Suppression",
+    "name": "Suppressive Barrage",
     "description": {
-      "0": "The Soulwind state caused by <strong>Starfrost Swirl</strong> will grant characters the Detector effect under the following circumstances and in the following ways, increasing their Physical DMG by 10%.",
+      "0": "Per the following circumstances, the Soulwind state caused by <strong>Starfrost Swirl</strong> will grant characters the Detector effect, increasing their Physical DMG by 10% when they are on the field.",
       "1": [
         "If the Flowfrost Arrow hits more than one opponent, each additional opponent hit will generate 1 Detector stack.",
         "When a Rimestar Shard hits an opponent, it will generate 1 Detector stack. Each Rimestar Shard can trigger the effect 1 time."
@@ -114,11 +114,11 @@
     }
   },
   "passive2": {
-    "name": "Geomorphological Mapping",
+    "name": "Topographical Mapping",
     "description": {
-      "0": "When a character simultaneously affected by <strong>Skyfeather Song</strong>'s Eagleplume and <strong>Starfrost Swirl</strong>'s Soulwind scores a CRIT Hit with their attacks, Soulwind will grant them 1 stack of Detector from Rapid-Fire Suppression. During a single instance of Eagleplume, 1 Detector stack can be gained in this manner.",
+      "0": "When an active character affected by both <strong>Skyfeather Song</strong>'s Eagleplume and <strong>Starfrost Swirl</strong>'s Soulwind at once scores a CRIT Hit with their attacks, Soulwind will grant them 1 stack of Detector from Suppressive Barrage. During a single instance of Soulwind, 1 Detector stack can be gained in this manner.",
       "1": "Additionally, the maximum number of stacks that can be gained through Soulwind alone is increased by 1.",
-      "2": "Requires Rapid-Fire Suppression to be unlocked first."
+      "2": "Requires Suppressive Barrage to be unlocked first."
     }
   },
   "passive3": {
@@ -128,20 +128,20 @@
     }
   },
   "constellation1": {
-    "name": "Contingency Factor",
+    "name": "Factor Confluence",
     "description": {
       "0": "The Soulwind state of <strong>Starfrost Swirl</strong> can decrease the healing interval between instances caused by <strong>Skyfeather Song</strong>'s Eagleplume state. This decrease percentage is equal to the ATK SPD increase provided by Soulwind."
     }
   },
   "constellation2": {
-    "name": "Chaperone's Ingress",
+    "name": "Companion's Ingress",
     "description": {
-      "0": "When <strong>Starfrost Swirl</strong>'s Flowfrost Arrow first hits an opponent, or its Rimestar Flare hits opponents, 1 Detector stack from Passive Talent \"Rapid-Fire Suppression\" will be generated.",
-      "1": "You must have unlocked the Passive Talent \"Rapid-Fire Suppression\" first."
+      "0": "When <strong>Starfrost Swirl</strong>'s Flowfrost Arrow first hits an opponent, or its Rimestar Flare hits opponents, 1 Detector stack from Passive Talent \"Suppressive Barrage\" will be generated.",
+      "1": "You must have unlocked the Passive Talent \"Suppressive Barrage\" first."
     }
   },
   "constellation3": {
-    "name": "Reconnaissance Veteran",
+    "name": "Reconnaissance Experience",
     "description": {
       "0": "Increases the Level of <strong>Skyfeather Song</strong> by 3.",
       "1": "Maximum upgrade level is 15."
@@ -150,7 +150,7 @@
   "constellation4": {
     "name": "Sunfrost Encomium",
     "description": {
-      "0": "When Mika's own <strong>Skyfeather Song</strong>'s Eagleplume state heal other party members, this will restore 3 Energy to Mika. This form of Energy restoration can occur 5 times during the Eagleplume state created by 1 use of Skyfeather Song."
+      "0": "When Mika's own <strong>Skyfeather Song</strong>'s Eagleplume state heals party members, this will restore 3 Energy to Mika. This form of Energy restoration can occur 5 times during the Eagleplume state created by 1 use of Skyfeather Song."
     }
   },
   "constellation5": {
@@ -163,8 +163,8 @@
   "constellation6": {
     "name": "Companion's Counsel",
     "description": {
-      "0": "The maximum number of Detector stacks that <strong>Starfrost Swirl</strong>'s Soulwind can gain is increased by 1. You need to have unlocked the Passive Talent \"Rapid-Fire Suppression\" first.",
-      "1": "Additionally, characters affected by Soulwind will deal 60% more Physical CRIT DMG."
+      "0": "The maximum number of Detector stacks that <strong>Starfrost Swirl</strong>'s Soulwind can gain is increased by 1. You need to have unlocked the Passive Talent \"Suppressive Barrage\" first.",
+      "1": "Additionally, active characters affected by Soulwind will deal 60% more Physical CRIT DMG."
     }
   }
 }

@@ -1,6 +1,6 @@
 {
   "name": "Mika",
-  "title": "¿?",
+  "title": "El Agrimensor Nieveclara",
   "description": "",
   "constellationName": "Palumbus",
   "auto": {
@@ -41,7 +41,7 @@
   "skill": {
     "name": "Vórtice hieloastral",
     "description": {
-      "0": "Mika ataca a los enemigos con su ballesta y otorga el estado de “aeroánima” a los personajes en uso cercanos del equipo, lo que aumenta su Vel. de Ataque.",
+      "0": "Mika ataca a los enemigos con su ballesta y otorga el estado de “aeroánima” a todos los personajes cercanos del equipo. Cuando un personaje en estado de aeroánima está en uso, su Vel. de Ataque aumenta.",
       "1": "Esta habilidad tiene distintos efectos dependiendo de si se activa pulsando una vez o manteniendo pulsado.",
       "2": "<br/>",
       "3": "<strong>Pulsar una vez</strong>",
@@ -53,9 +53,9 @@
       "9": "<i>Las estrellas explotan bajo el cielo helado.</i>"
     },
     "skillParams": {
-      "0": "Daño de la saeta de escarcha",
+      "0": "Daño de saeta de escarcha",
       "1": "Daño de señal astrogélida",
-      "2": "Daño de las esquirlas astrogélidas",
+      "2": "Daño de esquirlas astrogélidas",
       "3": "Aumento de Vel. de Ataque",
       "4": "Duración de aeroánima",
       "5": "TdE",
@@ -77,15 +77,15 @@
       "0": "Mika invoca la fuerza para espolear a sus compañeros al recitar las oraciones de los Caballeros de Favonius, con lo que restaura Vida para todos los personajes del equipo cercanos en función de la vida Máx. de Mika, y les otorga el estado de “pluma aquilae”.",
       "1": "<br/>",
       "2": "<strong>Pluma aquilae</strong>",
-      "3": "Cuando un personaje en estado de pluma aquilae golpea a un enemigo con un Ataque Normal, Mika le regenera Vida en función de su propia Vida Máx.",
-      "4": "Los personajes en este estado solo pueden recuperar Vida una vez de este modo durante un corto periodo de tiempo.",
+      "3": "Cuando un personaje en uso bajo el estado de pluma aquilae golpea a un enemigo con un Ataque Normal, Mika le regenera Vida en función de su propia Vida Máx.",
+      "4": "Los personajes en este estado solo pueden recuperar Vida una vez cada cierto tiempo de esta forma.",
       "5": "<br/>",
       "6": "<i>“Mantén la esperanza en los tiempos difíciles y la alerta cuando todo va bien, pues esa pluma blanca al final mostrará el camino a los viajeros extraviados”.</i>"
     },
     "skillParams": {
       "0": "Regeneración al lanzar la habilidad",
       "1": "Regeneración de pluma aquilae",
-      "2": "Intervalo de regeneración de pluma aquilae",
+      "2": "Intervalo de regeneración de Vida de pluma aquilae",
       "3": "Duración de pluma aquilae",
       "4": "TdE",
       "5": "Energía Elemental",
@@ -104,7 +104,7 @@
   "passive1": {
     "name": "Supresión fuegorrápido",
     "description": {
-      "0": "En los siguientes casos, el estado de aeroánima otorgado por <strong>Vórtice hieloastral</strong> concederá el efecto de “detección”, el cual aumenta en un 10% el Daño Físico de los personajes:",
+      "0": "En los siguientes casos, el estado de aeroánima otorgado por <strong>Vórtice hieloastral</strong> concederá el fortalecimiento de “detección”, el cual aumenta en un 10% el Daño Físico de los personajes en uso:",
       "1": [
         "Cuando la saeta de escarcha golpea a más de un enemigo, se genera 1 carga de detección por cada enemigo adicional golpeado.",
         "Las esquirlas astrogélidas generan 1 carga de detección por cada enemigo golpeado. Cada esquirla astrogélida solo puede activar una vez este efecto."
@@ -116,8 +116,8 @@
   "passive2": {
     "name": "Levantamiento topográfico",
     "description": {
-      "0": "Cuando un personaje afectado a la vez por los estados pluma aquilae de <strong>Himno plumiceleste</strong> y aeroánima de <strong>Vórtice hieloastral</strong> inflige un crítico al atacar, el estado de aeroánima generará 1 carga de detección del talento pasivo “Supresión fuegorrápido”. Solo se puede generar hasta 1 carga de detección de esta manera durante un estado de pluma aquilae.",
-      "1": "Además, aumenta en{NON_BREAK_SPACE}1 el máximo de acumulaciones de detección durante el estado de aeroánima.",
+      "0": "Cuando un personaje en uso afectado a la vez por los estados pluma aquilae de <strong>Himno plumiceleste</strong> y aeroánima de <strong>Vórtice hieloastral</strong> inflige un crítico al atacar, el estado de aeroánima generará 1 carga de detección del talento pasivo “Supresión fuegorrápido”. Solo se puede generar 1 carga de detección de esta manera durante un estado de aeroánima.",
+      "1": "Además, aumenta en{NON_BREAK_SPACE}1 el máximo de acumulaciones de detección durante ese estado.",
       "2": "Es necesario desbloquear el talento pasivo “Supresión fuegorrápido”."
     }
   },
@@ -150,7 +150,7 @@
   "constellation4": {
     "name": "Alabanza de la cencellada",
     "description": {
-      "0": "Cuando el estado de pluma aquilae de <strong>Himno plumiceleste</strong> de Mika cura a otros miembros del equipo, Mika recupera 3{NON_BREAK_SPACE}pts. de Energía Elemental. Solo se puede regenerar Energía Elemental hasta 5 veces mediante un estado de pluma aquilae creado con Himno plumiceleste."
+      "0": "Cuando el estado de pluma aquilae de <strong>Himno plumiceleste</strong> de Mika cura a los personajes del equipo, Mika recupera 3{NON_BREAK_SPACE}pts. de Energía Elemental. Solo se puede regenerar Energía Elemental hasta 5 veces mediante un estado de pluma aquilae creado con Himno plumiceleste."
     }
   },
   "constellation5": {
@@ -165,7 +165,7 @@
     "description": {
       "0": "Aumenta en 1 el máximo de cargas de detección acumulables en el estado de aeroánima de <strong>Vórtice hieloastral</strong>.",
       "1": "Es necesario desbloquear el talento pasivo “Supresión fuegorrápido”.",
-      "2": "Además, cuando un personaje está bajo los efectos de aeroánima, el Daño CRIT de sus ataques que infligen Daño Físico aumenta en un 60%."
+      "2": "Además, cuando un personaje en uso está bajo los efectos de aeroánima, el Daño CRIT de sus ataques que infligen Daño Físico aumenta en un 60%."
     }
   }
 }

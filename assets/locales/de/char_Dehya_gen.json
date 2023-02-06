@@ -1,8 +1,8 @@
 {
   "name": "Dehya",
-  "title": "???",
+  "title": "Feuermähne",
   "description": "",
-  "constellationName": "Mantichoraßßß",
+  "constellationName": "Mantichora",
   "auto": {
     "name": "Standardangriff – Schwertkunst der Goldenen Brise",
     "fields": {
@@ -49,14 +49,14 @@
       "4": "Verursacht <pyro>Pyro-Flächenschaden</pyro> und erschafft ein Feld des Unzähmbaren Schwertjochs.",
       "5": "<br/>",
       "6": "<strong>Loderndes Schwertfeld</strong>",
-      "7": "Wird entfesselt, wenn sich währenddessen Dehyas Unzähmbares Schwertjoch auf dem Schlachtfeld befindet.",
+      "7": "Wird entfesselt, wenn sich zur gleichen Zeit Dehyas Unzähmbares Schwertjoch auf dem Schlachtfeld befindet.",
       "8": "Führt einen Sprungangriff aus, der <pyro>Pyro-Flächenschaden</pyro> verursacht und an einer neuen Position das Feld des Unzähmbaren Schwertjochs erneut erschafft.",
       "9": "Dieses mit dieser Methode neu geschaffene Feld des Unzähmbaren Schwertjochs setzt die Dauer des ursprünglichen Feldes weiter fort.",
       "10": "<br/>",
       "11": "Während der Dauer eines Feldes des Unzähmbaren Schwertjochs kann nur einmal Loderndes Schwertfeld entfesselt werden.",
       "12": "<br/>",
       "13": "<strong>Unzähmbares Schwertjoch</strong>",
-      "14": "Erleiden Gegner innerhalb des Feldes Schaden, initiiert Unzähmbares Schwertjoch einen abgestimmten Angriff, der diesen Gegnern <pyro>Pyro-Flächenschaden</pyro> zufügt. 2,5 s Abklingzeit.",
+      "14": "Erleiden Gegner innerhalb des Feldes Schaden, initiiert Unzähmbares Schwertjoch einen abgestimmten Angriff, der diesen Gegnern <pyro>Pyro-Flächenschaden</pyro> basierend auf Dehyas ANG und max. LP zufügt. 2,5 s Abklingzeit.",
       "15": "Erhöht den Unterbrechungs-WDS aktueller Figuren innerhalb dieses Feldes. Erleiden diese Figuren außerdem Schaden, wird ein Teil des Schadens neutralisiert und auf „Blut der Rotmähne“ übertragen, sodass Dehya diesen erlittenen Schaden innerhalb von 10 s trägt. Erreicht oder übersteigt der in Blut der Rotmähne gespeicherte Schaden einen bestimmten Anteil von Dehyas max. LP, so wird kein Schaden mehr neutralisiert.",
       "16": "<br/>",
       "17": "Gleichzeitig kann immer nur 1 von Dehya erzeugtes Unzähmbares Schwertjoch existieren.",
@@ -86,7 +86,7 @@
     "name": "Flammender Löwenbiss",
     "description": {
       "0": "Dehya entfesselt ihre sengende Wut, wirft ihr Großschwert, welches jetzt nur im Weg wäre, von sich und tritt in den Zustand „Flammender Löwe“ ein, wodurch sich ihr Unterbrechungs-WDS erhöht.",
-      "1": "In diesem Zustand schwingt sie automatisch ununterbrochen ihre Flammenden Löwenfäuste und verursacht <pyro>Pyro-Schaden</pyro>. Bei Ablauf der Dauer führt sie einen Versengenden Tritt aus, der <pyro>Pyro-Flächenschaden</pyro> verursacht.",
+      "1": "In diesem Zustand schwingt sie automatisch ununterbrochen ihre Flammenden Löwenfäuste und verursacht <pyro>Pyro-Schaden</pyro> basierend auf ihrem ANG und max. LP. Bei Ablauf der Dauer führt sie einen Versengenden Tritt aus, der <pyro>Pyro-Flächenschaden</pyro> basierend auf ihrem ANG und max. LP verursacht.",
       "2": "Sollte sich beim Auslösen ein Feld des „Unzähmbaren Schwertjochs“ von Dehyas Elementarfähigkeit „Inferno geschmolzenen Eisens“ auf dem Schlachtfeld befinden, so wird sie dieses zurückziehen und nach Beendigung des Zustands „Flammender Löwe“ an einem neuen Ort erzeugen. Das neu erzeugte Feld setzt die Dauer des zurückgezogenen Feldes von dem Moment an fort, an dem es zurückgezogen wurde.",
       "3": "In diesem Zustand kann Dehya weder ihre Elementarfähigkeit noch ihren Standardangriff, heftigen Schlag oder Angriff aus dem Fall einsetzen. Ihr „Standardangriff – Schwertkunst der Goldenen Brise“ und ihre Elementarfähigkeit „Inferno geschmolzenen Eisens“ werden durch „Flammengebrüll“ ersetzt.",
       "4": "<br/>",
@@ -117,9 +117,8 @@
   "passive1": {
     "name": "Unermüdlicher Beistand",
     "description": {
-      "0": "Dehya erleidet, nachdem sie nach dem Auslösen von <strong>Inferno geschmolzenen Eisens – Loderndes Schwertfeld</strong> oder <strong>Flammender Löwenbiss</strong> Unzähmbares Schwertjoch zurückgeholt hat, 6 s lang 60 % weniger des Schadens, der von Blut der Rotmähne stammt. 2 s Abklingzeit.",
-      "1": "Darüber hinaus gewährt Unzähmbares Schwertjoch 4 s, nachdem es geschaffen wurde, Figuren, die sich in ihm befinden, zusätzlich Unterbrechungs-WDS.",
-      "2": "8 s Abklingzeit."
+      "0": "Dehya erleidet, nachdem sie nach dem Auslösen von <strong>Inferno geschmolzenen Eisens – Loderndes Schwertfeld</strong> oder <strong>Flammender Löwenbiss</strong> Unzähmbares Schwertjoch zurückgeholt hat, 6 s lang 60 % weniger Schaden, der von Blut der Rotmähne stammt. 2 s Abklingzeit.",
+      "1": "Darüber hinaus gewährt Dehya nach dem Auslösen von <strong>Inferno geschmolzenen Eisens – Unzähmbare Flamme</strong> 9 s allen Truppenmitgliedern den Zustand „In Gold gegossener Körperßßß“. Wenn sich Figuren im Zustand In Gold gegossener Körperßßß im Feld des Unzähmbaren Schwertjochs befinden, erhalten sie zusätzlichen Unterbrechungs-WDS. Der Zustand In Gold gegossener Körperßßß hat 18 s Abklingzeit."
     }
   },
   "passive2": {
@@ -136,26 +135,27 @@
     }
   },
   "constellation1": {
-    "name": "Glühend-helle Flamme",
+    "name": "Glühend helle Flamme",
     "description": {
-      "0": "Erhöht die max. LP von Dehya um 15 % und den mit den folgenden Angriffen von Dehya verursachten Schaden basierend auf ihren max. LP:",
+      "0": "Erhöht die max. LP von Dehya um 20 % und den mit den folgenden Angriffen von Dehya verursachten Schaden basierend auf ihren max. LP:",
       "1": [
-        " Erhöht den Schaden von <strong>Inferno geschmolzenen Eisens</strong> um 5,2 % der max. LP.",
-        " Erhöht den Schaden von <strong>Flammender Löwenbiss</strong> um 8,4 % der max. LP."
+        " Erhöht den Schaden von <strong>Inferno geschmolzenen Eisens</strong> um 3,6 % der max. LP.",
+        " Erhöht den Schaden von <strong>Flammender Löwenbiss</strong> um 6 % der max. LP."
       ]
     }
   },
   "constellation2": {
     "name": "Das Glänzen der Sandklinge",
     "description": {
-      "0": "Verlängert, wenn <strong>Inferno geschmolzenen Eisens – Loderndes Schwertfeld</strong> ausgelöst wird, die Dauer des erneut geschaffenen Feldes des Unzähmbaren Schwertjochs um 6 s.",
-      "1": "Erhöht außerdem den Schaden des abgestimmten Angriffs des Ungezähmten Schwertjochs um 25 %, wenn sich eines davon auf dem Feld befindet und aktuelle Figuren in diesem angegriffen werden."
+      "0": "Verlängert, wenn <strong>Inferno geschmolzenen Eisens – Loderndes Schwertfeld</strong> ausgelöst wird, die Dauer des erneut geschaffenen Feldes des Unzähmbaren Schwertjochs um 4 s.",
+      "1": "Erhöht außerdem den Schaden des nächsten abgestimmten Angriffs des Unzähmbaren Schwertjochs um 50 %, wenn sich eines davonßßß auf dem Feld befindet und aktuelle Figuren in diesem angegriffen werden."
     }
   },
   "constellation3": {
     "name": "Wut, einem Lauffeuer gleich",
     "description": {
-      "0": "Erhöht die Stufe der Fähigkeit <strong>Flammender Löwenbiss</strong> um 3. Höchststufe 15."
+      "0": "Erhöht die Stufe der Fähigkeit <strong>Flammender Löwenbiss</strong> um 3.",
+      "1": "Höchststufe 15."
     }
   },
   "constellation4": {
@@ -167,14 +167,15 @@
   "constellation5": {
     "name": "Entfesselte Bestienjägerin",
     "description": {
-      "0": "Erhöht die Stufe der Fähigkeit <strong>Inferno geschmolzenen Eisens</strong> um 3. Höchststufe 15."
+      "0": "Erhöht die Stufe der Fähigkeit <strong>Inferno geschmolzenen Eisens</strong> um 3.",
+      "1": "Höchststufe 15."
     }
   },
   "constellation6": {
     "name": "Brennende reißende Klauen",
     "description": {
       "0": "Erhöht die KT von <strong>Flammender Löwenbiss</strong> um 10 %.",
-      "1": "Außerdem wird, nachdem während der Dauer von einem Mal Flammender Löwenbiss ein Gegner mit Flammende Löwenfäuste getroffen und KSCH verursacht wird, der KSCH von Flammender Löwenbiss innerhalb der Dauer um 15 % erhöht und seine Dauer um 0,5 s verlängert. 0,2 s Abklingzeit. Auf diese Weise kann die Dauer um bis zu 2 s verlängert und der Kritische Schaden um bis zu 60 % erhöht werden."
+      "1": "Wird außerdem, während der Dauer von einem Mal Flammender Löwe, ein Gegner mit Flammenden Löwenfäusten getroffen und KSCH verursacht, erhöht sich danach der KSCH von Flammender Löwenbiss innerhalb der Dauer um 15% und seine Dauer wird um 0,5s verlängert. 0,2 s Abklingzeit. Auf diese Weise kann die Dauer um bis zu 2 s verlängert und der Kritische Schaden um bis zu 60 % erhöht werden."
     }
   }
 }

@@ -1,10 +1,10 @@
 {
   "name": "Mika",
-  "title": "???",
+  "title": "Koordinaten des klaren Frosts",
   "description": "",
   "constellationName": "Palumbus",
   "auto": {
-    "name": "Favonius Speerkunst – Erbe der Bolzenßßß",
+    "name": "Favonius Speerkunst – Erbe der Bolzen",
     "fields": {
       "normal": {
         "0": "<strong><strong>Standardangriff</strong>",
@@ -41,7 +41,7 @@
   "skill": {
     "name": "Sternenfrost-Strudel",
     "description": {
-      "0": "Mika greift Gegner mit seiner Armbrust an und gewährt außerdem aktuellen Figuren in der Nähe Seelenböe, die deren Angriffs-GSW erhöht.",
+      "0": "Mika greift Gegner mit seiner Armbrust an und gewährt außerdem allen in der Nähe befindlichen Figuren in der Truppe Seelenböe. Wenn sich Figuren im Zustand Seelenböe auf dem Feld befinden, erhöht sich ihre Angriffs-GSW.",
       "1": "Je nachdem, ob getippt oder gedrückt gehalten wird, wird ein anderer Effekt erzeugt.",
       "2": "<br/>",
       "3": "<strong>Tippen</strong>",
@@ -74,18 +74,18 @@
   "burst": {
     "name": "Der Federn Wunsch",
     "description": {
-      "0": "Mika ermuntert seine Gefährten mithilfe des Gebets des Ritterordens weiter voranzuschreiten. Stellt allen Truppenmitgliedern in der Nähe LP basierend auf Mikas max. LP wieder her und verleiht ihnen außerdem den Status Falkenfeder.",
+      "0": "Mika ermuntert seine Gefährten mithilfe des Gebets des Ritterordens weiter voranzuschreiten. Stellt allen Truppenmitgliedern in der Nähe LP basierend auf Mikas max. LP wieder her und verleiht ihnen außerdem den Zustand Falkenfeder.",
       "1": "<br/>",
       "2": "<strong>Falkenfeder</strong>",
-      "3": "Wenn Figuren unter dem Effekt Falkenfeder Gegner mit ihrem Standardangriff treffen, stellt Mika bei diesen LP basierend auf seinen max. LP wieder her.",
-      "4": "Figuren unter diesem Effekt können innerhalb kurzer Zeit nur einmal auf diese Weise LP wiederherstellen.",
+      "3": "Wenn Figuren, die sich im Zustand Falkenfeder auf dem Feld befinden, Gegner mit ihrem Standardangriff treffen, stellt Mika diesen Figuren LP basierend auf seinen max. LP wieder her.",
+      "4": "Figuren unter diesem Zustand können innerhalb kurzer Zeit nur 1-mal auf diese Weise LP wiederhergestellt werden.",
       "5": "<br/>",
       "6": "<i>„Hoffnung in der Not, Wachsamkeit in guten Zeiten ... denn die weiße Feder wird den verirrten Reisenden auf den richtigen Weg führen.“</i>"
     },
     "skillParams": {
-      "0": "Wiederherstellung bei Auslösen",
-      "1": "Falkenfeder-Wiederherstellung",
-      "2": "Falkenfeder-Wiederherstelungsintervall",
+      "0": "Heilung bei Auslösen",
+      "1": "Falkenfeder-Heilung",
+      "2": "Falkenfeder-Heilungsintervall",
       "3": "Falkenfeder-Dauer",
       "4": "Abklingzeit",
       "5": "Elementarenergie",
@@ -102,12 +102,12 @@
     }
   },
   "passive1": {
-    "name": "Schnellfeuer-Unterdrückung",
+    "name": "Unterdrückendes Sperrfeuer",
     "description": {
-      "0": "Im Zustand Seelenböe des <strong>Sternenfrost-Strudels</strong> wird in folgenden Situationen Entdeckung gewährt, wodurch der von Figuren verursachte physische Schaden um 10 % erhöht wird:",
+      "0": "Im Zustand Seelenböe des <strong>Sternenfrost-Strudels</strong> wird in folgenden Situationen der Effekt Entdeckung gewährt, wodurch der von aktiven Figuren verursachte physische Schaden um 10 % erhöht wird:",
       "1": [
         " Wenn der Frostfluss-Pfeil mehr als 1 Gegner trifft, wird pro zusätzlich getroffenen Gegner 1 Stapelung des Effekts Entdeckung erschaffen.",
-        " Trifft ein Eisstern-Splitter einen Gegner, wird 1 Stapelung des Effekts Entdeckung erschaffen. Jeder Eisstern-Splitter kann diesen Effekt jeweils nur einmal auslösen."
+        " Trifft ein Eisstern-Splitter einen Gegner, wird 1 Stapelung des Effekts Entdeckung erschaffen. Jeder Eisstern-Splitter kann diesen Effekt jeweils nur 1-mal auslösen."
       ],
       "2": "<br/>",
       "3": "Der Effekt Entdeckung des Zustands Seelenböe ist 3-fach stapelbar. Wenn Sternenfrost-Strudel während der Dauer erneut eingesetzt wird, werden der ursprüngliche Zustand von Seelenböe und dessen Effekt Entdeckung entfernt."
@@ -116,9 +116,9 @@
   "passive2": {
     "name": "Geomorphologische Kartografierung",
     "description": {
-      "0": "Wenn Figuren mit ihren Angriffen kritische Treffer auslösen, während sie sich gleichzeitig in den Zuständen Falkenfeder von <strong>Der Federn Wunsch</strong> und Seelenböe des <strong>Sternenfrost-Strudels</strong> befinden, erschafft Seelenböe 1 Stapelung des Effekts Entdeckung des passiven Talents „Schnellfeuer-Unterdrückung“. Während der Dauer des einen Zustands Falkenfeder kann über diese Methode höchstens 1 Stapelung des Effekts Entdeckung erschaffen werden.",
+      "0": "Wenn aktive Figuren mit ihren Angriffen kritische Treffer auslösen, während sie sich gleichzeitig in den Zuständen Falkenfeder von <strong>Der Federn Wunsch</strong> und Seelenböe des <strong>Sternenfrost-Strudels</strong> befinden, erschafft Seelenböe 1 Stapelung des Effekts Entdeckung des passiven Talents „Unterdrückendes Sperrfeuer“. Während einer einzigen Dauer des Zustands Seelenböe kann auf diese Weise höchstens 1 Stapelung des Effekts Entdeckung erschaffen werden.",
       "1": "Außerdem kann im Zustand Seelenböe die maximale Stapelung des Effekts Entdeckung um 1 erhöht werden.",
-      "2": "Das passive Talent „Schnellfeuer-Unterdrückung“ muss zuerst freigeschaltet werden."
+      "2": "Das passive Talent „Unterdrückendes Sperrfeuer“ muss zuerst freigeschaltet werden."
     }
   },
   "passive3": {
@@ -136,33 +136,35 @@
   "constellation2": {
     "name": "Eine Reise in Begleitung",
     "description": {
-      "0": "Sobald der erste Frostfluss-Pfeil von <strong>Sternenfrost-Strudel</strong>, oder die Eisstern-Bake, einen Gegner trifft, wird 1 Stapelung des Effekts Entdeckung des passiven Talents „Schnellfeuer-Unterdrückung“ erschaffen.",
-      "1": "Das passive Talent „Schnellfeuer-Unterdrückung“ muss zuerst freigeschaltet werden."
+      "0": "Sobald der erste Frostfluss-Pfeil von <strong>Sternenfrost-Strudel</strong>, oder die Eisstern-Bake, einen Gegner trifft, wird 1 Stapelung des Effekts Entdeckung des passiven Talents „Unterdrückendes Sperrfeuer“ erschaffen.",
+      "1": "Das passive Talent „Unterdrückendes Sperrfeuer“ muss zuerst freigeschaltet werden."
     }
   },
   "constellation3": {
     "name": "Guerilla-Erfahrung",
     "description": {
-      "0": "Erhöht die Stufe der Fähigkeit <strong>Der Federn Wunsch</strong> um 3. Höchststufe 15."
+      "0": "Erhöht die Stufe der Fähigkeit <strong>Der Federn Wunsch</strong> um 3.",
+      "1": "Höchststufe 15."
     }
   },
   "constellation4": {
     "name": "Sonnenfrost-Segen",
     "description": {
-      "0": "Mikas Zustand Falkenfeder von <strong>Der Federn Wunsch</strong> heilt andere Truppenmitglieder und stellt bei Mika 3 Punkte Elementarenergie wieder her. Mit einem Auslösen des Zustands Falkenfeder über Der Federn Wunsch kann bis zu 5 Mal Elementarenergie wiederhergestellt werden."
+      "0": "Stellt Mika 3 Punkte Elementarenergie wieder her, wenn Mikas Zustand Falkenfeder von <strong>Der Federn Wunsch</strong> Figuren in der Truppe heilt. Mit dem Zustand „Falkenfeder“, erzeugt durch ein einmaliges Einsetzen von „Der Federn Wunsch“, kann bis zu 5 Mal Elementarenergie wiederhergestellt werden."
     }
   },
   "constellation5": {
     "name": "Glockenpfeil",
     "description": {
-      "0": "Erhöht die Stufe der Fähigkeit <strong>Sternenfrost-Strudel</strong> um 3. Höchststufe 15."
+      "0": "Erhöht die Stufe der Fähigkeit <strong>Sternenfrost-Strudel</strong> um 3.",
+      "1": "Höchststufe 15."
     }
   },
   "constellation6": {
     "name": "Unterstützung von Mitstreitern",
     "description": {
-      "0": "Erhöht die maximale Stapelung des Effekts Entdeckung des Zustands Seelenböe von <strong>Sternenfrost-Strudel</strong> um 1. Das passive Talent „Schnellfeuer-Unterdrückung“ muss zuerst freigeschaltet werden.",
-      "1": "Außerdem wird der KSCH des physischen Schadens der vom Effekt Seelenböe betroffenen Figuren um 60 % erhöht."
+      "0": "Erhöht die maximale Stapelung des Effekts Entdeckung des Zustands Seelenböe von <strong>Sternenfrost-Strudel</strong> um 1. Das passive Talent „Unterdrückendes Sperrfeuer“ muss zuerst freigeschaltet werden.",
+      "1": "Außerdem wird der KSCH des physischen Schadens der vom Zustand Seelenböe betroffenen aktiven Figuren um 60 % erhöht."
     }
   }
 }

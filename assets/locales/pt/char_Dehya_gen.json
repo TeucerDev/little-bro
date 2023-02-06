@@ -1,6 +1,6 @@
 {
   "name": "Dehya",
-  "title": "???",
+  "title": "Leoa Flamejante",
   "description": "",
   "constellationName": "Mantichora",
   "auto": {
@@ -56,12 +56,12 @@
       "11": "Só é possível lançar um Campo da Espada Incinerante na duração de um campo de Prisão Flamejante.",
       "12": "<br/>",
       "13": "<strong>Prisão Flamejante</strong>",
-      "14": "Quando os inimigos dentro desse campo sofrem Dano, a Prisão Flamejante realizará um Ataque Coordenado, causando <pyro>Dano Pyro em AdE</pyro>. Esse efeito pode ser desencadeado uma vez a cada 2.5s.",
+      "14": "Quando os inimigos dentro desse campo sofrem Dano, a Prisão Flamejante realizará um Ataque Coordenado baseado no ATQ e Vida Máxima de Dehya, causando <pyro>Dano Pyro em AdE</pyro>. Esse efeito pode ser desencadeado uma vez a cada 2.5s.",
       "15": "Aumenta a Resistência contra Interrupção dos personagens ativos dentro do campo, e quando esses personagens sofrem Dano, mitiga parte desse Dano, convertendo-o em \"Sangue da Leoa Vermelha\", com Dehya sofrendo esse Dano por 10s. Quando o Dano armazenado alcançar ou ultrapassar uma certa proporção da Vida Máxima de Dehya, parará de absorvê-lo.",
       "16": "<br/>",
       "17": "Só é possível existir uma Prisão Flamejante criada por Dehya simultaneamente.",
       "18": "<br/>",
-      "19": "<i>Caminhe nesse julgamento de chamas comigo, expurgando todas as impurezas, como uma besta flamejante descendo a tudo incinerando.</i>"
+      "19": "<i>Caminhe nesse julgamento de chamas comigo, expurgando todas as impurezas, como uma besta flamejante incinerando tudo com suas garras e presas.</i>"
     },
     "skillParams": {
       "0": "Dano de Coragem Flamejante",
@@ -86,16 +86,16 @@
     "name": "Mordida da Leoa",
     "description": {
       "0": "Liberando sua fúria flamejante e jogando sua lâmina de lado, Dehya entra no estado \"Leoa Chamejante\", aumentando sua Resistência contra Interrupção.",
-      "1": "Nesse estado, Dehya irá automática e continuamente desferir Socos da Leoa Flamejante, causando <pyro>Dano Pyro</pyro>. Quando a duração acabar, ela fará um Chute-Labareda que causará <pyro>Dano Pyro em AdE</pyro>.",
+      "1": "Nesse estado, Dehya irá automática e continuamente desferir Socos da Leoa Flamejante baseados em seu ATQ e Vida Máxima, causando <pyro>Dano Pyro</pyro>. Quando a duração acabar, ela fará um Chute-Labareda que causará <pyro>Dano Pyro em AdE</pyro> que é baseado em seu ATQ e Vida Máxima.",
       "2": "Se ao lançar existir ativo no campo de batalha o campo \"Prisão Flamejante\" da Habilidade Elemental \"Inferno Derretido\" de Dehya, ela irá recolhê-lo, e quando a duração de Leoa Chamejante acabar, gerará novamente numa nova posição, ao gerar novamente, herdará a duração do campo recolhido.",
-      "3": "Nesse estado, Dehya não poderá lançar sua Habilidaed Elemental, não poderá fazer Ataques Normais, Carregados e Imersivos. Seu \"Ataque Normal: Técnica da Espada Dourada\" e Habilidade Elemental \"Inferno Derretido\" serão substituídos por \"Golpes do Rugido\".",
+      "3": "Nesse estado, Dehya não poderá lançar sua Habilidade Elemental, não poderá fazer Ataques Normais, Carregados e Imersivos. Seu \"Ataque Normal: Técnica da Espada Dourada\" e Habilidade Elemental \"Inferno Derretido\" serão substituídos por \"Golpes do Rugido\".",
       "4": "<strong>Golpes do Rugido</strong>",
-      "5": "Lançar um Golpe do Rugido nos 0.4s depois de lançar Soco da Leoa Flamejante aumentará a velocidade de lançamento do próximo Soco da Leoa Flamejante. ",
+      "5": "Lançar um Golpe do Rugido nos 0.4s após lançar Soco da Leoa Flamejante aumentará a velocidade de lançamento do próximo Soco da Leoa Flamejante. ",
       "6": "<br/>",
       "7": "<i>Até mesmo as chamas devem obedecer sua fúria, e sob seu comando se tornarão suas presas e garras.</i>"
     },
     "skillParams": {
-      "0": "Dano de Soco da Leoa Flamejante",
+      "0": "Dano do Soco da Leoa Flamejante",
       "1": "Dano do Chute-Labareda",
       "2": "Duração",
       "3": "Tempo de Recarga",
@@ -116,8 +116,8 @@
   "passive1": {
     "name": "Socorro Generoso",
     "description": {
-      "0": "Nos 6s depois de Dehya retirar a Prisão Flamejante através de <strong>Inferno Derretido - Campo da Espada Incinerante</strong> ou <strong>Mordida da Leoa</strong>, o Dano que Dehya recebe de Sangue da Leoa Vermelha será reduzido em 60%. Este efeito pode ser ativado 1 vez a cada 2s.",
-      "1": "Além disso, nos 4s após a criação da Prisão Flamejante, concede Resistência contra Interrupção extra ao personagem dentro dela. Este efeito pode ser ativado 1 vez a cada 8s."
+      "0": "Nos 6s após Dehya recolher Prisão Flamejante, lançar <strong>Inferno Derretido - Campo da Espada Incinerante</strong> ou <strong>Mordida da Leoa</strong>, o Dano que Dehya recebe de Sangue da Leoa Vermelha será reduzido em 60%. Este efeito pode ser ativado 1 vez a cada 2s.",
+      "1": "Além disso, nos 9s após lançar <strong>Inferno Derretido - Campo da Espada Incinerante</strong>, concederá o estado \"Corpo Fundido Dourado\" para todos os membros da equipe. Quando personagens que estiverem sob o estado do Corpo Fundido Dourado entrarem no campo da Espada Incinerante, obterão Resistência contra Interrupção adicional. É possível gerar o estado Corpo Fundido Dourado uma vez a cada 18s."
     }
   },
   "passive2": {
@@ -136,18 +136,18 @@
   "constellation1": {
     "name": "Chama Incandescente",
     "description": {
-      "0": "A Vida Máxima de Dehya aumenta 15%. Além disso, aumenta o Dano causado pelos ataques de Dehya baseado na sua Vida Máxima:",
+      "0": "A Vida Máxima de Dehya aumenta 20%. Além disso, aumenta o Dano causado pelos ataques de Dehya baseado na sua Vida Máxima:",
       "1": [
-        " Aumento de Dano de <strong>Inferno Derretido</strong>: 5.2% da Vida Máxima;",
-        " Aumento de Dano de <strong>Mordida da Leoa</strong>: 8.4% da Vida Máxima."
+        " Aumento de Dano de <strong>Inferno Derretido</strong>: 3.6% da Vida Máxima;",
+        " Aumento de Dano de <strong>Mordida da Leoa</strong>: 6% da Vida Máxima."
       ]
     }
   },
   "constellation2": {
     "name": "Brilho das Lâminas de Areia",
     "description": {
-      "0": "Ao lançar <strong>Inferno Derretido - Campo da Espada Incinerante</strong>, estende a duração do campo Prisão Flamejante que foi gerado novamente em 6s.",
-      "1": "Além disso, há um campo Prisão Flamejante ativo e o personagem ativo dentro dele sofre Dano, aumenta o Dano do Ataque Coordenado seguinte de Prisão Flamejante em 25%."
+      "0": "Ao lançar <strong>Inferno Derretido - Campo da Espada Incinerante</strong>, estende a duração do campo Prisão Flamejante que foi gerado novamente em 4s.",
+      "1": "Além disso, quando há um campo Prisão Flamejante ativo e o personagem ativo dentro dele sofre Dano, aumenta o Dano do Ataque Coordenado seguinte de Prisão Flamejante em 50%."
     }
   },
   "constellation3": {

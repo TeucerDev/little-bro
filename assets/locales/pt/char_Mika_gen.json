@@ -1,6 +1,6 @@
 {
   "name": "Mika",
-  "title": "???",
+  "title": "Topógrafo da Geada Translúcida",
   "description": "",
   "constellationName": "Palumbus",
   "auto": {
@@ -41,8 +41,8 @@
   "skill": {
     "name": "Redemoinho Estelar Gelado",
     "description": {
-      "0": "Usa sua besta para atacar os inimigos, e concede aos personagens ativos próximos o estado Alma do Vento, aumentando a Vel. de ATQ deles.",
-      "1": "Gera efeitos diferentes e for lançado Pressionando ou Mantendo Pressionado.",
+      "0": "Usa sua besta para atacar os inimigos, e concede aos personagens próximos o estado Alma do Vento. Quando um personagem no estado Alma do Vento está ativo no campo de batalha, aumenta a sua a Vel. de ATQ.",
+      "1": "Gera efeitos diferentes se for lançado Pressionando ou Mantendo Pressionado.",
       "2": "<br/>",
       "3": "<strong>Pressionar</strong>",
       "4": "Dispara uma Flecha Gélida rapidamente que penetra os inimigos, causando <cryo>Dano Cryo</cryo>.",
@@ -77,7 +77,7 @@
       "0": "Eleva a moral dos companheiros através das orações dos Cavaleiros de Favonius, regenerando Vida para todos os personagens próximos baseada na Vida Máxima de Mika e concedendo a eles o estado Pena do Falcão.",
       "1": "<br/>",
       "2": "<strong>Pena do Falcão</strong>",
-      "3": "Quando os Ataques Normais de personagens sob o estado Pena do Falcão atingem um inimigo, Mika regenerará Vida para esses personagens baseada na sua Vida Máxima.",
+      "3": "Quando os Ataques Normais de personagens ativos sob o estado Pena do Falcão atingem um inimigo, Mika regenerará Vida para esses personagens baseada na Vida Máxima de Mika.",
       "4": "Os personagens nesse estado só podem regenerar Vida desta maneira uma vez em um curto intervalo de tempo.",
       "5": "<br/>",
       "6": "<i>\"Leve a esperança nos momentos difíceis e não baixe a guarda que tudo ficará bem... Pois aquela pena branca pura guiará os errantes perdidos.\"</i>"
@@ -104,10 +104,10 @@
   "passive1": {
     "name": "Supressão de Disparo Rápido",
     "description": {
-      "0": "O estado Alma do Vento de <strong>Redemoinho Estelar Gelado</strong> concederá nas seguintes circunstâncias aos personagens o efeito Detector, aumentando o Dano Físico causado em 10%:",
+      "0": "O estado Alma do Vento de <strong>Redemoinho Estelar Gelado</strong> concederá nas seguintes circunstâncias aos personagens ativos o efeito Detector, aumentando o Dano Físico causado em 10%:",
       "1": [
         " Quando a Flecha Gélida atinge mais de um inimigo, gera 1 acúmulo do efeito Detector para cada inimigo adicional atingido;",
-        " Quando um Fragmento Estelar Gélido atinge um inimigo, gera 1 acúmulo do efeito Detector. Cada Fragmento Estela Gélido só pode desencadear este efeito uma vez."
+        " Quando um Fragmento Estelar Gélido atinge um inimigo, gera 1 acúmulo do efeito Detector. Cada Fragmento Estelar Gélido só pode desencadear este efeito uma vez."
       ],
       "2": "<br/>",
       "3": "É possível ter até 3 acúmulos do efeito Detector no estado Alma do Vento. Lançar Redemoinho Estelar Gelado novamente nessa duração removerá o estado Alma do Vento original e os seus acúmulos de efeito Detector."
@@ -116,7 +116,7 @@
   "passive2": {
     "name": "Mapeamento Topográfico",
     "description": {
-      "0": "Personagens que estiverem simultaneamente no estado Pena do Falcão de <strong>Canção da Pena do Céu</strong> e Alma do Vento de <strong>Redemoinho Estelar Gelado</strong>, ao causarem Dano CRIT com um ataque farão o estado Alma do Vento gerar 1 acúmulo do efeito Detector do Talento Passivo \"Supressão de Disparo Rápido\". É possível gerar até 1 acúmulo do efeito Detector em uma duração do estado Pena do Falcão.",
+      "0": "Personagens ativos que estiverem simultaneamente no estado Pena do Falcão de <strong>Canção da Pena do Céu</strong> e Alma do Vento de <strong>Redemoinho Estelar Gelado</strong>, ao causarem Dano CRIT com um ataque farão o estado Alma do Vento gerar 1 acúmulo do efeito Detector do Talento Passivo \"Supressão de Disparo Rápido\". É possível gerar até 1 acúmulo do efeito Detector em uma duração do estado Pena do Falcão.",
       "1": "Além disso, o número máximo de acúmulos que podem ser obtidos no estado Alma do Vento é aumentado em 1.",
       "2": "É necessário desbloquear o Talento Passivo \"Supressão de Disparo Rápido\"."
     }
@@ -164,7 +164,7 @@
     "name": "Conselheiro Acompanhante",
     "description": {
       "0": "Aumenta em 1 o número máximo de acúmulos do efeito Detector do estado Alma do Vento de <strong>Redemoinho Estelar Gelado</strong>. É necessário desbloquear o Talento Passivo \"Supressão de Disparo Rápido\".",
-      "1": "Além disso, personagens sob o estado Alma do Vento obterão 60% de aumento de Dano Físico CRIT."
+      "1": "Além disso, personagens ativos sob o estado Alma do Vento obterão 60% de aumento de Dano Físico CRIT."
     }
   }
 }
