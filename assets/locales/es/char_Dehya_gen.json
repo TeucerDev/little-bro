@@ -1,7 +1,7 @@
 {
   "name": "Dehya",
   "title": "La Leona Ardiente",
-  "description": "",
+  "description": "Dehya, miembro de Los Eremitas, una organización de mercenarios del desierto de Sumeru. Es valiente, poderosa y goza de una gran reputación en dicha organización.",
   "constellationName": "Mantichora",
   "auto": {
     "name": "Sacudida áurea",
@@ -50,14 +50,14 @@
       "5": "<br/>",
       "6": "<strong>Acometida ardiente</strong>",
       "7": "Se libera cuando hay algún cerco ígneo de Dehya presente en el campo de batalla.",
-      "8": "Realiza un ataque en salto que inflige <pyro>Daño Pyro en el AdE</pyro> y crea en el lugar de llegada un nuevo cerco ígneo.",
+      "8": "Realiza un ataque en salto que inflige <pyro>Daño Pyro en el AdE</pyro> y crea en el lugar de impacto un nuevo cerco ígneo.",
       "9": "El nuevo cerco creado de esta manera hereda la duración del original.",
       "10": "<br/>",
       "11": "Solo se puede liberar una acometida ardiente durante el tiempo en que un cerco ígneo está activo.",
       "12": "<br/>",
       "13": "<strong>Cerco ígneo</strong>",
-      "14": "Cuando los enemigos situados en el área del <strong>cerco ígneo</strong> reciben daño, este realizará un ataque coordinado que inflige <pyro>Daño Pyro en el AdE</pyro> en función del ATQ y la Vida Máx. de Dehya. Este efecto solo puede ocurrir una vez cada 2.5{NON_BREAK_SPACE}s.",
-      "15": "Además, aumenta la RES a interrupción de los personajes en uso dentro del área y, cuando reciben daño, parte de este es mitigado y transferido a la “sangre de la Leona escarlata”, de modo que Dehya soportará dicho daño durante 10{NON_BREAK_SPACE}s. Cuando el daño acumulado por sangre de la Leona escarlata alcance o supere cierto porcentaje de la Vida Máx. de Dehya, dejará de mitigarse daño de esta forma.",
+      "14": "Cuando los enemigos situados en el área del cerco ígneo reciben daño, este realizará un ataque coordinado que inflige <pyro>Daño Pyro en el AdE</pyro> en función del ATQ y la Vida Máx. de Dehya. Este efecto solo puede ocurrir una vez cada 2.5{NON_BREAK_SPACE}s.",
+      "15": "Además, aumenta la RES a interrupción de los personajes en uso dentro del área y, cuando reciben daño, parte de este es mitigado y transferido a “sangre de la Leona escarlata”, de modo que Dehya soportará dicho daño durante 10{NON_BREAK_SPACE}s. Cuando el daño acumulado por sangre de la Leona escarlata alcance o supere cierto porcentaje de la Vida Máx. de Dehya, dejará de mitigarse daño de esta forma.",
       "16": "<br/>",
       "17": "Solo puede existir 1 cerco ígneo creado por Dehya al mismo tiempo.",
       "18": "<br/>",
@@ -86,14 +86,14 @@
     "name": "Dentellada ignívoma de la Leona",
     "description": {
       "0": "Dehya desata su furia abrasadora y prescinde del engorroso mandoble para entrar en el estado de “Leona fogosa”, durante el cual aumenta su RES a interrupción.",
-      "1": "En este estado, asesta puñetazos leoninos de forma automática y continua, los cuales infligen <pyro>Daño Pyro</pyro> en función del ATQ y la Vida Máx. de Dehya. Al terminar su duración, lanza una patada incineradora que inflige <pyro>Daño Pyro en el AdE</pyro> en función del ATQ y la Vida Máx.",
+      "1": "En este estado, asesta puñetazos leoninos de forma automática y continua, los cuales infligen <pyro>Daño Pyro</pyro> en función del ATQ y la Vida Máx. de Dehya. Al terminar su duración, lanza una patada incineradora que inflige <pyro>Daño Pyro en el AdE</pyro> en función de su ATQ y Vida Máx.",
       "2": "Al usar esta Habilidad Definitiva, si en el campo de batalla ya existe un cerco ígneo creado por la propia Dehya con su Habilidad Elemental, Fundición infernal, lo retirará del combate y creará otro en una nueva ubicación cuando termine el estado de Leona fogosa. El nuevo cerco ígneo heredará la duración del que fue retirado.",
-      "3": "En este estado, Dehya no puede lanzar su Habilidad Elemental ni ejecutar Ataques Normales, Cargados o Descendentes. No obstante, su Ataque Normal: Sacudida áurea y su Habilidad Elemental, Fundición infernal, se sustituyen por “andanada rugiente”.",
+      "3": "En este estado, Dehya no puede lanzar su Habilidad Elemental ni ejecutar Ataques Normales, Cargados o Descendentes. No obstante, su Ataque Normal: Sacudida áurea y su Habilidad Elemental: Fundición infernal, se sustituyen por “andanada rugiente”.",
       "4": "<br/>",
       "5": "<strong>Andanada rugiente</strong>",
       "6": "Si liberas la andanada rugiente 0.4{NON_BREAK_SPACE}s después de asestar un puñetazo leonino, asestarás el siguiente puñetazo más rápidamente.",
       "7": "<br/>",
-      "8": "<i>Hasta el fuego, siempre cambiante, obedece el mandato de su furia y se transforma en unas afiladas garras y colmillos.</i>"
+      "8": "<i>Hasta el fuego, siempre cambiante, obedece el mandato de su furia y se convierte en sus colmillos y garras.</i>"
     },
     "skillParams": {
       "0": "Daño de puñetazo leonino",
@@ -131,7 +131,7 @@
     "name": "Camino soleado",
     "description": {
       "0": "La Vel. Movimiento de todos los miembros de tu equipo aumenta en un 10% por el día (06-18{NON_BREAK_SPACE}h).",
-      "1": "Este efecto no se activará en dominios, Dominios de la cruzada y la Espiral del Abismo, y no se puede acumular con otros talentos pasivos que tengan los mismos efectos."
+      "1": "Este efecto no se activará en dominios, Dominios de la cruzada ni la Espiral del Abismo, y no se puede acumular con otros talentos pasivos que tengan el mismo efecto."
     }
   },
   "constellation1": {
@@ -147,7 +147,7 @@
   "constellation2": {
     "name": "Hoja de las arenas rutilantes",
     "description": {
-      "0": "Cuando Dehya libera la <strong>acometida ardiente de Fundición infernal</strong>, la duración del cerco ígneo recién creado aumenta en 4{NON_BREAK_SPACE}s.",
+      "0": "Cuando Dehya libera la <strong>acometida ardiente de Fundición infernal</strong>, la duración del cerco ígneo recién creado aumenta en 6{NON_BREAK_SPACE}s.",
       "1": "Además, cuando en el campo de batalla ya existe un cerco ígneo y un personaje en uso es atacado dentro de él, el daño infligido por el siguiente ataque coordinado del cerco ígneo aumentará en un 50%."
     }
   },
@@ -175,7 +175,7 @@
     "name": "Zarpazo flamígero",
     "description": {
       "0": "La Prob. CRIT de <strong>Dentellada ignívoma de la Leona</strong> aumenta en un 10%.",
-      "1": "Además, después de que un puñetazo leonino golpee a un enemigo e inflija un crítico mientras el estado de Leona fogosa está activo, el Daño CRIT de Dentellada ignívoma de la Leona aumenta en un 15% mientras dura la habilidad, y la duración de Leona fogosa aumenta en 0.5{NON_BREAK_SPACE}s. Este efecto solo puede ocurrir una vez cada 0.2{NON_BREAK_SPACE}s. La duración de Leona fogosa solo puede aumentar en un máximo de 2{NON_BREAK_SPACE}s y el Daño CRIT de Dentellada ignívoma de la Leona solo puede aumentar en un 60% de esta manera."
+      "1": "Además, después de que un puñetazo leonino golpee a un enemigo e inflija un crítico mientras el estado de Leona fogosa está activo, el Daño CRIT de Dentellada ignívoma de la Leona aumenta en un 15% mientras dura la habilidad, y la duración de Leona fogosa aumenta en 0.5{NON_BREAK_SPACE}s. Este efecto solo puede ocurrir una vez cada 0.2{NON_BREAK_SPACE}s. La duración de Leona fogosa solo puede aumentar en 2{NON_BREAK_SPACE}s y el Daño CRIT de Dentellada ignívoma puede aumentar hasta un máximo de un 60% de esta manera."
     }
   }
 }

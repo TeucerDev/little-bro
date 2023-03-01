@@ -1,7 +1,7 @@
 {
   "name": "Mika",
   "title": "Topógrafo da Geada Translúcida",
-  "description": "",
+  "description": "Um jovem cavaleiro nascido em uma família comum. Ele serve como Topógrafo da Linha de Frente na sua companhia. É tímido e cauteloso.",
   "constellationName": "Palumbus",
   "auto": {
     "name": "Lança de Favonius — Ponto de Passagem",
@@ -83,9 +83,9 @@
       "6": "<i>\"Leve a esperança nos momentos difíceis e não baixe a guarda que tudo ficará bem... Pois aquela pena branca pura guiará os errantes perdidos.\"</i>"
     },
     "skillParams": {
-      "0": "Regeneração ao lançar",
-      "1": "Regeneração da Pena do Falcão",
-      "2": "Intervalo de regeneração da Pena do Falcão",
+      "0": "Cura ao lançar Habilidade",
+      "1": "Cura de Pena do Falcão",
+      "2": "Intervalo de Cura de Pena do Falcão",
       "3": "Duração da Pena do Falcão",
       "4": "Tempo de Recarga",
       "5": "Energia Elemental",
@@ -116,8 +116,8 @@
   "passive2": {
     "name": "Mapeamento Topográfico",
     "description": {
-      "0": "Personagens ativos que estiverem simultaneamente no estado Pena do Falcão de <strong>Canção da Pena do Céu</strong> e Alma do Vento de <strong>Redemoinho Estelar Gelado</strong>, ao causarem Dano CRIT com um ataque farão o estado Alma do Vento gerar 1 acúmulo do efeito Detector do Talento Passivo \"Supressão de Disparo Rápido\". É possível gerar até 1 acúmulo do efeito Detector em uma duração do estado Pena do Falcão.",
-      "1": "Além disso, o número máximo de acúmulos que podem ser obtidos no estado Alma do Vento é aumentado em 1.",
+      "0": "Personagens ativos que estiverem simultaneamente no estado Pena do Falcão de <strong>Canção da Pena do Céu</strong> e Alma do Vento de <strong>Redemoinho Estelar Gelado</strong>, ao causarem Dano CRIT com um ataque farão o estado Alma do Vento gerar 1 acúmulo do efeito Detector do Talento Passivo \"Supressão de Disparo Rápido\". É possível gerar até 1 acúmulo do efeito Detector em uma duração do estado Alma do Vento.",
+      "1": "Além disso, o número máximo de acúmulos do efeito Detector que podem ser obtidos no estado Alma do Vento é aumentado em 1.",
       "2": "É necessário desbloquear o Talento Passivo \"Supressão de Disparo Rápido\"."
     }
   },
@@ -130,7 +130,7 @@
   "constellation1": {
     "name": "Contingência Inesperada",
     "description": {
-      "0": "O estado Alma do Vento criado por <strong>Redemoinho Estelar Gelado</strong> reduzirá o intervalo de regeneração de Vida da Pena do Falcão de <strong>Canção da Pena do Céu</strong>. A proporção da redução será equivalente a proporção de aumento de Vel. de ATQ do estado Alma do Vento."
+      "0": "O estado Alma do Vento criado por <strong>Redemoinho Estelar Gelado</strong> reduzirá o intervalo de regeneração de Vida do estado Pena do Falcão de <strong>Canção da Pena do Céu</strong>. A proporção da redução será equivalente a proporção de aumento de Vel. de ATQ do estado Alma do Vento."
     }
   },
   "constellation2": {

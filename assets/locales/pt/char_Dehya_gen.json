@@ -1,7 +1,7 @@
 {
   "name": "Dehya",
   "title": "Leoa Flamejante",
-  "description": "",
+  "description": "Membro dos \"Eremitas\", uma organização mercenária que vaga pelos desertos de Sumeru. Ela é corajosa, poderosa e tem uma excelente reputação entre os seus colegas Eremitas.",
   "constellationName": "Mantichora",
   "auto": {
     "name": "Técnica da Espada Dourada",
@@ -51,7 +51,7 @@
       "6": "<strong>Campo da Espada Incinerante</strong>",
       "7": "Lança quando houver uma Prisão Flamejante criada por Dehya ativa no campo de batalha.",
       "8": "Realiza um ataque de salto, causando <pyro>Dano Pyro em AdE</pyro> e novamente gerando um campo da Prisão Flamejante numa nova posição.",
-      "9": "O campo da Prisão Flamejante gerado novamente herdará a duração do campo original.",
+      "9": "O campo da Prisão Flamejante gerado novamente dessa forma herdará a duração do campo original.",
       "10": "<br/>",
       "11": "Só é possível lançar um Campo da Espada Incinerante na duração de um campo de Prisão Flamejante.",
       "12": "<br/>",
@@ -86,8 +86,8 @@
     "name": "Mordida da Leoa",
     "description": {
       "0": "Liberando sua fúria flamejante e jogando sua lâmina de lado, Dehya entra no estado \"Leoa Chamejante\", aumentando sua Resistência contra Interrupção.",
-      "1": "Nesse estado, Dehya irá automática e continuamente desferir Socos da Leoa Flamejante baseados em seu ATQ e Vida Máxima, causando <pyro>Dano Pyro</pyro>. Quando a duração acabar, ela fará um Chute-Labareda que causará <pyro>Dano Pyro em AdE</pyro> que é baseado em seu ATQ e Vida Máxima.",
-      "2": "Se ao lançar existir ativo no campo de batalha o campo \"Prisão Flamejante\" da Habilidade Elemental \"Inferno Derretido\" de Dehya, ela irá recolhê-lo, e quando a duração de Leoa Chamejante acabar, gerará novamente numa nova posição, ao gerar novamente, herdará a duração do campo recolhido.",
+      "1": "Nesse estado, Dehya irá automática e continuamente desferir Socos da Leoa Flamejante baseados em seu ATQ e Vida Máxima, causando <pyro>Dano Pyro</pyro>. Quando a duração acabar, ela fará um Chute-Labareda que causará <pyro>Dano Pyro em AdE</pyro> baseado em seu ATQ e Vida Máxima.",
+      "2": "Se ao lançar existir ativo no campo de batalha o campo \"Prisão Flamejante\" da Habilidade Elemental \"Inferno Derretido\" de Dehya, ela irá recolhê-lo, e quando a duração de Leoa Chamejante acabar, o gerará novamente numa nova posição, ao gerar novamente, herdará a duração do campo recolhido.",
       "3": "Nesse estado, Dehya não poderá lançar sua Habilidade Elemental, não poderá fazer Ataques Normais, Carregados e Imersivos. Seu \"Ataque Normal: Técnica da Espada Dourada\" e Habilidade Elemental \"Inferno Derretido\" serão substituídos por \"Golpes do Rugido\".",
       "4": "<strong>Golpes do Rugido</strong>",
       "5": "Lançar um Golpe do Rugido nos 0.4s após lançar Soco da Leoa Flamejante aumentará a velocidade de lançamento do próximo Soco da Leoa Flamejante. ",
@@ -116,8 +116,8 @@
   "passive1": {
     "name": "Socorro Generoso",
     "description": {
-      "0": "Nos 6s após Dehya recolher Prisão Flamejante, lançar <strong>Inferno Derretido - Campo da Espada Incinerante</strong> ou <strong>Mordida da Leoa</strong>, o Dano que Dehya recebe de Sangue da Leoa Vermelha será reduzido em 60%. Este efeito pode ser ativado 1 vez a cada 2s.",
-      "1": "Além disso, nos 9s após lançar <strong>Inferno Derretido - Campo da Espada Incinerante</strong>, concederá o estado \"Corpo Fundido Dourado\" para todos os membros da equipe. Quando personagens que estiverem sob o estado do Corpo Fundido Dourado entrarem no campo da Espada Incinerante, obterão Resistência contra Interrupção adicional. É possível gerar o estado Corpo Fundido Dourado uma vez a cada 18s."
+      "0": "Nos 6s após Dehya recolher Prisão Flamejante com <strong>Inferno Derretido - Campo da Espada Incinerante</strong> ou <strong>Mordida da Leoa</strong>, o Dano que Dehya recebe de Sangue da Leoa Vermelha será reduzido em 60%. Este efeito pode ser ativado 1 vez a cada 2s.",
+      "1": "Além disso, nos 9s após lançar <strong>Inferno Derretido - Coragem Flamejante</strong>, concederá o estado \"Corpo Fundido Dourado\" para todos os membros da equipe. Quando personagens que estiverem sob o estado do Corpo Fundido Dourado entrarem na Prisão Flamejante, obterão Resistência contra Interrupção adicional. É possível gerar o estado Corpo Fundido Dourado uma vez a cada 18s."
     }
   },
   "passive2": {
@@ -130,7 +130,7 @@
     "name": "Jornada Iluminada",
     "description": {
       "0": "Durante o dia (06:00 - 18:00), os personagens da equipe recebem um aumento da Veloc. Mov. de 10%.",
-      "1": "Esse efeito não se aplica em Domínios, Domínios Dizimados e Espiral do Abismo. Além disso, esse não é acumulado com Talentos Passivos de efeito igual."
+      "1": "Esse efeito não se aplica em Domínios, Domínios Dizimados e Abismo do Espiral. Além disso, esse não é acumulado com Talentos Passivos de efeito igual."
     }
   },
   "constellation1": {
@@ -146,8 +146,8 @@
   "constellation2": {
     "name": "Brilho das Lâminas de Areia",
     "description": {
-      "0": "Ao lançar <strong>Inferno Derretido - Campo da Espada Incinerante</strong>, estende a duração do campo Prisão Flamejante que foi gerado novamente em 4s.",
-      "1": "Além disso, quando há um campo Prisão Flamejante ativo e o personagem ativo dentro dele sofre Dano, aumenta o Dano do Ataque Coordenado seguinte de Prisão Flamejante em 50%."
+      "0": "Ao lançar <strong>Inferno Derretido - Campo da Espada Incinerante</strong>, estende a duração do campo da Prisão Flamejante que foi gerado novamente em 6s.",
+      "1": "Além disso, quando há um campo da Prisão Flamejante ativo e o personagem ativo dentro dele sofre Dano, aumenta o Dano do Ataque Coordenado seguinte da Prisão Flamejante em 50%."
     }
   },
   "constellation3": {
@@ -174,7 +174,7 @@
     "name": "Corte das Garras Incandescentes",
     "description": {
       "0": "Aumenta a Taxa CRIT de <strong>Mordida da Leoa</strong> em 10%.",
-      "1": "Além disso, quando o Soco da Leoa Flamejante atingir um inimigo e causar Dano CRIT na duração de Leoa Chamejante, aumentará o Dano CRIT na duração de Mordida da Leoa em 15% e prolongará a duração de Leoa Chamejante em 0.5s. Esse efeito pode ser desencadeado uma vez a cada 0.2s, e é possível prolongar a duração dessa maneira até 2s e aumentar o Dano CRIT até 60%."
+      "1": "Além disso, quando o Soco da Leoa Flamejante atingir um inimigo e causar Dano CRIT na duração de Leoa Chamejante, aumentará o Dano CRIT na duração de Mordida da Leoa em 15% e prolongará a duração de Leoa Chamejante em 0.5s. Esse efeito pode ser desencadeado uma vez a cada 0.2s, e é possível estender a duração dessa maneira até 2s e aumentar o Dano CRIT até 60%."
     }
   }
 }

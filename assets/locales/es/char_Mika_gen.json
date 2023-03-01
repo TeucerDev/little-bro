@@ -1,7 +1,7 @@
 {
   "name": "Mika",
   "title": "El Agrimensor Nieveclara",
-  "description": "",
+  "description": "Un joven caballero procedente de una familia normal. Es el tímido y precavido topógrafo de avanzada de la Compañía de Reconocimiento.",
   "constellationName": "Palumbus",
   "auto": {
     "name": "Lanza de Favonius - Punta afilada",
@@ -80,12 +80,12 @@
       "3": "Cuando un personaje en uso bajo el estado de pluma aquilae golpea a un enemigo con un Ataque Normal, Mika le regenera Vida en función de su propia Vida Máx.",
       "4": "Los personajes en este estado solo pueden recuperar Vida una vez cada cierto tiempo de esta forma.",
       "5": "<br/>",
-      "6": "<i>“Mantén la esperanza en los tiempos difíciles y la alerta cuando todo va bien, pues esa pluma blanca al final mostrará el camino a los viajeros extraviados”.</i>"
+      "6": "<i>“No pierdas la esperanza en tiempos difíciles y mantente alerta cuando todo va bien, pues esa pluma blanca al final mostrará el camino a los viajeros extraviados”.</i>"
     },
     "skillParams": {
-      "0": "Regeneración al lanzar la habilidad",
-      "1": "Regeneración de pluma aquilae",
-      "2": "Intervalo de regeneración de Vida de pluma aquilae",
+      "0": "Curación al usar la habilidad",
+      "1": "Curación de pluma aquilae",
+      "2": "Intervalo de curación de pluma aquilae",
       "3": "Duración de pluma aquilae",
       "4": "TdE",
       "5": "Energía Elemental",
@@ -104,7 +104,7 @@
   "passive1": {
     "name": "Supresión fuegorrápido",
     "description": {
-      "0": "En los siguientes casos, el estado de aeroánima otorgado por <strong>Vórtice hieloastral</strong> concederá el fortalecimiento de “detección”, el cual aumenta en un 10% el Daño Físico de los personajes en uso:",
+      "0": "En los siguientes casos, el estado de aeroánima otorgado por <strong>Vórtice hieloastral</strong> concederá el efecto amplificador de “detección”, el cual aumenta en un 10% el Daño Físico de los personajes en uso:",
       "1": [
         "Cuando la saeta de escarcha golpea a más de un enemigo, se genera 1 carga de detección por cada enemigo adicional golpeado.",
         "Las esquirlas astrogélidas generan 1 carga de detección por cada enemigo golpeado. Cada esquirla astrogélida solo puede activar una vez este efecto."

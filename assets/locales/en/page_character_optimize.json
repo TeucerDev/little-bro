@@ -1,13 +1,12 @@
 {
   "mainStat": {
-    "title": "Main Stat",
     "levelAssTooltip": {
-      "title": "Level Assumption",
+      "title": "Main Stat Level Assumption",
       "desc": "Changes mainstat value to be at least a specific level. Does not change substats."
     },
     "assumptionLvl": {
-      "no": "No Lv. Assumption",
-      "lvl": "Assume at least Lv. {{lvl}}"
+      "no": "No Main Stat Lv. Assumption",
+      "lvl": "Assume Main Stat at least Lv. {{lvl}}"
     }
   },
   "tcGraph": {
@@ -23,34 +22,34 @@
     "buildAlreadyInList": "Build is already in the list"
   },
   "levelFilter": "Artifact Level Filter",
-  "useExcluded": {
-    "title": "Use Excluded Artifacts",
-    "usingNum_one": "Using <1>{{count}}</1> excluded artifact",
-    "usingNum_other": "Using <1>{{count}}</1> excluded artifacts"
+  "excludeArt": {
+    "title_exclude": "Exclude Artifacts",
+    "title_tooltip": "Add artifacts to this character's exclusion list. Artifacts in the exclusion list will not be considered for build generation.",
+    "usingNum_one": "Using <1>{{count}}</1> excluded artifacts",
+    "usingNum_other": "Using <1>{{count}}</1> excluded artifacts",
+    "excNum_one": "<1>{{count}}</1> artifact is excluded",
+    "excNum_other": "<1>{{count}}</1> artifacts are excluded",
+    "addExc": "Add artifact to this character's exclusion list",
+    "selExc": "Select artifact to add to this character's exclusion list",
+    "deSelectExc": "Click on an artifact to remove it from the exclusion list",
+    "excludeArtifactTip": "Excluding an artifact will prevent the build generator from using it for this character.",
+    "excluded": "This artifact is excluded.",
+    "included": "This artifact is not excluded."
   },
-  "useEquipped": {
-    "title": "Use Equipped Artifacts",
+  "excludeChar": {
+    "title": "Allow Equipped Artifacts",
     "modal": {
-      "title": "Character Priority for Equipped Artifacts",
-      "desc1": "When generating a build, the Optimizer will only consider equipped artifacts from characters below the current character or those not on the list.",
-      "desc2": "If the current character is not on the list, the Optimizer will only consider equipped artifacts from others characters that are not on the list.",
-      "usingNum_one": "Using artifacts from <1>{{count}}</1> character",
-      "usingNum_other": "Using artifacts from <1>{{count}}</1> unlisted characters",
-      "status": {
-        "use": "Use artifacts",
-        "dont": "Don't use artifacts",
-        "curr": "Current character"
-      },
-      "add": "Add character to list",
-      "clearList": "Clear List"
+      "allow_all": "Add all characters to the allow list",
+      "disallow_All": "Remove all characters from the allow list"
     },
-    "usingNum_one": "Using from <1>{{count}}</1> character",
-    "usingNum_other": "Using from <1>{{count}}</1> characters"
+    "allowEquip": "Allow using artifacts from",
+    "usingNumTot_one": "Using <1>{{arts}}</1> artifacts from <3>{{count}}</3> character",
+    "usingNumTot_other": "Using <1>{{arts}}</1> artifacts from <3>{{count}}</3> characters"
   },
   "allowPartial": "Allow Partial Builds (<5 artifacts)",
   "constraintFilter": {
-    "title": "Build Constraints",
-    "tooltip": "Set certain requirements that generated builds must confirm to. e.g. Generated builds must have at least 140% Energy Recharge."
+    "title": "Minimum Build Constraints",
+    "tooltip": "Set certain minimum requirements that generated builds must conform to. e.g. Generated builds must have at least 140% Energy Recharge."
   },
   "artSetConfig": {
     "title": "Artifact Set Configuration",
@@ -105,5 +104,7 @@
   "currentlyEquippedBuild": "Currently Equipped",
   "addBuildToList": "Add build to list",
   "graphBuildLabel": "Graph #<1>{{count}}</1>",
-  "workerLoadFailed": "Worker failed to load. Click here to reload the page and try again"
+  "workerLoadFailed": "Worker failed to load. Click here to reload the page and try again",
+  "buildCompleted": "Build Completed",
+  "notifyTooltip": "Play a sound when builds finish generating. Will also show an alarm prompt when tabbed out."
 }

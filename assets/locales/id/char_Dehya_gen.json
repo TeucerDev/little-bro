@@ -1,7 +1,7 @@
 {
   "name": "Dehya",
   "title": "Flame-Mane",
-  "description": "",
+  "description": "Seorang anggota Eremite, sebuah organisasi tentara bayaran di Sumeru. Dia berani, kuat, dan sudah sangat terkenal di kalangan Eremite.",
   "constellationName": "Mantichora",
   "auto": {
     "name": "Sandstorm Assault",
@@ -89,20 +89,12 @@
       "0": "Dehya meluapkan seluruh kemarahan membaranya, melepaskan pedang besarnya kemudian memasuki status Blazing Lioness dan meningkatkan ketahanannya terhadap interupsi.",
       "1": "Dalam status ini, Dehya akan otomatis melancarkan Flame-Mane's Fist terus-menerus dan mengakibatkan <pyro>Pyro DMG</pyro> yang didasarkan pada ATK dan Max HP Dehya, serta akan melancarkan tendangan Incineration Drive yang mengakibatkan <pyro>Pyro DMG Area</pyro> yang didasarkan pada ATK dan Max HP Dehya saat durasinya berakhir.",
       "2": "Saat melancarkan skill ini, jika ada medan Fiery Sanctum yang diciptakan dari Elemental Skill \"Molten Inferno\" milik Dehya di medan pertempuran, maka Dehya akan menarik medan Fiery Sanctum-nya dan menciptakan medan Fiery Sanctum yang baru di posisi Dehya setelah durasi Blazing Lioness berakhir. Medan Fiery Sanctum yang diciptakan kembali ini akan mewarisi durasi medan Fiery Sanctum awal yang ditarik olehnya.",
-      "3": "Dalam status ini, Dehya tidak bisa melancarkan Elemental Skill, melakukan Normal Attack, Charged Attack, atau Plunging Attack. Normal Attack \"Gold-Duster Assault\" dan Elemental Skill \"Molten Inferno\" Dehya akan berubah menjadi Roaring Barrage.",
+      "3": "Dalam status ini, Dehya tidak bisa melancarkan Elemental Skill, melakukan Normal Attack, Charged Attack, atau Plunging Attack. Normal Attack \"Sandstorm Assault\" dan Elemental Skill \"Molten Inferno\" Dehya akan berubah menjadi \"Roaring Barrage\".",
       "4": "<br/>",
       "5": "<strong>Roaring Barrage</strong>",
-      "6": "Melancarkan Roaring Barrage dalam waktu 0,4 detik setelah melancarkan Flame-Mane's Fist akan meningkatkan kecepatan melancarkan Flame Mane's Fist selanjutnya.",
+      "6": "Melancarkan Roaring Barrage dalam waktu 0,4 detik setelah melancarkan Flame-Mane's Fist akan meningkatkan kecepatan melancarkan Flame-Mane's Fist selanjutnya.",
       "7": "<br/>",
-      "8": "<i>Bahkan api yang mengalir harus mematuhi amarahnya dan menjadi taring dan cakarnya atas perintahnya.</i>Dehya meluapkan seluruh kemarahan membaranya, melepaskan pedang besarnya kemudian memasuki status Blazing Lioness dan meningkatkan ketahanannya terhadap interupsi.",
-      "9": "Dalam status ini, Dehya akan otomatis melancarkan Flame-Mane's Fist terus-menerus dan mengakibatkan <pyro>Pyro DMG</pyro>, serta akan melancarkan tendangan Incineration Drive yang mengakibatkan <pyro>Pyro DMG Area</pyro> saat durasinya berakhir.",
-      "10": "Saat melancarkan skill ini, jika ada medan Fiery Sanctum yang diciptakan dari Elemental Skill \"Molten Inferno\" milik Dehya di medan pertempuran, maka Dehya akan menarik medan Fiery Sanctum-nya dan menciptakan medan Fiery Sanctum yang baru di posisi Dehya setelah durasi Blazing Lioness berakhir. Medan Fiery Sanctum yang diciptakan kembali ini akan mewarisi durasi medan Fiery Sanctum awal yang ditarik olehnya.",
-      "11": "Dalam status ini, Dehya tidak bisa melancarkan Elemental Skill, melakukan Normal Attack, Charged Attack, atau Plunging Attack. Normal Attack \"Sandstorm Assault\" dan Elemental Skill \"Molten Inferno\" Dehya akan berubah menjadi Roaring Barrage.",
-      "12": "<br/>",
-      "13": "<strong>Roaring Barrage</strong>",
-      "14": "Melancarkan Roaring Barrage dalam waktu 0,4 detik setelah melancarkan Flame-Mane's Fist akan meningkatkan kecepatan melancarkan Flame Mane's Fist selanjutnya.",
-      "15": "<br/>",
-      "16": "<i>Bahkan api yang mengalir harus mematuhi amarahnya dan menjadi taring dan cakarnya atas perintahnya.</i>"
+      "8": "<i>Bahkan api yang mengalir harus mematuhi amarahnya dan menjadi taring dan cakarnya atas perintahnya.</i>"
     },
     "skillParams": {
       "0": "DMG Flame-Mane's Fist",
@@ -126,7 +118,7 @@
   "passive1": {
     "name": "Unstinting Succor",
     "description": {
-      "0": "Dalam 6 detik setelah Dehya menarik kembali medan Fiery Sanctum dengan <strong>Molten Inferno: Ranging Flame</strong> atau <strong>The Leonine Bite</strong>, DMG yang diterima Dehya berkurang 60% saat dia menanggung DMG dari Redmane's Blood. Efek ini dapat terpicu sekali setiap 2 detik.",
+      "0": "Dalam 6 detik setelah Dehya menarik kembali medan Fiery Sanctum dengan <strong>Molten Inferno: Ranging Flame</strong> atau <strong>Leonine Bite</strong>, DMG yang diterima Dehya berkurang 60% saat dia menanggung DMG dari Redmane's Blood. Efek ini dapat terpicu sekali setiap 2 detik.",
       "1": "Selain itu, dalam 9 detik setelah Dehya melancarkan <strong>Molten Inferno: Indomitable Flame</strong>, dia akan memberikan status Gold-Forged Form kepada seluruh anggota party. Saat Karakter dengan status Gold-Forged Form berada di dalam medan Fiery Sanctum, Karakter ini akan memperoleh ketahanan terhadap interupsi tambahan. Status Gold-Forged Form bisa dihasilkan sekali setiap 18 detik."
     }
   },
@@ -139,7 +131,7 @@
   "passive3": {
     "name": "The Sunlit Way",
     "description": {
-      "0": "Saat pagi sampai sore hari (6:00 -18:00), meningkatkan 10% Movement SPD anggota party sendiri.",
+      "0": "Saat pagi sampai sore hari (6:00{NON_BREAK_SPACE}-{NON_BREAK_SPACE}18:00), meningkatkan 10% Movement SPD anggota party sendiri.",
       "1": "Efek ini tidak aktif dalam Domain, Trounce Domain, atau Spiral Abyss. Efek ini tidak dapat ditumpuk dengan Talenta Pasif lain dengan efek yang sama."
     }
   },
@@ -156,7 +148,7 @@
   "constellation2": {
     "name": "The Sand-Blades Glittering",
     "description": {
-      "0": "Saat Dehya melancarkan <strong>Molten Inferno: Ranging Flame</strong>, durasi medan Fiery Sanctum yang diciptakan kembali akan diperpanjang 4 detik.",
+      "0": "Saat Dehya melancarkan <strong>Molten Inferno: Ranging Flame</strong>, durasi medan Fiery Sanctum yang diciptakan kembali akan diperpanjang 6 detik.",
       "1": "Selain itu, saat ada medan Fiery Sanctum yang terbentuk di medan pertempuran dan Karakter aktif yang berada di dalam medan ini menerima serangan, maka DMG serangan terkoordinasi selanjutnya dari Fiery Sanctum akan meningkat 50%."
     }
   },
