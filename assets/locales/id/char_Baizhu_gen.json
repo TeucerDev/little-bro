@@ -1,10 +1,10 @@
 {
   "name": "Baizhu",
-  "title": "???",
+  "title": "Beyond Mortality",
   "description": "",
-  "constellationName": "",
+  "constellationName": "Lagenaria",
   "auto": {
-    "name": "Gilded Acupuncture",
+    "name": "The Classics of Acupuncture",
     "fields": {
       "normal": {
         "0": "<strong><strong>Normal Attack</strong>",
@@ -41,7 +41,7 @@
   "skill": {
     "name": "Universal Diagnosis",
     "description": {
-      "0": "Mengendalikan Gossamer Sprite yang melayang-layang dan bisa menyerang musuh, mengakibatkan <dendro>Dendro DMG</dendro> pada musuh di sekitar.",
+      "0": "Mengendalikan Gossamer Sprite yang melayang-layang dan bisa menyerang musuh di sekitar, mengakibatkan <dendro>Dendro DMG</dendro>.",
       "1": "Setelah menyerang 3 kali atau saat tidak ada musuh di sekitar, Gossamer Sprite akan kembali dan memulihkan HP seluruh anggota party berdasarkan Max HP Baizhu.",
       "2": "<br/>",
       "3": "<i>Orang-orang di dunia medis yang bisa membedakan tanda-tanda penyakit yang tepat dan yang salah akan bisa menyembuhkan orang bahkan sebelum gejala penyakitnya muncul.</i>"
@@ -66,12 +66,12 @@
     }
   },
   "burst": {
-    "name": "Healing Holism",
+    "name": "Holistic Revivification",
     "description": {
-      "0": "Memasuki status Pulsing Edict dan menciptakan Seamless Shield.",
-      "1": "Dalam status Pulsing Edict, Baizhu akan menciptakan sebuah Seamless Shield baru setiap 2 detik.",
+      "0": "Memasuki status Pulsing Clarity dan menciptakan Seamless Shield yang memiliki 250% pertahanan terhadap <dendro>Dendro DMG</dendro>.",
+      "1": "Dalam status Pulsing Clarity, Baizhu akan menciptakan Seamless Shield baru setiap 2,5 detik.",
       "2": "<br/>",
-      "3": "Dalam kondisi-kondisi berikut ini, Seamless Shield akan melancarkan Spiritvein untuk memulihkan HP Karakter aktif berdasarkan Max HP Baizhu dan menyerang musuh, mengakibatkan <dendro>Dendro DMG</dendro>:",
+      "3": "Seamless Shield akan memulihkan HP Karakter aktifmu sendiri berdasarkan Max HP Baizhu, kemudian melancarkan Spiritvein untuk menyerang musuh dan mengakibatkan <dendro>Dendro DMG</dendro> dalam kondisi-kondisi berikut ini:",
       "4": [
         "Saat Karakter berada dalam perlindungan Seamless Shield dan tercipta sebuah Seamless Shield yang baru;",
         "Saat efek Seamless Shield berakhir atau saat Seamless Shield hancur terkena DMG."
@@ -82,11 +82,11 @@
     "skillParams": {
       "0": "Pertahanan Perisai Seamless Shield",
       "1": "Durasi Perisai Seamless Shield",
-      "2": "Jeda Pembentukan Seamless Shield",
-      "3": "Pemulihan Spiritvein",
-      "4": "DMG Skill Spiritvein",
-      "5": "Durasi Pulsing Editct",
-      "6": "Cooldown",
+      "2": "Pemulihan HP Seamless Shields",
+      "3": "DMG Skill Spiritvein",
+      "4": "Durasi Pulsing Clarity",
+      "5": "Cooldown",
+      "6": "Konsumsi Energy",
       "7": "",
       "8": "",
       "9": "",
@@ -101,65 +101,65 @@
   "passive1": {
     "name": "Five Fortunes Forever",
     "description": {
-      "0": "Baizhu akan mendapatkan efek yang berbeda berdasarkan kondisi HP Karakter aktif:",
+      "0": "Baizhu akan mendapatkan efek yang berbeda berdasarkan jumlah HP Karakter aktif milik party sendiri:",
       "1": [
-        "Saat HP Karakter aktif kurang dari 50%, Baizhu mendapatkan 20% Bonus Pemulihan;"
-      ],
-      "2": "Saat HP Karakter aktif sama dengan atau lebih dari 50%, Baizhu mendapatkan 25% <dendro>Dendro DMG Bonus</dendro>."
+        "Saat HP Karakter aktif kurang dari 50%, Baizhu mendapatkan 20% Bonus Pemulihan;",
+        "Saat HP Karakter aktif sama dengan atau lebih dari 50%, Baizhu mendapatkan 25% <dendro>Dendro DMG Bonus</dendro>."
+      ]
     }
   },
   "passive2": {
     "name": "All Things Are of the Earth",
     "description": {
-      "0": "Karakter yang menerima pemulihan dari <strong>Healing Holism</strong> akan mendapatkan efek Year of Verdant Favor: Untuk setiap 1.000 poin HP Baizhu yang melebihi 50.000 HP__, Karakter tersebut akan mendapatkan peningkatan DMG dari reaksi Burning, Bloom, Hyperbloom, dan Burgeon sebesar 2%, dan peningkatan DMG dari reaksi Aggravate dan Spread sebesar 0,8%, berlangsung 6 detik."
+      "0": "Karakter yang menerima pemulihan dari <strong>Seamless Shields</strong> akan mendapatkan efek Year of Verdant Favor: Untuk setiap 1.000 poin HP Baizhu (maksimum 50.000 poin), Karakter tersebut akan mendapatkan peningkatan DMG dari reaksi Burning, Bloom, Hyperbloom, dan Burgeon sebesar 2% serta peningkatan DMG dari reaksi Aggravate dan Spread sebesar 0,8%. Efek ini berlangsung selama 6 detik."
     }
   },
   "passive3": {
     "name": "Herbal Nourishment",
     "description": {
-      "0": "Saat Baizhu berada di dalam party, berinteraksi dengan sebagian bahan yang bisa dikumpulkan akan memulihkan HP Karakter aktif sebesar 2,5% Max HP Baizhu."
+      "0": "Saat Baizhu berada di dalam party, berinteraksi dengan beberapa material yang bisa dikumpulkan akan memulihkan HP Karakter aktif sebesar 2,5% Max HP Baizhu."
     }
   },
   "constellation1": {
-    "name": "Even the Slightest Groan",
+    "name": "Attentive Observation",
     "description": {
-      "0": "Meningkatkan 1 charge <strong>Universal Diagnosis</strong>."
+      "0": "Menambahkan 1 charge <strong>Universal Diagnosis</strong>."
     }
   },
   "constellation2": {
-    "name": "Skilled of Hand",
+    "name": "Incisive Discernment",
     "description": {
-      "0": "Saat serangan Karakter aktif di dalam party (selain Baizhu sendiri) mengenai musuh, Baizhu akan melancarkan Gossamer Sprite: Splice.",
-      "1": "Gossamer Sprite: Splice akan menyerang 1 kali dan mengakibatkan 300% <dendro>Dendro DMG</dendro> dan memulihkan HP sebesar 20% pemulihan Gossamer Sprite dari <strong>Universal Diagnosis</strong>.",
+      "0": "Saat serangan Karakter aktif di dalam party sendiri mengenai musuh yang ada di sekitar, Baizhu akan melancarkan Gossamer Sprite: Splice.",
+      "1": "Gossamer Sprite: Splice akan kembali setelah menyerang maksimum 1 kali, mengakibatkan <dendro>Dendro DMG</dendro> sebesar 300% ATK Baizhu dan memulihkan HP sebesar 20% berdasarkan jumlah pemulihan Gossamer Sprite dari <strong>Universal Diagnosis</strong>.",
       "2": "DMG yang diakibatkan dengan cara ini akan dianggap sebagai DMG Elemental Skill.",
-      "3": "Efek ini dapat terpicu sekali setiap 5 detik."
+      "3": "Efek ini dapat terpicu sekali setiap 6 detik."
     }
   },
   "constellation3": {
     "name": "All Aspects Stabilized",
     "description": {
-      "0": "Meningkatkan 3 level <strong>Healing Holism</strong>.",
+      "0": "Meningkatkan 3 level <strong>Holistic Revivification</strong>.",
       "1": "Maksimum: Lv. 15."
     }
   },
   "constellation4": {
-    "name": "Ancient Perception",
+    "name": "Ancient Art of Perception",
     "description": {
-      "0": "Dalam 15 detik setelah melancarkan <strong>Healing Holism</strong>, Elemental Karakter seluruh anggota party di sekitar meningkat 80 poin."
+      "0": "Setelah melancarkan <strong>Holistic Revivification</strong>, Elemental Mastery seluruh anggota party di sekitar meningkat 80 poin selama 15 detik."
     }
   },
   "constellation5": {
-    "name": "Hidden Shifting Signs",
+    "name": "The Hidden Ebb and Flow",
     "description": {
       "0": "Meningkatkan 3 level <strong>Universal Diagnosis</strong>.",
       "1": "Maksimum: Lv. 15."
     }
   },
   "constellation6": {
-    "name": "Aura Flow",
+    "name": "Elimination of Malicious Qi",
     "description": {
-      "0": "DMG yang diakibatkan Spiritvein dari <strong>Healing Holism</strong> meningkat sebesar 10% Max HP Baizhu.",
-      "1": "Selain itu, saat serangan <strong>Gossamer Sprite</strong> atau Gossamer Sprite: Splice mengenai musuh, memiliki 100% kemungkinan untuk menghasilkan satu perisai Seamless Shield dari <strong>Healing Holism</strong>. Efek ini hanya dapat terpicu satu kali untuk setiap Gossamer Sprite atau Gossamer Sprite: Splice."
+      "0": "DMG yang diakibatkan Spiritvein dari skill <strong>Holistic Revivification</strong> meningkat sebesar 6% Max HP Baizhu.",
+      "1": "Selain itu, saat serangan <strong>Gossamer Sprite</strong> atau Gossamer Sprite: Splice mengenai musuh, ada 100% kemungkinan untuk menciptakan perisai Seamless Shield dari skill <strong>Holistic Revivification</strong>. Efek ini hanya dapat terpicu satu kali untuk setiap Gossamer Sprite atau Gossamer Sprite: Splice."
     }
   }
 }

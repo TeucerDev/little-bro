@@ -1,14 +1,14 @@
 {
   "name": "Kaveh",
-  "title": "???",
+  "title": "Gök Kubbenin Yansıması",
   "description": "",
-  "constellationName": "",
+  "constellationName": "Sumru",
   "auto": {
-    "name": "Tork Ayarı",
+    "name": "İzdüşüm Düzlemi",
     "fields": {
       "normal": {
         "0": "<strong><strong>Normal Saldırı</strong>",
-        "1": "Mehrak'ı kullanarak arkaya en fazla 4 saldırı yapar."
+        "1": "Mehrak'ı kullanarak arka arkaya en fazla 4 saldırı yapar."
       },
       "charged": {
         "0": "<strong>Yüklü Saldırı</strong>",
@@ -68,15 +68,15 @@
   "burst": {
     "name": "Boyalı Kubbe",
     "description": {
-      "0": "Mehrak'ın enerjisini tamamen açığa çıkarır ve küp şeklinde bir tarama alanı oluşturur. Bu alan içindeki tüm düşmanlara <dendro>Doğa Alan Hasarı</dendro> verir ve Kaveh'e belirli süreliğine aşağıdaki savaş güçlendirmelerini sağlar:",
+      "0": "Mehrak'ın enerjisini tamamen açığa çıkarır ve küp şeklinde bir tarama alanı oluşturur. Bu alan içindeki tüm düşmanlara <dendro>Doğa Alan Hasarı</dendro> verir, Etki Alanındaki tüm Doğa Çekirdeklerini anında patlatır ve Kaveh'ye belirli süreliğine aşağıdaki savaş güçlendirmelerini sağlar:",
       "1": [
-        "Kaveh'in Normal, Yüklü ve Havadan Saldırılarının Etki Alanı artar ve saldırılar <dendro>Doğa Hasarı</dendro> verir. Bu sonradan değiştirilemez.",
-        "Grup üyelerinin Çiçeklenme tepkimesi ile oluşturduğu tüm Doğa Çekirdekleri fazladan Patlama Hasarı verir.",
-        "Kaveh'in müdahaleye karşı direnci artar."
+        "Kaveh'nin Normal, Yüklü ve Havadan Saldırılarının Etki Alanı artar ve bu saldırıların Hasarı <dendro>Doğa Hasarına</dendro> dönüşür. Bu sonradan değiştirilemez.",
+        "Kendi grup üyelerinin Çiçeklenme tepkimesi ile oluşturduğu tüm Doğa Çekirdekleri, patladıklarında ek Hasar verir.",
+        "Kaveh'nin müdahaleye karşı direnci artar."
       ],
       "2": "Bu etkiler, Kaveh savaş alanından çıktıktan sonra sona erer.",
       "3": "<br/>",
-      "4": "<i>\"Binaların tarzları, mimarlarının dünya görüşünü yansıtır. Dolayısıyla binaların aslında insanlığın anıları olduğu çıkarımında bulunabiliriz \"</i>"
+      "4": "<i>\"Binaların tarzları, mimarlarının dünya görüşünü yansıtır. Dolayısıyla binaların aslında insanlığın anıları olduğu çıkarımında bulunabiliriz.\"</i>"
     },
     "skillParams": {
       "0": "Beceri Hasarı",
@@ -98,15 +98,15 @@
     }
   },
   "passive1": {
-    "name": "İdealist İrade",
+    "name": "Mimari Anlayış",
     "description": {
-      "0": "Kaveh, Filizlenme ve Aşırı Çiçeklenme Hasarı dahil olmak üzere Doğa Çekirdeği tarafından Hasar aldıktan sonra Element Ustalığının %300'ü kadar Can iyileştirir. Bu etki her 0,5 saniyede bir tetiklenebilir."
+      "0": "Kaveh, Doğa Çekirdeği tarafından Hasar (Filizlenme ve Aşırı Çiçeklenme Hasarı dahil) aldıktan sonra Element Ustalığının %300'ü kadar Can yeniler. Bu etki her 0,5 saniyede bir tetiklenebilir."
     }
   },
   "passive2": {
     "name": "Bir Zanaatkarın Tuhaf Fikirleri",
     "description": {
-      "0": "<strong>Boyalı Kubbe</strong> süresince Kaveh'in Normal, Yüklü ve Havadan Saldırıları düşmana vurduğunda Kaveh'in Element Ustalığı 25 artar. Bu etki her 0,1 saniyede bir tetiklenebilir. En fazla 4 kademeye kadar birikir.",
+      "0": "<strong>Boyalı Kubbe</strong> süresince Kaveh'nin Normal, Yüklü veya Havadan Saldırıları düşmana isabet ettiğinde Kaveh'nin Element Ustalığı 25 artar. Bu etki her 0,1 saniyede bir tetiklenebilir. En fazla 4 kademeye kadar birikir.",
       "1": "Boyalı Kubbenin etkileri sonlandığında bu etki de sonlanır."
     }
   },
@@ -119,39 +119,39 @@
   "constellation1": {
     "name": "Yücelten Övgüler",
     "description": {
-      "0": "<strong>Sanatsal Marifet</strong> kullandıktan sonraki 3,5 saniye boyunca Kaveh'in Doğa Direnci %50 artar ve Kaveh %50 daha fazla iyileştirme alır."
+      "0": "<strong>Sanatsal Marifet</strong> kullandıktan sonraki 3 saniye boyunca Kaveh'nin <dendro>Doğa Direnci</dendro> ve Gelen İyileştirme Bonusu sırasıyla %50 ve %25 artar."
     }
   },
   "constellation2": {
-    "name": "Büyük Yol",
+    "name": "Kral Yolunun İhtişamı",
     "description": {
-      "0": "<strong>Boyalı Kubbe</strong> süresince Kaveh'in Normal Saldırı Hızı %15 artar."
+      "0": "<strong>Boyalı Kubbe</strong> süresince Kaveh'nin Normal Saldırı Hızı %15 artar."
     }
   },
   "constellation3": {
-    "name": "Altın Kulenin Armağanı",
+    "name": "Dur Untash'ın Armağanı",
     "description": {
       "0": "<strong>Boyalı Kubbe</strong> seviyesini 3 artırır.",
       "1": "Maksimum yükseltme seviyesi 15'tir."
     }
   },
   "constellation4": {
-    "name": "Yüz Sütun Ziyafeti",
+    "name": "Apadana Ziyafeti",
     "description": {
-      "0": "Kaveh'in tetiklediği Çiçeklenme tepkimeleriyle oluşan Doğa Çekirdeklerinin Patlama Hasarı %60 artar."
+      "0": "Kaveh'nin tetiklediği Çiçeklenme tepkimeleriyle oluşan Doğa Çekirdekleri, patladıklarında %60 daha fazla Hasar verir."
     }
   },
   "constellation5": {
-    "name": "Kutsal Mahzen",
+    "name": "Bonkhanak'ın Hazineleri",
     "description": {
       "0": "<strong>Sanatsal Marifet</strong> seviyesini 3 artırır.",
       "1": "Maksimum yükseltme seviyesi 15'tir."
     }
   },
   "constellation6": {
-    "name": "Huzurlu Hayaller",
+    "name": "Pairidaeza Hayalleri",
     "description": {
-      "0": "<strong>Boyalı Kubbe</strong> süresince Kaveh'in Normal, Yüklü veya Havadan Saldırıları düşmana vurduğunda düşmanın olduğu yere Gök Kubbenin Işığını çağırır. Gök Kubbenin Işığı, Kaveh'in Saldırısının %61,8'i oranında Doğa Alan Hasarı verir ve Etki Alanındaki tüm Doğa Çekirdeklerini patlatır. Bu etki her 3 saniyede bir tetiklenebilir."
+      "0": "<strong>Boyalı Kubbe</strong> süresince Kaveh'nin Normal, Yüklü veya Havadan Saldırıları düşmana isabet ettiğinde düşmanın olduğu yere Pairidaeza'nın Işığını çağırır. Pairidaeza'nın Işığı, Kaveh'nin Saldırısının %61,8'i oranında <dendro>Doğa Alan Hasarı</dendro> verir ve Etki Alanındaki tüm Doğa Çekirdeklerini patlatır. Bu etki her 3 saniyede bir tetiklenebilir."
     }
   }
 }

@@ -1,8 +1,8 @@
 {
   "name": "Baizhu",
-  "title": "???",
+  "title": "Jenseits der Sterblichkeit",
   "description": "",
-  "constellationName": "",
+  "constellationName": "Lagenaria",
   "auto": {
     "name": "Güldene Akupunkturßßß",
     "fields": {
@@ -68,25 +68,25 @@
   "burst": {
     "name": "Ganzheitliche Heilungßßß",
     "description": {
-      "0": "Begibt sich in den Zustand Pulsierendes Ediktßßß und erzeugt einen makellosen Schildßßß.",
-      "1": "In diesem Zustand wird alle 2 s ein neuer makelloser Schildßßß erzeugt.",
+      "0": "Begibt sich in den Zustand Pulsierendes Ediktßßß und erzeugt einen makellosen Schildßßß, der 250 % des <dendro>Dendro-Schadens</dendro> abhält.",
+      "1": "In diesem Zustand wird alle 2,5 s ein neuer makelloser Schildßßß erzeugt.",
       "2": "<br/>",
-      "3": "Der makellose Schildßßß erzeugt unter folgenden Umständen einenßßß Reiki-Geistßßß, der die LP der aktuellen Figuren basierend auf Baizhus max. LP wiederherstellt sowie Gegner angreift und ihnen <dendro>Dendro-Schaden</dendro> zufügt:",
+      "3": "Der makellose Schildßßß stellt unter folgenden Umständen die LP der eigenen aktuellen Figur basierend auf Baizhus max. LP wieder her und beschwört einenßßß Reiki-Geistßßß, der Gegner angreift und ihnen <dendro>Dendro-Schaden</dendro> zufügt:",
       "4": [
-        " Wenn Figuren sich unter dem Schutz eines makellosen Schildsßßß befinden und ein neuer makelloser Schildßßß erzeugt wird.",
+        " Wenn eine Figur sich unter dem Schutz eines makellosen Schildsßßß befindet und ein neuer makelloser Schildßßß erzeugt wird.",
         " Wenn der makellose Schildßßß endet oder durch Schaden zerstört wird."
       ],
       "5": "<br/>",
       "6": "<i>Der, der den Glanz des Himmels und der Erde zu empfangen vermag, der sich mit seinem Inneren vor dem Äußeren bewahrt und seinen Geist in Klarheit taucht, dem werde ein Leben in Erfüllung zuteil.ßßß</i>"
     },
     "skillParams": {
-      "0": "Schutz des Qißßß Schildstärke",
+      "0": "Schildstärke vom makellosen Schildßßß",
       "1": "Dauer des makellosen Schildsßßß",
-      "2": "Erstellungsintervall des makellosen Schildsßßß",
-      "3": "Reiki-Geistßßß-Heilung",
-      "4": "Reiki-Geistßßß-Fähigkeits-SCH",
-      "5": "Dauer von Pulsierendes Ediktßßß",
-      "6": "Abklingzeit",
+      "2": "Heilung durch makellosen Schildßßß",
+      "3": "Reiki-Geistßßß-Fähigkeits-SCH",
+      "4": "Dauer von Pulsierendes Ediktßßß",
+      "5": "Abklingzeit",
+      "6": "Elementarenergie",
       "7": "",
       "8": "",
       "9": "",
@@ -101,7 +101,7 @@
   "passive1": {
     "name": "Zyklus der fünf Elementeßßß",
     "description": {
-      "0": "Verleiht Baizhu auf Basis der LP des aktuellen Truppenmitglieds unterschiedliche Effekte:",
+      "0": "Verleiht Baizhu auf Basis der LP des aktuellen eigenen Truppenmitglieds unterschiedliche Effekte:",
       "1": [
         " Erhöht Baizhus Heilungsbonus um 20 %, wenn die LP weniger als 50 % betragen.",
         " Verleiht Baizhu einen <dendro>Dendro-SCH-Bonus</dendro> von 25 %, wenn die LP 50 % oder mehr betragen."
@@ -111,7 +111,7 @@
   "passive2": {
     "name": "Aus der Erde geborenßßß",
     "description": {
-      "0": "Figuren, die Heilung durch <strong>Ganzheitliche Heilungßßß</strong> erhalten, wird der Effekt „Jahr der Gunst des Grüns“ßßß gewährt: Erhöht den Schaden, den die geheilten Figuren durch das Auslösen der Reaktionen in Flammen, Sprießen, Supraspross und Flammenspross verursachen und den Schaden, der durch die Reaktionen Suprawuchs und Rankenwuchs verursacht wird, für je 1.000 Punkte von Baizhus max. LP in dem Teil, der nicht mehr als 50.000 beträgt, jeweils um 2 % und 0,8 %. Hält 6 s."
+      "0": "Figuren, die Heilung durch den <strong>makellosen Schildßßß</strong> erhalten, wird der Effekt „Jahr der Gunst des Grüns“ßßß gewährt: Erhöht den Schaden, den die geheilten Figuren durch das Auslösen der Reaktionen in Flammen, Sprießen, Supraspross und Flammenspross verursachen und den Schaden, der durch die Reaktionen Suprawuchs und Rankenwuchs verursacht wird, für je 1.000 Punkte von Baizhus max. LP in dem Teil, der nicht mehr als 50.000 beträgt, jeweils um 2 % und 0,8 %. Hält 6 s."
     }
   },
   "passive3": {
@@ -129,10 +129,10 @@
   "constellation2": {
     "name": "Flink und geschicktßßß",
     "description": {
-      "0": "Wenn der Angriff der aktuellen eigenen Figur in der Truppe (mit Ausnahme von Baizhu) Gegner trifft, setzt Baizhu Unruhspiral-Geist – Schnitterßßß ein.",
-      "1": "Der Unruhspiral-Geist – Schnitter führt einen einzelnen Angriff aus, der 300 % <dendro>Dendro-Schaden</dendro> verursacht und die LP wiederherstellt. Die wiederhergestellte Menge an LP entspricht 20 % der von Unruhspiral-Geist der <strong>Universal-Diagnose</strong> wiederhergestellten LP.",
+      "0": "Wenn der Angriff der aktuellen eigenen Figur in der Truppe Gegner in der Nähe trifft, setzt Baizhu Unruhspiral-Geist – Schnitterßßß ein.",
+      "1": "Der Unruhspiral-Geist – Schnitter führt höchstens einen einzelnen Angriff aus, der <dendro>Dendro-Schaden</dendro> in Höhe von 300 % von Baizhus ANG verursacht und die LP wiederherstellt und kehrt dann zurück. Die wiederhergestellte Menge an LP entspricht 20 % der von Unruhspiral-Geist der <strong>Universal-Diagnose</strong> wiederhergestellten LP.",
       "2": "Hierdurch verursachter Schaden wird als Schaden der Elementarfähigkeit gewertet.",
-      "3": "5 s Abklingzeit."
+      "3": "6 s Abklingzeit."
     }
   },
   "constellation3": {
@@ -157,7 +157,7 @@
   "constellation6": {
     "name": "Der Fluss von Gut und Böseßßß",
     "description": {
-      "0": "Erhöht den Schaden des Reiki-Geists von <strong>Ganzheitliche Heilung</strong> um 10 % von Baizhus max. LP.",
+      "0": "Erhöht den Schaden des Reiki-Geists von <strong>Ganzheitliche Heilung</strong> um 6 % von Baizhus max. LP.",
       "1": "Außerdem wird jedes Mal, wenn der <strong>Unruhspiral-Geistßßß</strong> oder der Unruhspiral-Geist – Schnitterßßß einen Gegner trifft, mit einer Wahrscheinlichkeit von 100 % ein makelloser Schild der <strong>Ganzheitliche Heilung</strong> erschaffen. Jeder Unruhspiral-Geistßßß oder Unruhspiral-Geist – Schnitterßßß kann diesen Effekt jeweils nur einmal auslösen."
     }
   }

@@ -1,8 +1,8 @@
 {
   "name": "Kaveh",
-  "title": "???",
+  "title": "Reflet empyréen",
   "description": "",
-  "constellationName": "",
+  "constellationName": "Paradisaea",
   "auto": {
     "name": "Réglage du couple",
     "fields": {
@@ -68,10 +68,10 @@
   "burst": {
     "name": "Dôme peint",
     "description": {
-      "0": "Libère complètement l'énergie de Mehrak et crée un carroyage de topographie, infligeant des <dendro>DGT Dendro de zone</dendro> aux ennemis à l'intérieur et renforçant les capacités de combat de Kaveh pendant un certain temps :",
+      "0": "Libère complètement l'énergie de Mehrak et crée un carroyage de topographie, infligeant des <dendro>DGT Dendro de zone</dendro> aux ennemis à l'intérieur, faisant éclater tous les noyaux Dendro dans la zone d'effet et renforçant les capacités de combat de Kaveh pendant un certain temps :",
       "1": [
         " Augmente la portée des attaques normales, chargées et plongeantes de Kaveh et convertit ses DGT d'attaque en <dendro>DGT Dendro</dendro> ne pouvant pas être enchantés.",
-        " Augmente les DGT infligés lors de l'éclatement des noyaux Dendro créés par tous les personnages de l'équipe grâce aux réactions de Fleurissement.",
+        " Augmente les DGT infligés lors de l'éclatement des noyaux Dendro créés par vos personnages grâce aux réactions de Fleurissement.",
         " Augmente la RÉS à l'interruption de Kaveh."
       ],
       "2": "Ces effets cessent lorsque Kaveh quitte le champ de bataille.",
@@ -100,7 +100,7 @@
   "passive1": {
     "name": "Responsabilité d'un créateur",
     "description": {
-      "0": "Lorsque Kaveh subit des DGT infligés par un noyau Dendro (incluant Bourgeonnement et Exubérance), il récupère des PV pour une valeur équivalant à 300 % de sa maîtrise élémentaire. Cet effet peut être déclenché une fois toutes les 0,5 s."
+      "0": "Lorsque des DGT infligés par un noyau Dendro (incluant Bourgeonnement et Exubérance) touchent Kaveh, il récupère des PV pour une valeur équivalant à 300 % de sa maîtrise élémentaire. Cet effet peut être déclenché une fois toutes les 0,5 s."
     }
   },
   "passive2": {
@@ -119,7 +119,7 @@
   "constellation1": {
     "name": "Salutation de la grande porte",
     "description": {
-      "0": "La RÉS Dendro et le bonus de soins reçus de Kaveh augmentent de 50 % pendant 3,5 s après avoir utilisé <strong>Dôme peint</strong>."
+      "0": "Pendant 3 s après avoir utilisé <strong>Dôme peint</strong>, la <dendro>RÉS Dendro</dendro> de Kaveh augmente de 50 % et son bonus de soins reçus de 25 %."
     }
   },
   "constellation2": {
@@ -151,7 +151,7 @@
   "constellation6": {
     "name": "Idéal du jardin céleste",
     "description": {
-      "0": "Pendant la durée de <strong>Dôme peint</strong>, lorsque Kaveh touche un ennemi avec une attaque normale, chargée ou plongeante, une lumière du firmament est libérée à l'emplacement de ce dernier, infligeant des DGT Dendro de zone d'une valeur équivalant à 61,8 % de l'ATQ de Kaveh et faisant éclater tous les noyaux Dendro dans la zone d'effet. Cet effet peut être déclenché une fois toutes les 3 s."
+      "0": "Pendant la durée de <strong>Dôme peint</strong>, lorsque Kaveh touche un ennemi avec une attaque normale, chargée ou plongeante, une lumière du pairidaeza est libérée à l'emplacement de ce dernier, infligeant des <dendro>DGT Dendro de zone</dendro> d'une valeur équivalant à 61,8 % de l'ATQ de Kaveh et faisant éclater tous les noyaux Dendro dans la zone d'effet. Cet effet peut être déclenché une fois toutes les 3 s."
     }
   }
 }

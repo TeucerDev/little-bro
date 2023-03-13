@@ -1,14 +1,14 @@
 {
   "name": "Kaveh",
-  "title": "???",
+  "title": "Refletor Empíreo",
   "description": "",
-  "constellationName": "",
+  "constellationName": "Paradisaea",
   "auto": {
     "name": "Ajuste de Torque",
     "fields": {
       "normal": {
         "0": "<strong><strong>Ataque Normal</strong>",
-        "1": "Lança Mehrak, realizan até 4 golpes consecutivos."
+        "1": "Lança Mehrak, realiza até 4 golpes consecutivos."
       },
       "charged": {
         "0": "<strong>Ataque Carregado</strong>",
@@ -66,12 +66,12 @@
     }
   },
   "burst": {
-    "name": "Cúpula Pintada",
+    "name": "Palácio Resplandecente",
     "description": {
-      "0": "Libera a energia de Mehrak completamente, criando um espaço mapeado cúbico que causa <dendro>Dano Dendro em AdE</dendro> contra os inimigos dentro dele, e fortalece as habilidades de combate de Kaveh por um tempo:",
+      "0": "Libera a energia de Mehrak completamente, criando um espaço mapeado cúbico que causa <dendro>Dano Dendro em AdE</dendro> contra os inimigos dentro dele, ativa todos os Núcleos Dendro dentro da AdE e fortalece as habilidades de combate de Kaveh por um tempo:",
       "1": [
         " Aumenta a AdE dos Ataques Normais, Carregados e Imersivos de Kaveh, e converte seu Dano de Ataque em <dendro>Dano Dendro</dendro> que não pode ser substituído;",
-        " Núcleos Dendro criados por todos membros da equipe através da reação de Florescimento causarão mais Dano ao explodirem;",
+        " Núcleos Dendro criados por todos os membros da sua própria equipe, através da reação de Florescimento, causarão mais Dano ao explodirem;",
         " Aumenta a Resistência contra Interrupção de Kaveh."
       ],
       "2": "Esses efeitos serão removidos quando Kaveh sair do campo de batalha.",
@@ -106,8 +106,8 @@
   "passive2": {
     "name": "Conceitos Criativos do Artesão",
     "description": {
-      "0": "Durante a <strong>Cúpula Pintada</strong>, quando Ataque Normal, Ataque Carregado ou Ataque Imersivo de Kaveh atingem os oponentes, sua Proficiência Elemental aumenta em 25. Este efeito pode ser ativado uma vez a cada 0.1s, com o máximo de 4 acúmulos.",
-      "1": "Este efeito é cancelado quando o efeito de Cúpula Pintada acaba."
+      "0": "Durante o <strong>Palácio Resplandecente</strong>, quando Ataque Normal, Ataque Carregado ou Ataque Imersivo de Kaveh atingem os oponentes, sua Proficiência Elemental aumenta em 25. Este efeito pode ser ativado uma vez a cada 0.1s, com o máximo de 4 acúmulos.",
+      "1": "Este efeito é cancelado quando o efeito de Palácio Resplandecente acaba."
     }
   },
   "passive3": {
@@ -119,19 +119,19 @@
   "constellation1": {
     "name": "Saudações Sublimes",
     "description": {
-      "0": "Dentro de 3.5s após utilizar <strong>Genialidade Artística</strong>, a RES Dendro de Kaveh é aumentada em 50% e ele receberá 50% a mais de cura."
+      "0": "Dentro de 3s após utilizar <strong>Genialidade Artística</strong>, a <dendro>RES Dendro</dendro> de Kaveh é aumentada em 50% e ele receberá 25% a mais de cura."
     }
   },
   "constellation2": {
     "name": "A Grande Estrada",
     "description": {
-      "0": "A Vel. de ATQ do Ataque Normal de Kaveh aumenta em 15% durante a <strong>Cúpula Pintada</strong>."
+      "0": "A Vel. de ATQ do Ataque Normal de Kaveh aumenta em 15% durante a <strong>Palácio Resplandecente</strong>."
     }
   },
   "constellation3": {
     "name": "Oferenda da Torre Dourada",
     "description": {
-      "0": "Aumenta o nível do <strong>Cúpula Pintada</strong> em 3.",
+      "0": "Aumenta o nível de <strong>Palácio Resplandecente</strong> em 3.",
       "1": "O nível máximo de elevação é 15."
     }
   },
@@ -151,7 +151,7 @@
   "constellation6": {
     "name": "Utopia Celestial",
     "description": {
-      "0": "Quando os Ataques Normais, Carregados e Imersivos de Kaveh atingem os oponentes durante a <strong>Cúpula Pintada</strong>, ativarão Luz Celestial na posição do oponente, causando 61.8% do ATQ de Kaveh como Dano Dendro em AdE e fazendo com que os Núcleos Dendro dentro da AdE explodam. Este efeito pode ser ativado uma vez a cada 3s."
+      "0": "Quando os Ataques Normais, Carregados ou Imersivos de Kaveh atingem os oponentes durante o <strong>Palácio Resplandecente</strong>, ativarão Luz Celestial na posição do oponente, causando 61.8% do ATQ de Kaveh como <dendro>Dano Dendro em AdE</dendro> e fazendo com que os Núcleos Dendro dentro da AdE explodam. Este efeito pode ser ativado uma vez a cada 3s."
     }
   }
 }

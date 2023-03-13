@@ -1,8 +1,8 @@
 {
   "name": "Baizhu",
-  "title": "???",
+  "title": "Transcendant la mortalité",
   "description": "",
-  "constellationName": "",
+  "constellationName": "Lagenaria",
   "auto": {
     "name": "Acupuncture dorée",
     "fields": {
@@ -16,7 +16,7 @@
       },
       "plunging": {
         "0": "<strong>Attaque plongeante</strong>",
-        "1": "Plonge depuis les airs en concentrant ses pouvoirs Dendro, infligeant des DGT aux ennemis en chemin et des <dendro>DGT Dendro de zone</dendro>."
+        "1": "Plonge depuis les airs en concentrant ses pouvoirs Dendro, infligeant des DGT aux ennemis en chemin et des <dendro>DGT Dendro de zone</dendro> à l'impact."
       }
     },
     "skillParams": {
@@ -68,10 +68,10 @@
   "burst": {
     "name": "Soin holistique",
     "description": {
-      "0": "Entre dans l'état Ordonnance impulsive, créant un bouclier hermétique.",
-      "1": "Pendant cet état, un nouveau bouclier hermétique est généré toutes les 2 s.",
+      "0": "Entre dans l'état Ordonnance impulsive, créant un bouclier hermétique qui absorbe les <dendro>DGT Dendro</dendro> 250 % plus efficacement.",
+      "1": "Pendant cet état, un nouveau bouclier hermétique est généré toutes les 2,5 s.",
       "2": "<br/>",
-      "3": "Dans les circonstances suivantes, le bouclier hermétique libère une veine d'aura pour soigner le personnage déployé selon les PV max de Baizhu et attaquer les adversaires en infligeant des <dendro>DGT Dendro</dendro> :",
+      "3": "Dans les circonstances suivantes, le bouclier hermétique soigne votre personnage déployé selon les PV max de Baizhu et libère une veine d'aura pour attaquer les adversaires en infligeant des <dendro>DGT Dendro</dendro> :",
       "4": [
         " Lorsqu'un personnage est sous la protection d'un bouclier hermétique et qu'un nouveau bouclier hermétique est généré.",
         " Lorsque les effets du bouclier hermétique prennent fin ou lorsqu'il est détruit."
@@ -82,11 +82,11 @@
     "skillParams": {
       "0": "PV de bouclier hermétique",
       "1": "Durée de bouclier hermétique",
-      "2": "Intervalle de création de bouclier hermétique",
-      "3": "Soins de veine d'aura",
-      "4": "DGT veine d'aura",
-      "5": "Durée d'ordonnance impulsive",
-      "6": "Temps de recharge",
+      "2": "Soins de bouclier hermétique",
+      "3": "DGT veine d'aura",
+      "4": "Durée d'ordonnance impulsive",
+      "5": "Temps de recharge",
+      "6": "Énergie élémentaire",
       "7": "",
       "8": "",
       "9": "",
@@ -101,7 +101,7 @@
   "passive1": {
     "name": "Cinq fortunes perpétuelles",
     "description": {
-      "0": "Baizhu obtient différents effets selon les PV du personnage déployé de votre équipe :",
+      "0": "Baizhu obtient différents effets selon les PV de votre personnage déployé :",
       "1": [
         " Si les PV de ce dernier sont inférieurs à 50 %, Baizhu obtient un bonus de soins de 20 %.",
         " Si les PV de ce dernier sont supérieurs ou égaux à 50 %, Baizhu bénéficie d'un <dendro>bonus de DGT Dendro</dendro> de 25 %."
@@ -111,13 +111,13 @@
   "passive2": {
     "name": "Terre mère",
     "description": {
-      "0": "Les personnages soignés par <strong>Soin holistique</strong> obtiennent l'effet Année de la chance boisée : pour chaque tranche de 1 000 PV que Baizhu possède jusqu'à 50 000 PV, les DGT infligés par leurs réactions de Brûlure, de Fleurissement, d'Exubérance et de Bourgeonnement augmentent de 2 % et ceux infligés par leurs réactions de Suractivation et de Propagation augmentent de 0,8 %, pendant 6 s."
+      "0": "Les personnages soignés par un <strong>bouclier hermétique</strong> obtiennent l'effet Année de la chance boisée : pour chaque tranche de 1 000 PV max que Baizhu possède jusqu'à 50 000 PV, les DGT infligés par leurs réactions de Brûlure, de Fleurissement, d'Exubérance et de Bourgeonnement augmentent de 2 % et ceux infligés par leurs réactions de Suractivation et de Propagation augmentent de 0,8 %, pendant 6 s."
     }
   },
   "passive3": {
     "name": "Bienfait herbacé",
     "description": {
-      "0": "Lorsque Baizhu fait partie de l'équipe, interagir avec certains objets récoltables soigne le personnage déployé de votre équipé pour une valeur équivalant à 2,5 % des PV max de Baizhu."
+      "0": "Lorsque Baizhu fait partie de l'équipe, interagir avec certains objets récoltables soigne votre personnage déployé pour une valeur équivalant à 2,5 % des PV max de Baizhu."
     }
   },
   "constellation1": {
@@ -129,10 +129,10 @@
   "constellation2": {
     "name": "Main habile",
     "description": {
-      "0": "Lorsque le personnage déployé de votre équipe (hormis Baizhu) touche un ennemi avec une attaque, Baizhu libère un esprit divisé de gaze.",
-      "1": "L'esprit divisé de gaze peut effectuer 1 attaque qui inflige 300 % de <dendro>DGT Dendro</dendro> et soigne pour 20 % de l'esprit de gaze de <strong>Diagnostic universel</strong>.",
+      "0": "Lorsque votre personnage déployé touche un ennemi proche avec une attaque, Baizhu libère un esprit divisé de gaze.",
+      "1": "L'esprit divisé de gaze effectue 1 attaque avant de revenir, infligeant des <dendro>DGT Dendro</dendro> pour une valeur équivalant à 300 % de l'ATQ de Baizhu et soignant pour 20 % du soin de l'esprit de gaze de <strong>Diagnostic universel</strong>.",
       "2": "Les DGT infligés de cette manière sont considérés comme des DGT de compétence élémentaire.",
-      "3": "Cet effet peut être déclenché une fois toutes les 5 s."
+      "3": "Cet effet peut être déclenché une fois toutes les 6 s."
     }
   },
   "constellation3": {
@@ -158,7 +158,7 @@
   "constellation6": {
     "name": "Flux spectral",
     "description": {
-      "0": "Les DGT infligés par la veine d'aura de <strong>Soin holistique</strong> augmentent d'une valeur équivalant à 10 % des PV max de Baizhu.",
+      "0": "Les DGT infligés par la veine d'aura de <strong>Soin holistique</strong> augmentent d'une valeur équivalant à 6 % des PV max de Baizhu.",
       "1": "De plus, lorsque l'<strong>esprit de gaze</strong> ou l'esprit divisé de gaze touche un ennemi, il y a 100 % de chances de créer un bouclier hermétique de <strong>Soin holistique</strong>. Cet effet peut être déclenché une fois par esprit de gaze ou esprit divisé de gaze."
     }
   }

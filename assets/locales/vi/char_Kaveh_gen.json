@@ -1,8 +1,8 @@
 {
   "name": "Kaveh",
-  "title": "???",
+  "title": "Lăng Kính Vòm Trời",
   "description": "",
-  "constellationName": "",
+  "constellationName": "Cung Thiên Đường Điểu",
   "auto": {
     "name": "Thiết Lập Lực Quay",
     "fields": {
@@ -68,10 +68,10 @@
   "burst": {
     "name": "Mái Vòm Rực Rỡ",
     "description": {
-      "0": "Phóng thích hoàn toàn năng lượng của \"Mehrak\", vạch ra không gian phác họa lập thể, gây <dendro>Sát Thương Phạm Vi Nguyên Tố Thảo</dendro> cho kẻ địch trong đó, đồng thời cường hóa năng lực tác chiến của Kaveh trong một thời gian nhất định:",
+      "0": "Phóng thích hoàn toàn năng lượng của \"Mehrak\", vạch ra không gian phác họa lập thể, gây <dendro>Sát Thương Phạm Vi Nguyên Tố Thảo</dendro> cho kẻ địch trong đó và kích nổ toàn bộ Hạt Nhân Thảo trong phạm vi, đồng thời cường hóa năng lực tác chiến của Kaveh trong một thời gian nhất định:",
       "1": [
         "Tăng phạm vi đánh của Tấn Công Thường, Trọng Kích và Tấn Công Khi Đáp của Kaveh, chuyển hóa sát thương tấn công thành <dendro>Sát Thương Nguyên Tố Thảo</dendro> không thể bị thay thế;",
-        "Tăng sát thương nổ của Hạt Nhân Thảo được sản sinh ra bởi phản ứng Sum Suê từ tất cả nhân vật trong đội;",
+        "Tăng sát thương nổ của Hạt Nhân Thảo được sản sinh ra bởi phản ứng Sum Suê từ nhân vật của bản thân trong đội;",
         "Tăng khả năng kháng gián đoạn của Kaveh."
       ],
       "2": "Hiệu quả này sẽ bị hủy khi Kaveh rời trận.",
@@ -106,7 +106,7 @@
   "passive2": {
     "name": "Vẻ Tò Mò Của Thợ Thủ Công",
     "description": {
-      "0": "Trong thời gian duy trì <strong>Mái Vòm Rực Rỡ</strong>, Tấn Công Thường, Trọng Kích và Tấn Công Khi Đáp của Kaveh khi trúng kẻ địch, Tinh Thông Nguyên Tố sẽ tăng 25 điểm. Hiệu quả này mỗi 0.1s tối đa kích hoạt một lần, cộng dồn 4 tầng.",
+      "0": "Trong thời gian duy trì <strong>Mái Vòm Rực Rỡ</strong>, Tấn Công Thường, Trọng Kích hoặc Tấn Công Khi Đáp của Kaveh khi trúng kẻ địch, Tinh Thông Nguyên Tố sẽ tăng 25 điểm. Hiệu quả này mỗi 0.1s tối đa kích hoạt một lần, cộng dồn 4 tầng.",
       "1": "Khi hiệu ứng \"Mái Vòm Rực Rỡ\" kết thúc, hiệu quả này cũng sẽ bị hủy."
     }
   },
@@ -119,7 +119,7 @@
   "constellation1": {
     "name": "Lời Chào Cao Quý",
     "description": {
-      "0": "Trong 3.5s sau khi thi triển <strong>Nghệ Thuật Tinh Tế</strong>, Kháng Nguyên Tố Thảo của Kaveh tăng 50%, lượng trị liệu nhận được tăng 50%."
+      "0": "Trong 3s sau khi thi triển <strong>Nghệ Thuật Tinh Tế</strong>, <dendro>Kháng Nguyên Tố Thảo</dendro> của Kaveh tăng 50%, lượng trị liệu nhận được tăng 25%."
     }
   },
   "constellation2": {
@@ -151,7 +151,7 @@
   "constellation6": {
     "name": "Lý Tưởng Bình Dị",
     "description": {
-      "0": "Trong thời gian duy trì <strong>Mái Vòm Rực Rỡ</strong>, Tấn Công Thường, Trọng Kích và Tấn Công Khi Đáp của Kaveh khi trúng kẻ địch, sẽ kích hoạt Vòng Sáng Vòm Trời ở vị trí kẻ địch, gây Sát Thương Phạm Vi Nguyên Tố Thảo tương ứng với 61.8% tấn công của Kaveh, đồng thời kích nổ tất cả Hạt Nhân Thảo trong phạm vi ảnh hưởng. Hiệu quả này mỗi 3s tối đa kích hoạt một lần."
+      "0": "Trong thời gian duy trì <strong>Mái Vòm Rực Rỡ</strong>, Tấn Công Thường, Trọng Kích hoặc Tấn Công Khi Đáp của Kaveh khi trúng kẻ địch, sẽ kích hoạt Vòng Sáng Pairidaeza ở vị trí kẻ địch, gây <dendro>Sát Thương Phạm Vi Nguyên Tố Thảo</dendro> tương ứng với 61.8% tấn công của Kaveh, đồng thời kích nổ tất cả Hạt Nhân Thảo trong phạm vi ảnh hưởng. Hiệu quả này mỗi 3s tối đa kích hoạt một lần."
     }
   }
 }

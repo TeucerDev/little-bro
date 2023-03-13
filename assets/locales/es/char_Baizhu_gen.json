@@ -1,8 +1,8 @@
 {
   "name": "Baizhu",
-  "title": "???",
+  "title": "El Transgresor de lo Mortal",
   "description": "",
-  "constellationName": "",
+  "constellationName": "Lagenaria",
   "auto": {
     "name": "Acupuntura áurica",
     "fields": {
@@ -12,7 +12,7 @@
       },
       "charged": {
         "0": "<strong>Ataque Cargado</strong>",
-        "1": "Consume una cierta cantidad de Aguante para infligir <dendro>Daño Dendro en el AdE</dendro> hacia adelante después de un corto tiempo de canalización."
+        "1": "Consume una cierta cantidad de Aguante para infligir <dendro>Daño Dendro en el AdE</dendro> frente a sí mismo después de un corto tiempo de canalización."
       },
       "plunging": {
         "0": "<strong>Ataque Descendente</strong>",
@@ -44,7 +44,7 @@
       "0": "Controla a un espíritu sérico que se mueve entre los enemigos cercanos para atacarlos e infligirles <dendro>Daño Dendro</dendro>.",
       "1": "Tras ejecutar un máximo de 3 ataques o cuando no haya ningún enemigo cerca, el espíritu sérico regresa y restaura Vida a todos los personajes del equipo en función de la Vida Máx. de Baizhu.",
       "2": "<br/>",
-      "3": "<i>Los expertos en las artes curatorias saben distinguir las señales verdaderas de las falsas, lo que les permite eliminar las enfermedades de raíz incluso antes de que se manifieste cualquier síntoma.</i>"
+      "3": "<i>Los expertos en las artes curativas saben distinguir las señales verdaderas de las falsas, lo que les permite eliminar las enfermedades de raíz incluso antes de que se manifieste cualquier síntoma.</i>"
     },
     "skillParams": {
       "0": "Daño de habilidad",
@@ -68,10 +68,10 @@
   "burst": {
     "name": "Sanación holística",
     "description": {
-      "0": "Entra en el estado de “edicto palpitante” y crea un “escudo incólume”.",
-      "1": "Mientras este estado está activo, crea un nuevo escudo incólume cada 2{NON_BREAK_SPACE}s.",
+      "0": "Entra en el estado de “edicto palpitante” y crea un “escudo incólume” que tiene un 250% de efectividad de absorción de <dendro>Daño Dendro</dendro>.",
+      "1": "Mientras este estado está activo, crea un nuevo escudo incólume cada 2.5{NON_BREAK_SPACE}s.",
       "2": "<br/>",
-      "3": "Bajo las siguientes circunstancias, el escudo libera una espirituarteria que restaura Vida al personaje en uso en función de la Vida Máx. de Baizhu y ataca a los enemigos para infligirles <dendro>Daño Dendro</dendro>:",
+      "3": "Bajo las siguientes circunstancias, el escudo restaura Vida a tu personaje en uso en función de la Vida Máx. de Baizhu y libera una espirituarteria que ataca a los enemigos y les inflige <dendro>Daño Dendro</dendro>:",
       "4": [
         "Cuando un personaje está bajo la protección del escudo incólume y crea un nuevo escudo.",
         "Cuando termina el efecto del escudo o cuando este se rompe al recibir daño."
@@ -82,11 +82,11 @@
     "skillParams": {
       "0": "Absorción de daño del escudo incólume",
       "1": "Duración del escudo incólume",
-      "2": "Intervalo de creación de escudo incólume",
-      "3": "Curación de espirituarteria",
-      "4": "Daño de espirituarteria",
-      "5": "Duración de edicto palpitante",
-      "6": "TdE",
+      "2": "Curación del escudo incólume",
+      "3": "Daño de espirituarteria",
+      "4": "Duración de edicto palpitante",
+      "5": "TdE",
+      "6": "Energía Elemental",
       "7": "",
       "8": "",
       "9": "",
@@ -111,13 +111,13 @@
   "passive2": {
     "name": "Madre tierra",
     "description": {
-      "0": "Los personajes que sean curados mediante <strong>Sanación holística</strong> obtendrán el efecto de “fortuna de la madera”, el cual hace que, por cada 1000{NON_BREAK_SPACE}pts. de Vida Máx. que tenga Baizhu por debajo de los 50{NON_BREAK_SPACE}000{NON_BREAK_SPACE}pts., el daño que inflige el personaje con las reacciones de Quemadura, Florecimiento, Sobreflorecimiento y Crepitar aumenta en un 2%, y el de las reacciones de Intensificación y Propagación aumenta en un 0.8% durante 6{NON_BREAK_SPACE}s."
+      "0": "Los personajes que sean curados con el <strong>escudo incólume</strong> obtendrán el efecto de “fortuna de la madera”, el cual hace que, por cada 1000{NON_BREAK_SPACE}pts. de Vida Máx. que tenga Baizhu por debajo de los 50{NON_BREAK_SPACE}000{NON_BREAK_SPACE}pts., el daño que inflige el personaje con las reacciones de Quemadura, Florecimiento, Sobreflorecimiento y Crepitar aumenta en un 2%, y el de las reacciones de Intensificación y Propagación aumenta en un 0.8% durante 6{NON_BREAK_SPACE}s."
     }
   },
   "passive3": {
     "name": "Nutrición vegetal",
     "description": {
-      "0": "Cuando Baizhu está en el equipo, al interactuar con algunos objetos recolectables, curará a tu personaje en uso en una cantidad equivalente al 2.5% de la Vida Máx. de Baizhu."
+      "0": "Cuando Baizhu está en el equipo, tu personaje en uso recuperará Vida en una cantidad equivalente al 2.5% de la Vida Máx. de Baizhu al interactuar con algunos objetos recolectables."
     }
   },
   "constellation1": {
@@ -129,10 +129,10 @@
   "constellation2": {
     "name": "Maestría versátil",
     "description": {
-      "0": "Cuando tu personaje en uso (a excepción de Baizhu) golpea a un enemigo, Baizhu libera un espíritu sérico cercenador.",
-      "1": "Este espíritu ejecuta un ataque que inflige un 300% de <dendro>Daño Dendro</dendro> y cura un 20% de lo que haría el espíritu sérico creado mediante <strong>Diagnóstico universal</strong>.",
+      "0": "Cuando tu personaje en uso golpea a un enemigo cercano, Baizhu libera un espíritu sérico cercenador.",
+      "1": "Tras ejecutar un ataque como máximo, este espíritu regresa, inflige un <dendro>Daño Dendro</dendro> equivalente al 300% del ATQ de Baizhu y cura un 20% de lo que curaría el espíritu sérico creado mediante <strong>Diagnóstico universal</strong>.",
       "2": "El daño infligido de esta manera se considera daño de Habilidad Elemental.",
-      "3": "Este efecto solo puede activarse una vez cada 5{NON_BREAK_SPACE}s."
+      "3": "Este efecto solo puede activarse una vez cada 6{NON_BREAK_SPACE}s."
     }
   },
   "constellation3": {
@@ -151,14 +151,14 @@
   "constellation5": {
     "name": "Síntomas variables",
     "description": {
-      "0": "Aumenta el nivel de habilidad de <strong>Diagnóstico universal </strong> {NON_BREAK_SPACE}+3.",
+      "0": "Aumenta el nivel de habilidad de <strong>Diagnóstico universal</strong>{NON_BREAK_SPACE}+3.",
       "1": "Puede ser aumentado hasta Niv.{NON_BREAK_SPACE}15."
     }
   },
   "constellation6": {
     "name": "Patogénesis",
     "description": {
-      "0": "El daño que inflige la espirituarteria de <strong>Sanación holística</strong> aumenta en una cantidad equivalente al 10% de la Vida Máx. de Baizhu.",
+      "0": "El daño que inflige la espirituarteria de <strong>Sanación holística</strong> aumenta en una cantidad equivalente al 6% de la Vida Máx. de Baizhu.",
       "1": "Además, cuando el <strong>espíritu sérico</strong> o el espíritu sérico cercenador golpea a un enemigo, hay un 100% de probabilidad de crear un escudo incólume de <strong>Sanación holística</strong>. Cada espíritu sérico o espíritu sérico cercenador solo puede activar este efecto una vez."
     }
   }

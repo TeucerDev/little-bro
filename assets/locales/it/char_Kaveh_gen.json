@@ -1,10 +1,10 @@
 {
   "name": "Kaveh",
-  "title": "???",
+  "title": "Riflesso empireo",
   "description": "",
-  "constellationName": "",
+  "constellationName": "Paradisaea",
   "auto": {
-    "name": "Coppia di serraggio",
+    "name": "Installazione schematica",
     "fields": {
       "normal": {
         "0": "<strong><strong>Attacco normale</strong>",
@@ -42,7 +42,7 @@
   "skill": {
     "name": "Ingegno artistico",
     "description": {
-      "0": "Usa le abilità di mappatura di Mehrak a scopo offensivo, dando via a una scansione radiale che infligge <dendro>DAN da Dendro ad area</dendro>. Scansiona anche tutti i nuclei di Dendro nell'area d'effetto, causandone la rottura immediata.",
+      "0": "Usa le abilità di mappatura di Mehrak a scopo offensivo, dando via a una scansione radiale che infligge <dendro>DAN da Dendro ad area</dendro>. Scansiona anche tutti i nuclei di Dendro nell'area d'effetto, causandone l'immediata esplosione.",
       "1": "<br/>",
       "2": "<i>Mehrak è stato creato modificando tecnologie antiche, e potrebbe avere altre funzionalità oltre alla creazione di mappe...</i>"
     },
@@ -68,11 +68,11 @@
   "burst": {
     "name": "Volta dipinta",
     "description": {
-      "0": "Scatena tutta l'energia di Mehrak e crea uno spazio cubico scansionato, infliggendo <dendro>DAN da Dendro ad area</dendro> a tutti gli avversari al suo interno e fornendo a Kaveh i seguenti potenziamenti per un lasso di tempo specifico.",
+      "0": "Scatena tutta l'energia di Mehrak e crea uno spazio cubico scansionato, infliggendo <dendro>DAN da Dendro ad area</dendro> a tutti gli avversari al suo interno, causando l'esplosione di tutti i nuclei di Dendro all'interno dell'area d'effetto e fornendo a Kaveh i seguenti potenziamenti per uno specifico lasso di tempo.",
       "1": [
-        " Incrementa l'area d'effetto degli attacchi normali, caricati e in picchiata di Kaveh, e converte i DAN dei suoi attacchi in <dendro>DAN da Dendro</dendro>. Questo effetto non può essere annullato.",
-        " Tutti i nuclei di Dendro creati dai membri del gruppo tramite reazioni di Fioritura infliggono DAN da rottura aggiuntivi.",
-        " Aumenta la resistenza all'interruzione di Kaveh."
+        " L'area d'effetto degli attacchi normali, caricati e in picchiata di Kaveh aumenta, e i DAN dei suoi attacchi vengono convertiti in <dendro>DAN da Dendro</dendro>. Questo effetto non può essere annullato.",
+        " Tutti i nuclei di Dendro creati dai membri del tuo gruppo tramite reazioni di Fioritura infliggono DAN aggiuntivi quando esplodono.",
+        " La resistenza all'interruzione di Kaveh aumenta."
       ],
       "2": "Questi effetti si annullano quando Kaveh lascia il campo.",
       "3": "<br/>",
@@ -81,7 +81,7 @@
     "skillParams": {
       "0": "DAN da abilità",
       "1": "Durata",
-      "2": "Bonus DAN da rottura di nuclei di Dendro",
+      "2": "Bonus DAN da esplosione nucleo di Dendro",
       "3": "TdR",
       "4": "Costo energia",
       "5": "",
@@ -98,9 +98,9 @@
     }
   },
   "passive1": {
-    "name": "Impresa del creatore",
+    "name": "Impresa dell'architetto",
     "description": {
-      "0": "Quando subisce DAN inflitti da un nucleo di Dendro (inclusi i DAN da Germinazione e Iperfioritura), Kaveh recupera PS pari a un 300% della sua maestria elementale. Quest'effetto può attivarsi una volta ogni 0,5{NON_BREAK_SPACE}s."
+      "0": "Quando subisce DAN inflitti da un nucleo di Dendro (inclusi i DAN da Germinazione e Iperfioritura), Kaveh ripristina PS pari a un 300% della sua maestria elementale. Quest'effetto può attivarsi una volta ogni 0,5{NON_BREAK_SPACE}s."
     }
   },
   "passive2": {
@@ -119,39 +119,39 @@
   "constellation1": {
     "name": "Saluti eccelsi",
     "description": {
-      "0": "Entro 3,5{NON_BREAK_SPACE}s dopo aver usato <strong>Ingegno artistico</strong>, Kaveh riceve un aumento della RES a Dendro e un bonus di guarigione entrambi pari a un 50%."
+      "0": "Entro 3{NON_BREAK_SPACE}s dopo aver usato <strong>Ingegno artistico</strong>, Kaveh riceve un aumento della <dendro>RES a Dendro</dendro> e del bonus di guarigione ricevuta pari rispettivamente a un 50% e a un 25%."
     }
   },
   "constellation2": {
-    "name": "Cammino maestoso",
+    "name": "Grazia delle vie reali",
     "description": {
       "0": "Durante l'uso di <strong>Volta dipinta</strong> la VEL dell'attacco normale di Kaveh aumenta di un 15%."
     }
   },
   "constellation3": {
-    "name": "Offerte della Torre dorata",
+    "name": "Profferte di Dur Untash",
     "description": {
       "0": "Aumenta di 3 il livello di <strong>Volta dipinta</strong>.",
       "1": "Il livello di potenziamento massimo è 15."
     }
   },
   "constellation4": {
-    "name": "Banchetto dei cento pilastri",
+    "name": "Banchetto dell'Apadana",
     "description": {
-      "0": "I nuclei di Dendro creati dalle reazioni di Fioritura innescate da Kaveh aumentano i DAN da rottura di un 60%."
+      "0": "I nuclei di Dendro creati dalle reazioni di Fioritura innescate da Kaveh infliggono un 60% di DAN in più quando esplodono."
     }
   },
   "constellation5": {
-    "name": "Sacro deposito",
+    "name": "Tesori della Bonkhanak",
     "description": {
       "0": "Aumenta di 3 il livello di <strong>Ingegno artistico</strong>.",
       "1": "Il livello di potenziamento massimo è 15."
     }
   },
   "constellation6": {
-    "name": "Ideale idilliaco",
+    "name": "Sogni del Pairidaeza",
     "description": {
-      "0": "Quando gli attacchi normali, caricati o in picchiata di Kaveh colpiscono gli avversari durante <strong>Volta dipinta</strong>, viene sprigionata la Luce del firmamento nella posizione dell'avversario, infliggendo DAN da Dendro ad area pari a un 61,8% dell'ATT di Kaveh e causando la rottura di tutti i nuclei di Dendro all'interno di quell'area. Quest'effetto può attivarsi una volta ogni 3{NON_BREAK_SPACE}s."
+      "0": "Quando gli attacchi normali, caricati o in picchiata di Kaveh colpiscono gli avversari durante <strong>Volta dipinta</strong>, viene sprigionata la Luce del Pairidaeza nella posizione dell'avversario, che infligge <dendro>DAN da Dendro ad area</dendro> pari a un 61,8% dell'ATT di Kaveh e causa l'esplosione di tutti i nuclei di Dendro all'interno di quell'area. Quest'effetto può attivarsi una volta ogni 3{NON_BREAK_SPACE}s."
     }
   }
 }

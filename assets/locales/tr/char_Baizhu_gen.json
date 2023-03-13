@@ -1,10 +1,10 @@
 {
   "name": "Baizhu",
-  "title": "???",
+  "title": "Ölümsüzlüğün Ötesi",
   "description": "",
-  "constellationName": "",
+  "constellationName": "Su Kabağı",
   "auto": {
-    "name": "Yaldızlı Akupunktur",
+    "name": "Altın Akupunktur İğneleri",
     "fields": {
       "normal": {
         "0": "<strong><strong>Normal Saldırı</strong>",
@@ -39,7 +39,7 @@
     }
   },
   "skill": {
-    "name": "Evrensel Teşhis",
+    "name": "Kapsamlı Teşhis",
     "description": {
       "0": "Gezinerek yakındaki düşmanlara saldıran ve <dendro>Doğa Hasarı</dendro> veren bir Bürümcük Cini çıkarır.",
       "1": "Cin, 3 saldırı yaptıktan sonra veya yakında düşman yoksa geri döner ve Baizhu'nun Maks. Canına bağlı olarak yakındaki tüm grup üyelerini iyileştirir.",
@@ -68,25 +68,25 @@
   "burst": {
     "name": "Bütüncül İyileştirme",
     "description": {
-      "0": "Nabzın İradesi durumuna girerek bir Kusursuz Kalkan oluşturur.",
-      "1": "Baizhu bu durumdayken her 2 saniyede bir yeni Kusursuz Kalkan oluşturur.",
+      "0": "Güçlü Nabız durumuna girerek %250 verimlilikle <dendro>Doğa Hasarı</dendro> emen bir Kusursuz Kalkan oluşturur.",
+      "1": "Baizhu, bu durumdayken her 2,5 saniyede bir yeni Kusursuz Kalkan oluşturur.",
       "2": "<br/>",
-      "3": "Kusursuz Kalkan, bir Ruhdamar çıkararak Baizhu'nun Maks. Canına bağlı olarak aktif karakterleri iyileştirir ve düşmanlara saldırarak <dendro>Doğa Hasarı</dendro> verir. Bunlar yalnızca aşağıdaki şartlarda gerçekleşir:",
+      "3": "Kusursuz Kalkan, Baizhu'nun Maks. Canına bağlı olarak aktif karakterini iyileştirir ve Ruhdamarları oluşturarak düşmanlara saldırıp <dendro>Doğa Hasarı</dendro> verir. Bunlar yalnızca aşağıdaki şartlarda gerçekleşir:",
       "4": [
         "Bir karakter Kusursuz Kalkan koruması altındayken yeni bir Kusursuz Kalkan oluşturulduğunda.",
         "Kusursuz Kalkanın etkileri sonlandığında veya Kusursuz Kalkan kırıldığında."
       ],
       "5": "<br/>",
-      "6": "<i>Gökleri ve yeryüzünü idrak edenler, iç dünyanızı dış etkilere karşı koruyun. Zihninizi açık tutarsanız hiçbir şey size engel olamaz.</i>"
+      "6": "<i>Gökleri ve yeryüzünü idrak edenler, kötücül auralara karşı çi akışınızı koruyun. Zihninizi açık tutarsanız hiçbir şey size engel olamaz.</i>"
     },
     "skillParams": {
       "0": "Kusursuz Kalkan Hasar Emilimi",
       "1": "Kusursuz Kalkan Süresi",
-      "2": "Kusursuz Kalkan Oluşturma Aralığı",
-      "3": "Ruhdamar İyileştirmesi",
-      "4": "Ruhdamar Hasarı",
-      "5": "Nabzın İradesi Süresi",
-      "6": "BS",
+      "2": "Kusursuz Kalkan İyileştirmesi",
+      "3": "Ruhdamar Hasarı",
+      "4": "Güçlü Nabız Süresi",
+      "5": "BS",
+      "6": "Enerji Maliyeti",
       "7": "",
       "8": "",
       "9": "",
@@ -111,7 +111,7 @@
   "passive2": {
     "name": "Her Şey Topraktan Doğar",
     "description": {
-      "0": "<strong>Bütüncül İyileştirme</strong> tarafından iyileştirilen karakterler, Yeşil Talihin Yılı etkisini kazanır. Baizhu'nun 50.000'e kadar sahip olduğu her 1.000 Maks. Can, iyileştirilen karakterlerin verdiği Yanma, Çiçeklenme, Aşırı Çiçeklenme ve Filizlenme tepkimesi Hasarını %2, Şiddetlenme ve Yayılma tepkimesi Hasarını ise %0,8 artırır. Bu etki 6 saniye sürer."
+      "0": "<strong>Kusursuz Kalkan</strong> tarafından iyileştirilen karakterler, Yeşil Talihin Yılı etkisini kazanır. Baizhu'nun 50.000'e kadar sahip olduğu her 1.000 Maks. Can, iyileştirilen karakterlerin verdiği Yanma, Çiçeklenme, Aşırı Çiçeklenme ve Filizlenme tepkimesi Hasarını %2, Şiddetlenme ve Yayılma tepkimesi Hasarını ise %0,8 artırır. Bu etki 6 saniye sürer."
     }
   },
   "passive3": {
@@ -123,22 +123,22 @@
   "constellation1": {
     "name": "En Ufak Ağrı Bile",
     "description": {
-      "0": "<strong>Evrensel Teşhis</strong> 1 defa daha kullanılabilir."
+      "0": "<strong>Kapsamlı Teşhis</strong> 1 defa daha kullanılabilir."
     }
   },
   "constellation2": {
-    "name": "Eli Becerikli",
+    "name": "Şifalı Eller",
     "description": {
-      "0": "Baizhu'nun aktif grup üyesi, saldırısıyla bir düşmana vurduğunda Baizhu, Bürümcük Cini: Düğüm kullanır.",
-      "1": "Bürümcük Cini: Düğüm, %300 <dendro>Doğa Hasarı</dendro> ve <strong>Evrensel Teşhis</strong> iyileştirmesinin %20'sini Hasar olarak veren 1 saldırı gerçekleştirir.",
+      "0": "Aktif karakterin, saldırısıyla yakında bir düşmana vurduğunda Baizhu, Bürümcük Cini: Düğüm çağırır.",
+      "1": "Bürümcük Cini: Düğüm, 1 saldırı gerçekleştirip Baizhu'ya geri döner. Bu saldırı, Baizhu'nun Saldırısının %300'ünü <dendro>Doğa Hasarı</dendro> olarak verir ve <strong>Kapsamlı Teşhisin</strong> Bürümcük Cininin normal iyileştirmesinin %20'si oranında iyileştirir.",
       "2": "Bu şekilde verilen Hasar, Element Becerisi Hasarı sayılır.",
-      "3": "Bu etki her 5 saniyede bir tetiklenebilir."
+      "3": "Bu etki her 6 saniyede bir tetiklenebilir."
     }
   },
   "constellation3": {
     "name": "Tüm Değerler Stabil",
     "description": {
-      "0": "<strong>Bütüncül İyileştirme</strong> seviyesini 3 artırır.",
+      "0": "<strong>Bütüncül İyileştirme</strong> Seviyesini 3 artırır.",
       "1": "Maksimum yükseltme seviyesi 15'tir."
     }
   },
@@ -151,14 +151,14 @@
   "constellation5": {
     "name": "Değişen Gizli Belirtiler",
     "description": {
-      "0": "<strong>Evrensel Teşhis</strong> seviyesini 3 artırır.",
+      "0": "<strong>Kapsamlı Teşhis</strong> seviyesini 3 artırır.",
       "1": "Maksimum yükseltme seviyesi 15'tir."
     }
   },
   "constellation6": {
     "name": "Aura Akışı",
     "description": {
-      "0": "<strong>Bütüncül İyileştirmenin</strong> Ruhdamarları tarafından verilen Hasar, Baizhu'nun Maks. Canının %10'u oranında artar.",
+      "0": "<strong>Bütüncül İyileştirmenin</strong> Ruhdamarları tarafından verilen Hasar, Baizhu'nun Maks. Canının %6'sı oranında artar.",
       "1": "Ayrıca <strong>Bürümcük Cini</strong> veya Bürümcük Cini: Düğüm düşmanlara vurduğunda %100 ihtimalle <strong>Bütüncül İyileştirmeden</strong> bir Kusursuz Kalkan oluşturur. Bir Bürümcük Cini veya Bürümcük Cini: Düğüm, bu etkiyi yalnızca bir defa tetikleyebilir."
     }
   }
