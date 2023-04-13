@@ -1,10 +1,10 @@
 {
   "name": "Baizhu",
   "title": "หลอมจิตรวมชีพ",
-  "description": "",
-  "constellationName": "",
+  "description": "เจ้าของร้านยา \"Bubu Pharmacy\" มักจะมีงูเผือกที่ชื่อว่า \"Changsheng\" อยู่ข้างกายเสมอ เก่งเรื่องยาและการฝังเข็ม จิตใจลึกล้ำสุดหยั่งถึง",
+  "constellationName": "Lagenaria",
   "auto": {
-    "name": "Gilded Acupuncture",
+    "name": "The Classics of Acupuncture",
     "fields": {
       "normal": {
         "0": "<strong><strong>โจมตีปกติ</strong>",
@@ -66,10 +66,10 @@
     }
   },
   "burst": {
-    "name": "Healing Holism",
+    "name": "Holistic Revivification",
     "description": {
-      "0": "เข้าสู่สถานะ Pulsing Edict และสร้างโล่ Seamless Shield ที่มีเอฟเฟกต์ดูดซับ<dendro>ความเสียหายไม้</dendro> 250% ขึ้นมา",
-      "1": "ภายใต้สถานะ Pulsing Edict ในทุก 2.5 วินาที จะสร้าง Seamless Shield อันใหม่ขึ้นมา",
+      "0": "เข้าสู่สถานะ Pulsing Clarity และสร้างโล่ Seamless Shield ที่มีเอฟเฟกต์ดูดซับ<dendro>ความเสียหายไม้</dendro> 250% ขึ้นมา",
+      "1": "ภายใต้สถานะ Pulsing Clarity ในทุก 2.5 วินาที จะสร้าง Seamless Shield อันใหม่ขึ้นมา",
       "2": "<br/>",
       "3": "Seamless Shield จะฟื้นฟูพลังชีวิตให้แก่ตัวละครของตัวเอง ที่เข้าร่วมการต่อสู้ในขณะนั้น (ปริมาณการฟื้นฟู จะขึ้นกับค่าพลังชีวิตสูงสุดของ Baizhu) และปล่อย Spiritvein ออกมาโจมตีศัตรู เพื่อสร้าง<dendro>ความเสียหายไม้</dendro> ภายใต้สถานการณ์ต่อไปนี้:",
       "4": [
@@ -84,7 +84,7 @@
       "1": "ระยะเวลาของ Seamless Shield",
       "2": "ปริมาณการรักษาของ Seamless Shield",
       "3": "ความเสียหาย Spiritvein",
-      "4": "ระยะเวลาของ Pulsing Edict",
+      "4": "ระยะเวลาของ Pulsing Clarity",
       "5": "คูลดาวน์",
       "6": "พลังงานธาตุ",
       "7": "",
@@ -111,7 +111,7 @@
   "passive2": {
     "name": "All Things Are of the Earth",
     "description": {
-      "0": "ตัวละครที่ถูก <strong>Seamless Shield</strong> รักษาจะได้รับเอฟเฟกต์ \"Year of Verdant Favor\": ทุก 1000 หน่วย จากส่วนที่ไม่เกิน 50000 หน่วย ของค่าพลังชีวิตสูงสุดของ Baizhu จะทำให้ปฏิกิริยาติดไฟ, งอกเงย ,ไฮเปอร์บลูม และเบ่งบานที่ตัวละครดังกล่าวสร้างขึ้น สร้างความเสียหายเพิ่มขึ้น 2% และความเสียหายที่เกิดจากปฏิกิริยาบีบอัด และแพร่ขยายสร้างความเสียหายเพิ่มขึ้น 0.8% เป็นเวลา 6 วินาที"
+      "0": "ตัวละครที่ถูก <strong>Seamless Shield</strong> รักษาจะได้รับเอฟเฟกต์ \"Year of Verdant Favor\": ทุก 1,000 หน่วย จากส่วนที่ไม่เกิน 50,000 หน่วย ของค่าพลังชีวิตสูงสุดของ Baizhu จะทำให้ปฏิกิริยาติดไฟ, งอกเงย ,ไฮเปอร์บลูม และเบ่งบานที่ตัวละครดังกล่าวสร้างขึ้น สร้างความเสียหายเพิ่มขึ้น 2% และความเสียหายที่เกิดจากปฏิกิริยาบีบอัด และแพร่ขยายสร้างความเสียหายเพิ่มขึ้น 0.8% เป็นเวลา 6 วินาที"
     }
   },
   "passive3": {
@@ -121,45 +121,45 @@
     }
   },
   "constellation1": {
-    "name": "Even the Slightest Groan",
+    "name": "Attentive Observation",
     "description": {
       "0": "จำนวนครั้งที่สามารถใช้ <strong>Universal Diagnosis</strong> ได้ เพิ่มขึ้น 1 ครั้ง"
     }
   },
   "constellation2": {
-    "name": "Skilled of Hand",
+    "name": "Incisive Discernment",
     "description": {
       "0": "เมื่อตัวละครในทีมของตัวเอง ที่เข้าร่วมการต่อสู้ในขณะนั้น โจมตีถูกศัตรูที่อยู่ในบริเวณใกล้เคียง Baizhu จะปล่อย Gossamer Sprite: Splice ออกมา",
-      "1": "Gossamer Sprite: Splice จะย้อนกลับมาหลังจากทำการโจมตีมากสุด 1 ครั้ง โดยจะสร้าง<dendro>ความเสียหายไม้</dendro> 300% ของพลังโจมตีของ Baizhu และฟื้นฟูพลังชีวิต 20% ของปริมาณการฟื้นฟูจาก Gossamer Sprite ของ <strong>Universal Diagnosis</strong>",
+      "1": "Gossamer Sprite: Splice จะย้อนกลับมาหลังจากทำการโจมตีมากสุด 1 ครั้ง โดยจะสร้าง<dendro>ความเสียหายไม้</dendro> 250% ของพลังโจมตีของ Baizhu และฟื้นฟูพลังชีวิต 20% ของปริมาณการฟื้นฟูจาก Gossamer Sprite ของ <strong>Universal Diagnosis</strong>",
       "2": "ความเสียหายที่ถูกสร้างด้วยวิธีนี้ จะถูกมองว่าเป็นความเสียหายของสกิลธาตุ",
-      "3": "ในทุก 6 วินาที จะเกิดขึ้นได้มากสุดหนึ่งครั้ง"
+      "3": "ในทุก 5 วินาที จะเกิดขึ้นได้มากสุดหนึ่งครั้ง"
     }
   },
   "constellation3": {
     "name": "All Aspects Stabilized",
     "description": {
-      "0": "เพิ่มเลเวลสกิลของ <strong>Healing Holism</strong> ขึ้น 3 ระดับ",
+      "0": "เพิ่มเลเวลสกิลของ <strong>Holistic Revivification</strong> ขึ้น 3 ระดับ",
       "1": "เพิ่มได้สูงสุดถึงระดับ 15"
     }
   },
   "constellation4": {
-    "name": "Ancient Perception",
+    "name": "Ancient Art of Perception",
     "description": {
-      "0": "ภายใน 15 วินาที หลังจากใช้ <strong>Healing Holism</strong> ตัวละครทั้งหมดในทีม ที่อยู่ในบริเวณใกล้เคียง จะมีความชำนาญธาตุเพิ่มขึ้น 80 หน่วย"
+      "0": "ภายใน 15 วินาที หลังจากใช้ <strong>Holistic Revivification</strong> ตัวละครทั้งหมดในทีม ที่อยู่ในบริเวณใกล้เคียง จะมีความชำนาญธาตุเพิ่มขึ้น 80 หน่วย"
     }
   },
   "constellation5": {
-    "name": "Hidden Shifting Signs",
+    "name": "The Hidden Ebb and Flow",
     "description": {
       "0": "เพิ่มเลเวลสกิลของ <strong>Universal Diagnosis</strong> ขึ้น 3 ระดับ",
       "1": "เพิ่มได้สูงสุดถึงระดับ 15"
     }
   },
   "constellation6": {
-    "name": "Aura Flow",
+    "name": "Elimination of Malicious Qi",
     "description": {
-      "0": "Spiritvein ของ <strong>Healing Holism</strong> สร้างความเสียหายเพิ่มขึ้น 6% ของค่าพลังชีวิตสูงสุดของ Baizhu",
-      "1": "นอกจากนี้เมื่อ <strong>Gossamer Sprite</strong> หรือ Gossamer Sprite: Splice ถูกศัตรู จะมีโอกาส 100% ที่จะเกิด Seamless Shield ของ <strong>Healing Holism</strong> โดยที่ Gossamer Sprite หรือ Gossamer Sprite: Splice แต่ละครั้ง จะทำให้เกิดเอฟเฟกต์นี้ได้เพียงครั้งเดียว"
+      "0": "Spiritvein ของ <strong>Holistic Revivification</strong> สร้างความเสียหายเพิ่มขึ้น 8% ของค่าพลังชีวิตสูงสุดของ Baizhu",
+      "1": "นอกจากนี้เมื่อ <strong>Gossamer Sprite</strong> หรือ Gossamer Sprite: Splice ถูกศัตรู จะมีโอกาส 100% ที่จะเกิด Seamless Shield ของ <strong>Holistic Revivification</strong> โดยที่ Gossamer Sprite หรือ Gossamer Sprite: Splice แต่ละครั้ง จะทำให้เกิดเอฟเฟกต์นี้ได้เพียงครั้งเดียว"
     }
   }
 }

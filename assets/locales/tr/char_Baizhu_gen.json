@@ -1,7 +1,7 @@
 {
   "name": "Baizhu",
   "title": "Ölümsüzlüğün Ötesi",
-  "description": "",
+  "description": "Bubu Eczanesinin sahibi. Genelde Changsheng adında beyaz bir yılanla beraber dolaşır. Tıp bilgisi engin, planları üstü kapalıdır.",
   "constellationName": "Su Kabağı",
   "auto": {
     "name": "Altın Akupunktur İğneleri",
@@ -41,8 +41,8 @@
   "skill": {
     "name": "Kapsamlı Teşhis",
     "description": {
-      "0": "Gezinerek yakındaki düşmanlara saldıran ve <dendro>Doğa Hasarı</dendro> veren bir Bürümcük Cini çıkarır.",
-      "1": "Cin, 3 saldırı yaptıktan sonra veya yakında düşman yoksa geri döner ve Baizhu'nun Maks. Canına bağlı olarak yakındaki tüm grup üyelerini iyileştirir.",
+      "0": "Gezinerek yakındaki düşmanlara saldıran ve <dendro>Doğa Hasarı</dendro> veren bir Yılan Ruhu çıkarır.",
+      "1": "Ruh, 3 saldırı yaptıktan sonra veya yakında düşman yoksa geri döner ve Baizhu'nun Maks. Canına bağlı olarak yakındaki tüm grup üyelerini iyileştirir.",
       "2": "<br/>",
       "3": "<i>Gerçek hastalık belirtilerini sahte belirtilerden ayırt edebilen hekimler, insanları belirtiler oluşmadan önce bile tedavi edebilir.</i>"
     },
@@ -99,7 +99,7 @@
     }
   },
   "passive1": {
-    "name": "Bitmez Beş Baht",
+    "name": "Beş Ebedi Lütuf",
     "description": {
       "0": "Baizhu, aktif karakterin mevcut Canına bağlı olarak farklı etkiler kazanır:",
       "1": [
@@ -117,22 +117,22 @@
   "passive3": {
     "name": "Bitkisel Besin",
     "description": {
-      "0": "Baizhu gruptayken bazı toplanabilir malzemelerle etkileşime geçtiğinde mevcut aktif karakterin, Baizhu'nun Maks. Canının %2,5'i oranında iyileşir."
+      "0": "Baizhu gruptayken mevcut aktif karakterin bazı toplanabilir eşyalarla etkileşime geçtiğinde Baizhu'nun Maks. Canının %2,5'i oranında iyileşir."
     }
   },
   "constellation1": {
-    "name": "En Ufak Ağrı Bile",
+    "name": "Dikkatli Gözlem",
     "description": {
       "0": "<strong>Kapsamlı Teşhis</strong> 1 defa daha kullanılabilir."
     }
   },
   "constellation2": {
-    "name": "Şifalı Eller",
+    "name": "Hassas Muhakeme",
     "description": {
-      "0": "Aktif karakterin, saldırısıyla yakında bir düşmana vurduğunda Baizhu, Bürümcük Cini: Düğüm çağırır.",
-      "1": "Bürümcük Cini: Düğüm, 1 saldırı gerçekleştirip Baizhu'ya geri döner. Bu saldırı, Baizhu'nun Saldırısının %300'ünü <dendro>Doğa Hasarı</dendro> olarak verir ve <strong>Kapsamlı Teşhisin</strong> Bürümcük Cininin normal iyileştirmesinin %20'si oranında iyileştirir.",
+      "0": "Aktif karakterin, saldırısıyla yakında bir düşmana vurduğunda Baizhu, Yılan Ruhu: Düğüm çağırır.",
+      "1": "Yılan Ruhu: Düğüm, 1 saldırı gerçekleştirip Baizhu'ya geri döner. Bu saldırı, Baizhu'nun Saldırısının %250'sini <dendro>Doğa Hasarı</dendro> olarak verir ve Baizhu'yu <strong>Kapsamlı Teşhisin</strong> Yılan Ruhunun normal iyileştirmesinin %20'si oranında iyileştirir.",
       "2": "Bu şekilde verilen Hasar, Element Becerisi Hasarı sayılır.",
-      "3": "Bu etki her 6 saniyede bir tetiklenebilir."
+      "3": "Bu etki her 5 saniyede bir tetiklenebilir."
     }
   },
   "constellation3": {
@@ -143,23 +143,23 @@
     }
   },
   "constellation4": {
-    "name": "Kadim Algı",
+    "name": "Kadim Algılama Sanatı",
     "description": {
       "0": "Baizhu, <strong>Bütüncül İyileştirme</strong> kullanıldıktan sonra 15 saniye boyunca yakındaki tüm grup üyelerinin Element Ustalığını 80 artırır."
     }
   },
   "constellation5": {
-    "name": "Değişen Gizli Belirtiler",
+    "name": "Gizli Metcezir",
     "description": {
-      "0": "<strong>Kapsamlı Teşhis</strong> seviyesini 3 artırır.",
+      "0": "<strong>Kapsamlı Teşhis</strong> Seviyesini 3 artırır.",
       "1": "Maksimum yükseltme seviyesi 15'tir."
     }
   },
   "constellation6": {
-    "name": "Aura Akışı",
+    "name": "Negatif Çi Arındırma",
     "description": {
-      "0": "<strong>Bütüncül İyileştirmenin</strong> Ruhdamarları tarafından verilen Hasar, Baizhu'nun Maks. Canının %6'sı oranında artar.",
-      "1": "Ayrıca <strong>Bürümcük Cini</strong> veya Bürümcük Cini: Düğüm düşmanlara vurduğunda %100 ihtimalle <strong>Bütüncül İyileştirmeden</strong> bir Kusursuz Kalkan oluşturur. Bir Bürümcük Cini veya Bürümcük Cini: Düğüm, bu etkiyi yalnızca bir defa tetikleyebilir."
+      "0": "<strong>Bütüncül İyileştirmenin</strong> Ruhdamarları tarafından verilen Hasar, Baizhu'nun Maks. Canının %8'i oranında artar.",
+      "1": "Ayrıca bir <strong>Yılan Ruhu</strong> veya Yılan Ruhu: Düğüm düşmanlara vurduğunda %100 ihtimalle <strong>Bütüncül İyileştirmeden</strong> bir Kusursuz Kalkan oluşturur. Her bir Yılan Ruhu veya Yılan Ruhu: Düğüm, bu etkiyi yalnızca bir defa tetikleyebilir."
     }
   }
 }

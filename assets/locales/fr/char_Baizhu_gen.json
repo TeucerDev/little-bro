@@ -1,7 +1,7 @@
 {
   "name": "Baizhu",
   "title": "Transcendant la mortalité",
-  "description": "",
+  "description": "Le propriétaire du Cottage Bubu, un serpent blanc appelé Changsheng l'accompagnant. Médecin extrêmement compétent, ses véritables intentions restent cependant un mystère.",
   "constellationName": "Lagenaria",
   "auto": {
     "name": "Acupuncture dorée",
@@ -66,23 +66,23 @@
     }
   },
   "burst": {
-    "name": "Soin holistique",
+    "name": "Reviviscence holistique",
     "description": {
-      "0": "Entre dans l'état Ordonnance impulsive, créant un bouclier hermétique qui absorbe les <dendro>DGT Dendro</dendro> 250 % plus efficacement.",
-      "1": "Pendant cet état, un nouveau bouclier hermétique est généré toutes les 2,5 s.",
+      "0": "Entre dans l'état Ordonnance impulsive, créant un bouclier aseptique qui absorbe les <dendro>DGT Dendro</dendro> 250 % plus efficacement.",
+      "1": "Pendant cet état, un nouveau bouclier aseptique est généré toutes les 2,5 s.",
       "2": "<br/>",
-      "3": "Dans les circonstances suivantes, le bouclier hermétique soigne votre personnage déployé selon les PV max de Baizhu et libère une veine d'aura pour attaquer les adversaires en infligeant des <dendro>DGT Dendro</dendro> :",
+      "3": "Dans les circonstances suivantes, le bouclier aseptique soigne votre personnage déployé selon les PV max de Baizhu et libère une veine d'aura pour attaquer les ennemis en infligeant des <dendro>DGT Dendro</dendro> :",
       "4": [
-        " Lorsqu'un personnage est sous la protection d'un bouclier hermétique et qu'un nouveau bouclier hermétique est généré.",
-        " Lorsque les effets du bouclier hermétique prennent fin ou lorsqu'il est détruit."
+        " Lorsqu'un personnage est sous la protection d'un bouclier aseptique et qu'un nouveau bouclier aseptique est généré.",
+        " Lorsque les effets du bouclier aseptique prennent fin ou lorsqu'il est détruit."
       ],
       "5": "<br/>",
       "6": "<i>Si l'on peut percevoir les cieux et la terre, défendre sa sphère intérieure contre les influences extérieures et garder l'esprit clair, rien ne peut gêner.</i>"
     },
     "skillParams": {
-      "0": "PV de bouclier hermétique",
-      "1": "Durée de bouclier hermétique",
-      "2": "Soins de bouclier hermétique",
+      "0": "PV de bouclier aseptique",
+      "1": "Durée de bouclier aseptique",
+      "2": "Soins de bouclier aseptique",
       "3": "DGT veine d'aura",
       "4": "Durée d'ordonnance impulsive",
       "5": "Temps de recharge",
@@ -111,7 +111,7 @@
   "passive2": {
     "name": "Terre mère",
     "description": {
-      "0": "Les personnages soignés par un <strong>bouclier hermétique</strong> obtiennent l'effet Année de la chance boisée : pour chaque tranche de 1 000 PV max que Baizhu possède jusqu'à 50 000 PV, les DGT infligés par leurs réactions de Brûlure, de Fleurissement, d'Exubérance et de Bourgeonnement augmentent de 2 % et ceux infligés par leurs réactions de Suractivation et de Propagation augmentent de 0,8 %, pendant 6 s."
+      "0": "Les personnages soignés par un <strong>bouclier aseptique</strong> obtiennent l'effet Année de la chance boisée : pour chaque tranche de 1 000 PV max que Baizhu possède jusqu'à 50 000 PV, les DGT infligés par leurs réactions de Brûlure, de Fleurissement, d'Exubérance et de Bourgeonnement augmentent de 2 % et ceux infligés par leurs réactions de Suractivation et de Propagation augmentent de 0,8 %, pendant 6 s."
     }
   },
   "passive3": {
@@ -121,45 +121,45 @@
     }
   },
   "constellation1": {
-    "name": "Gémissement moindre",
+    "name": "Regard attentif",
     "description": {
       "0": "Confère une utilisation supplémentaire de <strong>Diagnostic universel</strong>."
     }
   },
   "constellation2": {
-    "name": "Main habile",
+    "name": "Discernement incisif",
     "description": {
       "0": "Lorsque votre personnage déployé touche un ennemi proche avec une attaque, Baizhu libère un esprit divisé de gaze.",
-      "1": "L'esprit divisé de gaze effectue 1 attaque avant de revenir, infligeant des <dendro>DGT Dendro</dendro> pour une valeur équivalant à 300 % de l'ATQ de Baizhu et soignant pour 20 % du soin de l'esprit de gaze de <strong>Diagnostic universel</strong>.",
+      "1": "L'esprit divisé de gaze effectue 1 attaque avant de revenir, infligeant des <dendro>DGT Dendro</dendro> pour une valeur équivalant à 250 % de l'ATQ de Baizhu et soignant pour 20 % du soin de l'esprit de gaze de <strong>Diagnostic universel</strong>.",
       "2": "Les DGT infligés de cette manière sont considérés comme des DGT de compétence élémentaire.",
-      "3": "Cet effet peut être déclenché une fois toutes les 6 s."
+      "3": "Cet effet peut être déclenché une fois toutes les 5 s."
     }
   },
   "constellation3": {
     "name": "Stabilisation complète",
     "description": {
-      "0": "Niveau d'aptitude <strong>Soin holistique</strong> +3.",
+      "0": "Niveau d'aptitude <strong>Reviviscence holistique</strong> +3.",
       "1": "Niveau max : 15"
     }
   },
   "constellation4": {
     "name": "Perception ancienne",
     "description": {
-      "0": "La maîtrise élémentaire de tous les personnages de l'équipe à proximité augmente de 80 pts pendant 15 s après l'utilisation de <strong>Soin holistique</strong>."
+      "0": "La maîtrise élémentaire de tous les personnages de l'équipe à proximité augmente de 80 pts pendant 15 s après l'utilisation de <strong>Reviviscence holistique</strong>."
     }
   },
   "constellation5": {
-    "name": "Symptôme déroutant",
+    "name": "Fluctuations déroutantes",
     "description": {
       "0": "Niveau d'aptitude <strong>Diagnostic universel</strong> +3.",
       "1": "Niveau max : 15"
     }
   },
   "constellation6": {
-    "name": "Flux spectral",
+    "name": "Purification du qi",
     "description": {
-      "0": "Les DGT infligés par la veine d'aura de <strong>Soin holistique</strong> augmentent d'une valeur équivalant à 6 % des PV max de Baizhu.",
-      "1": "De plus, lorsque l'<strong>esprit de gaze</strong> ou l'esprit divisé de gaze touche un ennemi, il y a 100 % de chances de créer un bouclier hermétique de <strong>Soin holistique</strong>. Cet effet peut être déclenché une fois par esprit de gaze ou esprit divisé de gaze."
+      "0": "Les DGT infligés par la veine d'aura de <strong>Reviviscence holistique</strong> augmentent d'une valeur équivalant à 8 % des PV max de Baizhu.",
+      "1": "De plus, lorsque l'<strong>esprit de gaze</strong> ou l'esprit divisé de gaze touche un ennemi, il y a 100 % de chances de créer un bouclier aseptique de <strong>Reviviscence holistique</strong>. Cet effet peut être déclenché une fois par esprit de gaze ou esprit divisé de gaze."
     }
   }
 }

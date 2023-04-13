@@ -1,0 +1,162 @@
+{
+  "name": "Kirara",
+  "title": "???",
+  "description": "Uma mensageira da Komaniya Express, empresa de entregas em Inazuma. Uma Nekomata que ama seu trabalho e a sociedade humana.",
+  "constellationName": "",
+  "auto": {
+    "name": "Estilete",
+    "fields": {
+      "normal": {
+        "0": "<strong><strong>Ataque Normal</strong>",
+        "1": "Realiza até 4 golpes rápidos."
+      },
+      "charged": {
+        "0": "<strong>Ataque Carregado</strong>",
+        "1": "Consome uma certa quantidade de Stamina para desferir 3 golpes rápidos com garras rápidos."
+      },
+      "plunging": {
+        "0": "<strong>Ataque Imersivo</strong>",
+        "1": "Mergulha em pleno ar para golpear o chão, causando Dano aos inimigos ao longo do caminho e infligindo Dano em uma AdE durante o impacto."
+      }
+    },
+    "skillParams": {
+      "0": "Dano do 1° Golpe",
+      "1": "Dano do 2° Golpe",
+      "2": "Dano do 3° Golpe",
+      "3": "Dano do 4° Golpe",
+      "4": "Dano de Ataque Carregado",
+      "5": "Consumo de Stamina de Ataque Carregado",
+      "6": "Dano Durante a Queda",
+      "7": "Dano de Queda de Baixa/Alta Altitude",
+      "8": "",
+      "9": "",
+      "10": "",
+      "11": "",
+      "12": "",
+      "13": "",
+      "14": "",
+      "15": ""
+    }
+  },
+  "skill": {
+    "name": "Chute Miauteoro",
+    "description": {
+      "0": "<strong>Pressionar</strong>",
+      "1": "Pula em direção ao ar com toda a agilidade de um gato, atravessando arbustos e atingindo seus inimigos causando <dendro>Dano Dendro</dendro> e criando um Escudo de Transporte Seguro. Isso também <dendro>aplica Dendro</dendro> a Kirara por um curto periodo de tempo. O Escudo absorve <dendro>Dano Dendro</dendro> com 250% de efetividade. A absorção máxima de Dano do Escudo é baseado na Vida Máxima de Kirara e não pode exceder uma determinada porcentagem da sua Vida Máxima. A Absorção de Dano restante do Escudo de Transporte Seguro acumulam quando um novo Escudo é criado e sua duração é redefinida..",
+      "2": "<br/>",
+      "3": "<strong>Manter Pressionado<strong>",
+      "4": "Kirara ativa outro Escudo de Transporte Seguro idêntico ao Escudo criado do outro modo através do seu desejo de \"entregar em até metade de um dia\". Ela também se encolhe em um pacote de entrega especial, entrando no Estado Neko de Entregas Urgentes para se mover e lutar com maior velocidade.",
+      "5": "<br/>",
+      "6": "<strong>Estado Neko de Entregas Urgentes</strong>",
+      "7": "Causa <dendro>Dano Dendro</dendro> aos oponentes que ela atropela. Este efeito pode ser ativado uma vez a cada 0.5s por oponente.",
+      "8": "Enquanto estiver neste estado, a Vel. Mov., Vel. Escalada e força do pulo são aumentadas, o seu consumo de Stamina ao escalar também é aumentado.",
+      "9": "Quando a duração acaba ou a habilidade é usada novamente, um Golpe de Garra Invertida mais poderoso que o ataque no modo de Pressionar é lançado, causando <dendro>Dano Dendro em AdE</dendro>.",
+      "10": "O Estado Neko de Entregas Urgentes tem a duração máxima de 10s. Quando o Estado acaba, a habilidade entrará em recarga. Quanto mais tempo Kirara passar neste estado, maior será a recarga.",
+      "11": "Correr ou cancelar uma escalada fará com que o estado termine antes.",
+      "12": "<br/>",
+      "13": "<i>\"Você quer saber o segredo das entregas rápidas? Bem, tudo depende da força nas suas pernas!\"</i>"
+    },
+    "skillParams": {
+      "0": "Dano da Patada Voadora",
+      "1": "Absorção de Escudo",
+      "2": "Absorção Máxima do Escudo",
+      "3": "Duração do Escudo",
+      "4": "Dano de acerto do Estado Neko de Entregas Urgentes",
+      "5": "Duração Máxima do Estado Neko de Entregas Urgentes",
+      "6": "Dano de Golpe de Garra Invertida",
+      "7": "Tempo de Recarga",
+      "8": "",
+      "9": "",
+      "10": "",
+      "11": "",
+      "12": "",
+      "13": "",
+      "14": "",
+      "15": ""
+    }
+  },
+  "burst": {
+    "name": "Arte Secreta: Entrega Urgente",
+    "description": {
+      "0": "Envia um Pacote de Entrega Especial urgente para os ladrões que devem ser punidos, causando <dendro>Dano Dendro em AdE</dendro>. Quando um Pacote de Entrega Especial explode, ele será dividido em várias <strong>Ervas de Gato Cardamomo</strong> que explodirão e causarão dano ao entrar em contato com oponentes ou após um tempo determinado, causando <dendro>Dano Dendro em AdE</dendro>.",
+      "1": "<br/>",
+      "2": "<i>\"Hihi, é isso mesmo, preparei isso exclusivamente para lidar com ladrões de encomendas! Lembrem-se de me dar 5 estrelas assim que você receber a sua!\"</i>"
+    },
+    "skillParams": {
+      "0": "Dano de Habilidade",
+      "1": "Dano de Explosão da Erva de Gato Cardamomo",
+      "2": "Duração de Erva de Gato Cardamomo",
+      "3": "Recarga",
+      "4": "Energia Elemental",
+      "5": "",
+      "6": "",
+      "7": "",
+      "8": "",
+      "9": "",
+      "10": "",
+      "11": "",
+      "12": "",
+      "13": "",
+      "14": "",
+      "15": ""
+    }
+  },
+  "passive1": {
+    "name": "Cauda Exorcizante",
+    "description": {
+      "0": "Quando Kirara entra no Estado Neko de Entregas Urgentes do <strong>Chute Miauteoro</strong>, cada impacto contra um oponente garantirá um acúmulo de <strong>Pacotes Reforçados</strong>. Este efeito pode ser ativado uma vez em cada oponente a cada 0.5s, podendo acumular até 3 vezes. Quando o Estado Neko de Entregas Urgentes acaba, cada acúmulo de Pacotes Reforçados criará 1 Escudo de Transporte Seguro para Kirara. O Escudo criado desta maneira terão 20% da absorção de Dano do Escudo de Transporte Seguro criado pelo <strong>Chute Miauteoro</strong>. Se Kirara já estiver protegida por um Escudo de Transporte Seguro criada pelo Golpe Miauteoro, a absorção de Dano acumula com esses escudos e sua duração é redefinida."
+    }
+  },
+  "passive2": {
+    "name": "Deslumbre Oportuno",
+    "description": {
+      "0": "Cada 1000 de Vida Máxima que Kirara possuir, aumentará o Dano causado por <strong>Chute Miauteoro</strong> em 0.4% e o Dano causado por <strong>Arte Secreta: Entrega Urgente</strong> em 0.3%."
+    }
+  },
+  "passive3": {
+    "name": "Carruagem do Gato Furtivo",
+    "description": {
+      "0": "Quando Kirara está na equipe, os membros da equipe que se aproximarem de pequenos animais que possam produzir Carne de Ave, Carne crua ou Carne Fresca Fria, não se assustarão facilmente."
+    }
+  },
+  "constellation1": {
+    "name": "Circulação de Materiais",
+    "description": {
+      "0": "Cada 8000 de Vida Máxima que Kirara possui fará com que ela crie 1 <strong>Erva de Gato Cardamomo</strong> extra quando utilizar <strong>Arte Secreta: Entrega Urgente</strong>. Até 4 ervas extras podem ser criadas."
+    }
+  },
+  "constellation2": {
+    "name": "Embalagem Perfeita",
+    "description": {
+      "0": "Quando Kirara está no Estado Neko de Entregas Urgentes do <strong>Chute Miauteoro</strong>, aplica Escudo de Transporte Crítico aos aliados que entrarem em contato com ela.",
+      "1": "A absorção de dano do Escudo de Transporte Crítico é de 40% da absorção máxima do Escudo de Transporte Seguro gerado pelo <strong>Chute Miauteoro</strong> e absorve <dendro>Dano Dendro</dendro> com 250% de efetividade.",
+      "2": "O Escudo de Transporte Crítico tem a duração de 12s e pode ser ativado uma vez em cada personagem a cada 10s."
+    }
+  },
+  "constellation3": {
+    "name": "Reconhecimento Universal",
+    "description": {
+      "0": "Aumenta o nível da <strong>Chute Miauteoro</strong> em 3.",
+      "1": "O nível máximo de elevação é 15."
+    }
+  },
+  "constellation4": {
+    "name": "Corcel de Skanda",
+    "description": {
+      "0": "Quando o(s) personagem(s) ativo(s) protegidos por <strong>Escudo de Transporte Seguro</strong> ou <strong>Escudo de Transporte Crítico</strong> atingem oponentes com Ataques Normais, Carregados ou Imersivos, Kirara executa um ataque coordenado utilizando <strong>Mini-Ervas de Gato Cardamomo</strong> causando 200% de seu ATQ como <dendro>Dano Dendro</dendro>. O Dano causado desta maneira é considerado Dano de Supremo. Este efeito pode ser ativado uma vez a cada 3.8s."
+    }
+  },
+  "constellation5": {
+    "name": "Mil Milhas por Dia",
+    "description": {
+      "0": "Aumenta o nível de <strong>Arte Secreta: Entrega Urgente</strong> em 3 níveis.",
+      "1": "O nível máximo de elevação é 15."
+    }
+  },
+  "constellation6": {
+    "name": "Infinitas Paisagens no Caminho",
+    "description": {
+      "0": "Todos os aliados próximos ganham 12% de Bônus de Dano Elemental dentro de 15s após Kirara utilizar sua Habilidade Elemental ou Supremo."
+    }
+  }
+}

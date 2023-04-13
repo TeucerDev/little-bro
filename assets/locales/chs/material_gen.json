@@ -211,9 +211,17 @@
     "name": "逐花券",
     "description": "在风花节期间游玩「逐花棋」可以获得的奖励票券。在活动期间，可以用来兑换奖品。"
   },
+  "GalaExcitement": {
+    "name": "游乐会热度",
+    "description": "「学院游乐会」游乐热度"
+  },
   "FestiveTicket": {
     "name": "庆典券",
     "description": "参加风花节期间的各类庆典游艺活动，可以获得的奖励票券。在活动期间，可以用来兑换奖品。"
+  },
+  "InvokationCoupons": {
+    "name": "妙骰券",
+    "description": "？？？"
   },
   "Primogem": {
     "name": "原石",
@@ -515,6 +523,10 @@
     "name": "夜兰",
     "description": "自称供职于总务司的神秘人士，却又是总务司名录里的「不存在之人」。"
   },
+  "Kirara": {
+    "name": "绮良良",
+    "description": ""
+  },
   "Aloy": {
     "name": "埃洛伊",
     "description": "曾经是流放者，如今则是无比机敏的猎手。随时准备着为了正当之事而挽弓放箭。"
@@ -593,11 +605,11 @@
   },
   "Kaveh": {
     "name": "卡维",
-    "description": ""
+    "description": "须弥著名建筑设计师，对太多事物抱有过度关怀心。美学主义者，为现实所困扰。"
   },
   "Baizhu": {
     "name": "白术",
-    "description": ""
+    "description": "药庐「不卜庐」的主人，随身悬着名为「长生」的白蛇。精于药石，深于城府。"
   },
   "KamisatoAyakasStellaFortuna": {
     "name": "神里绫华的命星",
@@ -786,6 +798,10 @@
   "YelansStellaFortuna": {
     "name": "夜兰的命星",
     "description": "夜兰的命之座激活素材"
+  },
+  "KirarasStellaFortuna": {
+    "name": "绮良良的命星",
+    "description": "绮良良的命之座激活素材"
   },
   "AloysStellaFortuna": {
     "name": "埃洛伊的命星",
@@ -3987,7 +4003,7 @@
     "name": "悼灵花",
     "description": "绽放在古老战场上的鲜红之花，即便在荒漠中也能顽强生长。低垂的花朵似乎是在哀悼曾在此牺牲的英灵。"
   },
-  "Sanguite": {
+  "Trishiraite": {
     "name": "万相石",
     "description": "分布在荒原群山的深处，散发着异彩的特殊辉石，似乎是由混化的元素能量凝结而成的。"
   },
@@ -8047,15 +8063,15 @@
     "name": "测绘员蛋堡",
     "description": "米卡的特色料理。丰富的食材逐层堆叠，轻咬一口，层次分明的甜味与咸香在口中迅速扩散，如同攀登了一座美食的山峰。难道这就是米卡在行军中锻炼出来的厨艺吗？"
   },
-  "SuspiciousEnameledShortbread": {
+  "SuspiciousFatteh": {
     "name": "奇怪的脆饼珐提",
     "description": "古老的须弥菜肴。如果有耐心把半生不熟的秃秃豆和焦黑的脆饼全都挑出去的话，那么剩下的酸奶酱还是勉强可以作为甜点入口的…"
   },
-  "EnameledShortbread": {
+  "Fatteh": {
     "name": "脆饼珐提",
     "description": "古老的须弥菜肴。将烘烤过的面饼掰碎，搭配煮熟的秃秃豆，与调制好的酸奶酱混合，即可食用。流传至今有多种不同的做法，但共同点是既简单又美味。"
   },
-  "DeliciousEnameledShortbread": {
+  "DeliciousFatteh": {
     "name": "美味的脆饼珐提",
     "description": "古老的须弥菜肴。绵软的酸奶酱包裹着香糯的秃秃豆，仿佛能将人带向如丝绢一般的美梦中。梦醒时分，齿间还留有烤饼的满满麦香。"
   },
@@ -8078,6 +8094,10 @@
   "HeatQuellingSoup": {
     "name": "清热降火汤",
     "description": "白术的特色料理。「这算不上是药，只是略有去燥之效罢了。」随着白术关切的声音在耳边响起，一碗晶莹澄澈的果汤映入眼帘。「以前是不加糖的，但这家伙怕你吃不得苦，特意加了少许糖。」长生又补上了一句。"
+  },
+  "EnergizingBento": {
+    "name": "朝气盒饭",
+    "description": "绮良良的特色料理。绮良良效仿少女们喜欢的盒饭样式，经过一番努力制作出的人类美食。营养均衡的配菜，再加上可可爱爱的猫咪造型，像是一份饱含心意的快递…天天收到它都不会觉得腻吧！"
   },
   "RecipeItem": {
     "name": "食谱道具",
@@ -8647,7 +8667,7 @@
     "name": "食谱：薄荷曼果茶",
     "description": "步骤详实的食谱，记载着「薄荷曼果茶」的制作方法。"
   },
-  "RecipeEnameledShortbread": {
+  "RecipeFatteh": {
     "name": "食谱：脆饼珐提",
     "description": "步骤详实的食谱，记载着「脆饼珐提」的制作方法。"
   },
@@ -9298,6 +9318,18 @@
   "EvergloomRing": {
     "name": "常暗圆环",
     "description": "击败呢喃着至暗福音的四臂使者后，得到的环形法器。\\n圆环即是通道的造型。是故能产生各种神秘效力的法阵常常以圆环构成。这种环形法器或许便是导引宇宙的门路。"
+  },
+  "WorldspanFern": {
+    "name": "生长天地之蕨草",
+    "description": "从阿佩普体内的绿洲中取来的一支蕨草。\\n在时间开始之前，世界曾经由龙管辖。而在阿佩普的宫阙灵囿里、草木生长之天地中，首先抽芽的便是蕨草。\\n在随后的漫长年月当中，蕨草将变为树木、藤蔓、根茎与草叶，遍布大地。但阿佩普还记得最初的一支蕨草由蜷曲的姿态，向无拘无束的天空伸展开时，发出的细不可闻的声响。"
+  },
+  "PrimordialGreenbloom": {
+    "name": "原初绿洲之初绽",
+    "description": "从阿佩普体内的绿洲中取来的保有古老原始形态的花朵。\\n在随后的漫长年月当中，花取得了无穷多的色彩与芬芳，也获得了如夜空中繁星的数量一般多的名字。\\n但这朵最初绽放的花始终没有名字。对古老的龙而言，即便玫瑰失去了它的名字，也不会失去它的芳香。定义不过是狭隘短寿的物种用于认识世界的工具；生命是不会为字词所限，永远变化着的。"
+  },
+  "Everamber": {
+    "name": "亘古树海之一瞬",
+    "description": "从阿佩普体内的绿洲中取来的一枚琥珀。其中禁锢着细小的，如今已经绝迹的飞虫。\\n包裹着细小生命的琥珀对于树木而言是偶然，对其中的存在而言则是命运。\\n随着从天而降的灾厄，树木、藤蔓、根茎与花草纷纷枯干，化作尘埃，许多的生命也消失了。\\n但静止在琥珀当中，又被珍藏于这一不存在于地上的绿洲里的无名飞虫，也因此得以前往同族无缘抵达的未来。"
   },
   "TileOfDecarabiansTower": {
     "name": "高塔孤王的破瓦",
@@ -10387,6 +10419,22 @@
     "name": "古老的石制钥匙",
     "description": "塔尼特部族的主母曾随身携带的神秘钥匙，似乎能够开启某处大门…"
   },
+  "PlumpHarraFruit": {
+    "name": "饱满的香辛果",
+    "description": "生长在炎热潮湿的雨林当中，有着特殊辛香的果实。搭配上其他水果，应该能呈现出更加丰富的味觉层次。"
+  },
+  "JuicyZaytunPeach": {
+    "name": "多汁的墩墩桃",
+    "description": "林中灌木结出的果实。肉质敦实，味道香甜可口。据说食用后还有宁心安神的功效，很适合现在的莱依拉。"
+  },
+  "FreshApple": {
+    "name": "新鲜的苹果",
+    "description": "爽脆可口的酸甜果实，除了生食与酿酒，烤制起来应该也别有一番风味。"
+  },
+  "DryFirewood": {
+    "name": "干燥的木柴",
+    "description": "随手捡到的木柴，粗细适中，通体干燥，适合用来生火。烤过的食物会留下充满自然气息的木炭风味，希望这能让莱依拉打起一些精神。"
+  },
   "CrumpledNamelist": {
     "name": "被揉皱的名单",
     "description": "被揉皱的名单"
@@ -10463,7 +10511,7 @@
     "name": "夹在笔记中的示意图",
     "description": "从神秘的调查笔记中取出的示意图，似乎详细描绘了地下遗迹试验场的结构和「灵光绝唱」所在的位置…"
   },
-  "RensInvestigationNotes": {
+  "RenesInvestigationNotes": {
     "name": "雷内的调查笔记",
     "description": "据说是某位意图「超越凡人」的伟大学者留下的笔记，其中详细记录了他探索地下遗迹的过程以及遗迹中获得的种种知识…"
   },
@@ -10514,6 +10562,10 @@
   "JuliensSketch": {
     "name": "于连的画稿",
     "description": "配色奇怪的画稿。"
+  },
+  "PictureLeftByTheWisdomSeelie": {
+    "name": "「知慧仙灵」留下的画片",
+    "description": "「知慧仙灵」留下的提示，希望这一次的探寻不再是徒劳…"
   },
   "CaravanAccounts": {
     "name": "商队账务记录",
@@ -10587,13 +10639,121 @@
     "name": "某人的备忘",
     "description": "某人的备忘"
   },
+  "Locator": {
+    "name": "提示器",
+    "description": "妙论派的研究成果，当参赛者携带特殊的「追踪装置」后，提示器可以显示他们的大体方位。此外，如果参赛者顺利完成比赛，提示器也会发出声响。"
+  },
   "Test": {
-    "name": "（test)???",
-    "description": "（test)???"
+    "name": "（test)萨齐因相关的资料",
+    "description": "（test)萨齐因相关的资料"
+  },
+  "FoodSeeds": {
+    "name": "食物种子",
+    "description": "浮游风蕈兽·元素生命交给你们的种子，种在田地里就可以长出蕈兽喜爱的食物。但以后还会有蕈兽知道怎么照顾田地吗？"
   },
   "NamelessAdventurersNotes": {
     "name": "无名冒险家的记录",
     "description": "遗失在沙漠中的字条，似乎是某位冒险家留下的。"
+  },
+  "AncientEngineeringNotes": {
+    "name": "古老的工程记录",
+    "description": "古老的工程记录"
+  },
+  "RaggedEngineeringNotes": {
+    "name": "残破的工程记录",
+    "description": "残破的工程记录"
+  },
+  "SomeonesAbandonedLetter": {
+    "name": "何人遗留的信件",
+    "description": "何人遗留的信件"
+  },
+  "AkademiyaInvestigationTeamsLogsIII": {
+    "name": "教令院调查团的日志·其三",
+    "description": "教令院调查团的日志·其三"
+  },
+  "AkademiyaInvestigationTeamsLogsIV": {
+    "name": "教令院调查团的日志·其四",
+    "description": "教令院调查团的日志·其四"
+  },
+  "BarelyLegibleBulletin": {
+    "name": "难以辨识的布告",
+    "description": "难以辨识的布告"
+  },
+  "AncientJournal": {
+    "name": "古旧的日记",
+    "description": "古旧的日记"
+  },
+  "RecordsOfUnknownAttributionII": {
+    "name": "不知何人的记录·其二",
+    "description": "不知何人的记录·其二"
+  },
+  "AkademiyaInvestigationTeamsLogsI": {
+    "name": "教令院调查团的日志·其一",
+    "description": "教令院调查团的日志·其一"
+  },
+  "AkademiyaInvestigationTeamsLogsII": {
+    "name": "教令院调查团的日志·其二",
+    "description": "教令院调查团的日志·其二"
+  },
+  "SoiledOrders": {
+    "name": "污损的命令书",
+    "description": "污损的命令书"
+  },
+  "RecordsOfUnknownAttributionI": {
+    "name": "不知何人的记录·其一",
+    "description": "不知何人的记录·其一"
+  },
+  "PagesFromSomeLostNotesI": {
+    "name": "遗落的笔记残页·其一",
+    "description": "遗落的笔记残页·其一"
+  },
+  "PagesFromSomeLostNotesII": {
+    "name": "遗落的笔记残页·其二",
+    "description": "遗落的笔记残页·其二"
+  },
+  "BizarreTranscript": {
+    "name": "怪异的抄本",
+    "description": "怪异的抄本"
+  },
+  "TeachingsOfTheSkeptics": {
+    "name": "矫论团的教谕",
+    "description": "矫论团的教谕"
+  },
+  "NamelessResearchersNotesI": {
+    "name": "无名学者的记事·其一",
+    "description": "无名学者的记事·其一"
+  },
+  "NamelessResearchersNotesII": {
+    "name": "无名学者的记事·其二",
+    "description": "无名学者的记事·其二"
+  },
+  "NamelessResearchersNotesIII": {
+    "name": "无名学者的记事·其三",
+    "description": "无名学者的记事·其三"
+  },
+  "NamelessResearchersNotesIV": {
+    "name": "无名学者的记事·其四",
+    "description": "无名学者的记事·其四"
+  },
+  "MercenarysAgedNotesI": {
+    "name": "古旧的佣兵笔记·其一",
+    "description": "古旧的佣兵笔记·其一"
+  },
+  "MercenarysAgedNotesII": {
+    "name": "古旧的佣兵笔记·其二",
+    "description": "古旧的佣兵笔记·其二"
+  },
+  "MercenarysAgedNotesIII": {
+    "name": "古旧的佣兵笔记·其三",
+    "description": "古旧的佣兵笔记·其三"
+  },
+  "MercenarysAgedNotesIV": {
+    "name": "古旧的佣兵笔记·其四",
+    "description": "古旧的佣兵笔记·其四"
+  },
+  "KhvarenaMonumentInscription": {
+    "name": "灵光碑文",
+    "description": "灵光碑文"
   },
   "SilkFlowerSeed": {
     "name": "「霓裳花」的种子",
@@ -10994,6 +11154,10 @@
   "UnfadingSilkyGrace": {
     "name": "「不凋的绢华」",
     "description": "「饰铁之花」专用的精炼道具。\\n「装饰」能够为任何事物附上一份超出其自身价值与功能的小小心意。即便是战斗的工具，在这样的时日，这种不再枯萎的花朵也能为它赋予些许浪漫的内涵。"
+  },
+  "CongealedPupaWax": {
+    "name": "凝恒的脂蜡",
+    "description": "「鹮穿之喙」专用的精炼道具。\\n据说后来成为「召唤王」的少年曾在大赤沙海之中受鹮之王的后裔所托，花费数日收集脂蛹熬制护弦之蜡。只是传说中的宝弓随鹮之王消失不复归来，唯有脂蜡的做法代代相传，也许，是为了能够再度使用的某日而作出的准备。"
   },
   "FalconsDance": {
     "name": "鹰隼之舞",
@@ -11787,9 +11951,21 @@
     "name": "纪行·意巧",
     "description": "名片纹饰。\\n都说真爱如同鬼魅，谈论者众而见者少，但既然在此处鬼魅也偶尔现身，或许真爱也正等在下一个街角。"
   },
+  "BaizhuRelief": {
+    "name": "白术·祛风",
+    "description": "名片纹饰。\\n「谨道成术，长有摄生。」"
+  },
+  "KavehDomedCourt": {
+    "name": "卡维·穹庭",
+    "description": "名片纹饰。\\n「构思建筑之时，不妨设想，我们正在建筑的，是逾越穹天与繁星的永恒。」"
+  },
   "AchievementInfinitum": {
     "name": "成就·万种",
     "description": "名片纹饰。\\n「万种的灵光啊，护佑着永劫的大地。世间流转的枯荣，不过是种子现行的幻象。」"
+  },
+  "AchievementTransientTwilight": {
+    "name": "成就·槿暮",
+    "description": "名片纹饰。\\n「我终将遗忘昔时的繁花、昼光和雨露。愿你为我铭记，在新生的世界中，铭记那不复的梦。」"
   },
   "SumeruTheGreatDream": {
     "name": "须弥·大梦",
@@ -11798,6 +11974,10 @@
   "SumeruAmrita": {
     "name": "须弥·甘露",
     "description": "名片纹饰。\\n遗世的甘露池水虽盛满了属于过去时代的追忆，但其中或许也蕴藏着将要创造未来的力量。"
+  },
+  "TravelNotesCrownOfGlory": {
+    "name": "纪行·荣冕",
+    "description": "名片纹饰。\\n「才识是年岁的冠冕，正如思念是我们共度的时间。」"
   },
   "AnemoculusResonanceStone": {
     "name": "风神瞳共鸣石",
@@ -12299,6 +12479,18 @@
     "name": "翠翎恐蕈",
     "description": "「七圣召唤」桌面游戏的卡牌，质地坚韧，其上作为牌面的插画不知道是用什么特殊的方式印刷，看上去十分精致。"
   },
+  "FatuiCryoCicinMage": {
+    "name": "愚人众·冰萤术士",
+    "description": "「七圣召唤」桌面游戏的卡牌，质地坚韧，其上作为牌面的插画不知道是用什么特殊的方式印刷，看上去十分精致。"
+  },
+  "AbyssLectorFathomlessFlames": {
+    "name": "深渊咏者·渊火",
+    "description": "「七圣召唤」桌面游戏的卡牌，质地坚韧，其上作为牌面的插画不知道是用什么特殊的方式印刷，看上去十分精致。"
+  },
+  "ElectroHypostasis": {
+    "name": "无相之雷",
+    "description": "「七圣召唤」桌面游戏的卡牌，质地坚韧，其上作为牌面的插画不知道是用什么特殊的方式印刷，看上去十分精致。"
+  },
   "UndividedHeart": {
     "name": "唯此一心",
     "description": "「七圣召唤」桌面游戏的卡牌，质地坚韧，其上作为牌面的插画不知道是用什么特殊的方式印刷，看上去十分精致。"
@@ -12333,6 +12525,10 @@
   },
   "GrandExpectation": {
     "name": "冒险憧憬",
+    "description": "「七圣召唤」桌面游戏的卡牌，质地坚韧，其上作为牌面的插画不知道是用什么特殊的方式印刷，看上去十分精致。"
+  },
+  "SparklyExplosion": {
+    "name": "一触即发",
     "description": "「七圣召唤」桌面游戏的卡牌，质地坚韧，其上作为牌面的插画不知道是用什么特殊的方式印刷，看上去十分精致。"
   },
   "NaganoharaMeteorSwarm": {
@@ -12423,8 +12619,24 @@
     "name": "霹雳连霄",
     "description": "「七圣召唤」桌面游戏的卡牌，质地坚韧，其上作为牌面的插画不知道是用什么特殊的方式印刷，看上去十分精致。"
   },
+  "EmbraceOfWinds": {
+    "name": "绪风之拥",
+    "description": "「七圣召唤」桌面游戏的卡牌，质地坚韧，其上作为牌面的插画不知道是用什么特殊的方式印刷，看上去十分精致。"
+  },
+  "ConquerorOfEvilGuardianYaksha": {
+    "name": "降魔·护法夜叉",
+    "description": "「七圣召唤」桌面游戏的卡牌，质地坚韧，其上作为牌面的插画不知道是用什么特殊的方式印刷，看上去十分精致。"
+  },
+  "DominanceOfEarth": {
+    "name": "炊金馔玉",
+    "description": "「七圣召唤」桌面游戏的卡牌，质地坚韧，其上作为牌面的插画不知道是用什么特殊的方式印刷，看上去十分精致。"
+  },
   "KeenSight": {
     "name": "眼识殊明",
+    "description": "「七圣召唤」桌面游戏的卡牌，质地坚韧，其上作为牌面的插画不知道是用什么特殊的方式印刷，看上去十分精致。"
+  },
+  "AbsorbingPrism": {
+    "name": "汲能棱晶",
     "description": "「七圣召唤」桌面游戏的卡牌，质地坚韧，其上作为牌面的插画不知道是用什么特殊的方式印刷，看上去十分精致。"
   },
   "SinOfPride": {
@@ -12437,6 +12649,38 @@
   },
   "AratakiIchiban": {
     "name": "荒泷第一",
+    "description": "「七圣召唤」桌面游戏的卡牌，质地坚韧，其上作为牌面的插画不知道是用什么特殊的方式印刷，看上去十分精致。"
+  },
+  "MysticalAbandon": {
+    "name": "忘玄",
+    "description": "「七圣召唤」桌面游戏的卡牌，质地坚韧，其上作为牌面的插画不知道是用什么特殊的方式印刷，看上去十分精致。"
+  },
+  "AbyssalMayhemHydrospout": {
+    "name": "深渊之灾·凝水盛放",
+    "description": "「七圣召唤」桌面游戏的卡牌，质地坚韧，其上作为牌面的插画不知道是用什么特殊的方式印刷，看上去十分精致。"
+  },
+  "SanguineRouge": {
+    "name": "血之灶火",
+    "description": "「七圣召唤」桌面游戏的卡牌，质地坚韧，其上作为牌面的插画不知道是用什么特殊的方式印刷，看上去十分精致。"
+  },
+  "WishesUnnumbered": {
+    "name": "万千的愿望",
+    "description": "「七圣召唤」桌面游戏的卡牌，质地坚韧，其上作为牌面的插画不知道是用什么特殊的方式印刷，看上去十分精致。"
+  },
+  "TheShrinesSacredShade": {
+    "name": "神篱之御荫",
+    "description": "「七圣召唤」桌面游戏的卡牌，质地坚韧，其上作为牌面的插画不知道是用什么特殊的方式印刷，看上去十分精致。"
+  },
+  "TheSeedOfStoredKnowledge": {
+    "name": "心识蕴藏之种",
+    "description": "「七圣召唤」桌面游戏的卡牌，质地坚韧，其上作为牌面的插画不知道是用什么特殊的方式印刷，看上去十分精致。"
+  },
+  "CicinsColdGlare": {
+    "name": "冰萤寒光",
+    "description": "「七圣召唤」桌面游戏的卡牌，质地坚韧，其上作为牌面的插画不知道是用什么特殊的方式印刷，看上去十分精致。"
+  },
+  "EmbersRekindled": {
+    "name": "烬火重燃",
     "description": "「七圣召唤」桌面游戏的卡牌，质地坚韧，其上作为牌面的插画不知道是用什么特殊的方式印刷，看上去十分精致。"
   },
   "MagicGuide": {
@@ -12587,8 +12831,64 @@
     "name": "将帅兜鍪",
     "description": "「七圣召唤」桌面游戏的卡牌，质地坚韧，其上作为牌面的插画不知道是用什么特殊的方式印刷，看上去十分精致。"
   },
+  "AmosBow": {
+    "name": "阿莫斯之弓",
+    "description": "「七圣召唤」桌面游戏的卡牌，质地坚韧，其上作为牌面的插画不知道是用什么特殊的方式印刷，看上去十分精致。"
+  },
+  "AThousandFloatingDreams": {
+    "name": "千夜浮梦",
+    "description": "「七圣召唤」桌面游戏的卡牌，质地坚韧，其上作为牌面的插画不知道是用什么特殊的方式印刷，看上去十分精致。"
+  },
+  "ElegyForTheEnd": {
+    "name": "终末嗟叹之诗",
+    "description": "「七圣召唤」桌面游戏的卡牌，质地坚韧，其上作为牌面的插画不知道是用什么特殊的方式印刷，看上去十分精致。"
+  },
+  "SkywardPride": {
+    "name": "天空之傲",
+    "description": "「七圣召唤」桌面游戏的卡牌，质地坚韧，其上作为牌面的插画不知道是用什么特殊的方式印刷，看上去十分精致。"
+  },
+  "TheBell": {
+    "name": "钟剑",
+    "description": "「七圣召唤」桌面游戏的卡牌，质地坚韧，其上作为牌面的插画不知道是用什么特殊的方式印刷，看上去十分精致。"
+  },
+  "VortexVanquisher": {
+    "name": "贯虹之槊",
+    "description": "「七圣召唤」桌面游戏的卡牌，质地坚韧，其上作为牌面的插画不知道是用什么特殊的方式印刷，看上去十分精致。"
+  },
+  "EngulfingLightning": {
+    "name": "薙草之稻光",
+    "description": "「七圣召唤」桌面游戏的卡牌，质地坚韧，其上作为牌面的插画不知道是用什么特殊的方式印刷，看上去十分精致。"
+  },
+  "SkywardBlade": {
+    "name": "天空之刃",
+    "description": "「七圣召唤」桌面游戏的卡牌，质地坚韧，其上作为牌面的插画不知道是用什么特殊的方式印刷，看上去十分精致。"
+  },
   "FavoniusSword": {
     "name": "西风剑",
+    "description": "「七圣召唤」桌面游戏的卡牌，质地坚韧，其上作为牌面的插画不知道是用什么特殊的方式印刷，看上去十分精致。"
+  },
+  "EmblemOfSeveredFate": {
+    "name": "绝缘之旗印",
+    "description": "「七圣召唤」桌面游戏的卡牌，质地坚韧，其上作为牌面的插画不知道是用什么特殊的方式印刷，看上去十分精致。"
+  },
+  "TenacityOfTheMillelith": {
+    "name": "千岩牢固",
+    "description": "「七圣召唤」桌面游戏的卡牌，质地坚韧，其上作为牌面的插画不知道是用什么特殊的方式印刷，看上去十分精致。"
+  },
+  "ThunderingPoise": {
+    "name": "虺雷之姿",
+    "description": "「七圣召唤」桌面游戏的卡牌，质地坚韧，其上作为牌面的插画不知道是用什么特殊的方式印刷，看上去十分精致。"
+  },
+  "VermillionHereafter": {
+    "name": "辰砂往生录",
+    "description": "「七圣召唤」桌面游戏的卡牌，质地坚韧，其上作为牌面的插画不知道是用什么特殊的方式印刷，看上去十分精致。"
+  },
+  "CapriciousVisage": {
+    "name": "无常之面",
+    "description": "「七圣召唤」桌面游戏的卡牌，质地坚韧，其上作为牌面的插画不知道是用什么特殊的方式印刷，看上去十分精致。"
+  },
+  "ShimenawasReminiscence": {
+    "name": "追忆之注连",
     "description": "「七圣召唤」桌面游戏的卡牌，质地坚韧，其上作为牌面的插画不知道是用什么特殊的方式印刷，看上去十分精致。"
   },
   "LiyueHarborWharf": {
@@ -12669,6 +12969,46 @@
   },
   "GrandNarukamiShrine": {
     "name": "鸣神大社",
+    "description": "「七圣召唤」桌面游戏的卡牌，质地坚韧，其上作为牌面的插画不知道是用什么特殊的方式印刷，看上去十分精致。"
+  },
+  "Tenshukaku": {
+    "name": "天守阁",
+    "description": "「七圣召唤」桌面游戏的卡牌，质地坚韧，其上作为牌面的插画不知道是用什么特殊的方式印刷，看上去十分精致。"
+  },
+  "SangonomiyaShrine": {
+    "name": "珊瑚宫",
+    "description": "「七圣召唤」桌面游戏的卡牌，质地坚韧，其上作为牌面的插画不知道是用什么特殊的方式印刷，看上去十分精致。"
+  },
+  "SumeruCity": {
+    "name": "须弥城",
+    "description": "「七圣召唤」桌面游戏的卡牌，质地坚韧，其上作为牌面的插画不知道是用什么特殊的方式印刷，看上去十分精致。"
+  },
+  "Vanarana": {
+    "name": "桓那兰那",
+    "description": "「七圣召唤」桌面游戏的卡牌，质地坚韧，其上作为牌面的插画不知道是用什么特殊的方式印刷，看上去十分精致。"
+  },
+  "ChinjuForest": {
+    "name": "镇守之森",
+    "description": "「七圣召唤」桌面游戏的卡牌，质地坚韧，其上作为牌面的插画不知道是用什么特殊的方式印刷，看上去十分精致。"
+  },
+  "Hanachirusato": {
+    "name": "花散里",
+    "description": "「七圣召唤」桌面游戏的卡牌，质地坚韧，其上作为牌面的插画不知道是用什么特殊的方式印刷，看上去十分精致。"
+  },
+  "KidKujirai": {
+    "name": "鲸井小弟",
+    "description": "「七圣召唤」桌面游戏的卡牌，质地坚韧，其上作为牌面的插画不知道是用什么特殊的方式印刷，看上去十分精致。"
+  },
+  "Xudong": {
+    "name": "旭东",
+    "description": "「七圣召唤」桌面游戏的卡牌，质地坚韧，其上作为牌面的插画不知道是用什么特殊的方式印刷，看上去十分精致。"
+  },
+  "Dunyarzad": {
+    "name": "迪娜泽黛",
+    "description": "「七圣召唤」桌面游戏的卡牌，质地坚韧，其上作为牌面的插画不知道是用什么特殊的方式印刷，看上去十分精致。"
+  },
+  "Rana": {
+    "name": "拉娜",
     "description": "「七圣召唤」桌面游戏的卡牌，质地坚韧，其上作为牌面的插画不知道是用什么特殊的方式印刷，看上去十分精致。"
   },
   "ElementalResonanceWovenIce": {
@@ -12785,6 +13125,34 @@
   },
   "AbyssalSummons": {
     "name": "深渊的呼唤",
+    "description": "「七圣召唤」桌面游戏的卡牌，质地坚韧，其上作为牌面的插画不知道是用什么特殊的方式印刷，看上去十分精致。"
+  },
+  "WindAndFreedom": {
+    "name": "风与自由",
+    "description": "「七圣召唤」桌面游戏的卡牌，质地坚韧，其上作为牌面的插画不知道是用什么特殊的方式印刷，看上去十分精致。"
+  },
+  "StoneAndContracts": {
+    "name": "岩与契约",
+    "description": "「七圣召唤」桌面游戏的卡牌，质地坚韧，其上作为牌面的插画不知道是用什么特殊的方式印刷，看上去十分精致。"
+  },
+  "ThunderAndEternity": {
+    "name": "雷与永恒",
+    "description": "「七圣召唤」桌面游戏的卡牌，质地坚韧，其上作为牌面的插画不知道是用什么特殊的方式印刷，看上去十分精致。"
+  },
+  "NatureAndWisdom": {
+    "name": "草与智慧",
+    "description": "「七圣召唤」桌面游戏的卡牌，质地坚韧，其上作为牌面的插画不知道是用什么特殊的方式印刷，看上去十分精致。"
+  },
+  "FatuiConspiracy": {
+    "name": "愚人众的阴谋",
+    "description": "「七圣召唤」桌面游戏的卡牌，质地坚韧，其上作为牌面的插画不知道是用什么特殊的方式印刷，看上去十分精致。"
+  },
+  "PlungingAttack": {
+    "name": "下落斩",
+    "description": "「七圣召唤」桌面游戏的卡牌，质地坚韧，其上作为牌面的插画不知道是用什么特殊的方式印刷，看上去十分精致。"
+  },
+  "TheLegendOfVennessa": {
+    "name": "温妮莎传奇",
     "description": "「七圣召唤」桌面游戏的卡牌，质地坚韧，其上作为牌面的插画不知道是用什么特殊的方式印刷，看上去十分精致。"
   },
   "Origin": {
@@ -13097,7 +13465,7 @@
   },
   "SakuraHuedStreet": {
     "name": "樱染的街巷",
-    "description": "步骤详实的图纸，记载着「樱染的街巷」的放置方法。\\n以稻妻城的商店街为摹版，精心布置的街道。\\n无论外界的局势怎样变动，稻妻城中的大多居民，还是能在平静祥和的氛围中生活。而平易近人的市井街道反映着居民们衣食住行的情况，是一座城市最真实的写照。只需跟着神里家家政官这样的本地万事通，走访各个商户，很快就能领略到迷人的风土人情。\\n使用后可进入放置界面查看。\\n偏好这套摆设的同伴：宵宫、托马、久岐忍"
+    "description": "步骤详实的图纸，记载着「樱染的街巷」的放置方法。\\n以稻妻城的商店街为摹版，精心布置的街道。\\n无论外界的局势怎样变动，稻妻城中的大多居民，还是能在平静祥和的氛围中生活。而平易近人的市井街道反映着居民们衣食住行的情况，是一座城市最真实的写照。只需跟着神里家家政官这样的本地万事通，走访各个商户，很快就能领略到迷人的风土人情。\\n使用后可进入放置界面查看。\\n偏好这套摆设的同伴：宵宫、托马、久岐忍、绮良良"
   },
   "EternalDomainOfFleetingDreams": {
     "name": "遐久瞬梦间",
@@ -13165,7 +13533,7 @@
   },
   "AmidstScentsAndSerenity": {
     "name": "幽芳与恬谧之中",
-    "description": "幽雅静谧的花园，采用了寂静园与禅那园式样的凉亭，并不拘泥于建筑风格的绝对统一，所有陈设和布置都致力于营造安恬的氛围。\\n姣丽珍奇的花卉安然沉眠，精美的立灯点缀着典雅大气的喷泉…待到入夜时分，穿行在这座花园之中，脑内的杂念便会烟消云散，或许还能找到平时难以寻见的灵感…\\n偏好这套摆设的同伴：纳西妲、卡维"
+    "description": "幽雅静谧的花园，采用了寂静园与禅那园式样的凉亭，并不拘泥于建筑风格的绝对统一，所有陈设和布置都致力于营造安恬的氛围。\\n姣丽珍奇的花卉安然沉眠，精美的立灯点缀着典雅大气的喷泉…待到入夜时分，穿行在这座花园之中，脑内的杂念便会烟消云散，或许还能找到平时难以寻见的灵感…\\n偏好这套摆设的同伴：纳西妲、卡维、绮良良"
   },
   "ChorusOfDesertAndWood": {
     "name": "林野与沙漠的合奏",
@@ -13519,7 +13887,7 @@
     "name": "证悟木切角长桌",
     "description": "步骤详实的图纸，记载着「证悟木切角长桌」的制作方法。\\n使用后可进入制作界面查看。"
   },
-  "CompactAthelwoodTable": {
+  "AthelWoodCompactDesk": {
     "name": "柽木紧凑桌案",
     "description": "步骤详实的图纸，记载着「柽木紧凑桌案」的制作方法。\\n使用后可进入制作界面查看。"
   },
@@ -15195,7 +15563,7 @@
     "name": "素浄宝瓶-「十醉」",
     "description": "步骤详实的图纸，记载着「素浄宝瓶-『十醉』」的制作方法。\\n使用后可进入制作界面查看。"
   },
-  "BrightwoodSelfTighteningWineBucket": {
+  "BrightwoodSelfTighteningWineBuckets": {
     "name": "辉木自紧酒桶",
     "description": "步骤详实的图纸，记载着「辉木自紧酒桶」的制作方法。\\n使用后可进入制作界面查看。"
   },
@@ -15491,9 +15859,33 @@
     "name": "「炽阳刻印的烈香」",
     "description": "步骤详实的图纸，记载着「『炽阳刻印的烈香』」的制作方法。\\n使用后可进入制作界面查看。"
   },
-  "AthelWoodLightCargoBox": {
+  "AthelWoodLightCargoBoxes": {
     "name": "柽木轻便货箱",
     "description": "步骤详实的图纸，记载着「柽木轻便货箱」的制作方法。\\n使用后可进入制作界面查看。"
+  },
+  "VahumanaFlag": {
+    "name": "「伐护末那之旗」",
+    "description": "步骤详实的图纸，记载着「『伐护末那之旗』」的制作方法。\\n使用后可进入制作界面查看。"
+  },
+  "SpantamadFlag": {
+    "name": "「悉般多摩之旗」",
+    "description": "步骤详实的图纸，记载着「『悉般多摩之旗』」的制作方法。\\n使用后可进入制作界面查看。"
+  },
+  "HaravatatFlag": {
+    "name": "「室罗婆耽之旗」",
+    "description": "步骤详实的图纸，记载着「『室罗婆耽之旗』」的制作方法。\\n使用后可进入制作界面查看。"
+  },
+  "AmurtaFlag": {
+    "name": "「阿弥利多之旗」",
+    "description": "步骤详实的图纸，记载着「『阿弥利多之旗』」的制作方法。\\n使用后可进入制作界面查看。"
+  },
+  "RtawahistFlag": {
+    "name": "「梨多梵谛之旗」",
+    "description": "步骤详实的图纸，记载着「『梨多梵谛之旗』」的制作方法。\\n使用后可进入制作界面查看。"
+  },
+  "KshahrewarFlag": {
+    "name": "「刹诃伐罗之旗」",
+    "description": "步骤详实的图纸，记载着「『刹诃伐罗之旗』」的制作方法。\\n使用后可进入制作界面查看。"
   },
   "WroughtIronCarvedStreetLight": {
     "name": "铁艺雕花路灯",

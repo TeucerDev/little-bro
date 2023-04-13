@@ -1,7 +1,7 @@
 {
   "name": "Baizhu",
   "title": "Além da Mortalidade",
-  "description": "",
+  "description": "O dono do Chalé de Bubu, sempre com uma cobra branca chamada Changsheng pendurada no pescoço. Um grande conhecedor de medicina, suas verdadeiras intenções são um grande mistério.",
   "constellationName": "Lagenaria",
   "auto": {
     "name": "Acupuntura Dourada",
@@ -41,10 +41,10 @@
   "skill": {
     "name": "Diagnóstico Universal",
     "description": {
-      "0": "Controla um Espírito Gossamer, fazendo-o atacar os inimigos próximos, causando <dendro>Dano Dendro</dendro>.",
-      "1": "Depois de realizar até 3 ataques, ou quando não houverem inimigos próximos, o Espírito Gossamer retornará, regenerando Vida de todos os personagens da equipe próximos; a quantidade de Vida regenerada é baseada na Vida Máxima de Baizhu.",
+      "0": "Controla um Espírito Sérico, fazendo-o atacar os inimigos próximos, causando <dendro>Dano Dendro</dendro>.",
+      "1": "Depois de realizar até 3 ataques, ou quando não houverem inimigos próximos, o Espírito Sérico retornará, regenerando Vida de todos os personagens da equipe próximos; a quantidade de Vida regenerada é baseada na Vida Máxima de Baizhu.",
       "2": "<br/>",
-      "3": "<i>As pessoas do campo médico que podem ler os verdadeiros sinais de uma doença dos sinais falsos são capazes de curar uma pessoa antes mesmo dos sintomas aparecerem.</i>"
+      "3": "<i>As pessoas da área médica que podem distinguir os verdadeiros sinais de uma doença dos sinais falsos conseguem curar uma pessoa antes mesmo dos sintomas aparecerem.</i>"
     },
     "skillParams": {
       "0": "Dano de Habilidade",
@@ -77,7 +77,7 @@
         " Quando o efeito do Escudo Impenetrável acaba ou quando é destruído."
       ],
       "5": "<br/>",
-      "6": "<i>Se for possível perceber os céus e a terra, defenda sua esfera interior contra a influência externa e mantenha sua mente clara, assim nada lhe impedirá.</i>"
+      "6": "<i>Se você conseguir olhar para o céu e para a terra, proteja o seu interior contra o que vem de fora e mantenha sua mente tranquila, assim nada vai poder te impedir.</i>"
     },
     "skillParams": {
       "0": "Escudo Impenetrável",
@@ -109,7 +109,7 @@
     }
   },
   "passive2": {
-    "name": "Todas as Coisas são da Terra",
+    "name": "Mãe Terra",
     "description": {
       "0": "Personagens curados pelo <strong>Escudo Impenetrável</strong> ganharão o efeito \"Era da Proteção Verdejante\": Cada 1.000 pontos de Vida Máxima de Baizhu abaixo de 50.000 aumentam o Dano das reações de Queimaduras, Florescimento, Superflorescimento e Germinação em 2%. O Dano das reações Intensificação e Propagação aumenta em 0.8%. A duração é de 6s."
     }
@@ -121,18 +121,18 @@
     }
   },
   "constellation1": {
-    "name": "Até a Menor Súplica",
+    "name": "Observação Atenta",
     "description": {
       "0": "<strong>Diagnóstico Universal</strong> ganha 1 carga adicional."
     }
   },
   "constellation2": {
-    "name": "Mãos Habilidosas",
+    "name": "Discernimento Incisivo",
     "description": {
-      "0": "Quando o personagem ativo da equipe atinge um inimigo próximo com um ataque, Baizhu lançará Espírito Gossamer: Corte.",
-      "1": "Espírito Gossamer: Corte realizará até um Ataque e retornará, causando 300% do ATQ de Baizhu como <dendro>Dano Dendro</dendro> e regenerará 20% do Espírito Gossamer de <strong>Diagnóstico Universal</strong>.",
+      "0": "Quando o personagem ativo da equipe atinge um inimigo próximo com um ataque, Baizhu lançará Espírito Sérico: Corte.",
+      "1": "Espírito Sérico: Corte realizará até um Ataque e retornará, causando 250% do ATQ de Baizhu como <dendro>Dano Dendro</dendro> e regenerará 20% do Espírito Sérico de <strong>Diagnóstico Universal</strong>.",
       "2": "O Dano causado desta forma é considerado Dano de Habilidade Elemental.",
-      "3": "Pode ser desencadeado uma vez a cada 6s."
+      "3": "Pode ser desencadeado uma vez a cada 5s."
     }
   },
   "constellation3": {
@@ -156,10 +156,10 @@
     }
   },
   "constellation6": {
-    "name": "Fluxo da Aura",
+    "name": "Eliminação de Qi Malicioso",
     "description": {
-      "0": "Aumenta o Dano causado pelo Espiriveio de <strong>Cura Holística</strong> em 6% da Vida Máxima de Baizhu.",
-      "1": "Além disso, quando <strong>Espírito Gossamer</strong> ou Espírito Gossamer: Corte atingem um inimigo, há 100% de chance de gerar um Escudo Impenetrável de <strong>Cura Holística</strong>. Esse efeito pode ocorrer apenas uma vez para cada Espírito Gossamer ou Espírito Gossamer: Corte."
+      "0": "Aumenta o Dano causado pelo Espiriveio de <strong>Cura Holística</strong> em 8% da Vida Máxima de Baizhu.",
+      "1": "Além disso, quando <strong>Espírito Sérico</strong> ou Espírito Sérico: Corte atingem um inimigo, há 100% de chance de gerar um Escudo Impenetrável de <strong>Cura Holística</strong>. Esse efeito pode ocorrer apenas uma vez para cada Espírito Sérico ou Espírito Sérico: Corte."
     }
   }
 }

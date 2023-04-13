@@ -1,8 +1,8 @@
 {
   "name": "Kirara",
-  "title": "Burgeoning Grace",
-  "description": "Streetward Rambler's youngest disciple. A gentle and caring \"little adult.\"",
-  "constellationName": "Osmanthus",
+  "title": "???",
+  "description": "A courier for Komaniya Express, a delivery company in Inazuma. A nekomata who loves her job and human society.",
+  "constellationName": "",
   "auto": {
     "name": "Boxcutter",
     "fields": {
@@ -41,20 +41,22 @@
   "skill": {
     "name": "Meow-teor Kick",
     "description": {
-      "0": "Press",
-      "1": "Leaps into the air with all the agility of a cat passing through the bushes, and thwacks her foes with a flying kick that deals Dendro DMG while creating a Shield of Safe Transport. This will also briefly apply Dendro to Kirara. The shield will absorb Dendro DMG with 250% effectiveness. The shield's DMG absorption will be based on Kirara's Max HP and will not exceed a certain percentage of that Max HP. The remaining DMG absorption on a Shield of Safe Transport will stack on a new one when it is created, and its duration will be reset.",
+      "0": "<strong>Press</strong>",
+      "1": "Leaps into the air with all the agility of a cat passing through the bushes, and thwacks her foes with a flying kick that deals <dendro>Dendro DMG</dendro> while creating a Shield of Safe Transport. This will also briefly <dendro>apply Dendro</dendro> to Kirara. The shield will absorb <dendro>Dendro DMG</dendro> with 250% effectiveness. The shield's DMG absorption will be based on Kirara's Max HP and will not exceed a certain percentage of that Max HP. The remaining DMG absorption on a Shield of Safe Transport will stack on a new one when it is created, and its duration will be reset.",
       "2": "<br/>",
       "3": "<strong>Hold</strong>",
       "4": "Kirara deploys another Shield of Safe Transport identical to the one created by the other mode out of her desire to \"deliver within half a day.\" She will also curl up into a special express delivery box, entering the Urgent Neko Parcel state in order to move and fight more swiftly.",
       "5": "<br/>",
       "6": "<strong>Urgent Neko Parcel</strong>",
       "7": [
-        "· Deals Dendro DMG to opponents she crashes into. This efect can be triggered once on each opponent per 0.5s.",
-        "· When in this state, Kirara's movement speed, climbing speed, and jumping power are all increased, and her Stamina Consumption from climbing is increased.",
-        "· When the duration ends or the skill is used again, a Flipclaw Strike more powerful than the attack in the Mode will be unleashed, dealing AoE Dendro DMG.",
-        "·The Urgent Neko Parcel state lasts a maximum of 10s. When the state ends, the skill will enter CD. The longer Kirara spends in this state, the longer the CD",
-        "·Sprinting or actively canceling climbing will end this state early."
-      ]
+        " Deals <dendro>Dendro DMG</dendro> to opponents she crashes into. This efect can be triggered once on each opponent per 0.5s.",
+        " When in this state, Kirara's movement speed, climbing speed, and jumping power are all increased, and her Stamina Consumption from climbing is increased.",
+        " When the duration ends or the skill is used again, a Flipclaw Strike more powerful than the attack in the Press Mode will be unleashed, dealing <dendro>AoE Dendro DMG</dendro>.",
+        "The Urgent Neko Parcel state lasts a maximum of 10s. When the state ends, the skill will enter CD. The longer Kirara spends in this state, the longer the CD",
+        "Sprinting or actively canceling climbing will end this state early."
+      ],
+      "8": "<br/>",
+      "9": "<i>\"So you wanna know the secret to speedy deliveries? Well, it's all in the legs!\"</i>"
     },
     "skillParams": {
       "0": "Tail-Flicking Flying Kick DMG",
@@ -78,7 +80,9 @@
   "burst": {
     "name": "Secret Art: Surprise Dispatch",
     "description": {
-      "0": "Sends a Special Delivery Package on an express course to thieves who need to be punished, dealing AoE Dendro DMG. After the Special Delivery Package explodes, it will split up into many Cat Grass Cardamoms that will explode either upon contact wtih opponents or after a period of time, dealing AoE Dendro DMG."
+      "0": "Sends a Special Delivery Package on an express course to thieves who need to be punished, dealing <dendro>AoE Dendro DMG</dendro>. After the Special Delivery Package explodes, it will split up into many <strong>Cat Grass Cardamoms</strong> that will explode either upon contact wtih opponents or after a period of time, dealing <dendro>AoE Dendro DMG</dendro>.",
+      "1": "<br/>",
+      "2": "<i>\"Hehe, that's right, this stuff was made to deal with those parcel thieves! Remember to leave a 5-star rating once you've received yours!\"</i>"
     },
     "skillParams": {
       "0": "Skill DMG",
@@ -102,13 +106,13 @@
   "passive1": {
     "name": "Bewitching, Betwitching Tails",
     "description": {
-      "0": "When Kirara is in the Urgent Neko Parcel state of Meow-teor Kick, each impact against an opponent will grant a stack of Reinforced Packaging. This effect can be triggered once on each opponent every 0.5s. Max 3 stacks. When the Urgent Neko Parcel state ends, each stack of Reinforced Packaging will create 1 Shield of Safe Transport for Kirara. The shields that are created this way will have 20% of the DMG absorption that the Shield of Safe Transport produced by Meow-teor Kick would have. If Kirara is already protected by a Shield of Safe Transport created by Meow-teor Strike, its DMG absorption will stack with these shields and its duration will reset."
+      "0": "When Kirara is in the Urgent Neko Parcel state of <strong>Meow-teor Kick</strong>, each impact against an opponent will grant a stack of <strong>Reinforced Packaging</strong>. This effect can be triggered once on each opponent every 0.5s. Max 3 stacks. When the Urgent Neko Parcel state ends, each stack of Reinforced Packaging will create 1 Shield of Safe Transport for Kirara. The shields that are created this way will have 20% of the DMG absorption that the Shield of Safe Transport produced by <strong>Meow-teor Kick</strong> would have. If Kirara is already protected by a Shield of Safe Transport created by Meow-teor Strike, its DMG absorption will stack with these shields and its duration will reset."
     }
   },
   "passive2": {
     "name": "Timely Bedazzlement",
     "description": {
-      "0": "Every 1,000 Max HP Kirara possesses will increase the DMG dealt by Meow-teor Kick by 0.4%, and the DMG dealt by Secret Art: Surprise Dispatch by 0.3%."
+      "0": "Every 1,000 Max HP Kirara possesses will increase the DMG dealt by <strong>Meow-teor Kick</strong> by 0.4%, and the DMG dealt by <strong>Secret Art: Surprise Dispatch</strong> by 0.3%."
     }
   },
   "passive3": {
@@ -120,14 +124,14 @@
   "constellation1": {
     "name": "Material Circulation",
     "description": {
-      "0": "Every 8,000 Max HP Kirara possesses will cause her to create 1 extra Cat Grass Cardamom when she uses Secret Art: Surprise Dispatch. A maximum of 4 extra can be created."
+      "0": "Every 8,000 Max HP Kirara possesses will cause her to create 1 extra <strong>Cat Grass Cardamom</strong> when she uses <strong>Secret Art: Surprise Dispatch</strong>. A maximum of 4 extra can be created."
     }
   },
   "constellation2": {
     "name": "Perfectly Packaged",
     "description": {
-      "0": "When Kirara is in the Urgent Neko Parcel state of Meow-teor Kick, she will grant other party members she crashes into Critical Transport Shields.",
-      "1": "The DMG absorption of Critical Transport Shield is 40% of the maximum absorption Meow-teor Kick's normal Shields of Safe Transportation are capable of, and will absorb Dendro DMG with 250% effectiveness.",
+      "0": "When Kirara is in the Urgent Neko Parcel state of <strong>Meow-teor Kick</strong>, she will grant other party members she crashes into Critical Transport Shields.",
+      "1": "The DMG absorption of Critical Transport Shield is 40% of the maximum absorption <strong>Meow-teor Kick</strong>'s normal Shields of Safe Transportation are capable of, and will absorb <dendro>Dendro DMG</dendro> with 250% effectiveness.",
       "2": "Critical Transport Shields last 12s and can be triggered once on each character every 10s."
     }
   },
@@ -141,7 +145,7 @@
   "constellation4": {
     "name": "Steed of Skanda",
     "description": {
-      "0": "After active character(s) protected by Shields of Safe Transport or Critical Transport Shields hit opponents with Normal, Charged, or Plunging Attacks, Kirara will perform a coordinated attack with them using Small Cat Grass Cardamoms, dealing 200% of her ATK as Dendro DMG. DMG dealt this way is considered Elemental Burst DMG. This effect can trigger once every 3.8s."
+      "0": "After active character(s) protected by <strong>Shields of Safe Transport</strong> or <strong>Critical Transport Shields</strong> hit opponents with Normal, Charged, or Plunging Attacks, Kirara will perform a coordinated attack with them using <strong>Small Cat Grass Cardamoms</strong>, dealing 200% of her ATK as <dendro>Dendro DMG</dendro>. DMG dealt this way is considered Elemental Burst DMG. This effect can trigger once every 3.8s."
     }
   },
   "constellation5": {
