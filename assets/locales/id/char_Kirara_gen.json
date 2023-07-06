@@ -1,8 +1,8 @@
 {
   "name": "Kirara",
-  "title": "???",
-  "description": "Seorang kurir Komaniya Express, perusahaan pengantaran yang ada di Inazuma. Nekomata yang mencintai pekerjaannya dan komunitas manusia.",
-  "constellationName": "",
+  "title": "Cat Upon the Eaves",
+  "description": "Seorang kurir di Komaniya Express, sebuah perusahaan jasa ekspedisi yang ada di Inazuma. Seekor Nekomata yang mencintai pekerjaannya dan juga komunitas manusia.",
+  "constellationName": "Arcella",
   "auto": {
     "name": "Boxcutter",
     "fields": {
@@ -12,11 +12,11 @@
       },
       "charged": {
         "0": "<strong>Charged Attack</strong>",
-        "1": "Mengonsumsi sejumlah Stamina untuk melancarkan tiga serangan cakar yang cepat."
+        "1": "Mengonsumsi sejumlah Stamina untuk melancarkan 3 serangan cakar yang cepat."
       },
       "plunging": {
         "0": "<strong>Plunging Attack</strong>",
-        "1": "Menerjang dari udara untuk menghantam tanah, menyerang musuh di jalur terjangan dan mengakibatkan DMG area saat mendarat."
+        "1": "Menerjang dari udara untuk menghantam tanah, menyerang musuh di jalur terjangan dan mengakibatkan DMG Area saat mendarat."
       }
     },
     "skillParams": {
@@ -42,24 +42,24 @@
     "name": "Meow-teor Kick",
     "description": {
       "0": "<strong>Mode Tekan</strong>",
-      "1": "Menerjang ke udara dengan segala kelincahannya, layaknya seekor kucing yang berlari di antara semak-semak, dan menggunakan tendangan terbangnya untuk memukul keras musuhnya dan mengakibatkan <dendro>Dendro DMG</dendro> sambil menciptakan sebuah perisai Shield of Safe Transport, yang akan memberikan <dendro>pengaruh Dendro</dendro> singkat terhadap Kirara dalam waktu singkat. Perisai Shield of Safe Transport memiliki 250% pertahanan terhadap <dendro>Dendro DMG</dendro>. Ketahanan perisai Shield of Safe Transport akan berdasarkan pada Max HP Kirara dan tidak akan melebihi persentase tertentu dari Max HP Kirara. Sisa ketahanan DMG dari perisai Shield of Safe Transport akan ditumpuk ke perisai yang baru saat perisai ini diciptakan kembali, durasi perisainya juga akan diulang kembali.",
+      "1": "Melompat ke udara dengan lincah layaknya seekor kucing yang berlari di antara semak-semak, dan menggunakan tendangan jungkir baliknya untuk menghantam musuhnya dengan keras dan mengakibatkan <dendro>Dendro DMG Area</dendro> sambil menciptakan sebuah perisai Shield of Safe Transport. Perisai ini juga akan memberikan <dendro>efek Dendro</dendro> singkat terhadap Kirara untuk sesaat. Perisai Shield of Safe Transport memiliki 250% pertahanan terhadap <dendro>Dendro DMG</dendro>. Ketahanan perisai Shield of Safe Transport akan didasarkan pada Max HP Kirara dan tidak bisa melebihi persentase tertentu dari Max HP Kirara. Sisa ketahanan DMG dari perisai Shield of Safe Transport akan ditumpuk ke perisai yang baru saat perisai ini diciptakan kembali, durasi perisainya juga akan diperbarui.",
       "2": "<br/>",
       "3": "<strong>Mode Tahan</strong>",
-      "4": "Kirara membentuk sebuah perisai yang sama dengan Shield of Safe Transport yang sama dengan Mode Tekan berdasarkan keinginannya untuk \"mengantar paket dalam setengah hari\". Dia juga akan berubah__ menjadi kotak pengantaran ekspres spesial dan memasuki status Urgent Neko Parcel agar bisa bergerak dan bertarung dengan lebih luwes.",
+      "4": "Kirara membentuk sebuah perisai yang sama persis dengan Shield of Safe dari Mode Tekan skill ini karena keinginannya untuk \"mengantar paket dalam setengah hari\". Dia juga akan berubah menjadi sebuah kotak pengantaran ekspres spesial dan memasuki status Urgent Neko Parcel agar bisa bergerak dan bertarung dengan lebih lincah.",
       "5": "<br/>",
-      "6": "<strong>Urgent Neko Parcel</strong>",
+      "6": "<strong>Status Urgent Neko Parcel</strong>",
       "7": [
-        "Mengakibatkan<dendro>Dendro DMG</dendro> terhadap musuh yang ditabraknya. Efek ini dapat terpicu kepada masing-masing musuh sekali setiap 0,5 detik;",
-        "Saat berada dalam status ini, Movement Speed, kecepatan memanjat, dan kemampuan melompat Kirara akan meningkat. Stamina yang diperlukan untuk memanjat juga akan meningkat;",
-        "Setelah durasinya berakhir atau skill ini dilancarkan sekali lagi, dia akan melancarkan Flipclaw Strike yang lebih kuat dari serangan Mode Tekan dan mengakibatkan <dendro>Dendro DMG Area</dendro>;",
-        "Status Urgent Parcel Neko akan bertahan maksimum 10 detik. Saat efek berakhir, skill akan memasuki CD. Makin lama Kirara berada dalam status ini, makin lama pula CD skill ini;",
-        "Tindakan berlari atau memanjat secara proaktif__ akan membatalkan status Urgent Parcel Neko lebih awal."
+        "Mengakibatkan <dendro>Dendro DMG</dendro> pada musuh yang ditabraknya. Efek ini dapat terpicu kepada setiap musuh sekali setiap 0,5 detik.",
+        "Saat berada dalam status ini, Movement Speed, kecepatan memanjat, dan kemampuan melompat Kirara akan meningkat. Stamina yang diperlukan untuk memanjat juga akan meningkat.",
+        "Setelah durasinya berakhir atau skill ini dilancarkan sekali lagi, Kirara akan melancarkan Flipclaw Strike yang lebih kuat dari serangan Mode Tekan dan mengakibatkan <dendro>Dendro DMG Area</dendro>.",
+        "Status Urgent Neko Parcel akan bertahan maksimum 10 detik. Skill akan memasuki cooldown setelah status ini berakhir. Semakin lama Kirara berada dalam status ini, maka semakin lama pula cooldown skill ini.",
+        "Berlari atau menghentikan status memanjat selama status ini berlangsung akan langsung membatalkan status Urgent Neko Parcel."
       ],
       "8": "<br/>",
       "9": "<i>\"Mau tahu rahasia pengiriman paket cepat? Yah, rahasianya ada di kekuatan kaki!\"</i>"
     },
     "skillParams": {
-      "0": "DMG Tail-Flicking Flying Kick__",
+      "0": "DMG Tendangan Jungkir Balik",
       "1": "Pertahanan Perisai",
       "2": "Batas Pertahanan Perisai",
       "3": "Durasi Perisai",
@@ -80,9 +80,9 @@
   "burst": {
     "name": "Secret Art: Surprise Dispatch",
     "description": {
-      "0": "Mengirimkan Special Delivery Package dengan cepat untuk menghukum pencuri yang harus dihukum dan mengakibatkan <dendro>Dendro DMG AoE</dendro>. Setelah meledak, Special Delivery Package akan hancur menjadi <strong>Cat Grass Cardamom</strong> dalam jumlah yang banyak. Cat Grass Cardamom akan meledak saat tersentuh oleh musuh atau setelah kurun waktu tertentu, dan mengakibatkan <dendro>Dendro DMG Area</dendro>.",
+      "0": "Membanting Special Delivery Package untuk menghukum pencuri yang perlu diberi pelajaran dan mengakibatkan <dendro>Dendro DMG Area</dendro>. Setelah meledak, Special Delivery Package akan pecah menjadi banyak <strong>Cat Grass Cardamom</strong> yang akan meledak saat tersentuh oleh musuh atau setelah kurun waktu tertentu, dan mengakibatkan <dendro>Dendro DMG Area</dendro>.",
       "1": "<br/>",
-      "2": "<i>\"Heheh, benar sekali! Yang satu ini dibuat khusus untuk menghukum pencuri-pencuri paket itu! Jangan lupa kasih bintang 5 setelah terima paket yah!\"</i>"
+      "2": "<i>\"Heheh, benar sekali! Yang satu ini dibuat khusus untuk menghukum pencuri-pencuri paket itu! Jangan lupa kasih bintang lima setelah terima paketnya yah!\"</i>"
     },
     "skillParams": {
       "0": "DMG Skill",
@@ -106,32 +106,32 @@
   "passive1": {
     "name": "Bewitching, Betwitching Tails",
     "description": {
-      "0": "Saat Kirara berada dalam status Urgent Neko Parcel dari <strong>Meow-teor Kick</strong>, setiap kali tabrakannya mengenai musuh, dia akan mendapatkan 1 lapis <strong>Reinforced Packaging</strong>. Efek ini dapat terpicu maksimum satu kali setiap 0,5 detik terhadap setiap musuh, dapat ditumpuk sampai 3 lapis. Saat status Urgent Neko Parcel berakhir, setiap lapis Reinforced Packaging akan membentuk satu buah perisai Shield of Safe Transport untuk Kirara. Perisai yang terbentuk dengan cara ini akan memiliki ketahanan DMG sebesar 20% dari Shield of Safe Transport yang terbentuk dari <strong>Meow-teor Kick</strong>. Jika Kirara sudah berada dalam perlindungan perisai Shield of Safe Transport yang terbentuk dari Meow-teor Kick, maka sisa ketahanan DMG perisai akan ditumpuk, dan durasinya akan diulang."
+      "0": "Saat Kirara berada dalam status Urgent Neko Parcel dari skill <strong>Meow-teor Kick</strong>, Kirara akan mendapatkan satu lapis <strong>Reinforced Packaging</strong> setiap kali menabrak musuh. Efek ini dapat terpicu maksimum satu kali setiap 0,5 detik terhadap setiap musuh dan dapat ditumpuk hingga 3 lapis. Saat status Urgent Neko Parcel berakhir, setiap lapis Reinforced Packaging akan membentuk satu buah perisai Shield of Safe Transport untuk Kirara. Perisai yang terbentuk dengan cara ini memiliki ketahanan DMG sebesar 20% dari Shield of Safe Transport yang terbentuk dari skill <strong>Meow-teor Kick</strong>. Jika Kirara sudah berada dalam perlindungan perisai Shield of Safe Transport yang tercipta dari skill Meow-teor Kick, maka sisa ketahanan DMG perisai akan ditumpuk menjadi satu dan durasinya akan diperbarui."
     }
   },
   "passive2": {
-    "name": "Timely Bedazzlement",
+    "name": "Pupillary Variance",
     "description": {
-      "0": "Untuk setiap 1.000 poin Max HP yang dimiliki oleh Kirara, DMG yang diakibatkan <strong>Meow-teor Kick</strong> meningkat 0.4% dan DMG yang diakibatkan <strong>Secret Art: Surprise Dispatch</strong> meningkat 0.3%"
+      "0": "Untuk setiap 1.000 poin Max HP Kirara, DMG yang diakibatkan <strong>Meow-teor Kick</strong> akan meningkat 0,4% dan DMG yang diakibatkan <strong>Secret Art: Surprise Dispatch</strong> akan meningkat 0,3%."
     }
   },
   "passive3": {
     "name": "Cat's Creeping Carriage",
     "description": {
-      "0": "Saat Kirara berada dalam party, hewan yang dapat menghasilkan Fowl, Raw Meat, dan Chilled Meat tidak akan lari ketakutan saat didekati oleh anggota party sendiri."
+      "0": "Saat Kirara berada dalam party, hewan yang dapat menghasilkan Fowl, Raw Meat, dan Chilled Meat tidak akan mudah terkejut saat didekati oleh anggota party sendiri."
     }
   },
   "constellation1": {
     "name": "Material Circulation",
     "description": {
-      "0": "Saat melancarkan <strong>Secret Art: Surprise Dispatch</strong>, untuk setiap 8.000 Max HP Kirara, Kirara akan menciptakan 1 buah <strong>Cat Grass Cardamom</strong> tambahan, Cat Grass Cardamom tambahan yang bisa diciptakan dengan cara ini adalah maksimum 4 buah."
+      "0": "Saat melancarkan <strong>Secret Art: Surprise Dispatch</strong>, Kirara akan menciptakan 1 buah <strong>Cat Grass Cardamom</strong> tambahan untuk setiap 8.000 Max HP Kirara. Cat Grass Cardamom tambahan yang bisa diciptakan dengan cara ini adalah maksimum 4 buah."
     }
   },
   "constellation2": {
     "name": "Perfectly Packaged",
     "description": {
-      "0": "Saat Kirara berada dalam status Urgent Neko Parcel dari <strong>Meow-teor Kick</strong>, dia akan memberikan perisai Critical Transport Shield kepada anggota party lain yang ditabraknya.",
-      "1": "Ketahanan perisai Critical Transport Shield adalah sebesar 40% dari batas maksimum ketahanan perisai Shields of Safe Transportation normal dari <strong>Meow-teor Kick</strong>, dan memiliki 250% pertahanan terhadap <dendro>Dendro DMG</dendro>.",
+      "0": "Saat Kirara berada dalam status Urgent Neko Parcel dari skill <strong>Meow-teor Kick</strong>, dia akan memberikan perisai Critical Transport Shield kepada anggota party lain yang ditabraknya.",
+      "1": "Ketahanan perisai Critical Transport Shield adalah 40% dari batas maksimum ketahanan perisai Shield of Safe Transport normal dari skill <strong>Meow-teor Kick</strong>, dan memiliki 250% pertahanan terhadap <dendro>Dendro DMG</dendro>.",
       "2": "Critical Transport Shield berlangsung selama 12 detik. Efek ini dapat terpicu maksimum sekali setiap 10 detik untuk setiap Karakter."
     }
   },
@@ -145,7 +145,7 @@
   "constellation4": {
     "name": "Steed of Skanda",
     "description": {
-      "0": "Saat berada dalam <strong>Shield of Safe Transport</strong> atau <strong>Critical Transport Shield</strong>, setelah Normal Attack, Charged Attack, dan Plunging Attack Karakter aktif mengenai musuh, Kirara akan menggunakan <strong>Small Cat Grass Cardamom</strong> untuk melancarkan serangan terkoordinasi <dendro>Dendro DMG</dendro> sebesar 200% ATK Kirara. Damage yang diakibatkan dengan cara ini akan dianggap sebagai DMG Elemental Burst. Efek ini dapat terpicu sekali setiap 3,8 detik."
+      "0": "Setelah Karakter yang dilindungi <strong>Shield of Safe Transport</strong> atau <strong>Critical Transport Shield</strong> mengenai musuh dengan Normal Attack, Charged Attack, atau Plunging Attack, maka Kirara akan menggunakan <strong>Small Cat Grass Cardamom</strong> untuk melancarkan serangan terkoordinasi dan mengakibatkan <dendro>Dendro DMG</dendro> sebesar 200% ATK Kirara. DMG yang diakibatkan dengan cara ini akan dianggap sebagai DMG Elemental Burst. Efek ini dapat terpicu sekali setiap 3,8 detik dan waktu cooldown berlaku bagi seluruh anggota party."
     }
   },
   "constellation5": {
@@ -158,7 +158,7 @@
   "constellation6": {
     "name": "Countless Sights to See",
     "description": {
-      "0": "Setelah Kirara melancarkan Elemental Skill atau Elemental Burst, seluruh Elemental DMG Bonus dari seluruh anggota party di sekitarnya akan meningkat 12% selama 15 detik."
+      "0": "Setelah Kirara melancarkan Elemental Skill atau Elemental Burst, maka Elemental DMG Bonus untuk semua elemen dari seluruh anggota party di sekitarnya akan meningkat 12% selama 15 detik."
     }
   }
 }

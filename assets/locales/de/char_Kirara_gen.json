@@ -1,10 +1,10 @@
 {
   "name": "Kirara",
-  "title": "???",
-  "description": "Ein „Kätzchen“, das als Lieferant für den „Komaniya-Express“ in Inazuma arbeitet. Sie liebt ihre Arbeit und es zieht sie zur menschlichen Gesellschaft hin.",
-  "constellationName": "",
+  "title": "Abenteuer über den Dächern",
+  "description": "Eine „Nekomata“, die als Zustellerin für den „Komaniya-Express“ in Inazuma arbeitet. Sie liebt ihre Arbeit und es zieht sie zur menschlichen Gesellschaft hin.",
+  "constellationName": "Arcella",
   "auto": {
-    "name": "Kartonschnittßßß",
+    "name": "Kartonschnitt",
     "fields": {
       "normal": {
         "0": "<strong><strong>Standardangriff</strong>",
@@ -39,37 +39,33 @@
     }
   },
   "skill": {
-    "name": "Miauteoritentrittßßß",
+    "name": "Miauteoritentritt",
     "description": {
       "0": "<strong>Drücken</strong>",
-      "1": "Springt mit dem Geschick einer Katze durch die Blumenßßß und trifft den Gegner mit einem Schwanzschwinger-Trittßßß, der <dendro>Dendro-Schaden</dendro> verursacht, einen Schild für sicheren Transportßßß ausbreitet und gleichzeitig Kirara für kurze Zeit das <dendro>Dendro-Attribut verleiht</dendro>. Der Schild für sicheren Transportßßß hält bei <dendro>Dendro-Schaden</dendro> 250 % ab. Der absorbierte Schaden basiert auf Kiraras max. LP und wird einen bestimmten Prozentsatz der max. LP nicht überschreiten. Addiert die verbleibende Schildstärke beim Erhalten eines neuen Schilds für sicheren Transportßßß hinzu und setzt die Wirkungsdauer zurück.",
+      "1": "Springt mit dem Geschick einer Katze, die durch die Blumen hüpft, und trifft den Gegner mit einem Schwanzschwinger-Tritt, der <dendro>Dendro-Flächenschaden</dendro> verursacht, einen Schild für sicheren Transport ausbreitet und gleichzeitig Kirara für kurze Zeit das <dendro>Dendro-Attribut</dendro> verleiht. Der Schild für sicheren Transport hält bei <dendro>Dendro-Schaden</dendro> 250 % ab. Der absorbierte Schaden basiert auf Kiraras max. LP und wird einen bestimmten Prozentsatz der max. LP nicht überschreiten. Addiert die verbleibende Schildstärke beim Erhalten eines neuen Schilds für sicheren Transport hinzu und setzt die Wirkungsdauer zurück.",
       "2": "<br/>",
       "3": "<strong>Gedrückt halten</strong>",
-      "4": "Kirara packt den Elan von „Lieferung innerhalb eines halben Tages“ßßß; sie breitet einen weiteren Schild für sicheren Transportßßß aus, der identisch zu dem ist, der über „Drücken“ erzeugt wird. Außerdem begibt sie sich in den Zustand „Miezekatzen-Sonderzustellung“ßßß, indem sie sich in einer speziellen Versandbox zusammenrollt, wodurch sie sich noch flinker bewegen und kämpfen kann.",
+      "4": "Kirara packt der Elan von „Lieferung innerhalb eines halben Tages“; sie breitet einen weiteren Schild für sicheren Transport aus, der identisch zu dem ist, der über „Drücken“ erzeugt wird. Außerdem begibt sie sich in den Zustand „Neko-Sonderzustellung“, indem sie sich in einer speziellen Versandbox zusammenrollt, wodurch sie sich noch flinker bewegen und kämpfen kann.",
       "5": "<br/>",
-      "6": "<strong>Miezekatzen-Sonderzustellung</strong>",
+      "6": "<strong>Neko-Sonderzustellung</strong>",
       "7": [
-        " Fügt Gegnern, die sie rammt, <dendro>Dendro-Schaden</dendro> zu. 0,5 s Abklingzeit für jeden Gegner."
+        " Fügt Gegnern, die sie rammt, <dendro>Dendro-Schaden</dendro> zu. 0,5 s Abklingzeit für jeden Gegner.",
+        " In diesem Zustand erhöhen sich Kiraras Bewegungs- und Klettergeschwindigkeit sowie ihre Sprungfähigkeit, aber auch ihr Ausdauerverbrauch beim Klettern.",
+        " Löst bei Ablauf der Dauer oder bei erneutem Auslösen einen im Vergleich zum Drücken der Fähigkeit noch stärkeren Krallenwendeschlag aus, der <dendro>Dendro-Flächenschaden</dendro> verursacht.",
+        " Neko-Sonderzustellung hält bis zu 10 s. Startet am Ende des Effekts eine Abklingphase. Je länger der Zustand der Neko-Sonderzustellung anhält, desto länger wird die Abklingphase.",
+        " Rennen oder aktives Abbrechen des Kletterns während der Dauer beenden den Zustand der Miezekatzen-Sonderzustellung vorzeitig."
       ],
-      "8": "In diesem Zustand erhöhen sich Kiraras Bewegungs- und Klettergeschwindigkeit sowie ihre Sprungfähigkeit, aber auch ihr Ausdauerverbrauch beim Klettern.",
-      "9": [
-        " Löst bei Ablauf der Dauer oder bei erneutem Auslösen einen im Vergleich zum Drücken der Fähigkeit noch stärkeren Kratzkrallenangriffßßß aus, der <dendro>Dendro-Flächenschaden</dendro> verursacht."
-      ],
-      "10": "Miezekatzen-Sonderzustellungßßß hält bis zu 10 s. Startet am Ende des Effekts eine Abklingphase. Je länger der Zustand der Miezekatzen-Sonderzustellungßßß anhält, desto länger wird die Abklingphase.",
-      "11": [
-        " Rennen oder aktives Abbrechen des Kletterns während der Dauer beenden den Zustand der Miezekatzen-Sonderzustellungßßß vorzeitig."
-      ],
-      "12": "<br/>",
-      "13": "<i>„Hm, du willst also das Geheimnis dieser schnellen Lieferung wissen? Die Kraft der Füße natürlich!“</i>"
+      "8": "<br/>",
+      "9": "<i>„Hm, du willst also das Geheimnis dieser schnellen Lieferung wissen? Die Kraft der Füße natürlich!“</i>"
     },
     "skillParams": {
       "0": "Schwanzschwinger-Tritt-SCH",
       "1": "Schildstärke",
       "2": "Max. Schildstärke",
       "3": "Schilddauer",
-      "4": "Ramm-SCHßßß der Miezekatzen-Sonderzustellungßßß",
-      "5": "Höchstdauer der Miezekatzen-Sonderzustellungßßß",
-      "6": "Kratzkrallenangriff-SCH",
+      "4": "Ramm-SCH der Neko-Sonderzustellung",
+      "5": "Höchstdauer der Neko-Sonderzustellung",
+      "6": "Krallenwendeschlag-SCH",
       "7": "Abklingzeit",
       "8": "",
       "9": "",
@@ -82,9 +78,9 @@
     }
   },
   "burst": {
-    "name": "Geheime Kunst – Besondere Überraschungßßß",
+    "name": "Geheime Kunst – Besondere Überraschung",
     "description": {
-      "0": "Schickt eine Express-Sonderzustellungßßß zum Bestrafen von Dieben auf den Weg, die Gegner rammt und dabei <dendro>Dendro-Flächenschaden</dendro> verursacht. Nachdem die Express-Sonderzustellungßßß explodiert ist, teilt sie sich in mehrere <strong>Katzengras-Kardamoms</strong> auf. Diese explodieren, wenn sie Gegner berühren oder nachdem eine gewisse Zeit vergangen ist und verursachen dabei <dendro>Dendro-Flächenschaden</dendro>.",
+      "0": "Schickt eine Express-Sonderzustellung zum Bestrafen von Dieben auf den Weg, die Gegner rammt und dabei <dendro>Dendro-Flächenschaden</dendro> verursacht. Nachdem die Express-Sonderzustellung explodiert ist, teilt sie sich in mehrere <strong>Katzengras-Kardamoms</strong> auf. Diese explodieren, wenn sie Gegner berühren oder nachdem eine gewisse Zeit vergangen ist, und verursachen dabei <dendro>Dendro-Flächenschaden</dendro>.",
       "1": "<br/>",
       "2": "<i>„Hehe, Sonderzustellung für all die Paketdiebe. Und vergesst nicht, eine 5-Sterne-Bewertung abzugeben, liebe Schurken.“</i>"
     },
@@ -108,59 +104,59 @@
     }
   },
   "passive1": {
-    "name": "Betörend süße Schwänzchenßßß",
+    "name": "Betörend süße Gestalt",
     "description": {
-      "0": "Kirara erhält jedes Mal eine Stapelung <strong>Verstärkte Verpackungßßß</strong>, wenn sie im Zustand Miezekatzen-Sonderzustellung des <strong>Miauteoritentritts</strong> Gegner rammt. 0,5 s Abklingzeit für jeden Gegner, 3-fach stapelbar. Nach Beendigung des Zustands „Miezekatzen-Sonderzustellung“ erzeugt jeder Stapel „Verstärkte Verpackung“ für Kirara jeweils 1 Schild für sicheren Transport. Die Schildstärke der so erzeugten Schilde für sicheren Transport entspricht 20 % der Schildstärke der Schilde für sicheren Transport, die über den <strong>Miauteoritentrittßßß</strong> erzeugt werden. Befindet sich Kirara bereits unter dem Schutz von durch den Miauteoritentrittßßß erzeugten Schilden des sicheren Transports, so wird deren übrige Schildstärke mit aufgestapeltßßß und die Dauer aktualisiert."
+      "0": "Kirara erhält jedes Mal eine Stapelung <strong>Verstärkte Verpackung</strong>, wenn sie im Zustand Neko-Sonderzustellung des <strong>Miauteoritentritts</strong> Gegner rammt. 0,5 s Abklingzeit für jeden Gegner, 3-fach stapelbar. Nach Beendigung des Zustands „Neko-Sonderzustellung“ erzeugt jede Stapelung „Verstärkte Verpackung“ für Kirara jeweils 1 Schild für sicheren Transport. Die Schildstärke der so erzeugten Schilde für sicheren Transport entspricht 20 % der Schildstärke der Schilde für sicheren Transport, die über den <strong>Miauteoritentritt</strong> erzeugt werden. Befindet sich Kirara bereits unter dem Schutz von durch den Miauteoritentritt erzeugten Schilden des sicheren Transports, so wird deren übrige Schildstärke mit aufgestapelt und die Dauer aktualisiert."
     }
   },
   "passive2": {
-    "name": "Vorübergehend verzaubertßßß",
+    "name": "Markante Pupillen",
     "description": {
-      "0": "Erhöht den mit <strong>Miauteoritentrittßßß</strong> verursachten Schaden basierend auf Kiraras max. LP für je 1.000 Punkte von ihrer max. LP um 0,4 % und den mit <strong>Geheime Kunst – Besondere Überraschungßßß</strong> verursachten Schaden um 0,3 %."
+      "0": "Erhöht den mit <strong>Miauteoritentritt</strong> verursachten Schaden basierend auf Kiraras max. LP für je 1.000 Punkte von ihren max. LP um 0,4 % und den mit <strong>Geheime Kunst – Besondere Überraschung</strong> verursachten Schaden um 0,3 %."
     }
   },
   "passive3": {
-    "name": "Mieze auf der Pirschßßß",
+    "name": "Mieze auf der Pirsch",
     "description": {
       "0": "Führt dazu, dass eigene Figuren in der Truppe kleine Tiere in der Nähe, die rohes Geflügel, rohes Fleisch oder kaltes Gourmetfleisch als Beute abgeben, nicht leicht aufscheuchen, wenn Kirara in der Truppe ist."
     }
   },
   "constellation1": {
-    "name": "Materialkreislaufßßß",
+    "name": "Materialkreislauf",
     "description": {
-      "0": "Kirara erzeugt bei Anwenden von <strong>Geheime Kunst – Besondere Überraschungßßß</strong> für je 8.000 Punkte ihrer max. LP 1 zusätzlichen <strong>Katzengras-Kardamom</strong>. Maximal können auf diese Weise 4 Katzengras-Kardamoms erzeugt werden."
+      "0": "Kirara erzeugt bei Anwenden von <strong>Geheime Kunst – Besondere Überraschung</strong> für je 8.000 Punkte ihrer max. LP 1 zusätzlichen <strong>Katzengras-Kardamom</strong>. Maximal können auf diese Weise 4 zusätzliche Katzengras-Kardamoms erzeugt werden."
     }
   },
   "constellation2": {
-    "name": "Perfekt verpacktßßß",
+    "name": "Perfekt verpackt",
     "description": {
-      "0": "Kirara verleiht anderen Truppenmitgliedern, die sie im Zustand Miezekatzen-Sonderzustellung des <strong>Miauteoritentritts</strong> rammt, Schild für sicheren Transport – Einschreibenßßß.",
-      "1": "Die Schildstärke des Schilds für sicheren Transport – Einschreibenßßß entspricht 40 % der Schildstärke des durch den Miauteoritentrittßßß erzeugten Schilds für sicheren Transport und hält bei <dendro>Dendro-Schaden</dendro> 250 % ab.",
-      "2": "Der Schild für sicheren Transport – Einschreibenßßß hält 12 s, 10 s Abklingzeit für jedes Truppenmitglied."
+      "0": "Kirara verleiht anderen Truppenmitgliedern, die sie im Zustand Neko-Sonderzustellung des <strong>Miauteoritentritts</strong> rammt, Schild für sicheren Transport – Einschreiben.",
+      "1": "Die Schildstärke des Schilds für sicheren Transport – Einschreiben entspricht 40 % der Schildstärke des durch den <strong>Miauteoritentritt</strong> erzeugten Schild für sicheren Transport und hält bei <dendro>Dendro-Schaden</dendro> 250 % ab.",
+      "2": "Der Schild für sicheren Transport – Einschreiben hält 12 s, 10 s Abklingzeit für jedes Truppenmitglied."
     }
   },
   "constellation3": {
-    "name": "Universelle Erkennungßßß",
+    "name": "Universelle Erkennung",
     "description": {
-      "0": "Erhöht die Stufe der Fähigkeit <strong>Miauteroritentrittßßß</strong> um 3.",
+      "0": "Erhöht die Stufe der Fähigkeit <strong>Miauteoritentritt</strong> um 3.",
       "1": "Höchststufe 15."
     }
   },
   "constellation4": {
-    "name": "Stand des Skadasßßß",
+    "name": "Skanda-Ross",
     "description": {
-      "0": "Kirara initiiert einen abgestimmten Angriff mit <strong>Kleinem Katzengras-Kardamom</strong> und verursacht <dendro>Dendro-Schaden</dendro> in Höhe von 200 % von Kiraras ANG, nachdem Gegner durch den Standardangriff, heftigen Schlag und Angriff aus dem Fall von Figuren getroffen wurden, die durch <strong>Schilde für sicheren Transportßßß</strong> oder <strong>Schilde für sicheren Transport – Einschreibenßßß</strong> geschützt werden. Hierdurch verursachter Schaden wird als Schaden der Spezialfähigkeit gewertet. 3,8 s Abklingzeit."
+      "0": "Kirara initiiert einen abgestimmten Angriff mit <strong>kleinem Katzengras-Kardamom</strong> und verursacht <dendro>Dendro-Schaden</dendro> in Höhe von 200 % von Kiraras ANG, nachdem Gegner durch den Standardangriff, heftigen Schlag und Angriff aus dem Fall von den aktuellen Figuren getroffen wurden, die durch <strong>Schilde für sicheren Transport</strong> oder <strong>Schilde für sicheren Transport – Einschreiben</strong> geschützt werden. Hierdurch verursachter Schaden wird als Schaden der Spezialfähigkeit gewertet. 3,8 s Abklingzeit, die Abklingzeit gilt für alle Truppenmitglieder gemeinsam."
     }
   },
   "constellation5": {
-    "name": "Tausend Meilen jeden Tagßßß",
+    "name": "Tausend Meilen jeden Tag",
     "description": {
-      "0": "Erhöht die Stufe der Fähigkeit <strong>Geheime Kunst – Besondere Überraschungßßß</strong> um 3.",
+      "0": "Erhöht die Stufe der Fähigkeit <strong>Geheime Kunst – Besondere Überraschung</strong> um 3.",
       "1": "Höchststufe 15."
     }
   },
   "constellation6": {
-    "name": "Unzählige Sehenswürdigkeitenßßß",
+    "name": "Unzählige Sehenswürdigkeiten",
     "description": {
       "0": "Erhöht den Elementar-SCH-Bonus aller Truppenmitglieder in der Nähe nach Anwendung von Kiraras Elementarfähigkeit oder Spezialfähigkeit für 15 s um 12 %."
     }

@@ -13,7 +13,7 @@
       "jsonParse": "Невозможно считать JSON файл.",
       "unknown": "Неизвестный формат файла.",
       "monaInvalid": "Неверный формат Mona-Uranai файла",
-      "goInvalid": "Неверный формат данных GO"
+      "goInvalid": "Неверный формат данных LB"
     },
     "dbSource": "Источник данных:",
     "goodUpload": {
@@ -25,9 +25,9 @@
       "delNotInImport": "Удалять не присутствующее в импорте"
     },
     "tooltip": {
-      "detectdup": "Находить улучшения/дублирования в GO и обновлять данные в GO.",
-      "ignoreDup": "Не обнаруживать улучшения/дублирования, импорт добавляется к уже существующему в инвентаре GO.",
-      "delNotInImport": "Предполагать, что импорт является полной описью. Все данные в GO, отсутствующие в импорте, будут удалены.",
+      "detectdup": "Находить улучшения/дублирования в LB и обновлять данные в LB.",
+      "ignoreDup": "Не обнаруживать улучшения/дублирования, импорт добавляется к уже существующему в инвентаре LB.",
+      "delNotInImport": "Предполагать, что импорт является полной описью. Все данные в LB, отсутствующие в импорте, будут удалены.",
       "keepNotInImport": "Предполагать, что импорт является частичной описью. Ничего не будет удалено."
     }
   },
@@ -41,7 +41,9 @@
     "removed": "Удалено:",
     "unchanged": "Не изменено:",
     "invalid": "Неисправны:",
-    "upgraded": "Улучшено:"
+    "upgraded": "Улучшено:",
+    "dbTotal": "Merged Total:",
+    "notInImport": "Not in Import:"
   },
   "DatabaseCard": {
     "title": "Данные",
@@ -53,5 +55,12 @@
       "swap": "Сменить"
     },
     "currentDB": "Выбранные Данные"
+  },
+  "sillyCard": {
+    "desc": "We <1>stole</1> borrowed (with permission) all the character assets from <strong>Silly Wisher</strong> and gene splice it into Genshin Optimizer.",
+    "toggle": {
+      "enabled": "Silly Optimizer Enabled",
+      "disabled": "Silly Optimizer Disabled"
+    }
   }
 }

@@ -24,14 +24,17 @@
   "maxStacks": "Max. Stapelungen der Energie",
   "skillDMG": "Fähigkeits-SCH",
   "burstDMG": "Spezialfähigkeits-SCH",
-  "dmgAbsorption": "Stärke",
+  "dmgAbsorption": "Schildstärke",
   "healing": "Heilung",
+  "contHealing": "Fortlaufende Heilung",
   "duration": "Dauer",
   "cd": "Abklingzeit",
   "energyCost": "Elementarenergie",
+  "energyRegen": "Elementarenergie-Wiederherstellung",
   "baseDMG": "Basis-SCH",
   "dot": "Fortlaufender SCH",
   "addEleDMG": "Zusätzlicher Elementar-SCH",
+  "hpRegenPerHit": "Heilung bei Treffer",
   "press": {
     "dmg": "SCH bei Drücken",
     "cd": "Abklingzeit für Drücken"
@@ -57,11 +60,17 @@
     "superconduct": "Supraleiter",
     "vaporize": "Verdampfen",
     "melt": "Schmelzen",
-    "bloom": "Blooming",
+    "bloom": "Sprießen",
     "burgeon": "Flammenspross",
     "hyperbloom": "Supraspross",
     "quicken": "Urwuchs",
     "aggravate": "Suprawuchs",
     "spread": "Rankenwuchs"
+  },
+  "stat": {
+    "def": "VTD",
+    "base": {
+      "atk": "Basis-ANG"
+    }
   }
 }
