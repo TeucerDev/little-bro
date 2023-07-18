@@ -4,7 +4,7 @@
   "description": "",
   "constellationName": "Felis Fuscus",
   "auto": {
-    "name": "Traslazione forzata",
+    "name": "Carta obbligata",
     "fields": {
       "normal": {
         "0": "<strong><strong>Attacco normale</strong>",
@@ -19,7 +19,7 @@
           " Livello di carica 2: scaglia una Freccia scenica che infligge <pyro>DAN da Pyro</pyro> ed evoca un Cappello sogghignante all'impatto."
         ],
         "4": "Se Lyney scocca una Freccia scenica mentre ha più di un 60% di PS a disposizione, consuma una parte dei suoi PS e ottiene 1 accumulo di Riserva scenica, fino a un massimo di 5. L'effetto viene rimosso se il personaggio trascorre 30 s fuori dal campo.",
-        "5": "Con questo metodo, i PS di Lyney non possono calare al di sotto di un 60% dei PS max."
+        "5": "Con questo metodo, i PS di Lyney non possono calare al di sotto di un 60% dei suoi PS max."
       },
       "plunging": {
         "0": "<strong>Attacco in picchiata</strong>",
@@ -36,7 +36,7 @@
       },
       "arkhe": {
         "0": "<strong>Archè: Pneuma</strong>",
-        "1": "A determinati intervalli, la Freccia scenica genera un Aculeo spettrale che infligge <pyro>DAN da Pyro</pyro> infusi di Pneuma."
+        "1": "A determinati intervalli, la Freccia scenica genera un Aculeo spettrale nel punto colpito che infligge <pyro>DAN da Pyro</pyro> di polarità Pneuma."
       }
     },
     "skillParams": {
@@ -61,7 +61,7 @@
   "skill": {
     "name": "Luci stupefacenti",
     "description": {
-      "0": "Lyney esegue un gesto plateale con il cappello, scagliando fuochi d'artificio contro gli avversari!",
+      "0": "Lyney esegue un gesto plateale con il cappello, scagliando fuochi d'artificio contro gli oppositori!",
       "1": "Consuma tutti gli accumuli di Riserva scenica e infligge <pyro>DAN da Pyro ad area</pyro> agli avversari di fronte a lui. A seconda degli accumuli consumati, la quantità di DAN aumenta e i PS di Lyney si ripristinano in proporzione ai suoi PS max.",
       "2": "<br/>",
       "3": "In presenza di un Cappello sogghignante creato da Lyney, i fuochi d'artificio lo faranno esplodere, infliggendo <pyro>DAN da Pyro ad area</pyro> pari a quelli inflitti da una Botta pirotecnica.",
@@ -73,7 +73,7 @@
       "0": "DAN da abilità",
       "1": "Bonus DAN da abilità",
       "2": "RIGEN PS",
-      "3": "RIGEN energia",
+      "3": "TdR",
       "4": "",
       "5": "",
       "6": "",
@@ -92,9 +92,11 @@
     "name": "Trucco mirabolante: Corteo dei miracoli",
     "description": {
       "0": "Lyney scatena tutta la sua magia per assumere la forma di Gatto sogghignante (da non confondersi con il Cappello sogghignante, che è un'altra cosa!), con cui può spostarsi a gran velocità.",
-      "1": "Quando il Gatto sogghignante si avvicina agli avversari, scatena delle fiamme impetuose che infliggono 1 iterazione di <pyro>DAN da Pyro</pyro> su ciascun avversario. Al termine dell'effetto o quando usa la sua abilità elementale, Lyney abbandona la forma di Gatto sogghignante, fa esplodere dei fuochi d'artificio infliggendo <pyro>DAN da Pyro ad area</pyro>, evoca 1 Cappello sogghignante e ottiene 1 accumulo di Riserva scenica.",
+      "1": "Quando il Gatto sogghignante si avvicina agli avversari, scatena delle fiamme impetuose che infliggono 1 iterazione di <pyro>DAN da Pyro</pyro> a ciascun avversario. Al termine dell'effetto, Lyney abbandona la forma di Gatto sogghignante e fa esplodere dei fuochi d'artificio che infliggono <pyro>DAN da Pyro ad area</pyro>, dopodiché evoca 1 Cappello sogghignante e ottiene 1 accumulo di Riserva scenica.",
       "2": "<br/>",
-      "3": "<i>\"Ora guarda con attenzione. Questo è un momento miracoloso, e appartiene soltanto a noi due!\"</i>"
+      "3": "Il Gatto sogghignante può essere interrotto attivamente.",
+      "4": "<br/>",
+      "5": "<i>\"Ora guarda con attenzione. Questo è un momento miracoloso, e appartiene soltanto a noi due!\"</i>"
     },
     "skillParams": {
       "0": "DAN da abilità",
@@ -118,7 +120,7 @@
   "passive1": {
     "name": "Numero rischioso",
     "description": {
-      "0": "Se Lyney consuma PS scagliando una <strong>Freccia scenica</strong>, il Cappello sogghignante evocato all'impatto di quest'ultima infligge DAN aggiuntivi pari a un 80% dell'ATT."
+      "0": "Se Lyney consuma PS quando scaglia una <strong>Freccia scenica</strong>, il Cappello sogghignante evocato dalla suddetta Freccia ripristina di 3 l'energia di Lyney all'impatto con l'avversario, aumentando al contempo i DAN inflitti di un 80% del suo ATT."
     }
   },
   "passive2": {
@@ -126,7 +128,7 @@
     "description": {
       "0": "Quando infligge DAN agli avversari sotto l'effetto di <pyro>Pyro</pyro>, Lyney ottiene i seguenti effetti positivi:",
       "1": [
-        " i DAN aumentano di un 60% di base;",
+        " l'ATT di base aumenta di un 60%;",
         " per ogni membro di <pyro>Pyro</pyro> presente nel gruppo, escluso Lyney, tale effetto aumenta di un ulteriore 20%."
       ],
       "2": "In questo modo, Lyney può ottenere un 100% di incremento totale dei DAN contro gli avversari sotto l'effetto di <pyro>Pyro</pyro>."
@@ -146,7 +148,7 @@
     }
   },
   "constellation2": {
-    "name": "Esca loquace",
+    "name": "Maestro delle lusinghe",
     "description": {
       "0": "Quando Lyney è in campo, ottiene ogni 2 s un accumulo di Concentrazione totale che aumenta di un 20% i suoi DAN da CRIT. Massimo 3 accumuli. L'effetto si annulla quando Lyney abbandona il campo."
     }
@@ -154,14 +156,14 @@
   "constellation3": {
     "name": "Prestidigitazione",
     "description": {
-      "0": "Aumenta di 3 il livello di <strong>Attacco normale: Traslazione forzata</strong>.",
+      "0": "Aumenta di 3 il livello di <strong>Attacco normale: Carta obbligata</strong>.",
       "1": "Il livello di potenziamento massimo è 15."
     }
   },
   "constellation4": {
     "name": "Esperienza sul palco",
     "description": {
-      "0": "Quando Lyney colpisce un avversario con un attacco caricato di <pyro>Pyro</pyro>, la <pyro>RES a Pyro</pyro> dell'avversario si riduce di un 25% per 6 s."
+      "0": "Quando Lyney colpisce un avversario con un attacco caricato di <pyro>Pyro</pyro>, la <pyro>RES a Pyro</pyro> del suddetto avversario si riduce di un 20% per 6 s."
     }
   },
   "constellation5": {
@@ -172,9 +174,9 @@
     }
   },
   "constellation6": {
-    "name": "Sorriso freddo",
+    "name": "Sorriso prudente",
     "description": {
-      "0": "Quando Lyney scaglia una <strong>Freccia scenica</strong>, lancia una Botta pirotecnica: Ripresa che infligge un 100% dei DAN da Botta pirotecnica. Tali DAN sono considerati DAN da attacco caricato."
+      "0": "Quando Lyney scaglia una <strong>Freccia scenica</strong>, lancia una Botta pirotecnica: Ripresa che infligge un 80% dei DAN da Botta pirotecnica. Tali DAN sono considerati DAN da attacco caricato."
     }
   }
 }

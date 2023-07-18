@@ -4,7 +4,7 @@
   "description": "",
   "constellationName": "Felis Fuscus",
   "auto": {
-    "name": "Compulsory Card Move",
+    "name": "Card Force Translocation",
     "fields": {
       "normal": {
         "0": "<strong><strong>Normal Attack</strong>",
@@ -19,7 +19,7 @@
           "Charge Level 2: Fires off a Prop Arrow that deals <pyro>Pyro DMG</pyro>, and upon hit, it will summon a Grin-Malkin Hat."
         ],
         "4": "When firing the Prop Arrow, and when Lyney has more than 60% HP, he will consume a portion of his HP to obtain 1 Prop Surplus stack. Max 5 stacks. The effect will be removed after the character spends 30s out of combat.",
-        "5": "The lowest Lyney can drop to through this method is 60% of him Max HP."
+        "5": "The lowest Lyney can drop to through this method is 60% of his Max HP."
       },
       "plunging": {
         "0": "<strong>Plunging Attack</strong>",
@@ -92,9 +92,11 @@
     "name": "Wondrous Trick: Miracle Parade",
     "description": {
       "0": "Unleashing his magic, Lyney turns hinself into a Grin-Malkin Cat that can move around quickly. (Not to be mistaken for the Grin-Malkin Hat. They're two different props!)",
-      "1": "When the Grin-Malkin Cat gets close to opponents, it will send flames falling down on them, dealing at most 1 instance of <pyro>Pyro DMG</pyro> to each opponent. When the duration ends or Lyney uses his Elemental Skill, he will dismiss the Grin-Malkin Cat and ignite fireworks that deal <pyro>AoE Pyro DMG</pyro>, summon 1 Grin-Malkin Hat, and grant himself 1 Prop Surplus stack.",
+      "1": "When the Grin-Malkin Cat gets close to opponents, it will send flames falling down on them, dealing at most 1 instance of <pyro>Pyro DMG</pyro> to each opponent. When the duration ends, he will dismiss the Grin-Malkin Cat and ignite fireworks that deal <pyro>AoE Pyro DMG</pyro>, summon 1 Grin-Malkin Hat, and grant himself 1 Prop Surplus stack.",
       "2": "<br/>",
-      "3": "<i>\"Watch closely now. This is a time for miracles, and it belongs just to the two of us!\"</i>"
+      "3": "Grin-Malkin Cat can be actively canceled.",
+      "4": "<br/>",
+      "5": "<i>\"Watch closely now. This is a time for miracles, and it belongs just to the two of us!\"</i>"
     },
     "skillParams": {
       "0": "Skill DMG",
@@ -146,7 +148,7 @@
     }
   },
   "constellation2": {
-    "name": "Locquacious Lure",
+    "name": "Locquacious Cajoling",
     "description": {
       "0": "When Lyney is on the field, he will gain a stack of Crisp Focus every 2s. This will increase his CRIT DMG by 20%. Max 3 stacks. This effect will be canceled when Lyney leaves the field."
     }
@@ -154,14 +156,14 @@
   "constellation3": {
     "name": "Prestidigitation",
     "description": {
-      "0": "Increases the Level of <strong>Normal Attack: Compulsory Card Move</strong> by 3.",
+      "0": "Increases the Level of <strong>Normal Attack: Card Force Translocation</strong> by 3.",
       "1": "Maximum upgrade level is 15."
     }
   },
   "constellation4": {
     "name": "Well-Versed, Well-Rehearsed",
     "description": {
-      "0": "After an opponent is hit by Lyney's <pyro>Pyro</pyro> Charged Attack, this opponent's <pyro>Pyro RES</pyro> will be decreased by 25% for 6s."
+      "0": "After an opponent is hit by Lyney's <pyro>Pyro</pyro> Charged Attack, this opponent's <pyro>Pyro RES</pyro> will be decreased by 20% for 6s."
     }
   },
   "constellation5": {
@@ -172,9 +174,9 @@
     }
   },
   "constellation6": {
-    "name": "A Contrary Smile",
+    "name": "Guarded Smile",
     "description": {
-      "0": "When Lyney fires a <strong>Prop Arrow</strong>, he will fire a Pyrotechnic Strike: Reprised that will deal 100% of a Pyrotechnic Strike's DMG. This DMG is considered Charged Attack DMG."
+      "0": "When Lyney fires a <strong>Prop Arrow</strong>, he will fire a Pyrotechnic Strike: Reprised that will deal 80% of a Pyrotechnic Strike's DMG. This DMG is considered Charged Attack DMG."
     }
   }
 }

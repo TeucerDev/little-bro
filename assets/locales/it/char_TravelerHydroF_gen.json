@@ -1,18 +1,18 @@
 {
   "auto": {
-    "name": "Corrente straniera",
+    "name": "Idrocorrente straniera",
     "fields": {
       "normal": {
         "0": "<strong><strong>Attacco normale</strong>",
-        "1": "Sferri fino a 5 colpi rapidi."
+        "1": "Sferra fino a 5 colpi rapidi."
       },
       "charged": {
         "0": "<strong>Attacco caricato</strong>",
-        "1": "Consumi una determinata quantità di vigore per sferrare 2 colpi di spada rapidi."
+        "1": "Consuma una determinata quantità di vigore per sferrare 2 colpi di spada rapidi."
       },
       "plunging": {
         "0": "<strong>Attacco in picchiata</strong>",
-        "1": "Attacchi scagliandoti contro il suolo da mezz'aria, infliggendo DAN agli avversari lungo la traiettoria e DAN ad area all'impatto."
+        "1": "Attacca scagliandosi contro il suolo da mezz'aria, infliggendo DAN agli avversari lungo la traiettoria e DAN ad area all'impatto."
       }
     },
     "skillParams": {
@@ -37,18 +37,18 @@
   "skill": {
     "name": "Fendente dell'Emblema acqueo",
     "description": {
-      "0": "Sprigioni un torrente in grado di purificare il mondo.",
+      "0": "Sprigiona un torrente in grado di purificare il mondo.",
       "1": "<br/>",
       "2": "<strong>Pressione</strong>",
-      "3": "Scagli un Flutto torrenziale che infligge <hydro>DAN da Hydro</hydro> agli avversari con cui entra in contatto.",
+      "3": "Scaglia un Flutto torrenziale che infligge <hydro>DAN da Hydro</hydro> agli avversari con cui entra in contatto.",
       "4": "<br/>",
       "5": "<strong>Pressione prolungata</strong>",
-      "6": "Entri in modalità di mira e scagli delle Gocce di rugiada nella direzione corrispondente, infliggendo <hydro>DAN da Hydro</hydro> agli avversari colpiti.",
-      "7": "Al termine dell'abilità, scagli un Flutto torrenziale che infligge <hydro>DAN da Hydro</hydro> agli avversari con cui entra in contatto.",
-      "8": "Diffusione: se possiedi una quantità di PS superiore a un 50%, consumi continuamente PS, aumentando i DAN inflitti dalle Gocce di rugiada in base ai PS.",
+      "6": "Entra in modalità di mira e lancia delle Gocce di rugiada nella direzione corrispondente, infliggendo <hydro>DAN da Hydro</hydro> agli avversari colpiti.",
+      "7": "Al termine dell'abilità, scaglia un Flutto torrenziale che infligge <hydro>DAN da Hydro</hydro> agli avversari con cui entra in contatto.",
+      "8": "Diffusione: se {F#la}{M#il} viaggiat{F#rice}{M#ore} possiede più di un 50% dei PS, li consuma progressivamente e, in base a essi, aumenta i DAN che le Gocce di rugiada possono infliggere.",
       "9": "<br/>",
-      "10": "<strong>Forza fondamentale: Pneuma</strong>",
-      "11": "A determinati intervalli, dopo aver usato Flutto torrenziale, quest'abilità sprigiona un Aculeo spettrale che infligge <hydro>DAN da Hydro</hydro> infusi di Pneuma.",
+      "10": "<strong>Archè: Pneuma</strong>",
+      "11": "A determinati intervalli, dopo aver usato un Flutto torrenziale, quest'abilità sprigiona un Aculeo spettrale che infligge <hydro>DAN da Hydro</hydro> di polarità Pneuma.",
       "12": "<br/>",
       "13": "<i>Tu e Paimon avete esaminato le increspature dell'acqua.</i>"
     },
@@ -74,7 +74,7 @@
   "burst": {
     "name": "Acque nascenti",
     "description": {
-      "0": "Generi una bolla fluttuante, che avanza lentamente infliggendo <hydro>DAN da Hydro</hydro> continui agli avversari vicini.",
+      "0": "Genera una bolla fluttuante, che avanza lentamente infliggendo <hydro>DAN da Hydro</hydro> continui agli avversari vicini.",
       "1": "<br/>",
       "2": "<i>Tu e Paimon avete studiato i flussi e i riflussi delle maree.</i>"
     },
@@ -107,7 +107,7 @@
   "passive2": {
     "name": "Acque cristalline",
     "description": {
-      "0": "Se, durante l'uso della variante a pressione prolungata di <strong>Fendente dell'Emblema acqueo</strong>, vengono consumati PS tramite Diffusione, il Flutto torrenziale alla fine dell'abilità infligge DAN bonus pari a un 45% dei PS totali consumati dal{F#la }{M#il }viaggiat{F#rice}{M#ore} tramite Diffusione durante l'ultimo uso dell'abilità.",
+      "0": "Se, durante l'uso della variante a pressione prolungata di <strong>Fendente dell'Emblema acqueo</strong>, vengono consumati PS tramite Diffusione, il Flutto torrenziale alla fine dell'abilità infligge DAN bonus pari a un 45% dei PS totali consumati da{F#lla}{M#l} viaggiat{F#rice}{M#ore} tramite Diffusione durante l'ultimo uso dell'abilità.",
       "1": "Il bonus DAN massimo che è possibile ottenere in questo modo è pari a 5.000."
     }
   },
@@ -134,8 +134,8 @@
   "constellation4": {
     "name": "Discesa scrosciante",
     "description": {
-      "0": "Utilizzando <strong>Fendente dell'Emblema acqueo</strong>, si materializza un'Egida dell'Emblema acqueo che assorbe i DAN subiti dal{F#la }{M# }viaggiat{F#rice}{M#ore} per un 10% dei suoi PS max e i <hydro>DAN da Hydro</hydro> con un 250% di efficienza. L'Egida dell'Emblema acqueo persiste finché {F#la}{M#il} viaggiat{F#rice}{M#ore} non termina l'uso dell'abilità.",
-      "1": "Una volta ogni 2 s, quando una Goccia di rugiada colpisce un avversario, se {F#la}{M#il} viaggiat{F#rice}{M#ore} è protett{F#a}{M#o} dall'Egida dell'Emblema acqueo, l'assorbimento DAN di quest'ultima viene ripristinato a un 10% dei PS max del{F#la }{M# }viaggiat{F#rice}. Se {F#la}{M#il} viaggiat{F#rice}{M#ore} non è protetto da un'Egida, se ne materializza una nuova."
+      "0": "Utilizzando <strong>Fendente dell'Emblema acqueo</strong>, si materializza un'Egida dell'Emblema acqueo in grado di assorbire i DAN subiti dal{F#la }{M# }viaggiat{F#rice}{M#ore} pari a un 10% dei suoi PS max, e che assorbe i <hydro>DAN da Hydro</hydro> con un 250% di efficienza. L'Egida dell'Emblema acqueo persiste finché {F#la}{M#il} viaggiat{F#rice}{M#ore} non termina l'uso dell'abilità.",
+      "1": "Una volta ogni 2 s, quando una Goccia di rugiada colpisce un avversario, se {F#la}{M#il} viaggiat{F#rice}{M#ore} è protett{F#a}{M#o} dall'Egida dell'Emblema acqueo, l'assorbimento DAN di quest'ultima si ripristina a un 10% dei PS max del{F#la }{M# }viaggiat{F#rice}. Se {F#la}{M#il} viaggiat{F#rice}{M#ore} non è protett{F#a}{M#o} da un'Egida, se ne materializza una nuova."
     }
   },
   "constellation5": {

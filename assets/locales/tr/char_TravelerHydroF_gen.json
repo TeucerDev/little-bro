@@ -12,7 +12,7 @@
       },
       "plunging": {
         "0": "<strong>Havadan Saldırı</strong>",
-        "1": "Havadayken dalışa geçerek yere vurur ve yoluna çıkan düşmanlara Alan Hasarı verir.<strong>"
+        "1": "Havadayken dalışa geçerek yere vurur ve yoluna çıkan düşmanlara Alan Hasarı verir."
       }
     },
     "skillParams": {
@@ -44,13 +44,13 @@
       "4": "<br/>",
       "5": "<strong>Basılı Tutma</strong>",
       "6": "Nişan Alma Moduna girer ve nişan aldığın yönde sürekli, isabet ettiği düşmanlara <hydro>Su Hasarı</hydro> veren Çiy Damlaları gönderir.",
-      "7": "Beceri sona erdiğinde temas ettiği düşmanlara <hydro>Su Hasarı</hydro> veren Şiddetli Dalgalanma sona erer.",
-      "8": "Yayılma: Gezginin Canı %50'den fazla olduğunda sürekli olarak Can kaybetmeye devam eder ve Canına göre Çiy Damlası Hasarı artar.",
+      "7": "Beceri sona erdiğinde temas ettiği düşmanlara <hydro>Su Hasarı</hydro> veren bir Şiddetli Dalgalanma gönderir.",
+      "8": "Yayılma: Gezginin Canı %50'den fazla olduğunda sürekli olarak Can kaybeder ve Canına göre Çiy Damlası Hasarı artar.",
       "9": "<br/>",
-      "10": "<strong>Temel Güç: Ruh</strong>",
-      "11": "Şiddetli Dalgalanma kullandıktan sonra bu beceri belirli aralıklarla, Ruh <hydro>Su Hasarı</hydro> veren ve düşmanları delip geçen bir Ruh Nefesi Dikeni çıkarır.",
+      "10": "<strong>Arkhe: Ruh</strong>",
+      "11": "Şiddetli Dalgalanma kullandıktan sonra belirli aralıklarla bu beceri, Ruh <hydro>Su Hasarı</hydro> veren ve düşmanları delip geçen bir Ruh Nefesi Dikeni çıkarır.",
       "12": "<br/>",
-      "13": "<i>Paimon'la birlikte sudaki dalgaları araştırıyorsunuz.</i>"
+      "13": "<i>Paimon ile birlikte sudaki dalgaları gözlemlediniz.</i>"
     },
     "skillParams": {
       "0": "Şiddetli Dalgalanma Hasarı",
@@ -76,7 +76,7 @@
     "description": {
       "0": "Yakındaki düşmanlara sürekli <hydro>Su Hasarı</hydro> veren, yavaş hareket eden bir uçan baloncuk çıkarır.",
       "1": "<br/>",
-      "2": "<i>Paimon'la birlikte gelgitleri araştırıyorsunuz.</i>"
+      "2": "<i>Paimon ile birlikte gelgitleri gözlemlediniz.</i>"
     },
     "skillParams": {
       "0": "Beceri Hasarı",
@@ -100,22 +100,22 @@
   "passive1": {
     "name": "Saf Sular",
     "description": {
-      "0": "<strong>Su Oymalı Kılıcın</strong> Basılı Tutma Moduyla atılan bir Çiy Damlası düşmana isabet ettikten sonra, Gezginin yakınlarında bir Kaynak Suyu Damlacığı oluşur. Gezgin bunu alırsa %7 Can yenilenir.",
-      "1": "Bu şekilde her saniyede bir Damlacık oluşturabilir ve Su Oymalı Kılıcın her kullanımında en fazla 4 Damlacık oluşturulabilir."
+      "0": "<strong>Su Oymalı Kılıcın</strong> Basılı Tutma Moduyla atılan bir Çiy Damlası düşmana isabet ettikten ettiğinde Gezginin yakınlarında bir Kaynak Suyu Damlacığı oluşur. Gezgin bunu alırsa %7 Can yeniler.",
+      "1": "Bu şekilde her saniyede bir Damlacık oluşabilir. Su Oymalı Kılıcın her kullanımında en fazla 4 Damlacık oluşabilir."
     }
   },
   "passive2": {
     "name": "Berrak Sular",
     "description": {
-      "0": "Can, <strong>Su Oymalı Kılıcın</strong> Basılı Tutma Modunu kullanırken Yayılma ile tüketildiyse becerinin sonundaki Şiddetli Dalgalanma, Gezginin bu beceride Yayılma ile harcadığı toplam Canın %45'i kadar Bonus Hasar verir.",
+      "0": "<strong>Su Oymalı Kılıcın</strong> Basılı Tutma Modu kullanılırken Yayılma ile Can tüketilirse becerinin sonundaki Şiddetli Dalgalanma, Gezginin bu beceriyi kullanırken Yayılma ile harcadığı toplam Canın %45'i kadar Bonus Hasar verir.",
       "1": "Bu şekilde en fazla 5.000 Hasar Bonusu kazanılabilir."
     }
   },
   "constellation1": {
     "name": "Yükselen Göl",
     "description": {
-      "0": "Bir Kaynak Suyu Damlacığı toplandığında Gezgin, 2 Enerji yeniler.",
-      "1": "Pasif Yetenek \"Saf Sular\" gerektirir."
+      "0": "Gezgin, bir Kaynak Suyu Damlacığı aldığında 2 Enerji yeniler.",
+      "1": "\"Saf Sular\" Pasif Yeteneğini gerektirir."
     }
   },
   "constellation2": {
@@ -134,8 +134,8 @@
   "constellation4": {
     "name": "Sağanak Sular",
     "description": {
-      "0": "<strong>Su Oymalı Kılıç</strong> kullanırken Gezginin Maks. Canının %10'unu Hasar olarak emebilen ve %250 verimlilikle <hydro>Su Hasarını</hydro> emen bir Su Oymalı Kalkan çıkar. Gezgin, beceriyi kullandığı süre boyunca devam eder.",
-      "1": "Her 2 saniyede, bir Çiy Damlası bir düşmana isabet ettikten sonra eğer Gezgin Su Oymalı Kalkan ile korunuyorsa Kalkanın Hasar Emilimi, Gezginin Maks. Canının %10'una yenilenir. Gezgin, Kalkan tarafından korunmuyorsa bir kalkan çıkar."
+      "0": "<strong>Su Oymalı Kılıç</strong> kullanırken Gezginin Maks. Canının %10'u kadar Hasar emebilen ve <hydro>Su Hasarını</hydro> %250 verimlilikle emen bir Su Oymalı Kalkan oluşur. Gezgin, beceriyi kullandığı süre boyunca kalkan varlığını sürdürür.",
+      "1": "Her 2 saniyede bir, düşmana Çiy Damlası isabet ettiğinde Gezgin Su Oymalı Kalkan ile korunuyorsa Kalkanın Hasar Emilimi, Gezginin Maks. Canının %10'una yenilenir. Gezgin, Kalkan tarafından korunmuyorsa yeniden bir kalkan oluşur."
     }
   },
   "constellation5": {
@@ -148,7 +148,7 @@
   "constellation6": {
     "name": "Adalet Gelgitleri",
     "description": {
-      "0": "Gezgin, bir Kaynak Suyu Damlacığı topladığında en düşük Can oranına sahip grup üyesinin Canını Maks. Canının %6'sı oranında yeniler."
+      "0": "Gezgin, bir Kaynak Suyu Damlacığı aldığında en düşük Can oranına sahip grup üyesinin Canını Maks. Canının %6'sı oranında yeniler."
     }
   }
 }

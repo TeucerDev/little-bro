@@ -73,7 +73,7 @@
       "0": "Dano de Habilidade",
       "1": "Bônus de Dano da Habilidade",
       "2": "Regeneração de Vida",
-      "3": "Regeneração de Energia Elemental",
+      "3": "Tempo de Recarga",
       "4": "",
       "5": "",
       "6": "",
@@ -92,9 +92,11 @@
     "name": "Truque Maravilhoso: Tour Fantástica",
     "description": {
       "0": "Lyney lança sua magia, se transformando em um Gato Brincalhão de Chapéu (Não é o Chapéu do Gato Brincalhão, são itens de apresentação diferentes!).",
-      "1": "Quando o Gato Brincalhão de Chapéu toca um inimigo, fará chamas caírem nele, causando <pyro>Dano Pyro</pyro> uma vez por inimigo. Quando a duração acabar ou ao usar a Habilidade Elemental, Lyney removerá o Gato Brincalhão de Chapéu e lançará fogos de artifício que causarão <pyro>Dano Pyro em AdE</pyro>, invocará um Chapéu do Gato Brincalhão e obterá um acúmulo de \"Resquício Mágico\".",
+      "1": "Quando o Gato Brincalhão de Chapéu toca um inimigo, fará chamas caírem nele, causando <pyro>Dano Pyro</pyro> uma vez por inimigo. Quando a duração acabar, Lyney removerá o Gato Brincalhão de Chapéu e lançará fogos de artifício que causarão <pyro>Dano Pyro em AdE</pyro>, invocará um Chapéu do Gato Brincalhão e obterá um acúmulo de \"Resquício Mágico\".",
       "2": "<br/>",
-      "3": "<i>\"Veja bem, esse é um momento de milagres, e pertence só a nós dois!\"</i>"
+      "3": "É possível remover o Gato Brincalhão de Chapéu manualmente.",
+      "4": "<br/>",
+      "5": "<i>\"Veja bem, esse é um momento de milagres, e pertence só a nós dois!\"</i>"
     },
     "skillParams": {
       "0": "Dano de Habilidade",
@@ -118,7 +120,7 @@
   "passive1": {
     "name": "Apresentação Perigosa",
     "description": {
-      "0": "Se Lyney consumir Vida ao disparar <strong>Flecha da magia Secreta</strong>, quando o Chapéu do Gato Brincalhão invocado pela Flecha da Magia Secreta que atingiu o inimigo causar Dano, o Dano causado terá um aumento equivalente a 80% do ATQ."
+      "0": "Se Lyney consumir Vida ao disparar a <strong>Flecha da Magia Secreta</strong>, quando o Chapéu do Gato Brincalhão invocado por essa Flecha da Magia Secreta atingir um inimigo, regenerará 3 de Energia Elemental para Lyney, e aumentará seu Dano causado em 80% do ATQ."
     }
   },
   "passive2": {
@@ -161,7 +163,7 @@
   "constellation4": {
     "name": "Estratégia Ensaiada",
     "description": {
-      "0": "Quando um Ataque Carregado de Tipo Elemental <pyro>Pyro</pyro> de Lyney atinge um inimigo, esse inimigo terá sua <pyro>RES Pyro</pyro> reduzida em 25% por 6s."
+      "0": "Quando um Ataque Carregado de Tipo Elemental <pyro>Pyro</pyro> de Lyney atinge um inimigo, esse inimigo terá sua <pyro>RES Pyro</pyro> reduzida em 20% por 6s."
     }
   },
   "constellation5": {
@@ -174,7 +176,7 @@
   "constellation6": {
     "name": "Sorriso Contrário",
     "description": {
-      "0": "Quando Lyney dispara uma <strong>Flecha da Magia Secreta</strong>, dispará um Fogo de Artifício Mágico: Orquestra, causando 100% do Dano de Fogos de Artifício Mágicos. Esse Dano é considerado Dano de Ataque Carregado."
+      "0": "Quando Lyney dispara uma <strong>Flecha da Magia Secreta</strong>, dispará um Fogo de Artifício Mágico: Orquestra, causando 80% do Dano de Fogos de Artifício Mágicos. Esse Dano é considerado Dano de Ataque Carregado."
     }
   }
 }

@@ -73,7 +73,7 @@
       "0": "Fähigkeits-SCH",
       "1": "Fähigkeits-SCH-Bonusßßß",
       "2": "LP-Wiederherstellung",
-      "3": "Elementarenergie-Wiederherstellung",
+      "3": "Abklingzeit",
       "4": "",
       "5": "",
       "6": "",
@@ -92,9 +92,11 @@
     "name": "Wundersame Magie – Parade der Wunderßßß",
     "description": {
       "0": "Lyney wirkt seine Magie und verwandelt sich in eine flinke „Grinsemützenkatze“. (Nicht zu verwechseln mit der „Grinsekatzenmütze“. Hierbei handelt es sich um zwei völlig unterschiedliche Requisiten!)",
-      "1": "Die Grinsemützenkatze lässt ein Feuerwerk auf Gegner niedergehen, sobald sie sich in deren Nähe befindet, wobei sie jedem von ihnen max. 1-mal <pyro>Pyro-Schaden</pyro> zufügt. Sobald der Effekt endet oder Lyney seine Elementarfähigkeit einsetzt, wird die Grinsemützenkatze aufgelöstßßß, indem ein Feuerwerk gezündet wird, das <pyro>Pyro-Flächenschaden</pyro> verursacht und eine Grinsekatzenmütze beschworen wird. Außerdem erhält Lyney eine Stapelung „Requisitenüberschuss“.",
+      "1": "Die Grinsemützenkatze lässt ein Feuerwerk auf Gegner niedergehen, sobald sie sich in deren Nähe befindet, wobei sie jedem von ihnen max. 1-mal <pyro>Pyro-Schaden</pyro> zufügt. Sobald der Effekt endet, entfernt Lyney die Grinsemützenkatze, indem ein Feuerwerk gezündet wird, das <pyro>Pyro-Flächenschaden</pyro> verursacht und eine Grinsekatzenmütze beschworen wird. Außerdem erhält Lyney eine Stapelung „Requisitenüberschuss“.",
       "2": "<br/>",
-      "3": "<i>„Und nun ein kleiner Vorgeschmack darauf, was noch kommt. Gut aufpassen, denn dies ist ein einzigartiger, einmaliger, wunderbarer Moment für uns!“</i>"
+      "3": "Die Grinsemützenkatze kann aktiv entfernt werden.",
+      "4": "<br/>",
+      "5": "<i>„Und nun ein kleiner Vorgeschmack darauf, was noch kommt. Gut aufpassen, denn dies ist ein einzigartiger, einmaliger, wunderbarer Moment für uns!“</i>"
     },
     "skillParams": {
       "0": "Fähigkeits-SCH",
@@ -118,16 +120,16 @@
   "passive1": {
     "name": "Atemberaubende Darbietungßßß",
     "description": {
-      "0": "Wenn Lyney beim Abschießen des <strong>Zauberrequisiten-Pfeils</strong> LP verbraucht hat und beim Treffen des Pfeils die Grinsekatzenmütze beschworen wird, erhöht sich der von der Grinsekatzenmütze verursachte Schaden um 80 %."
+      "0": "Verbraucht der von Lyney abgeschossene <strong>Zauberrequisiten-Pfeil</strong> LP, so stellt die durch ihn beschworene Grinsekatzenmütze, wenn sie Gegner trifft, bei Lyney 3 Punkte Elementarenergie wieder her. Außerdem erhöht sich der verursachte Schaden basierend auf dem ANG um 80 %."
     }
   },
   "passive2": {
     "name": "Abschließender Beifallßßß",
     "description": {
-      "0": "Erhöht den Schaden, den Lyney vom <pyro>Pyro-Element</pyro> betroffenen Gegnern zufügt und es werden folgende Bonuseffekte gewährt:",
+      "0": "Erhöht den Schaden, den Lyney vom <pyro>Pyro-Element</pyro> betroffenen Gegnern zufügt, auf folgende Weise:",
       "1": [
-        " Erhöht den Schaden um 60 %.",
-        " Für jede eigene Figur in der Truppe außer Lyney, die die <pyro>Pyro-</pyro>Kraft beherrscht, wird dieser Schadenbonus zusätzlich um 20 % erhöht."
+        " Erhöht den Schaden bedingungslos um 60 %.",
+        " Für jede Figur in der Truppe außer Lyney, die die <pyro>Pyro-</pyro>Kraft beherrscht, wird der Schaden zusätzlich um 20 % erhöht."
       ],
       "2": "Durch die oben beschriebenen Methoden kann sich der Schaden, den Lyney Gegnern zufügt, die vom <pyro>Pyro-Element</pyro> betroffen sind, um bis zu 100 % erhöhen."
     }
@@ -161,7 +163,7 @@
   "constellation4": {
     "name": "Bewandert und erprobtßßß",
     "description": {
-      "0": "Verringert den <pyro>Pyro-WDS</pyro> der von Lyneys heftigem Schlag getroffenen Gegner 6 s lang um 25 %, wenn der heftige Schlag vom Elementartyp <pyro>Pyro</pyro> ist."
+      "0": "Verringert den <pyro>Pyro-WDS</pyro> der von Lyneys heftigem Schlag getroffenen Gegner 6 s lang um 20 %, wenn der heftige Schlag vom Elementartyp <pyro>Pyro</pyro> ist."
     }
   },
   "constellation5": {
@@ -174,7 +176,7 @@
   "constellation6": {
     "name": "Ein gezwungenes Lächeln",
     "description": {
-      "0": "Lyney schießt beim Abfeuern des <strong>Zauberrequisiten-Pfeils</strong> ein Feuerwerksgeschoss – Überarbeitet ab, welches 100 % des Schadens des Feuerwerksgeschoss’ verursacht. Dieser Schaden wird als Schaden von heftigen Schlägen betrachtet."
+      "0": "Lyney schießt beim Abfeuern des <strong>Zauberrequisiten-Pfeils</strong> ein Feuerwerksgeschoss – Überarbeitet ab, welches 80 % des Schadens des Feuerwerksgeschoss’ verursacht. Dieser Schaden wird als Schaden von heftigen Schlägen betrachtet."
     }
   }
 }

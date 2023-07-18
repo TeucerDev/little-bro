@@ -41,7 +41,7 @@
   "skill": {
     "name": "Gizemli Aldatmaca",
     "description": {
-      "0": "Pelerinine bir fiske vurur ve Gizem Atılımı yaparak <anemo>Rüzgar Hasarı</anemo> verir.",
+      "0": "Pelerinini sallar ve Gizem Atılımı yaparak <anemo>Rüzgar Hasarı</anemo> verir.",
       "1": "Gizem Atılımı bir düşmana vurduğunda Maks. Canına göre Lynette'in Canını yeniler, Lynette sonraki 4 saniye boyunca her saniye Canının belirli bir oranını kaybeder.",
       "2": "Lynette, bu beceriye bastığına veya basılı tuttuğuna göre Gizem Atılımını farklı şekilde kullanır.",
       "3": "<br/>",
@@ -50,14 +50,14 @@
       "6": "<br/>",
       "7": "<strong>Basılı Tutma</strong>",
       "8": "Lynette çok hızlı bir Küçük Gölge Hırsız durumuna girer ve yakındaki bir düşmana Gölge İşareti uygular.",
-      "9": "Lynette, bu hızlı durum sona erdiğinde Gizem Atılımını yapar. Bunu yaparken yakınında Gölge İşaretli bir düşman varsa Lynette bir anda o düşmanın olduğu yerde belirir ve Gizem Atılımını o zaman yapar.",
+      "9": "Lynette, bu hızlı durum sona erdiğinde Gizem Atılımını yapar. Bunu yaparken yakınında Gölge İşaretli bir düşman varsa Lynette önce o düşmanın olduğu yerde belirir ve sonra Gizem Atılımını yapar.",
       "10": "<br/>",
       "11": "Aynı anda en fazla 1 düşman Gölge İşaretine sahip olabilir. Bu düşman, Lynette'ten çok uzaklaşırsa Gölge İşareti kaybolur.",
       "12": "<br/>",
-      "13": "<strong>Temel Güç: Öz</strong>",
+      "13": "<strong>Arkhe: Öz</strong>",
       "14": "Lynette, Gizem Atılımını kullandıktan sonra belirli aralıklarla Çalkantılı Kılıç saldırısı yaparak Öz <anemo>Rüzgar Hasarı</anemo> verir.",
       "15": "<br/>",
-      "16": "<i>\"Şimdi dikkatini sahneye ver gösterinin tadını çıkarmaya devam et. Hiç beklemediğin bir yerde tekrar belireceğim.\"</i>"
+      "16": "<i>\"Şimdi dikkatini sahneye ver, gösterinin tadını çıkar. Hiç beklemediğin bir yerde belireceğim.\"</i>"
     },
     "skillParams": {
       "0": "Gizem Atılımı Hasarı",
@@ -65,8 +65,8 @@
       "2": "Çalkantılı Kılıç Aralığı",
       "3": "Can Yenilenmesi",
       "4": "Can Maliyeti",
-      "5": "BS",
-      "6": "",
+      "5": "Maks. Basılı Tutma Süresi",
+      "6": "BS",
       "7": "",
       "8": "",
       "9": "",
@@ -81,7 +81,7 @@
   "burst": {
     "name": "Sihir Numarası: Şaşırtıcı Değişim",
     "description": {
-      "0": "Lynette, pelerinini kaldırarak <anemo>Rüzgar Alan Hasarı</anemo> verir ve üstün el çabukluğuyla kocaman bir Şaşırtıcı Kedi Kutusunu ortaya çıkarır!",
+      "0": "Lynette, pelerinini kaldırarak <anemo>Rüzgar Alan Hasarı</anemo> verir ve üstün el çabukluğuyla kocaman bir Şaşırtıcı Kedi Kutusu ortaya çıkarır!",
       "1": "<br/>",
       "2": "<strong>Şaşırtıcı Kedi Kutusu</strong>",
       "3": [
@@ -89,9 +89,9 @@
         "Belirli aralıklarla yakındaki düşmanlara <anemo>Rüzgar Hasarı</anemo> verir.",
         "Şaşırtıcı Kedi Kutusu <hydro>Su</hydro>/<pyro>Ateş</pyro>/<cryo>Buz</cryo>/<electro>Elektrik</electro> ile temas ettiğinde element etkisini alır ve ek olarak belirli aralıklarla bu element türünden hasar veren Parlak Atışlar yapar."
       ],
-      "4": "Bu türden bir Element Emilimi yalnızca bu etki süresince gerçekleşebilir.",
+      "4": "Bu türden bir Element Emilimi, bu beceri süresince yalnızca bir defa gerçekleşebilir.",
       "5": "<br/>",
-      "6": "<i>\"Buraya bak, yakından baksan iyi edersin. Bir mucizeye tanıklık etmek üzeresin, hem de sadece bize özel olana.\"</i>"
+      "6": "<i>\"Buraya bak, dikkatle izle. Bir mucizeye tanıklık etmek üzeresin. Hem de bize özel bir mucizeye.\"</i>"
     },
     "skillParams": {
       "0": "Beceri Hasarı",
@@ -115,7 +115,7 @@
   "passive1": {
     "name": "Karmaşık Uyum",
     "description": {
-      "0": "<strong>Sihir Numarası: Şaşırtıcı Değişim</strong> kullanıldıktan sonraki 10 saniye boyunca grupta bulunan 1/2/3/4 Element Türüne göre tüm grup üyelerinin Saldırısı sırayla %8/%12/%16/%20 artar."
+      "0": "<strong>Sihir Numarası: Şaşırtıcı Değişim</strong> kullanıldıktan sonraki 10 saniye boyunca grupta 1/2/3/4 Element Türü varsa tüm grup üyelerinin Saldırısı sırayla %8/%12/%16/%20 artar."
     }
   },
   "passive2": {
@@ -125,9 +125,9 @@
     }
   },
   "passive3": {
-    "name": "Mnemotekni",
+    "name": "Hafıza Sarayı",
     "description": {
-      "0": "Yakınlardaki <strong>Diriltme Kürelerinin</strong> yerini mini haritada gösterir. Kürelere dokunarak kazanılan su altı Dayanıklılığı ve Canı %25 artar."
+      "0": "Yakınlardaki <strong>Yenileme Kürelerinin</strong> yerini mini haritada gösterir. Kürelere dokunarak kazanılan Su Altı Dayanıklılığı ve Can %25 artar."
     }
   },
   "constellation1": {
@@ -163,7 +163,7 @@
     }
   },
   "constellation6": {
-    "name": "Niyet Sezgisi",
+    "name": "Gözüm Üzerinde",
     "description": {
       "0": "Lynette, <strong>Gizemli Aldatmaca</strong> becerisinin Gizem Atılımını kullandıktan sonra 6 saniyeliğine <anemo>Rüzgar Tesiri</anemo> ve %20 <anemo>Rüzgar Hasarı Bonusu</anemo> kazanır."
     }

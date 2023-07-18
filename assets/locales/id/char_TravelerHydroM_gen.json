@@ -47,17 +47,17 @@
       "7": "Saat skill ini berakhir, akan melancarkan serangan arus yang mengakibatkan <hydro>Hydro DMG</hydro> pada musuh yang terkena serangan.",
       "8": "Suffusion: Saat HP Pengembara lebih dari 50%, HP akan terus berkurang dan DMG yang diakibatkan oleh tetesan embun akan meningkat berdasarkan HP Pengembara.",
       "9": "<br/>",
-      "10": "<strong>Fundamental Force: Pneuma</strong>",
+      "10": "<strong>Arkhe: Pneuma</strong>",
       "11": "Setiap kurun waktu tertentu setelah melancarkan serangan arus, skill ini akan melancarkan Spiritbreath Thorn yang menembus musuh dan mengakibatkan Pneuma-aligned <hydro>Hydro DMG</hydro>.",
       "12": "<br/>",
       "13": "<i>Kamu dan Paimon pernah mengamati kerikil yang mengalir di permukaan air.</i>"
     },
     "skillParams": {
-      "0": "DMG Torrent Surge",
-      "1": "DMG Dewdrop",
+      "0": "DMG Serangan Arus",
+      "1": "DMG Tetesan Embun",
       "2": "DMG Spiritbreath Thorn",
       "3": "Jeda Spiritbreath Thorn",
-      "4": "Biaya HP Suffusion",
+      "4": "Konsumsi HP Suffusion",
       "5": "Bonus DMG Suffusion",
       "6": "Durasi Mode Tahan",
       "7": "Cooldown",
@@ -100,15 +100,15 @@
   "passive1": {
     "name": "Spotless Waters",
     "description": {
-      "0": "Setelah Dewdrop yang ditembakkan dari <strong>Aquacrest Saber</strong> Mode Tahan mengenai musuh, akan menghasilkan Sourcewater Droplet di sekitar posisi Pengembara. Setelah Pengembara mengambil Sourcewater Droplet, akan bisa memulihkan 7% HP.",
-      "1": "Sourcewater Droplet yang bisa dihasilkan dengan cara ini adalah maksimum 1 setiap detiknya, setiap kali penggunaan Aquacrest Saber akan bisa menghasilkan maksimum 4 Sourcewater Droplet."
+      "0": "Setelah tetesan embun yang ditembakkan dari Mode Tahan <strong>Aquacrest Saber</strong> mengenai musuh, akan menciptakan Sourcewater Droplet di sekitar posisi Pengembara. Mengambil Sourcewater Droplet akan memulihkan 7% HP.",
+      "1": "Hanya 1 Sourcewater Droplet yang dapat diciptakan dengan cara ini setiap detik. Setiap penggunaan Aquacrest Saber dapat menciptakan maksimum 4 Sourcewater Droplet."
     }
   },
   "passive2": {
     "name": "Clear Waters",
     "description": {
-      "0": "Jika ada HP yang terpakai pada saat melancarkan Suffusion dari <strong>Aquacrest Saber</strong> Mode Tahan, maka DMG yang diakibatkan Torrent Surge setelah skill berakhir akan meningkat, peningkatan DMG ini setara dengan 45% Total HP yang dipakai Pengembara pada saat menggunakan skill ini melalui Suffusion.",
-      "1": "Peningkatan DMG yang bisa diperoleh dengan cara ini adalah maksimum 5.000 poin."
+      "0": "Jika ada HP yang terkonsumsi dikarenakan Suffusion saat melancarkan <strong>Aquacrest Saber</strong> Mode Tahan, maka DMG yang diakibatkan serangan arus setelah skill berakhir akan meningkat. Peningkatan DMG ini setara dengan 45% Total HP yang terkonsumsi oleh Suffusion saat melancarkan skill ini.",
+      "1": "Peningkatan DMG yang didapat dengan cara ini adalah maksimum 5.000 poin."
     }
   },
   "constellation1": {

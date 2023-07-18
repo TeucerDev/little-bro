@@ -64,8 +64,8 @@
       "15": "<i>\"Pers ... Aku serahkan sisanya kepadamu.\"</i>"
     },
     "skillParams": {
-      "0": "DMG Serangan ke Atas__",
-      "1": "DMG Embun Es",
+      "0": "DMG Serangan ke Atas",
+      "1": "DMG Gelombang Embun Dingin",
       "2": "DMG Shattering Pressure Lv. 0",
       "3": "DMG Shattering Pressure Lv. 1",
       "4": "DMG Shattering Pressure Lv. 2",
@@ -119,7 +119,7 @@
   "passive1": {
     "name": "Saturation Deep Dive",
     "description": {
-      "0": "Saat melancarkan <strong>Pressurized Floe - Shattering Pressure</strong>, jika level Pressure Pers Time di bawah level 4, maka durasi CD Pressurized Floe berkurang 1 detik."
+      "0": "Saat melancarkan <strong>Pressurized Floe: Shattering Pressure</strong>, jika level Pressure milik Pers Time di bawah level 4, maka durasi Cooldown Pressurized Floe berkurang 1 detik."
     }
   },
   "passive2": {
@@ -130,7 +130,10 @@
   },
   "passive3": {
     "name": "Deepwater Navigation",
-    "description": {}
+    "description": {
+      "0": "Mengurangi 35% konsumsi Stamina Karakter party sendiri di dalam air.",
+      "1": "Efek ini tidak dapat ditumpuk dengan Talenta Pasif lain dengan efek yang sama persis."
+    }
   },
   "constellation1": {
     "name": "Dreams of the Seething Deep",
@@ -167,7 +170,7 @@
   "constellation6": {
     "name": "Moment of Waking and Resolve",
     "description": {
-      "0": "Saat Freminet memicu reaksi Frozen, Shatter, atau Superconduct terhadap musuh, ATK-nya meningkat 12% selama 6 detik. Efek ini dapat ditumpuk sampai 3 lapis dan dapat terpicu sekali setiap 0,3 detik."
+      "0": "Saat Freminet memicu reaksi Frozen, Shatter, atau Superconduct terhadap musuh, CRIT DMG akan meningkat 12% selama 6 detik. Efek ini dapat ditumpuk sampai 3 lapis dan dapat terpicu sekali setiap 0,3 detik."
     }
   }
 }

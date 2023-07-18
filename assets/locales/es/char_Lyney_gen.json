@@ -73,7 +73,7 @@
       "0": "Daño de habilidad",
       "1": "Bono de daño de habilidad",
       "2": "Recuperación de Vida",
-      "3": "Recuperación de Energía Elemental",
+      "3": "TdE",
       "4": "",
       "5": "",
       "6": "",
@@ -92,9 +92,11 @@
     "name": "Número final: Desfile prodigioso",
     "description": {
       "0": "En un alarde de sus habilidades mágicas, Lyney se transforma en un “sombregato risueño” (atención: ¡el sombrero gatorrisueño y el sombregato risueño son dos herramientas mágicas muy distintas!).",
-      "1": "Cuando el sombregato risueño se acerca a los enemigos, descenderán unos fuegos artificiales que infligen <pyro>Daño Pyro</pyro> una vez como máximo contra cada uno de ellos. Cuando termina la duración de esta habilidad o al utilizar su Habilidad elemental, Lyney sale de su forma de sombregato risueño para provocar una hermosa explosión pirotécnica que inflige <pyro>Daño Pyro en el AdE</pyro>, crea un sombrero gatorrisueño y obtiene una carga de cálculo oculto.",
+      "1": "Cuando el sombregato risueño se acerca a los enemigos, descenderán unos fuegos artificiales que infligen <pyro>Daño Pyro</pyro> una vez como máximo contra cada uno de ellos. Cuando termina la duración de esta habilidad, Lyney sale de su forma de sombregato risueño para provocar una hermosa explosión pirotécnica que inflige <pyro>Daño Pyro en el AdE</pyro>, crea un sombrero gatorrisueño y obtiene una carga de cálculo oculto.",
       "2": "<br/>",
-      "3": "<i>“Damas y caballeros, presten atención. ¡Este es nuestro único e inigualable momento mágico!”.</i>"
+      "3": "Lyney puede salir manualmente de su forma de sombregato risueño.",
+      "4": "<br/>",
+      "5": "<i>“Damas y caballeros, presten atención. ¡Este es nuestro único e inigualable momento mágico!”.</i>"
     },
     "skillParams": {
       "0": "Daño de habilidad",
@@ -118,7 +120,7 @@
   "passive1": {
     "name": "Actuación arriesgada",
     "description": {
-      "0": "Si Lyney consume su propia Vida al lanzar una <strong>flecha magiaoculta</strong>, aumenta en un 80% el incremento de daño en proporción al ATQ del sombrero gatorrisueño creado tras golpear al objetivo con dicha flecha magiaoculta."
+      "0": "Si Lyney consume su propia Vida al disparar una <strong>flecha magiaoculta</strong>, cuando el sombrero gatorrisueño invocado por dicha flecha golpee a un enemigo, Lyney recupera 3 pts. de Energía Elemental y el daño que inflige aumenta en un 80% de su ATQ."
     }
   },
   "passive2": {
@@ -127,9 +129,9 @@
       "0": "El daño que inflige Lyney contra los enemigos afectados por <pyro>Pyro</pyro> aumenta de las siguientes maneras:",
       "1": [
         "El daño básico aumenta en un 60%.",
-        "El daño aumenta en un 20% por cada uno de tus personajes del equipo (a excepción de Lyney) cuyo tipo elemental sea <pyro>Pyro</pyro>."
+        "El daño aumenta en un 20% por cada personaje del equipo (a excepción de Lyney) cuyo tipo elemental sea <pyro>Pyro</pyro>."
       ],
-      "2": "El daño que inflige Lyney contra los enemigos afectados por <pyro>Pyro</pyro> puede aumentar en un máximo de un 100% de esta manera."
+      "2": "El daño que inflige Lyney contra los enemigos afectados por <pyro>Pyro</pyro> puede aumentar como máximo en un 100% de esta manera."
     }
   },
   "passive3": {
@@ -161,7 +163,7 @@
   "constellation4": {
     "name": "Estrategia ensayada",
     "description": {
-      "0": "Cuando Lyney golpea a un enemigo con un Ataque Cargado <pyro>Pyro</pyro>, la <pyro>RES Pyro</pyro> de dicho enemigo se reduce en un 25% durante 6 s."
+      "0": "Cuando Lyney golpea a un enemigo con un Ataque Cargado <pyro>Pyro</pyro>, la <pyro>RES Pyro</pyro> de dicho enemigo se reduce en un 20% durante 6 s."
     }
   },
   "constellation5": {
@@ -174,7 +176,7 @@
   "constellation6": {
     "name": "Sonrisa engañosa",
     "description": {
-      "0": "Cuando Lyney dispara una <strong>flecha magiaoculta</strong>, se libera un proyectil pirotecnimágico: bis que inflige un 100% del daño del proyectil pirotecnimágico, el cual se considera daño de Ataque Cargado."
+      "0": "Cuando Lyney dispara una <strong>flecha magiaoculta</strong>, se libera un proyectil pirotecnimágico: bis que inflige un 80% del daño del proyectil pirotecnimágico, el cual se considera daño de Ataque Cargado."
     }
   }
 }

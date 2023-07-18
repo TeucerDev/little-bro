@@ -42,22 +42,22 @@
   "skill": {
     "name": "Pressurisation des floes",
     "description": {
-      "0": "Effectue une attaque ascendante infligeant des <cryo>DGT Cryo</cryo> et fait entrer Fréminet dans l'état Instant de Pers pendant 10 s.",
+      "0": "Effectue une attaque ascendante infligeant des <cryo>DGT Cryo</cryo> et fait entrer Fréminet dans l'état Indicateur de Pers pendant 10 s.",
       "1": "Dans cet état, sa compétence élémentaire devient un concassage pressurisé.",
       "2": "<br/>",
       "3": "<strong>Concassage pressurisé</strong>",
-      "4": "Exécute différentes attaques selon le niveau de pression de l'instant de Pers, puis annule l'état.",
+      "4": "Exécute différentes attaques selon le niveau de pression de l'indicateur de Pers, puis annule l'état.",
       "5": [
         " Niveau 0 : Effectue une coupe verticale infligeant des <cryo>DGT Cryo</cryo>.",
         " Niveau I à III : Effectue une coupe verticale en coordination avec Pers, infligeant des <cryo>DGT Cryo</cryo> et des DGT physiques, les DGT dépendant du niveau de pression.",
         " Niveau IV : Utilise la puissance d'un Pers totalement pressurisé pour infliger des DGT physiques, ce niveau remplaçant également l'attaque normale « Tourbillon fluide » par un concassage pressurisé."
       ],
       "6": "<br/>",
-      "7": "<strong>Instant de Pers</strong>",
-      "8": "Lorsque Fréminet utilise une attaque normale, il libère également un frimas infligeant des <cryo>DGT Cryo</cryo> et augmente le niveau de pression de l'instant de Pers.",
+      "7": "<strong>Indicateur de Pers</strong>",
+      "8": "Lorsque Fréminet utilise une attaque normale, il libère également un frimas infligeant des <cryo>DGT Cryo</cryo> et augmente le niveau de pression de l'indicateur de Pers.",
       "9": "Ces <cryo>DGT Cryo</cryo> sont considérés comme des DGT de compétence élémentaire.",
       "10": "<br/>",
-      "11": "<strong>Force primordiale : Pneuma</strong>",
+      "11": "<strong>Arkhe : Pneuma</strong>",
       "12": "Régulièrement, après avoir effectué une attaque ascendante, une épine d'inhalation prenant la forme d'une autre attaque ascendante est libérée pour infliger des <cryo>DGT Cryo</cryo> chargés d'énergie pneuma.",
       "13": "<br/>",
       "14": "<i>Immobiliser son adversaire sans lui ôter la vie peut aussi être considéré comme une stratégie de « survie » que l'on peut choisir.</i>",
@@ -90,7 +90,7 @@
       "2": "Dans cet état, sa RÉS à l'interruption augmente, et Pressurisation des floes bénéfice des bonus suivants :",
       "3": [
         " Son TdR diminue de 70 %.",
-        " Les attaques normales accordent à Pers un niveau de pression supplémentaire, et leur frimas inflige des DGT pour une valeur équivalant à 200 % de leurs DGT d'origine."
+        " Les attaques normales accordent à l'indicateur de Pers un niveau de pression supplémentaire, et leur frimas inflige des DGT pour une valeur équivalant à 200 % de leurs DGT d'origine."
       ],
       "4": "<br/>",
       "5": "Cet effet cesse lorsque Fréminet quitte le champ de bataille.",
@@ -119,7 +119,7 @@
   "passive1": {
     "name": "Plongée profonde saturée",
     "description": {
-      "0": "En utilisant un <strong>concassage pressurisé</strong>, si le niveau de pression de l'effet Instant de Pers est inférieur à IV, le TdR de Pressurisation des floes diminue de 1 s."
+      "0": "En utilisant un <strong>concassage pressurisé</strong>, si le niveau de pression de l'état Indicateur de Pers est inférieur à IV, le TdR de Pressurisation des floes diminue de 1 s."
     }
   },
   "passive2": {
@@ -130,10 +130,13 @@
   },
   "passive3": {
     "name": "Navigation en eaux profondes",
-    "description": {}
+    "description": {
+      "0": "Réduit la consommation d'endurance subaquatique de vos personnages dans l'équipe de 35 %.",
+      "1": "Ne peut pas être cumulé avec d'autres aptitudes passives aux effets identiques."
+    }
   },
   "constellation1": {
-    "name": "Rêve d'eau et de bulles",
+    "name": "Rêves des profondeurs mousseuses",
     "description": {
       "0": "Le taux CRIT du <strong>concassage pressurisé</strong> de Pressurisation des floes augmente de 15 %."
     }

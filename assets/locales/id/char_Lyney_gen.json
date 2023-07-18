@@ -35,8 +35,8 @@
         "2": "Hanya 1 Grin-Malkin Hat yang dapat muncul di medan pertempuran dalam waktu yang bersamaan."
       },
       "arkhe": {
-        "0": "<strong>Fundamental Force: Pneuma</strong>",
-        "1": "Setiap satu kurun waktu tertentu, Prop Arrow akan mendatangkan Spiritbreath Thorn di posisi target berada dan mengakibatkan Pneuma-aligned <pyro>Pyro DMG</pyro>."
+        "0": "<strong>Arkhe: Pneuma</strong>",
+        "1": "Setiap beberapa saat, Prop Arrow akan mendatangkan Spiritbreath Thorn di posisi target dan mengakibatkan Pneuma-aligned <pyro>Pyro DMG</pyro>."
       }
     },
     "skillParams": {
@@ -73,7 +73,7 @@
       "0": "DMG Skill",
       "1": "Bonus DMG Skill",
       "2": "Pemulihan HP",
-      "3": "Pemulihan Energy",
+      "3": "Cooldown",
       "4": "",
       "5": "",
       "6": "",
@@ -92,9 +92,11 @@
     "name": "Wondrous Trick: Miracle Parade",
     "description": {
       "0": "Lyney melancarkan sulap dan berubah menjadi Grin-Malkin Cat yang dapat bergerak dengan cepat. (Bukan Grin-Malkin Hat ya. Ini dua alat sulap yang berbeda loh!)",
-      "1": "Saat Grin-Malkin Cat mendekati musuh, akan menurunkan bara api terhadap musuh di sekitar, dan mengakibatkan maksimum satu kali <pyro>Pyro DMG</pyro> terhadap setiap musuh. Setelah durasinya berakhir atau Lyney menggunakan Elemental Skill-nya, Lyney akan membatalkan bentuk Grim-Malkin Cat, dan menyalakan kembang api yang mengakibatkan <pyro>Pyro DMG Area</pyro>, serta memanggil satu Grim-Malkin Hat dan mendapatkan satu lapis Prop Surplus.",
+      "1": "Saat Grin-Malkin Cat mendekati musuh, akan menurunkan bara api terhadap musuh di sekitar, dan mengakibatkan maksimum satu kali <pyro>Pyro DMG</pyro> terhadap setiap musuh. Setelah durasinya berakhir, Lyney akan membatalkan bentuk Grim-Malkin Cat, dan menyalakan kembang api yang mengakibatkan <pyro>Pyro DMG Area</pyro>, serta memanggil satu Grim-Malkin Hat dan mendapatkan satu lapis Prop Surplus.",
       "2": "<br/>",
-      "3": "<i>\"Lihat baik-baik ya. Waktunya untuk keajaiban, dan ini cuma milik kita berdua saja!\"</i>"
+      "3": "Grin-Malkin Cat bisat dibatalkan secara aktif.",
+      "4": "<br/>",
+      "5": "<i>\"Lihat baik-baik ya. Waktunya untuk keajaiban, dan ini cuma milik kita berdua saja!\"</i>"
     },
     "skillParams": {
       "0": "DMG Skill",
@@ -118,18 +120,19 @@
   "passive1": {
     "name": "Perilous Performance",
     "description": {
-      "0": "Jika HP Lyney berkurang dengan cara menembakkan <strong>Prop Arrow</strong>, maka saat Prop Arrow ini mengenai musuh dan memanggil Grin-Malkin Hat, persentase serangan DMG yang dihasilkan meningkat 80%."
+      "0": "Jika Lyney mengonsumsi HP saat menembakkan <strong>Prop Arrow</strong>, maka saat serangan Grin-Malkin Hat yang dipanggil dari Prop Arrow mengenai musuh, akan memulihkan 3 poin Energy Lyney dan meningkatkan DMG berdasarkan 80% ATK Lyney."
     }
   },
   "passive2": {
     "name": "Conclusive Ovation",
     "description": {
-      "0": "DMG yang dihasilkan Lyney terhadap musuh yang berada dalam pengaruh <pyro>Pyro</pyro> akan dengan cara-cara berikut:",
+      "0": "DMG yang dihasilkan Lyney terhadap musuh yang berada dalam pengaruh <pyro>Pyro</pyro> akan meningkat dengan ketentuan berikut:",
       "1": [
-        "Secara dasar meningkat 60%.",
-        " Meningkat 20% untuk setiap Karakter di dalam party dengan jenis elemen <pyro>Pyro</pyro> selain Lyney sendiri."
+        "ATK dasar meningkat 60%.",
+        "Setiap Karakter <pyro>Pyro</pyro> di dalam party selain Lyney akan memberikan tambahan 20%."
       ],
-      "2": "Peningkatan DMG yang diperoleh Lyney terhadap musuh yang berada dalam pengaruh <pyro>Pyro</pyro> dengan cara ini adalah maksimum 100%."
+      "2": "<br/>",
+      "3": "Peningkatan DMG yang diperoleh dari ketentuan di atas, maksimum meningkat 100% saat Lyney mengakibatkan DMG terhadap musuh yang berada dalam pengaruh <pyro>Pyro</pyro>."
     }
   },
   "passive3": {
@@ -161,7 +164,7 @@
   "constellation4": {
     "name": "Well-Versed, Well-Rehearsed",
     "description": {
-      "0": "Setelah Charged Attack Lyney yang berelemen <pyro>Pyro</pyro> mengenai musuh, <pyro>Pyro RES</pyro> musuh ini berkurang 25% selama 6 detik."
+      "0": "Setelah Charged Attack Lyney yang berelemen <pyro>Pyro</pyro> mengenai musuh, <pyro>Pyro RES</pyro> musuh tersebut akan berkurang 20% selama 6 detik."
     }
   },
   "constellation5": {
@@ -174,7 +177,7 @@
   "constellation6": {
     "name": "A Contrary Smile",
     "description": {
-      "0": "Saat Lyney menembakkan <strong>Prop Arrow</strong>, dia akan menembakkan satu Pyrotechnic Strike: Reprised yang akan mengakibatkan 100% DMG Pyrotechnic Strike. DMG ini dianggap sebagai DMG Charged Attack."
+      "0": "Saat Lyney menembakkan <strong>Prop Arrow</strong>, dia akan menembakkan satu Pyrotechnic Strike: Reprised yang akan mengakibatkan 80% DMG Pyrotechnic Strike. DMG ini dianggap sebagai DMG Charged Attack."
     }
   }
 }

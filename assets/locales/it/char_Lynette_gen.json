@@ -42,7 +42,7 @@
     "name": "Simulazione enigmatica",
     "description": {
       "0": "Si scosta il mantello per effettuare una Stoccata enigmatica, infliggendo <anemo>DAN da Anemo</anemo>.",
-      "1": "Quando Lynette colpisce un avversario con la Stoccata enigmatica, i suoi PS si ripristinano in base ai PS max e, per i 4 s successivi, Lynette perderà una certa quantità di PS al secondo.",
+      "1": "Quando Lynette colpisce un avversario con la Stoccata enigmatica, i suoi PS si ripristinano in base ai PS max e, per i 4 s successivi, Lynette perde una certa quantità di PS al secondo.",
       "2": "L'utilizzo della Stoccata enigmatica varia in base alla durata della pressione dell'abilità.",
       "3": "<br/>",
       "4": "<strong>Pressione</strong>",
@@ -52,10 +52,10 @@
       "8": "Lynette entra nello stato di Ombra ladruncola, aumentando la sua velocità e applicando un Marchio d'ombra a un avversario vicino.",
       "9": "Al termine dello stato, Lynette sferra una Stoccata enigmatica. Se nelle sue vicinanze è presente un avversario affetto dal Marchio d'ombra, Lynette lo raggiunge in un baleno prima di sferrare la Stoccata enigmatica.",
       "10": "<br/>",
-      "11": "Il Marchio d'ombra può essere applicato a non più di 1 avversario alla volta. Se quest'ultimo si allontana troppo da Lynette, il Marchio d'ombra si annulla.",
+      "11": "Il Marchio d'ombra può essere applicato a non più di 1 avversario alla volta. Se quest'ultimo si allontana troppo da Lynette, il Marchio d'ombra si dissolve.",
       "12": "<br/>",
-      "13": "<strong>Forza fondamentale: Ousia</strong>",
-      "14": "A determinati intervalli, quando Lynette sferra una Stoccata enigmatica, si sprigiona una Lama nascente che infligge <anemo>DAN da Anemo</anemo> infusi di Ousia.",
+      "13": "<strong>Archè: Ousia</strong>",
+      "14": "A determinati intervalli, quando Lynette sferra una Stoccata enigmatica, si sprigiona una Lama nascente che infligge <anemo>DAN da Anemo</anemo> di polarità Ousia.",
       "15": "<br/>",
       "16": "<i>\"Bene, ora volta lo sguardo verso il palco e continua a goderti lo spettacolo. Quando mi vedrai riapparire, sarò dove meno te lo aspetti.\"</i>"
     },
@@ -65,8 +65,8 @@
       "2": "Intervallo Lama nascente",
       "3": "RIGEN PS",
       "4": "Costo PS",
-      "5": "TdR",
-      "6": "",
+      "5": "Durata max pressione prolungata",
+      "6": "TdR",
       "7": "",
       "8": "",
       "9": "",
@@ -86,8 +86,8 @@
       "2": "<strong>Scatola Stravagatto</strong>",
       "3": [
         " Provoca i nemici vicini, attirando i loro attacchi.",
-        " Infligge <anemo>DAN da Anemo</anemo> ai nemici vicini a intervalli regolari.",
-        " Quando la Scatola Stravagatto entra in contatto con <hydro>Hydro</hydro>/<pyro>Pyro</pyro>/<cryo>Cryo</cryo>/<electro>Electro</electro>, ottiene l'elemento corrispondente e scaglia Colpi vividi che infliggono DAN di quell'elemento a intervalli regolari."
+        " Infligge <anemo>DAN da Anemo</anemo> ai nemici circostanti a intervalli regolari.",
+        " Quando la Scatola Stravagatto entra in contatto con <hydro>Hydro</hydro>/<pyro>Pyro</pyro>/<cryo>Cryo</cryo>/<electro>Electro</electro>, assorbe l'elemento corrispondente e scaglia Colpi vividi che infliggono DAN del suddetto elemento a intervalli regolari."
       ],
       "4": "Questo tipo di assorbimento elementale può avvenire una volta sola nell'intera durata dell'abilità.",
       "5": "<br/>",
@@ -125,9 +125,9 @@
     }
   },
   "passive3": {
-    "name": "Mnemotecnica dei punti",
+    "name": "Tecnica dei loci",
     "description": {
-      "0": "Mostra la posizione dei <strong>Globi della rinascita</strong> sulla minimappa. Il vigore subacqueo e i PS ottenuti toccando i Globi aumenta di un 25%."
+      "0": "Mostra la posizione dei <strong>Globi di ripristino</strong> sulla minimappa. Il vigore subacqueo e i PS ottenuti toccando i Globi aumentano di un 25%."
     }
   },
   "constellation1": {
@@ -163,7 +163,7 @@
     }
   },
   "constellation6": {
-    "name": "Intuizione lungimirante",
+    "name": "Occhio vigile",
     "description": {
       "0": "Quando Lynette usa la Stoccata enigmatica di <strong>Simulazione enigmatica</strong>, ottiene un'<anemo>infusione di Anemo</anemo> e un 20% di <anemo>bonus DAN da Anemo</anemo> per 6 s."
     }
