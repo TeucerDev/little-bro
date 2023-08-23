@@ -1,0 +1,166 @@
+{
+  "name": "Neuvillette",
+  "title": "???",
+  "description": "",
+  "constellationName": "???",
+  "auto": {
+    "name": "Dingin Sular Gibi",
+    "fields": {
+      "normal": {
+        "0": "<strong><strong>Normal Saldırı</strong>",
+        "1": "Bastonunu hafifçe sallayarak dalgalara hükmeder ve <hydro>Su Hasarı</hydro> veren en fazla 3 saldırı gerçekleştirir."
+      },
+      "chargedLegal": {
+        "0": "<strong>Yüklü Saldırı Güçlendirmesi: Hukuki Değerlendirme</strong>",
+        "1": "Güç biriktirirken Neuvillette su gücü toplar ve bir Tahkim Mührü oluşturur. Bu durumdayken Neuvillette hareket edebilir, baktığı yönü değiştirebilir ve belirli bir alandaki Kaynak Suyu Damlacıklarını toplayabilir.",
+        "2": "Topladığı her damlacık, Mührün oluşma hızını artırır ve Maks. Canına göre Neuvillette'i iyileştirir.",
+        "3": "Güç toplama sona erdiğinde Mühür oluşmamışsa bir Yüklü Saldırı, oluşması halindeyse Yüklü Saldırı: Adil Yargı yapar."
+      },
+      "charged": {
+        "0": "<strong>Yüklü Saldırı</strong>",
+        "1": "Belirli bir miktar Dayanıklılık tüketerek saldırır ve <hydro>Su Alan Hasarı</hydro> veren bir kesici bir su halkası oluşturur.",
+        "2": "Yüklü Saldırı: Adil Yargı</undefined>",
+        "3": "Yükselen su dalgaları oluşturarak baktığı yöne doğru düz bir hat üzerinde bulunan düşmanlara devamlı olarak <hydro>Su Alan Hasarı</hydro> verir.",
+        "4": "Adil Yargı, Dayanıklılık tüketmez ve X saniye boyunca sürer.",
+        "5": "Eğer Neuvillette'in Canı %50'nin üzerindeyse bu saldırıyı kullandığı süre boyunca Can kaybeder."
+      },
+      "chargedJudgment": {},
+      "plunging": {
+        "0": "<strong>Havadan Saldırı</strong>Suyun gücünü toplayarak havadayken yere doğru atılır ve yoluna çıkan tüm düşmanlara hasar verir. Yere vurduğunda <hydro>Su Alan Hasarı</hydro> verir."
+      }
+    },
+    "skillParams": {
+      "0": "1 Vuruş Hasarı",
+      "1": "2 Vuruş Hasarı",
+      "2": "3 Vuruş Hasarı",
+      "3": "Yüklü Saldırı Hasarı",
+      "4": "Yüklü Saldırı Dayanıklılık Maliyeti",
+      "5": "Yüklü Saldırı: Adil Yargı",
+      "6": "Yenilenen Can",
+      "7": "Can Kaybı",
+      "8": "Başlangıç Can Kaybı Sınırı",
+      "9": "Havadan Saldırı Hasarı",
+      "10": "Havadan Saldırı Hasarı (Alçaktan/Yüksekten)",
+      "11": "",
+      "12": "",
+      "13": "",
+      "14": "",
+      "15": ""
+    }
+  },
+  "skill": {
+    "name": "Baki Kalan Gözyaşları",
+    "description": {
+      "0": "Baktığı yönde bulunan düşmanlara <hydro>Su Alan Hasarı</hydro> veren bir Azgın Şelale çağırır. Beceri bir düşmana vurduktan sonra düşmanın yakınında 3 adet Kaynak Suyu Damlacığı oluşturur.",
+      "1": "<br/>",
+      "2": "<strong>Arkhe: Ruh</strong>",
+      "3": "Azgın Şelale çarparken belirli aralıklarla düşmanları delen bir Ruh Nefesi Dikeni oluşur ve Ruh tesirli <hydro>Su Hasarı</hydro> verir.",
+      "4": "<br/>",
+      "5": "<i>\"Kanun her türlü suçu kısıtlayabilir ama kötülüğün kendisini yok etmesi mümkün değil.\"</i>"
+    },
+    "skillParams": {
+      "0": "Beceri Hasarı",
+      "1": "Ruh Nefesi Dikeni Hasarı",
+      "2": "Ruh Nefesi Dikeni Aralığı",
+      "3": "Kaynak Suyu Damlacığı Süresi",
+      "4": "BS",
+      "5": "",
+      "6": "",
+      "7": "",
+      "8": "",
+      "9": "",
+      "10": "",
+      "11": "",
+      "12": "",
+      "13": "",
+      "14": "",
+      "15": ""
+    }
+  },
+  "burst": {
+    "name": "Metcezir, Geri Döndüm",
+    "description": {
+      "0": "Neuvillette, Maks. Canına göre <hydro>Su Alan Hasarı</hydro> veren kuvvetli bir dalga gönderir. Kısa bir aradan sonra daha küçük bir alana <hydro>Su Hasarı</hydro> veren 2 şelale iner ve önündeki alanda 6 Kaynak Suyu Damlacığı oluşturur.",
+      "1": "<br/>",
+      "2": "<i>\"Bir kanun ancak yayımlandıktan sonra geçerlidir. Bundan ötesi, kadim zamanlardan bu yana tüm canlı türlerini yöneten doğa kanunlarına kalmıştır.\"</i>"
+    },
+    "skillParams": {
+      "0": "Beceri Hasarı",
+      "1": "Şelale Hasarı",
+      "2": "BS",
+      "3": "Enerji Maliyeti",
+      "4": "",
+      "5": "",
+      "6": "",
+      "7": "",
+      "8": "",
+      "9": "",
+      "10": "",
+      "11": "",
+      "12": "",
+      "13": "",
+      "14": "",
+      "15": ""
+    }
+  },
+  "passive1": {
+    "name": "Kadim Deniz Mirasının Varisi",
+    "description": {
+      "0": "Bir grup üyesi, düşman üzerinde Buharlaşma, Donma, Elektrik Yüklü, Çiçeklenme, Su Girdabı veya Su Kristalleşmesi tetiklediğinde Neuvillette'e 30 saniyeliğine 1 kademe Kadim Ejder İhtişamı verilir. 3 kademeye kadar birikir. Yüklü Saldırı: Adil Yargı Hasarını %110/%130/%160 artırır.",
+      "1": "Her bir Element Tepkimesi tarafından oluşturulan Kadim Ejder İhtişamı kademesi birbirinden bağımsızdır."
+    }
+  },
+  "passive2": {
+    "name": "Yüksek Hakem Disiplini",
+    "description": {
+      "0": "Neuvillette, Canının %30'un üzerinde olan her bir %1'lik kısmı için %0,6 <hydro>Hasar Bonusu</hydro> kazanır. Bu şekilde en fazla %30 Hasar Bonusu elde edilebilir."
+    }
+  },
+  "passive3": {
+    "name": "Dalgalar Gibi Bir Arada",
+    "description": {
+      "0": "Tüm grup üyelerinin su altı Hareket Hızı %15 artar."
+    }
+  },
+  "constellation1": {
+    "name": "Saygıdeğer Kurum",
+    "description": {
+      "0": "Neuvillette sahaya geldiğinde, \"Kadim Deniz Mirasının Varisi\" Pasif Yeteneğinden 1 Kadim Ejder İhtişamı kademesi kazanır. \"Kadim Deniz Mirasının Varisi\" Pasif Yeteneğinin açılmış olması gerekir.",
+      "1": "Ayrıca, Yüklü Saldırı: Adil Yargı kullanırken müdahale karşı direnci artar."
+    }
+  },
+  "constellation2": {
+    "name": "Kanunun Hükmü",
+    "description": {
+      "0": "\"Kadim Deniz Mirasının Varisi\" Pasif Yeteneği gelişir: Her Kadim Ejder İhtişamı kademesi, Yüklü Saldırı: Adil Yargının Kritik Hasarını %14 artırır. Bu şekilde en fazla %42 artış elde edilebilir.",
+      "1": "\"Kadim Deniz Mirasının Varisi\" Pasif Yeteneğinin açılmış olması gerekir."
+    }
+  },
+  "constellation3": {
+    "name": "Kadim Hikaye",
+    "description": {
+      "0": "<strong>Normal Saldırı: Dingin Sular Gibi</strong> Seviyesini 3 artırır.",
+      "1": "Maksimum yükseltme seviyesi 15'tir."
+    }
+  },
+  "constellation4": {
+    "name": "Şefkatin Tacı",
+    "description": {
+      "0": "Neuvillette sahadayken iyileştirildiğinde 1 Kaynak Suyu Damlacığı oluşur. Bu etki her 4 saniyede bir meydana gelebilir."
+    }
+  },
+  "constellation5": {
+    "name": "Makul Yargı",
+    "description": {
+      "0": "<strong>Şafak</strong> Seviyesini 3 artırır.",
+      "1": "Maksimum yükseltme seviyesi 15'tir."
+    }
+  },
+  "constellation6": {
+    "name": "Vahşi Tazminat",
+    "description": {
+      "0": "Yüklü Saldırı: Adil Yargı kullanıldığında Neuvillette belli bir alan içindeki Kaynak Suyu Damlacıklarını çekebilir. Aldığı her Damlacık, Yüklü Saldırı: Adil Yargı süresini 1 saniye uatır.",
+      "1": "Ayrıca Adil Yargı düşmanlara vurduğunda her 2 saniyede bir 2 adet yeni akım ortaya çıkarır, her biri Neuvillette'in Maks. Canının %10'u kadar <hydro>Su Hasarı</hydro> verir. Bu şekilde verilen hasar, Adil Yargı tarafından verilmiş sayılır."
+    }
+  }
+}

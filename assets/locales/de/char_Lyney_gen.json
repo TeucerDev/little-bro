@@ -1,10 +1,10 @@
 {
   "name": "Lyney",
-  "title": "Spektakel fantastischer Lichter",
-  "description": "",
-  "constellationName": "",
+  "title": "Das Spektakel von Fantasmagoria",
+  "description": "Ein redegewandter und charismatischer Zauberer aus Fontaine. Er zieht sein Publikum mit raffinierten Tricks und einnehmenden Worten in seinen Bann.",
+  "constellationName": "Felis Fuscus",
   "auto": {
-    "name": "Alle auf ihre Plätze!ßßß",
+    "name": "Erzwungene Rochade",
     "fields": {
       "normal": {
         "0": "<strong><strong>Standardangriff</strong>",
@@ -16,9 +16,9 @@
         "2": "Konzentriert die Pyro-Energie während des Zielens an der Pfeilspitze, die dann beim Angriff mit abgefeuert wird. Je nachdem, wie lange die Energie aufgeladen wird, kann dies unterschiedliche Effekte zur Folge haben:",
         "3": [
           " Energieladung Phase 1: Feuert einen Pyro-Pfeil ab, der <pyro>Pyro-Schaden</pyro> verursacht.",
-          " Energieladung Phase 2: Schießt einen Zauberrequisiten-Pfeilßßß ab, der <pyro>Pyro-Schaden</pyro> verursacht und, nachdem er getroffen hat, eine „Grinsekatzenmützeßßß“ beschwört."
+          " Energieladung Phase 2: Schießt einen Zauberrequisiten-Pfeil ab, der <pyro>Pyro-Schaden</pyro> verursacht und, nachdem er getroffen hat, eine „Grinsekatzenmütze“ beschwört."
         ],
-        "4": "Liegen beim Abfeuern des Zauberrequisiten-Pfeilsßßß Lyneys LP über 60 %, so verbraucht er einen Teil seiner LP und erhält dafür einen Stapel „Requisitenüberschussßßß“. 5-fach stapelbar. Wird 30 s nach Verlassen des Kampfs entfernt.",
+        "4": "Liegen beim Abfeuern des Zauberrequisiten-Pfeils Lyneys LP über 60 %, so verbraucht er einen Teil seiner LP und erhält dafür einen Stapel „Requisitenüberschuss“. 5-fach stapelbar. Wird 30 s nach Verlassen des Kampfs entfernt.",
         "5": "Verringert Lyneys LP beim Auslösen dieser Fähigkeit höchstens auf 60 %."
       },
       "plunging": {
@@ -26,17 +26,17 @@
         "1": "Schießt in der Luft einen Pfeilregen ab, trifft schnell auf dem Boden auf und verursacht dort Flächenschaden."
       },
       "grinMalkin": {
-        "0": "<strong>Grinsekatzenmützeßßß</strong>",
+        "0": "<strong>Grinsekatzenmütze</strong>",
         "1": [
           " Verspottet Gegner in der Umgebung und zieht ihre Angriffe auf sich. Jeder Gegner kann nur 1-mal alle 5 s verspottet werden.",
           " Die Unversehrtheit der Mütze hängt von Lyneys max. LP ab.",
-          " Feuert bei Zerstörung, oder wenn die Dauer endet, ein <strong>Feuerwerksgeschossßßß</strong> auf einen Gegner in der Umgebung, das <pyro>Pyro-Schaden</pyro> verursacht."
+          " Feuert bei Zerstörung, oder wenn die Dauer endet, ein <strong>Feuerwerksgeschoss</strong> auf einen Gegner in der Umgebung, das <pyro>Pyro-Schaden</pyro> verursacht."
         ],
-        "2": "Es kann immer nur 1 Grinsekatzenmützeßßß gleichzeitig existieren."
+        "2": "Es kann immer nur 1 Grinsekatzenmütze gleichzeitig existieren."
       },
       "arkhe": {
-        "0": "<strong>Anfängliche Kraftßßß: Pneuma-Energie</strong>",
-        "1": "In regelmäßigen Abständen wird an der Position, die der Zauberrequisiten-Pfeilßßß trifft, ein Geisterstachelßßß fallengelassen, der mit Pneuma versehenen <pyro>Pyro-Schaden</pyro> verursacht."
+        "0": "<strong>Arkhe: Pneuma</strong>",
+        "1": "In regelmäßigen Abständen wird an der Position, die der Zauberrequisiten-Pfeil trifft, ein Geisterstachel fallengelassen, der mit Pneuma versehenen <pyro>Pyro-Schaden</pyro> verursacht."
       }
     },
     "skillParams": {
@@ -48,30 +48,30 @@
       "5": "SCH beim Fallen aus niedriger/großer Höhe",
       "6": "Gezielte Schüsse",
       "7": "Gezielte Schüsse Aufladephase 1",
-      "8": "SCH Zauberrequisiten-Pfeil",
+      "8": "Zauberrequisiten-Pfeil-SCH",
       "9": "LP-Verbrauch",
-      "10": "Erhaltene LP von Grinsekatzenmützeßßß",
-      "11": "Dauer Grinsekatzenmütze",
-      "12": "Feuerwerksgeschossßß-SCH",
-      "13": "Geisterstachelßßß-SCH",
+      "10": "Erhaltene LP von Grinsekatzenmütze",
+      "11": "Grinsekatzenmütze-Dauer",
+      "12": "Feuerwerksgeschoss-SCH",
+      "13": "Geisterstachel-SCH",
       "14": "Geisterstachel-Intervall",
       "15": ""
     }
   },
   "skill": {
-    "name": "Ablenkende Lichterßßß",
+    "name": "Ablenkende Lichter",
     "description": {
       "0": "Lyney schwenkt seinen Hut und zündet ein überraschendes Feuerwerk.",
-      "1": "Verbraucht beim Auslösen vorhandene Stapelungen „Requisitenüberschussßßß“ und fügt dem Gegner vor sich <pyro>Pyro-Flächenschaden</pyro> zu. Der zugefügte Schaden erhöht sich entsprechend der Anzahl verbrauchter Stapelungen. Außerdem stellt Lyney LP auf Basis seiner max. LP wieder her.",
+      "1": "Verbraucht beim Auslösen vorhandene Stapelungen „Requisitenüberschuss“ und fügt dem Gegner vor sich <pyro>Pyro-Flächenschaden</pyro> zu. Der zugefügte Schaden erhöht sich entsprechend der Anzahl verbrauchter Stapelungen. Außerdem stellt Lyney LP auf Basis seiner max. LP wieder her.",
       "2": "<br/>",
-      "3": "Befindet sich die von Lyney beschworene Grinsekatzenmützeßßß auf dem Feld, so lässt das Feuerwerk diese in einer gewaltigen Explosion in die Luft gehen, wodurch <pyro>Pyro-Flächenschaden</pyro> in Höhe des durch das Feuerwerksgeschoss verursachten Schadens zugefügt wird.",
+      "3": "Befindet sich die von Lyney beschworene Grinsekatzenmütze auf dem Feld, so lässt das Feuerwerk diese in einer gewaltigen Explosion in die Luft gehen, wodurch <pyro>Pyro-Flächenschaden</pyro> in Höhe des durch das Feuerwerksgeschoss verursachten Schadens zugefügt wird.",
       "4": "Der durch die so herbeigeführte Explosion der Grinsekatzenmütze verursachte Schaden wird als Schaden des heftigen Schlags betrachtet.",
       "5": "<br/>",
       "6": "<i>„Viele wissen genau, dass Zauberkünstler diese Technik häufig einsetzen, um die Aufmerksamkeit des Publikums zu lenken ... Ganz recht, während du gerade in diese Richtung geschaut hast, sind Hut und Assistentin, die sich eben noch dort drüben befunden haben, verschwunden ... Faszinierend, oder?“</i>"
     },
     "skillParams": {
       "0": "Fähigkeits-SCH",
-      "1": "Fähigkeits-SCH-Bonusßßß",
+      "1": "Fähigkeits-SCH-Bonus",
       "2": "LP-Wiederherstellung",
       "3": "Abklingzeit",
       "4": "",
@@ -89,7 +89,7 @@
     }
   },
   "burst": {
-    "name": "Wundersame Magie – Parade der Wunderßßß",
+    "name": "Wundersame Magie – Parade der Wunder",
     "description": {
       "0": "Lyney wirkt seine Magie und verwandelt sich in eine flinke „Grinsemützenkatze“. (Nicht zu verwechseln mit der „Grinsekatzenmütze“. Hierbei handelt es sich um zwei völlig unterschiedliche Requisiten!)",
       "1": "Die Grinsemützenkatze lässt ein Feuerwerk auf Gegner niedergehen, sobald sie sich in deren Nähe befindet, wobei sie jedem von ihnen max. 1-mal <pyro>Pyro-Schaden</pyro> zufügt. Sobald der Effekt endet, entfernt Lyney die Grinsemützenkatze, indem ein Feuerwerk gezündet wird, das <pyro>Pyro-Flächenschaden</pyro> verursacht und eine Grinsekatzenmütze beschworen wird. Außerdem erhält Lyney eine Stapelung „Requisitenüberschuss“.",
@@ -100,7 +100,7 @@
     },
     "skillParams": {
       "0": "Fähigkeits-SCH",
-      "1": "SCH von Explosives Feuerwerkßßß",
+      "1": "SCH von Explosives Feuerwerk",
       "2": "Dauer",
       "3": "Abklingzeit",
       "4": "Elementarenergie",
@@ -118,15 +118,15 @@
     }
   },
   "passive1": {
-    "name": "Atemberaubende Darbietungßßß",
+    "name": "Atemberaubende Darbietung",
     "description": {
-      "0": "Verbraucht der von Lyney abgeschossene <strong>Zauberrequisiten-Pfeil</strong> LP, so stellt die durch ihn beschworene Grinsekatzenmütze, wenn sie Gegner trifft, bei Lyney 3 Punkte Elementarenergie wieder her. Außerdem erhöht sich der verursachte Schaden basierend auf dem ANG um 80 %."
+      "0": "Verbraucht der von Lyney abgeschossene <strong>Zauberrequisiten-Pfeil</strong> LP, so stellt die durch ihn beschworene Grinsekatzenmütze, wenn sie Gegner trifft, bei Lyney 3 Punkte Elementarenergie wieder her und erhöht den verursachten Schaden um 80 % ANG."
     }
   },
   "passive2": {
-    "name": "Abschließender Beifallßßß",
+    "name": "Abschließender Beifall",
     "description": {
-      "0": "Erhöht den Schaden, den Lyney vom <pyro>Pyro-Element</pyro> betroffenen Gegnern zufügt, auf folgende Weise:",
+      "0": "Erhöht den Schaden, den Lyney den vom <pyro>Pyro-Element</pyro> betroffenen Gegnern zufügt, auf folgende Weise:",
       "1": [
         " Erhöht den Schaden bedingungslos um 60 %.",
         " Für jede Figur in der Truppe außer Lyney, die die <pyro>Pyro-</pyro>Kraft beherrscht, wird der Schaden zusätzlich um 20 % erhöht."
@@ -135,39 +135,39 @@
     }
   },
   "passive3": {
-    "name": "Triviale Beobachtungenßßß",
+    "name": "Triviale Beobachtungen",
     "description": {
       "0": "Zeigt alle <strong>Besonderheiten Fontaines</strong> in der Nähe auf der Minikarte an."
     }
   },
   "constellation1": {
-    "name": "Bizarre Wunderßßß",
+    "name": "Bizarre Wunder",
     "description": {
       "0": "Es können bis zu 2 <strong>Grinsekatzenmützen</strong> gleichzeitig existieren.",
       "1": "Außerdem werden durch Treffer mit dem Zauberrequisiten-Pfeil 2 Grinsekatzenmützen beschworen. Zugleich wird zusätzlich 1 „Requisitenüberschuss“ gestapelt. 15 s Abklingzeit."
     }
   },
   "constellation2": {
-    "name": "Verlockender Köderßßß",
+    "name": "Verlockender Köder",
     "description": {
-      "0": "Lyney erhält alle 2 s einen Stapel „Fokussierte Konzentration“, wenn er auf dem Feld ist. Hierdurch wird sein Kritischer Schaden um 20 % gesteigert. Dieser Effekt ist 3-fach stapelbar und wird aufgehoben, wenn Lyney das Feld verlässt."
+      "0": "Lyney erhält alle 2 s einen Stapel „Fokussierte Konzentration“, wenn er auf dem Feld ist. Hierdurch wird sein KSCH um 20 % gesteigert. Dieser Effekt ist 3-fach stapelbar und wird aufgehoben, wenn Lyney das Feld verlässt."
     }
   },
   "constellation3": {
-    "name": "Taschenspielertrickßßß",
+    "name": "Taschenspielertrick",
     "description": {
-      "0": "Erhöht die Stufe der Fähigkeit <strong>Standardangriff – Alle auf ihre Plätze!</strong> um 3.",
+      "0": "Erhöht die Stufe der Fähigkeit <strong>Standardangriff – Erzwungene Rochade</strong> um 3.",
       "1": "Höchststufe 15."
     }
   },
   "constellation4": {
-    "name": "Bewandert und erprobtßßß",
+    "name": "Bewandert und erprobt",
     "description": {
       "0": "Verringert den <pyro>Pyro-WDS</pyro> der von Lyneys heftigem Schlag getroffenen Gegner 6 s lang um 20 %, wenn der heftige Schlag vom Elementartyp <pyro>Pyro</pyro> ist."
     }
   },
   "constellation5": {
-    "name": "Des Rätsels Lösungßßß",
+    "name": "Des Rätsels Lösung",
     "description": {
       "0": "Erhöht die Stufe der Fähigkeit <strong>Wundersame Magie – Parade der Wunder</strong> um 3.",
       "1": "Höchststufe 15."

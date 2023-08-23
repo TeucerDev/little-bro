@@ -45,7 +45,7 @@
       "5": "<strong>Pressione prolungata</strong>",
       "6": "Entra in modalità di mira e lancia delle Gocce di rugiada nella direzione corrispondente, infliggendo <hydro>DAN da Hydro</hydro> agli avversari colpiti.",
       "7": "Al termine dell'abilità, scaglia un Flutto torrenziale che infligge <hydro>DAN da Hydro</hydro> agli avversari con cui entra in contatto.",
-      "8": "Diffusione: se {F#la}{M#il} viaggiat{F#rice}{M#ore} possiede più di un 50% dei PS, li consuma progressivamente e, in base a essi, aumenta i DAN che le Gocce di rugiada possono infliggere.",
+      "8": "Diffusione: quando si usa la variante a pressione prolungata di quest'abilità, se {F#la}{M#il} viaggiat{F#rice}{M#ore} possiede più di un 50% dei suoi PS, questi ultimi diminuiscono di una certa quantità ogni secondo, e i DAN inflitti dalle Gocce di rugiada aumentano in base ai suoi PS max.",
       "9": "<br/>",
       "10": "<strong>Archè: Pneuma</strong>",
       "11": "A determinati intervalli, dopo aver usato un Flutto torrenziale, quest'abilità sprigiona un Aculeo spettrale che infligge <hydro>DAN da Hydro</hydro> di polarità Pneuma.",
@@ -107,7 +107,7 @@
   "passive2": {
     "name": "Acque cristalline",
     "description": {
-      "0": "Se, durante l'uso della variante a pressione prolungata di <strong>Fendente dell'Emblema acqueo</strong>, vengono consumati PS tramite Diffusione, il Flutto torrenziale alla fine dell'abilità infligge DAN bonus pari a un 45% dei PS totali consumati da{F#lla}{M#l} viaggiat{F#rice}{M#ore} tramite Diffusione durante l'ultimo uso dell'abilità.",
+      "0": "Se, durante l'uso della variante a pressione prolungata di <strong>Fendente dell'Emblema acqueo</strong>, vengono consumati PS tramite Diffusione, il Flutto torrenziale scagliato alla fine dell'abilità infligge DAN bonus pari a un 45% dei PS totali consumati da{F#lla}{M#l} viaggiat{F#rice}{M#ore} tramite Diffusione durante l'ultimo uso della suddetta abilità.",
       "1": "Il bonus DAN massimo che è possibile ottenere in questo modo è pari a 5.000."
     }
   },
@@ -115,7 +115,7 @@
     "name": "Lago esondante",
     "description": {
       "0": "Raccogliere una Goccia d'acqua sorgiva ripristina 2 di energia del{F#la }{M# }viaggiat{F#rice}{M#ore}.",
-      "1": "Devi prima sbloccare il talento passivo Acque incontaminate."
+      "1": "Richiede il talento passivo Acque incontaminate."
     }
   },
   "constellation2": {
@@ -135,7 +135,7 @@
     "name": "Discesa scrosciante",
     "description": {
       "0": "Utilizzando <strong>Fendente dell'Emblema acqueo</strong>, si materializza un'Egida dell'Emblema acqueo in grado di assorbire i DAN subiti dal{F#la }{M# }viaggiat{F#rice}{M#ore} pari a un 10% dei suoi PS max, e che assorbe i <hydro>DAN da Hydro</hydro> con un 250% di efficienza. L'Egida dell'Emblema acqueo persiste finché {F#la}{M#il} viaggiat{F#rice}{M#ore} non termina l'uso dell'abilità.",
-      "1": "Una volta ogni 2 s, quando una Goccia di rugiada colpisce un avversario, se {F#la}{M#il} viaggiat{F#rice}{M#ore} è protett{F#a}{M#o} dall'Egida dell'Emblema acqueo, l'assorbimento DAN di quest'ultima si ripristina a un 10% dei PS max del{F#la }{M# }viaggiat{F#rice}. Se {F#la}{M#il} viaggiat{F#rice}{M#ore} non è protett{F#a}{M#o} da un'Egida, se ne materializza una nuova."
+      "1": "Una volta ogni 2 s, quando una Goccia di rugiada colpisce un avversario, se {F#la}{M#il} viaggiat{F#rice}{M#ore} è protett{F#a}{M#o} dall'Egida dell'Emblema acqueo, l'assorbimento DAN di quest'ultima si ripristina a un 10% dei PS max del{F#la }{M# }viaggiat{F#rice}{M#ore}. Se {F#la}{M#il} viaggiat{F#rice}{M#ore} non è protett{F#a}{M#o} da un'Egida, se ne materializza una nuova."
     }
   },
   "constellation5": {
@@ -148,7 +148,7 @@
   "constellation6": {
     "name": "Maree della Giustizia",
     "description": {
-      "0": "Quando {F#la}{M#il} viaggiat{F#rice}{M#ore} raccoglie una Goccia d'acqua sorgiva, ripristina un 6% dei PS max del membro del gruppo più vicino con la percentuale di PS rimanenti più bassa."
+      "0": "Quando {F#la}{M#il} viaggiat{F#rice}{M#ore} raccoglie una Goccia d'acqua sorgiva, ripristina un 6% dei PS max del membro del gruppo vicino con la percentuale di PS rimanenti più bassa."
     }
   }
 }

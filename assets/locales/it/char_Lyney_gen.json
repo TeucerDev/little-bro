@@ -1,10 +1,10 @@
 {
   "name": "Lyney",
   "title": "Spettacolo fantasmagorico",
-  "description": "",
+  "description": "Un celebre mago di Fontaine, dotato di grande presenza scenica e notevoli doti dialettiche. Il pubblico rimane ammaliato dalle sue incredibili abilità e pende letteralmente dalle sue labbra.",
   "constellationName": "Felis Fuscus",
   "auto": {
-    "name": "Carta obbligata",
+    "name": "Traslazione forzata",
     "fields": {
       "normal": {
         "0": "<strong><strong>Attacco normale</strong>",
@@ -18,7 +18,7 @@
           " Livello di carica 1: scaglia una freccia infusa del potere di Pyro che infligge <pyro>DAN da Pyro</pyro>.",
           " Livello di carica 2: scaglia una Freccia scenica che infligge <pyro>DAN da Pyro</pyro> ed evoca un Cappello sogghignante all'impatto."
         ],
-        "4": "Se Lyney scocca una Freccia scenica mentre ha più di un 60% di PS a disposizione, consuma una parte dei suoi PS e ottiene 1 accumulo di Riserva scenica, fino a un massimo di 5. L'effetto viene rimosso se il personaggio trascorre 30 s fuori dal campo.",
+        "4": "Se Lyney scocca una Freccia scenica mentre ha più di un 60% di PS a disposizione, consuma una parte dei suoi PS e ottiene 1 accumulo di Riserva scenica, fino a un massimo di 5. L'effetto viene rimosso dopo 30 s passati al di fuori di un combattimento.",
         "5": "Con questo metodo, i PS di Lyney non possono calare al di sotto di un 60% dei suoi PS max."
       },
       "plunging": {
@@ -126,12 +126,12 @@
   "passive2": {
     "name": "Applauso finale",
     "description": {
-      "0": "Quando infligge DAN agli avversari sotto l'effetto di <pyro>Pyro</pyro>, Lyney ottiene i seguenti effetti positivi:",
+      "0": "I DAN inflitti da Lyney agli avversari sotto l'effetto di <pyro>Pyro</pyro> ricevono i seguenti effetti positivi:",
       "1": [
-        " l'ATT di base aumenta di un 60%;",
-        " per ogni membro di <pyro>Pyro</pyro> presente nel gruppo, escluso Lyney, tale effetto aumenta di un ulteriore 20%."
+        " i DAN aumentano di un 60%;",
+        " per ogni membro di <pyro>Pyro</pyro> presente nel gruppo, escluso Lyney, i DAN inflitti aumentano di un ulteriore 20%."
       ],
-      "2": "In questo modo, Lyney può ottenere un 100% di incremento totale dei DAN contro gli avversari sotto l'effetto di <pyro>Pyro</pyro>."
+      "2": "In questo modo, Lyney può infliggere fino a un 100% di DAN aumentati contro gli avversari sotto l'effetto di <pyro>Pyro</pyro>."
     }
   },
   "passive3": {
@@ -150,13 +150,13 @@
   "constellation2": {
     "name": "Maestro delle lusinghe",
     "description": {
-      "0": "Quando Lyney è in campo, ottiene ogni 2 s un accumulo di Concentrazione totale che aumenta di un 20% i suoi DAN da CRIT. Massimo 3 accumuli. L'effetto si annulla quando Lyney abbandona il campo."
+      "0": "Quando Lyney è in campo, ottiene ogni 2 s un accumulo di Concentrazione totale. Ogni accumulo aumenta di un 20% i suoi DAN da CRIT. Massimo 3 accumuli. L'effetto si annulla quando Lyney abbandona il campo."
     }
   },
   "constellation3": {
     "name": "Prestidigitazione",
     "description": {
-      "0": "Aumenta di 3 il livello di <strong>Attacco normale: Carta obbligata</strong>.",
+      "0": "Aumenta di 3 il livello di <strong>Attacco normale: Traslazione forzata</strong>.",
       "1": "Il livello di potenziamento massimo è 15."
     }
   },

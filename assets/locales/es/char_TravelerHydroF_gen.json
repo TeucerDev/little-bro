@@ -44,8 +44,8 @@
       "4": "<br/>",
       "5": "<strong>Mantener pulsado</strong>",
       "6": "Apunta para liberar continuamente gotas de rocío, las cuales infligen <hydro>Daño Hydro</hydro> al enemigo con el que impactan.",
-      "7": "Al terminar, lanza hacia delante una erupción torrencial que inflige <hydro>Daño Hydro</hydro> al enemigo alcanzado.",
-      "8": "Profusión: cuando {F#la Viajera}{M#el Viajero} tenga más del 50% de Vida, la consumirá continuamente para aumentar el daño infligido con las gotas de rocío en función de su propia Vida.",
+      "7": "Al terminar, lanza hacia delante una erupción torrencial que inflige <hydro>Daño Hydro</hydro> al enemigo golpeado.",
+      "8": "Profusión: al mantener pulsado para liberar la habilidad, si {F#la Viajera}{M#el Viajero} tiene más del 50% de Vida, el daño de las gotas de rocío aumenta en función de su propia Vida Máx. y, además, pierde cierta cantidad de Vida por segundo.",
       "9": "<br/>",
       "10": "<strong>Arjé: pneuma</strong>",
       "11": "Cada cierto tiempo tras lanzar la erupción torrencial, aparecerá una espina halitoespiritual que inflige <hydro>Daño Hydro</hydro> cargado de energía pneuma.",
@@ -107,7 +107,7 @@
   "passive2": {
     "name": "Aguas cristalinas",
     "description": {
-      "0": "Si se consume Vida con el efecto de profusión al mantener pulsado <strong>Espada ondulante</strong>, el daño de la erupción torrencial creada tras terminar de liberar dicha habilidad aumenta en un 45% de la Vida total consumida por {F#la Viajera}{M#el Viajero} con el efecto de profusión mientras se libera la habilidad.",
+      "0": "Si se consume Vida con el efecto de profusión al mantener pulsado <strong>Espada ondulante</strong>, el daño de la erupción torrencial creada tras terminar de liberar dicha habilidad aumenta en un 45% de la Vida total consumida por {F#la Viajera}{M#el Viajero} con el efecto de profusión mientras se liberaba la habilidad.",
       "1": "Como máximo, el daño puede aumentar en 5000 pts. de esta manera."
     }
   },
@@ -135,7 +135,7 @@
     "name": "Aluviones precipitantes",
     "description": {
       "0": "Al utilizar <strong>Espada ondulante</strong>, se crea un escudo ondulante con una capacidad de absorción equivalente al 10% de la Vida Máx. y con un 250% de efectividad de absorción de <hydro>Daño Hydro</hydro>. El escudo dura hasta que se termine de liberar la habilidad.",
-      "1": "Una vez cada 2 s, tras golpear a un enemigo con las gotas de rocío, si {F#la Viajera}{M#el Viajero} está protegid{F#a}{M#o} por un escudo ondulante, su capacidad de absorción aumenta en otro 10% de su Vida Máx.; si no está protegid{F#a}{M#o} por él, se crea uno nuevo."
+      "1": "Una vez cada 2 s, tras golpear a un enemigo con las gotas de rocío, si {F#la Viajera}{M#el Viajero} está protegid{F#a}{M#o} por un escudo ondulante, su capacidad de absorción se repondrá a un 10% de su Vida Máx.; si no está protegid{F#a}{M#o} por él, se crea un nuevo escudo."
     }
   },
   "constellation5": {

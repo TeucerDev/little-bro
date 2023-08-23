@@ -1,7 +1,7 @@
 {
   "name": "Lynette",
   "title": "Elegance in the Shadows",
-  "description": "",
+  "description": "Asisten pesulap yang tidak banyak bicara. Emosinya sulit ditebak, persis seperti kucing.",
   "constellationName": "Felis Alba",
   "auto": {
     "name": "Rapid Ritesword",
@@ -41,20 +41,20 @@
   "skill": {
     "name": "Enigmatic Feint",
     "description": {
-      "0": "Lynette mengayunkan jubahnya dan melancarkan Enigma Thrust, yang mengakibatkan <anemo>Anemo DMG.</anemo>",
-      "1": "Saat Enigma Thrust mengenai musuh, serangan ini akan memulihkan HP Lynette berdasarkan Max HP-nya, dan dalam 4 detik selanjutnya, HP Lynette akan berkurang setiap detiknya.",
-      "2": "Lynette akan menggunakan Enigma Thrust dengan cara yang berbeda berdasarkan cara skill dilancarkan; mode tekan atau mode tahan.",
+      "0": "Lynette mengayunkan jubahnya dan melancarkan Enigma Thrust yang mengakibatkan <anemo>Anemo DMG</anemo>.",
+      "1": "Saat Enigma Thrust mengenai musuh, serangan ini akan memulihkan HP Lynette berdasarkan Max HP-nya, dan dalam 4 detik selanjutnya, HP Lynette akan berkurang dalam jumlah tertentu setiap detiknya.",
+      "2": "Lynette akan menggunakan Enigma Thrust dengan cara yang berbeda berdasarkan cara skill dilancarkan; Mode Tekan atau Mode Tahan.",
       "3": "<br/>",
       "4": "<strong>Mode Tekan</strong>",
       "5": "Melancarkan Enigma Thrust dengan gesit.",
       "6": "<br/>",
       "7": "<strong>Mode Tahan</strong>",
-      "8": "Lynette memasuki status Pilfering Shadow yang membuatnya bergerak dengan cepat dan memberikan \"Shadowsign\" terhadap musuh di dekatnya.",
+      "8": "Lynette memasuki status Pilfering Shadow yang membuatnya bergerak dengan cepat dan memberikan \"Shadowsign\" terhadap musuh di dekatnya. Dalam kondisi ini, kamu bisa mengontrol arah gerakannya dan kamu bisa menghentikannya jika menggunakan skill ini lagi.",
       "9": "Setelah status ini berakhir, Lynette akan melancarkan Enigma Thrust. Jika ada musuh yang memiliki Shadowsign di sekitarnya, maka Lynette akan mendekatinya secara cepat dan melancarkan Enigma Thrust.",
       "10": "<br/>",
-      "11": "Maksimum 1 musuh yang dapat terpengaruh Shadowsign dalam waktu tertentu. Jika musuh ini berada terlalu jauh dari Lynette, Shadowsign akan terhapus.",
+      "11": "Maksimum 1 musuh yang dapat terkena Shadowsign dalam satu waktu. Jika musuh ini berada terlalu jauh dari Lynette, Shadowsign akan terhapus.",
       "12": "<br/>",
-      "13": "<strong>Arke: Ousia</strong>",
+      "13": "<strong>Arkhe: Ousia</strong>",
       "14": "Setiap kurun waktu tertentu, Lynette akan melancarkan Surging Blade saat menggunakan Enigma Thrust dan mengakibatkan Ousia-aligned <anemo>Anemo DMG</anemo>.",
       "15": "<br/>",
       "16": "<i>\"Baiklah, arahkan matamu ke arah panggung dan lanjutkan menikmati pertunjukannya. Saat aku muncul selanjutnya, aku akan berada di tempat yang tidak kamu sangka.\"</i>"
@@ -63,7 +63,7 @@
       "0": "DMG Enigma Thrust",
       "1": "DMG Surging Blade",
       "2": "Jeda Surging Blade",
-      "3": "Pemulihan HP/Hit",
+      "3": "Pemulihan HP saat serangan terkena",
       "4": "Konsumsi HP",
       "5": "Durasi Maksimum Mode Tahan",
       "6": "Cooldown",
@@ -125,9 +125,9 @@
     }
   },
   "passive3": {
-    "name": "Point Mnemonics",
+    "name": "Loci-Based Mnemonics",
     "description": {
-      "0": "Memperlihatkan lokasi <strong>Revival Orb</strong> di sekitar pada peta kecil. Pemulihan HP dan Stamina di dalam air saat menyentuh Revival Orb meningkat 25%."
+      "0": "Memperlihatkan lokasi <strong>Recovery Orb</strong> di sekitar pada peta kecil. Pemulihan HP dan Aquatic Stamina saat menyentuh Recovery Orb meningkat 25%."
     }
   },
   "constellation1": {
@@ -163,7 +163,7 @@
     }
   },
   "constellation6": {
-    "name": "Intent-Identifying Insight",
+    "name": "Watchful Eye",
     "description": {
       "0": "Saat Lynette melancarkan Enigma Thrust dari skill <strong>Enigmatic Feint</strong>, akan mendapatkan <anemo>Anemo Infusion</anemo> dan meningkatkan 20% <anemo>Anemo DMG Bonus</anemo> selama 6 detik."
     }

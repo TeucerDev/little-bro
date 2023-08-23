@@ -1,10 +1,10 @@
 {
   "name": "Lyney",
   "title": "İllüzyon Oyunu",
-  "description": "",
+  "description": "Mükemmel bir sahne duruşu olan ve ağzı çok iyi laf yapan Fontaineli ünlü bir sihirbaz. Eşsiz yetenekleriyle ve zekice sarf ettiği her bir sözle izleyiciyi etkilemesini bilir.",
   "constellationName": "Kara Kedi",
   "auto": {
-    "name": "Zorunlu Kart Hamlesi",
+    "name": "Kart Gücü Aktarımı",
     "fields": {
       "normal": {
         "0": "<strong><strong>Normal Saldırı</strong>",
@@ -18,7 +18,7 @@
           "1. Seviye Yük: Ateş tesirli bir ok atarak <pyro>Ateş Hasarı</pyro> verir.",
           "2. Seviye Yük: İsabet ettiğinde <pyro>Ateş Hasarı</pyro> veren ve Alaycı Kedi Şapkası çağıran bir Dekor Oku atar."
         ],
-        "4": "Lyney, Dekor Okunu atarken %60'tan daha fazla Cana sahipse Canının bir kısmını kullanarak ek 1 Dekor Fazlalığı kademesi elde eder. 5 kademeye kadar birikir. Karakter savaş alanı dışında 30 saniyeden fazla kaldığında bu etki kaldırılır.",
+        "4": "Lyney, Dekor Okunu atarken %60'tan daha fazla Cana sahipse Canının bir kısmını kullanarak 1 Dekor Fazlalığı kademesi elde eder. Bu 5 kademeye kadar birikir. Karakter savaş alanı dışında 30 saniyeden fazla kaldığında bu etki kaldırılır.",
         "5": "Lyney'nin Canı bu şekilde en fazla Maks. Canının %60'ına düşebilir."
       },
       "plunging": {
@@ -36,7 +36,7 @@
       },
       "arkhe": {
         "0": "<strong>Arkhe: Ruh</strong>",
-        "1": "Belirli aralıklarla Dekor Oku, düşmana isabet ettiğinde düşmanın konumuna Ruh <pyro>Ateş Hasarı</pyro> veren bir Ruh Nefesi Dikeni indirir."
+        "1": "Belirli aralıklarla Dekor Oku, düşmana isabet ettiğinde düşmanın konumuna Ruh tesirli <pyro>Ateş Hasarı</pyro> veren bir Ruh Nefesi Dikeni indirir."
       }
     },
     "skillParams": {
@@ -92,7 +92,7 @@
     "name": "Harika Numara: Mucizevi Geçit Töreni",
     "description": {
       "0": "Lyney, sihrini kullanarak kendini etrafta hızlıca dolanabilen bir Alaycı Kediye dönüştürür. (Bunu Alaycı Kedi Şapkası ile karıştırma, ikisi farklı dekorlar!)",
-      "1": "Alaycı Kedi, düşmanlara yaklaştığında onların üzerlerine alev yağdırarak her birine en fazla 1 defa <pyro>Ateş Hasarı</pyro> verir. Lyney, süre dolduğunda Alaycı Kediyi ortadan kaldırır, <pyro>Ateş Alan Hasarı</pyro> veren havai fişekler ateşler, 1 Alaycı Kedi Şapkası çağırır ve kendine 1 Dekor Fazlalığı kademesi verir.",
+      "1": "Alaycı Kedi, düşmanlara yaklaştığında onların üzerlerine alev yağdırarak her bir düşmana en fazla 1 defa <pyro>Ateş Hasarı</pyro> verir. Lyney, süre dolduğunda Alaycı Kediyi ortadan kaldırır, <pyro>Ateş Alan Hasarı</pyro> veren havai fişekler ateşler, 1 Alaycı Kedi Şapkası çağırır ve kendine 1 Dekor Fazlalığı kademesi verir.",
       "2": "<br/>",
       "3": "Alaycı Kedi, istendiğinde iptal edilebilir.<i>\"Şimdi iyi izle. Bir mucizeye tanıklık edeceksin, hem de yalnızca ikimize ait bir mucizeye!\"</i>"
     },
@@ -124,12 +124,12 @@
   "passive2": {
     "name": "Son Alkış",
     "description": {
-      "0": "Lyney, <pyro>Ateş</pyro> etkisinde olan düşmanlara Hasar verirken şu güçlendirmeleri kazanır:",
+      "0": "Lyney, <pyro>Ateş</pyro> etkisinde olan düşmanlara Hasar verdiğinde şu güçlendirmeler kazanılır:",
       "1": [
-        "Temel Hasar %60 artar.",
-        "Lyney hariç gruptaki her bir <pyro>Ateş</pyro> karakteri bu etkiye %20 ek bonus sağlar."
+        "Verilen Hasar %60 artar.",
+        "Lyney hariç gruptaki her bir <pyro>Ateş</pyro> karakteri, Hasarı %20 daha fazla artırır."
       ],
-      "2": "Lyney, <pyro>Ateş</pyro> etkisindeki düşmanlara karşı bu şekilde en fazla %100 Hasar artışı kazanabilir."
+      "2": "Lyney, <pyro>Ateşten</pyro> etkilenen düşmanlara karşı bu şekilde en fazla %100 Hasar verebilir."
     }
   },
   "passive3": {
@@ -141,20 +141,20 @@
   "constellation1": {
     "name": "Tuhaf Harikalar",
     "description": {
-      "0": "Lyney tek seferde 2 <strong>Alaycı Kedi Şapkası</strong>na sahip olabilir.",
+      "0": "Lyney tek seferde 2 <strong>Alaycı Kedi Şapkasına</strong> sahip olabilir.",
       "1": "Ayrıca Dekor Okları 2 Alaycı Kedi Şapkası çağırır ve Lyney'ye ek 1 Dekor Fazlalığı kademesi daha sağlar. Bu etki her 15 saniyede bir tetiklenebilir."
     }
   },
   "constellation2": {
     "name": "Tatlı Dil",
     "description": {
-      "0": "Lyney savaş alanındayken her 2 saniyede bir Pürdikkat kademesi kazanır. Bu onun Kritik Hasarını %20 artırır. 3 kademeye kadar birikir. Bu etki, Lyney savaş alanından ayrıldığında kaybolur."
+      "0": "Lyney savaş alanındayken her 2 saniyede bir Pürdikkat kademesi kazanır. Her kademe Lyney'nin Kritik Hasarını %20 artırır. 3 kademeye kadar birikir. Bu etki, Lyney savaş alanından ayrıldığında kaybolur."
     }
   },
   "constellation3": {
     "name": "Hokkabazlık",
     "description": {
-      "0": "<strong>Normal Saldırı: Zorunlu Kart Hamlesi</strong> Seviyesini 3 artırır.",
+      "0": "<strong>Normal Saldırı: Kart Gücü Aktarımı</strong> Seviyesini 3 artırır.",
       "1": "Maksimum yükseltme seviyesi 15'tir."
     }
   },

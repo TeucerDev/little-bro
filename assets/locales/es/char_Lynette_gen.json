@@ -1,7 +1,7 @@
 {
   "name": "Lynette",
   "title": "La Elegancia de las Sombras",
-  "description": "",
+  "description": "Una ayudante de magia poco habladora y expresiva. Es tan impredecible como un felino.",
   "constellationName": "Felis Alba",
   "auto": {
     "name": "Estocada veloz",
@@ -49,15 +49,15 @@
       "5": "Ejecuta una acometida enigmática de manera inmediata.",
       "6": "<br/>",
       "7": "<strong>Mantener pulsado</strong>",
-      "8": "Lynette entra en el estado de “sombra enigmática”, durante el cual se mueve a toda velocidad y aplica una marca de estoque sombrío a un enemigo cercano.",
+      "8": "Lynette entra en el estado de “sombra enigmática”, durante el cual se mueve a toda velocidad y aplica una “marca de estoque sombrío” a un enemigo cercano. Mientras se mueve, puede controlar la dirección en la que esprinta y, al volver a pulsar una vez la habilidad, terminará de correr.",
       "9": "Cuando dicho estado termina, Lynette ejecuta una acometida enigmática. Si hay algún enemigo cercano con una marca de estoque sombrío, Lynette se acercará a él en un instante antes de ejecutar la acometida enigmática.",
       "10": "<br/>",
-      "11": "Como máximo, Lynette solo puede marcar a un enemigo con una marca de estoque sombrío, y si dicho enemigo se encuentra demasiado lejos de ella, la marca desaparecerá.",
+      "11": "Como máximo, Lynette solo puede aplicar una marca de estoque sombrío a un enemigo, y si dicho enemigo se encuentra demasiado lejos de ella, la marca desaparecerá.",
       "12": "<br/>",
       "13": "<strong>Arjé: ousía</strong>",
       "14": "Cada cierto tiempo, cuando Lynette ejecuta una acometida enigmática, en su lugar libera un filo fluyente cargado de energía ousía que inflige <anemo>Daño Anemo</anemo>.",
       "15": "<br/>",
-      "16": "<i>“Y ahora, mira hacia el escenario y sigue disfrutando la actuación. La próxima vez que aparezca, será donde menos te lo esperes”.</i>"
+      "16": "<i>“Y ahora, mira hacia el escenario y sigue disfrutando del espectáculo. La próxima vez que aparezca, será donde menos te lo esperes”.</i>"
     },
     "skillParams": {
       "0": "Daño de acometida enigmática",
@@ -115,7 +115,7 @@
   "passive1": {
     "name": "Sinergia oportuna",
     "description": {
-      "0": "En los 10 s siguientes tras utilizar <strong>Truco: Desvío de atención</strong>, si en el equipo hay 1/2/3/4 personajes de tipos elementales distintos, el ATQ de todos los miembros del equipo aumenta en un 8%/12%/16%/20%."
+      "0": "En los 10 s siguientes tras utilizar <strong>Truco: Desvío de atención</strong>, si en el equipo hay 1/2/3/4 personajes de tipos elementales distintos, el ATQ de todos los miembros del equipo aumenta en un 8/12/16/20%."
     }
   },
   "passive2": {
@@ -127,7 +127,7 @@
   "passive3": {
     "name": "Hidrolocalización",
     "description": {
-      "0": "Muestra la ubicación de los <strong>hidrocúmulos de resurrección</strong> cercanos en el minimapa y aumenta en un 25% la Resistencia Subacuática y la Vida recuperados al tocar un hidrocúmulo."
+      "0": "Muestra la ubicación de los <strong>bancos de peces revitalizantes</strong> cercanos en el minimapa y aumenta en un 25% la Resistencia Acuática y la Vida recuperados al tocar uno."
     }
   },
   "constellation1": {
@@ -165,7 +165,7 @@
   "constellation6": {
     "name": "El ojo de la verdad",
     "description": {
-      "0": "Cuando Lynette utiliza la acometida enigmática de <strong>Ahora me ves...</strong>, se <anemo>imbuye del elemento Anemo</anemo> y obtiene un 20% de <anemo>Bono de Daño Anemo</anemo> durante 6 s."
+      "0": "Cuando Lynette libera la acometida enigmática de <strong>Ahora me ves...</strong>, se <anemo>imbuye del elemento Anemo</anemo> y obtiene un 20% de <anemo>Bono de Daño Anemo</anemo> durante 6 s."
     }
   }
 }

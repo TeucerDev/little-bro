@@ -1,7 +1,7 @@
 {
   "name": "Freminet",
   "title": "Yearning for Unseen Depths",
-  "description": "",
+  "description": "Anak muda pendiam yang jago menyelam. Di balik pembawaannya yang dingin dan tidak ramah, tersembunyi hati yang murni penuh ketulusan.",
   "constellationName": "Automaton",
   "auto": {
     "name": "Flowing Eddies",
@@ -43,7 +43,7 @@
     "name": "Pressurized Floe",
     "description": {
       "0": "Melancarkan serangan ke atas dan mengakibatkan <cryo>Cryo DMG</cryo>, lalu memasuki status Pers Timer selama 10 detik.",
-      "1": "Saat Freminent berada di status Pers Timer, Elemental Skill-nya akan berubah menjadi Shattering Pressure.",
+      "1": "Saat Freminent berada dalam status Pers Timer, Elemental Skill-nya akan berubah menjadi Shattering Pressure.",
       "2": "<br/>",
       "3": "<strong>Shattering Pressure</strong>",
       "4": "Melancarkan serangan yang berbeda berdasarkan level Pressure dari status Pers Timer, lalu menghapus status Pers Timer:",
@@ -54,7 +54,7 @@
       ],
       "6": "<br/>",
       "7": "<strong>Pers Timer</strong>",
-      "8": "Saat Freminet melancarkan Normal Attack, akan melancarkan gelombang embun dingin yang mengakibatkan <cryo>Cryo DMG</cryo> dan juga akan meningkatkan level Pressure.",
+      "8": "Saat Freminet melancarkan Normal Attack, akan melancarkan gelombang Frost yang mengakibatkan <cryo>Cryo DMG</cryo> dan juga akan meningkatkan level Pressure Pers.",
       "9": "<cryo>Cryo DMG</cryo> yang dihasilkan di saat yang bersamaan akan dianggap sebagai DMG Elemental Skill.",
       "10": "<br/>",
       "11": "<strong>Arkhe: Pneuma</strong>",
@@ -65,7 +65,7 @@
     },
     "skillParams": {
       "0": "DMG Serangan ke Atas",
-      "1": "DMG Gelombang Embun Dingin",
+      "1": "DMG Frost",
       "2": "DMG Shattering Pressure Lv. 0",
       "3": "DMG Shattering Pressure Lv. 1",
       "4": "DMG Shattering Pressure Lv. 2",
@@ -85,12 +85,12 @@
   "burst": {
     "name": "Shadowhunter's Ambush",
     "description": {
-      "0": "Melancarkan aura dingin yang tidak dapat disentuh dan mengakibatkan <cryo>Cryo DMG Area</cryo>, memulihkan kembali Cooldown Elemental Skill \"Pressurized Floe\" dan membuat Freminet memasuki status Stalking selama 10 detik.",
+      "0": "Melancarkan aura dingin yang tidak dapat disentuh dan mengakibatkan <cryo>Cryo DMG Area</cryo>, memulihkan kembali Cooldown Elemental Skill \"Pressurized Floe\" dan membuat Freminet memasuki status Subnautical Hunter selama 10 detik.",
       "1": "<br/>",
-      "2": "Selama berada dalam status Stalking, ketahanan Freminet terhadap interupsi meningkat dan Elemental Skill \"Pressurized Floe\" akan mendapatkan buff berikut:",
+      "2": "Selama berada dalam status Subnautical Hunter, ketahanan Freminet terhadap interupsi meningkat dan Elemental Skill \"Pressurized Floe\" akan mendapatkan buff berikut:",
       "3": [
         "Cooldown berkurang 70%.",
-        "Saat melancarkan Normal Attack, akan meningkatkan satu level Pressure dari Pers Time dan DMG gelombang embun dingin yang dihasilkan oleh Normal Attack-nya menjadi 200% dari nilai awalnya."
+        "Saat melancarkan Normal Attack, akan meningkatkan satu level Pressure dari Pers Timer dan DMG gelombang Frost yang dihasilkan oleh Normal Attack-nya menjadi 200% dari nilai awalnya."
       ],
       "4": "<br/>",
       "5": "Efek ini akan dihapus jika Freminet meninggalkan medan pertempuran.",
@@ -119,7 +119,7 @@
   "passive1": {
     "name": "Saturation Deep Dive",
     "description": {
-      "0": "Saat melancarkan <strong>Pressurized Floe: Shattering Pressure</strong>, jika level Pressure milik Pers Time di bawah level 4, maka durasi Cooldown Pressurized Floe berkurang 1 detik."
+      "0": "Saat melancarkan <strong>Pressurized Floe: Shattering Pressure</strong>, jika level Pressure milik Pers Timer di bawah level 4, maka durasi Cooldown Pressurized Floe berkurang 1 detik."
     }
   },
   "passive2": {
@@ -131,12 +131,12 @@
   "passive3": {
     "name": "Deepwater Navigation",
     "description": {
-      "0": "Mengurangi 35% konsumsi Stamina Karakter party sendiri di dalam air.",
+      "0": "Mengurangi 35% konsumsi Aquatic Stamina Karakter party sendiri di dalam air.",
       "1": "Efek ini tidak dapat ditumpuk dengan Talenta Pasif lain dengan efek yang sama persis."
     }
   },
   "constellation1": {
-    "name": "Dreams of the Seething Deep",
+    "name": "Dreams of the Foamy Deep",
     "description": {
       "0": "CRIT Rate <strong>Pressurized Floe: Shattering Pressure</strong> meningkat 15%."
     }
@@ -157,7 +157,7 @@
   "constellation4": {
     "name": "Dance of the Snowy Moon and Flute",
     "description": {
-      "0": "Saat Freminet memicu reaksi Frozen, Shatter, atau Superconduct terhadap musuh, ATK-nya meningkat 9% selama 6 detik. Efek ini dapat ditumpuk sampai 2 lapis dan dapat terpicu sekali setiap 0,3 detik."
+      "0": "Setelah Freminet memicu reaksi Frozen, Shatter, atau Superconduct terhadap musuh, ATK-nya meningkat 9% selama 6 detik. Efek ini dapat ditumpuk sampai 2 lapis dan dapat terpicu sekali setiap 0,3 detik."
     }
   },
   "constellation5": {
@@ -170,7 +170,7 @@
   "constellation6": {
     "name": "Moment of Waking and Resolve",
     "description": {
-      "0": "Saat Freminet memicu reaksi Frozen, Shatter, atau Superconduct terhadap musuh, CRIT DMG akan meningkat 12% selama 6 detik. Efek ini dapat ditumpuk sampai 3 lapis dan dapat terpicu sekali setiap 0,3 detik."
+      "0": "Setelah Freminet memicu reaksi Frozen, Shatter, atau Superconduct terhadap musuh, CRIT DMG-nya meningkat 12% selama 6 detik. Efek ini dapat ditumpuk sampai 3 lapis dan dapat terpicu sekali setiap 0,3 detik."
     }
   }
 }

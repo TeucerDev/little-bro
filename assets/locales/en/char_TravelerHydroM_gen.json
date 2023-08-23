@@ -45,7 +45,7 @@
       "5": "<strong>Hold</strong>",
       "6": "Enter Aiming Mode and constantly fire off Dewdrops in the direction in which you are aiming, dealing <hydro>Hydro DMG</hydro> to opponents they hit.",
       "7": "When the skill ends, it will send a Torrent Surge forward that will deal <hydro>Hydro DMG</hydro> to opponents it comes into contact with.",
-      "8": "Suffusion: When the Traveler's HP is higher than 50%, they will continuously lose HP and cause Dewdrop DMG to increase based on their HP.",
+      "8": "Suffusion: When using the Hold configuration of this skill, if the Traveler's HP is higher than 50%, the DMG dealt by Dewdrops will increase based on the Traveler's Max HP, and the Traveler will lose a fixed amount of HP every second.",
       "9": "<br/>",
       "10": "<strong>Arkhe: Pneuma</strong>",
       "11": "At certain intervals, after using Torrent Surge, this skill will unleash a Spiritbreath Thorn that pierces opponents, dealing Pneuma-aligned <hydro>Hydro DMG</hydro>.",
@@ -148,7 +148,7 @@
   "constellation6": {
     "name": "Tides of Justice",
     "description": {
-      "0": "When the Traveler picks up a Sourcewater Droplet, they will restore HP to the nearest party member with the lowest HP percentage remaining based on 6% of their Max HP."
+      "0": "When the Traveler picks up a Sourcewater Droplet, they will restore HP to a nearby party member with the lowest remaining HP percentage based on 6% of said member's Max HP."
     }
   }
 }

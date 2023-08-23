@@ -1,10 +1,10 @@
 {
   "name": "Fréminet",
-  "title": "Sehnsucht nach unbekannten Tiefen",
-  "description": "",
-  "constellationName": "",
+  "title": "Sehnsucht nach verborgenen Tiefen",
+  "description": "Ein schweigsamer Junge, der sich im Tauchen auskennt. Unter seiner eisigen Erscheinung verbirgt sich ein reines und makelloses Herz.",
+  "constellationName": "Automaton",
   "auto": {
-    "name": "Strömungswirbelßßß",
+    "name": "Strömungswirbel",
     "fields": {
       "normal": {
         "0": "<strong><strong>Standardangriff</strong>",
@@ -40,13 +40,13 @@
     }
   },
   "skill": {
-    "name": "Treibeis-Druckßßß",
+    "name": "Treibeis-Druck",
     "description": {
-      "0": "Führt einen nach oben gerichteten Angriff aus, der <cryo>Kryo-Schaden</cryo> verursacht und für 10 s den Status Pers-Uhrßßß auslöst.",
-      "1": "In diesem Status wird die Elementarfähigkeit durch „Hochdruckmalmerßßß“ ersetzt.",
+      "0": "Führt einen nach oben gerichteten Angriff aus, der <cryo>Kryo-Schaden</cryo> verursacht und für 10 s den Status Pers-Uhr auslöst.",
+      "1": "In diesem Status wird die Elementarfähigkeit durch „Hochdruckmalmer“ ersetzt.",
       "2": "<br/>",
-      "3": "<strong>Hochdruckmalmerßßß</strong>",
-      "4": "Führt je nach Stufendruckßßß der Pers-Uhr einen anderen Angriff aus und entfernt dabei den Status der Pers-Uhr:",
+      "3": "<strong>Hochdruckmalmer</strong>",
+      "4": "Führt je nach Stufendruck der Pers-Uhr einen anderen Angriff aus und entfernt dabei den Status der Pers-Uhr:",
       "5": [
         " Stufe 0: Führt einen vertikalen Hieb aus, der <cryo>Kryo-Schaden</cryo> verursacht.",
         " Stufe 1 bis 3: Führt in Zusammenarbeit mit Pers einen vertikalen Hieb aus, der <cryo>Kryo-Schaden</cryo> und physischen Schaden verursacht. Je nach Stufendruck fällt hierbei der jeweilige Schaden unterschiedlich aus.",
@@ -54,10 +54,10 @@
       ],
       "6": "<br/>",
       "7": "<strong>Pers-Uhr</strong>",
-      "8": "Fréminet löst bei einem Standardangriff gleichzeitig Frostßßß aus und verursacht <cryo>Kryo-Schaden</cryo>, wodurch der Stufendruckßßß der Pers-Uhr erhöht wird.",
+      "8": "Löst bei einem Standardangriff von Fréminet gleichzeitig Frost aus und verursacht <cryo>Kryo-Schaden</cryo>, wodurch der Stufendruck der Pers-Uhr erhöht wird.",
       "9": "Hierdurch verursachter <cryo>Kryo-Schaden</cryo> wird als Schaden der Elementarfähigkeit gewertet.",
       "10": "<br/>",
-      "11": "<strong>Anfängliche Kraftßßß: Pneuma-Energießßß</strong>",
+      "11": "<strong>Arkhe: Pneuma</strong>",
       "12": "Ein Geisterstachel erscheint in regelmäßigen Abständen nach dem Ausführen eines nach oben gerichteten Angriffs. Dieser ist in der Lage, anzugreifen und mit Pneuma versehenen <cryo>Kryo-Schaden</cryo> zu verursachen.",
       "13": "<br/>",
       "14": "<i>Einen Gegner bewegungsunfähig, anstatt ihm den Garaus zu machen, könnte man in gewissem Sinne auch als eine Art „Überlebensstrategie“ bezeichnen.</i>",
@@ -67,11 +67,11 @@
       "0": "Nach oben gerichteter Angriffs-SCH",
       "1": "Frost-SCH",
       "2": "SCH von Hochdruckmalmer Stufe 0",
-      "3": "Hochdruckmalmer Stufe 1 SCH",
-      "4": "Hochdruckmalmer Stufe 2 SCH",
-      "5": "Hochdruckmalmer Stufe 3 SCH",
+      "3": "SCH von Hochdruckmalmer Stufe 1",
+      "4": "SCH von Hochdruckmalmer Stufe 2",
+      "5": "SCH von Hochdruckmalmer Stufe 3",
       "6": "SCH von Hochdruckmalmer Stufe 4",
-      "7": "Geisterstachelßßß-SCH",
+      "7": "Geisterstachel-SCH",
       "8": "Geisterstachel-Intervall",
       "9": "Abklingzeit",
       "10": "",
@@ -83,19 +83,19 @@
     }
   },
   "burst": {
-    "name": "Des Schattenjägers Hinterhaltßßß",
+    "name": "Des Schattenjägers Hinterhalt",
     "description": {
-      "0": "Entfesselt eine unantastbare Kälte, die <cryo>Kryo-Flächenschaden</cryo> verursacht, die Abklingzeit der Elementarfähigkeit „Treibeis-Druckßßß“ zurücksetzt und Fréminet in den Pirscher-Modusßßß versetzt.",
+      "0": "Entfesselt eine unantastbare Kälte, die <cryo>Kryo-Flächenschaden</cryo> verursacht, die Abklingzeit der Elementarfähigkeit „Treibeis-Druck“ zurücksetzt und Fréminet 10 s lang in den Tauchhelm-Modus versetzt.",
       "1": "<br/>",
-      "2": "Im Pirscher-Modus erhöht sich Fréminets Unterbrechungs-WDS und seiner Elementarfähigkeit „Treibeis-Druckßßß“ werden folgende Boni verliehen:",
+      "2": "Im Tauchhelm-Modus erhöht sich Fréminets Unterbrechungs-WDS und seiner Elementarfähigkeit „Treibeis-Druck“ werden folgende Boni verliehen:",
       "3": [
         " Verkürzt die Abklingzeit um 70 %.",
-        " Erhöht bei Ausführen des Standardangriffs die Pers-Uhr um eine weitere Stufe Druck. Außerdem erhöht sich der Schaden des durch Standardangriffe ausgelösten Frostsßßß auf 200 % des ursprünglichen Schadens."
+        " Erhöht beim Ausführen des Standardangriffs die Pers-Uhr um eine weitere Stufe Druck. Außerdem erhöht sich der Schaden des durch Standardangriffe ausgelösten Frosts auf 200 % des ursprünglichen Schadens."
       ],
       "4": "<br/>",
       "5": "Dieser Effekt wird aufgehoben, wenn Fréminet ausgewechselt wird.",
       "6": "<br/>",
-      "7": "<i>„Jetzt ... sollten keine unnötigen Geräusche gemacht werden.“</i>"
+      "7": "<i>„Jetzt ... brauche ich keine unnötigen Geräusche von außen.“</i>"
     },
     "skillParams": {
       "0": "Fähigkeits-SCH",
@@ -117,60 +117,60 @@
     }
   },
   "passive1": {
-    "name": "Sättigungstauchgangßßß",
+    "name": "Sättigungstauchgang",
     "description": {
       "0": "Befindet sich beim Auslösen von <strong>Treibeis-Druck – Hochdruckmalmer</strong> Pers’ Stufendruck unter 4, so reduziert sich die Abklingzeit von Treibeis-Druck um 1 s."
     }
   },
   "passive2": {
-    "name": "Parallelkondensatorßßß",
+    "name": "Parallelkondensator",
     "description": {
       "0": "Erhöht den Schaden von <strong>Treibeis-Druck – Hochdruckmalmer</strong> 5 s um 40 %, wenn Fréminet beim Gegner die Reaktion Eisbrecher ausgelöst hat."
     }
   },
   "passive3": {
-    "name": "Tiefwasser-Navigationßßß",
+    "name": "Tiefwasser-Navigation",
     "description": {
-      "0": "Verringert die im Wasser verbrauchte Ausdauer aller eigenen Truppenmitglieder um 35 %.",
+      "0": "Verringert den Wasserausdauerverbrauch aller Truppenmitglieder um 35 %.",
       "1": "Nicht mit passiven Talenten mit völlig gleichen Effekten stapelbar."
     }
   },
   "constellation1": {
-    "name": "Träume tiefen und schäumenden Wassersßßß",
+    "name": "Träume tiefen und schäumenden Wassers",
     "description": {
       "0": "Erhöht die KT von <strong>Treibeis-Druck – Hochdruckmalmer</strong> um 15 %."
     }
   },
   "constellation2": {
-    "name": "Von Pinguinen und dem Reich des Überflussesßßß",
+    "name": "Von Pinguinen und dem Reich des Überflusses",
     "description": {
       "0": "Stellt Fréminet 2 Punkte Elementarenergie wieder her, wenn <strong>Treibeis-Druck – Hochdruckmalmer</strong> ausgelöst wird. Stellt 3 Punkte her, wenn Hochdruckmalmer beim Auslösen bereits Druck der Stufe 4 erreicht hat."
     }
   },
   "constellation3": {
-    "name": "Ein Lied von Strömung und weißem Sandßßß",
+    "name": "Ein Lied von Strömung und weißem Sand",
     "description": {
       "0": "Erhöht die Stufe der Fähigkeit <strong>Standardangriff – Strömungswirbel</strong> um 3.",
       "1": "Höchststufe 15."
     }
   },
   "constellation4": {
-    "name": "Tanz des frostigen Mondes und der Flöteßßß",
+    "name": "Tanz des frostigen Mondes und der Flöte",
     "description": {
-      "0": "Erhöht den ANG für 6 s um 9 %, wenn Fréminet beim Gegner die Reaktionen Gefroren, Eisbrecher und Supraleiter auslöst. 2-fach stapelbar, 0,3 s Abklingzeit."
+      "0": "Erhöht den ANG 6 s lang um 9 %, nachdem Fréminet beim Gegner die Reaktionen Gefroren, Eisbrecher und Supraleiter ausgelöst hat. 2-fach stapelbar, 0,3 s Abklingzeit."
     }
   },
   "constellation5": {
-    "name": "Nächte voll behaglichem Herdfeuer und Fröhlichkeitßßß",
+    "name": "Nächte voll behaglichem Herdfeuer und Fröhlichkeit",
     "description": {
       "0": "Erhöht die Stufe der Fähigkeit <strong>Treibeis-Druck</strong> um 3.",
       "1": "Höchststufe 15."
     }
   },
   "constellation6": {
-    "name": "Moment des Erwachens und der Entschlossenheitßßß",
+    "name": "Moment des Erwachens und der Entschlossenheit",
     "description": {
-      "0": "Erhöht den Kritischen Schaden für 6 s um 12 %, wenn Fréminet beim Gegner die Reaktionen Gefroren, Eisbrecher und Supraleiter auslöst. 3-fach stapelbar, 0,3 s Abklingzeit."
+      "0": "Erhöht den KSCH 6 s lang um 12 %, nachdem Fréminet beim Gegner die Reaktionen Gefroren, Eisbrecher und Supraleiter ausgelöst hat. 3-fach stapelbar, 0,3 s Abklingzeit."
     }
   }
 }

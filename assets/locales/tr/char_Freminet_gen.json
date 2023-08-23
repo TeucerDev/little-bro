@@ -1,7 +1,7 @@
 {
   "name": "Freminet",
   "title": "Dipsiz Derinliklere Özlem",
-  "description": "",
+  "description": "Dalış konusunda oldukça bilgili genç bir beyefendi. Mesafeli ve soğuk tavrının ardında kusursuz, saf bir kalbe sahiptir.",
   "constellationName": "Canavar Makinası",
   "auto": {
     "name": "Girdap Akıntısı",
@@ -46,22 +46,22 @@
       "1": "Pers Göstergesi etkin durumdayken Freminet'nin Element Becerisi, Parçalayıcı Basınca dönüşür.",
       "2": "<br/>",
       "3": "<strong>Parçalayıcı Basınç</strong>",
-      "4": "Pers Göstergesinin Basınç seviyesine göre farklı türlerde saldırılar yapar ve ardından Pers Göstergesini sonlandırır.",
+      "4": "Pers Göstergesinin Basınç Seviyesine göre farklı türlerde saldırılar yapar ve ardından Pers Göstergesini sonlandırır.",
       "5": [
         "0. Seviye: <cryo>Buz Hasarı</cryo> veren dikey bir darbe vurur.",
-        "1 ila 3. Seviyeler: Pers'in yanında <cryo>Buz Hasarı</cryo> ve Fiziksel Hasar veren dikey bir darbe vurur. Verilen Hasar, Basınç seviyesine göre değişir."
+        "1 ila 3. Seviyeler: Pers'in yanında <cryo>Buz Hasarı</cryo> ve Fiziksel Hasar veren dikey bir darbe vurur. Verilen Hasar, Basınç seviyesine göre değişir.",
+        "4. Seviye: Tam basınçtaki Pers'in gücünü kullanarak Fiziksel Hasar verir. Bu sırada Normal Saldırı: Girdap Akıntısının yerini Parçalayıcı Basınç alır."
       ],
-      "6": "4. Seviye: Tam basınçtaki Pers'in gücünü kullanarak Fiziksel Hasar verir. Bu sırada Normal Saldırı: Girdap Akıntısının yerini Parçalayıcı Basınç alır.",
-      "7": "<br/>",
-      "8": "<strong>Pers Göstergesi</strong>",
-      "9": "Freminet, Normal Saldırı yaparken <cryo>Buz Hasarı</cryo> veren buzul dalgaları çıkarır ve Pers'in Basınç Seviyesini artırır.",
-      "10": "Bu şekilde verilen <cryo>Buz Hasarı</cryo>, Element Becerisi Hasarı sayılır.",
-      "11": "<br/>",
-      "12": "<strong>Arkhe: Ruh</strong>",
-      "13": "Belirli aralıklarla Freminet, yukarı doğru bir saldırı yaptıktan sonra Ruh Nefesi Dikeni oluşturur ve Ruh <cryo>Buz Hasarı</cryo> veren yukarı doğru başka bir saldırı daha gerçekleşir.",
-      "14": "<br/>",
-      "15": "<i>Düşmanı öldürmeden etkisiz hale getirmek, bazı kişiler için \"hayatta kalma\" stratejisi olarak görülebilir.</i>",
-      "16": "<i>\"Pers... Gerisini sana bırakıyorum.\"</i>"
+      "6": "<br/>",
+      "7": "<strong>Pers Göstergesi</strong>",
+      "8": "Freminet, Normal Saldırı yaparken <cryo>Buz Hasarı</cryo> veren buzul dalgaları çıkarır ve Pers'in Basınç Seviyesini artırır.",
+      "9": "Bu şekilde verilen <cryo>Buz Hasarı</cryo>, Element Becerisi Hasarı sayılır.",
+      "10": "<br/>",
+      "11": "<strong>Arkhe: Ruh</strong>",
+      "12": "Belirli aralıklarla Freminet, yukarı doğru bir saldırı yaptıktan sonra Ruh Nefesi Dikeni oluşturur ve Ruh tesirli <cryo>Buz Hasarı</cryo> veren yukarı doğru başka bir saldırı daha gerçekleşir.",
+      "13": "<br/>",
+      "14": "<i>Düşmanı öldürmeden etkisiz hale getirmek, bazı kişiler için \"hayatta kalma\" stratejisi olarak görülebilir.</i>",
+      "15": "<i>\"Pers... Gerisini sana bırakıyorum.\"</i>"
     },
     "skillParams": {
       "0": "Yukarı Doğru Saldırı Hasarı",
@@ -87,13 +87,13 @@
     "description": {
       "0": "Dokunulmaz derecede soğuk olan bir dalgalar zinciri çıkararak <cryo>Buz Alan Hasarı</cryo> verir, \"Tazyikli Buz\" Element Becerisinin Bekleme Süresini sıfırlar ve Freminet'nin 10 saniyeliğine Su Altı Avcısı moduna girmesine neden olur.",
       "1": "<br/>",
-      "2": "Su Altı Avcısı modundayken Freminet'nin müdahaleye karşı direnci artar ve Tazyikli Buz şu güçlendirmeleri alır:",
+      "2": "Su Altı Avcısı modundayken Freminet'nin müdahaleye karşı direnci artar ve Element Becerisi \"Tazyikli Buz\" şu güçlendirmeleri alır:",
       "3": [
         "Bekleme Süresi %70 azalır.",
-        "Normal Saldırılar Pers'e ek 1 Basınç kademesi sağlar ve çıkardıkları buzullar, asıl Hasarlarının %200'ü oranında Hasar verir."
+        "Normal Saldırılar Pers Göstergesine ek 1 Basınç kademesi sağlar ve Normal Saldırısıyla çıkardığı buzullar, asıl Hasarlarının %200'ü oranında Hasar verir."
       ],
       "4": "<br/>",
-      "5": "Bu etki, Freminet savaş alanından ayrıldığında kaybolur.",
+      "5": "Bu etkiler, Freminet savaş alanından ayrıldığında kaybolur.",
       "6": "<br/>",
       "7": "<i>\"Artık... Dışarıdan hiçbir sese ihtiyacım yok.\"</i>"
     },
@@ -119,7 +119,7 @@
   "passive1": {
     "name": "Derin Satürasyon Dalışı",
     "description": {
-      "0": "<strong>Tazyikli Buz: Parçalayıcı Basınç</strong> becerisini kullanırken Pers Göstergesinin Basınç Seviyesi 4'ten azsa Tazyikli Buzun Bekleme Süresi 1 saniye azalır."
+      "0": "Freminet, <strong>Tazyikli Buz: Parçalayıcı Basınç</strong> becerisini kullanırken Pers Göstergesinin Basınç Seviyesi 4'ten azsa Tazyikli Buzun Bekleme Süresi 1 saniye azalır."
     }
   },
   "passive2": {
@@ -131,7 +131,7 @@
   "passive3": {
     "name": "Derin Sularda Seyir",
     "description": {
-      "0": "Kendi grup üyelerinin Su Altı Dayanıklılık Tüketimini %35 azaltır.",
+      "0": "Kendi grup üyelerinin Yüzme Dayanıklılığı tüketimini %35 azaltır.",
       "1": "Aynı etkiyi veren Pasif Yeteneklerle birikmez."
     }
   },

@@ -1,7 +1,7 @@
 {
   "name": "Lyney",
   "title": "Spectacle of Phantasmagoria",
-  "description": "",
+  "description": "A famed Fontainian magician who possesses great stage presence as well as gift of the gab. Audiences are enthralled by his exquisite skills, and they hang on to his every clever word.",
   "constellationName": "Felis Fuscus",
   "auto": {
     "name": "Card Force Translocation",
@@ -32,7 +32,7 @@
           "The Hat will inherit a percentage of Lyney's Max HP.",
           "If destroyed, or if its duration expires, it will fire off a <strong>Pyrotechnic Strike</strong> at 1 nearby opponent, dealing <pyro>Pyro DMG</pyro>."
         ],
-        "2": "1 Hat can exist at any given time."
+        "2": "Only 1 Hat can exist at any given time."
       },
       "arkhe": {
         "0": "<strong>Arkhe: Pneuma</strong>",
@@ -91,12 +91,12 @@
   "burst": {
     "name": "Wondrous Trick: Miracle Parade",
     "description": {
-      "0": "Unleashing his magic, Lyney turns hinself into a Grin-Malkin Cat that can move around quickly. (Not to be mistaken for the Grin-Malkin Hat. They're two different props!)",
+      "0": "Unleashing his magic, Lyney turns himself into a Grin-Malkin Cat that can move around quickly. (Not to be mistaken for the Grin-Malkin Hat. They're two different props!)",
       "1": "When the Grin-Malkin Cat gets close to opponents, it will send flames falling down on them, dealing at most 1 instance of <pyro>Pyro DMG</pyro> to each opponent. When the duration ends, he will dismiss the Grin-Malkin Cat and ignite fireworks that deal <pyro>AoE Pyro DMG</pyro>, summon 1 Grin-Malkin Hat, and grant himself 1 Prop Surplus stack.",
       "2": "<br/>",
       "3": "Grin-Malkin Cat can be actively canceled.",
       "4": "<br/>",
-      "5": "<i>\"Watch closely now. This is a time for miracles, and it belongs just to the two of us!\"</i>"
+      "5": "<i>\"Watch closely now. This is a time for miracles, and it belongs to just the two of us!\"</i>"
     },
     "skillParams": {
       "0": "Skill DMG",
@@ -126,12 +126,12 @@
   "passive2": {
     "name": "Conclusive Ovation",
     "description": {
-      "0": "When dealing DMG to opponents affected by <pyro>Pyro</pyro>, Lyney will receive the following buffs:",
+      "0": "The DMG Lyney deals to opponents affected by <pyro>Pyro</pyro> will receive the following buffs:",
       "1": [
-        "Base ATK increased by 60%.",
-        "Each <pyro>Pyro</pyro> party member other than Lyney will cause this effect to receive a further 20% bonus."
+        "Increases the DMG dealt by 60%.",
+        "Each <pyro>Pyro</pyro> party member other than Lyney will cause the DMG dealt to increase by an additional 20%."
       ],
-      "2": "Lyney can gain a total of 100% increased DMG to opponents affected by <pyro>Pyro</pyro> in this way."
+      "2": "Lyney can deal up to 100% increased DMG to opponents affected by <pyro>Pyro</pyro> in this way."
     }
   },
   "passive3": {
@@ -148,9 +148,9 @@
     }
   },
   "constellation2": {
-    "name": "Locquacious Cajoling",
+    "name": "Loquacious Cajoling",
     "description": {
-      "0": "When Lyney is on the field, he will gain a stack of Crisp Focus every 2s. This will increase his CRIT DMG by 20%. Max 3 stacks. This effect will be canceled when Lyney leaves the field."
+      "0": "When Lyney is on the field, he will gain a stack of Crisp Focus every 2s. Each stack will increase his CRIT DMG by 20%. Max 3 stacks. This effect will be canceled when Lyney leaves the field."
     }
   },
   "constellation3": {

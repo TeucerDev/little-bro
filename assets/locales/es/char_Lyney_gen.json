@@ -1,7 +1,7 @@
 {
   "name": "Lyney",
   "title": "El Mago de la Fantasmagoría",
-  "description": "",
+  "description": "Un astuto y hábil mago de Fontaine que siempre se gana al público con sus ingeniosos trucos y su elocuencia.",
   "constellationName": "Felis Fuscus",
   "auto": {
     "name": "Adivina la carta",
@@ -12,13 +12,13 @@
       },
       "charged": {
         "0": "<strong>Ataque Cargado</strong>",
-        "1": "Realiza un Disparo Preciso que inflige mayor daño y tiene mayor precisión.",
-        "2": "Al apuntar, se acumulará una llama en la punta de flecha. Sus efectos serán distintos dependiendo de durante cuánto tiempo se haya cargado:",
+        "1": "Realiza un <strong>Disparo Preciso</strong> que inflige mayor daño y tiene mayor precisión.",
+        "2": "Al apuntar, se acumulará una llama en la punta de la flecha. Sus efectos serán distintos dependiendo de durante cuánto tiempo se haya cargado:",
         "3": [
           "Carga 1: dispara una flecha cargada del elemento Pyro que inflige <pyro>Daño Pyro</pyro>.",
           "Carga 2: dispara una flecha magiaoculta que inflige <pyro>Daño Pyro</pyro> y que crea un sombrero gatorrisueño tras impactar contra el objetivo."
         ],
-        "4": "Si Lyney tiene más del 60% de Vida al disparar la flecha magiaoculta, consumirá una parte de su Vida y obtendrá una carga de “cálculo oculto”, lo cual puede acumularse hasta 5 veces. Este efecto se anula 30 s después de que Lyney no esté en combate.",
+        "4": "Si Lyney tiene más del 60% de Vida al disparar la flecha magiaoculta, consumirá una parte de su Vida y obtendrá una carga de “cálculo oculto”, la cual puede acumularse hasta 5 veces. Este efecto se anula 30 s después de que Lyney no esté en combate.",
         "5": "La Vida de Lyney solo podrá reducirse hasta el 60% de esta manera."
       },
       "plunging": {
@@ -118,7 +118,7 @@
     }
   },
   "passive1": {
-    "name": "Actuación arriesgada",
+    "name": "Espectáculo arriesgado",
     "description": {
       "0": "Si Lyney consume su propia Vida al disparar una <strong>flecha magiaoculta</strong>, cuando el sombrero gatorrisueño invocado por dicha flecha golpee a un enemigo, Lyney recupera 3 pts. de Energía Elemental y el daño que inflige aumenta en un 80% de su ATQ."
     }
@@ -176,7 +176,7 @@
   "constellation6": {
     "name": "Sonrisa engañosa",
     "description": {
-      "0": "Cuando Lyney dispara una <strong>flecha magiaoculta</strong>, se libera un proyectil pirotecnimágico: bis que inflige un 80% del daño del proyectil pirotecnimágico, el cual se considera daño de Ataque Cargado."
+      "0": "Cuando Lyney dispara una <strong>flecha magiaoculta</strong>, se libera un proyectil pirotecnimágico: bis que inflige un 80% del daño del proyectil pirotecnimágico original. Este daño se considera daño de Ataque Cargado."
     }
   }
 }

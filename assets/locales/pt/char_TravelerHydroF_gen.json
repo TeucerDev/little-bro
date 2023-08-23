@@ -40,18 +40,17 @@
       "0": "Lança uma corrente torrencial que varre a terra.",
       "1": "<br/>",
       "2": "<strong>Pressionar</strong>",
-      "3": "<br/>",
-      "4": "Lança uma Erupção Torrencial para frente que causa <hydro>Dano Hydro</hydro> contra os inimigos que atingir.",
-      "5": "<br/>",
-      "6": "<strong>Manter Pressionado</strong>",
-      "7": "Entra no modo de mira e lança continuamente Gotas de Orvalho na direção que se está mirando, causando <hydro>Dano Hydro</hydro> contra os inimigos que atingir.",
-      "8": "Ao terminar, lança uma Erupção Torrencial para frente que causa <hydro>Dano Hydro</hydro> contra os inimigos que atingir.",
-      "9": "Abundância: quando a Vida do Viajante for maior que 50%, consumirá Vida continuamente e aumentará o Dano causado pela Gota de Orvalho, o valor do aumento é baseado na Vida d{F#a}{M#o} Viajante.",
-      "10": "<br/>",
-      "11": "<strong>Força Fundamental: Pneuma</strong>",
-      "12": "Periodicamente, depois de lançar uma Erupção Torrencial, lançará um Espinho Espiritual que perfurará os inimigos e que causará <hydro>Dano Hydro</hydro> aplicado com Pneuma.",
-      "13": "<br/>",
-      "14": "<i>Você e Paimon observaram as ondas criadas na superfície das águas.</i>"
+      "3": "Lança uma Erupção Torrencial para frente que causa <hydro>Dano Hydro</hydro> contra os inimigos que atingir.",
+      "4": "<br/>",
+      "5": "<strong>Manter Pressionado</strong>",
+      "6": "Entra no modo de mira e lança continuamente Gotas de Orvalho na direção que se está mirando, causando <hydro>Dano Hydro</hydro> contra os inimigos que atingir.",
+      "7": "Ao terminar, lança uma Erupção Torrencial para frente que causa <hydro>Dano Hydro</hydro> contra os inimigos que atingir.",
+      "8": "Abundância: ao lançar o Manter Pressionado, se a Vida do Viajante for maior que 50%, aumentará o Dano causado por Gota de Orvalho baseado na Vida Máxima do Viajante, e consumirá uma certa quantidade de Vida a cada segundo.",
+      "9": "<br/>",
+      "10": "<strong>Arkhe: Pneuma</strong>",
+      "11": "Periodicamente, depois de lançar uma Erupção Torrencial, lançará um Espinho Espiritual que perfurará os inimigos e que causará <hydro>Dano Hydro</hydro> aplicado com Pneuma.",
+      "12": "<br/>",
+      "13": "<i>Você e Paimon observaram as ondas criadas na superfície das águas.</i>"
     },
     "skillParams": {
       "0": "Dano de Erupção Torrencial",
@@ -101,14 +100,14 @@
   "passive1": {
     "name": "Águas Puras",
     "description": {
-      "0": "Quando a Gota de Orvalho disparada de <strong>Sabre da Insígnia Aquática</strong> atingir um inimigo, gerará uma Gota d'Água Primordial perto d{F#a}{M#o} Viajante. Quando {F#a}{M#o} Viajante coletar uma Gota d'Água Primordial, regenerará 7% de sua Vida.",
+      "0": "Quando a Gota de Orvalho disparada com o Manter Pressionado de <strong>Sabre da Insígnia Aquática</strong> atingir um inimigo, gerará uma Gota d'Água Primordial perto d{F#a}{M#o} Viajante. Quando {F#a}{M#o} Viajante coletar uma Gota d'Água Primordial, regenerará 7% de sua Vida.",
       "1": "É possível gerar até uma Gota d'Água Primordial dessa forma. E cada vez que Sabre da Insígnia Aquática for lançado, é possível criar até 4 Gotas d'Água Primordial."
     }
   },
   "passive2": {
     "name": "Água Cristalina",
     "description": {
-      "0": "Se lançar com Manter Pressionado o <strong>Sabre da Insígnia Aquática</strong> consumir Vida através de Abundância, aumentará o Dano causado de Erupção Torrencial no final do lançamento, o valor do aumento é igual a 45% do valor da Abundância consumido pel{F#a}{M#o} Viajante neste lançamento.",
+      "0": "Se lançar com o Manter Pressionado de <strong>Sabre da Insígnia Aquática</strong> consumir Vida através de Abundância, aumentará o Dano causado de Erupção Torrencial no final do lançamento, o valor do aumento é igual a 45% do valor da Abundância consumido pel{F#a}{M#o} Viajante neste lançamento.",
       "1": "É possível aumentar o Dano em até 5.000 desta forma."
     }
   },
@@ -128,7 +127,7 @@
   "constellation3": {
     "name": "Ondas Furiosas",
     "description": {
-      "0": "Aumenta o nível de<strong>Sabre da Insígnia Aquática</strong> em 3.",
+      "0": "Aumenta o nível de <strong>Sabre da Insígnia Aquática</strong> em 3.",
       "1": "O nível máximo de elevação é 15."
     }
   },

@@ -1,7 +1,7 @@
 {
   "name": "Lynette",
   "title": "Eleganza nell'ombra",
-  "description": "",
+  "description": "Un'assistente magica di poche parole, le cui emozioni sono imperscrutabili come quelle di un gatto.",
   "constellationName": "Felis Alba",
   "auto": {
     "name": "Spada rituale",
@@ -49,8 +49,8 @@
       "5": "Sferra una Stoccata enigmatica rapida.",
       "6": "<br/>",
       "7": "<strong>Pressione prolungata</strong>",
-      "8": "Lynette entra nello stato di Ombra ladruncola, aumentando la sua velocità e applicando un Marchio d'ombra a un avversario vicino.",
-      "9": "Al termine dello stato, Lynette sferra una Stoccata enigmatica. Se nelle sue vicinanze è presente un avversario affetto dal Marchio d'ombra, Lynette lo raggiunge in un baleno prima di sferrare la Stoccata enigmatica.",
+      "8": "Lynette entra nello stato di Ombra ladruncola, che le consente di muoversi a gran velocità e di applicare un Marchio d'ombra a un avversario vicino. Mentre Ombra ladruncola è attivo, è possibile controllare la direzione di movimento di Lynette e interrompere in anticipo gli effetti dello stato usando nuovamente l'abilità.",
+      "9": "Al termine di Ombra ladruncola, Lynette sferra una Stoccata enigmatica. Se nelle sue vicinanze è presente un avversario affetto dal Marchio d'ombra, Lynette lo raggiunge in un baleno prima di sferrare la Stoccata enigmatica.",
       "10": "<br/>",
       "11": "Il Marchio d'ombra può essere applicato a non più di 1 avversario alla volta. Se quest'ultimo si allontana troppo da Lynette, il Marchio d'ombra si dissolve.",
       "12": "<br/>",
@@ -81,7 +81,7 @@
   "burst": {
     "name": "Gioco di prestigio: Trasmutazione mirabolante",
     "description": {
-      "0": "Lynette alza il mantello per infliggere <anemo>DAN da Anemo</anemo>, e usa la sua incredibile destrezza di mano per far apparire una Scatola Stravagatto gigante!",
+      "0": "Lynette alza il mantello per infliggere <anemo>DAN da Anemo ad area</anemo>, e usa la sua incredibile destrezza di mano per far apparire una Scatola Stravagatto gigante!",
       "1": "<br/>",
       "2": "<strong>Scatola Stravagatto</strong>",
       "3": [
@@ -127,19 +127,19 @@
   "passive3": {
     "name": "Tecnica dei loci",
     "description": {
-      "0": "Mostra la posizione dei <strong>Globi di ripristino</strong> sulla minimappa. Il vigore subacqueo e i PS ottenuti toccando i Globi aumentano di un 25%."
+      "0": "Mostra la posizione dei <strong>Globi di ripristino</strong> sulla minimappa. Il vigore acquatico e i PS ottenuti toccando i Globi aumentano di un 25%."
     }
   },
   "constellation1": {
     "name": "Ombra sferzante",
     "description": {
-      "0": "Quando la Stoccata enigmatica di <strong>Simulazione enigmatica</strong> colpisce un avversario con Marchio d'ombra, si genera un vortice nella posizione dell'avversario che risucchia gli avversari vicini."
+      "0": "Quando un avversario con il Marchio d'ombra viene colpito dalla Stoccata enigmatica di <strong>Simulazione enigmatica</strong>, si genera un vortice nella sua posizione che risucchia gli avversari vicini."
     }
   },
   "constellation2": {
     "name": "Misteri sconfinati",
     "description": {
-      "0": "Ogni volta che la Scatola Stravagatto invocata da <strong>Gioco di prestigio: Trasmutazione mirabolante</strong> scaglia un Colpo vivido, ne scaglia uno in più."
+      "0": "Ogni volta che la Scatola Stravagatto evocata da <strong>Gioco di prestigio: Trasmutazione mirabolante</strong> scaglia un Colpo vivido, ne scaglia uno in più."
     }
   },
   "constellation3": {
