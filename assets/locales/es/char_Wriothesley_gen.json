@@ -1,6 +1,6 @@
 {
   "name": "Wriothesley",
-  "title": "???",
+  "title": "",
   "description": "",
   "constellationName": "",
   "auto": {
@@ -9,7 +9,7 @@
       "normal": {
         "0": "<strong><strong>Ataque Normal</strong>",
         "1": "Acumula hielo en los puños para ejecutar hasta 5 potentes <strong>puñetazos expeledores</strong> que infligen <cryo>Daño Cryo</cryo>.",
-        "2": "Además, durante un breve periodo de tiempo después de esprintar, la secuencia de los Ataques Normales no se reiniciará."
+        "2": "Además, al usar la Habilidad Definitiva, “Envite ateridor”, o durante un breve periodo de tiempo después de esprintar, la secuencia de los Ataques Normales no se reiniciará."
       },
       "charged": {
         "0": "<strong>Ataque Cargado</strong>",
@@ -80,7 +80,7 @@
       "2": "<strong>Arjé: ousía</strong>",
       "3": "Tras liberar el carámbano apisonador, en la ubicación del enemigo caerá un filo fluyente que inflige <cryo>Daño Cryo</cryo> cargado de energía ousía.",
       "4": "<br/>",
-      "5": "<i>Hay cosas que sacan de quicio hasta al mismísimo conde del Fuerte Merópide, como por ejemplo, la tediosa burocracia, el trabajo de vigilancia o... la insistencia de ciertas criaturas de baja estatura en pegar en los guantes de combate del conde unas calcomanías muy difíciles de despegar.</i>"
+      "5": "<i>Hay cosas que sacan de quicio hasta al mismísimo duque del Fuerte Merópide, como por ejemplo, la tediosa burocracia, el trabajo de vigilancia o... la insistencia de ciertas criaturas de baja estatura en pegar en los guantes de combate del duque unas calcomanías muy difíciles de despegar.</i>"
     },
     "skillParams": {
       "0": "Daño de habilidad",
@@ -105,7 +105,7 @@
     "name": "Refutación del dogma",
     "description": {
       "0": "Cuando la Vida de Wriothesley está por debajo del 60%, obtiene el efecto de “merced reprensora”, el cual fortalece su siguiente Ataque Cargado de <strong>Ataque Normal: Combo glaciodemoledor</strong> para convertirlo en un gancho alto disciplinario que no consume Aguante, inflige un 30% más de daño y, al golpear al enemigo, restaura Vida a Wriothesley en una cantidad equivalente al 30% de su propia Vida Máx.",
-      "1": "Como máximo, el efecto de merced reprensora solo se puede obtener una vez cada 5 s de  esta forma."
+      "1": "Como máximo, el efecto de merced reprensora solo se puede obtener una vez cada 5 s de esta forma."
     }
   },
   "passive2": {
@@ -123,8 +123,8 @@
   "constellation1": {
     "name": "Aterrorizar a los facinerosos",
     "description": {
-      "0": "Transforma el efecto merced reprensora del talento pasivo “Refutación del dogma”:",
-      "1": "Cuando la Vida de Wriothesley está por debajo del 50% o cuando se encuentra en el estado de sentencia frigiardiente de <strong>Envite ateridor</strong>, golpear al enemigo con el quinto puñetazo expeledor otorga a Wriothesley el efecto de merced reprensora. Solo podrá obtener este efecto una vez cada 2.5 s.",
+      "0": "Cambia el efecto merced reprensora del talento pasivo “Refutación del dogma”:",
+      "1": "Cuando la Vida de Wriothesley está por debajo del 60% o cuando se encuentra en el estado de sentencia frigiardiente de <strong>Envite ateridor</strong>, golpear al enemigo con el quinto puñetazo expeledor otorga a Wriothesley el efecto de merced reprensora. Solo podrá obtener este efecto una vez cada 2.5 s.",
       "2": "<br/>",
       "3": "Además, el gancho alto disciplinario obtiene los siguientes fortalecimientos:",
       "4": [
@@ -152,7 +152,7 @@
   "constellation4": {
     "name": "Redimir a los diligentes",
     "description": {
-      "0": "La vida que el gancho alto disciplinario restaura a Wriothesley aumenta hasta un 50% de su Vida Máx. (es necesario desbloquear el talento pasivo “Refutación del dogma”).",
+      "0": "La Vida que el gancho alto disciplinario restaura a Wriothesley aumenta hasta un 50% de su Vida Máx. (es necesario desbloquear el talento pasivo “Refutación del dogma”).",
       "1": "Además, cuando Wriothesley recibe curación, si su Vida está al máximo, obtendrá distintos efectos dependiendo de si estaba en uso o no al recibir dicha curación. Si estaba en uso, su Vel. de Ataque aumenta en un 20% durante 4 s; si estaba en tu equipo pero no en combate, la Vel. de Ataque de todos los miembros del equipo aumenta en un 10% durante 6 s. Estos dos aumentos de Vel. de Ataque no se pueden acumular."
     }
   },

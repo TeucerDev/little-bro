@@ -12,18 +12,18 @@
       },
       "chargedLegal": {
         "0": "<strong>Charged Attack Empowerment: Legal Evaluation</strong>",
-        "1": "Saat melakukan charge, Neuvillette akan mengumpulkan kekuatan air, dan membentuknya menjadi Seal of Abitration secara perlahan. Saat berada dalam status ini, Neuvillette bisa bergerak dan mengubah arah pergerakannya, juga akan bisa menyerap Sourcewater Droplet dalam radius tertentu.",
-        "2": "Untuk setiap Sourcewater Droplet yang diserap, pembentukan Seal of Abitration akan dipercepat, dan akan memulihkan HP Neuvillette berdasarkan Max HP miliknya.",
-        "3": "Setelah Charge dihentikan, jika Seal of Abitration masih belum terbentuk secara sempurna, maka Neuvillette akan melancarkan Charged Attack; Jika sudah, maka serangannya akan dikonversi menjadi Charged Attack: Equitable Judgement."
+        "1": "Saat melakukan charge, Neuvillette akan mengumpulkan kekuatan air, dan membentuknya menjadi Seal of Abitration secara perlahan. Saat berada dalam status ini, Neuvillette dapat bergerak dan mengubah arah pergerakannya, juga dapat menyerap Sourcewater Droplet dalam radius tertentu.",
+        "2": "Untuk setiap Sourcewater Droplet yang diserap, pembentukan Seal of Abitration akan dipercepat dan akan memulihkan HP Neuvillette.",
+        "3": "Setelah Charge dihentikan, jika Seal of Abitration masih belum terbentuk secara sempurna, maka Neuvillette akan melancarkan Charged Attack; Jika sudah, maka serangannya akan dikonversi menjadi Charged Attack: Equitable Judgment."
       },
       "charged": {
         "0": "<strong>Charged Attack</strong>",
-        "1": "Mengonsumsi sejumlah Stamina, menyerang musuh dengan cincin air ganas__ dan mengakibatkan <hydro>Hydro DMG Area</hydro>."
+        "1": "Mengonsumsi sejumlah Stamina, menyerang musuh dengan cincin air ganas dan mengakibatkan <hydro>Hydro DMG Area</hydro>."
       },
       "chargedJudgment": {
-        "0": "<strong>Charged Attack: Equitable Judgement</strong>",
+        "0": "<strong>Charged Attack: Equitable Judgment</strong>",
         "1": "Melancarkan ombak ganas dan terus-menerus mengakibatkan <hydro>Hydro DMG Area</hydro> terhadap musuh yang berada di dalam area garis lurus di depan.",
-        "2": "Charged Attack: Equitable Judgement tidak akan mengonsumi Stamina dan berlangsung selama X detik.",
+        "2": "Charged Attack: Equitable Judgment tidak akan mengonsumsi Stamina dan berlangsung selama 3 detik.",
         "3": "Jika HP berada di atas 50%, maka akan terus-menerus mengonsumsi HP Neuvillette saat dilancarkan."
       },
       "plunging": {
@@ -37,12 +37,12 @@
       "2": "DMG Tahap 3",
       "3": "DMG Charged Attack",
       "4": "Konsumsi Stamina Charged Attack",
-      "5": "Charged Attack: Equitable Judgment",
+      "5": "DMG Charged Attack: Equitable Judgment",
       "6": "HP Dipulihkan",
       "7": "Pengurangan HP",
-      "8": "Batas Pengurangan HP Awal__",
+      "8": "Batas Pengurangan HP Awal",
       "9": "DMG Selama Plunging",
-      "10": "DMG Plunging Attack Min./Maks.",
+      "10": "",
       "11": "",
       "12": "",
       "13": "",
@@ -53,12 +53,12 @@
   "skill": {
     "name": "O Tears, I Shall Repay",
     "description": {
-      "0": "Memanggil Raging Waterfall yang mengakibatkan <hydro>Hydro DMG</hydro> terhadap musuh yang berada di depan. Setelah mengenai musuh, akan menghasilkan 3 Sourcewater Droplet di sekitar musuh.",
+      "0": "Memanggil Raging Waterfall yang mengakibatkan <hydro>Hydro DMG Area</hydro> berdasarkan Max HP Neuvillette terhadap musuh yang berada di depan. Setelah mengenai musuh, akan menciptakan 3 Sourcewater Droplet di sekitar musuh.",
       "1": "<br/>",
       "2": "<strong>Arkhe: Pneuma</strong>",
-      "3": "Setiap satu kurun waktu tertentu, setelah Raging Waterfall dijatuhkan, akan muncul Spiritbreath Thorn yang bisa menembus musuh dan mengakibatkan Pneuma-aligned <hydro>Hydro DMG</hydro>.",
+      "3": "Setiap satu kurun waktu tertentu, setelah Raging Waterfall diturunkan, Spiritbreath Thorn yang dapat menembus musuh dan mengakibatkan Pneuma-aligned <hydro>Hydro DMG</hydro> akan diturunkan.",
       "4": "<br/>",
-      "5": "<i>\"Hukum bisa mengekang seluruh tindakan jahat, tapi tidak bisa menghapus kejahatan itu sendiri.</i>"
+      "5": "<i>\"Hukum dapat mengekang seluruh tindakan jahat, tetapi tidak dapat menghapus kejahatan itu sendiri.\"</i>"
     },
     "skillParams": {
       "0": "DMG Skill",
@@ -82,9 +82,9 @@
   "burst": {
     "name": "O Tides, I Have Returned",
     "description": {
-      "0": "Melancarkan gelombang ganas yang mengakibatkan <hydro>Hydro DMG AoE</hydro> berdasarkan Max HP Neuvillette. Setelah jeda singkat, 2 air terjun akan jatuh di sekitar dan mengakibatkan <hydro>Hydro DMG Area</hydro> dengan radius area yang relatif kecil dan menghasilkan 6 Sourcewater Droplet dalam radius tertentu di depan.",
+      "0": "Melancarkan gelombang ganas yang mengakibatkan <hydro>Hydro DMG Area</hydro> berdasarkan Max HP Neuvillette. Setelah jeda singkat, 2 air terjun akan turun di sekitar dan mengakibatkan <hydro>Hydro DMG</hydro> dengan radius area yang relatif kecil dan menciptakan 6 Sourcewater Droplet di depan Neuvillette, di dalam radius.",
       "1": "<br/>",
-      "2": "<i>\"Hukum hanya efektif hanya setelah dipublikasikan. Dan di atas itu, hukum alam sudah memerintah seluruh spesies dan seluruh masa sejak zaman dulu.</i>"
+      "2": "<i>\"Hukum hanya berlaku setelah dipublikasikan. Dan di atas itu, hukum alam sudah memerintah seluruh spesies dan seluruh masa sejak zaman dulu.\"</i>"
     },
     "skillParams": {
       "0": "DMG Skill",
@@ -108,8 +108,8 @@
   "passive1": {
     "name": "Heir to the Ancient Sea's Legacy",
     "description": {
-      "0": "Saat Karkater di dalam party memicu reaksi Vaporize, Frozen, Electro-Charged, Bloom, Hydro Swirl, atau Hydro Crystallize terhadap musuh, akan memberikan efek Post Draconic Glories terhadap Neuvillette yang dapat bertahan 30 detik dan dapat ditumpuk sampai 3 lapis. Efek ini membuat DMG Charged Attack: Equitable Judgment meningkat sebesar 110%/130%/160%.",
-      "1": "Efek Post Draconic Glories yang dihasilkan dari setiap reaksi elemen dihitung secara terpisah."
+      "0": "Saat Karakter di dalam party memicu reaksi Vaporize, Frozen, Electro-Charged, Bloom, Hydro Swirl, atau Hydro Crystallize terhadap musuh, Neuvillette akan mendapat satu lapis efek \"Past Draconic Glories\" selama 30 detik, efek ini dapat ditumpuk sampai 3 lapis. Efek ini meningkatkan DMG Charged Attack: Equitable Judgment sebesar 110%/130%/160%.",
+      "1": "Efek \"Past Draconic Glories\" yang dihasilkan dari setiap reaksi elemen dihitung secara terpisah."
     }
   },
   "passive2": {
@@ -121,20 +121,20 @@
   "passive3": {
     "name": "Gather Like the Tide",
     "description": {
-      "0": "Meningkatkan 15% Movement SPD seluruh anggota party saat berada di bawah air."
+      "0": "Meningkatkan 15% Movement SPD seluruh anggota party saat berlari di bawah air."
     }
   },
   "constellation1": {
     "name": "Venerable Institution",
     "description": {
       "0": "Saat Neuvillette memasuki medan pertempuran, mendapatkan satu lapis Past Draconic Glories dari Talenta Pasif \"Heir to the Ancient Sea's Legacy\". Harus membuka Talenta Pasif \"Heir to the Ancient Sea's Legacy\" terlebih dahulu.",
-      "1": "Selain itu, saat melancarkan Charged Attack: Equitable Judgment, ketahanan Neuvillette terhadap interupsi juga meningkat."
+      "1": "Selain itu, saat melancarkan Charged Attack Empowerment: Legal Evaluation dan Charged Attack: Equitable Judgment, ketahanan Neuvillette terhadap interupsi akan meningkat."
     }
   },
   "constellation2": {
     "name": "The Law Commands",
     "description": {
-      "0": "Talenta Pasif \"Heir to the Ancient Sea's Legacy\" mendapatkan penguatan: Untuk setiap lapis Past Draconic Glories yang ada, Crit DMG Charged Attack: Equitable Judgment meningkat 14%, maksimum 42%.",
+      "0": "Talenta Pasif \"Heir to the Ancient Sea's Legacy\" mendapatkan penguatan: Untuk setiap lapis Past Draconic Glories yang dimiliki, Crit DMG Charged Attack: Equitable Judgment meningkat 14%, peningkatan maksimum yang bisa diperoleh dengan cara ini adalah 42%.",
       "1": "Harus membuka Talenta Pasif \"Heir to the Ancient Sea's Legacy\" terlebih dahulu."
     }
   },
@@ -148,7 +148,7 @@
   "constellation4": {
     "name": "Crowned in Compassion",
     "description": {
-      "0": "Saat Neuvillette berada di medan pertempuran dan menerima pemulihan, akan menghasilkan 1 Sourcewater Droplet. Efek ini dapat terpicu sekali setiap 4 detik."
+      "0": "Saat Neuvillette menerima pemulihan di medan pertempuran, 1 Sourcewater Droplet akan terbentuk. Efek ini dapat terpicu sekali setiap 4 detik."
     }
   },
   "constellation5": {
@@ -161,8 +161,8 @@
   "constellation6": {
     "name": "Wrathful Recompense",
     "description": {
-      "0": "Saat melancarkan Charged Attack: Equitable Judgment, Neuvillette bisa menyerap Sourcewater Droplet yang berada di sekitarnya dalam radius tertentu. Setiap kali menyerap Sourcewater Droplet, akan membuat durasi Charged Attack: Equitable Judgment bertambah 1 detik.",
-      "1": "Selain itu, saat Charged Attack: Equitable Judgment mengenai musuh, untuk setiap 2 detiknya, akan melancarkan dua buah gelombang air. Setiap gelombangnya akan mengakibatkan <hydro>Hydro DMG</hydro> sebesar 10% Max HP Neuvillette.DMG yang dihasilkan dengan cara ini dianggap sebagai DMG Charged Attack: Equitable Judgment."
+      "0": "Saat melancarkan Charged Attack: Equitable Judgment, Neuvillette dapat menyerap Sourcewater Droplet yang berada di sekitarnya dalam radius tertentu. Untuk setiap Sourcewater Droplet yang diserap, akan meningkatkan durasi Charged Attack: Equitable Judgment selama 1 detik.",
+      "1": "Selain itu, saat Charged Attack: Equitable Judgment mengenai musuh, akan melancarkan dua serangan gelombang air setiap 2 detik. Setiap gelombang airnya akan mengakibatkan <hydro>Hydro DMG</hydro> sebesar 10% Max HP Neuvillette. DMG yang diakibatkan dengan cara ini akan dianggap sebagai DMG Charged Attack: Equitable Judgment."
     }
   }
 }

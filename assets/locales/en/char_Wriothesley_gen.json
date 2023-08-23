@@ -1,6 +1,6 @@
 {
   "name": "Wriothesley",
-  "title": "???",
+  "title": "",
   "description": "",
   "constellationName": "",
   "auto": {
@@ -9,7 +9,7 @@
       "normal": {
         "0": "<strong><strong>Normal Attack</strong>",
         "1": "Coalescing frost about his fist, Wriothesley will unleash powerful <strong>Repelling Fists</strong>, performing up to 5 rapid attacks that deal <cryo>Cryo DMG</cryo>.",
-        "2": "Apart from this, Normal Attack combo count will not reset for a short time after sprinting."
+        "2": "Apart from this, Normal Attack combo count will not reset for a short time after using Icefang Rush or sprinting."
       },
       "charged": {
         "0": "<strong>Charged Attack</strong>",
@@ -46,12 +46,12 @@
       "1": "<br/>",
       "2": "<strong>Chilling Penalty</strong>",
       "3": [
-        "Increases Wriothesley's interruption resistance/",
+        "Increases Wriothesley's interruption resistance",
         "When his HP is above 50%, it will enhance the Repelling Fists of <strong>Normal Attack: Forceful Fists of Frost</strong> and increase its DMG. When such an attack hits opponents, it will consume Wriothesley's HP."
       ],
       "4": "<br/>",
       "5": "<i>\"Past convictions are past. It is our future choices that we must grasp.\"",
-      "6": "\"If you don't intend to be consumed by sins committed in the moment, then please treasure this moment.\"</i>"
+      "6": "\"Defy your fate, or else this glutton be, to pay your fate's due, by the crime and thee.\"</i>"
     },
     "skillParams": {
       "0": "Enhanced Repelling Fist DMG",
@@ -124,7 +124,7 @@
     "name": "Terrorize the Evildoers",
     "description": {
       "0": "The Gracious Rebuke from \"There Shall Be a Plea for Justice\" shall be converted into:",
-      "1": "When Wriothesley's HP is less than 50% or while he is in the Chilling Penalty state caused by <strong>Icefang Rush</strong>, when the fifth attack of Repelling Fists hits, it will create a Gracious Rebuke. 1 Gracious Rebuke effect can be obtained every 2.5s.",
+      "1": "When Wriothesley's HP is less than 60% or while he is in the Chilling Penalty state caused by <strong>Icefang Rush</strong>, when the fifth attack of Repelling Fists hits, it will create a Gracious Rebuke. 1 Gracious Rebuke effect can be obtained every 2.5s.",
       "2": "<br/>",
       "3": "Additionally, Rebuke: Vaulting Fist will obtain the following enhancement:",
       "4": [

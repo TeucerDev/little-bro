@@ -12,8 +12,8 @@
       },
       "chargedLegal": {
         "0": "<strong>Charge d'attaque chargée : Avertissement procédural</strong>",
-        "1": "Pendant la charge, Neuvillette concentre la puissance de l'eau en un sceau d'arbitrage. Dans cet état, Neuvillette peut se déplacer, changer d'orientation et absorber les gouttes d'eau de source à portée.",
-        "2": "Chaque goutte absorbée permet d'augmenter la vitesse du sceau d'arbitrage et soigne les PV de Neuvillette selon ses PV max.",
+        "1": "Pendant la charge, Neuvillette concentre progressivement la puissance de l'eau en un sceau d'arbitrage. Dans cet état, Neuvillette peut se déplacer, changer d'orientation et absorber les gouttes d'eau de source à portée.",
+        "2": "Chaque goutte absorbée permet d'augmenter la vitesse de formation du sceau d'arbitrage et soigne les PV de Neuvillette.",
         "3": "À la fin de la charge, Neuvillette déclenche une attaque chargée si le sceau d'arbitrage est incomplet. Si ce dernier est complet, il déclenche une attaque chargée « Jugement équitable »."
       },
       "charged": {
@@ -23,7 +23,7 @@
       "chargedJudgment": {
         "0": "<strong>Attaque chargée : Jugement équitable</strong>",
         "1": "Neuvillette libère un torrent déferlant qui inflige des <hydro>DGT Hydro de zone</hydro> de façon continue aux ennemis en ligne droite devant lui.",
-        "2": "Le jugement équitable ne consomme pas l'endurance et dure X s.",
+        "2": "Le jugement équitable ne consomme pas l'endurance et dure 3 s.",
         "3": "Lorsque ses PV sont supérieurs à 50 %, Neuvillette perd des PV de façon continue en utilisant cette attaque."
       },
       "plunging": {
@@ -42,7 +42,7 @@
       "7": "Perte de PV",
       "8": "Limite de perte de PV (début)",
       "9": "DGT durant la chute",
-      "10": "DGT chute basse/élevée",
+      "10": "",
       "11": "",
       "12": "",
       "13": "",
@@ -53,7 +53,7 @@
   "skill": {
     "name": "Ô larmes, je rembourse",
     "description": {
-      "0": "Neuvillette invoque une cascade déchaînée qui inflige des <hydro>DGT Hydro de zone</hydro> aux ennemis en face de lui. Après avoir touché un ennemi, 3 gouttes d'eau de source sont générées à proximité de ce dernier.",
+      "0": "Neuvillette invoque une cascade déchaînée qui inflige des <hydro>DGT Hydro de zone</hydro> aux ennemis en face de lui selon ses PV max. Après avoir touché un ennemi, 3 gouttes d'eau de source sont générées à proximité de ce dernier.",
       "1": "<br/>",
       "2": "<strong>Arkhe : Pneuma</strong>",
       "3": "Régulièrement, après avoir invoqué une cascade déchaînée, une épine d'inhalation qui transperce les ennemis est libérée pour infliger des <hydro>DGT Hydro</hydro> chargés d'énergie pneuma.",
@@ -108,7 +108,7 @@
   "passive1": {
     "name": "Héritier des vestiges de l'ancienne mer",
     "description": {
-      "0": "Lorsqu'un personnage de l'équipe déclenche une réaction d'Évaporation, de Gel, d'Électrocution, de Fleurissement, de Dispersion Hydro ou de Cristallisation Hydro sur un ennemi, Neuvillette obtient un cumul de gloire draconique passée : peut être cumulé 3 fois maximum, ce qui augmente les DGT d'origine de l'attaque chargée « Jugement équitable » de 110 %, 130 % ou 160 % selon le nombre de cumuls.",
+      "0": "Lorsqu'un personnage de l'équipe déclenche une réaction d'Évaporation, de Gel, d'Électrocution, de Fleurissement, de Dispersion Hydro ou de Cristallisation Hydro sur un ennemi, Neuvillette obtient un cumul de gloire draconique passée pendant 30 s : peut être cumulé 3 fois maximum, ce qui augmente les DGT de l'attaque chargée « Jugement équitable » à une valeur équivalant à 110 %, 130 % ou 160 % des DGT d'origine, selon le nombre de cumuls.",
       "1": "Les gloires draconiques passées de chaque réaction élémentaire existent indépendamment les unes des autres."
     }
   },
@@ -121,14 +121,14 @@
   "passive3": {
     "name": "Rassemblement de la marée",
     "description": {
-      "0": "La VIT de déplacement sous l'eau de tous les personnages de l'équipe augmente de 15 %."
+      "0": "La VIT de sprint sous l'eau de tous les personnages de l'équipe augmente de 15 %."
     }
   },
   "constellation1": {
     "name": "Création de l'honneur",
     "description": {
       "0": "Neuvillette obtient un cumul de gloire draconique passée de l'aptitude passive « Héritier des vestiges de l'ancienne mer » lorsqu'il est déployé au combat. L'aptitude passive « Héritier des vestiges de l'ancienne mer » doit être déjà débloquée.",
-      "1": "De plus, sa RÉS à l'interruption augmente lors de l'utilisation de l'attaque chargée « Jugement équitable »."
+      "1": "De plus, sa RÉS à l'interruption augmente lors de la charge de l'attaque chargée « Avertissement procédural » et de l'utilisation de l'attaque chargée « Jugement équitable »."
     }
   },
   "constellation2": {

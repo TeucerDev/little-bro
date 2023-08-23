@@ -2,14 +2,14 @@
   "name": "Wriothesley",
   "title": "???",
   "description": "",
-  "constellationName": "",
+  "constellationName": "Cerberus",
   "auto": {
     "name": "Poing vigoureux du givre",
     "fields": {
       "normal": {
         "0": "<strong><strong>Attaque normale</strong>",
         "1": "Condense du givre sur son poing et déclenche un puissant <strong>poing de réprimande</strong>, enchaînant jusqu'à 5 attaques rapides qui infligent des <cryo>DGT Cryo</cryo>.",
-        "2": "De plus, l'enchaînement d'attaques normales ne sera pas réinitialisé pendant une courte période après l'initiation d'un sprint."
+        "2": "De plus, l'enchaînement d'attaques normales ne sera pas réinitialisé pendant une courte période après la compétence élémentaire « Ruée glaciale du croc » ou l'initiation d'un sprint."
       },
       "charged": {
         "0": "<strong>Attaque chargée</strong>",
@@ -111,7 +111,7 @@
   "passive2": {
     "name": "Rétribution pour le péché",
     "description": {
-      "0": "Lorsque les PV actuels de Wriothesley augmentent ou diminuent et s'il est sous l'effet du châtiment algide accordé par <strong>Ruée glaciale du croc</strong>, le châtiment algide obtient un cumul d'édit d'accusation, chaque cumul permettant d'augmenter l'ATQ de Wriothesley de 6 %."
+      "0": "Lorsque les PV actuels de Wriothesley augmentent ou diminuent et s'il est sous l'effet du châtiment algide accordé par <strong>Ruée glaciale du croc</strong>, le châtiment algide obtient un cumul d'édit d'accusation. Cet effet peut être cumulé 5 fois maximum, chaque cumul permettant d'augmenter l'ATQ de Wriothesley de 6 %."
     }
   },
   "passive3": {
@@ -124,7 +124,7 @@
     "name": "Condamnation des malfaiteurs",
     "description": {
       "0": "La réprimande miséricordieuse de l'aptitude passive « Plaidoirie pour la justice » est modifiée :",
-      "1": "Si les PV de Wriothesley sont inférieurs à 50 % ou s'il est sous l'effet du châtiment algide de <strong>Ruée glaciale du croc</strong>, il obtient une réprimande miséricordieuse lorsque la 5e attaque du poing de réprimande touche. Une réprimande miséricordieuse peut être obtenue une fois toutes les 2,5 s.",
+      "1": "Si les PV de Wriothesley sont inférieurs à 60 % ou s'il est sous l'effet du châtiment algide de <strong>Ruée glaciale du croc</strong>, il obtient une réprimande miséricordieuse lorsque la 5e attaque du poing de réprimande touche. Une réprimande miséricordieuse peut être obtenue une fois toutes les 2,5 s.",
       "2": "<br/>",
       "3": "De plus, le poing bondissant de réprimande obtient les renforcements suivants :",
       "4": [
@@ -152,7 +152,7 @@
   "constellation4": {
     "name": "Délivrance des nécessiteux",
     "description": {
-      "0": "Les PV que le poing bondissant de réprimande restaure à Wriothesley augmentent d'une valeur équivalant à 50 % de ses PV max. L'aptitude passive « Plaidoirie pour la justice » doit être déjà débloquée.",
+      "0": "Les PV que le poing bondissant de réprimande restaure à Wriothesley augmentent à une valeur équivalant à 50 % de ses PV max. L'aptitude passive « Plaidoirie pour la justice » doit être déjà débloquée.",
       "1": "De plus, lorsque Wriothesley reçoit un soin et si la quantité du soin dépasse la quantité maximum que Wriothesley peut recevoir, les effets suivants se produisent selon si Wriothesley est déployé ou non : s'il est déployé, sa VIT d'attaque augmente de 20 % pendant 4 s ; s'il fait partie de l'équipe mais n'est pas déployé, la VIT d'attaque de tous les personnages de l'équipe augmente de 10 % pendant 6 s. Ces deux effets d'augmentation de VIT d'attaque ne peuvent pas se cumuler."
     }
   },

@@ -8,12 +8,12 @@
     "fields": {
       "normal": {
         "0": "<strong><strong>Standardangriff</strong>",
-        "1": "Neuvillette schwingt sein Zepter und treibt die Wellen dazu an, bis zu dreimal anzugreifen und <hydro>Hydro-Schaden</hydro> zu verursachen."
+        "1": "Neuvillette schwingt sein Szepter und treibt die Wellen dazu an, bis zu dreimal anzugreifen und <hydro>Hydro-Schaden</hydro> zu verursachen."
       },
       "chargedLegal": {
         "0": "<strong>Aufgeladener heftiger Schlagßßß – Richterliche Prüfungßßß</strong>",
         "1": "Während des Aufladens sammelt Neuvillette die Kraft des Quellwassers und bildet allmählich ein Siegel des Urteilsßßß. In diesem Zustand kann er sich weiterhin bewegen, die Richtung ändern und innerhalb eines bestimmten Bereichs Quellwassertropfen absorbieren.",
-        "2": "Jeder absorbierte Quellwassertropfen beschleunigt die Bildung des Siegels und stellt Neuvillette LP auf Basis seiner max. LP wieder her.",
+        "2": "Jeder absorbierte Quellwassertropfen beschleunigt die Bildung des Siegels und stellt Neuvillette LP wieder her.",
         "3": "Wird das Aufladen unterbrochen, während das Siegel noch nicht vollständig gebildet wurde, führt Neuvillette seinen heftigen Schlag aus; ist das Siegel hingegen vollständig, wird heftiger Schlag: Gerechter Vorstoßßßß entfesselt."
       },
       "charged": {
@@ -23,7 +23,7 @@
       "chargedJudgment": {
         "0": "<strong>Heftiger Schlag: Gerechter Vorstoßßßß</strong>",
         "1": "Entfesselt einen tosenden Sturzbach, der fortlaufend Gegnern in einem geradlinigen Bereich vor sich <hydro>Hydro-Flächenschaden</hydro> zufügt.",
-        "2": "Heftiger Schlag: Gerechter Vorstoßßßß verbraucht keine Ausdauer. Hält X s.",
+        "2": "Heftiger Schlag: Gerechter Vorstoßßßß verbraucht keine Ausdauer. Hält 3 s.",
         "3": "Neuvillette verbraucht fortlaufend LP, wenn diese beim Auslösen über 50 % liegen."
       },
       "plunging": {
@@ -42,7 +42,7 @@
       "7": "LP-Verlust",
       "8": "Limit anfänglicher LP-Verlustßß",
       "9": "SCH beim Fallen",
-      "10": "SCH beim Fallen aus niedriger/großer Höhe",
+      "10": "",
       "11": "",
       "12": "",
       "13": "",
@@ -53,10 +53,10 @@
   "skill": {
     "name": "O Tränen, ich werd’s vergeltenßßß",
     "description": {
-      "0": "Ein tosender Wasserfall stürzt herab, fügt Gegnern vor sich <hydro>Hydro-Flächenschaden</hydro> zu und erzeugt in der Nähe von Gegnern, nachdem diese getroffen wurden, drei Quellwassertropfen.",
+      "0": "Ein tosender Wasserfall stürzt herab, fügt Gegnern vor sich <hydro>Hydro-Flächenschaden</hydro> basierend auf Neuvillettes max. LP zu und erzeugt in der Nähe von Gegnern, nachdem diese getroffen wurden, drei Quellwassertropfen.",
       "1": "<br/>",
       "2": "<strong>Arkhe: Pneuma</strong>",
-      "3": "Erzeugt nach Herabstürzen des tosenden Wasserfalls in gewissen Abständen einen Geisterstachel, der Gegner durchbohrt und mit Pneuma versehenen <hydro>Hydro-Schaden</hydro> verursacht.",
+      "3": "Erzeugt nach Herabstürzen des tosenden Wasserfalls in gewissen Abständen einen Geisterstachel, der auf Gegner herabfällt, diese durchbohrt und mit Pneuma versehenen <hydro>Hydro-Schaden</hydro> verursacht.",
       "4": "<br/>",
       "5": "<i>„Das Gesetz kann jede Art der Ungerechtigkeit eindämmen, aber das Übel selbst vermag es nicht zu beseitigen.“</i>"
     },
@@ -121,14 +121,14 @@
   "passive3": {
     "name": "Den Wellen gleich zusammenkommenßßß",
     "description": {
-      "0": "Erhöht die Bewegungs-GSW aller Truppenmitglieder unter Wasser um 15 %."
+      "0": "Erhöht die Bewegungs-GSW aller Truppenmitglieder beim schnellen Schwimmen mithilfe der Rennen-Fähigkeit um 15 %."
     }
   },
   "constellation1": {
     "name": "Erschaffung von Amt und Würdeßßß",
     "description": {
       "0": "Neuvillette erhält beim Einwechseln einen Stapel „Glorie längst vergangener Drachen“ des passiven Talents „Erbe des Relikts der uralten Seeßßß“. Das passive Talent „Erbe des Relikts der uralten Seeßßß“ muss zuerst freigeschaltet werden.",
-      "1": "Außerdem erhöht sich beim Auslösen von heftigem Schlag: Gerechter Vorstoßßßß Neuvillettes Unterbrechungs-WDS."
+      "1": "Außerdem erhöht sich beim Auslösen von Aufgeladener heftiger Schlagßßß – Richterliche Prüfung und heftiger Schlag: Gerechter Vorstoßßßß Neuvillettes Unterbrechungs-WDS."
     }
   },
   "constellation2": {

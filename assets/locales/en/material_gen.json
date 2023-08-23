@@ -15674,15 +15674,24 @@
   },
   "OldServantsPocketWatch": {
     "name": "Old Servant's Pocket Watch",
-    "description": {}
+    "description": {
+      "0": "A standard-issue pocket watch given to Fatui Operatives.",
+      "1": "The erosion and oxidation on the casing loyally record its owners' days spent as an enforcing instrument."
+    }
   },
   "ServantsStandardPocketWatch": {
     "name": "Servant's Standard Pocket Watch",
-    "description": {}
+    "description": {
+      "0": "A standard-issue pocket watch given to Fatui Operatives.",
+      "1": "The head of the watch is not well-designed, and the outer casing has way too many sharp angles, which can cause excessive wear and tear on clothes. As such, there will always be those who will stuff this watch inside more practical, less distinctive casings for use."
+    }
   },
   "ServantsConstancy": {
     "name": "Servant's Constancy",
-    "description": {}
+    "description": {
+      "0": "An accessory with a Delusion mounted on it. This is source of the Fatui Operative's power.",
+      "1": "That said, taking it off would not detract from said Operative having physical abilities far beyond that of ordinary humans, forged from long years of training and combat experience. As for them, they are well-aware that they have sacrificed their past, present, and future upon the altar of the Fatui's ideal paradise, such that the damage they cause themselves on account of using a Delusion's power matters not at all."
+    }
   },
   "HurricaneSeed": {
     "name": "Hurricane Seed",
@@ -16074,11 +16083,19 @@
   },
   "TubionDevice": {
     "name": "\"Tubion Device\"",
-    "description": {}
+    "description": {
+      "0": "The core component of the experimental Field Generator.",
+      "1": "A precision-machined mechanical component that counteracts the effects of gravity via high-speed rotation almost impossible to capture with the naked eye.",
+      "2": "In its long history, the Fontaine Research Institute of Kinetic Energy Engineering has always warred against a flood that once washed countless lives away, and may yet cover earth and sky someday in the future, searching for a means to survive.",
+      "3": "Arkhium, with its immense energetic potential and power to break the shackles of earth, was once considered the key to the gate of salvation."
+    }
   },
   "FontemerHorn": {
     "name": "Fontemer Horn",
-    "description": {}
+    "description": {
+      "0": "The electricity-emitting section of the Millennial Pearl Seahorse, and its regalia, the symbol of its surpassing might — now snapped off amidst a clash against a mighty challenger.",
+      "1": "As the greatest predator that can arise from seahorses, this being's evolutionary journey is not the same as that experienced by other Fontemer Aberrants. It did not start from a base form before growing larger and stronger, but instead grew limbs and horns that have no place on an ordinary seahorse. Even its musculature and skeleton have changed. It really seems to resemble a fantastical beast from legends of yore more than its original shape. In the imaginations of poets and authors, even seahorses can frolick upon the earth."
+    }
   },
   "TileOfDecarabiansTower": {
     "name": "Tile of Decarabian's Tower",
@@ -18454,8 +18471,8 @@
       "0": "A box obtained from Bahador. Within it are some special potions. According to what he said, these potions might be of aid to exploring a certain Domain..."
     }
   },
-  "Drivetrain": {
-    "name": "Drivetrain",
+  "GearDrivetrain": {
+    "name": "Gear Drivetrain",
     "description": {
       "0": "A removable part that belongs to the central drive valve in the abandoned production zone."
     }
@@ -19031,6 +19048,26 @@
       "0": "Well-preserved punched tape. The data recorded within can only be deciphered using specialized machinery."
     }
   },
+  "MysteriousOre": {
+    "name": "Mysterious Ore",
+    "description": {
+      "0": "A mysterious green-yellow crystalline ore.",
+      "1": "It seems to have the ability to attract ore of the same type."
+    }
+  },
+  "ArkhiumStock": {
+    "name": "Arkhium Stock",
+    "description": {
+      "0": "The raw form of Arkhium, which can come together naturally under special circumstances.",
+      "1": "It may be able to unleash limitless potential after being forged..."
+    }
+  },
+  "ArkhiumLumenite": {
+    "name": "Arkhium Lumenite",
+    "description": {
+      "0": "The result of forging Arkhium. It emits an unusual energy and light. They say that such ore can be used to open a gate somewhere..."
+    }
+  },
   "JabberwocksHolySword": {
     "name": "Jabberwock's Holy Sword",
     "description": {
@@ -19204,6 +19241,18 @@
       "1": "Although it was made of special waterproof material and has thus not yet been destroyed, it has been in there long enough to still feel rather wet even after being hauled out..."
     }
   },
+  "SpurGearC": {
+    "name": "Spur Gear C",
+    "description": {
+      "0": "A seemingly ordinary spur gear. It originally belonged to \"Initial Skill Sample No. 2,\" but it seems to have been split from the main body by an immense external force..."
+    }
+  },
+  "SpurGearT": {
+    "name": "Spur Gear T",
+    "description": {
+      "0": "A seemingly ordinary spur gear. It originally belonged to \"Initial Skill Sample No. 2,\" but it seems to have been split from the main body by an immense external force..."
+    }
+  },
   "NavigationLogFragment": {
     "name": "Navigation Log Fragment",
     "description": {
@@ -19373,10 +19422,16 @@
     "name": "Notice",
     "description": {}
   },
-  "FreshBerries": {
-    "name": "Fresh Berries",
+  "LeftSideTableFileCase": {
+    "name": "Left-Side Table File Case",
     "description": {
-      "0": "Brightly colored fruit with a sweet texture. One can prepare an exceptionally fine picnic by pairing it with other foods."
+      "0": "A file case that ruthlessly attacked Ms. Chalmet's flank. It was placed on the table on the left-hand side of the entrance. It would probably be easier to move if it was placed inside a bag..."
+    }
+  },
+  "RightSideTableFileCase": {
+    "name": "Right-Side Table File Case",
+    "description": {
+      "0": "A file case that ruthlessly attacked Ms. Chalmet's flank. It was placed on the table on the right-hand side of the entrance. It would probably be easier to move if it was placed inside a bag..."
     }
   },
   "FullPankrationFontaCup": {
@@ -19387,55 +19442,55 @@
       "2": "However, the size of the trophy is in a category all its own, and few could swallow the contents in a single swig. Even if you forced yourself to manage the feat, you'd probably bloat up like a Blubberbeast and might even end up hospitalized..."
     }
   },
-  "SaltyCarbonatedOriginalFonta": {
-    "name": "Salty Carbonated Original Fonta",
+  "ExperimentalDrinkNo1": {
+    "name": "Experimental Drink No. 1",
     "description": {
       "0": "An \"experimental drink\" created by Heinry. It is filled with fizzy bubbles, and has a slightly salty flavor...",
       "1": "But overall, it still maintains a bit of the orginal Fonta flavor... at least you know what you are drinking is still Fonta."
     }
   },
-  "SaltyCarbonatedFontaTea": {
-    "name": "Salty Carbonated Fonta Tea",
+  "ExperimentalDrinkNo2": {
+    "name": "Experimental Drink No. 2",
     "description": {
       "0": "An \"experimental drink\" created by Heinry. It is filled with fizzy bubbles, and you can even taste a bit of a slightly salty tea flavor?",
       "1": "This drink feels more like a bottle of \"Salty Carbonated Tea,\" and not Fonta."
     }
   },
-  "SaltyUncarbonatedOriginalFonta": {
-    "name": "Salty Uncarbonated Original Fonta",
+  "ExperimentalDrinkNo3": {
+    "name": "Experimental Drink No. 3",
     "description": {
       "0": "An \"experimental drink\" created by Heinry. This Fonta has no bubbles whatsoever, and the saltiness is quite prominent.",
       "1": "At the very least, it still counts as Fonta."
     }
   },
-  "SaltyUncarbonatedFontaTea": {
-    "name": "Salty Uncarbonated Fonta Tea",
+  "ExperimentalDrinkNo4": {
+    "name": "Experimental Drink No. 4",
     "description": {
       "0": "An \"experimental drink\" created by Heinry. It has no bubbles whatsoever, and is a bit like slightly salty tea.",
       "1": "Okay, it's basically like a plain old bottle of tea."
     }
   },
-  "SweetCarbonatedOriginalFonta": {
-    "name": "Sweet Carbonated Original Fonta",
+  "ExperimentalDrinkNo5": {
+    "name": "Experimental Drink No. 5",
     "description": {
       "0": "An \"experimental drink\" created by Heinry. Refreshing Fonta, a font of refreshment! Classic Fonta, aha!",
       "1": "Uh... but just making a bottle of classic Fonta is pretty meaningless."
     }
   },
-  "SweetCarbonatedFontaTea": {
-    "name": "Sweet Carbonated Fonta Tea",
+  "ExperimentalDrinkNo6": {
+    "name": "Experimental Drink No. 6",
     "description": {
       "0": "An \"experimental drink\" created by Heinry. A \"sweet bubbly tea\" bursting with bubbles. It tastes... not all that bad?"
     }
   },
-  "SweetUncarbonatedOriginalFonta": {
-    "name": "Sweet Uncarbonated Original Fonta",
+  "ExperimentalDrinkNo7": {
+    "name": "Experimental Drink No. 7",
     "description": {
       "0": "An \"experimental drink\" created by Heinry. Refreshing Fonta, a font of what!? This bottle's gone flat, who took off the cap and didn't finish drinking it!?"
     }
   },
-  "SweetUncarbonatedFontaTea": {
-    "name": "Sweet Uncarbonated Fonta Tea",
+  "ExperimentalDrinkNo8": {
+    "name": "Experimental Drink No. 8",
     "description": {
       "0": "An \"experimental drink\" created by Heinry. A \"sweet bubbly tea\" completely bereft of bubbles. Can... Can I just have a cup of tea instead?"
     }
@@ -22407,6 +22462,27 @@
     "description": {
       "0": "Namecard style.",
       "1": "Timepieces accompany the tranquil passing of the years, as fish accompany the swirling of the clear waters of the font. If all that is must one day wither, why are my thoughts as clear as ever?"
+    }
+  },
+  "TravelNotesFallingStar": {
+    "name": "Travel Notes: Falling Star",
+    "description": {
+      "0": "Namecard style.",
+      "1": "Make a wish before you toss the arrow. If you manage to get it into the pot, who knows — your wish just might come true."
+    }
+  },
+  "AchievementPerpetual": {
+    "name": "Achievement: Perpetual",
+    "description": {
+      "0": "Namecard style.",
+      "1": "\"No one hears the dream that shattered between the conches and the gears. Only the tireless mechanical dancer still queries the echoes of the past day and night with its every elegant footstep.\""
+    }
+  },
+  "FontaineRedemption": {
+    "name": "Fontaine: Redemption",
+    "description": {
+      "0": "Namecard style.",
+      "1": "The official logo of the Fortress of Meropide. It is our dearest hope that all who wish to honor order and live out their lives in peace shall not ever be associated with the organization this insignia represents."
     }
   },
   "AnemoculusResonanceStone": {
