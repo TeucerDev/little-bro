@@ -1,8 +1,8 @@
 {
   "name": "Neuvillette",
-  "title": "",
+  "title": "El Sentenciador de lo Inexorable",
   "description": "",
-  "constellationName": "???",
+  "constellationName": "¿?",
   "auto": {
     "name": "Remanso acuático",
     "fields": {
@@ -40,8 +40,8 @@
       "5": "Daño continuo de Ataque Cargado: Sentencia ecuánime",
       "6": "Recuperación de Vida",
       "7": "Vida perdida",
-      "8": "Límite de comienzo de pérdida de Vida",
-      "9": "Daño de Caída",
+      "8": "Daño de Caída",
+      "9": "Daño de impacto de caída baja/alta",
       "10": "",
       "11": "",
       "12": "",
@@ -53,7 +53,7 @@
   "skill": {
     "name": "Plañido del resarcimiento",
     "description": {
-      "0": "Invoca una cascada tumultuosa que inflige <hydro>Daño Hydro en el AdE</hydro>en función de la Vida Máx. de Neuvillette a los enemigos que haya frente a él. Tras golpear a un enemigo con este ataque, generará 3 gotas primigenias cerca de la ubicación de dicho enemigo.",
+      "0": "Invoca una cascada tumultuosa que inflige <hydro>Daño Hydro en el AdE </hydro>en función de la Vida Máx. de Neuvillette a los enemigos que haya frente a él. Tras golpear a un enemigo con este ataque, generará 3 gotas primigenias cerca de la ubicación de dicho enemigo.",
       "1": "<br/>",
       "2": "<strong>Arjé: pneuma</strong>",
       "3": "Cada cierto tiempo tras lanzar la cascada tumultuosa, caerá una espina halitoespiritual que inflige <hydro>Daño Hydro</hydro> cargado de energía pneuma.",
@@ -121,7 +121,8 @@
   "passive3": {
     "name": "Impetuosidad marítima",
     "description": {
-      "0": "La Vel. Movimiento de todos los miembros del equipo aumenta en un 15% al esprintar."
+      "0": "Cuando tu personaje del equipo esprinta debajo del agua, la Vel. Movimiento aumenta en un 15%.",
+      "1": "No se puede acumular con otros talentos pasivos que tengan los mismos efectos."
     }
   },
   "constellation1": {

@@ -1,8 +1,8 @@
 {
   "name": "Wriothesley",
-  "title": "",
+  "title": "Emissário da Culpa Incógnita",
   "description": "",
-  "constellationName": "",
+  "constellationName": "Custodiant Cerberus",
   "auto": {
     "name": "Punho Gelado Destruidor",
     "fields": {
@@ -47,11 +47,12 @@
       "2": "<strong>Julgamento do Gelo Feroz</strong>",
       "3": [
         " Aumenta a Resistência contra Interrupção de Wriothesley;",
-        " Quando sua Vida é maior que 50%, fortalece o Soco Repulsor de <strong>Ataque Normal: Punho Gelado Destruidor</strong>, aumentando o Dano causado, e consumindo Vida de Wriothesley quando atinge um inimigo."
+        " Quando sua Vida é maior que 50%, fortalece o Soco Repulsor de <strong>Ataque Normal: Punho Gelado Destruidor</strong>, ao atingir, Wriothesley perderá uma certa quandade de Vida, é possível perder Vida dessa forma uma vez a cada 0.1s."
       ],
-      "4": "<br/>",
-      "5": "<i>\"As punições do passado já foram resolvidas e as escolhas do futuro estão em nossas mãos.\"",
-      "6": "\"Se não quiser que seu destino seja engolido por um crime momentâneo, valorize o seu tempo livre.\"</i>"
+      "4": "Esse efeito será eliminado quando Wriosthesley sair do campo de batalha.",
+      "5": "<br/>",
+      "6": "<i>\"As punições do passado já foram resolvidas e as escolhas do futuro estão em nossas mãos.\"",
+      "7": "\"Se não quiser que seu destino seja engolido por um crime momentâneo, valorize o seu tempo livre.\"</i>"
     },
     "skillParams": {
       "0": "Dano de Soco Repulsor Fortalecido",
@@ -104,7 +105,7 @@
   "passive1": {
     "name": "Haverá Arguição Pela Justiça",
     "description": {
-      "0": "Quando a Vida de Wriothesley estiver inferior a 60%, ele obtém \"Ordem da Graça\", fazendo com que seu Ataque Carregado de <strong>Ataque Normal: Punho Gelado Destruidor</strong> seja fortalecido para Disciplina: Soco do Salto Gelado: não consome Stamina, aumenta o Dano causado em 30% e ao atingir um inimigo, regenera Vida para Wriothesley. A quantidade de Vida regenerada é equivalente a 30% da Vida Máxima de Wriothesley.",
+      "0": "Quando a Vida de Wriothesley estiver inferior a 60%, ele obtém \"Ordem da Graça\", fazendo com que seu Ataque Carregado de <strong>Ataque Normal: Punho Gelado Destruidor</strong> seja fortalecido para Disciplina: Soco do Salto Gelado: não consome Stamina, aumenta o Dano causado em 50% e ao atingir um inimigo, regenera Vida para Wriothesley. A quantidade de Vida regenerada é equivalente a 30% da Vida Máxima de Wriothesley.",
       "1": "É possível obter um acúmulo do efeito \"Ordem da Graça\" a cada 5s dessa forma."
     }
   },
@@ -127,8 +128,8 @@
       "1": "Quando a Vida de Wriothesley for inferior a 60%, ou quando estiver no estado Julgamento do Gelo Feroz de <strong>Corrida da Presa Gelada</strong> e o quinte golpe de Soco Repulsor atingir um inimigo, obtém \"Ordem da Graça\". É possível obter uma \"Ordem da Graça\" a cada 2.5s.",
       "2": "Além disso, Disciplina: Soco do Salto Gelado é fortalecido:",
       "3": [
-        " Aumenta o Dano causado em 150%.",
-        " Ao atingir um inimigo, se estiver no estado Julgamento do Gelo Feroz, a duração desse estado é prolongada em até 4s. É possível prolongar a duração de uma instância do estado Julgamento do Gelo Feroz uma vez dessa forma."
+        " Aumenta o Dano causado em 200%.",
+        " Ao atingir um inimigo, se estiver no estado Julgamento do Gelo Feroz, a duração desse estado é prolongada em 4s. É possível prolongar a duração de uma instância do estado Julgamento do Gelo Feroz uma vez dessa forma."
       ],
       "4": "<br/>",
       "5": "É necessário ter desbloqueado o Talento Passivo \"Haverá Arguição Pela Justiça\"."
@@ -165,7 +166,7 @@
   "constellation6": {
     "name": "Valorizando os Inocentes",
     "description": {
-      "0": "Aumenta a Taxa CRIT de Disciplina: Soco do Salto Gelado em 10%, e o Dano CRIT em 80%, e ao lançar, dispara uma Estalactite Cryo que causa 100% do Dano Base de Disciplina: Soco do Salto Gelado. O Dano causado dessa forma é considerado Dano de Ataque Carregado.",
+      "0": "Aumenta a Taxa CRIT de Disciplina: Soco do Salto Gelado em 10%, o Dano CRIT em 80% e dispara uma Estalactite Cryo adicional que causa 100% do Dano Base de Disciplina: Soco do Salto Gelado como <cryo>Dano Cryo</cryo>. O Dano causado dessa forma é considerado Dano de Ataque Carregado.",
       "1": "É necessário ter desbloqueado o Talento Passivo \"Haverá Arguição Pela Justiça\"."
     }
   }

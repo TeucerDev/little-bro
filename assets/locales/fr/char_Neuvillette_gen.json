@@ -1,6 +1,6 @@
 {
   "name": "Neuvillette",
-  "title": "???",
+  "title": "Ordonnateur du jugement inexorable",
   "description": "",
   "constellationName": "???",
   "auto": {
@@ -40,8 +40,8 @@
       "5": "DGT continus attaque chargée « Jugement équitable »",
       "6": "Restauration PV",
       "7": "Perte de PV",
-      "8": "Limite de perte de PV (début)",
-      "9": "DGT durant la chute",
+      "8": "DGT durant la chute",
+      "9": "DGT chute basse/élevée",
       "10": "",
       "11": "",
       "12": "",
@@ -106,14 +106,14 @@
     }
   },
   "passive1": {
-    "name": "Héritier des vestiges de l'ancienne mer",
+    "name": "Héritier de l'autorité de l'ancienne mer",
     "description": {
       "0": "Lorsqu'un personnage de l'équipe déclenche une réaction d'Évaporation, de Gel, d'Électrocution, de Fleurissement, de Dispersion Hydro ou de Cristallisation Hydro sur un ennemi, Neuvillette obtient un cumul de gloire draconique passée pendant 30 s : peut être cumulé 3 fois maximum, ce qui augmente les DGT de l'attaque chargée « Jugement équitable » à une valeur équivalant à 110 %, 130 % ou 160 % des DGT d'origine, selon le nombre de cumuls.",
       "1": "Les gloires draconiques passées de chaque réaction élémentaire existent indépendamment les unes des autres."
     }
   },
   "passive2": {
-    "name": "Discipline du haut arbitre",
+    "name": "Discipline de l'arbitrage suprême",
     "description": {
       "0": "Pour chaque tranche de 1 % de PV actuels au-dessus de 30 % qu'il possède, Neuvillette obtient un <hydro>bonus de DGT Hydro</hydro> de 0,6 %. Le bonus peut être augmenté d'un maximum de 30 % de cette manière."
     }
@@ -121,32 +121,33 @@
   "passive3": {
     "name": "Rassemblement de la marée",
     "description": {
-      "0": "La VIT de sprint sous l'eau de tous les personnages de l'équipe augmente de 15 %."
+      "0": "Augmente la VIT de sprint sous l'eau de vos personnages dans l'équipe de 15 %.",
+      "1": "Ne peut pas être cumulé avec d'autres aptitudes passives aux effets identiques."
     }
   },
   "constellation1": {
     "name": "Création de l'honneur",
     "description": {
-      "0": "Neuvillette obtient un cumul de gloire draconique passée de l'aptitude passive « Héritier des vestiges de l'ancienne mer » lorsqu'il est déployé au combat. L'aptitude passive « Héritier des vestiges de l'ancienne mer » doit être déjà débloquée.",
+      "0": "Neuvillette obtient un cumul de gloire draconique passée de l'aptitude passive « Héritier de l'autorité de l'ancienne mer » lorsqu'il est déployé au combat. L'aptitude passive « Héritier de l'autorité de l'ancienne mer » doit être déjà débloquée.",
       "1": "De plus, sa RÉS à l'interruption augmente lors de la charge de l'attaque chargée « Avertissement procédural » et de l'utilisation de l'attaque chargée « Jugement équitable »."
     }
   },
   "constellation2": {
-    "name": "Ordre de la loi",
+    "name": "Exhortation de la loi",
     "description": {
-      "0": "L'aptitude passive « Héritier des vestiges de l'ancienne mer » est renforcée : chaque cumul de gloire draconique passée augmente les DGT CRIT de l'attaque chargée « Jugement équitable » de 14 %, les DGT CRIT pouvant être augmentés d'un maximum de 42 % de cette manière.",
-      "1": "L'aptitude passive « Héritier des vestiges de l'ancienne mer » doit être déjà débloquée."
+      "0": "L'aptitude passive « Héritier de l'autorité de l'ancienne mer » est renforcée : chaque cumul de gloire draconique passée augmente les DGT CRIT de l'attaque chargée « Jugement équitable » de 14 %, les DGT CRIT pouvant être augmentés d'un maximum de 42 % de cette manière.",
+      "1": "L'aptitude passive « Héritier de l'autorité de l'ancienne mer » doit être déjà débloquée."
     }
   },
   "constellation3": {
-    "name": "Fiction de l'antan",
+    "name": "Postulat de l'antan",
     "description": {
       "0": "Niveau d'aptitude <strong>Attaque normale : Quiétude de l'eau</strong> +3.",
       "1": "Niveau max : 15"
     }
   },
   "constellation4": {
-    "name": "Couronne de la miséricorde",
+    "name": "Couronne de la commisération",
     "description": {
       "0": "Lorsque Neuvillette est déployé et reçoit des soins, 1 goutte d'eau de source est générée. Cet effet peut être déclenché une fois toutes les 4 s."
     }

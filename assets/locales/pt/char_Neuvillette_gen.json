@@ -1,6 +1,6 @@
 {
   "name": "Neuvillette",
-  "title": "???",
+  "title": "Ordenador das Marés",
   "description": "",
   "constellationName": "???",
   "auto": {
@@ -14,13 +14,13 @@
         "0": "<strong>Fortalecimento de Ataque Carregado: Reprimenda Judicial</strong>",
         "1": "Ao carregar, Neuvillette reúne o poder do Mar Primordial e gradualmente forma a Insígnia da Arbitração. Nesse estado, Neuvillette pode se mover e mudar de direção, atraindo Gotas d'Água Primordial em uma certa AdE.",
         "2": "Cada Gota d'Água Primordial absorvida aumentará a velocidade de formação da Insígnia, e curará Neuvillette.",
-        "3": "Quando parar de carregar, se a Insíginia ainda não tiver sido formada, lançará um Ataque Carregado. Se já tiver se formado, lançará Ataque Carregado: Justiça Igual."
+        "3": "Quando parar de carregar, se a Insígnia ainda não tiver sido formada, lançará um Ataque Carregado. Se já tiver se formado, lançará Ataque Carregado: Justiça Igual."
       },
       "charged": {
         "0": "<strong>Ataque Carregado</strong>",
         "1": "Consome uma certa quantidade de Stamina para atacar oponentes com um anel de água, causando <hydro>Dano Hydro em AdE</hydro>.",
         "2": "<strong>Ataque Carregado: Justiça Igual</strong>",
-        "3": "Lança corretens que causam <hydro>Dano Hydro em AdE</hydro> continuamente contra todos os oponentes numa linha reta na sua frente.",
+        "3": "Lança correntes que causam <hydro>Dano Hydro em AdE</hydro> continuamente contra todos os oponentes numa linha reta na sua frente.",
         "4": "Ataque Carregado: Justiça Igual não consumirá Stamina e dura 3s.",
         "5": "Se a Vida de Neuvillette estiver acima de 50%, perderá Vida continuamente enquanto estiver usando ese ataque."
       },
@@ -39,8 +39,8 @@
       "5": "Dano Contínuo de Ataque Carregado: Justiça Igual",
       "6": "Regeneração de Vida",
       "7": "Vida perdida",
-      "8": "Limite de Vida Inicial Perdida",
-      "9": "Dano Durante a Queda",
+      "8": "Dano Durante a Queda",
+      "9": "Dano de Queda de Baixa/Alta Altitude",
       "10": "",
       "11": "",
       "12": "",
@@ -108,7 +108,7 @@
     "name": "Herdeiro do Antigo Legado do Mar",
     "description": {
       "0": "Quando um personagem da equipe desencadeia as Reações de Vaporização, Congelamento, Eletricamente Carregado, Florescimento, Redemoinho Hydro ou Reação de Cristalização Hydro, gerará 3 acúmulos do efeito \"Glória do Dragão\" para Neuvillette por 30s, aumenta o Dano do Ataque Carregado: Justiça Igual em 110%/130%/160%.",
-      "1": "A duração de Glória do Dragão gerara por cada tipo de Reação Elemental é contada de forma independente."
+      "1": "A duração de Glória do Dragão gerada por cada tipo de Reação Elemental é contada de forma independente."
     }
   },
   "passive2": {
@@ -120,11 +120,12 @@
   "passive3": {
     "name": "Reunindo-se como a Maré",
     "description": {
-      "0": "A Veloc. Mov. de todos os membros da equipe correndo debaixo d'água será aumentada em 15%."
+      "0": "Aumenta a Veloc. Mov. de correr na água para os membros da equipe em 15%.",
+      "1": "Não é acumulável com Talentos Passivos que fornecem o mesmo efeito."
     }
   },
   "constellation1": {
-    "name": "Insituição Venerável",
+    "name": "Instituição Venerável",
     "description": {
       "0": "Quando Neuvillette entra no campo, ele obtém um acúmulo do Talento Passivo de \"Glória do Dragão\" de \"Herdeiro do Antigo Legado do Mar\". É necessário ter desbloqueado o Talento Passivo \"Herdeiro do Antigo Legado do Mar\".",
       "1": "Além disso, ao lançar seu Fortalecimento de Ataque Carregado: Reprimenda Judicial e Ataque Carregado: Justiça Igual, aumenta a Resistência contra Interrupção de Neuvillette."

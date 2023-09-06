@@ -1,19 +1,19 @@
 {
   "name": "Wriothesley",
-  "title": "",
+  "title": "Sessiz Günahların Temsilcisi",
   "description": "",
-  "constellationName": "",
+  "constellationName": "Kerberos",
   "auto": {
     "name": "Güçlü Buz Yumrukları",
     "fields": {
       "normal": {
         "0": "<strong><strong>Normal Saldırı</strong>",
-        "1": "Wriothesley yumruğunda buzun gücünü toplayarak bir dizi güçlü <strong>Uzaklaştıran Yumruk</strong> saldırısı yapar. Bu şekilde <cryo>Buz Hasarı</cryo> uygulayan en fazla 5 saldırı yapabilir.",
+        "1": "Wriothesley yumruğunda buzun gücünü toplayarak bir dizi güçlü <strong>Püskürtücü Yumruk</strong> saldırısı yapar. Bu şekilde <cryo>Buz Hasarı</cryo> veren en fazla 5 saldırı yapabilir.",
         "2": "Ayrıca Normal Saldırı kombo sayısı, depar veya Buzdiş Saldırısı kullandıktan sonra kısa bir süre boyunca sıfırlanmaz."
       },
       "charged": {
         "0": "<strong>Yüklü Saldırı</strong>",
-        "1": "Belirli bir miktar Dayanıklılık tüketerek ileri atılır ve bir <strong>Sıçrama Yumruğu</strong> saldırısı yaparak <cryo>Buz Alan Hasarı</cryo> verir."
+        "1": "Belirli bir miktar Dayanıklılık tüketerek ileri atılır ve bir <strong>Sıçrayan Yumruk</strong> atarak <cryo>Buz Alan Hasarı</cryo> verir."
       },
       "plunging": {
         "0": "<strong>Havadan Saldırı</strong>",
@@ -45,13 +45,14 @@
       "0": "Wriothesley nefesini, ritmini ve hızını ayarlayarak kısa bir mesafe ileri atılıp <strong>Ürperten Ceza</strong> durumuna girer ve öncesine göre daha güçlü saldırılar yapmaya başlar.",
       "1": "<br/>",
       "2": "<strong>Ürperten Ceza</strong>",
-      "3": "Wriothesley'in müdahale direnci yükselir.",
-      "4": [
-        "Canı %50'nin üzerindeyken <strong>Normal Saldırı: Güçlü Buz Yumrukları</strong> ile tetiklenen Uzaklaştıran Yumruk hasarını artırır. Bu saldırıyla bir düşmana vurulduğunda Wriothesley'in Canı tüketilir."
+      "3": [
+        "Wriothesley'nin müdahaleye karşı direnci artar.",
+        "Canı %50'nin üzerindeyken <strong>Normal Saldırı: Güçlü Buz Yumruklarının</strong> Püskürtücü Yumruk Hasarı artar. Bu saldırıyla vurduğunda Wriothesley belirli miktarda Can tüketir. Bu şekilde Can her 0,1 saniyede bir tüketilebilir."
       ],
+      "4": "Wriothesley savaş alanından ayrılırsa bu etki iptal edilir.",
       "5": "<br/>",
-      "6": "<i>\"Geçmişte inanılanlar geçmişte kalır. Asıl kavramamız gereken geleceğimizdir.\"",
-      "7": "\"Kaderine karşı çıkmazsan açgözlülük olur, bunun bedelini de ya suçla ya da kendinle ödersin\"</i>"
+      "6": "<i>\"Geçmişte olan geçmişte kalır. Asıl kavramamız gereken gelecekteki seçimlerimizdir.\"",
+      "7": "\"Karşı çık kaderine, oburlar gibi ancak; varlığın da suçun da kaderini yutacak.\"</i>"
     },
     "skillParams": {
       "0": "Gelişmiş Püskürtücü Yumruk Hasarı",
@@ -75,12 +76,12 @@
   "burst": {
     "name": "Kara Altın Kurt Isırığı",
     "description": {
-      "0": "Wriothesley boks eldivenlerini kuşanarak buz gibi soğuk bir direkt yumruk atar ve Sarkıt Darbesi ile baktığı yöne doğru birden çok kez <cryo>Buz Alan Hasarı</cryo> hasarı verir.",
+      "0": "Wriothesley Pankrasyon eldivenlerini etkinleştirerek buz gibi soğuk bir yumruk atar ve Sarkıt Darbesi ile baktığı yöne doğru birçok defa <cryo>Buz Alan Hasarı</cryo> verir.",
       "1": "<br/>",
       "2": "<strong>Arkhe: Öz</strong>",
       "3": "Sarkıt Darbesi sona erdikten sonra düşmanın olduğu yere bir Çalkantılı Kılıç iner ve Öz tesirli <cryo>Buz Hasarı</cryo> verir.",
       "4": "<br/>",
-      "5": "<i>Meropide Kalesi Dükünün dahi çaresiz kaldığı durumlar vardır. Mesela, karmaşık kağıt işleri, yöneticilerin ufak dertleri veya... Küçük çocukların boks eldivenlerine şirin ama çıkmayan çıkartmalar yapıştırması.</i>"
+      "5": "<i>Meropide Kalesi Dükünün dahi çaresiz kaldığı durumlar vardır. Mesela, karmaşık evrak işleri, yöneticilerin ufak tefek dertleri veya... Küçük çocukların Pankrasyon eldivenlerine şirin ama çıkmayan çıkartmalar yapıştırması.</i>"
     },
     "skillParams": {
       "0": "Beceri Hasarı",
@@ -104,14 +105,14 @@
   "passive1": {
     "name": "Adalet Yerini Bulacak",
     "description": {
-      "0": "Wriothesley'nin Canı %60'ın altındayken bir Şefkatli Azar elde eder. Sonraki <strong>Normal Saldırı: Güçlü Buz Yumrukları</strong> Yüklü Saldırısı geliştirilerek Azar: Sıçrama Yumruğuna dönüşür. Dayanıklılık harcanmaz, verilen hasar %30 artar ve hedefe isabet ettikten sonra Wriothesley'ye Maks. Canının %30'u kadar Can yeniler.",
+      "0": "Wriothesley'nin Canı %60'ın altındayken bir Şefkatli Azar elde eder. Bir sonraki <strong>Normal Saldırı: Güçlü Buz Yumruklarının</strong> Yüklü Saldırısı geliştirilerek Azar: Sıçrama Yumruğuna dönüşür. Dayanıklılık harcanmaz, verilen Hasar %50 artar ve hedefe isabet ettikten sonra Wriothesley'nin Maks. Canının %30'u kadar Can yeniler.",
       "1": "Her 5 saniyede bir bu şekilde Şefkatli Azar elde edebilirsin."
     }
   },
   "passive2": {
     "name": "Her Günahın Bir Bedeli Var",
     "description": {
-      "0": "Wriothesley, mevcut Canı arttığında veya azaldığında <strong>Buzdiş Telaşı</strong> tarafından gelen Caydırıcı Ceza durumundaysa, Caydırıcı Ceza bir kademe Kovuşturma Emri elde eder. 5 kademeye kadar birikir. Her bir kademe Wriothesley'nin Saldırısını %6 artırır."
+      "0": "Wriothesley, mevcut Canı arttığında veya azaldığında <strong>Buzdiş Saldırısı</strong> becerisinin neden olduğu Ürperten Ceza durumundaysa, Ürperten Ceza bir kademe Kovuşturma Emri elde eder. En fazla 5 kademe birikebilir. Her bir kademe Wriothesley'nin Saldırısını %6 artırır."
     }
   },
   "passive3": {
@@ -123,13 +124,13 @@
   "constellation1": {
     "name": "Kötüleri Korkut",
     "description": {
-      "0": "\"Adalet Yerini Bulacak\" ile tetiklenen Şefkatli Azar aşağıdaki şekilde değişir:",
-      "1": "Wriothesley'nin Canı %60'ın altına düşündüğünde veya <strong>Buzdiş Saldırısı</strong> ile tetiklenen Ürperten Ceza durumundayken beşinci Uzaklaştıran Yumruk saldırısı temas ettiğinde bir Şefkatli Azar oluşturur. Her 2,5 saniyede bir Şefkatli Azar etkisi kazanılabilir.",
+      "0": "Pasif Yetenek \"Adalet Yerini Bulacak\" ile tetiklenen Şefkatli Azar aşağıdaki şekilde değişir:",
+      "1": "Wriothesley'nin Canı %60'ın altına düştüğünde veya <strong>Buzdiş Saldırısı</strong> becerisinin neden olduğu Ürperten Ceza durumundayken beşinci Püskürtücü Yumruk saldırısı isabet ettiğinde bir Şefkatli Azar oluşturur. Her 2,5 saniyede bir Şefkatli Azar etkisi kazanılabilir.",
       "2": "<br/>",
       "3": "Ayrıca Azar: Sıçrama Yumruğu şu etkileri kazanır:",
       "4": [
-        "Verilen hasar %150 artar.",
-        "Wriothesley'nin Ürperten Ceza durumunda kalma süresi 4 saniye uzar. Bu uzatma her bir Ürperten Ceza durumu için bir kez meydana gelebilir."
+        "Kazanılan Hasar Bonusu %200 artar.",
+        "Wriothesley Ürperten Ceza durumundayken isabet ettiğinde bu durumun süresi 4 saniye uzar. Bu uzatma her bir Ürperten Ceza durumu için bir defa meydana gelebilir."
       ],
       "5": "<br/>",
       "6": "\"Adalet Yerini Bulacak\" Pasif Yeteneğinin açılmış olması gerekir."
@@ -138,7 +139,7 @@
   "constellation2": {
     "name": "Küstahları Vur Zincire",
     "description": {
-      "0": "<strong>Kara Altın Kurt Isırığı</strong> kullanıldığında, \"Her Günahın Bir Bedeli Var\" Pasif Yeteneği ile kazanılan Kovuşturma Emri kademeleri, bu yeteneğin hasarını %40 artırır.",
+      "0": "<strong>Kara Altın Kurt Isırığı</strong> kullanıldığında, \"Her Günahın Bir Bedeli Var\" Pasif Yeteneği ile kazanılan Kovuşturma Emri kademeleri, bu yeteneğin Hasarını %40 artırır.",
       "1": "\"Her Günahın Bir Bedeli Var\" Pasif Yeteneğinin açılmış olması gerekir."
     }
   },
@@ -152,8 +153,8 @@
   "constellation4": {
     "name": "Mağdurları Kurtar",
     "description": {
-      "0": "Wriothesley'nin Azar: Sıçrama Yumruğu ile kazandığı Can, Maks. Canının %50'sine kadar yükselir. \"Adalet Yerini Bulacak\" Pasif Yeteneğinin açılmış olması gerekir.",
-      "1": "Ayrıca Wriothesley'nin Maks. Canından daha fazla iyileşmesi halinde, sahada olup olmamasına göre bazı etkiler meydana gelir. Wriothesley eğer sahadaysa 4 saniyeliğine Saldırı Hızı %20 artar, sahada değilse 6 saniyeliğine tüm grup üyelerinin Saldırı Hızı %10 artar. Bu iki Saldırı Hızı artırma yöntemi birbirine eklenmez."
+      "0": "Wriothesley'nin Azar: Sıçrama Yumruğu ile yenilediği Can, Maks. Canının %50'sine kadar yükselir. \"Adalet Yerini Bulacak\" Pasif Yeteneğinin açılmış olması gerekir.",
+      "1": "Ayrıca Wriothesley'nin Maks. Canından daha fazla iyileşmesi halinde, savaş alanında olup olmamasına göre şu etkiler meydana gelir. Wriothesley eğer savaş alanındaysa 4 saniyeliğine Saldırı Hızı %20 artar, savaş alanında değilse 6 saniyeliğine tüm grup üyelerinin Saldırı Hızı %10 artar. Bu iki Saldırı Hızı artırma yöntemi birbirine eklenmez."
     }
   },
   "constellation5": {
@@ -166,7 +167,7 @@
   "constellation6": {
     "name": "Masumları Koru",
     "description": {
-      "0": "Azar: Sıçrama Yumruğunun Kritik Oranı %10, Kritik Hasarı %80 artar. Ayrıca Azar: Sıçrama Yumruğunun Temel Hasarının %100'ü kadar hasar veren bir sarkıt ortaya çıkarır. Bu şekilde verilen Hasar, Yüklü Saldırı Hasarı sayılır.",
+      "0": "Azar: Sıçrama Yumruğunun Kritik Oranı %10, Kritik Hasarı %80 artar. Ayrıca Azar: Sıçrama Yumruğunun Temel Hasarının %100'ü kadar <cryo>Buz Hasarı</cryo> veren ek bir sarkıt ortaya çıkarır. Bu şekilde verilen Hasar, Yüklü Saldırı Hasarı sayılır.",
       "1": "\"Adalet Yerini Bulacak\" Pasif Yeteneğinin açılmış olması gerekir."
     }
   }

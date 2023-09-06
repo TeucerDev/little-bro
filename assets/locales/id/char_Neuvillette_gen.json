@@ -1,10 +1,10 @@
 {
   "name": "Neuvillette",
-  "title": "???",
+  "title": "Ordainer of Inexorable Judgment",
   "description": "",
   "constellationName": "???",
   "auto": {
-    "name": "As Still Waters",
+    "name": "As Water Seeks Equilibrium",
     "fields": {
       "normal": {
         "0": "<strong><strong>Normal Attack</strong>",
@@ -12,9 +12,9 @@
       },
       "chargedLegal": {
         "0": "<strong>Charged Attack Empowerment: Legal Evaluation</strong>",
-        "1": "Saat melakukan charge, Neuvillette akan mengumpulkan kekuatan air, dan membentuknya menjadi Seal of Abitration secara perlahan. Saat berada dalam status ini, Neuvillette dapat bergerak dan mengubah arah pergerakannya, juga dapat menyerap Sourcewater Droplet dalam radius tertentu.",
+        "1": "Saat melakukan charge, Neuvillette akan mengumpulkan kekuatan air, dan membentuknya menjadi Seal of Abitration secara perlahan. Saat berada dalam status ini, Neuvillette dapat bergerak dan mengubah arah pergerakannya, juga dapat menyerap Sourcewater Droplet dalam radius area tertentu.",
         "2": "Untuk setiap Sourcewater Droplet yang diserap, pembentukan Seal of Abitration akan dipercepat dan akan memulihkan HP Neuvillette.",
-        "3": "Setelah Charge dihentikan, jika Seal of Abitration masih belum terbentuk secara sempurna, maka Neuvillette akan melancarkan Charged Attack; Jika sudah, maka serangannya akan dikonversi menjadi Charged Attack: Equitable Judgment."
+        "3": "Setelah Charge dihentikan, jika Seal of Abitration masih belum terbentuk secara sempurna, maka Neuvillette akan melancarkan Charged Attack; Jika sudah terbentuk sempurna, maka serangannya akan dikonversi menjadi Charged Attack: Equitable Judgment."
       },
       "charged": {
         "0": "<strong>Charged Attack</strong>",
@@ -40,8 +40,8 @@
       "5": "DMG Charged Attack: Equitable Judgment",
       "6": "HP Dipulihkan",
       "7": "Pengurangan HP",
-      "8": "Batas Pengurangan HP Awal",
-      "9": "DMG Selama Plunging",
+      "8": "DMG Selama Plunging",
+      "9": "DMG Plunging Attack Rendah/Tinggi",
       "10": "",
       "11": "",
       "12": "",
@@ -82,7 +82,7 @@
   "burst": {
     "name": "O Tides, I Have Returned",
     "description": {
-      "0": "Melancarkan gelombang ganas yang mengakibatkan <hydro>Hydro DMG Area</hydro> berdasarkan Max HP Neuvillette. Setelah jeda singkat, 2 air terjun akan turun di sekitar dan mengakibatkan <hydro>Hydro DMG</hydro> dengan radius area yang relatif kecil dan menciptakan 6 Sourcewater Droplet di depan Neuvillette, di dalam radius.",
+      "0": "Melancarkan gelombang ganas yang mengakibatkan <hydro>Hydro DMG Area</hydro> berdasarkan Max HP Neuvillette. Setelah jeda singkat, 2 Waterfall akan turun di sekitar dan mengakibatkan <hydro>Hydro DMG</hydro> dengan radius area yang relatif kecil dan menciptakan 6 Sourcewater Droplet di dalam area di hadapan Neuvillette.",
       "1": "<br/>",
       "2": "<i>\"Hukum hanya berlaku setelah dipublikasikan. Dan di atas itu, hukum alam sudah memerintah seluruh spesies dan seluruh masa sejak zaman dulu.\"</i>"
     },
@@ -106,42 +106,43 @@
     }
   },
   "passive1": {
-    "name": "Heir to the Ancient Sea's Legacy",
+    "name": "Heir to the Ancient Sea's Authority",
     "description": {
       "0": "Saat Karakter di dalam party memicu reaksi Vaporize, Frozen, Electro-Charged, Bloom, Hydro Swirl, atau Hydro Crystallize terhadap musuh, Neuvillette akan mendapat satu lapis efek \"Past Draconic Glories\" selama 30 detik, efek ini dapat ditumpuk sampai 3 lapis. Efek ini meningkatkan DMG Charged Attack: Equitable Judgment sebesar 110%/130%/160%.",
       "1": "Efek \"Past Draconic Glories\" yang dihasilkan dari setiap reaksi elemen dihitung secara terpisah."
     }
   },
   "passive2": {
-    "name": "The High Arbitrator's Discipline",
+    "name": "Discipline of the Supreme Arbitration",
     "description": {
-      "0": "Untuk setiap 1% HP Neuvillette yang melebihi 30% Max HP-nya saat ini, Neuvillette akan mendapatkan 0,6% <hydro>Hydro DMG Bonus</hydro>, maksimum 30% peningkatan yang bisa diperoleh dengan cara ini."
+      "0": "Untuk setiap 1% HP Neuvillette di atas 30% Max HP-nya saat ini, Neuvillette akan mendapatkan 0,6% <hydro>Hydro DMG Bonus</hydro>, maksimum 30% peningkatan yang bisa diperoleh dengan cara ini."
     }
   },
   "passive3": {
     "name": "Gather Like the Tide",
     "description": {
-      "0": "Meningkatkan 15% Movement SPD seluruh anggota party saat berlari di bawah air."
+      "0": "Meningkatkan 15% Movement SPD Karakter dalam party sendiri saat berenang cepat di bawah air.",
+      "1": "Efek ini tidak dapat ditumpuk dengan Talenta Pasif lain dengan efek yang sama persis."
     }
   },
   "constellation1": {
     "name": "Venerable Institution",
     "description": {
-      "0": "Saat Neuvillette memasuki medan pertempuran, mendapatkan satu lapis Past Draconic Glories dari Talenta Pasif \"Heir to the Ancient Sea's Legacy\". Harus membuka Talenta Pasif \"Heir to the Ancient Sea's Legacy\" terlebih dahulu.",
+      "0": "Saat Neuvillette memasuki medan pertempuran, mendapatkan satu lapis Past Draconic Glories dari Talenta Pasif \"Heir to the Ancient Sea's Authority\". Harus membuka Talenta Pasif \"Heir to the Ancient Sea's Authority\" terlebih dahulu.",
       "1": "Selain itu, saat melancarkan Charged Attack Empowerment: Legal Evaluation dan Charged Attack: Equitable Judgment, ketahanan Neuvillette terhadap interupsi akan meningkat."
     }
   },
   "constellation2": {
-    "name": "The Law Commands",
+    "name": "Juridical Exhortation",
     "description": {
-      "0": "Talenta Pasif \"Heir to the Ancient Sea's Legacy\" mendapatkan penguatan: Untuk setiap lapis Past Draconic Glories yang dimiliki, Crit DMG Charged Attack: Equitable Judgment meningkat 14%, peningkatan maksimum yang bisa diperoleh dengan cara ini adalah 42%.",
-      "1": "Harus membuka Talenta Pasif \"Heir to the Ancient Sea's Legacy\" terlebih dahulu."
+      "0": "Talenta Pasif \"Heir to the Ancient Sea's Authority\" mendapatkan penguatan: Untuk setiap lapis Past Draconic Glories yang dimiliki, CRIT DMG Charged Attack: Equitable Judgment meningkat 14%, peningkatan maksimum yang bisa diperoleh dengan cara ini adalah 42%.",
+      "1": "Harus membuka Talenta Pasif \"Heir to the Ancient Sea's Authority\" terlebih dahulu."
     }
   },
   "constellation3": {
-    "name": "Ancient Fiction",
+    "name": "Ancient Postulation",
     "description": {
-      "0": "Meningkatkan 3 level <strong>Normal Attack: As Still Waters</strong>.",
+      "0": "Meningkatkan 3 level <strong>Normal Attack: As Water Seeks Equilibrium</strong>.",
       "1": "Maksimum: Lv. 15."
     }
   },
@@ -154,7 +155,7 @@
   "constellation5": {
     "name": "Axiomatic Judgment",
     "description": {
-      "0": "Meningkatkan 3 level <strong>O Tides, I Have Returned Saber</strong>.",
+      "0": "Meningkatkan 3 level <strong>O Tides, I Have Returned</strong>.",
       "1": "Maksimum: Lv. 15."
     }
   },

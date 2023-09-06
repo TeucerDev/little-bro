@@ -1,10 +1,10 @@
 {
   "name": "Neuvillette",
-  "title": "",
+  "title": "Ordainer of Inexorable Judgment",
   "description": "",
   "constellationName": "???",
   "auto": {
-    "name": "As Still Waters",
+    "name": "As Water Seeks Equilibrium",
     "fields": {
       "normal": {
         "0": "<strong><strong>Normal Attack</strong>",
@@ -12,7 +12,7 @@
       },
       "chargedLegal": {
         "0": "<strong>Charged Attack Empowerment: Legal Evaluation</strong>",
-        "1": "While charging up, Nuevillette will gather the power of water, forming it into a Seal of Abitration. In this state, Neuvillette can move and change facing, and also absorb any Sourcewater Droplets in a certain AoE.",
+        "1": "While charging up, Neuvillette will gather the power of water, forming it into a Seal of Arbitration. In this state, Neuvillette can move and change facing, and also absorb any Sourcewater Droplets in a certain AoE.",
         "2": "Every Droplet he absorbs will increase the formation speed of the Seal, and will heal Neuvillette.",
         "3": "When the charging is stopped, if the Symbol has yet to be formed, then a Charged Attack will be unleashed. If it has been formed, then a Charged Attack: Equitable Judgment will be unleashed."
       },
@@ -39,8 +39,8 @@
       "5": "Charged Attack: Equitable Judgment",
       "6": "HP Restored",
       "7": "HP Loss",
-      "8": "Starting HP Loss Limit",
-      "9": "Plunge DMG",
+      "8": "Plunge DMG",
+      "9": "Low/High Plunge DMG",
       "10": "",
       "11": "",
       "12": "",
@@ -52,7 +52,7 @@
   "skill": {
     "name": "O Tears, I Shall Repay",
     "description": {
-      "0": "Summons a Raging Waterfall that will deal <hydro>AoE Hydro DMG</hydro> to opponents in front of of Neuvillette based on his Max HP. After hitting an opponent, this skill will generate 3 Sourcewater Droplets near that opponent.",
+      "0": "Summons a Raging Waterfall that will deal <hydro>AoE Hydro DMG</hydro> to opponents in front of Neuvillette based on his Max HP. After hitting an opponent, this skill will generate 3 Sourcewater Droplets near that opponent.",
       "1": "<br/>",
       "2": "<strong>Arkhe: Pneuma</strong>",
       "3": "At certain intervals, when the Raging Waterfall descends, a Spiritbreath Thorn will descend that will pierce opponents, dealing Pneuma-aligned <hydro>Hydro DMG</hydro>.",
@@ -105,14 +105,14 @@
     }
   },
   "passive1": {
-    "name": "Heir to the Ancient Sea's Legacy",
+    "name": "Heir to the Ancient Sea's Authority",
     "description": {
-      "0": "When a party member triggers a Vaporize, Frozen, Electro-Charged, Bloom, Hydro Swirl, or a Hydro Crystallize reaction on opponents, 1 stack of Past Draconic Glories will be granted to Neuvillette for 30s. Max 3 stacks. Will cause Charged Attack: Equitable Judgment to deal 110%/130%/160% of its original DMG. ",
+      "0": "When a party member triggers a Vaporize, Frozen, Electro-Charged, Bloom, Hydro Swirl, or a Hydro Crystallize reaction on opponents, 1 stack of Past Draconic Glories will be granted to Neuvillette for 30s. Max 3 stacks. Will cause Charged Attack: Equitable Judgment to deal 110%/130%/160% of its original DMG.",
       "1": "Each Past Draconic Glories stack created by each Elemental Reaction exists independently."
     }
   },
   "passive2": {
-    "name": "The High Arbitrator's Discipline",
+    "name": "Discipline of the Supreme Arbitration",
     "description": {
       "0": "For each 1% of Neuvillette's HP over 30%, he will gain 0.6% <hydro>Hydro DMG Bonus</hydro>. A maximum of 30% can be obtained this way."
     }
@@ -120,32 +120,33 @@
   "passive3": {
     "name": "Gather Like the Tide",
     "description": {
-      "0": "All party members' underwater Sprint SPD will be increased by 15%."
+      "0": "Increases underwater Sprint SPD for your own party members by 15%.",
+      "1": "Not stackable with Passive Talents that provide the exact same effects."
     }
   },
   "constellation1": {
     "name": "Venerable Institution",
     "description": {
-      "0": "When Neuvillette takes the field, he will obtain 1 stack of Past Draconic Glories from the Passive Talent \"Heir to the Ancient Sea's Legacy.\" You must first unlock the Passive Talent \"Heir to the Ancient Sea's Legacy.\"",
-      "1": "Additionally, his interruption resistance will be increased while charging his Legal Evaluation and when using Charged Attack: Equitable Judgment."
+      "0": "When Neuvillette takes the field, he will obtain 1 stack of Past Draconic Glories from the Passive Talent \"Heir to the Ancient Sea's Authority.\" You must first unlock the Passive Talent \"Heir to the Ancient Sea's Authority.\"",
+      "1": "Additionally, his interruption resistance will be increased while using the Charged Attack Empowerment: Legal Evaluation and the Charged Attack: Equitable Judgment."
     }
   },
   "constellation2": {
-    "name": "The Law Commands",
+    "name": "Juridical Exhortation",
     "description": {
-      "0": "The Passive Talent \"Heir to the Ancient Sea's Legacy\" will be enhanced: Each stack for Past Draconic Glories will increase the CRIT DMG of Charged Attack: Equitable Judgment by 14%. The maximum increase that can be achieved this way is 42%.",
-      "1": "You must first unlock the Passive Talent \"Heir to the Ancient Sea's Legacy.\""
+      "0": "The Passive Talent \"Heir to the Ancient Sea's Authority\" will be enhanced: Each stack of Past Draconic Glories will increase the CRIT DMG of Charged Attack: Equitable Judgment by 14%. The maximum increase that can be achieved this way is 42%.",
+      "1": "You must first unlock the Passive Talent \"Heir to the Ancient Sea's Authority.\""
     }
   },
   "constellation3": {
-    "name": "Ancient Fiction",
+    "name": "Ancient Postulation",
     "description": {
-      "0": "Increases the Level of <strong>Normal Attack: As Still Waters</strong> by 3.",
+      "0": "Increases the Level of <strong>Normal Attack: As Water Seeks Equilibrium</strong> by 3.",
       "1": "Maximum upgrade level is 15."
     }
   },
   "constellation4": {
-    "name": "Crowned in Compassion",
+    "name": "Crown of Commiseration",
     "description": {
       "0": "When Neuvillette is on the field and is healed, 1 Sourcewater Droplet will be generated. This effect can occur once every 4s."
     }

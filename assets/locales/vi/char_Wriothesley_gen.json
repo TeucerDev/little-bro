@@ -1,6 +1,6 @@
 {
   "name": "Wriothesley",
-  "title": "???",
+  "title": "Sứ Giả Tội Danh Ẩn Mật",
   "description": "",
   "constellationName": "Cung Thủ Ngục Khuyển",
   "auto": {
@@ -47,11 +47,12 @@
       "2": "<strong>Hàn Băng Phán Quyết</strong>",
       "3": [
         "Tăng khả năng kháng gián đoạn của Wriothesley;",
-        "Khi HP cao hơn 50% sẽ cường hóa Cú Đấm Bài Xích từ <strong>Tấn Công Thường - Liệt Sương Quyền</strong>, tăng sát thương gây ra. Khi trúng kẻ địch sẽ tiêu hao HP của Wriothesley."
+        "Khi HP cao hơn 50% sẽ cường hóa Cú Đấm Bài Xích từ <strong>Tấn Công Thường - Liệt Sương Quyền</strong>, tăng sát thương gây ra; Khi đánh trúng, Wriothesley sẽ tiêu hao một lượng HP nhất định, mỗi 0.1s tối đa tiêu hao HP một lần bằng phương thức này."
       ],
-      "4": "<br/>",
-      "5": "<i>\"Phán quyết trong quá khứ đã qua, lựa chọn của tương lai nằm trong lòng bàn tay.\"",
-      "6": "\"Nếu không muốn vận mệnh bị tội ác nhất thời hủy diệt, thì hãy trân trọng khoảnh khắc của hiện tại.\"</i>"
+      "4": "Hiệu quả này sẽ bị hủy khi Wriothesley rời trận.",
+      "5": "<br/>",
+      "6": "<i>\"Phán quyết trong quá khứ đã qua, lựa chọn của tương lai nằm trong lòng bàn tay.\"",
+      "7": "\"Nếu không muốn vận mệnh bị tội ác nhất thời hủy diệt, thì hãy trân trọng khoảnh khắc của hiện tại.\"</i>"
     },
     "skillParams": {
       "0": "Sát Thương Cú Đấm Bài Xích Cường Hóa",
@@ -104,7 +105,7 @@
   "passive1": {
     "name": "Ngày Biện Hộ Cho Công Lý",
     "description": {
-      "0": "Khi HP của Wriothesley thấp hơn 60% sẽ nhận được \"Ân Điển Trách Phạt\", cường hóa đòn Trọng Kích của <strong>Tấn Công Thường - Liệt Sương Quyền</strong> lần sau thành Cú Đấm Trừng Phạt: Không tiêu hao thể lực, sát thương gây ra tăng 30%. Sau khi đánh trúng sẽ hồi phục một lượng HP tương đương 30% HP tối đa cho Wriothesley.",
+      "0": "Khi HP của Wriothesley thấp hơn 60% sẽ nhận được \"Ân Điển Trách Phạt\", cường hóa đòn Trọng Kích của <strong>Tấn Công Thường - Liệt Sương Quyền</strong> lần sau thành Cú Đấm Trừng Phạt: Không tiêu hao thể lực, sát thương gây ra tăng 50%. Sau khi đánh trúng sẽ hồi phục một lượng HP tương đương 30% HP tối đa cho Wriothesley.",
       "1": "Mỗi 5s tối đa nhận được một lần \"Ân Điển Trách Phạt\" thông qua cách này."
     }
   },
@@ -128,7 +129,7 @@
       "2": "<br/>",
       "3": "Ngoài ra, Cú Đấm Trừng Phạt sẽ được cường hóa sau:",
       "4": [
-        "Mức tăng sát thương gây ra sẽ tăng thêm tới 150%;",
+        "Mức tăng sát thương gây ra sẽ tăng thêm tới 200%;",
         "Khi trúng đích, nếu đang ở trong trạng thái Hàn Băng Phán Quyết, thời gian duy trì của trạng thái này kéo dài thêm 4s. Trong một lần duy trì Hàn Băng Phán Quyết tối đa chỉ kéo dài thêm một lần thông qua phương thức này."
       ],
       "5": "<br/>",
@@ -166,7 +167,7 @@
   "constellation6": {
     "name": "Trân Trọng Người Vô Tội",
     "description": {
-      "0": "Tỉ lệ bạo kích của Cú Đấm Trừng Phạt tăng 10%, sát thương bạo kích tăng 80%, đồng thời khi thi triển sẽ tung ra nhũ băng, gây 100% sát thương vốn có của Cú Đấm Trừng Phạt. Sát thương gây ra bằng phương thức này sẽ được tính là sát thương trọng kích.",
+      "0": "Tỉ lệ bạo kích của Cú Đấm Trừng Phạt tăng 10%, sát thương bạo kích tăng 80%, đồng thời sản sinh thêm nhũ băng, gây <cryo>Sát Thương Nguyên Tố Băng</cryo> bằng 100% sát thương vốn có của Cú Đấm Trừng Phạt. Sát thương gây ra bằng phương thức này sẽ được tính là sát thương trọng kích.",
       "1": "Cần mở khóa thiên phú cố định \"Ngày Biện Hộ Cho Công Lý\"."
     }
   }

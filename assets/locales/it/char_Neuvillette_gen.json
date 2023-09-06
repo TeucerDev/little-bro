@@ -1,6 +1,6 @@
 {
   "name": "Neuvillette",
-  "title": "",
+  "title": "Sentenza ineluttabile",
   "description": "",
   "constellationName": "???",
   "auto": {
@@ -40,8 +40,8 @@
       "5": "Attacco caricato: Equo giudizio",
       "6": "RIGEN PS",
       "7": "Perdita PS",
-      "8": "Limite iniziale perdita PS",
-      "9": "DAN da ATT in picchiata",
+      "8": "DAN da ATT in picchiata",
+      "9": "DAN da ATT in picchiata basso/alto",
       "10": "",
       "11": "",
       "12": "",
@@ -109,7 +109,7 @@
     "name": "Eredità del Mare antico",
     "description": {
       "0": "Quando un membro del gruppo innesca reazioni di Vaporizzazione, Congelamento, Electrocarica, Fioritura, Turbinio di Hydro o Cristallizzazione di Hydro sugli avversari, Neuvillette ottiene 1 accumulo di Antiche glorie dragoniche della durata di 30 s, fino a un massimo di 3. Tali accumuli permettono ad Attacco caricato: Equo giudizio di infliggere un 110%/130%/160% dei suoi DAN originali.",
-      "1": "Ciascun accumulo di Antiche glorie dragoniche creato da ciascuna reazione elementale esiste in maniera indipendente."
+      "1": "Ogni accumulo di Antiche glorie dragoniche creato da ciascuna reazione elementale esiste in maniera indipendente."
     }
   },
   "passive2": {
@@ -121,25 +121,26 @@
   "passive3": {
     "name": "Adunanza delle maree",
     "description": {
-      "0": "La VEL di scatto sott'acqua di tutti i membri del gruppo aumenta di un 15%."
+      "0": "Aumenta di un 15% la VEL di Scatto sott'acqua per i membri del tuo gruppo.",
+      "1": "Non è cumulabile con talenti passivi che conferiscono gli stessi effetti."
     }
   },
   "constellation1": {
     "name": "Istituzione onorabile",
     "description": {
       "0": "Quando Neuvillette entra in campo, ottiene 1 accumulo di Antiche glorie dragoniche del talento passivo Eredità del Mare antico. Richiede il talento passivo Eredità del Mare antico.",
-      "1": "Inoltre, la resistenza all'interruzione del personaggio aumenta quando carica la sua Valutazione legale e usa Attacco caricato: Equo giudizio."
+      "1": "Inoltre, la resistenza all'interruzione del personaggio aumenta quando usa Rafforzamento attacco caricato: Valutazione legale e Attacco caricato: Equo giudizio."
     }
   },
   "constellation2": {
-    "name": "Come legge domanda",
+    "name": "Come legge comanda",
     "description": {
       "0": "Il talento passivo Eredità del Mare antico riceve un potenziamento: ciascun accumulo di Antiche glorie dragoniche aumenta i DAN da CRIT di Attacco caricato: Equo giudizio di un 14%. L'incremento massimo che è possibile ottenere è pari a un 42%.",
       "1": "Richiede il talento passivo Eredità del Mare antico."
     }
   },
   "constellation3": {
-    "name": "Narrativa antica",
+    "name": "Postulazione antica",
     "description": {
       "0": "Aumenta di 3 il livello di <strong>Attacco normale: Acque chete</strong>.",
       "1": "Il livello di potenziamento massimo è 15."

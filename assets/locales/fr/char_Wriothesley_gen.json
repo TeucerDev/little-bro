@@ -1,6 +1,6 @@
 {
   "name": "Wriothesley",
-  "title": "???",
+  "title": "Émissaire de l'iniquité solitaire",
   "description": "",
   "constellationName": "Cerberus",
   "auto": {
@@ -47,11 +47,12 @@
       "2": "<strong>Châtiment algide</strong>",
       "3": [
         " Augmente la RÉS à l'interruption de Wriothesley.",
-        " Lorsque les PV de Wriothesley sont supérieurs à 50 % : le poing de réprimande de l'<strong>attaque normale « Poing vigoureux du givre »</strong> est renforcé et ses DGT augmentés, et toucher un ennemi avec ce poing consomme les PV de Wriothesley."
+        " Lorsque les PV de Wriothesley sont supérieurs à 50 % : le poing de réprimande de l'<strong>attaque normale « Poing vigoureux du givre »</strong> est renforcé et ses DGT augmentés, et toucher avec ce poing consomme une quantité fixe des PV de Wriothesley, les PV pouvant être perdus une fois toutes les 0,1 s de cette manière."
       ],
-      "4": "<br/>",
-      "5": "<i>« Les condamnations passées sont passées. Ce sont nos choix futurs que nous devons appréhender.",
-      "6": "Si vous ne voulez pas vous faire consumer par les péchés du moment, alors s'il vous plaît, chérissez cet instant. »</i>"
+      "4": "Cet effet cesse lorsque Wriothesley quitte le champ de bataille.",
+      "5": "<br/>",
+      "6": "<i>« Les condamnations passées sont passées. Ce sont nos choix futurs que nous devons appréhender.",
+      "7": "Si vous ne voulez pas vous faire consumer par les péchés du moment, alors s'il vous plaît, chérissez cet instant. »</i>"
     },
     "skillParams": {
       "0": "DGT poing de réprimande renforcé",
@@ -104,7 +105,7 @@
   "passive1": {
     "name": "Plaidoirie pour la justice",
     "description": {
-      "0": "Lorsque les PV de Wriothesley sont inférieurs à 60 %, il obtient une réprimande miséricordieuse qui convertit la prochaine attaque chargée de son <strong>attaque normale « Poing vigoureux du givre »</strong> en poing bondissant de réprimande : ne consomme pas d'endurance, augmente les DGT infligés de 30 %, et restaure les PV de Wriothesley d'une valeur équivalant à 30 % de ses PV max en touchant.",
+      "0": "Lorsque les PV de Wriothesley sont inférieurs à 60 %, il obtient une réprimande miséricordieuse qui convertit la prochaine attaque chargée de son <strong>attaque normale « Poing vigoureux du givre »</strong> en poing bondissant de réprimande : ne consomme pas d'endurance, augmente les DGT infligés de 50 %, et restaure les PV de Wriothesley d'une valeur équivalant à 30 % de ses PV max en touchant.",
       "1": "Une réprimande miséricordieuse peut être obtenue une fois toutes les 5 s de cette manière."
     }
   },
@@ -128,8 +129,8 @@
       "2": "<br/>",
       "3": "De plus, le poing bondissant de réprimande obtient les renforcements suivants :",
       "4": [
-        " Les DGT infligés augmentent davantage jusqu'à 150 %.",
-        " En touchant alors que Wriothesley est sous l'effet d'un châtiment algide, la durée du châtiment se prolonge d'un maximum de 4 s. Une seule prolongation de durée peut avoir lieu par châtiment algide."
+        " Le bonus de DGT infligés augmente davantage jusqu'à 200 %.",
+        " En touchant alors que Wriothesley est sous l'effet d'un châtiment algide, la durée du châtiment se prolonge de 4 s. Une seule prolongation de durée peut avoir lieu par châtiment algide."
       ],
       "5": "<br/>",
       "6": "L'aptitude passive « Plaidoirie pour la justice » doit être déjà débloquée."
@@ -166,7 +167,7 @@
   "constellation6": {
     "name": "Défense des irréprochables",
     "description": {
-      "0": "Le taux CRIT du poing bondissant de réprimande augmente de 10 % et ses DGT CRIT de 80 %. Son déclenchement permet également de libérer un pic de glace infligeant des DGT d'une valeur équivalant à 100 % des DGT d'origine. Les DGT infligés de cette manière sont considérés comme des DGT d'attaque chargée.",
+      "0": "Le taux CRIT du poing bondissant de réprimande augmente de 10 % et ses DGT CRIT de 80 %, et son déclenchement permet de libérer un pic de glace supplémentaire infligeant des <cryo>DGT Cryo</cryo> d'une valeur équivalant à 100 % des DGT d'origine. Les DGT infligés de cette manière sont considérés comme des DGT d'attaque chargée.",
       "1": "L'aptitude passive « Plaidoirie pour la justice » doit être déjà débloquée."
     }
   }
