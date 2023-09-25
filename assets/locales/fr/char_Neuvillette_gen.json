@@ -1,10 +1,10 @@
 {
   "name": "Neuvillette",
   "title": "Ordonnateur du jugement inexorable",
-  "description": "",
+  "description": "Le juge suprême de Fontaine, également connu comme l'iudex, est réputé pour son impartialité sans faille.",
   "constellationName": "???",
   "auto": {
-    "name": "Quiétude de l'eau",
+    "name": "Stabilité de l'eau",
     "fields": {
       "normal": {
         "0": "<strong><strong>Attaque normale</strong>",
@@ -108,14 +108,14 @@
   "passive1": {
     "name": "Héritier de l'autorité de l'ancienne mer",
     "description": {
-      "0": "Lorsqu'un personnage de l'équipe déclenche une réaction d'Évaporation, de Gel, d'Électrocution, de Fleurissement, de Dispersion Hydro ou de Cristallisation Hydro sur un ennemi, Neuvillette obtient un cumul de gloire draconique passée pendant 30 s : peut être cumulé 3 fois maximum, ce qui augmente les DGT de l'attaque chargée « Jugement équitable » à une valeur équivalant à 110 %, 130 % ou 160 % des DGT d'origine, selon le nombre de cumuls.",
-      "1": "Les gloires draconiques passées de chaque réaction élémentaire existent indépendamment les unes des autres."
+      "0": "Lorsqu'un personnage de l'équipe déclenche une réaction d'Évaporation, de Gel, d'Électrocution, de Fleurissement, de Dispersion Hydro ou de Cristallisation Hydro sur un ennemi, Neuvillette obtient un cumul de gloire draconique passée pendant 30 s : peut être cumulé 3 fois maximum, ce qui augmente les DGT de l'attaque chargée « Jugement équitable » à une valeur équivalant à 110 %, 125 % ou 160 % des DGT d'origine, selon le nombre de cumuls.",
+      "1": "Les cumuls de gloire draconique passée de chaque réaction élémentaire existent indépendamment les uns des autres."
     }
   },
   "passive2": {
     "name": "Discipline de l'arbitrage suprême",
     "description": {
-      "0": "Pour chaque tranche de 1 % de PV actuels au-dessus de 30 % qu'il possède, Neuvillette obtient un <hydro>bonus de DGT Hydro</hydro> de 0,6 %. Le bonus peut être augmenté d'un maximum de 30 % de cette manière."
+      "0": "Pour chaque tranche de 1 % de PV actuels au-dessus de 30 % de ses PV max, Neuvillette obtient un <hydro>bonus de DGT Hydro</hydro> de 0,6 %. Le bonus peut être augmenté d'un maximum de 30 % de cette manière."
     }
   },
   "passive3": {
@@ -142,7 +142,7 @@
   "constellation3": {
     "name": "Postulat de l'antan",
     "description": {
-      "0": "Niveau d'aptitude <strong>Attaque normale : Quiétude de l'eau</strong> +3.",
+      "0": "Niveau d'aptitude <strong>Attaque normale : Stabilité de l'eau</strong> +3.",
       "1": "Niveau max : 15"
     }
   },

@@ -1,14 +1,14 @@
 {
   "name": "Neuvillette",
   "title": "Kaçınılmaz Yargı",
-  "description": "",
+  "description": "Fontaine'in Başyargıcı, namıdiğer Iudex'i. Asla taviz vermediği tarafsızlığıyla bilinir.",
   "constellationName": "???",
   "auto": {
     "name": "Suyun Dengesi",
     "fields": {
       "normal": {
         "0": "<strong><strong>Normal Saldırı</strong>",
-        "1": "Bastonunu hafifçe sallayarak dalgalara hükmeder ve <hydro>Su Hasarı</hydro> veren en fazla 3 saldırı gerçekleştirir."
+        "1": "Neuvillette, hafif hareketlerle dalgalara hükmeder ve <hydro>Su Hasarı</hydro> veren en fazla 3 saldırı gerçekleştirir."
       },
       "chargedLegal": {
         "0": "<strong>Yüklü Saldırı Güçlendirmesi: Hukuki Değerlendirme</strong>",
@@ -18,13 +18,14 @@
       },
       "charged": {
         "0": "<strong>Yüklü Saldırı</strong>",
-        "1": "Belirli miktarda Dayanıklılık harcayarak saldırır ve <hydro>Su Alan Hasarı</hydro> veren kesici bir su halkası oluşturur.",
-        "2": "Yüklü Saldırı: Adil Yargı</undefined>",
-        "3": "Yükselen su dalgaları oluşturarak baktığı yöne doğru düz bir hat üzerinde bulunan tüm düşmanlara sürekli olarak <hydro>Su Alan Hasarı</hydro> verir.",
-        "4": "Adil Yargı, Dayanıklılık harcamaz ve 3 saniye sürer.",
-        "5": "Eğer Neuvillette'in Canı %50'nin üzerindeyse bu saldırıyı kullandığı süre boyunca Can kaybeder."
+        "1": "Belirli miktarda Dayanıklılık harcayarak saldırır ve <hydro>Su Alan Hasarı</hydro> veren kesici bir su halkası oluşturur."
       },
-      "chargedJudgment": {},
+      "chargedJudgment": {
+        "0": "<strong>Yüklü Saldırı: Adil Yargı</strong>",
+        "1": "Yükselen su dalgaları oluşturarak baktığı yöne doğru düz bir hat üzerinde bulunan tüm düşmanlara sürekli olarak <hydro>Su Alan Hasarı</hydro> verir.",
+        "2": "Adil Yargı, Dayanıklılık harcamaz ve 3 saniye sürer.",
+        "3": "Eğer Neuvillette'in Canı %50'nin üzerindeyse bu saldırıyı kullandığı süre boyunca Can kaybeder."
+      },
       "plunging": {
         "0": "<strong>Havadan Saldırı</strong>",
         "1": "Suyun gücünü toplayarak havadayken yere doğru atılır ve yoluna çıkan tüm düşmanlara hasar verir. Yere vurduğunda <hydro>Su Alan Hasarı</hydro> verir."
@@ -81,7 +82,7 @@
   "burst": {
     "name": "Metcezir, Geri Döndüm",
     "description": {
-      "0": "Neuvillette, Maks. Canına bağlı olarak <hydro>Su Alan Hasarı</hydro> veren kuvvetli bir dalga çıkarır. Kısa bir aradan sonra daha küçük bir alana <hydro>Su Hasarı</hydro> veren 2 şelale ortaya çıkar ve önündeki alanda 6 Kaynak Suyu Damlacığı oluşturur.",
+      "0": "Neuvillette, Maks. Canına bağlı olarak <hydro>Su Alan Hasarı</hydro> veren dalgalar çıkarır. Kısa bir aradan sonra daha küçük bir alana <hydro>Su Hasarı</hydro> veren 2 şelale iner ve önündeki alanda 6 Kaynak Suyu Damlacığı oluşturur.",
       "1": "<br/>",
       "2": "<i>\"Bir kanun ancak yürürlüğe girdikten sonra geçerli olur. Bundan ötesi, kadim zamanlardan bu yana tüm canlı türlerini yöneten doğa kanunlarına kalmıştır.\"</i>"
     },
@@ -107,14 +108,14 @@
   "passive1": {
     "name": "Kadim Deniz İktidarının Varisi",
     "description": {
-      "0": "Bir grup üyesi, düşman üzerinde Buharlaşma, Donma, Elektrik Yüklü, Çiçeklenme, Su Girdabı veya Su Kristalleşmesi tepkimesi tetiklediğinde Neuvillette 30 saniyeliğine 1 kademe Kadim Ejder İhtişamı kazanır. En fazla 3 kademeye kadar birikir. Yüklü Saldırı: Adil Yargının önceki Hasarının %110/%130/%160 oranında Hasar vermesini sağlar.",
+      "0": "Bir grup üyesi, düşman üzerinde Buharlaşma, Donma, Elektrik Yüklü, Çiçeklenme, Su Girdabı veya Su Kristalleşmesi tepkimesi tetiklediğinde Neuvillette 30 saniyeliğine 1 kademe Kadim Ejder İhtişamı kazanır. En fazla 3 kademeye kadar birikir. Kadim Ejder İhtişamı, Yüklü Saldırı: Adil Yargının asıl Hasarının %110/%125/%160 oranında Hasar vermesini sağlar.",
       "1": "Her bir Element Tepkimesi tarafından oluşturulan Kadim Ejder İhtişamı kademesi birbirinden bağımsızdır."
     }
   },
   "passive2": {
     "name": "Üstün Tahkim Disiplini",
     "description": {
-      "0": "Neuvillette, Canının %30 üzerindeki her %1'lik kısmı için %0,6 <hydro>Su Hasarı Bonusu</hydro> kazanır. Bu şekilde en fazla %30 Hasar Bonusu elde edilebilir."
+      "0": "Neuvillette, Maks. Canının %30 üzerindeki her %1'lik mevcut Can için %0,6 <hydro>Su Hasarı Bonusu</hydro> kazanır. Bu şekilde en fazla %30 Hasar Bonusu elde edilebilir."
     }
   },
   "passive3": {

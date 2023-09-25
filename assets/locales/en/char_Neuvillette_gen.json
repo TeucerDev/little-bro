@@ -1,14 +1,14 @@
 {
   "name": "Neuvillette",
   "title": "Ordainer of Inexorable Judgment",
-  "description": "",
+  "description": "The Chief Justice of Fontaine, known as the Iudex, is renowned for his unassailable impartiality.",
   "constellationName": "???",
   "auto": {
     "name": "As Water Seeks Equilibrium",
     "fields": {
       "normal": {
         "0": "<strong><strong>Normal Attack</strong>",
-        "1": "Lightly waves his cane, commanding the tides to unleash a maximum of 3 attacks, dealing <hydro>Hydro DMG</hydro>."
+        "1": "With light flourishes, Neuvillette commands the tides to unleash a maximum of 3 attacks, dealing <hydro>Hydro DMG</hydro>."
       },
       "chargedLegal": {
         "0": "<strong>Charged Attack Empowerment: Legal Evaluation</strong>",
@@ -18,13 +18,14 @@
       },
       "charged": {
         "0": "<strong>Charged Attack</strong>",
-        "1": "Consumes a fixed amount of Stamina to attack opponents with a rupturing ring of water, dealing <hydro>AoE Hydro DMG</hydro>.",
-        "2": "Charged Attack: Equitable Judgment</undefined>",
-        "3": "Unleashes surging torrents, dealing continuous <hydro>AoE Hydro DMG</hydro> to all opponents in a straight-line area in front of him.",
-        "4": "Equitable Judgment will not consume any Stamina and lasts 3s.",
-        "5": "If Neuvillette's HP is above 50%, he will continuously lose HP while using this attack."
+        "1": "Consumes a fixed amount of Stamina to attack opponents with a rupturing blast of water, dealing <hydro>AoE Hydro DMG</hydro>."
       },
-      "chargedJudgment": {},
+      "chargedJudgment": {
+        "0": "<strong>Charged Attack: Equitable Judgment</strong>",
+        "1": "Unleashes surging torrents, dealing continuous <hydro>AoE Hydro DMG</hydro> to all opponents in a straight-line area in front of him.",
+        "2": "Equitable Judgment will not consume any Stamina and lasts 3s.",
+        "3": "If Neuvillette's HP is above 50%, he will continuously lose HP while using this attack."
+      },
       "plunging": {
         "0": "<strong>Plunging Attack</strong>",
         "1": "Gathering the might of Hydro, Neuvillette plunges towards the ground from mid-air, damaging all opponents in his path. Deals <hydro>AoE Hydro DMG</hydro> upon impact with the ground."
@@ -81,7 +82,7 @@
   "burst": {
     "name": "O Tides, I Have Returned",
     "description": {
-      "0": "Unleashes a rupturing wave that will deal <hydro>AoE Hydro DMG</hydro> based on Neuvillette's Max HP. After a short interval, 2 waterfalls will descend and deal <hydro>Hydro DMG</hydro> in a somewhat smaller AoE, and will generate 6 Sourcewater Droplets within an area in front.",
+      "0": "Unleashes waves that will deal <hydro>AoE Hydro DMG</hydro> based on Neuvillette's Max HP. After a short interval, 2 waterfalls will descend and deal <hydro>Hydro DMG</hydro> in a somewhat smaller AoE, and will generate 6 Sourcewater Droplets within an area in front.",
       "1": "<br/>",
       "2": "<i>\"The law is only established after its publication, and above that, the laws of nature have governed all species and eras since ancient times.</i>"
     },
@@ -107,14 +108,14 @@
   "passive1": {
     "name": "Heir to the Ancient Sea's Authority",
     "description": {
-      "0": "When a party member triggers a Vaporize, Frozen, Electro-Charged, Bloom, Hydro Swirl, or a Hydro Crystallize reaction on opponents, 1 stack of Past Draconic Glories will be granted to Neuvillette for 30s. Max 3 stacks. Will cause Charged Attack: Equitable Judgment to deal 110%/130%/160% of its original DMG.",
-      "1": "Each Past Draconic Glories stack created by each Elemental Reaction exists independently."
+      "0": "When a party member triggers a Vaporize, Frozen, Electro-Charged, Bloom, Hydro Swirl, or a Hydro Crystallize reaction on opponents, 1 stack of Past Draconic Glories will be granted to Neuvillette for 30s. Max 3 stacks. Past Draconic Glories causes Charged Attack: Equitable Judgment to deal 110%/125%/160% of its original DMG.",
+      "1": "The stacks of Past Draconic Glories created by each kind of Elemental Reaction exist independently."
     }
   },
   "passive2": {
     "name": "Discipline of the Supreme Arbitration",
     "description": {
-      "0": "For each 1% of Neuvillette's HP over 30%, he will gain 0.6% <hydro>Hydro DMG Bonus</hydro>. A maximum of 30% can be obtained this way."
+      "0": "For each 1% of Neuvillette's current HP greater than 30% of Max HP, he will gain 0.6% <hydro>Hydro DMG Bonus</hydro>. A maximum bonus of 30% can be obtained this way."
     }
   },
   "passive3": {

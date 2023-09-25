@@ -1,10 +1,10 @@
 {
   "name": "Neuvillette",
   "title": "คลื่นประกาศิตพ้องชะตา",
-  "description": "",
+  "description": "ผู้พิพากษาสูงสุดแห่ง Fontaine มีชื่อเสียงในด้าน \"ความเป็นกลาง\" อย่างสมบูรณ์",
   "constellationName": "???",
   "auto": {
-    "name": "As Still Waters",
+    "name": "As Water Seeks Equilibrium",
     "fields": {
       "normal": {
         "0": "<strong><strong>โจมตีปกติ</strong>",
@@ -53,7 +53,7 @@
   "skill": {
     "name": "O Tears, I Shall Repay",
     "description": {
-      "0": "เรียก Raging Waterfall (น้ำตกอันทรงพลัง) ออกมา ตามค่าพลังชีวิตสูงสุดของ Neuvillette เพื่อสร้าง<hydro>ความเสียหายน้ำวงกว้าง</hydro>แก่ศัตรูที่อยู่ข้างหน้า เมื่อโจมตีถูกศัตรู จะเกิด Sourcewater Droplet 3 อัน แถวบริเวณศัตรู",
+      "0": "เรียก Raging Waterfall (น้ำตกอันทรงพลัง) ออกมา เพื่อสร้าง<hydro>ความเสียหายน้ำวงกว้าง</hydro>แก่ศัตรูที่อยู่ข้างหน้า ตามค่าพลังชีวิตสูงสุดของ Neuvillette เมื่อโจมตีถูกศัตรู จะเกิด Sourcewater Droplet 3 อัน แถวบริเวณศัตรู",
       "1": "<br/>",
       "2": "<strong>พลังปฐมภูมิ: พลังวิญญาณ</strong>",
       "3": "ทุกช่วงระยะเวลาหนึ่ง เมื่อ Raging Waterfall ตกลงมา จะเกิด Spiritbreath Thorn ที่สามารถแทงทะลุศัตรูได้ และสร้าง<hydro>ความเสียหายน้ำ</hydro>ที่มีพลังวิญญาณอยู่",
@@ -84,7 +84,7 @@
     "description": {
       "0": "ปลดปล่อยคลื่นรุนแรง และสร้าง<hydro>ความเสียหายน้ำวงกว้าง</hydro> ที่มีความเสียหายขึ้นกับพลังชีวิตสูงสุดของ Neuvillette หลังจากช่วงเวลาสั้น ๆ จะปล่อยน้ำตก 2 สายในบริเวณใกล้เคียง เพื่อสร้าง<hydro>ความเสียหายน้ำ</hydro>วงแคบ และสร้าง Sourcewater Droplet ขึ้น 6 อัน ในพื้นที่ด้านหน้าที่กำหนด",
       "1": "<br/>",
-      "2": "<i>\"กฎหมายถูกตราขึ้นหลังจากมีการออกคำสั่ง และเหนือจากนั้น กฎแห่งธรรมชาติได้พันธนาการทุกเผ่าพันธุ์และทุกยุคสมัยมาตั้งแต่โบราณกาล\"</i>"
+      "2": "<i>\"กฎหมายถูกตราขึ้นหลังจากมีการออกคำสั่ง และนอกเหนือจากนั้น กฎแห่งธรรมชาติได้พันธนาการทุกเผ่าพันธุ์และทุกยุคสมัยมาตั้งแต่โบราณกาล\"</i>"
     },
     "skillParams": {
       "0": "ความเสียหายสกิล",
@@ -106,16 +106,16 @@
     }
   },
   "passive1": {
-    "name": "Heir to the Ancient Sea's Legacy",
+    "name": "Heir to the Ancient Sea's Authority",
     "description": {
-      "0": "เมื่อตัวละครในทีมทำให้เกิดปฏิกิริยาระเหย แช่แข็ง ชาร์จไฟฟ้า งอกเงย กระจายธาตุน้ำหรือตกผลึกธาตุน้ำแก่ศัตรู Neuvillette จะได้รับเอฟเฟกต์ \"Past Draconic Glories\" เป็นเวลา 30 วินาที โดยซ้อนทับกันได้มากสุด 3 ชั้น ทำให้การชาร์จโจมตี: Equitable Judgment สร้างความเสียหาย 110%/130%/160% ของความเสียหายเดิม",
+      "0": "เมื่อตัวละครในทีมทำให้เกิดปฏิกิริยาระเหย, แช่แข็ง, ชาร์จไฟฟ้า, งอกเงย, กระจายธาตุน้ำ หรือตกผลึกธาตุน้ำแก่ศัตรู Neuvillette จะได้รับเอฟเฟกต์ \"Past Draconic Glories\" เป็นเวลา 30 วินาที โดยซ้อนทับกันได้มากสุด 3 ชั้น ทำให้การชาร์จโจมตี: Equitable Judgment สร้างความเสียหาย 110%/125%/160% ของความเสียหายเดิม",
       "1": " \"Past Draconic Glories\" ที่เกิดจากปฏิกิริยาธาตุแต่ละชนิดจะคงอยู่แยกกัน"
     }
   },
   "passive2": {
-    "name": "The High Arbitrator's Discipline",
+    "name": "Discipline of the Supreme Arbitration",
     "description": {
-      "0": "ทุก 1% ของค่าพลังชีวิตปัจจุบันที่สูงกว่า 30% Neuvillette จะได้รับ<hydro>โบนัสความเสียหายน้ำ</hydro> 0.6% โดยสามารถเพิ่มด้วยวิธีนี้ได้มากสุด 30%"
+      "0": "ทุก 1% ของค่าพลังชีวิตปัจจุบันที่สูงกว่า 30% ของพลังชีวิตสูงสุดของ Neuvillette จะได้รับ<hydro>โบนัสความเสียหายน้ำ</hydro> 0.6% โดยสามารถเพิ่มด้วยวิธีนี้ได้มากสุด 30%"
     }
   },
   "passive3": {
@@ -128,26 +128,26 @@
   "constellation1": {
     "name": "Venerable Institution",
     "description": {
-      "0": "เมื่อ Neuvillette เข้าสู่การต่อสู้ จะได้รับ \"Past Draconic Glories\" ของพรสวรรค์ติดตัว \"Heir to the Ancient Sea's Legacy\" 1 ชั้น โดยต้องปลดล็อกพรสวรรค์ติดตัว \"Heir to the Ancient Sea's Legacy\" ก่อน",
+      "0": "เมื่อ Neuvillette เข้าสู่การต่อสู้ จะได้รับ \"Past Draconic Glories\" ของพรสวรรค์ติดตัว \"Heir to the Ancient Sea's Authority\" 1 ชั้น โดยต้องปลดล็อกพรสวรรค์ติดตัว \"Heir to the Ancient Sea's Authority\" ก่อน",
       "1": "นอกจากนี้ เมื่อใช้การชาร์จโจมตี: Legal Evaluation หรือชาร์จโจมตี: Equitable Judgment จะเพิ่มความสามารถในการต้านทานการหยุดชะงักของ Neuvillette"
     }
   },
   "constellation2": {
-    "name": "The Law Commands",
+    "name": "Juridical Exhortation",
     "description": {
-      "0": "พรสวรรค์ติดตัว \"Heir to the Ancient Sea's Legacy\" ได้รับการเสริมพลัง: แต่ละชั้นของ \"Past Draconic Glories\" จะทำให้ความแรงคริของการชาร์จโจมตี: Equitable Judgment เพิ่มขึ้น 14% โดยสามารถเพิ่มด้วยวิธีนี้ได้มากสุด 42%",
-      "1": "ต้องปลดล็อกพรสวรรค์ติดตัว \"Heir to the Ancient Sea's Legacy\" ก่อน"
+      "0": "พรสวรรค์ติดตัว \"Heir to the Ancient Sea's Authority\" ได้รับการเสริมพลัง: แต่ละชั้นของ \"Past Draconic Glories\" จะทำให้ความแรงคริของการชาร์จโจมตี: Equitable Judgment เพิ่มขึ้น 14% โดยสามารถเพิ่มด้วยวิธีนี้ได้มากสุด 42%",
+      "1": "ต้องปลดล็อกพรสวรรค์ติดตัว \"Heir to the Ancient Sea's Authority\" ก่อน"
     }
   },
   "constellation3": {
-    "name": "Ancient Fiction",
+    "name": "Ancient Postulation",
     "description": {
-      "0": "เพิ่มเลเวลสกิลของ<strong>โจมตีปกติ: As Still Waters</strong> ขึ้น 3 ระดับ",
+      "0": "เพิ่มเลเวลสกิลของ<strong>โจมตีปกติ: As Water Seeks Equilibrium</strong> ขึ้น 3 ระดับ",
       "1": "เพิ่มได้สูงสุดถึงระดับ 15"
     }
   },
   "constellation4": {
-    "name": "Crowned in Compassion",
+    "name": "Crown of Commiseration",
     "description": {
       "0": "เมื่อ Neuvillette เข้าร่วมการต่อสู้และได้รับการรักษา จะทำให้เกิด Sourcewater Droplet 1 อัน เอฟเฟกต์นี้จะเกิดขึ้นได้มากสุดหนึ่งครั้งในทุก 4 วินาที"
     }

@@ -1,14 +1,14 @@
 {
   "name": "Neuvillette",
   "title": "Ordenador das Marés",
-  "description": "",
+  "description": "O Juiz Supremo de Fontaine, conhecido como Iudex, é renomado por sua imparcialidade inabalável.",
   "constellationName": "???",
   "auto": {
     "name": "Como Águas Paradas",
     "fields": {
       "normal": {
         "0": "<strong><strong>Ataque Normal</strong>",
-        "1": "Brande seu cetro, movendo as ondas dos mares para desferir até 3 golpes que causam <hydro>Dano Hydro</hydro>"
+        "1": "Brande seu bastão, movendo as ondas dos mares para desferir até 3 golpes que causam <hydro>Dano Hydro</hydro>."
       },
       "chargedLegal": {
         "0": "<strong>Fortalecimento de Ataque Carregado: Reprimenda Judicial</strong>",
@@ -22,7 +22,7 @@
         "2": "<strong>Ataque Carregado: Justiça Igual</strong>",
         "3": "Lança correntes que causam <hydro>Dano Hydro em AdE</hydro> continuamente contra todos os oponentes numa linha reta na sua frente.",
         "4": "Ataque Carregado: Justiça Igual não consumirá Stamina e dura 3s.",
-        "5": "Se a Vida de Neuvillette estiver acima de 50%, perderá Vida continuamente enquanto estiver usando ese ataque."
+        "5": "Se a Vida de Neuvillette estiver acima de 50%, perderá Vida continuamente enquanto estiver usando esse ataque."
       },
       "chargedJudgment": {},
       "plunging": {
@@ -107,34 +107,34 @@
   "passive1": {
     "name": "Herdeiro do Antigo Legado do Mar",
     "description": {
-      "0": "Quando um personagem da equipe desencadeia as Reações de Vaporização, Congelamento, Eletricamente Carregado, Florescimento, Redemoinho Hydro ou Reação de Cristalização Hydro, gerará 3 acúmulos do efeito \"Glória do Dragão\" para Neuvillette por 30s, aumenta o Dano do Ataque Carregado: Justiça Igual em 110%/130%/160%.",
-      "1": "A duração de Glória do Dragão gerada por cada tipo de Reação Elemental é contada de forma independente."
+      "0": "Quando um personagem da equipe desencadeia as Reações de Vaporização, Congelamento, Eletricamente Carregado, Florescimento, Redemoinho Hydro ou Reação de Cristalização Hydro, gerará 1 acúmulo do efeito \"Glória do Dragão\" para Neuvillette por 30s. É possível gerar até 3 acúmulos dessa forma. Assim, o Dano do Ataque Carregado: Justiça Igual aumenta em 110%/125%/160%.",
+      "1": "Os acúmulos de \"Glória do Dragão\" gerados por cada tipo de Reação Elemental são contados de forma independente."
     }
   },
   "passive2": {
     "name": "Disciplina do Grande Juiz",
     "description": {
-      "0": "Para cada 1% da Vida de Neuvillette acima de 30%, obtém 0.6% de <hydro>Bônus de Dano Hydro</hydro>. É possível aumentar até 30% dessa forma."
+      "0": "Para cada 1% da Vida de Neuvillette acima de 30% da Vida Máxima, obtém 0.6% de <hydro>Bônus de Dano Hydro</hydro>. É possível aumentar o Dano Hydro em até 30% dessa forma."
     }
   },
   "passive3": {
     "name": "Reunindo-se como a Maré",
     "description": {
-      "0": "Aumenta a Veloc. Mov. de correr na água para os membros da equipe em 15%.",
+      "0": "Aumenta a Veloc. Mov. ao correr embaixo da água para os membros da equipe em 15%.",
       "1": "Não é acumulável com Talentos Passivos que fornecem o mesmo efeito."
     }
   },
   "constellation1": {
     "name": "Instituição Venerável",
     "description": {
-      "0": "Quando Neuvillette entra no campo, ele obtém um acúmulo do Talento Passivo de \"Glória do Dragão\" de \"Herdeiro do Antigo Legado do Mar\". É necessário ter desbloqueado o Talento Passivo \"Herdeiro do Antigo Legado do Mar\".",
-      "1": "Além disso, ao lançar seu Fortalecimento de Ataque Carregado: Reprimenda Judicial e Ataque Carregado: Justiça Igual, aumenta a Resistência contra Interrupção de Neuvillette."
+      "0": "Quando Neuvillette entra no campo de batalha, ele obtém um acúmulo de \"Glória do Dragão\" do Talento Passivo \"Herdeiro do Antigo Legado do Mar\". É necessário ter desbloqueado o Talento Passivo \"Herdeiro do Antigo Legado do Mar\".",
+      "1": "Além disso, ao lançar seu Fortalecimento de Ataque Carregado: Reprimenda Judicial e Ataque Carregado: Justiça Igual, sua Resistência contra Interrupção aumenta."
     }
   },
   "constellation2": {
     "name": "A Lei Ordena",
     "description": {
-      "0": "O Talento Passivo \"Herdeiro do Antigo Legado do Mar\" é fortalecido: para cada acúmulo de \"Glória do Dragão\", aumenta o Dano CRIT de Ataque Carregado: Justiça Igual em 14%, podendo ser aumentado até 42%.",
+      "0": "O Talento Passivo \"Herdeiro do Antigo Legado do Mar\" é fortalecido: para cada acúmulo de \"Glória do Dragão\", aumenta o Dano CRIT de Ataque Carregado: Justiça Igual em 14%, com um máximo de aumento de 42%.",
       "1": "É necessário ter desbloqueado o Talento Passivo \"Herdeiro do Antigo Legado do Mar\"."
     }
   },

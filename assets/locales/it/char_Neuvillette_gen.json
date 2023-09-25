@@ -1,14 +1,14 @@
 {
   "name": "Neuvillette",
   "title": "Sentenza ineluttabile",
-  "description": "",
+  "description": "Il Giudice supremo di Fontaine, anche conosciuto come lo Iudex, famoso per la sua incontestabile imparzialità.",
   "constellationName": "???",
   "auto": {
     "name": "Acque chete",
     "fields": {
       "normal": {
         "0": "<strong><strong>Attacco normale</strong>",
-        "1": "Agita lentamente il suo bastone per governare le maree, scagliando fino a 3 attacchi che infliggono <hydro>DAN da Hydro</hydro>."
+        "1": "Agitando elegantemente il suo bastone, Neuvillette governa le maree per scagliare fino a 3 attacchi che infliggono <hydro>DAN da Hydro</hydro>."
       },
       "chargedLegal": {
         "0": "<strong>Rafforzamento attacco caricato: Valutazione legale</strong>",
@@ -18,11 +18,11 @@
       },
       "charged": {
         "0": "<strong>Attacco caricato</strong>",
-        "1": "Consuma una data quantità di vigore per attaccare gli avversari tramite un anello d'acqua squarciante, infliggendo <hydro>DAN da Hydro ad area</hydro>."
+        "1": "Consuma una data quantità di vigore per attaccare gli avversari tramite un getto d'acqua squarciante, infliggendo <hydro>DAN da Hydro ad area</hydro>."
       },
       "chargedJudgment": {
         "0": "<strong>Attacco caricato: Equo giudizio</strong>",
-        "1": "Scatena torrenti impetuosi che infliggono <hydro>DAN da Hydro ad area</hydro> a tutti gli avversari in linea retta davanti a sé.",
+        "1": "Scatena torrenti impetuosi che infliggono <hydro>DAN da Hydro ad area</hydro> continui a tutti gli avversari in linea retta davanti a sé.",
         "2": "Equo giudizio non consuma vigore e dura 3 s.",
         "3": "Durante l'uso di questo attacco, i PS di Neuvillette vengono consumati costantemente se sono superiori a un 50%."
       },
@@ -82,7 +82,7 @@
   "burst": {
     "name": "O maree, ai patrii lidi ritorno",
     "description": {
-      "0": "Sprigiona un'onda implacabile che infligge <hydro>DAN da Hydro ad area</hydro> in base ai PS max di Neuvillette. Dopo un breve intervallo di tempo, 2 cascate precipitano in un'area d'effetto leggermente più piccola, infliggendo <hydro>DAN da Hydro</hydro> e generando 6 Gocce d'acqua sorgiva nell'area davanti al personaggio.",
+      "0": "Sprigiona delle onde che infliggono <hydro>DAN da Hydro ad area</hydro> in base ai PS max di Neuvillette. Dopo un breve intervallo di tempo, 2 cascate precipitano in un'area d'effetto leggermente più piccola, infliggendo <hydro>DAN da Hydro</hydro> e generando 6 Gocce d'acqua sorgiva nell'area davanti al personaggio.",
       "1": "<br/>",
       "2": "<i>\"La legge si consolida solo una volta che viene resa pubblica. Ma le leggi della natura sono al di sopra di essa, poiché hanno governato tutte le specie fin dalle ere più antiche.\"</i>"
     },
@@ -108,14 +108,14 @@
   "passive1": {
     "name": "Eredità del Mare antico",
     "description": {
-      "0": "Quando un membro del gruppo innesca reazioni di Vaporizzazione, Congelamento, Electrocarica, Fioritura, Turbinio di Hydro o Cristallizzazione di Hydro sugli avversari, Neuvillette ottiene 1 accumulo di Antiche glorie dragoniche della durata di 30 s, fino a un massimo di 3. Tali accumuli permettono ad Attacco caricato: Equo giudizio di infliggere un 110%/130%/160% dei suoi DAN originali.",
-      "1": "Ogni accumulo di Antiche glorie dragoniche creato da ciascuna reazione elementale esiste in maniera indipendente."
+      "0": "Quando un membro del gruppo innesca reazioni di Vaporizzazione, Congelamento, Electrocarica, Fioritura, Turbinio di Hydro o Cristallizzazione di Hydro sugli avversari, Neuvillette ottiene 1 accumulo di Antiche glorie dragoniche della durata di 30 s, fino a un massimo di 3. Antiche glorie dragoniche permette ad Attacco caricato: Equo giudizio di infliggere un 110%/125%/160% dei suoi DAN originali.",
+      "1": "Ogni accumulo di Antiche glorie dragoniche creato da ciascun tipo di reazione elementale esiste in maniera indipendente."
     }
   },
   "passive2": {
     "name": "Arbitro supremo",
     "description": {
-      "0": "Per ogni 1% dei PS di Neuvillette al di sopra di un 30%, il personaggio ottiene uno 0,6% di <hydro>bonus DAN da Hydro</hydro>. È possibile ottenere in questo modo fino a un 30% di bonus massimo."
+      "0": "Per ogni 1% dei PS attuali al di sopra di un 30% dei suoi PS max, Neuvillette ottiene uno 0,6% di <hydro>bonus DAN da Hydro</hydro>. È possibile ottenere in questo modo fino a un 30% di bonus massimo."
     }
   },
   "passive3": {
