@@ -390,6 +390,10 @@
       "0": "Engouement poétique de « Poésie sur eau »"
     }
   },
+  "ThelxiesBadge": {
+    "name": "Badge de Thelxie",
+    "description": {}
+  },
   "Primogem": {
     "name": "Primo-gemme",
     "description": {
@@ -1017,6 +1021,14 @@
       "0": "Le juge suprême de Fontaine, également connu comme l'iudex, est réputé pour son impartialité sans faille."
     }
   },
+  "Charlotte": {
+    "name": "Charlotte",
+    "description": {}
+  },
+  "Furina": {
+    "name": "Furina",
+    "description": {}
+  },
   "KamisatoAyakasStellaFortuna": {
     "name": "Stella Fortuna de Kamisato Ayaka.",
     "description": {
@@ -1459,6 +1471,18 @@
     "name": "Stella Fortuna de Neuvillette",
     "description": {
       "0": "Matériau d'activation de la constellation de Neuvillette."
+    }
+  },
+  "CharlottesStellaFortuna": {
+    "name": "Stella Fortuna de Charlotte",
+    "description": {
+      "0": "Matériau d'activation de la constellation de Charlotte."
+    }
+  },
+  "FurinasStellaFortuna": {
+    "name": "Stella Fortuna de Furina",
+    "description": {
+      "0": "Matériau d'activation de la constellation de Furina."
     }
   },
   "GnosticHymnOldNotes": {
@@ -5532,14 +5556,6 @@
       "0": "Une vieille clé trouvée au fond du puits du Village de Konda. On dit que « là où il y a une clé, il y a une serrure à ouvrir ». Qui sait où se trouve la serrure de cette clé..."
     }
   },
-  "MaskOfMemories": {
-    "name": "",
-    "description": {
-      "0": "Hanachirusato, la prêtresse du sanctuaire, portait ce masque auparavant. Il est profondément taché.",
-      "1": "Les souvenirs qu'il contient permettent d'apprendre à fabriquer le catalyseur connu sous le nom d'« Anneau des Hakushin ».",
-      "2": "Maintenant que Hanachirusato n'a plus ce masque, Paimon ne pourra plus l'appeler « prêtresse masquée »..."
-    }
-  },
   "TheVioletOnisBlade": {
     "name": "Épée de l'Oni violine",
     "description": {
@@ -6038,9 +6054,7 @@
   },
   "SecretNotes": {
     "name": "Notes secrètes",
-    "description": {
-      "0": "心海写的日记（test）"
-    }
+    "description": {}
   },
   "HighQualityRice": {
     "name": "Riz de qualité",
@@ -6535,11 +6549,19 @@
       "0": "Un animal au corps mou qui émet une faible lumière. On en trouve souvent en train d'escalader les murs des bâtiments près de l'eau ou sous l'eau."
     }
   },
+  "LakelightLily": {
+    "name": "",
+    "description": {}
+  },
   "SubdetectionUnit": {
     "name": "Unité de sous-détection",
     "description": {
       "0": "Cette unité de détection, créée par l'Institut de recherche de Fontaine en utilisant de nouveaux modèles de composants artificiels, était à l'origine destinée au suivi des données environnementales."
     }
+  },
+  "SpringOfTheFirstDewdrop": {
+    "name": "",
+    "description": {}
   },
   "BirchWood": {
     "name": "Bois de bouleau",
@@ -13746,6 +13768,42 @@
       "0": "Spécialité culinaire de Wriothesley. Peu de temps après l'avoir entendu expulser ses subordonnés en criant « Sortez, la cuisine est sur le point d'exploser », une délicatesse de viande salue vos pupilles. La sauce corsée, recouvrant la peau croustillante, apporte une extraordinaire double explosion de délices. En goûtant par contre, le plat semble être pratiquement identique à un condiment qui est devenu terriblement populaire récemment..."
     }
   },
+  "SuspiciousLaLettreAFocalors": {
+    "name": "Opéra (suspect)",
+    "description": {}
+  },
+  "LaLettreAFocalors": {
+    "name": "Opéra",
+    "description": {
+      "0": "Un petit gâteau en forme de long rectangle. On raconte qu'il y a très, très longtemps, un certain pâtissier s'est inspiré du grand amour des Fontainois envers leur Archon Hydro pour créer ce chef-d'œuvre sucré. Les multiples couches empilées les unes sur les autres constituent un véritable test des talents d'un chef et chaque aspect de ce gâteau est la preuve de l'influence du grand Archon Hydro."
+    }
+  },
+  "DeliciousLaLettreAFocalors": {
+    "name": "Opéra (délicieux)",
+    "description": {}
+  },
+  "SuspiciousBlubberProfiterole": {
+    "name": "Boudi-profiteroles (suspectes)",
+    "description": {}
+  },
+  "BlubberProfiterole": {
+    "name": "Boudi-profiteroles",
+    "description": {
+      "0": "Un dessert fourré à la crème. Son enrobage moelleux et feuilleté, renfermant une crème riche, est tout rond et presque potelé, aussi mignon que le ventre d'un boudiné. Peu de cœurs peuvent échapper au charme de la crème onctueuse et douce qu'il contient."
+    }
+  },
+  "DeliciousBlubberProfiterole": {
+    "name": "Boudi-profiteroles (délicieuses)",
+    "description": {}
+  },
+  "Proustis": {
+    "name": "",
+    "description": {}
+  },
+  "ExclusiveScoopGourmetColumn": {
+    "name": "",
+    "description": {}
+  },
   "RecipeItem": {
     "name": "Ingrédient",
     "description": {
@@ -14783,6 +14841,18 @@
     "name": "Recette : Crêpes Suzette",
     "description": {
       "0": "Étapes de préparation des crêpes Suzette."
+    }
+  },
+  "RecipeLaLettreAFocalors": {
+    "name": "Recette : Opéra",
+    "description": {
+      "0": "Étapes de préparation de l'opéra."
+    }
+  },
+  "RecipeBlubberProfiterole": {
+    "name": "Recette : Boudi-profiteroles",
+    "description": {
+      "0": "Étapes de préparation des boudi-profiteroles."
     }
   },
   "CraftedItems": {
@@ -16087,6 +16157,10 @@
       "0": "La section émettant de l'électricité de l'Hippocampe perlé millénaire, symbole de sa puissance supérieure, cassée lors d'un affrontement contre un puissant adversaire.",
       "1": "En tant que plus grand prédateur descendant des hippocampes bulleux, le parcours évolutif de l'Hippocampe perlé millénaire n'est pas le même que celui vécu par les autres Aberrants fontemarins : il n'a pas commencé à partir d'une forme de base avant de devenir plus grand et plus fort, mais a plutôt développé des membres et des cornes qui n'ont pas leur place sur un hippocampe ordinaire, et même sa musculature et son squelette ont changé. Il ressemble maintenant davantage à une bête fantastique des légendes d'autrefois qu'à sa forme d'origine. Dans l'imaginaire des poètes et des auteurs, même les hippocampes peuvent gambader sur la terre."
     }
+  },
+  "WaterThatFailedToTranscend": {
+    "name": "",
+    "description": {}
   },
   "TileOfDecarabiansTower": {
     "name": "Tuile cassée de Décabarian",
@@ -17735,7 +17809,9 @@
   },
   "EventNotice": {
     "name": "Annonce d'événement",
-    "description": {}
+    "description": {
+      "0": "？？？"
+    }
   },
   "HaniyyahsNotesFirstPart": {
     "name": "Notes d'Haniyyah (1)",
@@ -17806,7 +17882,9 @@
   },
   "TheIsleOfDarklingClouds": {
     "name": "« L'île aux nuages sombres »",
-    "description": {}
+    "description": {
+      "0": "？？？"
+    }
   },
   "BoxfulOfHomelandSoil": {
     "name": "Boîte pleine de terre du pays",
@@ -18495,6 +18573,12 @@
       "0": "Une invention du Kshahrewar. Lorsqu'un concurrent porte un dispositif de localisation, le localisateur permet d'afficher son emplacement général. De plus, si un concurrent complète sa tâche, le localisateur retentit."
     }
   },
+  "Test": {
+    "name": "(test)???",
+    "description": {
+      "0": "(test)???"
+    }
+  },
   "FoodSeeds": {
     "name": "Graines de nourriture",
     "description": {
@@ -18781,47 +18865,69 @@
   },
   "OldCaseFiles": {
     "name": "Ancien dossier d'affaire",
-    "description": {}
+    "description": {
+      "0": "？？？"
+    }
   },
   "TestimonyFromJacquesFamily": {
     "name": "Témoignage de la famille de Jacques",
-    "description": {}
+    "description": {
+      "0": "？？？"
+    }
   },
   "FlorentsStatement": {
     "name": "Déclaration de Florent",
-    "description": {}
+    "description": {
+      "0": "？？？"
+    }
   },
   "ThierrysStatement": {
     "name": "Déclaration de Thierry",
-    "description": {}
+    "description": {
+      "0": "？？？"
+    }
   },
   "MarcelsStatement": {
     "name": "Déclaration de Marcel",
-    "description": {}
+    "description": {
+      "0": "？？？"
+    }
   },
   "SuspectAnalysis": {
     "name": "Analyse du suspect",
-    "description": {}
+    "description": {
+      "0": "？？？"
+    }
   },
   "PrimordialSeawaterPool": {
     "name": "Bassin d'eau de mer primordiale",
-    "description": {}
+    "description": {
+      "0": "？？？"
+    }
   },
   "Sinthe": {
     "name": "Sinthe",
-    "description": {}
+    "description": {
+      "0": "？？？"
+    }
   },
   "MissingPersonsPossessions": {
     "name": "Biens de la personne disparue",
-    "description": {}
+    "description": {
+      "0": "？？？"
+    }
   },
   "VachersExperimentReport": {
     "name": "Rapport d'expérience de Vacher",
-    "description": {}
+    "description": {
+      "0": "？？？"
+    }
   },
   "LettersRelatedToCallasCase": {
     "name": "Lettre relative à l'affaire de Callas",
-    "description": {}
+    "description": {
+      "0": "？？？"
+    }
   },
   "VigneiresNotebook": {
     "name": "Calepin de Vigneire",
@@ -18903,6 +19009,42 @@
     "name": "Robben contre Chesterton : La broche irisée - III",
     "description": {
       "0": "Un roman divertissant assez populaire à Fontaine. Il raconte une histoire sur la première confrontation entre le voleur « Gentilhomme fantôme » Fantômas Robben et le célèbre détective Chesterton. Attention, il s'agit d'une œuvre de fiction, et toute similitude avec des personnes vivantes ou décédées, ou des événements réels est purement fortuite."
+    }
+  },
+  "TheCollapseOfTheFadingKeepI": {
+    "name": "L'effondrement du château fané - Tome I",
+    "description": {
+      "0": "？？？"
+    }
+  },
+  "TheCollapseOfTheFadingKeepII": {
+    "name": "L'effondrement du château fané - Tome II",
+    "description": {
+      "0": "？？？"
+    }
+  },
+  "TheCollapseOfTheFadingKeepIII": {
+    "name": "L'effondrement du château fané - Tome III",
+    "description": {
+      "0": "？？？"
+    }
+  },
+  "TheSongOfErinnyesI": {
+    "name": "La chanson d'Erinnyes - Tome I",
+    "description": {
+      "0": "？？？"
+    }
+  },
+  "TheSongOfErinnyesII": {
+    "name": "La chanson d'Erinnyes - Tome II",
+    "description": {
+      "0": "？？？"
+    }
+  },
+  "TheSongOfErinnyesIII": {
+    "name": "La chanson d'Erinnyes - Tome III",
+    "description": {
+      "0": "？？？"
     }
   },
   "GiftOfParting": {
@@ -19249,6 +19391,18 @@
       "0": "Journal abîmé"
     }
   },
+  "KevansLetter": {
+    "name": "",
+    "description": {}
+  },
+  "MessilyWrittenLetter": {
+    "name": "",
+    "description": {}
+  },
+  "ScribbledOrders": {
+    "name": "",
+    "description": {}
+  },
   "Disclaimer": {
     "name": "Avertissement",
     "description": {}
@@ -19527,6 +19681,26 @@
       "0": "Une boisson expérimentale créée par Heinry. Un thé sucré et pétillant complètement dépourvu de bulles. Pourrais-je... Pourrais-je prendre une tasse de thé à la place ?"
     }
   },
+  "DiaryOfAValiantStruggleI": {
+    "name": "",
+    "description": {}
+  },
+  "DiaryOfAValiantStruggleII": {
+    "name": "",
+    "description": {}
+  },
+  "DiaryOfAValiantStruggleIII": {
+    "name": "",
+    "description": {}
+  },
+  "DiaryOfAValiantStruggleIV": {
+    "name": "",
+    "description": {}
+  },
+  "DiaryOfAValiantStruggleV": {
+    "name": "",
+    "description": {}
+  },
   "AcademicAssemblyHallPicture": {
     "name": "Photo du Hall d'assemblée académique",
     "description": {
@@ -19559,6 +19733,10 @@
   },
   "FontaineResearchInstituteOfKineticEnergyEngineeringCertificate": {
     "name": "Certificat de l'Institut de recherche d'ingénierie cinétique de Fontaine",
+    "description": {}
+  },
+  "TeardropKey": {
+    "name": "",
     "description": {}
   },
   "TrainingLog": {
@@ -19603,6 +19781,60 @@
     "name": "Documents du 3e emplacement",
     "description": {
       "0": "Les documents perdus d'Heinry. Qui sait quel genre d'inspiration il en tirera..."
+    }
+  },
+  "RainbowGlory": {
+    "name": "Gloire arc-en-ciel",
+    "description": {
+      "0": "？？？"
+    }
+  },
+  "RecommendationLetter": {
+    "name": "Lettre de recommandation",
+    "description": {
+      "0": "Lettre de recommandation"
+    }
+  },
+  "Persona": {
+    "name": "",
+    "description": {}
+  },
+  "UnlockedTreasure": {
+    "name": "",
+    "description": {}
+  },
+  "FoggyForestBranch": {
+    "name": "",
+    "description": {}
+  },
+  "FallenBouquet": {
+    "name": "",
+    "description": {}
+  },
+  "Tripod": {
+    "name": "",
+    "description": {}
+  },
+  "NadiasToken": {
+    "name": "",
+    "description": {}
+  },
+  "TinyConch": {
+    "name": "",
+    "description": {}
+  },
+  "DivingSet": {
+    "name": "",
+    "description": {}
+  },
+  "SunkenCoinPouch": {
+    "name": "",
+    "description": {}
+  },
+  "StrangeMessage": {
+    "name": "Message étrange",
+    "description": {
+      "0": "Message étrange"
     }
   },
   "SilkFlowerSeed": {
@@ -20043,6 +20275,10 @@
       "1": "Par rapport aux autres modèles produits en série, ces meks de maintenance « Collecteurs de platine » en édition limitée se distinguent par leur magnifique apparence. Il s'agit d'exemplaires commémoratifs spécialement conçus et offerts par l'équipe de développement à de riches marchands dans l'espoir d'obtenir leur soutien financier pour le projet des meks de maintenance... Des ornements exquis qui rehausseraient le prestige de n'importe quel aquarium ! Malheureusement, aucune de ces tentatives n'ayant fonctionné, l'équipe de développement a ajusté ses plans et essayé de les vendre comme objets de collection pour compenser le manque de fonds du projet.",
       "2": "Au final, à cause de l'accident dont tout le monde se souvient, l'équipe de développement a été licenciée et leurs futurs projets annulés. De nos jours, les meks de maintenance restants à Fontaine sont totalement libres de toute surveillance, et les collecteurs de platine ne font pas exception : tous ont été perdus dans les eaux. Disparaissant complètement des radars, ils sont maintenant les « poissons » les plus uniques et les plus chers de Fontaine. Les journalistes de L'Oiseau de vapeur, après une enquête approfondie et un examen des données existantes, ont conclu que « le déploiement des meks de maintenance n'a pas eu de différence significative sur les niveaux de pollution des eaux de Fontaine et l'efficacité du projet est discutable ». Depuis lors, les collecteurs de platine survivants errent dans les eaux de Fontaine et sont considérés parmi les prises les plus rares. Après tout, un collecteur de platine est désormais aussi rare que le poisson ornemental le plus précieux de n'importe quelle autre nation."
     }
+  },
+  "MaintenanceMekGoldLeader": {
+    "name": "Mek de maintenance : Meneur doré",
+    "description": {}
   },
   "WingsOfFirstFlight": {
     "name": "Planeur du débutant",
@@ -20903,6 +21139,36 @@
       "0": "Ce cristal merveilleux contient une certaine mélodie, comme s'il s'agissait de quelque chose de magnifique tissé à partir de soie délicate. Ces objets peuvent être trouvés sur tout le continent ou chez les marchands qui collectionnent des bibelots. L'air contenu dans ce cristal peut être revivifié dans votre Sérénithéière en utilisant les euphonies célestes « Envolée » ou « Entrelacs ». La mélodie contenue dans ce gyrocristal radiant est une mystérieuse mélodie de Fontaine."
     }
   },
+  "RadiantSpincrystal115": {
+    "name": "Gyrocristal radiant 115",
+    "description": {
+      "0": "Ce cristal merveilleux contient une certaine mélodie, comme s'il s'agissait de quelque chose de magnifique tissé à partir de soie délicate. Ces objets peuvent être trouvés sur tout le continent ou chez les marchands qui collectionnent des bibelots. L'air contenu dans ce cristal peut être revivifié dans votre Sérénithéière en utilisant les euphonies célestes « Envolée » ou « Entrelacs ». La mélodie contenue dans ce gyrocristal radiant est une mystérieuse mélodie de Fontaine."
+    }
+  },
+  "RadiantSpincrystal116": {
+    "name": "Gyrocristal radiant 116",
+    "description": {
+      "0": "Ce cristal merveilleux contient une certaine mélodie, comme s'il s'agissait de quelque chose de magnifique tissé à partir de soie délicate. Ces objets peuvent être trouvés sur tout le continent ou chez les marchands qui collectionnent des bibelots. L'air contenu dans ce cristal peut être revivifié dans votre Sérénithéière en utilisant les euphonies célestes « Envolée » ou « Entrelacs ». La mélodie contenue dans ce gyrocristal radiant est une mystérieuse mélodie de Fontaine."
+    }
+  },
+  "RadiantSpincrystal117": {
+    "name": "Gyrocristal radiant 117",
+    "description": {
+      "0": "Ce cristal merveilleux contient une certaine mélodie, comme s'il s'agissait de quelque chose de magnifique tissé à partir de soie délicate. Ces objets peuvent être trouvés sur tout le continent ou chez les marchands qui collectionnent des bibelots. L'air contenu dans ce cristal peut être revivifié dans votre Sérénithéière en utilisant les euphonies célestes « Envolée » ou « Entrelacs ». La mélodie contenue dans ce gyrocristal radiant est une mystérieuse mélodie de Fontaine."
+    }
+  },
+  "RadiantSpincrystal118": {
+    "name": "Gyrocristal radiant 118",
+    "description": {
+      "0": "Ce cristal merveilleux contient une certaine mélodie, comme s'il s'agissait de quelque chose de magnifique tissé à partir de soie délicate. Ces objets peuvent être trouvés sur tout le continent ou chez les marchands qui collectionnent des bibelots. L'air contenu dans ce cristal peut être revivifié dans votre Sérénithéière en utilisant les euphonies célestes « Envolée » ou « Entrelacs ». La mélodie contenue dans ce gyrocristal radiant est une mystérieuse mélodie de Fontaine."
+    }
+  },
+  "RadiantSpincrystal119": {
+    "name": "Gyrocristal radiant 119",
+    "description": {
+      "0": "Ce cristal merveilleux contient une certaine mélodie, comme s'il s'agissait de quelque chose de magnifique tissé à partir de soie délicate. Ces objets peuvent être trouvés sur tout le continent ou chez les marchands qui collectionnent des bibelots. L'air contenu dans ce cristal peut être revivifié dans votre Sérénithéière en utilisant les euphonies célestes « Envolée » ou « Entrelacs ». La mélodie contenue dans ce gyrocristal radiant est une mystérieuse mélodie de Fontaine."
+    }
+  },
   "LanternFiber": {
     "name": "Cellulose de lanterne",
     "description": {
@@ -21051,6 +21317,10 @@
       "0": "Matériau de raffinement spécial pour la Ballade d'un azur infini.",
       "1": "Dans de nombreux poèmes et contes, les pissenlits sont un symbole de liberté sans restriction, voyageant vers des terres lointaines. Placer un marque-page avec l'image d'un pissenlit dans un livre n'est pas une forme d'enfermement, mais plutôt un moyen de lui permettre de se promener fièrement dans un monde bien plus vaste et plus lumineux que le nôtre."
     }
+  },
+  "SurgingSacredChalice": {
+    "name": "",
+    "description": {}
   },
   "FalconsDance": {
     "name": "Danse du faucon",
@@ -23152,6 +23422,14 @@
       "8": "« Des bulles ! C'est vraiment joli ! Papa, tu es incroyable ! »"
     }
   },
+  "SpecialAnalysisZoomLens": {
+    "name": "Zoom d'analyse spéciale",
+    "description": {}
+  },
+  "GraphicsSamplingKamera": {
+    "name": "Daguerréotype à échantillonnage graphique",
+    "description": {}
+  },
   "InstructionsAnemoculusResonanceStone": {
     "name": "Instructions : Pierre de résonance Anémoculus",
     "description": {
@@ -23252,6 +23530,14 @@
     "name": "Plan : Fiole exothermique",
     "description": {
       "0": "Plan détaillé pour la fabrication d'une Fiole exothermique. Une fois maîtrisé, il vous permettra de créer un outil vous autorisant à résister au Grand froid."
+    }
+  },
+  "MaskOfMemories": {
+    "name": "Masque des souvenirs",
+    "description": {
+      "0": "Hanachirusato, la prêtresse du sanctuaire, portait ce masque auparavant. Il est profondément taché.",
+      "1": "Les souvenirs qu'il contient permettent d'apprendre à fabriquer le catalyseur connu sous le nom d'« Anneau des Hakushin ».",
+      "2": "Maintenant que Hanachirusato n'a plus ce masque, Paimon ne pourra plus l'appeler « prêtresse masquée »..."
     }
   },
   "TaleOfTheForestKing": {
@@ -23933,6 +24219,24 @@
       "0": "Une carte pour le jeu de table, l'Invocation des Sept. Elle est résistante et une méthode d'impression spéciale a été utilisée pour son illustration, ce qui lui donne une apparence vraiment exquise."
     }
   },
+  "TheStarrySkiesTheirFlowersRain": {
+    "name": "Pluie de fleurs du ciel étoilé",
+    "description": {
+      "0": "Une carte pour le jeu de table, l'Invocation des Sept. Elle est résistante et une méthode d'impression spéciale a été utilisée pour son illustration, ce qui lui donne une apparence vraiment exquise."
+    }
+  },
+  "DiscretionarySupplement": {
+    "name": "Supplément discrétionnaire",
+    "description": {
+      "0": "Une carte pour le jeu de table, l'Invocation des Sept. Elle est résistante et une méthode d'impression spéciale a été utilisée pour son illustration, ce qui lui donne une apparence vraiment exquise."
+    }
+  },
+  "AllThingsAreOfTheEarth": {
+    "name": "Terre mère",
+    "description": {
+      "0": "Une carte pour le jeu de table, l'Invocation des Sept. Elle est résistante et une méthode d'impression spéciale a été utilisée pour son illustration, ce qui lui donne une apparence vraiment exquise."
+    }
+  },
   "MagicGuide": {
     "name": "Guide de magie",
     "description": {
@@ -24269,6 +24573,18 @@
       "0": "Une carte pour le jeu de table, l'Invocation des Sept. Elle est résistante et une méthode d'impression spéciale a été utilisée pour son illustration, ce qui lui donne une apparence vraiment exquise."
     }
   },
+  "OceanHuedClam": {
+    "name": "Palourde aux teintes océaniques",
+    "description": {
+      "0": "Une carte pour le jeu de table, l'Invocation des Sept. Elle est résistante et une méthode d'impression spéciale a été utilisée pour son illustration, ce qui lui donne une apparence vraiment exquise."
+    }
+  },
+  "ShadowOfTheSandKing": {
+    "name": "L'ombre du roi des sables",
+    "description": {
+      "0": "Une carte pour le jeu de table, l'Invocation des Sept. Elle est résistante et une méthode d'impression spéciale a été utilisée pour son illustration, ce qui lui donne une apparence vraiment exquise."
+    }
+  },
   "LiyueHarborWharf": {
     "name": "Quai du Port de Liyue",
     "description": {
@@ -24475,6 +24791,12 @@
   },
   "YayoiNanatsuki": {
     "name": "Yayoi Nanatsuki",
+    "description": {
+      "0": "Une carte pour le jeu de table, l'Invocation des Sept. Elle est résistante et une méthode d'impression spéciale a été utilisée pour son illustration, ce qui lui donne une apparence vraiment exquise."
+    }
+  },
+  "StormterrorsLair": {
+    "name": "Antre de Stormterror",
     "description": {
       "0": "Une carte pour le jeu de table, l'Invocation des Sept. Elle est résistante et une méthode d'impression spéciale a été utilisée pour son illustration, ce qui lui donne une apparence vraiment exquise."
     }
@@ -24745,6 +25067,18 @@
   },
   "Pankration": {
     "name": "Pancrace !",
+    "description": {
+      "0": "Une carte pour le jeu de table, l'Invocation des Sept. Elle est résistante et une méthode d'impression spéciale a été utilisée pour son illustration, ce qui lui donne une apparence vraiment exquise."
+    }
+  },
+  "InEveryHouseAStove": {
+    "name": "Poêle des familles",
+    "description": {
+      "0": "Une carte pour le jeu de table, l'Invocation des Sept. Elle est résistante et une méthode d'impression spéciale a été utilisée pour son illustration, ce qui lui donne une apparence vraiment exquise."
+    }
+  },
+  "Lyresong": {
+    "name": "Ode à la lyre",
     "description": {
       "0": "Une carte pour le jeu de table, l'Invocation des Sept. Elle est résistante et une méthode d'impression spéciale a été utilisée pour son illustration, ce qui lui donne une apparence vraiment exquise."
     }

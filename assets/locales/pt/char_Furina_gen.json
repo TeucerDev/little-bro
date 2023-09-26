@@ -1,0 +1,176 @@
+{
+  "name": "Furina",
+  "title": "",
+  "description": "",
+  "constellationName": "",
+  "auto": {
+    "name": "Solicitação da Solista",
+    "fields": {
+      "normal": {
+        "0": "<strong><strong>Ataque Normal</strong>",
+        "1": "Realiza até 4 golpes consecutivos."
+      },
+      "charged": {
+        "0": "<strong>Ataque Carregado</strong>",
+        "1": "Consome uma certa quantidade de Stamina para lançar uma dança sozinha e causar Dano Físico contra oponentes próximos e mudar seu alinhamento de Arkhe. Se Membros do Salon ou Cantores das Correntes invocados por sua Habilidade Elemental \"Salon Solitaire\" estiverem presentes, sua formação mudará para a forma correspondente."
+      },
+      "plunging": {
+        "0": "<strong>Arkhe: Trono Sagrado e Secular</strong>",
+        "1": "Periodicamente, quando o Ataque Normal de Furina atingir, uma Lâmina da Fluidez ou Espinho Espiritual cairá segundo seu alinhamento atual, causando <hydro>Dano Hydro</hydro>.",
+        "2": "Quando Furina entrar no campo de batalha, seu Arkhe será Ousia.",
+        "3": "<br/>",
+        "4": "Ataque Imersivo",
+        "5": "Mergulha em pleno ar para golpear o chão, causando dano aos inimigos ao longo do caminho e infligindo Dano em uma AdE no impacto."
+      }
+    },
+    "skillParams": {
+      "0": "Dano do 1° Golpe",
+      "1": "Dano do 2° Golpe",
+      "2": "Dano do 3° Golpe",
+      "3": "Dano do 4° Golpe",
+      "4": "Dano de Ataque Carregado",
+      "5": "Consumo de Stamina de Ataque Carregado",
+      "6": "Dano Durante a Queda",
+      "7": "Dano de Queda de Baixa/Alta Altitude",
+      "8": "Espinho Espiritual/Dano da Lâmina da Fluidez",
+      "9": "Intervalo de Dano de Espinho Espiritual/Lâmina da Fluidez",
+      "10": "",
+      "11": "",
+      "12": "",
+      "13": "",
+      "14": "",
+      "15": ""
+    }
+  },
+  "skill": {
+    "name": "Salon Solitaire",
+    "description": {
+      "0": "Convida os convidados do Salon Solitare para participarem da performance de Furina. Convidará Membros do Salon ou Cantores das Correntes segundo o alinhamento <strong>Arkhe</strong> atual.",
+      "1": "<br/>",
+      "2": "<strong>Ousia</strong>",
+      "3": "Joga bolhas comemorativas, causa <hydro>Dano Hydro em AdE</hydro> baseado na Vida Máxima de Furina e invoca três Membros do Salon: Polvo de Bola \"Gentilshomme Usher\", Cavalo-Marinho de Bolhas \"Surintendante Chevalmarin\" e Caranguejo de Armadura \"Mademoiselle Crabaletta\".",
+      "4": "Os Membros do Salon periodicamente atacarão os inimigos próximos, e priorizarão atacar o alvo do personagem atual, causando <hydro>Dano Hydro</hydro> baseado na Vida Máxima de Furina.",
+      "5": "Quando os Membros do Salon atacarem, se houverem personagens próximo com mais de 50% de Vida, consumirá Vida desses personagens e, segundo o número de personagens que devotou sua Vida, aumenta o poder do Ataque: se consumir Vida de 1/2/3/4 personagens ou mais, aumenta o Dano original de seu Ataque em 110%/120%/130%/140%.",
+      "6": "<br/>",
+      "7": "<strong>Pneuma</strong>",
+      "8": "Invoca os Cantores das Correntes que periodicamente regeneram Vida para os personagens atuais próximos baseado no ATQ de Furina.",
+      "9": "A duração dos Membros do Salon e Cantores das Correntes é compartilhada. Quando Furina trocar a formação ao realizar um Ataque Carregado, eles continuarão herdando a duração.",
+      "10": "<br/>",
+      "11": "<i>Um conjunto de frequentadores regulares no Salon Solitaire de Furina. Em outras épocas, Mademoiselle Crabaletta, Surintendante Chevalmarin e Gentilshomme Usher visitavam, e em quartas-feiras tristes, eram os cantores que vinham.</i>"
+    },
+    "skillParams": {
+      "0": "Dano da Bolha de Ousia",
+      "1": "Duração",
+      "2": "Dano de Gentilshomme Usher",
+      "3": "Dano de Surintendante Chevalmarin",
+      "4": "Dano de Mademoiselle Crabaletta",
+      "5": "Consumo de Vida de Gentilshomme Usher",
+      "6": "Consumo de Vida de Surintendante Chevalmarin",
+      "7": "Consumo de Vida de Mademoiselle Crabaletta",
+      "8": "Cura de Cantores das Correntes",
+      "9": "Recarga",
+      "10": "",
+      "11": "",
+      "12": "",
+      "13": "",
+      "14": "",
+      "15": ""
+    }
+  },
+  "burst": {
+    "name": "E o Povo Vai à Loucura",
+    "description": {
+      "0": "Reúne o impulso da euforia, criando um palco de espuma que causa <hydro>Dano Hydro em AdE</hydro> baseado na Vida Máxima de Furina, e faz todos os membros da equipe entrarem no estado \"Euforia Universal\": em sua duração, quando a Vida de um personagem próximo aumentar ou diminuir, fará Furina obter 1 ponto de Fanfarra para cada 1% da proporção de valor do aumento ou queda da Vida Máxima.",
+      "1": "Ao mesmo tempo, quando Furina possuir Fanfarra, aumenta o Dano causado por todos os membros próximos da equipe, e obtém bônus de Cura.",
+      "2": "Quando a duração terminar, as Fanfarras que Furina possui serão eliminadas.",
+      "3": "<br/>",
+      "4": "<i>\"Alegrem-se! Elogiem! Choquem-se! Levantem seus copos! Cada noite de um banquete é um desperdício sórdido da luz do dia sóbria... e, hã, aqueles que ainda não têm idade pode tomar suco de fruta!\"</i>"
+    },
+    "skillParams": {
+      "0": "Dano de Habilidade",
+      "1": "Duração",
+      "2": "Fanfarra Máxima",
+      "3": "Taxa de Conversão de Fanfarra para Aumento de Dano",
+      "4": "Taxa de Conversão de Fanfarra para Bônus de Cura",
+      "5": "Tempo de Recarga",
+      "6": "Energia Elemental",
+      "7": "",
+      "8": "",
+      "9": "",
+      "10": "",
+      "11": "",
+      "12": "",
+      "13": "",
+      "14": "",
+      "15": ""
+    }
+  },
+  "passive1": {
+    "name": "Valsa Infinita",
+    "description": {
+      "0": "Quando o personagem ativo é curado, se a fonte da cura não for Furina e a quantidade curada for maior que o necessário, nos próximos 4s, Furina regenerará Vida para os personagens próximos da equipe a cada 2s. A quantidade regenerada é equivalente a 2% da Vida Máxima de cada personagem."
+    }
+  },
+  "passive2": {
+    "name": "Confissão Inaudita",
+    "description": {
+      "0": "Cada 1.000 pontos da Vida Máxima de Furina podem dar bônus para os Arkhe de <strong>Salon Solitaire</strong>:",
+      "1": "Aumenta o Dano causado pelos Membros do Salon em 0.7%. É possível aumentar o Dano causado pelos Membros do Salo em até 28% dessa forma.",
+      "2": "Reduzirá o intervalo de cura do personagem ativo pelos Cantores das Correntes em 0.4%. É possível reduzir até 16%."
+    }
+  },
+  "passive3": {
+    "name": "O Mar é o meu Palco",
+    "description": {
+      "0": "Diminui a recarga das habilidades das Aberrações Primordiais Heterocromáticas em 30%."
+    }
+  },
+  "constellation1": {
+    "name": "\"Como um Pássaro Recalcitrante, o Amor é Surdo a Súplicas\"",
+    "description": {
+      "0": "Ao lançar <strong>E o Povo Vai à Loucura</strong>, Furina ganha 150 de Fanfarra.",
+      "1": "Além disso, aumenta o limite de Fanfarra de Furina em 150."
+    }
+  },
+  "constellation2": {
+    "name": "\"Uma Mulher se Adapta como Plantas na Água.\"",
+    "description": {
+      "0": "Ao lançar a Habilidade Elemental \"Salon Solitaire\", Furina ganha \"Centro das Atenções\" por 10s.",
+      "1": "Nesse período, os Ataques Normais, Carregados e Imersivos serão convertidos em <hydro>Dano Hydro</hydro> que não pode ser substituído, e aumenta o Dano causado. O valor do aumento de Dano é equivalente a 15% da Vida Máxima de Furina.",
+      "2": "Na duração, a cada 0.1s, depois dos Ataques Normais, Carregados e Imersivos que atingem o chão atingirem inimigos, gerarão efeitos diferentes segundo o Arkhe atual de Furina:",
+      "3": "<br/>",
+      "4": "Arkhe: Ousia",
+      "5": "A cada 1s, regenera Vida para todos os membros da equipe baseado em 3% da Vida Máxima de Furina por 2.5s.",
+      "6": "Arkhe: Pneuma",
+      "7": "Aumenta o Dano o Ataque Normal, Carregado ou Imersivo que atingir o chão em mais 15% da Vida Máxima de Furina. Quando esse ataque atingir um inimigo, consome 1% da Vida Máxima de todos os membros da equipe.",
+      "8": "<br/>",
+      "9": "Na duração de \"Centro das Atenções\", esse efeito pode ser desencadeado até 7 vezes. O efeito será removido quando for ativado 7 vezes ou sua duração acabar."
+    }
+  },
+  "constellation3": {
+    "name": "\"Meus Segredos Eu Escondo, Desconhecidos a Todos.\"",
+    "description": {
+      "0": "Aumenta o nível do <strong>Salon Solitaire</strong> em 3.",
+      "1": "O nível máximo de elevação é 15."
+    }
+  },
+  "constellation4": {
+    "name": "\"Aqueles que Vivem no Limbo Não Conhecem a Vida!\"",
+    "description": {
+      "0": "Quando os Membros do Salon de <strong>Salon Solitaire</strong> atingem um inimigo, ou quando os Cantores das Correntes regeneram Vida para um personagem ativo próximo, Furina obtém 4 de Energia Elemental. Esse efeito pode ser desencadeado uma vez a cada 5s."
+    }
+  },
+  "constellation5": {
+    "name": "\"Agora sei seu nome, é...!\"",
+    "description": {
+      "0": "Aumenta o nível da <strong>E o Povo Vai à Loucura</strong> em 3.",
+      "1": "O nível máximo de elevação é 15."
+    }
+  },
+  "constellation6": {
+    "name": "\"Vamos Levantar o Cálice do Amor!\"",
+    "description": {
+      "0": "Na duração de <strong>E o Povo Vai à Loucura</strong>, o ganho de Fanfarra por aumentos ou quedas de Vida dos personagens próximos é aumentado em 200%. Cada ponto de Fanfarra acima do limite vai aumentar Vida Máxima de Furina em 0.4%. O limite de sua Vida Máxima agora aumentado em 140%."
+    }
+  }
+}
