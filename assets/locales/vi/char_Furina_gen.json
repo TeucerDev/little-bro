@@ -49,15 +49,16 @@
       "1": "<br/>",
       "2": "<strong>Ousia</strong>",
       "3": "Bọt nước nhảy múa chung vui, gây <hydro>Sát Thương Phạm Vi Nguyên Tố Thủy</hydro> dựa vào giới hạn HP của Furina, đồng thời triệu hồi 3 Thành Viên Salon: Bạch Tuộc Bóng Tròn \"Huân Tước Usher\", Cá Ngựa Bong Bóng \"Phu Nhân Chevalmarin\" và Cua Giáp Nặng \"Tiểu Thư Crabaletta\".",
-      "4": "Thành Viên Salon cứ cách một khoảng thời gian sẽ tấn công kẻ địch gần đó, ưu tiên tấn công mục tiêu của nhân vật trong trận, gây <hydro>Sát Thương Nguyên Tố Thủy</hydro> dựa vào giới hạn HP của Furina.",
-      "5": "Thành Viên Salon khi tấn công, nếu tồn tại nhân vật trong đội gần đó có lượng HP cao hơn 50% thì sẽ tiêu hao HP của những nhân vật đó, đồng thời dựa vào số lượng nhân vật \"Hiến Tế\" HP để tăng uy lực đòn tấn công lần đó: Số lượng nhân vật tiêu hao HP là 1/2/3/4 hoặc hơn, sát thương gây ra sẽ bằng 110%/120%/130%/140% so với mức ban đầu.",
+      "4": "Thành Viên Salon cứ cách một khoảng thời gian sẽ tấn công kẻ địch gần đó, ưu tiên tấn công mục tiêu của nhân vật trong trận, gây <hydro>Sát Thương Nguyên Tố Thủy</hydro> dựa vào giới hạn HP.",
+      "5": "Thành Viên Salon khi tấn công, sẽ căn cứ vào số lượng nhân vật trong đội gần đó có lượng HP cao hơn 50% để tăng uy lực của lần tấn công đó và tiêu hao HP của những nhân vật này: Số lượng nhân vật thỏa điều kiện là 1/2/3/4 hoặc hơn, sát thương gây ra sẽ bằng 110%/120%/130%/140% so với mức ban đầu.",
       "6": "<br/>",
       "7": "<strong>Pneuma</strong>",
-      "8": "Triệu hồi Ca Sĩ Nước Nguồn, mỗi cách một khoảng thời gian sẽ hồi phục HP cho nhân vật trong trận xung quanh dựa vào giới hạn HP của Furina.",
+      "8": "Triệu hồi Ca Sĩ Nước Nguồn, mỗi cách một khoảng thời gian sẽ hồi phục HP cho nhân vật trong trận xung quanh dựa vào giới hạn HP.",
       "9": "<br/>",
       "10": "Thành Viên Salon và Ca Sĩ Nước Nguồn sẽ cộng hưởng thời gian duy trì với nhau, Furina thông qua Trọng Kích để thay đổi đội hình sẽ kế thừa thời gian duy trì.",
-      "11": "<br/>",
-      "12": "<i>Salon Cô Độc của Furina luôn có thành viên cố định ghé thăm. Những thời gian khác sẽ là Huân Tước Usher, Phu Nhân Chevalmarin, Tiểu Thư Crabaletta ghé đến, còn ngày thứ tư u sầu sẽ là ca sĩ xuất hiện.</i>"
+      "11": "Trong thời gian Thành Viên Salon và Ca Sĩ Nước Nguồn tồn tại, Furina có thể di chuyển trên mặt nước.",
+      "12": "<br/>",
+      "13": "<i>Salon Cô Độc của Furina luôn có thành viên cố định ghé thăm. Những thời gian khác sẽ là Huân Tước Usher, Phu Nhân Chevalmarin, Tiểu Thư Crabaletta ghé đến, còn ngày thứ tư u sầu sẽ là ca sĩ xuất hiện.</i>"
     },
     "skillParams": {
       "0": "Sát Thương Bọt Nước Ousia",
@@ -81,7 +82,7 @@
   "burst": {
     "name": "Chúng Dân Reo Hò",
     "description": {
-      "0": "Khơi dậy ý chí để tạo thành sân khấu bọt nước, gây <hydro>Sát Thương Phạm Vi Nguyên Tố Thủy</hydro> dựa vào giới hạn HP của Furina, khiến tất cả nhân vật trong đội bước vào trạng thái \"Thỏa Sức Vui Đùa\": Trong thời gian duy trì, khi HP của nhân vật trong đội gần đó tăng lên hoặc giảm xuống, sẽ căn cứ vào mỗi 1% lượng HP thay đổi so với mức HP tối đa để cung cấp 1 điểm Náo Nhiệt cho Furina.",
+      "0": "Khơi dậy ý chí để tạo thành sân khấu bọt nước, gây <hydro>Sát Thương Phạm Vi Nguyên Tố Thủy</hydro> dựa vào giới hạn HP của Furina, khiến nhân vật trong đội gần đó bước vào trạng thái \"Thỏa Sức Vui Đùa\": Trong thời gian duy trì, khi HP của nhân vật tăng lên hoặc giảm xuống, sẽ căn cứ vào mỗi 1% lượng HP thay đổi so với mức HP tối đa để cung cấp 1 điểm Náo Nhiệt cho Furina.",
       "1": "Đồng thời, căn cứ vào điểm Náo Nhiệt đang có để tăng lượng sát thương gây ra và lượng trị liệu nhận được cho tất cả nhân vật trong đội gần đó.",
       "2": "Khi thời gian duy trì kết thúc sẽ xóa điểm Náo Nhiệt hiện có của Furina.",
       "3": "<br/>",
@@ -92,7 +93,7 @@
       "1": "Thời Gian Kéo Dài",
       "2": "Giới Hạn Điểm Náo Nhiệt",
       "3": "Tỷ Lệ Tăng Sát Thương Chuyển Hóa Từ Náo Nhiệt",
-      "4": "Tỷ Lệ Tăng Trị Liệu Chuyển Hóa Từ Náo Nhiệt",
+      "4": "Tỷ Lệ Trị Liệu Nhận Chuyển Đổi Từ Náo Nhiệt",
       "5": "CD",
       "6": "Năng Lượng Nguyên Tố",
       "7": "",
@@ -115,7 +116,7 @@
   "passive2": {
     "name": "Lời Thoại Không Ai Nghe",
     "description": {
-      "0": "Mỗi 1000 điểm giới hạn HP đều khiến <strong>Salon Cô Độc</strong> thuộc tính Sức Mạnh Nền Tảng khác nhau nhận thêm hiệu quả tương ứng:",
+      "0": "Mỗi 1000 điểm HP trong lượng HP tối đa của Furina đều khiến <strong>Salon Cô Độc</strong> thuộc tính Sức Mạnh Nền Tảng khác nhau nhận thêm hiệu quả tương ứng:",
       "1": "Sát thương Thành Viên Salon gây ra tăng 0.7%, tối đa tăng đến 28%;",
       "2": "Giãn cách hồi phục HP của Ca Sĩ Nước Nguồn cho nhân vật trong trận gần đó giảm 0.4%, tối đa giảm đến 16%."
     }
@@ -134,24 +135,15 @@
     }
   },
   "constellation2": {
-    "name": "\"Phụ Nữ Dễ Thích Nghi, Như Phận Bèo Trong Nước.\"",
+    "name": "\"Hãy Để Chúng Ta Giơ Cao Ly Rượu Tình Yêu!\"",
     "description": {
-      "0": "Khi thi triển Kỹ Năng Nguyên Tố \"Salon Cô Độc\", Furina sẽ nhận hiệu ứng \"Vạn Dân Ngắm Nhìn\" trong 10s.",
-      "1": "Trong thời gian duy trì, Tấn Công Thường, Trọng Kích, Tấn Công Khi Đáp của Furina sẽ chuyển thành <hydro>Sát Thương Nguyên Tố Thủy</hydro> không thể bị thay thế, đồng thời sẽ tăng sát thương gây ra, mức tăng tương ứng với 15% giới hạn HP của Furina.",
-      "2": "Trong thời gian duy trì, Tấn Công Thường, Trọng Kích, Tấn Công Khi Đáp của Furina đánh trúng kẻ địch mỗi 0.1s sẽ căn cứ vào Sức Mạnh Nền Tảng hiện tại của Furina để sản sinh hiệu quả khác nhau:",
-      "3": "<br/>",
-      "4": "Sức Mạnh Nền Tảng: Ousia",
-      "5": "Mỗi 1s sẽ căn cứ vào 3% giới hạn HP của Furina để hồi phục HP cho tất cả nhân vật trong đội gần đó, duy trì 2.5s.",
-      "6": "Sức Mạnh Nền Tảng: Pneuma",
-      "7": "Tăng thêm lượng sát thương gây ra của Tấn Công Thường, Trọng Kích, Tấn Công Khi Đáp, mức tăng tương ứng với 15% giới hạn HP của Furina. Đòn tấn công nêu trên khi trúng địch, tất cả nhân vật trong đội gần đó sẽ tiêu hao 1% giới hạn HP.",
-      "8": "<br/>",
-      "9": "Trong một lần hiệu ứng \"Vạn Dân Ngắm Nhìn\" tối đa chỉ có thể kích hoạt 7 lần hiệu ứng nêu trên. Khi hiệu ứng kích hoạt đến 7 lần hoặc hết thời gian duy trì sẽ bị xóa."
+      "0": "Trong thời gian duy trì <strong>Chúng Dân Reo Hò</strong>, tăng 200% điểm Náo Nhiệt mà Furina nhận được khi HP của nhân vật trong đội gần đó tăng lên hoặc giảm xuống. Mỗi 1 điểm Náo Nhiệt vượt quá giới hạn đều khiến giới hạn HP của Furina tăng 0.4%. Giới hạn HP của Furina tăng tối đa 140% thông qua cách này."
     }
   },
   "constellation3": {
-    "name": "\"Bí Mật Giấu Trong Lòng, Không Ai Biết Tên Ta.\"",
+    "name": "\"Giờ Ta Đã Phát Giác, Người Đó Tên Là...!\"",
     "description": {
-      "0": "Cấp kỹ năng <strong>Salon Cô Độc</strong> +3.",
+      "0": "Cấp kỹ năng <strong>Chúng Dân Reo Hò</strong> +3.",
       "1": "Tăng tối đa đến cấp 15."
     }
   },
@@ -162,16 +154,25 @@
     }
   },
   "constellation5": {
-    "name": "\"Giờ Ta Đã Phát Giác, Người Đó Tên Là...!\"",
+    "name": "\"Bí Mật Giấu Trong Lòng, Không Ai Biết Tên Ta.\"",
     "description": {
-      "0": "Cấp kỹ năng <strong>Chúng Dân Reo Hò</strong> +3.",
+      "0": "Cấp kỹ năng <strong>Salon Cô Độc</strong> +3.",
       "1": "Tăng tối đa đến cấp 15."
     }
   },
   "constellation6": {
-    "name": "\"Hãy Để Chúng Ta Giơ Cao Ly Rượu Tình Yêu!\"",
+    "name": "\"Phụ Nữ Dễ Thích Nghi, Như Phận Bèo Trong Nước.\"",
     "description": {
-      "0": "Trong thời gian duy trì <strong>Chúng Dân Reo Hò</strong>, tăng 200% điểm Náo Nhiệt mà Furina nhận được khi HP của nhân vật trong đội gần đó tăng lên hoặc giảm xuống. Mỗi 1 điểm Náo Nhiệt vượt quá giới hạn đều khiến giới hạn HP của Furina tăng 0.4%. Giới hạn HP của Furina tăng tối đa 140% thông qua cách này."
+      "0": "Khi thi triển Kỹ Năng Nguyên Tố \"Salon Cô Độc\", Furina sẽ nhận hiệu ứng \"Vạn Dân Ngắm Nhìn\" trong 10s.",
+      "1": "Trong thời gian duy trì, Tấn Công Thường, Trọng Kích, Tấn Công Khi Đáp của Furina sẽ chuyển thành <hydro>Sát Thương Nguyên Tố Thủy</hydro> không thể bị thay thế, đồng thời sẽ tăng sát thương gây ra, mức tăng tương ứng với 15% giới hạn HP của Furina.",
+      "2": "Trong thời gian duy trì, Tấn Công Thường, Trọng Kích, Tấn Công Khi Đáp của Furina đánh trúng kẻ địch mỗi 0.1s sẽ căn cứ vào Sức Mạnh Nền Tảng hiện tại của Furina để sản sinh hiệu quả khác nhau:",
+      "3": "<br/>",
+      "4": "Sức Mạnh Nền Tảng: Ousia",
+      "5": "Mỗi 1s sẽ căn cứ vào 3% giới hạn HP của Furina để hồi phục HP cho tất cả nhân vật trong đội gần đó, duy trì 2.5s. Kích hoạt lại sẽ kéo dài thời gian chờ.",
+      "6": "Sức Mạnh Nền Tảng: Pneuma",
+      "7": "Tăng thêm lượng sát thương gây ra của Tấn Công Thường, Trọng Kích, Tấn Công Khi Đáp, mức tăng tương ứng với 15% giới hạn HP của Furina. Đòn tấn công nêu trên khi trúng địch, tất cả nhân vật trong đội gần đó sẽ tiêu hao 1% HP hiện tại.",
+      "8": "<br/>",
+      "9": "Trong một lần hiệu ứng \"Vạn Dân Ngắm Nhìn\" tối đa chỉ có thể kích hoạt 7 lần hiệu ứng nêu trên. Khi hiệu ứng kích hoạt đến 7 lần hoặc hết thời gian duy trì sẽ bị xóa."
     }
   }
 }

@@ -6570,7 +6570,7 @@
   "SpringOfTheFirstDewdrop": {
     "name": "Gota de rocío primigenio",
     "description": {
-      "0": "Una gota de rocío cristalina flotando entre las aguas del Condado Mortaine. Es diferente de otras creaciones de agua pura, como si fuera una conglomeración aún más pura y primordial de Energía Elemental."
+      "0": "Una gota de rocío cristalina flotando entre las aguas del Condado Morte. Es diferente de otras creaciones de agua pura, como si fuera una conglomeración aún más pura y primordial de Energía Elemental."
     }
   },
   "BirchWood": {
@@ -13816,10 +13816,10 @@
       "0": "Un postre relleno de crema. Después de probar el primer bocado, no podrás evitar engullir el resto. Incluso los restos de crema que quedan en las comisuras de los labios son suficientes para inundar tu corazón de felicidad. Ojalá todas las comidas fueran seguidas de una perfección tan dulce... ¡Ah! ¡Qué maravillosa sería esta vida aventurera!"
     }
   },
-  "Proustis": {
-    "name": "Proustis",
+  "PourJustice": {
+    "name": "Pour la justice",
     "description": {
-      "0": "La especialidad de Furina. “Proustis” significa “venerar la justicia” en Fontaine, y la que una vez actuó en el mayor de los escenarios fue testigo del nacimiento de la más noble justicia. Sus sabores en capas parecen hincharse y desvanecerse como las olas del mar, antes de relajarse finalmente, como si dejara una pesada carga. ¿Quizás sea el reflejo de alguna experiencia personal suya?"
+      "0": "La especialidad de Furina. “Pour la justice” significa “por la justicia” en Fontaine, donde la que una vez actuó en el mayor de los escenarios fue testigo del nacimiento de la más noble justicia. Sus sabores en capas parecen hincharse y desvanecerse como las olas del mar, antes de relajarse finalmente, como si dejara una pesada carga. ¿Quizás sea el reflejo de alguna experiencia personal suya?"
     }
   },
   "ExclusiveScoopGourmetColumn": {
@@ -16182,7 +16182,10 @@
   },
   "WaterThatFailedToTranscend": {
     "name": "Agua intrascendible",
-    "description": {}
+    "description": {
+      "0": "El único rastro que quedó después de que el Tulpa Hidromimético se desplomara y escapara.",
+      "1": "Tiene propiedades muy similares a los cristales extraídos del Engendro Fontamarino, pero contiene muchas partículas finas y turbias, como pequeñas burbujas solidificadas en la cristalería de un pobre artesano."
+    }
   },
   "TileOfDecarabiansTower": {
     "name": "Fragmento de azulejo de Decarabian",
@@ -19031,38 +19034,56 @@
       "0": "Un libro de entretenimiento muy popular en Fontaine. Relata la historia del ladrón Fantômas Robben, conocido como el Gentilhombre Fantasma, y de su primer enfrentamiento con el detective Chesterton. Aviso legal: los personajes y hechos retratados en esta obra son completamente ficticios. Cualquier parecido con personas (vivas o muertas) o hechos reales es pura coincidencia."
     }
   },
-  "TheCollapseOfTheFadingKeepI": {
+  "TheFallOfTheFadedCastleI": {
     "name": "El derrumbe del castillo apagado (I)",
     "description": {
       "0": "？？？"
     }
   },
-  "TheCollapseOfTheFadingKeepII": {
+  "TheFallOfTheFadedCastleII": {
     "name": "El derrumbe del castillo apagado (II)",
     "description": {
       "0": "？？？"
     }
   },
-  "TheCollapseOfTheFadingKeepIII": {
+  "TheFallOfTheFadedCastleIII": {
     "name": "El derrumbe del castillo apagado (III)",
     "description": {
       "0": "？？？"
     }
   },
-  "TheSongOfErinnyesI": {
+  "LaChansonDErinnyesI": {
     "name": "La canción de Erinias (I)",
     "description": {
       "0": "？？？"
     }
   },
-  "TheSongOfErinnyesII": {
+  "LaChansonDErinnyesII": {
     "name": "La canción de Erinias (II)",
     "description": {
       "0": "？？？"
     }
   },
-  "TheSongOfErinnyesIII": {
+  "LaChansonDErinnyesIII": {
     "name": "La canción de Erinias (III)",
+    "description": {
+      "0": "？？？"
+    }
+  },
+  "TalesOfASnowWingedGooseI": {
+    "name": "Fábulas del ganso nievealado (I)",
+    "description": {
+      "0": "？？？"
+    }
+  },
+  "TalesOfASnowWingedGooseII": {
+    "name": "Fábulas del ganso nievealado (II)",
+    "description": {
+      "0": "？？？"
+    }
+  },
+  "TalesOfASnowWingedGooseIII": {
+    "name": "Fábulas del ganso nievealado (III)",
     "description": {
       "0": "？？？"
     }
@@ -19409,8 +19430,39 @@
       "0": "Diario desgastado."
     }
   },
-  "KevansLetter": {
-    "name": "Carta de Kayvan",
+  "SirArthursWing": {
+    "name": "Alas de Arthur",
+    "description": {
+      "0": "Unas alas mecánicas pertenecientes a monsieur Arthur.",
+      "1": "¡Ese criminal se ha pasado de la raya!"
+    }
+  },
+  "SirArthursBody": {
+    "name": "Cuerpo de Arthur",
+    "description": {
+      "0": "Un cuerpo mecánico perteneciente a monsieur Arthur.",
+      "1": "¡Ese criminal se ha pasado de la raya!"
+    }
+  },
+  "SirArthursHead": {
+    "name": "Cabeza de Arthur",
+    "description": {
+      "0": "Una cabeza mecánica perteneciente a monsieur Arthur.",
+      "1": "¡Ese criminal se ha pasado de la raya!"
+    }
+  },
+  "LeftoverPoissonchantPie": {
+    "name": "Sobras de pastel pezcanto",
+    "description": {
+      "0": "Un alimento de aspecto adorable pero que no parece sentar bien al estómago."
+    }
+  },
+  "MysteriousThreatLetter": {
+    "name": "Carta de amenaza misteriosa",
+    "description": {}
+  },
+  "AnotherMysteriousThreatLetter": {
+    "name": "Otra carta de amenaza misteriosa",
     "description": {}
   },
   "MessilyWrittenLetter": {
@@ -19419,6 +19471,16 @@
   },
   "ScribbledOrders": {
     "name": "Órdenes escritas con letra descuidada",
+    "description": {}
+  },
+  "OldPhoto": {
+    "name": "Imagen antigua",
+    "description": {
+      "0": "Imagen grupal"
+    }
+  },
+  "LetterToTheEditorinChiefDraft": {
+    "name": "Carta para la editora jefa (borrador)",
     "description": {}
   },
   "Disclaimer": {
@@ -19533,6 +19595,12 @@
       "0": "El amuleto que Pucca perdió en las profundidades mineras. ¡Devuélveselo cuanto antes!"
     }
   },
+  "TolochardsInvestigationNotes": {
+    "name": "Notas de investigación de Talochard",
+    "description": {
+      "0": "Unas notas de investigación de compartió Talochard. En ellas hay información sobre la desaparición de monsieur Arthur."
+    }
+  },
   "AStory": {
     "name": "Una historia",
     "description": {}
@@ -19613,6 +19681,60 @@
   "Notice": {
     "name": "Cartel",
     "description": {}
+  },
+  "LiamsBallad": {
+    "name": "La balada de Liam",
+    "description": {
+      "0": "Una pequeña botella transparente que contiene una nota con un extraño diseño en el reverso. En ella están registradas de forma resumida las hazañas de un hombre llamado Liam."
+    }
+  },
+  "RogerAversonsDisappearance": {
+    "name": "La desaparición de Roger Averson",
+    "description": {
+      "0": "Una pequeña botella transparente que contiene una nota con un extraño diseño en el reverso. En ella están registradas de forma resumida las hazañas de un hombre llamado Roger Averson."
+    }
+  },
+  "AtossConfession": {
+    "name": "La confesión de Atos",
+    "description": {
+      "0": "Una pequeña botella transparente que contiene una nota con un extraño diseño en el reverso. En ella están registradas de forma resumida las hazañas de un hombre llamado Atos."
+    }
+  },
+  "ParkersHopes": {
+    "name": "El anhelo de Parker",
+    "description": {
+      "0": "Una pequeña botella transparente que contiene una nota con un extraño diseño en el reverso. En ella están registradas de forma resumida las hazañas de un hombre llamado Parker."
+    }
+  },
+  "BarrowsExpectations": {
+    "name": "El anhelo de Barrow",
+    "description": {
+      "0": "Una pequeña botella transparente que contiene una nota con un extraño diseño en el reverso. En ella están registradas de forma resumida las hazañas de un hombre llamado Barrow."
+    }
+  },
+  "AutumnsRegrets": {
+    "name": "El arrepentimiento de Automne",
+    "description": {
+      "0": "Tiene una nota con un extraño diseño en el reverso en el que están registradas de forma resumida las hazañas de una persona llamada Automne."
+    }
+  },
+  "RougetsWritings": {
+    "name": "La fe de Rouget",
+    "description": {
+      "0": "Una pequeña botella transparente que contiene una nota con un extraño diseño en el reverso. En ella están registradas de forma resumida las hazañas de un hombre llamado Rouget."
+    }
+  },
+  "FreemansAnnouncement": {
+    "name": "La declaración de Freeman",
+    "description": {
+      "0": "Una pequeña botella transparente que contiene una nota con un extraño diseño en el reverso. En ella están registradas de forma resumida las hazañas de un hombre llamado Freeman."
+    }
+  },
+  "RainbowRosesIdeals": {
+    "name": "Ideal de rosarcoíris",
+    "description": {
+      "0": "Un papel formado por ocho mensajes unidos. El dibujo roto del reverso de los mensajes originalmente era una rosarcoíris entera."
+    }
   },
   "LeftSideTableFileBox": {
     "name": "Caja con expedientes de la mesa izquierda",
@@ -19723,10 +19845,11 @@
       "0": "Diario del valiente (IV)"
     }
   },
-  "DiaryOfAValiantStruggleV": {
-    "name": "Diario del valiente (V)",
+  "DiaryOfAValiantStruggle": {
+    "name": "Diario del valiente",
     "description": {
-      "0": "Diario del valiente (V)"
+      "0": "Un registro de las experiencias de la vida de un valiente.",
+      "1": "“¡Acuchilla a esos estúpidos pájaros! ¡Para que se enteren de una vez!”."
     }
   },
   "AcademicAssemblyHallPicture": {
@@ -19758,6 +19881,12 @@
   "ALetterLeftBehind": {
     "name": "Carta abandonada",
     "description": {}
+  },
+  "SpecialKey": {
+    "name": "Llave especial",
+    "description": {
+      "0": "Una llave especial. Tal vez pueda usarse en algún lugar."
+    }
   },
   "FontaineResearchInstituteOfKineticEnergyEngineeringCertificate": {
     "name": "Premio del Instituto de Investigación Científica e Ingeniería de Energía Cinética de Fontaine",
@@ -19813,16 +19942,29 @@
       "0": "Los documentos de Heinry. ¿Qué tipo de inspiración podrá obtener con ellos?"
     }
   },
-  "RainbowGlory": {
+  "IridescentGlory": {
     "name": "Gloria iridiscente",
     "description": {
       "0": "？？？"
+    }
+  },
+  "MarvelousJellyImprovedFontaineEdition": {
+    "name": "Agar mirífico: Versión mejorada de Fontaine",
+    "description": {
+      "0": "Una bella caja que te regaló Haniyyah y que contiene el agar mirífico que tanto les gusta a los Hongos. Los agares están divididos según el sabor para poder alimentar a los Hongos según sus gustos particulares.",
+      "1": "A medida que ha ido conociendo a los compihongos y adquiriendo más experiencia en su elaboración, Haniyyah ha perfeccionado sus conocimientos sobre el sabor del agar mirífico. El agar mejorado no solo proporciona los nutrientes necesarios para los compihongos, sino que incorpora las peculiaridades de las comidas de Fontaine para traer nuevos sabores, ¡para que así los compihongos se diviertan comiendo y tengan una vida sana!"
     }
   },
   "RecommendationLetter": {
     "name": "Carta de recomendación",
     "description": {
       "0": "Carta de recomendación"
+    }
+  },
+  "RustyIronKey": {
+    "name": "Llave de hierro oxidada",
+    "description": {
+      "0": "Una llave que cayó aquí. ¿Qué se abrirá con ella?"
     }
   },
   "Persona": {
@@ -19836,6 +19978,31 @@
     "description": {
       "0": "Un antiguo reloj de bolsillo.",
       "1": "Se ha detenido en un momento determinado, inmortalizando la belleza de un recuerdo."
+    }
+  },
+  "RootCycle": {
+    "name": "Rueda del origen",
+    "description": {
+      "0": "Una de las llaves diseñadas por la Comunidad Cruz de los Narcisos para esta torre. La combinación final es una extraña forma con tres círculos y un semicírculo, lo cual tiene una explicación.",
+      "1": "El círculo interior es el ciclo de Hiperbórea y simboliza la etapa de la glaciación del mundo y la pérdida del paraíso."
+    }
+  },
+  "SimpleVaultKeyI": {
+    "name": "Llave del tesoro sencilla (I)",
+    "description": {
+      "0": "Una de las llaves utilizadas para abrir la valla de hierro instalada en el barco destrozado."
+    }
+  },
+  "SimpleVaultKeyII": {
+    "name": "Llave del tesoro sencilla (II)",
+    "description": {
+      "0": "Una de las llaves utilizadas para abrir la valla de hierro instalada en el barco destrozado."
+    }
+  },
+  "SimpleVaultKeyIII": {
+    "name": "Llave del tesoro sencilla (III)",
+    "description": {
+      "0": "Una de las llaves utilizadas para abrir la valla de hierro instalada en el barco destrozado."
     }
   },
   "FoggyForestBranch": {
@@ -19886,6 +20053,26 @@
     "name": "Mensaje extraño",
     "description": {
       "0": "Mensaje extraño"
+    }
+  },
+  "MysteriousXenochromaticCrystal": {
+    "name": "Cristalización cromática misteriosa",
+    "description": {
+      "0": "Una enorme Cristalización obtenida del interior del imponente Engendro Fontamarino tras ser derrotado.",
+      "1": "Contiene una energía misteriosa mayor que la Cristalización cromática ordinaria.",
+      "2": "Quizá haya alguien dispuesto a pagar un precio adecuado por ella."
+    }
+  },
+  "MapFragment": {
+    "name": "Fragmento de mapa",
+    "description": {
+      "0": "Un trozo de papel rasgado. Parece que se trata de la esquina inferior derecha de un mapa. Hay unas líneas y puntos extraños dibujados en él."
+    }
+  },
+  "SmallKey": {
+    "name": "Llave pequeña",
+    "description": {
+      "0": "Una llave diminuta que podría encajar en un libro. ¿Por qué no la han incautado y confiscado? ¿Y cómo puede algo tan pequeño abrir algo tan importante?"
     }
   },
   "SilkFlowerSeed": {
@@ -20331,9 +20518,8 @@
     "name": "Mecarreparador: Líder áureo",
     "description": {
       "0": "Meca auxiliar compacto que se desarrolló para ayudar a los Mecabots submarinos a aumentar la tasa de asistencia al trabajo general del equipo. Originalmente, se diseñó para eliminar los residuos submarinos, como basura y restos vegetales, y así evitar que se adhieran a las partes clave de los Mecabots, minimizando así la tasa de fallos de estos. Visto de otro modo, no cabe duda de que también desempeñan el papel de “limpiadores submarinos”, lo cual es beneficioso para el entorno ecológico de Fontaine.",
-      "1": "<br/>",
-      "2": "En comparación con otros modelos fabricados en serie, este particular mecarreparador de la “colección dorada” presenta una carcasa de color dorado claro y un dispositivo de control especial. El equipo de desarrollo concibió este mecarreparador como una “estación de de mando de transmisión” de alto rendimiento que recibiría y distribuiría diversas órdenes a los mecarreparadores circundantes cuando operaren en terrenos submarinos complejos, lo que lo convierte en todo un “líder” indispensable.",
-      "3": "Sin embargo, con la suspensión del proyecto de los mecarreparadores, estos “mecas líderes” han perdido su importancia, salvo por su reconocible aspecto de color dorado claro, que los hace tener un gran valor coleccionable a ojos de algunos pescadores."
+      "1": "En comparación con otros modelos fabricados en serie, este particular mecarreparador de la “colección dorada” presenta una carcasa de color dorado claro y un dispositivo de control especial. El equipo de desarrollo concibió este mecarreparador como una “estación de de mando de transmisión” de alto rendimiento que recibiría y distribuiría diversas órdenes a los mecarreparadores circundantes cuando operaren en terrenos submarinos complejos, lo que lo convierte en todo un “líder” indispensable.",
+      "2": "Sin embargo, con la suspensión del proyecto de los mecarreparadores, estos “mecas líderes” han perdido su importancia, salvo por su reconocible aspecto de color dorado claro, que los hace tener un gran valor coleccionable a ojos de algunos pescadores."
     }
   },
   "WingsOfFirstFlight": {
@@ -21377,7 +21563,7 @@
   "SurgingSacredChalice": {
     "name": "Sacrocáliz rebosante",
     "description": {
-      "0": "Objeto de refinamiento exclusivo para el arma “Sacroespada Cruz de los Narcisos”.",
+      "0": "Objeto de refinamiento exclusivo para el arma “Espada Cruz de los Narcisos”.",
       "1": "Según el folclore de Fontaine, a las civilizaciones antiguas les gustaba utilizar caracolas para fabricar herramientas ceremoniales, y de esta caracola elegida como cáliz sagrado surgió, finalmente, el ungüento sagrado. Simbólicamente, este cáliz es la palabra primordial; el ungüento, la voluntad refinada y la espada sagrada, la razón capaz de destruirlo todo."
     }
   },
@@ -22914,6 +23100,20 @@
       "1": "El logotipo oficial del Fuerte Merópide. Se espera que todos respeten el orden, para que así puedan vivir el resto de sus vidas en paz y no tengan nada que ver con la institución tras este logotipo."
     }
   },
+  "FontaineCompleteness": {
+    "name": "Fontaine - Confusión",
+    "description": {
+      "0": "Diseño de tarjeta de presentación.",
+      "1": "“Las nubes del atardecer se dispersan en el cielo crepuscular, y los arroyos fluyen dorados bajo el sol menguante. Mi sombra solitaria flota como un fantasma solitario en el fondo de un arroyo”."
+    }
+  },
+  "TravelNotesWhirlingWaltz": {
+    "name": "PB - Danza giratoria",
+    "description": {
+      "0": "Diseño de tarjeta de presentación.",
+      "1": "Aunque el meca no esté girando en su sitio, aunque la muñeca no dé un paso más, los recuerdos se hacen eternos y se convierten en corales, así que no olvides nunca nuestras aventuras y el tiempo que hemos pasado juntos."
+    }
+  },
   "AnemoculusResonanceStone": {
     "name": "Roca de resonancia de anemóculus",
     "description": {
@@ -23490,7 +23690,7 @@
       "1": "Equipar este accesorio en un Daguerrotipo normal hace que aumente su velocidad de zoom y de enfoque, lo que permite a los usuarios tomar imágenes instantáneas rápidas y de forma eficaz para grabar momentos preciosos durante sus viajes."
     }
   },
-  "GraphicsSamplingKamera": {
+  "ImageSamplingKamera": {
     "name": "Daguerrotipo de muestra gráfica",
     "description": {
       "0": "Un Daguerrotipo modificado por Lépine-Pauline para la vasta disciplina del contraste gráfico. Se desconoce qué clase de complejos y caros componentes contiene, pero parece que es capaz de captar las características específicas de estructura, silueta y color del objetivo..."
@@ -26316,6 +26516,20 @@
       "1": "Tras usarlo, entra en el menú de fabricación para verlo."
     }
   },
+  "HelloWelcome": {
+    "name": "¡Hola! ¡Bienvenido!",
+    "description": {
+      "0": "Plano detallado para fabricar “¡Hola! ¡Bienvenido!”.",
+      "1": "Tras usarlo, entra en el menú de fabricación para verlo."
+    }
+  },
+  "ShinyShells": {
+    "name": "Caracola brillante",
+    "description": {
+      "0": "Plano detallado para fabricar “Caracola brillante”.",
+      "1": "Tras usarlo, entra en el menú de fabricación para verlo."
+    }
+  },
   "EfflorescentIllumination": {
     "name": "Luminiscencia floral",
     "description": {
@@ -26775,6 +26989,13 @@
     "name": "Litera de la corpulencia de tilo silvestre",
     "description": {
       "0": "Plano detallado para fabricar una Litera de la corpulencia de tilo silvestre.",
+      "1": "Tras usarlo, entra en el menú de fabricación para verlo."
+    }
+  },
+  "LindenWoodSweetSlumberBed": {
+    "name": "Cama de sueño plácido de madera de tilo silvestre",
+    "description": {
+      "0": "Plano detallado para fabricar una Cama de sueño plácido de madera de tilo silvestre.",
       "1": "Tras usarlo, entra en el menú de fabricación para verlo."
     }
   },
@@ -27832,6 +28053,27 @@
     "name": "Oficinista del palacio cardenalicio",
     "description": {
       "0": "Plano detallado para fabricar “Oficinista del palacio cardenalicio”.",
+      "1": "Tras usarlo, entra en el menú de fabricación para verlo."
+    }
+  },
+  "CompactAirSupplyDevice": {
+    "name": "Unidad compacta de suministro de aire",
+    "description": {
+      "0": "Plano detallado para fabricar una Unidad compacta de suministro de aire.",
+      "1": "Tras usarlo, entra en el menú de fabricación para verlo."
+    }
+  },
+  "CorridorsStableStorage": {
+    "name": "“Pasaje de almacenamiento estable”",
+    "description": {
+      "0": "Plano detallado para fabricar un Pasaje de almacenamiento estable.",
+      "1": "Tras usarlo, entra en el menú de fabricación para verlo."
+    }
+  },
+  "ModelContraptionReasonableRoundabout": {
+    "name": "Modelo de mecanismo: Lógica aparente",
+    "description": {
+      "0": "Plano detallado para fabricar “Modelo de mecanismo: Lógica aparente”.",
       "1": "Tras usarlo, entra en el menú de fabricación para verlo."
     }
   },
@@ -29172,6 +29414,41 @@
       "1": "Tras usarlo, entra en el menú de fabricación para verlo."
     }
   },
+  "CourtOfJusticesAuthenticity": {
+    "name": "Verdad de la corte de la justicia",
+    "description": {
+      "0": "Plano detallado para fabricar “Verdad de la corte de la justicia”.",
+      "1": "Tras usarlo, entra en el menú de fabricación para verlo."
+    }
+  },
+  "CourtOfJusticesRespect": {
+    "name": "Veneración de la corte de la justicia",
+    "description": {
+      "0": "Plano detallado para fabricar “Veneración de la corte de la justicia”.",
+      "1": "Tras usarlo, entra en el menú de fabricación para verlo."
+    }
+  },
+  "SlipperyShack": {
+    "name": "Cabaña resbaladiza",
+    "description": {
+      "0": "Plano detallado para fabricar “Cabaña resbaladiza”.",
+      "1": "Tras usarlo, entra en el menú de fabricación para verlo."
+    }
+  },
+  "BedroomBedlam": {
+    "name": "Aposento encantado",
+    "description": {
+      "0": "Plano detallado para fabricar “Aposento encantado”.",
+      "1": "Tras usarlo, entra en el menú de fabricación para verlo."
+    }
+  },
+  "SmallStonecrab": {
+    "name": "Minicangrejo de piedra",
+    "description": {
+      "0": "Plano detallado para fabricar “Minicangrejo de piedra”.",
+      "1": "Tras usarlo, entra en el menú de fabricación para verlo."
+    }
+  },
   "BirdAndBlossomDesignFountain": {
     "name": "Fuente con flores y pájaros",
     "description": {
@@ -29379,6 +29656,34 @@
     "name": "Fuente de los mil deseos",
     "description": {
       "0": "Plano detallado para fabricar una Fuente de los mil deseos.",
+      "1": "Tras usarlo, entra en el menú de fabricación para verlo."
+    }
+  },
+  "LumidouceHarborType05CombineLifter": {
+    "name": "Mecanismo de elevación compuesto del Puerto Lumidulce (V)",
+    "description": {
+      "0": "Plano detallado para fabricar un Mecanismo de elevación compuesto del Puerto Lumidulce (V).",
+      "1": "Tras usarlo, entra en el menú de fabricación para verlo."
+    }
+  },
+  "StandardFluidShippingUnit": {
+    "name": "Unidad común de transporte de líquidos",
+    "description": {
+      "0": "Plano detallado para fabricar una Unidad común de transporte de líquidos.",
+      "1": "Tras usarlo, entra en el menú de fabricación para verlo."
+    }
+  },
+  "StandardShippingPallet": {
+    "name": "Palé de transporte estándar",
+    "description": {
+      "0": "Plano detallado para fabricar un Palé de transporte estándar.",
+      "1": "Tras usarlo, entra en el menú de fabricación para verlo."
+    }
+  },
+  "LargeShippingPallet": {
+    "name": "Palé de transporte grande",
+    "description": {
+      "0": "Plano detallado para fabricar un Palé de transporte grande.",
       "1": "Tras usarlo, entra en el menú de fabricación para verlo."
     }
   },
@@ -30166,6 +30471,27 @@
       "1": "Tras usarlo, entra en el menú de fabricación para verlo."
     }
   },
+  "CommonCookingDevice": {
+    "name": "Dispositivo de cocina universal",
+    "description": {
+      "0": "Plano detallado para fabricar un Dispositivo de cocina universal.",
+      "1": "Tras usarlo, entra en el menú de fabricación para verlo."
+    }
+  },
+  "ModelContraptionRepair": {
+    "name": "Modelo de mecanismo: Reparación",
+    "description": {
+      "0": "Plano detallado para fabricar “Modelo de mecanismo: Reparación”.",
+      "1": "Tras usarlo, entra en el menú de fabricación para verlo."
+    }
+  },
+  "ModelContraptionRockcrackerAnchor": {
+    "name": "Modelo de mecanismo: Anclaje de roca cortada",
+    "description": {
+      "0": "Plano detallado para fabricar “Modelo de mecanismo: Anclaje de roca cortada”.",
+      "1": "Tras usarlo, entra en el menú de fabricación para verlo."
+    }
+  },
   "PottedPlantVerdantVastness": {
     "name": "Maceta: Verdor abundante",
     "description": {
@@ -30859,6 +31185,76 @@
       "1": "Tras usarlo, entra en el menú de fabricación para verlo."
     }
   },
+  "LindenWoodHalfMetalAnnouncementBoard": {
+    "name": "Tablón de madera de tilo silvestre metalizado",
+    "description": {
+      "0": "Plano detallado para fabricar un Tablón de madera de tilo silvestre metalizado.",
+      "1": "Tras usarlo, entra en el menú de fabricación para verlo."
+    }
+  },
+  "YetAnotherDiscussion": {
+    "name": "Otro debate",
+    "description": {
+      "0": "Plano detallado para fabricar “Otro debate”.",
+      "1": "Tras usarlo, entra en el menú de fabricación para verlo."
+    }
+  },
+  "CourtOfJusticesTrivia": {
+    "name": "Noticia interesante de la corte de la justicia",
+    "description": {
+      "0": "Plano detallado para fabricar “Noticia interesante de la corte de la justicia”.",
+      "1": "Tras usarlo, entra en el menú de fabricación para verlo."
+    }
+  },
+  "DuellingSigil": {
+    "name": "Emblema del duelo",
+    "description": {
+      "0": "Plano detallado para fabricar “Emblema del duelo”.",
+      "1": "Tras usarlo, entra en el menú de fabricación para verlo."
+    }
+  },
+  "FurysTorch": {
+    "name": "Antorcha de la justa indignación",
+    "description": {
+      "0": "Plano detallado para fabricar “Antorcha de la justa indignación”.",
+      "1": "Tras usarlo, entra en el menú de fabricación para verlo."
+    }
+  },
+  "SoftWatersVoice": {
+    "name": "Suave sonido del agua",
+    "description": {
+      "0": "Plano detallado para fabricar “Suave sonido del agua”.",
+      "1": "Tras usarlo, entra en el menú de fabricación para verlo."
+    }
+  },
+  "LetsPlay": {
+    "name": "¡A divertirse!",
+    "description": {
+      "0": "Plano detallado para fabricar “¡A divertirse!”.",
+      "1": "Tras usarlo, entra en el menú de fabricación para verlo."
+    }
+  },
+  "GoodStuffIsForSharing": {
+    "name": "¡Hay que compartir lo bueno!",
+    "description": {
+      "0": "Plano detallado para fabricar “¡Hay que compartir lo bueno!”.",
+      "1": "Tras usarlo, entra en el menú de fabricación para verlo."
+    }
+  },
+  "SatisfyingWeight": {
+    "name": "El peso de la satisfacción",
+    "description": {
+      "0": "Plano detallado para fabricar “El peso de la satisfacción”.",
+      "1": "Tras usarlo, entra en el menú de fabricación para verlo."
+    }
+  },
+  "ASistersDuty": {
+    "name": "Los deberes de la hermana",
+    "description": {
+      "0": "Plano detallado para fabricar “Los deberes de la hermana”.",
+      "1": "Tras usarlo, entra en el menú de fabricación para verlo."
+    }
+  },
   "PoolOfSapphireGrace": {
     "name": "Estanque nubespiritual",
     "description": {
@@ -30954,6 +31350,20 @@
     "name": "Valla de la corte de la justicia",
     "description": {
       "0": "Plano detallado para fabricar una Valla de la corte de la justicia.",
+      "1": "Tras usarlo, entra en el menú de fabricación para verlo."
+    }
+  },
+  "StandardRailingOrderAndSymmetry": {
+    "name": "Valla estándar: Simetría ordenada",
+    "description": {
+      "0": "Plano detallado para fabricar una Valla estándar: Simetría ordenada.",
+      "1": "Tras usarlo, entra en el menú de fabricación para verlo."
+    }
+  },
+  "StandardRailingScatteredStructure": {
+    "name": "Valla estándar: Estructura irregular",
+    "description": {
+      "0": "Plano detallado para fabricar una Valla estándar: Estructura irregular.",
       "1": "Tras usarlo, entra en el menú de fabricación para verlo."
     }
   },

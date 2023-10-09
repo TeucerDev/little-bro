@@ -1,10 +1,10 @@
 {
   "name": "Furina",
-  "title": "",
+  "title": "Ebedi Yalnızlık Senfonisi",
   "description": "",
-  "constellationName": "",
+  "constellationName": "Kutsal Ezgi",
   "auto": {
-    "name": "Solistin Daveti",
+    "name": "Dansa Davet",
     "fields": {
       "normal": {
         "0": "<strong><strong>Normal Saldırı</strong>",
@@ -12,11 +12,11 @@
       },
       "charged": {
         "0": "<strong>Yüklü Saldırı</strong>",
-        "1": "Belirli miktarda Dayanıklılık harcayarak Fiziksel Hasar veren tek kişilik bir dans eder ve Arkhe türünü değiştirir. Element Becerisi \"Yalnızlık Salonu\" tarafından çağrılan Salon Üyeleri veya Dere Şarkıcıları savaş alanındaysa karşılıklı olarak birbirlerinin yerlerine geçerler."
+        "1": "Belirli miktarda Dayanıklılık harcayarak yakındaki düşmanlara Fiziksel Hasar veren bir solo dans çıkarır ve Arkhe türünü değiştirir. Element Becerisi \"Yalnızlık Salonu\" tarafından çağrılan Salon Üyeleri veya Sayısız Suların Şarkıcısı savaş alanındaysa kadroları karşılıklı olarak değişir."
       },
       "plunging": {
         "0": "<strong>Arkhe: Kutsal ve Laik Tahtlar</strong>",
-        "1": "Belirli aralıklarla Furina'nın Normal Saldırıları isabet ettiğinde mevcut enerji türüne göre <hydro>Su Hasarı</hydro> veren bir Çalkantılı Kılıç veya Ruh Nefesi Dikeni indirir.",
+        "1": "Belirli aralıklarla Furina'nın Normal Saldırıları isabet ettiğinde mevcut enerji türüne göre <hydro>Su Hasarı</hydro> veren bir Ruh Nefesi Dikeni veya Çalkantılı Kılıç indirir.",
         "2": "Furina, savaş alanına girdiğinde başlangıç Arkhesi Öz olur.",
         "3": "<br/>",
         "4": "Havadan Saldırı",
@@ -45,19 +45,20 @@
   "skill": {
     "name": "Yalnızlık Salonu",
     "description": {
-      "0": "Yalnızlık Salonunun üyelerini Furina'nın gösterisine eşlik etmeleri için sahneye çağırır. Furina'nın mevcut <strong>Arkhe enerjisine göre</strong> Salon Üyelerini veya Dere Şarkıcılarını çağırır.",
+      "0": "Yalnızlık Salonunun üyelerini Furina'nın gösterisine eşlik etmeleri için sahneye çağırır. Furina'nın mevcut <strong>Arkhe enerjisine göre</strong> Salon Üyelerini veya Sayısız Suların Şarkıcısını çağırır.",
       "1": "<br/>",
       "2": "<strong>Öz</strong>",
       "3": "Köpüren baloncuklar sanki kutlama yapıyormuş gibi dans ederler, Furina'nın Maks. Canına göre <hydro>Su Alan Hasarı</hydro> verir ve şu 3 Salon Üyesini çağırır: Balon Ahtapot şeklindeki Lord Usher, Baloncuklu Denizatı şeklindeki Leydi Chevalmarin ve Zırhlı Yengeç şeklindeki Matmazel Crabaletta.",
-      "4": "Bunlar belirli aralıklarla düşmanlara saldırırlar, aktif karakterin saldırdığı hedeflere öncelik verirler ve Furina'nın Maks. Canına göre <hydro>Su Alan Hasarı</hydro> verirler.",
-      "5": "Üyeler saldırırken yakınlarında Canı %50'nin üstünde olan karakterler varsa onların Canını tüketerek kendi saldırı güçlerini Canını feda eden karakterlerin sayısına göre artırırlar. Canı tüketilen 1/2/3/4 ve üzeri karakter sayısına göre Üyeler asıl saldırılarından %110/%120/%130/%140 daha fazla Hasar verirler.",
+      "4": "Bunlar belirli aralıklarla aktif karakterin saldırdığı hedeflere öncelik vererek yakındaki düşmanlara saldırırlar ve Furina'nın Maks. Canına göre <hydro>Su Alan Hasarı</hydro> verirler.",
+      "5": "Üyeler saldırırken yakınlarda Canı %50'nin üzerinde olan karakterler varsa kendi saldırı güçlerini bu karakterlerin sayısına göre artırırlar ve söz konusu karakterlerin Canlarını tüketirler. Bu koşulları karşılayan karakterlerin sayısı 1/2/3/4 ve üzeri ise Üyeler, asıl Hasarlarının %110/%120/%130/%140 kadarı Hasar verirler.",
       "6": "<br/>",
       "7": "<strong>Ruh</strong>",
-      "8": "Furina'nın Maks. Canına göre yakındaki karakterlerin Canını belirli aralıklarla yenileyen Dere Şarkıcılarını çağırır.",
+      "8": "Maks. Canına göre yakındaki karakterlerin Canını belirli aralıklarla yenileyen Sayısız Suların Şarkıcısını çağırır.",
       "9": "<br/>",
-      "10": "Salon Üyeleriyle Dere Şarkıcıları aynı süreyi paylaşırlar. Furina'nın yüklü saldırısı misafir türünü değiştirdiğinde savaş alına yeni gelen misafirler, öncekinin süresini devralırlar.",
-      "11": "<br/>",
-      "12": "<i>Furina'nın Yalnızlık Salonunu sürekli müdavimleri vardır. Bazı günler orayı Matmazel Crabaletta, Leydi Chevalmarin ve Lord Usher ziyaret ederken kasvetli Çarşamba günleri oraya şarkıcılar gelir.</i>"
+      "10": "Salon Üyeleriyle Sayısız Suların Şarkıcısı aynı süreyi paylaşırlar. Furina Yüklü Saldırısı ile misafir türünü değiştirdiğinde savaş alanına yeni gelen misafirler, öncekinin süresini devralırlar.",
+      "11": "Salon Üyeleri ve Sayısız Suların Şarkıcısı alandayken Furina su yüzeyinde hareket edebilir.",
+      "12": "<br/>",
+      "13": "<i>Furina'nın Yalnızlık Salonunun müdavimleri vardır. Bazı günler Matmazel Crabaletta, Leydi Chevalmarin ve Lord Usher ziyaret ederken kasvetli çarşamba günleri ise şarkıcı gelir.</i>"
     },
     "skillParams": {
       "0": "Öz Baloncuğu Hasarı",
@@ -68,7 +69,7 @@
       "5": "Lord Usher Can Tüketimi",
       "6": "Leydi Chevalmarin Can Tüketimi",
       "7": "Matmazel Crabaletta Can Tüketimi",
-      "8": "Dere Şarkıcıları İyileştirmesi",
+      "8": "Sayısız Suların Şarkıcısı İyileştirmesi",
       "9": "BS",
       "10": "",
       "11": "",
@@ -79,20 +80,20 @@
     }
   },
   "burst": {
-    "name": "Alem Havası",
+    "name": "Cümbüş Havası",
     "description": {
-      "0": "Alem havasını daha da artırarak Furina'nın Maks. Canına göre <hydro>Su Alan Hasarı</hydro> veren ve tüm grup üyelerinin Evrensel Alem durumuna girmesine neden olan köpükten bir sahne çıkarır. Bu etki sırasında yakındaki grup üyelerinin Canı artar veya azalırsa değişen Maks. Can miktarına göre Furina 1 Alem puanı kazanır.",
-      "1": "Furina aynı zamanda sahip olduğu Alem miktarına göre yakındaki tüm grup üyelerinin Hasarını ve Gelen İyileştirme Bonusunu artırır.",
-      "2": "Etki sona erdikten sonra Furina'nın Alem puanları temizlenir.",
+      "0": "Furina'nın Maks. Canına göre <hydro>Su Alan Hasarı</hydro> veren ve yakınlardaki grup üyelerinin Evrensel Cümbüş durumuna girmesine neden olan köpükten bir sahne oluşturarak cümbüş havasını iyice artırır.Bu etki sırasında yakındaki grup üyelerinin Canı artar veya azalırsa Maks. Canına göre her %1'lik Can değişimi için Furina 1 Cümbüş puanı kazanır.",
+      "1": "Furina aynı zamanda sahip olduğu Cümbüş miktarına göre yakındaki tüm grup üyelerinin Hasarını ve Gelen İyileştirme Bonusunu artırır.",
+      "2": "Etki sona erdikten sonra Furina'nın Cümbüş puanları temizlenir.",
       "3": "<br/>",
-      "4": "<i>\"Hadi şerefe! Kaldırın kadehlerinizi bakalım! Akşam ziyafet çekmeyeceksek gündüzü yaşamanın ne anlamı var? Şey, ııı, henüz benim yaşıma gelmeyenler üzüm suyu içsinler!\"</i>"
+      "4": "<i>\"Hadi şerefe! Kaldırın kadehlerinizi bakalım! Akşam ziyafet çekmeyeceksek gündüzü yaşamanın ne anlamı var? Şey, ııı, henüz yaşı yetmeyenler üzüm suyu içebilirler!\"</i>"
     },
     "skillParams": {
       "0": "Beceri Hasarı",
       "1": "Süre",
-      "2": "Maks. Alem",
-      "3": "Alem Hasar Artışı Dönüşüm Oranı",
-      "4": "Alem İyileştirme Bonusu Dönüşüm Oranı",
+      "2": "Maks. Cümbüş",
+      "3": "Cümbüş Hasar Artışı Dönüşüm Oranı",
+      "4": "Cümbüş Gelen İyileştirme Bonusu Dönüşüm Oranı",
       "5": "BS",
       "6": "Enerji Maliyeti",
       "7": "",
@@ -109,7 +110,7 @@
   "passive1": {
     "name": "Sonsuz Vals",
     "description": {
-      "0": "Grubundaki aktif karakter iyileştiğinde, bu iyileştirmeyi yapan Furina değilse ve gelen iyileştirme karakterin Maks. Canını geçerse Furina, 4 saniyeliğine yakındaki bir grup üyesini her 2 saniyede bir onun Maks. Canının %2'si kadar iyileştirir."
+      "0": "Grubundaki aktif karakter iyileştirildiğinde bu iyileştirmeyi yapan Furina değilse ve gelen iyileştirme karakterin Maks. Canını geçerse Furina, 4 saniyeliğine yakındaki bir grup üyesini her 2 saniyede bir onun Maks. Canının %2'si kadar iyileştirir."
     }
   },
   "passive2": {
@@ -117,23 +118,49 @@
     "description": {
       "0": "Furina'nın Maks. Canının her 1.000 puanı için farklı Arkhe türündeki <strong>Yalnızlık Salonu</strong> şu şekilde güçlenir:",
       "1": "Salon Üyesi Hasarı en fazla %28 olmak üzere %0,7 artar.",
-      "2": "Dere Şarkıcılarının aktif karakter iyileştirme aralığı en fazla %16 olmak üzere %0,4 azalır."
+      "2": "Sayısız Suların Şarkıcısı aktif karakter iyileştirme aralığı en fazla %16 olmak üzere %0,4 azalır."
     }
   },
   "passive3": {
     "name": "Denizler Benim Sahnemdir",
     "description": {
-      "0": "Alacalı Fontemer Sapkını becerisi BS %30 azalır."
+      "0": "Alacalı Fontemer Sapkını becerisinin BS %30 azalır."
     }
   },
   "constellation1": {
     "name": "\"Aşk, İnatçı Bir Kuş Gibi Kontrol Edilemezdir\"",
     "description": {
-      "0": "Furina, <strong>Alem Havasını</strong> kullanırken 150 Alem kazanır.",
-      "1": "Ek olarak Alem sınırı da 150 artar."
+      "0": "Furina, <strong>Cümbüş Havasını</strong> kullanırken 150 Cümbüş kazanır.",
+      "1": "Ek olarak Cümbüş sınırı da 150 artar."
     }
   },
   "constellation2": {
+    "name": "\"Aşk Kadehini Kaldıralım!\"",
+    "description": {
+      "0": "<strong>Cümbüş Havası</strong> etkinken Furina'nın yakındaki karakterlerin Canlarının artışı ve azalışından elde ettiği Cümbüş %200 artar. Sınırın üstündeki her bir Cümbüş puanı, Furina'nın Maks. Canını %0,4 artırır. Maks. Canını bu şekilde en fazla %140 artırabilir."
+    }
+  },
+  "constellation3": {
+    "name": "\"Artık Adını Biliyorum, Onun Adı...\"",
+    "description": {
+      "0": "<strong>Cümbüş Havası</strong> Seviyesini 3 artırır.",
+      "1": "Maksimum yükseltme seviyesi 15'tir."
+    }
+  },
+  "constellation4": {
+    "name": "\"Cehennemi Görmeyenler Cennetin Ne Olduğunu Bilmezler!\"",
+    "description": {
+      "0": "<strong>Yalnızlık Salonunun</strong> Salon Üyeleri bir düşmana vurduğunda veya Sayısız Suların Şarkıcısı aktif karaktere Can yenilediğinde Furina 4 Enerji yeniler. Bu etki 5 saniyede bir tetiklenebilir."
+    }
+  },
+  "constellation5": {
+    "name": "\"Sırlarımı Ancak Hükümdar Bilir\"",
+    "description": {
+      "0": "<strong>Yalnızlık Salonu</strong> Seviyesini 3 artırır.",
+      "1": "Maksimum yükseltme seviyesi 15'tir."
+    }
+  },
+  "constellation6": {
     "name": "\"Kadınlar Her Şeye Uyum Sağlayabilir\"",
     "description": {
       "0": "Furina, \"Yalnızlık Salonu\" Element Becerisini kullanırken 10 saniyeliğine \"İlgi Odağı\" kazanır.",
@@ -141,37 +168,11 @@
       "2": "Ayrıca, Furina'nın Normal, Yüklü ve Havadan Saldırıları düşmanlara vurduktan 0,1 saniye sonra mevcut Arkhe enerjisine göre farklı etkiler tetikler:",
       "3": "<br/>",
       "4": "Arkhe: Öz",
-      "5": "Her saniye yakındaki tüm grup karakterlerini Furina'nın Maks. Canının %3'ü kadar iyileştirir. 2,5 saniye sürer.",
+      "5": "Her saniye yakındaki tüm grup karakterlerini Furina'nın Maks. Canının %3'ü kadar iyileştirir. 2,5 saniye sürer. Bu etki tekrar tetiklendiğinde süresi uzar.",
       "6": "Arkhe: Ruh",
-      "7": "Normal, Yüklü ve Havadan Saldırılarının Hasarı ek olarak Furina'nın Maks. Canının %15'i kadar artar. Bu saldırılardan birisi düşmana isabet ettiğinde yakındaki tüm grup karakterlerinin Maks. Canının %1'i tüketilir.",
+      "7": "Normal, Yüklü ve Havadan Saldırılarının Hasarı ek olarak Furina'nın Maks. Canının %15'i kadar artar. Bu saldırılardan birisi düşmana isabet ettiğinde yakındaki tüm grup karakterlerinin mevcut Canının %1'i tüketilir.",
       "8": "<br/>",
       "9": "Yukarıdaki etkiler her bir \"İlgi Odağı\" sırasında en fazla 7 defa tetiklenebilir. \"İlgi Odağı,\" etkileri 7 defa tetiklendikten veya süresi dolduktan sonra sona erer."
-    }
-  },
-  "constellation3": {
-    "name": "\"Sırlarımı Ancak Hükümdar Bilir\"",
-    "description": {
-      "0": "<strong>Yalnızlık Salonu</strong> Seviyesini 3 artırır.",
-      "1": "Maksimum yükseltme seviyesi 15'tir."
-    }
-  },
-  "constellation4": {
-    "name": "\"Cehennemi Görmeyenler Cennetin Ne Olduğunu Bilmezler!\"",
-    "description": {
-      "0": "<strong>Yalnızlık Salonunun</strong> Salon Üyeleri bir düşmana vurduğunda veya Dere Şarkıcıları aktif karakterin Canını yenilediğinde Furina 4 Enerji yeniler. Bu etki 5 saniyede bir tetiklenebilir."
-    }
-  },
-  "constellation5": {
-    "name": "\"Artık Adını Biliyorum, Onun Adı...\"",
-    "description": {
-      "0": "<strong>Alem Havası</strong> Seviyesini 3 artırır.",
-      "1": "Maksimum yükseltme seviyesi 15'tir."
-    }
-  },
-  "constellation6": {
-    "name": "\"Aşk Kadehini Kaldıralım!\"",
-    "description": {
-      "0": "<strong>Alem Havası</strong> etkinken Furina'nın yakındaki karakterlerin Canlarının artışı ve azalışından kazandığı Alem %200 artar. Sınırın üstündeki her bir Alem puanı, Furina'nın Maks. Canını %0,4 artırır. Maks. Canını bu şekilde en fazla %140 artırabilir."
     }
   }
 }
