@@ -12,11 +12,11 @@
       },
       "charged": {
         "0": "<strong>Charged Attack</strong>",
-        "1": "Mengonsumsi sejumlah Stamina, melancarkan tarian solo, dan mengakibatkan Physical DMG terhadap musuh di sekitar, lalu mengganti Arkhe-Alignment__ diri sendiri. Jika \"Salon Members\" atau \"Singer of Many Waters\" yang dipanggil dari Elemental Skill \"Salon Solitaires\" miliknya berada di medan perang, barisan mereka juga akan turut diganti."
+        "1": "Mengonsumsi sejumlah Stamina, melancarkan tarian solo, dan mengakibatkan Physical DMG terhadap musuh di sekitar, lalu mengganti Karakteristik Arkhe diri sendiri. Jika \"Salon Members\" atau \"Singer of Many Waters\" yang dipanggil dari Elemental Skill \"Salon Solitaires\" miliknya berada di medan perang, barisan mereka juga akan turut diganti."
       },
       "plunging": {
         "0": "<strong>Arkhe: Seats Sacred and Secular</strong>",
-        "1": "Setiap satu kurun waktu tertentu, saat Normal Attack Furina mengenai musuh, akan menurunkan Spiritbreath Thorn atau Surging Blade berdasarkan Alignment__-nya saat ini, dan mengakibatkan <hydro>Hydro DMG</hydro> Pneuma-Aligned atau Ousia-Aligned berdasarkan Alignment-nya.______",
+        "1": "Setiap satu kurun waktu tertentu, saat Normal Attack Furina mengenai musuh, akan menurunkan Spiritbreath Thorn atau Surging Blade berdasarkan Karakteristiknya saat ini, dan mengakibatkan <hydro>Hydro DMG</hydro> Pneuma-Aligned atau Ousia-Aligned berdasarkan Karakteristiknya.",
         "2": "Saat Furina berada di medan pertempuran, Arkhe awalnya adalah Ousia.",
         "3": "<br/>",
         "4": "Plunging Attack",
@@ -45,7 +45,7 @@
   "skill": {
     "name": "Salon Solitaire",
     "description": {
-      "0": "Mengundang tamu-tamu dari Salon Solitaire untuk bergabung ke dalam barisan dan membantu pertunjukan Furina. Tamu undangan adalah: \"Salon Members\" atau \"Singers of Many Waters\", ditentukan berdasarkan <strong>Arkhe Alignment__</strong> Furina saat ini.",
+      "0": "Mengundang tamu-tamu dari Salon Solitaire untuk bergabung ke dalam barisan dan membantu pertunjukan Furina. Tamu undangan adalah: \"Salon Members\" atau \"Singers of Many Waters\", ditentukan berdasarkan <strong>Karakteristik Arkhe</strong> Furina saat ini.",
       "1": "<br/>",
       "2": "<strong>Ousia</strong>",
       "3": "Membentuk gelembung yang bisa berpesta ria dan mengakibatkan <hydro>Hydro DMG Area</hydro> yang didasarkan pada Max HP Furina, dan memanggil tiga \"Salon Members\": \"Gentilhomme Usher\" yang berbentuk Ball Octopus, \"Surintendante Chevalmarin\" yang berbentuk Bubbly Seahorse, dan \"Mademoiselle Crabaletta\" yang berbentuk Armored Crab.",
@@ -131,7 +131,7 @@
     "name": "\"Like a Recalcitrant Bird, Love is Deaf to Pleading\"",
     "description": {
       "0": "Saat melancarkan <strong>Let the People Rejoice</strong>, Furina akan mendapatkan 150 poin Fanfare.",
-      "1": "Selain itu, batas maksimum Fanfare Furina meningkat menjadi 150 poin."
+      "1": "Selain itu, batas maksimum Fanfare Furina meningkat 150 poin."
     }
   },
   "constellation2": {
@@ -165,7 +165,7 @@
     "description": {
       "0": "Saat melancarkan Elemental Skill \"Salon Solitaire\", Furina akan mendapatkan \"Center of Attention\" yang berlangsung selama 10 detik.",
       "1": "Selama durasi ini, Normal Attack, Charged Attack, dan Plunging Attack Furina akan dikonversi menjadi <hydro>Hydro DMG</hydro> yang tidak bisa ditimpa Elemental Infusion lainnya. DMG yang diakibatkan juga meningkat sebesar 15% Max HP Furina.",
-      "2": "Setiap 0,1 detik selama durasi efek ini berlangsung, Normal Attack, Charged Attack, dan Plunging Attack Furina yang mengenai musuh akan menghasilkan efek yang berbeda berdasarkan Arkhe Alignment Furina saat ini:",
+      "2": "Setiap 0,1 detik selama durasi efek ini berlangsung, Normal Attack, Charged Attack, dan Plunging Attack Furina yang mengenai musuh akan menghasilkan efek yang berbeda berdasarkan Karakteristik Arkhe Furina saat ini:",
       "3": "<br/>",
       "4": "Arkhe: Ousia",
       "5": "Memulihkan HP seluruh anggota party di sekitar sebesar 3% Max HP Furina setiap detik, berlangsung selama 2,5 detik. Memicu efek ini lagi akan memperpanjang durasinya.",
