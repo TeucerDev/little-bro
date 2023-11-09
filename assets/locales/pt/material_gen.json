@@ -397,6 +397,20 @@
       "1": "Uma recompensa preciosa que pode ser desbloqueada no evento \"Aventuras Fantásticas de Thelxie\"."
     }
   },
+  "TheaterTickets": {
+    "name": "Bilhetes de Teatro",
+    "description": {
+      "0": "Bilhetes de souvenir feitos primorosamente para lembrar a participação nos vários eventos relacionados ao Festival de Cinema de Fontinalia. Esses bilhetes são ditos terem uma textura similar a lâminas de filme. Claro como cristal ao refletir luz, eles não lembram nada tanto quanto fragmentos de gema finos...",
+      "1": "Troque esses por recompensas valiosas durante o evento \"Pistolas e Rosas\"."
+    }
+  },
+  "FilmForFun": {
+    "name": "Filmes Divertidos",
+    "description": {
+      "0": "Moedas de souvenir em formato de quadros de filme. Essas são lembranças que podem ser acumuladas e ganhas por participação no Festival de Cinema de Fontinalia. Esses não podem ser colocados em dispositivos especializados para reproduzir filmes emocionantes, claro, mas seus designs únicos certamente sem dúvidas levantarão os espíritos das pessoas com lembretes do que viram durante aquele festival...",
+      "1": "Elas podem ser usadas para desbloquear todo tipo de recompensas durante o evento \"Pistolas e Rosas\"."
+    }
+  },
   "Primogem": {
     "name": "Gema Essencial",
     "description": {
@@ -1032,6 +1046,14 @@
     "name": "Furina",
     "description": {}
   },
+  "Chevreuse": {
+    "name": "Chevreuse",
+    "description": {}
+  },
+  "Navia": {
+    "name": "Navia",
+    "description": {}
+  },
   "KamisatoAyakasStellaFortuna": {
     "name": "Stella Fortuna de Kamisato Ayaka",
     "description": {
@@ -1486,6 +1508,18 @@
     "name": "Stella Fortuna de Furina",
     "description": {
       "0": "Material de Ativação da Constelação de Furina"
+    }
+  },
+  "ChevreusesStellaFortuna": {
+    "name": "Stella Fortuna de Chevreuse",
+    "description": {
+      "0": "Material de Ativação da Constelação de Chevreuse"
+    }
+  },
+  "NaviasStellaFortuna": {
+    "name": "Stella Fortuna de Navia",
+    "description": {
+      "0": "Material de Ativação da Constelação de Navia"
     }
   },
   "GnosticHymnOldNotes": {
@@ -5555,6 +5589,14 @@
     "description": {
       "0": "Uma chave velha encontrada no poço da Vila Konda.",
       "1": "Como diz o ditado, \"Se há uma chave, há uma tranca\". Mas não se sabe qual a fechadura correspondente dessa chave. Onde será que ela poderia estar?"
+    }
+  },
+  "MaskOfMemories": {
+    "name": "Máscara de Reminescências",
+    "description": {
+      "0": "Hanachirusato, a sacerdotisa do Santuário, usava essa máscara. Ela está muito manchada na parte de dentro.",
+      "1": "Algumas memórias estão contidas nela, e por elas é possível a arte de criar o Catalisador conhecido como \"Anel de Hakushin\".",
+      "2": "Agora que Hanachirusato foi separada dessa máscara, Paimon não entende porque ainda a chamam de Sacerdotisa Mascarada."
     }
   },
   "TheVioletOnisBlade": {
@@ -13822,6 +13864,54 @@
       "0": "Especialidade de Charlotte. São lanches que ela leva consigo na sua busca incessável por furos exclusivos. Ela olha para os lados, e o ritmo excitado de seus passos lentamente se sobrepõe com o som do peixe frito crocante na sua boca... Apesar dessa notícia de última hora ainda ter que virar uma história finalizada, a alegria no seu coração já chegou ao limite."
     }
   },
+  "SuspiciousFeastOs": {
+    "name": "Redondinho Estranho",
+    "description": {
+      "0": "Um lanche frito dourado, do qual o excesso de óleo foi drenado após muito tempo e esforço árduo, apenas para resultar em uma bagunça empapada carente de qualquer crocância. Hmm... Talvez as gaivotas na costa estejam dispostas a aceitar esta oferta fraca?"
+    }
+  },
+  "FeastOs": {
+    "name": "Redondinho",
+    "description": {
+      "0": "Um lanche frito dourado. Frango desfiado é posto em um formato oval, formando um \"I\" ao combiná-lo com anéis de cebola. Peixe desfiado e batatas são combinadas similarmente em círculos, fazendo a carne do \"Redondinho\". Coloque-as na panela cheia de óleo e veja só, prontinho — seus \"Redondinhos\" nascem entre a fritura estalante."
+    }
+  },
+  "DeliciousFeastOs": {
+    "name": "Redondinho Delicioso",
+    "description": {
+      "0": "Um delicioso lanche frito dourado. Acabaram de ser fritos e são totalmente fragrantes, prontos para chacoalhar o apetite. Com o anel em sua mão esquerda e o círculo na direita, observe, a marca da crocância está ao seu alcance. Devorem! Que o sabor preencha sua boca."
+    }
+  },
+  "SuspiciousRainbowMacarons": {
+    "name": "Macaron Arco-Íris Estranho",
+    "description": {
+      "0": "Doces redondos e pequenos multicoloridos. O primeiro parece vazio, o segundo está inclinado, o terceiro desigual e o quarto é uma combinação inconstante... Como esperando de uma sobremesa de Fontaine ditada por dúzias de detalhes, isso precisará de mais esforço para ser dominado."
+    }
+  },
+  "RainbowMacarons": {
+    "name": "Macaron Arco-Íris",
+    "description": {
+      "0": "Doces redondos e pequenos multicoloridos. Tem um ditado em Fontaine que uma mesa de sobremesa sem macarons é como muitos águas sem sua fonte. Esqueça os chefs de sobremesa nas cozinhas de Fontaine — até quem cozinha por passatempo nas ruas saberia desse ditado de cor."
+    }
+  },
+  "DeliciousRainbowMacarons": {
+    "name": "Macaron Arco-Íris Delicioso",
+    "description": {
+      "0": "Doces redondos e pequenos multicoloridos. A casca crocante envolve um recheio espesso e macio, e tudo está em paz no mundo. Experimente um e será como se um filhotinho de gato tivesse colocado seu nariz em seu peito. Com certeza ninguém ficaria inabalado pela experiência."
+    }
+  },
+  "SinTheKindThatDoesntNeedToBeDealtWith": {
+    "name": "Pecado: O Tipo que Não Precisa Ser Resolvido",
+    "description": {
+      "0": "Especialidade de Chevreuse. Há algo indubitavelmente \"pecaminoso\" sobre esse prato de um ponto de vista de saúde. Como líder da Patrulha de Segurança e Monitoramento Especial, ela não entregará levianamente a tarefa de lidar com os pecados dos outros — essa é uma questão de profissionalismo e ética pessoal, afinal. Mas às vezes, compartilhar tais deveres com alguém que ela confia plenamente é um... jeito aceitável de aliviar o estresse."
+    }
+  },
+  "PickWhatYouLike": {
+    "name": "\"Escolha o Que Quiser!\"",
+    "description": {
+      "0": "Especialidade de Navia. \"Vamos, escolha o que quiser!\" Junto aos familiares gritos de alegria, você vê perante seus olhos a mesa de sobremesa de duas camadas esteticamente agradável e as belas fileiras de macarons com expressões diferentes pintadas neles. Um pensamento fascina você de repente... Que expressão Navia faria se você roubasse todos eles para si em um repentino lampejo de ganância?"
+    }
+  },
   "RecipeItem": {
     "name": "Ingredientes",
     "description": {
@@ -14871,6 +14961,18 @@
     "name": "Receita: Profiterole Rotundo",
     "description": {
       "0": "Receita passo a passo detalhada de como fazer Profiterole Rotundo"
+    }
+  },
+  "RecipeFeastOs": {
+    "name": "Receita: Redondinho",
+    "description": {
+      "0": "Uma receita passo a passo detalhada para fazer Redondinho."
+    }
+  },
+  "RecipeRainbowMacarons": {
+    "name": "Receita: Macaron Arco-Íris",
+    "description": {
+      "0": "Uma receita passo a passo detalhada para fazer Macaron Arco-Íris."
     }
   },
   "CraftedItems": {
@@ -16176,6 +16278,28 @@
     "description": {
       "0": "A seção emissora de eletricidade do Cavalo-marinho Perolado Milenar e sua insígnia, símbolo de seu poder incomparável — se rompeu em um embate contra um poderoso desafiante.",
       "1": "Como o maior predador pode surgir de cavalos-marinhos, a jornada evolutiva deste ser não é a mesma experienciada por outras Aberrações Primordiais. Não começou de uma forma base antes de crescer e ficar mais forte, mas ao invés disso cresceram membros e chifres, que não existem em cavalos-marinhos. Até sua musculatura e esqueleto mudaram. Parece mesmo lembrar uma fera fantástica de lendas de outrora mais do que sua forma original. Nas imaginações de poetas e autores, até cavalos-marinhos podem brincar sobre a terra."
+    }
+  },
+  "LightlessSilkString": {
+    "name": "Fio de Seda Sem Luz",
+    "description": {
+      "0": "Um filamento fino que de alguma forma acabou enrolado em sua arma enquanto lutava contra a Baleia Devoradora.",
+      "1": "Na antiga Fontaine, alguns achavam que Fortuna, que governava o mundo, foi tecida de incontáveis fibras, como as cordas de uma harpa. Cordas que ressoavam com a música majestosa trazia felicidade para todos, enquanto a discórdia destruía o tecido do universo."
+    }
+  },
+  "LightlessEyeOfTheMaelstrom": {
+    "name": "Olho do Vórtice Sem Luz",
+    "description": {
+      "0": "Uma \"substância\" estranha obtida ao lutar contra a Baleia Devoradora. Seu peso é muito maior do que seria o esperado considerando seu tamanho.",
+      "1": "Tudo se reúne em volta de objetos pesados, assim como ouro atrai mais do que ferro, ou o chão mais do que a brisa soprando acima. Assim como a luz não consegue escapar do vórtice da escuridão, causa e efeito está atrelada ao destino, talvez, de forma irreversível."
+    }
+  },
+  "LightlessMass": {
+    "name": "Massa Sem Luz",
+    "description": {
+      "0": "Fragmentos produzido da intensa batalha contra a Baleia Devoradora.",
+      "1": "O universo é um lugar escuro e frio.",
+      "2": "Mas olhe com cuidado. Dentro existem sempre leves brilhos de luz, como pérolas brilhando através da areia, resquícios de diamante espalhado pelo asfalto, luzes que brilham através da neblina em uma noite enevoada e faíscas que acendem as chamas mais brilhantes."
     }
   },
   "WaterThatFailedToTranscend": {
@@ -17828,9 +17952,7 @@
   },
   "EventNotice": {
     "name": "Avisos de Eventos",
-    "description": {
-      "0": "？？？"
-    }
+    "description": {}
   },
   "HaniyyahsNotesFirstPart": {
     "name": "Notas de Haniyyah - Primeira Parte",
@@ -17902,9 +18024,7 @@
   },
   "TheIsleOfDarklingClouds": {
     "name": "Ilha das Nuvens Escuras",
-    "description": {
-      "0": "？？？"
-    }
+    "description": {}
   },
   "BoxfulOfHomelandSoil": {
     "name": "Caixa de Solo da Terra Natal",
@@ -18593,12 +18713,6 @@
       "0": "Resultado de uma pesquisa de Kshahrewar, o localizador é capaz de mostrar a localização geral dos participantes por meio de um rastreador especial e soará quando o participante concluir a corrida."
     }
   },
-  "Test": {
-    "name": "(test)???",
-    "description": {
-      "0": "(test)???"
-    }
-  },
   "FoodSeeds": {
     "name": "Semente de Alimento",
     "description": {
@@ -18885,69 +18999,47 @@
   },
   "OldCaseFiles": {
     "name": "Arquivos de um Caso Antigo",
-    "description": {
-      "0": "？？？"
-    }
+    "description": {}
   },
   "TestimonyFromJacquesFamily": {
     "name": "Testemunho da Família de Jacques",
-    "description": {
-      "0": "？？？"
-    }
+    "description": {}
   },
   "FlorentsStatement": {
     "name": "Relatório de Florent",
-    "description": {
-      "0": "？？？"
-    }
+    "description": {}
   },
   "ThierrysStatement": {
     "name": "Relatório de Thierry",
-    "description": {
-      "0": "？？？"
-    }
+    "description": {}
   },
   "MarcelsStatement": {
     "name": "Relatório de Marcel",
-    "description": {
-      "0": "？？？"
-    }
+    "description": {}
   },
   "SuspectAnalysis": {
     "name": "Análise do Suspeito",
-    "description": {
-      "0": "？？？"
-    }
+    "description": {}
   },
   "PrimordialSeawaterPool": {
     "name": "Piscina de Água do Mar Primordial",
-    "description": {
-      "0": "？？？"
-    }
+    "description": {}
   },
   "Sinthe": {
     "name": "\"Sinthe\"",
-    "description": {
-      "0": "？？？"
-    }
+    "description": {}
   },
   "MissingPersonsPossessions": {
     "name": "Pertences de Pessoa Desaparecida",
-    "description": {
-      "0": "？？？"
-    }
+    "description": {}
   },
   "VachersExperimentReport": {
     "name": "Relatório do Experimento de Vacher",
-    "description": {
-      "0": "？？？"
-    }
+    "description": {}
   },
   "LettersRelatedToCallasCase": {
     "name": "Cartas Relacionadas ao Caso Callas",
-    "description": {
-      "0": "？？？"
-    }
+    "description": {}
   },
   "VigneiresNotebook": {
     "name": "Anotações de Vigneire",
@@ -19034,53 +19126,71 @@
   "TheFallOfTheFadedCastleI": {
     "name": "O Colapso do Castelo Antigo I",
     "description": {
-      "0": "？？？"
+      "0": "Um poema escrito por um autor desconhecido. O estilo de escrita parece transmitir uma aura estranha e sinistra."
     }
   },
   "TheFallOfTheFadedCastleII": {
     "name": "O Colapso do Castelo Antigo II",
     "description": {
-      "0": "？？？"
+      "0": "Um poema escrito por um autor desconhecido. O estilo de escrita parece transmitir uma aura estranha e sinistra."
     }
   },
   "TheFallOfTheFadedCastleIII": {
     "name": "O Colapso do Castelo Antigo III",
     "description": {
-      "0": "？？？"
+      "0": "Um poema escrito por um autor desconhecido. O estilo de escrita parece transmitir uma aura estranha e sinistra."
     }
   },
   "LaChansonDErinnyesI": {
     "name": "A Canção de Erinnyes I",
     "description": {
-      "0": "？？？"
+      "0": "Como o emissário do Rei Remus chegou a Erinnyes. Pedindo a ela por um presente das águas e terra do Castelo Aremori, e para que ela se submetesse ao Capitólio Sinfônico."
     }
   },
   "LaChansonDErinnyesII": {
     "name": "A Canção de Erinnyes II",
     "description": {
-      "0": "？？？"
+      "0": "Como os cavaleiros de todas as regiões se uniram para emprestar suas forças a Erinnyes, em oposição aos planos de invasão do Capitólio."
     }
   },
   "LaChansonDErinnyesIII": {
     "name": "A Canção de Erinnyes III",
     "description": {
-      "0": "？？？"
+      "0": "Como Erinnyes deu adeus a Senhora de Todas as Águas, e como ela jogou sua espada dentro do lago três vezes."
     }
   },
   "TalesOfASnowWingedGooseI": {
     "name": "\"Contos do Ganso de Asas Nevadas I\"",
     "description": {
-      "0": "？？？"
+      "0": "Um pequeno livro de contos muito popular em Fontaine. Sua bela capa fez mais de uma criança acreditar que o livro tinha sido escrito pelo lendário e benevolente Ganso de Asas Nevadas."
     }
   },
   "TalesOfASnowWingedGooseII": {
     "name": "\"Contos do Ganso de Asas Nevadas II\"",
     "description": {
-      "0": "？？？"
+      "0": "Um pequeno livro de contos muito popular em Fontaine. Sua bela capa fez mais de uma criança acreditar que o livro tinha sido escrito pelo lendário e benevolente Ganso de Asas Nevadas."
     }
   },
   "TalesOfASnowWingedGooseIII": {
     "name": "\"Contos do Ganso de Asas Nevadas III\"",
+    "description": {
+      "0": "Um pequeno livro de contos muito popular em Fontaine. Sua bela capa fez mais de uma criança acreditar que o livro tinha sido escrito pelo lendário e benevolente Ganso de Asas Nevadas."
+    }
+  },
+  "TheTwoMusketeersI": {
+    "name": "Os Dois Mosqueteiros I",
+    "description": {
+      "0": "？？？"
+    }
+  },
+  "TheTwoMusketeersII": {
+    "name": "Os Dois Mosqueteiros II",
+    "description": {
+      "0": "？？？"
+    }
+  },
+  "TheTwoMusketeersIII": {
+    "name": "Os Dois Mosqueteiros III",
     "description": {
       "0": "？？？"
     }
@@ -19464,6 +19574,10 @@
     "name": "Outra Carta Ameaçadora",
     "description": {}
   },
+  "KevinsLetter": {
+    "name": "Carta de Kevin",
+    "description": {}
+  },
   "MessilyWrittenLetter": {
     "name": "Carta Mal Escrita",
     "description": {}
@@ -19594,7 +19708,7 @@
       "0": "Amuleto de Puca, que ela perdeu nas profundezas da mina. Se apresse e devolva logo a ela!"
     }
   },
-  "TolochardsInvestigationNotes": {
+  "TalochardsInvestigationNotes": {
     "name": "Notas de Investigação de Talochard",
     "description": {
       "0": "Algumas anotações de pesquisa compartilhadas por Talochard. Nelas, há informações sobre o desaparecimento de Monsieur Arthur"
@@ -19610,6 +19724,18 @@
       "0": "Uma roda comum, usada para regular válvulas nos canos pela Fortaleza Meropide."
     }
   },
+  "MaterialForThelxiesWeapon": {
+    "name": "Material de Arma de Thelxie",
+    "description": {
+      "0": "Uma bugiganga colorida recuperada da água. Será usada para fazer a arma de Thelxie."
+    }
+  },
+  "MaterialForThelxiesCrown": {
+    "name": "Material da Coroa de Thelxie",
+    "description": {
+      "0": "Uma bugiganga colorida recuperada da água. Será usada para fazer a coroa de Thelxie."
+    }
+  },
   "EnergyConcentratingComponent": {
     "name": "Componente de Núcleo Modificado: Armazenamento de Energia Concentrado",
     "description": {
@@ -19617,17 +19743,23 @@
       "1": "Talvez esse único componente seja capaz de fornecer energia para toda a máquina..."
     }
   },
-  "34thIndependentInvestigativeSquadDeploymentInMontEsusEasternQuadrantDeploymentPlan": {
-    "name": "Planejamento de Implantação da 34ª Equipe de Investigação Independente na Floresta de Mont Esus (Quadrante Leste)",
+  "34thIndependentReconnaissanceSquadDeploymentInMontEsusEasternQuadrantDeploymentPlan": {
+    "name": "Planejamento de Implantação da 34ª Equipe de Investigação Independente na Floresta de Mont Esus (Quadrante Oriental)",
     "description": {}
   },
   "SkirmishersNotes": {
     "name": "Anotações do Escaramuçador",
     "description": {}
   },
-  "34thIndependentInvestigativeSquadDeploymentInMontEsusEasternQuadrantDisplinaryProcedures": {
+  "34thIndependentReconnaissanceSquadDeploymentInMontEsusEasternQuadrantDisciplinaryProcedures": {
     "name": "Procedimentos Disciplinares para a Implantação da 34ª Equipe de Investigação Independente na Floresta de Mont Esus (Quadrante Leste)",
     "description": {}
+  },
+  "TravelersExclusiveInterviewHandbook": {
+    "name": "Manual de Entrevista Exclusivo {M#do}{F#da} Viajante",
+    "description": {
+      "0": "Um registro da entrevista exclusiva que a renomada repórter do Pássaro a Vapor, Charlotte, teve com {M#o}{F#a} Viajante de cabelos dourados. Depois de várias reorganizações e revisões da informação dentro dele, agora consegue tomar diversas funções além de \"ser publicado nos jornais\"."
+    }
   },
   "PoemOnFallenLeaf": {
     "name": "Poema em Folhas Caídas",
@@ -19687,13 +19819,13 @@
       "0": "Uma pequena garrafa transparente que contém uma nota com um estranho desenho no verso. Nela, estão registradas de forma resumida as proezas de alguém chamado Liam."
     }
   },
-  "RogerAversonsDisappearance": {
+  "RockyAvildsensDisappearance": {
     "name": "Desaparecimento de Roger Averson",
     "description": {
       "0": "Uma pequena garrafa transparente que contém uma nota com um estranho desenho no verso. Nela, estão registradas de forma resumida as proezas de alguém chamado Roger Averson."
     }
   },
-  "AtossConfession": {
+  "AthossConfession": {
     "name": "Confissão de Atos",
     "description": {
       "0": "Uma pequena garrafa transparente que contém uma nota com um estranho desenho no verso. Nela, estão registradas de forma resumida as proezas de alguém chamado Atos."
@@ -19712,12 +19844,12 @@
     }
   },
   "AutumnsRegrets": {
-    "name": "Arrependimentos de Qiu",
+    "name": "Arrependimentos de Autumn",
     "description": {
       "0": "Contém uma nota com um estranho design no verso onde estão resumidas as proezas de alguém chamado Chiu."
     }
   },
-  "RougetsWritings": {
+  "RougesWritings": {
     "name": "Escritos de Rouget",
     "description": {
       "0": "Uma pequena garrafa transparente que contém uma nota com um estranho desenho no verso. Nela, estão registradas de forma resumida as proezas de alguém chamado Rouget."
@@ -19923,6 +20055,13 @@
       "0": "Uma carta, colocada entre duas Frutas Bulle."
     }
   },
+  "ThelxiesFantasticAdventures": {
+    "name": "Aventuras Fantásticas de Thelxie",
+    "description": {
+      "0": "Um livro de fantasia infantil que contém apenas 3 páginas, conta a história de um príncipe que superou a solidão.",
+      "1": "Está escrito \"Para àqueles em uma situação difícil\" em letras miúdas na parte detrás da capa."
+    }
+  },
   "LocationNo1Materials": {
     "name": "Localização dos Materiais No. 1",
     "description": {
@@ -19944,7 +20083,13 @@
   "IridescentGlory": {
     "name": "\"Glória Arco-íris\"",
     "description": {
-      "0": "？？？"
+      "0": "Conchas e corais de todas as diferentes tonalidades e cores. Dizem ser os maiores tesouros das Sereias, e o exato motivo de terem criado a Ponte Arco-íris no Reino das Sereias..."
+    }
+  },
+  "AureliesNotesI": {
+    "name": "Anotações de Aurelie I",
+    "description": {
+      "0": "Anotações de Aurelie I"
     }
   },
   "MarvelousJellyImprovedFontaineEdition": {
@@ -19977,6 +20122,18 @@
     "description": {
       "0": "Um relógio de bolso antigo.",
       "1": "Parece ter parado em um certo momento, a linda memória de um momento que se tornou eterno."
+    }
+  },
+  "AureliesNotesII": {
+    "name": "Anotações de Aurelie II",
+    "description": {
+      "0": "Anotações de Aurelie II"
+    }
+  },
+  "ANewLifesBeginning": {
+    "name": "\"O Começo de Uma Nova Vida\"",
+    "description": {
+      "0": "Um cartão de saída emitido pela Fortaleza Meropide. É apenas um pedaço de papel, mas recebeu um nome muito encorajador."
     }
   },
   "RootCycle": {
@@ -20072,6 +20229,58 @@
     "name": "Chave Pequena",
     "description": {
       "0": "Uma chave minúscula que poderia se encaixar em um livro. Por que ela não foi apreendida e confiscada? E como algo tão pequeno pode abrir algo tão importante?"
+    }
+  },
+  "Notes": {
+    "name": "Notas",
+    "description": {}
+  },
+  "Description": {
+    "name": "Descrição",
+    "description": {}
+  },
+  "Storybook": {
+    "name": "Livro de história",
+    "description": {}
+  },
+  "Certificate": {
+    "name": "Certificado",
+    "description": {}
+  },
+  "InvestigationLog": {
+    "name": "Diário de Investigação",
+    "description": {}
+  },
+  "Excerpt": {
+    "name": "Excerto",
+    "description": {}
+  },
+  "Log": {
+    "name": "Registro",
+    "description": {}
+  },
+  "ShootingPracticeOpticalLenses": {
+    "name": "Lentes Ópticas de Prática de Tiro",
+    "description": {
+      "0": "Um dispositivo ótico fornecido por uma membro da Patrulha de Segurança e Monitoramento Especial, Turenna. Parece usar algumas técnicas de imagem difíceis de entender em conjunto com o dispositivo de mesa de areia da \"Zona de Tiro em Arco de Defesa de Mil Passos\" para simular o uso de um mosquete para ser disparado nos inimigos.",
+      "1": "Embora isso possa ser considerado, de diversas formas, insuficiente para os atuais regimes de treinamento dos membros da Patrulha, é mais do que suficiente para despertar o interesse por mosquetes e pela artilharia, em desenvolver os talentos de alguém para isso e para usar esses dons para o bem."
+    }
+  },
+  "TearsAmongTheStars": {
+    "name": "Lágrima das Estrelas",
+    "description": {
+      "0": "Uma gota d'água obtida de dentro da besta colossal que cobiçou o mar primordial da vida.",
+      "1": "<br/>",
+      "2": "Um filósofo do longínquo mundo antigo afirmou certa vez que onde há vida, há morte; naturalmente, onde há morte, há vida.",
+      "3": "Se não, a luz fugaz não conseguiria resistir à escuridão eterna, e tudo se transformará em absoluto nada no fim dos tempos.",
+      "4": "As regras entre as estrelas ditam que a natureza deve ser preservada, mas as leis do universo nunca foram preservadas.",
+      "5": "Em uma caixa selada, a destruição sempre supera a nova vida. Milênios e milênios de prosperidade são apenas um instante em um período de bilhões de anos. As maiores conquistas, as realizações mais orgulhosas, com o tempo, todas elas serão maculadas, se deteriorarão, se dissiparão e, por fim, cairão no esquecimento.",
+      "6": "Assim são as coisas flutuando entre as estrelas, outrora adornadas com inúmeros títulos de prestígio de inúmeras civilizações, derramando lágrimas por sua morte ordenada.",
+      "7": "Suas lágrimas desabam, por desespero, por esperança, pois todo desespero e esperança serão totalmente extintos junto com as inúmeras estrelas.",
+      "8": "Cada minúscula silhueta, porém bela, e cada momento digno de ser lembrado, desaparecerá com o tempo, até mesmo as estrelas.",
+      "9": "E então, existem os tais \"deuses\" que estão determinados a salvar tudo que mereça ser salvo, e devorar tudo que deveria ser devorado.",
+      "10": "Até o fim dos tempos, até que o mar de estrelas se torne nada além de brasas que lentamente se apagam, até que um \"mundo\" recém-nascido se mova pela primeira vez no estômago da baleia.",
+      "11": "\"Não existirão mais pecados, nem tristeza, nem lágrimas, pois tudo terá morrido com as antigas estrelas\"."
     }
   },
   "SilkFlowerSeed": {
@@ -20517,7 +20726,7 @@
     "name": "Mecaprotetor: Líder Dourado",
     "description": {
       "0": "Um Mecautômato compacto assistente desenvolvido para aumentar as taxas de uso de grupos de Mecautômatos, ajudando com projetos submarinos. Eles foram originalmente elaborados para remover lixo, vegetação e outros destroços submarinos para prevenir o entupimento das partes vitais de outros Mecautômatos, diminuindo o número de falhas. De outro ponto de vista, eles também beneficiam consideravelmente o ecossistema de Fontaine como zeladores submarinos.",
-      "1": "Comparado a outros modelos produzidos em massa, esse Mecautômato assistente especial Edição de Colecionador Platinum usa um revestimento dourado, junto com equipamentos de controle. A equipe de projetos o elaborou para cumprir a função de \"estação retransmissora de controle\" em ambientes submarinos complexos, recebendo e retransmitindo comandos do controlador para todos os outros Mecautômatos no grupo, assumindo o papel de líder.",
+      "1": "Comparado a outros modelos produzidos em massa, esse Mecautômato assistente especial Edição de Coleção de Platina usa um revestimento dourado, junto com equipamentos de controle. A equipe de projetos o elaborou para cumprir a função de \"estação retransmissora de controle\" em ambientes submarinos complexos, recebendo e retransmitindo comandos do controlador para todos os outros Mecautômatos no grupo, assumindo o papel de líder.",
       "2": "Entretanto, quando todo o projeto de manutenção dos Mecautômatos parou de funcionar, esses líderes mecânicos perderam sua razão de existir. Somente seus revestimentos dourados facilmente reconhecíveis os dão valor para os pescadores que os colecionam."
     }
   },
@@ -21399,7 +21608,7 @@
     }
   },
   "RadiantSpincrystal118": {
-    "name": "Cristal Rodopiante Radiante 1180",
+    "name": "Cristal Rodopiante Radiante 118",
     "description": {
       "0": "Esse cristal maravilhoso contém uma certa melodia, como um tecido belo criado de seda delicada. Esses itens podem ser encontrados por todo Teyvat ou com comerciantes de mercadorias raras. A melodia deste cristal pode ser revivida em seu Bule de Relachá usando \"Eufonia Infinita: Música no Ar\" ou \"Eufonia Infinita: Sons Rodopiantes\". A melodia contida neste Cristal Rodopiante Radiante é uma misteriosa canção de Fontaine."
     }
@@ -23098,6 +23307,20 @@
       "1": "A logo oficial da Fortaleza Meropide. É nossa maior esperança que todos que desejam honrar a ordem e viver suas vidas em paz, jamais se associarão com a organização que essa insígnia representa."
     }
   },
+  "FurinaBanquet": {
+    "name": "Furina - Celebração",
+    "description": {
+      "0": "Estilo de Cartão de Visita.",
+      "1": "Será que consigo comer esse bolo todo sozinha? Se eu comer uma fatia por dia, acho que em uma semana acabo? Mas um bolo não dura esse tempo todo... Ah, tudo bem, muitos amigos virão depois para comer ele."
+    }
+  },
+  "CharlotteExclusive": {
+    "name": "Charlotte - Furo Exclusivo",
+    "description": {
+      "0": "Estilo de Cartão de Visita.",
+      "1": "\"1. Furo exclusivo terminado, vai ser top! 2. O jornal disse que a situação estava piorando e publicou uma retificação... 3. A pessoa que escreveu a retificação vai amanhã para a Ópera Epiclese como réu!\""
+    }
+  },
   "FontaineCompleteness": {
     "name": "Fontaine - Confusão",
     "description": {
@@ -23691,6 +23914,13 @@
       "0": "Um Aparelho Fotográfico modificado por Lepine-Pauline para a disciplina profunda de reconhecimento de imagens anticrime. É desconhecido que tipo de componentes complexos e caros estão nele, mas parece poder capturar a estrutura particular de um sujeito, seu perfil e coloração..."
     }
   },
+  "MiniSeelieBrilliance": {
+    "name": "Mini Seelie - Brilhante",
+    "description": {
+      "0": "Uma lembrança da Caça aos Tesouros. Equipe esse Seelie para ter sua companhia.",
+      "1": "Um Mini Seelie com cores brilhantes que pode ser mover livremente debaixo d'água."
+    }
+  },
   "InstructionsAnemoculusResonanceStone": {
     "name": "Instruções: Pedra de Ressonância de Anemoculus",
     "description": {
@@ -23791,14 +24021,6 @@
     "name": "Diagrama: Garrafa Térmica",
     "description": {
       "0": "Instruções detalhadas com o passo a passo para fazer uma Garrafa Térmica. Após entendê-la bem, poderá criar uma ferramenta para resistir ao Frio Extremo."
-    }
-  },
-  "MaskOfMemories": {
-    "name": "Máscara de Reminiscências",
-    "description": {
-      "0": "Hanachirusato, a sacerdotisa do Santuário, usava essa máscara. Ela está muito manchada na parte de dentro.",
-      "1": "Algumas memórias estão contidas nela, e por elas é possível a arte de criar o Catalisador conhecido como \"Anel de Hakushin\".",
-      "2": "Agora que Hanachirusato foi separada dessa máscara, Paimon não entende porque ainda a chamam de Sacerdotisa Mascarada."
     }
   },
   "TaleOfTheForestKing": {
@@ -24133,6 +24355,36 @@
   },
   "ElectroHypostasis": {
     "name": "Hypostasis Electro",
+    "description": {
+      "0": "Uma carta do jogo de mesa \"Chamado Sagrado dos Sete\" com uma textura resistente. Não se sabe qual foi a técnica de impressão utilizada para fazer a ilustração na carta, mas pode-se ver que é muito requintada."
+    }
+  },
+  "Signora": {
+    "name": "Signora",
+    "description": {
+      "0": "Uma carta do jogo de mesa \"Chamado Sagrado dos Sete\" com uma textura resistente. Não se sabe qual foi a técnica de impressão utilizada para fazer a ilustração na carta, mas pode-se ver que é muito requintada."
+    }
+  },
+  "Azhdaha": {
+    "name": "Azhdaha",
+    "description": {
+      "0": "Uma carta do jogo de mesa \"Chamado Sagrado dos Sete\" com uma textura resistente. Não se sabe qual foi a técnica de impressão utilizada para fazer a ilustração na carta, mas pode-se ver que é muito requintada."
+    }
+  },
+  "EremiteScorchingLoremaster": {
+    "name": "Eremita Narradora da Areia Ardente",
+    "description": {
+      "0": "Uma carta do jogo de mesa \"Chamado Sagrado dos Sete\" com uma textura resistente. Não se sabe qual foi a técnica de impressão utilizada para fazer a ilustração na carta, mas pode-se ver que é muito requintada."
+    }
+  },
+  "ThunderManifestation": {
+    "name": "Manifestação Trovejante",
+    "description": {
+      "0": "Uma carta do jogo de mesa \"Chamado Sagrado dos Sete\" com uma textura resistente. Não se sabe qual foi a técnica de impressão utilizada para fazer a ilustração na carta, mas pode-se ver que é muito requintada."
+    }
+  },
+  "Dvalin": {
+    "name": "Dvalin",
     "description": {
       "0": "Uma carta do jogo de mesa \"Chamado Sagrado dos Sete\" com uma textura resistente. Não se sabe qual foi a técnica de impressão utilizada para fazer a ilustração na carta, mas pode-se ver que é muito requintada."
     }
@@ -24497,6 +24749,72 @@
       "0": "Uma carta do jogo de mesa \"Chamado Sagrado dos Sete\" com uma textura resistente. Não se sabe qual foi a técnica de impressão utilizada para fazer a ilustração na carta, mas pode-se ver que é muito requintada."
     }
   },
+  "LightsRemit": {
+    "name": "Hegemonia Estelar",
+    "description": {
+      "0": "Uma carta do jogo de mesa \"Chamado Sagrado dos Sete\" com uma textura resistente. Não se sabe qual foi a técnica de impressão utilizada para fazer a ilustração na carta, mas pode-se ver que é muito requintada."
+    }
+  },
+  "TurnControl": {
+    "name": "Estratégia Controlada",
+    "description": {
+      "0": "Uma carta do jogo de mesa \"Chamado Sagrado dos Sete\" com uma textura resistente. Não se sabe qual foi a técnica de impressão utilizada para fazer a ilustração na carta, mas pode-se ver que é muito requintada."
+    }
+  },
+  "ConclusiveOvation": {
+    "name": "Aplausos Deslumbrados!",
+    "description": {
+      "0": "Uma carta do jogo de mesa \"Chamado Sagrado dos Sete\" com uma textura resistente. Não se sabe qual foi a técnica de impressão utilizada para fazer a ilustração na carta, mas pode-se ver que é muito requintada."
+    }
+  },
+  "AColdBladeLikeAShadow": {
+    "name": "Uma Lâmina Fria como a Água",
+    "description": {
+      "0": "Uma carta do jogo de mesa \"Chamado Sagrado dos Sete\" com uma textura resistente. Não se sabe qual foi a técnica de impressão utilizada para fazer a ilustração na carta, mas pode-se ver que é muito requintada."
+    }
+  },
+  "RushingHoundSwiftAsTheWind": {
+    "name": "Pegureiro Veloz: Rápido como o Vento",
+    "description": {
+      "0": "Uma carta do jogo de mesa \"Chamado Sagrado dos Sete\" com uma textura resistente. Não se sabe qual foi a técnica de impressão utilizada para fazer a ilustração na carta, mas pode-se ver que é muito requintada."
+    }
+  },
+  "Structuration": {
+    "name": "Raciocínio Correto",
+    "description": {
+      "0": "Uma carta do jogo de mesa \"Chamado Sagrado dos Sete\" com uma textura resistente. Não se sabe qual foi a técnica de impressão utilizada para fazer a ilustração na carta, mas pode-se ver que é muito requintada."
+    }
+  },
+  "PainForPain": {
+    "name": "Retribuição da Dor",
+    "description": {
+      "0": "Uma carta do jogo de mesa \"Chamado Sagrado dos Sete\" com uma textura resistente. Não se sabe qual foi a técnica de impressão utilizada para fazer a ilustração na carta, mas pode-se ver que é muito requintada."
+    }
+  },
+  "Scorpocalypse": {
+    "name": "Pyrofuracão do Escorpião",
+    "description": {
+      "0": "Uma carta do jogo de mesa \"Chamado Sagrado dos Sete\" com uma textura resistente. Não se sabe qual foi a técnica de impressão utilizada para fazer a ilustração na carta, mas pode-se ver que é muito requintada."
+    }
+  },
+  "GrievingEcho": {
+    "name": "Eco Trágico",
+    "description": {
+      "0": "Uma carta do jogo de mesa \"Chamado Sagrado dos Sete\" com uma textura resistente. Não se sabe qual foi a técnica de impressão utilizada para fazer a ilustração na carta, mas pode-se ver que é muito requintada."
+    }
+  },
+  "RendingVortex": {
+    "name": "Vórtice Destruidor",
+    "description": {
+      "0": "Uma carta do jogo de mesa \"Chamado Sagrado dos Sete\" com uma textura resistente. Não se sabe qual foi a técnica de impressão utilizada para fazer a ilustração na carta, mas pode-se ver que é muito requintada."
+    }
+  },
+  "LunarCyclesUnending": {
+    "name": "Ciclo Interminável",
+    "description": {
+      "0": "Uma carta do jogo de mesa \"Chamado Sagrado dos Sete\" com uma textura resistente. Não se sabe qual foi a técnica de impressão utilizada para fazer a ilustração na carta, mas pode-se ver que é muito requintada."
+    }
+  },
   "MagicGuide": {
     "name": "Guia de Magia",
     "description": {
@@ -24845,6 +25163,66 @@
       "0": "Uma carta do jogo de mesa \"Chamado Sagrado dos Sete\" com uma textura resistente. Não se sabe qual foi a técnica de impressão utilizada para fazer a ilustração na carta, mas pode-se ver que é muito requintada."
     }
   },
+  "LostPrayerToTheSacredWinds": {
+    "name": "Oração Perdida aos Ventos Sagrados",
+    "description": {
+      "0": "Uma carta do jogo de mesa \"Chamado Sagrado dos Sete\" com uma textura resistente. Não se sabe qual foi a técnica de impressão utilizada para fazer a ilustração na carta, mas pode-se ver que é muito requintada."
+    }
+  },
+  "TulaytullahsRemembrance": {
+    "name": "Reminiscências de Tulaytullah",
+    "description": {
+      "0": "Uma carta do jogo de mesa \"Chamado Sagrado dos Sete\" com uma textura resistente. Não se sabe qual foi a técnica de impressão utilizada para fazer a ilustração na carta, mas pode-se ver que é muito requintada."
+    }
+  },
+  "BeaconOfTheReedSea": {
+    "name": "Sinal dos Mares",
+    "description": {
+      "0": "Uma carta do jogo de mesa \"Chamado Sagrado dos Sete\" com uma textura resistente. Não se sabe qual foi a técnica de impressão utilizada para fazer a ilustração na carta, mas pode-se ver que é muito requintada."
+    }
+  },
+  "PrimordialJadeWingedSpear": {
+    "name": "Lança de Jade Primitiva",
+    "description": {
+      "0": "Uma carta do jogo de mesa \"Chamado Sagrado dos Sete\" com uma textura resistente. Não se sabe qual foi a técnica de impressão utilizada para fazer a ilustração na carta, mas pode-se ver que é muito requintada."
+    }
+  },
+  "LightOfFoliarIncision": {
+    "name": "Luz das Folhas Cortadas",
+    "description": {
+      "0": "Uma carta do jogo de mesa \"Chamado Sagrado dos Sete\" com uma textura resistente. Não se sabe qual foi a técnica de impressão utilizada para fazer a ilustração na carta, mas pode-se ver que é muito requintada."
+    }
+  },
+  "GildedDreams": {
+    "name": "Sonhos Dourados",
+    "description": {
+      "0": "Uma carta do jogo de mesa \"Chamado Sagrado dos Sete\" com uma textura resistente. Não se sabe qual foi a técnica de impressão utilizada para fazer a ilustração na carta, mas pode-se ver que é muito requintada."
+    }
+  },
+  "FlowingRings": {
+    "name": "Jades da Torrente",
+    "description": {
+      "0": "Uma carta do jogo de mesa \"Chamado Sagrado dos Sete\" com uma textura resistente. Não se sabe qual foi a técnica de impressão utilizada para fazer a ilustração na carta, mas pode-se ver que é muito requintada."
+    }
+  },
+  "EchoesOfAnOffering": {
+    "name": "Eco do Sacrifício",
+    "description": {
+      "0": "Uma carta do jogo de mesa \"Chamado Sagrado dos Sete\" com uma textura resistente. Não se sabe qual foi a técnica de impressão utilizada para fazer a ilustração na carta, mas pode-se ver que é muito requintada."
+    }
+  },
+  "HeartOfKhvarenasBrilliance": {
+    "name": "Coração do Brilho de Khvarena",
+    "description": {
+      "0": "Uma carta do jogo de mesa \"Chamado Sagrado dos Sete\" com uma textura resistente. Não se sabe qual foi a técnica de impressão utilizada para fazer a ilustração na carta, mas pode-se ver que é muito requintada."
+    }
+  },
+  "VourukashasGlow": {
+    "name": "Brilho Vourukasha",
+    "description": {
+      "0": "Uma carta do jogo de mesa \"Chamado Sagrado dos Sete\" com uma textura resistente. Não se sabe qual foi a técnica de impressão utilizada para fazer a ilustração na carta, mas pode-se ver que é muito requintada."
+    }
+  },
   "LiyueHarborWharf": {
     "name": "Porto de Liyue",
     "description": {
@@ -25057,6 +25435,24 @@
   },
   "StormterrorsLair": {
     "name": "Toca de Stormterror",
+    "description": {
+      "0": "Uma carta do jogo de mesa \"Chamado Sagrado dos Sete\" com uma textura resistente. Não se sabe qual foi a técnica de impressão utilizada para fazer a ilustração na carta, mas pode-se ver que é muito requintada."
+    }
+  },
+  "WeepingWillowOfTheLake": {
+    "name": "Salgueiro Chorão do Lago",
+    "description": {
+      "0": "Uma carta do jogo de mesa \"Chamado Sagrado dos Sete\" com uma textura resistente. Não se sabe qual foi a técnica de impressão utilizada para fazer a ilustração na carta, mas pode-se ver que é muito requintada."
+    }
+  },
+  "OperaEpiclese": {
+    "name": "Ópera Epiclese",
+    "description": {
+      "0": "Uma carta do jogo de mesa \"Chamado Sagrado dos Sete\" com uma textura resistente. Não se sabe qual foi a técnica de impressão utilizada para fazer a ilustração na carta, mas pode-se ver que é muito requintada."
+    }
+  },
+  "Mamere": {
+    "name": "Maime",
     "description": {
       "0": "Uma carta do jogo de mesa \"Chamado Sagrado dos Sete\" com uma textura resistente. Não se sabe qual foi a técnica de impressão utilizada para fazer a ilustração na carta, mas pode-se ver que é muito requintada."
     }
@@ -25343,6 +25739,30 @@
       "0": "Uma carta do jogo de mesa \"Chamado Sagrado dos Sete\" com uma textura resistente. Não se sabe qual foi a técnica de impressão utilizada para fazer a ilustração na carta, mas pode-se ver que é muito requintada."
     }
   },
+  "PassingOfJudgment": {
+    "name": "Hora da Julgamento",
+    "description": {
+      "0": "Uma carta do jogo de mesa \"Chamado Sagrado dos Sete\" com uma textura resistente. Não se sabe qual foi a técnica de impressão utilizada para fazer a ilustração na carta, mas pode-se ver que é muito requintada."
+    }
+  },
+  "TheBoarPrincess": {
+    "name": "A Princesa Javali",
+    "description": {
+      "0": "Uma carta do jogo de mesa \"Chamado Sagrado dos Sete\" com uma textura resistente. Não se sabe qual foi a técnica de impressão utilizada para fazer a ilustração na carta, mas pode-se ver que é muito requintada."
+    }
+  },
+  "FallsAndFortune": {
+    "name": "Colapso e Fortuna",
+    "description": {
+      "0": "Uma carta do jogo de mesa \"Chamado Sagrado dos Sete\" com uma textura resistente. Não se sabe qual foi a técnica de impressão utilizada para fazer a ilustração na carta, mas pode-se ver que é muito requintada."
+    }
+  },
+  "FlickeringFourLeafSigil": {
+    "name": "Selo de Trevo Flutuante",
+    "description": {
+      "0": "Uma carta do jogo de mesa \"Chamado Sagrado dos Sete\" com uma textura resistente. Não se sabe qual foi a técnica de impressão utilizada para fazer a ilustração na carta, mas pode-se ver que é muito requintada."
+    }
+  },
   "Origin": {
     "name": "Primordial",
     "description": {
@@ -25417,6 +25837,12 @@
   },
   "DragonspineCrown": {
     "name": "Espinha do Dragão - Diadema",
+    "description": {
+      "0": "Um Verso de Carta que pode ser obtido e trocado em o Chamado Sagrado dos Sete. Dizem que Versos de Carta feitos de maneiras diferente possuem qualidades e texturas distintas, e que há jogadores que têm como passatempo colecionar esses Versos de Carta diferentes."
+    }
+  },
+  "TheChasmSolidIron": {
+    "name": "Despenhadeiro - Metal Sólido",
     "description": {
       "0": "Um Verso de Carta que pode ser obtido e trocado em o Chamado Sagrado dos Sete. Dizem que Versos de Carta feitos de maneiras diferente possuem qualidades e texturas distintas, e que há jogadores que têm como passatempo colecionar esses Versos de Carta diferentes."
     }
@@ -26515,7 +26941,7 @@
       "1": "Depois de usar, você pode entrar na interface de produção para ver."
     }
   },
-  "ShinyShells": {
+  "ShinyShell": {
     "name": "\"Carapaça Brilhante\"",
     "description": {
       "0": "Um diagrama que descreve passo a passo como fabricar \"Carapaça Brilhante\".",
@@ -28055,7 +28481,7 @@
       "1": "Depois de usar, você pode entrar na interface de colocação para ver."
     }
   },
-  "CorridorsStableStorage": {
+  "PassagesStableStorage": {
     "name": "\"Armazenamento Estável do Corredor\"",
     "description": {
       "0": "Um diagrama que descreve passo a passo como fabricar \"Armazenamento Estável do Corredor\".",
@@ -31198,7 +31624,7 @@
       "1": "Depois de usar, você pode entrar na interface de produção para ver."
     }
   },
-  "DuellingSigil": {
+  "DuelingSigil": {
     "name": "\"Selo do Duelo\"",
     "description": {
       "0": "Um diagrama que descreve passo a passo como fabricar \"Selo do Duelo\".",

@@ -1,7 +1,7 @@
 {
   "name": "Furina",
   "title": "La Bailarina Incansable",
-  "description": "",
+  "description": "El foco de atención absoluto del escenario durante los juicios, hasta que la obra termina y el público rompe a aplaudir.",
   "constellationName": "Animula Choragi",
   "auto": {
     "name": "Convite de la solista",
@@ -51,7 +51,7 @@
       "2": "<strong>Ousía</strong>",
       "3": "Esparce un festín de burbujas que infligen <hydro>Daño Hydro en el AdE</hydro> en función de la Vida Máx. de Furina, e invoca a los tres miembros del salón: el Gentilhombre Usher, con forma de Esferoctópodo; Madame Chevalmarine, con forma de Caballito Burbumarino, y Mademoiselle Crabaletta, con forma de Cangrejo Acorazado.",
       "4": "Los miembros del salón atacarán cada cierto tiempo a los enemigos cercanos, con prioridad en los objetivos a los que estén atacando los personajes en uso, y les infligirán <hydro>Daño Hydro</hydro> en función de la Vida Máx.",
-      "5": "Los ataques de los miembros del salón se volverán más fuertes en función de la cantidad de personajes cercanos del equipo con más del 50% de Vida, y sus ataques harán que dichos personajes pierdan Vida. Cuando 1/2/3/4 o más personajes del equipo cumplen con esta condición, el siguiente ataque de los miembros del salón inflige respectivamente un 110/120/130/140% del daño original.",
+      "5": "Los ataques de los miembros del salón se volverán más fuertes en función de la cantidad de personajes cercanos del equipo con más del 50% de Vida, y estos ataques harán que dichos personajes pierdan Vida. Cuando 1/2/3/4 o más personajes del equipo cumplen con esta condición, el siguiente ataque de los miembros del salón inflige respectivamente un 110/120/130/140% del daño original.",
       "6": "<br/>",
       "7": "<strong>Pneuma</strong>",
       "8": "Invoca al juglar de las aguas para que cada cierto tiempo restaure Vida a los personajes en uso cercanos en función de la Vida Máx.",
@@ -83,11 +83,11 @@
   "burst": {
     "name": "¡Que el mundo entero festeje!",
     "description": {
-      "0": "Concentra un gran júbilo para crear un escenario de agua y espuma que inflige <hydro>Daño Hydro en el AdE</hydro> en función de la Vida Máx. de Furina, y que hace que los miembros del equipo cercanos entren en el estado de “jolgorio ecuménico”. Mientras este estado está activo, si la Vida de los personajes aumenta o disminuye, Furina obtiene 1 pt. de “algarabía” por cada 1% que varíe la Vida Máx. de dichos personajes.",
+      "0": "Concentra un gran júbilo para crear un escenario de agua y espuma que inflige <hydro>Daño Hydro en el AdE</hydro> en función de la Vida Máx. de Furina, y que hace que los miembros del equipo cercanos entren en el estado de “jolgorio ecuménico”. Mientras este estado está activo, si la Vida de los personajes aumenta o disminuye, Furina obtiene 1 pt. de “algarabía” por cada 1% que varíe la Vida de dichos personajes en función de la Vida Máx. del personaje.",
       "1": "Además, el daño que infligen todos los miembros del equipo cercanos y su Bono de Curación recibida aumentarán según los puntos de algarabía que tenga Furina.",
       "2": "Al terminar el estado de jolgorio ecuménico, Furina pierde todos los pts. de algarabía.",
       "3": "<br/>",
-      "4": "<i>“¡Festejen! ¡Aclamen! ¡Maravíllense! ¡Alcen sus copas! Una noche sin festines ni banquetes no es sino un día de dolor y lucidez desperdiciado... Oh, ehmm... Y quienes aún no sean mayores de edad, ¡que tomen jugo de uva!”.</i>"
+      "4": "<i>“¡Festejen! ¡Aclamen! ¡Maravíllense! ¡Alcen sus copas! Cada noche sin banquete es un sórdido desperdicio de dolorosa y sobria luz diurna... Oh, ehmm... Y quienes aún no sean mayores de edad, ¡que tomen jugo de uva!”.</i>"
     },
     "skillParams": {
       "0": "Daño de habilidad",
@@ -118,8 +118,8 @@
     "name": "Confesión inaudible",
     "description": {
       "0": "Por cada 1000 pts. de Vida Máx. que tenga Furina, la habilidad <strong>Salón Solitaire</strong> de los diferentes tipos de arjé de Furina obtiene distintas bonificaciones:",
-      "1": "El daño de los miembros del salón aumenta en un 0.7%. Su daño puede aumentar en un máximo de un 28% de esta manera.",
-      "2": "El intervalo de tiempo en el que el juglar de las aguas restaura Vida a los personajes en uso cercanos se reduce en un 0.4%. Este intervalo de tiempo se puede reducir en un máximo de un 16% de esta manera."
+      "1": "El daño de los miembros del salón aumenta en un 0.7%. Su daño puede aumentar hasta un 28% de esta manera.",
+      "2": "El intervalo de tiempo en el que el juglar de las aguas restaura Vida a los personajes en uso cercanos se reduce en un 0.4%. Este intervalo de tiempo se puede reducir hasta un 16% de esta manera."
     }
   },
   "passive3": {
@@ -132,17 +132,17 @@
     "name": "El amor es como un pájaro rebelde",
     "description": {
       "0": "Al usar <strong>¡Que el mundo entero festeje!</strong>, Furina obtiene 150 pts. de algarabía.",
-      "1": "Además, el máximo de puntos de algarabía que se pueden poseer aumenta en 150 pts."
+      "1": "Además, el máximo de puntos de algarabía que Furina puede poseer aumenta en 100 pts."
     }
   },
   "constellation2": {
-    "name": "¡Alcemos nuestras copas de amor!",
+    "name": "Una mujer cambiante como el agua",
     "description": {
-      "0": "Mientras la habilidad <strong>¡Que el mundo entero festeje!</strong> está activa, Furina obtiene un 200% más de puntos de algarabía con el aumento o disminución de la Vida de los personajes cercanos del equipo. Por cada punto de algarabía más allá del límite máximo, la Vida Máx. de Furina aumenta en un 0.4%, hasta un máximo de un 140%."
+      "0": "Mientras la habilidad <strong>¡Que el mundo entero festeje!</strong> está activa, Furina obtiene un 250% más de puntos de algarabía con el aumento o disminución de la Vida de los personajes cercanos del equipo. Por cada punto de algarabía más allá del límite máximo, la Vida Máx. de Furina aumenta en un 0.35%, hasta un máximo de un 140%."
     }
   },
   "constellation3": {
-    "name": "Ahora sé su nombre, y es...",
+    "name": "Escondo secretos que nadie conoce",
     "description": {
       "0": "Aumenta el nivel de habilidad de <strong>¡Que el mundo entero festeje!</strong> +3.",
       "1": "Puede ser aumentado hasta Niv. 15."
@@ -155,25 +155,25 @@
     }
   },
   "constellation5": {
-    "name": "Escondo secretos que nadie conoce",
+    "name": "Ahora sé su nombre, y es...",
     "description": {
       "0": "Aumenta el nivel de habilidad de <strong>Salón Solitaire</strong> +3.",
       "1": "Puede ser aumentado hasta Niv. 15."
     }
   },
   "constellation6": {
-    "name": "Una mujer cambiante como el agua",
+    "name": "¡Escuchen mis alabanzas y alcemos nuestras copas de amor!",
     "description": {
-      "0": "Al usar su Habilidad Elemental, “Salón Solitaire”, Furina obtiene el efecto de “atención del pueblo” durante 10 s.",
-      "1": "Mientras este efecto está activo, el daño de los Ataques Normales, Cargados y Descendentes de Furina se transforma en <hydro>Daño Hydro</hydro>, el cual no puede sustituirse imbuyéndose de otro elemento. Además, el daño que inflige con dichos ataques aumenta en una cantidad equivalente al 15% de su Vida Máx.",
-      "2": "Mientras el efecto de atención del pueblo está activo, cada 0.1 s, cuando Furina golpea a un enemigo con un Ataque Normal, Cargado o Descendente, se producen distintos efectos dependiendo de su tipo de arjé actual:",
+      "0": "Al usar <strong>Salón Solitaire</strong>, Furina obtiene el efecto de “atención del pueblo” durante 10 s.",
+      "1": "Mientras este efecto está activo, el daño de los Ataques Normales, Cargados y Descendentes de Furina se transforma en <hydro>Daño Hydro</hydro>, el cual no puede sustituirse imbuyéndose de otro elemento. Además, el daño que inflige con dichos ataques aumenta en una cantidad equivalente al 18% de su Vida Máx.",
+      "2": "Mientras el efecto de atención del pueblo está activo, cada 0.1 s, cuando Furina golpea a un enemigo con un Ataque Normal (esto no incluye los ataques de arjé: sacralidad y secularidad), Cargado o Descendente, se producen distintos efectos dependiendo de su tipo de arjé actual:",
       "3": "<br/>",
       "4": "Arjé: ousía",
-      "5": "Restaura Vida cada segundo a todos los miembros del equipo cercanos en una cantidad equivalente al 3% de la Vida Máx. de Furina durante 2.5 s. Activar esto repetidamente prolongará la duración del efecto.",
+      "5": "Restaura Vida cada segundo a todos los miembros del equipo cercanos en una cantidad equivalente al 4% de la Vida Máx. de Furina durante 2.9 s. Activar esto repetidamente prolongará la duración del efecto.",
       "6": "Arjé: pneuma",
-      "7": "El daño del siguiente Ataque Normal, Cargado o Descendente aumenta adicionalmente en una cantidad equivalente al 15% de la Vida Máx. de Furina. Al golpear a un enemigo con alguno de dichos ataques, todos los miembros del equipo cercanos perderán un 1% de su Vida actual.",
+      "7": "El daño del siguiente Ataque Normal (esto no incluye los ataques de arjé: sacralidad y secularidad), Cargado o Descendente aumenta adicionalmente en una cantidad equivalente al 25% de la Vida Máx. de Furina. Al golpear a un enemigo con alguno de dichos ataques, todos los miembros del equipo cercanos perderán un 1% de su Vida actual.",
       "8": "<br/>",
-      "9": "Los efectos anteriormente mencionados se pueden activar hasta 7 veces a lo largo de la duración de atención del pueblo, y se eliminarán cuando se haya alcanzado ese número de veces o cuando termine su duración."
+      "9": "Los efectos anteriormente mencionados se pueden activar hasta 6 veces a lo largo de la duración de atención del pueblo, y se eliminarán cuando se haya alcanzado ese número de veces o cuando termine su duración."
     }
   }
 }

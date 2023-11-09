@@ -1,7 +1,7 @@
 {
   "name": "Furina",
   "title": "Endloser Solotanz",
-  "description": "",
+  "description": "Der absolute Mittelpunkt auf der Bühne bei Verhandlungen bis zum Applaus am Ende.",
   "constellationName": "Animula Choragi",
   "auto": {
     "name": "Einladung der Solistin",
@@ -14,13 +14,14 @@
         "0": "<strong>Heftiger Schlag</strong>",
         "1": "Verbraucht eine gewisse Menge Ausdauer, erschafft die Aura eines Solotanzes, die den Gegnern in der Nähe physischen Schaden zufügt und die eigene Arkhe-Energiesignatur ändert. Wenn „Salonmitglieder“ oder „Sängerin der Ströme“, die von der Elementarfähigkeit „Salon solitaire“ herbeigerufen wurden, anwesend sind, ändert sich ihre Aufstellung."
       },
-      "plunging": {
+      "arkhe": {
         "0": "<strong>Arkhe: Thron der Geistlichkeit und Weltlichkeit</strong>",
         "1": "Erzeugt in gewissen Zeitabständen bei Treffern mit Standardangriffen von Furina an der getroffenen Position basierend auf Furinas aktueller Arkhe-Energiesignatur einen Geisterstachel oder eine Wogenklinge, die auf Gegner herabfällt, diese durchbohrt und mit Pneuma oder Ousia versehenen <hydro>Hydro-Schaden</hydro> verursacht.",
-        "2": "Wenn Furina eingewechselt wird, ist ihre anfängliche Arkhe-Energiesignatur Ousia.",
-        "3": "<br/>",
-        "4": "Angriff aus dem Fall",
-        "5": "Schlägt beim Fallen aus der Luft auf den Boden, greift alle Gegner in der Bahn an und verursacht beim Aufkommen Flächenschaden."
+        "2": "Wenn Furina eingewechselt wird, ist ihre anfängliche Arkhe-Energiesignatur Ousia."
+      },
+      "plunging": {
+        "0": "<strong>Angriff aus dem Fall</strong>",
+        "1": "Schlägt beim Fallen aus der Luft auf den Boden, greift alle Gegner in der Bahn an und verursacht beim Aufkommen Flächenschaden."
       }
     },
     "skillParams": {
@@ -56,7 +57,7 @@
       "8": "Beschwört die „Sängerin der Ströme“, die in regelmäßigen Abständen die LP der in der Nähe befindlichen aktiven Figuren basierend auf den max. LP wiederherstellt.",
       "9": "<br/>",
       "10": "Die Dauer gilt für die „Salonmitglieder“ und die „Sängerin der Ströme“ gemeinsam. Wenn Furina ihren heftigen Schlag einsetzt, um die Aufstellung der Gäste zu ändern, übernehmen die neuen Gäste die verbleibende Dauer.",
-      "11": "Während die „Salonmitglieder“ und die „Sängerin der Ströme“ existieren, kann Furina sich auf Wasseroberflächen bewegen.",
+      "11": "Während die „Salonmitglieder“ oder die „Sängerin der Ströme“ existiert, kann Furina sich auf Wasseroberflächen bewegen.",
       "12": "<br/>",
       "13": "<i>In Furinas Salon solitaire gibt es einen festen Stamm an Gästen. Zu anderen Zeiten kommen Mademoiselle Crabaletta, Surintendante Chevalmarin und Gentilhomme Usher, und an düsteren Mittwochen ist es die Sängerin, die vorbeikommt.</i>"
     },
@@ -131,17 +132,17 @@
     "name": "„Wie ein widerspenstiger Vogel ist die Liebe taub gegenüber dem Flehen“",
     "description": {
       "0": "Verleiht Furina beim Einsetzen der Fähigkeit <strong>Möge das Volk frohlocken</strong> 150 Punkte „Pomp“.",
-      "1": "Zusätzlich wird das Limit für „Pomp“ um 150 Punkte erhöht."
+      "1": "Zusätzlich wird das Limit für „Pomp“ um 100 Punkte erhöht."
     }
   },
   "constellation2": {
-    "name": "„Lasst uns den Kelch der Liebe erheben!“",
+    "name": "„Frauen sind feinfühlig wie Wasserlinsen im Teich“",
     "description": {
-      "0": "Während der Wirkungsdauer der Fähigkeit <strong>Möge das Volk frohlocken</strong> wird die durch die aktuelle LP-Schwankung der in der Nähe befindlichen Truppenmitglieder erhaltene Menge an „Pomp“ von Furina um 200 % erhöht. Basierend auf dem Teil von „Pomp“, der über dem Limit liegt, erhöht jeder Punkt „Pomp“ Furinas max. LP um 0,4 %. Auf diese Weise können Furinas max. LP um bis zu 140 % erhöht werden."
+      "0": "Während der Wirkungsdauer der Fähigkeit <strong>Möge das Volk frohlocken</strong> wird die durch die aktuelle LP-Schwankung der in der Nähe befindlichen Truppenmitglieder erhaltene Menge an „Pomp“ von Furina um 250 % erhöht. Basierend auf dem Teil von „Pomp“, der über dem Limit liegt, erhöht jeder Punkt „Pomp“ Furinas max. LP um 0,35 %. Auf diese Weise können Furinas max. LP um bis zu 140 % erhöht werden."
     }
   },
   "constellation3": {
-    "name": "„Sein Name, den kenne ich jetzt, er lautet ...!“",
+    "name": "„Meine Geheimnisse verberge ich, meinen Namen kennt niemand“",
     "description": {
       "0": "Erhöht die Stufe der Fähigkeit <strong>Möge das Volk frohlocken</strong> um 3.",
       "1": "Höchststufe 15."
@@ -154,25 +155,25 @@
     }
   },
   "constellation5": {
-    "name": "„Meine Geheimnisse verberge ich, meinen Namen kennt niemand“",
+    "name": "„Sein Name, den kenne ich jetzt, er lautet ...!“",
     "description": {
       "0": "Erhöht die Stufe der Fähigkeit <strong>Salon solitaire</strong> um 3.",
       "1": "Höchststufe 15."
     }
   },
   "constellation6": {
-    "name": "„Frauen sind feinfühlig wie Wasserlinsen im Teich“",
+    "name": "„Hört meinen Lobgesang und erhebt die Becher der Liebe!“",
     "description": {
-      "0": "Erhält den Effekt „Im Mittelpunkt der Blicke“, wenn die Elementarfähigkeit „Salon solitaire“ eingesetzt wird, hält 10 s.",
-      "1": "Während der Wirkungsdauer wird der von Furinas Standardangriffen, heftigen Schlägen und Angriffen aus dem Fall verursachte Schaden zu <hydro>Hydro-Schaden</hydro> umgewandelt, der nicht von anderen Elementen überdeckt werden kann. Gleichzeitig wird der verursachte Schaden um 15 % der max. LP von Furina erhöht.",
-      "2": "Während der Wirkungsdauer werden, nachdem Furinas Standardangriffe, heftige Schläge oder Angriffe aus dem Fall beim Aufkommen Gegner getroffen haben, alle 0,1 s basierend auf Furinas aktueller Arkhe-Energiesignatur unterschiedliche Effekte erzeugt.",
+      "0": "Erhält den Effekt „Im Mittelpunkt der Blicke“, wenn <strong>„Salon solitaire“</strong> eingesetzt wird, hält 10 s.",
+      "1": "Während der Wirkungsdauer wird der von Furinas Standardangriffen, heftigen Schlägen und Angriffen aus dem Fall verursachte Schaden zu <hydro>Hydro-Schaden</hydro> umgewandelt, der nicht von anderen Elementen überdeckt werden kann. Gleichzeitig wird der verursachte Schaden um 18 % der max. LP von Furina erhöht.",
+      "2": "Während der Wirkungsdauer werden, nachdem Furinas Standardangriffe (außer den Angriffen von „Arkhe: Thron der Geistlichkeit und Weltlichkeit“), heftige Schläge oder Angriffe aus dem Fall beim Aufkommen Gegner getroffen haben, alle 0,1 s basierend auf Furinas aktueller Arkhe-Energiesignatur unterschiedliche Effekte erzeugt.",
       "3": "<br/>",
       "4": "Arkhe: Ousia",
-      "5": "Stellt allen Truppenmitgliedern in der Nähe jede Sekunde LP in Höhe von 3 % der max. LP von Furina wieder her, hält 2,5 s. Verlängert die Wirkungsdauer bei erneutem Auslösen.",
+      "5": "Stellt allen Truppenmitgliedern in der Nähe jede Sekunde LP in Höhe von 4 % der max. LP von Furina wieder her, hält 2,9 s. Verlängert die Wirkungsdauer bei erneutem Auslösen.",
       "6": "Arkhe: Pneuma",
-      "7": "Erhöht den diesmaligen Schaden des Standardangriffs, des heftigen Schlags oder des Angriffs aus dem Fall beim Aufkommen um 15 % der max. LP von Furina. Beim Treffen von Gegnern mit den obengenannten Angriffsmethoden werden 1 % der aktuellen LP aller Truppenmitglieder in der Nähe verbraucht.",
+      "7": "Erhöht den diesmaligen Schaden des Standardangriffs (außer den Angriffen von „Arkhe: Thron der Geistlichkeit und Weltlichkeit“), des heftigen Schlags oder des Angriffs aus dem Fall beim Aufkommen um 25 % der max. LP von Furina. Beim Treffen von Gegnern mit den oben genannten Angriffsmethoden werden 1 % der aktuellen LP aller Truppenmitglieder in der Nähe verbraucht.",
       "8": "<br/>",
-      "9": "Während der Wirkungsdauer eines einzelnen „Im Mittelpunkt der Blicke“ kann der obengenannte Effekt höchstens 7-mal ausgelöst werden. Dieser Effekt endet, sobald er 7-mal ausgelöst wurde oder seine Dauer abgelaufen ist."
+      "9": "Während der Wirkungsdauer eines einzelnen „Im Mittelpunkt der Blicke“ kann der oben genannte Effekt höchstens 6-mal ausgelöst werden. Dieser Effekt endet, sobald er 6-mal ausgelöst wurde oder seine Dauer abgelaufen ist."
     }
   }
 }

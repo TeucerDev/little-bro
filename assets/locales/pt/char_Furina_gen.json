@@ -1,7 +1,7 @@
 {
   "name": "Furina",
   "title": "Dançarina Solitária Eterna",
-  "description": "",
+  "description": "O foco absoluto em cima do palco durante um julgamento, até o momento das cortinas caírem e dos aplausos soarem.",
   "constellationName": "Animula Choragi",
   "auto": {
     "name": "Solicitação da Solista",
@@ -14,13 +14,14 @@
         "0": "<strong>Ataque Carregado</strong>",
         "1": "Consome uma certa quantidade de Stamina para lançar uma dança sozinha e causar Dano Físico contra oponentes próximos e mudar seu alinhamento de Arkhe. Se Membros do Salon ou a Cantora das Correntes invocados por sua Habilidade Elemental \"Salon Solitaire\" estiverem presentes, sua formação mudará para a forma correspondente."
       },
-      "plunging": {
+      "arkhe": {
         "0": "<strong>Arkhe: Trono Sagrado e Secular</strong>",
         "1": "Periodicamente, quando o Ataque Normal de Furina atingir, um Espinho Espiritual ou Lâmina da Fluidez cairá segundo seu alinhamento atual, causando <hydro>Dano Hydro</hydro>.",
-        "2": "Quando Furina entrar no campo de batalha, seu Arkhe será Ousia.",
-        "3": "<br/>",
-        "4": "Ataque Imersivo",
-        "5": "Mergulha em pleno ar para golpear o chão, causando dano aos inimigos ao longo do caminho e infligindo Dano em uma AdE no impacto."
+        "2": "Quando Furina entrar no campo de batalha, seu Arkhe será Ousia."
+      },
+      "plunging": {
+        "0": "<strong>Ataque Imersivo</strong>",
+        "1": "Mergulha em pleno ar para golpear o chão, causando dano aos inimigos ao longo do caminho e infligindo Dano em uma AdE no impacto."
       }
     },
     "skillParams": {
@@ -32,7 +33,7 @@
       "5": "Consumo de Stamina de Ataque Carregado",
       "6": "Dano Durante a Queda",
       "7": "Dano de Queda de Baixa/Alta Altitude",
-      "8": "Espinho Espiritual/Dano da Lâmina da Fluidez",
+      "8": "Dano de Espinho Espiritual/Lâmina da Fluidez",
       "9": "Intervalo de Dano de Espinho Espiritual/Lâmina da Fluidez",
       "10": "",
       "11": "",
@@ -50,7 +51,7 @@
       "2": "<strong>Ousia</strong>",
       "3": "Joga bolhas comemorativas, causa <hydro>Dano Hydro em AdE</hydro> baseado na Vida Máxima de Furina e invoca três Membros do Salon: Polvo de Bola \"Gentilshomme Usher\", Cavalo-Marinho de Bolhas \"Surintendante Chevalmarin\" e Caranguejo de Armadura \"Mademoiselle Crabaletta\".",
       "4": "Os Membros do Salon periodicamente atacarão os inimigos próximos, e priorizarão atacar o alvo do personagem atual, causando <hydro>Dano Hydro</hydro> baseado na Vida Máxima.",
-      "5": "Quando os Membros do Salon atacarem, baseado no número de personagens próximos com mais de 50% de Vida, aumenta o poder do Ataque e consome Vida desses personagens: se de 1/2/3/4 ou mais personagens cumprirem os requisitos, aumenta o Dano original de seu Ataque em 110%/120%/130%/140%.",
+      "5": "Quando os Membros do Salon atacarem, baseado no número de personagens próximos com mais de 50% de Vida, aumenta o poder do Ataque e consome Vida desses personagens: se 1/2/3/4 ou mais personagens cumprirem os requisitos, aumenta o Dano original de seu Ataque em 110%/120%/130%/140%.",
       "6": "<br/>",
       "7": "<strong>Pneuma</strong>",
       "8": "Invoca a Cantora das Correntes que periodicamente regenera Vida para os personagens atuais próximos baseado na Vida Máxima.",
@@ -115,7 +116,7 @@
   "passive2": {
     "name": "Confissão Inaudita",
     "description": {
-      "0": "Cada 1.000 pontos da Vida Máxima de Furina podem dar bônus para os Arkhe de <strong>Salon Solitaire</strong>:",
+      "0": "Cada 1.000 pontos da Vida Máxima de Furina podem dar bônus para os Arkhe diferentes de <strong>Salon Solitaire</strong>:",
       "1": "Aumenta o Dano causado pelos Membros do Salon em 0.7%. É possível aumentar o Dano causado pelos Membros do Salon em até 28% dessa forma.",
       "2": "Reduzirá o intervalo de cura do personagem ativo pela Cantora das Correntes em 0.4%. É possível reduzir até 16%."
     }
@@ -130,17 +131,17 @@
     "name": "\"Como um Pássaro Recalcitrante, o Amor é Surdo a Súplicas\"",
     "description": {
       "0": "Ao lançar <strong>E o Povo Vai à Loucura</strong>, Furina ganha 150 de Fanfarra.",
-      "1": "Além disso, aumenta o limite de Fanfarra de Furina em 150."
+      "1": "Além disso, aumenta o limite de Fanfarra de Furina em 100."
     }
   },
   "constellation2": {
-    "name": "\"Vamos Levantar o Cálice do Amor!\"",
+    "name": "\"Uma Mulher se Adapta como Plantas na Água.\"",
     "description": {
-      "0": "Na duração de <strong>E o Povo Vai à Loucura</strong>, o ganho de Fanfarra por aumentos ou quedas de Vida dos personagens próximos é aumentado em 200%. Cada ponto de Fanfarra acima do limite vai aumentar a Vida Máxima de Furina em 0.4%. O limite máximo de aumento de Vida Máxima com esse método é de 140%."
+      "0": "Na duração de <strong>E o Povo Vai à Loucura</strong>, o ganho de Fanfarra por aumentos ou quedas de Vida dos personagens próximos é aumentado em 250%. Cada ponto de Fanfarra acima do limite vai aumentar a Vida Máxima de Furina em 0.35%. O limite máximo de aumento de Vida Máxima com esse método é de 140%."
     }
   },
   "constellation3": {
-    "name": "\"Agora sei seu nome, é...!\"",
+    "name": "\"Meus Segredos Eu Escondo, Desconhecidos a Todos.\"",
     "description": {
       "0": "Aumenta o nível da <strong>E o Povo Vai à Loucura</strong> em 3.",
       "1": "O nível máximo de elevação é 15."
@@ -153,25 +154,25 @@
     }
   },
   "constellation5": {
-    "name": "\"Meus Segredos Eu Escondo, Desconhecidos a Todos.\"",
+    "name": "\"Agora sei seu nome, é...!\"",
     "description": {
       "0": "Aumenta o nível do <strong>Salon Solitaire</strong> em 3.",
       "1": "O nível máximo de elevação é 15."
     }
   },
   "constellation6": {
-    "name": "\"Uma Mulher se Adapta como Plantas na Água.\"",
+    "name": "\"Senhores, Escutem-me, Ergamos a Taça do Amor!\"",
     "description": {
-      "0": "Ao lançar a Habilidade Elemental \"Salon Solitaire\", Furina ganha \"Centro das Atenções\" por 10s.",
-      "1": "Nesse período, os Ataques Normais, Carregados e Imersivos serão convertidos em <hydro>Dano Hydro</hydro> que não pode ser substituído, e aumenta o Dano causado em um valor equivalente a 15% da Vida Máxima de Furina.",
-      "2": "Na duração, a cada 0.1s, depois dos Ataques Normais, Carregados e Imersivos que atingem o chão atingirem inimigos, gerarão efeitos diferentes segundo o Arkhe atual de Furina:",
+      "0": "Ao lançar <strong>Salon Solitaire</strong>, Furina ganha \"Centro das Atenções\" por 10s.",
+      "1": "Nesse período, os Ataques Normais, Carregados e Imersivos serão convertidos em <hydro>Dano Hydro</hydro> que não pode ser substituído, e aumenta o Dano causado em um valor equivalente a 18% da Vida Máxima de Furina.",
+      "2": "Na duração, a cada 0.1s, depois dos Ataques Normais (não incluindo \"Arkhe: Trono Sagrado e Secular\"), Carregados e Imersivos que atingem o chão atingirem inimigos, gerarão efeitos diferentes segundo o Arkhe atual de Furina:",
       "3": "<br/>",
       "4": "Arkhe: Ousia",
-      "5": "A cada 1s, regenera Vida para todos os membros da equipe baseado em 3% da Vida Máxima de Furina por 2.5s. Desencadear o efeito novamente prolonga sua duração.",
+      "5": "A cada 1s, regenera Vida para todos os membros da equipe baseado em 4% da Vida Máxima de Furina por 2.9s. Desencadear o efeito novamente prolonga sua duração.",
       "6": "Arkhe: Pneuma",
-      "7": "Aumenta o Dano do Ataque Normal, Carregado ou Imersivo que atingir o chão em mais 15% da Vida Máxima de Furina. Quando esse ataque atingir um inimigo, consome 1% da Vida atual de todos os membros da equipe.",
+      "7": "Aumenta o Dano do Ataque Normal (não incluindo \"Arkhe: Trono Sagrado e Secular\"), Carregado ou Imersivo que atingir o chão em mais 25% da Vida Máxima de Furina. Quando esse ataque atingir um inimigo, consome 1% da Vida atual de todos os membros da equipe.",
       "8": "<br/>",
-      "9": "Na duração de \"Centro das Atenções\", esse efeito pode ser desencadeado até 7 vezes. O efeito será removido quando for ativado 7 vezes ou sua duração acabar."
+      "9": "Na duração de \"Centro das Atenções\", esse efeito pode ser desencadeado até 6 vezes. O efeito será removido quando for ativado 6 vezes ou sua duração acabar."
     }
   }
 }

@@ -397,6 +397,14 @@
       "1": "Cette précieuse récompense peut être débloquée lors de l'événement « Les aventures fantastiques de Thelxie »."
     }
   },
+  "TheaterTickets": {
+    "name": "",
+    "description": {}
+  },
+  "FilmForFun": {
+    "name": "",
+    "description": {}
+  },
   "Primogem": {
     "name": "Primo-gemme",
     "description": {
@@ -1032,6 +1040,14 @@
     "name": "Furina",
     "description": {}
   },
+  "Chevreuse": {
+    "name": "Chevreuse",
+    "description": {}
+  },
+  "Navia": {
+    "name": "Navia",
+    "description": {}
+  },
   "KamisatoAyakasStellaFortuna": {
     "name": "Stella Fortuna de Kamisato Ayaka.",
     "description": {
@@ -1486,6 +1502,18 @@
     "name": "Stella Fortuna de Furina",
     "description": {
       "0": "Matériau d'activation de la constellation de Furina."
+    }
+  },
+  "ChevreusesStellaFortuna": {
+    "name": "Stella Fortuna de Chevreuse",
+    "description": {
+      "0": "Matériau d'activation de la constellation de Chevreuse."
+    }
+  },
+  "NaviasStellaFortuna": {
+    "name": "Stella Fortuna de Navia",
+    "description": {
+      "0": "Matériau d'activation de la constellation de Navia."
     }
   },
   "GnosticHymnOldNotes": {
@@ -5559,6 +5587,14 @@
       "0": "Une vieille clé trouvée au fond du puits du Village de Konda. On dit que « là où il y a une clé, il y a une serrure à ouvrir ». Qui sait où se trouve la serrure de cette clé..."
     }
   },
+  "MaskOfMemories": {
+    "name": "",
+    "description": {
+      "0": "Hanachirusato, la prêtresse du sanctuaire, portait ce masque auparavant. Il est profondément taché.",
+      "1": "Les souvenirs qu'il contient permettent d'apprendre à fabriquer le catalyseur connu sous le nom d'« Anneau des Hakushin ».",
+      "2": "Maintenant que Hanachirusato n'a plus ce masque, Paimon ne pourra plus l'appeler « prêtresse masquée »..."
+    }
+  },
   "TheVioletOnisBlade": {
     "name": "Épée de l'Oni violine",
     "description": {
@@ -6057,7 +6093,9 @@
   },
   "SecretNotes": {
     "name": "Notes secrètes",
-    "description": {}
+    "description": {
+      "0": "心海写的日记（test）"
+    }
   },
   "HighQualityRice": {
     "name": "Riz de qualité",
@@ -6555,7 +6593,7 @@
   "LakelightLily": {
     "name": "Lys lacmineux",
     "description": {
-      "0": "Une fleur pâle, claire et pure qui pousse là où des veines d'eau se rejoignent. Elle possède un parfum frais et élégant, à la fois vif et doux."
+      "0": "Une fleur bleue, claire et pure qui pousse là où des veines d'eau se rejoignent. Elle possède un parfum frais et élégant, à la fois vif et doux."
     }
   },
   "SubdetectionUnit": {
@@ -6567,7 +6605,7 @@
   "SpringOfTheFirstDewdrop": {
     "name": "Source des premières rosées",
     "description": {
-      "0": "Une goutte de rosée limpide flottant dans les eaux de la Région mortaine. Elle est différente des autres corps d'eau pure, car il semblerait qu'il s'agisse d'un regroupement d'énergie élémentaire encore plus pure et primordiale."
+      "0": "Une goutte de rosée limpide flottant dans les eaux de la Région mortée. Elle est différente des autres corps d'eau pure, car il semblerait qu'il s'agisse d'un regroupement d'énergie élémentaire encore plus pure et primordiale."
     }
   },
   "BirchWood": {
@@ -13776,19 +13814,19 @@
     }
   },
   "SuspiciousLaLettreAFocalors": {
-    "name": "Opéra (suspect)",
+    "name": "La lettre à Foçalors (suspecte)",
     "description": {
       "0": "Un petit gâteau en forme de long rectangle. Le goût de chaque couche est plus ou moins le même, et... Mais attendez une minute, il manque même des couches ! Les connaisseurs verront que la pâtisserie s'est sérieusement ratée dès la première bouchée..."
     }
   },
   "LaLettreAFocalors": {
-    "name": "Opéra",
+    "name": "La lettre à Foçalors",
     "description": {
       "0": "Un petit gâteau en forme de long rectangle. On raconte qu'il y a très, très longtemps, un certain pâtissier s'est inspiré du grand amour des Fontainois envers leur Archon Hydro pour créer ce chef-d'œuvre sucré. Les multiples couches empilées les unes sur les autres constituent un véritable test des talents d'un chef et chaque aspect de ce gâteau est la preuve de l'influence du grand Archon Hydro."
     }
   },
   "DeliciousLaLettreAFocalors": {
-    "name": "Opéra (délicieux)",
+    "name": "La lettre à Foçalors (délicieuse)",
     "description": {
       "0": "Un petit gâteau en forme de long rectangle. L'arôme infiniment gourmand du café et des amandes vous attire et fait danser vos pensées, comme si vous tombiez dans un opéra extravagant sans même vous en rendre compte. Au milieu des rebondissements de cette performance raffinée, vous n'avez qu'un espoir : que son dénouement n'arrive jamais..."
     }
@@ -13808,13 +13846,13 @@
   "DeliciousBlubberProfiterole": {
     "name": "Boudi-profiteroles (délicieuses)",
     "description": {
-      "0": "Un dessert fourré à la crème. Une fois que le premier morceau a passé vos lèvres, vous ne pouvez tout simplement pas vous empêcher d'enfourner le reste ! Même les restes de crème aux coins de votre bouche suffisent à inonder votre cœur de bonheur et de satisfaction. Si seulement chaque repas pouvait être suivi d'une telle perfection sucrée... Ah ! Comme cette vie aventureuse serait merveilleuse !"
+      "0": "Un dessert fourré à la crème. Une fois que le premier morceau a passé vos lèvres, vous ne pouvez tout simplement pas vous empêcher d'enfourner le reste ! Même les restes de crème aux coins de votre bouche suffisent à inonder votre cœur de bonheur et de satisfaction. Si seulement chaque repas pouvait être suivi d'une telle perfection sucrée... Ah ! Comme cette vie aventureuse serait merveilleuse !"
     }
   },
   "PourLaJustice": {
-    "name": "Proustis",
+    "name": "« Pour la justice »",
     "description": {
-      "0": "Spécialité culinaire de Furina. « Proustis » signifie « vénération de la justice » à Fontaine, et celle qui se produisait autrefois sur les plus grandes scènes a été témoin de la naissance d'une justice sublime. Ses saveurs en couches semblent aller et venir comme les vagues de la mer, avant de finalement s'attarder comme si elles déposaient un lourd fardeau. Peut-être que cela reflète quelque chose que Furina a personnellement vécu ?"
+      "0": "Spécialité culinaire de Furina. « Pour la justice » signifie « vénération de la justice » à Fontaine, et celle qui se produisait autrefois sur les plus grandes scènes a été témoin de la naissance d'une justice sublime. Ses saveurs en couches semblent aller et venir comme les vagues de la mer, avant de finalement s'attarder comme si elles déposaient un lourd fardeau. Peut-être que cela reflète quelque chose que Furina a personnellement vécu ?"
     }
   },
   "ExclusiveScoopGourmetColumn": {
@@ -13822,6 +13860,38 @@
     "description": {
       "0": "Spécialité culinaire de Charlotte. Elle garde toujours cet encas à portée de mains dans sa quête incessante de scoops exclusifs. Alors qu'elle croque dans le poisson frit, elle regarde de côté et le rythme joyeux de ses pas s'enchaîne et chevauche lentement le craquèlement de la panure croustillante dans sa bouche... Bien que son dernier scoop ne soit pas encore prêt à être imprimé, la joie et le contentement dans son cœur ont déjà atteint leur apogée."
     }
+  },
+  "SuspiciousFeastOs": {
+    "name": "Rondélice (suspect)",
+    "description": {}
+  },
+  "FeastOs": {
+    "name": "Rondélice",
+    "description": {}
+  },
+  "DeliciousFeastOs": {
+    "name": "Rondélice (délicieux)",
+    "description": {}
+  },
+  "SuspiciousRainbowMacarons": {
+    "name": "Macarons arc-en-ciel (suspects)",
+    "description": {}
+  },
+  "RainbowMacarons": {
+    "name": "Macarons arc-en-ciel",
+    "description": {}
+  },
+  "DeliciousRainbowMacarons": {
+    "name": "Macarons arc-en-ciel (délicieux)",
+    "description": {}
+  },
+  "SinTheKindThatDoesntNeedToBeDealtWith": {
+    "name": "",
+    "description": {}
+  },
+  "PickWhatYouLike": {
+    "name": "",
+    "description": {}
   },
   "RecipeItem": {
     "name": "Ingrédient",
@@ -14516,7 +14586,7 @@
   "RecipePitaPocket": {
     "name": "Recette : Snack pita",
     "description": {
-      "0": "Une recette de snack pita rédigée à la main avec des astuces de préparation détaillées en petites lettres. L'écriture est tremblotante à certains passages, sans doute car l'autrice n'était pas dans les bonnes conditions pour la rédaction. Ceci dit, chaque mot a été soigneusement écrit.",
+      "0": "Une recette de snack pita rédigée à la main avec des astuces de préparation détaillées en petites lettres. L'écriture est tremblotante à certains passages, sans doute car l'auteure n'était pas dans les bonnes conditions pour la rédaction. Ceci dit, chaque mot a été soigneusement écrit.",
       "1": "Si vous apprenez cette recette, n'oubliez pas de déguster le plat en sa compagnie la prochaine fois que vous vous rendrez à Gandharva."
     }
   },
@@ -14863,15 +14933,27 @@
     }
   },
   "RecipeLaLettreAFocalors": {
-    "name": "Recette : Opéra",
+    "name": "Recette : La lettre à Foçalors",
     "description": {
-      "0": "Étapes de préparation de l'opéra."
+      "0": "Étapes de préparation de la lettre à Foçalors."
     }
   },
   "RecipeBlubberProfiterole": {
     "name": "Recette : Boudi-profiteroles",
     "description": {
       "0": "Étapes de préparation des boudi-profiteroles."
+    }
+  },
+  "RecipeFeastOs": {
+    "name": "Recette : Rondélice",
+    "description": {
+      "0": "Étapes de préparation du rondélice."
+    }
+  },
+  "RecipeRainbowMacarons": {
+    "name": "Recette : Macarons arc-en-ciel",
+    "description": {
+      "0": "Étapes de préparation des macarons arc-en-ciel."
     }
   },
   "CraftedItems": {
@@ -16175,6 +16257,28 @@
     "description": {
       "0": "La section émettant de l'électricité de l'Hippocampe perlé millénaire, symbole de sa puissance supérieure, cassée lors d'un affrontement contre un puissant adversaire.",
       "1": "En tant que plus grand prédateur descendant des hippocampes bulleux, le parcours évolutif de l'Hippocampe perlé millénaire n'est pas le même que celui vécu par les autres Aberrants fontemarins : il n'a pas commencé à partir d'une forme de base avant de devenir plus grand et plus fort, mais a plutôt développé des membres et des cornes qui n'ont pas leur place sur un hippocampe ordinaire, et même sa musculature et son squelette ont changé. Il ressemble maintenant davantage à une bête fantastique des légendes d'autrefois qu'à sa forme d'origine. Dans l'imaginaire des poètes et des auteurs, même les hippocampes peuvent gambader sur la terre."
+    }
+  },
+  "LightlessSilkString": {
+    "name": "Ficelle de soie sans lumière",
+    "description": {
+      "0": "Un fil mince qui a fini par s'enrouler autour de votre arme alors que vous combattiez le Narval stellavore.",
+      "1": "Dans l'ancienne Fontaine, certains pensaient que Fortuna, qui dirigeait le monde, était tissée à partir d'innombrables fibres, comme les cordes d'une harpe. Des cordes qui résonnent avec de la musique majestueuse apporteraient le bonheur à tous, tandis que tout bruit de discorde détruirait la structure de l'univers."
+    }
+  },
+  "LightlessEyeOfTheMaelstrom": {
+    "name": "Œil de tourbillon sans lumière",
+    "description": {
+      "0": "Une étrange substance obtenue en combattant le Narval stellavore. Sa qualité réelle dépasse de loin ce à quoi on pourrait s'attendre compte tenu de sa taille.",
+      "1": "Tout gravite autour des objets lourds... L'or attire plus que le fer, et le sol plus que la brise qui souffle au-dessus. Tout comme la lumière ne peut s'échapper du vortex des ténèbres, la cause et l'effet sont liés au destin, peut-être même de manière irréversible."
+    }
+  },
+  "LightlessMass": {
+    "name": "Masse sans lumière",
+    "description": {
+      "0": "Un fragment produit lors de l'intense bataille contre le Narval stellavore.",
+      "1": "L'univers est un endroit sombre et froid.",
+      "2": "Mais regardez attentivement... À l'intérieur se trouvent toujours de faibles éclats de lumière, comme des perles qui brillent dans le sable blanc, des diamants qui s'éparpillent dans l'azur infini, des lumières qui traversent le brouillard nocturne ou des étincelles qui crépitent dans les flammes ardentes."
     }
   },
   "WaterThatFailedToTranscend": {
@@ -17831,9 +17935,7 @@
   },
   "EventNotice": {
     "name": "Annonce d'événement",
-    "description": {
-      "0": "？？？"
-    }
+    "description": {}
   },
   "HaniyyahsNotesFirstPart": {
     "name": "Notes d'Haniyyah (1)",
@@ -17904,9 +18006,7 @@
   },
   "TheIsleOfDarklingClouds": {
     "name": "« L'île aux nuages sombres »",
-    "description": {
-      "0": "？？？"
-    }
+    "description": {}
   },
   "BoxfulOfHomelandSoil": {
     "name": "Boîte pleine de terre du pays",
@@ -18595,12 +18695,6 @@
       "0": "Une invention du Kshahrewar. Lorsqu'un concurrent porte un dispositif de localisation, le localisateur permet d'afficher son emplacement général. De plus, si un concurrent complète sa tâche, le localisateur retentit."
     }
   },
-  "Test": {
-    "name": "(test)???",
-    "description": {
-      "0": "(test)???"
-    }
-  },
   "FoodSeeds": {
     "name": "Graines de nourriture",
     "description": {
@@ -18887,69 +18981,47 @@
   },
   "OldCaseFiles": {
     "name": "Ancien dossier d'affaire",
-    "description": {
-      "0": "？？？"
-    }
+    "description": {}
   },
   "TestimonyFromJacquesFamily": {
     "name": "Témoignage de la famille de Jacques",
-    "description": {
-      "0": "？？？"
-    }
+    "description": {}
   },
   "FlorentsStatement": {
     "name": "Déclaration de Florent",
-    "description": {
-      "0": "？？？"
-    }
+    "description": {}
   },
   "ThierrysStatement": {
     "name": "Déclaration de Thierry",
-    "description": {
-      "0": "？？？"
-    }
+    "description": {}
   },
   "MarcelsStatement": {
     "name": "Déclaration de Marcel",
-    "description": {
-      "0": "？？？"
-    }
+    "description": {}
   },
   "SuspectAnalysis": {
     "name": "Analyse du suspect",
-    "description": {
-      "0": "？？？"
-    }
+    "description": {}
   },
   "PrimordialSeawaterPool": {
     "name": "Bassin d'eau de mer primordiale",
-    "description": {
-      "0": "？？？"
-    }
+    "description": {}
   },
   "Sinthe": {
     "name": "Sinthe",
-    "description": {
-      "0": "？？？"
-    }
+    "description": {}
   },
   "MissingPersonsPossessions": {
     "name": "Biens de la personne disparue",
-    "description": {
-      "0": "？？？"
-    }
+    "description": {}
   },
   "VachersExperimentReport": {
     "name": "Rapport d'expérience de Vacher",
-    "description": {
-      "0": "？？？"
-    }
+    "description": {}
   },
   "LettersRelatedToCallasCase": {
     "name": "Lettre relative à l'affaire de Callas",
-    "description": {
-      "0": "？？？"
-    }
+    "description": {}
   },
   "VigneiresNotebook": {
     "name": "Calepin de Vigneire",
@@ -19036,53 +19108,71 @@
   "TheFallOfTheFadedCastleI": {
     "name": "L'effondrement du château fané - Tome I",
     "description": {
-      "0": "？？？"
+      "0": "Un poème composé par un auteur inconnu. Le style d'écriture semble dégager une aura étrange et inquiétante..."
     }
   },
   "TheFallOfTheFadedCastleII": {
     "name": "L'effondrement du château fané - Tome II",
     "description": {
-      "0": "？？？"
+      "0": "Un poème composé par un auteur inconnu. Le style d'écriture semble dégager une aura étrange et inquiétante..."
     }
   },
   "TheFallOfTheFadedCastleIII": {
     "name": "L'effondrement du château fané - Tome III",
     "description": {
-      "0": "？？？"
+      "0": "Un poème composé par un auteur inconnu. Le style d'écriture semble dégager une aura étrange et inquiétante..."
     }
   },
   "LaChansonDErinnyesI": {
     "name": "La chanson d'Erinnyes - Tome I",
     "description": {
-      "0": "？？？"
+      "0": "Comment l'émissaire du roi Remus est-il venu auprès d'Erinnyes pour lui demander un cadeau d'eau et de terre du Château d'Arémori ? Comment lui a-t-il demandé de se soumettre à la Sumphonia Capitolii, ou « mélodie harmonieuse éternelle » ?"
     }
   },
   "LaChansonDErinnyesII": {
     "name": "La chanson d'Erinnyes - Tome II",
     "description": {
-      "0": "？？？"
+      "0": "Comment les chevaliers de chaque région se sont-ils unis pour prêter leur force à Erinnyes, en opposition aux desseins d'invasion des Capitoliens ?"
     }
   },
   "LaChansonDErinnyesIII": {
     "name": "La chanson d'Erinnyes - Tome III",
     "description": {
-      "0": "？？？"
+      "0": "Comment Erinnyes a-t-elle fait ses adieux à la maîtresse de toutes les eaux ? Comment a-t-elle jeté son épée dans le lac à trois reprises ?"
     }
   },
   "TalesOfASnowWingedGooseI": {
     "name": "Conte d'une oie aux ailes enneigées - Tome I",
     "description": {
-      "0": "？？？"
+      "0": "Un court conte de fées très populaire à Fontaine. De nombreux enfants, après avoir vu la couverture superbement dessinée, pensent qu'il a réellement été écrit par la gentille oie aux ailes enneigées de la légende."
     }
   },
   "TalesOfASnowWingedGooseII": {
     "name": "Conte d'une oie aux ailes enneigées - Tome II",
     "description": {
-      "0": "？？？"
+      "0": "Un court conte de fées très populaire à Fontaine. De nombreux enfants, après avoir vu la couverture superbement dessinée, pensent qu'il a réellement été écrit par la gentille oie aux ailes enneigées de la légende."
     }
   },
   "TalesOfASnowWingedGooseIII": {
     "name": "Conte d'une oie aux ailes enneigées - Tome III",
+    "description": {
+      "0": "Un court conte de fées très populaire à Fontaine. De nombreux enfants, après avoir vu la couverture superbement dessinée, pensent qu'il a réellement été écrit par la gentille oie aux ailes enneigées de la légende."
+    }
+  },
+  "TheTwoMusketeersI": {
+    "name": "Les deux mousquetaires - Tome I",
+    "description": {
+      "0": "？？？"
+    }
+  },
+  "TheTwoMusketeersII": {
+    "name": "Les deux mousquetaires - Tome II",
+    "description": {
+      "0": "？？？"
+    }
+  },
+  "TheTwoMusketeersIII": {
+    "name": "Les deux mousquetaires - Tome III",
     "description": {
       "0": "？？？"
     }
@@ -19466,6 +19556,10 @@
     "name": "Autre mystérieuse lettre de menace",
     "description": {}
   },
+  "KevinsLetter": {
+    "name": "Lettre de Kevin",
+    "description": {}
+  },
   "MessilyWrittenLetter": {
     "name": "Lettre écrite de manière désordonnée",
     "description": {}
@@ -19481,7 +19575,7 @@
     }
   },
   "LetterToTheEditorinChiefDraft": {
-    "name": "Lettre à la rédactrice en chef (brouillon)",
+    "name": "Lettre au rédacteur en chef (brouillon)",
     "description": {}
   },
   "Disclaimer": {
@@ -19596,10 +19690,10 @@
       "0": "Le jeton de Puca, qu'elle a perdu au fond de la mine. Dépêchez-vous de le lui rendre !"
     }
   },
-  "TolochardsInvestigationNotes": {
-    "name": "Notes d'enquête de Tolochard",
+  "TalochardsInvestigationNotes": {
+    "name": "Notes d'enquête de Talochard",
     "description": {
-      "0": "Ces notes d'enquête partagées par Tolochard contiennent des informations sur la disparition de monsieur Arthur."
+      "0": "Ces notes d'enquête partagées par Talochard contiennent des informations sur la disparition de monsieur Arthur."
     }
   },
   "AStory": {
@@ -19612,6 +19706,18 @@
       "0": "Un volant commun, utilisé pour régler les valves de régulation sur les tuyaux autour de la Forteresse de Méropide."
     }
   },
+  "MaterialForThelxiesWeapon": {
+    "name": "Matériau pour l'arme de Thelxie",
+    "description": {
+      "0": "Une babiole colorée récupérée dans l'eau, qui peut être utilisée pour fabriquer l'arme de Thelxie."
+    }
+  },
+  "MaterialForThelxiesCrown": {
+    "name": "Matériau pour la couronne de Thelxie",
+    "description": {
+      "0": "Une babiole colorée récupérée dans l'eau, qui peut être utilisée pour fabriquer la couronne de Thelxie."
+    }
+  },
   "EnergyConcentratingComponent": {
     "name": "Composant à concentration d'énergie",
     "description": {
@@ -19619,7 +19725,7 @@
       "1": "Peut-être que ce seul composant est capable d'alimenter toute une machine..."
     }
   },
-  "34thIndependentInvestigativeSquadDeploymentInMontEsusEasternQuadrantDeploymentPlan": {
+  "34thIndependentReconnaissanceSquadDeploymentInMontEsusEasternQuadrantDeploymentPlan": {
     "name": "Plan de déploiement de la 34e équipe d'enquête indépendante du pied est du Mont Esus",
     "description": {}
   },
@@ -19627,9 +19733,15 @@
     "name": "Notes d'un tirailleur",
     "description": {}
   },
-  "34thIndependentInvestigativeSquadDeploymentInMontEsusEasternQuadrantDisplinaryProcedures": {
+  "34thIndependentReconnaissanceSquadDeploymentInMontEsusEasternQuadrantDisciplinaryProcedures": {
     "name": "Code disciplinaire de la 34e équipe d'enquête indépendante du pied est du Mont Esus",
     "description": {}
+  },
+  "TravelersExclusiveInterviewHandbook": {
+    "name": "Carnet d'interview exclusive {M#du voyageur}{F#de la voyageuse}",
+    "description": {
+      "0": "Une transcription de l'interview exclusive que la célèbre journaliste de L'Oiseau de vapeur, Charlotte, a eue avec {M#le voyageur aux cheveux dorés venu}{F#la voyageuse aux cheveux dorés venue} de loin. Après diverses réorganisations et révisions des informations à l'intérieur, ce papier peut désormais être utilisé pour bien plus de choses que simplement « être publié dans un journal »."
+    }
   },
   "PoemOnFallenLeaf": {
     "name": "Poème sur une feuille tombée",
@@ -19689,16 +19801,16 @@
       "0": "Une bouteille transparente avec une note contenant les actes d'une personne appelée Liam et un étrange dessin au dos."
     }
   },
-  "RogerAversonsDisappearance": {
-    "name": "Disparition de Roger Averson",
+  "RockyAvildsensDisappearance": {
+    "name": "Disparition de Rocky Avildsen",
     "description": {
-      "0": "Une bouteille transparente avec une note contenant les actes d'une personne appelée Roger Averson et un étrange dessin au dos."
+      "0": "Une bouteille transparente avec une note contenant les actes d'une personne appelée Rocky Avildsen et un étrange dessin au dos."
     }
   },
-  "AtossConfession": {
-    "name": "Confession d'Atos",
+  "AthossConfession": {
+    "name": "Confession d'Athos",
     "description": {
-      "0": "Une bouteille transparente avec une note contenant les actes d'une personne appelée Atos et un étrange dessin au dos."
+      "0": "Une bouteille transparente avec une note contenant les actes d'une personne appelée Athos et un étrange dessin au dos."
     }
   },
   "ParkersHopes": {
@@ -19714,15 +19826,15 @@
     }
   },
   "AutumnsRegrets": {
-    "name": "Regrets de Qiu",
+    "name": "Regrets d'Automne",
     "description": {
-      "0": "Une bouteille transparente avec une note contenant les actes d'une personne appelée Qiu et un étrange dessin au dos."
+      "0": "Une bouteille transparente avec une note contenant les actes d'une personne appelée Automne et un étrange dessin au dos."
     }
   },
-  "RougetsWritings": {
-    "name": "Écrits de Rouget",
+  "RougesWritings": {
+    "name": "Écrits de Rouge",
     "description": {
-      "0": "Une bouteille transparente avec une note contenant les actes d'une personne appelée Rouget et un étrange dessin au dos."
+      "0": "Une bouteille transparente avec une note contenant les actes d'une personne appelée Rouge et un étrange dessin au dos."
     }
   },
   "FreemansAnnouncement": {
@@ -19925,6 +20037,13 @@
       "0": "Une lettre, placée entre deux fruits bullés."
     }
   },
+  "ThelxiesFantasticAdventures": {
+    "name": "Les aventures fantastiques de Thelxie",
+    "description": {
+      "0": "Ce livre fantastique pour enfants de seulement 3 pages raconte l'histoire d'un prince qui surmonte la solitude.",
+      "1": "Il y est écrit « Pour tous ceux qui se trouvent dans une situation difficile » en petits caractères sur la couverture arrière."
+    }
+  },
   "LocationNo1Materials": {
     "name": "Documents du 1er emplacement",
     "description": {
@@ -19944,9 +20063,15 @@
     }
   },
   "IridescentGlory": {
-    "name": "Gloire arc-en-ciel",
+    "name": "Gloire iridescente",
     "description": {
-      "0": "？？？"
+      "0": "Ces coquillages et coraux de teintes et couleurs différentes sont considérés comme le plus grand trésor des Diableautins, et la raison même pour laquelle ils ont construit l'étincelant pont arc-en-ciel dans le Royaume des Diableautins..."
+    }
+  },
+  "AureliesNotesI": {
+    "name": "Notes d'Aurélie I",
+    "description": {
+      "0": "Notes d'Aurélie I"
     }
   },
   "MarvelousJellyImprovedFontaineEdition": {
@@ -19981,6 +20106,18 @@
       "1": "Elle semble s'être arrêtée à un certain moment, le beau souvenir de cet instant devenant alors éternel."
     }
   },
+  "AureliesNotesII": {
+    "name": "Notes d'Aurélie II",
+    "description": {
+      "0": "Notes d'Aurélie II"
+    }
+  },
+  "ANewLifesBeginning": {
+    "name": "« Départ d'une nouvelle vie »",
+    "description": {
+      "0": "Une carte de sortie délivrée par la Forteresse de Méropide. Ce n'est qu'un morceau de papier, mais on lui a donné un nom très encourageant."
+    }
+  },
   "RootCycle": {
     "name": "Cycle racinaire",
     "description": {
@@ -20007,9 +20144,9 @@
     }
   },
   "FoggyForestBranch": {
-    "name": "Branche de la Forêt brumeuse",
+    "name": "Branche brumeuse",
     "description": {
-      "0": "Cette branche qui scintille d'une lumière turquoise semble avoir une sorte de lien mystérieux avec la Forêt brumeuse.",
+      "0": "Cette branche qui scintille d'une lumière turquoise semble avoir une sorte de lien mystérieux avec le Chemin forestier brumeux.",
       "1": "En y regardant de plus près, il semble que quelque chose coule à l'intérieur..."
     }
   },
@@ -20074,6 +20211,56 @@
     "name": "Petite clé",
     "description": {
       "0": "Une petite clé qui peut même servir de marque-page. Pourquoi n'a-t-elle pas été confisquée ? Et pourquoi une si petite clé ouvre-t-elle une porte si importante ?"
+    }
+  },
+  "Notes": {
+    "name": "Carnet",
+    "description": {}
+  },
+  "Description": {
+    "name": "Présentation",
+    "description": {}
+  },
+  "Storybook": {
+    "name": "Livre d'histoires",
+    "description": {}
+  },
+  "Certificate": {
+    "name": "Certificat",
+    "description": {}
+  },
+  "InvestigationLog": {
+    "name": "Journal d'enquête",
+    "description": {}
+  },
+  "Excerpt": {
+    "name": "Extrait",
+    "description": {}
+  },
+  "Log": {
+    "name": "Journal",
+    "description": {}
+  },
+  "ShootingPracticeOpticalLenses": {
+    "name": "",
+    "description": {}
+  },
+  "TearsAmongTheStars": {
+    "name": "Larme parmi les étoiles",
+    "description": {
+      "0": "Une goutte d'eau obtenue à l'intérieur de la bête colossale qui convoitait la mer primordiale de la vie.",
+      "1": "<br/>",
+      "2": "Un philosophe d'un monde ancien et lointain a dit un jour que là où il y a la vie, il y a la mort ; et naturellement, là où est la mort, il y a la vie.",
+      "3": "Dans le cas contraire, la lumière éphémère ne pourra pas résister aux ténèbres éternelles, et tout dépérira dans le néant à la fin des temps.",
+      "4": "Les règles des étoiles dictent que les lois de l'univers et la nature doivent être conservées, mais les lois de l'univers ne l'ont jamais été.",
+      "5": "Dans une boîte scellée, la destruction l'emporte toujours sur la nouvelle vie. Des millénaires de prospérité ne sont qu'un instant dans des milliards d'années. Les plus grandes réalisations, les prouesses les plus glorieuses, avec le temps, se terniront toutes avant de se détériorer, de se dissiper et de finalement sombrer dans l'oubli.",
+      "6": "Ainsi, il y a des choses qui flottent parmi les étoiles, autrefois ornées d'innombrables titres prestigieux provenant d'innumérables civilisations, versant des larmes pour leur disparition ordonnée.",
+      "7": "Leurs larmes coulent, par désespoir et par espoir, car tout désespoir et tout espoir seront complètement éteints avec les indénombrables étoiles.",
+      "8": "Leurs larmes coulent, de chagrin et de joie, car tout chagrin et toute joie seront complètement dispersés dans le vide froid et sombre sans fin.",
+      "9": "Chaque petite mais belle silhouette et chaque moment digne d'être rappelé disparaîtront avec le temps, et même les étoiles ne feront exception.",
+      "10": "Ainsi, il y a ces soi-disant « divinités » qui sont déterminées à sauver tout ce qui mérite de l'être et à dévorer tout ce qui devrait l'être...",
+      "11": "Jusqu'à la fin des temps, jusqu'à ce que la mer d'étoiles ne se replie que dans des braises froides, jusqu'à ce qu'un « monde » nouveau-né bouge pour la première fois dans l'estomac de la baleine...",
+      "12": "« Il n'y aura plus de péchés, plus de tristesse et plus de larmes, car tout aura péri avec les anciennes étoiles. »"
     }
   },
   "SilkFlowerSeed": {
@@ -20518,9 +20705,9 @@
   "MaintenanceMekGoldLeader": {
     "name": "Mek de maintenance : Meneur doré",
     "description": {
-      "0": "Un méka compact développé pour assister lors des activités sous-marines, permettant ainsi d'améliorer le taux d'utilisation des Mékas horlogoïdes. Ils ont été conçus à l'origine pour enlever les déchets, la végétation et les débris sous-marins afin d'éviter qu'ils n'obstruent les composants vitaux d'autres mékas, minimisant ainsi les défaillances. De plus, leur rôle de « nettoyeurs sous-marins » est également bénéfique à l'écosystème de Fontaine.",
-      "1": "Par rapport aux autres modèles produits en série, ces meks de maintenance « Collecteurs de platine » en édition limitée se distinguent par leur apparence claire aux teintes dorées et leur équipement de contrôle spécial. L'équipe de développement les a conçus pour servir de « stations relais de commande » dans des environnements sous-marins particulièrement complexes, recevant et transmettant les directives du contrôleur à tous les autres meks de maintenance à proximité, ce qui les aurait rendus aussi importants que des « leaders ».",
-      "2": "Cependant, lorsque l'ensemble du projet des meks de maintenance a cessé, ces « mékas leaders » ont perdu leur raison d'exister. Seule leur coque dorée, très reconnaissable, leur donne de la valeur aux yeux des pêcheurs qui les collectionnent."
+      "0": "Un méka compact développé pour assister lors des activités sous-marines, permettant ainsi d'améliorer le taux d'utilisation des Mékas horlogoïdes. Ils ont été conçus à l'origine pour enlever les déchets, la végétation et les débris sous-marins afin d'éviter qu'ils n'obstruent les composants vitaux d'autres mékas, minimisant ainsi les défaillances. De plus, leur rôle de « nettoyeurs sous-marins » est également bénéfique à l'écosystème de Fontaine.",
+      "1": "Par rapport aux autres modèles produits en série, ces meks de maintenance « Meneurs dorés » en édition limitée se distinguent par leur apparence claire aux teintes dorées et leur équipement de contrôle spécial. L'équipe de développement les a conçus pour servir de « stations relais de commande » dans des environnements sous-marins particulièrement complexes, recevant et transmettant les directives du contrôleur à tous les autres meks de maintenance à proximité, ce qui les aurait rendus aussi importants que des meneurs.",
+      "2": "Cependant, lorsque l'ensemble du projet des meks de maintenance a cessé, ces « mékas meneurs » ont perdu leur raison d'exister. Seule leur coque dorée, très reconnaissable, leur donne de la valeur aux yeux des pêcheurs qui les collectionnent."
     }
   },
   "WingsOfFirstFlight": {
@@ -21764,13 +21951,13 @@
   "CoalescedDefenses": {
     "name": "Cicatrisation",
     "description": {
-      "0": "Les personnages sous la protection d'un bouclier bénéficient d'un bonus de soins reçus de 40 %."
+      "0": "Les personnages sous la protection d'un bouclier obtiennent un bonus de soins reçus de 40 %."
     }
   },
   "EnhancedHealing": {
     "name": "Guérison améliorée",
     "description": {
-      "0": "Augmente le bonus de soins reçus de tous les personnages de l'équipe de 25 %."
+      "0": "Le bonus de soins de tous les personnages de l'équipe augmente de 25 %."
     }
   },
   "Execution": {
@@ -23041,7 +23228,7 @@
     "name": "Fontaine - Technologie",
     "description": {
       "0": "Thème.",
-      "1": "Le symbole des modules d'énergie utilisés par tous les Mékas horlogoïdes de Fontaine. Il y avait autrefois un grand débat sur la nécessité de l'enregistrer en tant que marque, mais au final, le public a été urgé de ne pas l'utiliser trop librement."
+      "1": "Le symbole des modules d'énergie utilisés par tous les Mékas horlogoïdes de Fontaine. Il y avait autrefois un grand débat sur la nécessité de l'enregistrer en tant que marque, mais au final, le public a été exhorté de ne pas l'utiliser trop librement."
     }
   },
   "FontaineBigNews": {
@@ -23098,6 +23285,20 @@
     "description": {
       "0": "Thème.",
       "1": "Le logo officiel de la Forteresse de Méropide. C'est notre espoir le plus cher que tous ceux qui souhaitent honorer l'ordre et vivre leur vie en paix ne soient jamais associés à l'organisation que représente cet insigne."
+    }
+  },
+  "FurinaBanquet": {
+    "name": "Furina - Banquet",
+    "description": {
+      "0": "Thème.",
+      "1": "Une seule personne peut-elle manger tous les gâteaux ? Si elle en mange un par jour, elle devrait pouvoir profiter de gâteaux pendant environ une semaine, n'est-ce pas ? Mais les gâteaux resteront-ils frais aussi longtemps ? Hmm... Eh bien, ce n'est pas grave, des amis viendront manger les gâteaux ensemble."
+    }
+  },
+  "CharlotteExclusive": {
+    "name": "Charlotte - Scoop",
+    "description": {
+      "0": "Thème.",
+      "1": "« Premièrement, j'ai écrit un scoop et ça va sûrement faire beaucoup de bruit ! Deuxièmement, le journal a dit que la situation évoluait et ils ont décidé de publier un communiqué de presse... Troisièmement, la personne qui rédige le communiqué sera demain sur le banc des accusés de l'Opéra Épiclèse, alors ils ont décidé de revenir à mon article ! »"
     }
   },
   "FontaineCompleteness": {
@@ -23695,6 +23896,10 @@
       "0": "Un Daguerréotype spécialement modifié par Lépine-Pauline pour le domaine compliqué de la confrontation graphique. On ne sait pas exactement quels types de composants complexes et coûteux sont installés à l'intérieur, mais l'appareil semble être capable de capturer la structure, le profil et la coloration du sujet photographié..."
     }
   },
+  "MiniSeelieBrilliance": {
+    "name": "",
+    "description": {}
+  },
   "InstructionsAnemoculusResonanceStone": {
     "name": "Instructions : Pierre de résonance Anémoculus",
     "description": {
@@ -23795,14 +24000,6 @@
     "name": "Plan : Fiole exothermique",
     "description": {
       "0": "Plan détaillé pour la fabrication d'une Fiole exothermique. Une fois maîtrisé, il vous permettra de créer un outil vous autorisant à résister au Grand froid."
-    }
-  },
-  "MaskOfMemories": {
-    "name": "Masque des souvenirs",
-    "description": {
-      "0": "Hanachirusato, la prêtresse du sanctuaire, portait ce masque auparavant. Il est profondément taché.",
-      "1": "Les souvenirs qu'il contient permettent d'apprendre à fabriquer le catalyseur connu sous le nom d'« Anneau des Hakushin ».",
-      "2": "Maintenant que Hanachirusato n'a plus ce masque, Paimon ne pourra plus l'appeler « prêtresse masquée »..."
     }
   },
   "TaleOfTheForestKing": {
@@ -24138,6 +24335,36 @@
   },
   "ElectroHypostasis": {
     "name": "Hypostase Électro",
+    "description": {
+      "0": "Une carte pour le jeu de table, l'Invocation des Sept. Elle est résistante et une méthode d'impression spéciale a été utilisée pour son illustration, ce qui lui donne une apparence vraiment exquise."
+    }
+  },
+  "Signora": {
+    "name": "Signora",
+    "description": {
+      "0": "Une carte pour le jeu de table, l'Invocation des Sept. Elle est résistante et une méthode d'impression spéciale a été utilisée pour son illustration, ce qui lui donne une apparence vraiment exquise."
+    }
+  },
+  "Azhdaha": {
+    "name": "Azhdaha",
+    "description": {
+      "0": "Une carte pour le jeu de table, l'Invocation des Sept. Elle est résistante et une méthode d'impression spéciale a été utilisée pour son illustration, ce qui lui donne une apparence vraiment exquise."
+    }
+  },
+  "EremiteScorchingLoremaster": {
+    "name": "Lettrée incandescente des Érémites",
+    "description": {
+      "0": "Une carte pour le jeu de table, l'Invocation des Sept. Elle est résistante et une méthode d'impression spéciale a été utilisée pour son illustration, ce qui lui donne une apparence vraiment exquise."
+    }
+  },
+  "ThunderManifestation": {
+    "name": "Manifestation du tonnerre",
+    "description": {
+      "0": "Une carte pour le jeu de table, l'Invocation des Sept. Elle est résistante et une méthode d'impression spéciale a été utilisée pour son illustration, ce qui lui donne une apparence vraiment exquise."
+    }
+  },
+  "Dvalin": {
+    "name": "Dvalin",
     "description": {
       "0": "Une carte pour le jeu de table, l'Invocation des Sept. Elle est résistante et une méthode d'impression spéciale a été utilisée pour son illustration, ce qui lui donne une apparence vraiment exquise."
     }
@@ -24502,6 +24729,72 @@
       "0": "Une carte pour le jeu de table, l'Invocation des Sept. Elle est résistante et une méthode d'impression spéciale a été utilisée pour son illustration, ce qui lui donne une apparence vraiment exquise."
     }
   },
+  "LightsRemit": {
+    "name": "Hégémonie de lumière",
+    "description": {
+      "0": "Une carte pour le jeu de table, l'Invocation des Sept. Elle est résistante et une méthode d'impression spéciale a été utilisée pour son illustration, ce qui lui donne une apparence vraiment exquise."
+    }
+  },
+  "TurnControl": {
+    "name": "Contrôle stratégique",
+    "description": {
+      "0": "Une carte pour le jeu de table, l'Invocation des Sept. Elle est résistante et une méthode d'impression spéciale a été utilisée pour son illustration, ce qui lui donne une apparence vraiment exquise."
+    }
+  },
+  "ConclusiveOvation": {
+    "name": "Ovation concluante",
+    "description": {
+      "0": "Une carte pour le jeu de table, l'Invocation des Sept. Elle est résistante et une méthode d'impression spéciale a été utilisée pour son illustration, ce qui lui donne une apparence vraiment exquise."
+    }
+  },
+  "AColdBladeLikeAShadow": {
+    "name": "Lame d'ombre frisquette",
+    "description": {
+      "0": "Une carte pour le jeu de table, l'Invocation des Sept. Elle est résistante et une méthode d'impression spéciale a été utilisée pour son illustration, ce qui lui donne une apparence vraiment exquise."
+    }
+  },
+  "RushingHoundSwiftAsTheWind": {
+    "name": "Vivacité canine : Célérité du vent",
+    "description": {
+      "0": "Une carte pour le jeu de table, l'Invocation des Sept. Elle est résistante et une méthode d'impression spéciale a été utilisée pour son illustration, ce qui lui donne une apparence vraiment exquise."
+    }
+  },
+  "Structuration": {
+    "name": "Structuration",
+    "description": {
+      "0": "Une carte pour le jeu de table, l'Invocation des Sept. Elle est résistante et une méthode d'impression spéciale a été utilisée pour son illustration, ce qui lui donne une apparence vraiment exquise."
+    }
+  },
+  "PainForPain": {
+    "name": "",
+    "description": {
+      "0": "Une carte pour le jeu de table, l'Invocation des Sept. Elle est résistante et une méthode d'impression spéciale a été utilisée pour son illustration, ce qui lui donne une apparence vraiment exquise."
+    }
+  },
+  "Scorpocalypse": {
+    "name": "",
+    "description": {
+      "0": "Une carte pour le jeu de table, l'Invocation des Sept. Elle est résistante et une méthode d'impression spéciale a été utilisée pour son illustration, ce qui lui donne une apparence vraiment exquise."
+    }
+  },
+  "GrievingEcho": {
+    "name": "",
+    "description": {
+      "0": "Une carte pour le jeu de table, l'Invocation des Sept. Elle est résistante et une méthode d'impression spéciale a été utilisée pour son illustration, ce qui lui donne une apparence vraiment exquise."
+    }
+  },
+  "RendingVortex": {
+    "name": "",
+    "description": {
+      "0": "Une carte pour le jeu de table, l'Invocation des Sept. Elle est résistante et une méthode d'impression spéciale a été utilisée pour son illustration, ce qui lui donne une apparence vraiment exquise."
+    }
+  },
+  "LunarCyclesUnending": {
+    "name": "",
+    "description": {
+      "0": "Une carte pour le jeu de table, l'Invocation des Sept. Elle est résistante et une méthode d'impression spéciale a été utilisée pour son illustration, ce qui lui donne une apparence vraiment exquise."
+    }
+  },
   "MagicGuide": {
     "name": "Guide de magie",
     "description": {
@@ -24850,6 +25143,66 @@
       "0": "Une carte pour le jeu de table, l'Invocation des Sept. Elle est résistante et une méthode d'impression spéciale a été utilisée pour son illustration, ce qui lui donne une apparence vraiment exquise."
     }
   },
+  "LostPrayerToTheSacredWinds": {
+    "name": "L'origine des Quatre Vents",
+    "description": {
+      "0": "Une carte pour le jeu de table, l'Invocation des Sept. Elle est résistante et une méthode d'impression spéciale a été utilisée pour son illustration, ce qui lui donne une apparence vraiment exquise."
+    }
+  },
+  "TulaytullahsRemembrance": {
+    "name": "Mémoire de Tulaytullah",
+    "description": {
+      "0": "Une carte pour le jeu de table, l'Invocation des Sept. Elle est résistante et une méthode d'impression spéciale a été utilisée pour son illustration, ce qui lui donne une apparence vraiment exquise."
+    }
+  },
+  "BeaconOfTheReedSea": {
+    "name": "Balise de la mer de roseaux",
+    "description": {
+      "0": "Une carte pour le jeu de table, l'Invocation des Sept. Elle est résistante et une méthode d'impression spéciale a été utilisée pour son illustration, ce qui lui donne une apparence vraiment exquise."
+    }
+  },
+  "PrimordialJadeWingedSpear": {
+    "name": "Lance de jade ailée",
+    "description": {
+      "0": "Une carte pour le jeu de table, l'Invocation des Sept. Elle est résistante et une méthode d'impression spéciale a été utilisée pour son illustration, ce qui lui donne une apparence vraiment exquise."
+    }
+  },
+  "LightOfFoliarIncision": {
+    "name": "Lumière d'incision foliaire",
+    "description": {
+      "0": "Une carte pour le jeu de table, l'Invocation des Sept. Elle est résistante et une méthode d'impression spéciale a été utilisée pour son illustration, ce qui lui donne une apparence vraiment exquise."
+    }
+  },
+  "GildedDreams": {
+    "name": "Rêve doré",
+    "description": {
+      "0": "Une carte pour le jeu de table, l'Invocation des Sept. Elle est résistante et une méthode d'impression spéciale a été utilisée pour son illustration, ce qui lui donne une apparence vraiment exquise."
+    }
+  },
+  "FlowingRings": {
+    "name": "Anneaux de fluidité",
+    "description": {
+      "0": "Une carte pour le jeu de table, l'Invocation des Sept. Elle est résistante et une méthode d'impression spéciale a été utilisée pour son illustration, ce qui lui donne une apparence vraiment exquise."
+    }
+  },
+  "EchoesOfAnOffering": {
+    "name": "Échos d'une offrande",
+    "description": {
+      "0": "Une carte pour le jeu de table, l'Invocation des Sept. Elle est résistante et une méthode d'impression spéciale a été utilisée pour son illustration, ce qui lui donne une apparence vraiment exquise."
+    }
+  },
+  "HeartOfKhvarenasBrilliance": {
+    "name": "Cœur de la brillance de la khvarena",
+    "description": {
+      "0": "Une carte pour le jeu de table, l'Invocation des Sept. Elle est résistante et une méthode d'impression spéciale a été utilisée pour son illustration, ce qui lui donne une apparence vraiment exquise."
+    }
+  },
+  "VourukashasGlow": {
+    "name": "Lueur du vourukasha",
+    "description": {
+      "0": "Une carte pour le jeu de table, l'Invocation des Sept. Elle est résistante et une méthode d'impression spéciale a été utilisée pour son illustration, ce qui lui donne une apparence vraiment exquise."
+    }
+  },
   "LiyueHarborWharf": {
     "name": "Quai du Port de Liyue",
     "description": {
@@ -25062,6 +25415,24 @@
   },
   "StormterrorsLair": {
     "name": "Antre de Stormterror",
+    "description": {
+      "0": "Une carte pour le jeu de table, l'Invocation des Sept. Elle est résistante et une méthode d'impression spéciale a été utilisée pour son illustration, ce qui lui donne une apparence vraiment exquise."
+    }
+  },
+  "WeepingWillowOfTheLake": {
+    "name": "Saule pleureur du lac",
+    "description": {
+      "0": "Une carte pour le jeu de table, l'Invocation des Sept. Elle est résistante et une méthode d'impression spéciale a été utilisée pour son illustration, ce qui lui donne une apparence vraiment exquise."
+    }
+  },
+  "OperaEpiclese": {
+    "name": "Opéra Épiclèse",
+    "description": {
+      "0": "Une carte pour le jeu de table, l'Invocation des Sept. Elle est résistante et une méthode d'impression spéciale a été utilisée pour son illustration, ce qui lui donne une apparence vraiment exquise."
+    }
+  },
+  "Mamere": {
+    "name": "Mamère",
     "description": {
       "0": "Une carte pour le jeu de table, l'Invocation des Sept. Elle est résistante et une méthode d'impression spéciale a été utilisée pour son illustration, ce qui lui donne une apparence vraiment exquise."
     }
@@ -25348,6 +25719,30 @@
       "0": "Une carte pour le jeu de table, l'Invocation des Sept. Elle est résistante et une méthode d'impression spéciale a été utilisée pour son illustration, ce qui lui donne une apparence vraiment exquise."
     }
   },
+  "PassingOfJudgment": {
+    "name": "",
+    "description": {
+      "0": "Une carte pour le jeu de table, l'Invocation des Sept. Elle est résistante et une méthode d'impression spéciale a été utilisée pour son illustration, ce qui lui donne une apparence vraiment exquise."
+    }
+  },
+  "TheBoarPrincess": {
+    "name": "La princesse sanglier",
+    "description": {
+      "0": "Une carte pour le jeu de table, l'Invocation des Sept. Elle est résistante et une méthode d'impression spéciale a été utilisée pour son illustration, ce qui lui donne une apparence vraiment exquise."
+    }
+  },
+  "FallsAndFortune": {
+    "name": "",
+    "description": {
+      "0": "Une carte pour le jeu de table, l'Invocation des Sept. Elle est résistante et une méthode d'impression spéciale a été utilisée pour son illustration, ce qui lui donne une apparence vraiment exquise."
+    }
+  },
+  "FlickeringFourLeafSigil": {
+    "name": "",
+    "description": {
+      "0": "Une carte pour le jeu de table, l'Invocation des Sept. Elle est résistante et une méthode d'impression spéciale a été utilisée pour son illustration, ce qui lui donne une apparence vraiment exquise."
+    }
+  },
   "Origin": {
     "name": "Origine",
     "description": {
@@ -25422,6 +25817,12 @@
   },
   "DragonspineCrown": {
     "name": "Monts Dosdragon : Couronne",
+    "description": {
+      "0": "Un dos de carte d'Invocation des Sept que vous pouvez obtenir et changer. On dit que les dos de cartes avec des motifs différents ont également des différences minimes de fabrication et de texture. Certains joueurs font même de la collection de dos de cartes de différents styles leur mission et leur passe-temps..."
+    }
+  },
+  "TheChasmSolidIron": {
+    "name": "Gouffre : Fer solide",
     "description": {
       "0": "Un dos de carte d'Invocation des Sept que vous pouvez obtenir et changer. On dit que les dos de cartes avec des motifs différents ont également des différences minimes de fabrication et de texture. Certains joueurs font même de la collection de dos de cartes de différents styles leur mission et leur passe-temps..."
     }
@@ -26519,7 +26920,7 @@
       "1": "Après utilisation, ce plan sera disponible dans l'interface de fabrication des décorations."
     }
   },
-  "ShinyShells": {
+  "ShinyShell": {
     "name": "« Coquillage brillant »",
     "description": {
       "0": "Étapes de fabrication du « Coquillage brillant ».",
@@ -28059,7 +28460,7 @@
       "1": "Après utilisation, ce plan sera disponible dans l'interface de fabrication des décorations."
     }
   },
-  "CorridorsStableStorage": {
+  "PassagesStableStorage": {
     "name": "Stockage stable du Passage",
     "description": {
       "0": "Étapes de fabrication du stockage stable du Passage.",
@@ -31202,7 +31603,7 @@
       "1": "Après utilisation, ce plan sera disponible dans l'interface de fabrication des décorations."
     }
   },
-  "DuellingSigil": {
+  "DuelingSigil": {
     "name": "Insigne de duel",
     "description": {
       "0": "Étapes de fabrication de l'insigne de duel.",

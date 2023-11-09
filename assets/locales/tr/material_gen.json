@@ -391,10 +391,24 @@
     }
   },
   "ThelxiesBadge": {
-    "name": "Thelxie'nin Rozeti",
+    "name": "Thelxie Rozeti",
     "description": {
       "0": "Metalik parıltısı olan altın bir penguen rozeti. Bu, takan kişiye azimle ilerlemesi için dayanma gücü verir...",
       "1": "\"Thelxie'nin Fantastik Maceraları\" etkinliğinden açılan değerli bir ödül."
+    }
+  },
+  "TheaterTickets": {
+    "name": "Tiyatro Bileti",
+    "description": {
+      "0": "Fontinalia Film Festivalindeki çeşitli etkinliklere yapılan katılımı ölümsüzleştirmek için özenle hazırlanmış hediyelik biletler. Biletlerin film negatiflerine benzer bir dokuda olacak şekilde hazırlandığı söyleniyor. Işığı yansıtırken aldıkları kristal gibi berrak görüntü mücevher parçalarından farksız...",
+      "1": "\"Silahlar ve Güller\" etkinliği boyunca değerli ödüller almak için takas edilebilir."
+    }
+  },
+  "FilmForFun": {
+    "name": "Eğlencelik Film",
+    "description": {
+      "0": "Film karesi şeklindeki hediyelik madeni para. Fontinalia Film Festivaline katılım sağlayarak hatıra olarak kazanılıp biriktirilebilir. Tabii ki bunları özel bir cihaza takıp heyecan dolu filmler oynatmak mümkün değil ama özel tasarımlarıyla insanlara festivalde gördüklerini hatırlatıp neşelenmelerini sağlayacağı kesin...",
+      "1": "Silahlar ve Güller etkinliği boyunca çeşitli ödüllerin kilidini açmak için kullanılabilir."
     }
   },
   "Primogem": {
@@ -1032,6 +1046,14 @@
     "name": "Furina",
     "description": {}
   },
+  "Chevreuse": {
+    "name": "Chevreuse",
+    "description": {}
+  },
+  "Navia": {
+    "name": "Navia",
+    "description": {}
+  },
   "KamisatoAyakasStellaFortuna": {
     "name": "Kamisato Ayaka'nın Yaşam Yıldızı",
     "description": {
@@ -1486,6 +1508,18 @@
     "name": "Furina'nın Yaşam Yıldızı",
     "description": {
       "0": "Furina'nın Takımyıldız Etkinleştirme Malzemesi"
+    }
+  },
+  "ChevreusesStellaFortuna": {
+    "name": "Chevreuse'ün Yaşam Yıldızı",
+    "description": {
+      "0": "Chevreuse'ün Takımyıldız Etkinleştirme Malzemesi"
+    }
+  },
+  "NaviasStellaFortuna": {
+    "name": "Navia'nın Yaşam Yıldızı",
+    "description": {
+      "0": "Navia'nın Takımyıldız Etkinleştirme Malzemesi"
     }
   },
   "GnosticHymnOldNotes": {
@@ -5502,6 +5536,14 @@
       "1": "Anahtar varsa kilit de vardır derler. Peki bu anahtarın açtığı kilit nerede?"
     }
   },
+  "MaskOfMemories": {
+    "name": "",
+    "description": {
+      "0": "Eskiden bu maskeyi tapınak görevlisi Hanachirusato takardı. İçi bayağı bir lekelenmiş.",
+      "1": "İçinde bazı anılar var. Bu anılardan faydalanılarak \"Hakushin Yüzüğü\" adlı Katalizörü oluşturmak için kullanılan zanaat öğrenilebilir.",
+      "2": "Hanachirusato artık bu maskeyi takmadığına göre Paimon bundan böyle ona \"Maskeli Hanım\" diyemez, değil mi?"
+    }
+  },
   "TheVioletOnisBlade": {
     "name": "Mor Oni'nin Kılıcı",
     "description": {
@@ -6498,7 +6540,7 @@
   "LakelightLily": {
     "name": "Gölmavisi Zambağı",
     "description": {
-      "0": "Saf ve berrak yeşil renkli bir çiçek, Su Damarlarının birleştiği noktada doğar. Basit, etkileyici ve zarif bir kokusu vardır, keskin ve ferahlatıcı bir his verir ancak aynı zamanda yumuşaktır."
+      "0": "Saf ve berrak mavi renkli bir çiçek, Su Damarlarının birleştiği noktada doğar. Basit, etkileyici ve zarif bir kokusu vardır, keskin ve ferahlatıcı bir his verir, aynı zamanda yumuşaktır."
     }
   },
   "SubdetectionUnit": {
@@ -6510,7 +6552,7 @@
   "SpringOfTheFirstDewdrop": {
     "name": "İlk Çiy Damlasının Kaynağı",
     "description": {
-      "0": "Morte Bölgesinin sularına karışmış saf bir çiy damlası. Diğer saf su kütlelerinden farklıdır, sanki daha saf ve ilkel Element Enerjisinin birikimiyle oluşmuş gibidir."
+      "0": "Morte Bölgesi'nin sularına karışmış saf bir çiy damlası. Diğer saf su kütlelerinden farklıdır, sanki daha saf ve ilkel Element Enerjisinin birikimiyle oluşmuş gibidir."
     }
   },
   "BirchWood": {
@@ -13229,13 +13271,13 @@
   "DeliciousGarlicBaguette": {
     "name": "Sarımsaklı Baget Ekmek (Lezzetli)",
     "description": {
-      "0": "Dilimlenmiş baget ekmek. Söylenene göre bazen Fontaineliler fırıncılık yarışmaları düzenliyormuş. En iyi baget ekmeği yapan fırıncılar yeteneklerini Mermonia Sarayında gösterirmiş. Bu baget, böyle bir yarışmada kesinlikle ilk sırayı kazanırdı!"
+      "0": "Dilimlenmiş baget ekmek. Söylenene göre bazen Fontaineliler fırıncılık yarışmaları düzenliyormuş. En iyi baget ekmeği yapan fırıncılar yeteneklerini Mermonia Sarayı'nda gösterirmiş. Bu baget, böyle bir yarışmada kesinlikle ilk sırayı kazanırdı!"
     }
   },
   "SuspiciousFishAndChips": {
     "name": "Balık ve Patates Kızartması (Tuhaf)",
     "description": {
-      "0": "Derin yağda kızartılan bir ara sıcak. Bu yemeği yiyecek kadar şanssız olan her Fontaineli, Mermonia Sarayına aynı şikayette bulunur: Yumuşamış Balık ve Patates Kızartması yasalara aykırı olmalı!"
+      "0": "Derin yağda kızartılan bir ara sıcak. Bu yemeği yiyecek kadar şanssız olan her Fontaineli, Mermonia Sarayı'na aynı şikayette bulunur: Yumuşamış Balık ve Patates Kızartması yasalara aykırı olmalı!"
     }
   },
   "FishAndChips": {
@@ -13727,13 +13769,13 @@
   "LaLettreAFocalors": {
     "name": "Focalors'a Mektup",
     "description": {
-      "0": "Uzun bir dörtgen şeklinde olan küçük bir pasta. Söylenenlere göre bir pastacı, çok ama çok uzun zaman önce Fontaine halkının Su Hükümdar'ına duyduğu sevgiden ilhamla bu pastacılık şaheserini ortaya koymuş. Üst üste dizilen katlar, pastacının becerilerini sergilemektedir ve bu pasta her yönüyle büyük Su Hükümdarı'nın etkisinin bir kanıtıdır."
+      "0": "Uzun bir dörtgen şeklinde olan küçük bir pasta. Söylenenlere göre bir pastacı, çok ama çok uzun zaman önce Fontaine halkının Su Hükümdarı'na duyduğu sevgiden ilhamla bu pastacılık şaheserini ortaya koymuş. Üst üste dizilen katlar, pastacının becerilerini sergilemektedir ve bu pasta her yönüyle büyük Su Hükümdarı'nın etkisinin bir kanıtıdır."
     }
   },
   "DeliciousLaLettreAFocalors": {
     "name": "Focalors'a Mektup (Lezzetli)",
     "description": {
-      "0": "Uzun bir dörtgen şeklinde olan küçük bir pasta. Kahve ve bademin sonsuz uyumdaki aroması seni içine alıyor ve düşüncelerinden uzaklaştırıp sanki farkında bile olmadan gösterişli bir operanın ortasına düşmüşsünüz gibi hissettiriyor. Kendini bir anda bu şatafatlı gösteriye kaptırmış ve hiç bitmemesini umar halde buluyorsun."
+      "0": "Uzun bir dörtgen şeklinde olan küçük bir pasta. Kahve ve bademin sonsuz uyumdaki aroması seni içine alıyor ve düşüncelerinden uzaklaştırıp sanki farkında bile olmadan gösterişli bir operanın ortasına düşmüşsün gibi hissettiriyor. Kendini bir anda bu şatafatlı gösteriye kaptırmış ve hiç bitmemesini umar halde buluyorsun."
     }
   },
   "SuspiciousBlubberProfiterole": {
@@ -13763,8 +13805,40 @@
   "ExclusiveScoopGourmetColumn": {
     "name": "Özel Haber: Gastronomi Köşesi",
     "description": {
-      "0": "Charlotte'un özel tarifi. Dur durak bilmeden özel haberlerin peşinde koşarken elinde tuttuğu atıştırmalıklar. Etrafına bakıyor ve heyecanlı adımlarının ritmi ile ağzındaki kızarmış balıkların çıtırtısı yavaş yavaş birbirine uyum sağlamaya başlıyor... Peşinde olduğu son haberi henüz tamamlamamış olsa da sevincini ve memnuniyetini çoktan doruklarda yaşamaya başlamış."
+      "0": "Charlotte'un özel tarifi. Beraber dur durak bilmeden özel haberlerin peşinde koşarken eline tutuşturduğu atıştırmalıklar. Heyecanlı adımlarını izliyor ve ağzındaki kızarmış balıkların çıtırtısı ile olan uyumunu fark ediyorsun... Peşinde olduğu son haberi henüz tamamlamamış olsanız da sevincini ve memnuniyetini çoktan kalbinde yaşamaya başladın bile."
     }
+  },
+  "SuspiciousFeastOs": {
+    "name": "Ziyafet-O (Tuhaf)",
+    "description": {}
+  },
+  "FeastOs": {
+    "name": "Ziyafet-O",
+    "description": {}
+  },
+  "DeliciousFeastOs": {
+    "name": "Ziyafet-O (Lezzetli)",
+    "description": {}
+  },
+  "SuspiciousRainbowMacarons": {
+    "name": "Gökkuşağı Makaronları (Tuhaf)",
+    "description": {}
+  },
+  "RainbowMacarons": {
+    "name": "Gökkuşağı Makaronları",
+    "description": {}
+  },
+  "DeliciousRainbowMacarons": {
+    "name": "Gökkuşağı Makaronları (Lezzetli)",
+    "description": {}
+  },
+  "SinTheKindThatDoesntNeedToBeDealtWith": {
+    "name": "Günah: Dokunulmaması Gereken Türden",
+    "description": {}
+  },
+  "PickWhatYouLike": {
+    "name": "\"Dilediğini Al!\"",
+    "description": {}
   },
   "RecipeItem": {
     "name": "Yemek Malzemesi",
@@ -14815,6 +14889,18 @@
     "name": "Tarif: Tombalak Profiterolü",
     "description": {
       "0": "Tombalak Profiterolü yapımını adım adım anlatan detaylı bir tarif."
+    }
+  },
+  "RecipeFeastOs": {
+    "name": "Tarif: Ziyafet-O",
+    "description": {
+      "0": "Ziyafet-O yapımını adım adım anlatan detaylı bir tarif."
+    }
+  },
+  "RecipeRainbowMacarons": {
+    "name": "Tarif: Gökkuşağı Makaronları",
+    "description": {
+      "0": "Gökkuşağı Makaronları yapımını adım adım anlatan detaylı bir tarif."
     }
   },
   "CraftedItems": {
@@ -16121,11 +16207,33 @@
       "1": "Denizatları arasındaki en büyük yırtıcı olan bu Fontemer Sapkınının evrim yolculuğu diğerlerinkinden farklıdır. Temel bir formdan gelişip daha güçlü ve büyük bir hale gelmemiş, onun yerine sıradan denizatlarında olmayan boynuz çıkararak evrimleşmiştir. Hatta iskelet ve kas yapısında bile değişiklikler meydana gelmiştir. Görünüşü gerçekten de bir denizatından çok efsanelerde geçen fantastik hayvanları andırır. Şairlerin ve yazarların hayallerinde denizatları bile dörtnala koşup eğlenebilir."
     }
   },
+  "LightlessSilkString": {
+    "name": "Sönük İpek İplik",
+    "description": {
+      "0": "Yıldız Yutan Narvalle savaşırken bir şekilde silahına dolaşan ince bir iplik.",
+      "1": "Kadim Fontaine'de, dünyayı yöneten Fortuna'nın bir arpın telleri gibi sayısız iplikle örülmüş olduğu düşünülüyordu. Teller müziğin muhteşem ahengiyle titreştiğinde herkese mutluluk getirirken uyumsuz notalarsa evrenin dokusunu mahvederdi."
+    }
+  },
+  "LightlessEyeOfTheMaelstrom": {
+    "name": "Sönük Girdap Gözü",
+    "description": {
+      "0": "Yıldız Yutan Narvale karşı savaşırken elde edilen tuhaf bir \"madde\". Asıl ağırlığı boyutuna göre oldukça fazladır.",
+      "1": "Her şey ağır olan nesnelerin yanında toplanır. Tıpkı altının demire, zeminin ise esen rüzgara göre daha çok şey çekmesi gibi. Nasıl ki ışık karanlığın girdabından kaçamazsa sebep ve sonuç da aynı şekilde kaçınılmaz şekilde kadere bağlıdır."
+    }
+  },
+  "LightlessMass": {
+    "name": "Sönük Kütle",
+    "description": {
+      "0": "Yıldız Yutan Narvalle yapılan yoğun bir savaş sonucunda elde edilen bir parça.",
+      "1": "Evren, karanlık ve soğuk bir yerdir.",
+      "2": "Ama iyi bak. Orada kumun içinden parıldayan inciler, asfalta serpiştirilmiş elmas parçaları, puslu geceyi delip sislerin arasından süzülen ışıklar ve en parlak alevleri tutuşturan kıvılcımlar gibi soluk ışık parıltıları hep vardır."
+    }
+  },
   "WaterThatFailedToTranscend": {
-    "name": "Aşılamayan Su",
+    "name": "Aşamayan Su",
     "description": {
       "0": "Su Tulpalarının parçaları dağıldıktan sonra geriye kalan tek kalıntıları.",
-      "1": "Bu madde, Fontemer Sapkınlarının bedeninden çıkan kristallere çok benzer, ancak acemi bir zanaatkarın yaptığı camın içindeki kabarcıklar gibi içinde çok fazla küçük kirlilik bulunmaktadır."
+      "1": "Bu madde, Fontemer Sapkınlarının bedeninden çıkan kristallere çok benzer ancak acemi bir zanaatkarın yaptığı camın içindeki kabarcıklar gibi içinde çok fazla küçük kirlilik bulunmaktadır."
     }
   },
   "TileOfDecarabiansTower": {
@@ -17851,9 +17959,7 @@
   },
   "TheIsleOfDarklingClouds": {
     "name": "\"Kara Bulutlar Adası\"",
-    "description": {
-      "0": "？？？"
-    }
+    "description": {}
   },
   "BoxfulOfHomelandSoil": {
     "name": "Kutu Dolusu Memleket Toprağı",
@@ -18521,7 +18627,7 @@
   "GearDrivetrain": {
     "name": "Dişli Güç Aktarım Tertibatı",
     "description": {
-      "0": "Terk edilmiş Üretim Alanındaki merkezi tahrik vanasına ait çıkarılabilir bir parça."
+      "0": "Terk edilmiş Üretim Alanındaki merkezi kontrol vanasına ait çıkarılabilir bir parça."
     }
   },
   "SomeonesJournal": {
@@ -18540,12 +18646,6 @@
     "name": "Bulucu",
     "description": {
       "0": "Bir Kshahrewar icadı. Yarışmacılar bu takip cihazlarını taşıdıklarında bulucu, bulundukları yeri gösterir. Ayrıca yarışmacılar görevlerini başarıyla tamamladıklarında bulucu ses çıkarır."
-    }
-  },
-  "Test": {
-    "name": "(test)???",
-    "description": {
-      "0": "(test)???"
     }
   },
   "FoodSeeds": {
@@ -18834,69 +18934,47 @@
   },
   "OldCaseFiles": {
     "name": "Eski Dava Dosyaları",
-    "description": {
-      "0": "？？？"
-    }
+    "description": {}
   },
   "TestimonyFromJacquesFamily": {
     "name": "Jacques'ın Ailesinin Verdiği İfade",
-    "description": {
-      "0": "？？？"
-    }
+    "description": {}
   },
   "FlorentsStatement": {
     "name": "Florent'in Durumu",
-    "description": {
-      "0": "？？？"
-    }
+    "description": {}
   },
   "ThierrysStatement": {
     "name": "Thierry'nin Durumu",
-    "description": {
-      "0": "？？？"
-    }
+    "description": {}
   },
   "MarcelsStatement": {
     "name": "Marcel'in Durumu",
-    "description": {
-      "0": "？？？"
-    }
+    "description": {}
   },
   "SuspectAnalysis": {
     "name": "Şüpheli Analizi",
-    "description": {
-      "0": "？？？"
-    }
+    "description": {}
   },
   "PrimordialSeawaterPool": {
     "name": "Ezeli Deniz Suyu Havuzu",
-    "description": {
-      "0": "？？？"
-    }
+    "description": {}
   },
   "Sinthe": {
     "name": "\"Sinthe\"",
-    "description": {
-      "0": "？？？"
-    }
+    "description": {}
   },
   "MissingPersonsPossessions": {
-    "name": "Kayıp Kişinin Eşyaları",
-    "description": {
-      "0": "？？？"
-    }
+    "name": "Kayıp Kişilerin Eşyaları",
+    "description": {}
   },
   "VachersExperimentReport": {
     "name": "Vacher'in Deney Raporu",
-    "description": {
-      "0": "？？？"
-    }
+    "description": {}
   },
   "LettersRelatedToCallasCase": {
     "name": "Callas'ın Davasıyla İlgili Mektuplar",
-    "description": {
-      "0": "？？？"
-    }
+    "description": {}
   },
   "VigneiresNotebook": {
     "name": "Vigneire'in Defteri",
@@ -18983,53 +19061,71 @@
   "TheFallOfTheFadedCastleI": {
     "name": "Solgun Kalenin Düşüşü (I)",
     "description": {
-      "0": "？？？"
+      "0": "Kimin yazdığı bilinmeyen bir şiir. Yazım tarzında uğursuz ve tuhaf bir hava var."
     }
   },
   "TheFallOfTheFadedCastleII": {
     "name": "Solgun Kalenin Düşüşü (II)",
     "description": {
-      "0": "？？？"
+      "0": "Kimin yazdığı bilinmeyen bir şiir. Yazım tarzında uğursuz ve tuhaf bir hava var."
     }
   },
   "TheFallOfTheFadedCastleIII": {
     "name": "Solgun Kalenin Düşüşü (III)",
     "description": {
-      "0": "？？？"
+      "0": "Kimin yazdığı bilinmeyen bir şiir. Yazım tarzında uğursuz ve tuhaf bir hava var."
     }
   },
   "LaChansonDErinnyesI": {
     "name": "Erinnyes'in Şarkısı (I)",
     "description": {
-      "0": "？？？"
+      "0": "Kral Remus'un elçisi, Erinnyes'e gelir ve ondan Aremori Kalesi'nin sularını ve topraklarını hediye etmesini ve Sumphonia Capitolii'ye (\"ebedi ahenk\" anlamına gelir) teslim olmasını ister."
     }
   },
   "LaChansonDErinnyesII": {
     "name": "Erinnyes'in Şarkısı (II)",
     "description": {
-      "0": "？？？"
+      "0": "Her bölgeden Şövalyeler, işgal planlarıyla gelen Capitolii'ye karşı Erinnyes'i korumak için güçlerini birleştirir."
     }
   },
   "LaChansonDErinnyesIII": {
     "name": "Erinnyes'in Şarkısı (III)",
     "description": {
-      "0": "？？？"
+      "0": "Erinnyes, Tüm Suların Hanımı ile vedalaşır ve kılıcını üç defa göle fırlatır."
     }
   },
   "TalesOfASnowWingedGooseI": {
     "name": "Ak Kanatlı Kazın Hikayeleri (I)",
     "description": {
-      "0": "？？？"
+      "0": "Fontaine'de oldukça popüler olan kısa bir peri masalı. Çocukların çoğu hoş bir şekilde çizilmiş bu kitabın kapağını görünce, bunun gerçekten de efsanelerdeki Madam Ak Kanatlı Kaz tarafından yazıldığını sanır."
     }
   },
   "TalesOfASnowWingedGooseII": {
     "name": "Ak Kanatlı Kazın Hikayeleri (II)",
     "description": {
-      "0": "？？？"
+      "0": "Fontaine'de oldukça popüler olan kısa bir peri masalı. Çocukların çoğu hoş bir şekilde çizilmiş bu kitabın kapağını görünce, bunun gerçekten de efsanelerdeki Madam Ak Kanatlı Kaz tarafından yazıldığını sanır."
     }
   },
   "TalesOfASnowWingedGooseIII": {
     "name": "Ak Kanatlı Kazın Hikayeleri (III)",
+    "description": {
+      "0": "Fontaine'de oldukça popüler olan kısa bir peri masalı. Çocukların çoğu hoş bir şekilde çizilmiş bu kitabın kapağını görünce, bunun gerçekten de efsanelerdeki Madam Ak Kanatlı Kaz tarafından yazıldığını sanır."
+    }
+  },
+  "TheTwoMusketeersI": {
+    "name": "İki Silahşor (I)",
+    "description": {
+      "0": "？？？"
+    }
+  },
+  "TheTwoMusketeersII": {
+    "name": "İki Silahşor (II)",
+    "description": {
+      "0": "？？？"
+    }
+  },
+  "TheTwoMusketeersIII": {
+    "name": "İki Silahşor (III)",
     "description": {
       "0": "？？？"
     }
@@ -19061,7 +19157,7 @@
     }
   },
   "HolyBladeOfNarzissenkreuz": {
-    "name": "Nergis Haçının Kutsal Kılıcı",
+    "name": "Nergis Haçı'nın Kutsal Kılıcı",
     "description": {
       "0": "Belirli bir hikayede özel bir anlam taşıyan kutsal bir kılıç.",
       "1": "Kimseye ait değildir."
@@ -19413,6 +19509,10 @@
     "name": "Başka Bir Gizemli Tehdit Mektubu",
     "description": {}
   },
+  "KevinsLetter": {
+    "name": "Kevin'ın Mektubu",
+    "description": {}
+  },
   "MessilyWrittenLetter": {
     "name": "Özensiz Yazılmış Mektup",
     "description": {}
@@ -19543,10 +19643,10 @@
       "0": "Puca'nın madenin derinliklerinde kaybettiği nişanı. Acele et ve hemen nişanını ona geri götür!"
     }
   },
-  "TolochardsInvestigationNotes": {
-    "name": "Tolochard'ın Araştırma Notları",
+  "TalochardsInvestigationNotes": {
+    "name": "Talochard'ın Araştırma Notları",
     "description": {
-      "0": "Tolochard tarafından paylaşılan bu araştırma notlarında kayıp Bay Arthur'a dair bilgiler var."
+      "0": "Talochard tarafından paylaşılan bu araştırma notlarında kayıp Bay Arthur'a dair bilgiler var."
     }
   },
   "AStory": {
@@ -19559,6 +19659,18 @@
       "0": "Sıradan bir el çarkı. Meropide Kalesi'nin çevresindeki boruların ayar vanalarını ayarlamak için kullanılır."
     }
   },
+  "MaterialForThelxiesWeapon": {
+    "name": "Thelxie'nin Silah Malzemesi",
+    "description": {
+      "0": "Sudan çıkarılan renkli bir malzeme. Thelxie'nin silahının yapımında kullanılır."
+    }
+  },
+  "MaterialForThelxiesCrown": {
+    "name": "Thelxie'nin Taç Malzemesi",
+    "description": {
+      "0": "Sudan çıkarılan renkli bir malzeme. Thelxie'nin tacının yapımında kullanılır."
+    }
+  },
   "EnergyConcentratingComponent": {
     "name": "Enerji Yoğunlaştırıcı Parça",
     "description": {
@@ -19566,17 +19678,23 @@
       "1": "Belki de sadece bu parça tek başına tüm makinayı çalıştırıyordur."
     }
   },
-  "34thIndependentInvestigativeSquadDeploymentInMontEsusEasternQuadrantDeploymentPlan": {
-    "name": "34. Bağımsız Araştırma Ekibinin Esus Dağı (Doğu Bölgesi) Konuşlanma Planı",
+  "34thIndependentReconnaissanceSquadDeploymentInMontEsusEasternQuadrantDeploymentPlan": {
+    "name": "34. Bağımsız Keşif Ekibinin Esus Dağı (Doğu Bölgesi) Konuşlanma Planı",
     "description": {}
   },
   "SkirmishersNotes": {
     "name": "Avcı Askerin Notları",
     "description": {}
   },
-  "34thIndependentInvestigativeSquadDeploymentInMontEsusEasternQuadrantDisplinaryProcedures": {
-    "name": "34. Bağımsız Araştırma Ekibinin Esus Dağı (Doğu Bölgesi) Konuşlanma Disiplin Yönetmeliği",
+  "34thIndependentReconnaissanceSquadDeploymentInMontEsusEasternQuadrantDisciplinaryProcedures": {
+    "name": "34. Bağımsız Keşif Ekibinin Esus Dağı (Doğu Bölgesi) Konuşlanma Disiplin Yönetmeliği",
     "description": {}
+  },
+  "TravelersExclusiveInterviewHandbook": {
+    "name": "Gezginle Özel Röportaj Kitapçığı",
+    "description": {
+      "0": "Buğukuş'un ünlü gazetecisi Charlotte'un altın saçlı Gezgin ile yaptığı özel röportajın bir kaydı. İçerdiği bilgiler birçok defa gözden geçirilip derlenmiş ve artık \"gazetede yayınlanmak\" dışında da çeşitli işlevler kazanmıştır."
+    }
   },
   "PoemOnFallenLeaf": {
     "name": "Dökülen Yaprağa Yazılmış Şiir",
@@ -19636,16 +19754,16 @@
       "0": "İçinde Liam adlı birinin maceralarına dair not ile arkasında tuhaf bir çizim olan şeffaf bir şişe."
     }
   },
-  "RogerAversonsDisappearance": {
-    "name": "Roger Averson'ın Kaybolması",
+  "RockyAvildsensDisappearance": {
+    "name": "Rocky Avildsen'ın Kaybolması",
     "description": {
-      "0": "İçinde Roger Averson adlı birinin geçmişine dair bir not ile arkasında tuhaf bir çizim olan şeffaf bir şişe."
+      "0": "İçinde Rocky Avildsen adlı birinin geçmişine dair bir not ile arkasında tuhaf bir çizim olan şeffaf bir şişe."
     }
   },
-  "AtossConfession": {
-    "name": "Atos'un İtirafı",
+  "AthossConfession": {
+    "name": "Athos'un İtirafı",
     "description": {
-      "0": "İçinde Atos adlı birinin başından geçen olaylara dair not ile arkasında tuhaf bir çizim olan şeffaf bir şişe."
+      "0": "İçinde Athos adlı birinin başından geçen olaylara dair not ile arkasında tuhaf bir çizim olan şeffaf bir şişe."
     }
   },
   "ParkersHopes": {
@@ -19661,15 +19779,15 @@
     }
   },
   "AutumnsRegrets": {
-    "name": "Sonbahar Pişmanlıkları",
+    "name": "Autumn'ın Pişmanlıkları",
     "description": {
-      "0": "İçinde Qiu adlı birinin geçmişine dair bir not ile arkasında tuhaf bir çizim olan şeffaf bir şişe."
+      "0": "İçinde Autumn adlı birinin geçmişine dair bir not ile arkasında tuhaf bir çizim olan şeffaf bir şişe."
     }
   },
-  "RougetsWritings": {
-    "name": "Rouget'nin Yazıları",
+  "RougesWritings": {
+    "name": "Rouge'un Yazıları",
     "description": {
-      "0": "İçinde Rouget adlı birinin kayıtlarına dair not ile arkasında tuhaf bir çizim olan şeffaf bir şişe."
+      "0": "İçinde Rouge adlı birinin kayıtlarına dair not ile arkasında tuhaf bir çizim olan şeffaf bir şişe."
     }
   },
   "FreemansAnnouncement": {
@@ -19872,6 +19990,13 @@
       "0": "İki Bulle Meyvesinin arasına konulmuş bir mektup."
     }
   },
+  "ThelxiesFantasticAdventures": {
+    "name": "Thelxie'nin Fantastik Maceraları",
+    "description": {
+      "0": "Sadece üç sayfadan oluşan fantastik bir çocuk kitabı. Yalnızlığın üstesinden gelmeyi başarmış bir prensin hikayesini anlatır.",
+      "1": "Arka kapağında küçük harflerle \"Zor durumdaki herkese\" yazar."
+    }
+  },
   "LocationNo1Materials": {
     "name": "1. Konumdaki Materyaller",
     "description": {
@@ -19893,14 +20018,20 @@
   "IridescentGlory": {
     "name": "\"Işıltılı İhtişam\"",
     "description": {
-      "0": "？？？"
+      "0": "Hepsi farklı renklerde ve tonlarda olan kabuklar ve mercanlar. Söylenenlere göre Su İfritlerinin en değerli hazinesi budur ve Su İfriti Krallığı'ndaki parıldayan Gökkuşağı Köprüsünün inşa edilmesinin nedeni de budur..."
+    }
+  },
+  "AureliesNotesI": {
+    "name": "Aurelie'nin Notları (I)",
+    "description": {
+      "0": "Aurelie'nin Notları (I)"
     }
   },
   "MarvelousJellyImprovedFontaineEdition": {
     "name": "Muhteşem Jöle: Geliştirilmiş Fontaine Lezzeti",
     "description": {
-      "0": "Haniyyah'dan gelen zarif bir hediye kutusu, içindeki jölelere mantarlar bayılır. İçinde birçok benzersiz aroma vardır, bu yüzden farklı damak tatları olan mantarlar ayrı ayrı beslenebilir.",
-      "1": "Hem mantarlar hakkındaki bilgisi hem de edindiği deneyimler sonucunda Haniyyah, Muhteşem Jöle lezzetleri konusunda adeta bir ustadır. Geliştirilmiş lezzeti besleyici olmasının yanı sıra içinde özel Fontaine aromaları da bulundurmaktadır. Sağlıklı jöleler sayesinde mantarlar hem iyi yer hem iyi yaşarlar!"
+      "0": "Haniyyah'dan gelen zarif bir hediye kutusu, içindeki jölelere Mantarlar bayılır. İçinde birçok benzersiz aroma vardır, bu yüzden farklı damak tatları olan Mantarlar ayrı ayrı beslenebilir.",
+      "1": "Hem Mantarlar hakkındaki bilgisi hem de edindiği deneyimler sonucunda Haniyyah, Muhteşem Jöle lezzetleri konusunda adeta bir ustadır. Geliştirilmiş lezzeti besleyici olmasının yanı sıra içinde özel Fontaine aromaları da bulundurmaktadır. Sağlıklı jöleler sayesinde Mantarlar hem iyi yer hem iyi yaşarlar!"
     }
   },
   "RecommendationLetter": {
@@ -19926,6 +20057,18 @@
     "description": {
       "0": "Eski bir cep saati.",
       "1": "Belirli bir anda durmuş ve güzel bir anıyı ölümsüzleştirmiş gibi görünüyor."
+    }
+  },
+  "AureliesNotesII": {
+    "name": "Aurelie'nin Notları (II)",
+    "description": {
+      "0": "Aurelie'nin Notları (II)"
+    }
+  },
+  "ANewLifesBeginning": {
+    "name": "\"Yeni Bir Hayatın Başlangıcı\"",
+    "description": {
+      "0": "Meropide Kalesi'nden verilen bir çıkış kartı. Bir kağıt parçasından ibaret olmasına karşın insanı yüreklendiren bir ismi var."
     }
   },
   "RootCycle": {
@@ -19956,8 +20099,8 @@
   "FoggyForestBranch": {
     "name": "Sisli Orman Dalı",
     "description": {
-      "0": "Yeşyeşil ışık saçan bir dal. Sisli Orman'la gizemli bir bağlantısı varmış gibi görünüyor.",
-      "1": "Dikkatli bakıldıığnda sanki dalın içinde bir şeylerin aktığı görülüyor."
+      "0": "Yemyeşil ışık saçan bir dal. Sisli Orman Yoluyla gizemli bir bağlantısı varmış gibi duruyor.",
+      "1": "Dikkatli bakıldığında sanki dalın içinde bir şeylerin aktığı görülüyor."
     }
   },
   "FallenBouquet": {
@@ -19986,7 +20129,7 @@
     }
   },
   "DivingSet": {
-    "name": "Dalış Takımı",
+    "name": "Dalış Seti",
     "description": {
       "0": "Urville'in kayıp dalış ekipmanı. Bir miktar hasar almış gibi duruyor."
     }
@@ -20004,23 +20147,73 @@
     }
   },
   "MysteriousXenochromaticCrystal": {
-    "name": "Gizemli Alaca Kristal",
+    "name": "Gizemli Alacalı Kristal",
     "description": {
       "0": "Morte Bölgesi'ndeki aşırı derecede güçlü Fontemer Sapkınlarını yenerek elde edilen büyük bir kristal.",
-      "1": "İçindeki güç normal Alaca Kristallerden çok daha gizemli.",
+      "1": "İçindeki güç normal Alacalı Kristallerden çok daha gizemli.",
       "2": "Belki birileri ona hak ettiği fiyatı vermek ister."
     }
   },
   "MapFragment": {
     "name": "Harita Parçası",
     "description": {
-      "0": "Bir haritanın sağ alt kısmına aitmiş gibi görünen yırtık bir kağıt parçası. Üzerinde garip nokta ve çizgiler çizilmiş."
+      "0": "Bir haritanın sağ alt kısmına aitmiş gibi görünen yırtık bir kağıt parçası. Üzerine garip noktalar ve çizgiler çizilmiş."
     }
   },
   "SmallKey": {
     "name": "Küçük Anahtar",
     "description": {
       "0": "Kitap ayracı olarak kullanılabilecek kadar küçük bir anahtar. Neden bu anahtara el konulmamış? Ve neden bu kadar küçük bir anahtar bu kadar önemli bir kapıyı açıyor?"
+    }
+  },
+  "Notes": {
+    "name": "Notlar",
+    "description": {}
+  },
+  "Description": {
+    "name": "Açıklama",
+    "description": {}
+  },
+  "Storybook": {
+    "name": "Hikaye Kitabı",
+    "description": {}
+  },
+  "Certificate": {
+    "name": "Sertifika",
+    "description": {}
+  },
+  "InvestigationLog": {
+    "name": "İnceleme Günlüğü",
+    "description": {}
+  },
+  "Excerpt": {
+    "name": "Kopmuş Sayfalar",
+    "description": {}
+  },
+  "Log": {
+    "name": "Günlük",
+    "description": {}
+  },
+  "ShootingPracticeOpticalLenses": {
+    "name": "",
+    "description": {}
+  },
+  "TearsAmongTheStars": {
+    "name": "Yıldızlar Arasındaki Gözyaşları",
+    "description": {
+      "0": "Ezeli yaşam denizine göz diken devasa canavardan elde edilen bir su damlası.",
+      "1": "<br/>",
+      "2": "Uzaklardaki kadim dünyadan bir filozof, yaşamın olduğu yerde ölümün; ölümün olduğu yerde de doğal olarak yaşamın olacağı varsayımında bulunmuştu.",
+      "3": "Yoksa anlık ışıkların sonsuz karanlıklara karşı koyamayacağını ve her şeyin en sonunda bir hiçliğe dönüşeceğini söylemişti.",
+      "4": "Yıldızlar arasındaki kurallara göre doğa korunmalıdır, ancak evrenin yasaları hiçbir zaman korunmamıştır.",
+      "5": "Kapalı bir kutunun içerisinde ölüm daima yeni hayattan daha ağır basar. Binlerce yıl süren refah, milyarlarca yıl içerisinde sadece anlık bir histir. Kazanımların en büyüğü ve başarıların en gurur verici olanları zamanla tamamen parlaklığını yitirir, çürür, dağılır ve en sonunda unutulmaya yüz tutar.",
+      "6": "Bu yüzden yıldızların arasında dolaşan ve bir zamanlar onlarca medeniyetten sayısız saygın unvanlara sahip olanlar şimdi kaçınılmaz ölümleri için gözyaşı döküyorlar.",
+      "7": "Onların gözyaşları hem çaresizlikten hem de umuttan dolayı akar çünkü tüm çaresizlikler de umutlar da eninde sonunda sayısız yıldızlarla birlikte sönüp gidecektir.",
+      "8": "Onların gözyaşları hem üzüntüden hem sevinçten akar çünkü her ikisi de eninde sonunda soğuk ve karanlık boşlukta kaybolup gidecektir.",
+      "9": "Hatırlamaya değer her küçük ama güzel silüet ile her bir an, hatta yıldızlar bile zamanla birlikte silinip gidecektir.",
+      "10": "Ayrıca bir de kurtarılmaya değen her şeyi kurtarmaya, yok edilmesi gereken her şeyi de yok etmeye kararlı olan sözde \"tanrılar\" vardır.",
+      "11": "Ta ki zaman durana, yıldızlar denizi sönen alevlere dönene ve yeni doğan \"dünya\" bir balinanın karnında ilk defa hareket edene dek.",
+      "12": "\"Daha fazla günah, üzüntü ve gözyaşı olmayacak çünkü her bir şey kadim yıldızlarla birlikte ölüp gitti.\""
     }
   },
   "SilkFlowerSeed": {
@@ -20465,7 +20658,7 @@
     "name": "Teknisyen Meka: Altın Lider",
     "description": {
       "0": "Su altı projeleri için yardım sunan, Meka gruplarının kullanım oranını artırmak için geliştirilen kompakt bir yardım Mekası. Aslında diğer Kurmalı Mekaların önemli parçaları tıkanmasın ve arıza yaşanmasın diye su altında çöp, ot ve diğer atıkları toplamak üzere tasarlanmıştır. Bir başka bakış açısına göre Fontaine ekosistemine su altı temizlikçileri olarak büyük katkıda bulunmaktadırlar.",
-      "1": "Diğer seri üretim modellere kıyasla bu özel Platin Koleksiyoner Serisi yardımcı meka, şeffaf altın bir kasaya ve özel kontrol ekipmanına sahiptir. Proje ekibi bunu özellikle karmaşık su altı ortamlarında komut iletim istasyonu olarak çalışması, komutları kontrol biriminden alıp gruptaki mekalara tekrar iletmesi ve son derece önemli olan liderlik görevini üstlenmesi için tasarlamıştır.",
+      "1": "Diğer seri üretim modellere kıyasla bu özel \"Altın Lider\" yardımcı meka, şeffaf altın bir kasaya ve özel kontrol ekipmanına sahiptir. Proje ekibi bunu özellikle karmaşık su altı ortamlarında komut iletim istasyonu olarak çalışması, komutları kontrol biriminden alıp gruptaki mekalara tekrar iletmesi ve son derece önemli olan liderlik görevini üstlenmesi için tasarlamıştır.",
       "2": "Ancak tüm teknisyen meka projesinin durdurulmasıyla birlikte bu lider mekanın da bir anlamı kalmamıştır. Yalnızca oldukça ayırt edici olan altın kasaları, onları toplayan balıkçıların gözünde bu mekaları oldukça değerli kılar."
     }
   },
@@ -21510,7 +21703,7 @@
     "name": "Yükselen Kutsal Kadeh",
     "description": {
       "0": "Nergis Haçı'nın Kılıcı için özel saflaştırma malzemesi.",
-      "1": "Kadim Fontaine'de deniz kabukları, ayinlerde kullanılan eşyaları yaparken en çok tercih edilen malzemelerdi ve kutsal kadeh olarak seçilen bu deniz kabuğundan sonunda merhemler çıkmıştı. Sembolik olarak bakıldığında bu kadeh ilk söz; içindeki yağ kutsal irade; kutsal kılıç da her şeye üstün gelen akıldır."
+      "1": "Kadim Fontaine'de deniz kabukları, ayinlerde kullanılan eşyaları yaparken en çok tercih edilen malzemelerdi ve kutsal kadeh olarak seçilen bu deniz kabuğundan sonunda merhemler çıkmıştı. Sembolik olarak bakıldığında bu kadeh ilk sözü, içindeki yağ güçlü iradeyi, kutsal kılıç da her şeye üstün gelen aklı temsil eder."
     }
   },
   "FalconsDance": {
@@ -23045,17 +23238,31 @@
       "1": "Meropide Kalesi'nin resmi logosu. Düzeni koruyup hayatlarını huzur içinde sürdürmek isteyenlerin bu nişanın temsil ettiği kurumla hiçbir zaman münasebeti olmaması en içten dileğimizdir."
     }
   },
+  "FurinaBanquet": {
+    "name": "Furina: Ziyafet",
+    "description": {
+      "0": "İsim Kartı arka planı.",
+      "1": "Bir kişi bütün pastaları yiyebilir mi? Günde bir tane yese en fazla bir hafta boyunca pasta yiyebilir, değil mi? Peki ya pastalar o kadar süre taze kalabilir mi? Hımm... Şey, endişelenmene gerek yok, pastaları seninle birlikte yemek için gelen arkadaşların mutlaka olacaktır."
+    }
+  },
+  "CharlotteExclusive": {
+    "name": "Charlotte: Özel Haber",
+    "description": {
+      "0": "İsim Kartı arka planı.",
+      "1": "\"Bir, yazdığım özel haberin çok konuşulacağına adım gibi eminim! İki, gazetedekiler olayın çok yavaş ilerlediğini söyledi ve bu yüzden yazıyı bir basın bültenine çevirdiler... Üç, basın bültenini yazan kişi yarın sanık olarak Epiclese Opera Salonuna çıkacak, yani sonunda benim haberimi yayınlamaya karar verdiler!\""
+    }
+  },
   "FontaineCompleteness": {
     "name": "Fontaine: Bütünlük",
     "description": {
-      "0": "Bir İsim Kartı arka planı.",
+      "0": "İsim Kartı arka planı.",
       "1": "Akşam bulutları gökyüzüne saçılmış ve batan güneşin altında dere altın gibi parlar. Gölgem, tıpkı şelalenin altındaki ruh gibidir, etrafta tek başına dolanır."
     }
   },
   "TravelNotesWhirlingWaltz": {
     "name": "Gezi Notları: Vals Dönüşleri",
     "description": {
-      "0": "Bir İsim Kartı arka planı.",
+      "0": "İsim Kartı arka planı.",
       "1": "Kurmalı makinalar dursa, kuklalar artık kımıldamasa ve anılarımız tıpkı denizdeki resifler gibi sonsuza dek donsa bile maceralarımızı ve birlikte geçirdiğimiz zamanı asla unutma."
     }
   },
@@ -23630,16 +23837,23 @@
     }
   },
   "SpecialAnalysisZoomLens": {
-    "name": "\"Özel İnceleme Yakınlaştırma Lensi\"",
+    "name": "\"Özel Analiz Lensi\"",
     "description": {
       "0": "Görüntü tanıma becerilerini güçlendirmek için geliştirilen yeni tür bir Kamera aksesuarı.",
-      "1": "Bu aksesuar normal bir Kameraya takıldığında odaklanma hızlı bir şekilde ayarlanabilir ve yolculukların sırasında karşına çıkan manzaraların fotoğraflarını hızlı ve etkili bir şekilde çekip değerli anılar biriktirebilirsin."
+      "1": "Bu aksesuar normal bir Kameraya takıldığında odak noktası hızlı bir şekilde ayarlanabilir. Böylece yolculukların sırasında karşına çıkan manzaraların fotoğraflarını zaman kaybetmeden çekip değerli anılar biriktirebilirsin."
     }
   },
   "ImageSamplingKamera": {
     "name": "Görüntü Örnekleme Kamerası",
     "description": {
       "0": "Lepine-Pauline tarafından \"Suç Karşıtı Görüntü Teknolojisi\" ilkesi doğrultusunda özel olarak modifiye edilmiş bir Kamera. İçinde ne tür pahalı ve karmaşık parçaların kullanıldığı bilinmese de görünüşe bakılırsa fotoğrafı çekilen nesnenin özel yapısını, şeklini ve renklendirmesini yakalayabiliyor..."
+    }
+  },
+  "MiniSeelieBrilliance": {
+    "name": "Mini Peri - Parlaklık",
+    "description": {
+      "0": "Saklı Hazinelerden bir hatıra. Sana eşlik etmesi için bu Periyi kuşan.",
+      "1": "Parlak renkleri olan minik bir Peri. Su altında serbestçe hareket edebiliyor."
     }
   },
   "InstructionsAnemoculusResonanceStone": {
@@ -23742,14 +23956,6 @@
     "name": "Plan: Isıtıcı Şişe",
     "description": {
       "0": "Isıtıcı Şişe yapımını adım adım anlatan ayrıntılı bir plan. Planı baştan sona anladığında Dondurucu Soğuğa karşı direnmeni sağlayan bir alet üretebilirsin."
-    }
-  },
-  "MaskOfMemories": {
-    "name": "Hatıralar Maskesi",
-    "description": {
-      "0": "Eskiden bu maskeyi tapınak görevlisi Hanachirusato takardı. İçi bayağı bir lekelenmiş.",
-      "1": "İçinde bazı anılar var. Bu anılardan faydalanılarak \"Hakushin Yüzüğü\" adlı Katalizörü oluşturmak için kullanılan zanaat öğrenilebilir.",
-      "2": "Hanachirusato artık bu maskeyi takmadığına göre Paimon bundan böyle ona \"Maskeli Hanım\" diyemez, değil mi?"
     }
   },
   "TaleOfTheForestKing": {
@@ -24087,6 +24293,36 @@
     "name": "Elektrik Hipostazı",
     "description": {
       "0": "Dehanın Yakarışı Kart Oyunundan sert bir kart. Kartın üzerindeki çizim için özel baskı yöntemleri kullanılmış ve enfes bir görünüm ortaya çıkmıştır."
+    }
+  },
+  "Signora": {
+    "name": "Sinyora",
+    "description": {
+      "0": "Dehanın Yakarışı Kart Oyunundan sert dokulu bir kart. Kartın üzerindeki çizim için özel baskı yöntemleri kullanılmış ve enfes bir görünüm ortaya çıkmıştır."
+    }
+  },
+  "Azhdaha": {
+    "name": "Azhdaha",
+    "description": {
+      "0": "Dehanın Yakarışı Kart Oyunundan sert dokulu bir kart. Kartın üzerindeki çizim için özel baskı yöntemleri kullanılmış ve enfes bir görünüm ortaya çıkmıştır."
+    }
+  },
+  "EremiteScorchingLoremaster": {
+    "name": "Münzevi Alevli Hikayeci",
+    "description": {
+      "0": "Dehanın Yakarışı Kart Oyunundan sert dokulu bir kart. Kartın üzerindeki çizim için özel baskı yöntemleri kullanılmış ve enfes bir görünüm ortaya çıkmıştır."
+    }
+  },
+  "ThunderManifestation": {
+    "name": "Yıldırım Alameti",
+    "description": {
+      "0": "Dehanın Yakarışı Kart Oyunundan sert dokulu bir kart. Kartın üzerindeki çizim için özel baskı yöntemleri kullanılmış ve enfes bir görünüm ortaya çıkmıştır."
+    }
+  },
+  "Dvalin": {
+    "name": "Dvalin",
+    "description": {
+      "0": "Dehanın Yakarışı Kart Oyunundan sert dokulu bir kart. Kartın üzerindeki çizim için özel baskı yöntemleri kullanılmış ve enfes bir görünüm ortaya çıkmıştır."
     }
   },
   "UndividedHeart": {
@@ -24449,6 +24685,72 @@
       "0": "Dehanın Yakarışı Kart Oyunundan sert bir kart. Kartın üzerindeki çizim için özel baskı yöntemleri kullanılmış ve enfes bir görünüm ortaya çıkmıştır."
     }
   },
+  "LightsRemit": {
+    "name": "Işığın Yetki Alanı",
+    "description": {
+      "0": "Dehanın Yakarışı Kart Oyunundan sert dokulu bir kart. Kartın üzerindeki çizim için özel baskı yöntemleri kullanılmış ve enfes bir görünüm ortaya çıkmıştır."
+    }
+  },
+  "TurnControl": {
+    "name": "Değişim Kontrolü",
+    "description": {
+      "0": "Dehanın Yakarışı Kart Oyunundan sert dokulu bir kart. Kartın üzerindeki çizim için özel baskı yöntemleri kullanılmış ve enfes bir görünüm ortaya çıkmıştır."
+    }
+  },
+  "ConclusiveOvation": {
+    "name": "Son Alkış",
+    "description": {
+      "0": "Dehanın Yakarışı Kart Oyunundan sert dokulu bir kart. Kartın üzerindeki çizim için özel baskı yöntemleri kullanılmış ve enfes bir görünüm ortaya çıkmıştır."
+    }
+  },
+  "AColdBladeLikeAShadow": {
+    "name": "Gölge Gibi Soğuk Bir Kılıç",
+    "description": {
+      "0": "Dehanın Yakarışı Kart Oyunundan sert dokulu bir kart. Kartın üzerindeki çizim için özel baskı yöntemleri kullanılmış ve enfes bir görünüm ortaya çıkmıştır."
+    }
+  },
+  "RushingHoundSwiftAsTheWind": {
+    "name": "Koşan Tazı: Rüzgar Gibi Hızlı",
+    "description": {
+      "0": "Dehanın Yakarışı Kart Oyunundan sert dokulu bir kart. Kartın üzerindeki çizim için özel baskı yöntemleri kullanılmış ve enfes bir görünüm ortaya çıkmıştır."
+    }
+  },
+  "Structuration": {
+    "name": "Yapılaştırma",
+    "description": {
+      "0": "Dehanın Yakarışı Kart Oyunundan sert dokulu bir kart. Kartın üzerindeki çizim için özel baskı yöntemleri kullanılmış ve enfes bir görünüm ortaya çıkmıştır."
+    }
+  },
+  "PainForPain": {
+    "name": "",
+    "description": {
+      "0": "Dehanın Yakarışı Kart Oyunundan sert dokulu bir kart. Kartın üzerindeki çizim için özel baskı yöntemleri kullanılmış ve enfes bir görünüm ortaya çıkmıştır."
+    }
+  },
+  "Scorpocalypse": {
+    "name": "",
+    "description": {
+      "0": "Dehanın Yakarışı Kart Oyunundan sert dokulu bir kart. Kartın üzerindeki çizim için özel baskı yöntemleri kullanılmış ve enfes bir görünüm ortaya çıkmıştır."
+    }
+  },
+  "GrievingEcho": {
+    "name": "Kederli Yankı",
+    "description": {
+      "0": "Dehanın Yakarışı Kart Oyunundan sert dokulu bir kart. Kartın üzerindeki çizim için özel baskı yöntemleri kullanılmış ve enfes bir görünüm ortaya çıkmıştır."
+    }
+  },
+  "RendingVortex": {
+    "name": "Izdırap Girdabı",
+    "description": {
+      "0": "Dehanın Yakarışı Kart Oyunundan sert dokulu bir kart. Kartın üzerindeki çizim için özel baskı yöntemleri kullanılmış ve enfes bir görünüm ortaya çıkmıştır."
+    }
+  },
+  "LunarCyclesUnending": {
+    "name": "Sonsuz Ay Döngüsü",
+    "description": {
+      "0": "Dehanın Yakarışı Kart Oyunundan sert dokulu bir kart. Kartın üzerindeki çizim için özel baskı yöntemleri kullanılmış ve enfes bir görünüm ortaya çıkmıştır."
+    }
+  },
   "MagicGuide": {
     "name": "Büyü Rehberi",
     "description": {
@@ -24797,6 +25099,66 @@
       "0": "Dehanın Yakarışı Kart Oyunundan sert bir kart. Kartın üzerindeki çizim için özel baskı yöntemleri kullanılmış ve enfes bir görünüm ortaya çıkmıştır."
     }
   },
+  "LostPrayerToTheSacredWinds": {
+    "name": "Kutsal Rüzgarların Kayıp Duası",
+    "description": {
+      "0": "Dehanın Yakarışı Kart Oyunundan sert dokulu bir kart. Kartın üzerindeki çizim için özel baskı yöntemleri kullanılmış ve enfes bir görünüm ortaya çıkmıştır."
+    }
+  },
+  "TulaytullahsRemembrance": {
+    "name": "Tulaytullah'ın Anısı",
+    "description": {
+      "0": "Dehanın Yakarışı Kart Oyunundan sert dokulu bir kart. Kartın üzerindeki çizim için özel baskı yöntemleri kullanılmış ve enfes bir görünüm ortaya çıkmıştır."
+    }
+  },
+  "BeaconOfTheReedSea": {
+    "name": "Kızıl Çölün İradesi",
+    "description": {
+      "0": "Dehanın Yakarışı Kart Oyunundan sert dokulu bir kart. Kartın üzerindeki çizim için özel baskı yöntemleri kullanılmış ve enfes bir görünüm ortaya çıkmıştır."
+    }
+  },
+  "PrimordialJadeWingedSpear": {
+    "name": "Ezeli Yeşim Kanatlı Mızrak",
+    "description": {
+      "0": "Dehanın Yakarışı Kart Oyunundan sert dokulu bir kart. Kartın üzerindeki çizim için özel baskı yöntemleri kullanılmış ve enfes bir görünüm ortaya çıkmıştır."
+    }
+  },
+  "LightOfFoliarIncision": {
+    "name": "Yaprak Kesen Işık",
+    "description": {
+      "0": "Dehanın Yakarışı Kart Oyunundan sert dokulu bir kart. Kartın üzerindeki çizim için özel baskı yöntemleri kullanılmış ve enfes bir görünüm ortaya çıkmıştır."
+    }
+  },
+  "GildedDreams": {
+    "name": "Yaldızlı Rüyalar",
+    "description": {
+      "0": "Dehanın Yakarışı Kart Oyunundan sert dokulu bir kart. Kartın üzerindeki çizim için özel baskı yöntemleri kullanılmış ve enfes bir görünüm ortaya çıkmıştır."
+    }
+  },
+  "FlowingRings": {
+    "name": "Süzülen Küpeler",
+    "description": {
+      "0": "Dehanın Yakarışı Kart Oyunundan sert dokulu bir kart. Kartın üzerindeki çizim için özel baskı yöntemleri kullanılmış ve enfes bir görünüm ortaya çıkmıştır."
+    }
+  },
+  "EchoesOfAnOffering": {
+    "name": "Adağın Yankısı",
+    "description": {
+      "0": "Dehanın Yakarışı Kart Oyunundan sert dokulu bir kart. Kartın üzerindeki çizim için özel baskı yöntemleri kullanılmış ve enfes bir görünüm ortaya çıkmıştır."
+    }
+  },
+  "HeartOfKhvarenasBrilliance": {
+    "name": "Khvarena'nın İhtişamının Kalbi",
+    "description": {
+      "0": "Dehanın Yakarışı Kart Oyunundan sert dokulu bir kart. Kartın üzerindeki çizim için özel baskı yöntemleri kullanılmış ve enfes bir görünüm ortaya çıkmıştır."
+    }
+  },
+  "VourukashasGlow": {
+    "name": "Vourukasha'nın Parıltısı",
+    "description": {
+      "0": "Dehanın Yakarışı Kart Oyunundan sert dokulu bir kart. Kartın üzerindeki çizim için özel baskı yöntemleri kullanılmış ve enfes bir görünüm ortaya çıkmıştır."
+    }
+  },
   "LiyueHarborWharf": {
     "name": "Liyue Limanı Rıhtımı",
     "description": {
@@ -25011,6 +25373,24 @@
     "name": "Fırtına Dehşeti'nin İni",
     "description": {
       "0": "Dehanın Yakarışı Kart Oyunundan sert bir kart. Kartın üzerindeki çizim için özel baskı yöntemleri kullanılmış ve enfes bir görünüm ortaya çıkmıştır."
+    }
+  },
+  "WeepingWillowOfTheLake": {
+    "name": "Göldeki Salkım Söğüt",
+    "description": {
+      "0": "Dehanın Yakarışı Kart Oyunundan sert dokulu bir kart. Kartın üzerindeki çizim için özel baskı yöntemleri kullanılmış ve enfes bir görünüm ortaya çıkmıştır."
+    }
+  },
+  "OperaEpiclese": {
+    "name": "Epiclese Opera Salonu",
+    "description": {
+      "0": "Dehanın Yakarışı Kart Oyunundan sert dokulu bir kart. Kartın üzerindeki çizim için özel baskı yöntemleri kullanılmış ve enfes bir görünüm ortaya çıkmıştır."
+    }
+  },
+  "Mamere": {
+    "name": "Mamere",
+    "description": {
+      "0": "Dehanın Yakarışı Kart Oyunundan sert dokulu bir kart. Kartın üzerindeki çizim için özel baskı yöntemleri kullanılmış ve enfes bir görünüm ortaya çıkmıştır."
     }
   },
   "ElementalResonanceWovenIce": {
@@ -25295,6 +25675,30 @@
       "0": "Dehanın Yakarışı Kart Oyunundan sert bir kart. Kartın üzerindeki çizim için özel baskı yöntemleri kullanılmış ve enfes bir görünüm ortaya çıkmıştır."
     }
   },
+  "PassingOfJudgment": {
+    "name": "Yargı Zamanı",
+    "description": {
+      "0": "Dehanın Yakarışı Kart Oyunundan sert dokulu bir kart. Kartın üzerindeki çizim için özel baskı yöntemleri kullanılmış ve enfes bir görünüm ortaya çıkmıştır."
+    }
+  },
+  "TheBoarPrincess": {
+    "name": "Yaban Domuzu Prenses",
+    "description": {
+      "0": "Dehanın Yakarışı Kart Oyunundan sert dokulu bir kart. Kartın üzerindeki çizim için özel baskı yöntemleri kullanılmış ve enfes bir görünüm ortaya çıkmıştır."
+    }
+  },
+  "FallsAndFortune": {
+    "name": "",
+    "description": {
+      "0": "Dehanın Yakarışı Kart Oyunundan sert dokulu bir kart. Kartın üzerindeki çizim için özel baskı yöntemleri kullanılmış ve enfes bir görünüm ortaya çıkmıştır."
+    }
+  },
+  "FlickeringFourLeafSigil": {
+    "name": "Titrek Dört Yaprak Mührü",
+    "description": {
+      "0": "Dehanın Yakarışı Kart Oyunundan sert dokulu bir kart. Kartın üzerindeki çizim için özel baskı yöntemleri kullanılmış ve enfes bir görünüm ortaya çıkmıştır."
+    }
+  },
   "Origin": {
     "name": "Köken",
     "description": {
@@ -25369,6 +25773,12 @@
   },
   "DragonspineCrown": {
     "name": "Ejdersırtı: Taç",
+    "description": {
+      "0": "Dehanın Yakarışı Kart Oyunundan elde edilebilen ve değiştirilebilen bir Kart Deseni. Farklı tasarımlara sahip kart desenlerinin, yapılışlarında ve dokularında da ufak farklılıklar olduğu söylenir. Hatta bazı oyuncular, farklı tarzdaki kartları toplamayı da bir uğraş ve hobi haline getirmişlerdir."
+    }
+  },
+  "TheChasmSolidIron": {
+    "name": "",
     "description": {
       "0": "Dehanın Yakarışı Kart Oyunundan elde edilebilen ve değiştirilebilen bir Kart Deseni. Farklı tasarımlara sahip kart desenlerinin, yapılışlarında ve dokularında da ufak farklılıklar olduğu söylenir. Hatta bazı oyuncular, farklı tarzdaki kartları toplamayı da bir uğraş ve hobi haline getirmişlerdir."
     }
@@ -26467,10 +26877,10 @@
       "1": "Eşyayı kullandıktan sonra Üretim Ekranında görüntüleyebilirsin."
     }
   },
-  "ShinyShells": {
-    "name": "\"Parlak Kabuklar\"",
+  "ShinyShell": {
+    "name": "\"Parlak Kabuk\"",
     "description": {
-      "0": "\"Parlak Kabuklar\" yapımını adım adım anlatan detaylı bir taslak.",
+      "0": "\"Parlak Kabuk\" yapımını adım adım anlatan detaylı bir taslak.",
       "1": "Eşyayı kullandıktan sonra Üretim Ekranında görüntüleyebilirsin."
     }
   },
@@ -28007,17 +28417,17 @@
       "1": "Eşyayı kullandıktan sonra Üretim Ekranında görüntüleyebilirsin."
     }
   },
-  "CorridorsStableStorage": {
-    "name": "\"Koridor Depolama Sandığı\"",
+  "PassagesStableStorage": {
+    "name": "Koridor Depolama Sandığı",
     "description": {
       "0": "\"Koridor Depolama Sandığı\" yapımını adım adım anlatan detaylı bir taslak.",
       "1": "Eşyayı kullandıktan sonra Üretim Ekranında görüntüleyebilirsin."
     }
   },
   "ModelContraptionReasonableRoundabout": {
-    "name": "Model Düzenek: Makul Yöntem",
+    "name": "Düzenek Modeli: Makul Yöntem",
     "description": {
-      "0": "Model Düzenek: Makul Yöntem yapımını adım adım anlatan detaylı bir taslak.",
+      "0": "Düzenek Modeli: Makul Yöntem yapımını adım adım anlatan detaylı bir taslak.",
       "1": "Eşyayı kullandıktan sonra Üretim Ekranında görüntüleyebilirsin."
     }
   },
@@ -29359,9 +29769,9 @@
     }
   },
   "CourtOfJusticesAuthenticity": {
-    "name": "\"Adalet Sarayı Güvenirliği\"",
+    "name": "\"Adalet Sarayı Güvenilirliği\"",
     "description": {
-      "0": "\"Adalet Sarayı Güvenirliği\" yapımını adım adım anlatan detaylı bir taslak.",
+      "0": "\"Adalet Sarayı Güvenilirliği\" yapımını adım adım anlatan detaylı bir taslak.",
       "1": "Eşyayı kullandıktan sonra Üretim Ekranında görüntüleyebilirsin."
     }
   },
@@ -29380,9 +29790,9 @@
     }
   },
   "BedroomBedlam": {
-    "name": "\"Sesli Oda\"",
+    "name": "\"Gürültülü Oda\"",
     "description": {
-      "0": "\"Sesli Oda\" yapımını adım adım anlatan detaylı bir taslak.",
+      "0": "\"Gürültülü Oda\" yapımını adım adım anlatan detaylı bir taslak.",
       "1": "Eşyayı kullandıktan sonra Üretim Ekranında görüntüleyebilirsin."
     }
   },
@@ -29618,9 +30028,9 @@
     }
   },
   "StandardShippingPallet": {
-    "name": "Standard Palet",
+    "name": "Standart Palet",
     "description": {
-      "0": "Standard Palet yapımını adım adım anlatan detaylı bir taslak.",
+      "0": "Standart Palet yapımını adım adım anlatan detaylı bir taslak.",
       "1": "Eşyayı kullandıktan sonra Üretim Ekranında görüntüleyebilirsin."
     }
   },
@@ -30423,16 +30833,16 @@
     }
   },
   "ModelContraptionRepair": {
-    "name": "Model Düzenek: Tamir",
+    "name": "Düzenek Modeli: Tamir",
     "description": {
-      "0": "Model Düzenek: Tamir yapımını adım adım anlatan detaylı bir taslak.",
+      "0": "Düzenek Modeli: Tamir yapımını adım adım anlatan detaylı bir taslak.",
       "1": "Eşyayı kullandıktan sonra Üretim Ekranında görüntüleyebilirsin."
     }
   },
   "ModelContraptionRockcrackerAnchor": {
-    "name": "Model Düzenek: Taş Kıran Çıpa",
+    "name": "Düzenek Modeli: Taş Kıran Çıpa",
     "description": {
-      "0": "Model Düzenek: Taş Kıran Çıpa yapımını adım adım anlatan detaylı bir taslak.",
+      "0": "Düzenek Modeli: Taş Kıran Çıpa yapımını adım adım anlatan detaylı bir taslak.",
       "1": "Eşyayı kullandıktan sonra Üretim Ekranında görüntüleyebilirsin."
     }
   },
@@ -31144,16 +31554,16 @@
     }
   },
   "CourtOfJusticesTrivia": {
-    "name": "\"Adalet Sarayı Hakkında Bilgiler\"",
+    "name": "\"Adalet Sarayı Dedikoduları\"",
     "description": {
-      "0": "\"Adalet Sarayı Hakkında Bilgiler\" yapımını adım adım anlatan detaylı bir taslak.",
+      "0": "\"Adalet Sarayı Dedikoduları\" yapımını adım adım anlatan detaylı bir taslak.",
       "1": "Eşyayı kullandıktan sonra Üretim Ekranında görüntüleyebilirsin."
     }
   },
-  "DuellingSigil": {
-    "name": "\"Düello Nişanı\"",
+  "DuelingSigil": {
+    "name": "\"Düello Mührü\"",
     "description": {
-      "0": "\"Düello Nişanı\" yapımını adım adım anlatan detaylı bir taslak.",
+      "0": "\"Düello Mührü\" yapımını adım adım anlatan detaylı bir taslak.",
       "1": "Eşyayı kullandıktan sonra Üretim Ekranında görüntüleyebilirsin."
     }
   },
