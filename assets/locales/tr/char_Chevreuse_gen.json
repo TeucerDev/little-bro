@@ -1,0 +1,164 @@
+{
+  "name": "Chevreuse",
+  "title": "???",
+  "description": "",
+  "constellationName": "Tüfekli Avcı",
+  "auto": {
+    "name": "Süngü Hattı Saldırısı",
+    "fields": {
+      "normal": {
+        "0": "<strong><strong>Normal Saldırı</strong>",
+        "1": "Arka arkaya en fazla 4 mızrak saldırısı yapar."
+      },
+      "charged": {
+        "0": "<strong>Yüklü Saldırı</strong>",
+        "1": "İleri atılırken belirli miktarda Dayanıklılık harcar ve önündeki düşmanlara hasar verir."
+      },
+      "plunging": {
+        "0": "<strong>Havadan Saldırı</strong>",
+        "1": "Havadayken dalışa geçerek yere vurur ve yoluna çıkan düşmanlara Alan Hasarı verir."
+      }
+    },
+    "skillParams": {
+      "0": "1 Vuruş Hasarı",
+      "1": "2 Vuruş Hasarı",
+      "2": "3 Vuruş Hasarı",
+      "3": "4 Vuruş Hasarı",
+      "4": "Yüklü Saldırı Hasarı",
+      "5": "Yüklü Saldırı Dayanıklılık Maliyeti",
+      "6": "Havadan Saldırı Hasarı",
+      "7": "Havadan Saldırı Hasarı (Alçaktan/Yüksekten)",
+      "8": "",
+      "9": "",
+      "10": "",
+      "11": "",
+      "12": "",
+      "13": "",
+      "14": "",
+      "15": ""
+    }
+  },
+  "skill": {
+    "name": "Kısa Menzilli Seri Önleme Ateşi",
+    "description": {
+      "0": "Chevreuse hızlı bir şekilde tüfeğini omzuna alıp düşmanlarına ateş ederek <pyro>Ateş Alan Hasarı</pyro> verir.",
+      "1": "Farklı bir şekilde ateş etmek için Basılı Tut.",
+      "2": "<br/>",
+      "3": "<strong>Basılı Tut</strong>",
+      "4": "Nişan Alma Moduna girerek onun görüş alanındaki bir hedefe kilitlen ve hassas bir önleme atışı yap. Chevreuse'ün bir Aşırı Yüklü Topu varsa bunun yerine Aşırı Yüklü Topu ateşler ve daha geniş alanda bir <pyro>Ateş Hasarı</pyro> verir.",
+      "5": "Yakınlardaki bir grup karakteri her Yüksek Voltaj tepkimesi tetiklediğinde Chevreuse 1 Aşırı Yüklü Top elde eder ve bir seferde en fazla 1 Aşırı Yüklü Topa sahip olabilir.",
+      "6": "<br/>",
+      "7": "Chevreuse, ateş ettikten kısa bir süre sonra savaş alanındaki aktif karakter için sürekli Can yeniler ve iyileştirme oranı kendisinin Maks. Canına bağlıdır.",
+      "8": "<br/>",
+      "9": "<strong>Arkhe: Öz</strong>",
+      "10": "Chevreuse'ün Kısa Menzilli Seri Önleme Ateşi hedefe isabet ettikten sonra belirli aralıklarla bir Çalkantılı Kılıç çıkar ve Öz tesirli <pyro>Ateş Hasarı</pyro> verir.",
+      "11": "<br/>",
+      "12": "<i>\"Aslında idman yönetmeliklerinde sadece \"önleme ateşi\" ifadesi yer almaktaydı ama bu romanın kahramanı, kullanılan terminolojilerin şıklığının bile birliklerin motivasyonunu etkileyebileceğini ve düşmanlara daha en başından geri adım attıracağını iddia ediyor... Bu bana da gayet mantıklı geldiği için yönetmeliklerin içeriğinde değişiklik yaptım!\"</i>"
+    },
+    "skillParams": {
+      "0": "Basma Hasarı",
+      "1": "Basılı Tutma Hasarı",
+      "2": "Aşırı Yüklü Top Hasarı",
+      "3": "Süreli Can Yenilenmesi",
+      "4": "İyileştirme Süresi",
+      "5": "Çalkantılı Kılıç Hasarı",
+      "6": "Çalkantılı Kılıç Aralığı",
+      "7": "BS",
+      "8": "",
+      "9": "",
+      "10": "",
+      "11": "",
+      "12": "",
+      "13": "",
+      "14": "",
+      "15": ""
+    }
+  },
+  "burst": {
+    "name": "Patlayan Bomba Halkası",
+    "description": {
+      "0": "Chevreuse, düşmanlarına bir Tahrip El Bombası fırlatarak <pyro>Ateş Alan Hasarı</pyro> verir. Bomba hedefe isabet edince birçok farklı patlayıcı parçalara ayrılır.",
+      "1": "Bu patlayıcı parçalar kısa bir süre sonra patlayarak yakındaki düşmanlara <pyro>Ateş Hasarı</pyro> verir.",
+      "2": "<br/>",
+      "3": "<i>\"Teorik açıdan bakıldığında, dikdörtgen şeklindeki bir patlama düşman oluşumlarını yok etmede en etkili yöntemdir. Ne yazık ki patlamanın şok dalgası tıpkı çoğu pasta gibi yuvarlaktır. Bu yüzden, patlayıcı parçalar ancak bir pastanın üzerindeki meyveler gibi dizilerek kenarlarda bir halka oluşturabilir.</i>"
+    },
+    "skillParams": {
+      "0": "Tahrip El Bombası Hasarı",
+      "1": "İkincil Patlayıcı Kovan Hasarı",
+      "2": "BS",
+      "3": "Enerji Maliyeti",
+      "4": "",
+      "5": "",
+      "6": "",
+      "7": "",
+      "8": "",
+      "9": "",
+      "10": "",
+      "11": "",
+      "12": "",
+      "13": "",
+      "14": "",
+      "15": ""
+    }
+  },
+  "passive1": {
+    "name": "Öncülerin Eş Güdümlü Taktikleri",
+    "description": {
+      "0": "Tüm grup üyelerinin Element Türü <pyro>Ateş</pyro> veya <electro>Elektrik</electro> olduğunda ve grupta hem Ateş hem de Elektrik Element Türünden en az bir tane olduğunda:",
+      "1": "Chevreuse, yakındaki grup üyelerine \"Eş Güdümlü Taktikler\" verir. Bir karakter Yüksek Voltaj tepkimesi tetikledikten sonra, 6 saniye boyunca bu tepkimeden etkilenen rakibin <pyro>Ateş</pyro> ve <electro>Elektrik</electro> Direnci %40 azalır."
+    }
+  },
+  "passive2": {
+    "name": "Dikey Güç Koordinasyonu",
+    "description": {
+      "0": "Chevreuse <strong>Kısa Menzilli Seri Önleme Ateşi</strong> kullanarak bir Aşırı Yüklü Top ateşlediğinde yakınlardaki <pyro>Ateş</pyro> ve <electro>Elektrik</electro> karakterlerinin Saldırısı, 30 saniye boyunca Chevreuse'ün sahip olduğu her 1000 Maks. Can için %1 artar. Saldırı bu şekilde en fazla %40 artabilir."
+    }
+  },
+  "passive3": {
+    "name": "Koşar Adım Marş",
+    "description": {
+      "0": "Kendi grup üyelerinin depar esnasında harcadığı Dayanıklılık %20 azalır.",
+      "1": "Aynı etkiyi veren Pasif Yeteneklerle birikmez."
+    }
+  },
+  "constellation1": {
+    "name": "Ön Cephenin Kararlılığı",
+    "description": {
+      "0": "\"Eş Güdümlü Taktikler\" durumuna sahip olan karakterler (Chevreuse hariç) Yüksek Voltaj tepkimesini tetiklediğinde 6 Enerji yenilerler. Bu etki her 10 saniyede bir tetiklenebilir.",
+      "1": "\"Öncülerin Eş Güdümlü Taktikleri\" Pasif Yeteneğinin açılmış olması gerekir."
+    }
+  },
+  "constellation2": {
+    "name": "Keskin Nişancının Patlayıcı Atışı",
+    "description": {
+      "0": "<strong>Kısa Menzilli Seri Önleme Ateşine</strong> Basılı Tutup bir hedefi vurduğunda, hedefin vurulduğu yerde 2 zincir patlama tetiklenir. Her bir patlama, Chevreuse'ün Saldırısının %120'sine denk bir <pyro>Ateş Hasarı</pyro> verir. Bu etki her 10 saniyede bir tetiklenebilir ve bu becerinin verdiği Hasar Element Becerisi Hasarı sayılır."
+    }
+  },
+  "constellation3": {
+    "name": "Uygulamalı Sökme Takma Tekniği",
+    "description": {
+      "0": "<strong>Kısa Menzilli Seri Önleme Ateşi</strong> Seviyesini 3 artırır.",
+      "1": "Maksimum yükseltme seviyesi 15'tir."
+    }
+  },
+  "constellation4": {
+    "name": "Seri Çoklu Atışın Sırrı",
+    "description": {
+      "0": "<strong>Patlayan Bomba Halkasını</strong> kullandıktan sonra, Chevreuse'ün <strong>Kısa Menzilli Seri Önleme Ateşine</strong>Basılı Tutma Bekleme Süresi %100 azalır. Bu etki, Dairesel Patlayan Misket Bombası Basılı Tutarak iki defa ateşlendikten sonra veya 6 saniye sonra kaldırılır."
+    }
+  },
+  "constellation5": {
+    "name": "Gelişmiş Yakıcı Ateş Gücü",
+    "description": {
+      "0": "<strong>Patlayan Bomba Halkası</strong> Seviyesini 3 artırır.",
+      "1": "Maksimum yükseltme seviyesi 15'tir."
+    }
+  },
+  "constellation6": {
+    "name": "Kötülüğe Son Vermenin Peşinde",
+    "description": {
+      "0": "<strong>Kısa Menzilli Seri Önleme Ateşinden</strong> gelen iyileştirme etkisinden 12 saniye sonra, yakınlardaki tüm grup üyeleri Chevreuse'ün Maks. Canının %10'u kadar Can yeniler.",
+      "1": "Bir grup üyesi Kısa Menzilli Seri Önleme Ateşinden iyileştiğinde 8 saniye boyunca %20 <pyro>Ateş Hasarı Bonusu</pyro> ve <electro>Elektrik Hasarı Bonusu</electro> kazanır. En fazla 3 kademeye kadar birikir. Her kademenin süresi birbirinden bağımsızdır."
+    }
+  }
+}

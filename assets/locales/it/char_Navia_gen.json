@@ -2,7 +2,7 @@
   "name": "Navia",
   "title": "???",
   "description": "",
-  "constellationName": "",
+  "constellationName": "Rosa Multiflora",
   "auto": {
     "name": "Netto rifiuto",
     "fields": {
@@ -42,10 +42,10 @@
   "skill": {
     "name": "Salva cristallina",
     "description": {
-      "0": "Quando un personaggio del gruppo ottiene un frammento elementale generato da una reazione di Cristallizzazione, Navia riceve 1 carica di Bossolo di cristallo, fino a un massimo di 6.",
+      "0": "Quando un personaggio del gruppo ottiene un frammento elementale generato da una reazione di Cristallizzazione, Navia riceve 1 carica di Bossolo di cristallo, fino a un massimo di 6. Ogni volta che si ottiene una carica, la durata dei frammenti già in possesso si ripristina.",
       "1": "Quando spara, Navia consuma tutte le cariche e apre il suo elegante e letale Piombrello, scagliando un gran numero di Proiettili di Rosula cristallini in grado di penetrare gli avversari, infliggendo <geo>DAN da Geo</geo> a questi ultimi.",
       "2": "Quando vengono consumate 0/1/2/3 o più cariche di Bossolo di cristallo, Navia spara rispettivamente 5/7/9/11 Proiettili di cristallo di Rosula. I DAN subiti da un singolo avversario aumentano in proporzione al numero di Proiettili di cristallo di Rosula sparati contro di esso. Quando tutti e 11 i Proiettili colpiscono, infliggono un 200% della quantità di DAN originale.",
-      "3": "In più, quando Navia consuma 3 cariche di Bossolo di cristallo, ogni carica consumata a parte queste 3 aumenta i DAN inflitti dal colpo di un 15% aggiuntivo.",
+      "3": "In più, quando Navia consuma più di 3 cariche di Bossolo di cristallo, ogni carica successiva alla terza aumenta i DAN inflitti di un 15% aggiuntivo.",
       "4": "<br/>",
       "5": "<strong>Pressione prolungata</strong>",
       "6": "Entra in modalità di mira, raccogliendo costantemente i frammenti elementali generati dalle reazioni di Cristallizzazione. Quando la pressione viene interrotta, spara Proiettili di Rosula cristallini con lo stesso effetto della variante a pressione dell'abilità.",
@@ -59,10 +59,10 @@
     },
     "skillParams": {
       "0": "DAN base Proiettili di cristallo di Rosula",
-      "1": "DAN da Lama nascente",
-      "2": "Intervallo Lama nascente",
-      "3": "TdR",
-      "4": "",
+      "1": "Durata Bossolo di cristallo",
+      "2": "DAN da Lama nascente",
+      "3": "Intervallo Lama nascente",
+      "4": "TdR",
       "5": "",
       "6": "",
       "7": "",
@@ -124,11 +124,11 @@
   "constellation1": {
     "name": "Le regole di una signora per mantenere una distanza adeguata",
     "description": {
-      "0": "Navia ottiene 2 di energia per ogni carica di Bossoli di cristallo consumata quando usa <strong>Salva cristallina</strong> e il TdR di <strong>Tributo del sole luminoso</strong> si riduce di 1 s. È possibile ottenere in questo modo fino a 6 di energia, e il TdR di Salva cristallina può essere ridotto di 3 s al massimo."
+      "0": "Ogni carica di Bossolo di cristallo consumata dall'uso di <strong>Salva cristallina</strong> ripristina di 2 l'energia di Navia e riduce di 1 s il TdR di <strong>Tributo del sole luminoso</strong>. È possibile ottenere in questo modo fino a 6 di energia, e il TdR di Tributo del sole luminoso può essere ridotto di 3 s al massimo."
     }
   },
   "constellation2": {
-    "name": "La ricerca della vittoria della presidentezza",
+    "name": "La ricerca della vittoria della presidentessa",
     "description": {
       "0": "Per ogni carica di Bossolo cristallino consumata, il tasso di CRIT di <strong>Salva cristallina</strong> aumenta di un 8%. In questo modo il tasso di CRIT può aumentare fino a un 24%. ",
       "1": "Inoltre, quando Salva cristallina colpisce un avversario, viene sparato un colpo di Fuoco di supporto <strong>Tributo del sole luminoso</strong> vicino alla posizione del colpo messo a segno. Fuoco di supporto può attivarsi non più di una volta per ogni utilizzo di Salva cristallina, e i DAN inflitti da Fuoco di supporto in questo modo sono considerati DAN da Tripudio elementale."
@@ -157,7 +157,7 @@
   "constellation6": {
     "name": "La flessibile finezza della presidentessa della Spina",
     "description": {
-      "0": "Durante l'uso di <strong>Salva cristallina</strong>, se vengono consumate più di 3 cariche di Bossolo di cristallo, ogni carica consumata dopo le prime 3 aumenta i DAN da CRIT di Salva cristallina di un 35%, e ogni carica consumata dopo le prime 3 viene restituita a Navia."
+      "0": "Durante l'uso di <strong>Salva cristallina</strong>, se vengono consumate più di 3 cariche di Bossolo di cristallo, ogni carica successiva alla terza aumenta i DAN da CRIT di Salva cristallina di un 35%, e ogni carica consumata dopo le prime 3 viene restituita a Navia."
     }
   }
 }

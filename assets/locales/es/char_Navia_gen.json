@@ -1,6 +1,6 @@
 {
   "name": "Navia",
-  "title": "???",
+  "title": "",
   "description": "",
   "constellationName": "",
   "auto": {
@@ -42,7 +42,7 @@
   "skill": {
     "name": "Etiqueta vidriopírica",
     "description": {
-      "0": "Cuando un personaje del equipo recoge un fragmento creado con la reacción de Cristalización, Navia obtiene un “fragmento de metralla”, acumulable hasta 6 fragmentos.",
+      "0": "Cuando un personaje del equipo recoge un fragmento creado con la reacción de Cristalización, Navia obtiene un “fragmento de metralla”, acumulable hasta 6 fragmentos. Cada vez que se recoja un fragmento de Cristalización, se reiniciará la duración de los fragmentos de metralla que posea Navia.",
       "1": "<br/>",
       "2": "<strong>Pulsar una vez</strong>",
       "3": "Al usar esta habilidad, Navia consume todos los fragmentos de metralla, abre su elegante y letal rifleparaguas y dispara varias vidriobalas rosáceas capaces de atravesar las defensas de los enemigos alcanzados para infligirles <geo>Daño Geo</geo>.",
@@ -50,7 +50,7 @@
       "5": "Además, al consumir más de 3 fragmentos de metralla, cada fragmento por encima del tercero aumenta en un 15% adicional el daño infligido por el próximo disparo.",
       "6": "<br/>",
       "7": "<strong>Mantener pulsado</strong>",
-      "8": "Apunta para obtener los fragmentos de Cristalización cercanos. Al dejar de mantener pulsado, dispara la misma cantidad de vidriobalas rosáceas que la que se dispara pulsando una vez",
+      "8": "Apunta para obtener los fragmentos de Cristalización cercanos. Al dejar de mantener pulsado, dispara la misma cantidad de vidriobalas rosáceas que la que se dispara pulsando una vez.",
       "9": "<br/>",
       "10": "Inicialmente, esta habilidad tiene 2 cargas.",
       "11": "<br/>",
@@ -61,10 +61,10 @@
     },
     "skillParams": {
       "0": "Daño básico de vidriobalas rosáceas",
-      "1": "Daño de filo fluyente",
-      "2": "Intervalo de filo fluyente",
-      "3": "TdE",
-      "4": "",
+      "1": "Duración de fragmento de metralla",
+      "2": "Daño de filo fluyente",
+      "3": "Intervalo de filo fluyente",
+      "4": "TdE",
       "5": "",
       "6": "",
       "7": "",

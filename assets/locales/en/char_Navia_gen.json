@@ -2,7 +2,7 @@
   "name": "Navia",
   "title": "???",
   "description": "",
-  "constellationName": "",
+  "constellationName": "Rosa Multiflora",
   "auto": {
     "name": "Blunt Refusal",
     "fields": {
@@ -42,7 +42,7 @@
   "skill": {
     "name": "Ceremonial Crystalshot",
     "description": {
-      "0": "When a character in the party obtains an Elemental Shard created from the Crystallize reaction, Navia will gain 1 charge of Crystal Shrapnel. Navia can hold up to 6 charges of Crystal Shrapnel at once.",
+      "0": "When a character in the party obtains an Elemental Shard created from the Crystallize reaction, Navia will gain 1 Crystal Shrapnel charge. Navia can hold up to 6 charges of Crystal Shrapnel at once. Each time Crystal Shrapnel gain is triggered, the duration of the Shards you have already will be reset.",
       "1": "When she fires, Navia will consume all Cyrstal Shrapnel charges and open her elegant yet lethal Gunbrella, firing multiple Rosula Shardshots that can penetrate opponents, dealing <geo>Geo DMG</geo> to opponents hit.",
       "2": "When 0/1/2/3 or more charges of Crystal Shrapnel are consumed, 5/7/9/11 Rosula Shardshots will be fired respectively. The more Rosula Shardshots that strike a single opponent, the greater the DMG dealt to them. When all 11 Rosula Shardshots strike, they deal 200% of the original amount of DMG.",
       "3": "In addition, when more than 3 charges of Crystal Shrapnel are consumed, every charge consumed beyond those 3 will crease the damage dealt by that shot by an additional 15%.",
@@ -59,10 +59,10 @@
     },
     "skillParams": {
       "0": "Rosula Shardshot Base DMG",
-      "1": "Surging Blade DMG",
-      "2": "Surging Blade Interval",
-      "3": "CD",
-      "4": "",
+      "1": "Crystal Shrapnel Duration",
+      "2": "Surging Blade DMG",
+      "3": "Surging Blade Interval",
+      "4": "CD",
       "5": "",
       "6": "",
       "7": "",
@@ -124,7 +124,7 @@
   "constellation1": {
     "name": "A Lady's Rules for Keeping a Courteous Distance",
     "description": {
-      "0": "Each charge of Crystal Shrapnel consumed when Navia uses <strong>Ceremonial Crystalshot</strong> will restore 2 Energy to her and decrease the CD of <strong>As the Sunlit Sky's Singing Salute</strong> by 1s. Up to 6 Energy can be gained this way, and the CD of Ceremonial Crystalshot can be decreased by up to 3s."
+      "0": "Each charge of Crystal Shrapnel consumed when Navia uses <strong>Ceremonial Crystalshot</strong> will restore 2 Energy to her and decrease the CD of <strong>As the Sunlit Sky's Singing Salute</strong> by 1s. Up to 6 Energy can be gained this way, and the CD of \"As the Sunlit Sky's Singing Salute\" can be decreased by up to 3s."
     }
   },
   "constellation2": {

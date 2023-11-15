@@ -2,7 +2,7 @@
   "name": "Navia",
   "title": "???",
   "description": "",
-  "constellationName": "",
+  "constellationName": "Rosa Multiflora",
   "auto": {
     "name": "Blunt Refusal",
     "fields": {
@@ -42,13 +42,13 @@
   "skill": {
     "name": "Ceremonial Crystalshot",
     "description": {
-      "0": "Saat Karakter dalam party mendapatkan shard dari reaksi Crystallize, Navia akan mendapatkan 1 \"Crystal Sharpnel\", dan maksimum bisa mendapatkan hingga 6 \"Crystal Sharpnel\".",
-      "1": "Saat dilancarkan, Navia akan mengonsumsi semua \"Crystal Sharpnel\" yang dimiliki dan membuka payung senapan elegannya untuk menembakkan beberapa Rosula Crystalbullets yang dapat menembus musuh dan mengakibatkan <geo>Geo DMG</geo>.",
-      "2": "Saat mengonsumsi 0/1/2/3 atau lebih \"Crystal Shrapnel\", maka 5/7/9/11 Rosula Crystalbullets akan ditembakkan. Semakin banyak \"Rosula Crystalbullets\" yang mengenai satu musuh, semakin tinggi pula DMG yang diakibatkan terhadap musuh tersebut. Saat semua 11 \"Rosula Crystalbullets\" mengenai satu target, akan mengakibatkan DMG sebesar 200% dari DMG aslinya.",
-      "3": "Selain itu, saat mengonsumsi lebih dari 3 Crystal Shrapnel, maka setiap Crystal Shrapnel di atas 3, maka DMG tembakan kali ini akan meningkatkan 15% lagi. ",
+      "0": "Saat Karakter dalam party mendapatkan shard dari reaksi Crystallize, Navia akan mendapatkan 1 \"Crystal Sharpnel\", dan maksimum bisa mendapatkan hingga 6 \"Crystal Sharpnel\". Setiap kali mendapatkannya, akan memperbarui durasi \"Crystal Sharpnel\" yang sudah dimiliki.",
+      "1": "Saat dilancarkan, Navia akan mengonsumsi semua \"Crystal Sharpnel\" yang dimiliki dan membuka payung senapan elegannya untuk menembakkan beberapa Rosula Shardshots yang dapat menembus musuh dan mengakibatkan <geo>Geo DMG</geo>.",
+      "2": "Saat mengonsumsi 0/1/2/3 atau lebih \"Crystal Shrapnel\", 5/7/9/11 Rosula Shardshots akan ditembakkan sesuai dengan jumlah yang ditentukan. Semakin banyak \"Rosula Shardshots\" yang mengenai satu musuh, semakin tinggi pula DMG yang diakibatkan terhadap musuh tersebut. Saat semua 11 \"Rosula Shardshots\" mengenai satu target, akan mengakibatkan DMG sebesar 200% dari DMG aslinya.",
+      "3": "Selain itu, saat mengonsumsi lebih dari 3 Crystal Shrapnel, setiap Crystal Shrapnel yang dikonsumsi selain 3 Crystal Shrapnel tersebut akan meningkatkan DMG tembakan kali ini lagi sebesar 15%. ",
       "4": "<br/>",
       "5": "<strong>Mode Tahan</strong>",
-      "6": "Memasuki Mode Membidik dan terus mengumpulkan Elemental Shard dari reaksi Crystallize di sekitar. Saat Mode Tahan selesai, akan menembakkan \"Rosula Cyrstalbullets\" yang sama dengan Mode Tekan.",
+      "6": "Memasuki Mode Membidik dan terus mendapatkan shard dari reaksi Crystallize di sekitar. Saat Mode Tahan selesai, akan menembakkan \"Rosula Shardshots\" yang sama dengan Mode Tekan.",
       "7": "<br/>",
       "8": "Memiliki 2 kali jumlah penggunaan di awal.",
       "9": "<br/>",
@@ -59,10 +59,10 @@
     },
     "skillParams": {
       "0": "DMG Dasar Rosula Crystalbullets",
-      "1": "DMG Surging Blade",
-      "2": "Jeda Surging Blade",
-      "3": "Cooldown",
-      "4": "",
+      "1": "Durasi Crystal Sharpnel",
+      "2": "DMG Surging Blade",
+      "3": "Jeda Surging Blade",
+      "4": "Cooldown",
       "5": "",
       "6": "",
       "7": "",
@@ -106,7 +106,7 @@
   "passive1": {
     "name": "Undisclosed Distribution Channels",
     "description": {
-      "0": "Dalam 4 detik setelah melancarkan <strong>Ceremonial Crystalshot</strong>, DMG yang diakibatkan oleh Normal Attack, Charged Attack, dan Plunging Attack Navia akan dikonversi menjadi <geo>Geo DMG</geo>yang tidak bisa ditimpa Elemental Infusion lainnya. DMG yang diakibatkan oleh Normal Attack, Charged Attack, dan Plunging Attack Navia akan meningkat 40%."
+      "0": "Dalam 4 detik setelah melancarkan <strong>Ceremonial Crystalshot</strong>, DMG yang diakibatkan dari Normal Attack, Charged Attack, dan Plunging Attack oleh Navia akan dikonversi menjadi <geo>Geo DMG</geo> yang tidak bisa ditimpa Elemental Infusion lainnya. DMG yang diakibatkan dari Normal Attack, Charged Attack, dan Plunging Attack oleh Navia akan meningkat 40%."
     }
   },
   "passive2": {
@@ -116,7 +116,7 @@
     }
   },
   "passive3": {
-    "name": "A Transaction with a Painstaking Process",
+    "name": "Painstaking Transaction",
     "description": {
       "0": "Ketika dikirim untuk melakukan ekspedisi di Fontaine selama 20 jam, hadiah yang didapatkan akan bertambah 25%."
     }
@@ -124,7 +124,7 @@
   "constellation1": {
     "name": "A Lady's Rules for Keeping a Courteous Distance",
     "description": {
-      "0": "Saat melancarkan <strong>Ceremonial Crystalshot</strong>, akan memulihkan 2 poin Energy Navia untuk setiap \"Crystal Sharpnel\" yang dikonsumsi dan mengurangi 1 detik dari CD <strong>As the Sunlit Sky's Singing Salute</strong>. Maksimum pemulihan Energy yang bisa didapatkan dengan cara ini adalah 6 poin Energy, dan mengurangi maksimum 3 detik CD dari \"Ceremonial Crystalshot\"."
+      "0": "Saat melancarkan <strong>Ceremonial Crystalshot</strong>, akan memulihkan 2 poin Energy Navia untuk setiap \"Crystal Sharpnel\" yang dikonsumsi dan mengurangi cooldown <strong>As the Sunlit Sky's Singing Salute</strong> selama 1 detik. Maksimum pemulihan Energy yang bisa didapatkan dengan cara ini adalah 6 poin Energy, dan mengurangi cooldown \"As the Sunlit Sky's Singing Salute\" maksimum 3 detik."
     }
   },
   "constellation2": {

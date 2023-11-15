@@ -2,7 +2,7 @@
   "name": "Navia",
   "title": "???",
   "description": "",
-  "constellationName": "",
+  "constellationName": "Rosa Multiflora",
   "auto": {
     "name": "Freimütige Verweigerung",
     "fields": {
@@ -42,7 +42,7 @@
   "skill": {
     "name": "Zeremonieller Kristallschuss",
     "description": {
-      "0": "Wenn eine Figur in der Truppe einen Elementarsplitter erhält, der durch die Reaktion „Kristallisation“ erzeugt wurde, erhält Navia einen „kristallscharfen Splitter“. Navia kann bis zu 6 Splitter ansammeln.",
+      "0": "Wenn eine Figur in der Truppe einen Elementarsplitter erhält, der durch die Reaktion „Kristallisation“ erzeugt wurde, erhält Navia einen „kristallscharfen Splitter“. Navia kann bis zu 6 Splitter ansammeln. Bei jedem Auslösen wird die Wirkungsdauer der vorhandenen „kristallscharfen Splitter“ aktualisiert.",
       "1": "Wenn sie feuert, verbraucht Navia alle „kristallscharfen Splitter“ und öffnet ihren eleganten, aber tödlichen Musketenschirm, der mehrere Rosenkristallkugeln abfeuert, die Gegner durchdringen können und getroffenen Gegnern <geo>Geo-Schaden</geo> zufügen.",
       "2": "Wenn 0/1/2/3 oder mehr „kristallscharfe Splitter“ verbraucht sind, werden 5/7/9/11 Rosenkristallkugeln abgefeuert. Je mehr Rosenkristallkugeln einen Gegner treffen, desto höher ist der verursachte Schaden. Wenn alle 11 Rosenkristallkugeln ein einzelnes Ziel treffen, verursachen sie 200 % des ursprünglichen Schadens.",
       "3": "Wenn mehr als 3 „kristallscharfe Splitter“ verbraucht werden, erhöht jeder weitere „kristallscharfe Splitter“ den von diesem Schuss verursachten Schaden zusätzlich um 15 %.",
@@ -59,10 +59,10 @@
     },
     "skillParams": {
       "0": "Basis-SCH Rosenkristallkugel",
-      "1": "Wogenklinge-SCH",
-      "2": "Wogenklinge-Intervall",
-      "3": "Abklingzeit",
-      "4": "",
+      "1": "Dauer der kristallscharfen Splitter",
+      "2": "Wogenklinge-SCH",
+      "3": "Wogenklinge-Intervall",
+      "4": "Abklingzeit",
       "5": "",
       "6": "",
       "7": "",
@@ -79,7 +79,7 @@
   "burst": {
     "name": "Wie der sich über den klaren Himmel ausbreitende Salutschuss",
     "description": {
-      "0": "Ruft als Chefin der Spina di Rosula einen prächtigen goldenen Salutschuss herbei. Entfesselt ein massives Bombardement auf die Gegner vor sich, das <geo>Geo-Flächenschaden</geo> verursacht und danach eine Zeit lang fortlaufend Feuerunterstützung bietet, die in regelmäßigen Abständen <geo>Geo-Schaden</geo> verursacht.",
+      "0": "Ruft als Präsidentin der Spina di Rosula einen prächtigen goldenen Salutschuss herbei. Entfesselt ein massives Bombardement auf die Gegner vor sich, das <geo>Geo-Flächenschaden</geo> verursacht und danach eine Zeit lang fortlaufend Feuerunterstützung bietet, die in regelmäßigen Abständen <geo>Geo-Schaden</geo> verursacht.",
       "1": "Wenn der Angriff des prächtigen goldenen Salutschusses einen Gegner trifft, erhält Navia 1 „kristallscharfen Splitter“, 2,4 s Abklingzeit.",
       "2": "<br/>",
       "3": "<i>„Der Salutschuss der Spina di Rosula ist eine Vorfeier des erfolgreichen Abschlusses unserer Verhandlungen und wird kurz vor Beginn der Gespräche abgefeuert. Bitte nicht falsch verstehen, er stellt in keiner Weise eine Drohung dar.“</i>"
@@ -106,17 +106,17 @@
   "passive1": {
     "name": "Unbekannte Vertriebskanäle",
     "description": {
-      "0": "4 s lang nach dem Einsatz von <strong>Zeremonieller Kristallschuss</strong> wird der durch Navias Standardangriffe, heftige Schläge und Angriffe aus dem Fall verursachte Schaden in <geo>Geo-Schaden</geo> umgewandelt, der nicht von anderen Elementen überdeckt werden kann. Außerdem wird der durch Navias Standardangriffe, heftige Schläge und Angriffe aus dem Fall verursachte Schaden um 40 % erhöht."
+      "0": "Wandelt den durch Navias Standardangriffe, heftige Schläge und Angriffe aus dem Fall verursachten Schaden 4 s lang nach dem Einsatz von <strong>Zeremonieller Kristallschuss</strong> in <geo>Geo-Schaden</geo> um, der nicht von anderen Elementen überdeckt werden kann. Erhöht außerdem den durch Navias Standardangriffe, heftige Schläge und Angriffe aus dem Fall verursachten Schaden um 40 %."
     }
   },
   "passive2": {
     "name": "Netzwerk der gegenseitigen Unterstützung",
     "description": {
-      "0": "Erhöht für jede <pyro>Pyro-</pyro>/<electro>Elektro-</electro>/<cryo>Kryo-</cryo>/<hydro>Hydro-</hydro>Figur in der Truppe den ANG von Navia um 20 %. 2-fach stapelbar."
+      "0": "Erhöht für jede <pyro>Pyro</pyro>-/<electro>Elektro</electro>-/<cryo>Kryo</cryo>-/<hydro>Hydro</hydro>-Figur in der Truppe den ANG von Navia um 20 %, 2-fach stapelbar."
     }
   },
   "passive3": {
-    "name": "Transaktionen mit sorgfältigen Prozessen",
+    "name": "Sorgfältig durchgeführte Transaktion",
     "description": {
       "0": "Bringt bei 20-stündigen Erkundungsentsendungen in Fontaine 25 % mehr Belohnungen."
     }
@@ -124,7 +124,7 @@
   "constellation1": {
     "name": "Die Regeln einer Dame zur Aufrechterhaltung einer höflichen Distanz",
     "description": {
-      "0": "Stellt Navria für jeden „kristallscharfen Splitter“, der während des Einsetzens von <strong>„Zeremonieller Kristallschuss“</strong> verbraucht wird, 2 Punkte Elementarenergie wieder her und verringert die Abklingzeit von <strong>„Wie der sich über den klaren Himmel ausbreitende Salutschuss“</strong> um 1 s. Bis zu 6 Punkte Elementarenergie können auf diese Weise gewonnen werden und die Abklingzeit von „Zeremonieller Kristallschuss“ kann um bis zu 3 s verringert werden."
+      "0": "Stellt Navria für jeden „kristallscharfen Splitter“, der während des Einsetzens von <strong>„Zeremonieller Kristallschuss“</strong> verbraucht wird, 2 Punkte Elementarenergie wieder her und verringert die Abklingzeit von <strong>„Wie der sich über den klaren Himmel ausbreitende Salutschuss“</strong> um 1 s. Bis zu 6 Punkte Elementarenergie können auf diese Weise gewonnen werden und die Abklingzeit von „Wie der sich über den klaren Himmel ausbreitende Salutschuss“ kann um bis zu 3 s verringert werden."
     }
   },
   "constellation2": {

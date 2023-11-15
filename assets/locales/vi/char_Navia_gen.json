@@ -42,7 +42,7 @@
   "skill": {
     "name": "Đạn Pha Lê Thanh Lịch",
     "description": {
-      "0": "Khi nhân vật trong đội nhận được mảnh tinh thể sinh ra từ phản ứng Kết Tinh, sẽ tích tụ cho Navia 1 \"Mảnh Đạn Pha Lê\", tối đa tích tụ 6 Mảnh Đạn Pha Lê.",
+      "0": "Khi nhân vật trong đội nhận được mảnh tinh thể sinh ra từ phản ứng Kết Tinh, sẽ tích tụ cho Navia 1 \"Mảnh Đạn Pha Lê\", tối đa tích tụ 6 Mảnh Đạn Pha Lê. Mỗi lần tích tụ Mảnh Đạn Pha Lê sẽ làm mới thời gian duy trì của chúng.",
       "1": "Khi thi triển, Navia sẽ tiêu hao toàn bộ Mảnh Đạn Pha Lê để triển khai Dù Cán Súng thanh lịch và chết chóc, bắn ra một loạt \"Đạn Pha Lê Rosula\" xuyên thấu kẻ địch, gây <geo>Sát Thương Nguyên Tố Nham</geo> cho kẻ địch trúng phải.",
       "2": "Tiêu hao 0/1/2/3 Mảnh Đạn Pha Lê trở lên, sẽ bắn ra 5/7/9/11 viên Đạn Pha Lê Rosula. Số Đạn Pha Lê Rosula trúng cùng một kẻ địch càng nhiều thì sát thương gây ra cho kẻ địch đó càng cao; Khi 11 viên Đạn Pha Lê Rosula cùng trúng một mục tiêu, sẽ gây ra lượng sát thương bằng 200% so với mức ban đầu.",
       "3": "Ngoài ra, khi tiêu hao hơn 3 Mảnh Đạn Pha Lê, thì mỗi Mảnh Đạn Pha Lê vượt quá 3 trong lần đó sẽ khiến sát thương gây ra tăng thêm 15%.",
@@ -59,10 +59,10 @@
     },
     "skillParams": {
       "0": "Sát Thương Cơ Bản Đạn Pha Lê Rosula",
-      "1": "Sát Thương Lưỡi Dao Nổi Sóng",
-      "2": "Giãn Cách Lưỡi Dao Nổi Sóng",
-      "3": "CD",
-      "4": "",
+      "1": "Thời Gian Duy Trì Mảnh Đạn Pha Lê",
+      "2": "Sát Thương Lưỡi Dao Nổi Sóng",
+      "3": "Giãn Cách Lưỡi Dao Nổi Sóng",
+      "4": "CD",
       "5": "",
       "6": "",
       "7": "",
@@ -124,7 +124,7 @@
   "constellation1": {
     "name": "Cảm Nhận Cự Ly Của Thiếu Nữ",
     "description": {
-      "0": "Khi thi triển <strong>Đạn Pha Lê Thanh Lịch</strong>, mỗi tiêu hao 1 \"Mảnh Đạn Pha Lê\" đều sẽ hồi phục 2 điểm Năng Lượng Nguyên Tố cho Navia, đồng thời khiến thời gian chờ của kỹ năng <strong>Pháo Mừng Vang Trời</strong> giảm 1s. Tối đa hồi phục 6 điểm Năng Lượng Nguyên Tố và khiến thời gian chờ của \"Đạn Pha Lê Thanh Lịch\" giảm 3s bằng cách này."
+      "0": "Khi thi triển <strong>Đạn Pha Lê Thanh Lịch</strong>, mỗi tiêu hao 1 \"Mảnh Đạn Pha Lê\" đều sẽ hồi phục 2 điểm Năng Lượng Nguyên Tố cho Navia, đồng thời khiến thời gian chờ của kỹ năng <strong>Pháo Mừng Vang Trời</strong> giảm 1s. Tối đa hồi phục 6 điểm Năng Lượng Nguyên Tố và khiến thời gian chờ của \"Pháo Mừng Vang Trời\" giảm 3s bằng cách này."
     }
   },
   "constellation2": {
