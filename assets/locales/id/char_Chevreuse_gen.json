@@ -1,6 +1,6 @@
 {
   "name": "Chevreuse",
-  "title": "???",
+  "title": "Executor of Justice",
   "description": "",
   "constellationName": "Sclopetum Ensiferum",
   "auto": {
@@ -48,7 +48,7 @@
       "4": "Memasuki Mode Membidik dan mengunci target dalam bidang penglihatannya untuk menembakkan tembakan pencegat__ dengan akurat. Jika Chevreuse memiliki \"Overcharged Ball\", maka akan menembakkan \"Overcharged Ball\" dan mengakibatkan <pyro>Pyro DMG</pyro> yang memiliki radius serangan yang lebih luas dan DMG yang lebih tinggi.",
       "5": "Chevreuse akan mendapatkan 1 Overcharged Ball saat Karakter dalam party di sekitar memicu Reaksi Overloaded. Hanya 1 Overcharged Ball yang dapat tercipta dalam waktu bersamaan.",
       "6": "<br/>",
-      "7": "Beberapa saat setelah Chevreuse menembak, dia akan terus memulihkan HP Karakter aktif. Jumlah pemulihan didasarkan pada Max HP Chevreuse.",
+      "7": "Beberapa saat setelah Chevreuse menembak, dia akan terus memulihkan HP Karakter aktifmu. Jumlah pemulihan didasarkan pada Max HP Chevreuse.",
       "8": "<br/>",
       "9": "<strong>Arkhe: Ousia</strong>",
       "10": "Setiap beberapa saat setelah \"Short-Range Rapid Interdiction Fire\" mengenai musuh, Chevreuse akan melancarkan Surging Blade yang mengakibatkan Ousia-aligned <pyro>Pyro DMG</pyro>.",
@@ -77,13 +77,13 @@
   "burst": {
     "name": "Ring of Bursting Grenades",
     "description": {
-      "0": "Chevreuse menggunakan senapannya untuk menembakkan granat terhadap musuh dan mengakibatkan <pyro>Pyro DMG Area</pyro>. Setelah mengenai musuh, akan terpecah menjadi beberapa Secondary Explosive Shell.",
+      "0": "Chevreuse menggunakan senapannya untuk menembakkan Explosive Grenade terhadap musuh dan mengakibatkan <pyro>Pyro DMG Area</pyro>. Setelah mengenai musuh, Explosive Grenade akan terpecah menjadi beberapa Secondary Explosive Shell.",
       "1": "Secondary Explosive Shell__ akan meledak setelah jeda singkat dan mengakibatkan <pyro>Pyro DMG</pyro> terhadap musuh di sekitar.",
       "2": "<br/>",
       "3": "<i>\"Secara teorinya sih, ledakan berbentuk persegi akan jauh lebih efisien dalam menghancurkan formasi musuh. Sayangnya, struktur gelombang ledakan kebanyakan bentuknya bulat seperti kue. Jadi granat terbangnya cuma bisa disusun seperti dekorasi buah yang mengelilingi tepi kue.\"</i>"
     },
     "skillParams": {
-      "0": "DMG Grapeshot Shell",
+      "0": "DMG Explosive Grenade",
       "1": "DMG Secondary Explosive Shell",
       "2": "Cooldown",
       "3": "Konsumsi Energy",
@@ -105,7 +105,8 @@
     "name": "Vanguard's Coordinated Tactics",
     "description": {
       "0": "Saat seluruh anggota party adalah Karakter <pyro>Pyro</pyro> dan <electro>Electro</electro>, serta terdapat minimal 1 Karakter Pyro dan 1 Karakter Electro:",
-      "1": "Chevreuse akan memberikan \"Coordinated Tactics\" kepada Karakter dalam party di sekitarnya: Setelah Karakter memicu reaksi Overloaded, <pyro>Pyro</pyro> dan <electro>Electro</electro> RES milik target yang terkena akan berkurang 40% selama 6 detik."
+      "1": "Chevreuse akan memberikan \"Coordinated Tactics\" kepada Karakter dalam party di sekitarnya: Setelah Karakter memicu reaksi Overloaded, <pyro>Pyro</pyro> dan <electro>Electro</electro> RES milik target yang terkena akan berkurang 40% selama 6 detik.",
+      "2": "Saat jenis elemen Karakter di dalam party tidak cukup untuk memicu Talenta Pasif, maka efek Coordinated Tactics yang sudah dimiliki akan dihapus."
     }
   },
   "passive2": {
@@ -124,7 +125,7 @@
   "constellation1": {
     "name": "Stable Front Line's Resolve",
     "description": {
-      "0": "Saat Karakter yang berada dalam status \"Coordinated Tactics\" (tidak termasuk Chevreuse sendiri) memicu Reaksi Overloaded, akan memulihkan 6 Energy. Efek ini dapat terpicu sekali setiap 10 detik.",
+      "0": "Saat Karakter aktif yang berada dalam status \"Coordinated Tactics\" (tidak termasuk Chevreuse sendiri) memicu Reaksi Overloaded terhadap musuh, akan memulihkan 6 Energy. Efek ini dapat terpicu sekali setiap 10 detik.",
       "1": "Harus membuka Talenta Pasif \"Vanguard's Coordinated Tactics\" terlebih dahulu."
     }
   },

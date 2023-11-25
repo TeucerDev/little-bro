@@ -1,6 +1,6 @@
 {
   "name": "Navia",
-  "title": "???",
+  "title": "Leiterin der leuchtenden Rose",
   "description": "",
   "constellationName": "Rosa Multiflora",
   "auto": {
@@ -53,7 +53,7 @@
       "8": "Kann anfänglich 2-mal angewendet werden.",
       "9": "<br/>",
       "10": "<strong>Arkhe: Ousia</strong>",
-      "11": "Navia beschwört in regelmäßigen Abständen beim Schuss mit ihrem Musketenschirm eine Wogenklinge, die mit Ousia versehenen <pyro>Geo-Schaden</pyro> verursacht.",
+      "11": "Navia beschwört in regelmäßigen Abständen beim Schuss mit ihrem Musketenschirm eine Wogenklinge, die mit Ousia versehenen <geo>Geo-Schaden</geo> verursacht.",
       "12": "<br/>",
       "13": "<i>„Ein wesentlicher Bestandteil der Etikette ist es, den angemessenen Abstand zu denjenigen zu wahren, die auf Distanz gehalten werden sollen. Natürlich gibt es viele Möglichkeiten, dies zu tun ...“</i>"
     },
@@ -77,12 +77,12 @@
     }
   },
   "burst": {
-    "name": "Wie der sich über den klaren Himmel ausbreitende Salutschuss",
+    "name": "Wie die sich über den klaren Himmel ausbreitende Ehrensalve",
     "description": {
-      "0": "Ruft als Präsidentin der Spina di Rosula einen prächtigen goldenen Salutschuss herbei. Entfesselt ein massives Bombardement auf die Gegner vor sich, das <geo>Geo-Flächenschaden</geo> verursacht und danach eine Zeit lang fortlaufend Feuerunterstützung bietet, die in regelmäßigen Abständen <geo>Geo-Schaden</geo> verursacht.",
-      "1": "Wenn der Angriff des prächtigen goldenen Salutschusses einen Gegner trifft, erhält Navia 1 „kristallscharfen Splitter“, 2,4 s Abklingzeit.",
+      "0": "Schießt als Präsidentin der Spina di Rosula eine prächtige goldene Ehrensalve ab. Entfesselt ein massives Bombardement auf die Gegner vor sich, das <geo>Geo-Flächenschaden</geo> verursacht und danach eine Zeit lang fortlaufend Feuerunterstützung bietet, die in regelmäßigen Abständen in der Nähe befindlichen Gegnern <geo>Geo-Schaden</geo> zufügt.",
+      "1": "Wenn der Angriff der prächtigen goldenen Ehrensalve einen Gegner trifft, erhält Navia 1 „kristallscharfen Splitter“, 2,4 s Abklingzeit.",
       "2": "<br/>",
-      "3": "<i>„Der Salutschuss der Spina di Rosula ist eine Vorfeier des erfolgreichen Abschlusses unserer Verhandlungen und wird kurz vor Beginn der Gespräche abgefeuert. Bitte nicht falsch verstehen, er stellt in keiner Weise eine Drohung dar.“</i>"
+      "3": "<i>„Die Ehrensalve der Spina di Rosula ist eine Vorfeier des erfolgreichen Abschlusses unserer Verhandlungen und wird kurz vor Beginn der Gespräche abgefeuert. Bitte nicht falsch verstehen, sie stellt in keiner Weise eine Drohung dar.“</i>"
     },
     "skillParams": {
       "0": "Fähigkeits-SCH",
@@ -124,14 +124,14 @@
   "constellation1": {
     "name": "Die Regeln einer Dame zur Aufrechterhaltung einer höflichen Distanz",
     "description": {
-      "0": "Stellt Navria für jeden „kristallscharfen Splitter“, der während des Einsetzens von <strong>„Zeremonieller Kristallschuss“</strong> verbraucht wird, 2 Punkte Elementarenergie wieder her und verringert die Abklingzeit von <strong>„Wie der sich über den klaren Himmel ausbreitende Salutschuss“</strong> um 1 s. Bis zu 6 Punkte Elementarenergie können auf diese Weise gewonnen werden und die Abklingzeit von „Wie der sich über den klaren Himmel ausbreitende Salutschuss“ kann um bis zu 3 s verringert werden."
+      "0": "Stellt Navia für jeden „kristallscharfen Splitter“, der während des Einsetzens von <strong>„Zeremonieller Kristallschuss“</strong> verbraucht wird, 2 Punkte Elementarenergie wieder her und verringert die Abklingzeit von <strong>„Wie die sich über den klaren Himmel ausbreitende Ehrensalve“</strong> um 1 s. Bis zu 6 Punkte Elementarenergie können auf diese Weise gewonnen werden und die Abklingzeit von „Wie die sich über den klaren Himmel ausbreitende Ehrensalve“ kann um bis zu 3 s verringert werden."
     }
   },
   "constellation2": {
     "name": "Das Streben der Chefin nach dem Sieg",
     "description": {
-      "0": "Erhöht für jeden „kristallscharfen Splitter“, der während des Einsetzens von <strong>„Zeremonieller Kristallschuss“</strong> verbraucht wird, die KT des diesmaligen „Zeremonieller Kristallschuss“ um 8 %, aber höchstens um 24 %.",
-      "1": "Löst, wenn der Schuss von „Zeremonieller Kristallschuss“ einen Gegner trifft, zusätzlich einen Schuss der Feuerunterstützung von <strong>Wie der sich über den klaren Himmel ausbreitende Salutschuss</strong> in der Nähe des getroffenen Gegners aus. Höchstens eine solche Feuerunterstützung kann jedes Mal ausgelöst werden, wenn „Zeremonieller Kristallschuss“ verwendet wird, und der auf diese Weise durch „Feuerunterstützung“ verursachte Schaden wird als Schaden der Spezialfähigkeit betrachtet."
+      "0": "Erhöht für jeden „kristallscharfen Splitter“, der während des Einsetzens von <strong>„Zeremonieller Kristallschuss“</strong> verbraucht wird, die KT für die diesmalige Anwendung von „Zeremonieller Kristallschuss“ um 8 %. Auf diese Weise können die KT um bis zu 24 % erhöht werden.",
+      "1": "Löst, wenn der Schuss von „Zeremonieller Kristallschuss“ einen Gegner trifft, zusätzlich einen Schuss der Feuerunterstützung von <strong>„Wie die sich über den klaren Himmel ausbreitende Ehrensalve“</strong> in der Nähe des getroffenen Gegners aus. Höchstens eine solche Feuerunterstützung kann jedes Mal ausgelöst werden, wenn „Zeremonieller Kristallschuss“ verwendet wird, und der auf diese Weise durch „Feuerunterstützung“ verursachte Schaden wird als Schaden der Spezialfähigkeit betrachtet."
     }
   },
   "constellation3": {
@@ -144,13 +144,13 @@
   "constellation4": {
     "name": "Die Eidverpflichtete kapituliert nie",
     "description": {
-      "0": "Verringert, wenn <strong>Wie der sich über den klaren Himmel ausbreitende Salutschuss</strong> einen Gegner trifft, dessen <geo>Geo-WDS</geo> 8 s lang um 20 %."
+      "0": "Verringert, wenn <strong>„Wie die sich über den klaren Himmel ausbreitende Ehrensalve“</strong> einen Gegner trifft, dessen <geo>Geo-WDS</geo> 8 s lang um 20 %."
     }
   },
   "constellation5": {
     "name": "Entschlossene Verhandlungen der Unterhändlerin",
     "description": {
-      "0": "Erhöht die Stufe der Fähigkeit <strong>Wie der sich über den klaren Himmel ausbreitende Salutschuss</strong> um 3.",
+      "0": "Erhöht die Stufe der Fähigkeit <strong>Wie die sich über den klaren Himmel ausbreitende Ehrensalve</strong> um 3.",
       "1": "Höchststufe 15."
     }
   },

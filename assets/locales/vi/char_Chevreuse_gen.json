@@ -1,6 +1,6 @@
 {
   "name": "Chevreuse",
-  "title": "???",
+  "title": "Người Thực Thi Công Lý",
   "description": "",
   "constellationName": "Cung Súng Kiếm",
   "auto": {
@@ -48,7 +48,7 @@
       "4": "Tiến hành ngắm chuẩn, khóa một kẻ địch trong tầm ngắm để bắn một phát đánh chặn chính xác; Nếu Chevreuse có \"Đầu Đạn Quá Tải\" thì sẽ chuyển thành bắn Đầu Đạn Quá Tải đó để gây <pyro>Sát Thương Nguyên Tố Hỏa</pyro> lớn hơn trong phạm vi rộng hơn.",
       "5": "Chevreuse sẽ nhận 1 Đầu Đạn Quá Tải khi nhân vật trong đội gần đó kích hoạt phản ứng Quá Tải, tối đa chỉ sở hữu 1 Đầu Đạn Quá Tải cùng lúc.",
       "6": "<br/>",
-      "7": "Trong một thời gian ngắn sau khi Chevreuse bắn sẽ liên tục hồi phục HP cho nhân vật trong trận hiện tại, lượng hồi phục căn cứ vào giới hạn HP của Chevreuse.",
+      "7": "Trong một thời gian ngắn sau khi Chevreuse bắn sẽ liên tục hồi phục HP cho nhân vật bản thân trong trận hiện tại, lượng hồi phục căn cứ vào giới hạn HP của Chevreuse.",
       "8": "<br/>",
       "9": "<strong>Sức Mạnh Nền Tảng: Ousia</strong>",
       "10": "Mỗi cách một khoảng thời gian, \"Đánh Chặn Nhanh Tầm Gần\" của Chevreuse khi bắn trúng sẽ triệu hồi Lưỡi Dao Nổi Sóng, gây <pyro>Sát Thương Nguyên Tố Hỏa</pyro> thuộc tính Ousia.",
@@ -105,7 +105,8 @@
     "name": "Chiến Thuật Phối Hợp Tiên Phong",
     "description": {
       "0": "Khi loại nguyên tố của tất cả nhân vật trong đội là <pyro>Hỏa</pyro> hoặc <electro>Lôi</electro>, đồng thời có ít nhất một nhân vật nguyên tố Hỏa và một nguyên tố Lôi trong đó:",
-      "1": "Chevreuse sẽ cung cấp hiệu quả \"Chiến Thuật Phối Hợp\" cho nhân vật trong đội gần đó: Sau khi nhân vật kích hoạt phản ứng Quá Tải, sẽ khiến kẻ địch chịu ảnh hưởng bởi lần phản ứng này giảm Kháng Nguyên Tố <pyro>Hỏa</pyro> và <electro>Lôi</electro> đi 40% trong 6s."
+      "1": "Chevreuse sẽ cung cấp hiệu quả \"Chiến Thuật Phối Hợp\" cho nhân vật trong đội gần đó: Sau khi nhân vật kích hoạt phản ứng Quá Tải, sẽ khiến kẻ địch chịu ảnh hưởng bởi lần phản ứng này giảm Kháng Nguyên Tố <pyro>Hỏa</pyro> và <electro>Lôi</electro> đi 40% trong 6s.",
+      "2": "Khi loại nguyên tố của nhân vật trong đội hiện tại không phù hợp với điều kiện thiên phú, sẽ xóa đi hiệu quả \"Chiến Thuật Phối Hợp\" đã có."
     }
   },
   "passive2": {
@@ -124,14 +125,14 @@
   "constellation1": {
     "name": "Sách Lược Ổn Định Trận Hình",
     "description": {
-      "0": "Nhân vật trong trạng thái \"Chiến Thuật Phối Hợp\" (Không bao gồm bản thân Chevreuse) khi kích hoạt phản ứng Quá Tải sẽ hồi phục 6 điểm Năng Lượng Nguyên Tố. Hiệu quả này mỗi 10s tối đa kích hoạt một lần.",
+      "0": "Nhân vật trong trận có trạng thái \"Chiến Thuật Phối Hợp\" (Không bao gồm bản thân Chevreuse) khi kích hoạt phản ứng Quá Tải lên kẻ địch sẽ hồi phục 6 điểm Năng Lượng Nguyên Tố. Hiệu quả này mỗi 10s tối đa kích hoạt một lần.",
       "1": "Cần mở khóa thiên phú \"Chiến Thuật Phối Hợp Tiên Phong\"."
     }
   },
   "constellation2": {
     "name": "Phương Pháp Đánh Úp Dẫn Nổ",
     "description": {
-      "0": "Lần Nhấn Giữ <strong>Đánh Chặn Nhanh Tầm Gần</strong> khi bắn trúng, sẽ kích hoạt 2 lần nổ lan ở vị trí trúng phải. Mỗi lần nổ sẽ gây <pyro>Sát Thương Nguyên Tố Hỏa</pyro> tương đương với 120% tấn công của Chevreuse. Hiệu quả này mỗi 10s tối đa kích hoạt 1 lần, sát thương gây ra bởi cách thức này sẽ được xem là sát thương Kỹ Năng Nguyên Tố."
+      "0": "Nhấn Giữ thi triển <strong>Đánh Chặn Nhanh Tầm Gần</strong> khi bắn trúng, sẽ kích hoạt 2 lần nổ lan ở vị trí trúng phải. Mỗi lần nổ sẽ gây <pyro>Sát Thương Nguyên Tố Hỏa</pyro> tương đương với 120% tấn công của Chevreuse. Hiệu quả này mỗi 10s tối đa kích hoạt 1 lần, sát thương gây ra bởi cách thức này sẽ được xem là sát thương Kỹ Năng Nguyên Tố."
     }
   },
   "constellation3": {

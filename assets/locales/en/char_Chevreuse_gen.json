@@ -1,6 +1,6 @@
 {
   "name": "Chevreuse",
-  "title": "???",
+  "title": "Executor of Justice",
   "description": "",
   "constellationName": "Sclopetum Ensiferum",
   "auto": {
@@ -46,12 +46,12 @@
       "2": "<br/>",
       "3": "<strong>Hold</strong>",
       "4": "Enter Aiming Mode, locking a target in her sights to fire a precise interdiction shot. If Chevreuse has an Overcharged Ball, then she will fire the Overcharged Ball instead, dealing greater <pyro>Pyro DMG</pyro> in a larger area.",
-      "5": "Chevreuse gains 1 Overcharged Ball every time a nearby character in the party triggers an Overloaded reaction, and can have up to 1 Overcharged Ball at a time.",
+      "5": "Chevreuse gains 1 Overcharged Ball every time a nearby party member triggers an Overloaded reaction, and can have up to 1 Overcharged Ball at a time.",
       "6": "<br/>",
-      "7": "For a short duration after Chevreuse fires a shot, she will continuously restore HP to the active character on the field. The amount healed is based on her Max HP.",
+      "7": "For a short duration after Chevreuse fires a shot, she will continuously restore HP to your active character on the field. The amount healed is based on her Max HP.",
       "8": "<br/>",
       "9": "<strong>Arkhe: Ousia</strong>",
-      "10": "Periodically, after Chevreuse's Short-Range Rapid Interdiction Fire hits, a Surging Blade will be called forth that deals ousia-aligned <pyro>Pyro DMG</pyro>.",
+      "10": "Periodically, after Chevreuse's Short-Range Rapid Interdiction Fire hits, a Surging Blade will be called forth that deals Ousia-aligned <pyro>Pyro DMG</pyro>.",
       "11": "<br/>",
       "12": "<i>\"Actually, training regulations only had the phrase \"interdiction fire,\" but the protagonist of this novel believes that even how stylish your terminology is can affect how motivated your troops are, which can put your opponents on the back foot right from the get-go... I think that's a good point, so I changed the regulations!\"</i>"
     },
@@ -105,7 +105,8 @@
     "name": "Vanguard's Coordinated Tactics",
     "description": {
       "0": "When the Elemental Type of all party members is <pyro>Pyro</pyro> or <electro>Electro</electro> and there is at least one Pyro and one Electro Elemental Type each in the party:",
-      "1": "Chevreuse grants \"Coordinated Tactics\" to nearby party members: After a character triggers the Overloaded reaction, the <pyro>Pyro</pyro> and <electro>Electro</electro> RES of the opponent(s) affected by this Overloaded reaction will be decreased by 40% for 6s."
+      "1": "Chevreuse grants \"Coordinated Tactics\" to nearby party members: After a character triggers the Overloaded reaction, the <pyro>Pyro</pyro> and <electro>Electro</electro> RES of the opponent(s) affected by this Overloaded reaction will be decreased by 40% for 6s.",
+      "2": "The \"Coordinated Tactics\" effect will be removed when the Elemental Types of the characters in the party do not meet the basic requirements for the Passive Talent."
     }
   },
   "passive2": {
@@ -124,7 +125,7 @@
   "constellation1": {
     "name": "Stable Front Line's Resolve",
     "description": {
-      "0": "When characters with the \"Coordinated Tactics\" status (not including Chevreuse herself) trigger the Overloaded reaction, they will recover 6 Energy. This effect can be triggered once every 10s.",
+      "0": "When active characters with the \"Coordinated Tactics\" status (not including Chevreuse herself) trigger the Overloaded reaction on opponents, they will recover 6 Energy. This effect can be triggered once every 10s.",
       "1": "You must first unlock the Passive Talent \"Vanguard's Coordinated Tactics.\""
     }
   },

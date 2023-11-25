@@ -399,11 +399,17 @@
   },
   "TheaterTickets": {
     "name": "Coupon de théâtre",
-    "description": {}
+    "description": {
+      "0": "Un coupon de théâtre très raffiné reçu en souvenir de votre participation aux différentes activités du Festival cinématographique de Fontinalia. On raconte que ce coupon est fabriqué à l'aide d'un procédé unique qui lui donne une texture similaire à une pellicule. Parfaitement translucide à la lumière, il rappelle très fort des fragments de gemme...",
+      "1": "Utilisez-le pendant l'événement « Mousquets et Roses » pour débloquer de nombreuses récompenses."
+    }
   },
   "FilmForFun": {
     "name": "Pellicule fun",
-    "description": {}
+    "description": {
+      "0": "Des pièces commémoratives en forme de pellicule. Ces souvenirs peuvent être gagnés en participant au Festival cinématographique de Fontinalia. Bien qu'elles ne puissent pas être visionnées, leur forme unique ravira les gens en leur rappelant ce qu'ils ont vu pendant le festival...",
+      "1": "Échangez-les pendant l'événement « Mousquets et Roses » pour obtenir des objets de valeur."
+    }
   },
   "Primogem": {
     "name": "Primo-gemme",
@@ -13768,7 +13774,7 @@
   "SuspiciousCassoulet": {
     "name": "Cassoulet (suspect)",
     "description": {
-      "0": "Une sorte de ragoût venu de la campagne. Bien que l'apparence semble correcte, le manger vous fait remarquer un léger goût de brûlé, avant de réaliser que la couche inférieure d'ingrédients a été si gravement brûlée qu'elle a complètement fusionné avec la casserole. Beurk... Il faudrait rappeler au chef de remuer sa casserole de temps en temps pendant la cuisson..."
+      "0": "Une sorte de ragoût venu de la campagne. Bien que l'apparence semble correcte, le manger vous fait remarquer un léger goût de brûlé, avant de réaliser que la couche inférieure d'ingrédients a été si gravement brûlée qu'elle a complètement fusionné avec la casserole. Beurk... Il faudra remuer sa casserole de temps en temps pendant la cuisson..."
     }
   },
   "Cassoulet": {
@@ -13863,35 +13869,51 @@
   },
   "SuspiciousFeastOs": {
     "name": "Rondélice (suspect)",
-    "description": {}
+    "description": {
+      "0": "Des délices frits dorés. Il a fallu une éternité pour éliminer l'excès d'huile et lorsque vous les goûtez, vous remarquez immédiatement à quel point ils ont ramolli et perdu tout leur croquant. Qui sait, peut-être que les goélands de la côte en voudront ?"
+    }
   },
   "FeastOs": {
     "name": "Rondélice",
-    "description": {}
+    "description": {
+      "0": "Des régals frits dorés. La purée de poulet est façonnée en forme circulaire avec les rondelles d'oignon. La purée de poisson et la purée de pommes de terre sont façonnées de la même façon. Plongez ensuite le tout dans l'huile bouillante et les rondélices prendront forme avec le grésillement de l'huile."
+    }
   },
   "DeliciousFeastOs": {
     "name": "Rondélice (délicieux)",
-    "description": {}
+    "description": {
+      "0": "Des régals frits dorés. Fraîchement sortis de l'huile, leur arôme met immédiatement l'eau à la bouche. La rondelle de poulet et d'oignon dans la main gauche, et la rondelle de poisson et de purée de pomme de terre dans la droite. Légers et croustillants, les Rondélices sauront ravir vos papilles."
+    }
   },
   "SuspiciousRainbowMacarons": {
     "name": "Macarons arc-en-ciel (suspects)",
-    "description": {}
+    "description": {
+      "0": "De petits gâteaux multicolores de forme ronde. Le premier donne l'impression d'être vide. Le deuxième est un peu déformé, et le troisième est complètement raté... Comme on peut l'attendre d'un dessert de Fontaine, ces gâteaux sont subtils et complexes. Il y a encore du travail pour maîtriser cette recette."
+    }
   },
   "RainbowMacarons": {
     "name": "Macarons arc-en-ciel",
-    "description": {}
+    "description": {
+      "0": "De petits gâteaux multicolores de forme ronde. Il y a un dicton à Fontaine : un dessert sans macarons, c'est comme de l'eau privée de sa source. C'est l'un des desserts les plus emblématiques de la nation de l'eau. Des chefs pâtissiers aux amateurs dans la rue, tout le monde en connait la recette par cœur."
+    }
   },
   "DeliciousRainbowMacarons": {
     "name": "Macarons arc-en-ciel (délicieux)",
-    "description": {}
+    "description": {
+      "0": "De petits gâteaux multicolores de forme ronde. La coque fine et croustillante contient une garniture dense mais moelleuse en parfaite harmonie. Essayez-en un, c'est comme si un chaton ronronnait sur votre poitrine. C'est bien simple, personne ne peut résister à cette expérience enivrante."
+    }
   },
   "SinTheKindThatDoesntNeedToBeDealtWith": {
-    "name": "",
-    "description": {}
+    "name": "Péché : Dont il est inutile de s’occuper",
+    "description": {
+      "0": "La spécialité de Chevreuse. D'un point de vue diététique, c'est un « péché » absolu. Dans son rôle de capitaine de la patrouille de surveillance spéciale, Chevreuse ne confierait jamais la tâche importante de combattre le mal à quelqu'un d'autre sans raison valable... C'est une question d'éthique professionnelle et personnelle. Cependant, partager ce fardeau avec quelqu'un de confiance est un... bon moyen d'évacuer le stress."
+    }
   },
   "PickWhatYouLike": {
-    "name": "",
-    "description": {}
+    "name": "« À vous de choisir ! »",
+    "description": {
+      "0": "La spécialité de Navia. « Allez, à vous de choisir ! » Au son de cette voix familière et joyeuse, votre regard se pose sur l'étagère à desserts à deux étages, et sur les macarons soigneusement disposés dessus avec leurs différents motifs. Tout simplement merveilleux... Quelle tête ferait Navia si vous décidiez de tous les prendre ?"
+    }
   },
   "RecipeItem": {
     "name": "Ingrédient",
@@ -20195,7 +20217,10 @@
   },
   "AutumnsGift": {
     "name": "Cadeau d'Automne",
-    "description": {}
+    "description": {
+      "0": "Un jouet musical très apprécié des enfants que l'on peut acheter à la Maison des curiosités de Bertin. Celui-ci semble avoir été acheté il y a un certain temps déjà, et ce n'est d'ailleurs plus le modèle le plus récent de la boutique.",
+      "1": "Les cadeaux sont faits pour être offerts, et s'ils n'arrivent pas à leur destinataire initial, ils devraient au moins faire plaisir à quelqu'un qui saura les apprécier."
+    }
   },
   "MysteriousXenochromaticCrystal": {
     "name": "Cristal xénochromatique mystérieux",
@@ -20207,7 +20232,9 @@
   },
   "RecruitmentNotice": {
     "name": "Note de recrutement",
-    "description": {}
+    "description": {
+      "0": "Instructions rédigées par Benoît Leroy. Une carte a été aimablement jointe à l'adresse."
+    }
   },
   "MapFragment": {
     "name": "Morceau de carte",
@@ -20250,12 +20277,17 @@
     "description": {}
   },
   "ShootingPracticeOpticalLenses": {
-    "name": "",
-    "description": {}
+    "name": "Lentille optique d'entraînement au tir",
+    "description": {
+      "0": "Ce dispositif optique, fourni par Turenna de la patrouille de surveillance spéciale, semble utiliser un principe de représentation difficile à comprendre pour monsieur tout le monde. Le modèle de terrain du « Tir à mille pas de moins d'une minute d'arc » peut être utilisé pour simuler des scénarios dans lesquels on tire au mousquet sur des ennemis.",
+      "1": "Bien que ce dispositif ne réponde pas aux critères d'entraînement des membres de la patrouille de surveillance spéciale, il permet de susciter l'intérêt du public pour le mousquet et de lui faire découvrir son potentiel au service d'une juste cause."
+    }
   },
   "HelpMePlease": {
-    "name": "",
-    "description": {}
+    "name": "À l'aide !",
+    "description": {
+      "0": "Une note à lire."
+    }
   },
   "BracarisGeneralStoreReceipt": {
     "name": "Reçu de l'épicerie de Bracari",
@@ -20264,8 +20296,10 @@
     }
   },
   "PackageForTheLeroyFamily": {
-    "name": "",
-    "description": {}
+    "name": "Paquet pour la famille Leroy",
+    "description": {
+      "0": "Pip, le livreur de journaux, a mis dans ce paquet tous les journaux que la famille Leroy a commandés mais pas récupérés durant cette période."
+    }
   },
   "TearsAmongTheStars": {
     "name": "Larme parmi les étoiles",
@@ -21775,6 +21809,14 @@
     "description": {
       "0": "Matériau de raffinement spécial pour la Lame du Narzissenkreuz.",
       "1": "Les conques étaient souvent des matériaux privilégiés dans l'ancienne civilisation fontainoise pour fabriquer des instruments rituels, et les onguents sacrés contenus dans cette conque choisie comme calice sanctifié ont finalement émergé. Symboliquement, ce calice est la parole primordiale, les huiles sont la volonté aiguisée et la sainte lame elle-même est la raison qui transperce tout."
+    }
+  },
+  "SuperDuperInvincibleShiningSparklyMagicCrystal": {
+    "name": "Cristal magique scintillant super-méga invincible",
+    "description": {
+      "0": "Objet permettant d'affiner la « Méga épée magique du suzerain ultime ».",
+      "1": "Il permet d'exaucer et de combiner de nombreux vœux (et de grandes découpes en carton). C'est ainsi qu'est créé un super-méga pouvoir mystérieux.",
+      "2": "Bien qu'il existe des objets similaires (ou identiques) en vente à la Galerie Damoville, il y a (sans doute) une différence qualitative entre les deux. Alors ne vous y trompez pas."
     }
   },
   "FalconsDance": {
@@ -23338,8 +23380,11 @@
     }
   },
   "TravelNotesTimeInscribed": {
-    "name": "",
-    "description": {}
+    "name": "PB - Marque du temps",
+    "description": {
+      "0": "Thème.",
+      "1": "Qui sait combien de temps il faudra avant que l'art cinématographique de Teyvat réinvente la « gravure du temps »µµµ ? Quoi qu'il en soit, cette scène a véritablement capturé un passé plein de péchés."
+    }
   },
   "AnemoculusResonanceStone": {
     "name": "Pierre de résonance Anémoculus",
@@ -23923,8 +23968,11 @@
     }
   },
   "MiniSeelieBrilliance": {
-    "name": "",
-    "description": {}
+    "name": "Mini-fée brillante",
+    "description": {
+      "0": "Un souvenir de l'événement « Richesses perdues », équipez-vous-en pour être {M#accompagné}{F#accompagnée} d'une petite Fée.",
+      "1": "Une mini-fée brillante qui se déplace librement sous l'eau."
+    }
   },
   "InstructionsAnemoculusResonanceStone": {
     "name": "Instructions : Pierre de résonance Anémoculus",
@@ -25758,13 +25806,13 @@
     }
   },
   "FallsAndFortune": {
-    "name": "",
+    "name": "Chute opportune",
     "description": {
       "0": "Une carte pour le jeu de table, l'Invocation des Sept. Elle est résistante et une méthode d'impression spéciale a été utilisée pour son illustration, ce qui lui donne une apparence vraiment exquise."
     }
   },
   "FlickeringFourLeafSigil": {
-    "name": "",
+    "name": "Insigne vacillant de trèfle",
     "description": {
       "0": "Une carte pour le jeu de table, l'Invocation des Sept. Elle est résistante et une méthode d'impression spéciale a été utilisée pour son illustration, ce qui lui donne une apparence vraiment exquise."
     }

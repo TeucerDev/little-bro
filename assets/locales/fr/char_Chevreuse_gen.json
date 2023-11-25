@@ -1,6 +1,6 @@
 {
   "name": "Chevreuse",
-  "title": "???",
+  "title": "Exécutrice de la justice",
   "description": "",
   "constellationName": "Sclopetum Ensiferum",
   "auto": {
@@ -48,7 +48,7 @@
       "4": "Bascule en mode visée, ce qui permet à Chevreuse de verrouiller une cible dans son réticule pour déclencher un tir de suppression précis. Si Chevreuse en possède une, elle tire une cartouche surchargée à la place pour infliger des <pyro>DGT Pyro</pyro> plus importants sur une zone plus grande.",
       "5": "Chevreuse obtient 1 cartouche surchargée chaque fois qu'un personnage de l'équipe à proximité déclenche une réaction de Surcharge, mais ne peut posséder qu'une seule cartouche surchargée à la fois.",
       "6": "<br/>",
-      "7": "Pendant une courte durée après que Chevreuse tire un coup de feu, les PV du personnage déployé sont restaurés de façon continue selon les PV max de Chevreuse.",
+      "7": "Pendant une courte durée après que Chevreuse tire un coup de feu, les PV de votre personnage déployé sont restaurés de façon continue selon les PV max de Chevreuse.",
       "8": "<br/>",
       "9": "<strong>Arkhe : Ousia</strong>",
       "10": "Régulièrement, lorsque Chevreuse touche avec Tir de suppression rapide à courte portée, elle déclenche une lame fluide pour infliger des <pyro>DGT Pyro</pyro> chargés d'énergie ousia.",
@@ -105,7 +105,8 @@
     "name": "Tactique coordonnée",
     "description": {
       "0": "Lorsque les personnages de l'équipe sont de l'élément <pyro>Pyro</pyro> ou <electro>Électro</electro> et qu'il y a au moins un personnage Pyro et un personnage Électro :",
-      "1": "Chevreuse accorde une coordination à tous les personnages de l'équipe à proximité : lorsqu'un personnage a déclenché une réaction de Surcharge, les RÉS <pyro>Pyro</pyro> et <electro>Électro</electro> des ennemis touchés par cette réaction de Surcharge diminuent de 40 % pendant 6 s."
+      "1": "Chevreuse accorde une coordination aux personnages de l'équipe à proximité : lorsqu'un personnage a déclenché une réaction de Surcharge, les RÉS <pyro>Pyro</pyro> et <electro>Électro</electro> des ennemis touchés par cette réaction de Surcharge diminuent de 40 % pendant 6 s.",
+      "2": "La coordination est annulée lorsque les types élémentaires des personnages de l'équipe ne répondent pas aux conditions de base de l'aptitude passive."
     }
   },
   "passive2": {
@@ -124,7 +125,7 @@
   "constellation1": {
     "name": "Vaillance du front stable",
     "description": {
-      "0": "Lorsqu'un personnage avec une coordination (hormis Chevreuse) déclenche une réaction de Surcharge, il récupère 6 pts d'énergie élémentaire. Cet effet peut être déclenché une fois toutes les 10 s.",
+      "0": "Lorsqu'un personnage déployé avec une coordination (hormis Chevreuse) déclenche une réaction de Surcharge sur un ennemi, il récupère 6 pts d'énergie élémentaire. Cet effet peut être déclenché une fois toutes les 10 s.",
       "1": "L'aptitude passive « Tactique coordonnée » doit être déjà débloquée."
     }
   },

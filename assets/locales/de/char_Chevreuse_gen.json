@@ -1,6 +1,6 @@
 {
   "name": "Chevreuse",
-  "title": "???",
+  "title": "Vollstreckerin des Gesetzes",
   "description": "",
   "constellationName": "Sclopetum Ensiferum",
   "auto": {
@@ -48,7 +48,7 @@
       "4": "Tritt in den Zielmodus ein und visiert ein Ziel an, um einen präzisen Unterdrückungsschuss abzufeuern. Wenn Chevreuse eine überladene Kugel hat, feuert sie stattdessen die überladene Kugel ab, die mehr <pyro>Pyro-Schaden</pyro> in einem größeren Bereich verursacht.",
       "5": "Chevreuse erhält jedes Mal eine „überladene Kugel“, wenn ein in der Nähe befindliches Truppenmitglied die Reaktion „Überladen“ auslöst, und kann bis zu 1 „überladene Kugel“ auf einmal tragen.",
       "6": "<br/>",
-      "7": "Nachdem Chevreuse einen Schuss abgefeuert hat, stellt sie der aktuellen Figurßßß auf dem Feld für kurze Zeit fortlaufend LP basierend auf Chevreuses max. LP wieder her.",
+      "7": "Nachdem Chevreuse einen Schuss abgefeuert hat, stellt sie der aktuellen eigenen Figur auf dem Feld für kurze Zeit fortlaufend LP basierend auf Chevreuses max. LP wieder her.",
       "8": "<br/>",
       "9": "<strong>Arkhe: Ousia</strong>",
       "10": "Beschwört in regelmäßigen Abständen beim Vollführen von „Schnelles Unterdrückungsfeuer auf kurze Distanz“ eine Wogenklinge, die mit Ousia versehenen <pyro>Pyro-Schaden</pyro> verursacht.",
@@ -104,8 +104,9 @@
   "passive1": {
     "name": "Koordinierte Taktik der Vorhut",
     "description": {
-      "0": "Wenn die Truppe nur aus <pyro>Pyro</pyro>- und <electro>Elektro</electro>-Figuren besteht und mindestens 1 Pyro- und 1 Elektro-Figur hat:",
-      "1": "Chevreuse gewährt in der Nähe befindlichen Truppenmitgliedern den Effekt „Koordinierte Taktik“, wodurch der <pyro>Pyro</pyro>- und <electro>Elektro</electro>-WDS der von dieser Reaktion getroffenen Gegner 6 s lang um 40 % verringert wird, wenn die Truppenmitglieder die Reaktion „Überladen“ auslösen."
+      "0": "Wenn die Truppe nur aus <pyro>Pyro</pyro>- und <electro>Elektro</electro>-Figuren besteht und sich mindestens 1 Pyro- und 1 Elektro-Figur darin befinden:",
+      "1": "Chevreuse gewährt Truppenmitgliedern in der Nähe den Effekt „Koordinierte Taktik“, wodurch der <pyro>Pyro</pyro>- und <electro>Elektro</electro>-WDS der von dieser Reaktion getroffenen Gegner 6 s lang um 40 % verringert wird, wenn die oben genannten Truppenmitglieder die Reaktion „Überladen“ auslösen.",
+      "2": "Wenn die Elementartypen der Figuren in der Truppe die Bedingungen dieses passiven Talents nicht erfüllen, wird der vorhandene Effekt „Koordinierte Taktik“ entfernt."
     }
   },
   "passive2": {
@@ -124,7 +125,7 @@
   "constellation1": {
     "name": "Die Frontlinie stabilisierende Entschlossenheit",
     "description": {
-      "0": "Gibt Figuren mit dem Effekt „Koordinierte Taktik“ (außer Chevreuse selbst), die die Reaktion „Überladen“ auslösen, 6 Punkte Elementarenergie, 10 s Abklingzeit.",
+      "0": "Gibt den aktuellen Figuren mit dem Effekt „Koordinierte Taktik“ (außer Chevreuse selbst), die die Reaktion „Überladen“ am Gegner auslösen, 6 Punkte Elementarenergie, 10 s Abklingzeit.",
       "1": "Das passive Talent „Koordinierte Taktik der Vorhut“ muss zuerst freigeschaltet werden."
     }
   },
@@ -142,7 +143,7 @@
     }
   },
   "constellation4": {
-    "name": "Schnellfeuer-Multischüsse ermöglichendes Geheimnis",
+    "name": "Geheimnis für schnelle Multischüsse",
     "description": {
       "0": "Verringert nach dem Einsetzen von <strong>Kreisförmiger Kartätschenangriff</strong> die Abklingzeit für das Gedrückthalten von <strong>Schnelles Unterdrückungsfeuer auf kurze Distanz</strong> von Chevreuse um 100 %. Dieser Effekt wird entfernt, nachdem „Schnelles Unterdrückungsfeuer auf kurze Distanz“ zweimal durch Gedrückthalten angewendet wurde, oder nach 6 s."
     }

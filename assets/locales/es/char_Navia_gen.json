@@ -1,8 +1,8 @@
 {
   "name": "Navia",
-  "title": "",
+  "title": "La Líder de las Rosas",
   "description": "",
-  "constellationName": "",
+  "constellationName": "Rosa Multiflora",
   "auto": {
     "name": "Declinación directa",
     "fields": {
@@ -43,21 +43,19 @@
     "name": "Etiqueta vidriopírica",
     "description": {
       "0": "Cuando un personaje del equipo recoge un fragmento creado con la reacción de Cristalización, Navia obtiene un “fragmento de metralla”, acumulable hasta 6 fragmentos. Cada vez que se recoja un fragmento de Cristalización, se reiniciará la duración de los fragmentos de metralla que posea Navia.",
-      "1": "<br/>",
-      "2": "<strong>Pulsar una vez</strong>",
-      "3": "Al usar esta habilidad, Navia consume todos los fragmentos de metralla, abre su elegante y letal rifleparaguas y dispara varias vidriobalas rosáceas capaces de atravesar las defensas de los enemigos alcanzados para infligirles <geo>Daño Geo</geo>.",
-      "4": "Al consumir 0/1/2/3 o más fragmentos de metralla, se dispararán respectivamente 5/7/9/11 vidriobalas rosáceas. Cuantas más vidriobalas alcancen a un enemigo, más daño recibirá. Si un enemigo es alcanzado por 11 vidriobalas rosáceas, estas infligirán un 200% de su daño original.",
-      "5": "Además, al consumir más de 3 fragmentos de metralla, cada fragmento por encima del tercero aumenta en un 15% adicional el daño infligido por el próximo disparo.",
-      "6": "<br/>",
-      "7": "<strong>Mantener pulsado</strong>",
-      "8": "Apunta para obtener los fragmentos de Cristalización cercanos. Al dejar de mantener pulsado, dispara la misma cantidad de vidriobalas rosáceas que la que se dispara pulsando una vez.",
+      "1": "Al usar esta habilidad, Navia consume todos los fragmentos de metralla, abre su elegante y letal rifleparaguas y dispara varias vidriobalas rosáceas capaces de atravesar las defensas de los enemigos alcanzados para infligirles <geo>Daño Geo</geo>.",
+      "2": "Al consumir 0/1/2/3 o más fragmentos de metralla, se dispararán respectivamente 5/7/9/11 vidriobalas rosáceas. Cuantas más vidriobalas alcancen a un enemigo, más daño recibirá. Si un enemigo es alcanzado por 11 vidriobalas rosáceas, estas infligirán un 200% de su daño original.",
+      "3": "Además, al consumir más de 3 fragmentos de metralla, cada fragmento por encima del tercero aumenta en un 15% adicional el daño infligido por el próximo disparo.",
+      "4": "<br/>",
+      "5": "<strong>Mantener pulsado</strong>",
+      "6": "Apunta para obtener los fragmentos de Cristalización cercanos. Al dejar de mantener pulsado, dispara la misma cantidad de vidriobalas rosáceas que la que se dispara pulsando una vez.",
+      "7": "<br/>",
+      "8": "Inicialmente, esta habilidad tiene 2 cargas.",
       "9": "<br/>",
-      "10": "Inicialmente, esta habilidad tiene 2 cargas.",
-      "11": "<br/>",
-      "12": "<strong>Arjé: ousía</strong>",
-      "13": "Cada cierto tiempo, cuando Navia dispara con su rifleparaguas, libera un filo fluyente que inflige <geo>Daño Geo</geo> cargado de energía ousía.",
-      "14": "<br/>",
-      "15": "<i>“Mantener cierta distancia con las personas con quienes debes mantenerla es parte de la etiqueta social. Ahora bien, hay muchas maneras de mantener esa distancia”.</i>"
+      "10": "<strong>Arjé: ousía</strong>",
+      "11": "Cada cierto tiempo, cuando Navia dispara con su rifleparaguas, libera un filo fluyente que inflige <geo>Daño Geo</geo> cargado de energía ousía.",
+      "12": "<br/>",
+      "13": "<i>“Mantener cierta distancia con las personas con quienes debes mantenerla es parte de la etiqueta social. Ahora bien, hay muchas maneras de mantener esa distancia”.</i>"
     },
     "skillParams": {
       "0": "Daño básico de vidriobalas rosáceas",
@@ -81,7 +79,7 @@
   "burst": {
     "name": "Aluvión artillero",
     "description": {
-      "0": "En calidad de presidenta de Spina di Rosula, ordena que se dispare una salva de cañones para bombardear a los enemigos frente a sí misma, infligirles <geo>Daño Geo en el AdE</geo> y crear un bombardeo auxiliar durante cierto tiempo para infligir <geo>Daño Geo</geo> periódicamente.",
+      "0": "En calidad de presidenta de Spina di Rosula, ordena que se dispare una salva de cañones para bombardear a los enemigos frente a sí misma, infligirles <geo>Daño Geo en el AdE</geo> y crear un bombardeo auxiliar durante cierto tiempo que inflige <geo>Daño Geo</geo> periódicamente a los enemigos cercanos.",
       "1": "Cuando la salva de cañones alcanza a un enemigo, Navia obtiene 1 fragmento de metralla. Este efecto puede ocurrir una vez cada 2.4 s.",
       "2": "<br/>",
       "3": "<i>“Oh, no te confundas. La salva de cañones de Spina di Rosula no sirve para amenazar a nadie, sino que se dispara antes de una negociación para celebrar anticipadamente su éxito”.</i>"
@@ -108,7 +106,7 @@
   "passive1": {
     "name": "Canal no identificado",
     "description": {
-      "0": "Tras usar <strong>Etiqueta vidriopírica</strong>, el daño de los Ataques Normales, Cargados y Descendentes de Navia se transforma durante 4 s en <electro>Daño Geo</electro>, el cual no puede sustituirse imbuyéndose de otro elemento, y además, el daño de dichos ataques aumenta en un 40%."
+      "0": "Tras usar <strong>Etiqueta vidriopírica</strong>, el daño de los Ataques Normales, Cargados y Descendentes de Navia se transforma durante 4 s en <geo>Daño Geo</geo>, el cual no puede sustituirse imbuyéndose de otro elemento, y además, el daño de dichos ataques aumenta en un 40%."
     }
   },
   "passive2": {

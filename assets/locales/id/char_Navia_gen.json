@@ -1,6 +1,6 @@
 {
   "name": "Navia",
-  "title": "???",
+  "title": "Helm of the Radiant Rose",
   "description": "",
   "constellationName": "Rosa Multiflora",
   "auto": {
@@ -42,8 +42,8 @@
   "skill": {
     "name": "Ceremonial Crystalshot",
     "description": {
-      "0": "Saat Karakter dalam party mendapatkan shard dari reaksi Crystallize, Navia akan mendapatkan 1 \"Crystal Sharpnel\", dan maksimum bisa mendapatkan hingga 6 \"Crystal Sharpnel\". Setiap kali mendapatkannya, akan memperbarui durasi \"Crystal Sharpnel\" yang sudah dimiliki.",
-      "1": "Saat dilancarkan, Navia akan mengonsumsi semua \"Crystal Sharpnel\" yang dimiliki dan membuka payung senapan elegannya untuk menembakkan beberapa Rosula Shardshots yang dapat menembus musuh dan mengakibatkan <geo>Geo DMG</geo>.",
+      "0": "Saat Karakter dalam party mendapatkan shard dari reaksi Crystallize, Navia akan mendapatkan 1 \"Crystal Shrapnel\", dan maksimum bisa mendapatkan hingga 6 \"Crystal Shrapnel\". Setiap kali perolehan \"Crystal Shrapnel\" terpicu, durasi \"Crystal Shrapnel\" yang sudah dimiliki akan diulang.",
+      "1": "Saat dilancarkan, Navia akan mengonsumsi semua \"Crystal Shrapnel\" yang dimiliki dan membuka Gunbrella elegannya untuk menembakkan beberapa Rosula Shardshots yang dapat menembus musuh dan mengakibatkan <geo>Geo DMG</geo>.",
       "2": "Saat mengonsumsi 0/1/2/3 atau lebih \"Crystal Shrapnel\", 5/7/9/11 Rosula Shardshots akan ditembakkan sesuai dengan jumlah yang ditentukan. Semakin banyak \"Rosula Shardshots\" yang mengenai satu musuh, semakin tinggi pula DMG yang diakibatkan terhadap musuh tersebut. Saat semua 11 \"Rosula Shardshots\" mengenai satu target, akan mengakibatkan DMG sebesar 200% dari DMG aslinya.",
       "3": "Selain itu, saat mengonsumsi lebih dari 3 Crystal Shrapnel, setiap Crystal Shrapnel yang dikonsumsi selain 3 Crystal Shrapnel tersebut akan meningkatkan DMG tembakan kali ini lagi sebesar 15%. ",
       "4": "<br/>",
@@ -53,13 +53,13 @@
       "8": "Memiliki 2 kali jumlah penggunaan di awal.",
       "9": "<br/>",
       "10": "<strong>Arkhe: Ousia</strong>",
-      "11": "Setiap kurun waktu tertentu, Navia akan melancarkan Surging Blade saat menembak dengan payung senapannya dan mengakibatkan Ousia-aligned <geo>Geo DMG</geo>.",
+      "11": "Setiap kurun waktu tertentu, Navia akan melancarkan Surging Blade saat menembak dengan Gunbrella-nya dan mengakibatkan Ousia-aligned <geo>Geo DMG</geo>.",
       "12": "<br/>",
       "13": "<i>\"Menjaga jarak yang sepantasnya dengan orang yang harus dijaga jaraknya juga adalah bagian penting dalam etika sosial. Tentu saja, ada berbagai cara untuk melakukannya ....\"</i>"
     },
     "skillParams": {
-      "0": "DMG Dasar Rosula Crystalbullets",
-      "1": "Durasi Crystal Sharpnel",
+      "0": "DMG Dasar Rosula Shardshot",
+      "1": "Durasi Crystal Shrapnel",
       "2": "DMG Surging Blade",
       "3": "Jeda Surging Blade",
       "4": "Cooldown",
@@ -79,8 +79,8 @@
   "burst": {
     "name": "As the Sunlit Sky's Singing Salute",
     "description": {
-      "0": "Di bawah perintah Bos Spina di Rosula, memanggil \"Golden Rose Salute\" yang menawan untuk membombardir musuh di depan dengan ganas, mengakibatkan <geo>Geo DMG Area</geo>, dan dalam beberapa waktu setelahnya, akan terus melancarkan Fire Support yang mengakibatkan <geo>Geo DMG</geo> secara berkala.",
-      "1": "Saat tembakan \"Golden Rose's Salute\" mengenai musuh, Navia akan mendapatkan 1 \"Crystal Sharpnel\". Efek ini dapat terpicu sekali setiap 2,4 detik.",
+      "0": "Di bawah perintah Bos Spina di Rosula, memanggil \"Golden Rose Salute\" yang menawan untuk membombardir musuh di depan dengan ganas, mengakibatkan <geo>Geo DMG Area</geo>, dan dalam beberapa waktu setelahnya, akan terus melancarkan Fire Support yang mengakibatkan <geo>Geo DMG</geo> terhadap musuh di sekitar secara berkala.",
+      "1": "Saat tembakan \"Golden Rose's Salute\" mengenai musuh, Navia akan mendapatkan 1 \"Crystal Shrapnel\". Efek ini dapat terpicu sekali setiap 2,4 detik.",
       "2": "<br/>",
       "3": "<i>\"Tembakan penghormatan Spina di Rosula adalah perayaan awal atas keberhasilan penyelesaian perundingan kita dan dilakukan tepat sebelum perundingan dimulai. Jangan salah paham, ini sama sekali bukan ancaman dalam bentuk apa pun.\"</i>"
     },
@@ -124,13 +124,13 @@
   "constellation1": {
     "name": "A Lady's Rules for Keeping a Courteous Distance",
     "description": {
-      "0": "Saat melancarkan <strong>Ceremonial Crystalshot</strong>, akan memulihkan 2 poin Energy Navia untuk setiap \"Crystal Sharpnel\" yang dikonsumsi dan mengurangi cooldown <strong>As the Sunlit Sky's Singing Salute</strong> selama 1 detik. Maksimum pemulihan Energy yang bisa didapatkan dengan cara ini adalah 6 poin Energy, dan mengurangi cooldown \"As the Sunlit Sky's Singing Salute\" maksimum 3 detik."
+      "0": "Saat melancarkan <strong>Ceremonial Crystalshot</strong>, akan memulihkan 2 poin Energy Navia untuk setiap \"Crystal Shrapnel\" yang dikonsumsi dan mengurangi cooldown <strong>As the Sunlit Sky's Singing Salute</strong> selama 1 detik. Maksimum pemulihan Energy yang bisa didapatkan dengan cara ini adalah 6 poin Energy, dan mengurangi cooldown \"As the Sunlit Sky's Singing Salute\" maksimum 3 detik."
     }
   },
   "constellation2": {
     "name": "The President's Pursuit of Victory",
     "description": {
-      "0": "CRIT Rate <strong>Ceremonial Crystalshot</strong> akan meningkat 8% untuk setiap \"Crystal Sharpnel\" yang dikonsumsi. Maksimum peningkatan CRIT Rate yang dapat diperoleh dengan cara ini adalah 24%.",
+      "0": "CRIT Rate <strong>Ceremonial Crystalshot</strong> akan meningkat 8% untuk setiap \"Crystal Shrapnel\" yang dikonsumsi. Maksimum peningkatan CRIT Rate yang dapat diperoleh dengan cara ini adalah 24%.",
       "1": "Selain itu, saat tembakan Ceremonial Crystalshot mengenai musuh, akan mengakibatkan sekali lagi Fire Support dari <strong>As the Sunlit Sky's Singing Salute</strong> di sekitar musuh yang terkena serangan. Setiap Ceremonial Crystalshot yang dilancarkan hanya dapat mengakibatkan satu kali Fire Support, dan DMG dari Fire Support dipicu dengan cara ini akan dianggap sebagai DMG Elemental Burst."
     }
   },
