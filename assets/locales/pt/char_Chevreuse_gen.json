@@ -1,7 +1,7 @@
 {
   "name": "Chevreuse",
   "title": "Executora da Justiça",
-  "description": "",
+  "description": "A capitã da Patrulha de Segurança e Monitoramento Especial, que tem a justiça como uma insígnia eterna em seu coração. Seu mosquete só aponta contra os culpados.",
   "constellationName": "Sclopetum Ensiferum",
   "auto": {
     "name": "Linha de Baioneta Modificada",
@@ -42,18 +42,17 @@
     "name": "Combate Próximo Rápido",
     "description": {
       "0": "Chevreuse apoia rapidamente seu rifle no seu ombro e dispara contra os inimigos, causando <pyro>Dano Pyro em AdE</pyro>.",
-      "1": "Ao Manter Pressionado, lança de uma maneira diferente.",
-      "2": "<br/>",
-      "3": "<strong>Manter Pressionado</strong>",
-      "4": "Entra no modo de mira e fixa a mira em seu campo de visão em um inimigo, disparando mais precisamente. Se Chevreuse possuir Projétil Super Explosivo, disparará um Projétil Super Explosivo, causando <pyro>Dano Pyro</pyro> maior e com maior AdE.",
-      "5": "Chevreuse obtém um Projétil Super Explosivo quando um personagem próximo desencadeia Sobrecarga. É possível possuir até 1 Projétil Super Explosivo simultaneamente.",
-      "6": "<br/>",
-      "7": "Por um certo tempo após Chevreuse disparar, ela regenerará Vida continuamente para o seu personagem ativo, a Vida regenerada é baseada na Vida Máxima de Chevreuse.",
-      "8": "<br/>",
-      "9": "<strong>Arkhe: Ousia</strong>",
-      "10": "Periodicamente, quando Chevreuse atingir com Projétil Super Explosivo, invocará uma Lâmina da Fluidez que causará <pyro>Dano Pyro</pyro> com Ousia.",
-      "11": "<br/>",
-      "12": "<i>\"Pra falar a verdade, as instruções de treinamento só tem a palavra 'disparo', mas o autor desse livro achou que ter um vocabulário especializado ia ser mais comovente, fazendo os inimigos perderem logo de cara... eu acho que faz sentido, por isso mudei as instruções!\"</i>"
+      "1": "Um certo tempo após Chevreuse atingir seu disparo, regenerará Vida continuamente para o personagem ativo. A Vida regenerada é baseada na Vida Máxima de Chevreuse.",
+      "2": "Ao Manter Pressionado, lança de uma maneira diferente.",
+      "3": "<br/>",
+      "4": "<strong>Manter Pressionado</strong>",
+      "5": "Entra no modo de mira e fixa a mira em seu campo de visão em um inimigo, disparando mais precisamente. Se Chevreuse possuir Projétil Super Explosivo, disparará um Projétil Super Explosivo, causando <pyro>Dano Pyro</pyro> maior e com maior AdE.",
+      "6": "Chevreuse obtém um Projétil Super Explosivo quando um personagem próximo desencadeia Sobrecarga. É possível possuir até 1 Projétil Super Explosivo simultaneamente.",
+      "7": "<br/>",
+      "8": "<strong>Arkhe: Ousia</strong>",
+      "9": "Periodicamente, quando Chevreuse atingir com Projétil Super Explosivo, invocará uma Lâmina da Fluidez que causará <pyro>Dano Pyro</pyro> com Ousia.",
+      "10": "<br/>",
+      "11": "<i>\"Pra falar a verdade, as instruções de treinamento só tem a palavra 'disparo', mas o autor desse livro achou que ter um vocabulário especializado ia ser mais comovente, fazendo os inimigos perderem logo de cara... eu acho que faz sentido, por isso mudei as instruções!\"</i>"
     },
     "skillParams": {
       "0": "Dano de Pressionar",
@@ -85,7 +84,7 @@
     "skillParams": {
       "0": "Dano de Granada Explosiva",
       "1": "Dano de Granada Explosiva Secundária",
-      "2": "Tempo de Recarga",
+      "2": "Recarga",
       "3": "Energia Elemental",
       "4": "",
       "5": "",
@@ -125,7 +124,7 @@
   "constellation1": {
     "name": "Coragem da Formação Firme",
     "description": {
-      "0": "Quando o personagem ativo que está no estado \"Táticas Coordenadas\" (exceto Chevreuse) desencadear uma reação de Sobrecarga em um inimigo, regenerará 6 de Energia Elemental. Esse efeito pode ser desencadeado uma vez a cada 10s.",
+      "0": "Quando o personagem ativo que está no estado \"Táticas Coordenadas\" (exceto Chevreuse) desencadear uma reação de Sobrecarga, regenerará 6 de Energia Elemental. Esse efeito pode ser desencadeado uma vez a cada 10s.",
       "1": "É necessário ter desbloqueado o Talento Passivo \"Táticas de Combate Coordenado\"."
     }
   },
@@ -145,7 +144,7 @@
   "constellation4": {
     "name": "O Segredo dos Multidisparos Rápidos",
     "description": {
-      "0": "Depois de lançar <strong>Técnica da Explosão Circular</strong>, reduz a recarga do Manter Pressionado de <strong>Combate Próximo Rápido</strong> em 100%. Esse efeito dura até 6s, e será removido depois de lançar o Manter Pressionado de Combate Próximo Rápido duas vezes."
+      "0": "Depois de lançar <strong>Técnica da Explosão Circular</strong>, <strong>Combate Próximo Rápido</strong> não entrará em recarga. Esse efeito dura até 6s, e será removido depois de lançar o Manter Pressionado de Combate Próximo Rápido duas vezes."
     }
   },
   "constellation5": {
@@ -158,7 +157,7 @@
   "constellation6": {
     "name": "Em Busca do Fim do Mal",
     "description": {
-      "0": "Depois que o efeito de cura de <strong>Combate Próximo Rápido</strong> durar 12s, regenerará Vida para todos os personagens próximos, a Vida regenerada é equivalente a 10% da Vida Máxima de Chevreuse.",
+      "0": "Depois que o efeito de cura de <strong>Combate Próximo Rápido</strong> durar 12s, regenerará Vida para todos os personagens próximos uma vez, a Vida regenerada é equivalente a 10% da Vida Máxima de Chevreuse.",
       "1": "Quando o personagem é curado por Combate Próximo Rápido, obtém 20% de <pyro>Bônus de Dano Pyro</pyro> e <electro>Bônus de Dano Electro</electro> por 8s. Esse efeito pode ser acumulado 3 vezes, e cada acúmulo tem sua duração contada de forma independente."
     }
   }

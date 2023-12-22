@@ -1,7 +1,7 @@
 {
   "name": "Navia",
   "title": "Helm of the Radiant Rose",
-  "description": "",
+  "description": "The current President of Spina di Rosula, who is lovely, dutiful, and a great boss.",
   "constellationName": "Rosa Multiflora",
   "auto": {
     "name": "Blunt Refusal",
@@ -42,18 +42,18 @@
   "skill": {
     "name": "Ceremonial Crystalshot",
     "description": {
-      "0": "When a character in the party obtains an Elemental Shard created from the Crystallize reaction, Navia will gain 1 Crystal Shrapnel charge. Navia can hold up to 6 charges of Crystal Shrapnel at once. Each time Crystal Shrapnel gain is triggered, the duration of the Shards you have already will be reset.",
+      "0": "When a character in the party obtains an Elemental Shard created from the Crystallize reaction, Navia will gain 1 Crystal Shrapnel charge. Navia can hold up to 6 charges of Crystal Shrapnel at once. Each time Crystal Shrapnel gain is triggered, the duration of the Crystal Shrapnel charges you already have will be reset.",
       "1": "When she fires, Navia will consume all Crystal Shrapnel charges and open her elegant yet lethal Gunbrella, firing multiple Rosula Shardshots that can penetrate opponents, dealing <geo>Geo DMG</geo> to opponents hit.",
-      "2": "When 0/1/2/3 or more charges of Crystal Shrapnel are consumed, 5/7/9/11 Rosula Shardshots will be fired respectively. The more Rosula Shardshots that strike a single opponent, the greater the DMG dealt to them. When all 11 Rosula Shardshots strike, they deal 200% of the original amount of DMG.",
-      "3": "In addition, when more than 3 charges of Crystal Shrapnel are consumed, every charge consumed beyond those 3 will increase the damage dealt by that shot by an additional 15%.",
+      "2": "When 0/1/2/3 or more charges of Crystal Shrapnel are consumed, 5/7/9/11 Rosula Shardshots will be fired respectively. The more Rosula Shardshots that strike a single opponent, the greater the DMG dealt to them. When all 11 Rosula Shardshots strike, 200% of the original amount of DMG is dealt.",
+      "3": "In addition, when more than 3 charges of Crystal Shrapnel are consumed, every charge consumed beyond those 3 will increase the damage dealt by this Gunbrella shot by an additional 15%.",
       "4": "<br/>",
       "5": "<strong>Hold</strong>",
-      "6": "Enter Aiming Mode, continually collecting Elemental Shards created by Crystallize reactions. When released, fire Rosula Shardshots with the same effect as when the skill is tapped.",
+      "6": "Enter Aiming Mode, continually collecting Elemental Shards created by Crystallize reactions. When released, fire Rosula Shardshots with the same effect as when the skill is Tapped.",
       "7": "<br/>",
       "8": "Two initial uses.",
       "9": "<br/>",
       "10": "<strong>Arkhe: Ousia</strong>",
-      "11": "Periodically, when Navia fires her Gunbrella, a Surging Blade will be summoned, dealing ousia-aligned <geo>Geo DMG</geo>.",
+      "11": "Periodically, when Navia fires her Gunbrella, a Surging Blade will be summoned, dealing Ousia-aligned <geo>Geo DMG</geo>.",
       "12": "<br/>",
       "13": "<i>\"Maintaining the appropriate distance with those whom distance should be maintained is an essential part of etiquette. Naturally, there are also many ways to do this...\"</i>"
     },
@@ -79,15 +79,15 @@
   "burst": {
     "name": "As the Sunlit Sky's Singing Salute",
     "description": {
-      "0": "On the orders of the President of the Spina di Rosula, call for a magnificent Golden Rose's Salute. Unleashes a massive bombardment on opponents in front of her, dealing <geo>AoE Geo DMG</geo> and providing Fire Support for a duration afterward, periodically dealing <geo>Geo DMG</geo> to nearby opponents.",
-      "1": "When attacks from Golden Rose's Salute hit opponents, Navia will gain 1 charge of Crystal Shrapnel. This effect can be triggered up to once every 2.4s.",
+      "0": "On the orders of the President of the Spina di Rosula, call for a magnificent Rosula Dorata Salute. Unleashes a massive cannon bombardment on opponents in front of her, dealing <geo>AoE Geo DMG</geo> and providing Cannon Fire Support for a duration afterward, periodically dealing <geo>Geo DMG</geo> to nearby opponents.",
+      "1": "When cannon attacks hit opponents, Navia will gain 1 charge of Crystal Shrapnel. This effect can be triggered up to once every 2.4s.",
       "2": "<br/>",
       "3": "<i>\"The Spina di Rosula's salute is a preemptive celebration of the successful conclusion of our negotiations and is fired just before talks begin. Don't misunderstand, it isn't in any way, shape, or form some kind of threat.\"</i>"
     },
     "skillParams": {
       "0": "Skill DMG",
-      "1": "Fire Support DMG",
-      "2": "Fire Support Duration",
+      "1": "Cannon Fire Support DMG",
+      "2": "Cannon Fire Support Duration",
       "3": "CD",
       "4": "Energy Cost",
       "5": "",
@@ -124,14 +124,14 @@
   "constellation1": {
     "name": "A Lady's Rules for Keeping a Courteous Distance",
     "description": {
-      "0": "Each charge of Crystal Shrapnel consumed when Navia uses <strong>Ceremonial Crystalshot</strong> will restore 2 Energy to her and decrease the CD of <strong>As the Sunlit Sky's Singing Salute</strong> by 1s. Up to 6 Energy can be gained this way, and the CD of \"As the Sunlit Sky's Singing Salute\" can be decreased by up to 3s."
+      "0": "Each charge of Crystal Shrapnel consumed when Navia uses <strong>Ceremonial Crystalshot</strong> will restore 3 Energy to her and decrease the CD of <strong>As the Sunlit Sky's Singing Salute</strong> by 1s. Up to 9 Energy can be gained this way, and the CD of \"As the Sunlit Sky's Singing Salute\" can be decreased by up to 3s."
     }
   },
   "constellation2": {
     "name": "The President's Pursuit of Victory",
     "description": {
-      "0": "The CRIT Rate of <strong>Ceremonial Crystalshot</strong> is increased by 8% for each charge of Crystal Shrapnel consumed. CRIT Rate can be increased by up to 24% in this way.",
-      "1": "In addition, when Ceremonial Crystalshot hits an opponent, one shot of Fire Support from <strong>As the Sunlit Sky's Singing Salute</strong> will strike near the location of the hit. Up to one instance of Fire Support can be triggered each time Ceremonial Crystalshot is used, and DMG dealt by Fire Support in this way is considered Elemental Burst DMG."
+      "0": "Each charge of Crystal Shrapnel consumed will increase the CRIT Rate of this <strong>Ceremonial Crystalshot</strong> instance by 12%. CRIT Rate can be increased by up to 36% in this way.",
+      "1": "In addition, when Ceremonial Crystalshot hits an opponent, one Cannon Fire Support shot from <strong>As the Sunlit Sky's Singing Salute</strong> will strike near the location of the hit. Up to one instance of Cannon Fire Support can be triggered each time Ceremonial Crystalshot is used, and DMG dealt by said Cannon Fire Support this way is considered Elemental Burst DMG."
     }
   },
   "constellation3": {
@@ -157,7 +157,7 @@
   "constellation6": {
     "name": "The Flexible Finesse of the Spina's President",
     "description": {
-      "0": "If more than 3 charges of Crystal Shrapnel are consumed when using <strong>Ceremonial Crystalshot</strong>, each charge consumed beyond the first 3 increases the CRIT DMG of that Ceremonial Crystalshot by 35%, and any charges consumed beyond the first 3 are returned to Navia."
+      "0": "If more than 3 charges of Crystal Shrapnel are consumed when using <strong>Ceremonial Crystalshot</strong>, each charge consumed beyond the first 3 increases the CRIT DMG of that Ceremonial Crystalshot by 45%, and any charges consumed beyond the first 3 are returned to Navia."
     }
   }
 }

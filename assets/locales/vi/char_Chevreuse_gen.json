@@ -1,8 +1,8 @@
 {
   "name": "Chevreuse",
   "title": "Người Thực Thi Công Lý",
-  "description": "",
-  "constellationName": "Cung Súng Kiếm",
+  "description": "Đội trưởng Đội Tuần Tra Đặc Biệt luôn tuân thủ \"chính nghĩa\" trong lòng. Khẩu súng hỏa mai trong tay chỉ hướng về những kẻ có tội.",
+  "constellationName": "Cung Kiếm Súng",
   "auto": {
     "name": "Lưỡi Lê Cải Tiến",
     "fields": {
@@ -42,18 +42,17 @@
     "name": "Đánh Chặn Nhanh Tầm Gần",
     "description": {
       "0": "Chevreuse giơ cao súng hỏa mai để bắn kẻ địch, gây <pyro>Sát Thương Phạm Vi Nguyên Tố Hỏa</pyro>.",
-      "1": "Khi Nhấn Giữ sẽ thi triển theo cách thức khác.",
-      "2": "<br/>",
-      "3": "<strong>Nhấn Giữ</strong>",
-      "4": "Tiến hành ngắm chuẩn, khóa một kẻ địch trong tầm ngắm để bắn một phát đánh chặn chính xác; Nếu Chevreuse có \"Đầu Đạn Quá Tải\" thì sẽ chuyển thành bắn Đầu Đạn Quá Tải đó để gây <pyro>Sát Thương Nguyên Tố Hỏa</pyro> lớn hơn trong phạm vi rộng hơn.",
-      "5": "Chevreuse sẽ nhận 1 Đầu Đạn Quá Tải khi nhân vật trong đội gần đó kích hoạt phản ứng Quá Tải, tối đa chỉ sở hữu 1 Đầu Đạn Quá Tải cùng lúc.",
-      "6": "<br/>",
-      "7": "Trong một thời gian ngắn sau khi Chevreuse bắn sẽ liên tục hồi phục HP cho nhân vật bản thân trong trận hiện tại, lượng hồi phục căn cứ vào giới hạn HP của Chevreuse.",
-      "8": "<br/>",
-      "9": "<strong>Sức Mạnh Nền Tảng: Ousia</strong>",
-      "10": "Mỗi cách một khoảng thời gian, \"Đánh Chặn Nhanh Tầm Gần\" của Chevreuse khi bắn trúng sẽ triệu hồi Lưỡi Dao Nổi Sóng, gây <pyro>Sát Thương Nguyên Tố Hỏa</pyro> thuộc tính Ousia.",
-      "11": "<br/>",
-      "12": "<i>\"Thực ra trong quy định chỉ có thuật ngữ 'đánh chặn' thôi, nhưng nhân vật chính trong tiểu thuyết cho rằng tạo thêm chút kiểu cách cho tên kỹ năng sẽ vừa có thể khiến đồng đội phấn chấn hơn, vừa khiến đối thủ dè chừng hơn... Tôi cảm thấy có lý, nên đã thay đổi quy định đó rồi!\"</i>"
+      "1": "Trong một thời gian ngắn sau khi Chevreuse bắn sẽ liên tục hồi phục HP cho nhân vật trong trận hiện tại, lượng hồi phục căn cứ vào giới hạn HP của Chevreuse.",
+      "2": "Khi Nhấn Giữ sẽ thi triển theo cách thức khác.",
+      "3": "<br/>",
+      "4": "<strong>Nhấn Giữ</strong>",
+      "5": "Tiến hành ngắm chuẩn, khóa một kẻ địch trong tầm ngắm để bắn một phát đánh chặn chính xác; Nếu Chevreuse có \"Đầu Đạn Quá Tải\" thì sẽ chuyển thành bắn Đầu Đạn Quá Tải đó để gây <pyro>Sát Thương Nguyên Tố Hỏa</pyro> lớn hơn trong phạm vi rộng hơn.",
+      "6": "Chevreuse sẽ nhận 1 Đầu Đạn Quá Tải khi nhân vật trong đội gần đó kích hoạt phản ứng Quá Tải, tối đa chỉ sở hữu 1 Đầu Đạn Quá Tải cùng lúc.",
+      "7": "<br/>",
+      "8": "<strong>Sức Mạnh Nền Tảng: Ousia</strong>",
+      "9": "Mỗi cách một khoảng thời gian, \"Đánh Chặn Nhanh Tầm Gần\" của Chevreuse khi bắn trúng sẽ triệu hồi Lưỡi Dao Nổi Sóng, gây <pyro>Sát Thương Nguyên Tố Hỏa</pyro> thuộc tính Ousia.",
+      "10": "<br/>",
+      "11": "<i>\"Thực ra trong quy định chỉ có thuật ngữ 'đánh chặn' thôi, nhưng nhân vật chính trong tiểu thuyết cho rằng tạo thêm chút kiểu cách cho tên kỹ năng sẽ vừa có thể khiến đồng đội phấn chấn hơn, vừa khiến đối thủ dè chừng hơn... Tôi cảm thấy có lý, nên đã thay đổi quy định đó rồi!\"</i>"
     },
     "skillParams": {
       "0": "Sát Thương Nhấn",
@@ -106,7 +105,7 @@
     "description": {
       "0": "Khi loại nguyên tố của tất cả nhân vật trong đội là <pyro>Hỏa</pyro> hoặc <electro>Lôi</electro>, đồng thời có ít nhất một nhân vật nguyên tố Hỏa và một nguyên tố Lôi trong đó:",
       "1": "Chevreuse sẽ cung cấp hiệu quả \"Chiến Thuật Phối Hợp\" cho nhân vật trong đội gần đó: Sau khi nhân vật kích hoạt phản ứng Quá Tải, sẽ khiến kẻ địch chịu ảnh hưởng bởi lần phản ứng này giảm Kháng Nguyên Tố <pyro>Hỏa</pyro> và <electro>Lôi</electro> đi 40% trong 6s.",
-      "2": "Khi loại nguyên tố của nhân vật trong đội hiện tại không phù hợp với điều kiện thiên phú, sẽ xóa đi hiệu quả \"Chiến Thuật Phối Hợp\" đã có."
+      "2": "Khi loại nguyên tố của nhân vật trong đội hiện tại không phù hợp với điều kiện thiên phú vốn có, sẽ xóa đi hiệu quả \"Chiến Thuật Phối Hợp\" đã có."
     }
   },
   "passive2": {
@@ -125,7 +124,7 @@
   "constellation1": {
     "name": "Sách Lược Ổn Định Trận Hình",
     "description": {
-      "0": "Nhân vật trong trận có trạng thái \"Chiến Thuật Phối Hợp\" (Không bao gồm bản thân Chevreuse) khi kích hoạt phản ứng Quá Tải lên kẻ địch sẽ hồi phục 6 điểm Năng Lượng Nguyên Tố. Hiệu quả này mỗi 10s tối đa kích hoạt một lần.",
+      "0": "Nhân vật trong trận hiện tại có trạng thái \"Chiến Thuật Phối Hợp\" (Không bao gồm bản thân Chevreuse) khi kích hoạt phản ứng Quá Tải sẽ hồi phục 6 điểm Năng Lượng Nguyên Tố. Hiệu quả này mỗi 10s tối đa kích hoạt một lần.",
       "1": "Cần mở khóa thiên phú \"Chiến Thuật Phối Hợp Tiên Phong\"."
     }
   },
@@ -145,7 +144,7 @@
   "constellation4": {
     "name": "Bí Quyết Bắn Nhanh Nhiều Lần",
     "description": {
-      "0": "Sau khi thi triển <strong>Bom Chùm Oanh Tạc</strong>, thời gian chờ của Nhấn Giữ thi triển <strong>Đánh Chặn Nhanh Tầm Gần</strong> giảm 100%. Hiệu quả này tối đa duy trì 6s，hoặc sẽ xóa khi Nhấn Giữ thi triển 2 lần Đánh Chặn Nhanh Tầm Gần."
+      "0": "Sau khi thi triển <strong>Bom Chùm Oanh Tạc</strong>, Chevreuse Nhấn Giữ thi triển <strong>Đánh Chặn Nhanh Tầm Gần</strong> sẽ không vào thời gian chờ. Hiệu quả này tối đa duy trì 6s，hoặc sẽ xóa khi Nhấn Giữ thi triển 2 lần Đánh Chặn Nhanh Tầm Gần."
     }
   },
   "constellation5": {
@@ -158,7 +157,7 @@
   "constellation6": {
     "name": "Truy Nã Tội Ác Cùng Cực",
     "description": {
-      "0": "Sau khi hiệu quả trị liệu của <strong>Đánh Chặn Nhanh Tầm Gần</strong> duy trì 12s, sẽ hồi phục cho toàn bộ nhân vật trong đội gần đó một lượng HP bằng 10% giới hạn HP của Chevreuse.",
+      "0": "Sau khi hiệu quả trị liệu của <strong>Đánh Chặn Nhanh Tầm Gần</strong> duy trì 12s, sẽ hồi phục một lần cho toàn bộ nhân vật trong đội gần đó một lượng HP bằng 10% giới hạn HP của Chevreuse.",
       "1": "Nhân vật trong đội sau khi nhận được trị liệu từ Đánh Chặn Nhanh Tầm Gần, sẽ nhận được 20% <pyro>Buff Sát Thương Nguyên Tố Hỏa</pyro> và <electro>Buff Sát Thương Nguyên Tố Lôi</electro> trong 8s, cộng dồn 3 tầng, mỗi tầng tính giờ riêng."
     }
   }

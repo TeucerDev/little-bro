@@ -1,0 +1,174 @@
+{
+  "name": "Xianyun",
+  "title": "???",
+  "description": "",
+  "constellationName": "",
+  "auto": {
+    "name": "Palavras de Ventos e Flores",
+    "fields": {
+      "normal": {
+        "0": "<strong><strong>Ataque Normal</strong>",
+        "1": "Realiza até 4 ataques de brisa, infligindo <anemo>Dano Anemo</anemo>."
+      },
+      "charged": {
+        "0": "<strong>Ataque Carregado</strong>",
+        "1": "Consome uma certa quantidade de Stamina, lançando um Anel de Brisa que inflige <anemo>Dano Anemo</anemo> contra os inimigos em frente."
+      },
+      "plunging": {
+        "0": "<strong>Ataque Imersivo</strong>",
+        "1": "Mergulha ao chão em pleno ar, infligindo dano a todos os inimigos em seu caminho. Inflige <anemo>Dano Anemo em uma AdE</anemo> durante o impacto com o chão."
+      }
+    },
+    "skillParams": {
+      "0": "Dano do 1° Golpe",
+      "1": "Dano do 2° Golpe",
+      "2": "Dano do 3° Golpe",
+      "3": "Dano do 4° Golpe",
+      "4": "Dano de Ataque Carregado",
+      "5": "Consumo de Stamina de Ataque Carregado",
+      "6": "Dano Durante a Queda",
+      "7": "Dano de Queda de Baixa/Alta Altitude",
+      "8": "",
+      "9": "",
+      "10": "",
+      "11": "",
+      "12": "",
+      "13": "",
+      "14": "",
+      "15": ""
+    }
+  },
+  "skill": {
+    "name": "Nuvens Brancas na Alvorada",
+    "description": {
+      "0": "Xianyun entra no estado de Transfiguração de Nuvens e lança a Escada Celestial. Nesse estado, é possível lançar no máximo mais duas vezes a Escada Celestial.",
+      "1": "Quando Xianyun estiver no estado Transfiguração de Nuvens e realizar um Ataque Comum ou Imersivo, lançará uma Onda das Nuvens, transformando-se numa Garça da Brisa e fazendo um mergulho contra os oponentes próximos, causando <anemo>Dano Anemo em AdE</anemo> e encerrando o estado da Transfiguração de Nuvens. O Dano causado dessa forma é considerado Dano de Ataque Imersivo.",
+      "2": "<br/>",
+      "3": "<strong>Escada Celestial</strong>",
+      "4": "Xianyun temporariamente ascenderá para frente no ar, causando <anemo>Dano Anemo</anemo> contra os alvos em seu caminho.",
+      "5": "Pode ser usado no ar. A distância do salto aumenta quando é usado no chão.",
+      "6": "O mesmo oponente pode ser danificado no máximo uma vez por Transfiguração de Nuvens.",
+      "7": "<br/>",
+      "8": "Quanto mais vezes a Escada Celestial for usada por Transfiguração de Nuvens, maior o Dano causado por Onda das Nuvens, e maior sua AdE. Depois de usar 3 Escadas Celestiais (incluindo a do uso inicial de Nuvens Brancas na Alvorada), Xianyun usará a poderosa Onda de Nuvens: Supressão Divina.",
+      "9": "<br/>",
+      "10": "Nuvens Brancas na Alvorada só pode ser usada no chão.",
+      "11": "Se a Escada Celestial não for usada rapidamente, a Transfiguração de Nuvens acabará e se iniciará sua recarga. Se a Onda das Nuvens não for usada durante essa Transfiguração de Nuvens, sua recarga será reduzida em 3s.",
+      "12": "<br/>",
+      "13": "<i>Cuidado ao segurar a mão de Retentora de Nuvem, ela segura como uma garça.</i>"
+    },
+    "skillParams": {
+      "0": "Dano do Caminho da Forma Adepti",
+      "1": "Dano do 1º Salto - Ataque Perseguidor da Garça",
+      "2": "Dano do 2º Salto - Ataque Perseguidor da Garça",
+      "3": "Dano do 3º Salto - Ataque Perseguidor da Garça",
+      "4": "Recarga de Pressionar",
+      "5": "",
+      "6": "",
+      "7": "",
+      "8": "",
+      "9": "",
+      "10": "",
+      "11": "",
+      "12": "",
+      "13": "",
+      "14": "",
+      "15": ""
+    }
+  },
+  "burst": {
+    "name": "As Estrelas se Reúnem no Crepúsculo",
+    "description": {
+      "0": "Invoca uma brisa sagrada que causa <anemo>Dano Anemo em AdE</anemo> e regenera Vida para todos os personagens próximos da equipe. A quantidade regenerada é baseada no ATQ de Xianyun, e invoca um mecanismo Bambu Estelar.",
+      "1": "<strong>Bambu Estelar</strong>",
+      "2": [
+        " Continuamente segue o personagem ativo no campo, e periodicamente regenera Vida para todos os membros próximos da equipe. A quantidade regenerada é baseada no ATQ de Xianyun.",
+        " Iniciar com 8 acúmulos de Ajuda Adepti. Ao possuir Ajuda Adepti, aumenta a altura do salto do personagem ativo próximo da equipe.",
+        " Quando o personagem completar um Ataque Imersivo, Bambu Estelar consome 1 acúmulo de Ajuda Adepti e causa <anemo>Dano Anemo em AdE</anemo>."
+      ],
+      "3": "<br/>",
+      "4": "<i>Essa é a mais nova invenção da série de Artesanato Lunar. As invenções anteriores foram a Máquina de Culinária Suprema, o Dispositivo Flutuante Carregador, o Mecanismo de Discernimento, a Máquina de Chá Suprema, o Mecanismo Desviador da Neve, a Máquina Doméstica Suprema, e a Máquina de Amplificação de Som. Essa série de invenções era para jovens humanos que Retentora de Nuvem admirava, por isso não foram feitos com uma certa meio-Adeptus em mente. Entretanto, quando a ofereceram Bambu Estelar, uma certa discípula dela disse essas palavras, sem emoção: \"Não, obrigada.\"",
+      "5": "Por isso, Retentora de Nuvem não teve escolha a não ser manter isso com ela.</i>"
+    },
+    "skillParams": {
+      "0": "Dano Instantâneo ao Lançar",
+      "1": "Dano do Mecanismo Coordenado",
+      "2": "Regeneração Instantânea ao Lançar",
+      "3": "Regeneração Contínua do Mecanismo",
+      "4": "Intervalo de Cura do Mecanismo",
+      "5": "Duração do Mecanismo",
+      "6": "Recarga",
+      "7": "Energia Elemental",
+      "8": "",
+      "9": "",
+      "10": "",
+      "11": "",
+      "12": "",
+      "13": "",
+      "14": "",
+      "15": ""
+    }
+  },
+  "passive1": {
+    "name": "Perseguição da Pena Gelada",
+    "description": {
+      "0": "Depois que a Onda das Nuvens: Supressão Divina de <anemo>Nuvens Brancas na Alvorada</anemo> atingir, gera um redemoinho em frente, puxando os inimigos e objetos próximos."
+    }
+  },
+  "passive2": {
+    "name": "Pense a Adeptus em seu Reino",
+    "description": {
+      "0": "Quando o Bambu Estelar criado por <anemo>As Estrelas se Reúnem no Crepúsculo</anemo> tem acúmulos de Ajuda Adepti, aumentará o Dano da onda de choque do Ataque Imersivo do personagem ativo próximo. O aumento é equivalente a 170% do ATQ de Xianyun. É possível aumentar o Dano da onda de choque do Ataque Imersivo do personagem ativo próximo em até 8.500.",
+      "1": "Só um oponente pode sofrer o aumento de Dano de uma onda de choque de um Ataque. Cada personagem pode desencadear esse efeito uma vez a cada 0.4s."
+    }
+  },
+  "passive3": {
+    "name": "Como uma Garça",
+    "description": {
+      "0": "Aumenta a velocidade de planar para os personagens da equipe em 15%.",
+      "1": "Não acumula com outros Talentos Passivos que fornecem o mesmo efeito."
+    }
+  },
+  "constellation1": {
+    "name": "Vento Purificador",
+    "description": {
+      "0": "<anemo>Nuvens Brancas na Alvorada</anemo> ganha 1 uso adicional."
+    }
+  },
+  "constellation2": {
+    "name": "Alheia ao Mundo",
+    "description": {
+      "0": "Depois de lançar <anemo>Nuvens Brancas na Alvorada</anemo>, aumenta o ATQ de Xianyun em 20% por 15s.",
+      "1": "Além disso, o efeito do Talento Passivo \"Pense a Adeptus em Seu Reino\" obtém um aumento: quando o Bambu Estelar criado por <anemo>As Estrelas se Reúnem no Crepúsculo</anemo> tem acúmulos de Ajuda Adepti, aumentará o Dano da onda de choque do Ataque Imersivo do personagem ativo próximo. O aumento é equivalente a 306% do ATQ de Xianyun. É possível aumentar o Dano da onda de choque do Ataque Imersivo do personagem ativo próximo em até 15.300.",
+      "2": "Só um oponente pode sofrer o aumento de Dano de uma onda de choque de um Ataque. Cada personagem pode desencadear esse efeito uma vez a cada 0.4s.",
+      "3": "É necessário desbloquear primeiro o Talento Passivo \"Pense a Adeptus em seu Reino\"."
+    }
+  },
+  "constellation3": {
+    "name": "Criações das Estrelas e da Lua",
+    "description": {
+      "0": "Aumenta o nível da <anemo>As Estrelas se Reúnem no Crepúsculo</anemo> em 3.",
+      "1": "O nível máximo de elevação é 15."
+    }
+  },
+  "constellation4": {
+    "name": "Pérola Gourmet Misteriosa",
+    "description": {
+      "0": "Depois de fazer 1/2/3 Escadas Celestiais em uma instância da Transfiguração de Nuvens de <anemo>Nuvens Brancas na Alvorada</anemo>, quando uma Onda das Nuvens é lançada nessa instância e atingir inimigos, curará todos os membros próximos da equipe. A cura é equivalente a 50%/80%/150% do ATQ de Xianyun. Esse efeito pode ser desencadeado uma vez a cada 5s."
+    }
+  },
+  "constellation5": {
+    "name": "Beleza Matinal",
+    "description": {
+      "0": "Aumenta o nível de <anemo>Nuvens Brancas na Alvorada</anemo> em 3.",
+      "1": "Nível máximo de elevação é 15."
+    }
+  },
+  "constellation6": {
+    "name": "Espírito da Guardiã das Nuens",
+    "description": {
+      "0": "Aumenta o Dano CRIT da Onda das Nuvens de <anemo>Nuvens Brancas na Alvorada</anemo> em 70%.",
+      "1": "Quando Xianyun lançar Nuvens Brancas na Alvorada, se Bambu Estelar de <anemo>As Estrelas se Reúnem no Crepúsculo</anemo> possuir Ajuda Adepti, consome um acúmulo de Ajuda Adepti, fazendo com que essa instância de Nuvens Brancas na Alvorada não entre em recarga, e que na duração de Nuvens Brancas na Alvorada, o ataque desencadeado por Bambu Estelar de Onda nas Nuvens não consuma Ajuda Adepti.",
+      "2": "Além disso, quando Onda das Nuvens: Supressão Divina atingir um inimigo, o Bambu Estelar obterá um acúmulo de Ajuda Adepti. Esse efeito pode ser desencadeado uma vez a cada 8s."
+    }
+  }
+}

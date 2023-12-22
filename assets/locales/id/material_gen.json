@@ -401,14 +401,14 @@
     "name": "Theater Ticket",
     "description": {
       "0": "Tiket kenang-kenangan yang dibuat dengan indah, diperoleh dari mengikuti berbagai event perayaan selama Festival Film Fontinalia. Konon katanya, tiket ini menggunakan seni pembuatan yang unik, dan memiliki tekstur yang mirip dengan \"film\"__, juga bisa memantulkan cahaya jernih, layaknya batu permata yang tipis ....",
-      "1": "Bisa digunakan untuk membuka berbagai macam hadiah selama \"Senapan dan Mawar\"."
+      "1": "Bisa digunakan untuk membuka berbagai macam hadiah selama \"Mawar dan Senapan\"."
     }
   },
   "FilmForFun": {
     "name": "Film for Fun",
     "description": {
       "0": "Mata uang__ kenang-kenangan dengan bentuk seperti sebuah film, diperoleh dari mengikuti Festival Film Fontinalia secara aktif. Meski tidak bisa dimasukkan ke perangkat yang khusus untuk memutar film yang menarik, namun bentuknya yang unik langsung membuat siapa pun yang melihatnya teringat kepada segala sesuatu selama festival berlangsung, dan menjadi bahagia karenanya ....",
-      "1": "Bisa digunakan untuk menukar hadiah berharga selama \"Senapan dan Mawar\"."
+      "1": "Bisa digunakan untuk menukar hadiah berharga selama \"Mawar dan Senapan\"."
     }
   },
   "Primogem": {
@@ -1040,18 +1040,34 @@
   },
   "Charlotte": {
     "name": "Charlotte",
-    "description": {}
+    "description": {
+      "0": "Seorang reporter dari The Steambird yang selalu terlihat sangat bersemangat. Ia tidak pernah berhenti berlari ke sana kemari untuk mencari \"kebenaran\"."
+    }
   },
   "Furina": {
     "name": "Furina",
-    "description": {}
+    "description": {
+      "0": "Pusat perhatian utama panggung pengadilan, hingga tepuk-tangan di penghujung acara terdengar."
+    }
   },
   "Chevreuse": {
     "name": "Chevreuse",
-    "description": {}
+    "description": {
+      "0": "Kapten Pasukan Patroli Khusus, yang telah mengukirkan \"keadilan\" di dalam lubuk hatinya. Senjata di tangannya hanya akan ditodongkan kepada orang yang bersalah."
+    }
   },
   "Navia": {
     "name": "Navia",
+    "description": {
+      "0": "Ketua Spina di Rosula, bos yang cantik, baik, dan bertanggung jawab."
+    }
+  },
+  "Gaming": {
+    "name": "Gaming",
+    "description": {}
+  },
+  "Xianyun": {
+    "name": "Xianyun",
     "description": {}
   },
   "KamisatoAyakasStellaFortuna": {
@@ -1521,6 +1537,16 @@
     "description": {
       "0": "Material aktivasi untuk konstelasi Navia"
     }
+  },
+  "GamingsStellaFortuna": {
+    "name": "Gaming's Stella Fortuna",
+    "description": {
+      "0": "Material aktivasi untuk konstelasi Gaming"
+    }
+  },
+  "XianyunsStellaFortuna": {
+    "name": "",
+    "description": {}
   },
   "GnosticHymnOldNotes": {
     "name": "Gnostic Hymn - Old Notes",
@@ -10182,6 +10208,10 @@
       "1": "Shrine of Depths menyegel diri mereka sendiri saat peradaban yang membangun mereka hilang. Kunci yang hilang di kedalaman Domain dapat menghancurkan segelnya. Atau mungkin, untuk sesaat, kunci ini membantu segelnya melupakan segalanya yang telah hilang dari mereka."
     }
   },
+  "SpiritKoi": {
+    "name": "",
+    "description": {}
+  },
   "Dish": {
     "name": "Masakan",
     "description": {
@@ -13870,14 +13900,126 @@
   "SinTheKindThatDoesntNeedToBeDealtWith": {
     "name": "Sin: The Kind that Doesn't Need to be Dealt With",
     "description": {
-      "0": "Masakan Andalan Chevreuse. Dari sudut pantang kesehatan, ini adalah sebuah makanan yang \"berdosa\", tanpa perlu diragukan lagi. Sebagai ketua dari Pasukan Patroli Khusus, dari segi profesionalitas pekerjaan dan moral etikanya, Chevreuse tidak akan menyerahkan tugas untuk memusnahkan dosa kepada orang lain. Meski kadang-kadang, saat menjalankan misi dengan orang yang sangat dipercayainya ... adalah satu cara untuk melepaskan tekanannya."
+      "0": "Masakan Andalan Chevreuse. Kalau dari sudut pandang kesehatan, makanan ini jelas \"penuh dosa\". Sebagai kepala Pasukan Patroli Khusus, Chevreuse tidak akan sudi memberikan tugas untuk mengurus dosa-dosa seperti ini ke orang lain. Masalahnya sudah ke ranah prinsip dan etika pekerjaan. Tapi kadang, berbagi tugas suci ini dengan orang-orang kepercayaannya ... adalah cara yang boleh dipakai untuk membasmi stres."
     }
   },
   "PickWhatYouLike": {
     "name": "\"Pick What You Like!\"",
     "description": {
-      "0": "Masakan Andalan Navia. \"Ayo! Pilih yang paling kamu suka\"! Seiring dengan suara bahagia yang akrab terdengar, yang tampak olehmu adalah rak makanan penutup mewah dua tingkat yang sangat indah. Ada Macaron yang disusun rapi, belum lagi ekspresi setiap Macaron yang berbeda-beda, benar-benar menarik ... Orang yang melihatnya sampai berpikir, bagaimana ya ekspresi Navia nanti kalau semua ini aku ambil?"
+      "0": "Masakan Andalan Navia. \"Ayo! Pilih yang paling kamu suka!\" Seiring dengan suara bahagia yang akrab terdengar, yang tampak olehmu adalah rak makanan penutup dua tingkat yang sangat mewah dan indah. Ada Macaron yang disusun rapi, belum lagi ekspresi setiap Macaron yang berbeda-beda, benar-benar menarik ... Orang yang melihatnya sampai berpikir, bagaimana ya ekspresi Navia nanti kalau semuanya diambil?"
     }
+  },
+  "SuspiciousEightTreasureDuck": {
+    "name": "Suspicious Eight-Treasure Duck",
+    "description": {}
+  },
+  "EightTreasureDuck": {
+    "name": "Eight-Treasure Duck",
+    "description": {}
+  },
+  "DeliciousEightTreasureDuck": {
+    "name": "Delicious Eight-Treasure Duck",
+    "description": {}
+  },
+  "SuspiciousDeepFriedDoublecrisp": {
+    "name": "Suspicious Deep-Fried Doublecrisp",
+    "description": {}
+  },
+  "DeepFriedDoublecrisp": {
+    "name": "Deep-Fried Doublecrisp",
+    "description": {}
+  },
+  "DeliciousDeepFriedDoublecrisp": {
+    "name": "Delicious Deep-Fried Doublecrisp",
+    "description": {}
+  },
+  "SuspiciousBraisedMeatballs": {
+    "name": "Suspicious Braised Meatballs",
+    "description": {}
+  },
+  "BraisedMeatballs": {
+    "name": "Braised Meatballs",
+    "description": {}
+  },
+  "DeliciousBraisedMeatballs": {
+    "name": "Delicious Braised Meatballs",
+    "description": {}
+  },
+  "SuspiciousHoneyCharSiu": {
+    "name": "Suspicious Honey Barbecue Pork",
+    "description": {}
+  },
+  "HoneyCharSiu": {
+    "name": "Honey Char Siu",
+    "description": {}
+  },
+  "DeliciousHoneyCharSiu": {
+    "name": "Delicious Honey Barbecue Pork",
+    "description": {}
+  },
+  "SuspiciousFineTeaFullMoon": {
+    "name": "Suspicious Fine Tea, Full Moon",
+    "description": {}
+  },
+  "FineTeaFullMoon": {
+    "name": "Fine Tea, Full Moon",
+    "description": {}
+  },
+  "DeliciousFineTeaFullMoon": {
+    "name": "Delicious Fine Tea, Full Moon",
+    "description": {}
+  },
+  "SuspiciousJadeveinTeaEggs": {
+    "name": "Suspicious Jadevein Tea Eggs",
+    "description": {}
+  },
+  "JadeveinTeaEggs": {
+    "name": "Jadevein Tea Eggs",
+    "description": {}
+  },
+  "DeliciousJadeveinTeaEggs": {
+    "name": "Delicious Jadevein Tea Eggs",
+    "description": {}
+  },
+  "SuspiciousTeaSmokedSquab": {
+    "name": "Suspicious Tea-Smoked Squab",
+    "description": {}
+  },
+  "TeaSmokedSquab": {
+    "name": "Tea-Smoked Squab",
+    "description": {}
+  },
+  "DeliciousTeaSmokedSquab": {
+    "name": "Delicious Tea-Smoked Squab",
+    "description": {}
+  },
+  "SuspiciousGuhuaFishLambSoup": {
+    "name": "Suspicious Guhua Fish & Lamb Soup",
+    "description": {}
+  },
+  "GuhuaFishLambSoup": {
+    "name": "Guhua Fish & Lamb Soup",
+    "description": {}
+  },
+  "DeliciousGuhuaFishLambSoup": {
+    "name": "Delicious Guhua Fish & Lamb Soup",
+    "description": {}
+  },
+  "SuspiciousChenyuBrew": {
+    "name": "Suspicious Chenyu Brew",
+    "description": {}
+  },
+  "ChenyuBrew": {
+    "name": "Chenyu Brew",
+    "description": {}
+  },
+  "DeliciousChenyuBrew": {
+    "name": "Delicious Chenyu Brew",
+    "description": {}
+  },
+  "EncompassingGladness": {
+    "name": "Encompassing Gladness",
+    "description": {}
   },
   "RecipeItem": {
     "name": "Bahan Resep",
@@ -14942,6 +15084,60 @@
       "0": "Resep yang berisi langkah-langkah untuk membuat Rainbow Macarons."
     }
   },
+  "RecipeEightTreasureDuck": {
+    "name": "Resep: Eight-Treasure Duck",
+    "description": {
+      "0": "Resep yang berisi langkah-langkah untuk membuat Eight-Treasure Duck."
+    }
+  },
+  "RecipeDeepFriedDoublecrisp": {
+    "name": "Resep: Deep-Fried Doublecrisp",
+    "description": {
+      "0": "Resep yang berisi langkah-langkah untuk membuat Deep-Fried Doublecrisp."
+    }
+  },
+  "RecipeBraisedMeatballs": {
+    "name": "Resep: Braised Meatballs",
+    "description": {
+      "0": "Resep yang berisi langkah-langkah untuk membuat Braised Meatballs."
+    }
+  },
+  "RecipeHoneyCharSiu": {
+    "name": "Resep: Honey Barbecue Pork",
+    "description": {
+      "0": "Resep yang berisi langkah-langkah untuk membuat Honey Barbecue Pork."
+    }
+  },
+  "RecipeFineTeaFullMoon": {
+    "name": "Resep: Fine Tea, Full Moon",
+    "description": {
+      "0": "Resep yang berisi langkah-langkah untuk membuat Fine Tea, Full Moon."
+    }
+  },
+  "RecipeJadeveinTeaEggs": {
+    "name": "Resep: Jadevein Tea Eggs",
+    "description": {
+      "0": "Resep yang berisi langkah-langkah untuk membuat Jadevein Tea Eggs."
+    }
+  },
+  "RecipeTeaSmokedSquab": {
+    "name": "Resep: Tea-Smoked Squab",
+    "description": {
+      "0": "Resep yang berisi langkah-langkah untuk membuat Tea-Smoked Squab."
+    }
+  },
+  "RecipeGuhuaFishLambSoup": {
+    "name": "Resep: Guhua Fish & Lamb Soup",
+    "description": {
+      "0": "Resep yang berisi langkah-langkah untuk membuat Guhua Fish & Lamb Soup."
+    }
+  },
+  "RecipeChenyuBrew": {
+    "name": "Resep: Chenyu Brew",
+    "description": {
+      "0": "Resep yang berisi langkah-langkah untuk membuat Chenyu Brew."
+    }
+  },
   "CraftedItems": {
     "name": "Hasil Craft",
     "description": {
@@ -15841,6 +16037,24 @@
       "1": "Dikatakan bahwa sekalipun benda ini dilepaskan, namun kemampuan fisik sang Detektif tetaplah jauh melampaui manusia normal berkat penempaan, latihan, dan pengalaman tempur sungguhan yang mereka jalani selama bertahun-tahun. Para Detektif sepenuhnya sadar bahwa mereka telah mengorbankan masa lalu, masa kini, dan juga masa depannya untuk diabdikan pada kerajaan ideal Fatui. Dan karena hal ini pula, maka rasa sakit dan risiko yang mereka terima saat menggunakan Delusion juga sama sekali tidak menjadi hal yang patut diperhitungkan."
     }
   },
+  "FeatheryFin": {
+    "name": "Feathery Fin",
+    "description": {
+      "0": "???"
+    }
+  },
+  "LunarFin": {
+    "name": "Lunar Fin",
+    "description": {
+      "0": "???"
+    }
+  },
+  "ChasmlightFin": {
+    "name": "Chasmlight Fin",
+    "description": {
+      "0": "???"
+    }
+  },
   "HurricaneSeed": {
     "name": "Hurricane Seed",
     "description": {
@@ -16275,6 +16489,12 @@
     "description": {
       "0": "Satu-satunya yang tersisa setelah Hydro Tulpa tercerai-berai.",
       "1": "Objek ini sangat mirip dengan kristal yang diekstrak dari tubuh Fontemer Aberrant. Tapi yang ini mengandung banyak ketidakmurnian kecil, layaknya gelembung-gelembung kaca yang dibentuk oleh pengrajin yang kaku."
+    }
+  },
+  "CloudseamScale": {
+    "name": "Cloudseam Scale",
+    "description": {
+      "0": "???"
     }
   },
   "TileOfDecarabiansTower": {
@@ -19170,6 +19390,24 @@
       "0": "？？？"
     }
   },
+  "TimeTrekkerI": {
+    "name": "",
+    "description": {
+      "0": "？？？"
+    }
+  },
+  "TimeTrekkerII": {
+    "name": "",
+    "description": {
+      "0": "？？？"
+    }
+  },
+  "TimeTrekkerIII": {
+    "name": "",
+    "description": {
+      "0": "？？？"
+    }
+  },
   "GiftOfParting": {
     "name": "Hadiah \"Perpisahan\"",
     "description": {
@@ -19718,7 +19956,7 @@
       "1": "Mungkin satu komponen ini saja sudah cukup untuk memberi daya energi kepada seluruh mesin ...."
     }
   },
-  "34thIndependentReconnaissanceSquadDeploymentInMontEsusEasternQuadrantDeploymentPlan": {
+  "34thIndependentInvestigativeSquadDeploymentInMontEsusEasternQuadrantDeploymentPlan": {
     "name": "Rencana Pengerahan Tim Investigasi Mandiri ke-34 di Mont Esus East",
     "description": {}
   },
@@ -19726,7 +19964,7 @@
     "name": "Catatan Prajurit Skirmisher",
     "description": {}
   },
-  "34thIndependentReconnaissanceSquadDeploymentInMontEsusEasternQuadrantDisciplinaryProcedures": {
+  "34thIndependentInvestigativeSquadDeploymentInMontEsusEasternQuadrantDisciplinaryProcedures": {
     "name": "Peraturan Ketertiban Tim Investigasi Mandiri ke-34 di Mont Esus East",
     "description": {}
   },
@@ -19782,6 +20020,36 @@
     "name": "Buku Petunjuk (Benteng Meropide)",
     "description": {
       "0": "Laporan tentang berbagai petunjuk yang kamu temukan selama penyelidikanmu di Benteng Meropide."
+    }
+  },
+  "PictureLotusPondBeneathTheMoon": {
+    "name": "Foto: Kolam Lotus di Bawah Rembulan",
+    "description": {
+      "0": "Selembar foto Kolam Lotus di bawah terang bulan."
+    }
+  },
+  "PictureGuestsOfQiaoying": {
+    "name": "Foto: Tamu Qiaoying",
+    "description": {
+      "0": "Selembar foto Desa Qiaoying yang indah."
+    }
+  },
+  "PictureTranquilJademouth": {
+    "name": "Foto: Jademouth yang Tenang__",
+    "description": {
+      "0": "Selembar foto Jademouth yang indah."
+    }
+  },
+  "PictureMtXuanlian": {
+    "name": "Foto: Gunung Xuanlian",
+    "description": {
+      "0": "Selembar foto Gunung Xuanlian yang indah."
+    }
+  },
+  "ChenyuValeSceneryGuide": {
+    "name": "Panduan Pemandangan Lembah Chenyu",
+    "description": {
+      "0": "Buku panduan turis yang memperkenalkan tempat-tempat indah yang direkomendasikan oleh warga lokal."
     }
   },
   "Notice": {
@@ -20196,7 +20464,7 @@
   "MysteriousXenochromaticCrystal": {
     "name": "Xenochromatic Crystal Misterius",
     "description": {
-      "0": "Kristal besar yang diperoleh dari dalam tubuh Fontemer Aberrant yang sangat kuat di area Morte.",
+      "0": "Kristal besar yang diperoleh dari dalam tubuh Fontemer Aberrant yang sangat kuat.",
       "1": "Kekuatan yang dikandungnya lebih misterius dari Xenochromatic Crystal yang biasanya.",
       "2": "Mungkin akan ada orang yang bersedia membayarkan harga yang setara untuknya."
     }
@@ -20247,11 +20515,17 @@
     "name": "Catatan",
     "description": {}
   },
+  "OurChenyuValeTrekAlbum": {
+    "name": "Album \"Petualangan Chenyu\"",
+    "description": {
+      "0": "Album foto kenang-kenangan yang menyimpan berbagai karya foto yang menakjubkan. Di luar dugaan, hampir setengah karyanya diambil oleh orang yang sama."
+    }
+  },
   "ShootingPracticeOpticalLenses": {
     "name": "Lensa Optik Latihan Penembakan",
     "description": {
       "0": "Perangkat optik yang disediakan oleh anggota Pasukan Patroli Khusus Turenna. Sepertinya memiliki prinsip pencitraan yang sangat sulit dikuasai oleh orang biasa. Saat digunakan bersama dengan perangkat meja pasir dari \"Zona Penembakan Jitu Larangan Ribuan Kecepatan\", akan bisa menyimulasikan pemandangan saat menggunakan senapan untuk menembak musuh.",
-      "1": "Meski perangkat ini masih dianggap memiliki banyak kekurangan saat digunakan untuk melatih anggota resmi, tapi sudah cukup untuk menarik perhatian orang-orang terhadap senapan dan cukup untuk mengali potensi terpendam mereka, sehingga bakat menembaknya bisa digunakan di dalam nama kebenaran."
+      "1": "Meski perangkat ini masih dianggap memiliki banyak kekurangan saat digunakan untuk melatih anggota resmi, tapi sudah cukup untuk menarik perhatian orang-orang terhadap senapan dan cukup untuk menggali potensi terpendam mereka, sehingga bakat menembaknya bisa digunakan di dalam nama kebenaran."
     }
   },
   "HelpMePlease": {
@@ -20264,6 +20538,12 @@
     "name": "Kuitansi Toko Kelontong Bracari__",
     "description": {
       "0": "Kuitansi Toko Kelontong Bracari__"
+    }
+  },
+  "AncientStoneTablet": {
+    "name": "Tablet Batu Kuno",
+    "description": {
+      "0": "Tablet Batu Kuno"
     }
   },
   "PackageForTheLeroyFamily": {
@@ -21503,55 +21783,55 @@
   "RadiantSpincrystal99": {
     "name": "Radiant Spincrystal 99",
     "description": {
-      "0": "Kristal yang menakjubkan ini mengandung ritme tertentu, seperti batu giok indah yang ditenun dari sutra halus. Pecahan ini dapat ditemukan di seluruh daratan atau didapatkan dari para pedagang yang suka mengumpulkan barang antik. Melodi yang terkandung di dalam kristal ini dapat dihidupkan kembali di Serenitea Pot milikmu menggunakan \"Paduan Suara Celestial: Anggun Mengangkasa\" atau \"Paduan Suara Celestial: Indah Mengalun\". Melodi yang terkandung dalam Radiant Spincrystal ini adalah melodi misterius dari Fontaine."
+      "0": "Kristal yang menakjubkan ini mengandung ritme tertentu, seperti batu giok indah yang ditenun dari sutra halus. Pecahan ini dapat ditemukan di seluruh daratan atau didapatkan dari para pedagang yang suka mengumpulkan barang antik. Melodi yang terkandung di dalam kristal ini dapat dihidupkan kembali di Serenitea Pot milikmu menggunakan \"Paduan Suara Celestial: Anggun Mengangkasa\" atau \"Paduan Suara Celestial: Indah Mengalun\". Melodi yang terkandung dalam Radiant Spincrystal ini adalah \"Ballad of Many Waters\"."
     }
   },
   "RadiantSpincrystal100": {
     "name": "Radiant Spincrystal 100",
     "description": {
-      "0": "Kristal yang menakjubkan ini mengandung ritme tertentu, seperti batu giok indah yang ditenun dari sutra halus. Pecahan ini dapat ditemukan di seluruh daratan atau didapatkan dari para pedagang yang suka mengumpulkan barang antik. Melodi yang terkandung di dalam kristal ini dapat dihidupkan kembali di Serenitea Pot milikmu menggunakan \"Paduan Suara Celestial: Anggun Mengangkasa\" atau \"Paduan Suara Celestial: Indah Mengalun\". Melodi yang terkandung dalam Radiant Spincrystal ini adalah melodi misterius dari Fontaine."
+      "0": "Kristal yang menakjubkan ini mengandung ritme tertentu, seperti batu giok indah yang ditenun dari sutra halus. Pecahan ini dapat ditemukan di seluruh daratan atau didapatkan dari para pedagang yang suka mengumpulkan barang antik. Melodi yang terkandung di dalam kristal ini dapat dihidupkan kembali di Serenitea Pot milikmu menggunakan \"Paduan Suara Celestial: Anggun Mengangkasa\" atau \"Paduan Suara Celestial: Indah Mengalun\". Melodi yang terkandung dalam Radiant Spincrystal ini adalah \"Coruscating Street\"."
     }
   },
   "RadiantSpincrystal101": {
     "name": "Radiant Spincrystal 101",
     "description": {
-      "0": "Kristal yang menakjubkan ini mengandung ritme tertentu, seperti batu giok indah yang ditenun dari sutra halus. Pecahan ini dapat ditemukan di seluruh daratan atau didapatkan dari para pedagang yang suka mengumpulkan barang antik. Melodi yang terkandung di dalam kristal ini dapat dihidupkan kembali di Serenitea Pot milikmu menggunakan \"Paduan Suara Celestial: Anggun Mengangkasa\" atau \"Paduan Suara Celestial: Indah Mengalun\". Melodi yang terkandung dalam Radiant Spincrystal ini adalah melodi misterius dari Fontaine."
+      "0": "Kristal yang menakjubkan ini mengandung ritme tertentu, seperti batu giok indah yang ditenun dari sutra halus. Pecahan ini dapat ditemukan di seluruh daratan atau didapatkan dari para pedagang yang suka mengumpulkan barang antik. Melodi yang terkandung di dalam kristal ini dapat dihidupkan kembali di Serenitea Pot milikmu menggunakan \"Paduan Suara Celestial: Anggun Mengangkasa\" atau \"Paduan Suara Celestial: Indah Mengalun\". Melodi yang terkandung dalam Radiant Spincrystal ini adalah \"Throughout the Flow of Years\"."
     }
   },
   "RadiantSpincrystal102": {
     "name": "Radiant Spincrystal 102",
     "description": {
-      "0": "Kristal yang menakjubkan ini mengandung ritme tertentu, seperti batu giok indah yang ditenun dari sutra halus. Pecahan ini dapat ditemukan di seluruh daratan atau didapatkan dari para pedagang yang suka mengumpulkan barang antik. Melodi yang terkandung di dalam kristal ini dapat dihidupkan kembali di Serenitea Pot milikmu menggunakan \"Paduan Suara Celestial: Anggun Mengangkasa\" atau \"Paduan Suara Celestial: Indah Mengalun\". Melodi yang terkandung dalam Radiant Spincrystal ini adalah melodi misterius dari Fontaine."
+      "0": "Kristal yang menakjubkan ini mengandung ritme tertentu, seperti batu giok indah yang ditenun dari sutra halus. Pecahan ini dapat ditemukan di seluruh daratan atau didapatkan dari para pedagang yang suka mengumpulkan barang antik. Melodi yang terkandung di dalam kristal ini dapat dihidupkan kembali di Serenitea Pot milikmu menggunakan \"Paduan Suara Celestial: Anggun Mengangkasa\" atau \"Paduan Suara Celestial: Indah Mengalun\". Melodi yang terkandung dalam Radiant Spincrystal ini adalah \"Miraculous Whisper\"."
     }
   },
   "RadiantSpincrystal103": {
     "name": "Radiant Spincrystal 103",
     "description": {
-      "0": "Kristal yang menakjubkan ini mengandung ritme tertentu, seperti batu giok indah yang ditenun dari sutra halus. Pecahan ini dapat ditemukan di seluruh daratan atau didapatkan dari para pedagang yang suka mengumpulkan barang antik. Melodi yang terkandung di dalam kristal ini dapat dihidupkan kembali di Serenitea Pot milikmu menggunakan \"Paduan Suara Celestial: Anggun Mengangkasa\" atau \"Paduan Suara Celestial: Indah Mengalun\". Melodi yang terkandung dalam Radiant Spincrystal ini adalah melodi misterius dari Fontaine."
+      "0": "Kristal yang menakjubkan ini mengandung ritme tertentu, seperti batu giok indah yang ditenun dari sutra halus. Pecahan ini dapat ditemukan di seluruh daratan atau didapatkan dari para pedagang yang suka mengumpulkan barang antik. Melodi yang terkandung di dalam kristal ini dapat dihidupkan kembali di Serenitea Pot milikmu menggunakan \"Paduan Suara Celestial: Anggun Mengangkasa\" atau \"Paduan Suara Celestial: Indah Mengalun\". Melodi yang terkandung dalam Radiant Spincrystal ini adalah \"Surging Reminiscence\"."
     }
   },
   "RadiantSpincrystal104": {
     "name": "Radiant Spincrystal 104",
     "description": {
-      "0": "Kristal yang menakjubkan ini mengandung ritme tertentu, seperti batu giok indah yang ditenun dari sutra halus. Pecahan ini dapat ditemukan di seluruh daratan atau didapatkan dari para pedagang yang suka mengumpulkan barang antik. Melodi yang terkandung di dalam kristal ini dapat dihidupkan kembali di Serenitea Pot milikmu menggunakan \"Paduan Suara Celestial: Anggun Mengangkasa\" atau \"Paduan Suara Celestial: Indah Mengalun\". Melodi yang terkandung dalam Radiant Spincrystal ini adalah melodi misterius dari Fontaine."
+      "0": "Kristal yang menakjubkan ini mengandung ritme tertentu, seperti batu giok indah yang ditenun dari sutra halus. Pecahan ini dapat ditemukan di seluruh daratan atau didapatkan dari para pedagang yang suka mengumpulkan barang antik. Melodi yang terkandung di dalam kristal ini dapat dihidupkan kembali di Serenitea Pot milikmu menggunakan \"Paduan Suara Celestial: Anggun Mengangkasa\" atau \"Paduan Suara Celestial: Indah Mengalun\". Melodi yang terkandung dalam Radiant Spincrystal ini adalah \"Ann's Quiescent Residence\"."
     }
   },
   "RadiantSpincrystal105": {
     "name": "Radiant Spincrystal 105",
     "description": {
-      "0": "Kristal yang menakjubkan ini mengandung ritme tertentu, seperti batu giok indah yang ditenun dari sutra halus. Pecahan ini dapat ditemukan di seluruh daratan atau didapatkan dari para pedagang yang suka mengumpulkan barang antik. Melodi yang terkandung di dalam kristal ini dapat dihidupkan kembali di Serenitea Pot milikmu menggunakan \"Paduan Suara Celestial: Anggun Mengangkasa\" atau \"Paduan Suara Celestial: Indah Mengalun\". Melodi yang terkandung dalam Radiant Spincrystal ini adalah melodi misterius dari Fontaine."
+      "0": "Kristal yang menakjubkan ini mengandung ritme tertentu, seperti batu giok indah yang ditenun dari sutra halus. Pecahan ini dapat ditemukan di seluruh daratan atau didapatkan dari para pedagang yang suka mengumpulkan barang antik. Melodi yang terkandung di dalam kristal ini dapat dihidupkan kembali di Serenitea Pot milikmu menggunakan \"Paduan Suara Celestial: Anggun Mengangkasa\" atau \"Paduan Suara Celestial: Indah Mengalun\". Melodi yang terkandung dalam Radiant Spincrystal ini adalah \"Limpide est le sanglot d'eau\"."
     }
   },
   "RadiantSpincrystal106": {
     "name": "Radiant Spincrystal 106",
     "description": {
-      "0": "Kristal yang menakjubkan ini mengandung ritme tertentu, seperti batu giok indah yang ditenun dari sutra halus. Pecahan ini dapat ditemukan di seluruh daratan atau didapatkan dari para pedagang yang suka mengumpulkan barang antik. Melodi yang terkandung di dalam kristal ini dapat dihidupkan kembali di Serenitea Pot milikmu menggunakan \"Paduan Suara Celestial: Anggun Mengangkasa\" atau \"Paduan Suara Celestial: Indah Mengalun\". Melodi yang terkandung dalam Radiant Spincrystal ini adalah melodi misterius dari Fontaine."
+      "0": "Kristal yang menakjubkan ini mengandung ritme tertentu, seperti batu giok indah yang ditenun dari sutra halus. Pecahan ini dapat ditemukan di seluruh daratan atau didapatkan dari para pedagang yang suka mengumpulkan barang antik. Melodi yang terkandung di dalam kristal ini dapat dihidupkan kembali di Serenitea Pot milikmu menggunakan \"Paduan Suara Celestial: Anggun Mengangkasa\" atau \"Paduan Suara Celestial: Indah Mengalun\". Melodi yang terkandung dalam Radiant Spincrystal ini adalah \"Que le vent soit doux\"."
     }
   },
   "RadiantSpincrystal107": {
     "name": "Radiant Spincrystal 107",
     "description": {
-      "0": "Kristal yang menakjubkan ini mengandung ritme tertentu, seperti batu giok indah yang ditenun dari sutra halus. Pecahan ini dapat ditemukan di seluruh daratan atau didapatkan dari para pedagang yang suka mengumpulkan barang antik. Melodi yang terkandung di dalam kristal ini dapat dihidupkan kembali di Serenitea Pot milikmu menggunakan \"Paduan Suara Celestial: Anggun Mengangkasa\" atau \"Paduan Suara Celestial: Indah Mengalun\". Melodi yang terkandung dalam Radiant Spincrystal ini adalah melodi misterius dari Fontaine."
+      "0": "Kristal yang menakjubkan ini mengandung ritme tertentu, seperti batu giok indah yang ditenun dari sutra halus. Pecahan ini dapat ditemukan di seluruh daratan atau didapatkan dari para pedagang yang suka mengumpulkan barang antik. Melodi yang terkandung di dalam kristal ini dapat dihidupkan kembali di Serenitea Pot milikmu menggunakan \"Paduan Suara Celestial: Anggun Mengangkasa\" atau \"Paduan Suara Celestial: Indah Mengalun\". Melodi yang terkandung dalam Radiant Spincrystal ini adalah \"Demain, des l'aube\"."
     }
   },
   "RadiantSpincrystal108": {
@@ -21624,6 +21904,42 @@
     "name": "Radiant Spincrystal 119",
     "description": {
       "0": "Kristal yang menakjubkan ini mengandung ritme tertentu, seperti batu giok indah yang ditenun dari sutra halus. Pecahan ini dapat ditemukan di seluruh daratan atau didapatkan dari para pedagang yang suka mengumpulkan barang antik. Melodi yang terkandung di dalam kristal ini dapat dihidupkan kembali di Serenitea Pot milikmu menggunakan \"Paduan Suara Celestial: Anggun Mengangkasa\" atau \"Paduan Suara Celestial: Indah Mengalun\". Melodi yang terkandung dalam Radiant Spincrystal ini adalah melodi misterius dari Fontaine."
+    }
+  },
+  "RadiantSpincrystal120": {
+    "name": "Radiant Spincrystal 120",
+    "description": {
+      "0": "Kristal menakjubkan ini mengandung ritme tertentu, seperti sesuatu yang indah yang ditenun dari sutra halus. Barang-barang ini dapat ditemukan di seluruh daratan atau dari pedagang yang mengoleksi barang antik. Nada yang ada di dalam kristal ini dapat dihidupkan kembali di Serenitea Pot dengan menggunakan \"Paduan Suara Celestial: Anggun Mengangkasa\" atau \"Paduan Suara Celestial: Indah Mengalun\". Lagu yang terkandung dalam Radiant Spincrystal ini merupakan melodi misterius dari Liyue."
+    }
+  },
+  "RadiantSpincrystal121": {
+    "name": "Radiant Spincrystal 121",
+    "description": {
+      "0": "Kristal menakjubkan ini mengandung ritme tertentu, seperti sesuatu yang indah yang ditenun dari sutra halus. Barang-barang ini dapat ditemukan di seluruh daratan atau dari pedagang yang mengoleksi barang antik. Nada yang ada di dalam kristal ini dapat dihidupkan kembali di Serenitea Pot dengan menggunakan \"Paduan Suara Celestial: Anggun Mengangkasa\" atau \"Paduan Suara Celestial: Indah Mengalun\". Lagu yang terkandung dalam Radiant Spincrystal ini merupakan melodi misterius dari Liyue."
+    }
+  },
+  "RadiantSpincrystal122": {
+    "name": "Radiant Spincrystal 122",
+    "description": {
+      "0": "Kristal menakjubkan ini mengandung ritme tertentu, seperti sesuatu yang indah yang ditenun dari sutra halus. Barang-barang ini dapat ditemukan di seluruh daratan atau dari pedagang yang mengoleksi barang antik. Nada yang ada di dalam kristal ini dapat dihidupkan kembali di Serenitea Pot dengan menggunakan \"Paduan Suara Celestial: Anggun Mengangkasa\" atau \"Paduan Suara Celestial: Indah Mengalun\". Lagu yang terkandung dalam Radiant Spincrystal ini merupakan melodi misterius dari Liyue."
+    }
+  },
+  "RadiantSpincrystal123": {
+    "name": "Radiant Spincrystal 123",
+    "description": {
+      "0": "Kristal menakjubkan ini mengandung ritme tertentu, seperti sesuatu yang indah yang ditenun dari sutra halus. Barang-barang ini dapat ditemukan di seluruh daratan atau dari pedagang yang mengoleksi barang antik. Nada yang ada di dalam kristal ini dapat dihidupkan kembali di Serenitea Pot dengan menggunakan \"Paduan Suara Celestial: Anggun Mengangkasa\" atau \"Paduan Suara Celestial: Indah Mengalun\". Lagu yang terkandung dalam Radiant Spincrystal ini merupakan melodi misterius dari Liyue."
+    }
+  },
+  "RadiantSpincrystal124": {
+    "name": "Radiant Spincrystal 124",
+    "description": {
+      "0": "Kristal menakjubkan ini mengandung ritme tertentu, seperti sesuatu yang indah yang ditenun dari sutra halus. Barang-barang ini dapat ditemukan di seluruh daratan atau dari pedagang yang mengoleksi barang antik. Nada yang ada di dalam kristal ini dapat dihidupkan kembali di Serenitea Pot dengan menggunakan \"Paduan Suara Celestial: Anggun Mengangkasa\" atau \"Paduan Suara Celestial: Indah Mengalun\". Lagu yang terkandung dalam Radiant Spincrystal ini merupakan melodi misterius dari Liyue."
+    }
+  },
+  "RadiantSpincrystal125": {
+    "name": "Radiant Spincrystal 125",
+    "description": {
+      "0": "Kristal menakjubkan ini mengandung ritme tertentu, seperti sesuatu yang indah yang ditenun dari sutra halus. Barang-barang ini dapat ditemukan di seluruh daratan atau dari pedagang yang mengoleksi barang antik. Nada yang ada di dalam kristal ini dapat dihidupkan kembali di Serenitea Pot dengan menggunakan \"Paduan Suara Celestial: Anggun Mengangkasa\" atau \"Paduan Suara Celestial: Indah Mengalun\". Lagu yang terkandung dalam Radiant Spincrystal ini merupakan melodi misterius dari Liyue."
     }
   },
   "LanternFiber": {
@@ -23351,7 +23667,7 @@
     }
   },
   "TravelNotesTimeInscribed": {
-    "name": "Catatan Perjalanan: Perjalanan Waktu",
+    "name": "Catatan Perjalanan: Aliran Waktu",
     "description": {
       "0": "Style Kartu Nama.",
       "1": "Entah masih perlu waktu berapa lama lagi, seni perfilman di Teyvat baru akan bisa kembali menemukan \"waktunya mengukir\". Tapi, pemandangan ini, memang benar-benar sudah mengkristalisasi masa lalu yang penuh dosa."
@@ -24224,6 +24540,13 @@
       "1": "Saat mencium aroma buah ini langsung ada satu gambaran yang muncul di pikiranmu. Kamu bisa memanipulasi gambaran ini dengan kekuatan Penciptaan Sub-Ruang untuk menciptakan pemandangan Sumeru yang indah di dalam Alam Poci-mu."
     }
   },
+  "SwirlingSceneInABottle": {
+    "name": "\"Swirling Scene in a Bottle\"",
+    "description": {
+      "0": "Terarium dengan pemandangan yang indah ini dibawa oleh Chubby si Pedagang Dalam Poci sebagai kenang-kenangan dari Fontaine.",
+      "1": "Saat melihat bagian dalam pemandangannya, langsung ada satu gambaran yang muncul di pikiranmu. Kamu bisa memanipulasi gambaran ini dengan kekuatan Penciptaan Sub-Ruang untuk menciptakan pemandangan Fontaine yang indah di Alam Poci-mu."
+    }
+  },
   "TheMountainCloudsLetDownGoldenRain": {
     "name": "The Mountain Clouds Let Down Golden Rain",
     "description": {
@@ -24414,6 +24737,18 @@
   },
   "Dvalin": {
     "name": "Dvalin",
+    "description": {
+      "0": "Kartu permainan \"Genius Invokation TCG\", memiliki tekstur yang keras. Gambar ilustrasi pada kartu tersebut dicetak secara khusus dan terlihat halus."
+    }
+  },
+  "CryoHypostasis": {
+    "name": "Cryo Hypostasis",
+    "description": {
+      "0": "Kartu permainan \"Genius Invokation TCG\", memiliki tekstur yang keras. Gambar ilustrasi pada kartu tersebut dicetak secara khusus dan terlihat halus."
+    }
+  },
+  "MillennialPearlSeahorse": {
+    "name": "Millennial Pearl Seahorse",
     "description": {
       "0": "Kartu permainan \"Genius Invokation TCG\", memiliki tekstur yang keras. Gambar ilustrasi pada kartu tersebut dicetak secara khusus dan terlihat halus."
     }
@@ -24844,6 +25179,30 @@
       "0": "Kartu permainan \"Genius Invokation TCG\", memiliki tekstur yang keras. Gambar ilustrasi pada kartu tersebut dicetak secara khusus dan terlihat halus."
     }
   },
+  "ASubordinatesSkills": {
+    "name": "A Subordinate's Skills",
+    "description": {
+      "0": "Kartu permainan \"Genius Invokation TCG\", memiliki tekstur yang keras. Gambar ilustrasi pada kartu tersebut dicetak secara khusus dan terlihat halus."
+    }
+  },
+  "SkivingNewAndImproved": {
+    "name": "Skiving: New and Improved",
+    "description": {
+      "0": "Kartu permainan \"Genius Invokation TCG\", memiliki tekstur yang keras. Gambar ilustrasi pada kartu tersebut dicetak secara khusus dan terlihat halus."
+    }
+  },
+  "SternfrostPrism": {
+    "name": "Sternfrost Prism",
+    "description": {
+      "0": "Kartu permainan \"Genius Invokation TCG\", memiliki tekstur yang keras. Gambar ilustrasi pada kartu tersebut dicetak secara khusus dan terlihat halus."
+    }
+  },
+  "PearlSolidification": {
+    "name": "Pearl Solidification",
+    "description": {
+      "0": "Kartu permainan \"Genius Invokation TCG\", memiliki tekstur yang keras. Gambar ilustrasi pada kartu tersebut dicetak secara khusus dan terlihat halus."
+    }
+  },
   "MagicGuide": {
     "name": "Magic Guide",
     "description": {
@@ -25252,6 +25611,18 @@
       "0": "Kartu permainan \"Genius Invokation TCG\", memiliki tekstur yang keras. Gambar ilustrasi pada kartu tersebut dicetak secara khusus dan terlihat halus."
     }
   },
+  "SapwoodBlade": {
+    "name": "Sapwood Blade",
+    "description": {
+      "0": "Kartu permainan \"Genius Invokation TCG\", memiliki tekstur yang keras. Gambar ilustrasi pada kartu tersebut dicetak secara khusus dan terlihat halus."
+    }
+  },
+  "VeteransVisage": {
+    "name": "Veteran's Visage",
+    "description": {
+      "0": "Kartu permainan \"Genius Invokation TCG\", memiliki tekstur yang keras. Gambar ilustrasi pada kartu tersebut dicetak secara khusus dan terlihat halus."
+    }
+  },
   "LiyueHarborWharf": {
     "name": "Liyue Harbor Wharf",
     "description": {
@@ -25482,6 +25853,18 @@
   },
   "Mamere": {
     "name": "Mamere",
+    "description": {
+      "0": "Kartu permainan \"Genius Invokation TCG\", memiliki tekstur yang keras. Gambar ilustrasi pada kartu tersebut dicetak secara khusus dan terlihat halus."
+    }
+  },
+  "Jeht": {
+    "name": "Jeht",
+    "description": {
+      "0": "Kartu permainan \"Genius Invokation TCG\", memiliki tekstur yang keras. Gambar ilustrasi pada kartu tersebut dicetak secara khusus dan terlihat halus."
+    }
+  },
+  "SilverAndMelus": {
+    "name": "Silver and Melus",
     "description": {
       "0": "Kartu permainan \"Genius Invokation TCG\", memiliki tekstur yang keras. Gambar ilustrasi pada kartu tersebut dicetak secara khusus dan terlihat halus."
     }
@@ -25788,6 +26171,18 @@
   },
   "FlickeringFourLeafSigil": {
     "name": "Flickering Four-Leaf Sigil",
+    "description": {
+      "0": "Kartu permainan \"Genius Invokation TCG\", memiliki tekstur yang keras. Gambar ilustrasi pada kartu tersebut dicetak secara khusus dan terlihat halus."
+    }
+  },
+  "MachineAssemblyLine": {
+    "name": "Machine Assembly Line",
+    "description": {
+      "0": "Kartu permainan \"Genius Invokation TCG\", memiliki tekstur yang keras. Gambar ilustrasi pada kartu tersebut dicetak secara khusus dan terlihat halus."
+    }
+  },
+  "SunyataFlower": {
+    "name": "Sunyata Flower",
     "description": {
       "0": "Kartu permainan \"Genius Invokation TCG\", memiliki tekstur yang keras. Gambar ilustrasi pada kartu tersebut dicetak secara khusus dan terlihat halus."
     }
@@ -26287,7 +26682,7 @@
       "2": "Kamar tidur sederhana dan dalam banyak hal mirip dengan yang mungkin kamu lihat di Wangshu Inn. Misteri kamar tidur ini sulit dijelaskan dengan kata-kata. Terkadang, akan membangkitkan ingatan bagi mereka yang melewatinya seperti sinar matahari yang menembus awan yang berputar-putar, tetapi juga akan menghilangkan kesedihan di dalamnya dan hanya menyisakan kenangan masa lalu.",
       "3": "Kita semua terombang-ambing dalam kehidupan fana, dan hanya dengan mengingat siapa \"kita\" maka kita bisa tetap berada pada jalur hidup kita. Pikiran kita yang paling jernih adalah saat di antara kita bermimpi dan terbangun. Maka tidak heran bagi mereka yang mengunjungi Wangshu Inn untuk bermalam akan merasakan bahwa energi mereka kembali seratus kali lipat, bersemangat dan siap untuk bertualang sekali lagi.",
       "4": "Setelah digunakan, blueprint ini dapat dilihat di dalam Menu Penempatan.",
-      "5": "Rekan yang menyukai Set Perabotan ini: Hu Tao, Yanfei, Ganyu, Keqing, Chongyun"
+      "5": "Rekan yang menyukai Set Perabotan ini: Hu Tao, Yanfei, Ganyu, Keqing, Chongyun, Gaming"
     }
   },
   "SecretResearchLab": {
@@ -26348,7 +26743,7 @@
       "1": "Jalan kuliner dengan fasilitas luar ruangan yang mengingatkan kembali pada hiruk pikuk Chihu Rock.",
       "2": "Bahkan menyebutnya sebagai \"tempat berkumpulnya para pecinta kuliner\" merupakan pernyataan yang terkesan merendahkan, karena tampaknya walaupun tidak terlalu banyak peralatan memasak di sini, tapi mereka lebih dari cukup untuk membuat semua makanan khas yang ada di Liyue. Koki yang terampil dapat membuat hidangan lezat dari peralatan yang paling sederhana, dan tentu saja hidangan yang tidak memerlukan peralatan khusus juga bisa tersedia di sini.",
       "3": "Setelah digunakan, blueprint ini dapat dilihat di dalam Menu Penempatan.",
-      "4": "Rekan yang menyukai Set Perabotan ini: Beidou, Xiangling, Ganyu, Xinyan, Tartaglia, Yelan"
+      "4": "Rekan yang menyukai Set Perabotan ini: Beidou, Xiangling, Ganyu, Xinyan, Tartaglia, Yelan, Gaming, Xianyun"
     }
   },
   "GlitteringStreet": {
@@ -26368,7 +26763,7 @@
       "1": "Sebuah dusun pegunungan yang meniru Desa Qingce. Dikatakan bahwa suasana di sana sangat ramah dan setiap pengunjung yang datang akan merasa tenang dan lebih bersyukur akan hal-hal kecil yang tidak mereka sadari sebelumnya.",
       "2": "Merantau untuk mengejar cita-cita dan menghabiskan bertahun-tahun untuk mengejar karir tentunya patut dipuji. Tapi setelah bertahun-tahun melakukannya, seseorang pasti akan merasa lelah, dan saat itu terjadi, kehidupan yang tenang dan damai di pinggiran kota adalah pilihan yang baik. Desa Qingce selalu menerima keputusan anak-anak muda yang pergi mencari peruntungan dan siap menyambut mereka kembali dengan tangan terbuka kapan saja.",
       "3": "Setelah digunakan, blueprint ini dapat dilihat di dalam Menu Penempatan.",
-      "4": "Rekan yang menyukai Set Perabotan ini: Xinyan, Xiao, Hu Tao, Qiqi, Shenhe, Yelan, Yaoyao"
+      "4": "Rekan yang menyukai Set Perabotan ini: Xinyan, Xiao, Hu Tao, Qiqi, Shenhe, Yelan, Yaoyao,Xianyun"
     }
   },
   "OfHuntingAndDancing": {
@@ -26628,6 +27023,107 @@
       "2": "Rekan yang menyukai set perabot ini: Tighnari, {REALNAME[ID(1)|HOSTONLY(true)]}"
     }
   },
+  "KeyToAStableWorkRestCycle": {
+    "name": "Faktor Penting untuk Siklus Kerja-Istirahat",
+    "description": {
+      "0": "Kamar tidur luas yang sederhana, menyeimbangkan antara kehangatan dan kerumitan. Bagi orang yang sedang letih, berbaring di atas ranjang di kamar ini akan membuatnya cepat terlelap, sementara orang yang baru bangun di pagi hari bisa cepat tersadar dan memasuki mode bekerja dalam sesaat.",
+      "1": "Banyak orang Fontaine yang menganggap dekorasi kamar sebagai faktor penting yang memengaruhi kualitas tidur, sedangkan tidur yang stabil adalah kunci penting dari ritme hidup seseorang. Demikianlah, desain sebuah kamar tidur memang sangat penting.",
+      "2": "Rekan yang menyukai set perabot ini: Charlotte, Chevreuse"
+    }
+  },
+  "StrictAdherenceToOfficeCodes": {
+    "name": "Mematuhi Aturan Kantor dengan Ketat",
+    "description": {
+      "0": "Desain ruang belajar yang klasik yang mengambil referensi dari perabotan di Palais Mermonia, menciptakan kembali suasana kantor yang sangat sibuk dan sesuai dengan peraturan.",
+      "1": "Ada seorang peneliti di Institut Penelitian Fontaine yang menyatakan bahwa \"lingkungan akan memengaruhi kondisi bekerja seseorang\". Berdasarkan teori ini, orang yang berada di dalam lingkungan seperti Palais mungkin akan mengikuti setiap peraturan yang ada tanpa sadar ...",
+      "2": "Rekan yang menyukai set perabot ini: Neuvillette"
+    }
+  },
+  "GarbForGloriousGourmet": {
+    "name": "Jubah Mewah Kuliner Anggur",
+    "description": {
+      "0": "Restoran dengan perabotan dan peralatan yang lengkap, yang menjadikan Hotel Debord sebagai referensinya. Cocok untuk menjadi lokasi pesta keluarga yang ramai untuk bisa menjamu teman dan saudara.",
+      "1": "Seorang koki terkenal yang punya pengalaman segudang dan perfeksionis pun tidak dapat menyangkal, bahwa lingkungan saat menyantap makanan akan memengaruhi suasana hati pelanggan, yang memengaruhi penilaian keseluruhan mereka terhadap hidangan yang disajikan. Oleh sebab itu, restoran yang indah sendiri juga bisa dikategorikan sebagai jubah mewah makanan kuliner dan anggur.",
+      "2": "Rekan yang menyukai set perabot ini: Furina, Navia"
+    }
+  },
+  "PerfectlyDrawnFocus": {
+    "name": "Fokus Sempurna",
+    "description": {
+      "0": "Interior dengan panggung berukuran sedang sebagai pusatnya, cukup untuk sebuah pertunjukan kecil.",
+      "1": "Bagi orang baru yang naik ke atas pentas, jumlah penonton yang terlalu banyak akan membuatnya grogi dan memengaruhi penampilan mereka. Sedangkan bagi para guru besar, kadang-kadang menampilkan sebuah pertunjukan bagi kerabatnya, merupakan hal yang lebih membahagiakan daripada mendapatkan uang. Oleh sebab itu, banyak ahli pertunjukan yang suka dengan panggung yang pas ini.",
+      "2": "Rekan yang menyukai set perabot ini: Lynette, Lyney"
+    }
+  },
+  "ContinuousClockworkInspiration": {
+    "name": "Roda Gigi Inspirasi yang Terus Berputar",
+    "description": {
+      "0": "Sebuah ruangan dengan yang mengambil bengkel mekanisme roda gigi sebagai referensinya, memiliki berbagai peralatan pemrosesan yang cukup untuk kebutuhan tukang biasa.",
+      "1": "Di dalam konsep orang Fontaine, mekanisme roda gigi adalah objek yang sangat pantas dihargai, sedangkan penghargaan ini juga harus dilanjutkan hingga perangkat tukang ... \"Inspirasi meningkatkan telinga dari semua komponen ini, dan mengajarkan mereka untuk menari bersama sebagai satu kesatuan dengan ritme yang abadi\".",
+      "2": "Rekan yang menyukai set perabot ini: Freminet"
+    }
+  },
+  "WellspringOfRuleViolationPrevention": {
+    "name": "Sumber Pelanggaran Peraturan",
+    "description": {
+      "0": "Kantor yang penuh dengan suasana hikmat, bisa mengembalikan suasana kantor \"Duke\" di Benteng Meropide dengan lumayan akurat.",
+      "1": "Konon katanya, setelah Duke mengambil alih Benteng, dia cuma mengganti sebagian kecil perabotan kantornya dan meninggalkan dekorasi kamarnya seperti itu. Oleh sebab itu, ketentuan yang harus ditaati oleh para tawanan sebagian besar ditulis di kantor ini.",
+      "2": "Rekan yang menyukai set perabot ini: Wriothesley"
+    }
+  },
+  "CourtOfJusticesPlacidDays": {
+    "name": "Keseharian Biasa di Pengadilan Hukum",
+    "description": {
+      "0": "Jalan yang didesain berdasarkan jalanan biasa di Area Pemukiman Fontaine, perumahan yang berdiri tegak di antaranya merupakan bentuk asli dari Court of Fontaine.",
+      "1": "Bagi kebanyakan warga Fontaine, hidup berdasarkan irama, seperti berangkat dan pulang kerja tepat waktu, belanja atau berkumpul dengan teman saat rehat, kadang-kadang pergi ke Opera Opera Epiclese untuk menikmati pertunjukan megah, merupakan bagian dari hidup mereka. Bahkan sebagian besar petualang yang mempunyai pengalaman hebat kadang-kadang juga berpikir bahwa kehidupan yang datar seperti ini juga lumayan ....",
+      "2": "Rekan yang menyukai set perabot ini: Charlotte"
+    }
+  },
+  "CourtOfJusticesBoomingCommerce": {
+    "name": "Perdagangan Makmur Kemakmuran Pengadilan Hukum",
+    "description": {
+      "0": "Dibuat berdasarkan jalanan yang ada di Fontaine, ada berbagai toko khas Fontaine, dengan meja untuk minum teh sambil beristirahat.",
+      "1": "Berdasarkan penuturan dari beberapa pelancong yang sudah berpengalaman, kamu boleh bertanya kepada penduduk setempat kalau tidak terlalu kenal dengan toko dan barang-barang khas yang sedang diskon. Karena sebagian besar toko yang mengikuti kontrol harga barang yang sudah ditetapkan Palais Mermonia, tidak banyak orang yang membeli barang di luar harga yang ditetapkan.",
+      "2": "Rekan yang menyukai set perabot ini: Lynette, Lyney"
+    }
+  },
+  "CourtOfJusticesFreshMist": {
+    "name": "Embun Segar Pengadilan Hukum",
+    "description": {
+      "0": "Lapangan yang dipenuhi dengan semak hijau, bunga warna-warni, dan air mancur yang megah. Konsep desainnya mengambil air mancur di area Fountain of Lucine sebagai referensinya.",
+      "1": "Saat cuaca sedang cerah, wewangian bunga Erinnyes dan pemandangan dari embun segar berpadu, sehingga membuat suasana hati pelancong bangsa asing yang datang ke sini dan penduduk setempat menjadi bahagia. Meski kadang-kadang turun hujan saat sedang berkunjung, tapi banyaknya legenda yang mengelilingi air mancur ini membuat orang-orang masih menitipkan harapan indah kepadanya.",
+      "2": "Rekan yang menyukai set perabot ini: Neuvillette, Furina"
+    }
+  },
+  "PoissonTheUnassuming": {
+    "name": "Poisson yang Sederhana",
+    "description": {
+      "0": "Pemandangan area dengan berbagai bangunan unik sebagai pusatnya, menciptakan kembali bayangan di salah satu sudut Poisson. Rumah dan perabotan yang menekankan fungsi praktis bisa memaksimalkan efisiensi pekerjaan penduduk kota, tapi ini bukan berarti kesibukan dan keletihan, melainkan adalah jaminan untuk hari santai. Banyak penduduk Poisson memang menganut prinsip \"Selesaikan pekerjaan setiap hari secepat mungkin, nikmati waktu istirahat sebisa mungkin\", sambil menjalani kehidupan yang padat namun sederhana.",
+      "1": "Rekan yang menyukai set perabot ini: Navia"
+    }
+  },
+  "UnderseaMeruseasLustre": {
+    "name": "Kilau Merusea di Bawah Air",
+    "description": {
+      "0": "Hunian yang berusaha mengembalikan keaslian Desa Merusea, bangunan yang unik ini sangat mencolok di hadapan mata orang-orang.",
+      "1": "Desa tempat tinggal Melusine terletak di dalam Elynas, jarang sekali ada orang biasa yang berkunjung ke tempat ini. Dan dari sedikitnya orang-orang yang kembali dari kunjungan, kebanyakan dari mereka pasti akan terus memuja-muja keunikan desa itu. Pernah ada beberapa pelukis yang berusaha untuk menggambar pemandangan desa ini berdasarkan deskripsi mereka yang telah kembali, dipadukan dengan informasi yang diperoleh dari wawancara terhadap Melusine di dalam Court of Fontaine. Sayangnya, ada perbedaan warna yang tidak bisa diabaikan dari hasil karya mereka dan warna asli Desa Merusea. Masalah ini mengusik para pelukis lama sekali, hingga akhirnya setelah foto-foto Desa Merusea yang diambil dengan Kamera tersebar luas, masalah ini baru bisa diselesaikan ....",
+      "2": "Rekan yang menyukai set perabot ini: Freminet"
+    }
+  },
+  "FullForceForwardInTheForbiddenFortress": {
+    "name": "Maju Sekuat Tenaga di Benteng Terlarang",
+    "description": {
+      "0": "Sebuah arena yang diletakkan di tengah-tengah ring tinju. Saat berada di dalamnya, seseorang seperti akan bisa mendengar suara sorakan dan tepuk tangan dari para penonton, berbagai kalimat yang dilontarkan secara semangat oleh para komentator, dan suara pukulan antara tinju dan daging dari kontestan. Ini adalah kesan mendalam yang ditinggalkan oleh referensi awalnya, Ring Pankration di Benteng Meropide.",
+      "1": "\"Di arena di mana semuanya bisa diselesaikan dengan tinju, hanya dengan maju sekuat tenaga, seseorang baru bisa mendapatkan penghargaan dan Kupon Khusus miliknya sendiri\" ... Banyak sekali kontestan Ring Pankration menganut kalimat ini sebagai prinsip hidup mereka, meski setelah keluar dari Benteng Meropide ....",
+      "2": "Rekan yang menyukai set perabot ini: Wriothesley, Chevreuse"
+    }
+  },
+  "TheNationOfHydrosMottledColors": {
+    "name": "Warna Bercak Bangsa Air",
+    "description": {
+      "0": "Pemandangan alam liar yang dipenuhi dengan tumbuhan subur, terdiri dari berbagai jenis bunga dan semak yang sering ditemukan di Fontaine. Bunga dan tumbuhan merupakan tema lukisan yang sering ditemukan, juga merupakan salah satu titik awal untuk mengeksplorasi tentang \"warna\". Sebagian pelukis di Fontaine menganggap bahwa palet di dunia memanfaatkan tumbuhan untuk menunjukkan \"kombinasi sempurna“ warna-warna. Oleh sebab itu, jika semua warna di dalam sebuah lukisan bisa ditemukan pada tanaman, maka lukisan ini pasti akan memiliki keindahan harmonis sama seperti pemandangan aslinya. Tentu saja, syaratnya adalah kamu tidak mencampur berbagai warna tanaman yang ada ....__"
+    }
+  },
   "TimberWallWithJadeEaves": {
     "name": "Tembok Kayu Dengan Tepi Atap Giok",
     "description": {
@@ -26653,6 +27149,13 @@
     "name": "Dinding Ukiran Brightwood Sederhana",
     "description": {
       "0": "Blueprint yang berisi langkah-langkah untuk membuat Dinding Ukiran Brightwood Sederhana.",
+      "1": "Setelah digunakan, blueprint ini dapat dilihat di dalam Menu Pembuatan."
+    }
+  },
+  "AnnexsGoldenMosaic": {
+    "name": "\"Mosaik Emas Istana__\"",
+    "description": {
+      "0": "Blueprint yang berisi langkah-langkah untuk membuat \"Mosaik Emas Istana__\".",
       "1": "Setelah digunakan, blueprint ini dapat dilihat di dalam Menu Pembuatan."
     }
   },
@@ -26684,6 +27187,13 @@
       "1": "Setelah digunakan, blueprint ini dapat dilihat di dalam Menu Pembuatan."
     }
   },
+  "AnnexsMirrorSheenFloorTiles": {
+    "name": "\"Keramik Lantai Bak Cermin Istana\"",
+    "description": {
+      "0": "Blueprint yang berisi langkah-langkah untuk membuat \"Keramik Lantai Bak Cermin Istana\".",
+      "1": "Setelah digunakan, blueprint ini dapat dilihat di dalam Menu Pembuatan."
+    }
+  },
   "CheckeredCedarCeiling": {
     "name": "Langit-Langit Kotak-Kotak dari Kayu Aras",
     "description": {
@@ -26709,6 +27219,13 @@
     "name": "Langit-Langit Ukiran Brightwood",
     "description": {
       "0": "Blueprint yang berisi langkah-langkah terperinci untuk membuat Langit-Langit Ukiran Brightwood.",
+      "1": "Setelah digunakan, blueprint ini dapat dilihat di dalam Menu Pembuatan."
+    }
+  },
+  "AnnexsSpotlessDome": {
+    "name": "\"Kubah Tak Bernoda Istana__\"",
+    "description": {
+      "0": "Blueprint yang berisi langkah-langkah untuk membuat \"Kubah Tak Bernoda Istana__\".",
       "1": "Setelah digunakan, blueprint ini dapat dilihat di dalam Menu Pembuatan."
     }
   },
@@ -26978,10 +27495,31 @@
       "1": "Setelah digunakan, blueprint ini dapat dilihat di dalam Menu Pembuatan."
     }
   },
+  "ForbiddenZoneFloorLampIronhammer": {
+    "name": "Lampu Tanah Daerah Terlarang: Palu Besi",
+    "description": {
+      "0": "Blueprint yang berisi langkah-langkah untuk membuat Lampu Tanah Daerah Terlarang: Palu Besi.",
+      "1": "Setelah digunakan, blueprint ini dapat dilihat di dalam Menu Pembuatan."
+    }
+  },
+  "ForbiddenZoneFloorLampNightlight": {
+    "name": "Lampu Tanah Daerah Terlarang: Kilap Malam",
+    "description": {
+      "0": "Blueprint yang berisi langkah-langkah untuk membuat Lampu Tanah Daerah Terlarang: Kilap Malam.",
+      "1": "Setelah digunakan, blueprint ini dapat dilihat di dalam Menu Pembuatan."
+    }
+  },
   "EfflorescentIllumination": {
     "name": "Iluminasi Berbunga",
     "description": {
       "0": "Blueprint yang berisi langkah-langkah untuk membuat Iluminasi Berbunga.",
+      "1": "Setelah digunakan, blueprint ini dapat dilihat di dalam Menu Pembuatan."
+    }
+  },
+  "AnnexsSwirlingLight": {
+    "name": "\"Cahaya Berputar Istana__\"",
+    "description": {
+      "0": "Blueprint yang berisi langkah-langkah terperinci untuk membuat \"Cahaya Berputar Istana__\".",
       "1": "Setelah digunakan, blueprint ini dapat dilihat di dalam Menu Pembuatan."
     }
   },
@@ -27066,6 +27604,13 @@
     "name": "Rak Tembikar Athel",
     "description": {
       "0": "Blueprint yang berisi langkah-langkah untuk membuat \"Rak Tembikar Athel\".",
+      "1": "Setelah digunakan, blueprint ini dapat dilihat di dalam Menu Pembuatan."
+    }
+  },
+  "MallowWoodMultiModelWardrobe": {
+    "name": "Lemari Baju \"Multi Model\" Kayu Mallow",
+    "description": {
+      "0": "Blueprint yang berisi langkah-langkah untuk membuat Lemari Baju \"Multi Model\" Kayu Mallow.",
       "1": "Setelah digunakan, blueprint ini dapat dilihat di dalam Menu Pembuatan."
     }
   },
@@ -27192,6 +27737,13 @@
     "name": "\"Asisten Kecil Maison Cardinalice\"",
     "description": {
       "0": "Diagram yang berisi langkah-langkah untuk membuat \"Asisten Kecil Maison Cardinalice\".",
+      "1": "Setelah digunakan, blueprint ini dapat dilihat di dalam Menu Pembuatan."
+    }
+  },
+  "AThousandTextsInTheCentralHub": {
+    "name": "\"Gulungan Tak Berkesudahan di Hub Sentral\"",
+    "description": {
+      "0": "Diagram yang berisi langkah-langkah untuk membuat \"Gulungan Tak Berkesudahan di Hub Sentral\".",
       "1": "Setelah digunakan, blueprint ini dapat dilihat di dalam Menu Pembuatan."
     }
   },
@@ -27391,6 +27943,27 @@
       "1": "Setelah digunakan, blueprint ini dapat dilihat di dalam Menu Pembuatan."
     }
   },
+  "StableWorkStationInTheCentralHub": {
+    "name": "\"Stasiun Kerja Stabil Hub Sentral\"",
+    "description": {
+      "0": "Diagram yang berisi langkah-langkah untuk membuat \"Stasiun Kerja Stabil Hub Sentral\".",
+      "1": "Setelah digunakan, blueprint ini dapat dilihat di dalam Menu Pembuatan."
+    }
+  },
+  "RestTimeInTheCentralHub": {
+    "name": "\"Waktu Istirahat di Hub Sentral\"",
+    "description": {
+      "0": "Diagram yang berisi langkah-langkah untuk membuat \"Waktu Istirahat di Hub Sentral\".",
+      "1": "Setelah digunakan, blueprint ini dapat dilihat di dalam Menu Pembuatan."
+    }
+  },
+  "TheLeisureOfDailyMeetings": {
+    "name": "\"Kesenggangan Pertemuan Harian\"",
+    "description": {
+      "0": "Blueprint yang berisi langkah-langkah untuk membuat \"Kesenggangan Pertemuan Harian\".",
+      "1": "Setelah digunakan, blueprint ini dapat dilihat di dalam Menu Pembuatan."
+    }
+  },
   "BreezeBlessedBed": {
     "name": "Ranjang Sesejuk Angin",
     "description": {
@@ -27486,6 +28059,13 @@
     "name": "Saksi Kisah di Tavern",
     "description": {
       "0": "Blueprint yang berisi langkah-langkah untuk membuat Saksi Kisah di Tavern.",
+      "1": "Setelah digunakan, blueprint ini dapat dilihat di dalam Menu Pembuatan."
+    }
+  },
+  "CelebrationOfAnAdHocPerformance": {
+    "name": "\"Perayaan Pertunjukan Improvisasi\"",
+    "description": {
+      "0": "Blueprint yang berisi langkah-langkah untuk membuat \"Perayaan Pertunjukan Improvisasi\".",
       "1": "Setelah digunakan, blueprint ini dapat dilihat di dalam Menu Pembuatan."
     }
   },
@@ -27619,6 +28199,27 @@
     "name": "\"Kebahagiaan Minum Bersama\"",
     "description": {
       "0": "Blueprint yang berisi langkah-langkah untuk membuat \"Kebahagiaan Minum Bersama\".",
+      "1": "Setelah digunakan, blueprint ini dapat dilihat di dalam Menu Pembuatan."
+    }
+  },
+  "MallowWoodViewingRitesChair": {
+    "name": "Kursi \"Ritual Ornamen\" Kayu Mallow",
+    "description": {
+      "0": "Blueprint yang berisi langkah-langkah untuk membuat Kursi \"Ritual Ornamen\" Kayu Mallow.",
+      "1": "Setelah digunakan, blueprint ini dapat dilihat di dalam Menu Pembuatan."
+    }
+  },
+  "LindenWoodSubduingSeatBackedChair": {
+    "name": "Kursi Sandar \"Dudukan Bahaya\" Kayu Linden",
+    "description": {
+      "0": "Blueprint yang berisi langkah-langkah untuk membuat Kursi Sandar \"Dudukan Bahaya\" Kayu Linden.",
+      "1": "Setelah digunakan, blueprint ini dapat dilihat di dalam Menu Pembuatan."
+    }
+  },
+  "MomentaryRestInTheCentralHub": {
+    "name": "\"Luang Sejenak di Hub Sentral\"",
+    "description": {
+      "0": "Diagram yang berisi langkah-langkah untuk membuat \"Luang Sejenak di Hub Sentral\".",
       "1": "Setelah digunakan, blueprint ini dapat dilihat di dalam Menu Pembuatan."
     }
   },
@@ -27983,6 +28584,13 @@
     "name": "\"Beban Benteng Terlarang\"",
     "description": {
       "0": "Diagram yang berisi langkah-langkah untuk membuat \"Beban Benteng Terlarang\".",
+      "1": "Setelah digunakan, blueprint ini dapat dilihat di dalam Menu Pembuatan."
+    }
+  },
+  "StandardMusicStandAccurateTuning": {
+    "name": "Rak Musik Standar: Penyelerasan Presisi",
+    "description": {
+      "0": "Blueprint yang berisi langkah-langkah untuk membuat Rak Musik Standar: Penyelerasan Presisi.",
       "1": "Setelah digunakan, blueprint ini dapat dilihat di dalam Menu Pembuatan."
     }
   },
@@ -28525,6 +29133,13 @@
       "1": "Setelah digunakan, blueprint ini dapat dilihat di dalam Menu Pembuatan."
     }
   },
+  "CommonUseNoteHolder": {
+    "name": "\"Penyangga Catatan Universal\"",
+    "description": {
+      "0": "Blueprint yang berisi langkah-langkah untuk membuat \"Penyangga Catatan Universal\".",
+      "1": "Setelah digunakan, blueprint ini dapat dilihat di dalam Menu Pembuatan."
+    }
+  },
   "RealizationsFromTheLandOfWisdom": {
     "name": "\"Kesadaran dari Tanah Kebijaksanaan\"",
     "description": {
@@ -28746,6 +29361,13 @@
     "name": "Tameng Tarung Besi Athelwood",
     "description": {
       "0": "Blueprint yang berisi langkah-langkah untuk membuat Tameng Tarung Besi Athelwood.",
+      "1": "Setelah digunakan, blueprint ini dapat dilihat di dalam Menu Pembuatan."
+    }
+  },
+  "IndoorLampTheTwilightSea": {
+    "name": "Lampu Gantung Dalam Ruangan: Laut Fajar",
+    "description": {
+      "0": "Blueprint yang berisi langkah-langkah terperinci untuk membuat Lampu Gantung Dalam Ruangan: Laut Fajar.",
       "1": "Setelah digunakan, blueprint ini dapat dilihat di dalam Menu Pembuatan."
     }
   },
@@ -29131,6 +29753,20 @@
     "name": "\"Ketepatan Waktu di Koridor Panjang\"",
     "description": {
       "0": "Blueprint yang berisi langkah-langkah untuk membuat \"Ketepatan Waktu di Koridor Panjang\".",
+      "1": "Setelah digunakan, blueprint ini dapat dilihat di dalam Menu Pembuatan."
+    }
+  },
+  "QuickTemporaryWorkshed": {
+    "name": "\"Tenda Kerja Sementara Instan\"",
+    "description": {
+      "0": "Blueprint yang berisi langkah-langkah untuk membuat \"Tenda Kerja Sementara Instan\".",
+      "1": "Setelah digunakan, blueprint ini dapat dilihat di dalam Menu Pembuatan."
+    }
+  },
+  "PoissonsSeasonalProduce": {
+    "name": "\"Bahan Segar Poisson\"",
+    "description": {
+      "0": "Blueprint yang berisi langkah-langkah untuk membuat \"Bahan Segar Poisson\".",
       "1": "Setelah digunakan, blueprint ini dapat dilihat di dalam Menu Pembuatan."
     }
   },
@@ -29862,6 +30498,13 @@
       "1": "Setelah digunakan, blueprint ini dapat dilihat di dalam Menu Pembuatan."
     }
   },
+  "CourtyardPavilionAmidstTheRivers": {
+    "name": "Paviliun Halaman: Di Tengah Perairan",
+    "description": {
+      "0": "Blueprint yang berisi langkah-langkah terperinci untuk membuat Paviliun Halaman: Di Tengah Perairan.",
+      "1": "Setelah digunakan, blueprint ini dapat dilihat di dalam Menu Pembuatan."
+    }
+  },
   "CourtOfJusticesAuthenticity": {
     "name": "\"Kebenaran Balai Pengadilan\"",
     "description": {
@@ -29894,6 +30537,27 @@
     "name": "\"Kepiting Batu Mini\"",
     "description": {
       "0": "Blueprint yang berisi langkah-langkah terperinci untuk membuat \"Kepiting Batu Mini\".",
+      "1": "Setelah digunakan, blueprint ini dapat dilihat di dalam Menu Pembuatan."
+    }
+  },
+  "TheArenaWhereFistsReemerge": {
+    "name": "\"Arena Tinju Dihadirkan Kembali\"",
+    "description": {
+      "0": "Diagram yang berisi langkah-langkah untuk membuat \"Arena Tinju Dihadirkan Kembali\".",
+      "1": "Setelah digunakan, blueprint ini dapat dilihat di dalam Menu Pembuatan."
+    }
+  },
+  "TheWisdomOfPoisson": {
+    "name": "\"Kebijaksanaan Poisson\"",
+    "description": {
+      "0": "Diagram yang berisi langkah-langkah untuk membuat \"Kebijaksanaan Poisson\".",
+      "1": "Setelah digunakan, blueprint ini dapat dilihat di dalam Menu Pembuatan."
+    }
+  },
+  "ASimpleResidenceInPoisson": {
+    "name": "\"Hunian Sederhana Poisson\"",
+    "description": {
+      "0": "Diagram yang berisi langkah-langkah untuk membuat \"Hunian Sederhana Poisson\".",
       "1": "Setelah digunakan, blueprint ini dapat dilihat di dalam Menu Pembuatan."
     }
   },
@@ -30443,6 +31107,34 @@
       "1": "Setelah digunakan, blueprint ini dapat dilihat di dalam Menu Pembuatan."
     }
   },
+  "CourtyardCorridorTheMoraDividend": {
+    "name": "Koridor Halaman: Pembagian Mora",
+    "description": {
+      "0": "Blueprint yang berisi langkah-langkah untuk membuat Koridor Halaman: Pembagian Mora.",
+      "1": "Setelah digunakan, blueprint ini dapat dilihat di dalam Menu Pembuatan."
+    }
+  },
+  "CourtyardCorridorManifoldCorners": {
+    "name": "Koridor Halaman: Sudut Ganda___",
+    "description": {
+      "0": "Blueprint yang berisi langkah-langkah terperinci untuk membuat Koridor Halaman: Sudut Ganda___.",
+      "1": "Setelah digunakan, blueprint ini dapat dilihat di dalam Menu Pembuatan."
+    }
+  },
+  "CourtyardArchwayMomentOfGlory": {
+    "name": "Gerbang Melengkung: Waktu Kemuliaan",
+    "description": {
+      "0": "Blueprint yang berisi langkah-langkah untuk membuat Gerbang Melengkung: Waktu Kemuliaan.",
+      "1": "Setelah digunakan, blueprint ini dapat dilihat di dalam Menu Pembuatan."
+    }
+  },
+  "CourtyardWallABitOfScenery": {
+    "name": "Dinding Halaman: Sudut Pemandangan",
+    "description": {
+      "0": "Blueprint yang berisi langkah-langkah untuk membuat Dinding Halaman: Sudut Pemandangan.",
+      "1": "Setelah digunakan, blueprint ini dapat dilihat di dalam Menu Pembuatan."
+    }
+  },
   "FoundationsOfStoneFortunateTimes": {
     "name": "Fondasi Batu: Waktu Penuh Keberuntungan",
     "description": {
@@ -30937,6 +31629,13 @@
     "name": "Model Kit: Jangkar Pemecah Batu",
     "description": {
       "0": "Diagram yang berisi langkah-langkah untuk membuat \"Model Kit: Jangkar Pemecah Batu\".",
+      "1": "Setelah digunakan, blueprint ini dapat dilihat di dalam Menu Pembuatan."
+    }
+  },
+  "BoxingTargetOfTheForbiddenFortress": {
+    "name": "\"Target Tinju Benteng Terlarang\"",
+    "description": {
+      "0": "Blueprint yang berisi langkah-langkah untuk membuat \"Target Tinju Benteng Terlarang\".",
       "1": "Setelah digunakan, blueprint ini dapat dilihat di dalam Menu Pembuatan."
     }
   },
@@ -31703,6 +32402,55 @@
       "1": "Setelah digunakan, blueprint ini dapat dilihat di dalam Menu Pembuatan."
     }
   },
+  "OverburdeningOfTheForbiddenFortress": {
+    "name": "\"Muatan Benteng Terlarang\"",
+    "description": {
+      "0": "Blueprint yang berisi langkah-langkah untuk membuat \"Muatan Benteng Terlarang\".",
+      "1": "Setelah digunakan, blueprint ini dapat dilihat di dalam Menu Pembuatan."
+    }
+  },
+  "AreaMarkerUpward": {
+    "name": "Penanda Area: Ke Atas",
+    "description": {
+      "0": "Blueprint yang berisi langkah-langkah untuk membuat Penanda Area: Ke Atas.",
+      "1": "Setelah digunakan, blueprint ini dapat dilihat di dalam Menu Pembuatan."
+    }
+  },
+  "AreaMarkerDownward": {
+    "name": "Penanda Area: Ke Bawah",
+    "description": {
+      "0": "Blueprint yang berisi langkah-langkah untuk membuat Penanda Area: Ke Bawah.",
+      "1": "Setelah digunakan, blueprint ini dapat dilihat di dalam Menu Pembuatan."
+    }
+  },
+  "PoissonDoorFrame": {
+    "name": "\"Kusen Pintu Poisson\"",
+    "description": {
+      "0": "Blueprint yang berisi langkah-langkah untuk membuat \"Kusen Pintu Poisson\".",
+      "1": "Setelah digunakan, blueprint ini dapat dilihat di dalam Menu Pembuatan."
+    }
+  },
+  "BookshelfFreeReading": {
+    "name": "Rak Buku: Baca dengan Bebas",
+    "description": {
+      "0": "Blueprint yang berisi langkah-langkah untuk membuat Rak Buku: Baca dengan Bebas.",
+      "1": "Setelah digunakan, blueprint ini dapat dilihat di dalam Menu Pembuatan."
+    }
+  },
+  "BookshelfSpeedyBrowsing": {
+    "name": "Rak Buku: Tinjauan Cepat",
+    "description": {
+      "0": "Blueprint yang berisi langkah-langkah untuk membuat Rak Buku: Tinjauan Cepat.",
+      "1": "Setelah digunakan, blueprint ini dapat dilihat di dalam Menu Pembuatan."
+    }
+  },
+  "BookshelfFocusedEffect": {
+    "name": "Rak Buku: Efek Fokus",
+    "description": {
+      "0": "Blueprint yang berisi langkah-langkah untuk membuat Rak Buku: Efek Fokus.",
+      "1": "Setelah digunakan, blueprint ini dapat dilihat di dalam Menu Pembuatan."
+    }
+  },
   "PoolOfSapphireGrace": {
     "name": "\"Kolam Renungan Awan\"",
     "description": {
@@ -31994,6 +32742,20 @@
     "name": "\"Meja Bundar Bersih di Koridor Panjang\"",
     "description": {
       "0": "Blueprint yang berisi langkah-langkah untuk membuat \"Meja Bundar Bersih di Koridor Panjang\".",
+      "1": "Setelah digunakan, blueprint ini dapat dilihat di dalam Menu Pembuatan."
+    }
+  },
+  "ProductionRackTheBasics": {
+    "name": "Rak Produksi: Bentuk Dasar",
+    "description": {
+      "0": "Blueprint yang berisi langkah-langkah untuk membuat Rak Produksi: Bentuk Dasar.",
+      "1": "Setelah digunakan, blueprint ini dapat dilihat di dalam Menu Pembuatan."
+    }
+  },
+  "ProductionRackCustomBuild": {
+    "name": "Rak Produksi: Bentuk Modifikasi",
+    "description": {
+      "0": "Blueprint yang berisi langkah-langkah untuk membuat Rak Produksi: Bentuk Modifikasi.",
       "1": "Setelah digunakan, blueprint ini dapat dilihat di dalam Menu Pembuatan."
     }
   },

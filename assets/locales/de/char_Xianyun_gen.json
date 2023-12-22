@@ -1,0 +1,175 @@
+{
+  "name": "Xianyun",
+  "title": "???",
+  "description": "",
+  "constellationName": "Ciconia Boyciana",
+  "auto": {
+    "name": "Lied des Windes und der Blume",
+    "fields": {
+      "normal": {
+        "0": "<strong><strong>Standardangriff</strong>",
+        "1": "Beschwört wirbelnde Winde herbei, um bis zu 4 Angriffe auszuführen, die <anemo>Anemo-Schaden</anemo> verursachen."
+      },
+      "charged": {
+        "0": "<strong>Heftiger Schlag</strong>",
+        "1": "Verbraucht eine bestimmte Menge an Ausdauer und schleudert einen Brisenring in einer geraden Linie, der Gegnern in der Bahn <anemo>Anemo-Schaden</anemo> zufügt."
+      },
+      "plunging": {
+        "0": "<strong>Angriff aus dem Fall</strong>",
+        "1": "Schlägt beim Fallen aus der Luft auf den Boden, greift alle Gegner in der Bahn an und verursacht beim Aufkommen <anemo>Anemo-Flächenschaden</anemo>."
+      }
+    },
+    "skillParams": {
+      "0": "SCH Phase 1",
+      "1": "SCH Phase 2",
+      "2": "SCH Phase 3",
+      "3": "SCH Phase 4",
+      "4": "SCH heftiger Schläge",
+      "5": "Ausdauerverbrauch heftiger Schläge",
+      "6": "SCH beim Fallen",
+      "7": "SCH beim Fallen aus niedriger/großer Höhe",
+      "8": "",
+      "9": "",
+      "10": "",
+      "11": "",
+      "12": "",
+      "13": "",
+      "14": "",
+      "15": ""
+    }
+  },
+  "skill": {
+    "name": "Weiße Wolken der Morgenröte",
+    "description": {
+      "0": "Xianyun tritt in den Zustand Wolkentransmogrifikation ein und setzt einmal Wolkenleiter ein. In diesem Zustand kann sie maximal noch 2 Mal Wolkenleiter einsetzen.",
+      "1": "Wenn Xianyun in dem Zustand Wolkentransmogrifikation einen Standardangriff oder einen Angriff aus dem Fall ausführt, setzt sie stattdessen die Wolkenwelle frei: Verwandelt sich in einen Wolkenbrise-Kranich und führt einen Sturzangriff auf Gegner in der Nähe aus, der <anemo>Anemo-Flächenschaden</anemo> verursacht und den Zustand Wolkentransmogrifikation beendet. Der auf diese Weise verursachte Schaden wird als Schaden des Angriffs aus dem Fall betrachtet.",
+      "2": "<br/>",
+      "3": "<strong>Wolkenleiter</strong>",
+      "4": "Xianyun steigt vorübergehend nach vorne und in die Luft und fügt Gegnern in der Bahn <anemo>Anemo-Schaden</anemo> zu.",
+      "5": "Kann in der Luft eingesetzt werden. Die Sprungdistanz erhöht sich enorm, wenn die Fähigkeit am Boden eingesetzt wird.",
+      "6": "Demselben Gegner kann maximal einmal pro Zustand der Wolkentransmogrifikation über Wolkenleiter Schaden zugefügt werden.",
+      "7": "<br/>",
+      "8": "Je mehr Wolkenleitern während des Zustands der Wolkentransmogrifikation verwendet werden, desto mehr Schaden verursacht die daraus entstehende Wolkenwelle und desto größer ist ihr Wirkungsbereich. Nach 3-maligem Einsetzen von Wolkenleiter (einschließlich der anfänglichen Verwendung durch das Einsetzen von „Weiße Wolken der Morgenröte“) wird Xianyun die mächtigste Wolkenwelle – Stärke des Himmels ausführen.",
+      "9": "<br/>",
+      "10": "Weiße Wolken der Morgenröte kann nur auf dem Boden verwendet werden.",
+      "11": "Wenn Wolkenleiter nicht innerhalb kurzer Zeit eingesetzt wird, endet die Wolkentransmogrifikation und die Abklingphase beginnt. Wenn Wolkenwelle während diesmaliger Wolkentransmogrifikation nicht benutzt wird, wird die Abklingzeit um 3 s verringert.",
+      "12": "<br/>",
+      "13": "<i>Pass auf, wenn du die Hand der Fürstin der stehenden Wolken und des stillen Windes hältst: Sie hat den Griff wie ein Kranich.</i>"
+    },
+    "skillParams": {
+      "0": "SCH Adeptische Silhouette in Bahn",
+      "1": "SCH Verfolgung der Kranichjägerin – Phase 1",
+      "2": "SCH Verfolgung der Kranichjägerin – Phase 2",
+      "3": "SCH Verfolgung der Kranichjägerin – Phase 3",
+      "4": "Abklingzeit für Drücken",
+      "5": "",
+      "6": "",
+      "7": "",
+      "8": "",
+      "9": "",
+      "10": "",
+      "11": "",
+      "12": "",
+      "13": "",
+      "14": "",
+      "15": ""
+    }
+  },
+  "burst": {
+    "name": "Sich versammelnde Sterne der Dämmerung",
+    "description": {
+      "0": "Ruft eine heilige Brise hervor, die <anemo>Anemo-Flächenschaden</anemo> verursacht und allen Truppenmitgliedern in der Nähe LP basierend auf Xianyuns ANG wiederherstellt. Außerdem wird ein Gerät namens „Weidenstern“ beschworen.",
+      "1": "<br/>",
+      "2": "<strong>Weidenstern</strong>",
+      "3": [
+        " Folgt fortlaufend der aktiven Figur und stellt in regelmäßigen Abständen allen Truppenmitgliedern in der Nähe LP basierend auf Xianyuns ANG wieder her.",
+        " Hat anfänglich 8 Stapelungen „adeptische Unterstützung“. Solange die „adeptische Unterstützung“ aktiv ist, wird die Sprunghöhe von aktiven Truppenmitgliedern in der Nähe erhöht.",
+        " Wenn die aktive Figur einen Angriff aus dem Fall ausgeführt hat, verbraucht der Weidenstern 1 Stapelung „adeptische Unterstützung“ und verursacht dabei <anemo>Anemo-Flächenschaden</anemo>."
+      ],
+      "4": "<br/>",
+      "5": "<i>Dies ist die neueste Erfindung der „Mondstern-Geräte“-Serie, deren vorherige Geräte die edle Küchenmaschine, die schwebende Transportmaschine, der Suchmechanismus der Kuriositäten, die oberste Teemaschine, der Mechanismus des Schneetreibens, die oberste Reinigungsmaschine und die Tonverstärkungsmaschine waren. Diese Serie war für junge Menschen gedacht, für die die Adeptin Bewunderung hegte, und wurde daher nicht mit Blick auf eine bestimmte Halb-Adeptin entwickelt. Als die Fürstin ihr jedoch den Weidenstern anbot, sagte eine bestimmte menschliche Schülerin von ihr emotionslos: „Nein, danke.“",
+      "6": "Die Fürstin hatte also keine andere Wahl, als ihn bei ihr zu behalten.</i>"
+    },
+    "skillParams": {
+      "0": "Sofortiger SCH beim Auslösen",
+      "1": "SCH abgestimmter Angriffe durch Gerät",
+      "2": "Sofortige Heilung beim Auslösen",
+      "3": "Fortlaufende Heilung durch Gerät",
+      "4": "Auslöseintervall für Heilung durch Gerät",
+      "5": "Dauer des Geräts",
+      "6": "Abklingzeit",
+      "7": "Elementarenergie",
+      "8": "",
+      "9": "",
+      "10": "",
+      "11": "",
+      "12": "",
+      "13": "",
+      "14": "",
+      "15": ""
+    }
+  },
+  "passive1": {
+    "name": "Im glückverheißenden Zephir schwankende Frostfedern",
+    "description": {
+      "0": "Erschafft nach Treffern mit der Wolkenwelle – Stärke des Himmels von <anemo>Weiße Wolken der Morgenröte</anemo> einen Wirbel vor sich, der Gegner und Objekte in der Nähe anzieht."
+    }
+  },
+  "passive2": {
+    "name": "Siehe, die Adeptin in ihrem Reich",
+    "description": {
+      "0": "Wenn der durch <anemo>Sich versammelnde Sterne der Dämmerung</anemo> erschaffene Weidenstern über eine Stapelung von „adeptische Unterstützung“ verfügt, wird der Schaden des Angriffs aus dem Fall beim Aufkommen der aktiven Figuren in der Nähe um 170 % von Xianyuns ANG erhöht. Der max. Schaden-Bonus, der auf diese Weise erreicht werden kann, beträgt 8.500.",
+      "1": "Nur 1 Gegner kann von dem oben erwähnten erhöhten Schaden durch das Aufkommen jedes einzelnen Angriffs aus dem Fall betroffen werden. Jede Figur kann diesen Effekt einmal alle 0,4 s auslösen."
+    }
+  },
+  "passive3": {
+    "name": "Flink wie ein Kranich",
+    "description": {
+      "0": "Erhöht die Bewegungsgeschwindigkeit aller eigenen Truppenmitglieder beim Gleiten um 15 %.",
+      "1": "Nicht mit passiven Talenten mit völlig gleichen Effekten stapelbar."
+    }
+  },
+  "constellation1": {
+    "name": "Läuternder Wind",
+    "description": {
+      "0": "Ermöglicht 1 weitere Anwendung von <anemo>Weiße Wolken der Morgenröte</anemo>."
+    }
+  },
+  "constellation2": {
+    "name": "Ausgestiegen aus der Welt",
+    "description": {
+      "0": "Erhöht den ANG von Xianyun 15 s lang um 20 %, nachdem <anemo>Weiße Wolken der Morgenröte</anemo> eingesetzt wurde.",
+      "1": "Außerdem werden die Effekte des passiven Talents „Siehe, die Adeptin in ihrem Reich“ verstärkt: Wenn der durch <anemo>Sich versammelnde Sterne der Dämmerung</anemo> erschaffene Weidenstern über eine Stapelung von „adeptische Unterstützung“ verfügt, wird der Schaden des Angriffs aus dem Fall beim Aufkommen der aktiven Figuren in der Nähe um 306 % von Xianyuns ANG erhöht. Der max. Schaden-Bonus, der auf diese Weise erreicht werden kann, beträgt 15.300.",
+      "2": "Nur 1 Gegner kann von dem oben erwähnten erhöhten Schaden durch das Aufkommen jedes einzelnen Angriffs aus dem Fall betroffen werden. Jede Figur kann diesen Effekt einmal alle 0,4 s auslösen.",
+      "3": "Das passive Talent „Siehe, die Adeptin in ihrem Reich“ muss zuerst freigeschaltet werden."
+    }
+  },
+  "constellation3": {
+    "name": "Schöpfung von Stern und Mond",
+    "description": {
+      "0": "Erhöht die Stufe der Fähigkeit <anemo>Sich versammelnde Sterne der Dämmerung</anemo> um 3.",
+      "1": "Höchststufe 15."
+    }
+  },
+  "constellation4": {
+    "name": "Mysteriöser Hirse-Gourmetßßß",
+    "description": {
+      "0": "Wenn die Wolkenleiter innerhalb eines Einsetzens der Wolkentransmogrifikation von <anemo>Weiße Wolken der Morgenröte</anemo> 1/2/3 Mal angewendet wurde und eine in diesem Einsetzen ausgelöste Wolkenwelle einen Gegner trifft, werden allen in der Nähe befindlichen Truppenmitgliedern LP in Höhe von 50 %/80 %/150 % von Xianyuns ANG wiederhergestellt, 5 s Abklingzeit."
+    }
+  },
+  "constellation5": {
+    "name": "Wanderin über den rosigen Wolken",
+    "description": {
+      "0": "Erhöht die Stufe der Fähigkeit <anemo>Weiße Wolken der Morgenröte</anemo> um 3.",
+      "1": "Höchststufe 15."
+    }
+  },
+  "constellation6": {
+    "name": "Geist der stehenden Wolken",
+    "description": {
+      "0": "Erhöht den KSCH der Wolkenwelle von <anemo>Weiße Wolken der Morgenröte</anemo> um 70 %.",
+      "1": "Wenn Xianyun „Weiße Wolken der Morgenröte“ einsetzt und der Weidenstern von „<anemo>Sich versammelnde Sterne der Dämmerung</anemo>“ über „adeptische Unterstützung“ verfügt, wird 1 Stapelung „adeptische Unterstützung“ verbraucht und bewirkt, dass dieses Einsetzen von „Weiße Wolken der Morgenröte“ die Abklingphase überspringt, und wenn die während dieses Einsetzens der Wolkentransmogrifikation ausgeführte Wolkenwelle den Angriff des Weidensterns auslöst, wird dabei keine „adeptische Unterstützung“ verbraucht.",
+      "2": "Außerdem erhält der Weidenstern, wenn die Wolkenwelle – Stärke des Himmels einen Gegner trifft, 1 Stapelung „adeptische Unterstützung“, 8 s Abklingzeit."
+    }
+  }
+}

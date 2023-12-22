@@ -400,15 +400,15 @@
   "TheaterTickets": {
     "name": "Bilhetes de Teatro",
     "description": {
-      "0": "Bilhetes de souvenir feitos primorosamente para lembrar a participação nos vários eventos relacionados ao Festival de Cinema de Fontinalia. Esses bilhetes são ditos terem uma textura similar a lâminas de filme. Claro como cristal ao refletir luz, eles não lembram nada tanto quanto fragmentos de gema finos...",
-      "1": "Durante o período do evento \"Pistolas e Rosas\", use isso para desbloquear os vários tipos de recompensas."
+      "0": "Bilhetes de lembrança feitos primorosamente para lembrar a participação nos vários eventos relacionados ao Festival de Cinema de Fontinalia. Esses bilhetes são ditos terem uma textura similar a lâminas de filme. Claro como cristal ao refletir luz, eles não lembram nada tanto quanto fragmentos de gema finos...",
+      "1": "Durante o período do evento \"Rosas e Pistolas\", use isso para desbloquear os vários tipos de recompensas."
     }
   },
   "FilmForFun": {
     "name": "Filmes Divertidos",
     "description": {
-      "0": "Moedas de souvenir em formato de quadros de filme. Essas são lembranças que podem ser acumuladas e ganhas por participação no Festival de Cinema de Fontinalia. Esses não podem ser colocados em dispositivos especializados para reproduzir filmes emocionantes, claro, mas seus designs únicos certamente sem dúvidas levantarão os espíritos das pessoas com lembretes do que viram durante aquele festival...",
-      "1": "Elas podem ser usadas para resgatar todo tipo de recompensas durante o evento \"Pistolas e Rosas\"."
+      "0": "Moedas de lembranças em formato de rolos de filme. Essas são lembranças que podem ser acumuladas e ganhas por participação no Festival de Cinema de Fontinalia. Elas não podem ser colocadas em dispositivos especializados para reproduzir filmes emocionantes, claro, mas seus designs únicos sem dúvidas levantarão os espíritos das pessoas com lembretes do que viram durante aquele festival...",
+      "1": "Elas podem ser usadas para resgatar todo tipo de recompensas durante o evento \"Rosas e Pistolas\"."
     }
   },
   "Primogem": {
@@ -1040,18 +1040,34 @@
   },
   "Charlotte": {
     "name": "Charlotte",
-    "description": {}
+    "description": {
+      "0": "A jornalista cheia de energia do Pássaro a Vapor, sempre correndo atrás da \"verdade\"."
+    }
   },
   "Furina": {
     "name": "Furina",
-    "description": {}
+    "description": {
+      "0": "O foco absoluto em cima do palco durante um julgamento, até o momento das cortinas caírem e dos aplausos soarem."
+    }
   },
   "Chevreuse": {
     "name": "Chevreuse",
-    "description": {}
+    "description": {
+      "0": "A capitã da Patrulha de Segurança e Monitoramento Especial, que tem a justiça como uma insígnia eterna em seu coração. Seu mosquete só aponta contra os culpados."
+    }
   },
   "Navia": {
     "name": "Navia",
+    "description": {
+      "0": "A atual Presidente da Spina di Rosula, é a patroa adorável e responsável."
+    }
+  },
+  "Gaming": {
+    "name": "Gaming",
+    "description": {}
+  },
+  "Xianyun": {
+    "name": "Xianyun",
     "description": {}
   },
   "KamisatoAyakasStellaFortuna": {
@@ -1520,6 +1536,18 @@
     "name": "Stella Fortuna de Navia",
     "description": {
       "0": "Material de Ativação da Constelação de Navia"
+    }
+  },
+  "GamingsStellaFortuna": {
+    "name": "Stella Fortuna de Gaming",
+    "description": {
+      "0": "Material de Ativação da Stella Fortuna de Gaming"
+    }
+  },
+  "XianyunsStellaFortuna": {
+    "name": "Stella Fortuna de Xianyun",
+    "description": {
+      "0": "Material de Ativação de Constelação de Xianyun"
     }
   },
   "GnosticHymnOldNotes": {
@@ -10215,6 +10243,10 @@
       "1": "Estes Santuários das Profundezas se fecharam quando a civilização que os construiu foi perdida. Chaves perdidas no fundo de Domínios são capazes de quebrar os selos. Ou talvez, por um momento, essas chaves ajudem os selos a esquecer tudo o que perderam."
     }
   },
+  "SpiritKoi": {
+    "name": "",
+    "description": {}
+  },
   "Dish": {
     "name": "Prato",
     "description": {
@@ -13885,7 +13917,7 @@
   "SuspiciousRainbowMacarons": {
     "name": "Macaron Arco-Íris Estranho",
     "description": {
-      "0": "Doces redondos e pequenos multicoloridos. O primeiro parece vazio, o segundo está inclinado, o terceiro desigual e o quarto é uma combinação inconstante... Como esperando de uma sobremesa de Fontaine ditada por dúzias de detalhes, isso precisará de mais esforço para ser dominado."
+      "0": "Doces redondos e pequenos multicoloridos. O primeiro parece vazio, o segundo está inclinado, o terceiro desigual e o quarto é uma combinação inconstante... Como esperado de uma sobremesa de Fontaine ditada por dúzias de detalhes, isso precisará de mais esforço para ser dominado."
     }
   },
   "RainbowMacarons": {
@@ -13911,6 +13943,118 @@
     "description": {
       "0": "Especialidade de Navia. \"Vamos, escolha o que quiser!\" Junto aos familiares gritos de alegria, você vê perante seus olhos a mesa de sobremesa de duas camadas esteticamente agradável e as belas fileiras de macarons com expressões diferentes pintadas neles. Um pensamento fascina você de repente... Que expressão Navia faria se você roubasse todos eles para si em um repentino lampejo de ganância?"
     }
+  },
+  "SuspiciousEightTreasureDuck": {
+    "name": "Pato dos Oito Tesouros Abençoados Estranho",
+    "description": {}
+  },
+  "EightTreasureDuck": {
+    "name": "Pato dos Oito Tesouros Abençoados",
+    "description": {}
+  },
+  "DeliciousEightTreasureDuck": {
+    "name": "Pato dos Oito Tesouros Abençoados Delicioso",
+    "description": {}
+  },
+  "SuspiciousDeepFriedDoublecrisp": {
+    "name": "Crocância Frita Dupla Estranho",
+    "description": {}
+  },
+  "DeepFriedDoublecrisp": {
+    "name": "Crocância Frita Dupla",
+    "description": {}
+  },
+  "DeliciousDeepFriedDoublecrisp": {
+    "name": "Crocância Frita Dupla Delicioso",
+    "description": {}
+  },
+  "SuspiciousBraisedMeatballs": {
+    "name": "Rolinho de Porco Assado Estranho",
+    "description": {}
+  },
+  "BraisedMeatballs": {
+    "name": "Rolinho de Porco Assado",
+    "description": {}
+  },
+  "DeliciousBraisedMeatballs": {
+    "name": "Rolinho de Porco Assado Delicioso",
+    "description": {}
+  },
+  "SuspiciousHoneyCharSiu": {
+    "name": "Porco Assado ao Mel Estranho",
+    "description": {}
+  },
+  "HoneyCharSiu": {
+    "name": "Porco Assado ao Mel",
+    "description": {}
+  },
+  "DeliciousHoneyCharSiu": {
+    "name": "Porco Assado ao Mel Delicioso",
+    "description": {}
+  },
+  "SuspiciousFineTeaFullMoon": {
+    "name": "Bolinho Lua de Chá Estranho",
+    "description": {}
+  },
+  "FineTeaFullMoon": {
+    "name": "Bolinho Lua de Chá",
+    "description": {}
+  },
+  "DeliciousFineTeaFullMoon": {
+    "name": "Bolinho Lua de Chá Delicioso",
+    "description": {}
+  },
+  "SuspiciousJadeveinTeaEggs": {
+    "name": "Ovo Marinado de Jade Estranho",
+    "description": {}
+  },
+  "JadeveinTeaEggs": {
+    "name": "Ovo Marinado de Jade",
+    "description": {}
+  },
+  "DeliciousJadeveinTeaEggs": {
+    "name": "Ovo Marinado de Jade Delicioso",
+    "description": {}
+  },
+  "SuspiciousTeaSmokedSquab": {
+    "name": "Chá Defumado com Leite de Pombo Estranho",
+    "description": {}
+  },
+  "TeaSmokedSquab": {
+    "name": "Chá Defumado com Leite de Pombo",
+    "description": {}
+  },
+  "DeliciousTeaSmokedSquab": {
+    "name": "Chá Defumado com Leite de Pombo Delicioso",
+    "description": {}
+  },
+  "SuspiciousGuhuaFishLambSoup": {
+    "name": "Sopa de Peixe e Carneiro Frescos de Guhua Estranha",
+    "description": {}
+  },
+  "GuhuaFishLambSoup": {
+    "name": "Sopa de Peixe e Carneiro Frescos de Guhua",
+    "description": {}
+  },
+  "DeliciousGuhuaFishLambSoup": {
+    "name": "Sopa de Peixe e Carneiro Frescos de Guhua Deliciosa",
+    "description": {}
+  },
+  "SuspiciousChenyuBrew": {
+    "name": "Chá do Orvalho de Jade Estranho",
+    "description": {}
+  },
+  "ChenyuBrew": {
+    "name": "Chá do Orvalho de Jade",
+    "description": {}
+  },
+  "DeliciousChenyuBrew": {
+    "name": "Chá do Orvalho de Jade Delicioso",
+    "description": {}
+  },
+  "EncompassingGladness": {
+    "name": "Alegria Envolvente",
+    "description": {}
   },
   "RecipeItem": {
     "name": "Ingredientes",
@@ -14975,6 +15119,60 @@
       "0": "Uma receita passo a passo detalhada para fazer Macaron Arco-Íris."
     }
   },
+  "RecipeEightTreasureDuck": {
+    "name": "Receita: Pato dos Oito Tesouros Abençoados",
+    "description": {
+      "0": "Uma receita passo a passo detalhada para fazer Pato dos Oito Tesouros Abençoados."
+    }
+  },
+  "RecipeDeepFriedDoublecrisp": {
+    "name": "Receita: Crocância Frita Dupla",
+    "description": {
+      "0": "Uma receita passo a passo detalhada para fazer Crocância Frita Dupla."
+    }
+  },
+  "RecipeBraisedMeatballs": {
+    "name": "Receita: Rolinho de Porco Assado",
+    "description": {
+      "0": "Uma receita passo a passo detalhada para fazer Rolinho de Porco Assado."
+    }
+  },
+  "RecipeHoneyCharSiu": {
+    "name": "Receita: Porco Assado ao Mel",
+    "description": {
+      "0": "Uma receita passo a passo detalhada para fazer Porco Assado ao Mel."
+    }
+  },
+  "RecipeFineTeaFullMoon": {
+    "name": "Receita: Bolinho Lua de Chá",
+    "description": {
+      "0": "Uma receita passo a passo detalhada para fazer Bolinho Lua de Chá."
+    }
+  },
+  "RecipeJadeveinTeaEggs": {
+    "name": "Receita: Ovo Marinado de Jade",
+    "description": {
+      "0": "Uma receita passo a passo detalhada para fazer Ovo Marinado de Jade."
+    }
+  },
+  "RecipeTeaSmokedSquab": {
+    "name": "Receita: Chá Defumado com Leite de Pombo",
+    "description": {
+      "0": "Uma receita passo a passo detalhada para fazer Chá Defumado com Leite de Pombo."
+    }
+  },
+  "RecipeGuhuaFishLambSoup": {
+    "name": "Receita: Sopa de Peixe e Carneiro Frescos de Guhua",
+    "description": {
+      "0": "Uma receita passo a passo detalhada para fazer Sopa de Peixe e Carneiro Frescos de Guhua."
+    }
+  },
+  "RecipeChenyuBrew": {
+    "name": "Receita: Chá do Orvalho de Jade",
+    "description": {
+      "0": "Uma receita passo a passo detalhada para fazer Chá do Orvalho de Jade."
+    }
+  },
   "CraftedItems": {
     "name": "Produtos Combinados",
     "description": {
@@ -15875,6 +16073,24 @@
       "1": "Dito isso, removê-la não impediria tal Oficial de ter habilidades físicas muito além das de humanos comuns, forjadas em longos anos de treinamento e experiência de combate. Quanto a eles, são bem cientes que sacrificaram seu passado, presente e futuro ao altar do paraíso ideal dos Fatui, tanto que o dano que causam a si por usar o poder da Ilusão não importa."
     }
   },
+  "FeatheryFin": {
+    "name": "Nadadeira Emplumada",
+    "description": {
+      "0": "???"
+    }
+  },
+  "LunarFin": {
+    "name": "Nadadeira Lunar",
+    "description": {
+      "0": "???"
+    }
+  },
+  "ChasmlightFin": {
+    "name": "Nadadeira Luz do Abismo",
+    "description": {
+      "0": "???"
+    }
+  },
   "HurricaneSeed": {
     "name": "Semente de Furacão",
     "description": {
@@ -16307,6 +16523,12 @@
     "description": {
       "0": "Os únicos resquícios das Meia-Tulpas depois que suas partes são dispersadas.",
       "1": "Essa substância é bem parecida com os cristais extraídos dos corpos das Aberrações Primordiais, mas eles contêm várias pequenas impurezas, como bolhas em vidro feito por artesões desajeitados."
+    }
+  },
+  "CloudseamScale": {
+    "name": "Escamas de Linha das Nuvens",
+    "description": {
+      "0": "???"
     }
   },
   "TileOfDecarabiansTower": {
@@ -19195,6 +19417,24 @@
       "0": "？？？"
     }
   },
+  "TimeTrekkerI": {
+    "name": "Viajante do Tempo (I)",
+    "description": {
+      "0": "？？？"
+    }
+  },
+  "TimeTrekkerII": {
+    "name": "Viajante do Tempo (II)",
+    "description": {
+      "0": "？？？"
+    }
+  },
+  "TimeTrekkerIII": {
+    "name": "Viajante do Tempo (III)",
+    "description": {
+      "0": "？？？"
+    }
+  },
   "GiftOfParting": {
     "name": "Presente de Despedida",
     "description": {
@@ -19743,7 +19983,7 @@
       "1": "Talvez esse único componente seja capaz de fornecer energia para toda a máquina..."
     }
   },
-  "34thIndependentReconnaissanceSquadDeploymentInMontEsusEasternQuadrantDeploymentPlan": {
+  "34thIndependentInvestigativeSquadDeploymentInMontEsusEasternQuadrantDeploymentPlan": {
     "name": "Planejamento de Implantação da 34ª Equipe de Investigação Independente na Floresta de Mont Esus (Quadrante Oriental)",
     "description": {}
   },
@@ -19751,7 +19991,7 @@
     "name": "Anotações do Escaramuçador",
     "description": {}
   },
-  "34thIndependentReconnaissanceSquadDeploymentInMontEsusEasternQuadrantDisciplinaryProcedures": {
+  "34thIndependentInvestigativeSquadDeploymentInMontEsusEasternQuadrantDisciplinaryProcedures": {
     "name": "Procedimentos Disciplinares para a Implantação da 34ª Equipe de Investigação Independente na Floresta de Mont Esus (Quadrante Leste)",
     "description": {}
   },
@@ -19807,6 +20047,36 @@
     "name": "Livro de Pistas (Fortaleza Meropide)",
     "description": {
       "0": "Registre as diversas pistas que você encontrou durante sua investigação na Fortaleza Meropide."
+    }
+  },
+  "PictureLotusPondBeneathTheMoon": {
+    "name": "Foto: Lagoa de Lótus Debaixo da Lua",
+    "description": {
+      "0": "Uma linda foto da Lagoa de Lótus se banhando na luz do luar."
+    }
+  },
+  "PictureGuestsOfQiaoying": {
+    "name": "Foto: Convidados de Qiaoying",
+    "description": {
+      "0": "Uma linda foto da Vila Qiaoying."
+    }
+  },
+  "PictureTranquilJademouth": {
+    "name": "Foto: Boca de Jade Tranquila",
+    "description": {
+      "0": "Uma linda foto da Boca de Jade."
+    }
+  },
+  "PictureMtXuanlian": {
+    "name": "Foto: Monte Xuanlian",
+    "description": {
+      "0": "Uma linda foto do Monte Xuanlian."
+    }
+  },
+  "ChenyuValeSceneryGuide": {
+    "name": "Guia Paisagístico do Vale Chenyu",
+    "description": {
+      "0": "Um guia turístico introduzindo vários locais cênicos maravilhosos recomendados pelos habitantes locais."
     }
   },
   "Notice": {
@@ -20221,7 +20491,7 @@
   "MysteriousXenochromaticCrystal": {
     "name": "Cristal Caleidoscópico Misterioso",
     "description": {
-      "0": "Um cristal enorme obtido ao derrotar uma Aberração Primordial extremamente poderosa na Região Mortaine.",
+      "0": "Um cristal enorme obtido ao derrotar uma Aberração Primordial extremamente poderosa.",
       "1": "O poder que ele contém é mais misterioso do que Cristais Caleidoscópicos comuns.",
       "2": "Talvez alguém esteja disposto a pagar o preço certo por isso."
     }
@@ -20272,10 +20542,16 @@
     "name": "Registro",
     "description": {}
   },
+  "OurChenyuValeTrekAlbum": {
+    "name": "Álbum \"Nossa Caminhada Pelo Vale Chenyu\"",
+    "description": {
+      "0": "Um álbum de fotos comemorativo que contém várias fotos maravilhosas. Chocantemente, mais da metade foi tirada pela mesma pessoa."
+    }
+  },
   "ShootingPracticeOpticalLenses": {
     "name": "Lentes Ópticas de Prática de Tiro",
     "description": {
-      "0": "Um dispositivo ótico fornecido por uma membro da Patrulha de Segurança e Monitoramento Especial, Turenna. Parece usar algumas técnicas de imagem difíceis de entender, em conjunto com o dispositivo de mesa de areia da \"Zona de Tiro em Arco de Defesa de Mil Passos\" serve para simular o uso de um mosquete para ser disparado nos inimigos.",
+      "0": "Um dispositivo óptico fornecido por uma membro da Patrulha de Segurança e Monitoramento Especial, Turenna. Parece usar algumas técnicas de imagem difíceis de entender, em conjunto com o dispositivo de mesa de areia da \"Zona de Tiro em Arco de Defesa de Mil Passos\", serve para simular o uso de um mosquete para ser disparado nos inimigos.",
       "1": "Embora isso possa ser considerado, de diversas formas, insuficiente para os atuais regimes de treinamento dos membros da Patrulha, é mais do que suficiente para despertar o interesse por mosquetes e pela artilharia, em desenvolver os talentos de alguém para isso e para usar esses dons para o bem."
     }
   },
@@ -20289,6 +20565,12 @@
     "name": "Recibo da Loja de Bracari",
     "description": {
       "0": "Recibo da Loja de Bracari"
+    }
+  },
+  "AncientStoneTablet": {
+    "name": "Placa de Pedra Antiga",
+    "description": {
+      "0": "Placa de Pedra Antiga"
     }
   },
   "PackageForTheLeroyFamily": {
@@ -21527,55 +21809,55 @@
   "RadiantSpincrystal99": {
     "name": "Cristal Rodopiante Radiante 99",
     "description": {
-      "0": "Esse cristal maravilhoso contém uma certa melodia, como um tecido belo criado de seda delicada. Esses itens podem ser encontrados por todo Teyvat ou com comerciantes de mercadorias raras. A melodia deste cristal pode ser revivida em seu Bule de Relachá usando \"Eufonia Infinita: Música no Ar\" ou \"Eufonia Infinita: Sons Rodopiantes\". A melodia contida neste Cristal Rodopiante Radiante é uma misteriosa canção de Fontaine."
+      "0": "Esse cristal maravilhoso contém uma certa melodia, como um tecido belo criado de seda delicada. Esses itens podem ser encontrados na terra ou de comerciantes que coletam mercadorias raras. A melodia deste cristal pode ser revivida em seu Bule de Relachá usando \"Eufonia Infinita: Música no Ar\" ou \"Eufonia Infinita: Sons Rodopiantes\". A melodia contida neste Cristal Rodopiante Radiante é \"Ballad of Many Waters\"."
     }
   },
   "RadiantSpincrystal100": {
     "name": "Cristal Rodopiante Radiante 100",
     "description": {
-      "0": "Esse cristal maravilhoso contém uma certa melodia, como um tecido belo criado de seda delicada. Esses itens podem ser encontrados por todo Teyvat ou com comerciantes de mercadorias raras. A melodia deste cristal pode ser revivida em seu Bule de Relachá usando \"Eufonia Infinita: Música no Ar\" ou \"Eufonia Infinita: Sons Rodopiantes\". A melodia contida neste Cristal Rodopiante Radiante é uma misteriosa canção de Fontaine."
+      "0": "Esse cristal maravilhoso contém uma certa melodia, como um tecido belo criado de seda delicada. Esses itens podem ser encontrados na terra ou de comerciantes que coletam mercadorias raras. A melodia deste cristal pode ser revivida em seu Bule de Relachá usando \"Eufonia Infinita: Música no Ar\" ou \"Eufonia Infinita: Sons Rodopiantes\". A melodia contida neste Cristal Rodopiante Radiante é \"Coruscating Street\"."
     }
   },
   "RadiantSpincrystal101": {
     "name": "Cristal Rodopiante Radiante 101",
     "description": {
-      "0": "Esse cristal maravilhoso contém uma certa melodia, como um tecido belo criado de seda delicada. Esses itens podem ser encontrados por todo Teyvat ou com comerciantes de mercadorias raras. A melodia deste cristal pode ser revivida em seu Bule de Relachá usando \"Eufonia Infinita: Música no Ar\" ou \"Eufonia Infinita: Sons Rodopiantes\". A melodia contida neste Cristal Rodopiante Radiante é uma misteriosa canção de Fontaine."
+      "0": "Esse cristal maravilhoso contém uma certa melodia, como um tecido belo criado de seda delicada. Esses itens podem ser encontrados na terra ou de comerciantes que coletam mercadorias raras. A melodia deste cristal pode ser revivida em seu Bule de Relachá usando \"Eufonia Infinita: Música no Ar\" ou \"Eufonia Infinita: Sons Rodopiantes\". A melodia contida neste Cristal Rodopiante Radiante é \"Throughout the Flow of Years\"."
     }
   },
   "RadiantSpincrystal102": {
     "name": "Cristal Rodopiante Radiante 102",
     "description": {
-      "0": "Esse cristal maravilhoso contém uma certa melodia, como um tecido belo criado de seda delicada. Esses itens podem ser encontrados por todo Teyvat ou com comerciantes de mercadorias raras. A melodia deste cristal pode ser revivida em seu Bule de Relachá usando \"Eufonia Infinita: Música no Ar\" ou \"Eufonia Infinita: Sons Rodopiantes\". A melodia contida neste Cristal Rodopiante Radiante é uma misteriosa canção de Fontaine."
+      "0": "Esse cristal maravilhoso contém uma certa melodia, como um tecido belo criado de seda delicada. Esses itens podem ser encontrados na terra ou de comerciantes que coletam mercadorias raras. A melodia deste cristal pode ser revivida em seu Bule de Relachá usando \"Eufonia Infinita: Música no Ar\" ou \"Eufonia Infinita: Sons Rodopiantes\". A melodia contida neste Cristal Rodopiante Radiante é \"Miraculous Whisper\"."
     }
   },
   "RadiantSpincrystal103": {
     "name": "Cristal Rodopiante Radiante 103",
     "description": {
-      "0": "Esse cristal maravilhoso contém uma certa melodia, como um tecido belo criado de seda delicada. Esses itens podem ser encontrados por todo Teyvat ou com comerciantes de mercadorias raras. A melodia deste cristal pode ser revivida em seu Bule de Relachá usando \"Eufonia Infinita: Música no Ar\" ou \"Eufonia Infinita: Sons Rodopiantes\". A melodia contida neste Cristal Rodopiante Radiante é uma misteriosa canção de Fontaine."
+      "0": "Esse cristal maravilhoso contém uma certa melodia, como um tecido belo criado de seda delicada. Esses itens podem ser encontrados na terra ou de comerciantes que coletam mercadorias raras. A melodia deste cristal pode ser revivida em seu Bule de Relachá usando \"Eufonia Infinita: Música no Ar\" ou \"Eufonia Infinita: Sons Rodopiantes\". A melodia contida neste Cristal Rodopiante Radiante é \"Surging Reminiscence\"."
     }
   },
   "RadiantSpincrystal104": {
     "name": "Cristal Rodopiante Radiante 104",
     "description": {
-      "0": "Esse cristal maravilhoso contém uma certa melodia, como um tecido belo criado de seda delicada. Esses itens podem ser encontrados por todo Teyvat ou com comerciantes de mercadorias raras. A melodia deste cristal pode ser revivida em seu Bule de Relachá usando \"Eufonia Infinita: Música no Ar\" ou \"Eufonia Infinita: Sons Rodopiantes\". A melodia contida neste Cristal Rodopiante Radiante é uma misteriosa canção de Fontaine."
+      "0": "Esse cristal maravilhoso contém uma certa melodia, como um tecido belo criado de seda delicada. Esses itens podem ser encontrados na terra ou de comerciantes que coletam mercadorias raras. A melodia deste cristal pode ser revivida em seu Bule de Relachá usando \"Eufonia Infinita: Música no Ar\" ou \"Eufonia Infinita: Sons Rodopiantes\". A melodia contida neste Cristal Rodopiante Radiante é \"Ann's Quiescent Residence\"."
     }
   },
   "RadiantSpincrystal105": {
     "name": "Cristal Rodopiante Radiante 105",
     "description": {
-      "0": "Esse cristal maravilhoso contém uma certa melodia, como um tecido belo criado de seda delicada. Esses itens podem ser encontrados por todo Teyvat ou com comerciantes de mercadorias raras. A melodia deste cristal pode ser revivida em seu Bule de Relachá usando \"Eufonia Infinita: Música no Ar\" ou \"Eufonia Infinita: Sons Rodopiantes\". A melodia contida neste Cristal Rodopiante Radiante é uma misteriosa canção de Fontaine."
+      "0": "Esse cristal maravilhoso contém uma certa melodia, como um tecido belo criado de seda delicada. Esses itens podem ser encontrados na terra ou de comerciantes que coletam mercadorias raras. A melodia deste cristal pode ser revivida em seu Bule de Relachá usando \"Eufonia Infinita: Música no Ar\" ou \"Eufonia Infinita: Sons Rodopiantes\". A melodia contida neste Cristal Rodopiante Radiante é \"Limpide est le sanglot d'eau\"."
     }
   },
   "RadiantSpincrystal106": {
     "name": "Cristal Rodopiante Radiante 106",
     "description": {
-      "0": "Esse cristal maravilhoso contém uma certa melodia, como um tecido belo criado de seda delicada. Esses itens podem ser encontrados por todo Teyvat ou com comerciantes de mercadorias raras. A melodia deste cristal pode ser revivida em seu Bule de Relachá usando \"Eufonia Infinita: Música no Ar\" ou \"Eufonia Infinita: Sons Rodopiantes\". A melodia contida neste Cristal Rodopiante Radiante é uma misteriosa canção de Fontaine."
+      "0": "Esse cristal maravilhoso contém uma certa melodia, como um tecido belo criado de seda delicada. Esses itens podem ser encontrados na terra ou de comerciantes que coletam mercadorias raras. A melodia deste cristal pode ser revivida em seu Bule de Relachá usando \"Eufonia Infinita: Música no Ar\" ou \"Eufonia Infinita: Sons Rodopiantes\". A melodia contida neste Cristal Rodopiante Radiante é \"Que le vent soit doux\"."
     }
   },
   "RadiantSpincrystal107": {
     "name": "Cristal Rodopiante Radiante 107",
     "description": {
-      "0": "Esse cristal maravilhoso contém uma certa melodia, como um tecido belo criado de seda delicada. Esses itens podem ser encontrados por todo Teyvat ou com comerciantes de mercadorias raras. A melodia deste cristal pode ser revivida em seu Bule de Relachá usando \"Eufonia Infinita: Música no Ar\" ou \"Eufonia Infinita: Sons Rodopiantes\". A melodia contida neste Cristal Rodopiante Radiante é uma misteriosa canção de Fontaine."
+      "0": "Esse cristal maravilhoso contém uma certa melodia, como um tecido belo criado de seda delicada. Esses itens podem ser encontrados na terra ou de comerciantes que coletam mercadorias raras. A melodia deste cristal pode ser revivida em seu Bule de Relachá usando \"Eufonia Infinita: Música no Ar\" ou \"Eufonia Infinita: Sons Rodopiantes\". A melodia contida neste Cristal Rodopiante Radiante é \"Demain, des l'aube\"."
     }
   },
   "RadiantSpincrystal108": {
@@ -21648,6 +21930,42 @@
     "name": "Cristal Rodopiante Radiante 119",
     "description": {
       "0": "Esse cristal maravilhoso contém uma certa melodia, como um tecido belo criado de seda delicada. Esses itens podem ser encontrados por todo Teyvat ou com comerciantes de mercadorias raras. A melodia deste cristal pode ser revivida em seu Bule de Relachá usando \"Eufonia Infinita: Música no Ar\" ou \"Eufonia Infinita: Sons Rodopiantes\". A melodia contida neste Cristal Rodopiante Radiante é uma misteriosa canção de Fontaine."
+    }
+  },
+  "RadiantSpincrystal120": {
+    "name": "Cristal Rodopiante Radiante 120",
+    "description": {
+      "0": "Esse cristal maravilhoso contém uma certa melodia, como um tecido belo criado de seda delicada. Esses itens podem ser encontrados por todo Teyvat ou com comerciantes de mercadorias raras. A melodia deste cristal pode ser revivida em seu Bule de Relachá usando \"Eufonia Infinita: Música no Ar\" ou \"Eufonia Infinita: Sons Rodopiantes\". A melodia contida neste Cristal Rodopiante Radiante é uma misteriosa canção de Liyue."
+    }
+  },
+  "RadiantSpincrystal121": {
+    "name": "Cristal Rodopiante Radiante 121",
+    "description": {
+      "0": "Esse cristal maravilhoso contém uma certa melodia, como um tecido belo criado de seda delicada. Esses itens podem ser encontrados por todo Teyvat ou com comerciantes de mercadorias raras. A melodia deste cristal pode ser revivida em seu Bule de Relachá usando \"Eufonia Infinita: Música no Ar\" ou \"Eufonia Infinita: Sons Rodopiantes\". A melodia contida neste Cristal Rodopiante Radiante é uma misteriosa canção de Liyue."
+    }
+  },
+  "RadiantSpincrystal122": {
+    "name": "Cristal Rodopiante Radiante 122",
+    "description": {
+      "0": "Esse cristal maravilhoso contém uma certa melodia, como um tecido belo criado de seda delicada. Esses itens podem ser encontrados por todo Teyvat ou com comerciantes de mercadorias raras. A melodia deste cristal pode ser revivida em seu Bule de Relachá usando \"Eufonia Infinita: Música no Ar\" ou \"Eufonia Infinita: Sons Rodopiantes\". A melodia contida neste Cristal Rodopiante Radiante é uma misteriosa canção de Liyue."
+    }
+  },
+  "RadiantSpincrystal123": {
+    "name": "Cristal Rodopiante Radiante 123",
+    "description": {
+      "0": "Esse cristal maravilhoso contém uma certa melodia, como um tecido belo criado de seda delicada. Esses itens podem ser encontrados por todo Teyvat ou com comerciantes de mercadorias raras. A melodia deste cristal pode ser revivida em seu Bule de Relachá usando \"Eufonia Infinita: Música no Ar\" ou \"Eufonia Infinita: Sons Rodopiantes\". A melodia contida neste Cristal Rodopiante Radiante é uma misteriosa canção de Liyue."
+    }
+  },
+  "RadiantSpincrystal124": {
+    "name": "Cristal Rodopiante Radiante 124",
+    "description": {
+      "0": "Esse cristal maravilhoso contém uma certa melodia, como um tecido belo criado de seda delicada. Esses itens podem ser encontrados por todo Teyvat ou com comerciantes de mercadorias raras. A melodia deste cristal pode ser revivida em seu Bule de Relachá usando \"Eufonia Infinita: Música no Ar\" ou \"Eufonia Infinita: Sons Rodopiantes\". A melodia contida neste Cristal Rodopiante Radiante é uma misteriosa canção de Liyue."
+    }
+  },
+  "RadiantSpincrystal125": {
+    "name": "Cristal Rodopiante Radiante 125",
+    "description": {
+      "0": "Esse cristal maravilhoso contém uma certa melodia, como um tecido belo criado de seda delicada. Esses itens podem ser encontrados por todo Teyvat ou com comerciantes de mercadorias raras. A melodia deste cristal pode ser revivida em seu Bule de Relachá usando \"Eufonia Infinita: Música no Ar\" ou \"Eufonia Infinita: Sons Rodopiantes\". A melodia contida neste Cristal Rodopiante Radiante é uma misteriosa canção de Liyue."
     }
   },
   "LanternFiber": {
@@ -21810,7 +22128,7 @@
     "description": {
       "0": "Material de Refinamento especial para a \"Mega Ultra Espada Mágica do Soberano\".",
       "1": "Pode reunir vários desejos (incluindo os de papelão legais) e os colocar juntos, formando um poder super ultra misterioso.",
-      "2": "Apesar de você poder comprar uma versão de brinquedo na Loja de Departamento Damoville que parece similar (bem, é igualzinha), na verdade, há (provavelmente) uma diferença qualitativa entre as duas, por isos não as misture!"
+      "2": "Apesar de você poder comprar uma versão de brinquedo na Loja de Departamento Damoville que parece similar (bem, é igualzinha), na verdade, há (provavelmente) uma diferença qualitativa entre as duas, por isso não as misture!"
     }
   },
   "FalconsDance": {
@@ -24242,6 +24560,13 @@
       "1": "Ao inalar sua doce fragrância, belas imagens se formam na mente, permitindo que se manipule o poder da Criação Sub-espacial para recriar as vistas fantásticas de Sumeru no Paraíso Mágico..."
     }
   },
+  "SwirlingSceneInABottle": {
+    "name": "Paisagem no Frasco Giratório",
+    "description": {
+      "0": "Este adorável terrário foi trazido de Fontaine pelo Espírito do Bule Viajador Chubby, exalando uma fragrância verdadeiramente maravilhosa.",
+      "1": "As paisagens nele contidas evocam certas imagens, que você pode manipular através do poder da Criação Sub-espacial para recriar as vistas maravilhosas de Fontaine no Paraíso Mágico..."
+    }
+  },
   "TheMountainCloudsLetDownGoldenRain": {
     "name": "As Nuvens Montanhosas Jorram Chuva Dourada",
     "description": {
@@ -24431,6 +24756,18 @@
   },
   "Dvalin": {
     "name": "Dvalin",
+    "description": {
+      "0": "Uma carta do jogo de mesa \"Chamado Sagrado dos Sete\" com uma textura resistente. Não se sabe qual foi a técnica de impressão utilizada para fazer a ilustração na carta, mas pode-se ver que é muito requintada."
+    }
+  },
+  "CryoHypostasis": {
+    "name": "Hypostasis Cryo",
+    "description": {
+      "0": "Uma carta do jogo de mesa \"Chamado Sagrado dos Sete\" com uma textura resistente. Não se sabe qual foi a técnica de impressão utilizada para fazer a ilustração na carta, mas pode-se ver que é muito requintada."
+    }
+  },
+  "MillennialPearlSeahorse": {
+    "name": "Cavalo-Marinho Perolado Milenar",
     "description": {
       "0": "Uma carta do jogo de mesa \"Chamado Sagrado dos Sete\" com uma textura resistente. Não se sabe qual foi a técnica de impressão utilizada para fazer a ilustração na carta, mas pode-se ver que é muito requintada."
     }
@@ -24861,6 +25198,30 @@
       "0": "Uma carta do jogo de mesa \"Chamado Sagrado dos Sete\" com uma textura resistente. Não se sabe qual foi a técnica de impressão utilizada para fazer a ilustração na carta, mas pode-se ver que é muito requintada."
     }
   },
+  "ASubordinatesSkills": {
+    "name": "Servente Hábil",
+    "description": {
+      "0": "Uma carta do jogo de mesa \"Chamado Sagrado dos Sete\" com uma textura resistente. Não se sabe qual foi a técnica de impressão utilizada para fazer a ilustração na carta, mas pode-se ver que é muito requintada."
+    }
+  },
+  "SkivingNewAndImproved": {
+    "name": "Novo Método de Ser Preguiçosa",
+    "description": {
+      "0": "Uma carta do jogo de mesa \"Chamado Sagrado dos Sete\" com uma textura resistente. Não se sabe qual foi a técnica de impressão utilizada para fazer a ilustração na carta, mas pode-se ver que é muito requintada."
+    }
+  },
+  "SternfrostPrism": {
+    "name": "Prisma de Geada",
+    "description": {
+      "0": "Uma carta do jogo de mesa \"Chamado Sagrado dos Sete\" com uma textura resistente. Não se sabe qual foi a técnica de impressão utilizada para fazer a ilustração na carta, mas pode-se ver que é muito requintada."
+    }
+  },
+  "PearlSolidification": {
+    "name": "Fortalecimento de Pérola",
+    "description": {
+      "0": "Uma carta do jogo de mesa \"Chamado Sagrado dos Sete\" com uma textura resistente. Não se sabe qual foi a técnica de impressão utilizada para fazer a ilustração na carta, mas pode-se ver que é muito requintada."
+    }
+  },
   "MagicGuide": {
     "name": "Guia de Magia",
     "description": {
@@ -25269,6 +25630,18 @@
       "0": "Uma carta do jogo de mesa \"Chamado Sagrado dos Sete\" com uma textura resistente. Não se sabe qual foi a técnica de impressão utilizada para fazer a ilustração na carta, mas pode-se ver que é muito requintada."
     }
   },
+  "SapwoodBlade": {
+    "name": "Espada de Madeira",
+    "description": {
+      "0": "Uma carta do jogo de mesa \"Chamado Sagrado dos Sete\" com uma textura resistente. Não se sabe qual foi a técnica de impressão utilizada para fazer a ilustração na carta, mas pode-se ver que é muito requintada."
+    }
+  },
+  "VeteransVisage": {
+    "name": "Semblante do Veterano",
+    "description": {
+      "0": "Uma carta do jogo de mesa \"Chamado Sagrado dos Sete\" com uma textura resistente. Não se sabe qual foi a técnica de impressão utilizada para fazer a ilustração na carta, mas pode-se ver que é muito requintada."
+    }
+  },
   "LiyueHarborWharf": {
     "name": "Porto de Liyue",
     "description": {
@@ -25499,6 +25872,18 @@
   },
   "Mamere": {
     "name": "Maime",
+    "description": {
+      "0": "Uma carta do jogo de mesa \"Chamado Sagrado dos Sete\" com uma textura resistente. Não se sabe qual foi a técnica de impressão utilizada para fazer a ilustração na carta, mas pode-se ver que é muito requintada."
+    }
+  },
+  "Jeht": {
+    "name": "Jeht",
+    "description": {
+      "0": "Uma carta do jogo de mesa \"Chamado Sagrado dos Sete\" com uma textura resistente. Não se sabe qual foi a técnica de impressão utilizada para fazer a ilustração na carta, mas pode-se ver que é muito requintada."
+    }
+  },
+  "SilverAndMelus": {
+    "name": "Silver e Melus",
     "description": {
       "0": "Uma carta do jogo de mesa \"Chamado Sagrado dos Sete\" com uma textura resistente. Não se sabe qual foi a técnica de impressão utilizada para fazer a ilustração na carta, mas pode-se ver que é muito requintada."
     }
@@ -25786,7 +26171,7 @@
     }
   },
   "PassingOfJudgment": {
-    "name": "Hora da Julgamento",
+    "name": "Hora do Julgamento",
     "description": {
       "0": "Uma carta do jogo de mesa \"Chamado Sagrado dos Sete\" com uma textura resistente. Não se sabe qual foi a técnica de impressão utilizada para fazer a ilustração na carta, mas pode-se ver que é muito requintada."
     }
@@ -25805,6 +26190,18 @@
   },
   "FlickeringFourLeafSigil": {
     "name": "Selo de Trevo Flutuante",
+    "description": {
+      "0": "Uma carta do jogo de mesa \"Chamado Sagrado dos Sete\" com uma textura resistente. Não se sabe qual foi a técnica de impressão utilizada para fazer a ilustração na carta, mas pode-se ver que é muito requintada."
+    }
+  },
+  "MachineAssemblyLine": {
+    "name": "Linha de Montagem de Máquinas",
+    "description": {
+      "0": "Uma carta do jogo de mesa \"Chamado Sagrado dos Sete\" com uma textura resistente. Não se sabe qual foi a técnica de impressão utilizada para fazer a ilustração na carta, mas pode-se ver que é muito requintada."
+    }
+  },
+  "SunyataFlower": {
+    "name": "Flor Sunyata",
     "description": {
       "0": "Uma carta do jogo de mesa \"Chamado Sagrado dos Sete\" com uma textura resistente. Não se sabe qual foi a técnica de impressão utilizada para fazer a ilustração na carta, mas pode-se ver que é muito requintada."
     }
@@ -26304,7 +26701,7 @@
       "2": "Um quarto humilde e despretensioso em muitos aspectos para um que você possa encontrar no Albergue Wangshu. O mistério deste quarto é difícil de explicar em palavras. Às vezes, ela evocará lembranças naqueles que passam por ali como a luz do sol atravessando as nuvens ondulantes, mas removerá as mágoas e deixará apenas as marcas dos acontecimentos passados.",
       "3": "Estamos todos à deriva nesta vida mortal, e somente lembrando quem \"nós\" somos, podemos permanecer firmes ao longo de nosso curso. Nossos pensamentos são mais claros no interstício entre o sonho e o despertar. Não é de se admirar que aqueles que visitam o Albergue Wangshu por uma noite se reenergizam cem vezes mais, radiantes e prontos para embarcar em sua viagem mais uma vez.",
       "4": "Após usar este item, você pode visualizá-lo na Interface de Colocação.",
-      "5": "Os personagens a seguir preferem este Conjunto de Decoração: Hutao, Yanfei, Ganyu, Keqing, Chongyun"
+      "5": "Os personagens a seguir preferem este Conjunto de Decoração: Hutao, Yanfei, Ganyu, Keqing, Chongyun, Gaming"
     }
   },
   "SecretResearchLab": {
@@ -26365,7 +26762,7 @@
       "1": "Uma praça de alimentação com instalações ao ar livre que revisita a agitação do Penhasco Chihu.",
       "2": "Chamar isso de \"reunião de gourmets\" é um eufemismo, pois embora pareça não haver muitos utensílios de cozinha aqui, eles são mais do que suficientes para cobrir todas as especialidades conhecidas da região de Liyue. Chefs qualificados podem fazer pratos deliciosos a partir dos utensílios mais simples, e certamente ajudam que pratos que não são particulares sobre os utensílios necessários também circulem com facilidade.",
       "3": "Após usar este item, você pode visualizá-lo na Interface de Colocação.",
-      "4": "Os personagens a seguir preferem este Conjunto de Decoração: Beidou, Xiangling, Ganyu, Xinyan, Tartaglia, Yelan"
+      "4": "Os personagens a seguir preferem este Conjunto de Decoração: Beidou, Xiangling, Ganyu, Xinyan, Tartaglia, Yelan, Gaming, Xianyun"
     }
   },
   "GlitteringStreet": {
@@ -26385,7 +26782,7 @@
       "1": "Um vilarejo de montanha modelado baseado na Vila Qingce. Dizem que o ambiente amigável ali é contagiante e que os visitantes que entram se encontrarão mais calmos e agradecidos pelas simples alegrias que podem ter sido esquecidas.",
       "2": "Seguir os próprios ideais e passar muitos anos perseguindo magnificamente uma carreira certamente é louvável. Mas depois de passar muito tempo fazendo tais coisas, pode-se eventualmente sentir cansaço, e uma vez que isso aconteça, uma vida calma e pacífica no campo pode continuar sendo uma boa escolha. A Vila Qingce sempre manteve sua aceitação daqueles jovens que saem em busca de suas fortunas e está pronta para recebê-los de volta de braços abertos a qualquer momento.",
       "3": "Após usar este item, você pode visualizá-lo na Interface de Colocação.",
-      "4": "Os personagens a seguir preferem este Conjunto de Decoração: Xinyan, Xiao, Hutao, Qiqi, Shenhe, Yelan, Yaoyao."
+      "4": "Os personagens a seguir preferem este Conjunto de Decoração: Xinyan, Xiao, Hutao, Qiqi, Shenhe, Yelan, Yaoyao, Xianyun"
     }
   },
   "OfHuntingAndDancing": {
@@ -26644,6 +27041,107 @@
       "2": "Este conjunto de decorações é o preferido dos seguintes companheiros: Tighnari, {REALNAME[ID(1)|HOSTONLY(true)]}."
     }
   },
+  "KeyToAStableWorkRestCycle": {
+    "name": "Chave para um Ciclo de Trabalho e Descanso Estável",
+    "description": {
+      "0": "Um quarto simples e amplo que equilibra conforto e sofisticação. Para pessoas exaustas, a cama significa uma rápida entrada no mundo dos sonhos, e aqueles que acordam de manhã entrarão igualmente rapidamente no modo de trabalho.",
+      "1": "Muitos habitantes de Fontaine consideram o design de interiores como um fator-chave para o sono, e um sono estável é fundamental para o ciclo de trabalho e descanso de uma pessoa. Dessa forma, o design do quarto é realmente crucial.",
+      "2": "Este conjunto de decorações é o preferido das seguintes companheiras: Charlotte e Chevreuse"
+    }
+  },
+  "StrictAdherenceToOfficeCodes": {
+    "name": "Adesão Estrita aos Códigos do Escritório",
+    "description": {
+      "0": "Um layout de escritório clássico baseado nos móveis do Palais Mermonia, recriando aquele escritório sempre movimentado, onde tudo segue regulamentos.",
+      "1": "Um pesquisador do Instituto de Pesquisas de Fontaine certa vez afirmou que \"o ambiente de uma pessoa afetará muito o seu estado de trabalho.\" Seguindo esse princípio, alguém que está em um ambiente muito semelhante ao do Palais Mermonia pode, subconscientemente, seguir de maneira confiável cada processo detalhadamente...",
+      "2": "Este conjunto de decorações é o preferido do seguinte companheiro: Neuvillette"
+    }
+  },
+  "GarbForGloriousGourmet": {
+    "name": "Traje Gourmet Luxuoso",
+    "description": {
+      "0": "Um restaurante completamente decorado, construído imitando o Hotel Debord. É adequado para realizar animados banquetes familiares, nos quais inúmeros parentes e amigos serão convidados.",
+      "1": "Nem mesmo chefs experientes podem negar que a mise en scène gastronômica dita os sentimentos dos comensais, o que influencia a avaliação geral da comida. Portanto, um restaurante bonito pode ser considerado uma espécie de traje para comida e bebida boa.",
+      "2": "Este conjunto de decorações é o preferido das seguintes companheiras: Navia e Furina"
+    }
+  },
+  "PerfectlyDrawnFocus": {
+    "name": "Foco Desenhado Perfeitamente",
+    "description": {
+      "0": "Um interior com um palco de tamanho médio como peça central, suficiente para realizar uma pequena apresentação.",
+      "1": "Para aqueles que são novos na arte da atuação, uma plateia muito grande pode causar nervosismo indevido e afetar sua interpretação, e para os mestres experientes, às vezes um espetáculo para os amigos traz muito mais felicidade do que um espetáculo lotado. Portanto, a maioria dos artistas pode apreciar a falta de grandiosidade deste palco.",
+      "2": "Este conjunto de decorações é o preferido dos seguintes companheiros: Lynette e Lyney"
+    }
+  },
+  "ContinuousClockworkInspiration": {
+    "name": "Inspiração Contínua de Mecanismo de Relógio",
+    "description": {
+      "0": "Um ambiente baseado em uma oficina de mecanismos de relógio, com equipamentos de processamento suficientes para atender à maioria das necessidades dos artesãos.",
+      "1": "Alguns poetas de Fontaine acreditam que os Mecautômatos de relojoaria são criações dignas de respeito, respeito que deve brilhar sobre as ferramentas do artesão também. \"A inspiração inclina os ouvidos desses componentes, ensina-os a dançar como um só a um ritmo perpétuo\".",
+      "2": "Este conjunto de decorações é o preferido do seguinte companheiro: Freminet"
+    }
+  },
+  "WellspringOfRuleViolationPrevention": {
+    "name": "Manancial de Prevenção de Violação das Regras",
+    "description": {
+      "0": "Um escritório com uma atmosfera solene que reproduz com precisão o escritório do \"Duque\" da Fortaleza Meropide.",
+      "1": "Dizem que, depois que o Duque assumiu o controle da Fortaleza, ele apenas fez algumas pequenas mudanças nos móveis do escritório e deixou o resto do local como estava, esse foi o escritório onde foram redigidas as regulamentações que muitos prisioneiros devem seguir.",
+      "2": "Este conjunto de decorações é o preferido do seguinte companheiro: Wriothesley"
+    }
+  },
+  "CourtOfJusticesPlacidDays": {
+    "name": "Dias Mundanos na Corte",
+    "description": {
+      "0": "Uma rua que se baseia nas ruas comuns das áreas residenciais de Fontaine como seu modelo. As inúmeras residências também replicaram fielmente a aparência autêntica da Corte de Fontaine.",
+      "1": "Para muitos residentes de Fontaine, uma parte significativa de suas vidas consiste em viver de forma organizada, cumprir horários de trabalho, descansar, encontrar amigos para uma refeição ou compras e, ocasionalmente, assistir a grandiosas apresentações na Ópera Epiclese. Mesmo alguns aventureiros experientes em situações de crise podem ocasionalmente pensar que um estilo de vida tão tranquilo seria agradável...",
+      "2": "Este conjunto de decorações é o preferido da seguinte companheira: Charlotte"
+    }
+  },
+  "CourtOfJusticesBoomingCommerce": {
+    "name": "Comércio da Prosperidade do Pavilhão da Justiça",
+    "description": {
+      "0": "Este lugar se baseia no Quartier Lyonnais na Corte de Fontaine, repleto de várias lojas especializadas e mesas onde também é possível descansar e desfrutar de chá.",
+      "1": "Alguns turistas experientes vão te dizer que você pode perguntar aos moradores daqui se não estiver familiarizado com as lojas e especializações dos produtos à venda. Como muitas lojas seguem rigorosamente os controles de preços estabelecidos pelo Palais Mermonia, poucas pessoas compram itens com preços inadequados.",
+      "2": "Este conjunto de decorações é o preferido dos seguintes companheiros: Lynette e Lyney"
+    }
+  },
+  "CourtOfJusticesFreshMist": {
+    "name": "Névoa Refrescante da Corte",
+    "description": {
+      "0": "Um quadrado cheio de arbustos verdes, flores vibrante e uma bela montanha. O conceito de design é baseado na Fonte de Lucine em Erinnyes.",
+      "1": "Quando o clima está agradável, a névoa fresca se entrelaça nas flores de Erinnyes, e a visão disso eleva o ânimo tanto dos residentes quanto dos visitantes. Mesmo se alguém chegar em meio a um aguaceiro, as lendas que cercam a Fonte ainda enchem o coração com uma esperança maravilhosa.",
+      "2": "Este conjunto de decorações é o preferido dos seguintes companheiros: Neuvillette e Furina"
+    }
+  },
+  "PoissonTheUnassuming": {
+    "name": "Poisson, Imemorável",
+    "description": {
+      "0": "Uma paisagem centrada ao redor de vários edifícios únicos que recria um canto de Poisson. As estruturas que focam na praticidade, elevando o trabalho da eficiência naqueles que residem nelas, apesar disso não imediatamente se tornar exaustão, mas sim uma maneira de alguém guardar os dias de tranquilidade de alguém. Mais dos habitantes de Poisson vivem sob o lema \"que o trabalho seja feito rápido, para que nossa vida seja aproveitada melhor\".",
+      "1": "Esse conjunto de decorações é o preferido pelos seguintes companheiros: Navia."
+    }
+  },
+  "UnderseaMeruseasLustre": {
+    "name": "A Espuma Luminosa sob as Águas Silenciosas",
+    "description": {
+      "0": "Um pequeno assentamento que se esforça para recriar a paisagem na Vila Marusea, com edifícios únicos e bastante chamativos.",
+      "1": "As Melusines habitam Elynas, sob as ondas, e poucas pessoas normais visitarão sua vila, embora aqueles que o façam sempre elogiem sua experiência ao retornar. Alguns artistas tentaram desenhar o lugar com base nessas descrições e informações obtidas ao entrevistar Melusines na Corte de Fontaine. No entanto, sempre houve uma \"diferença de cor\" entre seu trabalho e as cores reais da vila que era difícil de ignorar. Esse problema só foi resolvido quando fotos tiradas por um Aparelho Fotográfico da Vila Marusea se tornaram amplamente conhecidas, resolvendo mais ou menos o problema...",
+      "2": "Este conjunto de decorações é o preferido do seguinte companheiro: Freminet"
+    }
+  },
+  "FullForceForwardInTheForbiddenFortress": {
+    "name": "Força Total Avante na Fortaleza Proibida",
+    "description": {
+      "0": "Uma arena cujo ponto central é um ringue de boxe. Ficando dentro dele, você pode ouvir novamente os aplausos e gritos da plateia, os comentários animados do apresentador e o som abafado do punho batendo contra a carne vindo de cada competidor, essa é a profunda impressão que o Ringue de Pancrácio da Fortaleza Meropide deixa.",
+      "1": "\"Em um ringue onde seu punho decide tudo, você só pode dar o seu melhor para reivindicar a glória, e os Cupons Especiais, que deveriam ser seus.\" ... Muitos competidores do Ringue de Pancrácio adotam isso como seu lema mesmo após deixarem completamente a Fortaleza...",
+      "2": "Este conjunto de decorações é o preferido dos seguintes companheiros: Wriothesley e Chevreuse"
+    }
+  },
+  "TheNationOfHydrosMottledColors": {
+    "name": "As Cores Marmóreas da Nação Hydro",
+    "description": {
+      "0": "Uma cena rural repleta de plantas exuberantes. Ela contém todos os tipos de flores e arbustos que podem ser encontrados por toda parte em Fontaine. Flores e plantas são temas comuns em pinturas e representam um ponto de partida para explorações da \"cor\". Alguns pintores em Fontaine acreditam que a paleta do mundo usa plantas para demonstrar a combinação perfeita de cores. Portanto, se todas as cores em uma pintura encontram sua origem nas flores, então essa pintura deve certamente possuir uma beleza harmoniosa igual à da paisagem natural. Claro, isso parte da premissa de que você não vai misturar todas as cores derivadas de plantas em uma única conversa..."
+    }
+  },
   "TimberWallWithJadeEaves": {
     "name": "Parede de Madeira com Beiral de Jade",
     "description": {
@@ -26669,6 +27167,13 @@
     "name": "Parede de Madeira Radiante com Colunas Entalhadas",
     "description": {
       "0": "Um diagrama que descreve passo a passo como fabricar Parede de Madeira Radiante com Colunas Entalhadas.",
+      "1": "Depois de usar, você pode entrar na interface de colocação para ver."
+    }
+  },
+  "AnnexsGoldenMosaic": {
+    "name": "Entalhes Dourados do Anexo",
+    "description": {
+      "0": "Um diagrama que descreve passo a passo como fabricar Entalhes Dourados do Anexo.",
       "1": "Depois de usar, você pode entrar na interface de colocação para ver."
     }
   },
@@ -26700,6 +27205,13 @@
       "1": "Depois de usar, você pode entrar na interface de colocação para ver."
     }
   },
+  "AnnexsMirrorSheenFloorTiles": {
+    "name": "Pisos de Azulejo com Superfície Espelhada do Anexo",
+    "description": {
+      "0": "Um diagrama que descreve passo a passo como fabricar Pisos de Azulejo com Superfície Espelhada do Anex.",
+      "1": "Depois de usar, você pode entrar na interface de colocação para ver."
+    }
+  },
   "CheckeredCedarCeiling": {
     "name": "Teto Xadrez de Cedro",
     "description": {
@@ -26725,6 +27237,13 @@
     "name": "Teto de Madeira Radiante Entalhada",
     "description": {
       "0": "Um diagrama que descreve passo a passo como fabricar Teto de Madeira Radiante Entalhada.",
+      "1": "Depois de usar, você pode entrar na interface de colocação para ver."
+    }
+  },
+  "AnnexsSpotlessDome": {
+    "name": "Redoma Impecável do Anexo",
+    "description": {
+      "0": "Um diagrama que descreve passo a passo como fabricar Redoma Impecável do Anexo.",
       "1": "Depois de usar, você pode entrar na interface de colocação para ver."
     }
   },
@@ -26994,11 +27513,32 @@
       "1": "Depois de usar, você pode entrar na interface de produção para ver."
     }
   },
+  "ForbiddenZoneFloorLampIronhammer": {
+    "name": "Lanterna de Chão da Zona Proibida: Martelo de Ferro",
+    "description": {
+      "0": "Um diagrama que descreve passo a passo como fabricar Lanterna de Chão da Zona Proibida: Martelo de Ferro.",
+      "1": "Depois de usar, você pode entrar na interface de produção para vê-la."
+    }
+  },
+  "ForbiddenZoneFloorLampNightlight": {
+    "name": "Lanterna de Chão da Zona Proibida: Luz da Noite",
+    "description": {
+      "0": "Um diagrama que descreve passo a passo como fabricar Lanterna de Chão da Zona Proibida: Luz da Noite.",
+      "1": "Depois de usar, você pode entrar na interface de produção para vê-la."
+    }
+  },
   "EfflorescentIllumination": {
     "name": "Luz Floral",
     "description": {
       "0": "Um diagrama que descreve passo a passo como fabricar Luz Floral.",
       "1": "Depois de usar, você pode entrar na interface de produção para ver."
+    }
+  },
+  "AnnexsSwirlingLight": {
+    "name": "Luz Reluzente do Anexo",
+    "description": {
+      "0": "Um diagrama que descreve passo a passo como fabricar Luz Reluzente do Anexo.",
+      "1": "Depois de usar, você pode entrar na interface de colocação para ver."
     }
   },
   "NorthernBirchFoldingCounter": {
@@ -27082,6 +27622,13 @@
     "name": "Armário de Cerâmica e Madeira de Tamarisco",
     "description": {
       "0": "Um diagrama que descreve passo a passo como fabricar Armário de Cerâmica e Madeira de Tamarisco.",
+      "1": "Depois de usar, você pode entrar na interface de colocação para ver."
+    }
+  },
+  "MallowWoodMultiModelWardrobe": {
+    "name": "Armário de Madeira de Malva \"Multimodelos\"",
+    "description": {
+      "0": "Um diagrama que descreve passo a passo como fabricar Armário de Madeira de Malva \"Multimodelos\".",
       "1": "Depois de usar, você pode entrar na interface de colocação para ver."
     }
   },
@@ -27208,6 +27755,13 @@
     "name": "\"Ajudante de Maison Cardinalice\"",
     "description": {
       "0": "Um diagrama que descreve passo a passo como fabricar \"Ajudante de Maison Cardinalice\".",
+      "1": "Depois de usar, você pode entrar na interface de produção para ver."
+    }
+  },
+  "AThousandTextsInTheCentralHub": {
+    "name": "\"Mil Textos na Central\"",
+    "description": {
+      "0": "Um diagrama que descreve passo a passo como fabricar \"Mil Textos na Central\".",
       "1": "Depois de usar, você pode entrar na interface de produção para ver."
     }
   },
@@ -27407,6 +27961,27 @@
       "1": "Depois de usar, você pode entrar na interface de produção para ver."
     }
   },
+  "StableWorkStationInTheCentralHub": {
+    "name": "\"Estação de Trabalho Estável Central\"",
+    "description": {
+      "0": "Um diagrama que descreve passo a passo como fabricar \"Estação de Trabalho Estável Central\".",
+      "1": "Depois de usar, você pode entrar na interface de produção para ver."
+    }
+  },
+  "RestTimeInTheCentralHub": {
+    "name": "\"Sesta na Central\"",
+    "description": {
+      "0": "Um diagrama que descreve passo a passo como fabricar \"Sesta na Central\".",
+      "1": "Depois de usar, você pode entrar na interface de produção para ver."
+    }
+  },
+  "TheLeisureOfDailyMeetings": {
+    "name": "\"A Diversão de Encontros Diários\"",
+    "description": {
+      "0": "Um diagrama que descreve passo a passo como fabricar \"A Diversão de Encontros Diários\".",
+      "1": "Depois de usar, você pode entrar na interface de produção para vê-la."
+    }
+  },
   "BreezeBlessedBed": {
     "name": "Cama Suave Como a Brisa",
     "description": {
@@ -27503,6 +28078,13 @@
     "description": {
       "0": "Um diagrama que descreve passo a passo como fabricar a Testemunha Onisciente da Taverna.",
       "1": "Depois de usar, você pode entrar na interface de colocação para vê-la."
+    }
+  },
+  "CelebrationOfAnAdHocPerformance": {
+    "name": "\"Celebração da Performance\"",
+    "description": {
+      "0": "Um diagrama que descreve passo a passo como fabricar \"Celebração da Performance\".",
+      "1": "Depois de usar, você pode entrar na interface de produção para ver."
     }
   },
   "SoftLoungeSofa": {
@@ -27636,6 +28218,27 @@
     "description": {
       "0": "Um diagrama que descreve passo a passo como fabricar \"Elegia a Beber Socialmente\".",
       "1": "Depois de usar, você pode entrar na interface de produção para vê-lo."
+    }
+  },
+  "MallowWoodViewingRitesChair": {
+    "name": "Cadeira \"Admirando Rituais\" de Madeira de Malva",
+    "description": {
+      "0": "Um diagrama que descreve passo a passo como fabricar Cadeira \"Admirando Rituais\" de Madeira de Malva.",
+      "1": "Depois de usar, você pode entrar na interface de produção para vê-la."
+    }
+  },
+  "LindenWoodSubduingSeatBackedChair": {
+    "name": "Cadeira de Madeira de Tilia \"Assento Perigoso\"",
+    "description": {
+      "0": "Um diagrama que descreve passo a passo como fabricar Cadeira de Madeira de Tilia \"Assento Perigoso\".",
+      "1": "Depois de usar, você pode entrar na interface de colocação para ver."
+    }
+  },
+  "MomentaryRestInTheCentralHub": {
+    "name": "\"Descanso Temporário na Central\"",
+    "description": {
+      "0": "Um diagrama que descreve passo a passo como fabricar \"Descanso Temporário na Central\".",
+      "1": "Depois de usar, você pode entrar na interface de produção para ver."
     }
   },
   "NorthernStoneHearth": {
@@ -28000,6 +28603,13 @@
     "description": {
       "0": "Um diagrama que descreve passo a passo como fabricar \"Fardo da Fortaleza Proibida\".",
       "1": "Depois de usar, você pode entrar na interface de produção para ver."
+    }
+  },
+  "StandardMusicStandAccurateTuning": {
+    "name": "Prateleira de Música Padrão: Afinamento Preciso",
+    "description": {
+      "0": "Um diagrama que descreve passo a passo como fabricar Prateleira de Música Padrão: Afinamento Preciso.",
+      "1": "Depois de usar, você pode entrar na interface de colocação para ver."
     }
   },
   "MondstadtRugCrimsonArdor": {
@@ -28541,6 +29151,13 @@
       "1": "Depois de usar, você pode entrar na interface de colocação para ver."
     }
   },
+  "CommonUseNoteHolder": {
+    "name": "Porta-Anotações Comum",
+    "description": {
+      "0": "Um diagrama que descreve passo a passo como fabricar Porta-Anotações Comum.",
+      "1": "Depois de usar, você pode entrar na interface de colocação para ver."
+    }
+  },
   "RealizationsFromTheLandOfWisdom": {
     "name": "Despertar do Local da Sagacidade",
     "description": {
@@ -28763,6 +29380,13 @@
     "description": {
       "0": "Um diagrama que descreve passo a passo como fabricar \"Escudo de Metal e Madeira de Tamarisco\"",
       "1": "Depois de usar, você pode entrar na interface de colocação para ver."
+    }
+  },
+  "IndoorLampTheTwilightSea": {
+    "name": "Lanterna Interna: Mar Crepuscular",
+    "description": {
+      "0": "Um diagrama que descreve passo a passo como fabricar Lanterna Interna: Mar Crepuscular.",
+      "1": "Depois de usar, você pode entrar na interface de colocação para vê-la."
     }
   },
   "LingeringMoment": {
@@ -29148,6 +29772,20 @@
     "description": {
       "0": "Um diagrama que descreve passo a passo como fabricar Normas Pontuais do Corredor.",
       "1": "Depois de usar, você pode entrar na interface de colocação para ver."
+    }
+  },
+  "QuickTemporaryWorkshed": {
+    "name": "\"Mesa de Trabalho Temporária\"",
+    "description": {
+      "0": "Um diagrama que descreve passo a passo como fabricar \"Mesa de Trabalho Temporária\".",
+      "1": "Depois de usar, você pode entrar na interface de colocação para ver."
+    }
+  },
+  "PoissonsSeasonalProduce": {
+    "name": "\"Produção Sazonal de Poisson\"",
+    "description": {
+      "0": "Um diagrama que descreve passo a passo como fabricar \"Produção Sazonal de Poisson\".",
+      "1": "Depois de usar, você pode entrar na interface de produção para ver."
     }
   },
   "HilichurlOutpostHut": {
@@ -29878,6 +30516,13 @@
       "1": "Depois de usar, você pode entrar na interface de colocação para ver."
     }
   },
+  "CourtyardPavilionAmidstTheRivers": {
+    "name": "Pavilhão: Entre os Rios",
+    "description": {
+      "0": "Um diagrama que descreve passo a passo como fabricar Pavilhão: Entre os Rios.",
+      "1": "Depois de usar, você pode entrar na interface de colocação para ver."
+    }
+  },
   "CourtOfJusticesAuthenticity": {
     "name": "\"Autenticidade da Corte da Justiça\"",
     "description": {
@@ -29911,6 +30556,27 @@
     "description": {
       "0": "Um diagrama que descreve passo a passo como fabricar \"Caranguejo de Pedra Pequeno\".",
       "1": "Depois de usar, você pode entrar na interface de colocação para ver."
+    }
+  },
+  "TheArenaWhereFistsReemerge": {
+    "name": "\"A Arena em que os Punhos Reemergem\"",
+    "description": {
+      "0": "Um diagrama que descreve passo a passo como fabricar \"A Arena em que os Punhos Reemergem\".",
+      "1": "Depois de usar, você pode entrar na interface de produção para ver."
+    }
+  },
+  "TheWisdomOfPoisson": {
+    "name": "\"A Sabedoria de Poisson\"",
+    "description": {
+      "0": "Um diagrama que descreve passo a passo como fabricar \"A Sabedoria de Poisson\".",
+      "1": "Depois de usar, você pode entrar na interface de produção para ver."
+    }
+  },
+  "ASimpleResidenceInPoisson": {
+    "name": "\"Uma Residência Simples em Poisson\"",
+    "description": {
+      "0": "Um diagrama que descreve passo a passo como fabricar \"Uma Residência Simples em Poisson\".",
+      "1": "Depois de usar, você pode entrar na interface de produção para ver."
     }
   },
   "BirdAndBlossomDesignFountain": {
@@ -30459,6 +31125,34 @@
       "1": "Depois de usar, você pode entrar na interface de colocação para ver."
     }
   },
+  "CourtyardCorridorTheMoraDividend": {
+    "name": "Corredor do Pavilhão: Dividindo Mora",
+    "description": {
+      "0": "Um diagrama que descreve passo a passo como fabricar Corredor do Pavilhão: Dividindo Mora.",
+      "1": "Depois de usar, você pode entrar na interface de colocação para ver."
+    }
+  },
+  "CourtyardCorridorManifoldCorners": {
+    "name": "Corredor do Pavilhão: Canto do Fluxo",
+    "description": {
+      "0": "Um diagrama que descreve passo a passo como fabricar Corredor do Pavilhão: Canto do Fluxo.",
+      "1": "Depois de usar, você pode entrar na interface de colocação para ver."
+    }
+  },
+  "CourtyardArchwayMomentOfGlory": {
+    "name": "Arco do Pavilhão: Momento de Glória",
+    "description": {
+      "0": "Um diagrama que descreve passo a passo como fabricar Arco do Pavilhão: Momento de Glória.",
+      "1": "Depois de usar, você pode entrar na interface de colocação para vê-lo."
+    }
+  },
+  "CourtyardWallABitOfScenery": {
+    "name": "Parede do Pavilhão: Uma Paisagem",
+    "description": {
+      "0": "Um diagrama que descreve passo a passo como fabricar Parede do Pavilhão: Uma Paisagem.",
+      "1": "Depois de usar, você pode entrar na interface de colocação para ver."
+    }
+  },
   "FoundationsOfStoneFortunateTimes": {
     "name": "Fundações de Pedra: Fortuna e Tranquilidade",
     "description": {
@@ -30954,6 +31648,13 @@
     "description": {
       "0": "Um diagrama que descreve passo a passo como fabricar Modelo Mecânico: Âncora Destruidora de Rochas",
       "1": "Depois de usar, você pode entrar na interface de colocação para ver."
+    }
+  },
+  "BoxingTargetOfTheForbiddenFortress": {
+    "name": "\"Alvo de Boxe da Fortaleza Proibida\"",
+    "description": {
+      "0": "Um diagrama que descreve passo a passo como fabricar \"Alvo de Boxe da Fortaleza Proibida\".",
+      "1": "Depois de usar, você pode entrar na interface de produção para ver."
     }
   },
   "PottedPlantVerdantVastness": {
@@ -31719,6 +32420,55 @@
       "1": "Depois de usar, você pode entrar na interface de produção para vê-la."
     }
   },
+  "OverburdeningOfTheForbiddenFortress": {
+    "name": "\"Peso da Fortaleza Proibida\"",
+    "description": {
+      "0": "Um diagrama que descreve passo a passo como fabricar \"Peso da Fortaleza Proibida\".",
+      "1": "Depois de usar, você pode entrar na interface de produção para ver."
+    }
+  },
+  "AreaMarkerUpward": {
+    "name": "Marcador de Área: Para Cima",
+    "description": {
+      "0": "Um diagrama que descreve passo a passo como fabricar Marcador de Área: Para Cima.",
+      "1": "Depois de usar, você pode entrar na interface de produção para ver."
+    }
+  },
+  "AreaMarkerDownward": {
+    "name": "Marcador de Área: Para Baixo",
+    "description": {
+      "0": "Um diagrama que descreve passo a passo como fabricar Marcador de Área: Para Baixo.",
+      "1": "Depois de usar, você pode entrar na interface de produção para ver."
+    }
+  },
+  "PoissonDoorFrame": {
+    "name": "\"Porta de Poisson\"",
+    "description": {
+      "0": "Um diagrama que descreve passo a passo como fabricar \"Porta de Poisson\".",
+      "1": "Depois de usar, você pode entrar na interface de produção para ver."
+    }
+  },
+  "BookshelfFreeReading": {
+    "name": "Prateleira de Livros: Leitura Livre",
+    "description": {
+      "0": "Um diagrama que descreve passo a passo como fabricar Prateleira de Livros: Leitura Livre.",
+      "1": "Depois de usar, você pode entrar na interface de colocação para vê-la."
+    }
+  },
+  "BookshelfSpeedyBrowsing": {
+    "name": "Prateleira de Livros: Olhada Rápida",
+    "description": {
+      "0": "Um diagrama que descreve passo a passo como fabricar Prateleira de Livros: Olhada Rápida.",
+      "1": "Depois de usar, você pode entrar na interface de colocação para vê-la."
+    }
+  },
+  "BookshelfFocusedEffect": {
+    "name": "Prateleira de Livros: Efeito Focado",
+    "description": {
+      "0": "Um diagrama que descreve passo a passo como fabricar Prateleira de Livros: Efeito Focado.",
+      "1": "Depois de usar, você pode entrar na interface de colocação para vê-la."
+    }
+  },
   "PoolOfSapphireGrace": {
     "name": "Piscina da Nuvem de Espíritos",
     "description": {
@@ -32010,6 +32760,20 @@
     "name": "Mesa Redonda Pura do Corredor",
     "description": {
       "0": "Um diagrama que descreve passo a passo como fabricar Mesa Redonda Pura do Corredor.",
+      "1": "Depois de usar, você pode entrar na interface de colocação para ver."
+    }
+  },
+  "ProductionRackTheBasics": {
+    "name": "Base de Produção: O Básico",
+    "description": {
+      "0": "Um diagrama que descreve passo a passo como fabricar Base de Produção: O Básico.",
+      "1": "Depois de usar, você pode entrar na interface de colocação para ver."
+    }
+  },
+  "ProductionRackCustomBuild": {
+    "name": "Base de Produção: Modelo Personalizado",
+    "description": {
+      "0": "Um diagrama que descreve passo a passo como fabricar Base de Produção: Modelo Personalizado.",
       "1": "Depois de usar, você pode entrar na interface de colocação para ver."
     }
   },

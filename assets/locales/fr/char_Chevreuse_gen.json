@@ -1,7 +1,7 @@
 {
   "name": "Chevreuse",
   "title": "Exécutrice de la justice",
-  "description": "",
+  "description": "La capitaine de la patrouille de surveillance spéciale, qui porte la justice comme un sceau omniprésent sur son cœur. Son mousquet ne doit pointer que vers les coupables.",
   "constellationName": "Sclopetum Ensiferum",
   "auto": {
     "name": "Pique de baïonnette (modifiée)",
@@ -42,18 +42,17 @@
     "name": "Tir de suppression rapide à courte portée",
     "description": {
       "0": "Chevreuse place rapidement son mousquet sur son épaule et tire sur l'ennemi pour infliger des <pyro>DGT Pyro de zone</pyro>.",
-      "1": "En cas d'appui long, la compétence est déclenchée différemment.",
-      "2": "<br/>",
-      "3": "<strong>Appui long</strong>",
-      "4": "Bascule en mode visée, ce qui permet à Chevreuse de verrouiller une cible dans son réticule pour déclencher un tir de suppression précis. Si Chevreuse en possède une, elle tire une cartouche surchargée à la place pour infliger des <pyro>DGT Pyro</pyro> plus importants sur une zone plus grande.",
-      "5": "Chevreuse obtient 1 cartouche surchargée chaque fois qu'un personnage de l'équipe à proximité déclenche une réaction de Surcharge, mais ne peut posséder qu'une seule cartouche surchargée à la fois.",
-      "6": "<br/>",
-      "7": "Pendant une courte durée après que Chevreuse tire un coup de feu, les PV de votre personnage déployé sont restaurés de façon continue selon les PV max de Chevreuse.",
-      "8": "<br/>",
-      "9": "<strong>Arkhe : Ousia</strong>",
-      "10": "Régulièrement, lorsque Chevreuse touche avec Tir de suppression rapide à courte portée, elle déclenche une lame fluide pour infliger des <pyro>DGT Pyro</pyro> chargés d'énergie ousia.",
-      "11": "<br/>",
-      "12": "<i>« En fait, le règlement d'entraînement ne comportait que le terme « Tir de suppression », mais le protagoniste de ce roman estime qu'une terminologie élégante peut affecter la motivation des troupes, et même acculer les adversaires dès le départ... Je pense que c'est un bon point, alors j'ai modifié le règlement ! »</i>"
+      "1": "Pendant une courte durée après que Chevreuse tire un coup de feu, les PV du personnage déployé sont restaurés de façon continue selon les PV max de Chevreuse.",
+      "2": "En cas d'appui long, la compétence est déclenchée différemment.",
+      "3": "<br/>",
+      "4": "<strong>Appui long</strong>",
+      "5": "Bascule en mode visée, ce qui permet à Chevreuse de verrouiller une cible dans son réticule pour déclencher un tir de suppression précis. Si Chevreuse en possède une, elle tire une cartouche surchargée à la place pour infliger des <pyro>DGT Pyro</pyro> plus importants sur une zone plus grande.",
+      "6": "Chevreuse obtient 1 cartouche surchargée chaque fois qu'un personnage de l'équipe à proximité déclenche une réaction de Surcharge, mais ne peut posséder qu'une seule cartouche surchargée à la fois.",
+      "7": "<br/>",
+      "8": "<strong>Arkhe : Ousia</strong>",
+      "9": "Régulièrement, lorsque Chevreuse touche avec Tir de suppression rapide à courte portée, elle déclenche une lame fluide pour infliger des <pyro>DGT Pyro</pyro> chargés d'énergie ousia.",
+      "10": "<br/>",
+      "11": "<i>« En fait, le règlement d'entraînement ne comportait que le terme « Tir de suppression », mais le protagoniste de ce roman estime qu'une terminologie élégante peut affecter la motivation des troupes, et même acculer les adversaires dès le départ... Je pense que c'est un bon point, alors j'ai modifié le règlement ! »</i>"
     },
     "skillParams": {
       "0": "DGT appui simple",
@@ -125,7 +124,7 @@
   "constellation1": {
     "name": "Vaillance du front stable",
     "description": {
-      "0": "Lorsqu'un personnage déployé avec une coordination (hormis Chevreuse) déclenche une réaction de Surcharge sur un ennemi, il récupère 6 pts d'énergie élémentaire. Cet effet peut être déclenché une fois toutes les 10 s.",
+      "0": "Lorsqu'un personnage déployé avec une coordination (hormis Chevreuse) déclenche une réaction de Surcharge, il récupère 6 pts d'énergie élémentaire. Cet effet peut être déclenché une fois toutes les 10 s.",
       "1": "L'aptitude passive « Tactique coordonnée » doit être déjà débloquée."
     }
   },
@@ -145,7 +144,7 @@
   "constellation4": {
     "name": "Secret du tir multiple",
     "description": {
-      "0": "Après avoir utilisé <strong>Anneau de grenades éclatantes</strong>, le TdR lorsque Chevreuse utilise l'appui long de <strong>Tir de suppression rapide à courte portée</strong> diminue de 100 %. Cet effet est annulé après 6 s ou après avoir utilisé Tir de suppression rapide à courte portée 2 fois avec l'appui long."
+      "0": "Après avoir utilisé <strong>Anneau de grenades éclatantes</strong>, l'appui long de <strong>Tir de suppression rapide à courte portée</strong> ne déclenche pas de TdR. Cet effet est annulé après 6 s ou après avoir utilisé Tir de suppression rapide à courte portée 2 fois avec l'appui long."
     }
   },
   "constellation5": {
@@ -158,7 +157,7 @@
   "constellation6": {
     "name": "Poursuite de l'anéantissement du mal",
     "description": {
-      "0": "Lorsque l'effet de soins de <strong>Tir de suppression rapide à courte portée</strong> a duré 12 s, tous les personnages de l'équipe à proximité récupèrent des PV d'une valeur équivalant à 10 % des PV max de Chevreuse.",
+      "0": "Lorsque l'effet de soins de <strong>Tir de suppression rapide à courte portée</strong> a duré 12 s, tous les personnages de l'équipe à proximité récupèrent une fois des PV d'une valeur équivalant à 10 % des PV max de Chevreuse.",
       "1": "Lorsqu'un personnage de l'équipe a été soigné par Tir de suppression rapide à courte portée, il bénéficie d'un <pyro>bonus de DGT Pyro</pyro> et d'un <electro>bonus de DGT Électro</electro> de 20 % pendant 8 s. Cet effet peut être cumulé 3 fois maximum, la durée de chaque cumul étant calculée indépendamment."
     }
   }

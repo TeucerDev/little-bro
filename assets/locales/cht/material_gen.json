@@ -401,14 +401,14 @@
     "name": "劇戲票券",
     "description": {
       "0": "做工精緻的紀念票券，是在「千靈映影節」期間參與慶典的各項活動所獲得的紀念品。據說這種票券採用了獨特的製作工藝，有著與映影畫片相似的質感，映照燈光時晶瑩剔透，就如寶石的薄片…",
-      "1": "在「銃槍與薔薇」期間，可以解鎖多種獎勵。"
+      "1": "在「薔薇與銃槍」期間，可以解鎖多種獎勵。"
     }
   },
   "FilmForFun": {
     "name": "逸趣映片",
     "description": {
-      "0": "形如映影畫片的紀念幣，是在「千靈映影節」期間積極活躍所贏得的紀念品。雖然無法放入專門的裝置，播放精彩的映影，但獨特的造型讓人一看就能聯想到節日期間的見聞，心情愉悅…",
-      "1": "在「銃槍與薔薇」期間，可以換取珍貴的物資。"
+      "0": "形如映影畫片的紀念幣，是在「千靈映影節」期間積極活躍所贏得的紀念品。雖然無法放入專門的裝置來播放精彩的映影，但獨特的造型讓人一看就能聯想到節日期間的見聞，心情愉悅…",
+      "1": "在「薔薇與銃槍」期間，可以換取珍貴的物資。"
     }
   },
   "Primogem": {
@@ -1040,18 +1040,34 @@
   },
   "Charlotte": {
     "name": "夏洛蒂",
-    "description": {}
+    "description": {
+      "0": "充滿活力的《蒸汽鳥報》記者，時時刻刻都在為「真相」而奔走。"
+    }
   },
   "Furina": {
     "name": "芙寧娜",
-    "description": {}
+    "description": {
+      "0": "審判舞臺上的絕對焦點，直至謝幕的掌聲響起。"
+    }
   },
   "Chevreuse": {
     "name": "夏沃蕾",
-    "description": {}
+    "description": {
+      "0": "時刻恪守著心中「正義」的特巡隊隊長，手中的銃槍只會指向負罪之人。"
+    }
   },
   "Navia": {
     "name": "娜維婭",
+    "description": {
+      "0": "刺玫會現任會長，一位可愛、盡責的好老闆。"
+    }
+  },
+  "Gaming": {
+    "name": "",
+    "description": {}
+  },
+  "Xianyun": {
+    "name": "",
     "description": {}
   },
   "KamisatoAyakasStellaFortuna": {
@@ -1521,6 +1537,14 @@
     "description": {
       "0": "娜維婭的命之座啟用素材"
     }
+  },
+  "GamingsStellaFortuna": {
+    "name": "",
+    "description": {}
+  },
+  "XianyunsStellaFortuna": {
+    "name": "",
+    "description": {}
   },
   "GnosticHymnOldNotes": {
     "name": "珍珠紀行·初稿",
@@ -10248,6 +10272,10 @@
       "1": "大地上矗立著的遠古神龕，隨著那個文明的覆滅，也將自己封鎖了。在幽深的秘境中尋得的密鑰能破除封印，或許只是利用過去的氣息，讓神龕忘記一切盡毀之事吧。"
     }
   },
+  "SpiritKoi": {
+    "name": "",
+    "description": {}
+  },
   "Dish": {
     "name": "料理",
     "description": {
@@ -13804,7 +13832,7 @@
   "SuspiciousCassoulet": {
     "name": "奇怪的卡蘇萊砂鍋",
     "description": {
-      "0": "簡樸的鄉土燉菜。外形看似沒有問題，吃著吃著，聞到了微弱的焦味，這才發現底部的食材已經燒焦黏在砂鍋上了。唔，下次煮的時候要記得翻動…"
+      "0": "簡樸的鄉土燉菜。外形看似沒有問題，吃著吃著，聞到了微弱的焦味，這才發現底部的食材已經燒焦黏在砂鍋上了。唔…下次煮的時候要記得翻動…"
     }
   },
   "Cassoulet": {
@@ -13944,6 +13972,118 @@
     "description": {
       "0": "娜維婭的特色料理。「快來！選{F#妳}{M#你}喜歡的！」隨著熟悉的歡快聲音響起，映入眼簾的是精美考究的雙層豪華甜點架，還有整齊擺放著的馬卡龍，上面畫著的表情各不相同，妙趣橫生…讓人忍不住思考——如果貪心地全都拿走的話，娜維婭會露出什麼表情呢？"
     }
+  },
+  "SuspiciousEightTreasureDuck": {
+    "name": "",
+    "description": {}
+  },
+  "EightTreasureDuck": {
+    "name": "",
+    "description": {}
+  },
+  "DeliciousEightTreasureDuck": {
+    "name": "",
+    "description": {}
+  },
+  "SuspiciousDeepFriedDoublecrisp": {
+    "name": "",
+    "description": {}
+  },
+  "DeepFriedDoublecrisp": {
+    "name": "",
+    "description": {}
+  },
+  "DeliciousDeepFriedDoublecrisp": {
+    "name": "",
+    "description": {}
+  },
+  "SuspiciousBraisedMeatballs": {
+    "name": "",
+    "description": {}
+  },
+  "BraisedMeatballs": {
+    "name": "",
+    "description": {}
+  },
+  "DeliciousBraisedMeatballs": {
+    "name": "",
+    "description": {}
+  },
+  "SuspiciousHoneyCharSiu": {
+    "name": "",
+    "description": {}
+  },
+  "HoneyCharSiu": {
+    "name": "",
+    "description": {}
+  },
+  "DeliciousHoneyCharSiu": {
+    "name": "",
+    "description": {}
+  },
+  "SuspiciousFineTeaFullMoon": {
+    "name": "",
+    "description": {}
+  },
+  "FineTeaFullMoon": {
+    "name": "",
+    "description": {}
+  },
+  "DeliciousFineTeaFullMoon": {
+    "name": "",
+    "description": {}
+  },
+  "SuspiciousJadeveinTeaEggs": {
+    "name": "",
+    "description": {}
+  },
+  "JadeveinTeaEggs": {
+    "name": "",
+    "description": {}
+  },
+  "DeliciousJadeveinTeaEggs": {
+    "name": "",
+    "description": {}
+  },
+  "SuspiciousTeaSmokedSquab": {
+    "name": "",
+    "description": {}
+  },
+  "TeaSmokedSquab": {
+    "name": "",
+    "description": {}
+  },
+  "DeliciousTeaSmokedSquab": {
+    "name": "",
+    "description": {}
+  },
+  "SuspiciousGuhuaFishLambSoup": {
+    "name": "",
+    "description": {}
+  },
+  "GuhuaFishLambSoup": {
+    "name": "",
+    "description": {}
+  },
+  "DeliciousGuhuaFishLambSoup": {
+    "name": "",
+    "description": {}
+  },
+  "SuspiciousChenyuBrew": {
+    "name": "",
+    "description": {}
+  },
+  "ChenyuBrew": {
+    "name": "",
+    "description": {}
+  },
+  "DeliciousChenyuBrew": {
+    "name": "",
+    "description": {}
+  },
+  "EncompassingGladness": {
+    "name": "",
+    "description": {}
   },
   "RecipeItem": {
     "name": "食譜道具",
@@ -15008,6 +15148,42 @@
       "0": "步驟詳實的食譜，記載著「繽紛馬卡龍」的製作方法。"
     }
   },
+  "RecipeEightTreasureDuck": {
+    "name": "",
+    "description": {}
+  },
+  "RecipeDeepFriedDoublecrisp": {
+    "name": "",
+    "description": {}
+  },
+  "RecipeBraisedMeatballs": {
+    "name": "",
+    "description": {}
+  },
+  "RecipeHoneyCharSiu": {
+    "name": "",
+    "description": {}
+  },
+  "RecipeFineTeaFullMoon": {
+    "name": "",
+    "description": {}
+  },
+  "RecipeJadeveinTeaEggs": {
+    "name": "",
+    "description": {}
+  },
+  "RecipeTeaSmokedSquab": {
+    "name": "",
+    "description": {}
+  },
+  "RecipeGuhuaFishLambSoup": {
+    "name": "",
+    "description": {}
+  },
+  "RecipeChenyuBrew": {
+    "name": "",
+    "description": {}
+  },
   "CraftedItems": {
     "name": "合成產物",
     "description": {
@@ -15908,6 +16084,18 @@
       "1": "但即使將之取下，役者仍然有著遠超常人的身體素質，這些都來自漫長歲月的訓練與實戰經驗；而她們往往清楚，自己的過去、現在與未來已經奉獻給了愚人眾的理想國，驅使邪眼的力量所帶來的折損也因此不值一提。"
     }
   },
+  "FeatheryFin": {
+    "name": "",
+    "description": {}
+  },
+  "LunarFin": {
+    "name": "",
+    "description": {}
+  },
+  "ChasmlightFin": {
+    "name": "",
+    "description": {}
+  },
   "HurricaneSeed": {
     "name": "颶風之種",
     "description": {
@@ -16088,11 +16276,11 @@
   "MoltenMoment": {
     "name": "熔毀之刻",
     "description": {
-      "0": "戰勝解放了原本力量的「女士」後，得到的某種蘊含著強大力量的畸形碎片。」",
+      "0": "戰勝解放了原本力量的「女士」後，得到的某種蘊含著強大力量的畸形碎片。",
       "1": "「我做了一個很長的夢。」",
       "2": "「我夢見我與你，在我們締造的純白世界中再會。」",
-      "3": "「但我終於醒來了。我早已經被烈火吞沒。你早已與毒血一同回歸大地。」",
-      "4": "「不過都無所謂了。要不斷往前走，就要燒毀身後的一切，就要相信他所說的永遠純白無瑕的國度，在地平線的盡頭，『陛下』的夢中，在他讓我看見的『妄念』裡。」"
+      "3": "「但我終於醒來了。我早已經被烈火吞沒，你早已與毒血一同回歸大地。」",
+      "4": "「不過都無所謂了。要不斷往前走，就要燒毀身後的一切，就要相信他所說的永遠純白無瑕的國度。在地平線的盡頭，在『陛下』的夢中，在他讓我看見的『妄念』裡。」"
     }
   },
   "HellfireButterfly": {
@@ -16343,6 +16531,10 @@
       "0": "水形幻人崩潰逸散後留下的唯一痕跡。",
       "1": "與原海異種體內取出的晶體有非常相近的性質，但當中蘊含了許多細碎的濁物，就如同凝固在拙劣工匠的玻璃製品中的微小氣泡。"
     }
+  },
+  "CloudseamScale": {
+    "name": "",
+    "description": {}
   },
   "TileOfDecarabiansTower": {
     "name": "高塔孤王的破瓦",
@@ -19238,6 +19430,24 @@
       "0": "？？？"
     }
   },
+  "TimeTrekkerI": {
+    "name": "",
+    "description": {
+      "0": "？？？"
+    }
+  },
+  "TimeTrekkerII": {
+    "name": "",
+    "description": {
+      "0": "？？？"
+    }
+  },
+  "TimeTrekkerIII": {
+    "name": "",
+    "description": {
+      "0": "？？？"
+    }
+  },
   "GiftOfParting": {
     "name": "「離別」的贈禮",
     "description": {
@@ -19786,7 +19996,7 @@
       "1": "說不定只靠這一枚元件，便能為整臺機體提供充足的能源…"
     }
   },
-  "34thIndependentReconnaissanceSquadDeploymentInMontEsusEasternQuadrantDeploymentPlan": {
+  "34thIndependentInvestigativeSquadDeploymentInMontEsusEasternQuadrantDeploymentPlan": {
     "name": "第三十四獨立偵察小隊駐芒索斯山東麓分布規劃",
     "description": {}
   },
@@ -19794,7 +20004,7 @@
     "name": "先遣隊士兵的筆記",
     "description": {}
   },
-  "34thIndependentReconnaissanceSquadDeploymentInMontEsusEasternQuadrantDisciplinaryProcedures": {
+  "34thIndependentInvestigativeSquadDeploymentInMontEsusEasternQuadrantDisciplinaryProcedures": {
     "name": "第三十四獨立偵察小隊駐芒索斯山東麓紀律規定",
     "description": {}
   },
@@ -19851,6 +20061,26 @@
     "description": {
       "0": "記錄著{F#妳}{M#你}們在梅洛彼得堡調查出的諸多線索。"
     }
+  },
+  "PictureLotusPondBeneathTheMoon": {
+    "name": "",
+    "description": {}
+  },
+  "PictureGuestsOfQiaoying": {
+    "name": "",
+    "description": {}
+  },
+  "PictureTranquilJademouth": {
+    "name": "",
+    "description": {}
+  },
+  "PictureMtXuanlian": {
+    "name": "",
+    "description": {}
+  },
+  "ChenyuValeSceneryGuide": {
+    "name": "",
+    "description": {}
   },
   "Notice": {
     "name": "告示",
@@ -20264,7 +20494,7 @@
   "MysteriousXenochromaticCrystal": {
     "name": "神秘的異色結晶石",
     "description": {
-      "0": "擊敗莫爾泰區格外強勁的原海異種後，從其體內取得的大顆結晶。",
+      "0": "擊敗格外強勁的原海異種後，從其體內取得的大顆結晶。",
       "1": "其中蘊含著比普通異色結晶石更神秘的能量。",
       "2": "或許有人願意為它開出適合的價碼。"
     }
@@ -20315,6 +20545,10 @@
     "name": "紀錄",
     "description": {}
   },
+  "OurChenyuValeTrekAlbum": {
+    "name": "",
+    "description": {}
+  },
   "ShootingPracticeOpticalLenses": {
     "name": "「射擊演練光學鏡片」",
     "description": {
@@ -20333,6 +20567,10 @@
     "description": {
       "0": "布萊卡利雜貨店收據"
     }
+  },
+  "AncientStoneTablet": {
+    "name": "",
+    "description": {}
   },
   "PackageForTheLeroyFamily": {
     "name": "勒魯瓦家的包裹",
@@ -21569,57 +21807,39 @@
   },
   "RadiantSpincrystal99": {
     "name": "旋曜玉帛·其九十九",
-    "description": {
-      "0": "蘊含著韻律的奇妙結晶，宛如細膩絲綢編織而成的美玉。零星散布在大陸各地，或是尋覓珍奇的商人手中。透過「塵歌壺」中的「千籟至音·颻揚」或「千籟至音·繆繞」，可以還原記錄在其中的旋律。目前「旋曜玉帛」中蘊含著來自楓丹的神秘旋律。"
-    }
+    "description": {}
   },
   "RadiantSpincrystal100": {
     "name": "旋曜玉帛·其一百",
-    "description": {
-      "0": "蘊含著韻律的奇妙結晶，宛如細膩絲綢編織而成的美玉。零星散布在大陸各地，或是尋覓珍奇的商人手中。透過「塵歌壺」中的「千籟至音·颻揚」或「千籟至音·繆繞」，可以還原記錄在其中的旋律。目前「旋曜玉帛」中蘊含著來自楓丹的神秘旋律。"
-    }
+    "description": {}
   },
   "RadiantSpincrystal101": {
     "name": "旋曜玉帛·其一百零一",
-    "description": {
-      "0": "蘊含著韻律的奇妙結晶，宛如細膩絲綢編織而成的美玉。零星散布在大陸各地，或是尋覓珍奇的商人手中。透過「塵歌壺」中的「千籟至音·颻揚」或「千籟至音·繆繞」，可以還原記錄在其中的旋律。目前「旋曜玉帛」中蘊含著來自楓丹的神秘旋律。"
-    }
+    "description": {}
   },
   "RadiantSpincrystal102": {
     "name": "旋曜玉帛·其一百零二",
-    "description": {
-      "0": "蘊含著韻律的奇妙結晶，宛如細膩絲綢編織而成的美玉。零星散布在大陸各地，或是尋覓珍奇的商人手中。透過「塵歌壺」中的「千籟至音·颻揚」或「千籟至音·繆繞」，可以還原記錄在其中的旋律。目前「旋曜玉帛」中蘊含著來自楓丹的神秘旋律。"
-    }
+    "description": {}
   },
   "RadiantSpincrystal103": {
     "name": "旋曜玉帛·其一百零三",
-    "description": {
-      "0": "蘊含著韻律的奇妙結晶，宛如細膩絲綢編織而成的美玉。零星散布在大陸各地，或是尋覓珍奇的商人手中。透過「塵歌壺」中的「千籟至音·颻揚」或「千籟至音·繆繞」，可以還原記錄在其中的旋律。目前「旋曜玉帛」中蘊含著來自楓丹的神秘旋律。"
-    }
+    "description": {}
   },
   "RadiantSpincrystal104": {
     "name": "旋曜玉帛·其一百零四",
-    "description": {
-      "0": "蘊含著韻律的奇妙結晶，宛如細膩絲綢編織而成的美玉。零星散布在大陸各地，或是尋覓珍奇的商人手中。透過「塵歌壺」中的「千籟至音·颻揚」或「千籟至音·繆繞」，可以還原記錄在其中的旋律。目前「旋曜玉帛」中蘊含著來自楓丹的神秘旋律。"
-    }
+    "description": {}
   },
   "RadiantSpincrystal105": {
     "name": "旋曜玉帛·其一百零五",
-    "description": {
-      "0": "蘊含著韻律的奇妙結晶，宛如細膩絲綢編織而成的美玉。零星散布在大陸各地，或是尋覓珍奇的商人手中。透過「塵歌壺」中的「千籟至音·颻揚」或「千籟至音·繆繞」，可以還原記錄在其中的旋律。目前「旋曜玉帛」中蘊含著來自楓丹的神秘旋律。"
-    }
+    "description": {}
   },
   "RadiantSpincrystal106": {
     "name": "旋曜玉帛·其一百零六",
-    "description": {
-      "0": "蘊含著韻律的奇妙結晶，宛如細膩絲綢編織而成的美玉。零星散布在大陸各地，或是尋覓珍奇的商人手中。透過「塵歌壺」中的「千籟至音·颻揚」或「千籟至音·繆繞」，可以還原記錄在其中的旋律。目前「旋曜玉帛」中蘊含著來自楓丹的神秘旋律。"
-    }
+    "description": {}
   },
   "RadiantSpincrystal107": {
     "name": "旋曜玉帛·其一百零七",
-    "description": {
-      "0": "蘊含著韻律的奇妙結晶，宛如細膩絲綢編織而成的美玉。零星散布在大陸各地，或是尋覓珍奇的商人手中。透過「塵歌壺」中的「千籟至音·颻揚」或「千籟至音·繆繞」，可以還原記錄在其中的旋律。目前「旋曜玉帛」中蘊含著來自楓丹的神秘旋律。"
-    }
+    "description": {}
   },
   "RadiantSpincrystal108": {
     "name": "旋曜玉帛·其一百零八",
@@ -21692,6 +21912,30 @@
     "description": {
       "0": "蘊含著韻律的奇妙結晶，宛如細膩絲綢編織而成的美玉。零星散布在大陸各地或是尋覓珍奇的商人手中，透過「塵歌壺」中的「千籟至音·颻揚」或「千籟至音·繆繞」，可以還原記錄在其中的旋律。目前「旋曜玉帛」中蘊含著來自楓丹的神秘旋律。"
     }
+  },
+  "RadiantSpincrystal120": {
+    "name": "",
+    "description": {}
+  },
+  "RadiantSpincrystal121": {
+    "name": "",
+    "description": {}
+  },
+  "RadiantSpincrystal122": {
+    "name": "",
+    "description": {}
+  },
+  "RadiantSpincrystal123": {
+    "name": "",
+    "description": {}
+  },
+  "RadiantSpincrystal124": {
+    "name": "",
+    "description": {}
+  },
+  "RadiantSpincrystal125": {
+    "name": "",
+    "description": {}
   },
   "LanternFiber": {
     "name": "燈紙纖維",
@@ -21854,7 +22098,7 @@
     "description": {
       "0": "「究極霸王超級魔劍」專用的精煉道具。",
       "1": "能夠將許多心願（以及帥氣的硬紙板）牢牢地拼合在一起，從而誕生出究極無敵的神奇力量。",
-      "2": "雖說造型差不多（或者說完全一樣）的小道具在達莫維百貨也買得到，但兩者之間其實說不定有著本質上的區別，所以千萬不要搞混。"
+      "2": "雖說造型差不多（或者說完全一樣）的小道具在達莫維百貨也買得到，但兩者之間其實說不定有著本質上的不同，所以千萬不要搞混。"
     }
   },
   "FalconsDance": {
@@ -24293,6 +24537,13 @@
       "1": "輕嗅這種果實的香氣，腦海中似乎就有某種意象浮現而出。藉由「外景之能」，方可在壺中洞天構築奇妙的須彌景致…"
     }
   },
+  "SwirlingSceneInABottle": {
+    "name": "「旋流之瓶景」",
+    "description": {
+      "0": "內部景觀優美的生態瓶，是周遊壺靈阿嘟從楓丹帶回的紀念品。",
+      "1": "凝望瓶內的景致，腦海中似乎就有某種意象浮現而出。藉由「外景之能」，方可在壺中洞天構築奇妙的楓丹景致…"
+    }
+  },
   "TheMountainCloudsLetDownGoldenRain": {
     "name": "雲山復沓百雨金",
     "description": {
@@ -24486,6 +24737,14 @@
     "description": {
       "0": "「七聖召喚」桌面遊戲的卡牌，質地堅韌，其上作為牌面的插畫不知道是用什麼特殊的方式印刷，看起來十分精緻。"
     }
+  },
+  "CryoHypostasis": {
+    "name": "",
+    "description": {}
+  },
+  "MillennialPearlSeahorse": {
+    "name": "",
+    "description": {}
   },
   "UndividedHeart": {
     "name": "唯此一心",
@@ -24913,6 +25172,22 @@
       "0": "「七聖召喚」桌面遊戲的卡牌，質地堅韌，其上作為牌面的插畫不知道是用什麼特殊的方式印刷，看起來十分精緻。"
     }
   },
+  "ASubordinatesSkills": {
+    "name": "",
+    "description": {}
+  },
+  "SkivingNewAndImproved": {
+    "name": "",
+    "description": {}
+  },
+  "SternfrostPrism": {
+    "name": "",
+    "description": {}
+  },
+  "PearlSolidification": {
+    "name": "",
+    "description": {}
+  },
   "MagicGuide": {
     "name": "魔導緒論",
     "description": {
@@ -25321,6 +25596,14 @@
       "0": "「七聖召喚」桌面遊戲的卡牌，質地堅韌，其上作為牌面的插畫不知道是用什麼特殊的方式印刷，看起來十分精緻。"
     }
   },
+  "SapwoodBlade": {
+    "name": "",
+    "description": {}
+  },
+  "VeteransVisage": {
+    "name": "",
+    "description": {}
+  },
   "LiyueHarborWharf": {
     "name": "璃月港口",
     "description": {
@@ -25554,6 +25837,14 @@
     "description": {
       "0": "「七聖召喚」桌面遊戲的卡牌，質地堅韌，其上作為牌面的插畫不知道是用什麼特殊的方式印刷，看起來十分精緻。"
     }
+  },
+  "Jeht": {
+    "name": "",
+    "description": {}
+  },
+  "SilverAndMelus": {
+    "name": "",
+    "description": {}
   },
   "ElementalResonanceWovenIce": {
     "name": "元素共鳴：交織之冰",
@@ -25860,6 +26151,14 @@
     "description": {
       "0": "「七聖召喚」桌面遊戲的卡牌，質地堅韌，其上作為牌面的插畫不知道是用什麼特殊的方式印刷，看起來十分精緻。"
     }
+  },
+  "MachineAssemblyLine": {
+    "name": "",
+    "description": {}
+  },
+  "SunyataFlower": {
+    "name": "",
+    "description": {}
   },
   "Origin": {
     "name": "原初",
@@ -26350,14 +26649,7 @@
   },
   "CloudyHazeDreamCourt": {
     "name": "煙霞入夢閣",
-    "description": {
-      "0": "步驟詳實的圖紙，記載著「煙霞入夢閣」的放置方法。",
-      "1": "「昨日煙霞，藹然入夢」",
-      "2": "質樸無華的睡房，各式陳設的風格與望舒客棧相仿。這間睡房的玄奇之處難以言喻，如有時光的雲霧繚繞，勾起遊人的追思，卻將其中的哀戚卸下，獨留往事的刻痕。",
-      "3": "塵世的生活正如一場漂泊，牢記「本我」才能穩住身形，行槳前溯。半夢半醒之時的思緒，往往極為深切。難怪不少旅人在望舒客棧留宿一夜後，都能找到百倍的幹勁，容光煥發地啟程。",
-      "4": "使用後可進入放置介面查看。",
-      "5": "偏好這套擺設的同伴：胡桃、煙緋、甘雨、刻晴、重雲"
-    }
+    "description": {}
   },
   "SecretResearchLab": {
     "name": "秘術研究所",
@@ -26412,13 +26704,7 @@
   },
   "GatheringOfGourmets": {
     "name": "千家饔飧坊",
-    "description": {
-      "0": "步驟詳實的圖紙，記載著「千家饔飧坊」的放置方法。",
-      "1": "露天佈設的食坊，擺放著多種小吃攤位，重現了吃虎岩的盛景。",
-      "2": "「千家」實為謙遜之詞，這座露天食坊看似沒有太多廚具，卻幾乎包羅著璃月全境的知名美食——熟練的廚師能用最為簡單的廚具烹飪出可口的菜餚，而對廚具要求並不苛刻的料理，也易於流傳為家喻戶曉的名菜。",
-      "3": "使用後可進入放置介面查看。",
-      "4": "偏好這套擺設的同伴：北斗、香菱、甘雨、辛焱、達達利亞、夜蘭"
-    }
+    "description": {}
   },
   "GlitteringStreet": {
     "name": "百里琳瑯街",
@@ -26432,13 +26718,7 @@
   },
   "QingceCloudResidence": {
     "name": "輕策閒雲居",
-    "description": {
-      "0": "步驟詳實的圖紙，記載著「輕策閒雲居」的放置方法。",
-      "1": "以輕策莊為摹版佈置的山間村莊。據說踏入此地後，遊人便會被親切的氛圍感染，心境歸於平和，發現以往疏忽的質樸之美。",
-      "2": "年少之時追求理想，為了事業闖蕩，經歷一段波瀾壯闊的歲月，固然值得肯定。不過常年在外闖蕩，可能也會有疲憊的一天。彼時，和睦的鄰里與平靜的鄉間生活，也不失為一種選擇。對於出門遠遊的年輕人，輕策莊始終持以長輩般的包容，隨時歡迎他們歸鄉發展。",
-      "3": "使用後可進入放置介面查看。",
-      "4": "偏好這套擺設的同伴：辛焱、魈、胡桃、七七、申鶴、夜蘭、瑤瑤"
-    }
+    "description": {}
   },
   "OfHuntingAndDancing": {
     "name": "狩獵與歌舞之營",
@@ -26697,6 +26977,107 @@
       "2": "偏好這套擺設的同伴：提納里、{REALNAME[ID(1)|HOSTONLY(true)]}"
     }
   },
+  "KeyToAStableWorkRestCycle": {
+    "name": "穩定作息的重要因素",
+    "description": {
+      "0": "設計簡單大方的臥室，平衡了溫馨與幹練的觀感。對於疲憊之人而言，躺在這個房間的床上即可迅速入睡，而早上醒來之人則能迅速清醒，早早進入工作狀態。",
+      "1": "許多楓丹人將房間的設計視為影響睡眠的重要因素，而穩定的睡眠正是一個人能夠作息規律的關鍵。這樣看來，臥室的陳設的確相當重要。",
+      "2": "偏好這套擺設的同伴：夏洛蒂、夏沃蕾"
+    }
+  },
+  "StrictAdherenceToOfficeCodes": {
+    "name": "嚴守流程的辦公準則",
+    "description": {
+      "0": "極為經典的書房設計，參考了沫芒宮內的擺飾，最大限度地還原了那一處總是異常繁忙的辦公室。一切都合乎規章制度。",
+      "1": "楓丹科學院的某位學者曾聲稱：「一個人所處的環境會對他的工作狀態產生極大的影響。」——按照這個理論，身處與沫芒宮內部設計相似的書房時，工作者應該會下意識地遵循流程，穩重行事…",
+      "2": "偏好這套擺設的同伴：那維萊特"
+    }
+  },
+  "GarbForGloriousGourmet": {
+    "name": "美食美酒的華麗外衣",
+    "description": {
+      "0": "各式陳設與器具完備的餐廳，在許多方面都參照了德波大飯店一樓的設計，適合舉辦熱熱鬧鬧的家庭宴會或招待大量親朋好友。",
+      "1": "即便是資歷無可挑剔的大廚，也不可否認就餐的環境決定了客人用餐前的心情、影響著客人對菜餚的綜合評價。因此，漂亮的餐廳設計本身也算得上是「美食與美酒的外衣」。",
+      "2": "偏好這套擺設的同伴：芙寧娜、娜維婭"
+    }
+  },
+  "PerfectlyDrawnFocus": {
+    "name": "恰到好處的視線聚焦",
+    "description": {
+      "0": "以大小適中的舞臺為中心的室內陳設，足以支撐一場小型演出。",
+      "1": "對於登臺的新人而言，臺下的觀眾太多容易讓他們過於緊張，以致發揮失常，而在無需強調觀眾數量的大師看來，偶爾為最為重要的朋友們獻上一場表演，是比賺足票錢更快樂的事。因此，這種規模並不誇張的舞臺，大多數的表演者都會喜歡。",
+      "2": "偏好這套擺設的同伴：琳妮特、林尼"
+    }
+  },
+  "ContinuousClockworkInspiration": {
+    "name": "持續旋轉的靈感發條",
+    "description": {
+      "0": "以各式發條工坊為參考對象所佈置的房間，有著多種加工設備，足以應對普通工匠的需求。",
+      "1": "在一些楓丹詩人的觀念中，發條機關是相當值得尊重的造物，這份尊重也應當延伸至工匠們的設備上——「靈感提著這些零件們的耳朵，教它們彼此耦合旋轉、讓道路奔騰不息，這是它們的使命和事業。」",
+      "2": "偏好這套擺設的同伴：菲米尼"
+    }
+  },
+  "WellspringOfRuleViolationPrevention": {
+    "name": "禁止觸犯的規則之源",
+    "description": {
+      "0": "裝潢氣氛肅穆的辦公場所，相當準確地還原了梅洛彼得堡內「公爵」辦公室的陳設。",
+      "1": "傳說「公爵」接管梅洛彼得堡後，只更換了辦公室內的少量家具，並沒有對房間的格局進行太大的調整。因此，許多犯人必須嚴格遵守的規則，正是在這樣的房間中成文定型的。",
+      "2": "偏好這套擺設的同伴：萊歐斯利"
+    }
+  },
+  "CourtOfJusticesPlacidDays": {
+    "name": "正義之廷的平淡日常",
+    "description": {
+      "0": "以楓丹居民區的普通街道為藍本所佈置的街區，林立的民居還原了楓丹廷最為平凡的景觀，也反映著城市最為真實的面貌。",
+      "1": "對於大多楓丹居民而言，規律地生活、準時上下班、休息時與朋友聚餐或購物，以及偶爾前往歐庇克萊歌劇院觀看盛大的演出，便是大部分的生活了。有些見識過大風大浪的冒險家偶爾也會覺得，這樣平淡的生活也很不錯…",
+      "2": "偏好這套擺設的同伴：夏洛蒂"
+    }
+  },
+  "CourtOfJusticesBoomingCommerce": {
+    "name": "正義之廷的繁榮商貿",
+    "description": {
+      "0": "參照楓丹廷利奧奈區所佈置的街道，有著多種楓丹的特色商店，以及購物之餘休息品茶的桌位。",
+      "1": "據一些遊覽經驗豐富的遊客所說，若是來到楓丹後不太熟悉各種門店和所售商品的特點，可以放心請教附近的市民。由於大部分商店都嚴格遵循沫芒宮訂製的商品價格管控原則，很少有人買到不符價格的商品。",
+      "2": "偏好這套擺設的同伴：琳妮特、林尼"
+    }
+  },
+  "CourtOfJusticesFreshMist": {
+    "name": "正義之廷的清新水霧",
+    "description": {
+      "0": "蔥郁的灌木、繽紛的花卉與華麗的噴泉兼備的廣場，設計理念參考了伊黎耶島的露景泉區域。",
+      "1": "天氣晴朗時，伊黎耶島的花香與清新水霧交織，常使來到此地的外國遊客與本國居民心情明快。即便不巧在來訪時遭遇傾盆大雨，圍繞著露景泉的傳說也會為人們捎來美好的期盼。",
+      "2": "偏好這套擺設的同伴：那維萊特、芙寧娜"
+    }
+  },
+  "PoissonTheUnassuming": {
+    "name": "樸實無華的白淞街鎮",
+    "description": {
+      "0": "以多種特色建築為核心的區域景觀，還原了白淞鎮一角的風貌。強調實用功能的房屋和陳設能將鎮內居民工作時的效率最大化，但這並不意味著忙碌與勞累，而是悠閒度日的保障——「盡快忙完每天的工作，就能盡情享受休息的時間」。部分白淞鎮的居民正以這樣的原則行事，充實而淳樸地生活。",
+      "1": "偏好這套擺設的同伴：娜維婭"
+    }
+  },
+  "UnderseaMeruseasLustre": {
+    "name": "靜隱水下的海沫浮光",
+    "description": {
+      "0": "力求還原海沫村景觀的聚落，頗具特色的建築令人眼前一亮。",
+      "1": "美露莘們生活的村子位於厄里那斯一帶的水下，鮮有普通人造訪該地，少數造訪者歸來後，大多對海沫村獨特的色彩讚不絕口。曾有幾位畫家根據他們的描述，並結合採訪楓丹廷內的美露莘獲得的情報，來試圖畫出海沫村的景觀。可惜他們的作品與海沫村的實際色彩之間總有著難以忽視的「色差」，這一問題困擾畫家們許久，直到相對客觀的留影機畫片大量普及開來，才基本上得以解決…",
+      "2": "偏好這套擺設的同伴：菲米尼"
+    }
+  },
+  "FullForceForwardInTheForbiddenFortress": {
+    "name": "禁限之堡的「拳力以赴」",
+    "description": {
+      "0": "以拳擊擂臺為中心佈置的競技場，置身其中時，耳邊似乎響起了觀眾們的歡呼與掌聲、主持人激昂的解說，還有雙方選手全力角逐時拳拳到肉的低鳴。這一場地的原型——梅洛彼得堡的「拳力鬥技場」——正是這樣一個令人印象深刻的地方。",
+      "1": "「在拳力決定一切的賽場上，唯有全力以赴，才能奪得屬於自己的榮譽和特許券」…不少參與過「拳力鬥技」的選手在離開梅洛彼得堡後，也將這句話當成自己的信條…",
+      "2": "偏好這套擺設的同伴：萊歐斯利、夏沃蕾"
+    }
+  },
+  "TheNationOfHydrosMottledColors": {
+    "name": "水之國度的斑駁色彩",
+    "description": {
+      "0": "遍布繁茂植被的郊野景致，薈萃了楓丹尋常可見的多種花卉與灌木。花與草木是繪畫中尋常可見的主題，以及探索「色彩」的起點之一。楓丹的部分畫家認為，世界的調色盤以眾多植株向他們示範了「完美搭配」的典例，因此若是一幅畫中的所有色彩都能在植物身上找到原型，那這幅畫必然有著自然風光般的和諧美感。當然，前提是千萬別將多種植物的色彩混為一談…"
+    }
+  },
   "TimberWallWithJadeEaves": {
     "name": "玉面簷枋牆",
     "description": {
@@ -26722,6 +27103,13 @@
     "name": "輝木樸質雕櫳牆",
     "description": {
       "0": "步驟詳實的圖紙，記載著「輝木樸質雕櫳牆」的製作方法。",
+      "1": "使用後可進入製作介面查看。"
+    }
+  },
+  "AnnexsGoldenMosaic": {
+    "name": "「別宮的金紋嵌畫」",
+    "description": {
+      "0": "步驟詳實的圖紙，記載著「『別宮的金紋嵌畫』」的製作方法。",
       "1": "使用後可進入製作介面查看。"
     }
   },
@@ -26753,6 +27141,13 @@
       "1": "使用後可進入製作介面查看。"
     }
   },
+  "AnnexsMirrorSheenFloorTiles": {
+    "name": "「別宮的如鏡地磚」",
+    "description": {
+      "0": "步驟詳實的圖紙，記載著「『別宮的如鏡地磚』」的製作方法。",
+      "1": "使用後可進入製作介面查看。"
+    }
+  },
   "CheckeredCedarCeiling": {
     "name": "垂香木方格天花板",
     "description": {
@@ -26778,6 +27173,13 @@
     "name": "輝木刻斲天花板",
     "description": {
       "0": "步驟詳實的圖紙，記載著「輝木刻斲天花板」的製作方法。",
+      "1": "使用後可進入製作介面查看。"
+    }
+  },
+  "AnnexsSpotlessDome": {
+    "name": "「別宮的無垢穹頂」",
+    "description": {
+      "0": "步驟詳實的圖紙，記載著「『別宮的無垢穹頂』」的製作方法。",
       "1": "使用後可進入製作介面查看。"
     }
   },
@@ -27047,10 +27449,31 @@
       "1": "使用後可進入製作介面查看。"
     }
   },
+  "ForbiddenZoneFloorLampIronhammer": {
+    "name": "禁限地燈—「鐵鎚」",
+    "description": {
+      "0": "步驟詳實的圖紙，記載著「禁限地燈—『鐵鎚』」的製作方法。",
+      "1": "使用後可進入製作介面查看。"
+    }
+  },
+  "ForbiddenZoneFloorLampNightlight": {
+    "name": "禁限地燈—「暗光」",
+    "description": {
+      "0": "步驟詳實的圖紙，記載著「禁限地燈—『暗光』」的製作方法。",
+      "1": "使用後可進入製作介面查看。"
+    }
+  },
   "EfflorescentIllumination": {
     "name": "「花葉百相之光」",
     "description": {
       "0": "步驟詳實的圖紙，記載著「『花葉百相之光』」的製作方法。",
+      "1": "使用後可進入製作介面查看。"
+    }
+  },
+  "AnnexsSwirlingLight": {
+    "name": "「別宮的旋流垂光」",
+    "description": {
+      "0": "步驟詳實的圖紙，記載著「『別宮的旋流垂光』」的製作方法。",
       "1": "使用後可進入製作介面查看。"
     }
   },
@@ -27135,6 +27558,13 @@
     "name": "檉木陶器置物櫃",
     "description": {
       "0": "步驟詳實的圖紙，記載著「檉木陶器置物櫃」的製作方法。",
+      "1": "使用後可進入製作介面查看。"
+    }
+  },
+  "MallowWoodMultiModelWardrobe": {
+    "name": "懸鈴木「多重版型」衣櫃",
+    "description": {
+      "0": "步驟詳實的圖紙，記載著「懸鈴木『多重版型』衣櫃」的製作方法。",
       "1": "使用後可進入製作介面查看。"
     }
   },
@@ -27261,6 +27691,13 @@
     "name": "「樞律之宮的幫箱」",
     "description": {
       "0": "步驟詳實的圖紙，記載著「『樞律之宮的幫箱』」的製作方法。",
+      "1": "使用後可進入製作介面查看。"
+    }
+  },
+  "AThousandTextsInTheCentralHub": {
+    "name": "「中樞的浩繁卷宗」",
+    "description": {
+      "0": "步驟詳實的圖紙，記載著「『中樞的浩繁卷宗』」的製作方法。",
       "1": "使用後可進入製作介面查看。"
     }
   },
@@ -27460,6 +27897,27 @@
       "1": "使用後可進入製作介面查看。"
     }
   },
+  "StableWorkStationInTheCentralHub": {
+    "name": "「中樞的安穩辦公桌」",
+    "description": {
+      "0": "步驟詳實的圖紙，記載著「『中樞的安穩辦公桌』」的製作方法。",
+      "1": "使用後可進入製作介面查看。"
+    }
+  },
+  "RestTimeInTheCentralHub": {
+    "name": "「中樞的小憩時光」",
+    "description": {
+      "0": "步驟詳實的圖紙，記載著「『中樞的小憩時光』」的製作方法。",
+      "1": "使用後可進入製作介面查看。"
+    }
+  },
+  "TheLeisureOfDailyMeetings": {
+    "name": "「日常聚會的閒適」",
+    "description": {
+      "0": "步驟詳實的圖紙，記載著「『日常聚會的閒適』」的製作方法。",
+      "1": "使用後可進入製作介面查看。"
+    }
+  },
   "BreezeBlessedBed": {
     "name": "柔風加護的床榻",
     "description": {
@@ -27555,6 +28013,13 @@
     "name": "「酒館諸事的證人」",
     "description": {
       "0": "步驟詳實的圖紙，記載著「『酒館諸事的證人』」的製作方法。",
+      "1": "使用後可進入製作介面查看。"
+    }
+  },
+  "CelebrationOfAnAdHocPerformance": {
+    "name": "「即興表演的歡慶時光」",
+    "description": {
+      "0": "步驟詳實的圖紙，記載著「『即興表演的歡慶時光』」的製作方法。",
       "1": "使用後可進入製作介面查看。"
     }
   },
@@ -27688,6 +28153,27 @@
     "name": "「歡聚暢飲的快意」",
     "description": {
       "0": "步驟詳實的圖紙，記載著「『歡聚暢飲的快意』」的製作方法。",
+      "1": "使用後可進入製作介面查看。"
+    }
+  },
+  "MallowWoodViewingRitesChair": {
+    "name": "懸鈴木「觀賞禮儀」座椅",
+    "description": {
+      "0": "步驟詳實的圖紙，記載著「懸鈴木『觀賞禮儀』座椅」的製作方法。",
+      "1": "使用後可進入製作介面查看。"
+    }
+  },
+  "LindenWoodSubduingSeatBackedChair": {
+    "name": "椴木「危坐」靠背椅",
+    "description": {
+      "0": "步驟詳實的圖紙，記載著「椴木『危坐』靠背椅」的製作方法。",
+      "1": "使用後可進入製作介面查看。"
+    }
+  },
+  "MomentaryRestInTheCentralHub": {
+    "name": "「中樞的片刻安閒」",
+    "description": {
+      "0": "步驟詳實的圖紙，記載著「『中樞的片刻安閒』」的製作方法。",
       "1": "使用後可進入製作介面查看。"
     }
   },
@@ -28052,6 +28538,13 @@
     "name": "「禁限之堡的負載」",
     "description": {
       "0": "步驟詳實的圖紙，記載著「『禁限之堡的負載』」的製作方法。",
+      "1": "使用後可進入製作介面查看。"
+    }
+  },
+  "StandardMusicStandAccurateTuning": {
+    "name": "標準譜架-「準確調律」",
+    "description": {
+      "0": "步驟詳實的圖紙，記載著「標準譜架-『準確調律』」的製作方法。",
       "1": "使用後可進入製作介面查看。"
     }
   },
@@ -28594,6 +29087,13 @@
       "1": "使用後可進入製作介面查看。"
     }
   },
+  "CommonUseNoteHolder": {
+    "name": "通用型便條架",
+    "description": {
+      "0": "步驟詳實的圖紙，記載著「通用型便條架」的製作方法。",
+      "1": "使用後可進入製作介面查看。"
+    }
+  },
   "RealizationsFromTheLandOfWisdom": {
     "name": "「卓識之地的餘醒」",
     "description": {
@@ -28815,6 +29315,13 @@
     "name": "檉木堅鐵攻盾",
     "description": {
       "0": "步驟詳實的圖紙，記載著「檉木堅鐵攻盾」的製作方法。",
+      "1": "使用後可進入製作介面查看。"
+    }
+  },
+  "IndoorLampTheTwilightSea": {
+    "name": "室內掛燈-「昏黃海景」",
+    "description": {
+      "0": "步驟詳實的圖紙，記載著「室內掛燈-『昏黃海景』」的製作方法。",
       "1": "使用後可進入製作介面查看。"
     }
   },
@@ -29200,6 +29707,20 @@
     "name": "「迴廊的守時準則」",
     "description": {
       "0": "步驟詳實的圖紙，記載著「『迴廊的守時準則』」的製作方法。",
+      "1": "使用後可進入製作介面查看。"
+    }
+  },
+  "QuickTemporaryWorkshed": {
+    "name": "「快速臨時工棚」",
+    "description": {
+      "0": "步驟詳實的圖紙，記載著「『快速臨時工棚』」的製作方法。",
+      "1": "使用後可進入製作介面查看。"
+    }
+  },
+  "PoissonsSeasonalProduce": {
+    "name": "「白淞街鎮的時鮮」",
+    "description": {
+      "0": "步驟詳實的圖紙，記載著「『白淞街鎮的時鮮』」的製作方法。",
       "1": "使用後可進入製作介面查看。"
     }
   },
@@ -29931,6 +30452,13 @@
       "1": "使用後可進入製作介面查看。"
     }
   },
+  "CourtyardPavilionAmidstTheRivers": {
+    "name": "院墅涼亭-「萬水叢中」",
+    "description": {
+      "0": "步驟詳實的圖紙，記載著「院墅涼亭-『萬水叢中』」的製作方法。",
+      "1": "使用後可進入製作介面查看。"
+    }
+  },
   "CourtOfJusticesAuthenticity": {
     "name": "「正義之廷的本真」",
     "description": {
@@ -29963,6 +30491,27 @@
     "name": "「小小石蟹」",
     "description": {
       "0": "步驟詳實的圖紙，記載著「『小小石蟹』」的製作方法。",
+      "1": "使用後可進入製作介面查看。"
+    }
+  },
+  "TheArenaWhereFistsReemerge": {
+    "name": "「擂臺拳力再現之地」",
+    "description": {
+      "0": "步驟詳實的圖紙，記載著「『擂臺拳力再現之地』」的製作方法。",
+      "1": "使用後可進入製作介面查看。"
+    }
+  },
+  "TheWisdomOfPoisson": {
+    "name": "「白淞街鎮的智慧」",
+    "description": {
+      "0": "步驟詳實的圖紙，記載著「『白淞街鎮的智慧』」的製作方法。",
+      "1": "使用後可進入製作介面查看。"
+    }
+  },
+  "ASimpleResidenceInPoisson": {
+    "name": "「白淞街鎮的簡居」",
+    "description": {
+      "0": "步驟詳實的圖紙，記載著「『白淞街鎮的簡居』」的製作方法。",
       "1": "使用後可進入製作介面查看。"
     }
   },
@@ -30512,6 +31061,34 @@
       "1": "使用後可進入製作介面查看。"
     }
   },
+  "CourtyardCorridorTheMoraDividend": {
+    "name": "院墅廊道-「摩拉分割」",
+    "description": {
+      "0": "步驟詳實的圖紙，記載著「院墅廊道-『摩拉分割』」的製作方法。",
+      "1": "使用後可進入製作介面查看。"
+    }
+  },
+  "CourtyardCorridorManifoldCorners": {
+    "name": "院墅廊道-「流形轉角」",
+    "description": {
+      "0": "步驟詳實的圖紙，記載著「院墅廊道-『流形轉角』」的製作方法。",
+      "1": "使用後可進入製作介面查看。"
+    }
+  },
+  "CourtyardArchwayMomentOfGlory": {
+    "name": "院墅拱門-「榮光時刻」",
+    "description": {
+      "0": "步驟詳實的圖紙，記載著「院墅拱門-『榮光時刻』」的製作方法。",
+      "1": "使用後可進入製作介面查看。"
+    }
+  },
+  "CourtyardWallABitOfScenery": {
+    "name": "院墅圍牆-「一角風光」",
+    "description": {
+      "0": "步驟詳實的圖紙，記載著「院墅圍牆-『一角風光』」的製作方法。",
+      "1": "使用後可進入製作介面查看。"
+    }
+  },
   "FoundationsOfStoneFortunateTimes": {
     "name": "鑄石地基-「運開時泰」",
     "description": {
@@ -31006,6 +31583,13 @@
     "name": "機關模型-「裂岩固錨」",
     "description": {
       "0": "步驟詳實的圖紙，記載著「機關模型-『裂岩固錨』」的製作方法。",
+      "1": "使用後可進入製作介面查看。"
+    }
+  },
+  "BoxingTargetOfTheForbiddenFortress": {
+    "name": "「禁限之堡的拳靶」",
+    "description": {
+      "0": "步驟詳實的圖紙，記載著「『禁限之堡的拳靶』」的製作方法。",
       "1": "使用後可進入製作介面查看。"
     }
   },
@@ -31772,6 +32356,55 @@
       "1": "使用後可進入製作介面查看。"
     }
   },
+  "OverburdeningOfTheForbiddenFortress": {
+    "name": "「禁限之堡的重載」",
+    "description": {
+      "0": "步驟詳實的圖紙，記載著「『禁限之堡的重載』」的製作方法。",
+      "1": "使用後可進入製作介面查看。"
+    }
+  },
+  "AreaMarkerUpward": {
+    "name": "區域標示—「上行」",
+    "description": {
+      "0": "步驟詳實的圖紙，記載著「區域標示—『上行』」的製作方法。",
+      "1": "使用後可進入製作介面查看。"
+    }
+  },
+  "AreaMarkerDownward": {
+    "name": "區域標示—「下行」",
+    "description": {
+      "0": "步驟詳實的圖紙，記載著「區域標示—『下行』」的製作方法。",
+      "1": "使用後可進入製作介面查看。"
+    }
+  },
+  "PoissonDoorFrame": {
+    "name": "「白淞街鎮的門架」",
+    "description": {
+      "0": "步驟詳實的圖紙，記載著「『白淞街鎮的門架』」的製作方法。",
+      "1": "使用後可進入製作介面查看。"
+    }
+  },
+  "BookshelfFreeReading": {
+    "name": "書報架-「自由取閱」",
+    "description": {
+      "0": "步驟詳實的圖紙，記載著「書報架-『自由取閱』」的製作方法。",
+      "1": "使用後可進入製作介面查看。"
+    }
+  },
+  "BookshelfSpeedyBrowsing": {
+    "name": "書報架-「快速瀏覽」",
+    "description": {
+      "0": "步驟詳實的圖紙，記載著「書報架-『快速瀏覽』」的製作方法。",
+      "1": "使用後可進入製作介面查看。"
+    }
+  },
+  "BookshelfFocusedEffect": {
+    "name": "書報架-「聚焦效應」",
+    "description": {
+      "0": "步驟詳實的圖紙，記載著「書報架-『聚焦效應』」的製作方法。",
+      "1": "使用後可進入製作介面查看。"
+    }
+  },
   "PoolOfSapphireGrace": {
     "name": "「靈沼雲池」",
     "description": {
@@ -32063,6 +32696,20 @@
     "name": "「迴廊的無垢圓桌」",
     "description": {
       "0": "步驟詳實的圖紙，記載著「『迴廊的無垢圓桌』」的製作方法。",
+      "1": "使用後可進入製作介面查看。"
+    }
+  },
+  "ProductionRackTheBasics": {
+    "name": "生產用貨架-「基礎型」",
+    "description": {
+      "0": "步驟詳實的圖紙，記載著「生產用貨架-『基礎型』」的製作方法。",
+      "1": "使用後可進入製作介面查看。"
+    }
+  },
+  "ProductionRackCustomBuild": {
+    "name": "生產用貨架-「改造型」",
+    "description": {
+      "0": "步驟詳實的圖紙，記載著「生產用貨架-『改造型』」的製作方法。",
       "1": "使用後可進入製作介面查看。"
     }
   },

@@ -399,14 +399,14 @@
   "TheaterTickets": {
     "name": "Biglietti per il teatro",
     "description": {
-      "0": "Biglietti commemorativi di fattura squisita per celebrare la partecipazione ai vari eventi del Cinefestival di Fontinalia. Si dice che la loro consistenza ricordi le pellicole cinematografiche. Cristallini quando riflettono la luce, somigliano a sottili frammenti di gemme...",
+      "0": "Biglietti commemorativi di squisita fattura per celebrare la partecipazione ai vari eventi del Cinefestival di Fontinalia. Si dice che la loro consistenza ricordi le pellicole cinematografiche. Cristallini quando riflettono la luce, somigliano a sottili frammenti di gemme...",
       "1": "Usali per sbloccare varie ricompense durante l'evento Rose e moschetti."
     }
   },
   "FilmForFun": {
     "name": "Cinemonete",
     "description": {
-      "0": "Monete commemorative a forma di bobine cinematografiche. Questi cimeli si possono vincere e accumulate partecipando al Cinefestival di Fontinalia. Sebbene non esista alcun dispositivo speciale dove inserirle per visionare dei film appassionanti, il design unico di queste monete rallegra lo spirito di chi ha partecipato al festival, evocandone i momenti più lieti...",
+      "0": "Monete commemorative a forma di bobine cinematografiche. Questi cimeli si possono vincere e accumulare partecipando al Cinefestival di Fontinalia. Sebbene non sia possibile inserirle all'interno di alcun dispositivo speciale per visionare dei film appassionanti, il design unico di queste monete rallegra lo spirito di chi ha partecipato al festival, evocandone i momenti più lieti...",
       "1": "Puoi usarle per ottenere preziose ricompense durante l'evento Rose e moschetti."
     }
   },
@@ -1039,18 +1039,34 @@
   },
   "Charlotte": {
     "name": "Charlotte",
-    "description": {}
+    "description": {
+      "0": "Instancabile giornalista dell'Uccello a vapore, sempre a caccia della \"verità\"."
+    }
   },
   "Furina": {
     "name": "Furina",
-    "description": {}
+    "description": {
+      "0": "La protagonista assoluta della scena del giudizio, fino all'applauso finale."
+    }
   },
   "Chevreuse": {
     "name": "Chevreuse",
-    "description": {}
+    "description": {
+      "0": "La capitana della Pattuglia speciale di sicurezza e sorveglianza, che porta il sigillo della giustizia perennemente apposto sul cuore. Il suo moschetto non mirerà mai a nessuno se non a rei e malfattori."
+    }
   },
   "Navia": {
     "name": "Navia",
+    "description": {
+      "0": "L'attuale Presidentessa della Spina di Rosula: amabile, diligente e una leader eccezionale."
+    }
+  },
+  "Gaming": {
+    "name": "Gaming",
+    "description": {}
+  },
+  "Xianyun": {
+    "name": "",
     "description": {}
   },
   "KamisatoAyakasStellaFortuna": {
@@ -1520,6 +1536,16 @@
     "description": {
       "0": "Materiale per l'attivazione della costellazione di Navia"
     }
+  },
+  "GamingsStellaFortuna": {
+    "name": "Stella Fortuna di Gaming",
+    "description": {
+      "0": "Materiale per l'attivazione della costellazione di Gaming"
+    }
+  },
+  "XianyunsStellaFortuna": {
+    "name": "",
+    "description": {}
   },
   "GnosticHymnOldNotes": {
     "name": "Inno gnostico - Vecchi appunti",
@@ -10154,6 +10180,10 @@
       "1": "Questi Santuari delle Profondità si sigillarono quando la civiltà che li aveva realizzati scomparve. Le chiavi che si trovano nei luoghi più disparati del regno sono in grado di aprire i sigilli. O forse, solo per un momento, queste chiavi aiutano a far dimenticare ai sigilli tutto ciò che hanno perso."
     }
   },
+  "SpiritKoi": {
+    "name": "",
+    "description": {}
+  },
   "Dish": {
     "name": "Piatto",
     "description": {
@@ -13710,7 +13740,7 @@
   "SuspiciousCassoulet": {
     "name": "Cassoulet sospetto",
     "description": {
-      "0": "Un semplice stufato contadino. Anche se l'aspetto non desta sospetti, mangiandolo noti un leggero sapore di bruciato, per poi renderti conto che lo strato inferiore è stato talmente bruciato che si è fuso con la pentola. Ugh... La prossima volta è meglio mescolare gli ingredienti ogni tanto durante la cottura..."
+      "0": "Un semplice stufato contadino. Anche se l'apparenza non desta sospetti, mangiandolo noti un leggero sapore di bruciato, per poi renderti conto che lo strato inferiore è stato talmente cotto che si è fuso con la pentola. Ugh... La prossima volta è meglio mescolare gli ingredienti ogni tanto durante la cottura..."
     }
   },
   "Cassoulet": {
@@ -13812,7 +13842,7 @@
   "FeastOs": {
     "name": "Frittondini",
     "description": {
-      "0": "Degli stuzzichini fritti e dorati. La polpa di pollo viene lavorata fino ad assumere una forma circolare, per poi essere combinata con gli anelli di cipolla. Analogamente, anche un composto di pesce e patate viene pressato in una forma tonda, creando una composizione gastronomica degna di un banchetto. Basta immergere tutto nell'olio e, in men che non si dica, i tuoi Frittondini saranno pronti da gustare."
+      "0": "Degli stuzzichini fritti e dorati. La polpa di pollo viene lavorata fino ad assumere una forma circolare, per poi essere combinata con gli anelli di cipolla. Analogamente, viene pressato anche un composto di pesce e patate in una forma tonda, creando una composizione gastronomica degna di un banchetto. Basta immergere tutto nell'olio e, in men che non si dica, i tuoi Frittondini saranno pronti da gustare."
     }
   },
   "DeliciousFeastOs": {
@@ -13824,7 +13854,7 @@
   "SuspiciousRainbowMacarons": {
     "name": "Macaron arcobaleno sospetti",
     "description": {
-      "0": "Dei dolcetti rotondi multicolore. Il primo che assaggi sembra vuoto, il secondo è sbilenco, il terzo non è omogeneo e il quarto è uno strano miscuglio dei primi tre... Come ci si aspetterebbe da un dolce di Fontaine ricco di dettagli, lil metodo di preparazione dovrà essere decisamente migliorato."
+      "0": "Dei dolcetti rotondi multicolore. Il primo che assaggi sembra vuoto, il secondo è sbilenco, il terzo non è omogeneo e il quarto è uno strano miscuglio dei primi tre... Come ci si aspetterebbe da un dolce di Fontaine ricco di dettagli, servirà più tempo per padroneggiare questo metodo di preparazione."
     }
   },
   "RainbowMacarons": {
@@ -13848,8 +13878,120 @@
   "PickWhatYouLike": {
     "name": "\"Scegli quello che preferisci!\"",
     "description": {
-      "0": "La specialità di Navia. \"Scegli quello che preferisci!\" Al suono di familiari grida di gioia, ecco che davanti ai tuoi occhi appare un dolce a doppio strato esteticamente gradevole, con file di macaron con varie espressioni disegnate sopra. Un pensiero ti passa improvvisamente per la testa... Che espressione farebbe Navia se cedessi all'ingordigia e te li pappassi tutti tu?"
+      "0": "La specialità di Navia. \"Scegli quello che preferisci!\" Al suono delle familiari grida di gioia, ecco che davanti ai tuoi occhi appare un dolce a doppio strato esteticamente gradevole, con file di macaron con varie espressioni disegnate sopra. Un pensiero ti passa improvvisamente per la testa... Che espressione farebbe Navia se tu cedessi all'ingordigia e te li pappassi tutti?"
     }
+  },
+  "SuspiciousEightTreasureDuck": {
+    "name": "Anatra agli Otto tesori sospetta",
+    "description": {}
+  },
+  "EightTreasureDuck": {
+    "name": "",
+    "description": {}
+  },
+  "DeliciousEightTreasureDuck": {
+    "name": "Anatra agli Otto tesori deliziosa",
+    "description": {}
+  },
+  "SuspiciousDeepFriedDoublecrisp": {
+    "name": "Frittura super croccante sospetta",
+    "description": {}
+  },
+  "DeepFriedDoublecrisp": {
+    "name": "",
+    "description": {}
+  },
+  "DeliciousDeepFriedDoublecrisp": {
+    "name": "Frittura super croccante deliziosa",
+    "description": {}
+  },
+  "SuspiciousBraisedMeatballs": {
+    "name": "Polpette stufate sospette",
+    "description": {}
+  },
+  "BraisedMeatballs": {
+    "name": "",
+    "description": {}
+  },
+  "DeliciousBraisedMeatballs": {
+    "name": "Polpette stufate deliziose",
+    "description": {}
+  },
+  "SuspiciousHoneyCharSiu": {
+    "name": "Char siu al miele sospetto",
+    "description": {}
+  },
+  "HoneyCharSiu": {
+    "name": "",
+    "description": {}
+  },
+  "DeliciousHoneyCharSiu": {
+    "name": "Char siu al miele delizioso",
+    "description": {}
+  },
+  "SuspiciousFineTeaFullMoon": {
+    "name": "Tè con la luna piena sospetto",
+    "description": {}
+  },
+  "FineTeaFullMoon": {
+    "name": "",
+    "description": {}
+  },
+  "DeliciousFineTeaFullMoon": {
+    "name": "Tè con la luna piena delizioso",
+    "description": {}
+  },
+  "SuspiciousJadeveinTeaEggs": {
+    "name": "Uova al tè color giada sospette",
+    "description": {}
+  },
+  "JadeveinTeaEggs": {
+    "name": "",
+    "description": {}
+  },
+  "DeliciousJadeveinTeaEggs": {
+    "name": "Uova al tè color giada deliziose",
+    "description": {}
+  },
+  "SuspiciousTeaSmokedSquab": {
+    "name": "Piccione affumicato al tè sospetto",
+    "description": {}
+  },
+  "TeaSmokedSquab": {
+    "name": "",
+    "description": {}
+  },
+  "DeliciousTeaSmokedSquab": {
+    "name": "Piccione affumicato al tè delizioso",
+    "description": {}
+  },
+  "SuspiciousGuhuaFishLambSoup": {
+    "name": "Pesce alla Guhua con zuppa d'agnello sospetto",
+    "description": {}
+  },
+  "GuhuaFishLambSoup": {
+    "name": "",
+    "description": {}
+  },
+  "DeliciousGuhuaFishLambSoup": {
+    "name": "Pesce alla Guhua con zuppa d'agnello delizioso",
+    "description": {}
+  },
+  "SuspiciousChenyuBrew": {
+    "name": "Tè alla Chenyu sospetto",
+    "description": {}
+  },
+  "ChenyuBrew": {
+    "name": "",
+    "description": {}
+  },
+  "DeliciousChenyuBrew": {
+    "name": "Tè alla Chenyu delizioso",
+    "description": {}
+  },
+  "EncompassingGladness": {
+    "name": "Letizia avvolgente",
+    "description": {}
   },
   "RecipeItem": {
     "name": "Ingrediente",
@@ -14914,6 +15056,60 @@
       "0": "Una ricetta passo dopo passo per preparare dei macaron arcobaleno."
     }
   },
+  "RecipeEightTreasureDuck": {
+    "name": "Ricetta: anatra agli Otto tesori",
+    "description": {
+      "0": "Una ricetta passo dopo passo per preparare dell'anatra agli Otto tesori."
+    }
+  },
+  "RecipeDeepFriedDoublecrisp": {
+    "name": "Ricetta: frittura super croccante",
+    "description": {
+      "0": "Una ricetta passo dopo passo per preparare una frittura super croccante."
+    }
+  },
+  "RecipeBraisedMeatballs": {
+    "name": "Ricetta: polpette stufate",
+    "description": {
+      "0": "Una ricetta passo dopo passo per preparare delle polpette stufate."
+    }
+  },
+  "RecipeHoneyCharSiu": {
+    "name": "Ricetta: char siu al miele",
+    "description": {
+      "0": "Una ricetta passo dopo passo per preparare del char siu."
+    }
+  },
+  "RecipeFineTeaFullMoon": {
+    "name": "Ricetta: Tè con la luna piena",
+    "description": {
+      "0": "Una ricetta passo dopo passo per preparare dei Tè con la luna piena."
+    }
+  },
+  "RecipeJadeveinTeaEggs": {
+    "name": "Ricetta: uova al tè color giada",
+    "description": {
+      "0": "Una ricetta passo dopo passo per preparare delle uova al tè color giada."
+    }
+  },
+  "RecipeTeaSmokedSquab": {
+    "name": "Ricetta: piccione affumicato al tè",
+    "description": {
+      "0": "Una ricetta passo dopo passo per preparare del piccione affumicato al tè"
+    }
+  },
+  "RecipeGuhuaFishLambSoup": {
+    "name": "Ricetta: pesce alla Guhua con zuppa d'agnello",
+    "description": {
+      "0": "Una ricetta passo dopo passo per preparare un pesce alla Guhua con zuppa d'agnello."
+    }
+  },
+  "RecipeChenyuBrew": {
+    "name": "Ricetta: tè alla Chenyu",
+    "description": {
+      "0": "Una ricetta passo dopo passo per preparare del tè alla Chenyu."
+    }
+  },
   "CraftedItems": {
     "name": "Oggetti creati",
     "description": {
@@ -15813,6 +16009,20 @@
       "1": "Detto ciò, toglierlo non pregiudicherà le capacità fisiche dell'operativo, che saranno comunque superiori a quelle dei comuni esseri umani, capacità ottenute con anni di addestramento ed esperienza di combattimento. Essi sono ben consapevoli di aver sacrificato il loro passato, presente e futuro sull'altare del paradiso idilliaco dei Fatui, tale per cui il danno che si autoinfliggono per l'uso dell'Illusione non importa minimamente."
     }
   },
+  "FeatheryFin": {
+    "name": "Pinna piumata",
+    "description": {
+      "0": "???"
+    }
+  },
+  "LunarFin": {
+    "name": "Pinna lunare",
+    "description": {}
+  },
+  "ChasmlightFin": {
+    "name": "Pinna Baratroluce",
+    "description": {}
+  },
   "HurricaneSeed": {
     "name": "Seme d'uragano",
     "description": {
@@ -16247,6 +16457,10 @@
       "0": "Tutto ciò che resta dei Tulpa di Hydro dopo che si sono dispersi.",
       "1": "Questa sostanza è molto simile ai cristalli estratti dai corpi degli Aberranti del Fontemer, ma contiene molte impurità di minuscole dimensioni, come le bolle all'interno del vetro lavorato da un artigiano maldestro."
     }
+  },
+  "CloudseamScale": {
+    "name": "Scaglia Tessinuvola",
+    "description": {}
   },
   "TileOfDecarabiansTower": {
     "name": "Tegola della Torre di Decarabian",
@@ -19129,6 +19343,24 @@
       "0": "？？？"
     }
   },
+  "TimeTrekkerI": {
+    "name": "",
+    "description": {
+      "0": "？？？"
+    }
+  },
+  "TimeTrekkerII": {
+    "name": "",
+    "description": {
+      "0": "？？？"
+    }
+  },
+  "TimeTrekkerIII": {
+    "name": "",
+    "description": {
+      "0": "？？？"
+    }
+  },
   "GiftOfParting": {
     "name": "Regalo d'addio",
     "description": {
@@ -19677,16 +19909,16 @@
       "1": "Forse, anche solo questo singolo componente è in grado di alimentare l'intera macchina..."
     }
   },
-  "34thIndependentReconnaissanceSquadDeploymentInMontEsusEasternQuadrantDeploymentPlan": {
-    "name": "34ª squadra indipendente di ricognizione: piano di dispiegamento sul Monte Esus (quadrante orientale)",
+  "34thIndependentInvestigativeSquadDeploymentInMontEsusEasternQuadrantDeploymentPlan": {
+    "name": "34ª squadra investigativa indipendente: piano di dispiegamento sul Monte Esus (quadrante orientale)",
     "description": {}
   },
   "SkirmishersNotes": {
     "name": "Appunti dello Schermagliatore",
     "description": {}
   },
-  "34thIndependentReconnaissanceSquadDeploymentInMontEsusEasternQuadrantDisciplinaryProcedures": {
-    "name": "34ª squadra indipendente di ricognizione: procedimenti disciplinari del dispiegamento sul Monte Esus (quadrante orientale)",
+  "34thIndependentInvestigativeSquadDeploymentInMontEsusEasternQuadrantDisciplinaryProcedures": {
+    "name": "34ª squadra investigativa indipendente: procedimenti disciplinari del dispiegamento sul Monte Esus (quadrante orientale)",
     "description": {}
   },
   "TravelersExclusiveInterviewHandbook": {
@@ -19741,6 +19973,36 @@
     "name": "Registro degli indizi di Forte Méropide",
     "description": {
       "0": "Racchiude i vari indizi trovati durante le indagini a Forte Méropide."
+    }
+  },
+  "PictureLotusPondBeneathTheMoon": {
+    "name": "Foto: laghetto dei loti sotto la luna",
+    "description": {
+      "0": "Una splendida immagine del laghetto dei loti, immerso nel chiarore della luna."
+    }
+  },
+  "PictureGuestsOfQiaoying": {
+    "name": "Foto: ospiti a Qiaoying",
+    "description": {
+      "0": "Una splendida immagine del Villaggio di Qiaoying."
+    }
+  },
+  "PictureTranquilJademouth": {
+    "name": "Foto: quiete alla Bocca di Giada",
+    "description": {
+      "0": "Una splendida immagine della Bocca di Giada."
+    }
+  },
+  "PictureMtXuanlian": {
+    "name": "Foto: Monte Xuanlian",
+    "description": {
+      "0": "Una splendida immagine del Monte Xuanlian."
+    }
+  },
+  "ChenyuValeSceneryGuide": {
+    "name": "Panorami della Vallata Chenyu",
+    "description": {
+      "0": "Una guida turistica per conoscere i paesaggi più affascinanti secondo gli abitanti del posto."
     }
   },
   "Notice": {
@@ -20155,8 +20417,8 @@
   "MysteriousXenochromaticCrystal": {
     "name": "Cristallo xenocromatico misterioso",
     "description": {
-      "0": "Un grosso cristallo ottenuto sconfiggendo i possenti Aberranti del Fontemer nella Regione di Morterre.",
-      "1": "Il potere che contiene è più misterioso di quello dei cristalli xenocromatici comuni.",
+      "0": "Un grosso cristallo ottenuto sconfiggendo i possenti Aberranti del Fontemer.",
+      "1": "Il potere che racchiude è più misterioso di quello dei cristalli xenocromatici comuni.",
       "2": "Forse qualcuno sarebbe disposto a pagare un giusto prezzo pur di averlo."
     }
   },
@@ -20206,6 +20468,12 @@
     "name": "Diario",
     "description": {}
   },
+  "OurChenyuValeTrekAlbum": {
+    "name": "Album \"La nostra gita alla Vallata Chenyu\"",
+    "description": {
+      "0": "Un album di foto ricordo che contiene un gran numero di splendide immagini. Più della metà di questi scatti sono opera della stessa persona. Davvero incredibile."
+    }
+  },
   "ShootingPracticeOpticalLenses": {
     "name": "Lenti ottiche per pratica di tiro",
     "description": {
@@ -20223,6 +20491,12 @@
     "name": "Ricevuta dell'Emporio Bracari",
     "description": {
       "0": "Ricevuta dell'Emporio Bracari"
+    }
+  },
+  "AncientStoneTablet": {
+    "name": "Antica stele di pietra",
+    "description": {
+      "0": "Antica stele di pietra"
     }
   },
   "PackageForTheLeroyFamily": {
@@ -21461,55 +21735,55 @@
   "RadiantSpincrystal99": {
     "name": "Voltacristallo radioso 99",
     "description": {
-      "0": "Questo meraviglioso cristallo contiene un certo ritmo, come una meraviglia intessuta con della seta delicata. Questi oggetti sono sparsi per tutto il continente o si possono reperire dai mercanti che collezionano rarità. La melodia contenuta all'interno del cristallo può essere ravvivata nella Serenteiera usando Eufonio libero Sinuosità o Eufonio libero Crescendo. La melodia contenuta all'interno di questo Voltacristallo radioso è una melodia misteriosa proveniente da Fontaine."
+      "0": "Questo meraviglioso cristallo contiene un certo ritmo, come una meraviglia intessuta con della seta delicata. Questi oggetti sono sparsi per tutto il continente o si possono reperire dai mercanti che collezionano rarità. La melodia contenuta all'interno del cristallo può essere ravvivata nella Serenteiera usando Eufonio libero Sinuosità o Eufonio libero Crescendo. La melodia contenuta all'interno di questo Voltacristallo radioso è Ballad of Many Waters."
     }
   },
   "RadiantSpincrystal100": {
     "name": "Voltacristallo radioso 100",
     "description": {
-      "0": "Questo meraviglioso cristallo contiene un certo ritmo, come una meraviglia intessuta con della seta delicata. Questi oggetti sono sparsi per tutto il continente o si possono reperire dai mercanti che collezionano rarità. La melodia contenuta all'interno del cristallo può essere ravvivata nella Serenteiera usando Eufonio libero Sinuosità o Eufonio libero Crescendo. La melodia contenuta all'interno di questo Voltacristallo radioso è una melodia misteriosa proveniente da Fontaine."
+      "0": "Questo meraviglioso cristallo contiene un certo ritmo, come una meraviglia intessuta con della seta delicata. Questi oggetti sono sparsi per tutto il continente o si possono reperire dai mercanti che collezionano rarità. La melodia contenuta all'interno del cristallo può essere ravvivata nella Serenteiera usando Eufonio libero Sinuosità o Eufonio libero Crescendo. La melodia contenuta all'interno di questo Voltacristallo radioso è Coruscating Street."
     }
   },
   "RadiantSpincrystal101": {
     "name": "Voltacristallo radioso 101",
     "description": {
-      "0": "Questo meraviglioso cristallo contiene un certo ritmo, come una meraviglia intessuta con della seta delicata. Questi oggetti sono sparsi per tutto il continente o si possono reperire dai mercanti che collezionano rarità. La melodia contenuta all'interno del cristallo può essere ravvivata nella Serenteiera usando Eufonio libero Sinuosità o Eufonio libero Crescendo. La melodia contenuta all'interno di questo Voltacristallo radioso è una melodia misteriosa proveniente da Fontaine."
+      "0": "Questo meraviglioso cristallo contiene un certo ritmo, come una meraviglia intessuta con della seta delicata. Questi oggetti sono sparsi per tutto il continente o si possono reperire dai mercanti che collezionano rarità. La melodia contenuta all'interno del cristallo può essere ravvivata nella Serenteiera usando Eufonio libero Sinuosità o Eufonio libero Crescendo. La melodia contenuta all'interno di questo Voltacristallo radioso è Throughout the Flow of Years."
     }
   },
   "RadiantSpincrystal102": {
     "name": "Voltacristallo radioso 102",
     "description": {
-      "0": "Questo meraviglioso cristallo contiene un certo ritmo, come una meraviglia intessuta con della seta delicata. Questi oggetti sono sparsi per tutto il continente o si possono reperire dai mercanti che collezionano rarità. La melodia contenuta all'interno del cristallo può essere ravvivata nella Serenteiera usando Eufonio libero Sinuosità o Eufonio libero Crescendo. La melodia contenuta all'interno di questo Voltacristallo radioso è una melodia misteriosa proveniente da Fontaine."
+      "0": "Questo meraviglioso cristallo contiene un certo ritmo, come una meraviglia intessuta con della seta delicata. Questi oggetti sono sparsi per tutto il continente o si possono reperire dai mercanti che collezionano rarità. La melodia contenuta all'interno del cristallo può essere ravvivata nella Serenteiera usando Eufonio libero Sinuosità o Eufonio libero Crescendo. La melodia contenuta all'interno di questo Voltacristallo radioso è Miraculous Whisper."
     }
   },
   "RadiantSpincrystal103": {
     "name": "Voltacristallo radioso 103",
     "description": {
-      "0": "Questo meraviglioso cristallo contiene un certo ritmo, come una meraviglia intessuta con della seta delicata. Questi oggetti sono sparsi per tutto il continente o si possono reperire dai mercanti che collezionano rarità. La melodia contenuta all'interno del cristallo può essere ravvivata nella Serenteiera usando Eufonio libero Sinuosità o Eufonio libero Crescendo. La melodia contenuta all'interno di questo Voltacristallo radioso è una melodia misteriosa proveniente da Fontaine."
+      "0": "Questo meraviglioso cristallo contiene un certo ritmo, come una meraviglia intessuta con della seta delicata. Questi oggetti sono sparsi per tutto il continente o si possono reperire dai mercanti che collezionano rarità. La melodia contenuta all'interno del cristallo può essere ravvivata nella Serenteiera usando Eufonio libero Sinuosità o Eufonio libero Crescendo. La melodia contenuta all'interno di questo Voltacristallo radioso è Surging Reminiscence."
     }
   },
   "RadiantSpincrystal104": {
     "name": "Voltacristallo radioso 104",
     "description": {
-      "0": "Questo meraviglioso cristallo contiene un certo ritmo, come una meraviglia intessuta con della seta delicata. Questi oggetti sono sparsi per tutto il continente o si possono reperire dai mercanti che collezionano rarità. La melodia contenuta all'interno del cristallo può essere ravvivata nella Serenteiera usando Eufonio libero Sinuosità o Eufonio libero Crescendo. La melodia contenuta all'interno di questo Voltacristallo radioso è una melodia misteriosa proveniente da Fontaine."
+      "0": "Questo meraviglioso cristallo contiene un certo ritmo, come una meraviglia intessuta con della seta delicata. Questi oggetti sono sparsi per tutto il continente o si possono reperire dai mercanti che collezionano rarità. La melodia contenuta all'interno del cristallo può essere ravvivata nella Serenteiera usando Eufonio libero Sinuosità o Eufonio libero Crescendo. La melodia contenuta all'interno di questo Voltacristallo radioso è Ann's Quiescent Residence."
     }
   },
   "RadiantSpincrystal105": {
     "name": "Voltacristallo radioso 105",
     "description": {
-      "0": "Questo meraviglioso cristallo contiene un certo ritmo, come una meraviglia intessuta con della seta delicata. Questi oggetti sono sparsi per tutto il continente o si possono reperire dai mercanti che collezionano rarità. La melodia contenuta all'interno del cristallo può essere ravvivata nella Serenteiera usando Eufonio libero Sinuosità o Eufonio libero Crescendo. La melodia contenuta all'interno di questo Voltacristallo radioso è una melodia misteriosa proveniente da Fontaine."
+      "0": "Questo meraviglioso cristallo contiene un certo ritmo, come una meraviglia intessuta con della seta delicata. Questi oggetti sono sparsi per tutto il continente o si possono reperire dai mercanti che collezionano rarità. La melodia contenuta all'interno del cristallo può essere ravvivata nella Serenteiera usando Eufonio libero Sinuosità o Eufonio libero Crescendo. La melodia contenuta all'interno di questo Voltacristallo radioso è Limpide est le sanglot d'eau."
     }
   },
   "RadiantSpincrystal106": {
     "name": "Voltacristallo radioso 106",
     "description": {
-      "0": "Questo meraviglioso cristallo contiene un certo ritmo, come una meraviglia intessuta con della seta delicata. Questi oggetti sono sparsi per tutto il continente o si possono reperire dai mercanti che collezionano rarità. La melodia contenuta all'interno del cristallo può essere ravvivata nella Serenteiera usando Eufonio libero Sinuosità o Eufonio libero Crescendo. La melodia contenuta all'interno di questo Voltacristallo radioso è una melodia misteriosa proveniente da Fontaine."
+      "0": "Questo meraviglioso cristallo contiene un certo ritmo, come una meraviglia intessuta con della seta delicata. Questi oggetti sono sparsi per tutto il continente o si possono reperire dai mercanti che collezionano rarità. La melodia contenuta all'interno del cristallo può essere ravvivata nella Serenteiera usando Eufonio libero Sinuosità o Eufonio libero Crescendo. La melodia contenuta all'interno di questo Voltacristallo radioso è Que le vent soit doux."
     }
   },
   "RadiantSpincrystal107": {
     "name": "Voltacristallo radioso 107",
     "description": {
-      "0": "Questo meraviglioso cristallo contiene un certo ritmo, come una meraviglia intessuta con della seta delicata. Questi oggetti sono sparsi per tutto il continente o si possono reperire dai mercanti che collezionano rarità. La melodia contenuta all'interno del cristallo può essere ravvivata nella Serenteiera usando Eufonio libero Sinuosità o Eufonio libero Crescendo. La melodia contenuta all'interno di questo Voltacristallo radioso è una melodia misteriosa proveniente da Fontaine."
+      "0": "Questo meraviglioso cristallo contiene un certo ritmo, come una meraviglia intessuta con della seta delicata. Questi oggetti sono sparsi per tutto il continente o si possono reperire dai mercanti che collezionano rarità. La melodia contenuta all'interno del cristallo può essere ravvivata nella Serenteiera usando Eufonio libero Sinuosità o Eufonio libero Crescendo. La melodia contenuta all'interno di questo Voltacristallo radioso è Demain, des l'aube."
     }
   },
   "RadiantSpincrystal108": {
@@ -21583,6 +21857,32 @@
     "description": {
       "0": "Questo meraviglioso cristallo contiene un certo ritmo, come una meraviglia intessuta con della seta delicata. Questi oggetti sono sparsi per tutto il continente o si possono reperire dai mercanti che collezionano rarità. La melodia contenuta all'interno del cristallo può essere ravvivata nella Serenteiera usando Eufonio libero: Sinuosità o Eufonio libero: Crescendo. La melodia contenuta all'interno di questo Voltacristallo radioso è una melodia misteriosa proveniente da Fontaine."
     }
+  },
+  "RadiantSpincrystal120": {
+    "name": "Voltacristallo radioso 120",
+    "description": {
+      "0": "Questo meraviglioso cristallo contiene un certo ritmo, come una meraviglia intessuta con della seta delicata. Questi oggetti sono sparsi per tutto il continente o si possono reperire dai mercanti che collezionano rarità. La melodia contenuta all'interno di questo Voltacristallo radioso è una melodia misteriosa proveniente da Liyue, e può essere ravvivata nella Serenteiera usando Eufonio libero Sinuosità o Eufonio libero Crescendo."
+    }
+  },
+  "RadiantSpincrystal121": {
+    "name": "Voltacristallo radioso 121",
+    "description": {}
+  },
+  "RadiantSpincrystal122": {
+    "name": "Voltacristallo radioso 122",
+    "description": {}
+  },
+  "RadiantSpincrystal123": {
+    "name": "Voltacristallo radioso 123",
+    "description": {}
+  },
+  "RadiantSpincrystal124": {
+    "name": "Voltacristallo radioso 124",
+    "description": {}
+  },
+  "RadiantSpincrystal125": {
+    "name": "Voltacristallo radioso 125",
+    "description": {}
   },
   "LanternFiber": {
     "name": "Fibra per lanterna",
@@ -21744,7 +22044,7 @@
     "description": {
       "0": "Materiale di miglioramento specifico per la \"Spada magica del Super Signore Supremo\".",
       "1": "Può raccogliere un gran numero di desideri (compresi quelli fortissimi fatti di cartone) e metterli insieme, creando un misterioso mega potere finale.",
-      "2": "Anche se è possibile acquistarne una versione giocattolo molto simile presso lo Spaccio Damoville (praticamente identica, a dirla tutta), c'è (probabilmente) una differenza qualitativa tra le due, quindi non bisogna assolutamente confonderle!"
+      "2": "Anche se è possibile acquistarne una versione giocattolo molto simile presso lo Spaccio Damoville (praticamente identico, a dirla tutta), c'è (probabilmente) una differenza qualitativa tra i due, quindi non bisogna assolutamente confonderli!"
     }
   },
   "FalconsDance": {
@@ -23899,8 +24199,8 @@
   "MiniSeelieBrilliance": {
     "name": "Mini Seelie: Fulgore",
     "description": {
-      "0": "Un ricordo da Ricchezze perdute. Equipaggia questo Seelie per avere la sua compagnia.",
-      "1": "Un mini Seelie dai colori sgargianti, in grado di muoversi senza problemi sott'acqua."
+      "0": "Un ricordo da Ricchezze perdute. Equipaggialo per ottenere un mini Seelie come compagno.",
+      "1": "Un Seelie dai colori sgargianti, in grado di muoversi senza problemi sott'acqua."
     }
   },
   "InstructionsAnemoculusResonanceStone": {
@@ -24178,6 +24478,13 @@
       "1": "Il profumo di questo frutto evoca immagini alla mente che puoi manipolare col potere della Creazione di Mondi alternativi per ricreare le meravigliose viste di Sumeru nel tuo Regno interiore..."
     }
   },
+  "SwirlingSceneInABottle": {
+    "name": "Scena vorticosa in bottiglia",
+    "description": {
+      "0": "Questo grazioso terrario, portato come ricordo di Sumeru dal Venditore itinerante della Serenteiera Tondo, racchiude dei magnifici paesaggi.",
+      "1": "Le scene al suo interno rievocano delle immagini, che puoi manipolare col potere della Creazione di Mondi alternativi per ricreare i meravigliosi panorami di Sumeru nel tuo Regno interiore..."
+    }
+  },
   "TheMountainCloudsLetDownGoldenRain": {
     "name": "Dalle nuvole della montagna cade la pioggia aurea",
     "description": {
@@ -24371,6 +24678,14 @@
     "description": {
       "0": "Una carta per il gioco da tavolo Invokazione del genio. È fatta di un materiale resistente, e l'illustrazione sulla parte frontale è realizzata con un metodo di stampa speciale che le dona un aspetto assolutamente impeccabile."
     }
+  },
+  "CryoHypostasis": {
+    "name": "",
+    "description": {}
+  },
+  "MillennialPearlSeahorse": {
+    "name": "",
+    "description": {}
   },
   "UndividedHeart": {
     "name": "Cuore indivisibile",
@@ -24798,6 +25113,22 @@
       "0": "Una carta per il gioco da tavolo Invokazione del genio. È fatta di un materiale resistente, e l'illustrazione sulla parte frontale è realizzata con un metodo di stampa speciale che le dona un aspetto assolutamente impeccabile."
     }
   },
+  "ASubordinatesSkills": {
+    "name": "",
+    "description": {}
+  },
+  "SkivingNewAndImproved": {
+    "name": "",
+    "description": {}
+  },
+  "SternfrostPrism": {
+    "name": "Prisma del gelo inamovibile",
+    "description": {}
+  },
+  "PearlSolidification": {
+    "name": "Solidificazione perlacea",
+    "description": {}
+  },
   "MagicGuide": {
     "name": "Manuale di magia",
     "description": {
@@ -25206,6 +25537,14 @@
       "0": "Una carta per il gioco da tavolo Invokazione del genio. È fatta di un materiale resistente, e l'illustrazione sulla parte frontale è realizzata con un metodo di stampa speciale che le dona un aspetto assolutamente impeccabile."
     }
   },
+  "SapwoodBlade": {
+    "name": "",
+    "description": {}
+  },
+  "VeteransVisage": {
+    "name": "",
+    "description": {}
+  },
   "LiyueHarborWharf": {
     "name": "Molo del Porto di Liyue",
     "description": {
@@ -25439,6 +25778,14 @@
     "description": {
       "0": "Una carta per il gioco da tavolo Invokazione del genio. È fatta di un materiale resistente, e l'illustrazione sulla parte frontale è realizzata con un metodo di stampa speciale che le dona un aspetto assolutamente impeccabile."
     }
+  },
+  "Jeht": {
+    "name": "",
+    "description": {}
+  },
+  "SilverAndMelus": {
+    "name": "",
+    "description": {}
   },
   "ElementalResonanceWovenIce": {
     "name": "Risonanza elementale: Ghiaccio intrecciato",
@@ -25745,6 +26092,14 @@
     "description": {
       "0": "Una carta per il gioco da tavolo Invokazione del genio. È fatta di un materiale resistente, e l'illustrazione sulla parte frontale è realizzata con un metodo di stampa speciale che le dona un aspetto assolutamente impeccabile."
     }
+  },
+  "MachineAssemblyLine": {
+    "name": "Catena di montaggio meccanica",
+    "description": {}
+  },
+  "SunyataFlower": {
+    "name": "Fiore di Sunyata",
+    "description": {}
   },
   "Origin": {
     "name": "Origine",
@@ -26241,7 +26596,7 @@
       "2": "Una camera da letto umile e senza pretese, simile per tanti aspetti a una delle stanze della Locanda Wangshu. Il mistero di questa stanza da letto è difficile da spiegare a parole. A volte evoca ricordi in coloro che vi mettono piede, come la luce del sole che trafigge le nubi vorticose, ma rimuove da essi il dolore lasciando solo le impronte degli avvenimenti passati.",
       "3": "Siamo tutti di passaggio in questa vita mortale, e solo ricordando chi siamo possiamo continuare a seguire con sicurezza il nostro percorso. I pensieri sono più chiari nell'interstizio tra il sonno e la veglia. Non c'è da stupirsi se chi visita la Locanda Wangshu per una notte si ritrova con un'energia cento volte superiore, raggiante e pronto a riprendere il cammino.",
       "4": "Dopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di posizionamento.",
-      "5": "Questo set decorativo piace particolarmente a Hu Tao, Yanfei, Ganyu, Keqing e Chongyun."
+      "5": "Questo set decorativo piace particolarmente a Hu Tao, Yanfei, Ganyu, Keqing, Chongyun e Gaming."
     }
   },
   "SecretResearchLab": {
@@ -26302,7 +26657,7 @@
       "1": "Una via gastronomica con strutture all'esterno che replica la vivacità della Rocca di Chihu.",
       "2": "Definirla una \"via delle prelibatezze\" non le rende giustizia, e nonostante possa sembrare che non ci siano abbastanza utensili da cucina in giro, sono più che sufficienti per preparare tutte le specialità conosciute della regione di Liyue. Dopotutto, i cuochi più abili sanno cucinare pietanze deliziose anche con l'utensile più semplice, complice il fatto che alcuni dei piatti più famosi sono preparati usando ingredienti che non richiedono una preparazione complessa.",
       "3": "Dopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di posizionamento.",
-      "4": "Questo set decorativo piace particolarmente a Beidou, Xiangling, Ganyu, Xinyan, Tartaglia e Yelan."
+      "4": "Questo set decorativo piace particolarmente a Beidou, Xiangling, Ganyu, Xinyan, Tartaglia, Yelan, Gaming e Xianyun."
     }
   },
   "GlitteringStreet": {
@@ -26322,7 +26677,7 @@
       "1": "Un borgo di montagna sul modello del Villaggio di Qingce. Si dice che la sua atmosfera amichevole sia contagiosa, e che i visitatori che vi entrano si sentano più calmi e capaci di apprezzare le semplici gioie che forse avevano dimenticato.",
       "2": "Partire per inseguire i propri ideali e dedicare anni al solo inseguimento di una carriera è senza dubbio degno di lode; ma, dopo aver impiegato tanto tempo dietro a tali fatiche, può sopraggiungere la stanchezza. Quando ciò accade, una vita tranquilla e serena in campagna rimane una buona scelta. Il Villaggio di Qingce ha sempre accettato le partenze dei giovani in cerca di fortuna, ed è pronto a dare loro un caldo bentornato in qualsiasi momento.",
       "3": "Dopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di posizionamento.",
-      "4": "Questo set decorativo piace particolarmente a Xinyan, Xiao, Hu Tao, Qiqi, Shenhe, Yelan e Yaoyao."
+      "4": "Questo set decorativo piace particolarmente a Xinyan, Xiao, Hu Tao, Qiqi, Shenhe, Yelan, Yaoyao e Xianyun."
     }
   },
   "OfHuntingAndDancing": {
@@ -26582,6 +26937,106 @@
       "2": "Questo set decorativo piace particolarmente a Tighnari e {REALNAME[ID(1)|HOSTONLY(true)]}."
     }
   },
+  "KeyToAStableWorkRestCycle": {
+    "name": "Armonia tra vita e lavoro",
+    "description": {
+      "0": "Una grande camera da letto dallo stile semplice che mette d'accordo calore e raffinatezza. Per le persone stremate dagli impegni quotidiani, il letto rappresenta un accesso veloce al mondo dei sogni, e quelli che si svegliano al mattino si sentiranno freschi e riposati per affrontare un'altra dura giornata di lavoro.",
+      "1": "Molti abitanti di Fontaine considerano il design d'interni un fattore chiave per il proprio sonno, e dormire bene è cruciale per lavorare al meglio. In quest'ottica, la camera da letto assume un ruolo fondamentale.",
+      "2": "Questo set decorativo piace particolarmente a Charlotte e Chevreuse."
+    }
+  },
+  "StrictAdherenceToOfficeCodes": {
+    "name": "Osservanza delle regole d'ufficio",
+    "description": {
+      "0": "Ispirato agli arredi del Palais Mermonia, questo studio dallo stile classico ricrea l'atmosfera brulicante di un ufficio, dove ogni cosa rispetta delle regole specifiche.",
+      "1": "Una volta, un certo ricercatore dell'Istituto di ricerca di Fontaine proclamò che \"l'ambiente di una persona influisce enormemente sulla qualità del suo lavoro\". Basandosi su questo principio, chiunque si troverà in un contesto simile a quello del Palais seguirà inconsciamente ogni processo alla lettera...",
+      "2": "Questo set decorativo piace particolarmente a Neuvillette."
+    }
+  },
+  "GarbForGloriousGourmet": {
+    "name": "Gourmet in stile glorioso",
+    "description": {
+      "0": "Completamente decorato, questo ristorante è ispirato all'Hotel Débord. Ideale per ricevimenti di famiglie numerose con molti parenti e amici.",
+      "1": "Nemmeno gli chef più esperti possono negare che la \"mise en scène\" gastronomica determina l'umore dei commensali e il loro apprezzamento delle portate. Di conseguenza, un bel ristorante può essere anche considerato come una sorta di abito per il buon cibo e le bevande.",
+      "2": "Questo set decorativo piace particolarmente a Navia e Furina."
+    }
+  },
+  "PerfectlyDrawnFocus": {
+    "name": "Concentrazione perfetta",
+    "description": {
+      "0": "Un ambiente con un palco di medie dimensioni come elemento centrale, sufficiente ad allestire una piccola rappresentazione.",
+      "1": "Chi è nuovo all'arte della recitazione potrebbe sentirsi intimorito da un pubblico troppo numeroso, e gli artisti stagionati si sentono spesso più appagati dal recitare per pochi intimi anziché dinanzi a centinaia di spettatori. Pertanto, la maggior parte degli attori è in grado di apprezzare la semplicità di questo palco.",
+      "2": "Questo set decorativo piace particolarmente a Lynette e Lyney."
+    }
+  },
+  "ContinuousClockworkInspiration": {
+    "name": "Ispirazione meccanica",
+    "description": {
+      "0": "Una stanza ispirata a un laboratorio meccanico, con attrezzature sufficienti a soddisfare le necessità della maggior parte degli artigiani.",
+      "1": "Alcuni poeti fontainiani credono che i Mekautomi siano creazioni degne di rispetto, e che questo dovrebbe riflettersi anche sugli strumenti utilizzati: \"L'ispirazione tende l'orecchio a questi componenti, gli insegna a danzare in un tutt'uno perpetuo\".",
+      "2": "Questo set decorativo piace particolarmente a Freminet."
+    }
+  },
+  "WellspringOfRuleViolationPrevention": {
+    "name": "Prevenzione alla violazione delle regole",
+    "description": {
+      "0": "Un ambiente dall'aria solenne che riproduce fedelmente l'ufficio del \"Duca\" presso Forte Méropide.",
+      "1": "Si dice che, da quando ha assunto il comando del Forte, il Duca abbia apportato soltanto qualche lieve modifica agli arredi dell'ufficio, il luogo dove sono state scritte le regole che i tanti detenuti devono rispettare. Questo set decorativo piace particolarmente a Wriothesley."
+    }
+  },
+  "CourtOfJusticesPlacidDays": {
+    "name": "Giorni lieti della Corte di Giustizia",
+    "description": {
+      "0": "Un viale comune ispirato al modello delle aree residenziali di Fontaine. Anche le numerose abitazioni riproducono in modo autentico lo stile della Corte di Fontaine.",
+      "1": "La vita di molti residenti di Fontaine si basa sulla routine: vanno al lavoro, riposano, incontrano gli amici per consumare un pasto assieme o fare compere, e assistono a qualche spettacolo all'Opéra Épiclèse. Persino alcuni avventurieri temerari potrebbero apprezzare uno stile di vita tanto pacato...",
+      "2": "Questo set decorativo piace particolarmente a Charlotte."
+    }
+  },
+  "CourtOfJusticesBoomingCommerce": {
+    "name": "Commercio fiorente della Corte di Giustizia",
+    "description": {
+      "0": "Ispirato al Quartiere Lyonnais nella Corte di Fontaine, questo luogo brulica di negozi negozi specializzati e tavoli a cui sedersi per assaporare un tè e godersi un momento di relax.",
+      "1": "Se non conosci bene i negozi e i prodotti in vendita, alcuni turisti sperimentati suggeriscono che questo sia il posto migliore dove chiedere informazioni ai residenti. Dato che molti negozi seguono rigorosamente i controlli dei prezzi stabiliti dal Palais Mermonia, in pochissimi acquistano degli articoli a prezzi gonfiati.",
+      "2": "Questo set decorativo piace particolarmente a Lynette e Lyney."
+    }
+  },
+  "CourtOfJusticesFreshMist": {
+    "name": "Bruma rinfrescante della Corte di Giustizia",
+    "description": {
+      "0": "Una piazza abbellita da alberi, fiori e una magnifica fontana. Il concetto di design prende spunto dalla Fontana di Lucine di Érinnyes.",
+      "1": "Quando il tempo è bello, la bruma pervade i fiori di Érinnyes, sollevando lo spirito di residenti e visitatori. Anche se piovesse a catinelle, la leggenda che circonda la fontana colmerebbe comunque il tuo cuore di speranza.",
+      "2": "Questo set decorativo piace particolarmente a Neuvillette e Furina."
+    }
+  },
+  "PoissonTheUnassuming": {
+    "name": "Poisson la Modesta",
+    "description": {
+      "0": "Un paesaggio incentrato su vari edifici unici che riproducono un angolo di Poisson. Strutture che enfatizzano la funzionalità, ed elevano l'efficienza del lavoro di coloro che vi abitano, sebbene questo non si traduca immediatamente in frenesia e spossatezza, ma piuttosto sia un modo per salvaguardare i giorni di svago dei residenti. Senza dubbio, molti abitanti di Poisson vivono secondo il detto \"prima si finisce di lavorare, prima si può riposare\", e conducono una vita piena seppur semplice.",
+      "1": "Questo set decorativo piace particolarmente a Navia."
+    }
+  },
+  "UnderseaMeruseasLustre": {
+    "name": "Lustro subacqueo di Merusea",
+    "description": {
+      "0": "Un piccolo insediamento che s'impegna a ricreare il panorama del Villaggio di Merusea, con edifici unici e decisamente scenografici.",
+      "1": "Le Melusine abitano all'interno di Elynas, al di sotto dei flutti ondosi. Sebbene le persone che visitano il loro villaggio siano poche, tutte ne cantano le lodi al loro ritorno. Alcuni artisti hanno tentato di dipingere il luogo in base a queste descrizioni e alle informazioni acquisite intervistando le Melusine nella Corte di Fontaine. La \"differenza cromatica\" tra il loro lavoro e i veri colori del villaggio, però, è sempre stata difficile da ignorare. Questo problema è stato risolto soltanto in seguito alla diffusione di alcuni scatti del Villaggio di Merusea eseguiti con la Fotokamera...",
+      "2": "Questo set decorativo piace particolarmente a Freminet."
+    }
+  },
+  "FullForceForwardInTheForbiddenFortress": {
+    "name": "Massimo sforzo nel Forte proibito",
+    "description": {
+      "0": "Un'arena il cui punto centrale è un ring. Stando al suo interno, puoi ancora sentire le incitazioni e gli applausi del pubblico, i commenti concitati del presentatore e il suono sordo dei pugni dei combattenti. Chiunque abbia assistito o preso parte a un incontro sul ring di Pankration di Forte Méropide porterà sempre con sé quest'esperienza.",
+      "1": "\"Su un ring dove ogni cosa dipende dai tuoi pugni, l'unico modo per rivendicare la gloria, nonché i Coupon di credito, è spingerti al massimo\". Molti combattenti del ring di Pankration considerano queste parole il loro motto, anche dopo aver lasciato il Forte...",
+      "2": "Questo set decorativo piace particolarmente a Wriothesley e Chevreuse."
+    }
+  },
+  "TheNationOfHydrosMottledColors": {
+    "name": "Colori screziati della Nazione di Hydro",
+    "description": {
+      "0": "Un panorama rurale ricco di piante rigogliose. Al suo interno è possibile ammirare ogni sorta di fiori e arbusti presenti a Fontaine. Piante e fiori sono temi comuni nei dipinti, e fungono da punto di partenza per l'esplorazione del \"colore\". Alcuni pittori di Fontaine credono che il mondo usi le piante come tavolozza per dimostrare le combinazioni di colori perfette. Pertanto, se tutti i colori di un dipinto trovano la loro origine nei fiori, quest'opera possiede senza dubbio una bellezza equiparabile a quella di uno scenario naturale. Naturalmente, questo accade soltanto se si evita di mescolare tutti i colori derivati dalle piante in un'unica conversazione..."
+    }
+  },
   "TimberWallWithJadeEaves": {
     "name": "Parete di legno con grondaia di giada",
     "description": {
@@ -26607,6 +27062,13 @@
     "name": "Parete intagliata semplice in Legno dello splendore",
     "description": {
       "0": "Un progetto con istruzioni passo dopo passo per realizzare una parete intagliata semplice in Legno dello splendore.",
+      "1": "Dopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione."
+    }
+  },
+  "AnnexsGoldenMosaic": {
+    "name": "Mosaico dorato della dépendance",
+    "description": {
+      "0": "Un progetto con istruzioni passo dopo passo per realizzare Mosaico dorato della dépendance.",
       "1": "Dopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione."
     }
   },
@@ -26638,6 +27100,13 @@
       "1": "Dopo aver usato questo oggetto potrai vederlo nella Schermata di creazione."
     }
   },
+  "AnnexsMirrorSheenFloorTiles": {
+    "name": "Pavimento a specchio della dépendance",
+    "description": {
+      "0": "Un progetto con istruzioni passo dopo passo per realizzare Pavimento a specchio della dépendance.",
+      "1": "Dopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione."
+    }
+  },
   "CheckeredCedarCeiling": {
     "name": "Soffitto a scacchi in cedro",
     "description": {
@@ -26664,6 +27133,13 @@
     "description": {
       "0": "Un progetto con istruzioni passo dopo passo per realizzare un soffitto cesellato in Legno dello splendore.",
       "1": "Dopo aver usato questo oggetto potrai vederlo nella Schermata di creazione."
+    }
+  },
+  "AnnexsSpotlessDome": {
+    "name": "Volta immacolata della dépendance",
+    "description": {
+      "0": "Un progetto con istruzioni passo dopo passo per realizzare Volta immacolata della dépendance.",
+      "1": "Dopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione."
     }
   },
   "TwoTierCandleChandelier": {
@@ -26932,10 +27408,31 @@
       "1": "Dopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione."
     }
   },
+  "ForbiddenZoneFloorLampIronhammer": {
+    "name": "Piantana dell'area proibita Martello di ferro",
+    "description": {
+      "0": "Un progetto con istruzioni passo dopo passo per realizzare una piantana dell'area proibita Martello di ferro.",
+      "1": "Dopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione."
+    }
+  },
+  "ForbiddenZoneFloorLampNightlight": {
+    "name": "Piantana dell'area proibita Luce notturna",
+    "description": {
+      "0": "Un progetto con istruzioni passo dopo passo per realizzare una piantana dell'area proibita Luce notturna.",
+      "1": "Dopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione."
+    }
+  },
   "EfflorescentIllumination": {
     "name": "Illuminazione in boccio",
     "description": {
       "0": "Un progetto con istruzioni passo dopo passo per realizzare un'Illuminazione in boccio.",
+      "1": "Dopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione."
+    }
+  },
+  "AnnexsSwirlingLight": {
+    "name": "Luci a spirale della dépendance",
+    "description": {
+      "0": "Un progetto con istruzioni passo dopo passo per realizzare Luci a spirale della dépendance.",
       "1": "Dopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione."
     }
   },
@@ -27020,6 +27517,13 @@
     "name": "Scaffale in legno di athel",
     "description": {
       "0": "Un progetto con istruzioni passo dopo passo per realizzare uno scaffale in legno di Athel.",
+      "1": "Dopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione."
+    }
+  },
+  "MallowWoodMultiModelWardrobe": {
+    "name": "Armadio multimodello in legno di malva",
+    "description": {
+      "0": "Un progetto con istruzioni passo dopo passo per realizzare un armadio multimodello in legno di malva.",
       "1": "Dopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione."
     }
   },
@@ -27146,6 +27650,13 @@
     "name": "Piccolo aiutante della Maison Cardinalice",
     "description": {
       "0": "Un progetto con istruzioni passo dopo passo per realizzare un Piccolo aiutante della Maison Cardinalice.",
+      "1": "Dopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione."
+    }
+  },
+  "AThousandTextsInTheCentralHub": {
+    "name": "Momento di lettura nella stazione centrale",
+    "description": {
+      "0": "Un progetto con istruzioni passo dopo passo per realizzare Momento di lettura nella stazione centrale.",
       "1": "Dopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione."
     }
   },
@@ -27345,6 +27856,27 @@
       "1": "Dopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione."
     }
   },
+  "StableWorkStationInTheCentralHub": {
+    "name": "Postazione di lavoro stabile nella stazione centrale",
+    "description": {
+      "0": "Un progetto con istruzioni passo dopo passo per realizzare Postazione di lavoro stabile nella stazione centrale.",
+      "1": "Dopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione."
+    }
+  },
+  "RestTimeInTheCentralHub": {
+    "name": "Piccola pausa nella stazione centrale",
+    "description": {
+      "0": "Un progetto con istruzioni passo dopo passo per realizzare Piccola pausa nella stazione centrale.",
+      "1": "Dopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione."
+    }
+  },
+  "TheLeisureOfDailyMeetings": {
+    "name": "Piacevoli incontri quotidiani",
+    "description": {
+      "0": "Un progetto con istruzioni passo dopo passo per realizzare Piacevoli incontri quotidiani.",
+      "1": "Dopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione."
+    }
+  },
   "BreezeBlessedBed": {
     "name": "Letto Dolce brezza",
     "description": {
@@ -27440,6 +27972,13 @@
     "name": "Testimone d'affari",
     "description": {
       "0": "Un progetto con istruzioni passo dopo passo per realizzare un Testimone d'affari.",
+      "1": "Dopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione."
+    }
+  },
+  "CelebrationOfAnAdHocPerformance": {
+    "name": "Celebrazione di uno spettacolo ad hoc",
+    "description": {
+      "0": "Un progetto con istruzioni passo dopo passo per realizzare Celebrazione di uno spettacolo ad hoc.",
       "1": "Dopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione."
     }
   },
@@ -27573,6 +28112,27 @@
     "name": "Giubilio del bere in compagnia",
     "description": {
       "0": "Un progetto con istruzioni passo dopo passo per realizzare Giubilio del bere in compagnia.",
+      "1": "Dopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione."
+    }
+  },
+  "MallowWoodViewingRitesChair": {
+    "name": "Poltrone in legno di malva Galateo dello spettatore",
+    "description": {
+      "0": "Un progetto con istruzioni passo dopo passo per realizzare due poltrone in legno di malva Galateo dello spettatore.",
+      "1": "Dopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione."
+    }
+  },
+  "LindenWoodSubduingSeatBackedChair": {
+    "name": "Poltrona in legno di tiglio Scranna intimidatoria",
+    "description": {
+      "0": "Un progetto con istruzioni passo dopo passo per realizzare una poltrona in legno di tiglio Scranna intimidatoria.",
+      "1": "Dopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione."
+    }
+  },
+  "MomentaryRestInTheCentralHub": {
+    "name": "Momento di riposo nella stazione centrale",
+    "description": {
+      "0": "Un progetto con istruzioni passo dopo passo per realizzare Momento di riposo nella stazione centrale.",
       "1": "Dopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione."
     }
   },
@@ -27937,6 +28497,13 @@
     "name": "\"Onere del Forte proibito\"",
     "description": {
       "0": "Un progetto con istruzioni passo dopo passo per realizzare Onere del Forte proibito.",
+      "1": "Dopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione."
+    }
+  },
+  "StandardMusicStandAccurateTuning": {
+    "name": "Leggio standard Accordatura precisa",
+    "description": {
+      "0": "Un progetto con istruzioni passo dopo passo per realizzare un leggio standard Accordatura precisa.",
       "1": "Dopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione."
     }
   },
@@ -28479,6 +29046,13 @@
       "1": "Dopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione."
     }
   },
+  "CommonUseNoteHolder": {
+    "name": "Portabiglietti comune",
+    "description": {
+      "0": "Un progetto con istruzioni passo dopo passo per realizzare un portabiglietti comune.",
+      "1": "Dopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione."
+    }
+  },
   "RealizationsFromTheLandOfWisdom": {
     "name": "Zelo della Terra della Saggezza",
     "description": {
@@ -28700,6 +29274,13 @@
     "name": "Scudo metallico in legno di Athel",
     "description": {
       "0": "Un progetto con istruzioni passo dopo passo per realizzare uno scudo metallico in legno di Athel.",
+      "1": "Dopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione."
+    }
+  },
+  "IndoorLampTheTwilightSea": {
+    "name": "Lampada da interno Mare crepuscolare",
+    "description": {
+      "0": "Un progetto con istruzioni passo dopo passo per realizzare una lampada da interno Mare crepuscolare.",
       "1": "Dopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione."
     }
   },
@@ -29085,6 +29666,20 @@
     "name": "Standard di puntualità del Passage",
     "description": {
       "0": "Un progetto con istruzioni passo dopo passo per realizzare Standard di puntualità del Passage.",
+      "1": "Dopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione."
+    }
+  },
+  "QuickTemporaryWorkshed": {
+    "name": "Capanno da lavoro temporaneo",
+    "description": {
+      "0": "Un progetto con istruzioni passo dopo passo per realizzare un capanno da lavoro temporaneo.",
+      "1": "Dopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione."
+    }
+  },
+  "PoissonsSeasonalProduce": {
+    "name": "Prodotti stagionali di Poisson",
+    "description": {
+      "0": "Un progetto con istruzioni passo dopo passo per realizzare Prodotti stagionali di Poisson.",
       "1": "Dopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione."
     }
   },
@@ -29816,6 +30411,13 @@
       "1": "Dopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione."
     }
   },
+  "CourtyardPavilionAmidstTheRivers": {
+    "name": "Padiglione del giardino In mezzo ai fiumi",
+    "description": {
+      "0": "Un progetto con istruzioni passo dopo passo per realizzare un padiglione del giardino In mezzo ai fiumi.",
+      "1": "Dopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione."
+    }
+  },
   "CourtOfJusticesAuthenticity": {
     "name": "Autenticità della Corte di Giustizia",
     "description": {
@@ -29848,6 +30450,27 @@
     "name": "Granchietto in pietra",
     "description": {
       "0": "Un progetto con istruzioni passo dopo passo per realizzare un Granchietto in pietra.",
+      "1": "Dopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione."
+    }
+  },
+  "TheArenaWhereFistsReemerge": {
+    "name": "Arena della rinascita dei pugni",
+    "description": {
+      "0": "Un progetto con istruzioni passo dopo passo per realizzare Arena della rinascita dei pugni.",
+      "1": "Dopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione."
+    }
+  },
+  "TheWisdomOfPoisson": {
+    "name": "Saggezza di Poisson",
+    "description": {
+      "0": "Un progetto con istruzioni passo dopo passo per realizzare Saggezza di Poisson.",
+      "1": "Dopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione."
+    }
+  },
+  "ASimpleResidenceInPoisson": {
+    "name": "Residenza semplice a Poisson",
+    "description": {
+      "0": "Un progetto con istruzioni passo dopo passo per realizzare Residenza semplice a Poisson.",
       "1": "Dopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione."
     }
   },
@@ -30397,6 +31020,34 @@
       "1": "Dopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione."
     }
   },
+  "CourtyardCorridorTheMoraDividend": {
+    "name": "Sentiero del cortile Il dividendo dei Mora",
+    "description": {
+      "0": "Un progetto con istruzioni passo dopo passo per realizzare un corridoio del giardino Il dividendo dei Mora.",
+      "1": "Dopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione."
+    }
+  },
+  "CourtyardCorridorManifoldCorners": {
+    "name": "Sentiero del cortile Abbondanza angolare",
+    "description": {
+      "0": "Un progetto con istruzioni passo dopo passo per realizzare un corridoio del giardino Abbondanza angolare.",
+      "1": "Dopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione."
+    }
+  },
+  "CourtyardArchwayMomentOfGlory": {
+    "name": "Arco del giardino Momento di gloria",
+    "description": {
+      "0": "Un progetto con istruzioni passo dopo passo per realizzare un arco del giardino Momento di gloria.",
+      "1": "Dopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione."
+    }
+  },
+  "CourtyardWallABitOfScenery": {
+    "name": "Muro del giardino Uno scorcio",
+    "description": {
+      "0": "Un progetto con istruzioni passo dopo passo per realizzare un muro del giardino Uno scorcio.",
+      "1": "Dopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione."
+    }
+  },
   "FoundationsOfStoneFortunateTimes": {
     "name": "Selciato di pietra Tempi fortunati",
     "description": {
@@ -30891,6 +31542,13 @@
     "name": "Modello di meccanismo: Ancora penetrante",
     "description": {
       "0": "Un progetto con istruzioni passo dopo passo per realizzare un Modello di meccanismo: Ancora penetrante.",
+      "1": "Dopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione."
+    }
+  },
+  "BoxingTargetOfTheForbiddenFortress": {
+    "name": "Bersaglio da boxe del Forte proibito",
+    "description": {
+      "0": "Un progetto con istruzioni passo dopo passo per realizzare un bersaglio da boxe del Forte proibito.",
       "1": "Dopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione."
     }
   },
@@ -31657,6 +32315,55 @@
       "1": "Dopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione."
     }
   },
+  "OverburdeningOfTheForbiddenFortress": {
+    "name": "Eccedenza del Forte proibito",
+    "description": {
+      "0": "Un progetto con istruzioni passo dopo passo per realizzare Eccedenza del Forte proibito.",
+      "1": "Dopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione."
+    }
+  },
+  "AreaMarkerUpward": {
+    "name": "Segnale In alto",
+    "description": {
+      "0": "Un progetto con istruzioni passo dopo passo per realizzare un segnale In alto.",
+      "1": "Dopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione."
+    }
+  },
+  "AreaMarkerDownward": {
+    "name": "Segnale In basso",
+    "description": {
+      "0": "Un progetto con istruzioni passo dopo passo per realizzare un segnale In basso.",
+      "1": "Dopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione."
+    }
+  },
+  "PoissonDoorFrame": {
+    "name": "Telaio per porta di Poisson",
+    "description": {
+      "0": "Un progetto con istruzioni passo dopo passo per realizzare un telaio per porta di Poisson.",
+      "1": "Dopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione."
+    }
+  },
+  "BookshelfFreeReading": {
+    "name": "Portalibri Lettura libera",
+    "description": {
+      "0": "Un progetto con istruzioni passo dopo passo per realizzare un portalibri Lettura libera.",
+      "1": "Dopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione."
+    }
+  },
+  "BookshelfSpeedyBrowsing": {
+    "name": "Espositore Lettura veloce",
+    "description": {
+      "0": "Un progetto con istruzioni passo dopo passo per realizzare un espositore Lettura veloce.",
+      "1": "Dopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione."
+    }
+  },
+  "BookshelfFocusedEffect": {
+    "name": "Espositore Lettura intensa",
+    "description": {
+      "0": "Un progetto con istruzioni passo dopo passo per realizzare un espositore Lettura intensa.",
+      "1": "Dopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione."
+    }
+  },
   "PoolOfSapphireGrace": {
     "name": "Stagno Grazia mistica",
     "description": {
@@ -31948,6 +32655,20 @@
     "name": "Tavolo rotondo immacolato del Passage",
     "description": {
       "0": "Un progetto con istruzioni passo dopo passo per realizzare un tavolo rotondo immacolato del Passage.",
+      "1": "Dopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione."
+    }
+  },
+  "ProductionRackTheBasics": {
+    "name": "Supporto di produzione Fondamenti",
+    "description": {
+      "0": "Un progetto con istruzioni passo dopo passo per realizzare un supporto di produzione Fondamenti.",
+      "1": "Dopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione."
+    }
+  },
+  "ProductionRackCustomBuild": {
+    "name": "Supporto di produzione Su misura",
+    "description": {
+      "0": "Un progetto con istruzioni passo dopo passo per realizzare un supporto di produzione Su misura.",
       "1": "Dopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione."
     }
   },
