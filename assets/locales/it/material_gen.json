@@ -1066,7 +1066,7 @@
     "description": {}
   },
   "Xianyun": {
-    "name": "",
+    "name": "Xianyun",
     "description": {}
   },
   "KamisatoAyakasStellaFortuna": {
@@ -1544,8 +1544,10 @@
     }
   },
   "XianyunsStellaFortuna": {
-    "name": "",
-    "description": {}
+    "name": "Stella Fortuna di Xianyun",
+    "description": {
+      "0": "Materiale per l'attivazione della costellazione di Xianyun"
+    }
   },
   "GnosticHymnOldNotes": {
     "name": "Inno gnostico - Vecchi appunti",
@@ -6578,6 +6580,14 @@
       "0": "Una goccia di rugiada limpida che fluttua tra le acque della Regione di Morterre. Ha una natura diversa rispetto ad altri corpi d'acqua, essendo un agglomerato di energia elementale ancora più pura e ancestrale."
     }
   },
+  "ClearwaterJade": {
+    "name": "",
+    "description": {}
+  },
+  "ChenyuAdeptea": {
+    "name": "",
+    "description": {}
+  },
   "BirchWood": {
     "name": "Legno di betulla",
     "description": {
@@ -10180,9 +10190,11 @@
       "1": "Questi Santuari delle Profondità si sigillarono quando la civiltà che li aveva realizzati scomparve. Le chiavi che si trovano nei luoghi più disparati del regno sono in grado di aprire i sigilli. O forse, solo per un momento, queste chiavi aiutano a far dimenticare ai sigilli tutto ciò che hanno perso."
     }
   },
-  "SpiritKoi": {
-    "name": "",
-    "description": {}
+  "SpiritCarp": {
+    "name": "Spirito koi",
+    "description": {
+      "0": "Una koi in forma spirituale creata dalla condensazione del potere adeptico, che nuota liberamente tra i monti e le valli fluviali."
+    }
   },
   "Dish": {
     "name": "Piatto",
@@ -12766,9 +12778,7 @@
   },
   "DeliciousFishWithCreamSauce": {
     "name": "Pesce alla besciamella delizioso",
-    "description": {
-      "0": "Un piatto di pesce servito in salsa. Il filetto traslucido riposa su una squisita besciamella. Basta un boccone per immaginare i pesci che saltano sul mare."
-    }
+    "description": {}
   },
   "ForestWatchersChoice": {
     "name": "Scelta del Guardiano della foresta",
@@ -13882,116 +13892,172 @@
     }
   },
   "SuspiciousEightTreasureDuck": {
-    "name": "Anatra agli Otto tesori sospetta",
-    "description": {}
+    "name": "Anatra agli otto tesori sospetta",
+    "description": {
+      "0": "Una vivanda la cui preparazione richiede abilità fuori dal comune. Dopo aver finito di rimuovere tutte le ossa, senti gli occhi bruciarti. Sembra che questo piatto abbia messo a dura prova non soltanto le tue capacità culinarie, ma anche la tua resistenza fisica e la tua pazienza. Un gran peccato, quindi, che l'anatra, così accuratamente disposta, si sia completamente spappolata all'interno della padella... Meglio non provarci mai più. Chiudi gli occhi e fai dei respiri profondi."
+    }
   },
   "EightTreasureDuck": {
-    "name": "",
-    "description": {}
+    "name": "Anatra agli otto tesori",
+    "description": {
+      "0": "Una vivanda la cui preparazione richiede abilità fuori dal comune. Consiste in un'anatra disossata e imbottita con otto tipi di carni e verdure, conosciuti come gli \"Otto tesori\", modellata dunque a forma di zucca come simbolo di buon auspicio. Esige ingredienti di prima scelta, abilità di taglio eccezionali e tempi di cottura scrupolosi, il tutto per dare vita a ciò che viene considerato la portata finale di ogni banchetto."
+    }
   },
   "DeliciousEightTreasureDuck": {
-    "name": "Anatra agli Otto tesori deliziosa",
-    "description": {}
+    "name": "Anatra agli otto tesori deliziosa",
+    "description": {
+      "0": "Una vivanda la cui preparazione richiede abilità fuori dal comune. Appena tolta dal fuoco, la paffuta e succulenta anatra della buona sorte ha un aspetto irresistibile. Con l'aggiunta di un sughetto profumato e un filo d'olio, costituisce la combinazione perfetta di colore, gusto e forma. Ogni morso è un'autentica cascata di sapore che permane a lungo sul palato."
+    }
   },
   "SuspiciousDeepFriedDoublecrisp": {
     "name": "Frittura super croccante sospetta",
-    "description": {}
+    "description": {
+      "0": "Un famoso piatto di Liyue. È bastato un movimento inconsulto per scatenare una fiammata che ha mandato tutta la croccantezza e la tenerezza degli ingredienti... a farsi friggere. Ciò che ne resta sono solo pezzettoni bruciacchiati e anneriti."
+    }
   },
   "DeepFriedDoublecrisp": {
-    "name": "",
-    "description": {}
+    "name": "Frittura super croccante",
+    "description": {
+      "0": "Uno dei piatti più famosi di Liyue. Tra la fiamma viva, l'olio bollente e la rosolatura, il processo di cottura costituisce un'autentica prova di abilità: basta anche solo qualche secondo di differenza per ritrovarsi con degli ingredienti troppo crudi o eccessivamente cotti, compromettendo la loro croccantezza finale. Data l'abilità richiesta per la sua preparazione, questo piatto è usato dai cuochi più esperti di Liyue come dimostrazione delle proprie capacità."
+    }
   },
   "DeliciousDeepFriedDoublecrisp": {
     "name": "Frittura super croccante deliziosa",
-    "description": {}
+    "description": {
+      "0": "Un famoso piatto di Liyue. I fiori dentellati di carne rossa e bianca, saltati tutti insieme in padella, sbocciano sulla tua lingua come un prato di gusto. Una pietanza raffinata, croccante, salata e dal sapore ricco, da non lasciarsi assolutamente scappare. Anche dopo aver ripulito il piatto, non puoi fare a meno di continuare a decantarne la squisitezza."
+    }
   },
   "SuspiciousBraisedMeatballs": {
     "name": "Polpette stufate sospette",
-    "description": {}
+    "description": {
+      "0": "Un classico piatto di Liyue. La forma arrotondata e l'aroma sembrano quelli giusti, ma appena assaggiate la consistenza risulta fin troppo asciutta. Non è che hai usato un po' troppa carne magra?"
+    }
   },
   "BraisedMeatballs": {
-    "name": "",
-    "description": {}
+    "name": "Polpette stufate",
+    "description": {
+      "0": "Un classico piatto di Liyue. Pezzi di carne grassi e sottili vengono mescolati con germogli di bambù croccanti e impastati per dare loro la forma di palline, che vengono fritte e infine bollite. Il piatto che ne risulta è estremamente popolare, e trova posto sia sulle tavole casalinghe che nei banchetti più sontuosi."
+    }
   },
   "DeliciousBraisedMeatballs": {
     "name": "Polpette stufate deliziose",
-    "description": {}
+    "description": {
+      "0": "Un classico piatto di Liyue. Le cipolle smeraldine e le polpette di carne rosse si sposano tra loro alla perfezione, e il taglio abile e preciso della carne le dona una scioglievolezza senza pari. Una delizia grassa ma non untuosa che ti resterà in testa per un'intera settimana. Ricordati di ripulire bene il piatto come segno di buona fortuna!"
+    }
   },
   "SuspiciousHoneyCharSiu": {
     "name": "Char siu al miele sospetto",
-    "description": {}
+    "description": {
+      "0": "Un piatto di carne arrostita tipico di Liyue. Il condimento eccessivamente dolce risulta oltremodo stucchevole. Secondo un modo di dire del posto, \"un minuto di troppo fa una bella differenza\", e sembra sia proprio vero quando si tratta di cucina."
+    }
   },
   "HoneyCharSiu": {
-    "name": "",
-    "description": {}
+    "name": "Char siu al miele",
+    "description": {
+      "0": "Un piatto di carne arrostita tipico di Liyue. Come suggerito dal nome, la carne marinata viene infilzata con una speciale forchetta in metallo e poi messa ad arrostire sul fuoco. Per i più ghiotti, il sapore del char siu appena cotto è uno dei piaceri più gustosi."
+    }
   },
   "DeliciousHoneyCharSiu": {
     "name": "Char siu al miele delizioso",
-    "description": {}
+    "description": {
+      "0": "Un piatto di carne arrostita tipico di Liyue. Un colore rosso acceso, un aroma intenso e un sapore intenso. Chiunque lo fissi per più di qualche minuto potrebbe svenire per l'eccessiva salivazione. Tra i bocconi di carne di prima qualità e la ricca salsa, una semplice scodella di riso non può nulla contro una simile esperienza di gusto!"
+    }
   },
   "SuspiciousFineTeaFullMoon": {
-    "name": "Tè con la luna piena sospetto",
-    "description": {}
+    "name": "Lune piene con tè sospette",
+    "description": {
+      "0": "Un dolce per il tè preparato con tuorlo d'uovo. Mentre lo raccogli, i vari strati si sfaldano come terra durante una frana. Il primo morso risulta appiccicoso, dolciastro e stucchevole... E ops, senti qualcosa che ti si è bloccato in gola. Bevi un po' d'acqua per ingoiarlo, penserai dopo a come sbarazzarti del resto."
+    }
   },
   "FineTeaFullMoon": {
-    "name": "",
-    "description": {}
+    "name": "Lune piene con tè",
+    "description": {
+      "0": "Un dolce per il tè preparato con tuorlo d'uovo. Il tuorlo viene salato e cotto al vapore, poi coperto e avvolto in un impasto a base di farina mescolata con tè in polvere. L'impasto viene quindi modellato per donargli la forma di una luna piena e poi messo a cuocere in forno. Il risultato finale offre uno strato esterno croccante e friabile che racchiude un cuore sia salato che dolce. Un'autentica delizia di cui è impossibile fare a meno."
+    }
   },
   "DeliciousFineTeaFullMoon": {
-    "name": "Tè con la luna piena delizioso",
-    "description": {}
+    "name": "Lune piene con tè deliziose",
+    "description": {
+      "0": "Un dolce per il tè preparato con tuorlo d'uovo. La consistenza morbida e delicata del tuorlo a granuli si fonde perfettamente con il leggero aroma del tè. Ne basta un morso per infonderti una felicità terrena capace di mandarti in estasi. Potresti mangiarne ben più di una porzione, e guai a chiunque tenti di rubare anche solo una briciola dall'angolo delle tue labbra."
+    }
   },
   "SuspiciousJadeveinTeaEggs": {
-    "name": "Uova al tè color giada sospette",
-    "description": {}
+    "name": "Uova al tè di giada sospette",
+    "description": {
+      "0": "Uno spuntino tradizionale di Liyue. Il sapore non è diverso da quello di semplici uova sode. Che sia andato storto qualcosa con il tè o durante la preparazione?"
+    }
   },
   "JadeveinTeaEggs": {
-    "name": "",
-    "description": {}
+    "name": "Uova al tè di giada",
+    "description": {
+      "0": "Una merenda tradizionale ampiamente diffusa tra le strade e le viuzze di Liyue. Il sapore del tè filtra nei gusci delle uova durante la bollitura, e le crepe sui gusci assumono un colore simile a degli splendidi e frammentati motivi di giada."
+    }
   },
   "DeliciousJadeveinTeaEggs": {
-    "name": "Uova al tè color giada deliziose",
-    "description": {}
+    "name": "Uova al tè di giada deliziose",
+    "description": {
+      "0": "Uno spuntino tradizionale di Liyue. L'aroma del tè si fonde perfettamente con le uova. Che tu lo mangi in un sol boccone o a piccoli morsi, è una vera delizia."
+    }
   },
   "SuspiciousTeaSmokedSquab": {
     "name": "Piccione affumicato al tè sospetto",
-    "description": {}
+    "description": {
+      "0": "Un piatto molto popolare. Le bruciature sulle cosce e sulle ali denotano una scarsa attenzione in fase di cottura ma, con un po' di pazienza, potresti persino mangiarlo."
+    }
   },
   "TeaSmokedSquab": {
-    "name": "",
-    "description": {}
+    "name": "Piccione affumicato al tè",
+    "description": {
+      "0": "Un piatto molto popolare. Il piccione viene lasciato marinare un'intera notte nel tè e nella salsa, dopodiché viene fatto essiccare e friggere soffondendo la carne con il delizioso aroma del tè. Questa tecnica viene tramandata da diverse generazioni, e la pietanza che ne deriva è considerata una rara prelibatezza."
+    }
   },
   "DeliciousTeaSmokedSquab": {
     "name": "Piccione affumicato al tè delizioso",
-    "description": {}
+    "description": {
+      "0": "Un piatto molto popolare. La pelle semitrasparente è croccante e sottile come un foglio di carta ocra, e la carne è soda e polposa. Accompagnato da una salsa delicata, questo piatto conquisterà sia i cuori che gli stomaci."
+    }
   },
   "SuspiciousGuhuaFishLambSoup": {
     "name": "Pesce alla Guhua con zuppa d'agnello sospetto",
-    "description": {}
+    "description": {
+      "0": "Un piatto antico, la cui origine si perde nella storia. Ahimè, non c'è tempo per preoccuparsi di questioni del genere, mentre l'agnello e il pesce si contendono il predominio nella tua bocca. Dopo questo boccone, le tue povere papille gustative implorano acqua."
+    }
   },
   "GuhuaFishLambSoup": {
-    "name": "",
-    "description": {}
+    "name": "Pesce alla Guhua con zuppa d'agnello",
+    "description": {
+      "0": "Un piatto antico, la cui origine si perde nella storia. Pesce fresco e carne ovina vengono stufati insieme, unendo la tenerezza del pesce con la succulenza dell'agnello e dando vita a un'autentica leccornia."
+    }
   },
   "DeliciousGuhuaFishLambSoup": {
     "name": "Pesce alla Guhua con zuppa d'agnello delizioso",
-    "description": {}
+    "description": {
+      "0": "Un piatto antico, la cui origine si perde nella storia. Mentre la zuppa bianco latte ti scende in gola, vorresti avere due stomaci. Gustala in inverno, e desidererai di mangiarla ancora in primavera."
+    }
   },
   "SuspiciousChenyuBrew": {
     "name": "Tè alla Chenyu sospetto",
-    "description": {}
+    "description": {
+      "0": "Del comune tè di Liyue. Non fai che sorseggiarlo con fare dubbioso solo per arrivare alla conclusione che sì, questo cosiddetto tè sa di acqua. Che sia per via della bassa temperatura, o il tempo d'infusione è stato troppo breve?"
+    }
   },
   "ChenyuBrew": {
-    "name": "",
-    "description": {}
+    "name": "Tè alla Chenyu",
+    "description": {
+      "0": "Del comune tè di Liyue. Secondo alcuni, la vita è simile al dolce retrogusto che si avverte mentre si assapora questa bevanda."
+    }
   },
   "DeliciousChenyuBrew": {
     "name": "Tè alla Chenyu delizioso",
-    "description": {}
+    "description": {
+      "0": "Del comune tè di Liyue. Il sorso iniziale è garbato come una brezza leggera, e il dolce aroma della Vallata Chenyu si sofferma sulle tue labbra e sulla lingua. Ascolta: quello che risuona nelle tue orecchie non è forse il mormorio delle sorgenti di montagna?"
+    }
   },
   "EncompassingGladness": {
     "name": "Letizia avvolgente",
-    "description": {}
+    "description": {
+      "0": "La specialità di Xianyun. Ancor prima di poter guardare con un'espressione scioccata queste polpette fragranti, ti dice: \"Ah, com'è possibile che un piatto tanto mediocre mi crei confusione? Beh, cerca di mangiarlo finché è caldo. Costei ti augura pace, gioia, prosperità e libertà dall'angoscia... *tossisce* Cosa? Un po' di cerimonie non nuoceranno di certo a nessuno\"."
+    }
   },
   "RecipeItem": {
     "name": "Ingrediente",
@@ -15057,9 +15123,9 @@
     }
   },
   "RecipeEightTreasureDuck": {
-    "name": "Ricetta: anatra agli Otto tesori",
+    "name": "Ricetta: anatra agli otto tesori",
     "description": {
-      "0": "Una ricetta passo dopo passo per preparare dell'anatra agli Otto tesori."
+      "0": "Una ricetta passo dopo passo per preparare dell'anatra agli otto tesori."
     }
   },
   "RecipeDeepFriedDoublecrisp": {
@@ -15081,15 +15147,15 @@
     }
   },
   "RecipeFineTeaFullMoon": {
-    "name": "Ricetta: Tè con la luna piena",
+    "name": "Ricetta: Lune piene con tè",
     "description": {
-      "0": "Una ricetta passo dopo passo per preparare dei Tè con la luna piena."
+      "0": "Una ricetta passo dopo passo per preparare delle Lune piene con tè."
     }
   },
   "RecipeJadeveinTeaEggs": {
-    "name": "Ricetta: uova al tè color giada",
+    "name": "Ricetta: uova al tè di giada",
     "description": {
-      "0": "Una ricetta passo dopo passo per preparare delle uova al tè color giada."
+      "0": "Una ricetta passo dopo passo per preparare delle uova al tè di giada."
     }
   },
   "RecipeTeaSmokedSquab": {
@@ -16011,9 +16077,7 @@
   },
   "FeatheryFin": {
     "name": "Pinna piumata",
-    "description": {
-      "0": "???"
-    }
+    "description": {}
   },
   "LunarFin": {
     "name": "Pinna lunare",
@@ -19344,21 +19408,21 @@
     }
   },
   "TimeTrekkerI": {
-    "name": "",
+    "name": "Il Crononauta (I)",
     "description": {
-      "0": "？？？"
+      "0": "???"
     }
   },
   "TimeTrekkerII": {
-    "name": "",
+    "name": "Il Crononauta (II)",
     "description": {
-      "0": "？？？"
+      "0": "???"
     }
   },
   "TimeTrekkerIII": {
-    "name": "",
+    "name": "Il Crononauta (III)",
     "description": {
-      "0": "？？？"
+      "0": "???"
     }
   },
   "GiftOfParting": {
@@ -19976,19 +20040,19 @@
     }
   },
   "PictureLotusPondBeneathTheMoon": {
-    "name": "Foto: laghetto dei loti sotto la luna",
+    "name": "Foto: Laghetto dei loti sotto la luna",
     "description": {
       "0": "Una splendida immagine del laghetto dei loti, immerso nel chiarore della luna."
     }
   },
   "PictureGuestsOfQiaoying": {
-    "name": "Foto: ospiti a Qiaoying",
+    "name": "Foto: Ospiti a Qiaoying",
     "description": {
       "0": "Una splendida immagine del Villaggio di Qiaoying."
     }
   },
   "PictureTranquilJademouth": {
-    "name": "Foto: quiete alla Bocca di Giada",
+    "name": "Foto: Quiete alla Bocca di Giada",
     "description": {
       "0": "Una splendida immagine della Bocca di Giada."
     }
@@ -20320,6 +20384,10 @@
       "1": "Sembra essersi fermato in un momento ben preciso, trasformando quell'istante in un ricordo stupendo ed eterno."
     }
   },
+  "AncientTreeBranch": {
+    "name": "",
+    "description": {}
+  },
   "AureliesNotesII": {
     "name": "Appunti di Aurélie (II)",
     "description": {
@@ -20407,6 +20475,14 @@
       "0": "Strano messaggio"
     }
   },
+  "WangshanHallBackupKey": {
+    "name": "",
+    "description": {}
+  },
+  "ThePaimonSpecial": {
+    "name": "",
+    "description": {}
+  },
   "AutumnsGift": {
     "name": "Regalo di Autumn",
     "description": {
@@ -20452,6 +20528,10 @@
     "name": "Libro di storie",
     "description": {}
   },
+  "CarpSpiritOrb": {
+    "name": "",
+    "description": {}
+  },
   "Certificate": {
     "name": "Certificato",
     "description": {}
@@ -20468,11 +20548,31 @@
     "name": "Diario",
     "description": {}
   },
+  "JadeFragmentLeft": {
+    "name": "",
+    "description": {}
+  },
+  "JadeFragmentRight": {
+    "name": "",
+    "description": {}
+  },
+  "FragrantWoodHuangcong": {
+    "name": "",
+    "description": {}
+  },
+  "FragrantWoodChizhang": {
+    "name": "",
+    "description": {}
+  },
   "OurChenyuValeTrekAlbum": {
     "name": "Album \"La nostra gita alla Vallata Chenyu\"",
     "description": {
       "0": "Un album di foto ricordo che contiene un gran numero di splendide immagini. Più della metà di questi scatti sono opera della stessa persona. Davvero incredibile."
     }
+  },
+  "StrangeKey": {
+    "name": "",
+    "description": {}
   },
   "ShootingPracticeOpticalLenses": {
     "name": "Lenti ottiche per pratica di tiro",
@@ -20504,6 +20604,44 @@
     "description": {
       "0": "Il fattorino del giornale, Pip, ha inzeppato al suo interno tutti i giornali che la famiglia Leroy non ha ritirato negli ultimi tempi."
     }
+  },
+  "ForgottenKeyI": {
+    "name": "",
+    "description": {}
+  },
+  "ForgottenKeyII": {
+    "name": "",
+    "description": {}
+  },
+  "XuanlianSacredWater": {
+    "name": "",
+    "description": {}
+  },
+  "AncientJadeCup": {
+    "name": "",
+    "description": {}
+  },
+  "SomeonesLedger": {
+    "name": "",
+    "description": {}
+  },
+  "VotiveRainjade": {
+    "name": "",
+    "description": {
+      "0": "L'ultima gemma scagliata dall'Adepta Fujin nei tempi antichi. Sebbene non sembri diversa dalle gemme comuni, contiene una quantità di energia adeptica sufficiente da trasformare l'acqua e il suolo circostanti in un istante..."
+    }
+  },
+  "ChizhangAtlas": {
+    "name": "",
+    "description": {}
+  },
+  "AncientCityKey": {
+    "name": "",
+    "description": {}
+  },
+  "FishSeizedFromAPelicansMouth": {
+    "name": "",
+    "description": {}
   },
   "TearsAmongTheStars": {
     "name": "Lacrime tra le stelle",
@@ -20968,6 +21106,10 @@
       "1": "Rispetto ai modelli prodotti in serie, questo speciale \"Leader dorato\" vanta un rivestimento d'oro chiaro e un'attrezzatura di controllo speciale. La squadra di sviluppo l'aveva progettato per svolgere il ruolo di stazione ripetitrice per gli ambienti subacquei particolarmente complessi, per ricevere i comandi del supervisore e ritrasmetterli a tutti gli altri Meka del gruppo, svolgendo efficacemente il ruolo di leader.",
       "2": "Tuttavia, dato che il progetto dei Meka manutentori è stato interrotto, questi leader Meka hanno perso la loro ragion d'essere. Solo il loro vistoso rivestimento color oro chiaro dà loro un valore agli occhi dei pescatori che li collezionano."
     }
+  },
+  "JadeHeartfeatherBass": {
+    "name": "",
+    "description": {}
   },
   "WingsOfFirstFlight": {
     "name": "Ali del principiante",
@@ -21783,7 +21925,7 @@
   "RadiantSpincrystal107": {
     "name": "Voltacristallo radioso 107",
     "description": {
-      "0": "Questo meraviglioso cristallo contiene un certo ritmo, come una meraviglia intessuta con della seta delicata. Questi oggetti sono sparsi per tutto il continente o si possono reperire dai mercanti che collezionano rarità. La melodia contenuta all'interno del cristallo può essere ravvivata nella Serenteiera usando Eufonio libero Sinuosità o Eufonio libero Crescendo. La melodia contenuta all'interno di questo Voltacristallo radioso è Demain, des l'aube."
+      "0": "Questo meraviglioso cristallo contiene un certo ritmo, come una meraviglia intessuta con della seta delicata. Questi oggetti sono sparsi per tutto il continente o si possono reperire dai mercanti che collezionano rarità. La melodia contenuta all'interno del cristallo può essere ravvivata nella Serenteiera usando Eufonio libero Sinuosità o Eufonio libero Crescendo. La melodia contenuta all'interno di questo Voltacristallo radioso è Demain, dès l'aube."
     }
   },
   "RadiantSpincrystal108": {
@@ -21866,23 +22008,33 @@
   },
   "RadiantSpincrystal121": {
     "name": "Voltacristallo radioso 121",
-    "description": {}
+    "description": {
+      "0": "Questo meraviglioso cristallo contiene un certo ritmo, come una meraviglia intessuta con della seta delicata. Questi oggetti sono sparsi per tutto il continente o si possono reperire dai mercanti che collezionano rarità. La melodia contenuta all'interno di questo Voltacristallo radioso è una melodia misteriosa proveniente da Liyue, e può essere ravvivata nella Serenteiera usando Eufonio libero Sinuosità o Eufonio libero Crescendo."
+    }
   },
   "RadiantSpincrystal122": {
     "name": "Voltacristallo radioso 122",
-    "description": {}
+    "description": {
+      "0": "Questo meraviglioso cristallo contiene un certo ritmo, come una meraviglia intessuta con della seta delicata. Questi oggetti sono sparsi per tutto il continente o si possono reperire dai mercanti che collezionano rarità. La melodia contenuta all'interno di questo Voltacristallo radioso è una melodia misteriosa proveniente da Liyue, e può essere ravvivata nella Serenteiera usando Eufonio libero Sinuosità o Eufonio libero Crescendo."
+    }
   },
   "RadiantSpincrystal123": {
     "name": "Voltacristallo radioso 123",
-    "description": {}
+    "description": {
+      "0": "Questo meraviglioso cristallo contiene un certo ritmo, come una meraviglia intessuta con della seta delicata. Questi oggetti sono sparsi per tutto il continente o si possono reperire dai mercanti che collezionano rarità. La melodia contenuta all'interno di questo Voltacristallo radioso è una melodia misteriosa proveniente da Liyue, e può essere ravvivata nella Serenteiera usando Eufonio libero Sinuosità o Eufonio libero Crescendo."
+    }
   },
   "RadiantSpincrystal124": {
     "name": "Voltacristallo radioso 124",
-    "description": {}
+    "description": {
+      "0": "Questo meraviglioso cristallo contiene un certo ritmo, come una meraviglia intessuta con della seta delicata. Questi oggetti sono sparsi per tutto il continente o si possono reperire dai mercanti che collezionano rarità. La melodia contenuta all'interno di questo Voltacristallo radioso è una melodia misteriosa proveniente da Liyue, e può essere ravvivata nella Serenteiera usando Eufonio libero Sinuosità o Eufonio libero Crescendo."
+    }
   },
   "RadiantSpincrystal125": {
     "name": "Voltacristallo radioso 125",
-    "description": {}
+    "description": {
+      "0": "Questo meraviglioso cristallo contiene un certo ritmo, come una meraviglia intessuta con della seta delicata. Questi oggetti sono sparsi per tutto il continente o si possono reperire dai mercanti che collezionano rarità. La melodia contenuta all'interno di questo Voltacristallo radioso è una melodia misteriosa proveniente da Liyue, e può essere ravvivata nella Serenteiera usando Eufonio libero Sinuosità o Eufonio libero Crescendo."
+    }
   },
   "LanternFiber": {
     "name": "Fibra per lanterna",
@@ -23612,6 +23764,22 @@
       "1": "Chissà quanto ci vorrà prima che la cinematografia a Teyvat giunga al punto di reinventare l'arte di \"scolpire il tempo\". Ciononostante, questa scena ha immortalato un passato colmo di peccati."
     }
   },
+  "AchievementAdeptalValley": {
+    "name": "",
+    "description": {}
+  },
+  "AchievementRainjadeRite": {
+    "name": "",
+    "description": {}
+  },
+  "TravelNotesVividFlight": {
+    "name": "Pass battaglia: Colori in volo",
+    "description": {}
+  },
+  "AlbumTheStellarMoments": {
+    "name": "",
+    "description": {}
+  },
   "AnemoculusResonanceStone": {
     "name": "Pietra di risonanza per Anemoculi",
     "description": {
@@ -24680,12 +24848,16 @@
     }
   },
   "CryoHypostasis": {
-    "name": "",
-    "description": {}
+    "name": "Ipostasi di Cryo",
+    "description": {
+      "0": "Una carta per il gioco da tavolo Invokazione del genio. È fatta di un materiale resistente, e l'illustrazione sulla parte frontale è realizzata con un metodo di stampa speciale che le dona un aspetto assolutamente impeccabile."
+    }
   },
   "MillennialPearlSeahorse": {
-    "name": "",
-    "description": {}
+    "name": "Ippocampo Perlamillenario",
+    "description": {
+      "0": "Una carta per il gioco da tavolo Invokazione del genio. È fatta di un materiale resistente, e l'illustrazione sulla parte frontale è realizzata con un metodo di stampa speciale che le dona un aspetto assolutamente impeccabile."
+    }
   },
   "UndividedHeart": {
     "name": "Cuore indivisibile",
@@ -25114,20 +25286,28 @@
     }
   },
   "ASubordinatesSkills": {
-    "name": "",
-    "description": {}
+    "name": "Le abilità di un sottoposto",
+    "description": {
+      "0": "Una carta per il gioco da tavolo Invokazione del genio. È fatta di un materiale resistente, e l'illustrazione sulla parte frontale è realizzata con un metodo di stampa speciale che le dona un aspetto assolutamente impeccabile."
+    }
   },
   "SkivingNewAndImproved": {
-    "name": "",
-    "description": {}
+    "name": "Pigrizia, nuove tecniche",
+    "description": {
+      "0": "Una carta per il gioco da tavolo Invokazione del genio. È fatta di un materiale resistente, e l'illustrazione sulla parte frontale è realizzata con un metodo di stampa speciale che le dona un aspetto assolutamente impeccabile."
+    }
   },
   "SternfrostPrism": {
     "name": "Prisma del gelo inamovibile",
-    "description": {}
+    "description": {
+      "0": "Una carta per il gioco da tavolo Invokazione del genio. È fatta di un materiale resistente, e l'illustrazione sulla parte frontale è realizzata con un metodo di stampa speciale che le dona un aspetto assolutamente impeccabile."
+    }
   },
   "PearlSolidification": {
     "name": "Solidificazione perlacea",
-    "description": {}
+    "description": {
+      "0": "Una carta per il gioco da tavolo Invokazione del genio. È fatta di un materiale resistente, e l'illustrazione sulla parte frontale è realizzata con un metodo di stampa speciale che le dona un aspetto assolutamente impeccabile."
+    }
   },
   "MagicGuide": {
     "name": "Manuale di magia",
@@ -25538,12 +25718,16 @@
     }
   },
   "SapwoodBlade": {
-    "name": "",
-    "description": {}
+    "name": "Lama di alburno",
+    "description": {
+      "0": "Una carta per il gioco da tavolo Invokazione del genio. È fatta di un materiale resistente, e l'illustrazione sulla parte frontale è realizzata con un metodo di stampa speciale che le dona un aspetto assolutamente impeccabile."
+    }
   },
   "VeteransVisage": {
-    "name": "",
-    "description": {}
+    "name": "Volto del veterano",
+    "description": {
+      "0": "Una carta per il gioco da tavolo Invokazione del genio. È fatta di un materiale resistente, e l'illustrazione sulla parte frontale è realizzata con un metodo di stampa speciale che le dona un aspetto assolutamente impeccabile."
+    }
   },
   "LiyueHarborWharf": {
     "name": "Molo del Porto di Liyue",
@@ -25780,12 +25964,16 @@
     }
   },
   "Jeht": {
-    "name": "",
-    "description": {}
+    "name": "Jeht",
+    "description": {
+      "0": "Una carta per il gioco da tavolo Invokazione del genio. È fatta di un materiale resistente, e l'illustrazione sulla parte frontale è realizzata con un metodo di stampa speciale che le dona un aspetto assolutamente impeccabile."
+    }
   },
   "SilverAndMelus": {
-    "name": "",
-    "description": {}
+    "name": "Silver e Melus",
+    "description": {
+      "0": "Una carta per il gioco da tavolo Invokazione del genio. È fatta di un materiale resistente, e l'illustrazione sulla parte frontale è realizzata con un metodo di stampa speciale che le dona un aspetto assolutamente impeccabile."
+    }
   },
   "ElementalResonanceWovenIce": {
     "name": "Risonanza elementale: Ghiaccio intrecciato",
@@ -26095,11 +26283,15 @@
   },
   "MachineAssemblyLine": {
     "name": "Catena di montaggio meccanica",
-    "description": {}
+    "description": {
+      "0": "Una carta per il gioco da tavolo Invokazione del genio. È fatta di un materiale resistente, e l'illustrazione sulla parte frontale è realizzata con un metodo di stampa speciale che le dona un aspetto assolutamente impeccabile."
+    }
   },
   "SunyataFlower": {
     "name": "Fiore di Sunyata",
-    "description": {}
+    "description": {
+      "0": "Una carta per il gioco da tavolo Invokazione del genio. È fatta di un materiale resistente, e l'illustrazione sulla parte frontale è realizzata con un metodo di stampa speciale che le dona un aspetto assolutamente impeccabile."
+    }
   },
   "Origin": {
     "name": "Origine",
@@ -27421,6 +27613,26 @@
       "0": "Un progetto con istruzioni passo dopo passo per realizzare una piantana dell'area proibita Luce notturna.",
       "1": "Dopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione."
     }
+  },
+  "ArtisanalFishLanternCarpsWell": {
+    "name": "",
+    "description": {}
+  },
+  "ArtisanFishLanternSpringProfits": {
+    "name": "",
+    "description": {}
+  },
+  "PortFloorLightWispOfFragrance": {
+    "name": "",
+    "description": {}
+  },
+  "PortStreetLightGoodThingsComeInPairs": {
+    "name": "",
+    "description": {}
+  },
+  "ValleyStoneLampEverbrightLight": {
+    "name": "",
+    "description": {}
   },
   "EfflorescentIllumination": {
     "name": "Illuminazione in boccio",
@@ -29403,6 +29615,58 @@
       "1": "Dopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione."
     }
   },
+  "ValleyStageBillowingCloudWaves": {
+    "name": "",
+    "description": {}
+  },
+  "ValleyVerandaDistantBeginnings": {
+    "name": "",
+    "description": {}
+  },
+  "ValleyVerandaFromSolidFoundationsToThrive": {
+    "name": "",
+    "description": {}
+  },
+  "ValleyPavilionWarmDaylight": {
+    "name": "",
+    "description": {}
+  },
+  "ValleyStoneArchwayRecurringOmenOfAbundance": {
+    "name": "",
+    "description": {}
+  },
+  "ValleyPergolaSunAndRain": {
+    "name": "",
+    "description": {}
+  },
+  "ValleyWatchtowerVigilance": {
+    "name": "",
+    "description": {}
+  },
+  "ValleyResidenceToweringMountains": {
+    "name": "",
+    "description": {}
+  },
+  "ValleyResidenceTranquility": {
+    "name": "",
+    "description": {}
+  },
+  "ValleyResidenceCustomComplexity": {
+    "name": "",
+    "description": {}
+  },
+  "ValleyResidenceTotalFocus": {
+    "name": "",
+    "description": {}
+  },
+  "ValleyResidenceTenderCountryside": {
+    "name": "",
+    "description": {}
+  },
+  "ValleyResidenceMeasuredBuilding": {
+    "name": "",
+    "description": {}
+  },
   "MultiArchedMondstadtBuilding": {
     "name": "Edificio di Mondstadt con archi",
     "description": {
@@ -31048,6 +31312,46 @@
       "1": "Dopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione."
     }
   },
+  "ValleyGateBustlingYard": {
+    "name": "",
+    "description": {}
+  },
+  "ValleyGateMountainsBeyondTheThreshold": {
+    "name": "",
+    "description": {}
+  },
+  "ValleyCaveTheFansWindingPath": {
+    "name": "",
+    "description": {}
+  },
+  "ValleyWallCornerLikeGatheringWaves": {
+    "name": "",
+    "description": {}
+  },
+  "ValleyStoneWallJadeBeltRiver": {
+    "name": "",
+    "description": {}
+  },
+  "ValleyStoneWallFlowersAndWillows": {
+    "name": "",
+    "description": {}
+  },
+  "ValleyStoneWallCarpAndKite": {
+    "name": "",
+    "description": {}
+  },
+  "ValleyGableWardingWindAndFire": {
+    "name": "",
+    "description": {}
+  },
+  "ValleyGableRainShelter": {
+    "name": "",
+    "description": {}
+  },
+  "ValleyStoneStepsFoundationStone": {
+    "name": "",
+    "description": {}
+  },
   "FoundationsOfStoneFortunateTimes": {
     "name": "Selciato di pietra Tempi fortunati",
     "description": {
@@ -32343,6 +32647,46 @@
       "1": "Dopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione."
     }
   },
+  "StoneDrumSonicReverberation": {
+    "name": "",
+    "description": {}
+  },
+  "WushouDanceCostumeRoaringSuanni": {
+    "name": "",
+    "description": {}
+  },
+  "WushouDanceDollSleepySuanni": {
+    "name": "",
+    "description": {}
+  },
+  "BanquetScreenDancingButterfliesAndLeapingFish": {
+    "name": "",
+    "description": {}
+  },
+  "BanquetScreenCryingHawksAndChirpingSparrows": {
+    "name": "",
+    "description": {}
+  },
+  "CelebratoryKiteSuccessiveProsperity": {
+    "name": "",
+    "description": {}
+  },
+  "CelebratoryKiteAllsWell": {
+    "name": "",
+    "description": {}
+  },
+  "CelebratoryKiteButterflyDance": {
+    "name": "",
+    "description": {}
+  },
+  "CelebratoryKiteProsperityAndWealth": {
+    "name": "",
+    "description": {}
+  },
+  "FragrantCedarWoodAnnouncementBoard": {
+    "name": "",
+    "description": {}
+  },
   "BookshelfFreeReading": {
     "name": "Portalibri Lettura libera",
     "description": {
@@ -32539,6 +32883,10 @@
       "1": "Dopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione."
     }
   },
+  "TeaChairCoolBreeze": {
+    "name": "",
+    "description": {}
+  },
   "TwoStoryHilichurlSentryTower": {
     "name": "Torre della sentinella hilichurliana",
     "description": {
@@ -32671,6 +33019,10 @@
       "0": "Un progetto con istruzioni passo dopo passo per realizzare un supporto di produzione Su misura.",
       "1": "Dopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione."
     }
+  },
+  "SquareTeaTableFriendlyWelcome": {
+    "name": "",
+    "description": {}
   },
   "WineShopDisplayCounterToYourHeartsContent": {
     "name": "Bancarella espositiva dell'enoteca Vino a volontà",

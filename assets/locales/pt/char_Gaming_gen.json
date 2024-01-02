@@ -1,8 +1,8 @@
 {
   "name": "Gaming",
-  "title": "???",
+  "title": "Olhar Leonino",
   "description": "",
-  "constellationName": "",
+  "constellationName": "Leo Expergiscens",
   "auto": {
     "name": "Lâmina Estelar",
     "fields": {
@@ -46,7 +46,7 @@
       "1": "Quando Gaming usar sua Habilidade Elemental, Ascensão Bestial, para ascender no ar, e se realizar um Ataque Imersivo, lançará um poderoso Ataque Imersivo: Caminhador das Nuvens.",
       "2": "<br/>",
       "3": "<strong>Ataque Imersivo: Caminhador das Nuvens</strong>",
-      "4": "O Dano do Ataque Imersivo da Habilidade Elemental Ascensão Bestial é convertido em <pyro>Dano Pyro</pyro>, e ao cair, consome uma certa quantidade da Vida de Gaming. É possível reduzir a Vida de Gaming em até 10% dessa forma.",
+      "4": "O Dano do Ataque Imersivo da Habilidade Elemental Ascensão Bestial é convertido em <pyro>Dano Pyro</pyro> que não pode ser substituído, e ao cair, consome uma certa quantidade da Vida de Gaming. É possível reduzir a Vida de Gaming em até 10% dessa forma.",
       "5": "O Dano de Caminhador das Nuvens é considerado Dano de Ataque Imersivo.",
       "6": "<br/>",
       "7": "<i>\"A besta salta e pega o verde, a prosperidade ao nosso redor. Que a riqueza e saúde venha para todos, e que sejamos abençoados!\"</i>"
@@ -73,14 +73,14 @@
   "burst": {
     "name": "Dança das Chamas Douradas",
     "description": {
-      "0": "Gaming entra na Postura Wushou, regenerando uma certa quantidade de Vida e invocando seu fiel companheiro, Leão de Chifres Man Chai para esmagar seu alvo, causando <pyro>Dano Pyro em AdE</pyro>.",
+      "0": "Gaming entra na Postura Wushou, <pyro>aplicando Pyro</pyro> em Gaming por um curto tempo regenerando uma certa quantidade de Vida e invocando seu fiel companheiro, o Suanni Man Chai para esmagar seu alvo, causando <pyro>Dano Pyro em AdE</pyro>.",
       "1": "Depois de atacar seu alvo, Man Chai vai rolar até um local próximo antes de se mover na direção de Gaming. Ao se reunir com Gaming, Man Chai recuará, e redefinirá a recarga da Habilidade Elemental \"Ascensão Bestial\" de Gaming.",
       "2": "Na duração da Postura Wushou, realizar um Ataque Imersivo: Caminhador das Nuvens ou completar o ataque de Ascensão Bestial com mais de 50% de Vida invocará Man Chai novamente.",
-      "3": "Só é possível haver 1 Man Chai ativo por vez.",
+      "3": "Só é possível haver 1 Man Chai de Gaming ativo por vez.",
       "4": "<i>\"A besta dourada traz a fortuna, luzes ofuscantes e paisagens brilhantes! Isso sim é uma vida abundante!\"</i>"
     },
     "skillParams": {
-      "0": "Dano de Leão de Chifres Man Chai",
+      "0": "Dano de Suanni Man Chai",
       "1": "Cura de Habilidade",
       "2": "Duração da Postura Wushou",
       "3": "Tempo de Recarga",
@@ -101,13 +101,13 @@
   "passive1": {
     "name": "Dança da Ascensão",
     "description": {
-      "0": "No 1s depois do Ataque Imersivo: Caminhador das Nuvens de <strong>Ascensão Bestial</strong> atingir um inimigo, regenera 10% da Vida de Gaming."
+      "0": "No 1s depois do Ataque Imersivo: Caminhador das Nuvens de <strong>Ascensão Bestial</strong> atingir um inimigo, regenera 6% da Vida de Gaming."
     }
   },
   "passive2": {
     "name": "Ar da Prosperidade",
     "description": {
-      "0": "Quando a Vida de Gaming é inferior a 50%, obtém 20% de Bônus de Cura. Quando a Vida de Gaming é maior ou equivalente a 50%, obtém 20% de Bônus de Dano Pyro."
+      "0": "Quando a Vida de Gaming é inferior a 50%, obtém 20% de Bônus de Cura. Quando a Vida de Gaming é maior ou equivalente a 50%, Ataque Imersivo: Caminhador das Nuvens causa 20% a mais de Dano."
     }
   },
   "passive3": {
@@ -120,7 +120,7 @@
   "constellation1": {
     "name": "Abençoador",
     "description": {
-      "0": "Quando o Leão de Chifres Man Chai de <strong>Dança das Chamas Douradas</strong> reunir-se com Gaming, regenerará 25% da Vida de Gaming."
+      "0": "Quando o Suanni Man Chai de <strong>Dança das Chamas Douradas</strong> reunir-se com Gaming, regenerará 15% da Vida de Gaming."
     }
   },
   "constellation2": {
@@ -132,7 +132,7 @@
   "constellation3": {
     "name": "Espírito Desperto",
     "description": {
-      "0": "Aumenta o nível da <anemo>Ascensão Bestial</anemo> em 3.",
+      "0": "Aumenta o nível da <strong>Ascensão Bestial</strong> em 3.",
       "1": "O nível máximo de elevação é 15."
     }
   },
@@ -145,7 +145,7 @@
   "constellation5": {
     "name": "Rugido Perseguidor de Demônios",
     "description": {
-      "0": "Aumenta o nível da <anemo>Dança das Chamas Douradas</anemo> em 3 níveis.",
+      "0": "Aumenta o nível da <strong>Dança das Chamas Douradas</strong> em 3 níveis.",
       "1": "Sendo o nível máximo de elevação 15."
     }
   },

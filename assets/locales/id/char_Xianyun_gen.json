@@ -1,8 +1,8 @@
 {
   "name": "Xianyun",
-  "title": "???",
+  "title": "Passerine Herald",
   "description": "",
-  "constellationName": "",
+  "constellationName": "Grus Serena",
   "auto": {
     "name": "Word of Wind and Flower",
     "fields": {
@@ -16,7 +16,7 @@
       },
       "plunging": {
         "0": "<strong>Plunging Attack</strong>",
-        "1": "Menerjang tanah, menyerang musuh di jalur terjangan, dan mengakibatkan <anemo>Anemo DMG area</anemo> saat mendarat."
+        "1": "Mengumpulkan kekuatan Anemo, menerjang tanah, menyerang musuh di jalur terjangan, dan mengakibatkan <anemo>Anemo DMG area</anemo> saat mendarat."
       }
     },
     "skillParams": {
@@ -41,7 +41,7 @@
   "skill": {
     "name": "White Clouds at Dawn",
     "description": {
-      "0": "Xianyun memasuki status Cloud Transmogrification dan melancarkan satu kali Skyladder. Saat berada dalam status Cloud Transmogrification, dia bisa melancarkan hingga maksimum dua kali Skyladder lagi.",
+      "0": "Xianyun memasuki status Cloud Transmogrification dan melancarkan satu kali Skyladder. Saat berada dalam status Cloud Transmogrification, dia bisa melancarkan hingga maksimum dua kali Skyladder lagi, dan tidak akan menerima DMG Plunging Attack__.",
       "1": "Saat Xianyun yang berada dalam status Cloud Transmogrification melancarkan Normal Attack atau Plunging Attack, dia akan melancarkan Driftcloud Wave sebagai gantinya: Berubah menjadi Cloudbreeze Crane, melakukan serangan menghunjam__ terhadap musuh di sekitar, dan menyebabkan <anemo>Anemo DMG Area</anemo>, sekaligus mengakhiri status Cloud Transmogrification. DMG yang diakibatkan dengan cara ini dianggap sebagai DMG Plunging Attack.",
       "2": "<br/>",
       "3": "<strong>Skyladder</strong>",
@@ -49,7 +49,7 @@
       "5": "Bisa dilancarkan saat sedang melayang di angkasa; Saat dilancarkan di permukaan tanah, jarak lompatan akan meningkat pesat.",
       "6": "Dalam satu kali status Cloud Transmogrification, satu musuh hanya dapat menerima satu kali DMG dari Skyladder.",
       "7": "<br/>",
-      "8": "Makin banyak jumlah Skyladder yang dilancarkan saat berada dalam status Cloud Transmogrification, maka DMG yang diakibatkan oleh Driftcloud Wave makin tinggi, dan area serangannya akan makin luas; Setelah melancarkan tiga kali Skyladder (termasuk yang pertama kali saat melancarkan White Clounds At Dawn), akan melancarkan Driftcloud Wave: Divine Awe yang paling kuat.",
+      "8": "Makin banyak jumlah Skyladder yang dilancarkan saat berada dalam status Cloud Transmogrification, maka DMG yang diakibatkan oleh Driftcloud Wave makin tinggi, dan area serangannya akan makin luas; Setelah melancarkan tiga kali Skyladder (termasuk yang pertama kali saat melancarkan White Clouds At Dawn), akan melancarkan Driftcloud Wave: Divine Awe yang paling kuat.",
       "9": "<br/>",
       "10": "White Clouds at Dawn hanya bisa dilancarkan di permukaan tanah.",
       "11": "Jika Skyladder tidak dilancarkan dalam waktu singkat, maka Cloud Transmogrification akan berakhir dan akan memasuki fase CD__; Jika selama Cloud Transmogrification kali ini berlangsung, Driftcloud Wave tidak dilancarkan, maka durasi CD akan berkurang 3 detik.",
@@ -57,11 +57,11 @@
       "13": "<i>Hati-hati saat memegang tangan Cloud Retainer ... Genggamannya seperti burung bangau.</i>"
     },
     "skillParams": {
-      "0": "DMG Adeptal Aspect Trail__",
-      "1": "Chasing Crane: Lompatan Pertama",
-      "2": "Chasing Crane: Lompatan Kedua",
-      "3": "Chasing Crane: Lompatan Ketiga",
-      "4": "Cooldown Mode Tekan",
+      "0": "DMG Skill",
+      "1": "DMG Serangan Gelombang Xianyun",
+      "2": "Cooldown",
+      "3": "",
+      "4": "",
       "5": "",
       "6": "",
       "7": "",
@@ -78,27 +78,28 @@
   "burst": {
     "name": "Stars Gather at Dusk",
     "description": {
-      "0": "Memanggil angin suci yang mengakibatkan <anemo>Anemo DMG Area</anemo> dan memulihkan HP seluruh karakter party di sekitar berdasarkan ATK Xianyun, serta memanggil mekanisme Starwicker.",
+      "0": "Memanggil angin suci yang mengakibatkan <anemo>Anemo DMG Area</anemo> dan memulihkan HP seluruh Karakter party di sekitar berdasarkan ATK Xianyun, serta memanggil mekanisme Starwicker.",
       "1": "<br/>",
       "2": "<strong>Starwicker</strong>",
       "3": [
-        "Terus-menerus mengikuti Karakter aktif dan memulihkan HP seluruh karakter party di sekitar secara berkala, jumlah pemulihan didasarkan pada ATK Xianyun;",
+        "Terus-menerus mengikuti Karakter aktif dan memulihkan HP seluruh Karakter party di sekitar secara berkala, jumlah pemulihan didasarkan pada ATK Xianyun;",
         "Memiliki 8 lapis Adeptal Assistance pada awalnya. Saat memiliki Adeptal Assistance, akan meningkatkan ketinggian lompatan Karakter aktif di dalam party di sekitar__.",
-        "Saat Karakter aktif selesai melakukan Plunging Attack, Starwicker akan mengonsumsi satu lapis Adeptal Assitance dan mengakibatkan <anemo>Anemo DMG Area</anemo>."
+        "Saat Karakter aktif selesai melakukan Plunging Attack, Starwicker akan mengonsumsi satu lapis Adeptal Assistance dan mengakibatkan <anemo>Anemo DMG Area</anemo>."
       ],
-      "4": "<br/>",
-      "5": "<i>\\Ini adalah penemuan terbaru dari seri \"Ciptaan Bintang Bulan\"__, peralatan sebelumnya adalah Supreme Cuisine Machine, Floating Toting Device, Curio Discernment Mechanism, Supreme Tea-Brewing Machine,  Snowdrift Mechanism, Supreme Housekeeping Machine, dan Sound Amplification_______. Seri ini awalnya akan diberikan untuk anak manusia yang sangat dikagumi oleh Cloud Retainer, sehingga tidak didesain untuk setengah Adeptus. Namun, saat ditawarkan Starwicker, salah satu muridnya berkata seperti ini tanpa ekspresi sama sekali: \"Tidak terima kasih.\"",
-      "6": "Cloud Retainer tidak punya pilihan lain selain menyimpan Starwicker ini sendiri.</i>"
+      "4": "Hanya ada 1 Starwicker yang bisa ada di medan pertempuran dalam satu waktu.",
+      "5": "<br/>",
+      "6": "<i>Ini adalah penemuan terbaru dari seri \"Ciptaan Bintang Bulan\"__, peralatan sebelumnya adalah Supreme Cuisine Machine, Snowdrift Mechanism, Supreme Housekeeping Machine, Floating Toting Device, dan Bloom Pruner_____. Seri ini awalnya akan diberikan untuk anak manusia yang sangat dikagumi oleh Cloud Retainer, sehingga tidak didesain untuk setengah Adeptus. Namun, saat ditawarkan Starwicker, salah satu muridnya berkata seperti ini tanpa ekspresi sama sekali: \"Tidak, terima kasih.\"",
+      "7": "Cloud Retainer tidak punya pilihan lain selain menyimpan Starwicker ini sendiri.</i>"
     },
     "skillParams": {
-      "0": "DMG Instan",
-      "1": "DMG Serangan Terkoordinasi Perangkat",
-      "2": "Pemulihan Instan",
-      "3": "Pemulihan Berkelanjutan Perangkat",
-      "4": "Jeda Terpicu Pemulihan Perangkat",
-      "5": "Durasi Perangkat",
-      "6": "Cooldown",
-      "7": "Konsumsi Energy",
+      "0": "DMG Skill",
+      "1": "DMG Starwicker",
+      "2": "Jumlah Pemulihan",
+      "3": "Jumlah Pemulihan Berlanjutan",
+      "4": "Durasi",
+      "5": "Cooldown",
+      "6": "Konsumsi Energy",
+      "7": "",
       "8": "",
       "9": "",
       "10": "",
@@ -118,7 +119,7 @@
   "passive2": {
     "name": "Consider, the Adeptus in Her Realm",
     "description": {
-      "0": "Saat Starwicker yang diciptakan oleh <anemo>Stars Gather at Dusk</anemo> memiliki Adeptal Assistance, DMG terjangan__ Plunging Attack Karakter aktif di sekitar meningkat sebesar 170% Xianyun. Jumlah peningkatan Plunging Attack Karakter aktif yang bisa diperoleh dengan cara ini adalah maksimum 8.500 poin.",
+      "0": "Saat Starwicker yang diciptakan oleh <anemo>Stars Gather at Dusk</anemo> memiliki Adeptal Assistance, DMG terjangan__ Plunging Attack Karakter aktif di sekitar meningkat sebesar 170% ATK Xianyun. Jumlah peningkatan Plunging Attack Karakter aktif yang bisa diperoleh dengan cara ini adalah maksimum 8.500 poin.",
       "1": "Dalam satu kali terjangan Plunging Attack, hanya satu musuh yang bisa menerima efek yang disebutkan di atas. Bisa terpicu maksimum sekali setiap 0,4 detik untuk setiap Karakter."
     }
   },
@@ -138,8 +139,8 @@
   "constellation2": {
     "name": "Aloof From the World",
     "description": {
-      "0": "Setelah menggunakan <anemo>White Clouds at Dawn</anemo>, ATK Xianyun meningkat 20% selama 15 detik.",
-      "1": "Selain ini, efek Talenta Pasif \"Consider, the Adeptus in Her Realm\" akan mendapatkan peningkatan: Saat Starwicker yang diciptakan oleh <anemo>Stars Gather at Dusk</anemo> memiliki Adeptal Assistance. DMG terjangan Plunging Attack Karakter aktif di sekitar meningkat sebesar 306% ATKK Xianyun. Jumlah peningkatan Plunging Attack Karakter aktif yang bisa diperoleh dengan cara ini adalah maksimum 15.300 poin.",
+      "0": "Setelah menggunakan Skyladder dari <anemo>White Clouds at Dawn</anemo>, ATK Xianyun meningkat 20% selama 15 detik.",
+      "1": "Selain ini, efek Talenta Pasif \"Consider, the Adeptus in Her Realm\" akan mendapatkan peningkatan: Saat Starwicker yang diciptakan oleh <anemo>Stars Gather at Dusk</anemo> memiliki Adeptal Assistance. DMG terjangan Plunging Attack Karakter aktif di sekitar meningkat sebesar 306% ATK Xianyun. Jumlah peningkatan Plunging Attack Karakter aktif yang bisa diperoleh dengan cara ini adalah maksimum 15.300 poin.",
       "2": "Dalam satu kali terjangan Plunging Attack, hanya satu musuh yang bisa menerima efek yang disebutkan di atas. Bisa terpicu maksimum sekali setiap 0,4 detik untuk setiap Karakter.",
       "3": "Harus membuka Talenta Pasif  \"Consider, the Adeptus in Her Realm\" terlebih dahulu."
     }
@@ -167,7 +168,7 @@
   "constellation6": {
     "name": "Cloudkeeper's Spirit",
     "description": {
-      "0": "CRIT DMG dari Driftcloud Wave <anemo>White Clouds at Dawn</anemo> meningkat 70%.",
+      "0": "Setelah Cloud Transmogrification dari <anemo>White Clouds at Dawn</anemo> melancarkan 1/2/3 kali Skyladder, CRIT DMG Driftcloud Wave yang dilancarkan pada Cloud Transmogrification kali ini meningkat 15%/35%/70%.",
       "1": "Saat Xianyun melancarkan White Clouds at Dawn, jika Starwicker <anemo>Stars Gather at Dawn</anemo> memiliki Adeptal Assistance, maka akan mengonsumsi satu lapis Adeptal Assistance dan membuat White Clouds at Dawn kali ini tidak memasuki CD. Selain itu, saat Driftcloud Wave memicu serangan Starwicker selama Cloud Transmogrification kali ini, tidak akan mengonsumi Adeptal Assistance.",
       "2": "Selain itu, saat Driftcloud Wave: Divine Awe mengenai musuh, Starwicker akan mendapatkan satu lapis Adeptal Assistance. Efek ini dapat terpicu sekali setiap 8 detik."
     }

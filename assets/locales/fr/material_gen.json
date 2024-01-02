@@ -6642,6 +6642,14 @@
       "0": "Une goutte de rosée limpide flottant dans les eaux de la Région mortée. Elle est différente des autres corps d'eau pure, car il semblerait qu'il s'agisse d'un regroupement d'énergie élémentaire encore plus pure et primordiale."
     }
   },
+  "ClearwaterJade": {
+    "name": "Jade cristallin",
+    "description": {}
+  },
+  "ChenyuAdeptea": {
+    "name": "Adepthé de Chenyu",
+    "description": {}
+  },
   "BirchWood": {
     "name": "Bois de bouleau",
     "description": {
@@ -10245,9 +10253,11 @@
       "1": "Ces Sanctuaires des profondeurs ont été scellés lorsque l'ancienne civilisation qui les a construits a disparu. Les clés secrètes trouvées au fond des donjons peuvent briser les scellés, ou peut-être qu'elles font oublier aux sanctuaires divins ce qu'ils ont perdu le temps d'un instant."
     }
   },
-  "SpiritKoi": {
-    "name": "Koï spirituelle",
-    "description": {}
+  "SpiritCarp": {
+    "name": "Carpe spirituelle",
+    "description": {
+      "0": "Une carpe spirituelle formée à partir de l'énergie mystique condensée, nageant librement au milieu des montagnes et des vallées fluviales."
+    }
   },
   "Dish": {
     "name": "Plat",
@@ -13953,7 +13963,9 @@
   },
   "EightTreasureDuck": {
     "name": "Canard aux huit trésorsµµµ",
-    "description": {}
+    "description": {
+      "0": "Un plat qui nécessite un véritable savoir-faire. Huit sortes de viande et de légumes, appelés les huit trésors, sont fourrés dans un canard désossé. Celui-ci est ensuite moulé en forme de gourde afin de représenter la bonne fortune et le bon augure. Des ingrédients exquis, de superbes compétences de découpe et un timing phénoménal sont tous nécessaires pour que le plat fini mérite sa place de plat final de n'importe quel banquet."
+    }
   },
   "DeliciousEightTreasureDuck": {
     "name": "Canard aux huit trésorsµµµ (délicieux)",
@@ -13965,7 +13977,9 @@
   },
   "DeepFriedDoublecrisp": {
     "name": "Double croustillant frit",
-    "description": {}
+    "description": {
+      "0": "L'un des plats célèbres de Liyue. Entre la chaleur intense, l'huile bouillante et le sautage compliqué, c'est un test sévère des compétences. Faites cuire quelques secondes de moins et vos ingrédients pourraient rester crus ; trop longtemps et ils seront trop cuits et manqueront de croustillant. Ainsi, ce plat est souvent choisi par les chefs liyuéens expérimentés qui souhaitent prouver leurs talents."
+    }
   },
   "DeliciousDeepFriedDoublecrisp": {
     "name": "Double croustillant frit (délicieux)",
@@ -13977,46 +13991,54 @@
   },
   "BraisedMeatballs": {
     "name": "Boulettes braisées",
-    "description": {}
+    "description": {
+      "0": "Un plat classique de Liyue. Des morceaux de viande gras et maigres sont mélangés à des pousses de bambou croquantes avant d'être pétris en boules, frits puis bouillis. Le résultat est très apprécié et trouve sa place aussi bien dans les repas à la maison que dans les banquets."
+    }
   },
   "DeliciousBraisedMeatballs": {
     "name": "Boulettes braisées (délicieuses)",
     "description": {}
   },
   "SuspiciousHoneyCharSiu": {
-    "name": "Porc barbecue au miel (suspect)",
+    "name": "Char siu au miel (suspect)",
     "description": {}
   },
   "HoneyCharSiu": {
-    "name": "Porc barbecue au miel",
-    "description": {}
+    "name": "Char siu au miel",
+    "description": {
+      "0": "Un type de viande rôtie de Liyue. La viande marinée est embrochée sur une fourchette en métal spéciale avant d'être suspendue au-dessus du poêle pour être rôtie. Le goût du char siu fraîchement rôti est un des mets préférés de nombreux gourmands."
+    }
   },
   "DeliciousHoneyCharSiu": {
-    "name": "Porc barbecue au miel (délicieux)",
+    "name": "Char siu au miel (délicieux)",
     "description": {}
   },
   "SuspiciousFineTeaFullMoon": {
-    "name": "Thé exquis de pleine lune (suspect)",
+    "name": "Pleine lune au thé exquis (suspecte)",
     "description": {}
   },
   "FineTeaFullMoon": {
-    "name": "Thé exquis de pleine lune",
-    "description": {}
+    "name": "Pleine lune au thé exquis",
+    "description": {
+      "0": "Une pâtisserie au thé contenant du jaune d'œuf. Le jaune salé est d'abord cuit à la vapeur, puis farci et enveloppé dans une pâte infusée de poudre de thé. Il est ensuite pétri en forme de pleine lune avant d'être cuit. Il en résulte un extérieur croustillant et feuilleté avec un intérieur salé et sucré, les différentes couches formant une délicatesse délicieuse et addictive."
+    }
   },
   "DeliciousFineTeaFullMoon": {
-    "name": "Thé exquis de pleine lune (délicieux)",
+    "name": "Pleine lune au thé exquis (délicieuse)",
     "description": {}
   },
   "SuspiciousJadeveinTeaEggs": {
-    "name": "Œufs au thé de jadeveine (suspects)",
+    "name": "Œufs jadeveines au thé (suspects)",
     "description": {}
   },
   "JadeveinTeaEggs": {
-    "name": "Œufs au thé de jadeveine",
-    "description": {}
+    "name": "Œufs jadeveines au thé",
+    "description": {
+      "0": "Un encas traditionnel de Liyue. La saveur du thé s'infiltre dans les œufs à travers les fissures de leurs coquilles pendant que ces derniers bouillent, une pratique très populaire dans les rues et allées de la ville. Ainsi, les fissures sur leurs coques sont aussi belles que les motifs fragmentés du jade."
+    }
   },
   "DeliciousJadeveinTeaEggs": {
-    "name": "Œufs au thé de jadeveine (délicieux)",
+    "name": "Œufs jadeveines au thé (délicieux)",
     "description": {}
   },
   "SuspiciousTeaSmokedSquab": {
@@ -14025,7 +14047,9 @@
   },
   "TeaSmokedSquab": {
     "name": "Pigeon fumé au thé",
-    "description": {}
+    "description": {
+      "0": "Un plat très populaire. Le pigeon est mariné dans du thé et de la sauce pendant la nuit avant d'être séché et frit, ce qui imprègne sa viande du merveilleux arôme du thé. Cette technique est transmise depuis de nombreuses années et le résultat constitue un délice lors des banquets."
+    }
   },
   "DeliciousTeaSmokedSquab": {
     "name": "Pigeon fumé au thé (délicieux)",
@@ -14037,7 +14061,9 @@
   },
   "GuhuaFishLambSoup": {
     "name": "Soupe de Guhua au poisson et à l'agneau",
-    "description": {}
+    "description": {
+      "0": "Un plat que les documents historiques les plus anciens mentionnent. Le poisson frais et l'agneau sont mijotés ensemble, la tendresse du poisson et la jutosité de l'agneau se mélangeant pour transformer le plat en un véritable délice."
+    }
   },
   "DeliciousGuhuaFishLambSoup": {
     "name": "Soupe de Guhua au poisson et à l'agneau (délicieuse)",
@@ -14049,14 +14075,16 @@
   },
   "ChenyuBrew": {
     "name": "Infusion de Chenyu",
-    "description": {}
+    "description": {
+      "0": "Du thé ordinaire de Liyue. Parfois, la vie est comparée à l'arrière-goût sucré qu'on savoure en sirotant une tasse de thé."
+    }
   },
   "DeliciousChenyuBrew": {
     "name": "Infusion de Chenyu (délicieuse)",
     "description": {}
   },
   "EncompassingGladness": {
-    "name": "",
+    "name": "Allégresse englobante",
     "description": {}
   },
   "RecipeItem": {
@@ -15141,21 +15169,21 @@
     }
   },
   "RecipeHoneyCharSiu": {
-    "name": "Recette : Porc barbecue au miel",
+    "name": "Recette : Char siu au miel",
     "description": {
-      "0": "Étapes de préparation du porc barbecue au miel."
+      "0": "Étapes de préparation du char siu au miel."
     }
   },
   "RecipeFineTeaFullMoon": {
-    "name": "Recette : Thé exquis de pleine lune",
+    "name": "Recette : Pleine lune au thé exquis",
     "description": {
-      "0": "Étapes de préparation du thé exquis de pleine lune."
+      "0": "Étapes de préparation de la pleine lune au thé exquis."
     }
   },
   "RecipeJadeveinTeaEggs": {
-    "name": "Recette : Œufs au thé de jadeveine",
+    "name": "Recette : Œufs jadeveines au thé",
     "description": {
-      "0": "Étapes de préparation des œufs au thé de jadeveine."
+      "0": "Étapes de préparation des œufs jadeveines au thé."
     }
   },
   "RecipeTeaSmokedSquab": {
@@ -16075,22 +16103,16 @@
     }
   },
   "FeatheryFin": {
-    "name": "",
-    "description": {
-      "0": "???"
-    }
+    "name": "Nageoire plumeuse",
+    "description": {}
   },
   "LunarFin": {
-    "name": "",
-    "description": {
-      "0": "???"
-    }
+    "name": "Nageoire lunaire",
+    "description": {}
   },
   "ChasmlightFin": {
-    "name": "",
-    "description": {
-      "0": "???"
-    }
+    "name": "Nageoire ténébreuse",
+    "description": {}
   },
   "HurricaneSeed": {
     "name": "Graine d'ouragan",
@@ -16527,10 +16549,8 @@
     }
   },
   "CloudseamScale": {
-    "name": "",
-    "description": {
-      "0": "???"
-    }
+    "name": "Écaille nuageuse",
+    "description": {}
   },
   "TileOfDecarabiansTower": {
     "name": "Tuile cassée de Décabarian",
@@ -19422,21 +19442,21 @@
     }
   },
   "TimeTrekkerI": {
-    "name": "",
+    "name": "Temponaute - Tome I",
     "description": {
-      "0": "？？？"
+      "0": "???"
     }
   },
   "TimeTrekkerII": {
-    "name": "",
+    "name": "Temponaute - Tome II",
     "description": {
-      "0": "？？？"
+      "0": "???"
     }
   },
   "TimeTrekkerIII": {
-    "name": "",
+    "name": "Temponaute - Tome III",
     "description": {
-      "0": "？？？"
+      "0": "???"
     }
   },
   "GiftOfParting": {
@@ -20054,20 +20074,28 @@
     }
   },
   "PictureLotusPondBeneathTheMoon": {
-    "name": "",
-    "description": {}
+    "name": "Image : Bassin de lotus sous la lune",
+    "description": {
+      "0": "Une belle photo de l'étang aux lotus se baignant dans le clair de lune."
+    }
   },
   "PictureGuestsOfQiaoying": {
-    "name": "",
-    "description": {}
+    "name": "Image : Invités de Qiaoying",
+    "description": {
+      "0": "Une belle photo du Village de Qiaoying."
+    }
   },
   "PictureTranquilJademouth": {
-    "name": "",
-    "description": {}
+    "name": "Image : Jade tranquille",
+    "description": {
+      "0": "Une belle photo de l'Antre jadéiqueµµµ."
+    }
   },
   "PictureMtXuanlian": {
-    "name": "",
-    "description": {}
+    "name": "Image : Xuanlian l'imposant",
+    "description": {
+      "0": "Une belle photo du Mont Xuanlian."
+    }
   },
   "ChenyuValeSceneryGuide": {
     "name": "Guide des paysages du Vallon Chenyu",
@@ -20388,6 +20416,10 @@
       "1": "Elle semble s'être arrêtée à un certain moment, le beau souvenir de cet instant devenant alors éternel."
     }
   },
+  "AncientTreeBranch": {
+    "name": "Branche d'arbre ancien",
+    "description": {}
+  },
   "AureliesNotesII": {
     "name": "Notes d'Aurélie II",
     "description": {
@@ -20475,6 +20507,14 @@
       "0": "Message étrange"
     }
   },
+  "WangshanHallBackupKey": {
+    "name": "Clé de rechange de la Salle de la montagne céleste",
+    "description": {}
+  },
+  "ThePaimonSpecial": {
+    "name": "Le Paimon-spécial",
+    "description": {}
+  },
   "AutumnsGift": {
     "name": "Cadeau d'Automne",
     "description": {
@@ -20520,6 +20560,10 @@
     "name": "Livre d'histoires",
     "description": {}
   },
+  "CarpSpiritOrb": {
+    "name": "Orbe spirituel de carpe",
+    "description": {}
+  },
   "Certificate": {
     "name": "Certificat",
     "description": {}
@@ -20536,8 +20580,28 @@
     "name": "Journal",
     "description": {}
   },
+  "JadeFragmentLeft": {
+    "name": "Fragment de jade (gauche)",
+    "description": {}
+  },
+  "JadeFragmentRight": {
+    "name": "Fragment de jade (droit)",
+    "description": {}
+  },
+  "FragrantWoodHuangcong": {
+    "name": "Bois « Huangcong » parfumé",
+    "description": {}
+  },
+  "FragrantWoodChizhang": {
+    "name": "Bois « Chizhang » parfumé",
+    "description": {}
+  },
   "OurChenyuValeTrekAlbum": {
-    "name": "",
+    "name": "Album « Randonnée à Chenyu »",
+    "description": {}
+  },
+  "StrangeKey": {
+    "name": "Clé étrange",
     "description": {}
   },
   "ShootingPracticeOpticalLenses": {
@@ -20570,6 +20634,42 @@
     "description": {
       "0": "Pip, le livreur de journaux, a mis dans ce paquet tous les journaux que la famille Leroy a commandés mais pas récupérés durant cette période."
     }
+  },
+  "ForgottenKeyI": {
+    "name": "Clé perdue (1)",
+    "description": {}
+  },
+  "ForgottenKeyII": {
+    "name": "Clé perdue (2)",
+    "description": {}
+  },
+  "XuanlianSacredWater": {
+    "name": "Eau sacrée de Xuanlian",
+    "description": {}
+  },
+  "AncientJadeCup": {
+    "name": "Ancienne coupe en jade",
+    "description": {}
+  },
+  "SomeonesLedger": {
+    "name": "Registre de quelqu'un",
+    "description": {}
+  },
+  "VotiveRainjade": {
+    "name": "Jade votif",
+    "description": {}
+  },
+  "ChizhangAtlas": {
+    "name": "Carte de litorougeµµµ",
+    "description": {}
+  },
+  "AncientCityKey": {
+    "name": "Clé de l'ancienne ville",
+    "description": {}
+  },
+  "FishSeizedFromAPelicansMouth": {
+    "name": "",
+    "description": {}
   },
   "TearsAmongTheStars": {
     "name": "Larme parmi les étoiles",
@@ -21035,6 +21135,10 @@
       "1": "Par rapport aux autres modèles produits en série, ces meks de maintenance « Meneurs dorés » en édition limitée se distinguent par leur apparence claire aux teintes dorées et leur équipement de contrôle spécial. L'équipe de développement les a conçus pour servir de « stations relais de commande » dans des environnements sous-marins particulièrement complexes, recevant et transmettant les directives du contrôleur à tous les autres meks de maintenance à proximité, ce qui les aurait rendus aussi importants que des meneurs.",
       "2": "Cependant, lorsque l'ensemble du projet des meks de maintenance a cessé, ces « mékas meneurs » ont perdu leur raison d'exister. Seule leur coque dorée, très reconnaissable, leur donne de la valeur aux yeux des pêcheurs qui les collectionnent."
     }
+  },
+  "JadeHeartfeatherBass": {
+    "name": "Perche de jade-plume",
+    "description": {}
   },
   "WingsOfFirstFlight": {
     "name": "Planeur du débutant",
@@ -23692,6 +23796,22 @@
       "1": "Qui sait combien de temps il faudra avant que l'art cinématographique de Teyvat réinvente la « gravure du temps »µµµ ? Quoi qu'il en soit, cette scène a véritablement capturé un passé plein de péchés."
     }
   },
+  "AchievementAdeptalValley": {
+    "name": "Succès - Vallée adeptale",
+    "description": {}
+  },
+  "AchievementRainjadeRite": {
+    "name": "Succès - Rituelµµµ",
+    "description": {}
+  },
+  "TravelNotesVividFlight": {
+    "name": "PB - Vol coloré",
+    "description": {}
+  },
+  "AlbumTheStellarMoments": {
+    "name": "Album - Moments stellaires",
+    "description": {}
+  },
   "AnemoculusResonanceStone": {
     "name": "Pierre de résonance Anémoculus",
     "description": {
@@ -25207,13 +25327,13 @@
     }
   },
   "SternfrostPrism": {
-    "name": "",
+    "name": "Prisme de givre",
     "description": {
       "0": "Une carte pour le jeu de table, l'Invocation des Sept. Elle est résistante et une méthode d'impression spéciale a été utilisée pour son illustration, ce qui lui donne une apparence vraiment exquise."
     }
   },
   "PearlSolidification": {
-    "name": "",
+    "name": "Solidification perlée",
     "description": {
       "0": "Une carte pour le jeu de table, l'Invocation des Sept. Elle est résistante et une méthode d'impression spéciale a été utilisée pour son illustration, ce qui lui donne une apparence vraiment exquise."
     }
@@ -26191,7 +26311,7 @@
     }
   },
   "MachineAssemblyLine": {
-    "name": "",
+    "name": "Ligne d'assemblage mécanique",
     "description": {
       "0": "Une carte pour le jeu de table, l'Invocation des Sept. Elle est résistante et une méthode d'impression spéciale a été utilisée pour son illustration, ce qui lui donne une apparence vraiment exquise."
     }
@@ -27521,6 +27641,26 @@
       "0": "Étapes de fabrication de la lampe à pied prohibée « Veilleuse ».",
       "1": "Après utilisation, ce plan sera disponible dans l'interface de fabrication des décorations."
     }
+  },
+  "ArtisanalFishLanternCarpsWell": {
+    "name": "",
+    "description": {}
+  },
+  "ArtisanFishLanternSpringProfits": {
+    "name": "",
+    "description": {}
+  },
+  "PortFloorLightWispOfFragrance": {
+    "name": "",
+    "description": {}
+  },
+  "PortStreetLightGoodThingsComeInPairs": {
+    "name": "",
+    "description": {}
+  },
+  "ValleyStoneLampEverbrightLight": {
+    "name": "",
+    "description": {}
   },
   "EfflorescentIllumination": {
     "name": "Illumination efflorescente",
@@ -29503,6 +29643,58 @@
       "1": "Après utilisation, ce plan sera disponible dans l'interface de fabrication des décorations."
     }
   },
+  "ValleyStageBillowingCloudWaves": {
+    "name": "",
+    "description": {}
+  },
+  "ValleyVerandaDistantBeginnings": {
+    "name": "",
+    "description": {}
+  },
+  "ValleyVerandaFromSolidFoundationsToThrive": {
+    "name": "",
+    "description": {}
+  },
+  "ValleyPavilionWarmDaylight": {
+    "name": "",
+    "description": {}
+  },
+  "ValleyStoneArchwayRecurringOmenOfAbundance": {
+    "name": "",
+    "description": {}
+  },
+  "ValleyPergolaSunAndRain": {
+    "name": "",
+    "description": {}
+  },
+  "ValleyWatchtowerVigilance": {
+    "name": "",
+    "description": {}
+  },
+  "ValleyResidenceToweringMountains": {
+    "name": "",
+    "description": {}
+  },
+  "ValleyResidenceTranquility": {
+    "name": "",
+    "description": {}
+  },
+  "ValleyResidenceCustomComplexity": {
+    "name": "",
+    "description": {}
+  },
+  "ValleyResidenceTotalFocus": {
+    "name": "",
+    "description": {}
+  },
+  "ValleyResidenceTenderCountryside": {
+    "name": "",
+    "description": {}
+  },
+  "ValleyResidenceMeasuredBuilding": {
+    "name": "",
+    "description": {}
+  },
   "MultiArchedMondstadtBuilding": {
     "name": "Bâtiment mondstadtois à trois arches",
     "description": {
@@ -31148,6 +31340,46 @@
       "1": "Après utilisation, ce plan sera disponible dans l'interface de fabrication des décorations."
     }
   },
+  "ValleyGateBustlingYard": {
+    "name": "",
+    "description": {}
+  },
+  "ValleyGateMountainsBeyondTheThreshold": {
+    "name": "",
+    "description": {}
+  },
+  "ValleyCaveTheFansWindingPath": {
+    "name": "",
+    "description": {}
+  },
+  "ValleyWallCornerLikeGatheringWaves": {
+    "name": "",
+    "description": {}
+  },
+  "ValleyStoneWallJadeBeltRiver": {
+    "name": "",
+    "description": {}
+  },
+  "ValleyStoneWallFlowersAndWillows": {
+    "name": "",
+    "description": {}
+  },
+  "ValleyStoneWallCarpAndKite": {
+    "name": "",
+    "description": {}
+  },
+  "ValleyGableWardingWindAndFire": {
+    "name": "",
+    "description": {}
+  },
+  "ValleyGableRainShelter": {
+    "name": "",
+    "description": {}
+  },
+  "ValleyStoneStepsFoundationStone": {
+    "name": "",
+    "description": {}
+  },
   "FoundationsOfStoneFortunateTimes": {
     "name": "Fondations de pierre « Temps fortuné »",
     "description": {
@@ -32443,6 +32675,46 @@
       "1": "Après utilisation, ce plan sera disponible dans l'interface de fabrication des décorations."
     }
   },
+  "StoneDrumSonicReverberation": {
+    "name": "",
+    "description": {}
+  },
+  "WushouDanceCostumeRoaringSuanni": {
+    "name": "",
+    "description": {}
+  },
+  "WushouDanceDollSleepySuanni": {
+    "name": "",
+    "description": {}
+  },
+  "BanquetScreenDancingButterfliesAndLeapingFish": {
+    "name": "",
+    "description": {}
+  },
+  "BanquetScreenCryingHawksAndChirpingSparrows": {
+    "name": "",
+    "description": {}
+  },
+  "CelebratoryKiteSuccessiveProsperity": {
+    "name": "",
+    "description": {}
+  },
+  "CelebratoryKiteAllsWell": {
+    "name": "",
+    "description": {}
+  },
+  "CelebratoryKiteButterflyDance": {
+    "name": "",
+    "description": {}
+  },
+  "CelebratoryKiteProsperityAndWealth": {
+    "name": "",
+    "description": {}
+  },
+  "FragrantCedarWoodAnnouncementBoard": {
+    "name": "",
+    "description": {}
+  },
   "BookshelfFreeReading": {
     "name": "Étagère de livres « Lecture libre »",
     "description": {
@@ -32639,6 +32911,10 @@
       "1": "Après utilisation, ce plan sera disponible dans l'interface de fabrication des décorations."
     }
   },
+  "TeaChairCoolBreeze": {
+    "name": "",
+    "description": {}
+  },
   "TwoStoryHilichurlSentryTower": {
     "name": "Tour de sentinelle Brutocollinus",
     "description": {
@@ -32771,6 +33047,10 @@
       "0": "Étapes de fabrication de l'étagère de production « Personnalisée ».",
       "1": "Après utilisation, ce plan sera disponible dans l'interface de fabrication des décorations."
     }
+  },
+  "SquareTeaTableFriendlyWelcome": {
+    "name": "",
+    "description": {}
   },
   "WineShopDisplayCounterToYourHeartsContent": {
     "name": "Présentoir de bar à vin « Boisson à volonté »",

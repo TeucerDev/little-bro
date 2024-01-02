@@ -1,8 +1,8 @@
 {
   "name": "Gaming",
-  "title": "???",
+  "title": "Leonine Vanguard",
   "description": "",
-  "constellationName": "",
+  "constellationName": "Leo Expergiscens",
   "auto": {
     "name": "Stellar Rend",
     "fields": {
@@ -46,7 +46,7 @@
       "1": "After Gaming has used Bestial Ascent to rise into the air, he will use the especially powerful Plunging Attack: Charmed Cloudstrider when performing a Plunging Attack.",
       "2": "<br/>",
       "3": "<strong>Plunging Attack: Charmed Cloudstrider</strong>",
-      "4": "The DMG from Plunging Attacks caused by Bestial Ascent is converted to <pyro>Pyro DMG</pyro>. Upon landing, Gaming will consume a fixed amount of HP. Gaming's HP cannot be reduced below 10% by this method.",
+      "4": "The DMG from Plunging Attacks caused by Bestial Ascent is converted to <pyro>Pyro DMG</pyro> that cannot be overridden by other elemental infusions. Upon landing, Gaming will consume a fixed amount of HP. Gaming's HP cannot be reduced below 10% by this method.",
       "5": "Charmed Cloudstrider DMG is considered Plunging Attack DMG.",
       "6": "<br/>",
       "7": "<i>\"The beast leaps and plucks the greens, prosperity all around us rings. May wealth and health come to us all — and may we have a grand ol' ball!\"</i>"
@@ -71,17 +71,17 @@
     }
   },
   "burst": {
-    "name": "Horned Lion's Gilded Dance",
+    "name": "Suanni's Gilded Dance",
     "description": {
-      "0": "Gaming enters Wushou Stance, recovering a fixed amount of HP, and summons his companion, the Horned Lion Man Chai, to smash into his target, dealing <pyro>AoE Pyro DMG</pyro>.",
+      "0": "Gaming enters Wushou Stance, briefly applying <pyro>Pyro</pyro> to him, recovering a fixed amount of HP, and summons his companion, the Suanni Man Chai, to smash into his target, dealing <pyro>AoE Pyro DMG</pyro>.",
       "1": "After bashing its target, Man Chai will roll to a nearby location before moving towards Gaming. When it links up with Gaming, Man Chai will leave the field and reset the CD for Gaming's Elemental Skill, Bestial Ascent.",
       "2": "While Wushou Stance is active, when Gaming performs Charmed Cloustrider or completes the pounce attack from Bestial Ascent with over 50% HP, he will summon Man Chai again.",
-      "3": "Only 1 Man Chai can be on the field simultaneously.",
+      "3": "Each Gaming can only have 1 Man Chai on the field simultaneously.",
       "4": "<br/>",
       "5": "<i>\"The golden beast brings fortune, blazing lights, and brilliant sights! Now that's what you call an abundant life!\"</i>"
     },
     "skillParams": {
-      "0": "Horned Lion Man Chai Smash DMG",
+      "0": "Suanni Man Chai Smash DMG",
       "1": "Skill Healing",
       "2": "Wushou Stance Duration",
       "3": "CD",
@@ -102,13 +102,13 @@
   "passive1": {
     "name": "Dance of Amity",
     "description": {
-      "0": "For 1s after hitting an opponent with <strong>Bestial Ascent</strong>'s Plunging Attack: Charmed Cloudstrider, Gaming will recover 10% of his HP."
+      "0": "For 1s after hitting an opponent with <strong>Bestial Ascent</strong>'s Plunging Attack: Charmed Cloudstrider, Gaming will recover 6% of his HP."
     }
   },
   "passive2": {
     "name": "Air of Prosperity",
     "description": {
-      "0": "When Gaming has less than 50% HP, he will receive a 20% Incoming Healing Bonus. When Gaming has 50% HP or more, he will gain a 20% Pyro DMG Bonus."
+      "0": "When Gaming has less than 50% HP, he will receive a 20% Incoming Healing Bonus. When Gaming has 50% HP or more, Plunging Attack: Charmed Cloudstrider will deal 20% more DMG."
     }
   },
   "passive3": {
@@ -121,7 +121,7 @@
   "constellation1": {
     "name": "Bringer of Blessing",
     "description": {
-      "0": "When the Horned Lion Man Chai from <strong>Horned Lion's Gilded Dance</strong> meets back up with Gaming, it will heal 25% of Gaming's HP."
+      "0": "When the Suanni Man Chai from <strong>Suanni's Gilded Dance</strong> meets back up with Gaming, it will heal 15% of Gaming's HP."
     }
   },
   "constellation2": {
@@ -146,7 +146,7 @@
   "constellation5": {
     "name": "Demon-Daunting Roar",
     "description": {
-      "0": "Increases the Level of <strong>Horned Lion's Gilded Dance</strong> by 3.",
+      "0": "Increases the Level of <strong>Suanni's Gilded Dance</strong> by 3.",
       "1": "Maximum upgrade level is 15."
     }
   },

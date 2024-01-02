@@ -1,8 +1,8 @@
 {
   "name": "Xianyun",
-  "title": "???",
+  "title": "Messaggera gruiforme",
   "description": "",
-  "constellationName": "",
+  "constellationName": "Grus Serena",
   "auto": {
     "name": "Verbo di vento e fiori",
     "fields": {
@@ -16,7 +16,7 @@
       },
       "plunging": {
         "0": "<strong>Attacco in picchiata</strong>",
-        "1": "Si scaglia contro il suolo da mezz'aria, infliggendo DAN agli avversari lungo la traiettoria. Infligge <anemo>DAN da Anemo ad area</anemo> all'impatto col suolo."
+        "1": "Evoca il potere di Anemo e si scaglia contro il suolo da mezz'aria, infliggendo DAN agli avversari lungo la traiettoria. Infligge <anemo>DAN da Anemo ad area</anemo> all'impatto col suolo."
       }
     },
     "skillParams": {
@@ -41,27 +41,27 @@
   "skill": {
     "name": "Candide nuvole dell'alba",
     "description": {
-      "0": "Xianyun entra nello stato di Trasfigurazione burrascosa e usa immediatamente Scala celeste. Mentre è in questo stato, può usare Scala celeste fino ad altre 2 volte.",
-      "1": "Quando sferra un attacco normale o in picchiata, Xianyun usa Onda nubifendente e assume le sembianze della Gru Spironebula per scagliarsi dall'alto contro i nemici, infliggendo <anemo>DAN da Anemo ad area</anemo> e concludendo lo stato di Trasfigurazione burrascosa. I DAN inflitti in questo modo sono considerati DAN da attacco in picchiata.",
+      "0": "Xianyun entra nello stato di Trasfigurazione burrascosa e usa immediatamente l'abilità Scala celeste. Mentre è in questo stato, può usare Scala celeste fino ad altre 2 volte e non subisce danni da caduta.",
+      "1": "Quando sferra un attacco normale o in picchiata, Xianyun usa Onda nubifendente e assume le sembianze della Gru Spironebula per lanciarsi dall'alto contro i nemici, infliggendo <anemo>DAN da Anemo ad area</anemo> e concludendo lo stato di Trasfigurazione burrascosa. I DAN inflitti in questo modo sono considerati DAN da attacco in picchiata.",
       "2": "<br/>",
       "3": "<strong>Scala celeste</strong>",
-      "4": "Xianyun si libra temporaneamente in avanti e sale di quota, infliggendo <anemo>DAN da Anemo</anemo> ai bersagli sul suo percorso.",
-      "5": "È possibile usare tale abilità mentre il personaggio è sospeso a mezz'aria, ma la distanza di salto è superiore quando viene usata sul terreno.",
-      "6": "Ciascun avversario non può essere danneggiato più di una volta per ogni iterazione di Trasfigurazione burrascosa.",
+      "4": "Xianyun si libra rapidamente in avanti e sale di quota, infliggendo <anemo>DAN da Anemo</anemo> ai bersagli sul suo percorso.",
+      "5": "È possibile usare tale abilità mentre il personaggio è sospeso a mezz'aria, ma la distanza di salto aumenta quando viene usata dal terreno.",
+      "6": "Ciascun avversario non può essere danneggiato più di una volta per ogni iterazione di Trasfigurazione burrascosa quando si usa una Scala celeste.",
       "7": "<br/>",
       "8": "Più volte Scala celeste viene usata durante lo stato di Trasfigurazione burrascosa, maggiori sono i DAN inflitti dall'Onda nubifendente e più ampia è la sua area d'effetto. Dopo aver usato Scala celeste per 3 volte (inclusa quella derivante dall'uso iniziale di Candide nuvole dell'alba), Xianyun usa la potente Onda nubifendente: Stupefazione divina.",
       "9": "<br/>",
       "10": "È possibile usare Candide nuvole dell'alba solo quando il personaggio si trova sul terreno.",
-      "11": "Se Scala celeste non viene usata entro un breve lasso di tempo, Trasfigurazione burrascosa termina ed entra in TdR. Se l'Onda nubifendente non viene impiegata nel corso di Trasfigurazione burrascosa, il suo TdR si riduce di 3 s.",
+      "11": "Se Scala celeste non viene usata di nuovo entro un breve lasso di tempo, lo stato di Trasfigurazione burrascosa termina ed entra in TdR. Se l'Onda nubifendente non viene impiegata mentre lo stato di Trasfigurazione burrascosa è attivo, il TdR di quest'ultimo si riduce di 3 s.",
       "12": "<br/>",
       "13": "<i>Fai attenzione quando Vestale delle nuvole ti tiene per mano: la sua presa è pari a quella di una gru.</i>"
     },
     "skillParams": {
-      "0": "DAN da Scia delle sembianze adeptiche",
-      "1": "Gru inseguitrice: Primo lancio",
-      "2": "Gru inseguitrice: Secondo lancio",
-      "3": "Gru inseguitrice: Terzo lancio",
-      "4": "TdR pressione",
+      "0": "DAN da abilità",
+      "1": "DAN da Onda nubifendente",
+      "2": "TdR",
+      "3": "",
+      "4": "",
       "5": "",
       "6": "",
       "7": "",
@@ -84,21 +84,22 @@
       "3": [
         " Segue continuamente il personaggio attivo, ripristinando i PS di tutti i personaggi vicini a intervalli regolari in base all'ATT di Xianyun.",
         " Appena evocato, possiede 8 accumuli di Assistenza adeptica, che aumentano le capacità di salto dei personaggi attivi vicini.",
-        " Quando il personaggio attivo esegue un attacco in picchiata, Giuncostella consuma 1 accumulo di Assistenza adeptica e infligge <anemo>DAN da Anemo ad area</anemo>."
+        " Quando il personaggio attivo esegue un attacco in picchiata, il Giuncostella consuma 1 accumulo di Assistenza adeptica e infligge <anemo>DAN da Anemo ad area</anemo>."
       ],
-      "4": "<br/>",
-      "5": "<i>L'ultima invenzione della serie \"Creazioni Lunastella\", che include la Macchina da cucina suprema, il Trasportatore volteggiante, il Meccanismo di estimazione delle rarità, la Macchina del tè suprema, il Meccanismo ammassaneve, la Macchina delle pulizie suprema e la Macchina amplificatrice acustica. Questa serie di congegni era stata concepita per i giovani umani stimati da Vestale delle nuvole, e non è affatto progettata a uso e consumo di una certa mezza Adepta. Tuttavia, quando le fu offerto Giuncostella, una delle sue discepole si limitò a pronunciare con freddezza le seguenti parole: \"No, grazie\".",
-      "6": "Così, a Vestale delle nuvole non rimase altra scelta che tenerlo per sé.</i>"
+      "4": "Non può esistere più di 1 Giuncostella in campo alla volta.",
+      "5": "<br/>",
+      "6": "<i>L'ultima invenzione della serie \"Creazioni Lunastella\", che include dispositivi come la Macchina da cucina suprema, il Meccanismo Scivolaneve, la Macchina delle pulizie suprema, il Trasportatore volteggiante e il Tagliafronde. Questa serie di congegni era stata concepita per essere impiegata da alcuni giovani umani che Vestale delle nuvole stimava profondamente, e non era affatto progettata a uso e consumo di una certa mezza Adepta. Tuttavia, quando le fu offerto il Giuncostella, una delle sue discepole si limitò a pronunciare le seguenti parole in modo freddo e distaccato: \"No, grazie\".",
+      "7": "Così, a Vestale delle nuvole non rimase altra scelta che tenerlo per sé.</i>"
     },
     "skillParams": {
-      "0": "DAN istantanei",
-      "1": "DAN da ATT coordinato meccanismo",
-      "2": "Guarigione istantanea",
-      "3": "Guarigione continua meccanismo",
-      "4": "Intervallo di attivazione guarigione meccanismo",
-      "5": "Durata meccanismo",
-      "6": "TdR",
-      "7": "Costo energia",
+      "0": "DAN da abilità",
+      "1": "DAN da Giuncostella",
+      "2": "Guarigione",
+      "3": "Guarigione continua",
+      "4": "Durata",
+      "5": "TdR",
+      "6": "Costo energia",
+      "7": "",
       "8": "",
       "9": "",
       "10": "",
@@ -118,7 +119,7 @@
   "passive2": {
     "name": "Rimira l'Adepta nel suo reame",
     "description": {
-      "0": "Quando il Giuncostella creato da <anemo>Riunione astrale del tramonto</anemo> ha degli accumuli di Assistenza adeptica a disposizione, i DAN dell'onda d'urto degli attacchi in picchiata sferrati dai personaggi attivi vicini aumentano di un 170% dell'ATT di Xianyun. L'aumento di DAN massimo che è possibile ottenere in questo modo è pari a 8.500, e può essere applicato a non più di 1 avversario per ogni onda d'urto sprigionata dagli attacchi in picchiata. Ciascun personaggio può attivare quest'effetto una volta ogni 0,4 ."
+      "0": "Quando il Giuncostella creato da <anemo>Riunione astrale del tramonto</anemo> ha degli accumuli di Assistenza adeptica a disposizione, i DAN dell'onda d'urto degli attacchi in picchiata sferrati dai personaggi attivi vicini aumentano di un 170% dell'ATT di Xianyun. L'aumento di DAN massimo che è possibile ottenere in questo modo è pari a 8.500, e può essere applicato a un solo avversario per ogni onda d'urto sprigionata dagli attacchi in picchiata. Ciascun personaggio può attivare quest'effetto una volta ogni 0,4 ."
     }
   },
   "passive3": {
@@ -137,8 +138,8 @@
   "constellation2": {
     "name": "Vita da eremita",
     "description": {
-      "0": "Dopo aver usato <anemo>Candide nuvole dell'alba</anemo>, l'ATT di Xianyun aumenta di un 20% per 15 s.",
-      "1": "In più, il talento passivo Rimira l'Adepta nel suo reame riceve un potenziamento: quando il Giuncostella creato da <anemo>Riunione astrale del tramonto</anemo> ha degli accumuli di Assistenza adeptica a disposizione, i DAN dell'onda d'urto degli attacchi in picchiata sferrati dai personaggi attivi vicini aumentano di un 306% dell'ATT di Xianyun. L'aumento di DAN massimo che è possibile ottenere in questo modo è pari a 15.300, e può essere applicato a non più di 1 avversario per ogni onda d'urto sprigionata dagli attacchi in picchiata. Ciascun personaggio può attivare quest'effetto una volta ogni 0,4 .",
+      "0": "Dopo aver usato Scala celeste di <anemo>Candide nuvole dell'alba</anemo>, l'ATT di Xianyun aumenta di un 20% per 15 s.",
+      "1": "In più, il talento passivo Rimira l'Adepta nel suo reame riceve un potenziamento: quando il Giuncostella creato da <anemo>Riunione astrale del tramonto</anemo> ha degli accumuli di Assistenza adeptica a disposizione, i DAN dell'onda d'urto degli attacchi in picchiata sferrati dai personaggi attivi vicini aumentano di un 306% dell'ATT di Xianyun. L'aumento di DAN massimo che è possibile ottenere in questo modo è pari a 15.300, e può essere applicato a un solo avversario per ogni onda d'urto sprigionata dagli attacchi in picchiata. Ciascun personaggio può attivare quest'effetto una volta ogni 0,4 .",
       "2": "Richiede il talento passivo Rimira l'Adepta nel suo reame."
     }
   },
@@ -152,11 +153,11 @@
   "constellation4": {
     "name": "Buongustaia del miglio perlato",
     "description": {
-      "0": "Dopo aver usato Scala celeste 1/2/3 volte in un'unica iterazione di Trasfigurazione burrascosa di <anemo>Candide nuvole dell'alba</anemo>, quando un'Onda nubifendente sprigionata dalla suddetta iterazione colpisce un avversario, ripristina i PS di tutti i membri vicini del gruppo di una quantità pari a un 50%/80%/150% dell'ATT di Xianyun. Quest'effetto può attivarsi una volta ogni 5 s."
+      "0": "Dopo aver usato Scala celeste 1/2/3 volte in un'unica iterazione di Trasfigurazione burrascosa di <anemo>Candide nuvole dell'alba</anemo>, quando un'Onda nubifendente sprigionata durante la suddetta iterazione colpisce un avversario, i PS di tutti i membri vicini del gruppo vengono ripristinati di una quantità pari a un 50%/80%/150% dell'ATT di Xianyun. Quest'effetto può attivarsi una volta ogni 5 s."
     }
   },
   "constellation5": {
-    "name": "Bellezza di madreperla",
+    "name": "Nuvole rosate",
     "description": {
       "0": "Aumenta di 3 il livello di <strong>Candide nuvole dell'alba</strong>.",
       "1": "Il livello di potenziamento massimo è 15."
@@ -165,9 +166,9 @@
   "constellation6": {
     "name": "Custode delle nubi",
     "description": {
-      "0": "I DAN da CRIT dell'Onda nubifendente di <anemo>Candide nuvole dell'alba</anemo> aumentano di un 70%.",
-      "1": "Quando Xianyun usa Candide nuvole dell'alba, se il Giuncostella di <anemo>Riunione astrale del tramonto</anemo> ha degli accumuli di Assistenza adeptica a disposizione, ne consuma uno per annullare il TdR dell'attuale iterazione di Candide nuvole dell'alba. Inoltre, quando l'attuale iterazione di Trasfigurazione burrascosa innesca l'attacco di Giuncostella con un'Onda nubifendente, non vengono consumati accumuli di Assistenza adeptica.",
-      "2": "Per finire, quando Onda nubifendente: Stupefazione divina colpisce un avversario, Giuncostella ottiene 1 accumulo di Assistenza adeptica. Quest'effetto può attivarsi una volta ogni 8 s."
+      "0": "Dopo aver usato Scala celeste 1/2/3 volte in un'unica iterazione di Trasfigurazione burrascosa di <anemo>Candide nuvole dell'alba</anemo>, i DAN da CRIT della relativa Onda nubifendente aumentano di un 15%/35%/70%.",
+      "1": "Quando Xianyun usa Candide nuvole dell'alba, se il Giuncostella di <anemo>Riunione astrale del tramonto</anemo> ha degli accumuli di Assistenza adeptica a disposizione, ne consuma 1 per annullare il TdR dell'attuale iterazione di Candide nuvole dell'alba. Inoltre, quando l'attuale iterazione di Trasfigurazione burrascosa innesca l'attacco del Giuncostella con un'Onda nubifendente, non vengono consumati accumuli di Assistenza adeptica.",
+      "2": "Per finire, quando Onda nubifendente: Stupefazione divina colpisce un avversario, il Giuncostella ottiene 1 accumulo di Assistenza adeptica. Quest'effetto può attivarsi una volta ogni 8 s."
     }
   }
 }

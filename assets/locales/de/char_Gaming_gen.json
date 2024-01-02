@@ -1,8 +1,8 @@
 {
   "name": "Gaming",
-  "title": "???",
+  "title": "Fabellöwe im Vormarsch",
   "description": "",
-  "constellationName": "",
+  "constellationName": "Leo Expergiscens",
   "auto": {
     "name": "Des Sternenzerreißenen Klauen",
     "fields": {
@@ -40,13 +40,13 @@
     }
   },
   "skill": {
-    "name": "Einer Glück verheißenden Bestie versprochener Aufstieg",
+    "name": "Einer glückverheißenden Bestie versprochener Aufstieg",
     "description": {
-      "0": "Springt mit den Wushou-Künsten nach vorne und hebt sich bei einem Treffer hoch in die Luft.",
-      "1": "Nachdem sich Gaming mit seiner Elementarfähigkeit „Einer Glück verheißenden Bestie versprochener Aufstieg“ in die Luft erhoben hat, setzt er die besonders mächtigen Angriffe aus dem Fall: Heiliger Wolkenreiter, ein, wenn er diese ausführt.",
+      "0": "Springt mit den Wushou-Künsten nach vorn und erhebt sich bei einem Treffer hoch in die Luft.",
+      "1": "Nachdem sich Gaming mit seiner Elementarfähigkeit „Einer glückverheißenden Bestie versprochener Aufstieg“ in die Luft erhoben hat, setzt er besonders kraftvolle Angriffe aus dem Fall „Heiliger Wolkenreiter“ ein, wenn er Angriffe aus dem Fall ausführt.",
       "2": "<br/>",
       "3": "<strong>Angriff aus dem Fall: Heiliger Wolkenreiter</strong>",
-      "4": "Der durch die Elementarfähigkeit „Einer Glück verheißenden Bestie versprochener Aufstieg“ verursachte Schaden des Angriffs aus dem Fall wird in <pyro>Pyro-Schaden</pyro> umgewandelt, der beim Aufkommen Gaming eine bestimmte Menge an LP verbraucht. Auf diese Weise können Gamings LP höchstens auf 10 % reduziert werden.",
+      "4": "Wandelt den durch die Elementarfähigkeit „Einer glückverheißenden Bestie versprochener Aufstieg“ verursachten Schaden des Angriffs aus dem Fall in <pyro>Pyro-Schaden</pyro> um, der nicht von anderen Elementen überdeckt werden kann und beim Aufkommen eine bestimmte Menge an LP von Gaming verbraucht. Auf diese Weise können Gamings LP höchstens auf 10 % verringert werden.",
       "5": "Der mit „Heiliger Wolkenreiter“ verursachte Schaden gilt als Schaden von Angriffen aus dem Fall.",
       "6": "<br/>",
       "7": "<i>„Die Bestie springt und pflückt das Grün, Wohlstand um uns herum erklingt. Mögen Reichtum und Gesundheit uns allen zuteilwerden und mögen wir alle einen tollen Aufstieg haben!“</i>"
@@ -71,17 +71,17 @@
     }
   },
   "burst": {
-    "name": "Der gehörnten Bestie vergoldeter Tanz",
+    "name": "Der Suanni vergoldeter Tanz",
     "description": {
-      "0": "Gaming tritt in die Wushou-Haltung ein, stellt eine bestimmte Menge an LP wieder her und beschwört seinen Begleiter, die gehörnte Bestie Man Chai, um auf sein Ziel einzuschlagen und <pyro>Pyro-Flächenschaden</pyro> zu verursachen.",
-      "1": "Nach dem Einschlagen auf ihr Ziel rollt Man Chai zu einem nahe gelegenen Ort, bevor sie sich auf Gaming zubewegt. Wenn sie sich mit Gaming trifft, verlässt Man Chai das Spielfeld und setzt die Abklingzeit von Gamings Elementarfähigkeit „Einer Glück verheißenden Bestie versprochener Aufstieg“ zurück.",
-      "2": "Solange die Wushou-Haltung aktiv ist, beschwört Gaming erneut Man Chai, wenn er den Angriff aus dem Fall: Heiliger Wolkenreiter ausführt oder den Sprungangriff von „Einer Glück verheißenden Bestie versprochener Aufstieg“ vollendet, und zwar mit mehr als 50 % LP.",
-      "3": "Es kann gleichzeitig nur 1 Man Chai auf dem Spielfeld existieren.",
+      "0": "Gaming nimmt die Wushou-Haltung ein, erhält kurzzeitig das <pyro>Pyro-Attribut</pyro>, stellt eine bestimmte Menge an LP wieder her und beschwört seinen Begleiter, Suanni – Man Chai, um auf sein Ziel einzuschlagen und <pyro>Pyro-Flächenschaden</pyro> zu verursachen.",
+      "1": "Nach dem Einschlagen auf ihr Ziel rollt Man Chai zu einem nahe gelegenen Ort, bevor sie sich auf Gaming zubewegt. Wenn sie sich mit Gaming trifft, verlässt Man Chai das Feld und setzt die Abklingzeit von Gamings Elementarfähigkeit „Einer glückverheißenden Bestie versprochener Aufstieg“ zurück.",
+      "2": "Solange die Wushou-Haltung aktiv ist und Gaming mehr als 50 % LP besitzt, beschwört er erneut Man Chai, wenn er den Angriff aus dem Fall: Heiliger Wolkenreiter ausführt oder den Sprungangriff von „Einer glückverheißenden Bestie versprochener Aufstieg“ vollendet.",
+      "3": "Es kann gleichzeitig nur 1 Suanni – Man Chai, die zu Gaming selbst gehört, auf dem Feld existieren.",
       "4": "<br/>",
-      "5": "<i>„Die goldene Bestie bringt Glück, strahlende Lichter und glänzende Anblicke! Das nennst du ein Leben in Fülle!“</i>"
+      "5": "<i>„Die goldene Suanni bringt Glück, strahlende Lichter und glänzende Anblicke! Das nennt man ein Leben im Überfluss!“</i>"
     },
     "skillParams": {
-      "0": "Einschlagen-SCH von Man Chai",
+      "0": "Einschlag-SCH von Suanni – Man Chai",
       "1": "Fähigkeits-Heilung",
       "2": "Dauer der Wushou-Haltung",
       "3": "Abklingzeit",
@@ -102,13 +102,13 @@
   "passive1": {
     "name": "Tanz der Eintracht",
     "description": {
-      "0": "Stellt Gaming innerhalb von 1 s nach dem Treffen von Gegnern mit dem Angriff aus dem Fall: Heiliger Wolkenreiter von <strong>Einer Glück-verheißenden Bestie versprochener Aufstieg</strong> 10 % LP wieder her."
+      "0": "Stellt Gaming innerhalb von 1 s nach dem Treffen von Gegnern mit dem Angriff aus dem Fall: Heiliger Wolkenreiter von <strong>Einer glückverheißenden Bestie versprochener Aufstieg</strong> 6 % LP wieder her."
     }
   },
   "passive2": {
     "name": "Atmosphäre des Wohlstands",
     "description": {
-      "0": "Erhält für weniger als 50 % LP einen passiven Heilungsbonus von 20 %. Erhält für 50 % oder mehr als 50 % LP einen Pyro-SCH-Bonus von 20 %."
+      "0": "Erhält bei weniger als 50 % LP einen passiven Heilungsbonus von 20 %. Erhöht bei 50 % oder mehr LP den mit dem Angriff aus dem Fall: Heiliger Wolkenreiter verursachten Schaden um 20 %."
     }
   },
   "passive3": {
@@ -121,7 +121,7 @@
   "constellation1": {
     "name": "Bringer des Segens",
     "description": {
-      "0": "Stellt Gaming 25 % LP wieder her, wenn sich die Bestie – Man Chai von <strong>Der gehörnten Bestie vergoldeter Tanz</strong> erfolgreich mit Gaming trifft."
+      "0": "Stellt Gaming 15 % LP wieder her, wenn sich die Suanni – Man Chai von <strong>Der Suanni vergoldeter Tanz</strong> erfolgreich mit Gaming trifft."
     }
   },
   "constellation2": {
@@ -133,27 +133,27 @@
   "constellation3": {
     "name": "Erweckung des Willens",
     "description": {
-      "0": "Erhöht die Stufe der Fähigkeit <anemo>Einer Glück-verheißenden Bestie versprochener Aufstieg</anemo> um 3.",
+      "0": "Erhöht die Stufe der Fähigkeit <strong>Einer glückverheißenden Bestie versprochener Aufstieg</strong> um 3.",
       "1": "Höchststufe 15."
     }
   },
   "constellation4": {
     "name": "Über Berge und Wolken",
     "description": {
-      "0": "Stellt Gaming 2 Punkte Elementarenergie wieder her, wenn der Angriff aus dem Fall: Heiliger Wolkenreiter von <strong>Einer Glück-verheißenden Bestie versprochener Aufstieg</strong> einen Gegner trifft, 0,2 s Abklingzeit."
+      "0": "Stellt Gaming 2 Punkte Elementarenergie wieder her, wenn der Angriff aus dem Fall: Heiliger Wolkenreiter von <strong>Einer glückverheißenden Bestie versprochener Aufstieg</strong> einen Gegner trifft, 0,2 s Abklingzeit."
     }
   },
   "constellation5": {
     "name": "Dämonenjagendes Brüllen",
     "description": {
-      "0": "Erhöht die Stufe der Fähigkeit <anemo>Der gehörnten Bestie vergoldeter Tanz</anemo> um 3.",
+      "0": "Erhöht die Stufe der Fähigkeit <strong>Der Suanni vergoldeter Tanz</strong> um 3.",
       "1": "Höchststufe 15."
     }
   },
   "constellation6": {
     "name": "Zähmer aller Bestien",
     "description": {
-      "0": "Erhöht die KT des Angriffs aus dem Fall: Heiliger Wolkenreiter von <strong>Einer Glück-verheißenden Bestie versprochener Aufstieg</strong> um 20 %, den KSCH um 40 % sowie die Angriffsreichweite."
+      "0": "Erhöht die KT des Angriffs aus dem Fall: Heiliger Wolkenreiter von <strong>Einer glückverheißenden Bestie versprochener Aufstieg</strong> um 20 %, dessen KSCH um 40 % sowie dessen Angriffsreichweite."
     }
   }
 }

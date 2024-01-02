@@ -1,6 +1,6 @@
 {
   "name": "Xianyun",
-  "title": "???",
+  "title": "Hạc Sứ Cõi Tiên",
   "description": "",
   "constellationName": "Cung Nhàn Hạc",
   "auto": {
@@ -16,7 +16,7 @@
       },
       "plunging": {
         "0": "<strong>Tấn Công Khi Đáp</strong>",
-        "1": "Từ trên trời tấn công xuống mặt đất, tấn công kẻ địch trên đường, gây <anemo>Sát Thương Phạm Vi Nguyên Tố Phong</anemo>."
+        "1": "Ngưng tụ sức mạnh nguyên tố Phong, từ trên trời tấn công xuống mặt đất, tấn công kẻ địch trên đường, gây <anemo>Sát Thương Phạm Vi Nguyên Tố Phong</anemo>."
       }
     },
     "skillParams": {
@@ -41,7 +41,7 @@
   "skill": {
     "name": "Mây Trắng Bình Minh",
     "description": {
-      "0": "Xianyun tiến vào trạng thái Mây Hạc Ảo Hóa, đồng thời triển khai một lần Bộ Thiên Thê. Trong trạng thái Mây Hạc Ảo Hóa sẽ còn có thể sử dụng tối đa hai lần Bộ Thiên Thê nữa.",
+      "0": "Xianyun tiến vào trạng thái Mây Hạc Ảo Hóa, đồng thời triển khai một lần Bộ Thiên Thê. Trong trạng thái Mây Hạc Ảo Hóa sẽ còn có thể sử dụng tối đa hai lần Bộ Thiên Thê nữa, đồng thời không bị gánh chịu sát thương đáp đất.",
       "1": "Xianyun trong trạng thái Mây Hạc Ảo Hóa khi tiến hành Tấn Công Thường hoặc Tấn Công Khi Đáp, sẽ chuyển thành Sóng Xung Kích Mây Trôi: Hóa thân thành Hạc Gió Mây để lao vào tấn công kẻ địch gần đó, gây <anemo>Sát Thương Phạm Vi Nguyên Tố Phong</anemo>, đồng thời kết thúc trạng thái Mây Hạc Ảo Hóa. Sát thương gây ra từ cách thức này sẽ được xem là sát thương Tấn Công Khi Đáp.",
       "2": "<br/>",
       "3": "<strong>Bộ Thiên Thê</strong>",
@@ -57,11 +57,11 @@
       "13": "<i>Đừng nên bắt tay Lưu Vân Tá Phong Chân Quân, ai mà biết bên trong có huyền cơ gì chứ.</i>"
     },
     "skillParams": {
-      "0": "Sát Thương Tư Thế Tiên Nhân",
-      "1": "Sát Thương Hạc Truy Kích - Bước Nhảy Một",
-      "2": "Sát Thương Hạc Truy Kích - Bước Nhảy Hai",
-      "3": "Sát Thương Hạc Truy Kích - Bước Nhảy Ba",
-      "4": "CD Nhấn",
+      "0": "Sát Thương Kỹ Năng",
+      "1": "Sát Thương Sóng Xung Kích Mây Trôi",
+      "2": "CD",
+      "3": "",
+      "4": "",
       "5": "",
       "6": "",
       "7": "",
@@ -86,19 +86,20 @@
         "Ban đầu có 8 tầng Tiên Lực Trợ Giúp. Khi có Tiên Lực Trợ Giúp, sẽ tăng độ cao khi nhảy của nhân vật ra trận trong đội gần đó.",
         "Khi nhân vật ra trận hiện tại hoàn thành Tấn Công Khi Đáp, Trúc Tinh sẽ tiêu hao một tầng Tiên Lực Trợ Giúp, gây <anemo>Sát Thương Phạm Vi Nguyên Tố Phong</anemo>."
       ],
-      "4": "<br/>",
-      "5": "<i>Đây là phát minh mới sau Cơ Quan Nấu Nướng Thần Kỳ, Cơ Quan Vận Chuyển Đồ Vật, Cơ Quan Dò Tìm Đồ Vật, Cơ Quan Pha Trà, Cơ Quan Trượt Tuyết, Cơ Quan Tạp Vụ, Cơ Quan Phát Thanh. Nó thuộc dòng phát minh \"Tinh Nguyệt Tạo Hóa\". Dòng phát minh này dùng để tặng cho loài người mà Lưu Vân Tá Phong tán thưởng, cho nên không có phần cho vị bán tiên nào đó. Nhưng khi đối diện với món Trúc Tinh này, vị nữ đệ tử nào đó đã nói một cách lạnh lùng: \"Không cần.\"",
-      "6": "Cho nên Lưu Vân Tá Phong chỉ đành giữ Trúc Tinh lại bên mình.</i>"
+      "4": "Trong trận chỉ tồn tại tối đa một \"Trúc Tinh\".",
+      "5": "<br/>",
+      "6": "<i>Đây là phát minh mới sau Cơ Quan Nấu Nướng Thần Kỳ, Cơ Quan Trượt Tuyết, Cơ Quan Tạp Vụ, Cơ Quan Vận Chuyển Đồ Vật, Cỗ Máy Hoa Cỏ Thần Thánh. Nó thuộc dòng phát minh \"Tinh Nguyệt Tạo Hóa\". Dòng phát minh này dùng để tặng cho loài người mà Lưu Vân Tá Phong tán thưởng, cho nên không có phần cho vị bán tiên nào đó. Nhưng khi đối diện với món Trúc Tinh này, vị nữ đệ tử nào đó đã nói một cách lạnh lùng: \"Không cần.\"",
+      "7": "Cho nên Lưu Vân Tá Phong chỉ đành giữ Trúc Tinh lại bên mình.</i>"
     },
     "skillParams": {
-      "0": "Sát Thương Thi Triển",
-      "1": "Sát Thương Cơ Quan Hỗ Trợ",
-      "2": "Trị Liệu Thi Triển",
-      "3": "Cơ Quan Duy Trì Trị Liệu",
-      "4": "Giãn Cách Cơ Quan Trị Liệu",
-      "5": "Thời Gian Duy Trì Cơ Quan",
-      "6": "CD",
-      "7": "Năng Lượng Nguyên Tố",
+      "0": "Sát Thương Kỹ Năng",
+      "1": "Sát thương Trúc Tinh",
+      "2": "Lượng Trị Liệu",
+      "3": "Lượng Trị Liệu Duy Trì",
+      "4": "Thời Gian Duy Trì",
+      "5": "CD",
+      "6": "Năng Lượng Nguyên Tố",
+      "7": "",
       "8": "",
       "9": "",
       "10": "",
@@ -138,7 +139,7 @@
   "constellation2": {
     "name": "Hạc Lệ Viễn Nhân Gian",
     "description": {
-      "0": "Sau khi thi triển <anemo>Mây Trắng Bình Minh</anemo>, Tấn Công của Xianyun tăng 20% trong 15s.",
+      "0": "Sau khi thi triển Bộ Thiên Thê của <anemo>Mây Trắng Bình Minh</anemo>, Tấn Công của Xianyun tăng 20% trong 15s.",
       "1": "Ngoài ra, hiệu quả của thiên phú cố định \"Thầm Nghĩ Hẳn Là Tiên Trong Động\" sẽ được cường hóa: Trúc Tinh của <anemo>Hái Sao Chạng Vạng</anemo> khi có Tiên Lực Trợ Giúp, sẽ tăng sát thương xung kích của Tấn Công Khi Đáp từ nhân vật ra trận trong đội gần đó, mức tăng tương đương với 306% Tấn Công của Xianyun. Thông qua cách thức này, tối đa có thể khiến sát thương xung kích của Tấn Công Khi Đáp từ nhân vật ra trận trong đội gần đó tăng 15300.",
       "2": "Trong một lần sát thương xung kích của Tấn Công Khi Đáp, chỉ có thể gây sát thương nêu trên cho một kẻ địch. Mỗi nhân vật mỗi 0.4s tối đa kích hoạt một lần.",
       "3": "Hiệu quả này cần mở khóa thiên phú cố định \"Thầm Nghĩ Hẳn Là Tiên Trong Động\"."
@@ -167,7 +168,7 @@
   "constellation6": {
     "name": "Tri Thị Lưu Vân Tiên",
     "description": {
-      "0": "Sát Thương Bạo Kích của Sóng Xung Kích Mây Trôi từ <anemo>Mây Trắng Bình Minh</anemo> tăng 70%.",
+      "0": "Sau khi thi triển 1/2/3 lần Bộ Thiên Thê trong hiệu lực Mây Hạc Ảo Hóa từ một lần <anemo>Mây Trắng Bình Minh</anemo>, Sát Thương Bạo Kích của Sóng Xung Kích Mây Trôi từ lần Mây Hạc Ảo Hóa đó tăng 15%/35%/70%.",
       "1": "Khi Xianyun thi triển Mây Trắng Bình Minh, nếu Trúc Tinh của <anemo>Hái Sao Chạng Vạng</anemo> có Tiên Lực Trợ Giúp, thì sẽ tiêu hao một tầng Tiên Lực Trợ Giúp để khiến lần Mây Trắng Bình Minh đó không vào thời gian chờ, đồng thời khi Sóng Xung Kích Mây Trôi trong thời gian Mây Hạc Ảo Hóa đó kích hoạt đòn tấn công của Trúc Tinh thì sẽ không tiêu hao Tiên Lực Trợ Giúp.",
       "2": "Ngoài ra, Sóng Xung Kích Mây Trôi - Thiên Uy Áp Chế khi trúng kẻ địch, Trúc Tinh sẽ nhận được một tầng Tiên Lực Trợ Giúp. Hiệu quả này mỗi 8s tối đa kích hoạt một lần."
     }

@@ -1,8 +1,8 @@
 {
   "name": "Xianyun",
-  "title": "???",
+  "title": "Passerine Herald",
   "description": "",
-  "constellationName": "",
+  "constellationName": "Grus Serena",
   "auto": {
     "name": "Word of Wind and Flower",
     "fields": {
@@ -16,7 +16,7 @@
       },
       "plunging": {
         "0": "<strong>Plunging Attack</strong>",
-        "1": "Plunges towards the ground from mid-air, damaging all opponents in her path. Deals <anemo>AoE Anemo DMG</anemo> upon impact with the ground."
+        "1": "Gathers the power of Anemo and plunges towards the ground from mid-air, damaging all opponents in her path. Deals <anemo>AoE Anemo DMG</anemo> upon impact with the ground."
       }
     },
     "skillParams": {
@@ -41,13 +41,13 @@
   "skill": {
     "name": "White Clouds at Dawn",
     "description": {
-      "0": "Xianyun enters the Cloud Transmogrification state and uses Skyladder once. In this state, she can use Skyladder up to 2 more times.",
-      "1": "In this state, when Xianyun uses a Normal or Plunging Attack, she will use Driftcloud Wave instead, transforming into a Cloudbreeze Crane and performing a dive attack on nearby opponents, dealing <anemo>AoE Anemo DMG</anemo> and ending Cloud Transmogrification. DMG dealt this way is considered Plunging Attack DMG.",
+      "0": "Xianyun enters the Cloud Transmogrification state and uses Skyladder once. In this state, she can use Skyladder up to 2 more times, and she will not take any Fall Damage.",
+      "1": "In this state, when Xianyun uses a Normal or Plunging Attack, she will use Driftcloud Wave instead, transforming into a Cloudbreeze Crane to perform a dive attack on nearby opponents, dealing <anemo>AoE Anemo DMG</anemo> and ending Cloud Transmogrification. DMG dealt this way is considered Plunging Attack DMG.",
       "2": "<br/>",
       "3": "<strong>Skyladder</strong>",
       "4": "Xianyun will temporarily ascend forward and into the air, dealing <anemo>Anemo DMG</anemo> to targets in her path.",
       "5": "Can be used while in mid-air. The leap distance increases when used from the ground.",
-      "6": "The same opponent can be damaged a maximum of once per Cloud Transmogrification state.",
+      "6": "The same opponent can be damaged a maximum of once per Cloud Transmogrification state using a Skyladder.",
       "7": "<br/>",
       "8": "The more times Skyladder is used during per Cloud Transmogrification state, the more DMG the resulting Driftcloud Wave will deal and the larger its AoE. After using 3 Skyladders (including the initial use from White Clouds at Dawn), she will use the mightiest Driftcloud Wave: Divine Awe.",
       "9": "<br/>",
@@ -57,11 +57,11 @@
       "13": "<i>Watch out when you hold Cloud Retainer's hand — she's got a grip like a crane.</i>"
     },
     "skillParams": {
-      "0": "Adeptal Aspect Trail DMG",
-      "1": "Chasing Crane: First Leap",
-      "2": "Chasing Crane: Second Leap",
-      "3": "Chasing Crane: Third Leap",
-      "4": "Press CD",
+      "0": "Skill DMG",
+      "1": "Driftcloud Wave DMG",
+      "2": "CD",
+      "3": "",
+      "4": "",
       "5": "",
       "6": "",
       "7": "",
@@ -86,19 +86,20 @@
         "Starts with 8 stacks of Adeptal Assistance. While Adeptal Assistance is active, nearby active characters will have their jump height increased.",
         "When the active character completes a Plunging Attack, Starwicker will consume 1 stack of Adeptal Assistance and deal <anemo>AoE Anemo DMG</anemo>."
       ],
-      "4": "<br/>",
-      "5": "<i>This is the newest invention in the \"Lunastar Artifices\" series, of which previous creations include the Supreme Cuisine Machine, Floating Toting Device, Curio Discernment Mechanism, Supreme Tea-Brewing Machine, the Snowdrift Mechanism, Supreme Housekeeping Machine, and the Sound Amplification Machine. This series was intended for young humans Cloud Retainer had admiration for, and so was not designed with a certain half-adeptus in mind. However, when offered Starwicker, a certain female disciple of hers had these emotionless words to say: \"No thank you.\"",
-      "6": "Cloud Retainer thus had no choice but to keep it herself.</i>"
+      "4": "Only 1 Starwicker can exist simultaneously.",
+      "5": "<br/>",
+      "6": "<i>This is the newest invention in the \"Lunastar Artifices\" series, of which previous creations include the Supreme Cuisine Machine, the Snowdrift Mechanism, Supreme Housekeeping Machine, the Floating Toting Device, and the Bloom Pruner. This series was intended for young humans Cloud Retainer held an admiration for, and so was not designed with a certain half-adeptus in mind. However, when offered Starwicker, a certain female disciple of hers had these emotionless words to say: \"No thank you.\"",
+      "7": "Cloud Retainer thus had no choice but to keep it herself.</i>"
     },
     "skillParams": {
-      "0": "Instant DMG",
-      "1": "Device Coordinated ATK DMG",
-      "2": "Instant Healing",
-      "3": "Device Continuous Healing",
-      "4": "Device Healing Trigger Interval",
-      "5": "Device Duration",
-      "6": "CD",
-      "7": "Energy Cost",
+      "0": "Skill DMG",
+      "1": "Starwicker DMG",
+      "2": "Healing",
+      "3": "Continuous Healing",
+      "4": "Duration",
+      "5": "CD",
+      "6": "Energy Cost",
+      "7": "",
       "8": "",
       "9": "",
       "10": "",
@@ -138,7 +139,7 @@
   "constellation2": {
     "name": "Aloof From the World",
     "description": {
-      "0": "After using <anemo>White Clouds at Dawn</anemo>, Xianyun's ATK will be increased by 20% for 15s.",
+      "0": "After using a Skyladder from <anemo>White Clouds at Dawn</anemo>, Xianyun's ATK will be increased by 20% for 15s.",
       "1": "Additionally, the effects of the Passive Talent \"Consider, the Adeptus in Her Realm\" will be enhanced: When the Starwicker created by <anemo>Stars Gather at Dusk</anemo> has Adeptal Assistance stacks, nearby active characters' Plunging Attack shockwave DMG will be increased by 306% of Xianyun's ATK. The maximum DMG increase that can be achieved this way is 15,300.",
       "2": "Each Plunging Attack shockwave DMG instance can only apply this increased DMG effect to a single opponent. Each character can trigger this effect once every 0.4s.",
       "3": "You must first unlock the Passive Talent \"Consider, the Adeptus in Her Realm.\""
@@ -167,7 +168,7 @@
   "constellation6": {
     "name": "Cloudkeeper's Spirit",
     "description": {
-      "0": "The CRIT DMG of <anemo>White Clouds at Dawn</anemo>'s Driftcloud Wave is increased by 70%.",
+      "0": "After Skyladder has been used 1/2/3 times in one Cloud Transmogrification state caused by <anemo>White Clouds at Dawn</anemo>, the resultant Driftcloud Wave's CRIT DMG will be increased by 15%/35%/70%.",
       "1": "When Xianyun uses White Clouds at Dawn, if <anemo>Stars Gather at Dusk</anemo>'s Starwicker has Adeptal Assistance, 1 Adeptal Assistance stack will be consumed and cause this use of White Clouds at Dawn to not enter CD, and when this instance of Cloud Transmogrification state triggers Starwicker's attack with a Driftcloud Wave, no Adeptal Assistance will be consumed.",
       "2": "Additionally, when Driftcloud Wave: Divine Awe hits an opponent, Starwicker will gain 1 Adeptal Assistance stack. This effect can be triggered once every 8s."
     }

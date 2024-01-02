@@ -6583,6 +6583,14 @@
       "0": "Morte Bölgesi'nin sularına karışmış saf bir çiy damlası. Diğer saf su kütlelerinden farklıdır, sanki daha saf ve ilkel Element Enerjisinin birikimiyle oluşmuş gibidir."
     }
   },
+  "ClearwaterJade": {
+    "name": "Berrak Su Yeşimi",
+    "description": {}
+  },
+  "ChenyuAdeptea": {
+    "name": "",
+    "description": {}
+  },
   "BirchWood": {
     "name": "Huş Ağacı Kütüğü",
     "description": {
@@ -10187,9 +10195,11 @@
       "1": "Derinlikler Tapınaklarını inşa eden medeniyet yok olup gidince tapınaklar kendilerini mühürledi. Zindanların derinliklerinde bulunabilen anahtarlar bu mühürleri kırabilir. Belki de bu anahtarlar, mühürlerin kaybettiklerini unutmasına yardımcı oluyordur."
     }
   },
-  "SpiritKoi": {
-    "name": "",
-    "description": {}
+  "SpiritCarp": {
+    "name": "Ruh Sazanı",
+    "description": {
+      "0": "Dağlar, vadiler ve derelerde özgürce yüzen, yoğunlaşmış Adeptus gücünden oluşan bir Ruh Sazanı."
+    }
   },
   "Dish": {
     "name": "Yemek",
@@ -12773,9 +12783,7 @@
   },
   "DeliciousFishWithCreamSauce": {
     "name": "Krema Soslu Balık (Lezzetli)",
-    "description": {
-      "0": "Sosla servis edilen bir balık yemeği. Enfes kremalı sosun üzerinde yarı saydam bir fileto. Sadece küçücük bir lokmada bile, taptaze balığın o muhteşem lezzetini alabilirsin."
-    }
+    "description": {}
   },
   "ForestWatchersChoice": {
     "name": "Orman Gözcüsünün Spesiyali",
@@ -13890,115 +13898,171 @@
   },
   "SuspiciousEightTreasureDuck": {
     "name": "Sekiz Hazine Ördeği (Tuhaf)",
-    "description": {}
+    "description": {
+      "0": "Yapımı gerçekten yetenek isteyen bir yemek. Kemikleri ayıklamaktan neredeyse gözlerin bozuldu. Tam anlamıyla bir sabır, dayanıklılık ve aynı zamanda bıçak kullanma becerisi sınavı oldu bu yemek. O kadar özenle hazırladığın ördeğin tavada pişerken resmen patlamış olması da çok yazık oldu... Şimdi gözlerini kapat, sakinleş ve bu yemeği tekrar yapmayı aklından çıkar."
+    }
   },
   "EightTreasureDuck": {
     "name": "Sekiz Hazine Ördeği",
-    "description": {}
+    "description": {
+      "0": "Yapımı gerçekten yetenek isteyen bir yemek. Adına sekiz hazine denen sekiz farklı çeşit et ve sebze, kemikleri ayıklanmış bir ördeğin içine doldurulur. Daha sonra ördeğe şans ve uğur sembolü olan kabak şekli verilir. Seçkin malzemeler, üstün bir kesim tekniği ve muhteşem bir zamanlama gerektiren bu yemek, son tabak olarak sunulduğu tüm ziyafet sofralarındaki yerini hak ediyor."
+    }
   },
   "DeliciousEightTreasureDuck": {
     "name": "Sekiz Hazine Ördeği (Lezzetli)",
-    "description": {}
+    "description": {
+      "0": "Yapımı gerçekten yetenek isteyen bir yemek. Tombul ve lezzetli görünen şanslı ördeği daha tavadan aldığın an yememek için kendini zor tuttun. Enfes kokulu sosu eklediğinde katılan gül rengi parlaklık ile yemek mükemmel bir görüntü, tat ve şekil birleşimine kavuştu. Her ısırık ağızda gerçek bir lezzet patlaması yaşatırken ardında uzun ve hoş bir tat bırakıyor."
+    }
   },
   "SuspiciousDeepFriedDoublecrisp": {
     "name": "Çifte Çıtır Kızartması (Tuhaf)",
-    "description": {}
+    "description": {
+      "0": "Liyue'nin meşhur yemeklerinden biri. Yemeği tavada sadece bir kez dikkatsizce çevirmen, yükselen alevlerin acımasızca tüm çıtırlığı ve yumuşaklığı alıp yerine yanmış ve kararmış parçalar dışında hiçbir şey bırakmamasına sebep oldu."
+    }
   },
   "DeepFriedDoublecrisp": {
     "name": "Çifte Çıtır Kızartması",
-    "description": {}
+    "description": {
+      "0": "Liyue'nin meşhur yemeklerinden biri. Harlı ateş, kızgın yağ ve soteleme işlemi gerektiren bu yemek şefin yetenekleri için zorlu bir testtir. Birkaç saniye az piştiğinde malzeme çiğ kalır, çok pişerse de çıtırlığı gider. Bu sebepten ötürü tecrübeli Liyue aşçıları becerilerini göstermek için sık sık bu yemeği seçer."
+    }
   },
   "DeliciousDeepFriedDoublecrisp": {
     "name": "Çifte Çıtır Kızartması (Lezzetli)",
-    "description": {}
+    "description": {
+      "0": "Liyue'nin meşhur yemeklerinden biri. Kaplamalı kırmızı ve beyaz etler tavada kızarıp bir araya gelmiş ve damak bahçesinde çiçek açıyorlar sanki. Pürüzsüz, gevrek, tuzlu ve enfes bu yemeği mutlaka herkes tatmalı. Tabağı silip süpürdükten sonra dahi yemeği övmeyi bırakamıyorsun."
+    }
   },
   "SuspiciousBraisedMeatballs": {
-    "name": "",
-    "description": {}
+    "name": "Köfte Kavurma (Tuhaf)",
+    "description": {
+      "0": "Klasik bir Liyue yemeği. Yuvarlak şekil ve aroma sanki yerinde ama yemeğin tadına baktığında biraz fazla kuru olduğunu fark ediyorsun. Belki de kullandığın et biraz fazla yağsızdı."
+    }
   },
   "BraisedMeatballs": {
-    "name": "",
-    "description": {}
+    "name": "Köfte Kavurma",
+    "description": {
+      "0": "Klasik bir Liyue yemeği. Yağlı ve yağsız et parçaları, çıtır bambu filizleriyle karıştırılıp köfte haline getirilir. Köfteler önce kızartılıp sonra haşlanır. Hem evlerde hem de ziyafetlerde kendine yer bulan popüler bir yemektir."
+    }
   },
   "DeliciousBraisedMeatballs": {
-    "name": "",
-    "description": {}
+    "name": "Köfte Kavurma (Lezzetli)",
+    "description": {
+      "0": "Klasik bir Liyue yemeği. Zümrüt yeşili taze soğan ve yakut kırmızısı köfteler birbirini mükemmel tamamlarken hassas ve olağanüstü bir bıçak işçiliğiyle hazırlanan köfteler ağızda eriyor. Tam olması gerektiği kadar yağlı bu yemeğin haftalarca dillerden düşmeyeceği garanti. Şans getirmesi için tabağındakileri bitirdiğinden emin ol!"
+    }
   },
   "SuspiciousHoneyCharSiu": {
     "name": "Ballı Char Siu (Tuhaf)",
-    "description": {}
+    "description": {
+      "0": "Liyue'den bir çeşit kızarmış et yemeği. Aşırı derecede tatlı sos, damak için usandırıcı bir işkenceden farksız. Yerlilerin de söylediği gibi küçük hatalar büyük sorunlara yol açar ve bu özellikle yemek yaparken böyledir."
+    }
   },
   "HoneyCharSiu": {
     "name": "Ballı Char Siu",
-    "description": {}
+    "description": {
+      "0": "Liyue'den bir çeşit kızarmış et yemeği. İsminden anlaşıldığı gibi, marine edilen et metalden özel bir şişe takılarak ateşin üstüne asılarak pişirilir. Taze kızarmış Char Siu, birçok gurmenin favori lezzetlerinden biridir."
+    }
   },
   "DeliciousHoneyCharSiu": {
     "name": "Ballı Char Siu (Lezzetli)",
-    "description": {}
+    "description": {
+      "0": "Liyue'den bir çeşit kızarmış et yemeği. Zengin kırmızı rengi, kokusu ve yoğun lezzetiyle harika olmuş. Daha bakarken aşırı yemekten bayılacağını hissediyor insan. Bir parça et, biraz da zengin sostan derken bu lezzet deneyimi için bir kase pilav yetmeyecek gibi."
+    }
   },
   "SuspiciousFineTeaFullMoon": {
-    "name": "",
-    "description": {}
+    "name": "Çaylı Dolunay (Tuhaf)",
+    "description": {
+      "0": "Çayla birlikte yenen, yumurta sarısından yapılan bir hamur işi. Daha eline aldığında hamurun katmanları heyelan gibi dökülmeye başlıyor. İlk ısırık yapış yapış, şekerli ve boğucu... Tam o sırada boğazına takılan bir şeyi yutmak için su içerken tatlının kalanıyla ne yapacağını düşünüyorsun."
+    }
   },
   "FineTeaFullMoon": {
-    "name": "",
-    "description": {}
+    "name": "Çaylı Dolunay",
+    "description": {
+      "0": "Çayla birlikte yenen, yumurta sarısından yapılan bir hamur işi. Tuz eklenen yumurta sarısı önce buharda pişirilir, daha sonra içinde çay tozu bulunan hamura sarılır ve fırına verilmeden önce dolunay şekli verilir. Bu sayede dışı çıtır çıtır ve gevrek, içi hem tuzlu ve tatlı, bağımlılık yaratıcı katman katman farklı tatların alındığı bir lezzet haline gelir."
+    }
   },
   "DeliciousFineTeaFullMoon": {
-    "name": "",
-    "description": {}
+    "name": "Çaylı Dolunay (Lezzetli)",
+    "description": {
+      "0": "Çayla birlikte yenen, yumurta sarısından yapılan bir hamur işi. Yumurta sarısının akışkan ve narin yapısı çayın hafif kokusuna karışmış. Küçücük bir lokma insanın başını döndüren samimi bir mutlulukla sarmalanmasını sağlıyor. Arka arkaya birkaç tane ağzına atmana engel hiçbir şey yokken senden kırıntısını bile almaya çalışanın vay haline."
+    }
   },
   "SuspiciousJadeveinTeaEggs": {
     "name": "Yeşim Desenli Çay Yumurtası (Tuhaf)",
-    "description": {}
+    "description": {
+      "0": "Geleneksel bir Liyue atıştırmalığı. Tadının normal bir haşlanmış yumurtadan hiçbir farklı yok. Acaba çay yaprakları mı tuhaftı yoksa pişirirken mi bir şeyler oldu?"
+    }
   },
   "JadeveinTeaEggs": {
     "name": "Yeşim Desenli Çay Yumurtası",
-    "description": {}
+    "description": {
+      "0": "Liyue sokaklarında çokça satılan popüler bir atıştırmalık. Yumurta kaynarken kabuğundaki çatlaklardan içeri çayın tadı sızar ve yumurtanın üzerinde yeşimlerde görülen parçalı, hoş desenler oluşur."
+    }
   },
   "DeliciousJadeveinTeaEggs": {
     "name": "Yeşim Desenli Çay Yumurtası (Lezzetli)",
-    "description": {}
+    "description": {
+      "0": "Geleneksel bir Liyue atıştırmalığı. Çayın aroması yumurtaya mükemmel bir şekilde karışmış. Lokma lokma ya da tek bir seferde de yesen, adeta bir lezzet yumağı."
+    }
   },
   "SuspiciousTeaSmokedSquab": {
     "name": "Çay Tütsülü Güvercin (Tuhaf)",
-    "description": {}
+    "description": {
+      "0": "Son derece sevilen bir yemek. Güvercinin yanık ayaklarıyla kanatları ısının doğru kontrol edilemediğinin göstergesi. Biraz sabırlı olursan belki ağzına koyabilirsin."
+    }
   },
   "TeaSmokedSquab": {
     "name": "Çay Tütsülü Güvercin",
-    "description": {}
+    "description": {
+      "0": "Son derece sevilen bir yemek. Güvercin eti önceki akşamdan çay ve sosa batırılarak marine edilir ve ardından kurutulur. Daha sonra yağda kızartıldığında eti muhteşem bir çay aroması kaplar. Ziyafetlerde sunulan bu lezzetin elde edildiği teknik, yıllardan beri şefler arasında aktarılarak gelmiştir."
+    }
   },
   "DeliciousTeaSmokedSquab": {
     "name": "Çay Tütsülü Güvercin (Lezzetli)",
-    "description": {}
+    "description": {
+      "0": "Son derece sevilen bir yemek. Saydamlaşmış güvercinin derisi kağıt gibi incecik ve gevrek, eti ise sıkı ve dolgun. Narin bir sosun eşlik ettiği bu yemek hem kalpleri hem de mideyi fetheder."
+    }
   },
   "SuspiciousGuhuaFishLambSoup": {
     "name": "Guhua Kuzu Balık Çorbası (Tuhaf)",
-    "description": {}
+    "description": {
+      "0": "Tarih boyunca izlerine rastlanan eski bir yemek. Ancak ağzında ağır kokulu koyun etiyle kokmuş balık ağzında bir savaş verirken bunları düşünmeye fırsat olmuyor. Zavallı ağzını bundan sonra sonsuza dek yıkasan yeridir."
+    }
   },
   "GuhuaFishLambSoup": {
     "name": "Guhua Kuzu Balık Çorbası",
-    "description": {}
+    "description": {
+      "0": "Tarih boyunca izlerine rastlanan eski bir yemek. Taze balık ve kuzu eti birlikte haşlanır ve balığın yumuşak dokusu ile kuzunun lezzeti birleşerek harika bir lezzet ortaya çıkar."
+    }
   },
   "DeliciousGuhuaFishLambSoup": {
     "name": "Guhua Kuzu Balık Çorbası (Lezzetli)",
-    "description": {}
+    "description": {
+      "0": "Tarih boyunca izlerine rastlanan eski bir yemek. Süt kıvamındaki beyaz çorba boğazından akarken insan iki tane midesi olsa da daha fazla yesem diye düşünür. Kışın koca bir tencere içsen, bahar geldiğinde keşke hâlâ içiyor olsam dersin."
+    }
   },
   "SuspiciousChenyuBrew": {
     "name": "Chenyu Çayı (Tuhaf)",
-    "description": {}
+    "description": {
+      "0": "Liyue'de sıklıkla karşılaşılan çay. Bu çay diye verdikleri şeyin tadının hâlâ sudan farksız olduğunu anlamak için sürekli şüpheyle bir yudum daha alırken buluyorsun kendini. Acaba su sıcak mı değildi yoksa çay mı yeterince demlenmedi?"
+    }
   },
   "ChenyuBrew": {
     "name": "Chenyu Çayı",
-    "description": {}
+    "description": {
+      "0": "Liyue'de sıklıkla karşılaşılan çay. İnsan hayatı bazen, fincandan alınan yudumdan sonra ağızda kalan tada benzer."
+    }
   },
   "DeliciousChenyuBrew": {
     "name": "Chenyu Çayı (Lezzetli)",
-    "description": {}
+    "description": {
+      "0": "Liyue'de sıklıkla karşılaşılan çay. Chenyu Vadisi'nde esen o hafif ve hoş meltem gibi tatlı kokular taşıyan ilk yudum dilini ve damağını uyandırıyor. Dinle bak, dağ pınarlarının tatlı şırıltısı mı bu kulaklarında çalan?"
+    }
   },
   "EncompassingGladness": {
-    "name": "",
-    "description": {}
+    "name": "Dört Köşe Keyif",
+    "description": {
+      "0": "Xianyun'un özel tarifi. Enfes kokulu köfteleri gördüğün andaki şoku üzerinden atamadan Xianyun şunları söylüyor: \"Ah, böyle sıradan bir yemeğin beni zorlayacağını mı sanmıştın? Soğumadan yesen iyi olur, böylelikle senin için huzur, mutluluk ve bereket dolu, sıkıntıdan uzak bir hayat dileyebilirim... *öksürür* Ne var yani? Formaliteden de olsa arada bir ayin ciddiyeti takınmaktan kimseye zarar gelmez.\""
+    }
   },
   "RecipeItem": {
     "name": "Yemek Malzemesi",
@@ -15064,8 +15128,10 @@
     }
   },
   "RecipeEightTreasureDuck": {
-    "name": "",
-    "description": {}
+    "name": "Tarif: Sekiz Hazine Ördeği",
+    "description": {
+      "0": "Sekiz Hazine Ördeği yapımını adım adım anlatan detaylı bir tarif."
+    }
   },
   "RecipeDeepFriedDoublecrisp": {
     "name": "Tarif: Çifte Çıtır Kızartması",
@@ -15074,8 +15140,10 @@
     }
   },
   "RecipeBraisedMeatballs": {
-    "name": "",
-    "description": {}
+    "name": "Tarif: Köfte Kavurma",
+    "description": {
+      "0": "Köfte Kavurma yapımını adım adım anlatan detaylı bir tarif."
+    }
   },
   "RecipeHoneyCharSiu": {
     "name": "Tarif: Ballı Char Siu",
@@ -15084,8 +15152,10 @@
     }
   },
   "RecipeFineTeaFullMoon": {
-    "name": "",
-    "description": {}
+    "name": "Tarif: Çaylı Dolunay",
+    "description": {
+      "0": "Çaylı Dolunay yapımını adım adım anlatan detaylı bir tarif."
+    }
   },
   "RecipeJadeveinTeaEggs": {
     "name": "Tarif: Yeşim Desenli Çay Yumurtası",
@@ -16012,22 +16082,16 @@
     }
   },
   "FeatheryFin": {
-    "name": "",
-    "description": {
-      "0": "???"
-    }
+    "name": "Tüy Yüzgeç",
+    "description": {}
   },
   "LunarFin": {
-    "name": "",
-    "description": {
-      "0": "???"
-    }
+    "name": "Ay Yüzgeci",
+    "description": {}
   },
   "ChasmlightFin": {
-    "name": "",
-    "description": {
-      "0": "???"
-    }
+    "name": "Kanyon Işığı Yüzgeci",
+    "description": {}
   },
   "HurricaneSeed": {
     "name": "Kasırga Tohumu",
@@ -16463,10 +16527,8 @@
     }
   },
   "CloudseamScale": {
-    "name": "",
-    "description": {
-      "0": "???"
-    }
+    "name": "Bulut Yüzgeci",
+    "description": {}
   },
   "TileOfDecarabiansTower": {
     "name": "Decarabian'ın Kırık Çinisi",
@@ -19365,19 +19427,19 @@
   "TimeTrekkerI": {
     "name": "Zaman Yolcusu (I)",
     "description": {
-      "0": "？？？"
+      "0": "???"
     }
   },
   "TimeTrekkerII": {
     "name": "Zaman Yolcusu (II)",
     "description": {
-      "0": "？？？"
+      "0": "???"
     }
   },
   "TimeTrekkerIII": {
     "name": "Zaman Yolcusu (III)",
     "description": {
-      "0": "？？？"
+      "0": "???"
     }
   },
   "GiftOfParting": {
@@ -20019,7 +20081,7 @@
     }
   },
   "ChenyuValeSceneryGuide": {
-    "name": "Chenyu Vadisi Manzara Rehberi",
+    "name": "Chenyu Vadisi Gezi Rehberi",
     "description": {
       "0": "Yerlilerin tavsiyelerine göre hazırlanmış, bölgedeki büyüleyici manzaraları tanıtan turistik bir rehber."
     }
@@ -20339,6 +20401,10 @@
       "1": "Belirli bir anda durmuş ve güzel bir anıyı ölümsüzleştirmiş gibi görünüyor."
     }
   },
+  "AncientTreeBranch": {
+    "name": "",
+    "description": {}
+  },
   "AureliesNotesII": {
     "name": "Aurelie'nin Notları (II)",
     "description": {
@@ -20426,6 +20492,16 @@
       "0": "Tuhaf Mesaj"
     }
   },
+  "WangshanHallBackupKey": {
+    "name": "",
+    "description": {
+      "0": "Üçüncü Huang'dan aldığın paslı bir anahtar."
+    }
+  },
+  "ThePaimonSpecial": {
+    "name": "",
+    "description": {}
+  },
   "AutumnsGift": {
     "name": "Autumn'ın Hediyesi",
     "description": {
@@ -20471,6 +20547,10 @@
     "name": "Hikaye Kitabı",
     "description": {}
   },
+  "CarpSpiritOrb": {
+    "name": "",
+    "description": {}
+  },
   "Certificate": {
     "name": "Sertifika",
     "description": {}
@@ -20487,11 +20567,31 @@
     "name": "Günlük",
     "description": {}
   },
+  "JadeFragmentLeft": {
+    "name": "",
+    "description": {}
+  },
+  "JadeFragmentRight": {
+    "name": "",
+    "description": {}
+  },
+  "FragrantWoodHuangcong": {
+    "name": "",
+    "description": {}
+  },
+  "FragrantWoodChizhang": {
+    "name": "",
+    "description": {}
+  },
   "OurChenyuValeTrekAlbum": {
     "name": "\"Chenyu Vadisi Yürüyüşümüz\" Albümü",
     "description": {
       "0": "Birçok harika fotoğraf içeren bir anı albümü. Şaşırtıcı bir şekilde fotoğrafların yarısından çoğunu aynı kişi çekmiş."
     }
+  },
+  "StrangeKey": {
+    "name": "",
+    "description": {}
   },
   "ShootingPracticeOpticalLenses": {
     "name": "Atış Talimi Optik Lensi",
@@ -20523,6 +20623,44 @@
     "description": {
       "0": "Gazete kuryesi Pip, Leroy ailesinin yakın zamanda almadığı gazeteleri bu paketin içine doldurmuş."
     }
+  },
+  "ForgottenKeyI": {
+    "name": "",
+    "description": {}
+  },
+  "ForgottenKeyII": {
+    "name": "",
+    "description": {}
+  },
+  "XuanlianSacredWater": {
+    "name": "",
+    "description": {}
+  },
+  "AncientJadeCup": {
+    "name": "",
+    "description": {}
+  },
+  "SomeonesLedger": {
+    "name": "",
+    "description": {}
+  },
+  "VotiveRainjade": {
+    "name": "Kutsal Yağmur Yeşimi",
+    "description": {
+      "0": "Adeptus Fujin'in kadim zamanlarda attığı son mücevher. Diğer sıradan yeşim taşlardan bir farkı görünmese de yakındaki toprak ve suları dönüştürmeye yetecek kadar Adeptus gücü barındırıyor..."
+    }
+  },
+  "ChizhangAtlas": {
+    "name": "",
+    "description": {}
+  },
+  "AncientCityKey": {
+    "name": "",
+    "description": {}
+  },
+  "FishSeizedFromAPelicansMouth": {
+    "name": "",
+    "description": {}
   },
   "TearsAmongTheStars": {
     "name": "Yıldızlar Arasındaki Gözyaşları",
@@ -20987,6 +21125,10 @@
       "1": "Diğer seri üretim modellere kıyasla bu özel \"Altın Lider\" yardımcı meka, şeffaf altın bir kasaya ve özel kontrol ekipmanına sahiptir. Proje ekibi bunu özellikle karmaşık su altı ortamlarında komut iletim istasyonu olarak çalışması, komutları kontrol biriminden alıp gruptaki mekalara tekrar iletmesi ve son derece önemli olan liderlik görevini üstlenmesi için tasarlamıştır.",
       "2": "Ancak tüm teknisyen meka projesinin durdurulmasıyla birlikte bu lider mekanın da bir anlamı kalmamıştır. Yalnızca oldukça ayırt edici olan altın kasaları, onları toplayan balıkçıların gözünde bu mekaları oldukça değerli kılar."
     }
+  },
+  "JadeHeartfeatherBass": {
+    "name": "",
+    "description": {}
   },
   "WingsOfFirstFlight": {
     "name": "İlk Uçuş Kanatları",
@@ -23643,6 +23785,22 @@
       "1": "Teyvat filmciliğinin \"zaman kazıma\" sanatını yeniden keşfetmesi için ne kadar zamana ihtiyacı olduğu meçhul. Yine de bu sahnenin günah dolu geçmişi ölümsüzleştirdiği açık."
     }
   },
+  "AchievementAdeptalValley": {
+    "name": "",
+    "description": {}
+  },
+  "AchievementRainjadeRite": {
+    "name": "",
+    "description": {}
+  },
+  "TravelNotesVividFlight": {
+    "name": "Gezi Notları: Renkli Uçuş",
+    "description": {}
+  },
+  "AlbumTheStellarMoments": {
+    "name": "",
+    "description": {}
+  },
   "AnemoculusResonanceStone": {
     "name": "Rüzgar Özü Rezonans Taşı",
     "description": {
@@ -25160,13 +25318,13 @@
     }
   },
   "SternfrostPrism": {
-    "name": "",
+    "name": "Sert Buzul Prizması",
     "description": {
       "0": "Dehanın Yakarışı Kart Oyunundan sert bir kart. Kartın üzerindeki çizim için özel baskı yöntemleri kullanılmış ve enfes bir görünüm ortaya çıkmıştır."
     }
   },
   "PearlSolidification": {
-    "name": "",
+    "name": "Katılaşmış İnci",
     "description": {
       "0": "Dehanın Yakarışı Kart Oyunundan sert bir kart. Kartın üzerindeki çizim için özel baskı yöntemleri kullanılmış ve enfes bir görünüm ortaya çıkmıştır."
     }
@@ -27476,6 +27634,26 @@
       "1": "Eşyayı kullandıktan sonra Üretim Ekranında görüntüleyebilirsin."
     }
   },
+  "ArtisanalFishLanternCarpsWell": {
+    "name": "",
+    "description": {}
+  },
+  "ArtisanFishLanternSpringProfits": {
+    "name": "",
+    "description": {}
+  },
+  "PortFloorLightWispOfFragrance": {
+    "name": "",
+    "description": {}
+  },
+  "PortStreetLightGoodThingsComeInPairs": {
+    "name": "",
+    "description": {}
+  },
+  "ValleyStoneLampEverbrightLight": {
+    "name": "",
+    "description": {}
+  },
   "EfflorescentIllumination": {
     "name": "Gelişen Aydınlatma",
     "description": {
@@ -29457,6 +29635,58 @@
       "1": "Eşyayı kullandıktan sonra Üretim Ekranında görüntüleyebilirsin."
     }
   },
+  "ValleyStageBillowingCloudWaves": {
+    "name": "",
+    "description": {}
+  },
+  "ValleyVerandaDistantBeginnings": {
+    "name": "",
+    "description": {}
+  },
+  "ValleyVerandaFromSolidFoundationsToThrive": {
+    "name": "",
+    "description": {}
+  },
+  "ValleyPavilionWarmDaylight": {
+    "name": "",
+    "description": {}
+  },
+  "ValleyStoneArchwayRecurringOmenOfAbundance": {
+    "name": "",
+    "description": {}
+  },
+  "ValleyPergolaSunAndRain": {
+    "name": "",
+    "description": {}
+  },
+  "ValleyWatchtowerVigilance": {
+    "name": "",
+    "description": {}
+  },
+  "ValleyResidenceToweringMountains": {
+    "name": "",
+    "description": {}
+  },
+  "ValleyResidenceTranquility": {
+    "name": "",
+    "description": {}
+  },
+  "ValleyResidenceCustomComplexity": {
+    "name": "",
+    "description": {}
+  },
+  "ValleyResidenceTotalFocus": {
+    "name": "",
+    "description": {}
+  },
+  "ValleyResidenceTenderCountryside": {
+    "name": "",
+    "description": {}
+  },
+  "ValleyResidenceMeasuredBuilding": {
+    "name": "",
+    "description": {}
+  },
   "MultiArchedMondstadtBuilding": {
     "name": "Kemerli Mondstadt Binası",
     "description": {
@@ -31102,6 +31332,46 @@
       "1": "Eşyayı kullandıktan sonra Üretim Ekranında görüntüleyebilirsin."
     }
   },
+  "ValleyGateBustlingYard": {
+    "name": "",
+    "description": {}
+  },
+  "ValleyGateMountainsBeyondTheThreshold": {
+    "name": "",
+    "description": {}
+  },
+  "ValleyCaveTheFansWindingPath": {
+    "name": "",
+    "description": {}
+  },
+  "ValleyWallCornerLikeGatheringWaves": {
+    "name": "",
+    "description": {}
+  },
+  "ValleyStoneWallJadeBeltRiver": {
+    "name": "",
+    "description": {}
+  },
+  "ValleyStoneWallFlowersAndWillows": {
+    "name": "",
+    "description": {}
+  },
+  "ValleyStoneWallCarpAndKite": {
+    "name": "",
+    "description": {}
+  },
+  "ValleyGableWardingWindAndFire": {
+    "name": "",
+    "description": {}
+  },
+  "ValleyGableRainShelter": {
+    "name": "",
+    "description": {}
+  },
+  "ValleyStoneStepsFoundationStone": {
+    "name": "",
+    "description": {}
+  },
   "FoundationsOfStoneFortunateTimes": {
     "name": "Taş Zemin: Mutlu Zamanlar",
     "description": {
@@ -32397,6 +32667,46 @@
       "1": "Eşyayı kullandıktan sonra Üretim Ekranında görüntüleyebilirsin."
     }
   },
+  "StoneDrumSonicReverberation": {
+    "name": "",
+    "description": {}
+  },
+  "WushouDanceCostumeRoaringSuanni": {
+    "name": "",
+    "description": {}
+  },
+  "WushouDanceDollSleepySuanni": {
+    "name": "",
+    "description": {}
+  },
+  "BanquetScreenDancingButterfliesAndLeapingFish": {
+    "name": "",
+    "description": {}
+  },
+  "BanquetScreenCryingHawksAndChirpingSparrows": {
+    "name": "",
+    "description": {}
+  },
+  "CelebratoryKiteSuccessiveProsperity": {
+    "name": "",
+    "description": {}
+  },
+  "CelebratoryKiteAllsWell": {
+    "name": "",
+    "description": {}
+  },
+  "CelebratoryKiteButterflyDance": {
+    "name": "",
+    "description": {}
+  },
+  "CelebratoryKiteProsperityAndWealth": {
+    "name": "",
+    "description": {}
+  },
+  "FragrantCedarWoodAnnouncementBoard": {
+    "name": "",
+    "description": {}
+  },
   "BookshelfFreeReading": {
     "name": "Kitaplık: Serbest Okuma",
     "description": {
@@ -32593,6 +32903,10 @@
       "1": "Eşyayı kullandıktan sonra Üretim Ekranında görüntüleyebilirsin."
     }
   },
+  "TeaChairCoolBreeze": {
+    "name": "",
+    "description": {}
+  },
   "TwoStoryHilichurlSentryTower": {
     "name": "İki Katlı Dağ Yabanisi Nöbet Kulesi",
     "description": {
@@ -32725,6 +33039,10 @@
       "0": "Üretim Rafı: Özel Yapım yapımını adım adım anlatan detaylı bir taslak.",
       "1": "Eşyayı kullandıktan sonra Üretim Ekranında görüntüleyebilirsin."
     }
+  },
+  "SquareTeaTableFriendlyWelcome": {
+    "name": "",
+    "description": {}
   },
   "WineShopDisplayCounterToYourHeartsContent": {
     "name": "Şarap Dükkanı Vitrini: Kalbinden Geçenler",

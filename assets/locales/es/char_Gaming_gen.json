@@ -1,8 +1,8 @@
 {
   "name": "Gaming",
-  "title": "???",
+  "title": "El Vigía Leonino",
   "description": "",
-  "constellationName": "",
+  "constellationName": "Leo Expergiscens",
   "auto": {
     "name": "Zarpazo estelar",
     "fields": {
@@ -46,7 +46,7 @@
       "1": "Si Gaming ejecuta un Ataque Descendente tras elevarse en las alturas con su Habilidad Elemental, “Ascensión bestial”, ejecutará un Ataque Descendente: Auspicio nebular especialmente poderoso.",
       "2": "<br/>",
       "3": "<strong>Ataque Descendente: Auspicio nebular</strong>",
-      "4": "El daño infligido con el Ataque Descendente ejecutado con su Habilidad Elemental, “Ascensión bestial”, se convierte en <pyro>Daño Pyro</pyro> y, al aterrizar, Gaming perderá cierta cantidad de Vida. La vida de Gaming solo puede disminuir hasta un mínimo del 10% de esta forma.",
+      "4": "El daño infligido con el Ataque Descendente ejecutado con su Habilidad Elemental, “Ascensión bestial”, se convierte en <pyro>Daño Pyro</pyro>, el cual no puede sustituirse imbuyéndose de otro elemento, y además, al aterrizar, Gaming perderá cierta cantidad de Vida. La vida de Gaming solo puede disminuir hasta un mínimo del 10% de esta forma.",
       "5": "El daño de Auspicio nebular se considera daño de Ataque Descendente.",
       "6": "<br/>",
       "7": "<i>“La bestia salta para atrapar la verdura, símbolo de prosperidad y buena fortuna. Riqueza y salud con nosotros estén, ¡y saltemos muy alto para ascender!”.</i>"
@@ -71,17 +71,17 @@
     }
   },
   "burst": {
-    "name": "Danza leoflamígera",
+    "name": "Pirodanza del suanni",
     "description": {
-      "0": "Gaming adopta la postura de danza de bestias para recuperar una cantidad de Vida determinada e invocar a su fiel compañero, el león Man Chai, con el que aplasta a su objetivo e inflige <pyro>Daño Pyro en el AdE</pyro>.",
+      "0": "Gaming adopta la postura de danza de bestias para <pyro>aplicar Pyro</pyro> sobre sí mismo durante un breve periodo de tiempo, recuperar una cantidad de Vida determinada e invocar a su fiel compañero, el suanni Man Chai, con el que aplasta a su objetivo e inflige <pyro>Daño Pyro en el AdE</pyro>.",
       "1": "Tras golpear a su objetivo, Man Chai cae rodando en un lugar cercano y luego regresa con Gaming. Tras reunirse con él, Man Chai abandona el campo de batalla y reinicia el TdE de la Habilidad Elemental de Gaming, “Ascensión bestial”.",
       "2": "Mientras la danza de bestias está activa, cuando Gaming ejecuta un Ataque Descendente: Auspicio nebular o se abalanza contra un objetivo con Ascensión bestial, si Gaming tiene más del 50% de Vida, invocará de nuevo a Man Chai.",
-      "3": "Solo puede haber 1 león Man Chai a la vez en el campo de batalla.",
+      "3": "Solo puede haber 1 suanni Man Chai a la vez en el campo de batalla.",
       "4": "<br/>",
       "5": "<i>“La bestia dorada trae buena suerte y una luz resplandeciente. ¡Eso es lo que yo llamo una vida floreciente!”.</i>"
     },
     "skillParams": {
-      "0": "Daño de aplastamiento del león Man Chai",
+      "0": "Daño de aplastamiento del suanni Man Chai",
       "1": "Recuperación de Vida",
       "2": "Duración de danza de bestias",
       "3": "TdE",
@@ -102,13 +102,13 @@
   "passive1": {
     "name": "Baile de la concordia",
     "description": {
-      "0": "Gaming recupera un 10% de su Vida 1 s después de haber golpeado a un enemigo con el Ataque Descendente: Auspicio nebular de <strong>Ascensión bestial</strong>."
+      "0": "Gaming recupera un 6% de su Vida 1 s después de haber golpeado a un enemigo con el Ataque Descendente: Auspicio nebular de <strong>Ascensión bestial</strong>."
     }
   },
   "passive2": {
     "name": "Vaharina auspiciosa",
     "description": {
-      "0": "Cuando la Vida de Gaming es inferior al 50%, obtiene un 20% de Bono de Curación recibida. Cuando su Vida es igual o superior al 50%, obtiene un 20% de Bono de Daño Pyro."
+      "0": "Cuando la Vida de Gaming es inferior al 50%, obtiene un 20% de Bono de Curación recibida. Cuando su Vida es igual o superior al 50%, su Ataque Descendente: Auspicio nebular inflige un 20% más de daño."
     }
   },
   "passive3": {
@@ -121,7 +121,7 @@
   "constellation1": {
     "name": "Bendición refulgente",
     "description": {
-      "0": "Cuando el león Man Chai de <strong>Danza leoflamígera</strong> se reúne con Gaming, este recupera un 25% de Vida."
+      "0": "Cuando el suanni Man Chai de <strong>Pirodanza del suanni</strong> se reúne con Gaming, este recupera un 15% de Vida."
     }
   },
   "constellation2": {
@@ -133,7 +133,7 @@
   "constellation3": {
     "name": "Despertar espiritual",
     "description": {
-      "0": "Aumenta el nivel de habilidad de <anemo>Ascensión bestial</anemo> +3.",
+      "0": "Aumenta el nivel de habilidad de <strong>Ascensión bestial</strong> +3.",
       "1": "Puede ser aumentado hasta Niv. 15."
     }
   },
@@ -146,7 +146,7 @@
   "constellation5": {
     "name": "Rugido acechademonios",
     "description": {
-      "0": "Aumenta el nivel de habilidad de <anemo>Danza leoflamígera</anemo> +3.",
+      "0": "Aumenta el nivel de habilidad de <strong>Pirodanza del suanni</strong> +3.",
       "1": "Puede ser aumentado hasta Niv. 15."
     }
   },

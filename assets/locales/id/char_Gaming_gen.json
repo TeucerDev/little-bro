@@ -1,8 +1,8 @@
 {
   "name": "Gaming",
-  "title": "???",
+  "title": "Leonine Vanguard",
   "description": "",
-  "constellationName": "",
+  "constellationName": "Leo Expergiscens",
   "auto": {
     "name": "Stellar Rend",
     "fields": {
@@ -45,8 +45,8 @@
       "0": "Menerjang ke depan dengan teknik Wushou, setelah mengenai musuh, meloncat tinggi ke angkasa.",
       "1": "Gaming menggunakan Elemental Skill Bestial Ascent untuk naik ke angkasa, jika melancarkan Plunging Attack, maka Gaming akan melancarkan Plunging Attack: Charmed Cloudstrider yang sangat kuat.",
       "2": "<br/>",
-      "3": "<strong>Plunging Attack: Charmed Cloudstrier</strong>",
-      "4": "DMG yang diakibatkan Plunging Attack yang dilancarkan melalui Elemental Skill Bestial Ascent akan dikonversi menjadi <pyro>Pyro DMG</pyro>, dan akan mengonsumsi sebagian HP Gaming saat dia mendarat. Cara ini bisa mengurangi nilai HP Gaming hingga maksimum 10% Max HP-nya.",
+      "3": "<strong>Plunging Attack: Charmed Cloudstrider</strong>",
+      "4": "DMG yang diakibatkan Plunging Attack yang dilancarkan melalui Elemental Skill Bestial Ascent akan dikonversi menjadi <pyro>Pyro DMG</pyro> yang tidak bisa ditimpa Elemental Infusion lainnya, dan akan mengonsumsi sebagian HP Gaming saat dia mendarat. Cara ini bisa mengurangi nilai HP Gaming hingga maksimum 10% Max HP-nya.",
       "5": "DMG Charmed Cloustrider dianggap sebagai DMG Plunging Attack.",
       "6": "<br/>",
       "7": "<i>\"Hewan melompat tinggi dan mematuk sayuran, semua kemakmuran di sekitar tumbuh bermekaran. Semoga kekayaan dan kesehatan mendatangi kita semua, dan semoga kita semua bisa terus berkembang__!\"</i>"
@@ -71,17 +71,17 @@
     }
   },
   "burst": {
-    "name": "Horned Lion's Gilded Dance",
+    "name": "Suanni's Gilded Dance",
     "description": {
-      "0": "Gaming memasuki Wushou Stance, memulihkan HP dalam jumlah tertentu, dan memanggil pasangannya yang bisa diandalkan Horned Lion Man Chai__ untuk menerjang__ target__ dan menyebabkan <pyro>Pyro DMG Area</pyro>.",
-      "1": "Setelah Man Chai menyelesaikan terjangannya__, dia akan berguling ke sekitarnya, lalu bergerak kembali ke arah Gaming. Saat berkumpul kembali dengan Gaming, Horned Lion Man Chai akan meninggalkan medan pertempuran, dan CD Elemental Skill Bestial Ascent akan diperbarui.",
-      "2": "Selama Wushou Stance berlangsung, saat melancarkan Plunging Attack: Charmed Cloustrider atau saat serangan__ Bestial Ascent berakhir, jika HP Gaming lebih dari 50%, maka dia akan memanggil Horned Lion Man Chai sekali lagi.",
-      "3": "Maksimum satu Horned Lion Man Chai yang bisa ada di medan pertempuran dalam waktu yang bersamaan.",
+      "0": "Gaming memasuki Wushou Stance, lalu terpengaruh oleh <pyro>Pyro</pyro> selama waktu singkat, memulihkan HP dalam jumlah tertentu, dan memanggil pasangannya yang bisa diandalkan Suanni Man Chai__ untuk menerjang__ target__ dan menyebabkan <pyro>Pyro DMG Area</pyro>.",
+      "1": "Setelah Man Chai menyelesaikan terjangannya__, dia akan berguling ke sekitarnya, lalu bergerak kembali ke arah Gaming. Saat berkumpul kembali dengan Gaming, Suanni Man Chai akan meninggalkan medan pertempuran, dan CD Elemental Skill Bestial Ascent akan diperbarui.",
+      "2": "Selama Wushou Stance berlangsung, saat melancarkan Plunging Attack: Charmed Cloustrider atau saat serangan__ Bestial Ascent berakhir, jika HP Gaming lebih dari 50%, maka dia akan memanggil Suanni Man Chai sekali lagi.",
+      "3": "Maksimum satu Suanni Man Chai milik Gaming yang bisa ada di medan pertempuran dalam waktu yang bersamaan.",
       "4": "<br/>",
       "5": "<i>\"Hewan emas membawa keberuntungan, cahaya gemerlapan, dan pemandangan berkilauan! Itulah yang dinamakan hidup yang penuh sukacita!\"__</i>"
     },
     "skillParams": {
-      "0": "DMG Hantaman Horned Lion Man Chai",
+      "0": "DMG Hantaman Suanni Man Chai",
       "1": "Pemulihan Skill",
       "2": "Durasi Wushou Stance",
       "3": "Cooldown",
@@ -102,13 +102,13 @@
   "passive1": {
     "name": "Dance of Amity",
     "description": {
-      "0": "Dalam 1 detik setelah Plunging Attack: Charmed Cloustrider dari <strong>Bestial Ascent</strong> mengenai musuh, Gaming akan memulihkan 10% HP-nya."
+      "0": "Dalam 1 detik setelah Plunging Attack: Charmed Cloustrider dari <strong>Bestial Ascent</strong> mengenai musuh, Gaming akan memulihkan 6% HP-nya."
     }
   },
   "passive2": {
     "name": "Air of Prosperity",
     "description": {
-      "0": "Saat HP Gaming di bawah 50%, mendapatkan 20% Bonus Pemulihan. Saat HP Gaming sama dengan atau di atas 50%, mendapatkan 20% Pyro DMG Bonus."
+      "0": "Saat HP Gaming di bawah 50%, mendapatkan 20% Bonus Pemulihan. Saat HP Gaming sama dengan atau di atas 50%, DMG yang diakibatkan Plunging Attack: Charmed Cloudstrider meningkat 20%."
     }
   },
   "passive3": {
@@ -121,7 +121,7 @@
   "constellation1": {
     "name": "Bringer of Blessing",
     "description": {
-      "0": "Saat Horned Lion Man Chai dari <strong>Horned Lion's Gilded Dance</strong> berkumpul kembali dengan Gaming, akan memulihkan 25% HP Gaming."
+      "0": "Saat Suanni Man Chai dari <strong>Suanni's Gilded Dance</strong> berkumpul kembali dengan Gaming, akan memulihkan 15% HP Gaming."
     }
   },
   "constellation2": {
@@ -146,7 +146,7 @@
   "constellation5": {
     "name": "Demon-Daunting Roar",
     "description": {
-      "0": "Meningkatkan 3 level <strong>Horned Lion's Gilded Dance</strong>.",
+      "0": "Meningkatkan 3 level <strong>Suanni's Gilded Dance</strong>.",
       "1": "Maksimum: Lv. 15."
     }
   },

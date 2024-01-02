@@ -1,8 +1,8 @@
 {
   "name": "Gaming",
-  "title": "???",
+  "title": "Avanguardia leonina",
   "description": "",
-  "constellationName": "",
+  "constellationName": "Leo Expergiscens",
   "auto": {
     "name": "Lacerazione stellare",
     "fields": {
@@ -42,11 +42,11 @@
   "skill": {
     "name": "Ascensione selvaggia",
     "description": {
-      "0": "Si scaglia in avanti sfruttando le sue arti Wushou, compiendo un lungo balzo verso l'alto all'impatto.",
+      "0": "Si scaglia in avanti sfruttando le sue arti Wushou, compiendo un lungo balzo verso l'alto dopo l'impatto.",
       "1": "Quando Gaming usa Ascensione selvaggia per elevarsi, sferra il suo potente attacco Cavalcanubi propizio quando usa un attacco in picchiata.",
       "2": "<br/>",
       "3": "<strong>Attacco in picchiata: Cavalcanubi propizio</strong>",
-      "4": "L'attacco in picchiata derivante da Ascensione selvaggia converte i relativi DAN in <pyro>DAN da Pyro</pyro>. All'impatto col suolo, Gaming consuma una certa quantità di PS. In questo modo, i suoi PS totali possono scendere fino a un 10% minimo.",
+      "4": "I DAN da attacco in picchiata derivanti da Ascensione selvaggia vengono convertiti in <pyro>DAN da Pyro</pyro> che non possono essere contrastati da altre infusioni elementali. All'impatto col suolo, Gaming consuma una certa quantità di PS. Con questo metodo, i PS di Gaming non possono calare al di sotto di un 10% dei suoi PS max.",
       "5": "I DAN da Cavalcanubi propizio sono considerati DAN da attacco in picchiata.",
       "6": "<br/>",
       "7": "<i>\"La bestia balza, strappando il verde; la prosperità attorno a noi risuona. Con salute e ricchezza per tutti, la sorte un gran ballo ci dona!\"</i>"
@@ -71,17 +71,17 @@
     }
   },
   "burst": {
-    "name": "Danza del leone dorato",
+    "name": "Danza dorata del Suanni",
     "description": {
-      "0": "Gaming assume la Posizione Wushou per ripristinare una certa quantità di PS ed evocare il suo alleato, il Leone cornuto Man Chai, infliggendo <pyro>DAN da Pyro ad area</pyro>.",
+      "0": "Gaming assume la Posizione Wushou, subendo una breve applicazione di <pyro>Pyro</pyro>, ripristina una certa quantità di PS ed evoca il suo alleato, il Suanni Man Chai, infliggendo <pyro>DAN da Pyro ad area</pyro>.",
       "1": "Dopo aver attaccato il bersaglio, Man Chai rotola verso una posizione vicina per poi correre in direzione di Gaming. Quando si riunisce a quest'ultimo, Man Chai abbandona il campo e ripristina il TdR dell'abilità elementale di Gaming, Ascensione selvaggia.",
       "2": "Mentre la Posizione Wushou è attiva, se Gaming esegue Cavalcanubi propizio, o si scaglia con successo contro l'avversario eseguendo Ascensione selvaggia con più di un 50% di PS, evoca nuovamente Man Chai.",
-      "3": "Non può esistere più di 1 Man Chai in campo contemporaneamente.",
+      "3": "Ciascun Gaming non può avere più di 1 Man Chai in campo contemporaneamente.",
       "4": "<br/>",
       "5": "<i>\"La bestia dorata dona fortuna, luci sfavillanti e paesaggi sfolgoranti! Questo è ciò che io chiamo una 'vita abbondante'!\"</i>"
     },
     "skillParams": {
-      "0": "DAN da scontro Leone cornuto Man Chai",
+      "0": "DAN da scontro Suanni Man Chai",
       "1": "Guarigione abilità",
       "2": "Durata Posizione Wushou",
       "3": "TdR",
@@ -102,13 +102,13 @@
   "passive1": {
     "name": "Danza della concordia",
     "description": {
-      "0": "Per 1  dopo aver colpito un avversario con Attacco in picchiata: Cavalcanubi propizio di <strong>Ascensione selvaggia</strong>, i PS di Gaming si ripristinano di un 10%."
+      "0": "Per 1 s, dopo aver colpito un avversario con Attacco in picchiata: Cavalcanubi propizio di <strong>Ascensione selvaggia</strong>, i PS di Gaming si ripristinano di un 6%."
     }
   },
   "passive2": {
     "name": "Aria di prosperità",
     "description": {
-      "0": "Quando Gaming ha meno di un 50% di PS, ottiene un 20% di bonus di guarigione ricevuta. Quando ha un 50% o più di PS, ottiene un 20% di bonus DAN da Pyro."
+      "0": "Quando Gaming ha meno di un 50% di PS, ottiene un 20% di bonus di guarigione ricevuta. Quando ha un 50% o più di PS, Attacco in picchiata: Cavalcanubi propizio infligge un 20% di DAN in più."
     }
   },
   "passive3": {
@@ -121,7 +121,7 @@
   "constellation1": {
     "name": "Portatore di buona sorte",
     "description": {
-      "0": "Quando il Leone cornuto Man Chai di <strong>Danza del leone dorato</strong> si riunisce a Gaming, ripristina un 25% dei PS di quest'ultimo."
+      "0": "Quando il Suanni Man Chai di <strong>Danza dorata del Suanni</strong> si riunisce a Gaming, ripristina un 15% dei PS di quest'ultimo."
     }
   },
   "constellation2": {
@@ -146,7 +146,7 @@
   "constellation5": {
     "name": "Ruggito demonifugo",
     "description": {
-      "0": "Aumenta di 3 il livello di <strong>Danza del leone dorato</strong>.",
+      "0": "Aumenta di 3 il livello di <strong>Danza dorata del Suanni</strong>.",
       "1": "Il livello di potenziamento massimo è 15."
     }
   },
