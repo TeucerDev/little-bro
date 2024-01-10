@@ -1,7 +1,7 @@
 {
   "name": "Gaming",
   "title": "El Vigía Leonino",
-  "description": "",
+  "description": "Escolta de la Agencia de Transporte Seguro Cofrespada y líder del grupo Bestias Místicas Poderosas.",
   "constellationName": "Leo Expergiscens",
   "auto": {
     "name": "Zarpazo estelar",
@@ -42,7 +42,7 @@
   "skill": {
     "name": "Ascensión bestial",
     "description": {
-      "0": "Se abalanza hacia delante utilizando el arte de la danza de bestias y, tras golpear a un enemigo, da un gran salto hacia arriba.",
+      "0": "Se abalanza hacia delante utilizando el arte de la danza de bestias y, tras entrar en contacto con un objetivo o con el terreno, da un gran salto hacia arriba.",
       "1": "Si Gaming ejecuta un Ataque Descendente tras elevarse en las alturas con su Habilidad Elemental, “Ascensión bestial”, ejecutará un Ataque Descendente: Auspicio nebular especialmente poderoso.",
       "2": "<br/>",
       "3": "<strong>Ataque Descendente: Auspicio nebular</strong>",
@@ -75,10 +75,11 @@
     "description": {
       "0": "Gaming adopta la postura de danza de bestias para <pyro>aplicar Pyro</pyro> sobre sí mismo durante un breve periodo de tiempo, recuperar una cantidad de Vida determinada e invocar a su fiel compañero, el suanni Man Chai, con el que aplasta a su objetivo e inflige <pyro>Daño Pyro en el AdE</pyro>.",
       "1": "Tras golpear a su objetivo, Man Chai cae rodando en un lugar cercano y luego regresa con Gaming. Tras reunirse con él, Man Chai abandona el campo de batalla y reinicia el TdE de la Habilidad Elemental de Gaming, “Ascensión bestial”.",
-      "2": "Mientras la danza de bestias está activa, cuando Gaming ejecuta un Ataque Descendente: Auspicio nebular o se abalanza contra un objetivo con Ascensión bestial, si Gaming tiene más del 50% de Vida, invocará de nuevo a Man Chai.",
+      "2": "Mientras la danza de bestias está activa, cuando el Ataque Descendente: Auspicio nebular impacta contra el suelo o cuando se abalanza contra un objetivo con Ascensión bestial, si Gaming tiene más del 50% de Vida, invocará de nuevo a Man Chai.",
       "3": "Solo puede haber 1 suanni Man Chai a la vez en el campo de batalla.",
-      "4": "<br/>",
-      "5": "<i>“La bestia dorada trae buena suerte y una luz resplandeciente. ¡Eso es lo que yo llamo una vida floreciente!”.</i>"
+      "4": "Este efecto termina cuando Gaming se retira del campo de batalla.",
+      "5": "<br/>",
+      "6": "<i>“La bestia dorada trae buena suerte y una luz resplandeciente. ¡Eso es lo que yo llamo una vida floreciente!”.</i>"
     },
     "skillParams": {
       "0": "Daño de aplastamiento del suanni Man Chai",
@@ -102,7 +103,7 @@
   "passive1": {
     "name": "Baile de la concordia",
     "description": {
-      "0": "Gaming recupera un 6% de su Vida 1 s después de haber golpeado a un enemigo con el Ataque Descendente: Auspicio nebular de <strong>Ascensión bestial</strong>."
+      "0": "Tras golpear a un enemigo con el Ataque Descendente: Auspicio nebular de <strong>Ascensión bestial</strong>, Gaming recupera Vida una vez cada 0.2 s en una cantidad equivalente al 1.5% de su Vida Máx. durante 0.8 s."
     }
   },
   "passive2": {

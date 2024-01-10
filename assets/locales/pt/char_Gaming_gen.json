@@ -1,7 +1,7 @@
 {
   "name": "Gaming",
   "title": "Olhar Leonino",
-  "description": "",
+  "description": "Guarda de aluguel da Agência de Transporte Seguro Espada & Caixa, líder do grupo Bestas Místicas Poderosas.",
   "constellationName": "Leo Expergiscens",
   "auto": {
     "name": "Lâmina Estelar",
@@ -42,7 +42,7 @@
   "skill": {
     "name": "Ascensão Bestial",
     "description": {
-      "0": "Ataca para frente com as artes Wushou, saltando no ar quando é atingido.",
+      "0": "Ataca para frente com as artes Wushou, saltando no ar quando atingir o alvo ou o terreno.",
       "1": "Quando Gaming usar sua Habilidade Elemental, Ascensão Bestial, para ascender no ar, e se realizar um Ataque Imersivo, lançará um poderoso Ataque Imersivo: Caminhador das Nuvens.",
       "2": "<br/>",
       "3": "<strong>Ataque Imersivo: Caminhador das Nuvens</strong>",
@@ -75,9 +75,11 @@
     "description": {
       "0": "Gaming entra na Postura Wushou, <pyro>aplicando Pyro</pyro> em Gaming por um curto tempo regenerando uma certa quantidade de Vida e invocando seu fiel companheiro, o Suanni Man Chai para esmagar seu alvo, causando <pyro>Dano Pyro em AdE</pyro>.",
       "1": "Depois de atacar seu alvo, Man Chai vai rolar até um local próximo antes de se mover na direção de Gaming. Ao se reunir com Gaming, Man Chai recuará, e redefinirá a recarga da Habilidade Elemental \"Ascensão Bestial\" de Gaming.",
-      "2": "Na duração da Postura Wushou, realizar um Ataque Imersivo: Caminhador das Nuvens ou completar o ataque de Ascensão Bestial com mais de 50% de Vida invocará Man Chai novamente.",
+      "2": "Na duração da Postura Wushou, quando o Ataque Imersivo: Caminhador das Nuvens atingir o chão ou completar o ataque frontal de Ascensão Bestial com mais de 50% de Vida invocará Man Chai novamente.",
       "3": "Só é possível haver 1 Man Chai de Gaming ativo por vez.",
-      "4": "<i>\"A besta dourada traz a fortuna, luzes ofuscantes e paisagens brilhantes! Isso sim é uma vida abundante!\"</i>"
+      "4": "Esse efeito será removido quando Gaming sair do campo.",
+      "5": "<br/>",
+      "6": "<i>\"A besta dourada traz a fortuna, luzes ofuscantes e paisagens brilhantes! Isso sim é uma vida abundante!\"</i>"
     },
     "skillParams": {
       "0": "Dano de Suanni Man Chai",
@@ -101,7 +103,7 @@
   "passive1": {
     "name": "Dança da Ascensão",
     "description": {
-      "0": "No 1s depois do Ataque Imersivo: Caminhador das Nuvens de <strong>Ascensão Bestial</strong> atingir um inimigo, regenera 6% da Vida de Gaming."
+      "0": "Depois que Ataque Imersivo: Caminhador das Nuvens de <strong>Ascensão Bestial</strong> atingir o inimigo, regenera Vida para Gaming a cada 0.2s. A quantidade regenerada equivale a 1.5% da Vida Máxima de Gaming e dura 0.8s."
     }
   },
   "passive2": {

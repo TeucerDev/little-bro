@@ -1,7 +1,7 @@
 {
   "name": "Gaming",
   "title": "Leonine Vanguard",
-  "description": "",
+  "description": "Pengawal di Kantor Pengawal \"Sword and Strongbox\", sekaligus pemimpin dari \"Tim Wushou Wahana Dewata Kencana\".",
   "constellationName": "Leo Expergiscens",
   "auto": {
     "name": "Stellar Rend",
@@ -42,7 +42,7 @@
   "skill": {
     "name": "Bestial Ascent",
     "description": {
-      "0": "Menerjang ke depan dengan teknik Wushou, setelah mengenai musuh, meloncat tinggi ke angkasa.",
+      "0": "Menerjang ke depan dengan teknik Wushou, setelah menyentuh musuh atau permukaan tanah (medan)__, meloncat tinggi ke angkasa.",
       "1": "Gaming menggunakan Elemental Skill Bestial Ascent untuk naik ke angkasa, jika melancarkan Plunging Attack, maka Gaming akan melancarkan Plunging Attack: Charmed Cloudstrider yang sangat kuat.",
       "2": "<br/>",
       "3": "<strong>Plunging Attack: Charmed Cloudstrider</strong>",
@@ -75,10 +75,11 @@
     "description": {
       "0": "Gaming memasuki Wushou Stance, lalu terpengaruh oleh <pyro>Pyro</pyro> selama waktu singkat, memulihkan HP dalam jumlah tertentu, dan memanggil pasangannya yang bisa diandalkan Suanni Man Chai__ untuk menerjang__ target__ dan menyebabkan <pyro>Pyro DMG Area</pyro>.",
       "1": "Setelah Man Chai menyelesaikan terjangannya__, dia akan berguling ke sekitarnya, lalu bergerak kembali ke arah Gaming. Saat berkumpul kembali dengan Gaming, Suanni Man Chai akan meninggalkan medan pertempuran, dan CD Elemental Skill Bestial Ascent akan diperbarui.",
-      "2": "Selama Wushou Stance berlangsung, saat melancarkan Plunging Attack: Charmed Cloustrider atau saat serangan__ Bestial Ascent berakhir, jika HP Gaming lebih dari 50%, maka dia akan memanggil Suanni Man Chai sekali lagi.",
+      "2": "Selama Wushou Stance berlangsung, saat Plunging Attack: Charmed Cloustrider menyentuh tanah atau terjangan ke depan Bestial Ascent berakhir, jika HP Gaming lebih dari 50%, maka dia akan memanggil Suanni Man Chai sekali lagi.",
       "3": "Maksimum satu Suanni Man Chai milik Gaming yang bisa ada di medan pertempuran dalam waktu yang bersamaan.",
-      "4": "<br/>",
-      "5": "<i>\"Hewan emas membawa keberuntungan, cahaya gemerlapan, dan pemandangan berkilauan! Itulah yang dinamakan hidup yang penuh sukacita!\"__</i>"
+      "4": "Efek ini akan hilang saat Gaming meninggalkan medan pertempuran.",
+      "5": "<br/>",
+      "6": "<i>\"Hewan emas membawa keberuntungan, cahaya gemerlapan, dan pemandangan berkilauan! Itulah yang dinamakan hidup yang penuh sukacita!\"__</i>"
     },
     "skillParams": {
       "0": "DMG Hantaman Suanni Man Chai",
@@ -102,7 +103,7 @@
   "passive1": {
     "name": "Dance of Amity",
     "description": {
-      "0": "Dalam 1 detik setelah Plunging Attack: Charmed Cloustrider dari <strong>Bestial Ascent</strong> mengenai musuh, Gaming akan memulihkan 6% HP-nya."
+      "0": "Setelah Plunging Attack <strong>Bestial Ascent</strong> mengenai musuh, Gaming akan memulihkan HP setara dengan 1,5% Max HP Gaming sekali setiap 0,2 detik selama 0,8 detik."
     }
   },
   "passive2": {

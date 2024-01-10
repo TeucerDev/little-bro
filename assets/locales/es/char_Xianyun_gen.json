@@ -41,20 +41,18 @@
   "skill": {
     "name": "Grulla del celaje",
     "description": {
-      "0": "Xianyun entra en el estado de “nimbogrulla” y da un impulso célico. Tras entrar en dicho estado, puede dar hasta dos impulsos célicos más y no recibe daño de caída.",
-      "1": "Cuando Xianyun ejecuta un Ataque Normal o Descendente en el estado de nimbogrulla, en su lugar libera una onda nublosa, la cual adopta la forma de una grulla de la brisa que arremete contra los enemigos cercanos para infligirles <anemo>Daño Anemo en el AdE</anemo>, tras lo que termina el estado de nimbogrulla. El daño infligido de esta manera se considera daño de Ataque Descendente.",
-      "2": "<br/>",
-      "3": "<strong>Impulso célico</strong>",
-      "4": "Xianyun da un salto hacia delante e inflige <anemo>Daño Anemo</anemo> contra los objetivos que haya en su trayectoria.",
-      "5": "Puede dar un impulso célico mientras está en el aire, pero al hacerlo en el suelo, la distancia que recorre será mayor.",
-      "6": "Durante el estado de nimbogrulla, Xianyun solo puede infligir daño una vez contra el mismo enemigo por medio de un impulso célico.",
-      "7": "<br/>",
-      "8": "Cuantos más impulsos célicos dé Xianyun en el estado de nimbogrulla, más daño infligirá la onda nublosa y mayor será su AdE. Tras dar tres impulsos célicos (lo cual incluye el impulso liberado al usar la habilidad “Grulla del celaje”), se libera una onda nublosa extrapoderosa llamada “Onda nublosa: Supresión divina”.",
-      "9": "<br/>",
-      "10": "Grulla del celaje solo se puede usar estando en el suelo.",
-      "11": "Si no se da un impulso célico en un breve periodo de tiempo, el estado de nimbogrulla terminará y la habilidad entrará en TdE. Si no se da ningún impulso célico durante dicho estado, el TdE será de 3 s menos.",
-      "12": "<br/>",
-      "13": "<i>Una breve conversación con Preservadora de Nubes es suficiente para darse cuenta de que tiene un pico de oro.</i>"
+      "0": "Xianyun entra en el estado de “nimbogrulla”, en el que no recibe daño de caída, y da un impulso célico.",
+      "1": "Mientras este estado está activo, el Ataque Descendente de Xianyun se convierte en una onda nublosa que inflige <anemo>Daño Anemo en el AdE</anemo> y que termina dicho estado. Este daño se considera daño de Ataque Descendente.",
+      "2": "Cada impulso célico que dé en el estado de nimbogrulla aumenta el daño y el AdE de la onda nublosa.",
+      "3": "<br/>",
+      "4": "<strong>Impulso célico</strong>",
+      "5": "Se puede liberar mientras está en el aire. Xianyun salta hacia delante e inflige <anemo>Daño Anemo</anemo> a los objetivos en el camino.",
+      "6": "Durante el estado de nimbogrulla, Xianyun puede dar un máximo de 3 impulsos célicos, y a cada enemigo solo le podrá infligir daño una vez por medio de un impulso.",
+      "7": "Si no da un impulso célico en un breve periodo de tiempo, el estado de nimbogrulla terminará.",
+      "8": "<br/>",
+      "9": "Si no libera ninguna onda nublosa durante dicho estado, el TdE de Grulla del celaje se reducirá en 3 s.",
+      "10": "<br/>",
+      "11": "<i>Una breve conversación con Preservadora de Nubes es suficiente para darse cuenta de que tiene un pico de oro.</i>"
     },
     "skillParams": {
       "0": "Daño de habilidad",
@@ -113,13 +111,14 @@
   "passive1": {
     "name": "Brisa alboalada",
     "description": {
-      "0": "Tras golpear a un enemigo con la Onda nublosa: Supresión divina de <anemo>Grulla del celaje</anemo>, crea frente a sí misma un vórtice que atrae a los enemigos y objetos cercanos."
+      "0": "Por cada enemigo golpeado con la onda nublosa de <anemo>Grulla del celaje</anemo>, todos los personajes cercanos del equipo obtienen una carga del efecto “pluma huracanada”, el cual dura 20 s, puede acumularse hasta 4 veces y aumenta en un 4/6/8/10% la Prob. CRIT del Ataque Descendente de los personajes.",
+      "1": "La duración del efecto de pluma huracanada creado cada vez que se golpea a un enemigo se calcula de manera independiente."
     }
   },
   "passive2": {
     "name": "Cual Adeptus en su morada",
     "description": {
-      "0": "Cuando el lucero de bambú de <anemo>Estrellas del crepúsculo</anemo> tiene cargas de potenciación adéptica, el daño del Ataque Descendente de los personajes en uso cercanos aumenta en una cantidad equivalente al 170% del ATQ de Xianyun. Este daño solo puede aumentar en un máximo de 8500 pts. de esta manera.",
+      "0": "Cuando el lucero de bambú de <anemo>Estrellas del crepúsculo</anemo> tiene cargas de potenciación adéptica, el daño del Ataque Descendente de los personajes en uso cercanos aumenta en una cantidad equivalente al 170% del ATQ de Xianyun. Este daño solo puede aumentar en un máximo de 9000 pts. de esta manera.",
       "1": "El daño aumentado de cada Ataque Descendente solo puede surtir efecto contra 1 enemigo, y cada personaje solo podrá activar este efecto una vez cada 0.4 s."
     }
   },
@@ -140,7 +139,7 @@
     "name": "Graznido ermitaño",
     "description": {
       "0": "Tras efectuar un impulso célico de <anemo>Grulla del celaje</anemo>, el ATQ de Xianyun aumenta en un 20% durante 15 s.",
-      "1": "Además, los efectos del talento pasivo “Cual Adeptus en su morada” se fortalecen, de manera que, cuando el lucero de bambú de <anemo>Estrellas del crepúsculo</anemo> tiene cargas de potenciación adéptica, el daño del Ataque Descendente de los personajes en uso cercanos aumenta en una cantidad equivalente al 306% del ATQ de Xianyun. Este daño solo puede aumentar en un máximo de 15 300 pts. de esta manera.",
+      "1": "Además, los efectos del talento pasivo “Cual Adeptus en su morada” se fortalecen, de manera que, cuando el lucero de bambú de <anemo>Estrellas del crepúsculo</anemo> tiene cargas de potenciación adéptica, el daño del Ataque Descendente de los personajes en uso cercanos aumenta en una cantidad equivalente al 360% del ATQ de Xianyun. Este daño solo puede aumentar en un máximo de 18 000 pts. de esta manera.",
       "2": "El daño aumentado de cada Ataque Descendente solo puede surtir efecto contra 1 enemigo, y cada personaje solo podrá activar este efecto una vez cada 0.4 s.",
       "3": "Para activar este efecto, es necesario desbloquear el talento pasivo “Cual Adeptus en su morada”."
     }
@@ -169,8 +168,7 @@
     "name": "Custodia de las nubes",
     "description": {
       "0": "Tras dar 1/2/3 impulsos célicos durante el estado de nimbogrulla de <anemo>Grulla del celaje</anemo>, el Daño CRIT de la onda nublosa liberada mientras dicho estado está activo aumenta en un 15/35/70%.",
-      "1": "Si al usar Grulla del celaje el lucero de bambú de <anemo>Estrellas del crepúsculo</anemo> tiene cargas de potenciación adéptica, consume 1 carga y Grulla del celaje no entra en TdE. Además, cuando una onda nublosa del estado de nimbogrulla activa un ataque del lucero de bambú, no se consumen cargas de potenciación adéptica.",
-      "2": "Por otro lado, al golpear a un enemigo con la Onda nublosa: Supresión divina, el lucero de bambú obtiene una carga de potenciación adéptica. Esto solo puede ocurrir una vez cada 8 s."
+      "1": "Durante 16 s después de que Xianyun use <anemo>Estrellas del crepúsculo</anemo>, la habilidad Grulla del celaje no entrará en TdE al usarla. Este efecto se elimina tras haber usado 8 veces Grulla del celaje."
     }
   }
 }

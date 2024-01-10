@@ -1,7 +1,7 @@
 {
   "name": "Gaming",
   "title": "Fabellöwe im Vormarsch",
-  "description": "",
+  "description": "Transportwache der Schwertschachtel, Leiter der renommierten Mächtigen Fabelbestien.",
   "constellationName": "Leo Expergiscens",
   "auto": {
     "name": "Des Sternenzerreißenen Klauen",
@@ -42,14 +42,14 @@
   "skill": {
     "name": "Einer glückverheißenden Bestie versprochener Aufstieg",
     "description": {
-      "0": "Springt mit den Wushou-Künsten nach vorn und erhebt sich bei einem Treffer hoch in die Luft.",
-      "1": "Nachdem sich Gaming mit seiner Elementarfähigkeit „Einer glückverheißenden Bestie versprochener Aufstieg“ in die Luft erhoben hat, setzt er besonders kraftvolle Angriffe aus dem Fall „Heiliger Wolkenreiter“ ein, wenn er Angriffe aus dem Fall ausführt.",
+      "0": "Springt mit den Wushou-Künsten nach vorn und erhebt sich beim Kontakt mit dem Ziel oder Boden hoch in die Luft.",
+      "1": "Nachdem sich Gaming mit seiner Elementarfähigkeit „Einer glückverheißenden Bestie versprochener Aufstieg“ in die Luft erhoben hat, setzt er den besonders kraftvollen Angriff aus dem Fall „Heiliger Wolkenreiter“ ein, wenn er Angriffe aus dem Fall ausführt.",
       "2": "<br/>",
       "3": "<strong>Angriff aus dem Fall: Heiliger Wolkenreiter</strong>",
-      "4": "Wandelt den durch die Elementarfähigkeit „Einer glückverheißenden Bestie versprochener Aufstieg“ verursachten Schaden des Angriffs aus dem Fall in <pyro>Pyro-Schaden</pyro> um, der nicht von anderen Elementen überdeckt werden kann und beim Aufkommen eine bestimmte Menge an LP von Gaming verbraucht. Auf diese Weise können Gamings LP höchstens auf 10 % verringert werden.",
+      "4": "Wandelt den durch die Elementarfähigkeit „Einer glückverheißenden Bestie versprochener Aufstieg“ verursachten Schaden des Angriffs aus dem Fall in <pyro>Pyro-Schaden</pyro> um, der nicht von anderen Elementen überdeckt werden kann und beim Aufkommen eine bestimmte Menge LP von Gaming verbraucht. Auf diese Weise können Gamings LP höchstens auf 10 % verringert werden.",
       "5": "Der mit „Heiliger Wolkenreiter“ verursachte Schaden gilt als Schaden von Angriffen aus dem Fall.",
       "6": "<br/>",
-      "7": "<i>„Die Bestie springt und pflückt das Grün, Wohlstand um uns herum erklingt. Mögen Reichtum und Gesundheit uns allen zuteilwerden und mögen wir alle einen tollen Aufstieg haben!“</i>"
+      "7": "<i>„Die Bestie springt und pflückt das Grün, Wohlstand um uns herum erblüht. Mögen Reichtum und Gesundheit uns allen zuteilwerden und mögen wir alle einen tollen Aufstieg haben!“</i>"
     },
     "skillParams": {
       "0": "SCH des Angriffs aus dem Fall: Heiliger Wolkenreiter",
@@ -75,10 +75,11 @@
     "description": {
       "0": "Gaming nimmt die Wushou-Haltung ein, erhält kurzzeitig das <pyro>Pyro-Attribut</pyro>, stellt eine bestimmte Menge an LP wieder her und beschwört seinen Begleiter, Suanni – Man Chai, um auf sein Ziel einzuschlagen und <pyro>Pyro-Flächenschaden</pyro> zu verursachen.",
       "1": "Nach dem Einschlagen auf ihr Ziel rollt Man Chai zu einem nahe gelegenen Ort, bevor sie sich auf Gaming zubewegt. Wenn sie sich mit Gaming trifft, verlässt Man Chai das Feld und setzt die Abklingzeit von Gamings Elementarfähigkeit „Einer glückverheißenden Bestie versprochener Aufstieg“ zurück.",
-      "2": "Solange die Wushou-Haltung aktiv ist und Gaming mehr als 50 % LP besitzt, beschwört er erneut Man Chai, wenn er den Angriff aus dem Fall: Heiliger Wolkenreiter ausführt oder den Sprungangriff von „Einer glückverheißenden Bestie versprochener Aufstieg“ vollendet.",
+      "2": "Solange die Wushou-Haltung aktiv ist und Gaming mehr als 50 % LP besitzt, beschwört er beim Aufkommen des Angriffs aus dem Fall: Heiliger Wolkenreiter oder beim Vollenden des nach vorn gerichteten Sprungangriffs von „Einer glückverheißenden Bestie versprochener Aufstieg“ erneut Man Chai.",
       "3": "Es kann gleichzeitig nur 1 Suanni – Man Chai, die zu Gaming selbst gehört, auf dem Feld existieren.",
-      "4": "<br/>",
-      "5": "<i>„Die goldene Suanni bringt Glück, strahlende Lichter und glänzende Anblicke! Das nennt man ein Leben im Überfluss!“</i>"
+      "4": "Dieser Effekt wird aufgehoben, wenn Gaming ausgewechselt wird.",
+      "5": "<br/>",
+      "6": "<i>„Die goldene Suanni bringt Glück, strahlende Lichter und glänzende Anblicke! Das nennt man ein Leben im Überfluss!“</i>"
     },
     "skillParams": {
       "0": "Einschlag-SCH von Suanni – Man Chai",
@@ -102,7 +103,7 @@
   "passive1": {
     "name": "Tanz der Eintracht",
     "description": {
-      "0": "Stellt Gaming innerhalb von 1 s nach dem Treffen von Gegnern mit dem Angriff aus dem Fall: Heiliger Wolkenreiter von <strong>Einer glückverheißenden Bestie versprochener Aufstieg</strong> 6 % LP wieder her."
+      "0": "Stellt Gaming innerhalb von 0,8 s nach dem Treffen von Gegnern mit dem Angriff aus dem Fall: Heiliger Wolkenreiter von <strong>Einer glückverheißenden Bestie versprochener Aufstieg</strong> alle 0,2 s 1,5 % LP wieder her."
     }
   },
   "passive2": {

@@ -1,7 +1,7 @@
 {
   "name": "Gaming",
   "title": "Aslan Yürekli Öncü",
-  "description": "",
+  "description": "Kılıç ve Kasa Güvenli Teslimat Bürosu muhafızı ve \"Kudretli Efsanevi Canavarlar\" Wushou dans ekibinin lideri.",
   "constellationName": "Aslanın Uyanışı",
   "auto": {
     "name": "Yıldız Pençesi",
@@ -42,7 +42,7 @@
   "skill": {
     "name": "Canavar Yükselişi",
     "description": {
-      "0": "Wushou sanatlarını kullanarak öne doğru atılır ve hedefe isabet ettiğinde havaya sıçrar.",
+      "0": "Wushou sanatlarını kullanarak öne doğru atılır ve bir hedefe veya yüzeye isabet ettiğinde havaya sıçrar.",
       "1": "Gaming, Canavar Yükselişini kullanarak havaya yükseldiğinde, Havadan Saldırı yaparken daha güçlü olan Havadan Saldırı: Büyülü Bulutgezeri kullanır.",
       "2": "<br/>",
       "3": "<strong>Havadan Saldırı: Büyülü Bulutgezer</strong>",
@@ -75,10 +75,11 @@
     "description": {
       "0": "Gaming, Wushou Duruşuna girer, kısa süreliğine <pyro>Ateş</pyro> etkisine girip belirli bir miktar Can yeniler ve yoldaşı Suanni Man Chai'yi çağırır. Man Chai, hedefe saldırıp <pyro>Ateş Alan Hasarı</pyro> verir.",
       "1": "Man Chai, hedefe kuvvetli bir darbe indirdikten sonra yakında bir konuma takla atıp ardından Gaming'e döner. Gaming ile bir araya geldikten sonra ise Man Chai alandan ayrılır ve Gaming'in Element Becerisi Canavar Yükselişinin Bekleme Süresi sıfırlanır.",
-      "2": "Gaming, Wushou Duruşu aktifken Büyülü Bulutgezer kullandığında veya Canavar Yükselişindeki hücum saldırısını tamamladığında Canı %50'nin üzerindeyse Man Chai'yi yeniden çağırır.",
+      "2": "Gaming, Wushou Duruşu aktifken Büyülü Bulutgezer saldırısından sonra yere indiğinde veya Canavar Yükselişindeki hücum saldırısını tamamladığında Canı %50'nin üzerindeyse Man Chai'yi yeniden çağırır.",
       "3": "Her Gaming alanda aynı anda sadece 1 Man Chai bulundurabilir.",
-      "4": "<br/>",
-      "5": "<i>\"Altın canavar; serveti, alev alev yanan ışıkları ve harika manzaraları beraberinde getirir! Zengin bir hayat diye buna denir işte!\"</i>"
+      "4": "Bu etki, Gaming savaş alanından ayrıldığında sona erer.",
+      "5": "<br/>",
+      "6": "<i>\"Altın canavar; serveti, alev alev yanan ışıkları ve harika manzaraları beraberinde getirir! Zengin bir hayat diye buna denir işte!\"</i>"
     },
     "skillParams": {
       "0": "Suanni Man Chai Hücum Hasarı",
@@ -102,7 +103,7 @@
   "passive1": {
     "name": "Dostluk Dansı",
     "description": {
-      "0": "Bir düşmana <strong>Canavar Yükselişindeki</strong> Havadan Saldırı: Büyülü Bulutgezer ile vurduktan sonraki 1sn boyunca Gaming %6 Can yeniler."
+      "0": "<strong>Canavar Yükselişinin</strong> Havadan Saldırı: Büyülü Bulutgezeri bir düşmana isabet ettiğinde Gaming 0,8sn boyunca her 0,2 saniyede bir kendi Maks. Canının %1,5'i kadar Can yeniler."
     }
   },
   "passive2": {

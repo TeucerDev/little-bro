@@ -1,7 +1,7 @@
 {
   "name": "Gaming",
   "title": "Avanguardia leonina",
-  "description": "",
+  "description": "Una guardia dell'Agenzia di trasporti sicuri Cassa e spada, nonché capo del gruppo di Wushou \"Potenti creature mistiche\".",
   "constellationName": "Leo Expergiscens",
   "auto": {
     "name": "Lacerazione stellare",
@@ -42,14 +42,14 @@
   "skill": {
     "name": "Ascensione selvaggia",
     "description": {
-      "0": "Si scaglia in avanti sfruttando le sue arti Wushou, compiendo un lungo balzo verso l'alto dopo l'impatto.",
+      "0": "Balza in avanti sfruttando le sue arti Wushou, compiendo un lungo balzo verso l'alto dopo aver colpito un bersaglio o una superficie.",
       "1": "Quando Gaming usa Ascensione selvaggia per elevarsi, sferra il suo potente attacco Cavalcanubi propizio quando usa un attacco in picchiata.",
       "2": "<br/>",
       "3": "<strong>Attacco in picchiata: Cavalcanubi propizio</strong>",
       "4": "I DAN da attacco in picchiata derivanti da Ascensione selvaggia vengono convertiti in <pyro>DAN da Pyro</pyro> che non possono essere contrastati da altre infusioni elementali. All'impatto col suolo, Gaming consuma una certa quantità di PS. Con questo metodo, i PS di Gaming non possono calare al di sotto di un 10% dei suoi PS max.",
       "5": "I DAN da Cavalcanubi propizio sono considerati DAN da attacco in picchiata.",
       "6": "<br/>",
-      "7": "<i>\"La bestia balza, strappando il verde; la prosperità attorno a noi risuona. Con salute e ricchezza per tutti, la sorte un gran ballo ci dona!\"</i>"
+      "7": "<i>\"La bestia balza, strappando i fili d'erba; la prosperità attorno a noi risuona. Con salute e ricchezza per tutti, la sorte un gran ballo ci dona!\"</i>"
     },
     "skillParams": {
       "0": "DAN da Attacco in picchiata: Cavalcanubi propizio",
@@ -73,12 +73,13 @@
   "burst": {
     "name": "Danza dorata del Suanni",
     "description": {
-      "0": "Gaming assume la Posizione Wushou, subendo una breve applicazione di <pyro>Pyro</pyro>, ripristina una certa quantità di PS ed evoca il suo alleato, il Suanni Man Chai, infliggendo <pyro>DAN da Pyro ad area</pyro>.",
-      "1": "Dopo aver attaccato il bersaglio, Man Chai rotola verso una posizione vicina per poi correre in direzione di Gaming. Quando si riunisce a quest'ultimo, Man Chai abbandona il campo e ripristina il TdR dell'abilità elementale di Gaming, Ascensione selvaggia.",
-      "2": "Mentre la Posizione Wushou è attiva, se Gaming esegue Cavalcanubi propizio, o si scaglia con successo contro l'avversario eseguendo Ascensione selvaggia con più di un 50% di PS, evoca nuovamente Man Chai.",
+      "0": "Gaming assume la Posizione Wushou, subendo una breve applicazione di <pyro>Pyro</pyro>, ripristina una data quantità di PS ed evoca il suo alleato, il Suanni Man Chai, infliggendo <pyro>DAN da Pyro ad area</pyro>.",
+      "1": "Dopo aver attaccato il bersaglio, Man Chai rotola verso una posizione vicina per poi sfrecciare in direzione di Gaming. Quando si riunisce a quest'ultimo, Man Chai abbandona il campo e annulla il TdR dell'abilità elementale di Gaming, Ascensione selvaggia.",
+      "2": "Mentre la Posizione Wushou è attiva, se Gaming ha più di un 50% di PS, quando atterra compiendo un attacco Cavalcanubi propizio o si scaglia con successo contro l'avversario eseguendo Ascensione selvaggia, evoca nuovamente Man Chai.",
       "3": "Ciascun Gaming non può avere più di 1 Man Chai in campo contemporaneamente.",
-      "4": "<br/>",
-      "5": "<i>\"La bestia dorata dona fortuna, luci sfavillanti e paesaggi sfolgoranti! Questo è ciò che io chiamo una 'vita abbondante'!\"</i>"
+      "4": "Questo effetto si annulla quando Gaming lascia il campo.",
+      "5": "<br/>",
+      "6": "<i>\"La bestia dorata dona fortuna, luci sfavillanti e paesaggi sfolgoranti! Questo è ciò che io chiamo una 'vita abbondante'!\"</i>"
     },
     "skillParams": {
       "0": "DAN da scontro Suanni Man Chai",
@@ -102,7 +103,7 @@
   "passive1": {
     "name": "Danza della concordia",
     "description": {
-      "0": "Per 1 s, dopo aver colpito un avversario con Attacco in picchiata: Cavalcanubi propizio di <strong>Ascensione selvaggia</strong>, i PS di Gaming si ripristinano di un 6%."
+      "0": "Quando Attacco in picchiata: Cavalcanubi propizio di <strong>Ascensione selvaggia</strong> colpisce un avversario, i PS di Gaming si ripristinano di un 1,5% dei suoi PS max ogni 0,2 s per 0,8 s."
     }
   },
   "passive2": {

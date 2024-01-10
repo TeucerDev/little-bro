@@ -1,7 +1,7 @@
 {
   "name": "Gaming",
   "title": "Leonine Vanguard",
-  "description": "",
+  "description": "Guard of the Sword and Strongbox Secure Transport Agency, and the head of the \"Mighty Mythical Beasts\" Wushou troupe.",
   "constellationName": "Leo Expergiscens",
   "auto": {
     "name": "Stellar Rend",
@@ -42,7 +42,7 @@
   "skill": {
     "name": "Bestial Ascent",
     "description": {
-      "0": "Pounces forward using the Wushou arts, leaping high into the air after hitting.",
+      "0": "Pounces forward using the Wushou arts, leaping high into the air after coming into contact with a target or surface.",
       "1": "After Gaming has used Bestial Ascent to rise into the air, he will use the especially powerful Plunging Attack: Charmed Cloudstrider when performing a Plunging Attack.",
       "2": "<br/>",
       "3": "<strong>Plunging Attack: Charmed Cloudstrider</strong>",
@@ -75,10 +75,11 @@
     "description": {
       "0": "Gaming enters Wushou Stance, briefly applying <pyro>Pyro</pyro> to him, recovering a fixed amount of HP, and summons his companion, the Suanni Man Chai, to smash into his target, dealing <pyro>AoE Pyro DMG</pyro>.",
       "1": "After bashing its target, Man Chai will roll to a nearby location before moving towards Gaming. When it links up with Gaming, Man Chai will leave the field and reset the CD for Gaming's Elemental Skill, Bestial Ascent.",
-      "2": "While Wushou Stance is active, when Gaming performs Charmed Cloustrider or completes the pounce attack from Bestial Ascent with over 50% HP, he will summon Man Chai again.",
+      "2": "While Wushou Stance is active, when Gaming lands with Charmed Cloudstrider attack or completes the forward pounce attack from Bestial Ascent with over 50% HP, he will summon Man Chai again.",
       "3": "Each Gaming can only have 1 Man Chai on the field simultaneously.",
-      "4": "<br/>",
-      "5": "<i>\"The golden beast brings fortune, blazing lights, and brilliant sights! Now that's what you call an abundant life!\"</i>"
+      "4": "This effect will be canceled once Gaming leaves the field.",
+      "5": "<br/>",
+      "6": "<i>\"The golden beast brings fortune, blazing lights, and brilliant sights! Now that's what you call an abundant life!\"</i>"
     },
     "skillParams": {
       "0": "Suanni Man Chai Smash DMG",
@@ -102,7 +103,7 @@
   "passive1": {
     "name": "Dance of Amity",
     "description": {
-      "0": "For 1s after hitting an opponent with <strong>Bestial Ascent</strong>'s Plunging Attack: Charmed Cloudstrider, Gaming will recover 6% of his HP."
+      "0": "After <strong>Bestial Ascent</strong>'s Plunging Attack: Charmed Cloudstrider hits an opponent, Gaming will regain 1.5% of his Max HP once every 0.2s for 0.8s."
     }
   },
   "passive2": {

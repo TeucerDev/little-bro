@@ -41,20 +41,18 @@
   "skill": {
     "name": "Şafaktaki Beyaz Bulutlar",
     "description": {
-      "0": "Xianyun, Bulut Değişimi durumuna girerek bir defa Göğe Uzanan Merdiven kullanır. Bu durumdayken Göğe Uzanan Merdiveni en fazla 2 defa daha kullanabilir ve Düşme Hasarı almaz.",
-      "1": "Xianyun bu durumdayken Normal veya Havadan Saldırı yaptığında bu saldırılar yerine Sürüklenen Bulut Dalgası kullanarak Bulut Esintisi Turnasına dönüşür, yakındaki düşmanlara bir dalış saldırısı yaparak <anemo>Rüzgar Alan Hasarı</anemo> verir ve Bulut Değişimini sonlandırır. Bu şekilde verilen Hasar, Havadan Saldırı Hasarı sayılır.",
-      "2": "<br/>",
-      "3": "<strong>Göğe Uzanan Merdiven</strong>",
-      "4": "Xianyun geçici olarak öne ve havaya doğru yükselerek yolundaki hedeflere <anemo>Rüzgar Hasarı</anemo> verir.",
-      "5": "Havadayken kullanılabilir. Yerden kullanıldığında sıçrama mesafesi artar.",
-      "6": "Bulut Değişimi durumundayken Göğe Uzanan Merdiven kullanılarak aynı düşmana en fazla bir defa hasar verilebilir.",
-      "7": "<br/>",
-      "8": "Bulut Değişimi durumu esnasında ne kadar çok Göğe Uzanan Merdiven kullanılırsa Sürüklenen Bulut Dalgasının Hasarı o kadar artar, ayrıca Etki Alanı da genişler. Xianyun, 3 Göğe Uzanan Merdiven kullandıktan sonra (Şafaktaki Beyaz Bulutlardan gelen ilk kullanım dahil) en güçlü Sürüklenen Bulut Dalgası: İlahi Haşmeti kullanır.",
-      "9": "<br/>",
-      "10": "Şafaktaki Beyaz Bulutlar sadece yerdeyken kullanılabilir.",
-      "11": "Göğe Uzanan Merdiven kısa süre içinde tekrar kullanılmazsa Bulut Değişimi durumu sona erer ve Bekleme Süresi başlar. Bulut Değişimi durumu süresince Sürüklenen Bulut Dalgası kullanılmamışsa Bulut Değişiminin Bekleme Süresi 3sn azalır.",
-      "12": "<br/>",
-      "13": "<i>Bulutlar Hakimi'nin elini tutarken dikkatli ol, bir kere tutunca bırakması zordur.</i>"
+      "0": "Xianyun, Bulut Başkalaşımı durumuna girer. Bu durumdayken Düşme Hasarı almaz ve bir defa Göğe Uzanan Merdiven kullanır.",
+      "1": "Xianyun'un bu durumdayken yaptığı Havadan Saldırı, Sürüklenen Bulut Dalgasına dönüşerek <anemo>Rüzgar Alan Hasarı</anemo> verir ve Bulut Başkalaşımı durumunu sonlandırır. Bu şekilde verilen Hasar, Havadan Saldırı Hasarı sayılır.",
+      "2": "Bu durumdayken kullanılan her bir Göğe Uzanan Merdiven, bir sonraki Sürüklenen Bulut Dalgasının Hasarını artırır ve Etki Alanını genişletir.",
+      "3": "<br/>",
+      "4": "<strong>Göğe Uzanan Merdiven</strong>",
+      "5": "Havadayken kullanılabilir. Xianyun ileriye sıçrayarak yolundaki hedeflere <anemo>Rüzgar Hasarı</anemo> verir.",
+      "6": "Xianyun'un girdiği her bir Bulut Başkalaşımı durumunda en fazla 3 defa Göğe Uzanan Merdiven kullanılabilir ve her bir düşmana en fazla 1 defa Göğe Uzanan Merdiven Hasarı verilebilir.",
+      "7": "Göğe Uzanan Merdiven kısa bir süre içerisinde yeniden kullanılmazsa Bulut Başkalaşımı durumu sona erer.",
+      "8": "<br/>",
+      "9": "Xianyun bu durumdayken Sürüklenen Bulut Dalgasını kullanmazsa sonraki Şafaktaki Beyaz Bulutlar becerisinin Bekleme Süresi 3sn azalır.",
+      "10": "<br/>",
+      "11": "<i>Bulutlar Hakimi'nin elini çok sıkma, turnalar tuttu mu bırakmaz...</i>"
     },
     "skillParams": {
       "0": "Beceri Hasarı",
@@ -78,7 +76,7 @@
   "burst": {
     "name": "Alacakaranlıkta Beliren Yıldızlar",
     "description": {
-      "0": "<anemo>Rüzgar Alan Hasarı</anemo> veren ve Xianyun'un Saldırısına göre yakındaki tüm karakterleri iyileştiren kutsal bir esinti çıkarır. Ayrıca Hasır Yıldız adlı bir mekanizma çağırır.",
+      "0": "<anemo>Rüzgar Alan Hasarı</anemo> veren ve Xianyun'un Saldırısına göre yakındaki tüm karakterleri iyileştiren kutsal bir esinti çıkarır. Ayrıca \"Hasır Yıldız\" mekanizmasını çağırır.",
       "1": "<br/>",
       "2": "<strong>Hasır Yıldız</strong>",
       "3": [
@@ -88,7 +86,7 @@
       ],
       "4": "Aynı anda sadece 1 Hasır Yıldız var olabilir.",
       "5": "<br/>",
-      "6": "<i>Bu cihaz, önceki tasarımları arasında Marifetli Kazanlar, Kar Yığını Mekanizması, Üstün Temizlik Makinası, Uçan Taşıma Cihazı ve Çiçek Budayan bulunan \"Ay ve Yıldız Tasarımları\" serisindeki en yeni icattır. Bu seri ilk başta Bulutlar Hakimi'nin hayranlık duyduğu genç insanlar için tasarlanmıştı, dolayısıyla yarı Adeptuslar için tasarlanmamıştı. Ancak Bulutlar Hakimi'nin bir kız öğrencisi, kendisine Hasır Yıldız teklif edildiğinde duygudan yoksun bir ifadeyle şu iki kelimeyi söylemişti: \"Hayır, teşekkürler.\"",
+      "6": "<i>Bu cihaz, önceki tasarımları arasında Marifetli Kazanlar, Kar Yığını Mekanizması, Üstün Temizlik Makinası, Uçan Taşıma Cihazı ve Çiçek Budayan bulunan \"Ay ve Yıldız Tasarımları\" serisindeki en yeni icattır. Bu seri ilk başta Bulutlar Hakimi'nin büyük saygı duyduğu genç insanlar için tasarlanmıştı, dolayısıyla yarı Adeptuslar için tasarlanmamıştı. Ancak Bulutlar Hakimi'nin bir kız öğrencisi, kendisine Hasır Yıldız teklif edildiğinde duygudan yoksun bir ifadeyle şu iki kelimeyi söylemişti: \"Hayır, teşekkürler.\"",
       "7": "Dolayısıyla Bulutlar Hakimi'nin Hasır Yıldızı kendine saklamaktan başka çaresi kalmamıştı.</i>"
     },
     "skillParams": {
@@ -113,15 +111,13 @@
   "passive1": {
     "name": "Fırtına Tüyünün Peşinde",
     "description": {
-      "0": "<anemo>Şafaktaki Beyaz Bulutlardaki</anemo> Sürüklenen Bulut Dalgası: İlahi Haşmet hedefe isabet ettiğinde, hedefin önünde yakındaki düşmanları ve nesneleri içine çeken bir girdap oluşturur."
+      "0": "<anemo>Şafaktaki Beyaz Bulutlar</anemo> tarafından oluşturulan Sürüklenen Bulut Dalgalarının isabet ettiği her bir düşman, yakındaki tüm grup üyelerine 20sn boyunca 1 kademe Rüzgar Tüyü verir. 4 kademeye kadar birikir. Rüzgar Tüyü kademeleri, karakterlerin Havadan Saldırı Kritik Oranını sırasıyla %4/%6/%8/%10 artırır.",
+      "1": "Bir düşmana vurulduğunda elde edilen Rüzgar Tüyü kademelerinin süreleri birbirinden bağımsızdır."
     }
   },
   "passive2": {
     "name": "Kendi Diyarında Bir Adeptus",
-    "description": {
-      "0": "<anemo>Alacakaranlıkta Beliren Yıldızlar</anemo> tarafından oluşturulan Hasır Yıldızın Adeptus Yardımı kademeleri olduğunda, yakındaki aktif karakterlerin Havadan Saldırı şok dalgası Hasarı Xianyun'un Saldırısının %170'i kadar artar. Bu şekilde kazanılabilecek en fazla Hasar artışı 8.500'dür.",
-      "1": "Her bir Havadan Saldırı şok dalgası Hasarı, bu artan Hasar etkisini sadece bir düşmana uygulayabilir. Bu etkiyi her karakter 0,4 saniyede bir tetikleyebilir."
-    }
+    "description": {}
   },
   "passive3": {
     "name": "Turna Görünümü",
@@ -138,12 +134,7 @@
   },
   "constellation2": {
     "name": "Dünyadan Uzak",
-    "description": {
-      "0": "<anemo>Şafaktaki Beyaz Bulutlardan</anemo> bir Göğe Uzanan Merdiven kullandıktan sonra 15sn boyunca Xianyun'un Saldırısı %20 artar.",
-      "1": "Ayrıca Pasif Yetenek \"Kendi Diyarında Bir Adeptus\"un etkileri güçlenir. <anemo>Alacakaranlıkta Beliren Yıldızlar</anemo> tarafından oluşturulan Hasır Yıldızın Adeptus Yardımı kademeleri olduğunda, yakındaki aktif karakterlerin Havadan Saldırı şok dalgası Hasarı Xianyun'un Saldırısının %306'sı kadar artar. Bu şekilde kazanılabilecek en fazla Hasar artışı 15.300'dür.",
-      "2": "Her bir Havadan Saldırı şok dalgası Hasarı, bu Hasar artışı etkisini sadece bir düşmana uygulayabilir. Bu etkiyi her karakter 0,4 saniyede bir tetikleyebilir.",
-      "3": "Öncelikle Pasif Yetenek \"Kendi Diyarında Bir Adeptus\"u açman gerekir."
-    }
+    "description": {}
   },
   "constellation3": {
     "name": "Gök Kubbenin Yaratılışı",
@@ -155,7 +146,7 @@
   "constellation4": {
     "name": "Gizemli Darı Gurmesi",
     "description": {
-      "0": "<anemo>Şafaktaki Beyaz Bulutlar</anemo> Bulut Değişimi durumu sırasında 1/2/3 defa Göğe Uzanan Merdiven kullanıldığında, o esnada kullanılan bir Sürüklenen Bulut Dalgası bir düşmana isabet ederse yakındaki tüm grup üyelerini Xianyun'un Saldırısının %50/%80/%150 kadarı oranda iyileştirir. Bu etki 5 saniyede bir tetiklenebilir."
+      "0": "<anemo>Şafaktaki Beyaz Bulutlar</anemo> Bulut Başkalaşımı durumu sırasında 1/2/3 defa Göğe Uzanan Merdiven kullanıldığında, o esnada kullanılan bir Sürüklenen Bulut Dalgası bir düşmana isabet ederse yakındaki tüm grup üyelerini Xianyun'un Saldırısının %50/%80/%150 kadarı oranda iyileştirir. Bu etki 5 saniyede bir tetiklenebilir."
     }
   },
   "constellation5": {
@@ -168,9 +159,8 @@
   "constellation6": {
     "name": "Bulut Muhafızının İradesi",
     "description": {
-      "0": "Göğe Uzanan Merdiven, <anemo>Şafaktaki Beyaz Bulutlar</anemo> tarafından oluşan bir Bulut Değişimi durumunda 1/2/3 defa kullanıldığında ortaya çıkan Sürüklenen Bulut Dalgasının Kritik Hasarı %15/%35/%70 oranında artar.",
-      "1": "Xianyun, Şafaktaki Beyaz Bulutları kullandığında <anemo>Alacakaranlıkta Beliren Yıldızların</anemo> Hasır Yıldızı Adeptus Yardımına sahipse 1 kademe Adeptus Yardımı harcanır ve Şafaktaki Beyaz Bulutların bu kullanımında Bekleme Süresi başlamaz. Ayrıca bu seferki Bulut Değişimi durumu, Sürüklenen Bulut Dalgası sonucu Hasır Yıldızın saldırısını tetiklediğinde Adeptus Yardımı harcanmaz.",
-      "2": "Buna ek olarak, Sürüklenen Bulut Dalgası: İlahi Haşmet bir düşmana isabet ettiğinde Hasır Yıldız 1 kademe Adeptus Yardımı kazanır. Bu etki 8 saniyede bir tetiklenebilir."
+      "0": "Xianyun, <anemo>Şafaktaki Beyaz Bulutlar</anemo> tarafından oluşturulan bir Bulut Başkalaşımı durumunda 1/2/3 defa Göğe Uzanan Merdiven kullandığında, bu Bulut Başkalaşımıyla oluşan Sürüklenen Bulut Dalgasının Kritik Hasarı %15/%35/%70 oranında artar.",
+      "1": "Xianyun, <anemo>Alacakaranlıkta Beliren Yıldızları</anemo> kullandıktan sonraki 16sn boyunca Şafaktaki Beyaz Bulutlar Bekleme Süresine girmez. Bu etki, Şafaktaki Beyaz Bulutlar 8 defa kullanıldıktan sonra sona erer."
     }
   }
 }
