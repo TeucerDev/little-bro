@@ -1,0 +1,186 @@
+{
+  "name": "Chiori",
+  "title": "???",
+  "description": "",
+  "constellationName": "Sericum Secans Forcipe",
+  "auto": {
+    "name": "Lame de tissage",
+    "fields": {
+      "normal": {
+        "0": "<strong><strong>Attaque normale</strong>",
+        "1": "Enchaîne jusqu'à 4 coups d'épée."
+      },
+      "charged": {
+        "0": "<strong>Attaque chargée</strong>",
+        "1": "Consomme de l'endurance pour déclencher deux coups d'épée rapides."
+      },
+      "plunging": {
+        "0": "<strong>Attaque plongeante</strong>",
+        "1": "Plonge depuis les airs pour frapper le sol, infligeant des DGT aux ennemis en chemin et des DGT de zone à l'impact."
+      }
+    },
+    "skillParams": {
+      "0": "DGT 1er coup",
+      "1": "DGT 2e coup",
+      "2": "DGT 3e coup",
+      "3": "DGT 4e coup",
+      "4": "DGT attaque chargée",
+      "5": "Coût d'endurance attaque chargée",
+      "6": "DGT durant la chute",
+      "7": "DGT chute basse/élevée",
+      "8": "",
+      "9": "",
+      "10": "",
+      "11": "",
+      "12": "",
+      "13": "",
+      "14": "",
+      "15": ""
+    }
+  },
+  "skill": {
+    "name": "Caresse de plume",
+    "description": {
+      "0": "Après s'être précipitée en avant sur ses pieds dansants et légers comme la soie, Chiori invoque un automate Sode à côté d'elle et effectue une attaque ascendante à la fin de sa ruée, infligeant des <geo>DGT Géo de zone</geo> aux ennemis proches selon son ATQ et sa DÉF.",
+      "1": "En cas d'appui long, la compétence est déclenchée différemment.",
+      "2": "<br/>",
+      "3": "<strong>Appui long</strong>",
+      "4": "Bascule en mode visée, ce qui permet d'ajuster la direction de la ruée.",
+      "5": "<br/>",
+      "6": "<strong>Automate Sode</strong>",
+      "7": [
+        " Entaille les ennemis proches de façon intermittente pour infliger des <geo>DGT Géo de zone</geo> selon l'ATQ et la DÉF de Chiori.",
+        " Pendant la durée, si une <geo>construction Géo</geo> est à proximité, un automate Sode supplémentaire est invoqué à l'emplacement de la construction. Un seul automate Sode supplémentaire peut être invoqué de cette manière et sa durée est calculée indépendamment."
+      ],
+      "8": "<br/>",
+      "9": "<i>« Le rouge des cerisiers teint le brocart, le parfum imprègne les manches, les loriots s'enivrent. »</i>"
+    },
+    "skillParams": {
+      "0": "Entaille d'automate Sode",
+      "1": "Durée d'automate Sode",
+      "2": "Intervalle d'attaques d'automate Sode",
+      "3": "DGT d'attaque ascendante",
+      "4": "Temps de recharge",
+      "5": "",
+      "6": "",
+      "7": "",
+      "8": "",
+      "9": "",
+      "10": "",
+      "11": "",
+      "12": "",
+      "13": "",
+      "14": "",
+      "15": ""
+    }
+  },
+  "burst": {
+    "name": "Hiyoku : Lames jumelles",
+    "description": {
+      "0": "Dégainant deux lames de leur fourreau, Chiori tranche avec le talent de découpe d'une tailleuse experte, infligeant des <geo>DGT Géo de zone</geo>.",
+      "1": "<br/>",
+      "2": "<i>« Une fois un principe compris, toutes les méthodes sont accessibles. »</i>"
+    },
+    "skillParams": {
+      "0": "DGT compétence",
+      "1": "Temps de recharge",
+      "2": "Énergie élémentaire",
+      "3": "",
+      "4": "",
+      "5": "",
+      "6": "",
+      "7": "",
+      "8": "",
+      "9": "",
+      "10": "",
+      "11": "",
+      "12": "",
+      "13": "",
+      "14": "",
+      "15": ""
+    }
+  },
+  "passive1": {
+    "name": "Sur-mesure",
+    "description": {
+      "0": "Pendant une courte durée après l'utilisation de l'attaque ascendante de <strong>Caresse de plume</strong>, divers effets se produisent selon vos actions subséquentes : un nouvel appui simple de la compétence élémentaire déclenche l'effet Tapisserie, tandis qu'un appui simple de l'attaque normale déclenche l'effet Brocatelle.",
+      "1": "<br/>",
+      "2": "<strong>Tapisserie</strong>",
+      "3": [
+        " Déploie le prochain personnage de votre équipe.",
+        " Accorde l'effet Opportunisme à tous vos personnages dans l'équipe : lorsqu'une attaque normale, chargée ou plongeante de votre personnage déployé touche, un automate Sode effectue une attaque coordonnée infligeant des <geo>DGT Géo de zone</geo> d'une valeur équivalant à 100 % des DGT de l'attaque ascendante de Caresse de plume à l'emplacement de l'ennemi. Les DGT infligés de cette manière sont considérés comme des DGT de compétence élémentaire.",
+        " L'effet Opportunisme dure 8 s, l'attaque coordonnée d'un automate Sode peut être déclenchée une fois toutes les 2 s et un maximum de 2 attaques coordonnées peut être déclenché pendant un effet d'opportunisme."
+      ],
+      "4": "<br/>",
+      "5": "<strong>Brocatelle</strong>",
+      "6": [
+        " Chiori bénéficie d'un <geo>enchantement Géo</geo> pendant 5 s."
+      ],
+      "7": "<br/>",
+      "8": "Si Chiori n'utilise pas d'appui simple pour déclencher une compétence élémentaire ou une attaque normale pendant une courte durée après l'attaque ascendante de Caresse de plume, l'effet Brocatelle se déclenche par défaut."
+    }
+  },
+  "passive2": {
+    "name": "Retouche finale",
+    "description": {
+      "0": "Lorsqu'un personnage de l'équipe à proximité crée une <geo>construction Géo</geo>, Chiori bénéficie d'un <geo>bonus de DGT Géo</geo> de 20 % pendant 20 s."
+    }
+  },
+  "passive3": {
+    "name": "Aura de grâce",
+    "description": {
+      "0": "Lorsqu'un de vos personnages dans l'équipe porte une tenue différente de sa tenue par défaut ou un planeur de vent autre que le planeur du débutant, vos personnages dans l'équipe obtiennent l'effet Foulée célère : augmente la VIT de déplacement de 10 %.",
+      "1": "Cet effet ne peut pas être cumulé."
+    }
+  },
+  "constellation1": {
+    "name": "Six voies de la soierie",
+    "description": {
+      "0": "La portée d'attaque des automates Sode de <strong>Caresse de plume</strong> augmente de 50 %.",
+      "1": "De plus, si un personnage Géo (hormis Chiori) est dans l'équipe, les effets suivants se déclenchent à la fin de la ruée de Caresse de plume :",
+      "2": [
+        " Invoque un automate Sode supplémentaire. Il ne peut exister qu'un seul automate Sode supplémentaire à la fois, que ce dernier soit invoqué de cette manière ou grâce à une construction Géo.",
+        " Déclenche « Retouche finale ». L'aptitude passive « Retouche finale » doit être déjà débloquée."
+      ]
+    }
+  },
+  "constellation2": {
+    "name": "Cinq couleurs de la teinture",
+    "description": {
+      "0": "Pendant 8 s après avoir déclenché un effet Tapisserie ou Brocatelle de l'aptitude passive « Sur-mesure », lorsqu'une attaque normale, chargée ou plongeante de votre personnage déployé touche un ennemi, un automate simplifié Kinu est invoqué à l'emplacement de ce dernier.",
+      "1": "L'automate simplifié Kinu attaque les ennemis proches, infligeant des <geo>DGT Géo de zone</geo> d'une valeur équivalant à 170 % des DGT de l'entaille d'un automate Sode. Les DGT infligés de cette manière sont considérés comme des DGT de compétence élémentaire.",
+      "2": "L'automate simplifié Kinu quitte le champ de bataille après une attaque ou un délai de 3 s.",
+      "3": "Un automate simplifié Kinu peut être invoqué une fois toutes les secondes de cette manière, et un maximum de 3 automates simplifiés Kinu peut être invoqué pendant la durée d'un effet Brocatelle ou Opportunisme de l'aptitude passive « Sur-mesure ».",
+      "4": "L'aptitude passive « Sur-mesure » doit être déjà débloquée."
+    }
+  },
+  "constellation3": {
+    "name": "Quatre retouches de brocart",
+    "description": {
+      "0": "Niveau d'aptitude <strong>Caresse de plume</strong> +3.",
+      "1": "Niveau max : 15"
+    }
+  },
+  "constellation4": {
+    "name": "Trois us de broderie",
+    "description": {
+      "0": "Pendant 10 s après l'utilisation de <strong>Hiyoku : Lames jumelles</strong>, un automate simplifié Kinu est invoqué à côté de Chiori toutes les 3 s."
+    }
+  },
+  "constellation5": {
+    "name": "Deux plumules de satin",
+    "description": {
+      "0": "Niveau d'aptitude <strong>Hiyoku : Lames jumelles</strong> +3.",
+      "1": "Niveau max : 15"
+    }
+  },
+  "constellation6": {
+    "name": "Un précepte",
+    "description": {
+      "0": "Après avoir déclenché l'effet Brocatelle de l'aptitude passive « Sur-mesure », le TdR de <strong>Caresse de plume</strong> de Chiori diminue de 14,5 s et elle obtient l'état Élégance pendant 5 s.",
+      "1": "Pendant cet état, les DGT des attaques normales, chargées et plongeantes de Chiori augmentent d'une valeur équivalant à la somme de 50 % de son ATQ et de 180 % de sa DÉF.",
+      "2": "Cet effet peut être déclenché une fois toutes les 15 s et l'état Élégance prend fin à la fin de sa durée ou lorsque Chiori a déclenché un total de 5 attaques normales, chargées et plongeantes.",
+      "3": "L'aptitude passive « Sur-mesure » doit être déjà débloquée."
+    }
+  }
+}

@@ -1,7 +1,7 @@
 {
   "name": "Gaming",
   "title": "Avant-garde léonine",
-  "description": "Un mercenaire des Transporteurs des coffres-lames et le meneur des Mythiques bêtes mystiques.",
+  "description": "Un mercenaire des Transporteurs des coffres-lames et le meneur de la troupe de wushou « Mythiques bêtes mystiques ».",
   "constellationName": "Leo Expergiscens",
   "auto": {
     "name": "Déchirement stellaire",
@@ -43,13 +43,13 @@
     "name": "Ascension bestiale",
     "description": {
       "0": "Attaque avec un bond en avant en utilisant l'art du wushou, sautant haut dans les airs après avoir touché une cible ou le terrain.",
-      "1": "Si Gaming utilise une attaque plongeante après s'être élevé dans les airs grâce à sa compétence élémentaire « Ascension bestiale », il déclenche une attaque plongeante particulièrement puissante : Augure nébuleux.",
+      "1": "Si Gaming utilise une attaque plongeante immédiatement après s'être élevé dans les airs grâce à sa compétence élémentaire « Ascension bestiale », il déclenche une attaque plongeante particulièrement puissante : Augure nébuleux.",
       "2": "<br/>",
       "3": "<strong>Attaque plongeante : Augure nébuleux</strong>",
       "4": "Lorsqu'une attaque plongeante est déclenchée en utilisant l'effet de la compétence élémentaire « Ascension bestiale », ses DGT sont convertis en <pyro>DGT Pyro</pyro> ne pouvant pas être enchantés et Gaming consomme une certaine quantité de PV à l'atterrissage. Les PV de Gaming peuvent être diminués jusqu'à 10 % de cette manière.",
       "5": "Les DGT infligés par Augure nébuleux sont considérés comme des DGT d'attaque plongeante.",
       "6": "<br/>",
-      "7": "<i>« La bête bondit et cueille la verdure, la prospérité tout autour résonne. Que la richesse et la santé nous parviennent... Et puissions-nous tous nous élever au firmament ! »</i>"
+      "7": "<i>« La bête auspicieuse bondit et cueille la verdure, la prospérité tout autour résonne. Que la richesse et la santé nous parviennent... Et puissions-nous tous nous élever au firmament ! »</i>"
     },
     "skillParams": {
       "0": "DGT attaque plongeante « Augure nébuleux »",
@@ -75,10 +75,11 @@
     "description": {
       "0": "Gaming passe en posture de wushou, <pyro>s'appliquant l'élément Pyro</pyro> temporairement et récupérant une certaine quantité de ses PV, et invoque son compagnon, le suanni Man Chai, pour qu'il écrase les cibles et inflige des <pyro>DGT Pyro de zone</pyro>.",
       "1": "Après avoir écrasé ses cibles, Man Chai roule à proximité avant de se diriger vers Gaming. En rejoignant Gaming, Man Chai quitte le champ de bataille et réinitialise le TdR de la compétence élémentaire de Gaming, Ascension bestiale.",
-      "2": "Pendant la durée de la posture de wushou, lorsque l'attaque plongeante « Augure nébuleux » de Gaming touche le sol ou à la fin du bond en avant d'Ascension bestiale, Gaming peut invoquer à nouveau Man Chai si ses PV sont supérieurs à 50 %.",
+      "2": "Pendant la durée de la posture de wushou, la RÉS à l'interruption de Gaming est augmentée et, lorsque son attaque plongeante « Augure nébuleux » touche le sol ou à la fin du bond en avant d'Ascension bestiale, Gaming peut invoquer à nouveau Man Chai si ses PV sont supérieurs à 50 %.",
       "3": "Il ne peut exister qu'un seul Man Chai invoqué par Gaming lui-même à la fois.",
-      "4": "<br/>",
-      "5": "<i>« La bête dorée apporte fortune, lumières flamboyantes et vues brillantes ! Voilà ce qu'on appelle une vie prospère et abondante ! »</i>"
+      "4": "Cet effet cesse lorsque Gaming quitte le champ de bataille.",
+      "5": "<br/>",
+      "6": "<i>« La bête dorée apporte fortune, lumières flamboyantes et vues brillantes ! Voilà ce qu'on appelle une vie prospère et abondante ! »</i>"
     },
     "skillParams": {
       "0": "DGT écrasement de Man Chai",
@@ -114,8 +115,8 @@
   "passive3": {
     "name": "Pas de bestialité",
     "description": {
-      "0": "Augmente la VIT de déplacement de vos personnages dans l'équipe pendant la journée (06 h 00 - 18 h 00) de 10 %.",
-      "1": "Cet effet ne s'applique ni dans les donjons, ni dans les Donjons de la conquête, ni dans les Profondeurs spiralées, et ne peut être cumulé avec d'autres aptitudes passives aux effets identiques."
+      "0": "La journée (06 h 00 - 18 h 00), vos personnages dans l'équipe obtiennent l'effet Foulée célère : augmente la VIT de déplacement de 10 %.",
+      "1": "Cet effet ne s'applique pas dans les donjons, dans les Donjons de la conquête et dans les Profondeurs spiralées, et ne peut pas être cumulé."
     }
   },
   "constellation1": {

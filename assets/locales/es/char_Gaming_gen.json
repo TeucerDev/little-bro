@@ -42,11 +42,11 @@
   "skill": {
     "name": "Ascensión bestial",
     "description": {
-      "0": "Se abalanza hacia delante utilizando el arte de la danza de bestias y, tras entrar en contacto con un objetivo o con el terreno, da un gran salto hacia arriba.",
-      "1": "Si Gaming ejecuta un Ataque Descendente tras elevarse en las alturas con su Habilidad Elemental, “Ascensión bestial”, ejecutará un Ataque Descendente: Auspicio nebular especialmente poderoso.",
+      "0": "Se abalanza hacia delante utilizando el arte de la danza de bestias y, tras entrar en contacto con un objetivo o cualquier tipo de obstáculo, da un gran salto hacia arriba.",
+      "1": "Si Gaming ejecuta un Ataque Descendente inmediatamente después de elevarse en las alturas con su Habilidad Elemental, “Ascensión bestial”, ejecutará un Ataque Descendente: Auspicio nebular especialmente poderoso.",
       "2": "<br/>",
       "3": "<strong>Ataque Descendente: Auspicio nebular</strong>",
-      "4": "El daño infligido con el Ataque Descendente ejecutado con su Habilidad Elemental, “Ascensión bestial”, se convierte en <pyro>Daño Pyro</pyro>, el cual no puede sustituirse imbuyéndose de otro elemento, y además, al aterrizar, Gaming perderá cierta cantidad de Vida. La vida de Gaming solo puede disminuir hasta un mínimo del 10% de esta forma.",
+      "4": "El daño infligido con el Ataque Descendente ejecutado con su Habilidad Elemental, “Ascensión bestial”, se convierte en <pyro>Daño Pyro</pyro>, el cual no puede sustituirse imbuyéndose de otro elemento, y además, al aterrizar, Gaming perderá cierta cantidad de Vida. Como máximo, la Vida de Gaming puede reducirse hasta el 10% de esta manera.",
       "5": "El daño de Auspicio nebular se considera daño de Ataque Descendente.",
       "6": "<br/>",
       "7": "<i>“La bestia salta para atrapar la verdura, símbolo de prosperidad y buena fortuna. Riqueza y salud con nosotros estén, ¡y saltemos muy alto para ascender!”.</i>"
@@ -73,9 +73,9 @@
   "burst": {
     "name": "Pirodanza del suanni",
     "description": {
-      "0": "Gaming adopta la postura de danza de bestias para <pyro>aplicar Pyro</pyro> sobre sí mismo durante un breve periodo de tiempo, recuperar una cantidad de Vida determinada e invocar a su fiel compañero, el suanni Man Chai, con el que aplasta a su objetivo e inflige <pyro>Daño Pyro en el AdE</pyro>.",
-      "1": "Tras golpear a su objetivo, Man Chai cae rodando en un lugar cercano y luego regresa con Gaming. Tras reunirse con él, Man Chai abandona el campo de batalla y reinicia el TdE de la Habilidad Elemental de Gaming, “Ascensión bestial”.",
-      "2": "Mientras la danza de bestias está activa, cuando el Ataque Descendente: Auspicio nebular impacta contra el suelo o cuando se abalanza contra un objetivo con Ascensión bestial, si Gaming tiene más del 50% de Vida, invocará de nuevo a Man Chai.",
+      "0": "Gaming hace uso de su danza de bestias para <pyro>aplicar Pyro</pyro> sobre sí mismo durante un breve periodo de tiempo, recuperar una cantidad de Vida determinada e invocar a su fiel compañero, el suanni Man Chai, con el que aplasta a su objetivo e inflige <pyro>Daño Pyro en el AdE</pyro>.",
+      "1": "Tras golpear a su objetivo, Man Chai cae rodando en un lugar cercano y luego regresa con Gaming. Después de reunirse con él, Man Chai abandona el campo de batalla y reinicia el TdE de la Habilidad Elemental de Gaming, “Ascensión bestial”.",
+      "2": "Mientras la danza de bestias está activa, la RES a interrupción de Gaming aumenta y, cuando el Ataque Descendente: Auspicio nebular impacta contra el suelo o cuando termina de abalanzarse hacia delante contra un objetivo con Ascensión bestial, si Gaming tiene más del 50% de Vida, invocará de nuevo a Man Chai.",
       "3": "Solo puede haber 1 suanni Man Chai a la vez en el campo de batalla.",
       "4": "Este efecto termina cuando Gaming se retira del campo de batalla.",
       "5": "<br/>",
@@ -103,7 +103,7 @@
   "passive1": {
     "name": "Baile de la concordia",
     "description": {
-      "0": "Tras golpear a un enemigo con el Ataque Descendente: Auspicio nebular de <strong>Ascensión bestial</strong>, Gaming recupera Vida una vez cada 0.2 s en una cantidad equivalente al 1.5% de su Vida Máx. durante 0.8 s."
+      "0": "Tras golpear a un enemigo con el Ataque Descendente: Auspicio nebular de <strong>Ascensión bestial</strong>, Gaming recupera una cantidad de Vida equivalente al 1.5% de su Vida Máx. cada 0.2 s durante 0.8 s."
     }
   },
   "passive2": {
@@ -115,8 +115,8 @@
   "passive3": {
     "name": "Andar de la bestia",
     "description": {
-      "0": "La Vel. Movimiento de todos los miembros de tu equipo aumenta en un 10% por el día (06-18 h).",
-      "1": "Este efecto no se activará en dominios, Dominios de la cruzada ni la Espiral del Abismo, y no se puede acumular con otros talentos pasivos que tengan el mismo efecto."
+      "0": "Tus personajes del equipo obtienen el efecto de “paso ligero”, de manera que su Vel. Movimiento aumenta en un 10% por el día (06-18 h).",
+      "1": "Este efecto no se activará en dominios, Dominios de la cruzada y la Espiral del Abismo, y no se puede acumular con otros efectos de paso ligero."
     }
   },
   "constellation1": {
@@ -128,7 +128,7 @@
   "constellation2": {
     "name": "Paseo entre cerezos",
     "description": {
-      "0": "Cuando Gaming recibe curación teniendo la Vida al máximo, su ATQ aumenta un 20% durante 5 s."
+      "0": "Cuando Gaming recibe curación teniendo la Vida al máximo, su ATQ aumenta en un 20% durante 5 s."
     }
   },
   "constellation3": {

@@ -42,14 +42,14 @@
   "skill": {
     "name": "Ascensione selvaggia",
     "description": {
-      "0": "Balza in avanti sfruttando le sue arti Wushou, compiendo un lungo balzo verso l'alto dopo aver colpito un bersaglio o una superficie.",
-      "1": "Quando Gaming usa Ascensione selvaggia per elevarsi, sferra il suo potente attacco Cavalcanubi propizio quando usa un attacco in picchiata.",
+      "0": "Si proietta in avanti sfruttando le sue arti Wushou, compiendo un lungo balzo verso l'alto dopo aver colpito un bersaglio o una superficie.",
+      "1": "Quando Gaming usa Ascensione selvaggia per librarsi in aria, se usa immediatamente un attacco in picchiata, sferra il potentissimo Attacco in picchiata: Cavalcanubi propizio.",
       "2": "<br/>",
       "3": "<strong>Attacco in picchiata: Cavalcanubi propizio</strong>",
       "4": "I DAN da attacco in picchiata derivanti da Ascensione selvaggia vengono convertiti in <pyro>DAN da Pyro</pyro> che non possono essere contrastati da altre infusioni elementali. All'impatto col suolo, Gaming consuma una certa quantità di PS. Con questo metodo, i PS di Gaming non possono calare al di sotto di un 10% dei suoi PS max.",
       "5": "I DAN da Cavalcanubi propizio sono considerati DAN da attacco in picchiata.",
       "6": "<br/>",
-      "7": "<i>\"La bestia balza, strappando i fili d'erba; la prosperità attorno a noi risuona. Con salute e ricchezza per tutti, la sorte un gran ballo ci dona!\"</i>"
+      "7": "<i>\"Le bestie propizie balzano in alto per strappare le foglie: sono simbolo di buona fortuna e di buoni guadagni in arrivo, sai? Significa che tutti noi possiamo raggiungere nuove vette, un passo dopo l'altro!\"</i>"
     },
     "skillParams": {
       "0": "DAN da Attacco in picchiata: Cavalcanubi propizio",
@@ -73,17 +73,17 @@
   "burst": {
     "name": "Danza dorata del Suanni",
     "description": {
-      "0": "Gaming assume la Posizione Wushou, subendo una breve applicazione di <pyro>Pyro</pyro>, ripristina una data quantità di PS ed evoca il suo alleato, il Suanni Man Chai, infliggendo <pyro>DAN da Pyro ad area</pyro>.",
+      "0": "Gaming assume la Posizione Wushou ottenendo una breve applicazione di <pyro>Pyro</pyro>, ripristina una data quantità di PS ed evoca il suo alleato, il Suanni Man Chai, che assalta il bersaglio infliggendo <pyro>DAN da Pyro ad area</pyro>.",
       "1": "Dopo aver attaccato il bersaglio, Man Chai rotola verso una posizione vicina per poi sfrecciare in direzione di Gaming. Quando si riunisce a quest'ultimo, Man Chai abbandona il campo e annulla il TdR dell'abilità elementale di Gaming, Ascensione selvaggia.",
-      "2": "Mentre la Posizione Wushou è attiva, se Gaming ha più di un 50% di PS, quando atterra compiendo un attacco Cavalcanubi propizio o si scaglia con successo contro l'avversario eseguendo Ascensione selvaggia, evoca nuovamente Man Chai.",
+      "2": "Mentre la Posizione Wushou è attiva, la resistenza all'interruzione di Gaming è aumentata; inoltre, se Gaming ha più di un 50% di PS quando atterra compiendo un attacco Cavalcanubi propizio o si proietta con successo contro l'avversario eseguendo Ascensione selvaggia, evoca nuovamente Man Chai.",
       "3": "Ciascun Gaming non può avere più di 1 Man Chai in campo contemporaneamente.",
       "4": "Questo effetto si annulla quando Gaming lascia il campo.",
       "5": "<br/>",
-      "6": "<i>\"La bestia dorata dona fortuna, luci sfavillanti e paesaggi sfolgoranti! Questo è ciò che io chiamo una 'vita abbondante'!\"</i>"
+      "6": "<i>\"Il suanni dorato sputa fortuna come in uno spettacolo pirotecnico. Ehi! Se ci pensi, si parla di 'prosperità' quando gli affari 'esplodono'!\"</i>"
     },
     "skillParams": {
-      "0": "DAN da scontro Suanni Man Chai",
-      "1": "Guarigione abilità",
+      "0": "DAN da assalto Suanni Man Chai",
+      "1": "Guarigione da abilità",
       "2": "Durata Posizione Wushou",
       "3": "TdR",
       "4": "Costo energia",
@@ -115,8 +115,8 @@
   "passive3": {
     "name": "Bestia dal grande passo",
     "description": {
-      "0": "Aumenta la VEL di movimento dei membri del tuo gruppo di un 10% durante il giorno (06:00-18:00).",
-      "1": "Non ha effetto nei domini, nei Domini della conquista o nell'Abisso a spirale. Non è cumulabile con talenti passivi che conferiscono gli stessi effetti."
+      "0": "Di giorno (06:00-18:00), i membri del gruppo ottengono l'effetto Piè veloce: la VEL di movimento aumenta di un 10%.",
+      "1": "Non ha effetto all'interno di Domini, Domini della conquista o nell'Abisso a spirale. Piè veloce non è cumulabile."
     }
   },
   "constellation1": {
@@ -145,7 +145,7 @@
     }
   },
   "constellation5": {
-    "name": "Ruggito demonifugo",
+    "name": "Ruggito benedetto",
     "description": {
       "0": "Aumenta di 3 il livello di <strong>Danza dorata del Suanni</strong>.",
       "1": "Il livello di potenziamento massimo è 15."

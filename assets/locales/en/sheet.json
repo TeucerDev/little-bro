@@ -50,6 +50,9 @@
     "weakSpot": "After hitting an enemy Weak Spot with a Charged Shot",
     "self": "After being hit by an opponent"
   },
+  "teamHitOp": {
+    "geo": "After nearby party members deal <geo>Geo DMG</geo>"
+  },
   "afterUse": {
     "skill": "After using Elemental Skill",
     "burst": "After using Elemental Burst",
@@ -188,5 +191,6 @@
   "getElementalOrbParticle": "After picking up an Elemental Orb or Particle",
   "hpChange": "After HP changes",
   "otherHpChange": "After a teammate's HP changes",
-  "afterHeal": "After being healed"
+  "afterHeal": "After being healed",
+  "afterOverflow": "Healing has overflowed"
 }

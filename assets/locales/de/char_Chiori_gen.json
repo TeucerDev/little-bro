@@ -1,0 +1,186 @@
+{
+  "name": "Chiori",
+  "title": "???",
+  "description": "",
+  "constellationName": "",
+  "auto": {
+    "name": "Webende Klinge",
+    "fields": {
+      "normal": {
+        "0": "<strong><strong>Standardangriff</strong>",
+        "1": "Führt bis zu 4 Schwerthiebe hintereinander aus."
+      },
+      "charged": {
+        "0": "<strong>Heftiger Schlag</strong>",
+        "1": "Verbraucht eine gewisse Menge Ausdauer und schwingt das Schwert zweimal schnell nach vorn."
+      },
+      "plunging": {
+        "0": "<strong>Angriff aus dem Fall</strong>",
+        "1": "Schlägt beim Fallen aus der Luft auf den Boden, greift alle Gegner in der Bahn an und verursacht beim Aufkommen Flächenschaden."
+      }
+    },
+    "skillParams": {
+      "0": "SCH Phase 1",
+      "1": "SCH Phase 2",
+      "2": "SCH Phase 3",
+      "3": "SCH Phase 4",
+      "4": "SCH heftiger Schläge",
+      "5": "Ausdauerverbrauch heftiger Schläge",
+      "6": "SCH beim Fallen",
+      "7": "SCH beim Fallen aus niedriger/großer Höhe",
+      "8": "",
+      "9": "",
+      "10": "",
+      "11": "",
+      "12": "",
+      "13": "",
+      "14": "",
+      "15": ""
+    }
+  },
+  "skill": {
+    "name": "Streichelnde Feder",
+    "description": {
+      "0": "Stößt mit einer seidig weichen Bewegung schnell nach vorn und beschwört im Anschluss „Automaton-Puppe – Sode“ neben sich. Führt danach einen nach oben gerichteten Angriff aus und fügt Gegnern in der Nähe basierend auf Chioris ANG und VTD <geo>Geo-Flächenschaden</geo> zu.",
+      "1": "Beim Gedrückthalten nimmt diese Fähigkeit einen anderen Modus an.",
+      "2": "<br/>",
+      "3": "<strong>Gedrückt halten</strong>",
+      "4": "Tritt in einen Zielmodus ein, in dem die Richtung des schnellen Vorstoßes bestimmt werden kann.",
+      "5": "<br/>",
+      "6": "<strong>Automaton-Puppe – Sode</strong>",
+      "7": [
+        " Fügt Gegnern in der Nähe in regelmäßigen Abständen Hiebe zu und verursacht basierend auf Chioris ANG und VTD <geo>Geo-Flächenschaden</geo>.",
+        " Erschafft bei Vorhandensein eines <geo>Geo-Objekts</geo> in der Nähe während der Wirkungsdauer 1 weitere Automaton-Puppe – Sode an der Stelle des Geo-Objekts. Auf diese Weise kann höchstens 1 zusätzliche Automaton-Puppe – Sode erschaffen werden. Wirkungsdauer der zusätzlich erschaffenen Automaton-Puppe – Sode wird unabhängig berechnet."
+      ],
+      "8": "<br/>",
+      "9": "<i>„Rosarot ist der Brokat und schmückt die Ärmel mit betörendem Duft, den selbst die Pirole bewundern.“</i>"
+    },
+    "skillParams": {
+      "0": "Hieb von Automaton-Puppe – Sode",
+      "1": "Dauer Automaton-Puppe – Sode",
+      "2": "Angriffsintervall Automaton-Puppe – Sode",
+      "3": "SCH Aufwärtshaken",
+      "4": "Abklingzeit",
+      "5": "",
+      "6": "",
+      "7": "",
+      "8": "",
+      "9": "",
+      "10": "",
+      "11": "",
+      "12": "",
+      "13": "",
+      "14": "",
+      "15": ""
+    }
+  },
+  "burst": {
+    "name": "Doppelklinge – Im Flug",
+    "description": {
+      "0": "Chiori zieht ihre beiden Schwerter, während sie mit präzisen Schnitten wie eine Meisterschneiderin zuschlägt und basierend auf ihrem ANG und ihrer VTD <geo>Geo-Flächenschaden</geo> verursacht.",
+      "1": "<br/>",
+      "2": "<i>„Hat man die höchste Wahrheit erlangt, steht einem alles Wissen offen.“</i>"
+    },
+    "skillParams": {
+      "0": "Fähigkeits-SCH",
+      "1": "Abklingzeit",
+      "2": "Elementarenergie",
+      "3": "",
+      "4": "",
+      "5": "",
+      "6": "",
+      "7": "",
+      "8": "",
+      "9": "",
+      "10": "",
+      "11": "",
+      "12": "",
+      "13": "",
+      "14": "",
+      "15": ""
+    }
+  },
+  "passive1": {
+    "name": "Mode nach Maß",
+    "description": {
+      "0": "Löst innerhalb kurzer Zeit nach dem nach oben gerichteten Angriff von <strong>Streichelnde Feder</strong> je nach folgender Handlung unterschiedliche Effekte aus: Löst bei erneutem Drücken der Elementarfähigkeit den Effekt „Brokatstoff“ und bei Drücken des Standardangriffs den Effekt „Brokatschnitt“ aus.",
+      "1": "<br/>",
+      "2": "<strong>Brokatstoff</strong>",
+      "3": [
+        " Wechselt die Figur automatisch zum nächsten eigenen Truppenmitglied.",
+        " Gewährt allen eigenen Truppenmitgliedern den Effekt „Gute Stimmung“: Lässt Automaton-Puppe – Sode bei Treffern des aktuellen eigenen Truppenmitglieds mit Standardangriffen, heftigen Schlägen und Angriffen aus dem Fall einen abgestimmten Angriff ausführen. Verursacht an der Stelle des Gegners <geo>Geo-Flächenschaden</geo> in Höhe von 100 % des Schadens des nach oben gerichteten Angriffs von „Streichelnde Feder“. Hierdurch verursachter Schaden wird als Schaden der Elementarfähigkeit gewertet.",
+        " „Gute Stimmung“ hält 8 s. Alle 2 s kann 1 abgestimmter Angriff von Automaton-Puppe – Sode ausgelöst werden. Während der Wirkungsdauer von „Gute Stimmung“ können bis zu 2 abgestimmte Angriffe ausgelöst werden."
+      ],
+      "4": "<br/>",
+      "5": "<strong>Brokatschnitt</strong>",
+      "6": [
+        " Verleiht Chiori 5 s lang die <geo>Geo-Kraft</geo>."
+      ],
+      "7": "<br/>",
+      "8": "Löst den Effekt „Brokatschnitt“ automatisch aus, wenn innerhalb kurzer Zeit nach dem nach oben gerichteten Angriff von Streichelnde Feder weder erneut die Elementarfähigkeit noch der Standardangriff gedrückt wird."
+    }
+  },
+  "passive2": {
+    "name": "Vollendete Muster",
+    "description": {
+      "0": "Erhöht den von Chiori verursachten <geo>Geo-Schaden</geo> 20 s lang um 20 %, wenn Truppenmitglieder in der Nähe <geo>Geo-Objekte</geo> erschaffen."
+    }
+  },
+  "passive3": {
+    "name": "Bezaubernde Silhouette",
+    "description": {
+      "0": "Verleiht, wenn beliebig viele eigene Figuren in der Truppe Kleidung außer ihrer Standardkleidung oder Windgleiter außer dem Standardwindgleiter angelegt haben, eigenen Figuren in der Truppe den Effekt „Schneller Schritt“: Erhöht die Bewegungs-GSW um 10 %.",
+      "1": "Dieser Effekt ist nicht stapelbar."
+    }
+  },
+  "constellation1": {
+    "name": "Sechs Pfade der Seidigkeit",
+    "description": {
+      "0": "Erhöht die Angriffsreichweite der Automaton-Puppe – Sode von <strong>Streichelnde Feder</strong> um 50 %.",
+      "1": "Wenn sich außer Chiori noch eine Geo-Figur in der Truppe befindet, werden nach dem Vorstoß von „Streichelnde Feder“ zusätzlich die folgenden Effekte ausgelöst:",
+      "2": [
+        " Erschafft eine weitere Automaton-Puppe – Sode. Nur eine zusätzliche Automaton-Puppe – Sode von Chiori selbst, die auf diese Weise und durch Geo-Objekte erschaffen wurde, kann gleichzeitig existieren.",
+        " Löst das passive Talent „Vollendete Muster“ aus. Das passive Talent „Vollendete Muster“ muss zuerst freigeschaltet werden."
+      ]
+    }
+  },
+  "constellation2": {
+    "name": "Fünffarbige Färbung",
+    "description": {
+      "0": "Erschafft beim Treffen von Gegnern mit Standardangriffen, heftigen Schlägen oder Angriffen aus dem Fall der eigenen aktuellen Figur in der Truppe innerhalb von 8 s nach dem Auslösen des Effekts „Brokatstoff“ oder des Effekts „Brokatschnitt“ des passiven Talents „Mode nach Maß“ in der Nähe des Gegners eine „vereinfachte Automaton-Puppe – Kinu“.",
+      "1": "Die vereinfachte Automaton-Puppe – Kinu greift Gegner in der Nähe an und verursacht <geo>Geo-Flächenschaden</geo> in Höhe von 170 % des Schadens des Hiebs der Automaton-Puppe – Sode. Hierdurch verursachter Schaden wird als Schaden der Elementarfähigkeit gewertet.",
+      "2": "Die „vereinfachte Automaton-Puppe – Kinu“ verlässt nach einem Angriff oder 3 s nach dem Erschaffen den Kampf.",
+      "3": "Erschafft auf diese Weise jede s höchstens 1 „vereinfachte Automaton-Puppe – Kinu“. Dieser Effekt kann während der Wirkungsdauer einer Anwendung von Gute Stimmung oder Brokatschnitt des passiven Talents „Mode nach Maß“ bis zu 3-mal ausgelöst werden.",
+      "4": "Das passive Talent „Mode nach Maß“ muss zuerst freigeschaltet werden."
+    }
+  },
+  "constellation3": {
+    "name": "Vier Brokatverzierungen",
+    "description": {
+      "0": "Erhöht die Stufe der Fähigkeit <strong>Streichelnde Feder</strong> um 3.",
+      "1": "Höchststufe 15."
+    }
+  },
+  "constellation4": {
+    "name": "Drei Rituale der Schneiderei",
+    "description": {
+      "0": "Erschafft innerhalb von 10 s nach Anwenden von <strong>Doppelklinge – Im Flug</strong> alle 3 s 1 vereinfachte Automaton-Puppe – Kinu."
+    }
+  },
+  "constellation5": {
+    "name": "Zwei seidene Federn",
+    "description": {
+      "0": "Erhöht die Stufe der Fähigkeit <strong>Doppelklinge – Im Flug</strong> um 3.",
+      "1": "Höchststufe 15."
+    }
+  },
+  "constellation6": {
+    "name": "Verfolgung des einen Prinzips",
+    "description": {
+      "0": "Verringert die Abklingzeit von Chioris eigener Fähigkeit <strong>Streichelnde Feder</strong> nach dem Auslösen des Effekts Brokatschnitt des passiven Talents „Mode nach Maß“ um 14,5 s und gewährt den Effekt „Klare Schönheit“, hält 5 s.",
+      "1": "Erhöht den von Chiori mit Standardangriffen, heftigen Schlägen und Angriffen aus dem Fall verursachten Schaden während der Wirkungsdauer von Klare Schönheit um die Summe aus 50 % von Chioris ANG und 180 % ihrer VTD.",
+      "2": "15 s Abklingzeit. Entfernt Klare Schönheit nach 5 Treffern mit Chioris Standardangriffen, heftigen Schlägen oder Angriffen aus dem Fall oder nach Ablauf der Wirkungsdauer.",
+      "3": "Das passive Talent „Mode nach Maß“ muss zuerst freigeschaltet werden."
+    }
+  }
+}

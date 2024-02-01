@@ -43,10 +43,10 @@
     "name": "Ascensão Bestial",
     "description": {
       "0": "Ataca para frente com as artes Wushou, saltando no ar quando atingir o alvo ou o terreno.",
-      "1": "Quando Gaming usar sua Habilidade Elemental, Ascensão Bestial, para ascender no ar, e se realizar um Ataque Imersivo, lançará um poderoso Ataque Imersivo: Caminhador das Nuvens.",
+      "1": "Quando Gaming usar sua Habilidade Elemental, Ascensão Bestial, para ascender no ar, e se realizar um Ataque Imersivo imediatamente, lançará um poderoso Ataque Imersivo: Caminhador das Nuvens.",
       "2": "<br/>",
       "3": "<strong>Ataque Imersivo: Caminhador das Nuvens</strong>",
-      "4": "O Dano do Ataque Imersivo da Habilidade Elemental Ascensão Bestial é convertido em <pyro>Dano Pyro</pyro> que não pode ser substituído, e ao cair, consome uma certa quantidade da Vida de Gaming. É possível reduzir a Vida de Gaming em até 10% dessa forma.",
+      "4": "O Dano do Ataque Imersivo da Habilidade Elemental Ascensão Bestial é convertido em <pyro>Dano Pyro</pyro> que não pode ser substituído, e ao cair, consome uma certa quantidade da Vida de Gaming. É possível reduzir a Vida de Gaming até 10% dessa forma.",
       "5": "O Dano de Caminhador das Nuvens é considerado Dano de Ataque Imersivo.",
       "6": "<br/>",
       "7": "<i>\"A besta salta e pega o verde, a prosperidade ao nosso redor. Que a riqueza e saúde venha para todos, e que sejamos abençoados!\"</i>"
@@ -73,9 +73,9 @@
   "burst": {
     "name": "Dança das Chamas Douradas",
     "description": {
-      "0": "Gaming entra na Postura Wushou, <pyro>aplicando Pyro</pyro> em Gaming por um curto tempo regenerando uma certa quantidade de Vida e invocando seu fiel companheiro, o Suanni Man Chai para esmagar seu alvo, causando <pyro>Dano Pyro em AdE</pyro>.",
+      "0": "Gaming entra na Postura Wushou, <pyro>aplicando Pyro</pyro> em Gaming por um curto tempo, regenerando uma certa quantidade de Vida e invocando seu fiel companheiro, o Suanni Man Chai para esmagar seu alvo, causando <pyro>Dano Pyro em AdE</pyro>.",
       "1": "Depois de atacar seu alvo, Man Chai vai rolar até um local próximo antes de se mover na direção de Gaming. Ao se reunir com Gaming, Man Chai recuará, e redefinirá a recarga da Habilidade Elemental \"Ascensão Bestial\" de Gaming.",
-      "2": "Na duração da Postura Wushou, quando o Ataque Imersivo: Caminhador das Nuvens atingir o chão ou completar o ataque frontal de Ascensão Bestial com mais de 50% de Vida invocará Man Chai novamente.",
+      "2": "Na duração da Postura Wushou, aumenta a RES contra Interrupção de Gaming, e quando o Ataque Imersivo: Caminhador das Nuvens atingir o chão, ou completar o ataque frontal de Ascensão Bestial com mais de 50% de Vida, invocará Man Chai novamente.",
       "3": "Só é possível haver 1 Man Chai de Gaming ativo por vez.",
       "4": "Esse efeito será removido quando Gaming sair do campo.",
       "5": "<br/>",
@@ -103,7 +103,7 @@
   "passive1": {
     "name": "Dança da Ascensão",
     "description": {
-      "0": "Depois que Ataque Imersivo: Caminhador das Nuvens de <strong>Ascensão Bestial</strong> atingir o inimigo, regenera Vida para Gaming a cada 0.2s. A quantidade regenerada equivale a 1.5% da Vida Máxima de Gaming e dura 0.8s."
+      "0": "Depois que o Ataque Imersivo: Caminhador das Nuvens de <strong>Ascensão Bestial</strong> atingir o inimigo, regenera Vida para Gaming a cada 0.2s. A quantidade regenerada equivale a 1.5% da Vida Máxima de Gaming e dura 0.8s."
     }
   },
   "passive2": {
@@ -115,8 +115,8 @@
   "passive3": {
     "name": "A Besta Caminhante",
     "description": {
-      "0": "Durante o dia (06:00 - 18:00), os personagens da equipe recebem um aumento da Veloc. Mov. de 10%.",
-      "1": "Esse efeito não se aplica em Domínios, Domínios Dizimados e Abismo do Espiral. Além disso, esse não é acumulado com Talentos Passivos de efeito igual."
+      "0": "Durante o dia (06:00 - 18:00), os membros do seu grupo ganham o efeito Passos Ágeis: Veloc. Mov. aumenta em 10%.",
+      "1": "Não tem efeito em Domínios, Domínios Dizimados ou Abismo Espiral. O efeito Passos Ágeis não se acumula."
     }
   },
   "constellation1": {
@@ -154,7 +154,7 @@
   "constellation6": {
     "name": "Domesticando Todas as Bestas",
     "description": {
-      "0": "Aumenta a Taxa CRIT do Ataque Imersivo: Caminhador das Nuvens de <strong>Ascensão Bestial</strong> em 20%, o Dano CRIT em 40% e a AdE de Ataque."
+      "0": "Aumenta a Taxa CRIT do Ataque Imersivo: Caminhador das Nuvens de <strong>Ascensão Bestial</strong> em 20%, o Dano CRIT em 40%, e a AdE de Ataque."
     }
   }
 }
