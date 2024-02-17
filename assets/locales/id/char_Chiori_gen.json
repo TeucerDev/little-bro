@@ -1,8 +1,8 @@
 {
   "name": "Chiori",
-  "title": "???",
-  "description": "",
-  "constellationName": "",
+  "title": "The Thundering Seamstress",
+  "description": "Pemilik Chioriya Boutique. Desainer pakaian terkenal di Fontaine.",
+  "constellationName": "Cisoria",
   "auto": {
     "name": "Weaving Blade",
     "fields": {
@@ -50,15 +50,15 @@
       "6": "<strong>Automaton Doll: Sode</strong>",
       "7": [
         "Menghunuskan tebasan ke musuh di sekitar secara bertahap, mengakibatkan <geo>Geo DMG Area</geo> yang didasarkan pada ATK dan DEF Chiori;",
-        "Selama aktif, jika ada <geo>Geo Construct</geo> di sekitar, maka akan memanggil satu Automaton Doll: Sode tambahan di lokasi Geo Construct yang bersangkutan. Maksimum satu Automaton Doll: Sode tambahan yang bisa dipanggil dengan cara. Durasi setiap Automaton Doll: Sode tambahan yang dipanggil dihitung secara terpisah."
+        "Selama aktif, jika ada <geo>Geo Construct</geo> yang diciptakan di sekitar, maka akan memanggil satu Automaton Doll: Sode tambahan di sisi Chiori. Maksimum satu Automaton Doll: Sode tambahan yang bisa dipanggil dengan cara ini, dan durasinya dihitung secara terpisah."
       ],
       "8": "<br/>",
       "9": "<i>\"Sakura merah mewarnai brokatnya, sisa wanginya yang terselip di lengan baju, bahkan bisa membuat burung oriole mabuk.\"</i>"
     },
     "skillParams": {
-      "0": "Tebasan Automaton Doll: Sode",
-      "1": "Durasi Automaton Doll: Sode",
-      "2": "Jeda Serangan Automaton Doll: Sode",
+      "0": "DMG Sode",
+      "1": "Durasi Sode",
+      "2": "Jeda Serangan Sode",
       "3": "DMG Serangan ke Atas",
       "4": "Cooldown",
       "5": "",
@@ -103,12 +103,12 @@
   "passive1": {
     "name": "Tailor-Made",
     "description": {
-      "0": "Dalam waktu singkat setelah melancarkan serangan ke atas dari <strong>Fluttering Hasode</strong>, akan menghasilkan efek yang berbeda berdasarkan pengoperasian lanjutannya: Menekan Elemental Skill sekali lagi akan memicu efek lanjutan Tapestry; Menekan Normal Attack akan memicu efek lanjutan Tailoring.",
+      "0": "Dalam waktu singkat setelah melancarkan serangan ke atas dari <strong>Fluttering Hasode</strong>, akan menghasilkan efek yang berbeda berdasarkan pengoperasian lanjutannya: Menekan tombol Melompat akan memicu Tapestry; Menekan Normal Attack akan memicu Tailoring.",
       "1": "<br/>",
       "2": "<strong>Tapestry</strong>",
       "3": [
         "Mengganti Karakter dan membuat Karakter selanjutnya memasuki medan pertempuran;",
-        "Memberikan Seize the Moment kepada seluruh Karakter di dalam party: Saat Normal Attack, Charged Attack, atau Plunging Attack Karakter aktif di dalam party mengenai musuh, Automaton Doll: Sode akan melancarkan serangan terkoordinasi dan mengakibatkan <geo>Geo DMG Area</geo> di posisi musuh yang setara dengan 100% serangan ke atas Fluttering Hasode. DMG yang diakibatkan dengan cara ini dianggap sebagai DMG Elemental Skill;",
+        "Memberikan Seize the Moment kepada seluruh Karakter di dalam party: Saat Normal Attack, Charged Attack, atau Plunging Attack Karakter aktif di dalam party mengenai musuh, Automaton Doll: Sode akan melancarkan serangan terkoordinasi dan mengakibatkan <geo>Geo DMG Area</geo> di posisi musuh yang setara dengan 100% DMG serangan ke atas Fluttering Hasode. DMG yang diakibatkan dengan cara ini dianggap sebagai DMG Elemental Skill;",
         "Seize the Moment berlangsung selama 8 detik, serangan terkoordinasi Automaton Doll: Sode dapat terpicu maksimum sekali dalam 2 detik. Dalam satu kali durasi Seize the Moment, maksimum 2 kali serangan terkoordinasi yang dapat terpicu."
       ],
       "4": "<br/>",
@@ -117,7 +117,7 @@
         "Chiori mendapatkan <geo>Geo Infusion</geo> selama 5 detik."
       ],
       "7": "<br/>",
-      "8": "Jika tidak menekan Normal Attack atau Elemental Skill lagi dalam waktu singkat setelah melancarkan serangan ke atas dari Fluttering Hasode, maka efek lanjutan Tailoring yang akan terpicu."
+      "8": "Saat Chiori berada di medan pertempuran, jika tidak menekan Normal Attack atau tombol Melompat lagi dalam waktu singkat setelah melancarkan serangan ke atas dari Fluttering Hasode, maka efek lanjutan Tailoring yang akan terpicu."
     }
   },
   "passive2": {
@@ -130,16 +130,16 @@
     "name": "Brocaded Collar's Beauteous Silhouette",
     "description": {
       "0": "Saat Karakter apa pun di dalam party mengenakan kostum selain kostum semula, atau saat wind glider yang dikenakan bukan merupakan Wings of First Flight, Karakter sendiri di dalam party mendapatkan efek peningkatan kecepatan: Movement SPD meningkat 10%.",
-      "1": "Efek peningkatan kecepatan tidak dapat ditumpuk."
+      "1": "Efek ini tidak aktif dalam Domain, Domain Trounce, atau Spiral Abyss. Efek peningkatan kecepatan tidak dapat ditumpuk."
     }
   },
   "constellation1": {
     "name": "Six Paths of Sage Silkcraft",
     "description": {
       "0": "Radius serangan area Automaton Doll: Sode dari <strong>Fluttering Hasode</strong> meningkat 50%.",
-      "1": "Selain itu, jika ada Karakter Geo selain Chiori di dalam party, setelah terjangan Fluttering Hasode berakhir, akan memicu efek sebagai berikut:",
+      "1": "Selain itu, jika ada Karakter <geo>Geo</geo> selain Chiori di dalam party, setelah terjangan Fluttering Hasode berakhir, akan memicu efek sebagai berikut:",
       "2": [
-        "Memanggil satu Automaton Doll: Sode tambahan. Hanya boleh ada satu Automaton Doll: Sode tambahan milik Chiori yang dipanggil dengan cara ini dan melalui Geo Construct yang bisa dipanggil secara bersamaan.",
+        "Memanggil satu Automaton Doll: Sode tambahan. Hanya boleh ada satu Automaton Doll: Sode milik Chiori yang dipanggil dengan cara ini dan melalui Geo Construct yang bisa dipanggil secara bersamaan.",
         "Memicu Talenta Pasif The Finishing Touch. Harus membuka Talenta Pasif The Finishing Touch terlebih dahulu."
       ]
     }
@@ -147,11 +147,8 @@
   "constellation2": {
     "name": "In Five Colors Dyed",
     "description": {
-      "0": "Dalam 8 detik setelah memicu efek lanjutan Tapestry atau Tailoring dari Talenta Pasif Tailor-Made, saat Normal Attack, Charged Attack, atau Plunging Attack Karakter aktif sendiri di dalam party mengenai musuh, akan memanggil satu Simple Automaton Doll: Kinu di sekitar musuh.",
-      "1": "Simple Automaton Doll: Kinu akan melancarkan serangan terhadap musuh dan mengakibatkan <geo>Geo DMG Area</geo> yang setara dengan 170% tebasan Automaton Doll: Sode, DMG yang diakibatkan dengan cara ini dianggap sebagai DMG Elemental Skill.",
-      "2": "Simple Automaton Doll: Kinu akan hilang setelah melancarkan satu kali serangan atau setelah berlangsung selama 3 detik.",
-      "3": "Simple Automaton Doll: Kinu yang bisa dipanggil melalui cara di atas adalah maksimum satu setiap 1 detik. Selama satu kali Seize the Moment atau efek Tailoring dari Talenta Pasif Tailor-Made berlangsung, efek ini bisa terpicu maksimum 3 kali.",
-      "4": "Harus membuka Talenta Pasif Tailor-Made terlebih dahulu."
+      "0": "Setelah melancarkan <strong>Hiyoku: Twin Blades</strong>, selama 10 detik berikutnya Automaton Doll: Kinu akan muncul di samping Chiori setiap 3 detik sekali. Kinu akan menyerang musuh di sekitar dan mengakibatkan <geo>Geo DMG Area</geo> setara dengan 170% DMG Sode. DMG yang diakibatkan dengan cara ini akan dianggap sebagai DMG Elemental Skill.",
+      "1": "Kinu akan hilang setelah melancarkan satu kali serangan atau setelah berlangsung selama 3 detik."
     }
   },
   "constellation3": {
@@ -164,7 +161,8 @@
   "constellation4": {
     "name": "A Tailor's Three Courtesies",
     "description": {
-      "0": "Dalam 10 detik setelah melancarkan <strong>Hiyoku: Twin Blades</strong>, akan memanggil satu Simple Automaton Doll: Kinu di sisi Chiori sekali setiap 3 detik."
+      "0": "Dalam 8 detik setelah memicu efek lanjutan dari Talenta Pasif Tailor-Made, saat Normal Attack, Charged Attack, atau Plunging Attack Karakter aktif sendiri di dalam party mengenai musuh, akan memanggil satu Automaton Doll: Kinu di sekitar musuh. Automaton Doll: Kinu yang bisa dipanggil melalui cara di atas adalah maksimum satu setiap 1 detik. Selama satu kali \"Seize the Moment\" atau efek \"Tailoring\" dari Talenta Pasif \"Tailor-Made\" berlangsung, maksimum bisa memanggil hingga 3 Kinu. Efek di atas dapat terpicu sekali setiap 15 detik.",
+      "1": "Harus membuka Talenta Pasif \"Tailor-Made\" terlebih dahulu."
     }
   },
   "constellation5": {
@@ -177,10 +175,8 @@
   "constellation6": {
     "name": "Sole Principle Pursuit",
     "description": {
-      "0": "Setelah memicu Tailoring dari Talenta Pasif Tailor-Mode, CD <strong>Fluttering Hasode</strong> Chiori sendiri berkurang 14,5 detik, dan mendapatkan Prismatic Beauty yang berlangsung 5 detik.",
-      "1": "Selama Prismatic Beauty berlangsung, DMG yang diakibatkan Normal Attack, Charged Attack, atau Plunging Attack Chiori meningkat sebesar total dari 50% ATK Chiori dan 180% DEF Chiori.",
-      "2": "Efek ini dapat terpicu sekali setiap 15 detik, Prismatic Beauty akan hilang setelah Normal Attack, Charged Attack, atau Plunging Attack Chiori mengenai musuh 5 kali atau setelah durasinya berakhir.",
-      "3": "Harus membuka Talenta Pasif Tailor-Made terlebih dahulu."
+      "0": "Setelah memicu efek lanjutan Talenta Pasif \"Tailor Made\", CD <strong>Fluttering Hasode</strong> Chiori sendiri berkurang 14,5 detik. Harus membuka Talenta Pasif \"Tailor-Made\" terlebih dahulu.",
+      "1": "Selain itu, DMG yang diakibatkan Normal Attack Chiori meningkat setara dengan 180% DEF Chiori sendiri."
     }
   }
 }

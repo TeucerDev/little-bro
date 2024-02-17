@@ -411,6 +411,13 @@
       "1": "「薔薇と銃士」イベント期間中、貴重な物資と交換できる。"
     }
   },
+  "Funds": {
+    "name": "資金JP0B",
+    "description": {
+      "0": "錬金ショップの経営で得た資金は、ショップの様々な業務の運用に充てることができる。薬草栽培や薬剤生産の拡大、ショップ規模の拡張など…",
+      "1": "立派な店長は常に経営資金に気を配り、使える資金を常時ある程度保有している。そうすると、長く安定してショップの利益を出しつつ、商売を大きくすることが可能だ…JP0D"
+    }
+  },
   "Primogem": {
     "name": "原石",
     "description": {
@@ -1076,7 +1083,9 @@
   },
   "Chiori": {
     "name": "千織",
-    "description": {}
+    "description": {
+      "0": "「千織屋」店主。フォンテーヌの有名なファッションデザイナー。JP0B"
+    }
   },
   "KamisatoAyakasStellaFortuna": {
     "name": "神里綾華の星屑",
@@ -14265,8 +14274,10 @@
     }
   },
   "FashionShow": {
-    "name": "",
-    "description": {}
+    "name": "「ファッションショー」JP0D",
+    "description": {
+      "0": "千織のオリジナル料理。よく見かける鯛焼きも、彼女の器用な指先にかかればあっという間に大変身。様々な衣によって包まれた美味しい餡は、見た目良し味良しという二つの楽しみをもたらしてくれる。このような腕前は、菓子職人の傑作と言っても過言ではないだろう。JP0D"
+    }
   },
   "RecipeItem": {
     "name": "レシピアイテム",
@@ -20945,88 +20956,165 @@
     }
   },
   "CultivationAreaExpansionI": {
-    "name": "",
-    "description": {}
+    "name": "栽培エリアの拡張·其の一JP0D",
+    "description": {
+      "0": "薬草の栽培エリアを1つ増やす。JP0D"
+    }
   },
   "CultivationAreaExpansionII": {
-    "name": "",
-    "description": {}
+    "name": "栽培エリアの拡張·其の二JP0D",
+    "description": {
+      "0": "薬草の栽培エリアを1つ増やす。JP0D"
+    }
   },
   "CultivationAreaExpansionIII": {
-    "name": "",
-    "description": {}
+    "name": "栽培エリアの拡張·其の三JP0D",
+    "description": {
+      "0": "薬草の栽培エリアを1つ増やす。JP0D"
+    }
   },
   "CultivationAreaExpansionIV": {
-    "name": "",
-    "description": {}
+    "name": "栽培エリアの拡張·其の四JP0D",
+    "description": {
+      "0": "薬草の栽培エリアを1つ増やす。JP0D"
+    }
   },
   "CultivationAreaExpansionV": {
-    "name": "",
-    "description": {}
+    "name": "栽培エリアの拡張·其の五JP0D",
+    "description": {
+      "0": "薬草の栽培エリアを1つ増やす。JP0D"
+    }
   },
   "CultivationAreaExpansionVI": {
-    "name": "",
-    "description": {}
+    "name": "栽培エリアの拡張·其の六JP0D",
+    "description": {
+      "0": "薬草の栽培エリアを1つ増やす。JP0D"
+    }
   },
   "ImprovedAlchemyCauldronI": {
-    "name": "",
-    "description": {}
+    "name": "錬金釜の改良·其の一JP0D",
+    "description": {
+      "0": "錬金釜の性能を改良し、薬剤錬成時に薬草を置けるエリアを拡張する。JP0D"
+    }
   },
   "ImprovedAlchemyCauldronII": {
-    "name": "",
-    "description": {}
+    "name": "錬金釜の改良·其の二JP0D",
+    "description": {
+      "0": "錬金釜の性能を改良し、薬剤錬成時に薬草を置けるエリアを拡張する。JP0D"
+    }
   },
   "ImprovedAlchemyCauldronIII": {
-    "name": "",
-    "description": {}
+    "name": "錬金釜の改良·其の三JP0D",
+    "description": {
+      "0": "錬金釜の性能を改良し、薬剤錬成時に薬草を置けるエリアを拡張する。JP0D"
+    }
   },
   "ImprovedAlchemyCauldronIV": {
-    "name": "",
-    "description": {}
+    "name": "錬金釜の改良·其の四JP0D",
+    "description": {
+      "0": "錬金釜の性能を改良し、薬剤錬成時に薬草を置けるエリアを拡張する。JP0D"
+    }
   },
   "AngledDropBottle": {
     "name": "雫型の角瓶JP0G",
-    "description": {}
+    "description": {
+      "0": "角ばったポーションボトルは、まるで四角い枠に嵌った水滴のようだ。その通り、貴重な錬金薬剤を一滴たりとも無駄にしてはならないない…",
+      "1": "薬剤の品質を少しアップできる。全ての特殊なボトルが提供する強化効果は同じ。JP0B"
+    }
   },
   "HeartstoppingHeartBottle": {
     "name": "キュンキュンハート瓶JP0G",
-    "description": {}
+    "description": {
+      "0": "脚の部分が長いポーションボトル。ハート型のデザインで、どんな色の薬を入れても、お客さんの目を楽しませてくれるだろう…",
+      "1": "薬剤の品質を少しアップできる。全ての特殊なボトルが提供する強化効果は同じ。JP0B"
+    }
   },
   "TranquilBayBottle": {
     "name": "のどかなベイサイド瓶JP0G",
-    "description": {}
+    "description": {
+      "0": "ユニークなデザインのポーションボトル。首の長いその形は、デザイナーによって「のどかなベイサイド」に例えられているそうだ…",
+      "1": "薬剤の品質を少しアップできる。全ての特殊なボトルが提供する強化効果は同じ。JP0B"
+    }
   },
   "GorgeousGemBottle": {
     "name": "華麗な宝石瓶JP0G",
-    "description": {}
+    "description": {
+      "0": "口が細く、本体の幅が広いポーションボトル。多くの直線を交錯させて成したその外観は、大きな宝石を彷彿とさせ、華麗な雰囲気を感じさせる…",
+      "1": "薬剤の品質を少しアップできる。全ての特殊なボトルが提供する強化効果は同じ。JP0B"
+    }
   },
   "ChonkyCatBottle": {
-    "name": "",
-    "description": {}
+    "name": "ぽちゃぽちゃにゃん瓶JP0G",
+    "description": {
+      "0": "なだらかな弧線を描くポーションボトル。ぽっちゃりとした猫の頭の形をしており、可愛いものが好きなお客さんの注意を惹くのに十分だろう…",
+      "1": "薬剤の品質を少しアップできる。全ての特殊なボトルが提供する強化効果は同じ。JP0B"
+    }
   },
   "WindwheelAstersAroma": {
     "name": "風車アスターの香りJP0G",
-    "description": {}
+    "description": {
+      "0": "風車アスターと緑色の葉を組み合わせて作られたボトルの飾り。まるで暖かな風がポーションを包み込んでくれるようだ…JP0B"
+    }
   },
   "ResplendentAsACrystalfly": {
     "name": "晶蝶の輝きJP0G",
-    "description": {}
+    "description": {
+      "0": "晶蝶の形をしたボトルの飾り。とても目立つため、瞬時に客の注意を引くこともある…JP0B"
+    }
   },
   "PerfectGiftRibbon": {
     "name": "完璧なプレゼントのリボンJP0G",
-    "description": {}
+    "description": {
+      "0": "蝶のリボンの形をしたボトルの飾り。ポーションにギフトボックスのサプライズ感を与えられるようだ…JP0B"
+    }
   },
   "RaspberryRedFlyingFlowerFeather": {
-    "name": "",
-    "description": {}
+    "name": "ヴァルベリーの赤のそよぐ羽JP0G",
+    "description": {
+      "0": "バラ色の装飾が施された、羽根の形をしたボトルの飾り。客と使用者を鳥のイメージに連想させるらしい…JP0B"
+    }
   },
   "GoldGildAndEmerald": {
-    "name": "",
-    "description": {}
+    "name": "鍍金とサファイアJP0G",
+    "description": {
+      "0": "金色のフレームと青色の宝石の形をしたボトルの飾り。「宝石」はガラスで作られ、美しさとコストを兼ね備えている…JP0B"
+    }
+  },
+  "ShopDecorationBloomingMorale": {
+    "name": "ショップ装飾品-「士気の花々」JP0B",
+    "description": {
+      "0": "騎士団の錬金ショップ専用の特別な装飾。二段の花壇が美しく見える。ある調査小隊の隊員が寄付した「士気を高めるもの」らしい。JP0B"
+    }
+  },
+  "ShopDecorationBloomingAtmosphere": {
+    "name": "ショップ装飾品-「雰囲気の花々」JP0B",
+    "description": {
+      "0": "騎士団の錬金ショップ専用の特別な装飾。青と米色の花が植えられている。ある後方支援部隊の隊員が作った「雰囲気作り」らしい。JP0B"
+    }
+  },
+  "ShopDecorationPotentPotions": {
+    "name": "ショップ装飾品-「効能のある薬剤」JP0B",
+    "description": {
+      "0": "騎士団の錬金ショップ専用の特別な装飾。ショップの棚に飾ることができる。描かれた薬剤は、大衆が印象に残るクラシックな形をしている…JP0B"
+    }
+  },
+  "ShopDecorationPortentousPotions": {
+    "name": "ショップ装飾品-「不思議な薬剤」JP0B",
+    "description": {
+      "0": "騎士団の錬金ショップ専用の特別な装飾。モンド城の各地で錬金ショップを宣伝するために使う広告板でもある。描かれた薬剤は、大衆が印象に残るクラシックな形をしている…JP0B"
+    }
+  },
+  "ShopDecorationPrismaticEffects": {
+    "name": "ショップ装飾品-「プリズム効果」JP0B",
+    "description": {
+      "0": "騎士団の錬金ショップ専用の特別な装飾。色とりどりの小さな旗がぶら下げられている。また、「プリズム」効果は販売されている不思議な錬金薬の各種効果を象徴していると言われている…JP0B"
+    }
   },
   "SalesExpansionContract": {
-    "name": "",
-    "description": {}
+    "name": "代理店契約書JP0D",
+    "description": {
+      "0": "代理店のスタッフを追加で1名雇う。JP0D"
+    }
   },
   "XuanlianSacredWater": {
     "name": "「懸練の仙水」",
@@ -21071,8 +21159,16 @@
     }
   },
   "CultivationAreaExpansionVII": {
-    "name": "",
-    "description": {}
+    "name": "栽培エリアの拡張·其の七JP0D",
+    "description": {
+      "0": "薬草の栽培エリアを1つ増やす。JP0D"
+    }
+  },
+  "Alchemeter": {
+    "name": "材料研究装置JP0B",
+    "description": {
+      "0": "騎士団特製の材料研究装置。錬金ショップで使われる材料を入れることができる。材料の特性を分析し、対応する分の「材料Lv.」を上げることで、薬の材料を使う時の効果を向上させることができる…JP0B"
+    }
   },
   "TearsAmongTheStars": {
     "name": "星間の涙",
@@ -22632,6 +22728,14 @@
       "0": "「スーパーアルティメット覇王魔剣」専用の精錬アイテム。",
       "1": "数多の願い（および素敵なダンボール）をしっかりくっつけ、比類なき神秘的な力を生み出している。",
       "2": "ダーモヴィル雑貨店でも似たような、あるいはそっくりな形のものを購入できるが、両者の間には本質的な違いがあるかもしれない。そのため、くれぐれも混同しないように。"
+    }
+  },
+  "ExaltedEarth": {
+    "name": "「大地の王」",
+    "description": {
+      "0": "「砂中の賢者達の問答」専用の精錬アイテム。",
+      "1": "錬金術の基礎教則では、水銀は金さえ貪欲に飲み込むことができるため、「大地の王」とも呼ばれる。そのため、錬金術は水銀を金属の代名詞としている。",
+      "2": "乾燥して粉塵になった後も変転の性質を持っている。JP0B"
     }
   },
   "FalconsDance": {
@@ -24256,6 +24360,13 @@
     "description": {
       "0": "名刺の飾り紋。",
       "1": "私たちはある旋律の中でしばし別れ、また別の旋律の中で再び出会う。"
+    }
+  },
+  "TravelNotesArcaneAmassing": {
+    "name": "紀行·魔萃JP0B",
+    "description": {
+      "0": "名刺の飾り紋。",
+      "1": "錬金術は物質の相互転換を研究する学問だが、錬金術で作られた薬剤は質量がいつも少し減る。恐らく減った部分が皆の愉快な気分に変わったかもしれない。JP0B"
     }
   },
   "AnemoculusResonanceStone": {
@@ -26819,14 +26930,14 @@
       "0": "「七聖召喚」というボードゲームのカード。丈夫に作られており、カードスキンの挿絵はどんな特殊な方法で印刷されているのかは知らないが、とても精巧なものだ。"
     }
   },
-  "SiegeOfDecarabian": {
-    "name": "",
+  "DayOfResistanceMomentOfShatteredDreams": {
+    "name": "抗争の日·夢砕ける時JP0D",
     "description": {
       "0": "「七聖召喚」というボードゲームのカード。丈夫に作られており、カードスキンの挿絵はどんな特殊な方法で印刷されているのかは知らないが、とても精巧なものだ。"
     }
   },
-  "ResearchInstituteExplosion": {
-    "name": "科学院の爆発JP0B",
+  "ControlledDirectionalBlast": {
+    "name": "制御可能な無害化型の指向性爆破JP0D",
     "description": {
       "0": "「七聖召喚」というボードゲームのカード。丈夫に作られており、カードスキンの挿絵はどんな特殊な方法で印刷されているのかは知らないが、とても精巧なものだ。"
     }
@@ -26911,6 +27022,12 @@
   },
   "TheChasmSolidIron": {
     "name": "層岩巨淵·堅鉄",
+    "description": {
+      "0": "「七聖召喚」で獲得でき、切り替えられるカードの裏面。それぞれ異なるカードの裏面は、素材や手触りも微妙に違っているらしい。様々なカードの裏面を集めることを目標や趣味にしているプレイヤーもいる。"
+    }
+  },
+  "TheChasmBlueCrystal": {
+    "name": "層岩巨淵·藍晶",
     "description": {
       "0": "「七聖召喚」で獲得でき、切り替えられるカードの裏面。それぞれ異なるカードの裏面は、素材や手触りも微妙に違っているらしい。様々なカードの裏面を集めることを目標や趣味にしているプレイヤーもいる。"
     }
@@ -28661,6 +28778,14 @@
       "1": "使用後、製作画面で確認することができる。"
     }
   },
+  "TeahouseLongTableToolsOfNostalgia": {
+    "name": "茶房の長机-「簡素な思い出」JP0H",
+    "description": {}
+  },
+  "TeahouseToolQualiteaReview": {
+    "name": "",
+    "description": {}
+  },
   "BreezeBlessedBed": {
     "name": "そよ風に守られたベッド",
     "description": {
@@ -28765,6 +28890,14 @@
       "0": "「『楽しきエチュード』」の詳しい作り方が載っている設計図。",
       "1": "使用後、製作画面で確認することができる。"
     }
+  },
+  "TeahouseStoveACapitalCook": {
+    "name": "",
+    "description": {}
+  },
+  "TeahouseStoveSlowSteaming": {
+    "name": "",
+    "description": {}
   },
   "SoftLoungeSofa": {
     "name": "柔らかいラウンジソファ",
@@ -28919,6 +29052,10 @@
       "0": "「『中央部の長閑なひととき』」の詳しい作り方が載っている設計図。",
       "1": "使用後、製作画面で確認することができる。"
     }
+  },
+  "TeahouseBenchSimpleSeating": {
+    "name": "",
+    "description": {}
   },
   "NorthernStoneHearth": {
     "name": "北地の石造暖炉",
@@ -29290,6 +29427,18 @@
       "0": "「スタンダードな譜面台-『正確な調律』」の詳しい作り方が載っている設計図。",
       "1": "使用後、製作画面で確認することができる。"
     }
+  },
+  "FreshBudsFromMountainsAndWaters": {
+    "name": "",
+    "description": {}
+  },
+  "TeahouseToolDryStorage": {
+    "name": "",
+    "description": {}
+  },
+  "TeahouseToolClearView": {
+    "name": "",
+    "description": {}
   },
   "MondstadtRugCrimsonArdor": {
     "name": "モンドカーペット-「赤い熱意」",
@@ -29837,6 +29986,14 @@
       "1": "使用後、製作画面で確認することができる。"
     }
   },
+  "TeahouseToolMinisculeMissesMakeAMile": {
+    "name": "",
+    "description": {}
+  },
+  "MellowTeaInARedClayPot": {
+    "name": "",
+    "description": {}
+  },
   "RealizationsFromTheLandOfWisdom": {
     "name": "「卓識の地の明察」",
     "description": {
@@ -30284,6 +30441,14 @@
       "0": "「谷の住宅-『寸尺の楼』」の詳しい作り方が載っている設計図。",
       "1": "使用後、製作画面で確認することができる。"
     }
+  },
+  "ValleyResidenceItsClassified": {
+    "name": "",
+    "description": {}
+  },
+  "PortsFabulousFlavors": {
+    "name": "",
+    "description": {}
   },
   "MultiArchedMondstadtBuilding": {
     "name": "アーチ門を複数持つモンド建築",
@@ -33400,6 +33565,26 @@
       "1": "使用後、製作画面で確認することができる。"
     }
   },
+  "TeaHarvestsStockpilingAndTransport": {
+    "name": "",
+    "description": {}
+  },
+  "TeaHarvestsFisheryInspiration": {
+    "name": "",
+    "description": {}
+  },
+  "TeaHarvestsMultitool": {
+    "name": "",
+    "description": {}
+  },
+  "TeaHarvestsFormulaForFragrance": {
+    "name": "",
+    "description": {}
+  },
+  "TeaHarvestsSunDriedFragrance": {
+    "name": "",
+    "description": {}
+  },
   "WeatheredBambooFence": {
     "name": "長い年月を経た竹の柵",
     "description": {
@@ -33568,6 +33753,10 @@
       "1": "使用後、製作画面で確認することができる。"
     }
   },
+  "TeaVillageStoneBenchSafeSpaciousSturdy": {
+    "name": "",
+    "description": {}
+  },
   "TwoStoryHilichurlSentryTower": {
     "name": "ヒルチャールの二階建て監視塔",
     "description": {
@@ -33707,6 +33896,10 @@
       "0": "「番茶香る卓-『四方迎客』」の詳しい作り方が載っている設計図。",
       "1": "使用後、製作画面で確認することができる。"
     }
+  },
+  "TeaVillageStoneTableCulturedLeisure": {
+    "name": "",
+    "description": {}
   },
   "WineShopDisplayCounterToYourHeartsContent": {
     "name": "酒屋の商品棚-「百杯飲み」",

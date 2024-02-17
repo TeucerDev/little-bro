@@ -411,6 +411,10 @@
       "1": "Échangez-les pendant l'événement « Roses et mousquets » pour obtenir des objets de valeur."
     }
   },
+  "Funds": {
+    "name": "Budget",
+    "description": {}
+  },
   "Primogem": {
     "name": "Primo-gemme",
     "description": {
@@ -1076,7 +1080,9 @@
   },
   "Chiori": {
     "name": "Chiori",
-    "description": {}
+    "description": {
+      "0": "La propriétaire de la Boutique Chioriya et une tailleuse réputée dans tout Fontaine."
+    }
   },
   "KamisatoAyakasStellaFortuna": {
     "name": "Stella Fortuna de Kamisato Ayaka.",
@@ -20868,13 +20874,13 @@
   "PerinheriI": {
     "name": "Perinheri (1)",
     "description": {
-      "0": "???"
+      "0": "？？？"
     }
   },
   "PerinheriII": {
     "name": "Perinheri (2)",
     "description": {
-      "0": "???"
+      "0": "？？？"
     }
   },
   "HelpMePlease": {
@@ -20914,88 +20920,155 @@
     }
   },
   "CultivationAreaExpansionI": {
-    "name": "",
-    "description": {}
+    "name": "Expansion de zone de culture I",
+    "description": {
+      "0": "Ajoute une zone pour cultiver des ingrédients."
+    }
   },
   "CultivationAreaExpansionII": {
-    "name": "",
-    "description": {}
+    "name": "Expansion de zone de culture II",
+    "description": {
+      "0": "Ajoute une zone pour cultiver des ingrédients."
+    }
   },
   "CultivationAreaExpansionIII": {
-    "name": "",
-    "description": {}
+    "name": "Expansion de zone de culture III",
+    "description": {
+      "0": "Ajoute une zone pour cultiver des ingrédients."
+    }
   },
   "CultivationAreaExpansionIV": {
-    "name": "",
-    "description": {}
+    "name": "Expansion de zone de culture IV",
+    "description": {
+      "0": "Ajoute une zone pour cultiver des ingrédients."
+    }
   },
   "CultivationAreaExpansionV": {
-    "name": "",
-    "description": {}
+    "name": "Expansion de zone de culture V",
+    "description": {
+      "0": "Ajoute une zone pour cultiver des ingrédients."
+    }
   },
   "CultivationAreaExpansionVI": {
-    "name": "",
-    "description": {}
+    "name": "Expansion de zone de culture VI",
+    "description": {
+      "0": "Ajoute une zone pour cultiver des ingrédients."
+    }
   },
   "ImprovedAlchemyCauldronI": {
-    "name": "",
-    "description": {}
+    "name": "Chaudron alchimique amélioré I",
+    "description": {
+      "0": "Améliore les performances du chaudron alchimique en agrandissant la zone dans laquelle les ingrédients peuvent être placés lors de la concoction des potions."
+    }
   },
   "ImprovedAlchemyCauldronII": {
-    "name": "",
-    "description": {}
+    "name": "Chaudron alchimique amélioré II",
+    "description": {
+      "0": "Améliore les performances du chaudron alchimique en agrandissant la zone dans laquelle les ingrédients peuvent être placés lors de la concoction des potions."
+    }
   },
   "ImprovedAlchemyCauldronIII": {
-    "name": "",
-    "description": {}
+    "name": "Chaudron alchimique amélioré III",
+    "description": {
+      "0": "Améliore les performances du chaudron alchimique en agrandissant la zone dans laquelle les ingrédients peuvent être placés lors de la concoction des potions."
+    }
   },
   "ImprovedAlchemyCauldronIV": {
-    "name": "",
-    "description": {}
+    "name": "Chaudron alchimique amélioré IV",
+    "description": {
+      "0": "Améliore les performances du chaudron alchimique en agrandissant la zone dans laquelle les ingrédients peuvent être placés lors de la concoction des potions."
+    }
   },
   "AngledDropBottle": {
-    "name": "",
-    "description": {}
+    "name": "Bouteille de goutte angulaire",
+    "description": {
+      "0": "Un flacon de potion aux angles très distinctifs, comme une goutte d'eau carrée. Quand on parle de précieuses potions alchimiques, aucune goutte ne peut être gaspillée...",
+      "1": "Il peut légèrement améliorer la qualité d'une potion, tous les flacons spéciaux accordant le même bonus."
+    }
   },
   "HeartstoppingHeartBottle": {
-    "name": "",
-    "description": {}
+    "name": "Bouteille de cœur époustouflant",
+    "description": {
+      "0": "Un flacon de potion avec un pied haut en forme de cœur. On dit que les clients le trouveront esthétiquement attrayante, quelle que soit la couleur de la potion qu'il contient...",
+      "1": "Il peut légèrement améliorer la qualité d'une potion, tous les flacons spéciaux accordant le même bonus."
+    }
   },
   "TranquilBayBottle": {
-    "name": "",
-    "description": {}
+    "name": "Bouteille de baie tranquille",
+    "description": {
+      "0": "Un flacon de potion intelligemment conçu avec un design unique à long goulot. On dit que son concepteur l'a comparé à une « baie tranquille »...",
+      "1": "Il peut légèrement améliorer la qualité d'une potion, tous les flacons spéciaux accordant le même bonus."
+    }
   },
   "GorgeousGemBottle": {
-    "name": "",
-    "description": {}
+    "name": "Bouteille de gemme merveilleuse",
+    "description": {
+      "0": "Un flacon de potion avec un goulot étroit et un corps large. L'entrelacement d'une multitude de lignes droites lui donne l'apparence d'une grosse pierre précieuse, ce qui lui confère un aspect extra-luxueux aux yeux des clients...",
+      "1": "Il peut légèrement améliorer la qualité d'une potion, tous les flacons spéciaux accordant le même bonus."
+    }
   },
   "ChonkyCatBottle": {
-    "name": "",
-    "description": {}
+    "name": "Bouteille de chat joufflu",
+    "description": {
+      "0": "Un flacon de potion au design rond et courbé, comme une tête de gros félin. Les clients attentifs à l'aspect mignon des choses seront facilement attirés par ces flacons...",
+      "1": "Il peut légèrement améliorer la qualité d'une potion, tous les flacons spéciaux accordant le même bonus."
+    }
   },
   "WindwheelAstersAroma": {
-    "name": "",
-    "description": {}
+    "name": "Arôme de chrysanthème à aubes",
+    "description": {
+      "0": "Une décoration de flacon réalisée en combinant un chrysanthème à aubes et des feuilles vert émeraude. Elle semble être capable d'envelopper la potion d'une douce brise..."
+    }
   },
   "ResplendentAsACrystalfly": {
-    "name": "",
-    "description": {}
+    "name": "Brillance de papillon cristallin",
+    "description": {
+      "0": "Une décoration de flacon particulièrement accrocheuse en forme de papillon cristallin. Elle peut parfois attirer l'attention des clients en un instant..."
+    }
   },
   "PerfectGiftRibbon": {
-    "name": "",
-    "description": {}
+    "name": "Ruban de cadeau parfait",
+    "description": {
+      "0": "Une décoration de flacon en forme de ruban en nœud. Elle semble donner aux potions une sensation semblable à celle d'un cadeau, regorgeant de promesses d'agréables surprises..."
+    }
   },
   "RaspberryRedFlyingFlowerFeather": {
-    "name": "",
-    "description": {}
+    "name": "Plume de fleur de baie",
+    "description": {
+      "0": "Une décoration de flacon en forme de plume, aux accents rouge baie. Les clients l'associent facilement à l'image d'oiseaux en vol..."
+    }
   },
   "GoldGildAndEmerald": {
-    "name": "",
+    "name": "Or et émeraude",
+    "description": {
+      "0": "Une décoration de flacon avec un cadre doré et l'apparence d'une émeraude. La « pierre précieuse » est faite de verre et équilibre donc esthétisme et coût…"
+    }
+  },
+  "ShopDecorationBloomingMorale": {
+    "name": "Décoration de boutique : Moral fleurissant",
+    "description": {}
+  },
+  "ShopDecorationBloomingAtmosphere": {
+    "name": "Décoration de boutique : Ambiance florissante",
+    "description": {}
+  },
+  "ShopDecorationPotentPotions": {
+    "name": "Décoration de boutique : Potion puissante",
+    "description": {}
+  },
+  "ShopDecorationPortentousPotions": {
+    "name": "Décoration de boutique : Potion merveilleuse",
+    "description": {}
+  },
+  "ShopDecorationPrismaticEffects": {
+    "name": "Décoration de boutique : Effet coloré",
     "description": {}
   },
   "SalesExpansionContract": {
-    "name": "",
-    "description": {}
+    "name": "Contrat d'expansion mercantile",
+    "description": {
+      "0": "Engage un revendeur supplémentaire."
+    }
   },
   "XuanlianSacredWater": {
     "name": "Eau sacrée de Xuanlian",
@@ -21040,7 +21113,13 @@
     }
   },
   "CultivationAreaExpansionVII": {
-    "name": "",
+    "name": "Expansion de zone de culture VII",
+    "description": {
+      "0": "Ajoute une zone pour cultiver des ingrédients."
+    }
+  },
+  "Alchemeter": {
+    "name": "Alchimètre",
     "description": {}
   },
   "TearsAmongTheStars": {
@@ -22603,6 +22682,10 @@
       "1": "Il permet d'exaucer et de combiner de nombreux vœux (et de grandes découpes en carton). C'est ainsi qu'est créé un super-méga pouvoir mystérieux.",
       "2": "Bien qu'il existe des objets similaires (ou identiques) en vente à la Galerie Damoville, il y a (sans doute) une différence qualitative entre les deux. Alors ne vous y trompez pas."
     }
+  },
+  "ExaltedEarth": {
+    "name": "Terre suprême",
+    "description": {}
   },
   "FalconsDance": {
     "name": "Danse du faucon",
@@ -24226,6 +24309,10 @@
       "0": "Thème.",
       "1": "Nos chemins se sont séparés sur une mélodie et se sont réunis sur une autre."
     }
+  },
+  "TravelNotesArcaneAmassing": {
+    "name": "PB - Cumul arcanique",
+    "description": {}
   },
   "AnemoculusResonanceStone": {
     "name": "Pierre de résonance Anémoculus",
@@ -26785,14 +26872,14 @@
       "0": "Une carte pour le jeu de table, l'Invocation des Sept. Elle est résistante et une méthode d'impression spéciale a été utilisée pour son illustration, ce qui lui donne une apparence vraiment exquise."
     }
   },
-  "SiegeOfDecarabian": {
-    "name": "Siège de Décabarian",
+  "DayOfResistanceMomentOfShatteredDreams": {
+    "name": "Jour de la résistance : Rêves brisés",
     "description": {
       "0": "Une carte pour le jeu de table, l'Invocation des Sept. Elle est résistante et une méthode d'impression spéciale a été utilisée pour son illustration, ce qui lui donne une apparence vraiment exquise."
     }
   },
-  "ResearchInstituteExplosion": {
-    "name": "Explosion de l'Institut de recherche",
+  "ControlledDirectionalBlast": {
+    "name": "Choc dirigé d'élimination à danger contrôlé",
     "description": {
       "0": "Une carte pour le jeu de table, l'Invocation des Sept. Elle est résistante et une méthode d'impression spéciale a été utilisée pour son illustration, ce qui lui donne une apparence vraiment exquise."
     }
@@ -26877,6 +26964,12 @@
   },
   "TheChasmSolidIron": {
     "name": "Gouffre : Fer solide",
+    "description": {
+      "0": "Un dos de carte d'Invocation des Sept que vous pouvez obtenir et changer. On dit que les dos de cartes avec des motifs différents ont également des différences minimes de fabrication et de texture. Certains joueurs font même de la collection de dos de cartes de différents styles leur mission et leur passe-temps..."
+    }
+  },
+  "TheChasmBlueCrystal": {
+    "name": "Gouffre : Cristal bleu",
     "description": {
       "0": "Un dos de carte d'Invocation des Sept que vous pouvez obtenir et changer. On dit que les dos de cartes avec des motifs différents ont également des différences minimes de fabrication et de texture. Certains joueurs font même de la collection de dos de cartes de différents styles leur mission et leur passe-temps..."
     }
@@ -28625,6 +28718,20 @@
       "1": "Après utilisation, ce plan sera disponible dans l'interface de fabrication des décorations."
     }
   },
+  "TeahouseLongTableToolsOfNostalgia": {
+    "name": "Table longue de salon de thé « Souvenirs simples »",
+    "description": {
+      "0": "Étapes de fabrication de la table longue de salon de thé « Souvenirs simples ».",
+      "1": "Après utilisation, ce plan sera disponible dans l'interface de fabrication des décorations."
+    }
+  },
+  "TeahouseToolQualiteaReview": {
+    "name": "Instrument de salon de thé « Test de qualité »",
+    "description": {
+      "0": "Étapes de fabrication de l'instrument de salon de thé « Test de qualité ».",
+      "1": "Après utilisation, ce plan sera disponible dans l'interface de fabrication des décorations."
+    }
+  },
   "BreezeBlessedBed": {
     "name": "Lit « Douce brise »",
     "description": {
@@ -28727,6 +28834,20 @@
     "name": "« Célébration d'une prestation ponctuelle »",
     "description": {
       "0": "Étapes de fabrication de la « Célébration d'une prestation ponctuelle ».",
+      "1": "Après utilisation, ce plan sera disponible dans l'interface de fabrication des décorations."
+    }
+  },
+  "TeahouseStoveACapitalCook": {
+    "name": "Four de salon de thé « Feu merveilleux »",
+    "description": {
+      "0": "Étapes de fabrication du four de salon de thé « Feu merveilleux ».",
+      "1": "Après utilisation, ce plan sera disponible dans l'interface de fabrication des décorations."
+    }
+  },
+  "TeahouseStoveSlowSteaming": {
+    "name": "Four de salon de thé « Vapeur lente »",
+    "description": {
+      "0": "Étapes de fabrication du four de salon de thé « Vapeur lente ».",
       "1": "Après utilisation, ce plan sera disponible dans l'interface de fabrication des décorations."
     }
   },
@@ -28881,6 +29002,13 @@
     "name": "Sérénité de la station centrale",
     "description": {
       "0": "Étapes de fabrication de la sérénité de la station centrale.",
+      "1": "Après utilisation, ce plan sera disponible dans l'interface de fabrication des décorations."
+    }
+  },
+  "TeahouseBenchSimpleSeating": {
+    "name": "Banc de salon de thé « Assise simple »",
+    "description": {
+      "0": "Étapes de fabrication du banc de salon de thé « Assise simple ».",
       "1": "Après utilisation, ce plan sera disponible dans l'interface de fabrication des décorations."
     }
   },
@@ -29252,6 +29380,27 @@
     "name": "Pupitre standard « Accordage précis »",
     "description": {
       "0": "Étapes de fabrication du pupitre standard « Accordage précis ».",
+      "1": "Après utilisation, ce plan sera disponible dans l'interface de fabrication des décorations."
+    }
+  },
+  "FreshBudsFromMountainsAndWaters": {
+    "name": "« Bourgeons des montagnes et eaux »",
+    "description": {
+      "0": "Étapes de fabrication des « Bourgeons des montagnes et eaux ».",
+      "1": "Après utilisation, ce plan sera disponible dans l'interface de fabrication des décorations."
+    }
+  },
+  "TeahouseToolDryStorage": {
+    "name": "Instrument de salon de thé « Conservation à sec »",
+    "description": {
+      "0": "Étapes de fabrication de l'instrument de salon de thé « Conservation à sec ».",
+      "1": "Après utilisation, ce plan sera disponible dans l'interface de fabrication des décorations."
+    }
+  },
+  "TeahouseToolClearView": {
+    "name": "Instrument de salon de thé « Visuel de clarté »",
+    "description": {
+      "0": "Étapes de fabrication de l'instrument de salon de thé « Visuel de clarté ».",
       "1": "Après utilisation, ce plan sera disponible dans l'interface de fabrication des décorations."
     }
   },
@@ -29801,6 +29950,20 @@
       "1": "Après utilisation, ce plan sera disponible dans l'interface de fabrication des décorations."
     }
   },
+  "TeahouseToolMinisculeMissesMakeAMile": {
+    "name": "Instrument de salon de thé « Pesage de précision »",
+    "description": {
+      "0": "Étapes de fabrication de l'instrument de salon de thé « Pesage de précision ».",
+      "1": "Après utilisation, ce plan sera disponible dans l'interface de fabrication des décorations."
+    }
+  },
+  "MellowTeaInARedClayPot": {
+    "name": "« Thé dans un pot d'argile rouge »",
+    "description": {
+      "0": "Étapes de fabrication du « Thé dans un pot d'argile rouge ».",
+      "1": "Après utilisation, ce plan sera disponible dans l'interface de fabrication des décorations."
+    }
+  },
   "RealizationsFromTheLandOfWisdom": {
     "name": "« Réalisation du pays de la sagesse »",
     "description": {
@@ -30246,6 +30409,20 @@
     "name": "Résidence du vallon « Bâtiment mesuré »",
     "description": {
       "0": "Étapes de fabrication de la résidence du vallon « Bâtiment mesuré ».",
+      "1": "Après utilisation, ce plan sera disponible dans l'interface de fabrication des décorations."
+    }
+  },
+  "ValleyResidenceItsClassified": {
+    "name": "Résidence du vallon « Classification »",
+    "description": {
+      "0": "Étapes de fabrication de la résidence du vallon « Classification ».",
+      "1": "Après utilisation, ce plan sera disponible dans l'interface de fabrication des décorations."
+    }
+  },
+  "PortsFabulousFlavors": {
+    "name": "« Fumets fabuleux du port »",
+    "description": {
+      "0": "Étapes de fabrication des « Fumets fabuleux du port ».",
       "1": "Après utilisation, ce plan sera disponible dans l'interface de fabrication des décorations."
     }
   },
@@ -33364,6 +33541,41 @@
       "1": "Après utilisation, ce plan sera disponible dans l'interface de fabrication des décorations."
     }
   },
+  "TeaHarvestsStockpilingAndTransport": {
+    "name": "« Transport et stockage des récoltes »",
+    "description": {
+      "0": "Étapes de fabrication du « Transport et stockage des récoltes ».",
+      "1": "Après utilisation, ce plan sera disponible dans l'interface de fabrication des décorations."
+    }
+  },
+  "TeaHarvestsFisheryInspiration": {
+    "name": "« Récolte inspirée par la pêche »",
+    "description": {
+      "0": "Étapes de fabrication de la « Récolte inspirée par la pêche ».",
+      "1": "Après utilisation, ce plan sera disponible dans l'interface de fabrication des décorations."
+    }
+  },
+  "TeaHarvestsMultitool": {
+    "name": "« Outil multifonction des récoltes »",
+    "description": {
+      "0": "Étapes de fabrication de l'« Outil multifonction des récoltes ».",
+      "1": "Après utilisation, ce plan sera disponible dans l'interface de fabrication des décorations."
+    }
+  },
+  "TeaHarvestsFormulaForFragrance": {
+    "name": "« Raffinage olfactif des récoltes »",
+    "description": {
+      "0": "Étapes de fabrication du « Raffinage olfactif des récoltes ».",
+      "1": "Après utilisation, ce plan sera disponible dans l'interface de fabrication des décorations."
+    }
+  },
+  "TeaHarvestsSunDriedFragrance": {
+    "name": "« Dessiccation solaire des récoltes »",
+    "description": {
+      "0": "Étapes de fabrication de la « Dessiccation solaire des récoltes ».",
+      "1": "Après utilisation, ce plan sera disponible dans l'interface de fabrication des décorations."
+    }
+  },
   "WeatheredBambooFence": {
     "name": "Clôture en bambou usagé",
     "description": {
@@ -33532,6 +33744,13 @@
       "1": "Après utilisation, ce plan sera disponible dans l'interface de fabrication des décorations."
     }
   },
+  "TeaVillageStoneBenchSafeSpaciousSturdy": {
+    "name": "Tabouret du village des thés « Confort serein »",
+    "description": {
+      "0": "Étapes de fabrication du tabouret du village des thés « Confort serein ».",
+      "1": "Après utilisation, ce plan sera disponible dans l'interface de fabrication des décorations."
+    }
+  },
   "TwoStoryHilichurlSentryTower": {
     "name": "Tour de sentinelle Brutocollinus",
     "description": {
@@ -33669,6 +33888,13 @@
     "name": "Table à thé carrée « Accueil convivial »",
     "description": {
       "0": "Étapes de fabrication de la table à thé carrée « Accueil convivial ».",
+      "1": "Après utilisation, ce plan sera disponible dans l'interface de fabrication des décorations."
+    }
+  },
+  "TeaVillageStoneTableCulturedLeisure": {
+    "name": "Table du village des thés « Délice décontracté »",
+    "description": {
+      "0": "Étapes de fabrication de la table du village des thés « Délice décontracté ».",
       "1": "Après utilisation, ce plan sera disponible dans l'interface de fabrication des décorations."
     }
   },

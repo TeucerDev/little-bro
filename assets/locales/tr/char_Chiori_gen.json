@@ -1,8 +1,8 @@
 {
   "name": "Chiori",
-  "title": "???",
-  "description": "",
-  "constellationName": "",
+  "title": "Gürleyen Terzi",
+  "description": "Butik Chioriya'nın sahibi. Tüm Fontaine'de tanınan bir terzi.",
+  "constellationName": "İpek Makası",
   "auto": {
     "name": "Örgü Kılıcı",
     "fields": {
@@ -41,25 +41,25 @@
   "skill": {
     "name": "Hasode Darbesi",
     "description": {
-      "0": "Chiori, ipek kadar yumuşak adımlarla dans eder gibi hızla ileri atılır. İleri atıldıktan sonra \"Kukla Canavar Makinası: Sode\"yi çağırarak yukarı doğru bir vuruş gerçekleştirip yakındaki düşmanlara Chiori'nin Saldırı ve Savunmasına göre <geo>Toprak Alan Hasarı</geo> verir.",
+      "0": "Chiori, ipek kadar yumuşak adımlarla hızla ileri atılır. İleri atıldıktan sonra kukla canavar makinası: \"Sode\"yi çağırıp kılıcıyla yukarı doğru süpürerek bir vuruş gerçekleştirir ve yakındaki düşmanlara Chiori'nin Saldırı ile Savunmasına göre <geo>Toprak Alan Hasarı</geo> verir.",
       "1": "Beceriye basılı tutmak farklı bir etki ortaya çıkmasını sağlar.",
       "2": "<br/>",
       "3": "<strong>Basılı Tut</strong>",
       "4": "Atılmanın yönünü belirlemek için Nişan Alma Moduna girer.",
       "5": "<br/>",
-      "6": "<strong>Kukla Canavar Makinası: Sode</strong>",
+      "6": "<strong>Sode</strong>",
       "7": [
-        " Belirli aralıklarla yakındaki düşmanlara saldırarak Chiori'nin Saldırı ve Savunmasına göre <geo>Toprak Alan Hasarı</geo> verir.",
-        " Aktif haldeyken yakında <geo>Toprak Yapıları</geo> bulunması halinde bu Yapının olduğu yere fazladan bir Kukla Canavar Makinası: Sode daha çağrılır. Bu şekilde fazladan yalnızca 1 adet Canavar Makinası çağrılabilir. Fazladan çağrılan bu Canavar Makinasının alanda bulunma süresi ayrı hesaplanır."
+        "Belirli aralıklarla yakındaki düşmanlara saldırarak Chiori'nin Saldırı ve Savunmasına göre <geo>Toprak Alan Hasarı</geo> verir.",
+        "Aktif haldeyken yakında <geo>Toprak Yapıları</geo> oluşturulduğunda bu Chiori'nin yanına fazladan bir Sode daha çağrılır. Bu şekilde fazladan yalnızca 1 adet Sode çağrılabilir ve süresi ayrı hesaplanır."
       ],
       "8": "<br/>",
-      "9": "<i>\"Kiraz çiçeği kırmızısı, sırma kumaştan yenlerini savurduğunda, mis gibi kokusuyla sarıasmaları sarhoş eder.\""
+      "9": "<i>\"Kiraz çiçeği kırmızısı, sırma kumaştan kollarını savurduğunda, mis gibi kokusuyla sarıasmaları sarhoş eder.\"</i>"
     },
     "skillParams": {
-      "0": "Kukla Canavar Makinası: Sode Vuruşu",
-      "1": "Kukla Canavar Makinası: Sode Süresi",
-      "2": "Kukla Canavar Makinası: Sode Saldırı Aralığı",
-      "3": "Yukarı Doğru Vuruş Hasarı",
+      "0": "Sode Hasarı",
+      "1": "Sode Süresi",
+      "2": "Sode Saldırı Aralığı",
+      "3": "Yukarı Süpürme Vuruşu Hasarı",
       "4": "BS",
       "5": "",
       "6": "",
@@ -77,7 +77,7 @@
   "burst": {
     "name": "Hiyoku: Çift Kılıç",
     "description": {
-      "0": "Chiori çift kılıçlarını kınlarından çeker düşmanlarını usta bir terzi maharetiyle biçerek Saldırı ve Savunmasına göre <geo>Toprak Alan Hasarı</geo> verir.",
+      "0": "Chiori çift kılıcını kınlarından çeker düşmanlarını usta bir terzi maharetiyle biçerek Saldırı ve Savunmasına göre <geo>Toprak Alan Hasarı</geo> verir.",
       "1": "<br/>",
       "2": "<i>\"Bir ilkede ustalaşmak, diğerlerinin de kapılarını aralamanı sağlar.\"</i>"
     },
@@ -103,21 +103,21 @@
   "passive1": {
     "name": "Terzi İşi",
     "description": {
-      "0": "<strong>Hasode Darbesi</strong> ile yapılan yukarı doğru vuruştan hemen sonra seçilen harekete göre farklı etkiler elde edilir. Örgü etkisini tetiklemek için Element Becerisine tekrar Bas. Terzilik etkisini tetiklemek içinse Normal Saldırıya tekrar Bas.",
+      "0": "<strong>Hasode Darbesi</strong> ile yapılan yukarı süpürme vuruşundan hemen sonra seçilen harekete göre farklı etkiler elde edilir. Örgü etkisini tetiklemek için Zıplamaya Bas. Terzilik etkisini tetiklemek içinse Normal Saldırıya tekrar Bas.",
       "1": "<br/>",
       "2": "<strong>Örgü</strong>",
-      "3": "Grubundaki bir sonraki karaktere geçer.",
-      "4": [
-        " Tüm grup üyelerine \"Anı Yakala\" etkisi kazandırır: Aktif grup üyeleri düşmanlara Normal Saldırı, Yüklü Saldırı veya Havadan Saldırı ile vurduğunda Kukla Canavar Makinası: Sode bir ortak saldırı gerçekleştirir. Bu saldırı düşmana Hasode Darbesinin yukarı doğru vuruşuyla verdiği Hasarın %100'ü oranında Hasar verir. Bu şekilde verilen Hasar, Element Becerisi Hasarı sayılır.",
-        " \"Anı Yakala\" 8sn sürer ve her 2 saniyede 1 Canavar Makinası ortak saldırısı yapılabilir. Her bir Örgü etkisi süresi boyunca 2 defa bu tür bir ortak saldırı gerçekleşebilir."
+      "3": [
+        "Grubundaki bir sonraki karaktere geçer.",
+        "Tüm grup üyelerine \"Anı Yakala\" etkisi kazandırır: Aktif grup üyesi düşmana Normal Saldırı, Yüklü Saldırı veya Havadan Saldırı ile vurduğunda \"Sode\" bir ortak saldırı gerçekleştirir. Bu saldırı düşmana Hasode Darbesinin yukarı süpürme vuruşuyla verdiği Hasarın %100'ü oranında <geo>Toprak Alan Hasarı</geo> verir. Bu şekilde verilen Hasar, Element Becerisi Hasarı sayılır.",
+        "\"Anı Yakala\" etkisi 8sn sürer ve her 2 saniyede, 1 \"Sode\" ortak saldırısı yapılabilir. Her bir \"Anı Yakala\" etkisi süresi boyunca 2 defa bu tür bir ortak saldırı gerçekleşebilir."
       ],
-      "5": "<br/>",
-      "6": "<strong>Terzilik</strong>",
-      "7": [
-        " Chiori 5sn boyunca <geo>Toprak Tesiri</geo> kazanır."
+      "4": "<br/>",
+      "5": "<strong>Terzilik</strong>",
+      "6": [
+        "Chiori 5sn boyunca <geo>Toprak Tesiri</geo> kazanır."
       ],
-      "8": "<br/>",
-      "9": "Eğer Chiori, Hasode Darbesini kullandıktan sonra kısa bir süre içerisinde Element Becerisine yeniden Basmazsa ya da bir Normal Saldırı gerçekleştirmezse varsayılan olarak Terzilik etkisi tetiklenir."
+      "7": "<br/>",
+      "8": "Chiori savaş alanındayken Hasode Darbesinin süpürme vuruşunu kullandıktan sonra kısa bir süre içerisinde Zıplamaya yeniden Basmazsa ya da bir Normal Saldırı gerçekleştirmezse varsayılan olarak Terzilik etkisi tetiklenir."
     }
   },
   "passive2": {
@@ -129,29 +129,26 @@
   "passive3": {
     "name": "Sırmalı Yakanın Güzel Hatları",
     "description": {
-      "0": "Herhangi bir grup üyesi varsayılan giysileri dışında bir giysi giydiğinde veya İlk Uçuş Kanatları dışında bir kanat taktığında grup üyeleri Hızlı Adım etkisi kazanır: Hareket Hızı %10 artar.",
-      "1": "Hızlı Adım etkileri birikmez."
+      "0": "Herhangi bir grup üyesi varsayılan giysileri dışında bir giysi giydiğinde veya İlk Uçuş Kanatları dışında bir kanat taktığında grup üyelerin Hızlı Adım etkisi kazanır: Hareket Hızı %10 artar.",
+      "1": "Zindanlarda, Ezici Zindanlarda veya Hiçlik Sarmalında etkili değildir. Hızlı Adım etkileri birikmez."
     }
   },
   "constellation1": {
     "name": "İpek Ustalığı İlminin Altı Yolu",
     "description": {
-      "0": "<strong>Hasode Darbesi</strong> ile çağrılan Kukla Canavar Makinası: Sode'nin Etki Alanı %50 genişler.",
-      "1": "Buna ek olarak grupta Chiori dışında Toprak elementi bir karakter olması halinde, Hasode Darbesi hareketi tamamlandığında şu etkiler tetiklenir:",
+      "0": "<strong>Hasode Darbesi</strong> ile çağrılan kukla canavar makinası \"Sode\"nin Etki Alanı %50 artar.",
+      "1": "Buna ek olarak grupta Chiori dışında bir <geo>Toprak</geo> karakteri olması halinde, Hasode Darbesi tamamlandığında şu etkiler tetiklenir:",
       "2": [
-        " Bir tane daha Kukla Canavar Makinası: Sode çağrılır. Bu yöntemle çağrılan ve Toprak Yapılarından gelen aynı anda sadece 1 tane Kukla Canavar Makinası var olabilir.",
-        " \"Son Dokunuş\" Pasif Yeteneğini tetikler. \"Son Dokunuş\" Pasif Yeteneğinin açılmış olması gerekir."
+        "Bir tane daha Sode çağrılır. Chiori'nin bu yöntemle çağırdığı veya Toprak Yapılardan gelen yalnızca 1 ek Sode aynı anda var olabilir.",
+        "\"Son Dokunuş\" Pasif Yeteneğini tetikler. \"Son Dokunuş\" Pasif Yeteneğinin açılmış olması gerekir."
       ]
     }
   },
   "constellation2": {
-    "name": "Beş Farklı Renk Boya",
+    "name": "Beş Renk Boya",
     "description": {
-      "0": "\"Terzi İşi\" Pasif Yeteneğinin iki etkisinden biri tetiklendikten sonra 8sn boyunca aktif karakterinin Normal, Yüklü veya Havadan Saldırıları düşmana vurduğunda düşmanın yakınına bir Basit Kukla Canavar Makinası: Kinu çağırır.",
-      "1": "Basit Kukla Canavar Makinası: Kinu, yakındaki düşmanlara saldırarak Kukla Canavar Makinası: Sode'nin vuruş Hasarının %170'i oranında <geo>Toprak Alan Hasarı</geo> verir. Bu şekilde verilen hasar, Element Becerisi Hasarı sayılır.",
-      "2": "Basit Kukla Canavar Makinası: Kinu, 3sn sonra ya da 1 saldırı yaptığında alandan ayrılır.",
-      "3": "Bu şekilde her 1 saniyede sadece 1 Basit Kukla Canavar Makinası çağrılabilir ve her \"Terzi İşi\" Pasif Yeteneğiyle oluşan Anı Yakala veya Terzilik etkisi başına 3 defa tetiklenebilir.",
-      "4": "\"Terzi İşi\" Pasif Yeteneğinin açılmış olması gerekir."
+      "0": "<strong>Hiyoku: Çift Kılıç</strong> becerisi kullanıldıktan sonraki 10sn boyunca her 3 saniyede bir Chiori'nin yanına daha basit bir kukla canavar makinası olan \"Kinu\" çağrılır. Kinu, yakındaki düşmanlara saldırarak Sode Hasarının %170'i kadar<geo>Toprak Alan Hasarı</geo> verir. Bu şekilde verilen Hasar, Element Becerisi Hasarı sayılır.",
+      "1": "Kinu 1 saldırı yaptıktan sonra veya 3sn geçtiğinde alandan ayrılır."
     }
   },
   "constellation3": {
@@ -164,7 +161,9 @@
   "constellation4": {
     "name": "Terzinin Üç Görgü Kuralı",
     "description": {
-      "0": "<strong>Hiyoku: Çift Kılıç</strong> kullandıktan sonra 10sn boyunca her 3 saniyede bir Chiori'nin yanına bir Basit Kukla Canavar Makinası: Kinu çağrılır."
+      "0": "\"Terzi İşi\" Pasif Yeteneğinin iki farklı takip etkisinden herhangi biri tetiklendikten sonra 8sn boyunca, mevcut aktif karakterinin Normal, Yüklü veya Havadan Saldırıları bir düşmana vurduğunda, isabet alan düşmanın yanına daha basit bir kukla canavar makinası olan \"Kinu\" çağrılır.",
+      "1": "Bu şekilde her 1 saniyede 1 Kinu çağrılabilir ve \"Terzi İşi\" Pasif Yeteneğinin Anı Yakala veya Terzilik etkileri tetiklenerek en fazla 3 Kinu çağrılabilir. Yukarıdaki etki her 15 saniyede bir defa tetiklenebilir.",
+      "2": "Önce \"Terzi İşi\" Pasif Yeteneğinin açılmış olması gerekir."
     }
   },
   "constellation5": {
@@ -177,10 +176,8 @@
   "constellation6": {
     "name": "Tek ve Esas Hedef",
     "description": {
-      "0": "\"Terzi İşi\" Pasif Yeteneğinin Terzilik etkisi tetiklendikten sonra, Chiori'nin kendi <strong>Hasode Darbesi</strong> Bekleme Süresi 14,5sn azalır ve 5sn boyunca Prizmatik Güzellik kazanır.",
-      "1": "Prizmatik Güzellik süresi boyunca Chiori'nin Normal, Yüklü ve Havadan Saldırı Hasarı, Saldırısının %50'si ve Savunmasının %180'i oranında artar.",
-      "2": "Bu etki her 15 saniyede bir tetiklenebilir ve Prizmatik Güzellik, Chiori 5 defa Normal, Yüklü veya Havadan Saldırı yaptığında ya da süre sona erdiğinde biter.",
-      "3": "\"Terzi İşi\" Pasif Yeteneğinin açılmış olması gerekir."
+      "0": "\"Terzi İşi\" Pasif Yeteneğinin bir takip etkisi tetiklendiğinde Chiori'nin kendi <strong>Hasode Darbesi</strong> becerisinin Bekleme Süresi 14,5sn azalır. \"Terzi İşi\" Pasif Yeteneğinin açılmış olması gerekir.",
+      "1": "Buna ek olarak, Chiori'nin kendi Normal Saldırılarının verdiği Hasar, Savunmasının %180'i kadar artar."
     }
   }
 }

@@ -410,6 +410,13 @@
       "1": "Puoi usarle per ottenere preziose ricompense durante l'evento Rose e moschetti."
     }
   },
+  "Funds": {
+    "name": "Fondi",
+    "description": {
+      "0": "I fondi ottenuti dalla gestione del negozio di alchimia, possono essere reinvestiti in varie questioni relative al negozio stesso. Coltivare più ingredienti, produrre pozioni e ampliare la propria attività...",
+      "1": "Un buon negoziante tiene sempre d'occhio i fondi del proprio negozio e ha sempre a disposizione una buona riserva per ogni evenienza. In questo modo, sarà in grado di mantenere un'attività redditizia e in crescita..."
+    }
+  },
   "Primogem": {
     "name": "Primogemma",
     "description": {
@@ -1075,7 +1082,9 @@
   },
   "Chiori": {
     "name": "Chiori",
-    "description": {}
+    "description": {
+      "0": "La proprietaria della Boutique Chiori. Una sarta famosa in tutta Fontaine."
+    }
   },
   "KamisatoAyakasStellaFortuna": {
     "name": "Stella Fortuna di Kamisato Ayaka",
@@ -13686,7 +13695,7 @@
   "Haggis": {
     "name": "Haggis",
     "description": {
-      "0": "Un piatto dai sapori forti e intensi. Trita le frattaglie di pecora, mescolale con i fiocchi d'avena, farcisci lo stomaco della pecora con diversi condimenti e spezie e per formare una sacca. Quando servi questo piatto, la sacca dello stomaco viene normalmente rimossa, e il ripieno viene servito con un paté di ravanello e purea di patate. È una specialità locale caratteristica della cucina di Fontaine da offrire agli ospiti importanti."
+      "0": "Un piatto dai sapori forti e intensi. Per prepararlo, trita le frattaglie di pecora e mescolale con i fiocchi d'avena, poi farcisci lo stomaco della pecora con diversi condimenti e spezie per formare una sacca. Nel servire questo piatto, la sacca dello stomaco viene normalmente rimossa, e il ripieno viene servito con un paté di ravanello e purea di patate. È una specialità locale caratteristica della cucina di Fontaine da offrire agli ospiti importanti."
     }
   },
   "DeliciousHaggis": {
@@ -14178,7 +14187,7 @@
   "FashionShow": {
     "name": "Spettacolo di moda",
     "description": {
-      "0": "La specialità di Chiori. Grazie alla danza delle sue agili dita, anche un pescetto qualsiasi si trasforma, adornato di un ripieno che impreziosisce gusto e aspetto con una classe senza pari. Non sarebbe esagerato definirla l'opera di un'artista degli spuntini."
+      "0": "La specialità di Chiori. Grazie alle sue dita agili, anche il comune dentice si trasforma. riempiendosi di gloriose farciture che incantano i sensi. Un banchetto sontuoso che delizia le papille gustative e gli occhi, quasi come a sopraffarli. Non sarebbe esagerato definirlo un capolavoro di arte culinaria."
     }
   },
   "RecipeItem": {
@@ -20798,15 +20807,15 @@
     }
   },
   "PerinheriI": {
-    "name": "",
+    "name": "Perinheri (I)",
     "description": {
-      "0": "???"
+      "0": "？？？"
     }
   },
   "PerinheriII": {
-    "name": "",
+    "name": "Perinheri (II)",
     "description": {
-      "0": "???"
+      "0": "？？？"
     }
   },
   "HelpMePlease": {
@@ -20846,88 +20855,165 @@
     }
   },
   "CultivationAreaExpansionI": {
-    "name": "",
-    "description": {}
+    "name": "Espansione area di coltivazione (I)",
+    "description": {
+      "0": "Aggiunge un'altra zona di coltivazione degli ingredienti."
+    }
   },
   "CultivationAreaExpansionII": {
-    "name": "",
-    "description": {}
+    "name": "Espansione area di coltivazione (II)",
+    "description": {
+      "0": "Aggiunge un'altra zona di coltivazione degli ingredienti."
+    }
   },
   "CultivationAreaExpansionIII": {
-    "name": "",
-    "description": {}
+    "name": "Espansione area di coltivazione (III)",
+    "description": {
+      "0": "Aggiunge un'altra zona di coltivazione degli ingredienti."
+    }
   },
   "CultivationAreaExpansionIV": {
-    "name": "",
-    "description": {}
+    "name": "Espansione area di coltivazione (IV)",
+    "description": {
+      "0": "Aggiunge un'altra zona di coltivazione degli ingredienti."
+    }
   },
   "CultivationAreaExpansionV": {
-    "name": "",
-    "description": {}
+    "name": "Espansione area di coltivazione (V)",
+    "description": {
+      "0": "Aggiunge un'altra zona di coltivazione degli ingredienti."
+    }
   },
   "CultivationAreaExpansionVI": {
-    "name": "",
-    "description": {}
+    "name": "Espansione area di coltivazione (VI)",
+    "description": {
+      "0": "Aggiunge un'altra zona di coltivazione degli ingredienti."
+    }
   },
   "ImprovedAlchemyCauldronI": {
-    "name": "",
-    "description": {}
+    "name": "Calderone alchemico migliorato (I)",
+    "description": {
+      "0": "Migliora le prestazioni del calderone alchemico, ampliando l'area in cui possono essere posizionati gli ingredienti durante la preparazione delle pozioni."
+    }
   },
   "ImprovedAlchemyCauldronII": {
-    "name": "",
-    "description": {}
+    "name": "Calderone alchemico migliorato (II)",
+    "description": {
+      "0": "Migliora le prestazioni del calderone alchemico, ampliando l'area in cui possono essere posizionati gli ingredienti durante la preparazione delle pozioni."
+    }
   },
   "ImprovedAlchemyCauldronIII": {
-    "name": "",
-    "description": {}
+    "name": "Calderone alchemico migliorato (III)",
+    "description": {
+      "0": "Migliora le prestazioni del calderone alchemico, ampliando l'area in cui possono essere posizionati gli ingredienti durante la preparazione delle pozioni."
+    }
   },
   "ImprovedAlchemyCauldronIV": {
-    "name": "",
-    "description": {}
+    "name": "Calderone alchemico migliorato (IV)",
+    "description": {
+      "0": "Migliora le prestazioni del calderone alchemico, ampliando l'area in cui possono essere posizionati gli ingredienti durante la preparazione delle pozioni."
+    }
   },
   "AngledDropBottle": {
-    "name": "",
-    "description": {}
+    "name": "Boccetta Goccia quadrata",
+    "description": {
+      "0": "Una boccetta per pozioni dagli angoli molto netti, simile a una goccia d'acqua quadrata. Quando si tratta di pozioni alchemiche di pregio, non bisogna sprecarne nemmeno un sorso...",
+      "1": "Può migliorare leggermente la qualità della pozione. Tutte le boccette speciali forniscono lo stesso effetto positivo."
+    }
   },
   "HeartstoppingHeartBottle": {
-    "name": "",
-    "description": {}
+    "name": "Boccetta Cuore sublime",
+    "description": {
+      "0": "Una boccetta per pozioni con un fusto lungo e a forma di cuore. Si dice che i clienti la trovino esteticamente piacevole, indipendentemente dal colore della pozione al suo interno...",
+      "1": "Può migliorare leggermente la qualità della pozione. Tutte le boccette speciali forniscono lo stesso effetto positivo."
+    }
   },
   "TranquilBayBottle": {
-    "name": "",
-    "description": {}
+    "name": "Boccetta Baia serena",
+    "description": {
+      "0": "Una boccetta dal collo allungato realizzata con maestria. Si dice che chi l'ha progettata l'abbia paragonata a una \"baia serena\"...",
+      "1": "Può migliorare leggermente la qualità della pozione. Tutte le boccette speciali forniscono lo stesso effetto positivo."
+    }
   },
   "GorgeousGemBottle": {
-    "name": "",
-    "description": {}
+    "name": "Boccetta Bella gemma",
+    "description": {
+      "0": "Una boccetta per pozioni con un'apertura stretta e un corpo largo. L'intreccio di molteplici linee rette le conferisce l'aspetto di una grossa gemma, rendendola un oggetto di lusso agli occhi dei clienti...",
+      "1": "Può migliorare leggermente la qualità della pozione. Tutte le boccette speciali forniscono lo stesso effetto positivo."
+    }
   },
   "ChonkyCatBottle": {
-    "name": "",
-    "description": {}
+    "name": "Boccetta Gatto paffuto",
+    "description": {
+      "0": "Una boccetta per pozioni dalla forma tonda e sinuosa, simile alla testa di un gatto paffuto. Attira facilmente l'attenzione dei clienti che hanno un debole per gli oggetti \"pucciosi\"...",
+      "1": "Può migliorare leggermente la qualità della pozione. Tutte le boccette speciali forniscono lo stesso effetto positivo."
+    }
   },
   "WindwheelAstersAroma": {
-    "name": "",
-    "description": {}
+    "name": "Aroma di Asteria del vento",
+    "description": {
+      "0": "Un ornamento per boccette realizzata combinando un'Asteria del vento con foglie verde smeraldo. Sembra avvolgere la pozione in una brezza gentile..."
+    }
   },
   "ResplendentAsACrystalfly": {
-    "name": "",
-    "description": {}
+    "name": "Splendore di Cristallottero",
+    "description": {
+      "0": "Un ornamento per boccette particolarmente accattivante. La sua forma che ricorda un Cristallottero può attirare l'attenzione dei clienti in un istante..."
+    }
   },
   "PerfectGiftRibbon": {
-    "name": "",
-    "description": {}
+    "name": "Nastro regalo perfetto",
+    "description": {
+      "0": "Un ornamento per boccette a forma di fiocco. Sembra conferire alle pozioni l'aspetto di un regalo che promette ricche sorprese..."
+    }
   },
   "RaspberryRedFlyingFlowerFeather": {
-    "name": "",
-    "description": {}
+    "name": "Piuma floreale vermiglia",
+    "description": {
+      "0": "Un ornamento per boccette a forma di piuma vermiglia. Si dice che i clienti l'associno facilmente all'immagine di un uccello in volo..."
+    }
   },
   "GoldGildAndEmerald": {
-    "name": "",
-    "description": {}
+    "name": "Oro e smeraldo",
+    "description": {
+      "0": "Un ornamento per boccette con un'incastonatura d'oro e l'aspetto di una gemma smeraldo. La \"gemma\" è realizzata in vetro, e mette d'accordo il fascino estetico con il costo..."
+    }
+  },
+  "ShopDecorationBloomingMorale": {
+    "name": "Decorazione del negozio Morale fiorente",
+    "description": {
+      "0": "Una decorazione speciale fatta appositamente per il negozio di alchimia dei Cavalieri di Favonius. Un bellissimo letto floreale a due strati, si dice che sia stato donato da un certo membro della squadra investigativa per \"rafforzare il morale\"."
+    }
+  },
+  "ShopDecorationBloomingAtmosphere": {
+    "name": "Decorazione del negozio Atmosfera fiorente",
+    "description": {
+      "0": "Una decorazione del negozio con fiori blu e beige. È dotata di una montatura speciale fatta appositamente per il negozio di alchimia dei Cavalieri di Favonius. Si dice che sia stata creata da un certo membro della divisione logistica per \"fare atmosfera\"."
+    }
+  },
+  "ShopDecorationPotentPotions": {
+    "name": "Decorazione del negozio Pozioni efficaci",
+    "description": {
+      "0": "Una decorazione installata appositamente per il negozio di alchimia dei Cavalieri di Favonius. Può essere appesa dal tetto del negozio, e la pozione nell'immagine ha una forma classica facilmente associabile all'attività dalla maggior parte delle persone."
+    }
+  },
+  "ShopDecorationPortentousPotions": {
+    "name": "Decorazione del negozio Pozioni portentose",
+    "description": {
+      "0": "Una decorazione installata appositamente per il negozio di alchimia dei Cavalieri di Favonius. Viene anche usata per pubblicizzare il negozio di alchimia a Mondstadt. La pozione nell'immagine ha una forma classica facilmente associabile all'attività dalla maggior parte delle persone."
+    }
+  },
+  "ShopDecorationPrismaticEffects": {
+    "name": "Decorazione del negozio Effetti prismatici",
+    "description": {
+      "0": "Una decorazione installata appositamente per il negozio di alchimia dei Cavalieri di Favonius. È composta da una serie di bandierine in fila, e si dice che l'effetto \"prismatico\" simbolizzi la miriade di meravigliosi effetti delle pozioni vendute..."
+    }
   },
   "SalesExpansionContract": {
-    "name": "",
-    "description": {}
+    "name": "Contratto di espansione vendite",
+    "description": {
+      "0": "Assumi un rivenditore aggiuntivo"
+    }
   },
   "XuanlianSacredWater": {
     "name": "Acqua sacra di Xuanlian",
@@ -20972,8 +21058,16 @@
     }
   },
   "CultivationAreaExpansionVII": {
-    "name": "",
-    "description": {}
+    "name": "Espansione area di coltivazione (VII)",
+    "description": {
+      "0": "Aggiunge un'altra zona di coltivazione degli ingredienti."
+    }
+  },
+  "Alchemeter": {
+    "name": "Alchimetro",
+    "description": {
+      "0": "Un dispositivo personalizzato dei Cavalieri di Favonius usato per analizzare gli ingredienti alchemici. Posiziona qualsiasi ingrediente del negozio al suo interno per analizzarne le proprietà e aumentare il \"livello ingrediente\" corrispondente, facendo sì che l'efficacia delle pozioni realizzate aumenti in diversi modi..."
+    }
   },
   "TearsAmongTheStars": {
     "name": "Lacrime tra le stelle",
@@ -22532,6 +22626,14 @@
       "0": "Materiale di miglioramento specifico per la \"Spada magica del Super Signore Supremo\".",
       "1": "Può raccogliere un gran numero di desideri (compresi quelli fortissimi fatti di cartone) e metterli insieme, creando un misterioso mega potere finale.",
       "2": "Anche se è possibile acquistarne una versione giocattolo molto simile presso lo Spaccio Damoville (praticamente identico, a dirla tutta), c'è (probabilmente) una differenza qualitativa tra i due, quindi non bisogna assolutamente confonderli!"
+    }
+  },
+  "ExaltedEarth": {
+    "name": "Terra sublime",
+    "description": {
+      "0": "Materiale di miglioramento specifico per Dialoghi dei saggi del deserto.",
+      "1": "Nei compendi alchemici, il mercurio viene spesso chiamato \"terra sublime\", poiché è in grado di divorare avidamente l'oro. Per questo motivo, è usato anche in alchimia per rappresentare il metallo.",
+      "2": "Il suo potenziale trasformativo rimane intatto anche se viene essiccata o polverizzata."
     }
   },
   "FalconsDance": {
@@ -24155,6 +24257,13 @@
       "1": "In una melodia ci dividemmo, e ci riunimmo in un'altra."
     }
   },
+  "TravelNotesArcaneAmassing": {
+    "name": "Appunti di viaggio: Convergenza arcana",
+    "description": {
+      "0": "Stile per la carta giocatore.",
+      "1": "L'alchimia è la disciplina che studia la conversione di una sostanza in un'altra, ma usarla per realizzare pozioni, ne riduce di un po' la qualità. Non so, forse quel poco mancante serve proprio per migliorare lo stato d'animo delle persone."
+    }
+  },
   "AnemoculusResonanceStone": {
     "name": "Pietra di risonanza per Anemoculi",
     "description": {
@@ -25235,7 +25344,7 @@
     }
   },
   "FatuiElectroCicinMage": {
-    "name": "Maga Cicin di Electro dei Fatui",
+    "name": "Maga Cicin di Electro",
     "description": {
       "0": "Una carta per il gioco da tavolo Invokazione del genio. È fatta di materiale resistente, e l'illustrazione sulla parte frontale è realizzata con un metodo di stampa speciale che le dona un aspetto assolutamente impeccabile."
     }
@@ -25709,7 +25818,7 @@
     }
   },
   "ElectroCicinsFlicker": {
-    "name": "Bagliore della Cicin di Electro",
+    "name": "Bagliore del Cicin di Electro",
     "description": {
       "0": "Una carta per il gioco da tavolo Invokazione del genio. È fatta di materiale resistente, e l'illustrazione sulla parte frontale è realizzata con un metodo di stampa speciale che le dona un aspetto assolutamente impeccabile."
     }
@@ -26716,14 +26825,14 @@
       "0": "Una carta per il gioco da tavolo Invokazione del genio. È fatta di un materiale resistente, e l'illustrazione sulla parte frontale è realizzata con un metodo di stampa speciale che le dona un aspetto assolutamente impeccabile."
     }
   },
-  "SiegeOfDecarabian": {
-    "name": "Assedio di Decarabian",
+  "DayOfResistanceMomentOfShatteredDreams": {
+    "name": "Giorno della Resistenza: Sogni infranti",
     "description": {
       "0": "Una carta per il gioco da tavolo Invokazione del genio. È fatta di materiale resistente, e l'illustrazione sulla parte frontale è realizzata con un metodo di stampa speciale che le dona un aspetto assolutamente impeccabile."
     }
   },
-  "ResearchInstituteExplosion": {
-    "name": "Esplosione all'Istituto di ricerca",
+  "ControlledDirectionalBlast": {
+    "name": "Esplosione direzionale controllata",
     "description": {
       "0": "Una carta per il gioco da tavolo Invokazione del genio. È fatta di materiale resistente, e l'illustrazione sulla parte frontale è realizzata con un metodo di stampa speciale che le dona un aspetto assolutamente impeccabile."
     }
@@ -26808,6 +26917,12 @@
   },
   "TheChasmSolidIron": {
     "name": "La Voragine: Color del ferro",
+    "description": {
+      "0": "Il dorso di una carta di Invokazione del genio che puoi ottenere e scambiare. Si dice che i dorsi delle carte con design diversi differiscano leggermente anche in termini di fattura e consistenza. Alcuni giocatori collezionano i dorsi delle carte di stili diversi come hobby."
+    }
+  },
+  "TheChasmBlueCrystal": {
+    "name": "La Voragine: Cristallo blu",
     "description": {
       "0": "Il dorso di una carta di Invokazione del genio che puoi ottenere e scambiare. Si dice che i dorsi delle carte con design diversi differiscano leggermente anche in termini di fattura e consistenza. Alcuni giocatori collezionano i dorsi delle carte di stili diversi come hobby."
     }
@@ -27640,7 +27755,7 @@
   "CourtOfJusticesBoomingCommerce": {
     "name": "Commercio fiorente della Corte di Giustizia",
     "description": {
-      "0": "Ispirato al Quartiere Lyonnais nella Corte di Fontaine, questo luogo brulica di negozi specializzati e tavoli a cui sedersi per assaporare un tè e godersi un momento di relax.",
+      "0": "Ispirato al Quartiere Lyonnais nella Corte di Fontaine, questo luogo brulica di negozi di specialità e tavoli a cui sedersi per assaporare un tè e godersi un momento di relax.",
       "1": "Se non conosci bene i negozi e i prodotti in vendita, alcuni turisti abituali suggeriscono che questo sia il posto migliore dove chiedere informazioni ai residenti. Dato che molti negozi seguono rigorosamente i controlli dei prezzi stabiliti dal Palais Mermonia, in pochissimi acquistano degli articoli a prezzi gonfiati.",
       "2": "Questo set decorativo piace particolarmente a Lynette e Lyney, Chiori"
     }
@@ -28557,6 +28672,20 @@
       "1": "Dopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione."
     }
   },
+  "TeahouseLongTableToolsOfNostalgia": {
+    "name": "Tavolo lungo della sala da tè Utensili della nostalgia",
+    "description": {
+      "0": "Un progetto con istruzioni passo dopo passo per realizzare un Tavolo lungo della sala da tè Utensili della nostalgia.",
+      "1": "Dopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione."
+    }
+  },
+  "TeahouseToolQualiteaReview": {
+    "name": "Utensile della sala da tè Valutazione qualità",
+    "description": {
+      "0": "Un progetto con istruzioni passo dopo passo per realizzare un utensile della sala da tè Valutazione qualità.",
+      "1": "Dopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione."
+    }
+  },
   "BreezeBlessedBed": {
     "name": "Letto Dolce brezza",
     "description": {
@@ -28659,6 +28788,20 @@
     "name": "Celebrazione di uno spettacolo ad hoc",
     "description": {
       "0": "Un progetto con istruzioni passo dopo passo per realizzare Celebrazione di uno spettacolo ad hoc.",
+      "1": "Dopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione."
+    }
+  },
+  "TeahouseStoveACapitalCook": {
+    "name": "Fornello della sala da tè Cottura sublime",
+    "description": {
+      "0": "Un progetto con istruzioni passo dopo passo per realizzare fornello della sala da tè Cottura sublime.",
+      "1": "Dopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione."
+    }
+  },
+  "TeahouseStoveSlowSteaming": {
+    "name": "Fornello della sala da tè Cottura a vapore lenta",
+    "description": {
+      "0": "Un progetto con istruzioni passo dopo passo per realizzare un fornello della sala da tè Cottura a vapore lenta.",
       "1": "Dopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione."
     }
   },
@@ -28813,6 +28956,13 @@
     "name": "Momento di riposo nella stazione centrale",
     "description": {
       "0": "Un progetto con istruzioni passo dopo passo per realizzare Momento di riposo nella stazione centrale.",
+      "1": "Dopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione."
+    }
+  },
+  "TeahouseBenchSimpleSeating": {
+    "name": "Panchina della sala da tè Riposo e semplicità",
+    "description": {
+      "0": "Un progetto con istruzioni passo dopo passo per realizzare una panchina della sala da tè Riposo e semplicità.",
       "1": "Dopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione."
     }
   },
@@ -29184,6 +29334,27 @@
     "name": "Leggio standard Accordatura precisa",
     "description": {
       "0": "Un progetto con istruzioni passo dopo passo per realizzare un leggio standard Accordatura precisa.",
+      "1": "Dopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione."
+    }
+  },
+  "FreshBudsFromMountainsAndWaters": {
+    "name": "Freschi boccioli di montagne e acque",
+    "description": {
+      "0": "Un progetto con istruzioni passo dopo passo per realizzare Freschi boccioli di montagne e acque.",
+      "1": "Dopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione."
+    }
+  },
+  "TeahouseToolDryStorage": {
+    "name": "Utensile della sala da tè Conservazione a secco",
+    "description": {
+      "0": "Un progetto con istruzioni passo dopo passo per realizzare un utensile della sala da tè Conservazione a secco.",
+      "1": "Dopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione."
+    }
+  },
+  "TeahouseToolClearView": {
+    "name": "Utensile della sala da tè Vista nitida",
+    "description": {
+      "0": "Un progetto con istruzioni passo dopo passo per realizzare un utensile della sala da tè Vista nitida.",
       "1": "Dopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione."
     }
   },
@@ -29733,6 +29904,20 @@
       "1": "Dopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione."
     }
   },
+  "TeahouseToolMinisculeMissesMakeAMile": {
+    "name": "Utensile della sala da tè Perfezione millimetrica",
+    "description": {
+      "0": "Un progetto con istruzioni passo dopo passo per realizzare un utensile della sala da tè Perfezione millimetrica.",
+      "1": "Dopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione."
+    }
+  },
+  "MellowTeaInARedClayPot": {
+    "name": "\"Tè delicato in una tazza di argilla\"",
+    "description": {
+      "0": "Un progetto con istruzioni passo dopo passo per realizzare \"Tè delicato in una tazza di argilla\".",
+      "1": "Dopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione."
+    }
+  },
   "RealizationsFromTheLandOfWisdom": {
     "name": "Zelo della Terra della Saggezza",
     "description": {
@@ -30178,6 +30363,20 @@
     "name": "Residenza della valle Edificio misurato",
     "description": {
       "0": "Un progetto con istruzioni passo dopo passo per realizzare una residenza della valle Edificio misurato.",
+      "1": "Dopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione."
+    }
+  },
+  "ValleyResidenceItsClassified": {
+    "name": "Residenza della valle Il segreto",
+    "description": {
+      "0": "Un progetto con istruzioni passo dopo passo per realizzare una residenza della valle Il segreto.",
+      "1": "Dopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione."
+    }
+  },
+  "PortsFabulousFlavors": {
+    "name": "\"Favolosi sapori del porto\"",
+    "description": {
+      "0": "Un progetto con istruzioni passo dopo passo per realizzare \"Favolosi sapori del porto\".",
       "1": "Dopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione."
     }
   },
@@ -33296,6 +33495,41 @@
       "1": "Dopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione."
     }
   },
+  "TeaHarvestsStockpilingAndTransport": {
+    "name": "\"Stoccaggio e trasporto del raccolto del tè\"",
+    "description": {
+      "0": "Un progetto con istruzioni passo dopo passo per realizzare \"Stoccaggio e trasporto della raccolta del tè\".",
+      "1": "Dopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione."
+    }
+  },
+  "TeaHarvestsFisheryInspiration": {
+    "name": "\"Ispirazione dal pescatore della raccolta del tè\"",
+    "description": {
+      "0": "Un progetto con istruzioni passo dopo passo per realizzare \"Ispirazione dal pescatore della raccolta del tè\".",
+      "1": "Dopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione."
+    }
+  },
+  "TeaHarvestsMultitool": {
+    "name": "\"Attrezzatura ingegnosa della raccolta del tè\"",
+    "description": {
+      "0": "Un progetto con istruzioni passo dopo passo per realizzare \"Attrezzatura ingegnosa della raccolta del tè\".",
+      "1": "Dopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione."
+    }
+  },
+  "TeaHarvestsFormulaForFragrance": {
+    "name": "\"Ricetta della fragranza della raccolta del tè\"",
+    "description": {
+      "0": "Un progetto con istruzioni passo dopo passo per realizzare \"Ricetta della fragranza della raccolta del tè\".",
+      "1": "Dopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione."
+    }
+  },
+  "TeaHarvestsSunDriedFragrance": {
+    "name": "\"Fragranza dell'essicazione al sole della raccolta del tè\"",
+    "description": {
+      "0": "Un progetto con istruzioni passo dopo passo per realizzare \"Fragranza dell'essicazione al sole della raccolta del tè\".",
+      "1": "Dopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione."
+    }
+  },
   "WeatheredBambooFence": {
     "name": "Recinto in bambù consumato",
     "description": {
@@ -33464,6 +33698,13 @@
       "1": "Dopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione."
     }
   },
+  "TeaVillageStoneBenchSafeSpaciousSturdy": {
+    "name": "\"Panchina in pietra del villaggio del tè Sicura, spaziosa e robusta\"",
+    "description": {
+      "0": "Un progetto con istruzioni passo dopo passo per realizzare \"Panchina in pietra del villaggio del tè Sicura, spaziosa e robusta\".",
+      "1": "Dopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione."
+    }
+  },
   "TwoStoryHilichurlSentryTower": {
     "name": "Torre della sentinella hilichurliana",
     "description": {
@@ -33601,6 +33842,13 @@
     "name": "Tavolo da tè quadrato Benvenuto amichevole",
     "description": {
       "0": "Un progetto con istruzioni passo dopo passo per realizzare un tavolo da tè quadrato Benvenuto amichevole.",
+      "1": "Dopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione."
+    }
+  },
+  "TeaVillageStoneTableCulturedLeisure": {
+    "name": "Tavolo di pietra del villaggio del tè Ozio culturale",
+    "description": {
+      "0": "Un progetto con istruzioni passo dopo passo per realizzare un tavolo di pietra del villaggio del tè Ozio culturale.",
       "1": "Dopo aver usato quest'oggetto, potrai visualizzarlo nella Schermata di creazione."
     }
   },

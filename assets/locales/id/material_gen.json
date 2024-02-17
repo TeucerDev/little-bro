@@ -411,6 +411,13 @@
       "1": "Bisa digunakan untuk menukar hadiah berharga selama \"Mawar dan Senapan\"."
     }
   },
+  "Funds": {
+    "name": "Dana",
+    "description": {
+      "0": "Dana yang diperoleh dari mengoperasikan toko alkimia. Bisa diinvestasikan kembali ke dalam berbagai hal yang ada di toko, seperti membudi dayakan bahan obat, menhgasilkan potion, meningkatkan skala operasi toko ....",
+      "1": "Manajer toko yang berkualifikasi akan selalu memperhatikan dana toko operasional dan selalu menyimpan dana dalam jumlah yang lumayan. Hanya dengan cara inilah mereka dapat mempertahankan keuntungan toko untuk secara terus-menerus dalam jangka panjang dan memperluas bisnisnya secara bertahap ...."
+    }
+  },
   "Primogem": {
     "name": "Primogem",
     "description": {
@@ -1076,7 +1083,9 @@
   },
   "Chiori": {
     "name": "Chiori",
-    "description": {}
+    "description": {
+      "0": "Pemilik Chioriya Boutique. Desainer pakaian terkenal di Fontaine."
+    }
   },
   "KamisatoAyakasStellaFortuna": {
     "name": "Kamisato Ayaka's Stella Fortuna",
@@ -13714,7 +13723,7 @@
   "Haggis": {
     "name": "Haggis",
     "description": {
-      "0": "Hidangan dengan rasa yang kuat. Potong jeroan domba, campur dengan havermut, masukkan ke dalam perut domba bersama dengan berbagai bumbu dan rempah-rempah, terbentuklah kantong yang berisi macam-macam untuk dimasak ini. Saat menyajikan hidangan ini, kantong perut biasanya dilepas sementara isiannya akan disajikan dengan pasta lobak dan kentang tumbuk. Ini adalah makanan khas setempat yang dimasak orang Fontaine untuk menjamu tamu penting mereka."
+      "0": "Hidangan dengan rasa yang kuat. Potong jeroan domba, campur dengan havermut, masukkan ke dalam lambung domba bersama dengan berbagai bumbu dan rempah-rempah, terbentuklah kantong yang berisi macam-macam untuk dimasak ini. Saat menyajikan hidangan ini, kantong perut biasanya akan dibuang, sementara isiannya akan disajikan dengan pasta lobak dan kentang tumbuk. Ini adalah makanan khas setempat yang dimasak orang Fontaine untuk menjamu tamu penting mereka."
     }
   },
   "DeliciousHaggis": {
@@ -20839,15 +20848,15 @@
     }
   },
   "PerinheriI": {
-    "name": "",
+    "name": "Perinheri (I)",
     "description": {
-      "0": "???"
+      "0": "？？？"
     }
   },
   "PerinheriII": {
-    "name": "",
+    "name": "Perinheri (II)",
     "description": {
-      "0": "???"
+      "0": "？？？"
     }
   },
   "HelpMePlease": {
@@ -20887,92 +20896,165 @@
     }
   },
   "CultivationAreaExpansionI": {
-    "name": "",
-    "description": {}
+    "name": "Perluasan Area Budi Daya (I)",
+    "description": {
+      "0": "Menambahkan satu area yang bisa digunakan untuk budi daya bahan obat."
+    }
   },
   "CultivationAreaExpansionII": {
-    "name": "",
-    "description": {}
+    "name": "Perluasan Area Budi Daya (II)",
+    "description": {
+      "0": "Menambahkan satu area yang bisa digunakan untuk budi daya bahan obat."
+    }
   },
   "CultivationAreaExpansionIII": {
-    "name": "",
-    "description": {}
+    "name": "Perluasan Area Budi Daya (III)",
+    "description": {
+      "0": "Menambahkan satu area yang bisa digunakan untuk budi daya bahan obat."
+    }
   },
   "CultivationAreaExpansionIV": {
-    "name": "",
-    "description": {}
+    "name": "Perluasan Area Budi Daya (IV)",
+    "description": {
+      "0": "Menambahkan satu area yang bisa digunakan untuk budi daya bahan obat."
+    }
   },
   "CultivationAreaExpansionV": {
-    "name": "",
-    "description": {}
+    "name": "Perluasan Area Budi Daya (V)",
+    "description": {
+      "0": "Menambahkan satu area yang bisa digunakan untuk budi daya bahan obat."
+    }
   },
   "CultivationAreaExpansionVI": {
-    "name": "",
-    "description": {}
+    "name": "Perluasan Area Budi Daya (VI)",
+    "description": {
+      "0": "Menambahkan satu area yang bisa digunakan untuk budi daya bahan obat."
+    }
   },
   "ImprovedAlchemyCauldronI": {
-    "name": "",
-    "description": {}
+    "name": "Peningkatan Kuali Alkimia (I)",
+    "description": {
+      "0": "Meningkatkan kemampuan kuali alkimia, meningkatkan ukuran area penempatan bahan obat saat meracik potion."
+    }
   },
   "ImprovedAlchemyCauldronII": {
-    "name": "",
-    "description": {}
+    "name": "Peningkatan Kuali Alkimia (II)",
+    "description": {
+      "0": "Meningkatkan kemampuan kuali alkimia, meningkatkan ukuran area penempatan bahan obat saat meracik potion."
+    }
   },
   "ImprovedAlchemyCauldronIII": {
-    "name": "",
-    "description": {}
+    "name": "Peningkatan Kuali Alkimia (III)",
+    "description": {
+      "0": "Meningkatkan kemampuan kuali alkimia, meningkatkan ukuran area penempatan bahan obat saat meracik potion."
+    }
   },
   "ImprovedAlchemyCauldronIV": {
-    "name": "",
-    "description": {}
+    "name": "Peningkatan Kuali Alkimia (IV)",
+    "description": {
+      "0": "Meningkatkan kemampuan kuali alkimia, meningkatkan ukuran area penempatan bahan obat saat meracik potion."
+    }
   },
   "AngledDropBottle": {
     "name": "Botol Tetesan Air__",
     "description": {
-      "0": "Botol ramuan dengan sudut unik, seperti tetesan air. Kalau sudah bicara soal ramuan alkimia berharga, tidak boleh ada satu tetes pun yang disia-siakan ...."
+      "0": "Botol ramuan dengan sudut unik, seperti tetesan air. Kalau sudah bicara soal ramuan alkimia berharga, tidak boleh ada satu tetes pun yang disia-siakan ....",
+      "1": "Bisa meningkatkan sedikit kualitas ramuan. Semua buff dari botol khusus memberikan efek yang sama."
     }
   },
   "HeartstoppingHeartBottle": {
     "name": "Botol Berbentuk Hati",
     "description": {
-      "0": "Sebuah botol ramuan berbentuk hati. Dikatakan bahwa entah bagaimana pun warna ramuannya, para pelanggan pasti akan tertarik karena bentuknya ...."
+      "0": "Sebuah botol ramuan berbentuk hati. Dikatakan bahwa entah bagaimana pun warna ramuannya, para pelanggan pasti akan tertarik karena bentuknya ....",
+      "1": "Bisa meningkatkan sedikit kualitas ramuan. Semua buff dari botol khusus memberikan efek yang sama."
     }
   },
   "TranquilBayBottle": {
-    "name": "",
-    "description": {}
+    "name": "Botol Berbentuk Teluk Air__",
+    "description": {
+      "0": "Botol dengan leher yang panjang. Katanya saat dibuat, perancangnya membayangkan botol tersebut bagaikan sebuah \"teluk yang tenang\" ....",
+      "1": "Bisa meningkatkan sedikit kualitas ramuan. Semua buff dari botol khusus memberikan efek yang sama."
+    }
   },
   "GorgeousGemBottle": {
-    "name": "",
-    "description": {}
+    "name": "Botol Berbentuk Kristal Mewah",
+    "description": {
+      "0": "Botol ramuan dengan mulut dan tubuh yang lebar. Garis-garisnya membentuk botol tersebut bagaikan sebuah batu permata yang besar, membuatnya terlihat indah dan menawan di mata para pelanggan ....",
+      "1": "Bisa meningkatkan sedikit kualitas ramuan. Semua buff dari botol khusus memberikan efek yang sama."
+    }
   },
   "ChonkyCatBottle": {
-    "name": "",
-    "description": {}
+    "name": "Botol Bentuk Kucing",
+    "description": {
+      "0": "Botol berbentuk kepala kucing yang bulat dan lucu. Para pelanggan yang suka dengan hal imut dan lucu pasti langsung tertarik pada botol ini ....",
+      "1": "Bisa meningkatkan sedikit kualitas ramuan. Semua buff dari botol khusus memberikan efek yang sama."
+    }
   },
   "WindwheelAstersAroma": {
-    "name": "",
-    "description": {}
+    "name": "Aroma Windwheel Aster",
+    "description": {
+      "0": "Dekorasi botol yang dibuat dari kombinasi Windwheel Aster dan daun hijau zamrud. Sepertinya bisa membungkus ramuan ini dengan belaian angin lembut ...."
+    }
   },
   "ResplendentAsACrystalfly": {
-    "name": "",
-    "description": {}
+    "name": "Seterang Crystalfly",
+    "description": {
+      "0": "Dekorasi botol berbentuk Crystalfly yang mencolok dan dapat menarik perhatian pelanggan dalam sekejap ...."
+    }
   },
   "PerfectGiftRibbon": {
-    "name": "",
-    "description": {}
+    "name": "Pita Hadiah",
+    "description": {
+      "0": "Ornamen botol berbentuk seperti pita kupu-kupu. Seolah ramuan ini jadi terasa seperti kotak hadiah yang penuh kejutan ...."
+    }
   },
   "RaspberryRedFlyingFlowerFeather": {
-    "name": "",
-    "description": {}
+    "name": "Bulu Bunga Bagaikan Raspberry Merah",
+    "description": {
+      "0": "Ornamen botol berbentuk bulu dengan hiasan berwarna merah muda yang katanya membuat para pelanggan teringat dengan sebuah burung besar yang terbang di angkasa ...."
+    }
   },
   "GoldGildAndEmerald": {
-    "name": "",
-    "description": {}
+    "name": "Emas dan Emerald",
+    "description": {
+      "0": "Ornamen botol berbentuk bingkai emas dan berbentuk permata biru. \"Permata\"-nya terbuat dari kaca, membuat penampilannya sebanding dengan harga yang harus dibayarkan ...."
+    }
+  },
+  "ShopDecorationBloomingMorale": {
+    "name": "Dekorasi Toko: Blooming Morale",
+    "description": {
+      "0": "Dekorasi khusus toko alkimia Knights of Favonius. Teras bunga lapis dua, katanya sih ini hasil donasi dari anggota Tim Investigasi untuk \"meningkatkan semangat moral\"."
+    }
+  },
+  "ShopDecorationBloomingAtmosphere": {
+    "name": "Dekorasi Toko: Blooming Atmosphere",
+    "description": {
+      "0": "Dekorasi khusus toko alkimia Knights of Favonius. Hiasan bunga warna biru dan krem. Dibuat oleh anggota Tim Logistik untuk \"meningkatkan atmosfir toko\"."
+    }
+  },
+  "ShopDecorationPotentPotions": {
+    "name": "Dekorasi Toko: Potent Potions",
+    "description": {
+      "0": "Dekorasi khusus toko alkimia Knights of Favonius. Bisa digantung di atap toko, bergambar bentuk klasik ramuan yang sudah sering dilihat orang-orang ...."
+    }
+  },
+  "ShopDecorationPortentousPotions": {
+    "name": "Dekorasi Toko: Portentous Potions",
+    "description": {
+      "0": "Dekorasi khusus toko alkimia Knights of Favonius. Juga digunakan untuk mengiklankan toko alkimia di Mondstadt. Bergambar bentuk klasik ramuan yang sudah sering dilihat orang-orang ...."
+    }
+  },
+  "ShopDecorationPrismaticEffects": {
+    "name": "Dekorasi Toko: Prismatic Effects",
+    "description": {
+      "0": "Dekorasi khusus toko alkimia Knights of Favonius. Banyak bendera warna-warni kecil yang digantung di atasnya serta efek \"prismatik\" tersebut diktakan sebagai simbol dari berbagai efek ramuan alkimia yang luar biasa ...."
+    }
   },
   "SalesExpansionContract": {
-    "name": "",
-    "description": {}
+    "name": "Kontrak Perluasan Sales",
+    "description": {
+      "0": "Pekerjakan satu distributor tambahan."
+    }
   },
   "XuanlianSacredWater": {
     "name": "Air Suci Xuanlian",
@@ -21017,8 +21099,16 @@
     }
   },
   "CultivationAreaExpansionVII": {
-    "name": "",
-    "description": {}
+    "name": "Perluasan Area Budi Daya (VII)",
+    "description": {
+      "0": "Menambahkan satu area yang bisa digunakan untuk budi daya bahan obat."
+    }
+  },
+  "Alchemeter": {
+    "name": "Alchemeter",
+    "description": {
+      "0": "Perangkat Knights of Favonius yang digunakan untuk menganalisis bahan-bahan alkimia. Letakkan bahan-bahan alkimia di dalamnya untuk menganalisis karakteristik-karakteristik khusus dan meningkatkan \"level bahan\", agar bisa meningkatkan efisiensi penggunaan bahan dari berbagai aspek ...."
+    }
   },
   "TearsAmongTheStars": {
     "name": "Air Mata di Lautan Bintang",
@@ -22578,6 +22668,14 @@
       "0": "Material refinement khusus untuk \"Ultimate Overlord's Mega Magic Sword.\"",
       "1": "Dapat mengumpulkan dan menyatukan banyak harapan (termasuk yang terbuat dari karton super keren) hingga menciptakan kekuatan ajaib yang kuat tiada banding.",
       "2": "Meskipun versi mainan dari benda ini dapat dibeli di Damoville Purveyor dan tampak mirip (ya, sebutlah sama persis) ... tapi pada kenyataannya, (mungkin) tetap ada perbedaan kualitas di antara keduanya, jadi jangan sampai pusing dan keliru!"
+    }
+  },
+  "ExaltedEarth": {
+    "name": "\"Exalted Earth\"",
+    "description": {
+      "0": "Material refinement khusus untuk \"Dialogues of the Desert Sages\".",
+      "1": "Dalam pelajaran mendasar tentang teknik alkimia, merkuri sering disebut sebagai \"Exalted Earth\", karena bisa menelan emas dengan rakus. Oleh sebab itu, juga dianggap sebagai perwakilan logam dalam alkimia.",
+      "2": "Benda ini juga masih memiliki potensial untuk bertransformasi, meskipun sudah dikeringkan dan dijadikan abu."
     }
   },
   "FalconsDance": {
@@ -24202,6 +24300,13 @@
     "description": {
       "0": "Style Kartu Nama.",
       "1": "Kita berpisah dalam satu melodi, dan bertemu kembali di melodi lain."
+    }
+  },
+  "TravelNotesArcaneAmassing": {
+    "name": "Catatan Perjalanan: Pengumpulan Misterius",
+    "description": {
+      "0": "Style Kartu Nama.",
+      "1": "Alkimia adalah ilmu yang mempelajari konversi antara materi satu sama lain, tapi menggunakan ilmu alkimia untuk membuat ramuan dapat membuat kualitasnya turun sedikit. Yah tidak tahu juga sih mungkin kualitas yang turun sedikit itu demi menaikkan suasana hati orang-orang sedikit."
     }
   },
   "AnemoculusResonanceStone": {
@@ -26766,14 +26871,14 @@
       "0": "Kartu permainan \"Genius Invokation TCG\", memiliki tekstur yang keras. Gambar ilustrasi pada kartu tersebut dicetak secara khusus dan terlihat halus."
     }
   },
-  "SiegeOfDecarabian": {
-    "name": "Siege of Decarabian",
+  "DayOfResistanceMomentOfShatteredDreams": {
+    "name": "Day of Resistance: Moment of Shattered Dreams",
     "description": {
       "0": "Kartu permainan \"Genius Invokation TCG\", memiliki tekstur yang keras. Gambar ilustrasi pada kartu tersebut dicetak secara khusus dan terlihat halus."
     }
   },
-  "ResearchInstituteExplosion": {
-    "name": "Research Institute Explosion",
+  "ControlledDirectionalBlast": {
+    "name": "Controlled Directional Blast",
     "description": {
       "0": "Kartu permainan \"Genius Invokation TCG\", memiliki tekstur yang keras. Gambar ilustrasi pada kartu tersebut dicetak secara khusus dan terlihat halus."
     }
@@ -26858,6 +26963,12 @@
   },
   "TheChasmSolidIron": {
     "name": "The Chasm: Solid Iron",
+    "description": {
+      "0": "Punggung Kartu \"Genius Invokation TCG\" yang bisa diganti-ganti. Dikatakan bahwa Punggung Kartu yang bentuknya terlihat berbeda memiliki perbedaan dari segi bahan dan terasa saat disentuh. Beberapa pemain ada juga yang hobi mengumpulkan Punggung Kartu."
+    }
+  },
+  "TheChasmBlueCrystal": {
+    "name": "The Chasm: Blue Crystal",
     "description": {
       "0": "Punggung Kartu \"Genius Invokation TCG\" yang bisa diganti-ganti. Dikatakan bahwa Punggung Kartu yang bentuknya terlihat berbeda memiliki perbedaan dari segi bahan dan terasa saat disentuh. Beberapa pemain ada juga yang hobi mengumpulkan Punggung Kartu."
     }
@@ -28608,6 +28719,20 @@
       "1": "Setelah digunakan, blueprint ini dapat dilihat di dalam Menu Pembuatan."
     }
   },
+  "TeahouseLongTableToolsOfNostalgia": {
+    "name": "Meja Panjang Kedai Teh: Kenangan Sederhana",
+    "description": {
+      "0": "Blueprint yang berisi langkah-langkah untuk membuat Meja Panjang Kedai Teh: Kenangan Sederhana.",
+      "1": "Setelah digunakan, blueprint ini dapat dilihat di dalam Menu Pembuatan."
+    }
+  },
+  "TeahouseToolQualiteaReview": {
+    "name": "Peralatan Kedai Teh: Tinjauan Kualitas",
+    "description": {
+      "0": "Blueprint yang berisi langkah-langkah untuk membuat Peralatan Kedai Teh: Tinjauan Kualitas.",
+      "1": "Setelah digunakan, blueprint ini dapat dilihat di dalam Menu Pembuatan."
+    }
+  },
   "BreezeBlessedBed": {
     "name": "Ranjang Sesejuk Angin",
     "description": {
@@ -28710,6 +28835,20 @@
     "name": "\"Perayaan Pertunjukan Improvisasi\"",
     "description": {
       "0": "Blueprint yang berisi langkah-langkah untuk membuat \"Perayaan Pertunjukan Improvisasi\".",
+      "1": "Setelah digunakan, blueprint ini dapat dilihat di dalam Menu Pembuatan."
+    }
+  },
+  "TeahouseStoveACapitalCook": {
+    "name": "Tungku Kedai Teh: Memasak Raya",
+    "description": {
+      "0": "Blueprint yang berisi langkah-langkah untuk membuat \"Tungku Kedai Teh: Memasak Raya\".",
+      "1": "Setelah digunakan, blueprint ini dapat dilihat di dalam Menu Pembuatan."
+    }
+  },
+  "TeahouseStoveSlowSteaming": {
+    "name": "Tungku Kedai Teh: Mengukus Santai",
+    "description": {
+      "0": "Blueprint yang berisi langkah-langkah untuk membuat \"Tungku Kedai Teh: Mengukus Santai\".",
       "1": "Setelah digunakan, blueprint ini dapat dilihat di dalam Menu Pembuatan."
     }
   },
@@ -28864,6 +29003,13 @@
     "name": "\"Luang Sejenak di Hub Sentral\"",
     "description": {
       "0": "Diagram yang berisi langkah-langkah untuk membuat \"Luang Sejenak di Hub Sentral\".",
+      "1": "Setelah digunakan, blueprint ini dapat dilihat di dalam Menu Pembuatan."
+    }
+  },
+  "TeahouseBenchSimpleSeating": {
+    "name": "Bangku Kedai Teh: Kursi Sederhana",
+    "description": {
+      "0": "Blueprint yang berisi langkah-langkah untuk membuat \"Bangku Kedai Teh: Kursi Sederhana\".",
       "1": "Setelah digunakan, blueprint ini dapat dilihat di dalam Menu Pembuatan."
     }
   },
@@ -29235,6 +29381,27 @@
     "name": "Rak Musik Standar: Penyelerasan Presisi",
     "description": {
       "0": "Blueprint yang berisi langkah-langkah untuk membuat Rak Musik Standar: Penyelerasan Presisi.",
+      "1": "Setelah digunakan, blueprint ini dapat dilihat di dalam Menu Pembuatan."
+    }
+  },
+  "FreshBudsFromMountainsAndWaters": {
+    "name": "Tunas Segar dari Gunung dan Laut",
+    "description": {
+      "0": "Blueprint yang berisi langkah-langkah untuk membuat Tunas Segar dari Gunung dan Laut.",
+      "1": "Setelah digunakan, blueprint ini dapat dilihat di dalam Menu Pembuatan."
+    }
+  },
+  "TeahouseToolDryStorage": {
+    "name": "Peralatan Kedai Teh: Rak Kering",
+    "description": {
+      "0": "Blueprint yang berisi langkah-langkah untuk membuat Peralatan Kedai Teh: Rak Kering.",
+      "1": "Setelah digunakan, blueprint ini dapat dilihat di dalam Menu Pembuatan."
+    }
+  },
+  "TeahouseToolClearView": {
+    "name": "Peralatan Kedai Teh: Pandangan Jernih",
+    "description": {
+      "0": "Blueprint yang berisi langkah-langkah untuk membuat \"Peralatan Kedai Teh: Pandangan Jernih\".",
       "1": "Setelah digunakan, blueprint ini dapat dilihat di dalam Menu Pembuatan."
     }
   },
@@ -29784,6 +29951,20 @@
       "1": "Setelah digunakan, blueprint ini dapat dilihat di dalam Menu Pembuatan."
     }
   },
+  "TeahouseToolMinisculeMissesMakeAMile": {
+    "name": "Peralatan Kedai Teh: Tak Seringan Debu",
+    "description": {
+      "0": "Blueprint yang berisi langkah-langkah untuk membuat \"Peralatan Kedai Teh: Tak Seringan Debu\".",
+      "1": "Setelah digunakan, blueprint ini dapat dilihat di dalam Menu Pembuatan."
+    }
+  },
+  "MellowTeaInARedClayPot": {
+    "name": "\"Teh Lembut dalam Teko Tanah Liat Merah\"",
+    "description": {
+      "0": "Blueprint yang berisi langkah-langkah terperinci untuk membuat \"Teh Lembut dalam Teko Tanah Liat Merah\".",
+      "1": "Setelah digunakan, blueprint ini dapat dilihat di dalam Menu Pembuatan."
+    }
+  },
   "RealizationsFromTheLandOfWisdom": {
     "name": "\"Kesadaran dari Tanah Kebijaksanaan\"",
     "description": {
@@ -30230,6 +30411,20 @@
     "description": {
       "0": "Blueprint yang berisi langkah-langkah untuk membuat Rumah Lembah: Bangunan Terukur.",
       "1": "Setelah digunakan, item ini dapat dilihat di Menu Pembuatan."
+    }
+  },
+  "ValleyResidenceItsClassified": {
+    "name": "Rumah Lembah: Segalanya Dikelompokkan",
+    "description": {
+      "0": "Blueprint yang berisi langkah-langkah untuk membuat Rumah Lembah: Segalanya Dikelompokkan.",
+      "1": "Setelah digunakan, item ini dapat dilihat di Menu Pembuatan."
+    }
+  },
+  "PortsFabulousFlavors": {
+    "name": "\"Rasa Nikmat Ala Pelabuhan\"",
+    "description": {
+      "0": "Blueprint yang berisi langkah-langkah untuk membuat \"Rasa Nikmat Ala Pelabuhan\".",
+      "1": "Setelah digunakan, blueprint ini dapat dilihat di dalam Menu Pembuatan."
     }
   },
   "MultiArchedMondstadtBuilding": {
@@ -33347,6 +33542,41 @@
       "1": "Setelah digunakan, blueprint ini dapat dilihat di dalam Menu Pembuatan."
     }
   },
+  "TeaHarvestsStockpilingAndTransport": {
+    "name": "\"Tumpukan dan Transportasi Panen Teh\"",
+    "description": {
+      "0": "Blueprint yang berisi langkah-langkah untuk membuat \"Tumpukan dan Transportasi Panen Teh\".",
+      "1": "Setelah digunakan, blueprint ini dapat dilihat di dalam Menu Pembuatan."
+    }
+  },
+  "TeaHarvestsFisheryInspiration": {
+    "name": "\"Inspirasi Perikanan Panen Teh\"",
+    "description": {
+      "0": "Diagram yang berisi langkah-langkah untuk membuat \"Inspirasi Perikanan Panen Teh\".",
+      "1": "Setelah digunakan, blueprint ini dapat dilihat di dalam Menu Pembuatan."
+    }
+  },
+  "TeaHarvestsMultitool": {
+    "name": "\"Alat Multi Panen Teh\"",
+    "description": {
+      "0": "Diagram yang berisi langkah-langkah untuk membuat \"Alat Multi Panen Teh\".",
+      "1": "Setelah digunakan, blueprint ini dapat dilihat di dalam Menu Pembuatan."
+    }
+  },
+  "TeaHarvestsFormulaForFragrance": {
+    "name": "\"Cara Memanen Wewangian Teh\"",
+    "description": {
+      "0": "Diagram yang berisi langkah-langkah untuk membuat \"Cara Menangkap Wewangian Teh\".",
+      "1": "Setelah digunakan, blueprint ini dapat dilihat di dalam Menu Pembuatan."
+    }
+  },
+  "TeaHarvestsSunDriedFragrance": {
+    "name": "\"Memanen Wewangian Teh yang Dijemur\"",
+    "description": {
+      "0": "Diagram yang berisi langkah-langkah untuk membuat \"Memanen Wewangian Teh yang Dijemur\".",
+      "1": "Setelah digunakan, blueprint ini dapat dilihat di dalam Menu Pembuatan."
+    }
+  },
   "WeatheredBambooFence": {
     "name": "Pagar Bambu Lapuk",
     "description": {
@@ -33515,6 +33745,13 @@
       "1": "Setelah digunakan, item ini dapat dilihat di Menu Pembuatan."
     }
   },
+  "TeaVillageStoneBenchSafeSpaciousSturdy": {
+    "name": "Bangku Batu Desa Teh: Aman, Lebar, Kokoh",
+    "description": {
+      "0": "Blueprint yang berisi langkah-langkah untuk membuat Bangku Batu Desa Teh: Aman, Lebar, Kokoh.",
+      "1": "Setelah digunakan, blueprint ini dapat dilihat di dalam Menu Pembuatan."
+    }
+  },
   "TwoStoryHilichurlSentryTower": {
     "name": "Menara Penjaga 2 Lapis Hilichurl",
     "description": {
@@ -33653,6 +33890,13 @@
     "description": {
       "0": "Blueprint yang berisi langkah-langkah untuk membuat Meja Teh: Menyambut Tamu.",
       "1": "Setelah digunakan, item ini dapat dilihat di Menu Pembuatan."
+    }
+  },
+  "TeaVillageStoneTableCulturedLeisure": {
+    "name": "Meja Batu Desa Teh: Santai yang Sudah Tradisi",
+    "description": {
+      "0": "Diagram yang berisi langkah-langkah untuk membuat Meja Batu Desa Teh: Santai yang Sudah Tradisi.",
+      "1": "Setelah digunakan, blueprint ini dapat dilihat di dalam Menu Pembuatan."
     }
   },
   "WineShopDisplayCounterToYourHeartsContent": {

@@ -1,8 +1,8 @@
 {
   "name": "Chiori",
-  "title": "???",
-  "description": "",
-  "constellationName": "",
+  "title": "The Thundering Seamstress",
+  "description": "The owner of Chioriya Boutique. A tailor renowned throughout Fontaine.",
+  "constellationName": "Cisoria",
   "auto": {
     "name": "Weaving Blade",
     "fields": {
@@ -41,25 +41,25 @@
   "skill": {
     "name": "Fluttering Hasode",
     "description": {
-      "0": "Dashes nimbly forward in a silken dance. Once this dash ends, Chiori will summon \"Automaton Doll: Sode\" beside her and perform an upward thrust, dealing <geo>AoE Geo DMG</geo> to nearby opponents based on her ATK and DEF.",
+      "0": "Dashes nimbly forward with silken steps. Once this dash ends, Chiori will summon the automaton doll \"Sode\" beside her and sweep her blade upward, dealing <geo>AoE Geo DMG</geo> to nearby opponents based on her ATK and DEF.",
       "1": "Holding the Skill will cause it to behave differently.",
       "2": "<br/>",
       "3": "<strong>Hold</strong>",
       "4": "Enter Aiming Mode to adjust the dash direction.",
       "5": "<br/>",
-      "6": "<strong>Automaton Doll: Sode</strong>",
+      "6": "<strong>Sode</strong>",
       "7": [
         " Will slash at nearby opponents at intervals, dealing <geo>AoE Geo DMG</geo> based on Chiori's ATK and DEF.",
-        " While active, if there are <geo>Geo Construct(s)</geo> nearby, an additional Automaton Doll: Sode will be summoned at this Construct's position. Only 1 additional Automaton can be summoned in this manner. This additional Automaton's duration is independently counted."
+        " While active, when <geo>Geo Construct(s)</geo> are created nearby, an additional Sode will be summoned next to Chiori. Only 1 additional Sode can be summoned in this manner, and its duration is independently counted."
       ],
       "8": "<br/>",
       "9": "<i>\"Sakura red dyes the brocade, the fragrance suffuses the sleeves, the orioles intoxicated.\"</i>"
     },
     "skillParams": {
-      "0": "Automaton Doll: Sode Slash",
-      "1": "Automaton Doll: Sode Duration",
-      "2": "Automaton Doll: Sode Attack Interval",
-      "3": "Upward Thrust Attack DMG",
+      "0": "Sode DMG",
+      "1": "Sode Duration",
+      "2": "Sode Attack Interval",
+      "3": "Upward Sweep Attack DMG",
       "4": "CD",
       "5": "",
       "6": "",
@@ -103,13 +103,13 @@
   "passive1": {
     "name": "Tailor-Made",
     "description": {
-      "0": "Gain different effects depending on the next action you take within a short duration after using <strong>Fluttering Hasode</strong>'s upward thrust. If you Press the Elemental Skill again, you will trigger the Tapestry effect. If you Press your Normal Attack, the Tailoring effect will be triggered instead.",
+      "0": "Gain different effects depending on the next action you take within a short duration after using <strong>Fluttering Hasode</strong>'s upward sweep. If you Press Jump, you will trigger the Tapestry effect. If you Press your Normal Attack, the Tailoring effect will be triggered instead.",
       "1": "<br/>",
       "2": "<strong>Tapestry</strong>",
       "3": [
         " Switches to the next character in your roster.",
-        " Grants all your party members \"Seize the Moment\": When your active party member's Normal Attacks, Charged Attacks, and Plunging Attacks hit, Automaton Doll: Sode will execute a coordinated attack, dealing 100% of Fluttering Hasode's upward thrust DMG as <geo>AoE Geo DMG</geo> at the opponent's location. DMG dealt this way is considered Elemental Skill DMG.",
-        " \"Seize the Moment\" lasts 8s, and 1 Automaton coordinated attack can be unleashed every 2s. 2 such coordinated attacks can occur per \"Seize the Moment\" effect duration."
+        " Grants all your party members \"Seize the Moment\": When your active party member's Normal Attacks, Charged Attacks, and Plunging Attacks hit an opponent, \"Sode\" will execute a coordinated attack, dealing 100% of Fluttering Hasode's upward sweep DMG as <geo>AoE Geo DMG</geo> at the opponent's location. DMG dealt this way is considered Elemental Skill DMG.",
+        " \"Seize the Moment\" lasts 8s, and 1 of \"Sode\"'s coordinated attack can be unleashed every 2s. 2 such coordinated attacks can occur per \"Seize the Moment\" effect duration."
       ],
       "4": "<br/>",
       "5": "<strong>Tailoring</strong>",
@@ -117,7 +117,7 @@
         " Chiori gains <geo>Geo infusion</geo> for 5s."
       ],
       "7": "<br/>",
-      "8": "If Chiori does not either Press her Elemental Skill or use a Normal Attack within a short time after using Fluttering Hasode, the Tailoring effect will be triggered by default."
+      "8": "When Chiori is on the field, if she does not either Press Jump or use a Normal Attack within a short time after using Fluttering Hasode's upward sweep, the Tailoring effect will be triggered by default."
     }
   },
   "passive2": {
@@ -130,28 +130,25 @@
     "name": "Brocaded Collar's Beauteous Silhouette",
     "description": {
       "0": "When any party member is wearing an outfit apart from their default outfit, or is wearing a wind glider other than the Wings of First Flight, your party members will obtain the Swift Stride effect: Movement SPD is increased by 10%.",
-      "1": "Swift Stride does not stack."
+      "1": "This effect does not take effect in Domains, Trounce Domains, and the Spiral Abyss. Swift Stride does not stack."
     }
   },
   "constellation1": {
     "name": "Six Paths of Sage Silkcraft",
     "description": {
-      "0": "The AoE of the Automaton Doll: Sode summoned by <strong>Fluttering Hasode</strong> is increased by 50%.",
-      "1": "Additionally, if there is a Geo party member other than Chiori, Fluttering Hasode will trigger the following after the dash:",
+      "0": "The AoE of the automaton doll \"Sode\" summoned by <strong>Fluttering Hasode</strong> is increased by 50%.",
+      "1": "Additionally, if there is a <geo>Geo</geo> party member other than Chiori, Fluttering Hasode will trigger the following after the dash is completed:",
       "2": [
-        " Summon another Automaton Doll: Sode. Only 1 additional Automaton Doll created through this method and through Geo Constructs can exist at the same time.",
-        " Triggers the Passive Talent \"The Finishing Touch.\" This effect requires you to first unlock the Passive Talent  \"The Finishing Touch.\""
+        " Summon an additional Sode. Only one additional Sode can exist at the same time, whether summoned by Chiori this way or through the presence of a Geo Construct.",
+        " Triggers the Passive Talent \"The Finishing Touch.\" This effect requires you to first unlock the Passive Talent \"The Finishing Touch.\""
       ]
     }
   },
   "constellation2": {
     "name": "In Five Colors Dyed",
     "description": {
-      "0": "For 8s after triggering either follow-up effect of the Passive Talent \"Tailor-Made,\" when your current active character's Normal, Charged, or Plunging Attacks hit an opponent, it will summon a Simple Automaton Doll: Kinu near this opponent.",
-      "1": "The Simple Automaton Doll: Kinu will attack nearby opponents, dealing <geo>AoE Geo DMG</geo> equivalent to 170% of Automaton Doll: Sode's slash DMG. DMG dealt this way is considered Elemental Skill DMG.",
-      "2": "The Simple Automaton Doll: Kinu will leave the field after 1 attack or after lasting 3s.",
-      "3": "You can summon 1 such Simple Automaton Doll every 1s in this way, and this can be triggered 3 times in each instance of \"Tailor-Made\"'s Seize the Moment or the Tailoring effect.",
-      "4": "Must unlock the Passive Talent \"Tailor-Made\" first."
+      "0": "For 10s after using <strong>Hiyoku: Twin Blades</strong>, a simplified automaton doll, \"Kinu,\" will be summoned next to Chiori every 3s. Kinu will attack nearby opponents, dealing <geo>AoE Geo DMG</geo> equivalent to 170% of Sode's DMG. DMG dealt this way is considered Elemental Skill DMG.",
+      "1": "Kinu will leave the field after 1 attack or after lasting 3s."
     }
   },
   "constellation3": {
@@ -164,7 +161,8 @@
   "constellation4": {
     "name": "A Tailor's Three Courtesies",
     "description": {
-      "0": "For 10s after using <strong>Hiyoku: Twin Blades</strong>, a Simple Automaton Doll: Kinu will be summoned next to Chiori every 3s."
+      "0": "For 8s after triggering either follow-up effect of the Passive Talent \"Tailor-Made,\" when your current active character's Normal, Charged, or Plunging Attacks hit an opponent, a simplified automaton doll, \"Kinu,\" will be summoned near this opponent. You can summon 1 Kinu every 1s in this way, and up to 3 Kinu may be summoned this way during in each instance of \"Tailor-Made\"'s Seize the Moment or Tailoring effect. The above effect can be triggered up to once every 15s.",
+      "1": "Must unlock the Passive Talent \"Tailor-Made\" first."
     }
   },
   "constellation5": {
@@ -177,10 +175,8 @@
   "constellation6": {
     "name": "Sole Principle Pursuit",
     "description": {
-      "0": "After triggering the Tailoring effect of the Passive Talent \"Tailor-Made,\" Chiori's own <strong>Fluttering Hasode</strong>'s CD is decreased by 14.5s, and she obtains Prismatic Beauty for 5s.",
-      "1": "While Prismatic Beauty lasts, Chiori's Normal, Charged, and Plunging Attack DMG increases based on 50% of her ATK and 180% of her DEF.",
-      "2": "This can be triggered once every 15s, while Prismatic Beauty will be canceled once Chiori has scored 5 Normal, Charged, or Plunging Attack hits or the duration expires.",
-      "3": "Must unlock the Passive Talent \"Tailor-Made\" first."
+      "0": "After triggering a follow-up effect of the Passive Talent \"Tailor-Made,\" Chiori's own <strong>Fluttering Hasode</strong>'s CD is decreased by 14.5s. Must unlock the Passive \"Tailor-Made\" first.",
+      "1": "In addition, the DMG dealt by Chiori's own Normal Attacks is increased by an amount equal to 180% of her own DEF."
     }
   }
 }

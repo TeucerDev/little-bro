@@ -410,6 +410,13 @@
       "1": "Trong thời gian sự kiện \"Tường Vi Và Hỏa Mai\" có thể dùng để đổi những vật tư có giá trị."
     }
   },
+  "Funds": {
+    "name": "Vốn",
+    "description": {
+      "0": "Số vốn thu được từ việc kinh doanh Tiệm Giả Kim, có thể đầu tư vào nhiều phương diện khác của tiệm như mở rộng canh tác dược liệu, sản xuất thuốc hay mở rộng quy mô...",
+      "1": "Một nhà quản lý cửa tiệm đạt chuẩn sẽ luôn theo dõi chi phí vận hành và tranh thủ lưu trữ một khoản vốn dự phòng đáng kể. Có như vậy mới có thể duy trì lợi nhuận ổn định lâu dài cho tiệm và từng bước mở rộng hoạt động kinh doanh..."
+    }
+  },
   "Primogem": {
     "name": "Nguyên Thạch",
     "description": {
@@ -1075,7 +1082,9 @@
   },
   "Chiori": {
     "name": "Chiori",
-    "description": {}
+    "description": {
+      "0": "Chủ Tiệm Thời Trang Chioriya. Nhà thiết kế thời trang nổi tiếng ở Fontaine."
+    }
   },
   "KamisatoAyakasStellaFortuna": {
     "name": "Chòm Sao Của Kamisato Ayaka",
@@ -14244,8 +14253,10 @@
     }
   },
   "FashionShow": {
-    "name": "",
-    "description": {}
+    "name": "\"Buổi Trình Diễn Thời Trang\"",
+    "description": {
+      "0": "Món ăn đặc biệt của Chiori. Cá nướng thường gặp, nhưng dưới bàn tay khéo léo của cô ấy dường như đang biến hóa, khoác lên mình đủ loại trang phục tuyệt hảo, mang đến một bữa tiệc thịnh soạn cả về thị giác lẫn vị giác, thật khiến người ta choáng ngợp. Với tay nghề đó, nếu nói đây là kiệt tác của đầu bếp thì cũng không hề quá lời."
+    }
   },
   "RecipeItem": {
     "name": "Đạo Cụ Công Thức",
@@ -20878,15 +20889,15 @@
     }
   },
   "PerinheriI": {
-    "name": "",
+    "name": "Perinheri I",
     "description": {
-      "0": "???"
+      "0": "？？？"
     }
   },
   "PerinheriII": {
-    "name": "",
+    "name": "Perinheri II",
     "description": {
-      "0": "???"
+      "0": "？？？"
     }
   },
   "HelpMePlease": {
@@ -20926,98 +20937,165 @@
     }
   },
   "CultivationAreaExpansionI": {
-    "name": "",
-    "description": {}
+    "name": "Mở Rộng Canh Tác I",
+    "description": {
+      "0": "Tăng thêm một khu vực dùng để nuôi trồng dược liệu."
+    }
   },
   "CultivationAreaExpansionII": {
-    "name": "",
-    "description": {}
+    "name": "Mở Rộng Canh Tác II",
+    "description": {
+      "0": "Tăng thêm một khu vực dùng để nuôi trồng dược liệu."
+    }
   },
   "CultivationAreaExpansionIII": {
-    "name": "",
-    "description": {}
+    "name": "Mở Rộng Canh Tác III",
+    "description": {
+      "0": "Tăng thêm một khu vực dùng để nuôi trồng dược liệu."
+    }
   },
   "CultivationAreaExpansionIV": {
-    "name": "",
-    "description": {}
+    "name": "Mở Rộng Canh Tác IV",
+    "description": {
+      "0": "Tăng thêm một khu vực dùng để nuôi trồng dược liệu."
+    }
   },
   "CultivationAreaExpansionV": {
-    "name": "",
-    "description": {}
+    "name": "Mở Rộng Canh Tác V",
+    "description": {
+      "0": "Tăng thêm một khu vực dùng để nuôi trồng dược liệu."
+    }
   },
   "CultivationAreaExpansionVI": {
-    "name": "",
-    "description": {}
+    "name": "Mở Rộng Canh Tác VI",
+    "description": {
+      "0": "Tăng thêm một khu vực dùng để nuôi trồng dược liệu."
+    }
   },
   "ImprovedAlchemyCauldronI": {
-    "name": "",
-    "description": {}
+    "name": "Cải Tiến Nồi Giả Kim I",
+    "description": {
+      "0": "Cải tiến công năng của Nồi Giả Kim, mở rộng kích thước khu vực đặt dược liệu khi luyện chế thuốc."
+    }
   },
   "ImprovedAlchemyCauldronII": {
-    "name": "",
-    "description": {}
+    "name": "Cải Tiến Nồi Giả Kim II",
+    "description": {
+      "0": "Cải tiến công năng của Nồi Giả Kim, mở rộng kích thước khu vực đặt dược liệu khi luyện chế thuốc."
+    }
   },
   "ImprovedAlchemyCauldronIII": {
-    "name": "",
-    "description": {}
+    "name": "Cải Tiến Nồi Giả Kim III",
+    "description": {
+      "0": "Cải tiến công năng của Nồi Giả Kim, mở rộng kích thước khu vực đặt dược liệu khi luyện chế thuốc."
+    }
   },
   "ImprovedAlchemyCauldronIV": {
-    "name": "",
-    "description": {}
+    "name": "Cải Tiến Nồi Giả Kim IV",
+    "description": {
+      "0": "Cải tiến công năng của Nồi Giả Kim, mở rộng kích thước khu vực đặt dược liệu khi luyện chế thuốc."
+    }
   },
   "AngledDropBottle": {
-    "name": "Chai Nhỏ Giọt Góc Cạnh",
+    "name": "Lọ Giọt Nước Góc Cạnh",
     "description": {
-      "0": "Chai thuốc góc cạnh rõ ràng, trông như một giọt nước vuông vức. Với loại thuốc giả kim quý giá mà nói, quả thật mỗi giọt đều không được lãng phí..."
+      "0": "Lọ thuốc góc cạnh rõ ràng, trông như một giọt nước vuông vức. Với loại thuốc giả kim quý giá mà nói, quả thật mỗi giọt đều không được lãng phí...",
+      "1": "Có thể tăng nhẹ phẩm chất của thuốc. Tất cả hiệu ứng cung cấp từ lọ đặc biệt là giống nhau."
     }
   },
   "HeartstoppingHeartBottle": {
-    "name": "Chai Trái Tim Kỳ Diệu",
+    "name": "Lọ Trái Tim Kỳ Diệu",
     "description": {
-      "0": "Chai thuốc với phần chân cao, sử dụng thiết kế hình trái tim. Nghe nói, dù đựng loại thuốc màu gì thì cũng đều mang lại cảm giác vui vẻ cho khách hàng..."
+      "0": "Lọ thuốc với phần chân cao, sử dụng thiết kế hình trái tim. Nghe nói, dù đựng loại thuốc màu gì thì cũng đều mang lại cảm giác vui vẻ cho khách hàng...",
+      "1": "Có thể tăng nhẹ phẩm chất của thuốc. Tất cả hiệu ứng cung cấp từ lọ đặc biệt là giống nhau."
     }
   },
   "TranquilBayBottle": {
-    "name": "Chai Vùng Vịnh Yên Tĩnh",
+    "name": "Lọ Vùng Vịnh Yên Tĩnh",
     "description": {
-      "0": "Chai thuốc được thiết kế tinh xảo với phần cổ dài độc đáo. Nghe nói loại chai này được nhà thiết kế ví von như một \"vùng vịnh yên tĩnh\"..."
+      "0": "Lọ thuốc được thiết kế tinh xảo với phần cổ dài độc đáo. Nghe nói loại này được nhà thiết kế ví von như một \"vùng vịnh yên tĩnh\"...",
+      "1": "Có thể tăng nhẹ phẩm chất của thuốc. Tất cả hiệu ứng cung cấp từ lọ đặc biệt là giống nhau."
     }
   },
   "GorgeousGemBottle": {
-    "name": "Chai Đá Quý Lộng Lẫy",
+    "name": "Lọ Đá Quý Lộng Lẫy",
     "description": {
-      "0": "Chai thuốc với miệng hẹp và thân rộng, phần ngoại hình có nhiều đường thẳng đan xen tựa như một viên đá quý lớn, mang lại cảm giác đặc biệt xa hoa cho khách hàng..."
+      "0": "Lọ thuốc với miệng hẹp và thân rộng, phần ngoại hình có nhiều đường thẳng đan xen tựa như một viên đá quý lớn, mang lại cảm giác xa hoa cho khách hàng...",
+      "1": "Có thể tăng nhẹ phẩm chất của thuốc. Tất cả hiệu ứng cung cấp từ lọ đặc biệt là giống nhau."
     }
   },
   "ChonkyCatBottle": {
-    "name": "Chai Mèo Mũm Mĩm",
+    "name": "Lọ Mèo Mũm Mĩm",
     "description": {
-      "0": "Chai thuốc có hình dáng tròn trĩnh tựa như một chú mèo mũm mĩm. Các vị khách yêu thích những thứ đáng yêu rất dễ bị chai thuốc này thu hút sự chú ý..."
+      "0": "Lọ thuốc có hình dáng tròn trĩnh tựa như một chú mèo mũm mĩm. Các vị khách yêu thích những thứ đáng yêu rất dễ bị lọ thuốc này thu hút sự chú ý...",
+      "1": "Có thể tăng nhẹ phẩm chất của thuốc. Tất cả hiệu ứng cung cấp từ lọ đặc biệt là giống nhau."
     }
   },
   "WindwheelAstersAroma": {
     "name": "Mùi Hương Của Cúc Cánh Quạt",
-    "description": {}
+    "description": {
+      "0": "Phụ kiện lọ kết hợp từ Cúc Cánh Quạt và lá cây xanh, dường như có thể bao bọc lấy lọ thuốc trong làn gió nhẹ ấm áp..."
+    }
   },
   "ResplendentAsACrystalfly": {
     "name": "Lấp Lánh Như Tinh Điệp",
-    "description": {}
+    "description": {
+      "0": "Đồ trang trí hình Tinh Điệp, cực kỳ bắt mắt, có thể thu hút sự chú ý của khách hàng trong nháy mắt..."
+    }
   },
   "PerfectGiftRibbon": {
-    "name": "Đai Quà Tặng Hoàn Hảo",
-    "description": {}
+    "name": "Ruy Băng Hoàn Hảo",
+    "description": {
+      "0": "Phụ kiện ruy băng hình bươm bướm, hình như có thể khiến lọ thuốc tràn ngập cảm giác bất ngờ như gói trong hộp quà vậy..."
+    }
   },
   "RaspberryRedFlyingFlowerFeather": {
-    "name": "Cánh Hoa Bay Đỏ Thắm",
-    "description": {}
+    "name": "Lông Vũ Bay Đỏ Thắm",
+    "description": {
+      "0": "Phụ kiện có hình dạng lông vũ với phần điểm xuyết màu đỏ thắm. Nghe nói có thể giúp khách hàng liên tưởng đến hình tượng của loài chim..."
+    }
   },
   "GoldGildAndEmerald": {
     "name": "Vàng Mạ Và Ngọc Bích",
-    "description": {}
+    "description": {
+      "0": "Phụ kiện với tạo hình từ khung vàng và đá quý xanh. \"Đá quý\" được làm từ thủy tinh, vừa thẩm mỹ lại vừa tiết kiệm..."
+    }
+  },
+  "ShopDecorationBloomingMorale": {
+    "name": "Đồ Trang Trí Tiệm - \"Sĩ Khí Nở Rộ\"",
+    "description": {
+      "0": "Đồ trang trí đặc biệt dành riêng cho Tiệm Giả Kim của Đội Kỵ Sĩ. Bồn hoa hai tầng đẹp mắt, nghe nói là \"món đồ gia tăng sĩ khí\" do thành viên nào đó của Đội Điều Tra quyên tặng."
+    }
+  },
+  "ShopDecorationBloomingAtmosphere": {
+    "name": "Đồ Trang Trí Tiệm - \"Không Khí Nở Rộ\"",
+    "description": {
+      "0": "Đồ trang trí đặc biệt dành riêng cho Tiệm Giả Kim của Đội Kỵ Sĩ. Những bông hoa màu xanh lam và màu be được trồng đan xen, nghe nói là \"món đồ tạo bầu không khí\" do thành viên nào đó của Đội Hậu Cần quyên tặng."
+    }
+  },
+  "ShopDecorationPotentPotions": {
+    "name": "Đồ Trang Trí Tiệm - \"Thuốc Hiệu Quả Cao\"",
+    "description": {
+      "0": "Đồ trang trí đặc biệt dành riêng cho Tiệm Giả Kim của Đội Kỵ Sĩ. Món đồ có thể được treo trên mái lều của tiệm, thuốc ở trong hình được lấy cảm hứng từ tạo hình kinh điển trong ấn tượng của mọi người..."
+    }
+  },
+  "ShopDecorationPortentousPotions": {
+    "name": "Đồ Trang Trí Tiệm - \"Thuốc Kỳ Diệu\"",
+    "description": {
+      "0": "Đồ trang trí đặc biệt dành riêng cho Tiệm Giả Kim của Đội Kỵ Sĩ. Đây cũng là biển quảng cáo mà Tiệm Giả Kim đặt khắp nơi xung quanh Thành Mondstadt nhằm quảng bá cửa tiệm, thuốc ở trong hình được lấy cảm hứng từ tạo hình kinh điển trong ấn tượng của mọi người..."
+    }
+  },
+  "ShopDecorationPrismaticEffects": {
+    "name": "Đồ Trang Trí Tiệm - \"Hiệu Ứng Đa Sắc\"",
+    "description": {
+      "0": "Đồ trang trí đặc biệt dành riêng cho Tiệm Giả Kim của Đội Kỵ Sĩ. Những lá cờ nhiều màu sắc được treo lên, nghe nói \"rực rỡ\" cũng là điều tượng trưng cho các hiệu quả của thuốc giả kim thần kỳ..."
+    }
   },
   "SalesExpansionContract": {
-    "name": "",
-    "description": {}
+    "name": "Hợp Đồng Mở Rộng Đại Lý",
+    "description": {
+      "0": "Tuyển dụng thêm một đại lý phân phối."
+    }
   },
   "XuanlianSacredWater": {
     "name": "Huyền Luyện Tiên Thủy",
@@ -21062,8 +21140,16 @@
     }
   },
   "CultivationAreaExpansionVII": {
-    "name": "",
-    "description": {}
+    "name": "Mở Rộng Canh Tác VII",
+    "description": {
+      "0": "Tăng thêm một khu vực dùng để nuôi trồng dược liệu."
+    }
+  },
+  "Alchemeter": {
+    "name": "Công Cụ Nghiên Cứu Dược Liệu",
+    "description": {
+      "0": "Thiết bị nghiên cứu dược liệu đặc biệt chế tác bởi Đội Kỵ Sĩ, có thể đặt các dược liệu sử dụng ở Tiệm Giả Kim vào trong để phân tích đặc tính, gia tăng Cấp Dược Liệu tương ứng, từ đó cải thiện hiệu quả sử dụng dược liệu trên nhiều phương diện..."
+    }
   },
   "TearsAmongTheStars": {
     "name": "Giọt Lệ Giữa Những Vì Sao",
@@ -22624,6 +22710,14 @@
       "0": "Đạo cụ tinh luyện chuyên dụng của \"Bá Vương Tối Thượng Siêu Cấp Ma Kiếm\".",
       "1": "Có thể ghép nhiều tâm nguyện (và cả những tấm bìa cứng cực ngầu) lại với nhau một cách chắc chắn, từ đó sinh ra sức mạnh tối thượng thần kỳ vô địch.",
       "2": "Tuy những đạo cụ nhỏ với tạo hình tương tự (hoặc có thể nói là hoàn toàn giống nhau) có thể mua được tại Bách Hóa Damoville, nhưng không chừng thực tế giữa cả hai lại tồn tại sự khác biệt về bản chất, vì vậy tuyệt đối đừng nhầm lẫn!"
+    }
+  },
+  "ExaltedEarth": {
+    "name": "\"Vua Của Mặt Đất\"",
+    "description": {
+      "0": "Đạo cụ tinh luyện \"Đối Thoại Của Hiền Giả Sa Mạc\".",
+      "1": "Trong giáo trình cơ bản về Thuật Giả Kim, thủy ngân được gọi là \"Vua Của Mặt Đất\", vì nó thậm chí có thể nuốt chửng vàng một cách tham lam. Vì vậy, Thuật Giả Kim cũng dùng nó để tượng trưng cho kim loại.",
+      "2": "Sau khi khô và hóa bụi thì nó vẫn mang tính chất biến đổi."
     }
   },
   "FalconsDance": {
@@ -24250,6 +24344,13 @@
       "1": "Chúng ta tạm biệt nhau trong một giai điệu, rồi gặp lại trong một giai điệu khác."
     }
   },
+  "TravelNotesArcaneAmassing": {
+    "name": "Nhật Ký Hành Trình - Hóa Kỹ",
+    "description": {
+      "0": "Hoa văn danh thiếp.",
+      "1": "Thuật giả kim là môn khoa học nghiên cứu cách vật chất biến đổi lẫn nhau, nhưng dùng thuật giả kim để luyện chế thuốc thì chất lượng sẽ giảm đi đôi chút. Nhưng đôi chút đó biết đâu sẽ khiến tâm trạng của mọi người vui lên nhỉ, ai mà biết được?"
+    }
+  },
   "AnemoculusResonanceStone": {
     "name": "Đá Cộng Hưởng Phong Thần Đồng",
     "description": {
@@ -25804,7 +25905,7 @@
     }
   },
   "ElectroCicinsFlicker": {
-    "name": "",
+    "name": "Cicin Lôi Lấp Lánh",
     "description": {
       "0": "Thẻ bài \"Thất Thánh Triệu Hồi\", chất liệu rất tốt. Hình minh họa trên đó không biết là dùng cách in ấn đặc biệt nào để làm ra, trông rất tinh tế."
     }
@@ -26811,14 +26912,14 @@
       "0": "Thẻ bài \"Thất Thánh Triệu Hồi\", chất liệu rất tốt. Hình minh họa trên đó không biết là dùng cách in ấn đặc biệt nào để làm ra, trông rất tinh tế."
     }
   },
-  "SiegeOfDecarabian": {
-    "name": "",
+  "DayOfResistanceMomentOfShatteredDreams": {
+    "name": "Ngày Kháng Chiến - Khoảnh Khắc Vỡ Mộng",
     "description": {
       "0": "Thẻ bài \"Thất Thánh Triệu Hồi\", chất liệu rất tốt. Hình minh họa trên đó không biết là dùng cách in ấn đặc biệt nào để làm ra, trông rất tinh tế."
     }
   },
-  "ResearchInstituteExplosion": {
-    "name": "",
+  "ControlledDirectionalBlast": {
+    "name": "Nổ Định Hướng Có Kiểm Soát",
     "description": {
       "0": "Thẻ bài \"Thất Thánh Triệu Hồi\", chất liệu rất tốt. Hình minh họa trên đó không biết là dùng cách in ấn đặc biệt nào để làm ra, trông rất tinh tế."
     }
@@ -26903,6 +27004,12 @@
   },
   "TheChasmSolidIron": {
     "name": "Vực Đá Sâu - Sắt Cứng",
+    "description": {
+      "0": "Lưng bài nhận được trong \"Thất Thánh Triệu Hồi\", tạo hình rất đa dạng, chất liệu cũng có đôi chút khác nhau. Có nhiều bài thủ có sở thích và đam mê sưu tập lưng bài."
+    }
+  },
+  "TheChasmBlueCrystal": {
+    "name": "Vực Đá Sâu - Pha Lê Lam",
     "description": {
       "0": "Lưng bài nhận được trong \"Thất Thánh Triệu Hồi\", tạo hình rất đa dạng, chất liệu cũng có đôi chút khác nhau. Có nhiều bài thủ có sở thích và đam mê sưu tập lưng bài."
     }
@@ -28652,6 +28759,20 @@
       "1": "Sau khi dùng có thể đến giao diện chế tạo để xem."
     }
   },
+  "TeahouseLongTableToolsOfNostalgia": {
+    "name": "Bàn Dài Phòng Trà - Hồi Ức Ngày Cũ",
+    "description": {
+      "0": "Bản vẽ chi tiết từng bước, ghi lại cách chế tạo \"Bàn Dài Phòng Trà - Hồi Ức Ngày Cũ\".",
+      "1": "Sau khi dùng có thể đến giao diện chế tạo để xem."
+    }
+  },
+  "TeahouseToolQualiteaReview": {
+    "name": "Dụng Cụ Phòng Trà - Thẩm Trà Kiểm Chất",
+    "description": {
+      "0": "Bản vẽ chi tiết từng bước, ghi lại cách chế tạo \"Dụng Cụ Phòng Trà - Thẩm Trà Kiểm Chất\".",
+      "1": "Sau khi dùng có thể đến giao diện chế tạo để xem."
+    }
+  },
   "BreezeBlessedBed": {
     "name": "Giường Bảo Vệ Êm Ái",
     "description": {
@@ -28754,6 +28875,20 @@
     "name": "Khoảnh Khắc Mừng Buổi Diễn Ngẫu Hứng",
     "description": {
       "0": "Bản vẽ chi tiết từng bước, ghi lại cách chế tạo \"Khoảnh Khắc Mừng Buổi Diễn Ngẫu Hứng\".",
+      "1": "Sau khi dùng có thể đến giao diện chế tạo để xem."
+    }
+  },
+  "TeahouseStoveACapitalCook": {
+    "name": "Bếp Lò Phòng Trà - Lửa Hay Nấu Khéo",
+    "description": {
+      "0": "Bản vẽ chi tiết từng bước, ghi lại cách chế tạo \"Bếp Lò Phòng Trà - Lửa Hay Nấu Khéo\".",
+      "1": "Sau khi dùng có thể đến giao diện chế tạo để xem."
+    }
+  },
+  "TeahouseStoveSlowSteaming": {
+    "name": "Bếp Lò Phòng Trà - Hấp Kỹ Sấy Chậm",
+    "description": {
+      "0": "Bản vẽ chi tiết từng bước, ghi lại cách chế tạo \"Bếp Lò Phòng Trà - Hấp Kỹ Sấy Chậm\".",
       "1": "Sau khi dùng có thể đến giao diện chế tạo để xem."
     }
   },
@@ -28908,6 +29043,13 @@
     "name": "Giây Phút Thư Giãn Ở Trung Tâm",
     "description": {
       "0": "Bản vẽ chi tiết từng bước, ghi lại cách chế tạo \"Giây Phút Thư Giãn Ở Trung Tâm\".",
+      "1": "Sau khi dùng có thể đến giao diện chế tạo để xem."
+    }
+  },
+  "TeahouseBenchSimpleSeating": {
+    "name": "Băng Ghế Phòng Trà - Ghế Dài Giản Dị",
+    "description": {
+      "0": "Bản vẽ chi tiết từng bước, ghi lại cách chế tạo \"Băng Ghế Phòng Trà - Ghế Dài Giản Dị\".",
       "1": "Sau khi dùng có thể đến giao diện chế tạo để xem."
     }
   },
@@ -29279,6 +29421,27 @@
     "name": "Giá Nhạc Tiêu Chuẩn - \"Chỉnh Âm Chính Xác\"",
     "description": {
       "0": "Bản vẽ chi tiết từng bước, ghi lại cách chế tạo \"Giá Nhạc Tiêu Chuẩn - 'Chỉnh Âm Chính Xác'\".",
+      "1": "Sau khi dùng có thể đến giao diện chế tạo để xem."
+    }
+  },
+  "FreshBudsFromMountainsAndWaters": {
+    "name": "Non Nước Đâm Chồi",
+    "description": {
+      "0": "Bản vẽ chi tiết từng bước, ghi lại cách chế tạo \"Non Nước Đâm Chồi\".",
+      "1": "Sau khi dùng có thể đến giao diện chế tạo để xem."
+    }
+  },
+  "TeahouseToolDryStorage": {
+    "name": "Dụng Cụ Phòng Trà - Phương Thức Trữ Nắng",
+    "description": {
+      "0": "Bản vẽ chi tiết từng bước, ghi lại cách chế tạo \"Dụng Cụ Phòng Trà - Phương Thức Trữ Nắng\".",
+      "1": "Sau khi dùng có thể đến giao diện chế tạo để xem."
+    }
+  },
+  "TeahouseToolClearView": {
+    "name": "Dụng Cụ Phòng Trà - Ngắm Nhìn Quy Củ",
+    "description": {
+      "0": "Bản vẽ chi tiết từng bước, ghi lại cách chế tạo \"Dụng Cụ Phòng Trà - Ngắm Nhìn Quy Củ\".",
       "1": "Sau khi dùng có thể đến giao diện chế tạo để xem."
     }
   },
@@ -29828,6 +29991,20 @@
       "1": "Sau khi dùng có thể đến giao diện chế tạo để xem."
     }
   },
+  "TeahouseToolMinisculeMissesMakeAMile": {
+    "name": "Dụng Cụ Phòng Trà - Nặng Hơn Một Xíu",
+    "description": {
+      "0": "Bản vẽ chi tiết từng bước, ghi lại cách chế tạo \"Dụng Cụ Phòng Trà - Nặng Hơn Một Xíu\".",
+      "1": "Sau khi dùng có thể đến giao diện chế tạo để xem."
+    }
+  },
+  "MellowTeaInARedClayPot": {
+    "name": "Trà Êm Dịu Trong Ấm Đất Đỏ",
+    "description": {
+      "0": "Bản vẽ chi tiết từng bước, ghi lại cách chế tạo \"Trà Êm Dịu Trong Ấm Đất Đỏ\".",
+      "1": "Sau khi dùng có thể đến giao diện chế tạo để xem."
+    }
+  },
   "RealizationsFromTheLandOfWisdom": {
     "name": "Thức Tỉnh Ở Vùng Đất Trí Tuệ",
     "description": {
@@ -30273,6 +30450,20 @@
     "name": "Nhà Ở Thung Lũng - Tầng Lầu Nhỏ Gọn",
     "description": {
       "0": "Bản vẽ chi tiết từng bước, ghi lại cách chế tạo \"Nhà Ở Thung Lũng - Tầng Lầu Nhỏ Gọn\".",
+      "1": "Sau khi dùng có thể đến giao diện chế tạo để xem."
+    }
+  },
+  "ValleyResidenceItsClassified": {
+    "name": "Nhà Ở Thung Lũng - Phân Loại Tập Hợp",
+    "description": {
+      "0": "Bản vẽ chi tiết từng bước, ghi lại cách chế tạo \"Nhà Ở Thung Lũng - Phân Loại Tập Hợp\".",
+      "1": "Sau khi dùng có thể đến giao diện chế tạo để xem."
+    }
+  },
+  "PortsFabulousFlavors": {
+    "name": "Trăm Hương Khói Bếp Trên Bến Cảng",
+    "description": {
+      "0": "Bản vẽ chi tiết từng bước, ghi lại cách chế tạo \"Trăm Hương Khói Bếp Trên Bến Cảng\".",
       "1": "Sau khi dùng có thể đến giao diện chế tạo để xem."
     }
   },
@@ -33391,6 +33582,41 @@
       "1": "Sau khi dùng có thể đến giao diện chế tạo để xem."
     }
   },
+  "TeaHarvestsStockpilingAndTransport": {
+    "name": "Thu Hoạch Trà Tích Trữ Vận Chuyển",
+    "description": {
+      "0": "Bản vẽ chi tiết từng bước, ghi lại cách chế tạo \"Thu Hoạch Trà Tích Trữ Vận Chuyển\".",
+      "1": "Sau khi dùng có thể đến giao diện chế tạo để xem."
+    }
+  },
+  "TeaHarvestsFisheryInspiration": {
+    "name": "Thu Hoạch Trà Cảm Hứng Đánh Bắt",
+    "description": {
+      "0": "Bản vẽ chi tiết từng bước, ghi lại cách chế tạo \"Thu Hoạch Trà Cảm Hứng Đánh Bắt\".",
+      "1": "Sau khi dùng có thể đến giao diện chế tạo để xem."
+    }
+  },
+  "TeaHarvestsMultitool": {
+    "name": "Thu Hoạch Trà Đồ Tốt Đa Dụng",
+    "description": {
+      "0": "Bản vẽ chi tiết từng bước, ghi lại cách chế tạo \"Thu Hoạch Trà Đồ Tốt Đa Dụng\".",
+      "1": "Sau khi dùng có thể đến giao diện chế tạo để xem."
+    }
+  },
+  "TeaHarvestsFormulaForFragrance": {
+    "name": "Thu Hoạch Trà Phương Pháp Tạo Hương",
+    "description": {
+      "0": "Bản vẽ chi tiết từng bước, ghi lại cách chế tạo \"Thu Hoạch Trà Phương Pháp Tạo Hương\".",
+      "1": "Sau khi dùng có thể đến giao diện chế tạo để xem."
+    }
+  },
+  "TeaHarvestsSunDriedFragrance": {
+    "name": "Thu Hoạch Trà Hương Thơm Phơi Nắng",
+    "description": {
+      "0": "Bản vẽ chi tiết từng bước, ghi lại cách chế tạo \"Thu Hoạch Trà Hương Thơm Phơi Nắng\".",
+      "1": "Sau khi dùng có thể đến giao diện chế tạo để xem."
+    }
+  },
   "WeatheredBambooFence": {
     "name": "Hàng Rào Trúc Sờn Cũ",
     "description": {
@@ -33559,6 +33785,13 @@
       "1": "Sau khi dùng có thể đến giao diện chế tạo để xem."
     }
   },
+  "TeaVillageStoneBenchSafeSpaciousSturdy": {
+    "name": "Ghế Đá Vườn Trà - Yên Bình Vững Chắc",
+    "description": {
+      "0": "Bản vẽ chi tiết từng bước, ghi lại cách chế tạo \"Ghế Đá Vườn Trà - Yên Bình Vững Chắc\".",
+      "1": "Sau khi dùng có thể đến giao diện chế tạo để xem."
+    }
+  },
   "TwoStoryHilichurlSentryTower": {
     "name": "Tháp Canh Hilichurl Hai Tầng",
     "description": {
@@ -33696,6 +33929,13 @@
     "name": "Bàn Vuông Trà Thơm - Đón Khách Bốn Phương",
     "description": {
       "0": "Bản vẽ chi tiết từng bước, ghi lại cách chế tạo \"Bàn Vuông Trà Thơm - Đón Khách Bốn Phương\".",
+      "1": "Sau khi dùng có thể đến giao diện chế tạo để xem."
+    }
+  },
+  "TeaVillageStoneTableCulturedLeisure": {
+    "name": "Bàn Đá Vườn Trà - Nhàn Nhã Thanh Lịch",
+    "description": {
+      "0": "Bản vẽ chi tiết từng bước, ghi lại cách chế tạo \"Bàn Đá Vườn Trà - Nhàn Nhã Thanh Lịch\".",
       "1": "Sau khi dùng có thể đến giao diện chế tạo để xem."
     }
   },
