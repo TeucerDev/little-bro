@@ -1,0 +1,171 @@
+{
+  "name": "Arlecchino",
+  "title": "???",
+  "description": "",
+  "constellationName": "Purgans Flamma",
+  "auto": {
+    "name": "Bidden Beheading",
+    "fields": {
+      "normal": {
+        "0": "<strong><strong>Normal Attack</strong>",
+        "1": "Performs a maximum of 6 consecutive strikes."
+      },
+      "charged": {
+        "0": "<strong>Charged Attack</strong>",
+        "1": "Consumes a fixed amount of Stamina, dashing toward a nearby opponent and cleaving once."
+      },
+      "plunging": {
+        "0": "<strong>Plunging Attack</strong>",
+        "1": "Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact."
+      },
+      "infusion": {
+        "0": "<strong>In Praise of Shadows and the Masque of the Red Death</strong>",
+        "1": "When Arlecchino has a Bond of Life equal to or greater than 30% of her Max HP, she receives a 40% <pyro>Pyro DMG Bonus</pyro> and her Normal, Charged, and Plunging Attacks will be converted to deal <pyro>Pyro DMG</pyro>. This cannot be overridden.",
+        "2": "When in the \"In Praise of Shadows\" state, Arlecchino's Normal Attacks will be converted to \"Masque of the Red Death\": When she hits an opponent, this attack will deal extra DMG that is scaled off her ATK multiplied by her current Bond of Life percentage. This will consume 5.5% of said current Bond of Life. A Bond of Life can be consumed this way every 0.05s."
+      }
+    },
+    "skillParams": {
+      "0": "1-Hit DMG",
+      "1": "2-Hit DMG",
+      "2": "3-Hit DMG",
+      "3": "4-Hit DMG",
+      "4": "5-Hit DMG",
+      "5": "6-Hit DMG",
+      "6": "Charged Attack DMG",
+      "7": "Charged Attack Stamina Cost",
+      "8": "Plunge DMG",
+      "9": "Low/High Plunge DMG",
+      "10": "Blood Debt DMG Increase",
+      "11": "",
+      "12": "",
+      "13": "",
+      "14": "",
+      "15": ""
+    }
+  },
+  "skill": {
+    "name": "All is Ash",
+    "description": {
+      "0": "Summons forth Balemoon Bloodfire, dealing <pyro>Pyro DMG</pyro> to multiple nearby opponents and performing a dash-cleave against one of them, dealing <pyro>AoE Pyro DMG</pyro>. Opponents hit by the aforementioned attack will have a Blood-Debt Directive applied to them. After the dash-cleave, Arlecchino's Bond of Life will be cleared, and Nourishing Cinders will trigger: Arlecchino recovers HP equivalent to 100% of the value of the Life Bond that was cleared.",
+      "1": "<br/>",
+      "2": "<strong>Blood-Debt Directive</strong>",
+      "3": [
+        " Lasts 30s. Every 3s, it will deal 1 instance of <pyro>Pyro DMG</pyro> to the opponent. Max 3 instances.",
+        " When Arlecchino uses a Charged Attack, she will absorb and clear nearby Blood-Debt Directives that she applied. Each Directive absorbed grants her a Bond of Life worth 20% of her Max HP.",
+        " The maximum value of the Bond of Life she can be granted through this method within 20s after using her Elemental Skill is 80% of her Max HP."
+      ],
+      "4": "<br/>",
+      "5": "<i>As she sees it, not every grain of wheat that falls upon the earth will grow into an ear, while those who obstruct her, once burned to ashes, can certainly be used to nourish flowers.</i>"
+    },
+    "skillParams": {
+      "0": "Spike Skill DMG",
+      "1": "Final Skill DMG",
+      "2": "Blood-Debt Sigil DMG",
+      "3": "CD",
+      "4": "",
+      "5": "",
+      "6": "",
+      "7": "",
+      "8": "",
+      "9": "",
+      "10": "",
+      "11": "",
+      "12": "",
+      "13": "",
+      "14": "",
+      "15": ""
+    }
+  },
+  "burst": {
+    "name": "Balemoon Rising",
+    "description": {
+      "0": "Great wings of Balemoon Bloodfire beat, granting Arlecchino a Bond of Life worth 15% of her Max HP and dealing <pyro>AoE Pyro DMG</pyro>.",
+      "1": "<br/>",
+      "2": "<i>It is commonly believed throughout Teyvat that moon phases other than the full moon are mere metaphors of ill-omen, used only by those who practice alchemy and astrology.",
+      "3": "She saw this crimson moon in her dreams many times. Were those portents of disaster? Indeed they were, but the destined catastrophes belonged to those who enraged her.</i>"
+    },
+    "skillParams": {
+      "0": "Burst DMG",
+      "1": "Life Bond Obtained",
+      "2": "CD",
+      "3": "",
+      "4": "",
+      "5": "",
+      "6": "",
+      "7": "",
+      "8": "",
+      "9": "",
+      "10": "",
+      "11": "",
+      "12": "",
+      "13": "",
+      "14": "",
+      "15": ""
+    }
+  },
+  "passive1": {
+    "name": "Agony Alone May Be Repaid",
+    "description": {
+      "0": "Defeating a foe with <strong>Blood-Debt Directive</strong> will immediately grant Arlecchino a Bond of Life worth 70% of her Max HP.",
+      "1": "Additionally, Blood-Debt Directive has levels. At different levels, absorbing a Directive will grant Arlecchino differing amounts of Bond of Life.",
+      "2": [
+        " Directives start at Level 1, increasing every 3s until Level 3 is reached.",
+        " Arlecchino will gain a Bond of Life worth 20%/25%/70% of her Max HP when absorbing a Level 1/2/3 Directive."
+      ]
+    }
+  },
+  "passive2": {
+    "name": "Strength Alone Can Defend",
+    "description": {
+      "0": "Arlecchino gains 1% All Elemental and Physical RES for every 100 ATK she has in excess of 1,000. The maximum RES increase she can gain this way for each is 20%."
+    }
+  },
+  "passive3": {
+    "name": "Cinders Alone Shall Nourish",
+    "description": {
+      "0": "While in combat, Arlecchino can only receive the healing effect from <strong>All is Ash</strong>'s Nourishing Cinders."
+    }
+  },
+  "constellation1": {
+    "name": "\"All Reprisals and Arrears Are Mine to Bear...\"",
+    "description": {
+      "0": "When <strong>Normal Attack: Bidden Beheading</strong>'s \"Masque of the Red Death\" hits an opponent, it has a 33% chance of not consuming Arlecchino's Bond of Life, instead granting a Bond of Life worth 5% of her Max HP."
+    }
+  },
+  "constellation2": {
+    "name": "\"All Reward and Retribution, Mine to Bestow...\"",
+    "description": {
+      "0": "<strong>Blood-Debt Directives</strong> are now Level 2 when first applied.",
+      "1": "When Arlecchino absorbs a Level 3 Directive, she will unleash a flare of Balemoon Bloodfire, dealing 900% of her ATK as <pyro>AoE Pyro DMG</pyro>. This effect can trigger once every 10s.",
+      "2": "You must first unlock the Passive Talent \"Agony Alone May Be Repaid.\""
+    }
+  },
+  "constellation3": {
+    "name": "\"You Shall Become a New Member of Our Family...\"",
+    "description": {
+      "0": "Increases the Level of <strong>Normal Attack: Bidden Beheading</strong> by 3.",
+      "1": "Maximum upgrade level is 15."
+    }
+  },
+  "constellation4": {
+    "name": "\"Love and Protect Each Other Henceforth...\"",
+    "description": {
+      "0": "The value of the Bond of Life granted by <strong>Balemoon Rising</strong> is increased to 25% of her Max HP, and when she hits an opponent with Blood-Debt Directive applied to them, she will increase that Directive's Level by 1. You must first unlock the Passive Talent \"Agony Alone May Be Repaid.\"",
+      "1": "Additionally, when successfully absorbing a Directive, Balemoon Rising's CD will be decreased by 2s and Arlecchino will have 15 Energy restored to her. This effect can be triggered once every 10s."
+    }
+  },
+  "constellation5": {
+    "name": "\"For Alone, We Are as Good as Dead...\"",
+    "description": {
+      "0": "Increases the Level of <strong>Balemoon Rising</strong> by 3.",
+      "1": "Maximum upgrade level is 15."
+    }
+  },
+  "constellation6": {
+    "name": "\"From This Day On, We Shall Delight in New Life Together.\"",
+    "description": {
+      "0": "The DMG of <strong>All is Ash</strong>'s dash-cleave is increased by Arlecchino's ATK multiplied by 500% of Arlecchino's current Life Bond percentage.",
+      "1": "For 20s after Arlecchino uses All is Ash, both her Normal Attacks and Elemental Burst gain 10% increased CRIT Rate and 70% increased CRIT DMG. This effect can be triggered up to once every 15s."
+    }
+  }
+}
