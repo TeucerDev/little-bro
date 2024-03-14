@@ -1,1 +1,0 @@
-import{k as c,c6 as t,c7 as r,c8 as s,bl as n,F as l}from"./index-cfc9ffd6.js";function o({slotKey:a,iconProps:e={}}){switch(a){case"flower":return c(l,{...e});case"plume":return c(n,{...e});case"sands":return c(s,{...e});case"goblet":return c(r,{...e});case"circlet":return c(t,{...e})}}export{o as S};
