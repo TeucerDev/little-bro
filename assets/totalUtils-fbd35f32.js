@@ -1,1 +1,0 @@
-import{W as a}from"./index-c6225add.js";function i(o,t){const n=a(o,r=>c(r));return t(n),a(n,r=>u(r))}function b(o,t){const n=c(o);return t(n),u(n)}function c(o){return Object.fromEntries(o.map(t=>[t,{total:0,current:0}]))}function u(o){return a(o,({total:t,current:n})=>n===t?`${t}`:`${n}/${t}`)}export{i as b,b as c};
