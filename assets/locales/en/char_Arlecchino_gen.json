@@ -1,7 +1,7 @@
 {
   "name": "Arlecchino",
   "title": "Dire Balemoon",
-  "description": "",
+  "description": "\"The Knave,\" Fourth of the Fatui Harbingers. A poised, ruthless diplomat. To the children in the House of the Hearth, she is their feared yet dependable \"Father.\"",
   "constellationName": "Ignis Purgatorius",
   "auto": {
     "name": "Invitation to a Beheading",
@@ -26,7 +26,7 @@
       }
     },
     "skillParams": {
-      "0": "Masque of the Red Death Scaling Ratio",
+      "0": "Masque of the Red Death Increase",
       "1": "1-Hit DMG",
       "2": "2-Hit DMG",
       "3": "3-Hit DMG",
@@ -53,7 +53,7 @@
       "3": "<strong>Blood-Debt Directive</strong>",
       "4": [
         " Lasts 30s. Every 5s, it will deal 1 instance of <pyro>Pyro DMG</pyro> to the opponent. Max 2 instances. This DMG will be considered Elemental Skill DMG.",
-        " When Arlecchino uses a Charged Attack, she will absorb and clear nearby Blood-Debt Directives. Each Directive absorbed grants her a Bond of Life worth 40% of her Max HP.",
+        " When Arlecchino uses a Charged Attack or Balemoon Rising, she will absorb and clear nearby Blood-Debt Directives. Each Directive absorbed grants her a Bond of Life worth 40% of her Max HP.",
         " The maximum value of the Bond of Life she can be granted through Blood-Debt Directives within 35s after using her Elemental Skill is 80% of her Max HP. Using the Elemental Skill again during this duration will restart the count on duration and the limit on the value of Bond of Life she may gain from Blood-Debt Directives."
       ],
       "5": "<br/>",
@@ -88,9 +88,9 @@
     },
     "skillParams": {
       "0": "Skill DMG",
-      "1": "CD",
-      "2": "Energy Cost",
-      "3": "",
+      "1": "Amount of HP Restored",
+      "2": "CD",
+      "3": "Energy Cost",
       "4": "",
       "5": "",
       "6": "",
