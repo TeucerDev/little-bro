@@ -8,12 +8,12 @@
     "fields": {
       "normal": {
         "0": "<strong><strong>Normal Attack</strong>",
-        "1": "Performs a maximum of 6 consecutive strikes."
+        "1": "Performs up to 6 consecutive spear strikes."
       },
       "charged": {
         "0": "<strong>Charged Attack</strong>",
         "1": "Consumes a fixed amount of Stamina, dashing toward a nearby opponent and cleaving once.",
-        "2": "Continuously holding this button will cause Arlecchino to consume Stamina and engage in up to 3s of high-speed movement."
+        "2": "Continuously holding this button will cause Arlecchino to consume Stamina and engage in up to 5s of high-speed movement."
       },
       "plunging": {
         "0": "<strong>Plunging Attack</strong>",
@@ -21,8 +21,8 @@
       },
       "infusion": {
         "0": "<strong>Masque of the Red Death</strong>",
-        "1": "When Arlecchino has a Bond of Life equal to or greater than 20% of her Max HP, she will enter the \"Masque of the Red Death\" state, where her Normal, Charged, and Plunging Attacks will be converted to deal <pyro>Pyro DMG</pyro>. This cannot be overridden.",
-        "2": "When in the \"Masque of the Red Death\" state, Arlecchino's Normal Attacks will deal extra DMG to opponents on hit that scales off her ATK multiplied by a certain ratio of her current Bond of Life percentage. This will consume 6.5% of said current Bond of Life. Her Bond of Life can be consumed this way every 0.05s. When her Bond of Life is consumed in this manner, All is Ash's CD will decrease by 0.8s."
+        "1": "When Arlecchino has a Bond of Life equal to or greater than 30% of her Max HP, she will enter the \"Masque of the Red Death\" state, where her Normal, Charged, and Plunging Attacks will be converted to deal <pyro>Pyro DMG</pyro>. This cannot be overridden.",
+        "2": "When in the \"Masque of the Red Death\" state, Arlecchino's Normal Attacks will deal extra DMG to opponents on hit that scales off her ATK multiplied by a certain ratio of her current Bond of Life percentage. This will consume 7.5% of said current Bond of Life. Her Bond of Life can be consumed this way every 0.03s. When her Bond of Life is consumed in this manner, All Is Ash's CD will decrease by 0.8s."
       }
     },
     "skillParams": {
@@ -45,7 +45,7 @@
     }
   },
   "skill": {
-    "name": "All is Ash",
+    "name": "All Is Ash",
     "description": {
       "0": "Summons forth Balemoon Bloodfire, dealing <pyro>Pyro DMG</pyro> to multiple nearby opponents and performing a dash-cleave against one of them, dealing <pyro>AoE Pyro DMG</pyro>.",
       "1": "Opponents hit by the aforementioned attack will have a Blood-Debt Directive applied to them.",
@@ -53,8 +53,8 @@
       "3": "<strong>Blood-Debt Directive</strong>",
       "4": [
         " Lasts 30s. Every 5s, it will deal 1 instance of <pyro>Pyro DMG</pyro> to the opponent. Max 2 instances. This DMG will be considered Elemental Skill DMG.",
-        " When Arlecchino uses a Charged Attack or Balemoon Rising, she will absorb and clear nearby Blood-Debt Directives. Each Directive absorbed grants her a Bond of Life worth 40% of her Max HP.",
-        " The maximum value of the Bond of Life she can be granted through Blood-Debt Directives within 35s after using her Elemental Skill is 80% of her Max HP. Using the Elemental Skill again during this duration will restart the count on duration and the limit on the value of Bond of Life she may gain from Blood-Debt Directives."
+        " When Arlecchino uses a Charged Attack or her Elemental Burst, Balemoon Rising, she will absorb and clear nearby Blood-Debt Directives. Each Directive absorbed grants her a Bond of Life worth 65% of her Max HP.",
+        " The maximum value of the Bond of Life she can be granted through Blood-Debt Directives within 35s after using her Elemental Skill is 145% of her Max HP. Using the Elemental Skill again during this duration will restart the count on duration and the limit on the value of Bond of Life she may gain from Blood-Debt Directives."
       ],
       "5": "<br/>",
       "6": "<i>As she sees it, not every grain of wheat that falls upon the earth will grow into an ear, while those who obstruct her, once burned to ashes, can certainly be used to nourish flowers.</i>"
@@ -81,7 +81,7 @@
   "burst": {
     "name": "Balemoon Rising",
     "description": {
-      "0": "Arlecchino's great wings of Balemoon Bloodfire beat, dealing <pyro>AoE Pyro DMG</pyro> before clearing the CD of All is Ash and healing her. The healing is based on her Bond of Life value and ATK.",
+      "0": "Arlecchino's great wings of Balemoon Bloodfire beat, absorbing and clearing Blood-Debt Directives around her, and dealing <pyro>AoE Pyro DMG</pyro> before clearing the CD of All Is Ash and healing her. The healing is based on her Bond of Life value and ATK.",
       "1": "<br/>",
       "2": "<i>It is commonly believed throughout Teyvat that moon phases other than the full moon are mere metaphors of ill-omen, used only by those who practice alchemy and astrology.",
       "3": "She saw this crimson moon in her dreams many times. Were those portents of disaster? Indeed they were, but the destined catastrophes belonged to those who enraged her.</i>"
@@ -110,10 +110,10 @@
     "description": {
       "0": "<strong>Blood-Debt Directives</strong> have the following characteristics:",
       "1": [
-        " When defeating an opponent with a Directive, Arlecchino will be granted a Life Bond worth 70% of her Max HP.",
-        " 5s after a Directive is applied, it will be upgraded to a Blood-Debt Due. When absorbed, it will instead grant Arlecchino a Bond of Life worth 70%."
+        " When defeating an opponent with a Directive, Arlecchino will be granted a Life Bond worth 130% of her Max HP.",
+        " 5s after a Directive is applied, it will be upgraded to a Blood-Debt Due. When absorbed, it will instead grant Arlecchino a Bond of Life worth 130%."
       ],
-      "2": "A Bond of Life created in the aforementioned ways cannot exceed the original limit on the value of Bonds of Life obtained through <strong>All is Ash</strong>."
+      "2": "A Bond of Life created in the aforementioned ways cannot exceed the original limit on the value of Bonds of Life obtained through <strong>All Is Ash</strong>."
     }
   },
   "passive2": {
@@ -123,7 +123,7 @@
     }
   },
   "passive3": {
-    "name": "Cinders Alone Shall Nourish",
+    "name": "The Balemoon Alone May Know",
     "description": {
       "0": "While in combat, Arlecchino gains a 40% <pyro>Pyro DMG Bonus</pyro> and can only be healed through <strong>Balemoon Rising</strong>."
     }
@@ -131,7 +131,7 @@
   "constellation1": {
     "name": "\"All Reprisals and Arrears Are Mine to Bear...\"",
     "description": {
-      "0": "Masque of the Red Death is further enhanced, the value of the increase is 120%. Additionally, Arlecchino's interruption resistance is increased when she performs Normal Attacks while affected by the Masque of the Red Death."
+      "0": "Masque of the Red Death is further enhanced, the value of the increase is 100%. Additionally, Arlecchino's interruption resistance is increased when she performs Normal Attacks while affected by the Masque of the Red Death."
     }
   },
   "constellation2": {
@@ -166,7 +166,7 @@
     "name": "\"From This Day On, We Shall Delight in New Life Together.\"",
     "description": {
       "0": "The DMG of <strong>Balemoon Rising</strong> is increased by Arlecchino's ATK multiplied by 700% of Arlecchino's current Life Bond percentage.",
-      "1": "For 20s after Arlecchino uses <strong>All is Ash</strong>, both her Normal Attacks and Elemental Burst gain 10% increased CRIT Rate and 70% increased CRIT DMG. This effect can be triggered up to once every 15s."
+      "1": "For 20s after Arlecchino uses <strong>All Is Ash</strong>, both her Normal Attacks and Elemental Burst gain 10% increased CRIT Rate and 70% increased CRIT DMG. This effect can be triggered up to once every 15s."
     }
   }
 }
