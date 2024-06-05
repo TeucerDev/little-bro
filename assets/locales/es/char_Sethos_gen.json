@@ -1,21 +1,21 @@
 {
   "name": "Sethos",
   "title": "El Medidor de la Sabiduría",
-  "description": "",
+  "description": "El heredero del Templo del Silencio. Portador de secretos y procedente del desierto.",
   "constellationName": "Basileos Delta",
   "auto": {
-    "name": "Arquería de carrizo regia",
+    "name": "Flechas de carrizo regias",
     "fields": {
       "normal": {
         "0": "<strong><strong>Ataque Normal</strong>",
-        "1": "Realiza hasta 3 disparos consecutivos con arco."
+        "1": "Realiza hasta 3 ataques consecutivos con su arco."
       },
       "charged": {
         "0": "<strong>Ataque Cargado</strong>",
         "1": "Realiza un <strong>Disparo Preciso</strong> que inflige mayor daño y tiene mayor precisión.",
-        "2": "Al apuntar, el poder del trueno se acumulará en la punta de la flecha antes de que sea disparada. Sus efectos serán distintos dependiendo de durante cuánto tiempo se ha cargado:",
+        "2": "Al apuntar, el poder del trueno se acumulará en la punta de la flecha antes de ser disparada. Sus efectos variarán según la duración de la carga:",
         "3": "Carga 1: dispara una flecha imbuida del elemento Electro que inflige <electro>Daño Electro</electro>.",
-        "4": "Carga 2: dispara una <strong>flecha perforasombras</strong> capaz de perforar las defensas de los enemigos y que inflige<electro>Daño Electro</electro> a los enemigos que encuentra a su paso. Cuando la flecha perforasombras esté completamente cargada, Sethos no podrá moverse."
+        "4": "Carga 2: dispara una <strong>flecha perforasombras</strong> capaz de atravesar las defensas de los oponentes e inflige <electro>Daño Electro</electro> a los enemigos que encuentra a su paso. Cuando la flecha perforasombras esté completamente cargada, Sethos no podrá moverse."
       },
       "plunging": {
         "0": "<strong>Ataque Descendente</strong>",
@@ -70,11 +70,12 @@
   "burst": {
     "name": "Rito secreto: Luz perforasombras",
     "description": {
-      "0": "Lleva a cabo un rito para entrar en estado de “meditación sombría”, durante el cual los Ataques Normales de Sethos se convierten en <strong>flechas sombrías</strong> perforadoras que infligen <electro>Daño Electro</electro> a todos los enemigos a su paso y que infligen daño adicional en función de la Maestría Elemental de Sethos.",
-      "1": "El daño infligido por las flechas sombrías se considera daño de Ataque Cargado.",
-      "2": "Este efecto se elimina cuando Sethos se retira de combate.",
-      "3": "<br/>",
-      "4": "<i>Los archivos del Templo del Silencio albergan muchos tomos legados por Ajtamún de la época del Rey Deshret. En ellos se registran varios rituales secretos de gran poder, pero incluso entre los miembros del Templo del Silencio, muy pocos eran capaces de dominarlos.</i>"
+      "0": "Lleva a cabo un rito para entrar en estado de “meditación sombría”, durante el cual los Ataques Normales de Sethos se convierten en <strong>flechas sombrías</strong> perforadoras que infligen <electro>Daño Electro</electro> a todos los enemigos a su paso y causan daño adicional en función de la Maestría Elemental de Sethos.",
+      "1": "Mientras este estado está activo, Sethos no podrá realizar Disparos Precisos.",
+      "2": "El daño infligido por las flechas sombrías se considera daño de Ataque Cargado.",
+      "3": "Este efecto desaparece si Sethos se retira de combate.",
+      "4": "<br/>",
+      "5": "<i>Los archivos del Templo del Silencio albergan muchos tomos legados por Ajtamún de la época del Rey Deshret. En ellos se registran varios rituales secretos de gran poder, pero incluso entre los miembros del Templo del Silencio, muy pocos eran capaces de dominarlos.</i>"
     },
     "skillParams": {
       "0": "Aumento de daño de flecha sombría",
@@ -98,20 +99,20 @@
   "passive1": {
     "name": "Alegoría del milano negro",
     "description": {
-      "0": "Al ejecutar un Disparo Preciso, el tiempo de carga se reduce en 0.285 s por cada punto de Energía Elemental que tenga Sethos actualmente. Dicho tiempo de carga podrá reducirse hasta 0.3 s de esta manera y podrá contabilizarse un máximo de 20 pts. de Energía Elemental. Si dispara una <strong>flecha perforasombras</strong>, consumirá la cantidad contabilizada de Energía Elemental; y si dispara una flecha de carga 1, consumirá un 50% de dicha cantidad."
+      "0": "Al ejecutar un Disparo Preciso, el tiempo de carga se reduce en 0.285 s por cada punto de Energía Elemental que tenga Sethos actualmente. Dicho tiempo de carga podrá reducirse hasta un máximo de 0.3 s de esta manera, contabilizando hasta 20 pts. de Energía Elemental. Si dispara una <strong>flecha perforasombras</strong>, consumirá la cantidad contabilizada de Energía Elemental; y si dispara una flecha de carga 1, consumirá un 50% de dicha cantidad."
     }
   },
   "passive2": {
     "name": "Obsequio del Rey del Desierto",
     "description": {
-      "0": "Sethos obtiene el efecto de “sombra abrasarena”, el cual aumenta el daño de la <strong>flecha perforasombras</strong> en una cantidad equivalente al 600% de su Maestría Elemental.",
+      "0": "Sethos obtiene el efecto de “sombra abrasarena”, el cual aumenta el daño de la <strong>flecha perforasombras</strong> en una cantidad equivalente al 700% de su Maestría Elemental.",
       "1": "Este efecto se cancelará cuando se cumpla alguna de las siguientes condiciones:",
       "2": [
-        " Cuando hayan transcurrido 5 s después de que flecha perforasombras haya golpeado a un enemigo por primera vez."
+        "Cuando hayan transcurrido 5 s después de que una flecha perforasombras haya golpeado a un enemigo por primera vez.",
+        "Cuando Sethos haya golpeado a los enemigos con 4 flechas perforasombras."
       ],
-      "3": "Cuando hayas golpeado a los enemigos con 4 flechas perforasombras.",
-      "4": "<br/>",
-      "5": "Al golpear a un enemigo por primera vez con una flecha perforasombras bajo el efecto de sombra abrasarena, Sethos volverá a obtener el efecto sombra abrasarena transcurridos 15 s."
+      "3": "<br/>",
+      "4": "Al golpear a un enemigo por primera vez con una flecha perforasombras bajo el efecto de sombra abrasarena, Sethos volverá a obtener este efecto transcurridos 15 s."
     }
   },
   "passive3": {
@@ -129,18 +130,18 @@
   "constellation2": {
     "name": "Papiro de los secretos del silencio",
     "description": {
-      "0": "Cuando Sethos libera <strong>Rito secreto: Luz perforasombras</strong> o cuando si cumple con los siguientes requisitos, aumenta un 15% su <electro>Bono de Daño Electro</electro> durante 10 s:",
+      "0": "Cuando Sethos cumple con alguno de los siguientes requisitos, su <electro>Bono de Daño Electro</electro> aumenta en un 15% durante 10 s. Este efecto puede acumularse hasta 2 veces y cada acumulación tendrá una duración independiente:",
       "1": [
-        "Consumir Energía Elemental a través del efecto del talento pasivo “Alegoría del milano negro”. Cumplir con este requisito requiere desbloquear el talento pasivo “Alegoría del milano negro”;"
-      ],
-      "2": "Restaurar energía con <strong>Rito ancestral: Rugido atronarena</strong>.",
-      "3": "Si se activa varias veces, el efecto que otorga un <electro>Bono de Daño Electro</electro> puede acumularse hasta dos veces. Cada acumulación se calcula de manera independiente."
+        "Consumir Energía Elemental con un Disparo Preciso. Cumplir con este requisito requiere desbloquear el talento pasivo “Alegoría del milano negro”.",
+        "Recuperar Energía Elemental al causar una Reacción Elemental con <strong>Rito ancestral: Rugido atronarena</strong>.",
+        "Usar <strong>Rito secreto: Luz perforasombras</strong>."
+      ]
     }
   },
   "constellation3": {
     "name": "Oda al sabio de la luna creciente",
     "description": {
-      "0": "Aumenta el nivel de habilidad de <strong>Ataque Normal: Arquería de carrizo regia</strong> +3.",
+      "0": "Aumenta el nivel de habilidad de <strong>Ataque Normal: Flechas de carrizo regias</strong> +3.",
       "1": "Puede ser aumentado hasta Niv. 15."
     }
   },

@@ -1,7 +1,7 @@
 {
   "name": "Sethos",
   "title": "Medida da Sabedoria",
-  "description": "",
+  "description": "Herdeiro do Templo do Silêncio. Carrega segredos e vem das areias.",
   "constellationName": "Basileos Delta",
   "auto": {
     "name": "Técnica do Arco Real",
@@ -15,7 +15,7 @@
         "1": "Realiza um <strong>Disparo com Mira</strong> mais preciso com Dano aumentado.",
         "2": "Ao mirar, o poder do Electro irá se acumular na ponta da flecha antes que ela seja lançada. Possui diferentes efeitos baseados em quanto tempo a energia foi carregada:",
         "3": [
-          " Carga Nv.1: Dispara uma flecha carregando o poder Electro que inflige <electro>Dano Electro</electro>Dano Electro.",
+          " Carga Nv.1: Dispara uma flecha carregando o poder Electro que inflige <electro>Dano Electro</electro>.",
           " Carga Nv.2: Dispara uma <strong>Flecha Perfura-Sombra</strong> que perfura os inimigos e causa <electro>Dano Electro</electro>. contra os inimigos. Depois da Flecha Perfura-Sombra carregar completamente, Sethos não pode mais se mover."
         ]
       },
@@ -46,7 +46,7 @@
   "skill": {
     "name": "Ritual Antigo: Rugido Trovejante da Areia",
     "description": {
-      "0": "Contra o poder do trovão, causando <electro>Dano Electro em AdE</electro> contra os inimigos e recuando rapidamente. Se esse ataque desencadear Eletricamente Carregado, Supercondutor, Sobrecarga, Aceleração, Intensificação, Superflorescimento ou Redemoinho Electro, Sethos recupera uma certa quantidade de Energia Elemental.",
+      "0": "Reúne o poder do trovão, causando <electro>Dano Electro em AdE</electro> contra os inimigos e recuando rapidamente. Se esse ataque desencadear Eletricamente Carregado, Supercondutor, Sobrecarga, Aceleração, Intensificação, Superflorescimento ou Redemoinho Electro, Sethos recupera uma certa quantidade de Energia Elemental.",
       "1": "<br/>",
       "2": "<i>\"O Deus que reside no Sacerdote, os magos que se viraram para as nascentes, os cantores do mar de areia ainda falavam suas histórias... Mas agora sei que isso não eram lendas, pois eles são nossos ancestrais.\"</i>"
     },
@@ -73,11 +73,12 @@
     "name": "Ritual Secreto: Perfura-Sombra do Crepúsculo",
     "description": {
       "0": "Realiza um ritual secreto, entrando no estado \"Meditação do Ocaso\", em que os Ataques Normais de Sethos são convertidos em <strong>Flechas do Crepúsculo</strong> que perfuram os inimigos: causa <electro>Dano Electro</electro> contra os inimigos em seu caminho, com aumento de Dano baseado na Proficiência Elemental de Sethos.",
-      "1": "O Dano causado pelas Flechas do Crepúsculo é considerado Dano de Ataque Carregado.",
-      "2": "O efeito é removido quando Sethos sai de campo.",
-      "3": "<br/>",
+      "1": "Durante a habilidade, Sethos não pode realizar Disparo com Mira .",
+      "2": "O Dano causado pelas Flechas do Crepúsculo é considerado Dano de Ataque Carregado.",
+      "3": "O efeito é removido quando Sethos sai de campo.",
       "4": "<br/>",
-      "5": "<i>Os arquivos do Templo do Silêncio preservam muitos volumes deixados por Akhtamun, da era do Rei Deshret. Muitos dos rituais secretos de grande poder estão registrados dentro, mas até entre aqueles do Templo do Silêncio, poucos podem dominá-lo.</i>"
+      "5": "<br/>",
+      "6": "<i>Os arquivos do Templo do Silêncio preservam muitos volumes deixados por Akhtamun, da era do Rei Deshret. Muitos dos rituais secretos de grande poder estão registrados dentro, mas até entre aqueles do Templo do Silêncio, poucos podem dominá-lo.</i>"
     },
     "skillParams": {
       "0": "Aumento de Dano da Flecha do Crepúsculo",
@@ -107,7 +108,7 @@
   "passive2": {
     "name": "Bênção do Rei das Areias",
     "description": {
-      "0": "Sethos ganha o efeito \"Sombra da Areia Escaldante\", aumentando o Dano causado por <strong>Flecha Perfura-Sombra</strong> em 600% da Proficiência Elemental de Sethos.",
+      "0": "Sethos ganha o efeito \"Sombra da Areia Escaldante\", aumentando o Dano causado por <strong>Flecha Perfura-Sombra</strong> em 700% da Proficiência Elemental de Sethos.",
       "1": "O efeito Sombra da Areia Escaldante será cancelado quando alguma das seguintes condições for cumprida:",
       "2": [
         " 5s após uma Flecha Perfura-Sombra atingir o primeiro inimigo.",
@@ -132,12 +133,12 @@
   "constellation2": {
     "name": "Escrituras de Papiro dos Segredos Silenciosos",
     "description": {
-      "0": "Quando Sethos usa <strong>Ritual Secreto: Perfura-Sombra do Crepúsculo</strong> ou satisfaz qualquer uma das seguintes condições, ele ganha 15% de <electro>Bônus de Dano Electro</electro> por 10s:",
+      "0": "Quando qualquer uma das seguintes condições são atingidas, Sethos ganha 15% de <electro>Bônus de Dano Electro</electro> por 10s que pode acumular duas vezes, com a duração de cada acúmulo sendo contada independentemente:",
       "1": [
-        " Consumir Energia Elemental através do Talento Passivo \"Enigma da Pipa Escura\". Primeiro é necessário desbloquear o Talento Passivo \"Enigma da Pipa Escura\".",
-        " Regenerar Energia Elemental através de <strong>Ritual Antigo: Rugido Trovejante da Areia</strong>."
-      ],
-      "2": "Quando desencadeado várias vezes, esse <electro>Bônus de Dano Electro</electro> pode acumular duas vezes. A duração de cada acúmulo é contada separadamente."
+        " Consumir Energia Elemental através de Disparo com Mira; você precisa primeiro desbloquear o Talento Passivo \"Enigma da Pipa Escura\" para desencadear essa condição.",
+        " Recuperando Energia Elemental ao desencadear Reações Elementais usando <strong>Ritual Antigo: Rugido Trovejante da Areia</strong>.",
+        " Usando <strong>Ritual Secreto: Perfura-Sombra do Crepúsculo</strong>."
+      ]
     }
   },
   "constellation3": {

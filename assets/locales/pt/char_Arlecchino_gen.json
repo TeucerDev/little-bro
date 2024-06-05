@@ -1,7 +1,7 @@
 {
   "name": "Arlecchino",
   "title": "Lua Solitária da Escuridão",
-  "description": "A Serva, a Quarta Mensageira dos Fatui. Uma diplomata calma e implacável, o \"Pai\" que todas as crianças da Casa da Lareira temem e em quem reverenciam.",
+  "description": "A Serva, a Quarta Mensageira dos Fatui. Uma diplomata calma e implacável, o \"Pai\" que todas as crianças da Casa da Lareira temem e a quem reverenciam.",
   "constellationName": "Ignis Purgatorius",
   "auto": {
     "name": "Convite para Decapitação",
@@ -21,8 +21,8 @@
       },
       "infusion": {
         "0": "<strong>Máscara Vermelha da Morte</strong>",
-        "1": "Quando Arlecchino tem um Contrato de Vida igual ou maior que 30% de sua Vida Máxima, o Ataque Normal, Carregado e Imersivo de Arlecchino é convertido para <pyro>Dano Pyro</pyro> que não pode ser substituído.",
-        "2": "Quando estiver no estado \"Máscara Vermelha da Morte\", quando os Ataques Normais de Arlecchino atingirem um oponente, esse Ataque causará Dano adicional baseado na porcentagem de Contrato de Vida atual. Isso consumirá 7.5% desse Contrato de Vida. Um Contrato de Vida pode ser consumido dessa forma uma vez a cada 0.03s. Quando o Contrato de Vida é consumido dessa forma, reduz a recarga da Habilidade Elemental \"Tudo são Cinzas\" em 0.8s."
+        "1": "Quando Arlecchino tem um Contrato de Vida igual ou maior que 30% de sua Vida Máxima, o Dano do Ataque Normal, Carregado e Imersivo de Arlecchino é convertido para <pyro>Dano Pyro</pyro> que não pode ser substituído.",
+        "2": "Quando estiver no estado \"Máscara Vermelha da Morte\", e quando os Ataques Normais de Arlecchino atingirem um oponente, esse Ataque causará Dano adicional baseado no ATQ multiplicado por uma certa porcentagem do Contrato de Vida atual. Isso consumirá 7.5% desse Contrato de Vida. Um Contrato de Vida pode ser consumido dessa forma uma vez a cada 0.03s. Quando o Contrato de Vida é consumido dessa forma, reduz a recarga da Habilidade Elemental \"Tudo são Cinzas\" em 0.8s."
       }
     },
     "skillParams": {
@@ -54,7 +54,7 @@
       "4": [
         " Dura 30s. A cada 5s, causa 1 instância de <pyro>Dano Pyro</pyro> contra o oponente. Máximo de 2 instâncias. Esse Dano é considerado Dano de Habilidade Elemental",
         " Quando Arlecchino usa um Ataque Carregado ou lança seu Supremo \"Ascensão da Lua Ominosa\", absorve e elimina os Comandos das Dívidas de Sangue que aplicou. Cada Comando absorvido a dá um Contrato de Vida equivalente a 65% de sua Vida Máxima.",
-        " Ela pode ganhar um Contrato de Vida equivalente a 145% de sua Vida Máxima dentro de 35s após usar sua Habilidade Elemental. Lançar a Habilidade Elemental novamente durante esse período redefinirá a contagem da duração e o limite do Contrato de Vida que ganha de Comando da Dívida de Sangue."
+        " Ela pode ganhar um Contrato de Vida equivalente a 145% de sua Vida Máxima dentro nos 35s após usar sua Habilidade Elemental. Lançar a Habilidade Elemental novamente durante esse período redefinirá a contagem da duração e o limite do Contrato de Vida que ganha de Comando da Dívida de Sangue."
       ],
       "5": "<br/>",
       "6": "<i>Da forma que ela vê, não é todo grão de trigo que cai na terra que vai crescer, enquanto aqueles que ficam em seu caminho, quando queimados em chamas, podem ser usados novamente para nutrir as flores.</i>"
@@ -110,7 +110,7 @@
     "description": {
       "0": "<strong>Comando da Dívida de Sangue</strong> tem as seguintes características:",
       "1": [
-        " Quando derrota um oponente afetado por Comando da Dívida de Sangue, Arlecchino concede um Contrato de Vida equivalente a 130% de sua Vida Máxima.",
+        " Quando um oponente afetado por Comando da Dívida de Sangue de Arlecchino é derrotado, será concedido a ela um Contrato de Vida equivalente a 130% de sua Vida Máxima.",
         " 5s depois de um Comando da Dívida de Sangue ser aplicado, ele será elevado à Comando da Dívida de Sangue: Pagamento. Ao ser absorvido, fornecerá para Arlecchino um Contrato de Vida equivalente a 130% da sua Vida Máxima."
       ],
       "2": "Um Contrato de Vida criado dessa forma não pode ultrapassar o limite original do valor do Contrato de Vida obtido através de <strong>Tudo são Cinzas</strong>."
@@ -119,7 +119,7 @@
   "passive2": {
     "name": "Somente a Força Defende",
     "description": {
-      "0": "Arlecchino ganha 1% de RES contra Todos os Elementos e RES Física para cada 100 pontos de ATQ que possui acima de 1.000. O aumento máximo de RES que Arlecchino pode obter dessa forma para cada um é de 20%."
+      "0": "Arlecchino ganha 1% de RES contra Todos os Elementos e RES Física para cada 100 pontos de ATQ que possui acima de 1.000. O aumento máximo de RES que Arlecchino pode obter dessa forma para a RES contra Todos Elementos e RES Física é de 20%."
     }
   },
   "passive3": {
@@ -131,14 +131,14 @@
   "constellation1": {
     "name": "\"Todas as Vinganças e Dívidas são Minhas...\"",
     "description": {
-      "0": "Máscara Vermelha da Morte é fortalecida. O valor do aumento é de 100%. Além disso, enquanto estiver no estado Máscara Vermelha da Morte, a RES contra Interrupção de Arlecchino é aumentada quando ela realiza Ataques Normais"
+      "0": "Máscara Vermelha da Morte é fortalecida. O valor do aumento é de 100%. Além disso, enquanto estiver no estado Máscara Vermelha da Morte, a RES contra Interrupção de Arlecchino é aumentada quando ela realiza Ataques Normais ou Carregados."
     }
   },
   "constellation2": {
     "name": "\"Todas as Recompensas e Retribuições são Minhas para Dar...\"",
     "description": {
       "0": "<strong>Comando da Dívida de Sangue</strong> lança agora Comando da Dívida de Sangue: Pagamento",
-      "1": "Quando Arlecchino absorve um Comando da Dívida de Sangue: Pagamento, ela lança uma Lua de Sangue que causa 900% de seu ATQ como <pyro>Dano Pyro em AdE</pyro>. Esse efeito pode ser desencadeado uma vez a cada 10s.",
+      "1": "Quando Arlecchino absorve um Comando da Dívida de Sangue: Pagamento, ela lança uma Lua de Sangue que causa 900% de seu ATQ como <pyro>Dano Pyro em AdE</pyro> e aumenta todas as suas resistências elementais e físicas em 20% por 15s. Esse efeito pode ser desencadeado uma vez a cada 10s.",
       "2": "Primeiro é necessário desbloquear o Talento Passivo \"Somente a Dor pode ser Compensada\"."
     }
   },

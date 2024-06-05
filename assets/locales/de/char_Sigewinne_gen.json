@@ -1,7 +1,7 @@
 {
   "name": "Sigewinne",
   "title": "Wunderbare Drachenerbin",
-  "description": "",
+  "description": "Die Oberschwester im Fort Méropide, eine Melusine, versorgt jeden Sünder im Unterwassergefängnis gleichermaßen.",
   "constellationName": "Nereides",
   "auto": {
     "name": "Gezielte Behandlung",
@@ -13,7 +13,7 @@
       "charged": {
         "0": "<strong>Heftiger Schlag</strong>",
         "1": "Führt einen <strong>gezielten Schuss</strong> mit höherem Schaden und höherer Genauigkeit aus.",
-        "2": "Konzentriert die Hydro-Energie während des Zielens an der Pfeilspitze, die voll aufgeladen mit jedem Schuss, den Sigewinne in regelmäßigen Abständen abfeuert, eine „kleine Kümmerblase“ langsam in Richtung des Ziels schickt, die <hydro>Hydro-Schaden</hydro> verursacht. Beim Auslösen fügen die mit Stromschnellen aufgeladenen Pfeile, wenn sie einen Gegner treffen, diesem <hydro>Hydro-Schaden</hydro> zu."
+        "2": "Konzentriert die Hydro-Kraft während des Zielens an der Pfeilspitze. Nachdem der Pfeil vollständig aufgeladen ist, feuert Sigewinne in regelmäßigen Abständen sich langsam bewegende „kleine Kümmerblase“ auf die Richtung des Zielens, die <hydro>Hydro-Schaden</hydro> verursacht. Beim Loslassen fügt der mit Stromschnellen aufgeladene Pfeil, wenn er einen Gegner trifft, diesem <hydro>Hydro-Schaden</hydro> zu."
       },
       "plunging": {
         "0": "<strong>Angriff aus dem Fall</strong>",
@@ -43,9 +43,9 @@
     "name": "Hüpfende Hydrotherapie",
     "description": {
       "0": "Verwendet eine spezielle Ballonpistole aus dem Fort Méropide, die einen <strong>heilenden Wasserballon</strong> verschießt, der sowohl die Blutzirkulation anregen, als auch den Patienten in Schlaf versetzen kann.",
-      "1": "Der Wasserballon hüpft zwischen Gegnern in der Nähe hin und her und fügt diesen, wenn er sie trifft, <hydro>Hydro-Schaden</hydro> basierend auf Sigewinnes max. LP zu. Stellt bei einem Treffer die LP aller Truppenmitglieder in der Nähe außer Sigewinne selbst basierend auf Sigewinnes eigenen max. LP wieder her.",
+      "1": "Der Wasserballon hüpft zwischen Gegnern in der Nähe hin und her und fügt diesen, wenn er sie trifft, <hydro>Hydro-Schaden</hydro> basierend auf Sigewinnes max. LP zu. Stellt beim Hüpfen die LP aller Truppenmitglieder in der Nähe außer Sigewinne selbst basierend auf Sigewinnes eigenen max. LP wieder her.",
       "2": "Nach 5 Hüpfern verschwindet der heilende Wasserballon und stellt Sigewinne dabei LP basierend auf ihren max. LP wieder her.",
-      "3": "Sollten keine Gegner in der Nähe sein, wird der heilende Wasserballon in der Gegend herumhüpfen, wobei bis zu einer von Sigewinnes selbst geschaffenen Wasserballons zu einem Zeitpunkt existieren kann.",
+      "3": "Sollten keine Gegner in der Nähe sein, wird der heilende Wasserballon in der Gegend herumhüpfen. Es kann nur ein von Sigewinne selbst erschaffener Wasserballon zur gleichen Zeit existieren.",
       "4": "Beim Gedrückthalten wird der heilende Wasserballon mit geladener Kraft losgelassen.",
       "5": "<br/>",
       "6": "<strong>Gedrückt halten</strong>",
@@ -83,8 +83,8 @@
   "burst": {
     "name": "Übereifrige Injektion",
     "description": {
-      "0": "Zieht eine spezielle Spritze aus dem Fort Méropide hervor, stürmt voller Leidenschaft und vollen Tranks in den Bereich vor sich und verursacht fortlaufend <hydro>Hydro-Flächenschaden</hydro>.",
-      "1": "Sigewinne sammelt außerdem beim Auslösen bis zu 2 Quellwassertropfen in einem bestimmten Umkreis ein.",
+      "0": "Zieht eine spezielle Spritze aus dem Fort Méropide hervor, gießt voller Leidenschaft und vollen Tranks den Bereich vor sich und verursacht basierend auf Sigewinnes max. LP fortlaufend <hydro>Hydro-Flächenschaden</hydro>.",
+      "1": "Sigewinne sammelt außerdem beim Auslösen bis zu 2 Quellwassertropfen in einem bestimmten Umkreis in der Nähe ein.",
       "2": "<br/>",
       "3": "<i>„Ach, eine Überschreitung der Dosis ist genauso wie Gift. Das ist ziemlich gefährlich. Aber ein Patient braucht Fürsorge und Liebe, egal wie viel, es gibt nie zu viel.“</i>"
     },
@@ -110,26 +110,26 @@
   "passive1": {
     "name": "Erfordert angemessene Ruhezeiten",
     "description": {
-      "0": "Sigewinne verleiht sich beim Auslösen von <strong>Hüpfende Hydrotherapie</strong> den 18 s haltenden Effekt „Halb-obligatorische Genesung“: Verleiht ihr während der Wirkungsdauer einen <hydro>Hydro-SCH-Bonus</hydro> von 8 % sowie 10 Stapelungen Ruhezählung, von denen jedes Mal, wenn mit der Elementarfähigkeit eines eigenen inaktiven Truppenmitglieds mit Ausnahme von Sigewinne Schaden verursacht wird, eine Stapelung verbraucht wird, wodruch der durch diese Elementarfähigkeit verursachte Schaden erhöht wird: Erhöht für je 1.000 Punkte der max. LP von Sigewinne über 30.000 den Schaden um 80 Punkte. Auf diese Weise kann der verursachte Schaden der Elementarfähigkeit um bis zu 2.800 Punkte erhöht werden."
+      "0": "Sigewinne verleiht sich beim Auslösen von <strong>Hüpfende Hydrotherapie</strong> den 18 s haltenden Effekt „Halb-obligatorische Genesung“: Verleiht ihr während der Wirkungsdauer einen <hydro>Hydro-SCH-Bonus</hydro> von 8 % sowie 10 Stapelungen Ruhezählung, von denen jedes Mal, wenn mit der Elementarfähigkeit eines inaktiven Truppenmitglieds in der Nähe mit Ausnahme von Sigewinne Schaden verursacht wird, eine Stapelung verbraucht wird, wodurch der durch diese Elementarfähigkeit verursachte Schaden erhöht wird: Erhöht für je 1.000 Punkte der max. LP von Sigewinne über 30.000 den Schaden um 80 Punkte. Auf diese Weise kann der verursachte Schaden der Elementarfähigkeit um bis zu 2.800 Punkte erhöht werden."
     }
   },
   "passive2": {
     "name": "Detaillierte Diagnose, sorgfältige Behandlung",
     "description": {
-      "0": "Erhöht bei aktiver Heilung durch Sigewinne entsprechend des Gesamtwerts von Eid des Lebens aller Truppenmitglieder zusammen die Heilung um 3 % für je 1.000 Punkte Eid des Lebens. Bis zu 30 % Heilungs-Bonus auf diese Weise möglich."
+      "0": "Erhöht bei aktiver Heilung durch Sigewinne entsprechend dem Gesamtwert von Eid des Lebens aller Truppenmitglieder zusammen die Heilung um 3 % für je 1.000 Punkte Eid des Lebens. Bis zu 30 % Heilungs-Bonus auf diese Weise möglich."
     }
   },
   "passive3": {
     "name": "Notfalldosis",
     "description": {
-      "0": "Stellt deiner aktiven Figur, wenn deren LP unter Wasser unter 50 % fallen, innerhalb von 2,5 s fortlaufend LP in Höhe von 50 % ihrer max. LP wieder her und reduziert innerhalb von 10 s ihren WDS gegen alle Elemente und ihren phys. WDS um 10 %. 20 s Abklingzeit."
+      "0": "Stellt unter Wasser deiner eigenen aktiven Figur, wenn deren LP unter 50 % fallen, innerhalb von 2,5 s fortlaufend LP in Höhe von 50 % ihrer max. LP wieder her und reduziert für 10 s ihren WDS gegen alle Elemente sowie ihren phys. WDS um 10 %. 20 s Abklingzeit."
     }
   },
   "constellation1": {
-    "name": "„Kann der glücklichste Geist Sorgen verstehen??“",
+    "name": "„Kann der glücklichste Geist Sorgen verstehen?“",
     "description": {
       "0": "Der heilende Wasserballon von <strong>Hüpfende Hydrotherapie</strong> kann 3-mal zusätzlich hüpfen und schrumpft während der ersten 3 Hüpfer nicht.",
-      "1": "Außerdem werden die Effekte des passiven Talents „Erfordert angemessene Ruhezeiten“ verstärkt: Gewährt Sigewinne, während der heilende Wasserballon hüpft, 1 Stapelung Ruhezählung. Außerdem wird der Schaden-Bonus von Ruhezählung verändert: Erhöht für je 1.000 Punkte der max. LP von Sigewinne über 30.000 den Schaden um 100 Punkte. Auf diese Weise kann der Schaden um bis zu 3.500 Punkte erhöht werden. Das passive Talent „Erfordert angemessene Ruhezeiten“ muss zuerst freigeschaltet werden."
+      "1": "Außerdem werden die Effekte des passiven Talents „Erfordert angemessene Ruhezeiten“ verstärkt: Gewährt Sigewinne, wenn der heilende Wasserballon hüpft, 1 Stapelung Ruhezählung. Außerdem wird der Schaden-Bonus von Ruhezählung verändert: Erhöht für je 1.000 Punkte der max. LP von Sigewinne über 30.000 den Schaden um 100 Punkte. Auf diese Weise kann der Schaden um bis zu 3.500 Punkte erhöht werden. Das passive Talent „Erfordert angemessene Ruhezeiten“ muss zuerst freigeschaltet werden."
     }
   },
   "constellation2": {
@@ -162,7 +162,7 @@
   "constellation6": {
     "name": "„Kann der erleuchtetste Geist für mich beten?“",
     "description": {
-      "0": "Erhöht die KT und den KSCH von <strong>Übereifrige Injektion</strong> basierend auf Sigewinnes max. LP, wenn sie Heilung gewährt: Erhöht für je 1.000 Punkte ihrer max. LP die KT um 0,4 % und den KSCH um 2,2 %, hält 15 s. Boni von bis zu 20 % KT und 110 % KSCH auf diese Weise möglich."
+      "0": "Erhöht die KT und den KSCH von <strong>Übereifrige Injektion</strong> basierend auf Sigewinnes max. LP, wenn sie Heilung gewährt: Erhöht für je 1.000 Punkte ihrer max. LP die KT um 0,4 % und den KSCH um 2,2 %, hält 15 s. Boni von bis zu 20 % KT und 110 % KSCH sind auf diese Weise möglich."
     }
   }
 }

@@ -1,0 +1,167 @@
+{
+  "name": "艾梅莉埃",
+  "title": "???",
+  "description": "",
+  "constellationName": "",
+  "auto": {
+    "name": "逐影槍術·改",
+    "fields": {
+      "normal": {
+        "0": "<strong><strong>普通攻擊</strong>",
+        "1": "進行至多四段的連續槍擊。"
+      },
+      "charged": {
+        "0": "<strong>重擊</strong>",
+        "1": "消耗一定體力，進行向上的挑斬攻擊。"
+      },
+      "plunging": {
+        "0": "<strong>下落攻擊</strong>",
+        "1": "從空中下墜衝擊地面，攻擊下落路徑上的敵人，並在落地時造成範圍傷害。"
+      }
+    },
+    "skillParams": {
+      "0": "一段傷害",
+      "1": "二段傷害",
+      "2": "三段傷害",
+      "3": "四段傷害",
+      "4": "重擊傷害",
+      "5": "重擊體力消耗",
+      "6": "下墜期間傷害",
+      "7": "低空/高空墜地衝擊傷害",
+      "8": "",
+      "9": "",
+      "10": "",
+      "11": "",
+      "12": "",
+      "13": "",
+      "14": "",
+      "15": ""
+    }
+  },
+  "skill": {
+    "name": "擷萃調香",
+    "description": {
+      "0": "Creates a Lumidouce Case that deals <dendro>AoE Dendro DMG</dendro>.",
+      "1": "<br/>",
+      "2": "<strong>Lumidouce Case</strong>",
+      "3": "<br/>",
+      "4": [
+        "Fires of Puffs of Puredew at nearby opponents at intervals, dealing <dendro>Dendro DMG</dendro>.",
+        "If nearby opponents are Burning, they will give off Scents at intervals. The Lumidouce Case will collect these nearby scents, and after gathering 2, it will level up, firing 1 extra Puff of Puredew for every Puff that would be fired off, while the DMG dealt by such attacks will also be increased.",
+        "1 Lumidouce Case created by Emilie herself can exist at any one time. The Case starts at Level 1 and can go up to Level 2."
+      ],
+      "5": "<br/>",
+      "6": "<strong>Arkhe: Pneuma</strong>",
+      "7": "At intervals, after Emilie creates a Lumidouce Case this way, a Spiritbreath Thorn will descend in front of her and pierce her opponent, dealing Pneuma-aligned <dendro>Dendro DMG</dendro>.",
+      "8": "<br/>",
+      "9": "<i>\"The world is an endless harmony of fragrance, color, and song.\"</i>"
+    },
+    "skillParams": {
+      "0": "技能傷害",
+      "1": "柔燈之匣·一階攻擊傷害",
+      "2": "柔燈之匣·二階攻擊傷害",
+      "3": "柔燈之匣持續時間",
+      "4": "靈息之刺傷害",
+      "5": "靈息之刺冷卻間隔",
+      "6": "技能冷卻時間",
+      "7": "",
+      "8": "",
+      "9": "",
+      "10": "",
+      "11": "",
+      "12": "",
+      "13": "",
+      "14": "",
+      "15": ""
+    }
+  },
+  "burst": {
+    "name": "香氛表演",
+    "description": {
+      "0": "引導匣中萃集的香氛，將其化作純粹的草元素之力，創造柔燈之匣·三階，並摧毀已有的柔燈之匣。",
+      "1": "存在期間內，柔燈之匣·三階不會萃集附近的香韻，而是會持續降下香露，攻擊範圍內的敵人，造成<dendro>草元素傷害</dendro>。持續期間，每0.3秒將會降下一枚香露，且每名敵人每0.7秒只能被選為一次目標。",
+      "2": "持續時間結束時，將重新創造柔燈之匣·一階；若施放香氛表演時摧毀了已萃取香韻的柔燈之匣，則創造的柔燈之匣將會繼承先前的香韻與品階。",
+      "3": "<strong>香氛表演</strong>持續期間，元素戰技「擷萃調香」不會生成柔燈之匣。",
+      "4": "<br/>",
+      "5": "<i>無論是什麼樣的香水，自接觸空氣的那一刻開始，其香調便會隨著時間推移而改變，最終消溶在風與草木的低語中。某種意義上，人們永遠也無法欣賞同一瓶香水。",
+      "6": "眾生的軌跡也是這樣。因此，或許可以說，香水便是人生的表演。</i>"
+    },
+    "skillParams": {
+      "0": "柔燈之匣·三階攻擊傷害",
+      "1": "柔燈之匣·三階持續時間",
+      "2": "冷卻時間",
+      "3": "元素能量",
+      "4": "",
+      "5": "",
+      "6": "",
+      "7": "",
+      "8": "",
+      "9": "",
+      "10": "",
+      "11": "",
+      "12": "",
+      "13": "",
+      "14": "",
+      "15": ""
+    }
+  },
+  "passive1": {
+    "name": "餘薰",
+    "description": {
+      "0": "每萃集兩枚<strong>香韻</strong>，柔燈之匣·二階將消耗香韻，並浸析出「清露香氛」，對敵人造成相當於艾梅莉埃攻擊力500%的<dendro>草元素範圍傷害</dendro>。該傷害不被視為元素戰技傷害。",
+      "1": "艾梅莉埃觸發激化、蔓激化反應之後的30秒內，無法觸發此效果。"
+    }
+  },
+  "passive2": {
+    "name": "精餾",
+    "description": {
+      "0": "場上存在艾梅莉埃自己創造的柔燈之匣時，隊伍中附近的所有角色對燃燒傷害的<pyro>火元素抗性</pyro>提升85%。"
+    }
+  },
+  "passive3": {
+    "name": "生活天賦",
+    "description": {}
+  },
+  "constellation1": {
+    "name": "淡香浸析",
+    "description": {
+      "0": "<strong>擷萃調香</strong>與固有天賦「餘薰」的清露香氛造成的傷害提升10%，後者需要解鎖固有天賦「餘薰」。",
+      "1": "此外，隊伍中附近的角色對敵人觸發燃燒反應或對處於燃燒狀態下的敵人造成<dendro>草元素傷害</dendro>時，會額外生成一枚<strong>香韻</strong>。此效果每2.9秒至多觸發一次。"
+    }
+  },
+  "constellation2": {
+    "name": "湖光頂調",
+    "description": {
+      "0": "艾梅莉埃自己創造的柔燈之匣萃集香韻時，艾梅莉埃將獲得一層「特調」效果，使艾梅莉埃的攻擊力提升18%，持續10秒。此效果至多疊加2層，每層獨立計算持續時間。"
+    }
+  },
+  "constellation3": {
+    "name": "郁馥臻萃",
+    "description": {
+      "0": "<strong>擷萃調香</strong>的技能等級提高3級。",
+      "1": "至多提升至15級。"
+    }
+  },
+  "constellation4": {
+    "name": "柔燈心韻",
+    "description": {
+      "0": "<strong>香氛表演</strong>的持續時間延長2秒，且每名敵人被香露選為目標的間隔降低0.3秒。"
+    }
+  },
+  "constellation5": {
+    "name": "純露凝芳",
+    "description": {
+      "0": "<strong>香氛表演</strong>的技能等級提高3級。",
+      "1": "至多提升至15級。"
+    }
+  },
+  "constellation6": {
+    "name": "茉潔香跡",
+    "description": {
+      "0": "施放<strong>擷萃調香</strong>或<strong>香氛演出</strong>時，艾梅莉埃將獲得「香跡留駐」，持續5秒。",
+      "1": "持續期間，艾梅莉埃進行普通攻擊或重擊後，將會產生一枚香韻，且艾梅莉埃的普通攻擊與重擊將轉為無法被附魔覆蓋的<dendro>草元素傷害</dendro>，並提升造成的傷害，提升值相當於艾梅莉埃攻擊力的250%。",
+      "2": "<br/>",
+      "3": "「香跡留駐」效果將在產生4枚香韻或持續時間結束時解除。每12秒至多獲得一次「香跡留駐」效果。"
+    }
+  }
+}

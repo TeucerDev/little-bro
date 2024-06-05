@@ -1,7 +1,7 @@
 {
   "name": "Sigewinne",
   "title": "A Filha Transmutada do Dragão",
-  "description": "",
+  "description": "Uma Melusine e a Enfermeira-Chefe da Fortaleza Meropide. Ela cuida igualmente de todo presidiário da prisão submarina.",
   "constellationName": "Nereides",
   "auto": {
     "name": "Tratamento Direcionado",
@@ -83,7 +83,7 @@
   "burst": {
     "name": "Injeção Super Saturada",
     "description": {
-      "0": "Tira uma seringa especial feita na Fortaleza Meropide e ataca a área em frente com ondas de gentileza e remédio, causando <hydro>Dano Hydro em AdE</hydro>.",
+      "0": "Tira uma seringa especial feita na Fortaleza Meropide e ataca a área em frente com ondas de gentileza e remédio, causando <hydro>Dano Hydro em AdE</hydro> baseado na Vida Máxima de Sigewinne.",
       "1": "Além disso, Sigewinne absorve até 2 Gotas d'Água Primordial próximas antes de usar essa habilidade.",
       "2": "<br/>",
       "3": "<i>\"Ei, exagerar no remédio é o mesmo que se envenenar, é perigoso! Mas pacientes precisam de cuidado e carinho, e ninguém pode se superdosar nisso!\"</i>"
@@ -110,7 +110,7 @@
   "passive1": {
     "name": "Requer Descanso Apropriado",
     "description": {
-      "0": "Sigewinne concede a si mesma o efeito \"Descanso de Cama Restrito\" por 18s após usar <strong>Terapia de Água Saltitante</strong>: Sigewinne ganha 8% de <hydro>Bônus de Dano Hydro</hydro> e 10 acúmulos de Convalescença. Quando a Habilidade Elemental de seu próprio personagem não ativo, menos Sigewinne, causar Dano, consome 1 acúmulo de Convalescença, e aumenta o Dano causado pela Habilidade Elemental desta vez. Para cada 1.000 de Vida que Sigewinne tem acima de 30.000, aumenta o Dano em 80. O máximo de aumento de Dano para Habilidades Elementais que pode ser ganho dessa forma é 2.800."
+      "0": "Sigewinne concede a si mesma o efeito \"Descanso de Cama Restrito\" por 18s após usar <strong>Terapia de Água Saltitante</strong>: Sigewinne ganha 8% de <hydro>Bônus de Dano Hydro</hydro> e 10 acúmulos de Convalescença. Quando a Habilidade Elemental de seu próprio personagem próximo não ativo, menos Sigewinne, causar Dano, consome 1 acúmulo de Convalescença, e aumenta o Dano causado pela Habilidade Elemental desta vez. Para cada 1.000 de Vida que Sigewinne tem acima de 30.000, aumenta o Dano em 80. O máximo de aumento de Dano para Habilidades Elementais que pode ser ganho dessa forma é 2.800."
     }
   },
   "passive2": {
@@ -122,21 +122,21 @@
   "passive3": {
     "name": "Dose Urgente",
     "description": {
-      "0": "Enquanto debaixo d'água, quando a Vida do personagem ativo reduz abaixo de 50%, cura seu personagem ao longo de 2.5s. A quantidade curada é equivalente a 50% da Vida Máxima, e todas as suas RES contra todos os Elementos e RES Física será reduzida em 10% por 10s. Esse efeito pode ser desencadeado uma vez a cada 20s."
+      "0": "Enquanto debaixo d'água, quando a Vida do personagem ativo reduz abaixo de 50%, cura seu personagem ao longo de 2.5s. A quantidade curada é equivalente a 50% da Vida Máxima, e as suas RES contra todos os Elementos e RES Física será reduzida em 10% por 10s. Esse efeito pode ser desencadeado uma vez a cada 20s."
     }
   },
   "constellation1": {
     "name": "\"Pode o Mais Alegre dos Espíritos Entender a Ansiedade?\"",
     "description": {
       "0": "A Bolha Revigorante da <strong>Terapia de Água Saltitante</strong> pode ricochetear mais 3 vezes, e os 3 primeiros ricochetes não farão as Bolhas Revigorantes diminuírem.",
-      "1": "O Talento Passivo \"Requer Descanso Apropriado\" é fortalecido: cada Bolha Revigorante adiciona 1 acúmulo a sua contagem de Convalescença, e muda os acúmulos de Dano de Convalescença para: a cada 1.000 de Vida que Sigewinne tem acima de 30.000, aumenta o Dano em 100. É possível aumentar o Dano da Habilidade Elemental até 3.500 dessa forma. Primeiro é necessário desbloquear o Talento Passivo \"Requer Descanso Apropriado\" para usar esse efeito."
+      "1": "O Talento Passivo \"Requer Descanso Apropriado\" é fortalecido: cada ricochete da Bolha Revigorante adiciona 1 acúmulo a sua contagem de Convalescença, e muda os acúmulos de Dano de Convalescença para: a cada 1.000 de Vida que Sigewinne tem acima de 30.000, aumenta o Dano em 100. É possível aumentar o Dano da Habilidade Elemental até 3.500 dessa forma. Primeiro é necessário desbloquear o Talento Passivo \"Requer Descanso Apropriado\" para usar esse efeito."
     }
   },
   "constellation2": {
     "name": "\"Pode o Mais Misericordioso Espírito Derrotar seus Inimigos?\"",
     "description": {
       "0": "Ao usar <strong>Terapia de Água Saltitante</strong>e <strong>Injeção Super Saturada</strong>, Sigewinne pode criar um Escudo de Bolhas equivalente a 30% de sua Vida Máxima e que absorve <hydro>Dano Hydro</hydro> com 250% de eficiência.",
-      "1": "Além disso, após as Bolhas Revigorantes de Terapia de Água Saltitante ou de Injeção Super Saturada atingir oponentes, a <hydro>RES Hydro</hydro> desse oponente será reduzida em 35% por 8s."
+      "1": "Além disso, após as Bolhas Revigorantes de Terapia de Água Saltitante ou de Injeção Super Saturada atingirem oponentes, a <hydro>RES Hydro</hydro> desse oponente será reduzida em 35% por 8s."
     }
   },
   "constellation3": {

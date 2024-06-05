@@ -1,7 +1,7 @@
 {
   "name": "Sethos",
   "title": "Wisdom's Measure",
-  "description": "",
+  "description": "The Temple of Silence's heir. Burdened with secrets, he comes from the sands.",
   "constellationName": "Basileos Delta",
   "auto": {
     "name": "Royal Reed Archery",
@@ -73,10 +73,11 @@
     "name": "Secret Rite: Twilight Shadowpiercer",
     "description": {
       "0": "Perform a secret rite, entering the \"Twilight Meditation\" state, during which Sethos's Normal Attacks will be converted into enemy-piercing <strong>Dusk Bolts</strong>: Deal <electro>Electro DMG</electro> to opponents in its path, with DMG increased based on Sethos's Elemental Mastery.",
-      "1": "DMG dealt by Dusk Bolts is considered Charged Attack DMG.",
-      "2": "This effect will be canceled when Sethos leaves the field.",
-      "3": "<br/>",
-      "4": "<i>The archives of the Temple of Silence preserve many tomes left behind by Akhtamun, from the era of King Deshret. Many secret rituals of great power are recorded within, but even among the Temple of Silence, very few could master them.</i>"
+      "1": "Sethos cannot perform Aimed Shots while in this state.",
+      "2": "DMG dealt by Dusk Bolts is considered Charged Attack DMG.",
+      "3": "This effect will be canceled when Sethos leaves the field.",
+      "4": "<br/>",
+      "5": "<i>The archives of the Temple of Silence preserve many tomes left behind by Akhtamun, from the era of King Deshret. Many secret rituals of great power are recorded within, but even among the Temple of Silence, very few could master them.</i>"
     },
     "skillParams": {
       "0": "Dusk Bolt DMG Increase",
@@ -106,14 +107,14 @@
   "passive2": {
     "name": "The Sand King's Boon",
     "description": {
-      "0": "Sethos gains the \"Scorching Sandshade\" effect, increasing the DMG dealt by <strong>Shadowpiercing Shots</strong> by 600% of Sethos's Elemental Mastery.",
+      "0": "Sethos gains the \"Scorching Sandshade\" effect, increasing the DMG dealt by <strong>Shadowpiercing Shots</strong> by 700% of Sethos's Elemental Mastery.",
       "1": "The Scorching Sandshade effect will be canceled when any of the following conditions are met:",
       "2": [
         " 5s after a Shadowpiercing Shot first hits an opponent.",
         " After 4 Shadowpiercing Shots strike opponents."
       ],
       "3": "<br/>",
-      "4": " When a Shadowpiercing Shot affected by Scorching Sandshade first hits an opponent, Sethos will regain Scorching Sandshade after 15s."
+      "4": "When a Shadowpiercing Shot affected by Scorching Sandshade first hits an opponent, Sethos will regain Scorching Sandshade after 15s."
     }
   },
   "passive3": {
@@ -131,12 +132,12 @@
   "constellation2": {
     "name": "Papyrus Scripture of Silent Secrets",
     "description": {
-      "0": "When Sethos uses <strong>Secret Rite: Twilight Shadowpiercer</strong> or meets any of the following conditions, he gains a 15% <electro>Electro DMG Bonus</electro> for 10s:",
+      "0": "When any of the following conditions are met, Sethos gains a 15% <electro>Electro DMG Bonus</electro> for 10s that may stack twice, with each stack duration counted independently:",
       "1": [
-        " Consuming Elemental Energy through the Passive Talent \"Black Kite's Enigma.\" You must first unlock \"Black Kite's Enigma.\"",
-        " Regaining Elemental Energy via <strong>Ancient Rite: The Thundering Sands</strong>."
-      ],
-      "2": "When triggered multiple times, this <electro>Electro DMG Bonus</electro> effect can stack twice. Each stack duration is counted independently."
+        " Consuming Elemental Energy through Aimed Shots; you must first unlock the Passive Talent \"Black Kite's Enigma\" to trigger this condition.",
+        " Regaining Elemental Energy by triggering Elemental Reactions using <strong>Ancient Rite: The Thundering Sands</strong>.",
+        " Using <strong>Secret Rite: Twilight Shadowpiercer</strong>."
+      ]
     }
   },
   "constellation3": {
@@ -149,7 +150,7 @@
   "constellation4": {
     "name": "Beneficent Plumage",
     "description": {
-      "0": "When <strong>Shadowpiercing Shot</strong> or <strong>Dusk Bolt</strong> strike 2 or more opponents, all nearby party members gain 80 Elemental Mastery for 10s."
+      "0": "When a <strong>Shadowpiercing Shot</strong> or <strong>Dusk Bolt</strong> strikes 2 or more opponents, all nearby party members gain 80 Elemental Mastery for 10s."
     }
   },
   "constellation5": {

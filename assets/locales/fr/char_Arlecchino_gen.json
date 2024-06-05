@@ -22,7 +22,7 @@
       "infusion": {
         "0": "<strong>Masque de la mort rouge</strong>",
         "1": "Lorsque Arlecchino est sous l'effet d'un engagement vital dont la valeur est supérieure ou égale à 30 % de ses PV max, elle entre dans l'état Masque de la mort rouge et ses attaques normales, chargées et plongeantes sont imprégnées de <pyro>DGT Pyro</pyro> ne pouvant pas être enchantés.",
-        "2": "Sous l'effet du masque de la mort rouge, toucher un ennemi avec une attaque normale augmente les DGT de l'attaque d'une valeur équivalant à un pourcentage de l'ATQ d'Arlecchino multipliée par le pourcentage de son engagement vital actuel et consomme 7,5 % de l'engagement vital actuel. Un engagement vital peut être consommé de cette manière une fois toutes les 0,03 s. Lorsqu'un engagement vital est consommé de cette manière, le TdR de la compétence élémentaire « Pulvérisation totale » diminue de 0,8 s."
+        "2": "Sous l'effet du masque de la mort rouge, toucher un ennemi avec une attaque normale augmente les DGT de l'attaque d'une valeur équivalant à un pourcentage de l'ATQ d'Arlecchino multipliée par le pourcentage de son engagement vital actuel et consomme 7,5 % de l'engagement vital actuel. Un engagement vital peut être consommé de cette manière une fois toutes les 0,03 s. Lorsqu'un engagement vital est consommé de cette manière, le TdR de la compétence élémentaire « Pulvérisation totale » diminue de 0,8 s."
       }
     },
     "skillParams": {
@@ -110,7 +110,7 @@
     "description": {
       "0": "Les <strong>dettes sanguinaires</strong> possèdent les caractéristiques suivantes :",
       "1": [
-        " Éliminer un ennemi affligé d'une dette sanguinaire accorde immédiatement à Arlecchino un engagement vital d'une valeur équivalant à 130 % de ses PV max.",
+        " Lorsqu'un ennemi affligé d'une dette sanguinaire infligée par Arlecchino elle-même est éliminé, elle obtient immédiatement un engagement vital d'une valeur équivalant à 130 % de ses PV max.",
         " 5 s après son application, une dette sanguinaire est améliorée en dette sanguinaire à échéance qui, lorsqu'elle est absorbée, accorde à la place un engagement vital de 130 % à Arlecchino."
       ],
       "2": "La valeur des engagements vitaux obtenus de ces manières ne peut pas dépasser la limite d'origine de <strong>Pulvérisation totale</strong>."
@@ -131,14 +131,14 @@
   "constellation1": {
     "name": "« À moi de supporter toute haine et toute dette... »",
     "description": {
-      "0": "L'augmentation du masque de la mort rouge s'améliore davantage de 100 %. De plus, la RÉS à l'interruption d'Arlecchino augmente lorsqu'elle utilise une attaque normale sous l'effet du masque de la mort rouge."
+      "0": "L'augmentation du masque de la mort rouge s'améliore davantage de 100 %. De plus, la RÉS à l'interruption d'Arlecchino augmente lorsqu'elle utilise une attaque normale ou chargée sous l'effet du masque de la mort rouge."
     }
   },
   "constellation2": {
     "name": "« À moi d'accorder toute récompense et toute punition... »",
     "description": {
       "0": "Les <strong>dettes sanguinaires</strong> commencent désormais comme des dettes sanguinaires à échéance.",
-      "1": "Lorsque Arlecchino absorbe une dette à échéance, elle envoie un feu lunatique vers l'avant, infligeant des <color= #FF9999FF>DGT Pyro de zone</undefined> d'une valeur équivalant à 900 % de son ATQ. Cet effet peut être déclenché une fois toutes les 10 s.",
+      "1": "Lorsque Arlecchino absorbe une dette à échéance, elle envoie un feu lunatique vers l'avant, infligeant des <pyro>DGT Pyro de zone</pyro> d'une valeur équivalant à 900 % de son ATQ et augmentant ses RÉS élémentaires et physique de 20 % pendant 15 s. Cet effet peut être déclenché une fois toutes les 10 s.",
       "2": "L'aptitude passive « Seule la douleur peut rembourser » doit être déjà débloquée."
     }
   },

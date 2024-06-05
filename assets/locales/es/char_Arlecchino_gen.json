@@ -1,7 +1,7 @@
 {
   "name": "Arlecchino",
   "title": "La Portadora Lunaciaga",
-  "description": "La Sota, la cuarta de Los Once de los Fatui y una diplomática fría e implacable. Es la “madre” a la que temen todos los niños de la Casa de la Hoguera, y de la cual también dependen.",
+  "description": "La Sota, la cuarta de Los Once de los Fatui y una diplomática fría e implacable. Es conocida como “Padre” por todos los niños de la Casa de la Hoguera, a quien temen, pero de quien también dependen.",
   "constellationName": "Ignis Purgatorius",
   "auto": {
     "name": "Invitación a una decapitación",
@@ -54,7 +54,7 @@
       "4": [
         "Tiene una duración de 30 s. Cada 5 s, inflige <pyro>Daño Pyro</pyro> a los enemigos afectados por él hasta un máximo de 2 veces. Este daño se considera Daño de Habilidad Elemental.",
         "Cuando Arlecchino usa un Ataque Cargado o la Habilidad Definitiva, “Ascenso lunaciago”, absorbe y elimina los decretos deudosangrientos cercanos y, por cada uno de ellos, obtiene un valor de pacto vital equivalente al 65% de su Vida Máx.",
-        "Durante 35 s tras usar su Habilidad Elemental, Arlecchino podrá obtener como máximo un pacto vital equivalente al 145% de su Vida Máx. a través de los decretos deudosangrientos. Al volver a usar la Habilidad Elemental en esa franja de tiempo, se reiniciará la duración y el valor máximo de pacto vital otorgado por el decreto deudosangriento."
+        "Durante 35 s tras usar su Habilidad Elemental, Arlecchino podrá obtener como máximo un pacto vital equivalente al 145% de su Vida Máx. a través de los decretos deudosangrientos. Al volver a usar la Habilidad Elemental en esa franja de tiempo, se reiniciará la duración y el valor máximo del pacto vital otorgado por el decreto deudosangriento."
       ],
       "5": "<br/>",
       "6": "<i>En su opinión, no todos los granos de trigo que caen al suelo acaban convirtiéndose en espigas; a veces, simplemente se pudren sin hacer ruido alguno. No obstante, una vez que quienes se interponen en su camino se han convertido en cenizas, pueden servir como abono para las flores.</i>"
@@ -131,14 +131,14 @@
   "constellation1": {
     "name": "Yo cargaré con todas las deudas y el odio",
     "description": {
-      "0": "El aumento de daño otorgado por el estado de mascarada de la muerte roja aumenta en un 100%. Además, al ejecutar un Ataque Normal en dicho estado, la RES a interrupción de Arlecchino aumenta."
+      "0": "El aumento de daño otorgado por el estado de mascarada de la muerte roja aumenta en un 100%. Además, al ejecutar un Ataque Normal o Cargado en dicho estado, la RES a interrupción de Arlecchino aumenta."
     }
   },
   "constellation2": {
     "name": "Yo otorgaré toda recompensa y castigo",
     "description": {
       "0": "Al aplicar un <strong>decreto deudosangriento</strong>, este se convierte en un decreto deudosangriento vinculante.",
-      "1": "Cuando Arlecchino absorbe dicho decreto, libera unas llamas lunaciagas que infligen una cantidad de <pyro>Daño Pyro en el AdE</pyro> equivalente al 900% de su ATQ. Este efecto solo se puede activar una vez cada 10 s.",
+      "1": "Cuando Arlecchino absorbe dicho decreto, libera unas llamas lunaciagas que infligen una cantidad de <pyro>Daño Pyro en el AdE</pyro> equivalente al 900% de su ATQ y que aumentan en un 20% todas sus RES Elementales y su RES Física durante 15 s. Este efecto solo se puede activar una vez cada 10 s.",
       "2": "Es necesario desbloquear el talento pasivo “Solo el sufrimiento podrá redimir”."
     }
   },

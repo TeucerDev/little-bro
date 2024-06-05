@@ -1,7 +1,7 @@
 {
   "name": "Sigewinne",
   "title": "Merveilleuse fille-dragonne",
-  "description": "",
+  "description": "L'infirmière en chef mélusine de la Forteresse de Méropide. Elle s'occupe de tous les prisonniers de manière équitable.",
   "constellationName": "Nereides",
   "auto": {
     "name": "Traitement ciblé",
@@ -43,7 +43,7 @@
     "name": "Hydrothérapie rebondissante",
     "description": {
       "0": "Sigewinne utilise un pistolet à bulles spécialement conçu dans la Forteresse de Méropide pour souffler des <strong>bulles d'eau curative</strong> pouvant stimuler la circulation sanguine et aider les patients à dormir paisiblement.",
-      "1": "Les bulles d'eau curative rebondissent entre les ennemis proches, infligeant des <hydro>DGT Hydro</hydro> selon les PV max de Sigewinne aux ennemis touchés. En touchant, les bulles d'eau curative restaurent les PV de tous les personnages de l'équipe à proximité (hormis Sigewinne) selon les PV max de Sigewinne.",
+      "1": "Les bulles d'eau curative rebondissent entre les ennemis proches, infligeant des <hydro>DGT Hydro</hydro> selon les PV max de Sigewinne aux ennemis touchés. En rebondissant, les bulles d'eau curative restaurent les PV de tous les personnages de l'équipe à proximité (hormis Sigewinne) selon les PV max de Sigewinne.",
       "2": "Une bulle d'eau curative disparaît et restaure les PV de Sigewinne selon ses PV max après avoir rebondi 5 fois.",
       "3": "Si aucun ennemi n'est à proximité, les bulles d'eau curative rebondissent aux alentours. Il ne peut exister qu'une seule bulle d'eau curative créée par Sigewinne à la fois.",
       "4": "En cas d'appui long, les bulles d'eau curative peuvent être chargées.",
@@ -83,7 +83,7 @@
   "burst": {
     "name": "Injection sur-saturée",
     "description": {
-      "0": "Sigewinne sort une seringue spécialement conçue dans la Forteresse de Méropide pour attaquer la zone en face d'elle avec des vagues de gentillesse et de médicaments, infligeant des <hydro>DGT Hydro de zone</hydro> de façon continue.",
+      "0": "Sigewinne sort une seringue spécialement conçue dans la Forteresse de Méropide pour attaquer la zone en face d'elle avec des vagues de gentillesse et de médicaments, infligeant des <hydro>DGT Hydro de zone</hydro> de façon continue selon ses PV max.",
       "1": "De plus, utiliser cette capacité permet à Sigewinne d'absorber jusqu'à 2 gouttes d'eau de source à portée.",
       "2": "<br/>",
       "3": "<i>« Hé, prendre trop de médicaments, c'est comme prendre du poison : c'est vraiment dangereux ! Mais les patients ont aussi besoin de soins et d'attention, et avec ça au moins, pas de risque d'overdose ! »</i>"
@@ -110,13 +110,13 @@
   "passive1": {
     "name": "Repos adéquat requis",
     "description": {
-      "0": "Utiliser <strong>Hydrothérapie rebondissante</strong> accorde à Sigewinne l'effet Repos semi-forcé pendant 18 s : accorde un <hydro>bonus de DGT Hydro</hydro> de 8 % et 10 cumuls d'analepsie. Lorsqu'une compétence élémentaire d'un personnage faisant partie de votre équipe mais n'étant pas déployé (hormis Sigewinne) inflige des DGT, un cumul d'analepsie est consommé pour augmenter cette instance de DGT : chaque tranche de 1 000 PV max au-dessus de 30 000 que Sigewinne possède augmente les DGT de 80 pts, une instance de DGT pouvant être augmentée d'un maximum de 2 800 pts de cette manière."
+      "0": "Utiliser <strong>Hydrothérapie rebondissante</strong> accorde à Sigewinne l'effet Repos semi-forcé pendant 18 s : accorde un <hydro>bonus de DGT Hydro</hydro> de 8 % et 10 cumuls d'analepsie. Lorsqu'une compétence élémentaire d'un personnage faisant partie d'une équipe à proximité mais n'étant pas déployé (hormis Sigewinne) inflige des DGT, un cumul d'analepsie est consommé pour augmenter cette instance de DGT : chaque tranche de 1 000 PV max au-dessus de 30 000 que Sigewinne possède augmente les DGT de 80 pts, une instance de DGT pouvant être augmentée d'un maximum de 2 800 pts de cette manière."
     }
   },
   "passive2": {
     "name": "Traitement minutieux prescrit",
     "description": {
-      "0": "Lorsque Sigewinne effectue des soins, la quantité de soins augmente selon le total des engagements vitaux actuels de tous les personnages de l'équipe : chaque tranche de 1 000 d'engagement vital augmente les soins de 3 %. Les soins peuvent être augmentés d'un maximum de 30 % de cette manière."
+      "0": "Lorsque Sigewinne effectue des soins, la quantité de soins augmente selon le total des engagements vitaux actuels de tous les personnages de l'équipe : chaque tranche de 1 000 pts d'engagement vital augmente les soins de 3 %. Les soins peuvent être augmentés d'un maximum de 30 % de cette manière."
     }
   },
   "passive3": {
@@ -135,7 +135,7 @@
   "constellation2": {
     "name": "« Le plus miséricordieux des esprits peut-il vaincre les ennemis ? »",
     "description": {
-      "0": "Pendant la durée d'<strong>Hydrothérapie rebondissante</strong> et <strong>Injection sur-saturée</strong>, Sigewinne génère un bouclier bulleux pouvant absorber des DGT équivalant à 30 % de ses PV max et efficace à 250 % contre les <hydro>DGT Hydro</hydro>.",
+      "0": "Pendant la durée d'<strong>Hydrothérapie rebondissante</strong> et d'<strong>Injection sur-saturée</strong>, Sigewinne génère un bouclier bulleux pouvant absorber des DGT équivalant à 30 % de ses PV max et efficace à 250 % contre les <hydro>DGT Hydro</hydro>.",
       "1": "De plus, lorsqu'une bulle d'eau curative d'Hydrothérapie rebondissante ou Injection sur-saturée a touché un ennemi, la <hydro>RÉS Hydro</hydro> de ce dernier diminue de 35 % pendant 8 s."
     }
   },

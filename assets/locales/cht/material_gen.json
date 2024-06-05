@@ -197,6 +197,12 @@
   "AnalysisProgress": {
     "name": "分析進度"
   },
+  "ExcerptsOfBliss": {
+    "name": "悠樂片段"
+  },
+  "VoyageKey": {
+    "name": "遊跡鑰匙"
+  },
   "Primogem": {
     "name": "原石"
   },
@@ -209,7 +215,7 @@
   "RealmCurrency": {
     "name": "洞天寶錢"
   },
-  "ToyMedals": {
+  "ToyMedal": {
     "name": "玩具勳章"
   },
   "OriginalEssenceInvalidated": {
@@ -542,6 +548,9 @@
   "Clorinde": {
     "name": "克洛琳德"
   },
+  "Emilie": {
+    "name": "艾梅莉埃"
+  },
   "KamisatoAyakasStellaFortuna": {
     "name": "神里綾華的命星"
   },
@@ -796,6 +805,9 @@
   },
   "ClorindesStellaFortuna": {
     "name": "克洛琳德的命星"
+  },
+  "EmiliesStellaFortuna": {
+    "name": "艾梅莉埃的命星"
   },
   "GnosticHymnOldNotes": {
     "name": "珍珠紀行·初稿"
@@ -4958,6 +4970,9 @@
   "SpiritCarp": {
     "name": "蒼靈鯉"
   },
+  "JubilantFeather": {
+    "name": "歡聲飛羽"
+  },
   "Dish": {
     "name": "料理"
   },
@@ -6983,6 +6998,18 @@
   "SuperDeeDuperDeliciousMeatRoll": {
     "name": "烤肉香香香捲"
   },
+  "SuspiciousFricasseeDePoulet": {
+    "name": "奇怪的鮮奶油燉雞"
+  },
+  "FricasseeDePoulet": {
+    "name": "鮮奶油燉雞"
+  },
+  "DeliciousFricasseeDePoulet": {
+    "name": "美味的鮮奶油燉雞"
+  },
+  "AFragrantFeastOfFlavors": {
+    "name": "香馥繁味"
+  },
   "RecipeItem": {
     "name": "食譜道具"
   },
@@ -7564,6 +7591,9 @@
   },
   "RecipeBulleSauceDuckBreast": {
     "name": "食譜：桔香鴨胸肉"
+  },
+  "RecipeFricasseeDePoulet": {
+    "name": "食譜：鮮奶油燉雞"
   },
   "CraftedItems": {
     "name": "合成產物"
@@ -8161,6 +8191,15 @@
   },
   "FragmentOfAGoldenMelody": {
     "name": "金色旋律的斷章"
+  },
+  "FadingCandle": {
+    "name": "殘火燈燭"
+  },
+  "SilkenFeather": {
+    "name": "絲織之羽"
+  },
+  "DenialAndJudgment": {
+    "name": "否定裁斷"
   },
   "TileOfDecarabiansTower": {
     "name": "高塔孤王的破瓦"
@@ -10271,13 +10310,34 @@
   "FishSeizedFromAPelicansMouth": {
     "name": "從「鵜鶘」嘴裡搶下的魚"
   },
+  "InvitationFromTheAratakiGang": {
+    "name": "荒瀧派的邀請函"
+  },
+  "WitnessPact": {
+    "name": "見證人盟約"
+  },
+  "GloriousClockwork": {
+    "name": "偉大發條"
+  },
   "FelixFelicium": {
     "name": "「幸運祝福」"
+  },
+  "ConcentratedTransoceanicPearl": {
+    "name": "濃縮的異海凝珠"
+  },
+  "TaintedHydroPhantasmExtract": {
+    "name": "濁水幻靈的提取物"
+  },
+  "ShikanoinHeizousMessage": {
+    "name": "鹿野院平藏的留言"
+  },
+  "PuppyUnionAdmissionDetails": {
+    "name": "「小狗商會」的收治明細"
   },
   "LynettesEnvelope": {
     "name": "琳妮特的信封"
   },
-  "RepairedScore": {
+  "RestoredScore": {
     "name": "修復完好的曲譜"
   },
   "PagesFromALostScoreI": {
@@ -10301,14 +10361,71 @@
   "Manuscript": {
     "name": "手稿"
   },
+  "IGotReincarnatedAsAnOnikabutoAndFlippedTheWorldUpsideDown": {
+    "name": "《轉生成為鬼兜蟲然後撞翻世界》"
+  },
+  "CynosLetter": {
+    "name": "賽諾的信"
+  },
   "DamagedScore": {
     "name": "破損的曲譜"
+  },
+  "DejaLongRangeLamp": {
+    "name": "疊架遠光燈"
+  },
+  "AWeaponLikeDragonHorn": {
+    "name": "如同「武具」般的龍角"
+  },
+  "CriminalsTestimony": {
+    "name": "犯人的口供"
+  },
+  "RawatsNotes": {
+    "name": "拉瓦特的筆記"
+  },
+  "ScatteredStar": {
+    "name": "散落的星星"
+  },
+  "GroupPhotoFromAnUnknownTime": {
+    "name": "不知何時留下的合影"
   },
   "RuggierosNotesII": {
     "name": "魯傑羅的筆記·其二"
   },
   "PagesFromALostScoreII": {
     "name": "遺落的曲譜殘頁·其二"
+  },
+  "SpecialPickaxe": {
+    "name": "特殊礦鎬"
+  },
+  "GoddesssManuscriptI": {
+    "name": "女神的手稿·其一"
+  },
+  "GoddesssManuscriptII": {
+    "name": "女神的手稿·其二"
+  },
+  "GoddesssManuscriptIII": {
+    "name": "女神的手稿·其三"
+  },
+  "ShapeOfValor": {
+    "name": "勇敢之形"
+  },
+  "ShapeOfWisdom": {
+    "name": "智慧之形"
+  },
+  "ShapeOfEmpathy": {
+    "name": "同理心之形"
+  },
+  "SecretElixir": {
+    "name": "「秘藥」"
+  },
+  "GuardsSpear": {
+    "name": "衛兵長矛"
+  },
+  "TreasureMapWithTheVaultsLocation": {
+    "name": "指出寶庫位置的「藏寶圖」"
+  },
+  "MarechausseeHunterJudgmentDayCharacterAlbum": {
+    "name": "《逐影獵人：審判之時》角色紀念冊"
   },
   "AncientEngravings": {
     "name": "古老的碑銘"
@@ -10339,6 +10456,12 @@
   },
   "AncientPieceOfPaper": {
     "name": "古舊的紙條"
+  },
+  "ProductionLog": {
+    "name": "生產日誌"
+  },
+  "ExperimentLog": {
+    "name": "實驗日誌"
   },
   "TheLittleWitchAndTheUndyingFireI": {
     "name": "小魔女與不熄滅的火·卷一"
@@ -10384,6 +10507,15 @@
   },
   "TheFelineFirmVIII": {
     "name": "貓咪事務所·卷八"
+  },
+  "ASettingSunThatNeverSets": {
+    "name": "「永遠高掛的落日」"
+  },
+  "ADragonThatCannotFly": {
+    "name": "「岸上游泳的魚兒」"
+  },
+  "AMoonThatOnlyShinesAtNight": {
+    "name": "「夜晚顯現的明月」"
   },
   "TearsAmongTheStars": {
     "name": "星間之淚"
@@ -11138,6 +11270,9 @@
   "ExaltedEarth": {
     "name": "「大地之王」"
   },
+  "CamAndCablesOfLaw": {
+    "name": "衡儀機樞"
+  },
   "FalconsDance": {
     "name": "鷹隼之舞"
   },
@@ -11289,7 +11424,7 @@
     "name": "原神·印象"
   },
   "TravelNotesCatchTheWind": {
-    "name": "紀行·補風"
+    "name": "紀行·捕風"
   },
   "AmberBunny": {
     "name": "安柏·兔兔"
@@ -11855,6 +11990,9 @@
   "TravelNotesArcaneAmassing": {
     "name": "紀行·魔萃"
   },
+  "ArlecchinoEdict": {
+    "name": "阿蕾奇諾·法度"
+  },
   "FontaineAttunement": {
     "name": "楓丹·調律"
   },
@@ -11867,11 +12005,38 @@
   "TravelNotesTheRealmsRocked": {
     "name": "紀行·邦搖"
   },
+  "ClorindeRoleplay": {
+    "name": "克洛琳德·取人"
+  },
+  "SigewinneTreatment": {
+    "name": "希格雯·療法"
+  },
+  "SethosBaFragment": {
+    "name": "塞索斯·跋靈"
+  },
   "AchievementPoeticPages": {
     "name": "成就·詩頁"
   },
   "TravelNotesSimulnation": {
     "name": "紀行·衍演"
+  },
+  "TravelNotesSimulacra": {
+    "name": "紀行·擬像"
+  },
+  "VoyageJean": {
+    "name": "遊跡·琴"
+  },
+  "VoyageQiqi": {
+    "name": "遊跡·七七"
+  },
+  "VoyageNingguang": {
+    "name": "遊跡·凝光"
+  },
+  "VoyageKirara": {
+    "name": "遊跡·綺良良"
+  },
+  "VoyageDiluc": {
+    "name": "遊跡·迪盧克"
   },
   "AnemoculusResonanceStone": {
     "name": "風神瞳共鳴石"
@@ -12119,6 +12284,15 @@
   "Fateometer": {
     "name": "「命運示數器」"
   },
+  "48LowLevelPageDetector": {
+    "name": "4.8低階書頁探測器"
+  },
+  "48AdvancedPageDetector": {
+    "name": "4.8高級書頁探測器"
+  },
+  "AsagirisFontaineSpecializedKamera": {
+    "name": "朝霧的楓丹專用留影機"
+  },
   "InstructionsAnemoculusResonanceStone": {
     "name": "說明：風神瞳共鳴石"
   },
@@ -12320,6 +12494,12 @@
   "LeisureTime": {
     "name": "閒暇時光"
   },
+  "CarefulNegotiations": {
+    "name": "嚴謹交涉"
+  },
+  "FilledWithConfidence": {
+    "name": "自信滿滿"
+  },
   "RhodeiaOfLoch": {
     "name": "純水精靈·洛蒂婭"
   },
@@ -12388,6 +12568,9 @@
   },
   "GuardianOfApepsOasis": {
     "name": "阿佩普的綠洲守望者"
+  },
+  "FrostOperative": {
+    "name": "愚人眾·霜役人"
   },
   "UndividedHeart": {
     "name": "唯此一心"
@@ -12665,6 +12848,15 @@
   "AThousandYoung": {
     "name": "萬千子嗣"
   },
+  "VanguardsCoordinatedTactics": {
+    "name": "尖兵協同戰法"
+  },
+  "UndisclosedDistributionChannels": {
+    "name": "不明流通管道"
+  },
+  "RimeflowRapier": {
+    "name": "冰雅刺劍"
+  },
   "MagicGuide": {
     "name": "魔導緒論"
   },
@@ -12908,6 +13100,15 @@
   "FlowerOfParadiseLost": {
     "name": "樂園遺落之花"
   },
+  "UltimateOverlordsMegaMagicSword": {
+    "name": "究極霸王超級魔劍"
+  },
+  "ProspectorsDrill": {
+    "name": "勘探鑽機"
+  },
+  "GladiatorsTriumphus": {
+    "name": "角鬥士的凱旋"
+  },
   "LiyueHarborWharf": {
     "name": "璃月港口"
   },
@@ -13051,6 +13252,9 @@
   },
   "SirArthur": {
     "name": "亞瑟先生"
+  },
+  "Serene": {
+    "name": "瑟琳"
   },
   "ElementalResonanceWovenIce": {
     "name": "元素共鳴：交織之冰"
@@ -13229,6 +13433,12 @@
   "CountdownToTheShow3": {
     "name": "幻戲倒數：3"
   },
+  "WatchingThatKidMakeMoney": {
+    "name": "「看到那小子掙錢…」"
+  },
+  "Tada": {
+    "name": "噔噔！"
+  },
   "Origin": {
     "name": "原初"
   },
@@ -13273,6 +13483,9 @@
   },
   "TheChasmBlueCrystal": {
     "name": "層岩巨淵·靛晶"
+  },
+  "TheChasmCrown": {
+    "name": "層岩巨淵·冠冕"
   },
   "BeginnerPlayerBadge": {
     "name": "初級牌手徽章"
@@ -16082,7 +16295,7 @@
   "HiddenSerpent": {
     "name": "「暗藏的遊蛇」"
   },
-  "MirrorReflectionHarp": {
+  "MirrorReflectionLyre": {
     "name": "「如鏡的詩琴」"
   },
   "CrystallineGlory": {
@@ -16318,6 +16531,9 @@
   },
   "TearstoneTilePerspectiveTheory": {
     "name": "淚斑岩磚-「透視理論」"
+  },
+  "SwordBearingStatueEternalWatch": {
+    "name": "持劍石像-「永恆宿衛」"
   },
   "SwordBearingStatueAestheticsOfIncompleteness": {
     "name": "持劍石像-「殘缺美學」"

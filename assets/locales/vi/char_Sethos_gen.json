@@ -1,7 +1,7 @@
 {
   "name": "Sethos",
   "title": "Thước Đo Trí Tuệ",
-  "description": "",
+  "description": "Người thừa kế của Ngôi Đền Im Lặng. Mang theo bí mật, đến từ trong cát.",
   "constellationName": "Cung Thánh Danh Hoàn",
   "auto": {
     "name": "Tiễn Thuật Lau Sậy Hoàng Gia",
@@ -46,7 +46,7 @@
   "skill": {
     "name": "Nghi Thức Cổ - Tiếng Sấm Của Cát",
     "description": {
-      "0": "Tích tụ sấm sét, gây <electro>Sát Thương Phạm Vi Nguyên Tố Lôi</electro> và nhanh chóng rút lui. Nếu lần tấn công đó kích hoạt phản ứng Điện Cảm, Siêu Dẫn, Quá Tải, Sinh Trưởng, Tăng Cường, Nở Rộ hoặc Khuếch Tán Lôi lên kẻ địch thì Sethos sẽ hồi phục một lượt Năng Lượng Nguyên Tố nhất định.",
+      "0": "Tích tụ sấm sét, gây <electro>Sát Thương Phạm Vi Nguyên Tố Lôi</electro> và nhanh chóng rút lui. Nếu lần tấn công đó kích hoạt phản ứng Điện Cảm, Siêu Dẫn, Quá Tải, Sinh Trưởng, Tăng Cường, Nở Rộ hoặc Khuếch Tán Lôi lên kẻ địch thì Sethos sẽ hồi phục một lượng Năng Lượng Nguyên Tố nhất định.",
       "1": "<br/>",
       "2": "<i>\"Tư tế bên cạnh thần linh, thuật sĩ biến hố sâu thành dòng suối, câu chuyện của họ được lan truyền bởi những người hát ca trong biển cát... Nhưng tôi biết đó không phải là truyền thuyết, do họ chính là tổ tiên của chúng tôi.\"</i>"
     },
@@ -73,10 +73,11 @@
     "name": "Nghi Thức Ẩn - Ánh Sáng Xuyên Bóng Tối",
     "description": {
       "0": "Thi triển nghi thức thần bí và tiến vào trạng thái \"Thiền Định Hoàng Hôn\". Trong thời gian này, Tấn Công Thường của Sethos sẽ chuyển thành <strong>Mũi Tên Chạng Vạng</strong> có thể xuyên thấu kẻ địch: Gây <electro>Sát Thương Nguyên Tố Lôi</electro> cho kẻ địch trên đường, đồng thời dựa vào Tinh Thông Nguyên Tố của Sethos để gia tăng sát thương gây ra.",
-      "1": "Sát thương gây ra từ Mũi Tên Chạng Vạng được xem là sát thương Trọng Kích.",
-      "2": "Hiệu quả sẽ xóa khi Sethos rời trận.",
-      "3": "<br/>",
-      "4": "<i>Thư viện của Ngôi Đền Im Lặng có lưu trữ không ít sách do Akhtamun để lại từ thời Vua Deshret. Trong sách có ghi chép lại những nghi thức bí mật có sức mạnh to lớn, nhưng chỉ có rất ít thành viên có thể làm chủ được chúng.</i>"
+      "1": "Trong thời gian duy trì, Sethos không thể tiến hành ngắm bắn.",
+      "2": "Sát thương gây ra từ Mũi Tên Chạng Vạng được xem là sát thương Trọng Kích.",
+      "3": "Hiệu quả sẽ xóa khi Sethos rời trận.",
+      "4": "<br/>",
+      "5": "<i>Thư viện của Ngôi Đền Im Lặng có lưu trữ không ít sách do Akhtamun để lại từ thời Vua Deshret. Trong sách có ghi chép lại những nghi thức bí mật có sức mạnh to lớn, nhưng chỉ có rất ít thành viên có thể làm chủ được chúng.</i>"
     },
     "skillParams": {
       "0": "Sát Thương Mũi Tên Chạng Vạng Tăng",
@@ -100,20 +101,20 @@
   "passive1": {
     "name": "Thì Thầm Của Diều Đen",
     "description": {
-      "0": "Khi ngắm bắn, giảm 0.285s thời gian tụ lực dựa trên mỗi một điểm Năng Lượng Nguyên Tố hiện tại của Sethos. Thông qua cách thức này tối đa có thể khiến thời gian tụ lực giảm đến 0.3s và tính vào 20 điểm Năng Lượng Nguyên Tố. Khi bắn, nếu bắn ra <strong>Mũi Tên Xuyên Bóng Tối</strong> thì sẽ tiêu hao Năng Lượng Nguyên Tố được tính vào đó; Nếu bắn ra mũi tên tụ lực lần 1 thì sẽ tiêu hao 50% Năng Lượng Nguyên Tố được tính vào."
+      "0": "Khi ngắm bắn, với mỗi điểm Năng Lượng Nguyên Tố hiện có, Sethos sẽ giảm 0.285s thời gian tụ lực. Thông qua cách thức này tối đa có thể khiến thời gian tụ lực giảm còn 0.3s và tính vào 20 điểm Năng Lượng Nguyên Tố. Khi bắn, nếu bắn ra <strong>Mũi Tên Xuyên Bóng Tối</strong> thì sẽ tiêu hao Năng Lượng Nguyên Tố được tính vào đó; Nếu bắn ra mũi tên tụ lực lần 1 thì sẽ chỉ tiêu hao 50% Năng Lượng Nguyên Tố được tính."
     }
   },
   "passive2": {
     "name": "Quà Tặng Của Vua Cát",
     "description": {
-      "0": "Sethos nhận được hiệu quả \"Ảo Ảnh Cát Nóng\", gia tăng sát thương gây ra từ <strong>Mũi Tên Xuyên Bóng Tối</strong>, mức độ gia tăng tương ứng với 600% Tinh Thông Nguyên Tố của Sethos.",
-      "1": "Hiệu quả Ảo Ảnh Cát Nóng sẽ bị hủy khi đạt bất kỳ điều kiện sau:",
+      "0": "Sethos nhận được hiệu quả \"Ảo Ảnh Cát Nóng\", gia tăng sát thương gây ra từ <strong>Mũi Tên Xuyên Bóng Tối</strong>, mức độ gia tăng tương ứng với 700% Tinh Thông Nguyên Tố của Sethos.",
+      "1": "Hiệu quả Ảo Ảnh Cát Nóng sẽ bị xóa khi đạt bất kỳ điều kiện sau:",
       "2": [
-        "Sau 5s khi Mũi Tên Xuyên Bóng Tối đầu tiên trúng kẻ địch;",
-        "Sau khi 4 Mũi Tên Xuyên Bóng Tối trúng kẻ địch."
+        "Sau 5s từ lúc Mũi Tên Xuyên Bóng Tối đầu tiên trúng kẻ địch;",
+        "Sau khi 4 Mũi Tên Xuyên Bóng Tối bắn trúng kẻ địch."
       ],
       "3": "<br/>",
-      "4": "Mũi Tên Xuyên Bóng Tối mang hiệu quả Ảo Ảnh Cát Nóng lần đầu tiên trúng kẻ địch, Sethos sẽ nhận lại hiệu quả Ảo Ảnh Cát Nóng sau 15s."
+      "4": "Sethos sẽ nhận lại hiệu quả Ảo Ảnh Cát Nóng sau 15s kể từ lúc Mũi Tên Xuyên Bóng Tối mang hiệu quả Ảo Ảnh Cát Nóng lần đầu bắn trúng kẻ địch."
     }
   },
   "passive3": {
@@ -131,12 +132,12 @@
   "constellation2": {
     "name": "Kinh Giấy Cói Của Điều Ẩn Mật",
     "description": {
-      "0": "Khi Sethos thi triển <strong>Nghi Thức Ẩn - Ánh Sáng Xuyên Bóng Tối</strong> hoặc thỏa mãn một trong những điều kiện sau, thì <electro>Buff Sát Thương Nguyên Tố Lôi</electro> sẽ tăng 15% trong 10s:",
+      "0": "Khi đáp ứng bất kỳ các điều kiện sau, Sethos sẽ tăng 15% <electro>Buff Sát Thương Nguyên Tố Lôi</electro> trong 10s, tối đa cộng dồn 2 tầng, mỗi tầng tính giờ riêng:",
       "1": [
-        "Tiêu hao Năng Lượng Nguyên Tố thông qua thiên phú \"Thì Thầm Của Diều Đen\". Điều kiện này cần mở khóa thiên phú \"Thì Thầm Của Diều Đen\";",
-        "Hồi phục Năng Lượng Nguyên Tố thông qua <strong>Nghi Thức Cổ - Tiếng Sấm Của Cát</strong>."
-      ],
-      "2": "Khi kích hoạt hiệu quả <electro>Buff Sát Thương Nguyên Tố Lôi</electro> này sẽ tối đa cộng dồn 2 tầng, mỗi tầng tính giờ riêng."
+        "Tiêu hao Năng Lượng Nguyên Tố từ việc nhắm bắn, điều kiện này cần mở khóa thiên phú \"Thì Thầm Của Diều Đen\".",
+        "Thông qua <strong>Nghi Thức Cổ - Tiếng Sấm Của Cát</strong> kích hoạt phản ứng nguyên tố để hồi phục Năng Lượng Nguyên Tố.",
+        "Thi triển <strong>Nghi Thức Ẩn - Ánh Sáng Xuyên Bóng Tối</strong>."
+      ]
     }
   },
   "constellation3": {

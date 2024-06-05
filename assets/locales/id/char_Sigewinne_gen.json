@@ -1,7 +1,7 @@
 {
   "name": "Sigewinne",
   "title": "Wondrous Dragonheir",
-  "description": "",
+  "description": "Seorang Melusine sekaligus suster kepala di Benteng Meropide. Dia memerhatikan setiap tahanan di penjara bawah air dengan adil.",
   "constellationName": "Nereides",
   "auto": {
     "name": "Targeted Treatment",
@@ -13,7 +13,7 @@
       "charged": {
         "0": "<strong>Charged Attack</strong>",
         "1": "Melancarkan sebuah <strong>Serangan Membidik</strong> yang lebih akurat untuk mengakibatkan DMG lebih besar.",
-        "2": "Saat membidik, kekuatan Hydro akan berkumpul di ujung anak panah. Setelah Charge selesai, setiap kurun waktu tertentu, Sigewinne akan menembakkan Mini-Stration Bubble yang bergerak perlahan ke arah musuh dan mengakibatkan <strong>Hydro DMG</strong>. Saat dilepaskan, anak panah yang dipenuhi arus air akan mengakibatkan <hydro>Hydro DMG</hydro> saat mengenai musuh."
+        "2": "Saat membidik, kekuatan Hydro akan berkumpul di ujung anak panah. Setelah Charge selesai, setiap kurun waktu tertentu, Sigewinne akan menembakkan Mini-Stration Bubble yang bergerak perlahan ke arah musuh dan mengakibatkan <hydro>Hydro DMG</hydro>. Saat dilepaskan, anak panah yang dipenuhi arus air akan mengakibatkan <hydro>Hydro DMG</hydro> saat mengenai musuh."
       },
       "plunging": {
         "0": "<strong>Plunging Attack</strong>",
@@ -42,22 +42,22 @@
   "skill": {
     "name": "Rebound Hydrotherapy",
     "description": {
-      "0": "Menggunakan senapan gelembung yang khusus dibuat oleh Benteng Meropide untuk mengembuskan <strong>Boosting Bubblebalm</strong> yang bisa merangsang peredaran darah dan membuat pasien tertidur pulas.",
-      "1": "Boosting Bubblebalm akan melambung saat berada di sekitar musuh. Saat mengenai musuh, akan mengakibatkan<hydro>Hydro DMG</hydro> yang didasarkan pada Max HP Sigewinne; Saat mengenai musuh, akan memulihkan HP seluruh anggota party selain Sigewinne di sekitar yang didasarkan pada Max HP Sigewinne. ",
-      "2": "Setelah melambung 5 kali, Boosting Bubblebalm akan hilang dan akan memulihkan HP Sigewinne berdasarkan Max HP-nya.",
-      "3": "Saat tidak ada musuh, Boosting Bubblebalm akan melambung di sekitar. Maksimum ada satu Boosting Bubblebalm yang bisa diciptakan oleh Sigewinne sendiri pada waktu yang bersamaan.",
-      "4": "Saat ditahan, akan melakukan Charge dan melancarkan Boosting Bubblebalm.",
+      "0": "Menggunakan senapan gelembung yang khusus dibuat oleh Benteng Meropide untuk mengembuskan <strong>Bolstering Bubblebalm</strong> yang bisa merangsang peredaran darah dan membuat pasien tertidur pulas.",
+      "1": "Bolstering Bubblebalm akan melambung saat berada di sekitar musuh. Saat mengenai musuh, akan mengakibatkan <hydro>Hydro DMG</hydro> yang didasarkan pada Max HP Sigewinne; Saat melambung, akan memulihkan HP seluruh anggota party di sekitar (selain Sigewinne) yang didasarkan pada Max HP Sigewinne. ",
+      "2": "Setelah melambung 5 kali, Bolstering Bubblebalm akan hilang dan akan memulihkan HP Sigewinne berdasarkan Max HP-nya.",
+      "3": "Saat tidak ada musuh, Bolstering Bubblebalm akan melambung di sekitar. Maksimum ada satu Bolstering Bubblebalm yang bisa diciptakan oleh Sigewinne sendiri pada waktu yang bersamaan.",
+      "4": "Saat ditahan, akan melakukan Charge dan melancarkan Bolstering Bubblebalm.",
       "5": "<br/>",
       "6": "<strong>Mode Tahan</strong>",
-      "7": "Memasuki Mode Membidik dan melakukan Charge, lalu mengembuskan Boosting Bubblebalm yang lebih besar dan lebih kuat!",
-      "8": "Boosting Bubblebalm akan menjadi semakin besar seiring durasi tombol Skill ditahan, hingga membesar dua level. Untuk setiap peningkatan level, DMG saat mengenai musuh meningkat 5%, jumlah pemulihan HP meningkat 5%; Setelah melambung, akan mengecil 1 level, demikian seterusnya sampai menjadi Boosting Bubblebalm biasa.",
-      "9": "Setelah musuh yang relatif lemah terkena Boosting Bubblebalm yang relatif besar, musuh tersebut akan terperangkap dan tidak bisa bergerak.",
+      "7": "Memasuki Mode Membidik dan melakukan Charge, lalu mengembuskan Bolstering Bubblebalm yang lebih besar dan lebih kuat!",
+      "8": "Bolstering Bubblebalm akan menjadi semakin besar seiring durasi tombol Skill ditahan, hingga membesar dua level. Untuk setiap peningkatan level, DMG saat mengenai musuh meningkat 5%, jumlah pemulihan HP meningkat 5%; Setelah melambung, akan mengecil 1 level, demikian seterusnya sampai menjadi Bolstering Bubblebalm biasa.",
+      "9": "Setelah musuh yang relatif lemah terkena Bolstering Bubblebalm yang relatif besar, musuh tersebut akan terperangkap dan tidak bisa bergerak.",
       "10": "<br/>",
       "11": "Selain itu, saat dilancarkan, akan menghasilkan 2 Sourcewater Droplet di sekitar Sigewinne. Untuk setiap satu Sourcewater Droplet yang diserap, akan memberikan Bond of Life kepada Sigewinne sebesar 10% Max HP-nya.",
-      "12": "Saat Bond of Life Sigewinne dihapus, untuk setiap 2.000 poin Bond of Life yang dihapus, akan memulihkan 5 poin Energy untuknya. Pemulihan Energy yang bisa diperoleh Sigewinne dengan cara ini adalah maksimum 5 poin Energy.",
+      "12": "Saat Bond of Life Sigewinne dihapus, untuk setiap 2.000 poin Bond of Life yang dihapus, akan memulihkan 1 poin Energy untuknya. Pemulihan Energy yang bisa diperoleh Sigewinne dengan cara ini adalah maksimum 5 poin Energy.",
       "13": "<br/>",
       "14": "<strong>Arkhe: Ousia</strong>",
-      "15": "Setiap satu kurun waktu tertentu, Boosting Bubblebalm akan menjatuhkan Surging Blade di posisi target dan menyebabkan Ousia-aligned <hydro>Hydro DMG</hydro> yang didasarkan pada Max HP Sigewinne",
+      "15": "Setiap satu kurun waktu tertentu, Bolstering Bubblebalm akan menjatuhkan Surging Blade di posisi target dan menyebabkan Ousia-aligned <hydro>Hydro DMG</hydro> yang didasarkan pada Max HP Sigewinne",
       "16": "<br/>",
       "17": "<i>\"Gimana menurutmu? Terapi air seperti ini bukan cuma bisa merangsang sistem peredaran darah, tapi juga bisa membuat mereka semangat. Ooh, bukan cuma itu, bahkan terapi ini bisa membantu pasien yang harus istirahat untuk tidur siang yang cukup ....\"</i>"
     },
@@ -83,10 +83,10 @@
   "burst": {
     "name": "Super Saturated Syringing",
     "description": {
-      "0": "Menarik alat suntik yang khusus dibuat oleh Benteng Meropide, menerjang ke area depan dengan kebaikan dan obat penuh, mengakibatkan <hydro>Hydro DMG Area</hydro> terus-menerus.",
+      "0": "Menarik alat suntik yang khusus dibuat oleh Benteng Meropide, menerjang ke area depan dengan kebaikan dan obat-obatan, terus-menerus mengakibatkan <hydro>Hydro DMG Area</hydro> yang didasarkan pada Max HP Sigewinne.",
       "1": "Selain itu, saat dilancarkan, Sigewinne akan menyerap maksimum 2 Sourcewater Droplet yang berada dalam radius tertentu di sekitar.",
       "2": "<br/>",
-      "3": "<i>\"Hei, overdosis obat itu sama saja dengan overdosis racun ya! Bahaya loh itu! Tapi pasien itu butuh perawatan dan perhatian. Kalau itu sih tidak bakal bisa overdosis!\"</i>"
+      "3": "<i>\"Hei, overdosis obat itu sama saja dengan overdosis racun ya! Bahaya loh itu! Tapi pasien kan butuh perawatan dan perhatian. Kalau itu sih tidak bakal bisa overdosis!\"</i>"
     },
     "skillParams": {
       "0": "DMG Skill",
@@ -110,7 +110,7 @@
   "passive1": {
     "name": "Requires Appropriate Rest",
     "description": {
-      "0": "Saat melancarkan <strong>Rebound Hydrotherapy</strong>, Sigewinne memberikan efek \"Semi-Strict Bedrest\" yang berlangsung 18 detik kepada dirinya sendiri: Selama berlangsung, Sigewinne mendapatkan 8% <hydro>Hydro DMG Bonus</hydro> dan 10 lapis Convalescence. Saat Elemental Skill Karakter yang ada di dalam party namun sedang tidak berada di medan pertempuran selain Sigewinne mengakibatkan DMG, mengonsumsi 1 lapis Convalescence dan meningkatkan DMG Elemental Skill kali ini: Untuk setiap 1.000 poin HP Sigewinne yang melebihi 30.000, DMG meningkat 80 poin. Maksimum peningkatan DMG Elemental Skill kali ini yang bisa diperoleh dengan cara ini adalah 2.800 poin."
+      "0": "Saat melancarkan <strong>Rebound Hydrotherapy</strong>, Sigewinne memberikan efek \"Semi-Strict Bedrest\" yang berlangsung 18 detik kepada dirinya sendiri: Selama berlangsung, Sigewinne mendapatkan 8% <hydro>Hydro DMG Bonus</hydro> dan 10 lapis Convalescence. Saat Elemental Skill Karakter yang ada di dalam party namun sedang tidak berada di medan pertempuran selain Sigewinne sendiri mengakibatkan DMG, akan mengonsumsi 1 lapis Convalescence dan meningkatkan DMG Elemental Skill kali ini: Untuk setiap 1.000 poin HP Sigewinne yang melebihi 30.000, DMG meningkat 80 poin. Maksimum peningkatan DMG Elemental Skill kali ini yang bisa diperoleh dengan cara ini adalah 2.800 poin."
     }
   },
   "passive2": {
@@ -122,21 +122,21 @@
   "passive3": {
     "name": "Emergency Dose",
     "description": {
-      "0": "Saat berada di dalam air, jika HP Karakter diri sendiri yang aktif berada di bawah 50%, maka akan memulihkan HP-nya setiap 2,5 detik, dengan total pemulihan sama dengan 50% Max HP-nya, dan dalam 10 detik berikutnya, akan mengurangi 10% Elemental RES dari semua elemen dan Physical RES. Efek ini dapat terpicu sekali setiap 20 detik."
+      "0": "Saat berada di dalam air, jika HP Karakter diri sendiri yang aktif berada di bawah 50%, maka akan memulihkan HP-nya setiap 2,5 detik, dengan total pemulihan sama dengan 50% Max HP-nya, dan dalam 10 detik berikutnya, akan mengurangi 10% Elemental RES dan Physical RES dari semua elemen. Efek ini dapat terpicu sekali setiap 20 detik."
     }
   },
   "constellation1": {
     "name": "\"Can the Happiest of Spirits Understand Anxiety?\"",
     "description": {
-      "0": "Bolstering Bubblebalm dari <strong>Rebound Hypnotherapy</strong> bisa melambung 3 kali lagi. Tiga lambungan pertama tidak akan membuat Bubblebalm yang besar menjadi mengecil.",
+      "0": "Bolstering Bubblebalm dari <strong>Rebound Hydrotherapy</strong> bisa melambung 3 kali lagi. Tiga lambungan pertama tidak akan membuat Bubblebalm yang besar menjadi mengecil.",
       "1": "Selain itu, efek Talenta Pasif \"Requires Appropriate Rest\" diperkuat: Saat Bolstering Bubblebalm melambung, akan memberikan 1 lapis Convalescence untuk Sigewwine, dan mengubah efek Convalescence menjadi: Untuk setiap 1.000 poin HP Sigewinne yang melebihi 30.000, DMG meningkat 100 poin. Maksimum peningkatan DMG Elemental Skill yang bisa diperoleh dengan cara ini adalah 3.500 poin. Harus membuka Talenta Pasif \"Requires Appropriate Rest\" terlebih dahulu."
     }
   },
   "constellation2": {
     "name": "\"Can the Most Merciful of Spirits Defeat Its Foes?\"",
     "description": {
-      "0": "Saat melancarkan <strong>Rebound Hydrotherapy</strong> dan <strong>Super Saturated Syringing</strong>, akan menghasilkan 1 perisai Bubbly yang bisa menyerap DMG sebesar 30% Max HP dan memiliki 30% pertahanan terhadap <hydro>Hydro DMG</hydro>, berlangsung sampai Skill ini selesai dilancarkan.",
-      "1": "Selain itu, setelah Bolstering Bubblebalm Rebound Hydrotherapy melambung atau setelah Super Saturated Syringing mengenai musuh, <hydro>Hydro RES</hydro> musuh ini berkurang 35% selama 8 detik."
+      "0": "Saat melancarkan <strong>Rebound Hydrotherapy</strong> dan <strong>Super Saturated Syringing</strong>, akan menghasilkan 1 perisai gelembung yang bisa menyerap <hydro>Hydro DMG</hydro> sebesar 30% Max HP dan memiliki 250% efisiensi ketahanan, efek ini berlangsung sampai Skill ini selesai dilancarkan.",
+      "1": "Selain itu, setelah Bolstering Bubblebalm dari Rebound Hydrotherapy melambung atau setelah Super Saturated Syringing mengenai musuh, <hydro>Hydro RES</hydro> musuh ini berkurang 35% selama 8 detik."
     }
   },
   "constellation3": {
@@ -160,7 +160,7 @@
     }
   },
   "constellation6": {
-    "name": "\"Would the Most Radiant of Spirits Pray For Me?\"",
+    "name": "\"Can the Most Radiant of Spirits Pray For Me?\"",
     "description": {
       "0": "Saat Sigewinne memberikan pemulihan, akan meningkatkan CRIT Rate dan CRIT DMG <strong>Super Saturated Syringing</strong> berdasarkan Max HP-nya: Untuk setiap 1.000 poin Max HP, akan meningkatkan 0,4% CRIT Rate dan 2,2% CRIT DMG selama 15 detik. Maksimum peningkatan yang bisa diperoleh dengan cara ini adalah 20% CRIT Rate dan 110% CRIT DMG."
     }

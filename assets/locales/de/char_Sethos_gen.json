@@ -1,7 +1,7 @@
 {
   "name": "Sethos",
   "title": "Maß aller Weisheit",
-  "description": "",
+  "description": "Nachfolger des Tempels des Schweigens, der Geheimnisse in sich trägt und aus der Wüste kommt.",
   "constellationName": "Basileos Delta",
   "auto": {
     "name": "Königlicher Schilfschuss",
@@ -16,7 +16,7 @@
         "2": "Konzentriert die Kraft des Donners während des Zielens an der Pfeilspitze und verursacht je nach Länge des Aufladens unterschiedliche Effekte:",
         "3": [
           " Phase 1: Schießt einen Elektro-Pfeil und verursacht <electro>Elektro-Schaden</electro>.",
-          " Phase 2: Verschießt einen <strong>Schattenbohrerpfeil</strong>, der Gegner durchbohrt und Gegnern auf seiner Flugbahn <electro>Elektro-Schaden</electro> zufügt. Sethos kann sich nicht bewegen, nachdem der Schattenbohrerpfeil voll aufgeladen ist."
+          " Phase 2: Schießt einen <strong>Schattenbohrerpfeil</strong>, der Gegner durchbohrt und Gegnern auf seiner Flugbahn <electro>Elektro-Schaden</electro> zufügt. Sethos kann sich nicht mehr bewegen, nachdem der Schattenbohrerpfeil voll aufgeladen ist."
         ]
       },
       "plunging": {
@@ -30,7 +30,7 @@
       "2": "SCH Phase 3",
       "3": "Gezielte Schüsse",
       "4": "Gezielte Schüsse Aufladephase 1",
-      "5": "SCH Schattenbohrer-Pfeil",
+      "5": "SCH Schattenbohrerpfeil",
       "6": "SCH beim Fallen",
       "7": "SCH beim Fallen aus niedriger/großer Höhe",
       "8": "",
@@ -46,7 +46,7 @@
   "skill": {
     "name": "Uraltes Ritual – Donnergebrüll des Sandes",
     "description": {
-      "0": "Bündelt die Kraft des Donners, verursacht <electro>Elektro-Flächenschaden</electro> und zieht sich dann schnell zurück. Stellt Sethos einen Teil seiner Elementarenergie wieder her, wenn bei Gegnern die Reaktionen Unter Strom, Supraleiter, Überladen, Urwuchs, Suprawuchs, Supraspross oder Elektro-Verwirbelung ausgelöst werden.",
+      "0": "Bündelt die Kraft des Donners, verursacht <electro>Elektro-Flächenschaden</electro> und zieht sich schnell zurück. Stellt Sethos einen Teil seiner Elementarenergie wieder her, wenn bei Gegnern die Reaktionen Unter Strom, Supraleiter, Überladen, Urwuchs, Suprawuchs, Supraspross oder Elektro-Verwirbelung ausgelöst werden.",
       "1": "<br/>",
       "2": "<i>„Die Priester, die den Göttern huldigten, die Meister, die Gruben zu Quellen werden ließen, Geschichten über sie kursieren unter den Dichtern des Sandmeeres ... Ich aber weiß, dass dies keine Legenden sind, denn sie waren unsere Vorväter.“</i>"
     },
@@ -73,13 +73,14 @@
     "name": "Geheimes Ritual – Zwielicht-Schattenbohrer",
     "description": {
       "0": "Führt ein geheimes Ritual aus und tritt in den Zustand der „Zwielicht-Meditation“ ein. In diesem wird Sethos’ Standardangriff durch <strong>Dämmerungspfeile</strong> ersetzt, die in der Lage sind, Gegner zu durchbohren: Diese fügen Gegnern auf ihrer Flugbahn <electro>Elektro-Schaden</electro> zu, der basierend auf Sethos’ Elementarkunde erhöht wird.",
-      "1": "Durch Dämmerungspfeile verursachter Schaden wird als Schaden des heftigen Schlags gewertet.",
-      "2": "Dieser Effekt wird aufgehoben, wenn Sethos ausgewechselt wird.",
-      "3": "<br/>",
-      "4": "<i>Die Bibliothek des Tempels des Schweigens birgt eine Vielzahl von Büchern von Akhtamun aus der Zeit König Deshrets. Sie enthalten viele mächtige und geheime Rituale. Doch selbst im Tempel des Schweigens gab es nur wenige, die sie zu beherrschen vermochten.</i>"
+      "1": "Während der Wirkungsdauer kann Sethos keinen gezielten Schuss ausführen.",
+      "2": "Durch Dämmerungspfeile verursachter Schaden wird als Schaden des heftigen Schlags gewertet.",
+      "3": "Dieser Effekt wird aufgehoben, wenn Sethos ausgewechselt wird.",
+      "4": "<br/>",
+      "5": "<i>Die Bibliothek des Tempels des Schweigens birgt eine Vielzahl von Büchern von Akhtamun aus der Zeit Königs Deshret. Sie enthalten viele mächtige und geheime Rituale. Doch selbst im Tempel des Schweigens gab es nur wenige, die sie zu beherrschen vermochten.</i>"
     },
     "skillParams": {
-      "0": "SCH-Bonus Dämmerungspfeil",
+      "0": "SCH-Bonus vom Dämmerungspfeil",
       "1": "Dauer Zwielicht-Meditation",
       "2": "Abklingzeit",
       "3": "Elementarenergie",
@@ -100,20 +101,20 @@
   "passive1": {
     "name": "Metapher des Dunkelmilans",
     "description": {
-      "0": "Verringert beim gezielten Schuss für jeden Punkt Elementarenergie von Sethos die Zeit zum Aufladen um 0,285 s. Auf diese Weise kann die Zeit um höchstens 0,3 s verringert werden und es können bis zu 20 Punkte Elementarenergie gezählt werden. Die gezählte Menge Elementarenergie wird verbraucht, wenn es sich bei dem abgeschossenen Pfeil um einen <strong>Schattenbohrer-Pfeil</strong> handelt. Wird ein aufgeladener Pfeil abgeschossen, werden 50 % der gezählten Menge Elementarenergie verbraucht."
+      "0": "Verringert beim gezielten Schuss für jeden Punkt Elementarenergie von Sethos die Zeit zum Aufladen um 0,285 s. Auf diese Weise kann die Zeit auf höchstens 0,3 s verringert werden und es können bis zu 20 Punkte Elementarenergie gezählt werden. Die gezählte Menge Elementarenergie wird verbraucht, wenn es sich bei dem abgeschossenen Pfeil um einen <strong>Schattenbohrerpfeil</strong> handelt. Wird ein Pfeil der Aufladephase 1 abgeschossen, werden 50 % der gezählten Menge Elementarenergie verbraucht."
     }
   },
   "passive2": {
     "name": "Segen des Sandkönigs",
     "description": {
-      "0": "Verleiht Sethos den Effekt „Sengender Sandschatten“, der den Schaden des „Schattenbohrer-Pfeils’ um 600 % von Sethos' Elementarkunde erhöht.",
-      "1": "Der Effekt von Sengender Sandschatten wird entfernt, wenn während seiner Wirkungsdauer folgende Bedingungen erfüllt werden:",
+      "0": "Verleiht Sethos den Effekt „Sengender Sandschatten“, der den Schaden des <strong>Schattenbohrerpfeils</strong> um 700 % von Sethos’ Elementarkunde erhöht.",
+      "1": "Der Effekt Sengender Sandschatten wird entfernt, wenn während seiner Wirkungsdauer eine der folgenden Bedingungen erfüllt wird:",
       "2": [
-        " 5 s, nachdem ein Schattenbohrer-Pfeil den ersten Gegner getroffen hat;",
-        " Nachdem 4 Schattenbohrer-Pfeile Gegner getroffen haben"
+        " 5 s nachdem der Schattenbohrerpfeil den ersten Gegner getroffen hat.",
+        " Nachdem 4 Schattenbohrerpfeile Gegner getroffen haben."
       ],
       "3": "<br/>",
-      "4": "15 s, nachdem der Schattenbohrer-Pfeil während der Wirkungsdauer von Sengender Sandschatten den ersten Gegner getroffen hat, wird der Effekt von Sengender Sandschatten erneut gewährt."
+      "4": "15 s nachdem der Schattenbohrerpfeil während der Wirkungsdauer von Sengender Sandschatten den ersten Gegner getroffen hat, wird der Effekt von Sengender Sandschatten erneut gewährt."
     }
   },
   "passive3": {
@@ -131,10 +132,12 @@
   "constellation2": {
     "name": "Papyrus-Schrift der schweigenden Geheimnisse",
     "description": {
-      "0": "Erhöht für 10 s den <electro>Elektro-SCH-Bonus</electro> um 15 %, wenn Sethos <strong>Geheimes Ritual – Zwielicht-Schattenbohrer</strong> einsetzt oder eine der folgenden Bedingungen erfüllt:",
-      "1": "– Es wird Elementarenergie durch die Effekte des passiven Talents „Metapher des Dunkelmilans“ verbraucht. Für diese Bedingung muss das passive Talent „Metapher des Dunkelmilans“ zuerst freigeschaltet werden;",
-      "2": "– Es wird durch <strong>Uraltes Ritual – Donnergebrüll des Sandes</strong> Elementarenergie wiederhergestellt.",
-      "3": "Dieser <electro>Elektro-SCH-Bonus</electro> ist bei erneutem Auslösen 2-fach stapelbar. Die Wirkungsdauer jeder Stapelung wird unabhängig voneinander berechnet."
+      "0": "Erhöht Sethos’ <electro>Elektro-SCH-Bonus</electro> beim Erfüllen einer der folgenden Bedingungen 10 s lang um 15 %, 2-fach stapelbar. Die Wirkungsdauer jeder Stapelung wird unabhängig voneinander berechnet.",
+      "1": [
+        " Es wird Elementarenergie durch einen gezielten Schuss verbraucht. Hierfür muss das passive Talent „Metapher des Dunkelmilans“ zuerst freigeschaltet werden.",
+        " Es wird durch <strong>Uraltes Ritual – Donnergebrüll des Sandes</strong> eine Elementarreaktion ausgelöst, wobei Elementarenergie wiederhergestellt wird.",
+        " Anwenden von <strong>Geheimes Ritual – Zwielicht-Schattenbohrer</strong>."
+      ]
     }
   },
   "constellation3": {
@@ -160,7 +163,7 @@
   "constellation6": {
     "name": "Foliant des Tempels der wandernden Sonne",
     "description": {
-      "0": "Erstattet, sobald ein Gegner vom <strong>Schattenbohrer-Pfeil</strong> getroffen wird, die Elementarenergie, die mit „Metapher des Dunkelmilans“ verbraucht wurde, zurück, 15 s Abklingzeit. Das passive Talent „Metapher des Dunkelmilans“ muss zuerst freigeschaltet werden."
+      "0": "Erstattet, sobald ein Gegner vom <strong>Schattenbohrerpfeil</strong> getroffen wird, die Elementarenergie, die mit „Metapher des Dunkelmilans“ verbraucht wurde, zurück, 15 s Abklingzeit. Das passive Talent „Metapher des Dunkelmilans“ muss zuerst freigeschaltet werden."
     }
   }
 }

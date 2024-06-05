@@ -1,7 +1,7 @@
 {
   "name": "Sigewinne",
   "title": "La Heredera Dragontina",
-  "description": "",
+  "description": "La melusina enfermera jefa del Fuerte Merópide. Cuida por igual a todos los reclusos de esta prisión submarina.",
   "constellationName": "Nereides",
   "auto": {
     "name": "Terapia dirigida",
@@ -43,7 +43,7 @@
     "name": "Hidroterapia de rebote",
     "description": {
       "0": "Usa una pistola de burbujas especial del Fuerte Merópide para disparar un <strong>acuaglóbulo revitalizante</strong> que estimula la circulación sanguínea y hace que los enfermos puedan dormir plácidamente.",
-      "1": "El acuaglóbulo rebotará entre los enemigos cercanos y, al golpearlos, les infligirá <hydro>Daño Hydro</hydro> en función de la Vida Máx. de Sigewinne. Al golpear a un enemigo, el acuaglóbulo restaura Vida a todos los personajes cercanos del equipo (a excepción de Sigewinne) en función de la Vida Máx. de Sigewinne.",
+      "1": "El acuaglóbulo rebotará entre los enemigos cercanos y, al golpearlos, les infligirá <hydro>Daño Hydro</hydro> en función de la Vida Máx. de Sigewinne. Al rebotar, el acuaglóbulo restaura Vida a todos los personajes cercanos del equipo (a excepción de Sigewinne) en función de la Vida Máx. de Sigewinne.",
       "2": "Tras rebotar 5 veces, desaparecerá y restaurará Vida a Sigewinne en función de su propia Vida Máx.",
       "3": "Cuando no haya ningún enemigo, el acuaglóbulo revitalizante rebotará en las cercanías. Solo puede haber un acuaglóbulo revitalizante de Sigewinne a la vez.",
       "4": "Mantén pulsado para cargar el acuaglóbulo revitalizante antes de liberarlo.",
@@ -83,7 +83,7 @@
   "burst": {
     "name": "Inyección de bondad sobresaturada",
     "description": {
-      "0": "Saca una jeringuilla especial del Fuerte Merópide para arremeter hacia adelante con todas sus medicinas y su bondad e infligir <hydro>Daño Hydro en el AdE</hydro> de manera continua.",
+      "0": "Saca una jeringuilla especial del Fuerte Merópide para arremeter hacia delante con todas sus medicinas y su bondad e infligir <hydro>Daño Hydro en el AdE</hydro> de manera continua en función de la Vida Máx. de Sigewinne.",
       "1": "Además, al usar esta habilidad, Sigewinne recoge hasta un máximo de 2 gotas primigenias en una AdE cercana.",
       "2": "<br/>",
       "3": "<i>“No hay ninguna diferencia entre una dosis excesiva y un veneno, ¡ambas cosas son muy peligrosas! Lo que nunca sobrará es el cuidado y el cariño que se le puede dar a un enfermo”.</i>"
@@ -110,7 +110,7 @@
   "passive1": {
     "name": "Reposo adecuado",
     "description": {
-      "0": "Al usar <strong>Hidroterapia de rebote</strong>, Sigewinne se aplica a sí misma el efecto de “convalecencia semiforzada” durante 18 s. Mientras dicho efecto está activo, Sigewinne obtiene un 8% de <hydro>Bono de Daño Hydro</hydro> y 10 cargas de convalecencia. Cuando uno de tus personajes que esté en tu equipo pero no en uso (a excepción de Sigewinne) inflija daño con su Habilidad Elemental, se consume 1 carga de convalecencia y el daño de dicha habilidad aumenta en 80 pts. por cada 1000 pts. de Vida Máx. que Sigewinne tenga por encima de los 30 000 pts. El daño de la Habilidad Elemental puede aumentar en un máximo de 2800 pts. de esta manera."
+      "0": "Al usar <strong>Hidroterapia de rebote</strong>, Sigewinne se aplica a sí misma el efecto de “convalecencia semiforzada” durante 18 s. Mientras dicho efecto está activo, Sigewinne obtiene un 8% de <hydro>Bono de Daño Hydro</hydro> y 10 cargas de convalecencia. Cuando un personaje cercano que esté en tu equipo pero no en uso (a excepción de Sigewinne) inflija daño con su Habilidad Elemental, se consume 1 carga de convalecencia y el daño de dicha habilidad aumenta en 80 pts. por cada 1000 pts. de Vida Máx. que Sigewinne tenga por encima de los 30 000 pts. El daño de la Habilidad Elemental puede aumentar en un máximo de 2800 pts. de esta manera."
     }
   },
   "passive2": {
@@ -129,7 +129,7 @@
     "name": "¿Puede el espíritu más feliz entender la ansiedad?",
     "description": {
       "0": "El acuaglóbulo revitalizante de <strong>Hidroterapia de rebote</strong> puede rebotar 3 veces más, y los tres primeros rebotes de un acuaglóbulo grande no harán que disminuya su tamaño.",
-      "1": "Además, mejora los efectos del talento pasivo “Reposo adecuado”: al rebotar, el acuaglóbulo revitalizante otorga a Sigewinne 1 carga de convalecencia, y también cambia el aumento de daño otorgado por estas cargas, de manera que dicho daño aumenta en 100 pts. por cada 1000 pts. de Vida Máx. que Sigewinne tenga por encima de los 30 000 pts. El daño puede aumentar en un máximo de 2800 pts. de esta manera. Es necesario desbloquear el talento pasivo “Reposo adecuado”."
+      "1": "Además, mejora los efectos del talento pasivo “Reposo adecuado”: al rebotar, el acuaglóbulo revitalizante otorga a Sigewinne 1 carga de convalecencia, y también cambia el aumento de daño otorgado por estas cargas, de manera que dicho daño aumenta en 100 pts. por cada 1000 pts. de Vida Máx. que Sigewinne tenga por encima de los 30 000 pts. El daño puede aumentar en un máximo de 3500 pts. de esta manera. Es necesario desbloquear el talento pasivo “Reposo adecuado”."
     }
   },
   "constellation2": {

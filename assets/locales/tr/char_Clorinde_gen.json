@@ -41,7 +41,7 @@
   "skill": {
     "name": "Avcının Nöbeti",
     "description": {
-      "0": "Pistolet tabancasını hazırlar ve çelik ile kurşunun birlikte kullanıldığı \"Gece Nöbeti\" durumuna girer. Bu durumdayken Clorinde'in Normal Saldırıları \"Çevik Av\" pistolet tabanca saldırıları haline gelir ve verdiği Hasar diğer element tesirleriyle değişmeyecek şekilde <electro>Elektrik Hasarına</electro> dönüşür. Element Becerisi kullanıldığında saldırı \"Gece Yaran\" haline dönüşür: İleri atılıp kılıcını saplayarak <electro>Elektrik Hasarı</electro> verir. Yukarıdaki yöntem ile verilen Hasar, Normal Saldırı Hasarı sayılır.",
+      "0": "Pistolet tabancasını hazırlar ve çelik ile kurşunun birlikte kullanıldığı \"Gece Nöbeti\" durumuna girer. Bu durumdayken Clorinde'in Normal Saldırıları \"Çevik Av\" pistolet tabanca saldırıları haline gelir ve verdiği Hasar diğer element tesirleriyle değişmeyecek şekilde <electro>Elektrik Hasarına</electro> dönüşür, ayrıca Clorinde Yüklü Saldırılarını kullanamaz. Element Becerisi kullanıldığında saldırı \"Gece Yaran\" haline dönüşür: İleri atılıp kılıcını saplayarak <electro>Elektrik Hasarı</electro> verir. Yukarıdaki yöntem ile verilen Hasar, Normal Saldırı Hasarı sayılır.",
       "1": "<br/>",
       "2": "<strong>Çevik Av</strong>",
       "3": [
@@ -62,7 +62,7 @@
       "11": "Clorinde savaş alanından ayrıldığında \"Gece Nöbeti\" durumu sona erer.",
       "12": "<br/>",
       "13": "<strong>Arkhe: Öz</strong>",
-      "14": "Clorinde'in Çevik Av atışları düşmanları vurduğunda, belirli aralıklarla düşmanların olduğu yere bir Çalkantılı Kılıç düşer ve Öz tesirli <electro>Elektrik Hasarı</electro> verir.",
+      "14": "Belirli aralıklarla Clorinde, Çevik Av atışlarıyla düşmanları vurduğunda düşmanların olduğu yere Öz tesirli <electro>Elektrik Hasarı</electro> veren bir Çalkantılı Kılıç çağırır.",
       "15": "<br/>",
       "16": "<i>Gecenin karanlığına gizlenen kötülük binlerce yıldır temizleniyor olsa da ışığın ulaşamadığı bir gölge, insanların ruhunu karartmaya devam etti.",
       "17": "Altın Avcı'nın uyarısı bugün dahi onun hafızasına kazınmış halde: Karanlığı delip geçen mumları taşıyan Gece Nöbetçileri her daim tetikte olmalıdır. Karanlığın soğuğunun sizi yozlaştırmasına izin vermeyin.</i>"
@@ -116,7 +116,7 @@
   "passive1": {
     "name": "Karanlığı Yaran Alev",
     "description": {
-      "0": "Yakındaki bir grup üyesi düşman üzerinde <electro>Elektrikle ilgili bir tepkime</electro> tetiklediğinde 15sn boyunca Clorinde'in Normal Saldırıları ve <strong>Son Parıltı</strong> ile verdiği <electro>Elektrik Hasarı</electro> Clorinde'in Saldırısının %20'si kadar artar. En fazla 3 kademeye kadar birikir, her kademenin süresi birbirinden bağımsızdır. Bu saldırılar için kazanılabilecek Maksimum Hasar artışı 1.800 olabilir."
+      "0": "Yakındaki bir grup üyesi, düşman üzerinde <electro>Elektrikle ilgili bir tepkime</electro> tetiklediğinde 15sn boyunca Clorinde'in Normal Saldırıları ve <strong>Son Parıltı</strong> ile verdiği <electro>Elektrik Hasarı</electro> Clorinde'in Saldırısının %20'si kadar artar. En fazla 3 kademeye kadar birikir, her kademenin süresi birbirinden bağımsızdır. Bu saldırılar için kazanılabilecek Maksimum Hasar artışı 1.800 olabilir."
     }
   },
   "passive2": {
@@ -142,7 +142,7 @@
   "constellation2": {
     "name": "\"Uzun Gecenin Tehlikeleriyle Yüzleştim\"",
     "description": {
-      "0": "\"Karanlığı Yaran Alev\" Pasif Yeteneği güçlenir: Yakındaki bir grup üyesi düşman üzerinde <electro>Elektrikle ilgili bir tepkime</electro> tetiklediğinde 15sn boyunca Normal Saldırılar ve <strong>Son Parıltı</strong> ile verilen <electro>Elektrik Hasarı</electro> Clorinde'in Saldırısının %30'u kadar artar. En fazla 3 kademeye kadar birikir, her kademenin süresi birbirinden bağımsızdır. 3 kademe biriktiğinde Clorinde'in müdahaleye karşı olan direnci artar. Bu saldırılar için kazanılabilecek Maksimum Hasar artışı 2.700 olabilir.",
+      "0": "\"Karanlığı Yaran Alev\" Pasif Yeteneği güçlenir: Yakındaki bir grup üyesi düşman üzerinde <electro>Elektrikle ilgili bir tepkime</electro> tetiklediğinde 15sn boyunca Clorinde'in Normal Saldırıları ve <strong>Son Parıltı</strong> ile verilen <electro>Elektrik Hasarı</electro> Clorinde'in Saldırısının %30'u kadar artar. En fazla 3 kademeye kadar birikir, her kademenin süresi birbirinden bağımsızdır. 3 kademe biriktiğinde Clorinde'in müdahaleye karşı olan direnci artar. Bu saldırılar için kazanılabilecek Maksimum Hasar artışı 2.700 olabilir.",
       "1": "\"Karanlığı Yaran Alev\" Pasif Yeteneğinin açılmış olması gerekir."
     }
   },
@@ -170,10 +170,10 @@
     "name": "\"Umutsuzluğa Kapılmayacağım Asla\"",
     "description": {
       "0": "<strong>Avcının Nöbeti</strong> kullanıldıktan sonra 12sn boyunca Clorinde'in Kritik Oranı %10, Kritik Hasarı %70 artar.",
-      "1": "Ayrıca Gece Nöbeti etkinken belirli koşullarda bir Mum Gölgesi ortaya çıkarak düşmanlara saldırır ve Clorinde'in Saldırısının %200'ü kadar <electro>Elektrik Hasarı</electro> verir. Bu şekilde verilen Hasar, Normal Saldırı Hasarı sayılır.",
+      "1": "Ayrıca Gece Nöbeti etkinken belirli koşullarda bir Mum Gölgesi ortaya çıkarak Clorinde'in Saldırısının %200'ü kadar <electro>Elektrik Hasarı</electro> veren bir saldırı gerçekleştirir. Bu şekilde verilen Hasar, Normal Saldırı Hasarı sayılır.",
       "2": "Şu koşullar sağlandığında Mum Gölgesi ortaya çıkar:",
       "3": [
-        "Bir düşman Clorinde'e saldırmak üzereyken.",
+        "Clorinde bir saldırıdan isabet almak üzereyken.",
         "Clorinde Gece Yaran: Ahit becerisini kullandığında."
       ],
       "4": "Yukarıdaki şekilde her 1 saniyede 1 Mum Gölgesi çağrılabilir. Bir Gece Nöbeti süresi boyunca 6 Mum Gölgesi çağrılabilir.",

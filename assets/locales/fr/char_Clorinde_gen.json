@@ -4,7 +4,7 @@
   "description": "Une duelliste mandatée invaincue. Épée à la main, elle défend la justice dans la Cour de Fontaine.",
   "constellationName": "Rapperia",
   "auto": {
-    "name": "Crédo de la Maréchaussée",
+    "name": "Crédo des ombres chasseuses",
     "fields": {
       "normal": {
         "0": "<strong><strong>Attaque normale</strong>",
@@ -41,9 +41,9 @@
   "skill": {
     "name": "Ronde de la nuitée",
     "description": {
-      "0": "Préparant son mousquet, Clorinde entre dans l'état Patrouille nocturne qui combine l'acier et le plomb. Dans cet état, l'attaque normale de Clorinde est convertie en tir de mousquet « Chasse sauvage » et les DGT infligés en <electro>DGT Électro</electro> ne pouvant pas être enchantés, tandis qu'utiliser sa compétence élémentaire déclenche un empalement nocturne : effectue une attaque brusque qui inflige des <electro>DGT Électro</electro>. Les DGT infligés des manières susmentionnées sont considérés comme des DGT d'attaque normale.",
+      "0": "Préparant son mousquet, Clorinde entre dans l'état Vigile nocturne qui combine l'acier et le plomb. Dans cet état, l'attaque normale de Clorinde est convertie en tir de mousquet « Chasse leste », les DGT infligés en <electro>DGT Électro</electro> ne pouvant pas être enchantés et elle ne peut pas effectuer d'attaques chargées, tandis qu'utiliser sa compétence élémentaire déclenche un empalement nocturne : effectue une attaque brusque qui inflige des <electro>DGT Électro</electro>. Les DGT infligés des manières susmentionnées sont considérés comme des DGT d'attaque normale.",
       "1": "<br/>",
-      "2": "<strong>Chasse sauvage</strong>",
+      "2": "<strong>Chasse leste</strong>",
       "3": [
         " Lorsque son engagement vital est supérieur ou égal à 100 % de ses PV max, Clorinde effectue un tir de mousquet.",
         " Lorsque son engagement vital est inférieur à 100 % de ses PV max, Clorinde effectue un tir de mousquet qui lui accorde de l'engagement vital selon ses PV max et qui transperce les ennemis pour infliger des DGT encore plus importants aux ennemis en chemin."
@@ -54,28 +54,28 @@
       "7": [
         " Avec un engagement vital de 0 %, Clorinde effectue une attaque brusque.",
         " Avec un engagement vital inférieur à 100 % de ses PV max, Clorinde récupère des PV selon la valeur de son engagement vital et la zone d'effet et les DGT infligés par cette instance d'empalement nocturne augmentent.",
-        " Avec un engagement vital supérieur ou égal à 100 % de ses PV max, Clorinde effectue un empalement nocturne de pacte, ce qui restaure encore plus ses PV et augmente davantage la zone d'effet et les DGT infligés par cette instance d'empalement nocturne."
+        " Avec un engagement vital supérieur ou égal à 100 % de ses PV max, Clorinde effectue un empalement nocturne de pacte, ce qui restaure encore plus ses PV et augmente davantage la zone d'effet et les DGT infligés par cette attaque d'empalement nocturne."
       ],
       "8": "<br/>",
-      "9": "De plus, lorsque Clorinde est en patrouille nocturne, les soins autres que ceux des empalements nocturnes n'ont pas d'effet sur elle et lui accordent à la place de l'engagement vital selon un pourcentage des soins qui auraient dû être reçus.",
+      "9": "De plus, lorsque Clorinde est en vigile nocturne, les soins autres que ceux des empalements nocturnes n'ont pas d'effet sur elle et lui accordent à la place de l'engagement vital selon un pourcentage des soins qui auraient dû être reçus.",
       "10": "<br/>",
-      "11": "L'état Patrouille nocturne cesse lorsque Clorinde quitte le champ de bataille.",
+      "11": "L'état Vigile nocturne cesse lorsque Clorinde quitte le champ de bataille.",
       "12": "<br/>",
       "13": "<strong>Arkhe : Ousia</strong>",
-      "14": "Régulièrement, une lame fluide descend à l'emplacement touché par une chasse sauvage de Clorinde pour infliger des <electro>DGT Électro</electro> chargés d'énergie ousia.",
+      "14": "Régulièrement, une lame fluide descend à l'emplacement touché par une chasse leste de Clorinde pour infliger des <electro>DGT Électro</electro> chargés d'énergie ousia.",
       "15": "<br/>",
       "16": "<i>Bien que le mal qui se cachait dans les ombres de la nuit ait été purgé sur des milliers d'années, une ombre que la lumière ne pouvait atteindre assombrit les cœurs humains.",
-      "17": "Aujourd'hui encore, l'avertissement laissé par le µChasseur d'or est gravé dans la mémoire de Clorinde : ceux brandissant des bougies pour patrouiller dans la nuit ont encore plus besoin de rester vigilants et de ne pas se faire corrompre par l'obscurité froide.</i>"
+      "17": "Aujourd'hui encore, l'avertissement laissé par le Chasseur d'or est gravé dans la mémoire de Clorinde : ceux brandissant des bougies pour patrouiller dans la nuit ont encore plus besoin de rester vigilants et de ne pas se faire corrompre par l'obscurité froide.</i>"
     },
     "skillParams": {
-      "0": "DGT chasse sauvage",
-      "1": "Gain d'engagement vital de chasse sauvage",
+      "0": "DGT chasse leste",
+      "1": "Gain d'engagement vital de chasse leste",
       "2": "DGT empalement nocturne",
       "3": "Soins d'empalement nocturne",
       "4": "Conversion d'engagement vital",
       "5": "DGT lame fluide",
       "6": "Intervalle de lame fluide",
-      "7": "Durée de patrouille nocturne",
+      "7": "Durée de vigile nocturne",
       "8": "Temps de recharge",
       "9": "",
       "10": "",
@@ -123,11 +123,11 @@
     "name": "Rémunération honorant le pacte",
     "description": {
       "0": "Si l'engagement vital de Clorinde est supérieur ou égal à 100 % de ses PV max, son taux CRIT augmente de 10 % pendant 15 s lorsque la valeur de son engagement vital augmente ou diminue. Cet effet peut être cumulé 2 fois maximum, la durée de chaque cumul étant calculée de façon indépendante.",
-      "1": "De plus, la patrouille nocturne de <strong>Ronde de la nuitée</strong> est renforcée : pendant sa durée, le pourcentage des soins qui est converti en engagement vital augmente à 100 %."
+      "1": "De plus, la vigile nocturne de <strong>Ronde de la nuitée</strong> est renforcée : pendant sa durée, le pourcentage des soins qui est converti en engagement vital augmente à 100 %."
     }
   },
   "passive3": {
-    "name": "Gain de patrouille nocturne",
+    "name": "Gain de vigile nocturne",
     "description": {
       "0": "Affiche l'emplacement des <strong>produits de Fontaine</strong> sur la mini-carte."
     }
@@ -135,14 +135,14 @@
   "constellation1": {
     "name": "« Dès lors, je traverserai le voile de l'ombre de la bougie »",
     "description": {
-      "0": "Pendant la patrouille nocturne de <strong>Ronde de la nuitée</strong>, toucher un ennemi avec des <electro>DGT Électro</electro> infligés par une attaque normale de Clorinde invoque une ombre patrouilleuse à proximité de l'ennemi afin d'effectuer 2 attaques coordonnées, chacune infligeant des <electro>DGT Électro</electro> d'une valeur équivalant à 30 % de l'ATQ de Clorinde.",
+      "0": "Pendant la vigile nocturne de <strong>Ronde de la nuitée</strong>, toucher un ennemi avec des <electro>DGT Électro</electro> infligés par une attaque normale de Clorinde invoque une ombre vigile à proximité de l'ennemi afin d'effectuer 2 attaques coordonnées, chacune infligeant des <electro>DGT Électro</electro> d'une valeur équivalant à 30 % de l'ATQ de Clorinde.",
       "1": "Cet effet peut être déclenché une fois toutes 1,2 s et les DGT infligés de cette manière sont considérés comme des DGT d'attaque normale."
     }
   },
   "constellation2": {
     "name": "« Dorénavant, j'affronterai les périls de la longue nuit »",
     "description": {
-      "0": "L'aptitude passive « Flamme brisant la nuit » est renforcée : lorsqu'un personnage de l'équipe à proximité a déclenché une <electro>réaction liée à l'élément Électro</electro> sur un ennemi, les <electro>DGT Électro</electro> infligés par les attaques normales et par <strong>Fin de la clarté</strong> augmentent d'une valeur équivalant à 30 % de l'ATQ de Clorinde pendant 15 s. Cet effet peut être cumulé 3 fois maximum, la durée de chaque cumul étant calculée de façon indépendante. Avec 3 cumuls, la RÉS à l'interruption de Clorinde augmente. Les DGT infligés par les attaques susmentionnées de Clorinde peuvent augmenter d'un maximum de 2 700 pts de cette manière.",
+      "0": "L'aptitude passive « Flamme brisant la nuit » est renforcée : lorsqu'un personnage de l'équipe à proximité a déclenché une <electro>réaction liée à l'élément Électro</electro> sur un ennemi, les <electro>DGT Électro</electro> infligés par les attaques normales de Clorinde et par <strong>Fin de la clarté</strong> augmentent d'une valeur équivalant à 30 % de son ATQ pendant 15 s. Cet effet peut être cumulé 3 fois maximum, la durée de chaque cumul étant calculée de façon indépendante. Avec 3 cumuls, la RÉS à l'interruption de Clorinde augmente. Les DGT infligés par les attaques susmentionnées de Clorinde peuvent augmenter d'un maximum de 2 700 pts de cette manière.",
       "1": "L'aptitude passive « Flamme brisant la nuit » doit être déjà débloquée."
     }
   },
@@ -170,14 +170,14 @@
     "name": "« Ainsi, je ne désespérerai jamais plus »",
     "description": {
       "0": "Pendant 12 s après avoir utilisé <strong>Ronde de la nuitée</strong>, le taux CRIT de Clorinde augmente de 10 % et ses DGT CRIT de 70 %.",
-      "1": "De plus, des ombres bougières peuvent apparaître dans certaines circonstances lors des patrouilles nocturnes, afin d'attaquer les ennemis en infligeant des <electro>DGT Électro</electro> d'une valeur équivalant à 200 % de l'ATQ de Clorinde. Les DGT infligés de cette manière sont considérés comme des DGT d'attaque normale.",
+      "1": "De plus, des ombres bougières peuvent apparaître dans certaines circonstances lors des vigiles nocturnes, afin d'attaquer les ennemis en infligeant des <electro>DGT Électro</electro> d'une valeur équivalant à 200 % de l'ATQ de Clorinde. Les DGT infligés de cette manière sont considérés comme des DGT d'attaque normale.",
       "2": "Les ombres bougières apparaissent dans les circonstances suivantes :",
       "3": [
-        " Lorsque Clorinde est sur le point de subir l'attaque d'un ennemi.",
+        " Lorsque Clorinde est sur le point de subir une attaque.",
         " Lorsque Clorinde effectue un empalement nocturne de pacte."
       ],
-      "4": "Une ombre bougière peut être invoquée une fois toutes les secondes des manières susmentionnées, et un maximum de 6 ombres bougières peut être invoqué pendant une patrouille nocturne.",
-      "5": "Additionnellement, les DGT subis par Clorinde diminuent de 80 % et sa RÉS à l'interruption augmente lors des patrouilles nocturnes. Cet effet cesse en même temps que la patrouille nocturne ou 1 s après avoir invoqué 6 ombres bougières."
+      "4": "Une ombre bougière peut être invoquée une fois toutes les secondes des manières susmentionnées, et un maximum de 6 ombres bougières peut être invoqué pendant une vigile nocturne.",
+      "5": "Additionnellement, les DGT subis par Clorinde diminuent de 80 % et sa RÉS à l'interruption augmente lors des vigiles nocturnes. Cet effet cesse en même temps que la vigile nocturne ou 1 s après avoir invoqué 6 ombres bougières."
     }
   }
 }

@@ -1,7 +1,7 @@
 {
   "name": "Sethos",
   "title": "Mesure de la sagesse",
-  "description": "",
+  "description": "L'héritier du Temple du silence. Originaire du désert, il est porteur de secrets.",
   "constellationName": "Basileos Delta",
   "auto": {
     "name": "Archerie royale des roseaux",
@@ -72,11 +72,12 @@
   "burst": {
     "name": "Rituel secret : Percée crépusculaire des ombres",
     "description": {
-      "0": "Sethos déclenche un rituel secret pour entrer dans l'état Méditation crépusculaire, ce qui convertit ses attaques normales pour lui permettre de tirer des <strong>carreaux crépusculaires</strong> pouvant transpercer les ennemis : inflige des <electro>DGT Électro</electro> qui augmentent selon la maîtrise élémentaire de Sethos aux ennemis en chemin.",
-      "1": "Les DGT infligés par les carreaux crépusculaires sont considérés comme des DGT d'attaque chargée.",
-      "2": "Cet effet cesse lorsque Sethos quitte le champ de bataille.",
-      "3": "<br/>",
-      "4": "<i>Les archives du Temple du silence conservent de nombreux tomes laissés par Akhtamun, de l'époque du roi Deshret. De nombreux rituels secrets de grande puissance y sont consignés, mais même au sein du Temple du silence, très peu pourraient les maîtriser.</i>"
+      "0": "Sethos déclenche un rituel secret pour entrer dans l'état Méditation crépusculaire, ce qui convertit ses attaques normales pour lui permettre de tirer des <strong>carreaux crépusculaires</strong> pouvant transpercer les ennemis : inflige des <electro>DGT Électro</electro>, qui augmentent selon la maîtrise élémentaire de Sethos, aux ennemis en chemin.",
+      "1": "Sethos ne peut pas utiliser de tirs visés pendant cette durée.",
+      "2": "Les DGT infligés par les carreaux crépusculaires sont considérés comme des DGT d'attaque chargée.",
+      "3": "Cet effet cesse lorsque Sethos quitte le champ de bataille.",
+      "4": "<br/>",
+      "5": "<i>Les archives du Temple du silence conservent de nombreux tomes laissés par Akhtamun, de l'époque du roi Deshret. De nombreux rituels secrets de grande puissance y sont consignés, mais même au sein du Temple du silence, très peu pourraient les maîtriser.</i>"
     },
     "skillParams": {
       "0": "Bonus de DGT carreau crépusculaire",
@@ -106,7 +107,7 @@
   "passive2": {
     "name": "Bénédiction du roi des sables",
     "description": {
-      "0": "Sethos obtient l'effet Ombre sableuse : augmente les DGT infligés par les <strong>flèches de perce-ombre</strong> d'une valeur équivalant à 600 % de sa maîtrise élémentaire.",
+      "0": "Sethos obtient l'effet Ombre sableuse : augmente les DGT infligés par les <strong>flèches de perce-ombre</strong> d'une valeur équivalant à 700 % de sa maîtrise élémentaire.",
       "1": "L'effet Ombre sableuse prendra fin :",
       "2": [
         " 5 s après qu'une flèche de perce-ombre touche pour la première fois un ennemi.",
@@ -117,7 +118,7 @@
     }
   },
   "passive3": {
-    "name": "Révélation réfléchie",
+    "name": "Révélation de Thoth",
     "description": {
       "0": "Affiche l'emplacement des <strong>produits de Sumeru</strong> sur la mini-carte."
     }
@@ -131,12 +132,12 @@
   "constellation2": {
     "name": "Papyrus du secret silencieux",
     "description": {
-      "0": "Lorsque Sethos utilise <strong>Rituel secret : Percée crépusculaire des ombres</strong> ou remplit une des conditions suivantes, son <electro>bonus de DGT Électro</electro> augmente de 15 % pendant 10 s :",
+      "0": "Le <electro>bonus de DGT Électro</electro> de Sethos augmente de 15 % pendant 10 s en remplissant une des conditions suivantes (Cet effet peut être cumulé 2 fois maximum, la durée de chaque cumul étant calculée de façon indépendante.) :",
       "1": [
-        " En consommant de l'énergie élémentaire via l'effet d'Énigme du milan noir, l'aptitude passive « Énigme du milan noir » devant être déjà débloquée.",
-        " En restaurant de l'énergie élémentaire via <strong>Rituel ancien : Clameur tonitruante des sables</strong>."
-      ],
-      "2": "Cette augmentation de <electro>bonus de DGT Électro</electro> peut être cumulée 2 fois maximum, la durée de chaque cumul étant calculée de façon indépendante."
+        " En consommant de l'énergie élémentaire pendant un tir visé, l'aptitude passive « Énigme du milan noir » devant être déjà débloquée.",
+        " En restaurant de l'énergie élémentaire après avoir déclenché une réaction élémentaire avec <strong>Rituel ancien : Clameur tonitruante des sables</strong>.",
+        " En utilisant <strong>Rituel secret : Percée crépusculaire des ombres</strong>."
+      ]
     }
   },
   "constellation3": {
