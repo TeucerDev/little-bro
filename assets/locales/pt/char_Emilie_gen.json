@@ -1,13 +1,13 @@
 {
   "name": "Emilie",
-  "title": "???",
+  "title": "Vislumbres de Mil Aromas",
   "description": "",
-  "constellationName": "",
+  "constellationName": "Pomum de Ambra",
   "auto": {
     "name": "Lança do Marechalato (Modificado)",
     "fields": {
       "normal": {
-        "0": "<strong><strong>Ataque Normal</strong>",
+        "0": "<strong>Ataque Normal</strong>",
         "1": "Realiza até 4 golpes rápidos."
       },
       "charged": {
@@ -44,16 +44,15 @@
       "0": "Cria uma Caixa Lumidouce que causa <dendro>Dano Dendro em AdE</dendro>.",
       "1": "<br/>",
       "2": "<strong>Caixa Lumidouce</strong>",
-      "3": "<br/>",
-      "4": [
+      "3": [
         " Periodicamente dispara \"Suspiro de Orvalho Puro\" contra os inimigos próximos, causando <dendro>Dano Dendro</dendro>.",
         " Quando há um inimigo perto que está Queimando, periodicamente gera \"Aroma\". A Caixa Lumidouce coleta os Aromas próximos, e depois de coletar dois, aumenta seu nível, fazendo com que ao disparar um Suspiro do Orvalho Puro, dispare um a mais, e aumente o Dano causado.",
         " Só é possível existir uma Caixa Lumidouce criada por Emilie simultaneamente. Quando a Caixa Lumidouce for criada, seu nível inicial será 1 e pode ser elevado até 2."
       ],
-      "5": "<br/>",
-      "6": "<strong>Arkhe: Pneuma</strong>",
-      "7": "Periodicamente, depois de Emilie criar uma Caixa Lumidouce dessa forma, fará cair um Espinho Espiritual em frente que perfura os inimigos, causando<dendro>Dano Dendro</dendro> com Pneuma.",
-      "8": "<i>\"O mundo é uma harmonia infinita de fragrâncias, cores e canções.\"</i>"
+      "4": "<br/>",
+      "5": "<strong>Arkhe: Pneuma</strong>",
+      "6": "Periodicamente, depois de Emilie criar uma Caixa Lumidouce dessa forma, fará cair um Espinho Espiritual em frente que perfura os inimigos, causando<dendro>Dano Dendro</dendro> com Pneuma.",
+      "7": "<i>\"O mundo é uma harmonia infinita de fragrâncias, cores e canções.\"</i>"
     },
     "skillParams": {
       "0": "Dano de Habilidade",
@@ -108,8 +107,7 @@
   "passive1": {
     "name": "Fragrância Residual",
     "description": {
-      "0": "A cada 2 <strong>Aromas</strong> coletados, a Caixa Lumidouce nível 2 consumirá Aroma e lançará Colônia do Orvalho que causa 500% do ATQ de Emilie como <dendro>Dano Dendro em AdE</dendro>. Esse Dano não é considerado de Habilidade Elemental.",
-      "1": "Esse efeito não pode ser desencadeado por 30s após Emilie desencadear Catalisação e Propagação."
+      "0": "A cada 2 <strong>Aromas</strong> coletados, a Caixa Lumidouce nível 2 consumirá Aroma e lançará Colônia do Orvalho que causa 500% do ATQ de Emilie como <dendro>Dano Dendro em AdE</dendro>. Esse Dano não é considerado de Habilidade Elemental."
     }
   },
   "passive2": {
@@ -119,8 +117,10 @@
     }
   },
   "passive3": {
-    "name": "Talento de Vida",
-    "description": {}
+    "name": "Captura do Espaço",
+    "description": {
+      "0": "Emilie causa 36% a mais de Dano contra oponentes com Queimaduras, mas sofre uma redução de 90% no Dano contra os oponentes com Aceleração."
+    }
   },
   "constellation1": {
     "name": "Análise de Fragrância Leve",

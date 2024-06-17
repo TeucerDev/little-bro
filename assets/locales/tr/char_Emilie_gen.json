@@ -1,13 +1,13 @@
 {
   "name": "Emilie",
-  "title": "???",
+  "title": "Binlerce Kokunun Peşinde",
   "description": "",
-  "constellationName": "",
+  "constellationName": "Misk Şişesi",
   "auto": {
     "name": "Gölge Avı Mızrağı (Özel)",
     "fields": {
       "normal": {
-        "0": "<strong><strong>Normal Saldırı</strong>",
+        "0": "<strong>Normal Saldırı</strong>",
         "1": "Arka arkaya en fazla 4 mızrak saldırısı yapar."
       },
       "charged": {
@@ -41,20 +41,19 @@
   "skill": {
     "name": "Koku Damıtma",
     "description": {
-      "0": "Creates a Lumidouce Case that deals <dendro>AoE Dendro DMG</dendro>.",
+      "0": "<dendro>Doğa Alan Hasarı</dendro> veren bir Lumidouce Kabı oluşturur.",
       "1": "<br/>",
-      "2": "<strong>Lumidouce Case</strong>",
-      "3": "<br/>",
-      "4": [
-        "Fires of Puffs of Puredew at nearby opponents at intervals, dealing <dendro>Dendro DMG</dendro>.",
-        "If nearby opponents are Burning, they will give off Scents at intervals. The Lumidouce Case will collect these nearby scents, and after gathering 2, it will level up, firing 1 extra Puff of Puredew for every Puff that would be fired off, while the DMG dealt by such attacks will also be increased.",
-        "1 Lumidouce Case created by Emilie herself can exist at any one time. The Case starts at Level 1 and can go up to Level 2."
+      "2": "<strong>Lumidouce Kabı</strong>",
+      "3": [
+        "Belirli aralıklarla Saf Çiy Buharı ateşleyerek yakındaki düşmanlara <dendro>Doğa Hasarı</dendro> verir.",
+        "Yakındaki düşmanlar Yanma halindeyken belirli aralıklarla Koku bırakırlar. Lumidouce Kabı çevresindeki bu Kokuları toplar, 2 defa topladıktan sonra Kabın seviyesi yükselir. Seviye yükseldiğinde fazladan 1 Saf Çiy Buharı daha ateşlenir ve bu saldırının verdiği Hasar artar.",
+        "Aynı anda Emilie tarafından oluşturulan sadece 1 Saf Çiy Buharı bulunabilir. Lumidouce Kabı 1. Seviye olarak başlar ve 2. Seviyeye kadar yükselebilir."
       ],
-      "5": "<br/>",
-      "6": "<strong>Arkhe: Pneuma</strong>",
-      "7": "At intervals, after Emilie creates a Lumidouce Case this way, a Spiritbreath Thorn will descend in front of her and pierce her opponent, dealing Pneuma-aligned <dendro>Dendro DMG</dendro>.",
-      "8": "<br/>",
-      "9": "<i>\"The world is an endless harmony of fragrance, color, and song.\"</i>"
+      "4": "<br/>",
+      "5": "<strong>Arkhe: Ruh</strong>",
+      "6": "Emilie bir Lumidouce Kabı oluşturduğunda, belirli aralıklarla önündeki düşmanları delerek <dendro>Doğa Hasarı</dendro> veren Ruh tesirli bir Ruh Nefesi Dikeni inmesini sağlar.",
+      "7": "<br/>",
+      "8": "<i>\"Dünya sonsuz bir koku, renk ve ezgi uyumundan oluşur.\"</i>"
     },
     "skillParams": {
       "0": "Beceri Hasarı",
@@ -79,12 +78,12 @@
     "name": "Aroma Yorumlama",
     "description": {
       "0": "Emilie, Kapta topladığı kokuları yönlendirerek saf Doğa enerjisine dönüştürür ve 3. Seviye bir Lumidouce Kabı oluşturup mevcut tüm Kapları yok eder.",
-      "1": "3. Seviye Lumidouce Kabı var olduğu sürece yakındaki Kokuları toplamaz, bunun yerine devamlı olarak Kokulu Çiy indirerek belirli bir menzildeki düşmanlara saldırarak <dendro>Doğa Hasarı</dendro> verir. Bu süre boyunca her 0,3 saniyede 1 Kokulu Çiy iner ve her 0,7 saniyede 1 düşman hedef alınabilir.",
-      "2": "Süre bittiğinde yeni bir 1. Seviye Lumidouce Kabı oluşur. Aroma Yorumlama becerisi kullanıldığında daha önce Koku toplamış bir Lumidouce Kabı yok edilirse yeni oluşan Lumidouce Kabı önceki Kokuları ve yok edilen Kabın Seviyesini devralır.",
+      "1": "3. Seviye Lumidouce Kabı var olduğu sürece yakındaki Kokuları toplamaz, bunun yerine devamlı olarak Kokulu Çiy indirip belirli bir menzildeki düşmanlara saldırarak <dendro>Doğa Hasarı</dendro> verir. Bu süre boyunca, her 0,3 saniyede 1 Kokulu Çiy iner ve her 0,7 saniyede 1 düşman hedef alınabilir.",
+      "2": "Süre bittiğinde yeni bir 1. Seviye Lumidouce Kabı oluşur. Aroma Yorumlama becerisi kullanıldığında, daha önce Koku toplamış bir Lumidouce Kabı yok edilirse yeni oluşan Lumidouce Kabı önceki Kokuları ve yok edilen Kabın Seviyesini devralır.",
       "3": "<strong>Aroma Yorumlama</strong> etkinken \"Koku Damıtma\" Element Becerisi kullanıldığında bir Lumidouce Kabı oluşmaz.",
       "4": "<br/>",
       "5": "<i>Hangi parfüm olursa olsun, hepsi hava ile temasa geçtiği an değişmeye başlar ve rüzgara kapılarak bitkilere ve ağaçlara karışıp en sonunda dağılarak kaybolur. Dolayısıyla iki kişinin aynı kokuyu alıp beğenmesi imkansızdır.",
-      "6": "İnsanların hayatta seçtiği yollar da tıpkı böyle işte. Böyle düşündüğünde parfümleri insan hayatının bir sembolü gibi görmek mümkün.</i>"
+      "6": "İnsanların hayatta seçtiği yollar da tıpkı böyledir işte. Bu açıdan düşünüldüğünde parfümleri insan hayatının bir sembolü gibi görmek mümkündür.</i>"
     },
     "skillParams": {
       "0": "3. Seviye Lumidouce Kabı Saldırı Hasarı",
@@ -108,19 +107,20 @@
   "passive1": {
     "name": "Artakalan Koku",
     "description": {
-      "0": "2. Seviye Lumidouce Kabı, her 2 <strong>Koku</strong> topladığında bu Kokuları tüketerek Berrak Çiy Kolonyası ortaya çıkarır ve düşmanlara Emilie'nin Saldırısının %500'ü kadar <dendro>Doğa Alan Hasarı</dendro> verir. Bu Hasar, Element Becerisi Hasarı olarak görülmez.",
-      "1": "Emilie bir Dönüştürme veya Yayılma tepkimesi tetikledikten sonra 30sn boyunca bu etkiyi tetikleyemez."
+      "0": "2. Seviye Lumidouce Kabı, her 2 <strong>Koku</strong> topladığında bu Kokuları tüketerek Berrak Çiy Kolonyası ortaya çıkarır ve düşmanlara Emilie'nin Saldırısının %500'ü kadar <dendro>Doğa Alan Hasarı</dendro> verir. Bu Hasar, Element Becerisi Hasarı olarak görülmez."
     }
   },
   "passive2": {
     "name": "Damıtım",
     "description": {
-      "0": "Emilie'nin oluşturduğu bir Lumidouce Kabı savaş alanındayken tüm grup üyeleri Yanma Hasarına karşı %85<pyro>Ateş Direnci</pyro> kazanır."
+      "0": "Emilie'nin oluşturduğu Lumidouce Kabı savaş alanındayken, tüm grup üyeleri Yanma Hasarına karşı %85<pyro>Ateş Direnci</pyro> kazanır."
     }
   },
   "passive3": {
-    "name": "Yaşam Yeteneği",
-    "description": {}
+    "name": "Koku Yakalama",
+    "description": {
+      "0": "Emilie, Yanma etkisindeki düşmanlara %36 daha fazla Hasar verir ancak Hızlanma etkisindekilere %90 daha az Hasar verir."
+    }
   },
   "constellation1": {
     "name": "Hafif Koku Çözündürme",
@@ -132,7 +132,7 @@
   "constellation2": {
     "name": "Göldeki Işık Üst Notası",
     "description": {
-      "0": "Emilie'nin oluşturduğu Lumidouce Kabı bir Koku topladığında Emilie 1 Özel Karışım kademesi kazanır ve 10sn boyunca Saldırısı %18 artar. En fazla 2 kademe birikebilir ve her kademenin süresi birbirinden bağımsızdır."
+      "0": "Emilie'nin oluşturduğu Lumidouce Kabı bir Koku topladığında, Emilie 1 Özel Karışım kademesi kazanır ve 10sn boyunca Saldırısı %18 artar. En fazla 2 kademe birikebilir ve her kademenin süresi birbirinden bağımsızdır."
     }
   },
   "constellation3": {
@@ -143,7 +143,7 @@
     }
   },
   "constellation4": {
-    "name": "Lumidouce Kalbi",
+    "name": "Lumidouce Kalp Notası",
     "description": {
       "0": "<strong>Aroma Yorumlama</strong> becerisinin süresi 2sn uzar, Kokulu Çiy etkisinin hedef düşman seçme süre aralığı 0,3sn kısalır."
     }
@@ -156,11 +156,12 @@
     }
   },
   "constellation6": {
-    "name": "Marcotte Notaları",
+    "name": "Marcotte Esintisi",
     "description": {
-      "0": "Emilie <strong>Koku Damıtma</strong> veya <strong>Aroma Yorumlama</strong> becerilerini kullanıldığında 5sn boyunca Kalıcı Koku etkisi kazanır. Emilie etki süresi boyunca Normal veya Yüklü Saldırılar yaptığında 1 Koku oluşur ve bu saldırılar diğer element tesirleriyle değiştirilemeyen <dendro>Doğa Hasarı</dendro> verir. Ayrıca verilen Hasar Emilie'nin Saldırısının %250'si kadar artar.",
-      "1": "<br/>",
-      "2": "Süre bittiğinde veya 4 Koku oluşturulduktan sonra Kalıcı Koku etkisi kaybolur. Kalıcı Koku 12 saniyede bir tetiklenebilir."
+      "0": "Emilie <strong>Koku Damıtma</strong> veya <strong>Aroma Yorumlama</strong> becerilerini kullandığında 5sn boyunca Kalıcı Koku etkisi kazanır.",
+      "1": "Emilie etki süresi boyunca Normal veya Yüklü Saldırılar yaptığında 1 Koku oluşur ve bu saldırılar diğer element tesirleriyle değiştirilemeyen <dendro>Doğa Hasarına</dendro> dönüşür. Ayrıca, verilen Hasar Emilie'nin Saldırısının %250'si kadar artar.",
+      "2": "<br/>",
+      "3": "Süre bittiğinde veya 4 Koku oluşturulduktan sonra Kalıcı Kokunun etkisi kaybolur. Kalıcı Koku 12 saniyede bir tetiklenebilir."
     }
   }
 }

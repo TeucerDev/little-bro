@@ -1,13 +1,13 @@
 {
   "name": "Émilie",
-  "title": "???",
+  "title": "Tracé de mille parfums",
   "description": "",
-  "constellationName": "",
+  "constellationName": "Pomum de Ambra",
   "auto": {
     "name": "Lance d'éclombre (modifiée)",
     "fields": {
       "normal": {
-        "0": "<strong><strong>Attaque normale</strong>",
+        "0": "<strong>Attaque normale</strong>",
         "1": "Enchaîne jusqu'à 4 coups de lance."
       },
       "charged": {
@@ -44,17 +44,16 @@
       "0": "Crée un boîtier de Lumidouce qui inflige des <dendro>DGT Dendro de zone</dendro>.",
       "1": "<br/>",
       "2": "<strong>Boîtier de Lumidouce</strong>",
-      "3": "<br/>",
-      "4": [
+      "3": [
         " Tire de façon intermittente des bouffées d'aiguail pur sur les ennemis proches, infligeant des <dendro>DGT Dendro</dendro>.",
         " Tout ennemi µbrûlé à proximité dégagera de façon intermittente de la senteur, le boîtier de Lumidouce pouvant collecter les senteurs à proximité. Après avoir collecté 2 senteurs, le boîtier de Lumidouce monte d'un niveau pour tirer 1 bouffée d'aiguail pur supplémentaire chaque fois qu'il en tire et augmenter les DGT infligés par ces bouffées.",
         " Il ne peut exister qu'un seul boîtier de Lumidouce créé par Émilie à la fois. Le boîtier de Lumidouce commence au niveau 1 et peut atteindre le niveau 2."
       ],
-      "5": "<br/>",
-      "6": "<strong>Arkhe : Pneuma</strong>",
-      "7": "Régulièrement, après qu'Émilie a créé un boîtier de Lumidouce de cette façon, une épine d'inhalation qui transperce les ennemis descend devant elle pour infliger des <dendro>DGT Dendro</dendro> chargés d'énergie pneuma.",
-      "8": "<br/>",
-      "9": "<i>« Le monde est une harmonie infinie de parfums, de couleurs et de chants. »</i>"
+      "4": "<br/>",
+      "5": "<strong>Arkhe : Pneuma</strong>",
+      "6": "Régulièrement, après qu'Émilie a créé un boîtier de Lumidouce de cette façon, une épine d'inhalation qui transperce les ennemis descend devant elle pour infliger des <dendro>DGT Dendro</dendro> chargés d'énergie pneuma.",
+      "7": "<br/>",
+      "8": "<i>« Le monde est une harmonie infinie de parfums, de couleurs et de chants. »</i>"
     },
     "skillParams": {
       "0": "DGT compétence",
@@ -108,8 +107,7 @@
   "passive1": {
     "name": "Arôme persistant",
     "description": {
-      "0": "Chaque fois qu'il collecte 2 <strong>senteurs</strong>, un boîtier de Lumidouce de niveau 2 consomme ses senteurs pour libérer une cologne d'aiguail clair qui inflige des <dendro>DGT Dendro de zone</dendro> d'une valeur équivalant à 500 % de l'ATQ d'Émilie aux ennemis. Ces DGT ne sont pas considérés comme des DGT de compétence élémentaire.",
-      "1": "Cet effet ne peut pas être déclenché pendant 30 s après qu'Émilie déclenche une réaction de Catalyse ou de Propagation."
+      "0": "Chaque fois qu'il collecte 2 <strong>senteurs</strong>, un boîtier de Lumidouce de niveau 2 consomme ses senteurs pour libérer une cologne d'aiguail clair qui inflige des <dendro>DGT Dendro de zone</dendro> d'une valeur équivalant à 500 % de l'ATQ d'Émilie aux ennemis. Ces DGT ne sont pas considérés comme des DGT de compétence élémentaire."
     }
   },
   "passive2": {
@@ -119,8 +117,10 @@
     }
   },
   "passive3": {
-    "name": "Connaissances pratiques",
-    "description": {}
+    "name": "Extraction de senteur",
+    "description": {
+      "0": "Les DGT qu'Émilie inflige aux ennemis brûlés augmentent de 36 %, mais les DGT qu'elle inflige aux ennemis affectés par une Stimulation diminuent de 90 %."
+    }
   },
   "constellation1": {
     "name": "Lessivage d'aromate léger",

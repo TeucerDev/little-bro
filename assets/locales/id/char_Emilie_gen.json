@@ -1,13 +1,13 @@
 {
   "name": "Emilie",
-  "title": "???",
+  "title": "A Thousand Scents Traced",
   "description": "",
-  "constellationName": "",
+  "constellationName": "Pomum de Ambra",
   "auto": {
     "name": "Shadow-Hunting Spear (Custom)",
     "fields": {
       "normal": {
-        "0": "<strong><strong>Normal Attack</strong>",
+        "0": "<strong>Normal Attack</strong>",
         "1": "Melancarkan hingga 4 serangan tombak berturut-turut."
       },
       "charged": {
@@ -44,17 +44,16 @@
       "0": "Menciptakan Lumidouce Case dan mengakibatkan <dendro>Dendro DMG Area</dendro>.",
       "1": "<br/>",
       "2": "<strong>Lumidouce Case</strong>",
-      "3": "<br/>",
-      "4": [
+      "3": [
         "Menembakkan Puff of Pureduw secara berkala terhadap musuh yang ada di dekatnya, mengakibatkan <dendro>Dendro DMG</dendro>;",
         "Saat musuh yang ada di dekatnya berada dalam status Burning, akan menghasilkan Scent secara berkala. Lumidouce Case akan mengumpulkan Scent yang ada di sekitarnya, setelah berhasil mengumpulkan dua buah, maka levelnya akan meningkat, dan saat menembakkan Puff of Puredew, akan menembakkan satu Puff of Puredew tambahan, dan akan meningkatkan DMG serangan yang disebutkan di atas.",
         "Hanya bisa ada satu Lumidouce Case yang diciptakan Emilie sendiri dalam satu waktu. Saat diciptakan, level Lumidouce Case awal adalah level 1, dan akan bisa meningkat hingga level 2."
       ],
-      "5": "<br/>",
-      "6": "<strong>Arkhe: Pneuma</strong>",
-      "7": "Setiap satu kurun waktu, setelah Emilie menggunakan cara ini untuk menciptakan Lumidouce Case, dia akan menjatuhkan Spiritbreath Thorn yang menembus musuh di hadapannya, dan mengakibatkan Pneuma-aligned <dendro>Dendro DMG</dendro>.",
-      "8": "<br/>",
-      "9": "<i>\"Pemandangan di dunia bagaikan perpaduan dari wewangian, keindahan, dan suara nyanyian yang tiada habisnya.\"</i>"
+      "4": "<br/>",
+      "5": "<strong>Arkhe: Pneuma</strong>",
+      "6": "Setiap satu kurun waktu, setelah Emilie menggunakan cara ini untuk menciptakan Lumidouce Case, dia akan menjatuhkan Spiritbreath Thorn yang menembus musuh di hadapannya, dan mengakibatkan Pneuma-aligned <dendro>Dendro DMG</dendro>.",
+      "7": "<br/>",
+      "8": "<i>\"Pemandangan di dunia bagaikan perpaduan dari wewangian, keindahan, dan suara nyanyian yang tiada habisnya.\"</i>"
     },
     "skillParams": {
       "0": "DMG Skill",
@@ -108,8 +107,7 @@
   "passive1": {
     "name": "Lingering Fragrance",
     "description": {
-      "0": "Untuk setiap dua <strong>Scent</strong> yang dikumpulkan, Lumidouce Case level 2 akan mengonsumsi Scent dan mengeluarkan Cleardew Cologne, mengakibatkan <dendro>Dendro DMG Area</dendro> terhadap musuh yang setara dengan 500% ATK Emilie. DMG ini tidak dianggap sebagai DMG Elemental SKill.",
-      "1": "Dalam 30 detik setelah Emilie memicu reaksi Catalyze dan Spread, efek ini tidak akan bisa terpicu."
+      "0": "Untuk setiap dua <strong>Scent</strong> yang dikumpulkan, Lumidouce Case level 2 akan mengonsumsi Scent dan mengeluarkan Cleardew Cologne, mengakibatkan <dendro>Dendro DMG Area</dendro> terhadap musuh yang setara dengan 500% ATK Emilie. DMG ini tidak dianggap sebagai DMG Elemental Skill."
     }
   },
   "passive2": {
@@ -119,8 +117,10 @@
     }
   },
   "passive3": {
-    "name": "Life Talent",
-    "description": {}
+    "name": "Headspace Capture",
+    "description": {
+      "0": "DMG yang diakibatkan Emilie terhadap musuh dalam status Burning meningkat 36%, DMG yang diakibatkan terhadap musuh dalam status Quicken berkurang 90%."
+    }
   },
   "constellation1": {
     "name": "Light Fragrance Leaching",

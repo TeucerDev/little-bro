@@ -1,13 +1,13 @@
 {
   "name": "Émilie",
-  "title": "???",
+  "title": "La Estela de Mil Aromas",
   "description": "",
-  "constellationName": "",
+  "constellationName": "Pomum de Ambra",
   "auto": {
     "name": "Lanza fantasmal (modificada)",
     "fields": {
       "normal": {
-        "0": "<strong><strong>Ataque Normal</strong>",
+        "0": "<strong>Ataque Normal</strong>",
         "1": "Realiza hasta 4 ataques rápidos con lanza."
       },
       "charged": {
@@ -44,17 +44,16 @@
       "0": "Crea un perfume lumidulce que inflige <dendro>Daño Dendro en el AdE</dendro>.",
       "1": "<br/>",
       "2": "<strong>Perfume lumidulce</strong>",
-      "3": "<br/>",
-      "4": [
+      "3": [
         "Cada cierto tiempo, dispara una “eau de rosée” a los enemigos cercanos para infligirles <dendro>Daño Dendro</dendro>.",
         "Cuando un enemigo cercano esté quemado, emitirá una fragancia. El perfume lumidulce recogerá las fragancias cercanas y, tras recoger dos, subirá de nivel, de manera que al disparar una eau de rosée, disparará otra adicional y aumentará el daño infligido con dichos ataques.",
         "Solo puede existir un perfume lumidulce creado por Émilie. El perfume empieza con nivel 1 y, como máximo, puede aumentar a nivel 2."
       ],
-      "5": "<br/>",
-      "6": "<strong>Arjé: pneuma</strong>",
-      "7": "Cuando Émilie crea un perfume lumidulce de esta forma, cada cierto tiempo cae frente a ella misma una espina halitoespiritual que atraviesa a los enemigos y les inflige <dendro>Daño Dendro</dendro> cargado de energía pneuma.",
-      "8": "<br/>",
-      "9": "<i>El mundo consiste en una armonía interminable de fragancias, colores y canciones.</i>"
+      "4": "<br/>",
+      "5": "<strong>Arjé: pneuma</strong>",
+      "6": "Cuando Émilie crea un perfume lumidulce de esta forma, cada cierto tiempo cae frente a ella misma una espina halitoespiritual que atraviesa a los enemigos y les inflige <dendro>Daño Dendro</dendro> cargado de energía pneuma.",
+      "7": "<br/>",
+      "8": "<i>El mundo consiste en una armonía interminable de fragancias, colores y canciones.</i>"
     },
     "skillParams": {
       "0": "Daño de habilidad",
@@ -63,7 +62,7 @@
       "3": "Duración de perfume lumidulce",
       "4": "Daño de espina halitoespiritual",
       "5": "Intervalo de espina halitoespiritual",
-      "6": "TdE de la habilidad{param7:F1} s",
+      "6": "TdE de la habilidad",
       "7": "",
       "8": "",
       "9": "",
@@ -108,8 +107,7 @@
   "passive1": {
     "name": "Fragancia persistente",
     "description": {
-      "0": "Por cada dos <strong>fragancias</strong> recogidas, el perfume lumidulce de nivel 2 las consumirá para liberar una “eau de pureté” que inflige a los enemigos <dendro>Daño Dendro en el AdE</dendro> en una cantidad equivalente al 500% del ATQ de Émilie. Este daño no se considera daño de Habilidad Elemental.",
-      "1": "Émilie no podrá activar este efecto durante 30 s tras causar una reacción de Catalización o Propagación."
+      "0": "Por cada dos <strong>fragancias</strong> recogidas, el perfume lumidulce de nivel 2 las consumirá para liberar una “eau de pureté” que inflige a los enemigos <dendro>Daño Dendro en el AdE</dendro> en una cantidad equivalente al 500% del ATQ de Émilie. Este daño no se considera daño de Habilidad Elemental."
     }
   },
   "passive2": {
@@ -119,8 +117,10 @@
     }
   },
   "passive3": {
-    "name": "Talento cotidiano",
-    "description": {}
+    "name": "Aroma ambiental",
+    "description": {
+      "0": "Aumenta en un 36% el daño que inflige Émilie contra los enemigos quemados, pero reduce en un 90% el daño que inflige contra los enemigos afectados por Aceleración."
+    }
   },
   "constellation1": {
     "name": "Lixiviación",

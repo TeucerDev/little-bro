@@ -1,13 +1,13 @@
 {
   "name": "艾梅莉埃",
-  "title": "???",
+  "title": "千縷之蹤",
   "description": "",
-  "constellationName": "",
+  "constellationName": "香氛瓶座",
   "auto": {
     "name": "逐影槍術·改",
     "fields": {
       "normal": {
-        "0": "<strong><strong>普通攻擊</strong>",
+        "0": "<strong>普通攻擊</strong>",
         "1": "進行至多四段的連續槍擊。"
       },
       "charged": {
@@ -41,20 +41,19 @@
   "skill": {
     "name": "擷萃調香",
     "description": {
-      "0": "Creates a Lumidouce Case that deals <dendro>AoE Dendro DMG</dendro>.",
+      "0": "創造柔燈之匣，造成<dendro>草元素範圍傷害</dendro>。",
       "1": "<br/>",
-      "2": "<strong>Lumidouce Case</strong>",
-      "3": "<br/>",
-      "4": [
-        "Fires of Puffs of Puredew at nearby opponents at intervals, dealing <dendro>Dendro DMG</dendro>.",
-        "If nearby opponents are Burning, they will give off Scents at intervals. The Lumidouce Case will collect these nearby scents, and after gathering 2, it will level up, firing 1 extra Puff of Puredew for every Puff that would be fired off, while the DMG dealt by such attacks will also be increased.",
-        "1 Lumidouce Case created by Emilie herself can exist at any one time. The Case starts at Level 1 and can go up to Level 2."
+      "2": "<strong>柔燈之匣</strong>",
+      "3": [
+        "間歇性對附近的敵人發射「純露芳息」，造成<dendro>草元素傷害</dendro>；",
+        "附近的敵人處於燃燒狀態下時，將間歇性產生「香韻」。柔燈之匣會萃集附近的香韻，萃集兩枚香韻後，其品階將會提升，發射純露芳息時，將額外發射一枚純露芳息，且提高上述攻擊造成的傷害。",
+        "同時至多存在一個艾梅莉埃自己創造的柔燈之匣。柔燈之匣創造時的初始品階為一階，至多提升至二階。"
       ],
-      "5": "<br/>",
-      "6": "<strong>Arkhe: Pneuma</strong>",
-      "7": "At intervals, after Emilie creates a Lumidouce Case this way, a Spiritbreath Thorn will descend in front of her and pierce her opponent, dealing Pneuma-aligned <dendro>Dendro DMG</dendro>.",
-      "8": "<br/>",
-      "9": "<i>\"The world is an endless harmony of fragrance, color, and song.\"</i>"
+      "4": "<br/>",
+      "5": "<strong>始基力：芒性</strong>",
+      "6": "每隔一段時間，艾梅莉埃依此方式創造柔燈之匣後，將在前方降下穿透敵人的靈息之刺，造成具有芒性的<dendro>草元素傷害</dendro>。",
+      "7": "<br/>",
+      "8": "<i>「世間之景，正如無數芬芳、色彩與歌聲悠長的應和。」</i>"
     },
     "skillParams": {
       "0": "技能傷害",
@@ -108,8 +107,7 @@
   "passive1": {
     "name": "餘薰",
     "description": {
-      "0": "每萃集兩枚<strong>香韻</strong>，柔燈之匣·二階將消耗香韻，並浸析出「清露香氛」，對敵人造成相當於艾梅莉埃攻擊力500%的<dendro>草元素範圍傷害</dendro>。該傷害不被視為元素戰技傷害。",
-      "1": "艾梅莉埃觸發激化、蔓激化反應之後的30秒內，無法觸發此效果。"
+      "0": "每萃集兩枚<strong>香韻</strong>，柔燈之匣·二階將消耗香韻，並浸析出「清露香氛」，對敵人造成相當於艾梅莉埃攻擊力500%的<dendro>草元素範圍傷害</dendro>。該傷害不被視為元素戰技傷害。"
     }
   },
   "passive2": {
@@ -119,8 +117,10 @@
     }
   },
   "passive3": {
-    "name": "生活天賦",
-    "description": {}
+    "name": "頂空集香",
+    "description": {
+      "0": "艾梅莉埃對處於燃燒狀態下的敵人造成的傷害提升36%，對於處於原激化狀態下的敵人造成的傷害降低90%。"
+    }
   },
   "constellation1": {
     "name": "淡香浸析",
