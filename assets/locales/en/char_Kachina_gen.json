@@ -1,0 +1,170 @@
+{
+  "name": "Kachina",
+  "title": "Mottled Gold Unsmelted",
+  "description": "",
+  "constellationName": "",
+  "auto": {
+    "name": "Cragbiter",
+    "fields": {
+      "normal": {
+        "0": "<strong>Normal Attack</strong>",
+        "1": "Performs up to 4 consecutive spear strikes."
+      },
+      "charged": {
+        "0": "<strong>Charged Attack</strong>",
+        "1": "Consumes a certain amount of Stamina to lunge forward, dealing damage to opponents along the way."
+      },
+      "plunging": {
+        "0": "<strong>Plunging Attack</strong>",
+        "1": "Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact."
+      }
+    },
+    "skillParams": {
+      "0": "1-Hit DMG",
+      "1": "2-Hit DMG",
+      "2": "3-Hit DMG",
+      "3": "4-Hit DMG",
+      "4": "Charged Attack DMG",
+      "5": "Charged Attack Stamina Cost",
+      "6": "Plunge DMG",
+      "7": "Low/High Plunge DMG",
+      "8": "",
+      "9": "",
+      "10": "",
+      "11": "",
+      "12": "",
+      "13": "",
+      "14": "",
+      "15": ""
+    }
+  },
+  "skill": {
+    "name": "Go, Go Turbo Twirly!",
+    "description": {
+      "0": "Fight alongside Turbo Twirly, the turbo trusty!",
+      "1": "Summons Turbo Twirly. If Held and unleashed, Kachina will summon and ride Turbo Twirly.",
+      "2": "When unleashed, Kachina will gain 50 Nightsoul points and enter the Nightsoul's Blessing state.",
+      "3": "<br/>",
+      "4": "<strong>Nightsoul's Blessing: Kachina</strong>",
+      "5": "Turbo Twirly's various actions consume Kachina's Nightsoul points, and this state will last until these points have been depleted.",
+      "6": "<br/>",
+      "7": "<strong>Turbo Twirly</strong>",
+      "8": "Can exist independently or be ridden and operated by Kachina. When Turbo Twirly is present, Kachina's Elemental Skill, \"Go, Go, Turbo Twirly!\", will change to Mounting/Dismounting options.",
+      "9": [
+        "When present independent of Kachina, it will hit the ground at intervals, dealing <geo>AoE Geo DMG</geo> based on Kachina's DEF that also has the Nightsoul attribute.",
+        "When Kachina is riding Turbor Twirly, she can control its fast movement, climb, and use Normal Attack to hit the ground, dealing <geo>AoE Geo DMG</geo> based on Kachina's DEF that also has the Nightsoul alignment."
+      ],
+      "10": "<br/>",
+      "11": "Turbo Twirly will disappear once Kachina's Nightsoul's Blessing state ends, and it is considered a Geo Construct. 1 Turbo Twirly can exist on the field at any one time.",
+      "12": "<br/>",
+      "13": "<i>Turbo Twirly only looks like a top — it is, in fact, a drill that can break even the strongest rock open!</i>"
+    },
+    "skillParams": {
+      "0": "Turbo Twirly Ride DMG",
+      "1": "Turbo Twirly Independent DMG",
+      "2": "Nightsoul Point Limit",
+      "3": "CD",
+      "4": "",
+      "5": "",
+      "6": "",
+      "7": "",
+      "8": "",
+      "9": "",
+      "10": "",
+      "11": "",
+      "12": "",
+      "13": "",
+      "14": "",
+      "15": ""
+    }
+  },
+  "burst": {
+    "name": "Time to Get Serious!",
+    "description": {
+      "0": "Striking the ground, Kachina deals <geo>AoE Geo DMG</geo> based on her DEF and creates a Turbo Drill Field.",
+      "1": "The Field will increase Turbo Twirly's attack AoE and its movement speed when Kachina is riding it.",
+      "2": "<br/>",
+      "3": "If Kachina's own Turbo Twirly is present when this is used, Turbo Twirly will be summoned to her side.",
+      "4": "<br/>",
+      "5": "<i>Just as nervous performers like to imagine audience members as wooden puppets, Kachina imagines that her opponents are the loveliest of gemstone ores — the kind you'd be proud to bring home and hoard.</i>"
+    },
+    "skillParams": {
+      "0": "Skill DMG",
+      "1": "Field Duration",
+      "2": "CD",
+      "3": "Energy Cost",
+      "4": "",
+      "5": "",
+      "6": "",
+      "7": "",
+      "8": "",
+      "9": "",
+      "10": "",
+      "11": "",
+      "12": "",
+      "13": "",
+      "14": "",
+      "15": ""
+    }
+  },
+  "passive1": {
+    "name": "Mountain Echoes",
+    "description": {
+      "0": "When nearby party members trigger a Nightsoul Burst, Kachina's <geo>Geo DMG Bonus</geo> increases by 20% for 10s."
+    }
+  },
+  "passive2": {
+    "name": "The Weight of Stone",
+    "description": {
+      "0": "<strong>Turbo Twirly's</strong> DMG is increased by 20% of Kachina's DEF."
+    }
+  },
+  "passive3": {
+    "name": "Night Realm's Gift: Heart of Unity",
+    "description": {
+      "0": "After her Nightsoul points are depleted, Kachina can switch to consuming Phlogiston to maintain her Nightsoul's Blessing.",
+      "1": "While in an area with Phlogiston Device(s) within Natlan, she can use Nightsoul Transmission: Kachina. When the active character is currently sprinting, climbing, in a movement mode caused by certain Talents, or at a certain height in the air, the following will trigger when switching to Kachina: Kachina will enter the Nightsoul's Blessing state and ride <strong>Turbo Twirly</strong> when taking the field while gaining XX Nightsoul points. Can enter Nightsoul Transmission once every 10s.",
+      "2": "<br/>",
+      "3": "Additionally, Kachina will consume 90% less Stamina when riding <strong>Turbo Twirly</strong> while in Natlan."
+    }
+  },
+  "constellation1": {
+    "name": "Shards Are Gems Too",
+    "description": {
+      "0": "When Kachina mounts or dismounts <strong>Turbo Twirly</strong>, she will absorb Elemental Shards created by Crystallize.",
+      "1": "Additionally, when a party member picks up such a Shard, 3 Energy will be restored to Kachina. Energy can be restored this way once every 5s."
+    }
+  },
+  "constellation2": {
+    "name": "Never Leave Home Without... Turbo Twirly",
+    "description": {
+      "0": "When Kachina uses <strong>\"Time to Get Serious!\"</strong>, she will regain 16 Nightsoul points. If there is no <strong>Turbo Twirly</strong> belonging to her on the field, she will enter Nightsoul's Blessing and summon one."
+    }
+  },
+  "constellation3": {
+    "name": "Improved Stabilizer",
+    "description": {
+      "0": "Increases the Level of <strong>Go, Go Turbo Twirly!</strong> by 3.",
+      "1": "Maximum upgrade level is 15."
+    }
+  },
+  "constellation4": {
+    "name": "More Foes, More Caution",
+    "description": {
+      "0": "When there are 1/2/3/4 (or more) opponents within the Turbo Drill Field created by <strong>\"Time to Get Serious!\"</strong>, the active character within the field gains 8%/12%/16%/20% increased DEF."
+    }
+  },
+  "constellation5": {
+    "name": "All I've Collected Till Now",
+    "description": {
+      "0": "Increases the Level of <strong>Time to Get Serious!</strong> by 3.",
+      "1": "Maximum upgrade level is 15."
+    }
+  },
+  "constellation6": {
+    "name": "This Time, I've Gotta Win",
+    "description": {
+      "0": "When your active character's shield is replaced or destroyed for any reason, Kachina will deal 200% of her DEF as <geo>AoE Geo DMG</geo>. This effect can be triggered once every 5s."
+    }
+  }
+}

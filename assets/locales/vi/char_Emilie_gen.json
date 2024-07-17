@@ -1,7 +1,7 @@
 {
   "name": "Emilie",
   "title": "Muôn Ngàn Hương Thơm",
-  "description": "",
+  "description": "Nhà điều chế nước hoa Fontaine, người cất giấu bí mật trong bình.",
   "constellationName": "Cung Hương Phấn Bình",
   "auto": {
     "name": "Săn Bóng Tối (Cải Tiến)",
@@ -46,8 +46,8 @@
       "2": "<strong>Hộp Lumidouce</strong>",
       "3": [
         "Cứ cách một khoảng thời gian sẽ bắn \"Hương Thơm Sương Mai\" vào kẻ địch gần đó, gây <dendro>Sát Thương Nguyên Tố Thảo</dendro>;",
-        "Khi kẻ địch gần đó đang trong trạng thái Thiêu Đốt thì cứ cách một khoảng thời gian sẽ sản sinh \"Hương Thơm\". Hộp Lumidouce sẽ thu thập Hương Thơm gần đó, sau khi thu thập được 2 Hương Thơm thì hộp sẽ tăng cấp, bắn thêm một Hương Thơm Sương Mai, đồng thời gia tăng sát thương của đòn tấn công nêu trên.",
-        "Cùng lúc chỉ tồn tại một Hộp Lumidouce do bản thân Emilie tạo ra. Cấp bậc ban đầu của Hộp Lumidouce sẽ là 1, tối đa tăng đến cấp 2."
+        "Khi kẻ địch gần đó đang trong trạng thái Thiêu Đốt thì cứ cách một khoảng thời gian sẽ sản sinh \"Hương Thơm\", mỗi 2s tối đa sinh ra 1 Hương Thơm theo cách này. Hộp Lumidouce sẽ thu thập Hương Thơm gần đó, sau khi thu thập được 2 Hương Thơm thì hộp sẽ tăng cấp, bắn thêm một Hương Thơm Sương Mai khi bắn, đồng thời gia tăng sát thương và phạm vi công kích của đòn tấn công nêu trên.",
+        "Cùng lúc chỉ tồn tại một Hộp Lumidouce do bản thân Emilie tạo ra. Cấp bậc ban đầu của Hộp Lumidouce sẽ là 1, tối đa tăng đến cấp 2. Khi ở trong trận, nếu trong 8s không thu thập Hương Thơm thì cấp bậc của Hộp Lumidouce sẽ quay về cấp 1."
       ],
       "4": "<br/>",
       "5": "<strong>Sức Mạnh Nền Tảng: Pneuma</strong>",
@@ -77,9 +77,9 @@
   "burst": {
     "name": "Trình Diễn Hương Thơm",
     "description": {
-      "0": "Dẫn dắt hương thơm đã thu thập trong hộp, khiến chúng hóa thành sức mạnh Nguyên Tố Thảo thuần túy, tạo ra Hộp Lumidouce Cấp 3, đồng thời phá hủy Hộp Lumidouce đã có.",
+      "0": "Dẫn dắt hương thơm đã thu thập trong hộp, khiến chúng hóa thành sức mạnh Nguyên Tố Thảo thuần túy, tạo ra Hộp Lumidouce Cấp 3, đồng thời cất giữ Hộp Lumidouce đã có.",
       "1": "Trong thời gian tồn tại, Hộp Lumidouce Cấp 3 sẽ không thu thập Hương Thơm xung quanh, mà sẽ liên tục giáng Sương Thơm xuống, tấn công kẻ địch trong phạm vi, gây <dendro>Sát Thương Nguyên Tố Thảo</dendro>. Trong thời gian duy trì, mỗi 0.3s sẽ giáng một Sương Thơm xuống, đồng thời mỗi kẻ địch trong mỗi 0.7s chỉ có thể bị chọn làm mục tiêu một lần.",
-      "2": "Khi kết thúc thời gian duy trì sẽ tạo lại Hộp Lumidouce Cấp 1; Nếu đã tiêu hủy Hộp Lumidouce có thu thập Hương Thơm khi thi triển Trình Diễn Hương Thơm, thì khi tạo Hộp Lumidouce sẽ kế thừa Hương Thơm và cấp bậc trước đó.",
+      "2": "Khi kết thúc thời gian duy trì sẽ tạo lại Hộp Lumidouce Cấp 1; Nếu đã cất giữ Hộp Lumidouce khi thi triển Trình Diễn Hương Thơm, thì sẽ chuyển sang đặt Hộp Lumidouce đã cất giữ, đồng thời làm mới thời gian duy trì của nó.",
       "3": "Trong thời gian duy trì <strong>Trình Diễn Hương Thơm</strong>, Kỹ Năng Nguyên Tố \"Chiết Xuất Nước Hoa\" sẽ không tạo ra Hộp Lumidouce.",
       "4": "<br/>",
       "5": "<i>Bất kể là loại nước hoa nào thì nó cũng sẽ bắt đầu thay đổi ngay khi tiếp xúc với không khí, sau đó sẽ dần tan biến trong tiếng thì thầm của gió, cây cối và hoa cỏ. Theo ý nghĩa đó, sẽ không có hai người cùng đánh giá cao một mùi hương.",
@@ -107,32 +107,32 @@
   "passive1": {
     "name": "Dư Hương",
     "description": {
-      "0": "Mỗi thu thập 2 <strong>Hương Thơm</strong>, Hộp Lumidouce Cấp 2 sẽ tiêu hao Hương Thơm để thi triển \"Tinh Hoa Sương Sớm\", gây <dendro>Sát Thương Phạm Vi Nguyên Tố Thảo</dendro> tương ứng với 500% Tấn Công của Emilie cho kẻ địch. Sát thương này sẽ được xem là sát thương Kỹ Năng Nguyên Tố."
+      "0": "Mỗi thu thập 2 <strong>Hương Thơm</strong>, Hộp Lumidouce Cấp 2 sẽ tiêu hao Hương Thơm để thi triển \"Tinh Hoa Sương Sớm\", gây <dendro>Sát Thương Phạm Vi Nguyên Tố Thảo</dendro> tương ứng với 600% Tấn Công của Emilie cho kẻ địch. Sát thương này sẽ được xem là sát thương Kỹ Năng Nguyên Tố."
     }
   },
   "passive2": {
     "name": "Cải Tiến",
     "description": {
-      "0": "Khi trong trận có Hộp Lumidouce của bản thân Emilie tạo ra, <pyro>Kháng Nguyên Tố Hỏa</pyro> đối với sát thương Thiêu Đốt của tất cả nhân vật trong đội gần đó tăng 85%."
+      "0": "Căn cứ vào Tấn Công của Emilie, tăng sát thương Emilie gây ra cho kẻ địch trong trạng thái Thiêu Đốt: Mỗi 1000 điểm Tấn Công sẽ tăng 15% sát thương, tối đa tăng 36% sát thương thông qua cách này."
     }
   },
   "passive3": {
     "name": "Mùi Hương Ngưng Tụ",
     "description": {
-      "0": "Sát thương Emilie gây ra cho kẻ địch trong trạng thái Thiêu Đốt tăng 36%, nhưng sát thương Emilie gây ra cho kẻ địch trong trạng thái Sinh Trưởng giảm 90%."
+      "0": "Khi trong trận có Hộp Lumidouce của bản thân Emilie tạo ra, <pyro>Kháng Nguyên Tố Hỏa</pyro> đối với sát thương Thiêu Đốt của tất cả nhân vật trong đội gần đó tăng 85%."
     }
   },
   "constellation1": {
     "name": "Hương Hoa Nhẹ Nhàng",
     "description": {
-      "0": "Sát thương gây ra từ Tinh Hoa Sương Sớm của <strong>Chiết Xuất Nước Hoa</strong> và thiên phú \"Dư Hương\" tăng 10%, vế sau cần mở khóa thiên phú \"Dư Hương\".",
+      "0": "Sát thương gây ra từ Tinh Hoa Sương Sớm của <strong>Chiết Xuất Nước Hoa</strong> và thiên phú \"Dư Hương\" tăng 20%, vế sau cần mở khóa thiên phú \"Dư Hương\".",
       "1": "Ngoài ra, khi nhân vật trong đội gần đó kích hoạt phản ứng Thiêu Đốt lên kẻ địch hoặc gây <dendro>Sát Thương Nguyên Tố Thảo</dendro> lên kẻ địch đang trong trạng thái Thiêu Đốt, sẽ sinh thêm một <strong>Hương Thơm</strong>. Hiệu quả này mỗi 2.9s tối đa kích hoạt một lần."
     }
   },
   "constellation2": {
     "name": "Tinh Hoa Hồ Quang",
     "description": {
-      "0": "Hộp Lumidouce mà bản thân Emilie tạo ra khi thu thập Hương Thơm, thì Emilie sẽ nhận một tầng \"Đặc Chế\", khiến Tấn Công của Emilie tăng 18% trong 10s. Hiệu quả này tối đa cộng dồn 2 tầng, mỗi tầng tính giờ riêng."
+      "0": "Khi <strong>Chiết Xuất Nước Hoa</strong>, <strong>Trình Diễn Hương Thơm</strong> hoặc Tinh Hoa Sương Sớm của thiên phú cố định Dư Hương (cần mở khóa thiên phú cố định) đánh trúng kẻ địch, kẻ địch này sẽ giảm 30% <dendro>Kháng Nguyên Tố Thảo</dendro> trong 10s."
     }
   },
   "constellation3": {
@@ -159,9 +159,9 @@
     "name": "Dư Hương Marcotte",
     "description": {
       "0": "Khi thi triển <strong>Chiết Xuất Nước Hoa</strong> hoặc <strong>Trình Diễn Hương Thơm</strong>, Emilie nhận được hiệu quả \"Dư Hương Quanh Quẩn\" trong 5s.",
-      "1": "Trong thời gian duy trì, sau khi Emilie tiến hành Tấn Công Thường hoặc Trọng Kích sẽ sản sinh một Hương Thơm, đồng thời Tấn Công Thường và Trọng Kích của Emilie sẽ chuyển thành <dendro>Sát Thương Nguyên Tố Thảo</dendro> không thể bị thay thế, và lượng sát thương gây ra sẽ tăng dựa vào 250% Tấn Công của Emilie.",
+      "1": "Trong thời gian duy trì, sau khi Emilie tiến hành Tấn Công Thường hoặc Trọng Kích sẽ sản sinh một Hương Thơm, đòn Tấn Công Thường và Trọng Kích của Emilie sẽ chuyển thành <dendro>Sát Thương Nguyên Tố Thảo</dendro> không thể bị thay thế, đồng thời tăng sát thương gây ra tương đương với 300% Tấn Công của Emilie.",
       "2": "<br/>",
-      "3": "Hiệu quả \"Dư Hương Quanh Quẩn\" sẽ bị xóa khi sản sinh 4 Hương Thơm hoặc kết thúc thời gian duy trì. Mỗi 12s tối đa nhận một lần hiệu quả \"Dư Hương Quanh Quẩn\"."
+      "3": "Hiệu quả \"Dư Hương Quanh Quẩn\" sẽ bị xóa khi sản sinh 4 Hương Thơm thông qua cách này hoặc kết thúc thời gian duy trì. Mỗi 12s tối đa nhận một lần hiệu quả \"Dư Hương Quanh Quẩn\"."
     }
   }
 }

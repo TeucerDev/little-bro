@@ -1,0 +1,169 @@
+{
+  "name": "Mualani",
+  "title": "",
+  "description": "",
+  "constellationName": "",
+  "auto": {
+    "name": "Xử Lý Giảm Nhiệt",
+    "fields": {
+      "normal": {
+        "0": "<strong>Tấn Công Thường</strong>",
+        "1": "Thực hiện tối đa 3 lần tấn công, gây <hydro>Sát Thương Nguyên Tố Thủy</hydro>."
+      },
+      "charged": {
+        "0": "<strong>Trọng Kích</strong>",
+        "1": "Tiêu hao thể lực nhất định, ném Bóng Nước lên không trung và gây <hydro>Sát Thương Phạm Vi Nguyên Tố Thủy</hydro> khi chạm đất."
+      },
+      "plunging": {
+        "0": "<strong>Tấn Công Khi Đáp</strong>",
+        "1": "Ngưng tụ sức mạnh nguyên tố Thủy, từ trên trời tấn công xuống mặt đất, tấn công kẻ địch trên đường đi, gây <hydro>sát thương phạm vi Nguyên Tố Thủy</hydro> khi chạm đất."
+      }
+    },
+    "skillParams": {
+      "0": "Sát Thương Lần 1",
+      "1": "Sát Thương Lần 2",
+      "2": "Sát Thương Lần 3",
+      "3": "Sát Thương Trọng Kích",
+      "4": "Thể lực Trọng Kích tiêu hao",
+      "5": "Sát Thương Khi Đáp",
+      "6": "Sát Thương Khi Đáp Từ Độ Cao Thấp/Cao",
+      "7": "",
+      "8": "",
+      "9": "",
+      "10": "",
+      "11": "",
+      "12": "",
+      "13": "",
+      "14": "",
+      "15": ""
+    }
+  },
+  "skill": {
+    "name": "Cá Mập Xuyên Sóng",
+    "description": {
+      "0": "Dựa vào kinh nghiệm kiểm soát tốc độ và dòng nước, Mualani có thể lướt sóng ở bất kỳ nơi đâu, bất kỳ lúc nào.",
+      "1": "Sau khi thi triển, Mualani nhận được 60 điểm Dạ Hồn và tiến vào trạng thái Dạ Hồn Chúc Phúc.",
+      "2": "<br/>",
+      "3": "<strong>Dạ Hồn Chúc Phúc - Mualani</strong>",
+      "4": "Liên tục tiêu hao điểm Dạ Hồn. Khi điểm Dạ Hồn tiêu hao hết hoặc thi triển lần nữa, trạng thái Dạ Hồn Chúc Phúc của Mualani sẽ kết thúc. Trạng thái Dạ Hồn Chúc Phúc sẽ có đặc tính sau:",
+      "5": [
+        "Lướt Ván Cá Mập, tăng tốc độ di chuyển của Mualani. Mualani trong trạng thái này sẽ có thể lướt trên mặt nước và Phlogiston lỏng, đồng thời miễn dịch sát thương Phlogiston lỏng;",
+        "Khi Tấn Công Thường sẽ chuyển hóa thành Cá Mập Cắn Xé, gây <hydro>Sát Thương Nguyên Tố Thủy</hydro> mang thuộc tính Dạ Hồn dựa vào Giới Hạn HP của Mualani. Cá Mập Cắn Xé có thể thi triển trên không, sát thương gây ra sẽ được tính là sát thương Tấn Công Thường;",
+        "Khi tiếp xúc với kẻ địch trong trạng thái này, Mualani sẽ gán Dấu Ấn Con Mồi lên kẻ địch và nhận 1 tầng Động Lượng Sóng. Động Lượng Sóng tối đa cộng dồn 3 tầng."
+      ],
+      "6": "<br/>",
+      "7": "<strong>Động Lượng Sóng và Dấu Ấn Con Mồi</strong>",
+      "8": "Khi tiến hành Cá Mập Cắn Xé, Mualani sẽ căn cứ vào số tầng Động Lượng Sóng để tăng sát thương gây ra. Khi có 3 tầng Động Lượng Sóng, Cá Mập Cắn Xé của Mualani sẽ chuyển thành Sóng Cá Mập Cắn Xé, tăng sát thương gây ra và xóa Động Lượng Sóng.",
+      "9": "Cá Mập Cắn Xé khi cắn trúng kẻ địch có Dấu Ấn Con Mồi thì sẽ xóa dấu ấn của mục tiêu đó, đồng thời bắn Tên Lửa Cá Mập vào tối đa 5 kẻ địch có Dấu Ấn Con Mồi ở xung quanh, gây lượng sát thương tương đương với Cá Mập Cắn Xé lần này và xóa Dấu Ấn Con Mồi của chúng; Số mục tiêu của Cá Mập Cắn Xé và Tên Lửa Cá Mập lần này khi vượt quá 1, sát thương gây ra sẽ giảm, tối đa giảm 24% với 3 kẻ địch.",
+      "10": "<br/>",
+      "11": "<i>Đầu tiên, cái này không những là ván lướt sóng, mà còn là cá mập nước ngọt. Thứ hai, nó không cần ăn, nhưng chắc chắn nó sẽ cắn.</i>"
+    },
+    "skillParams": {
+      "0": "Sát Thương Cơ Bản Cá Mập Cắn Xé",
+      "1": "Động Lượng Sóng Tăng Sát Thương",
+      "2": "Sát Thương Sóng Cá Mập Cắn Xé Thêm",
+      "3": "Thời Gian Chờ Cá Mập Cắn Xé",
+      "4": "Giới Hạn Điểm Dạ Hồn",
+      "5": "CD",
+      "6": "",
+      "7": "",
+      "8": "",
+      "9": "",
+      "10": "",
+      "11": "",
+      "12": "",
+      "13": "",
+      "14": "",
+      "15": ""
+    }
+  },
+  "burst": {
+    "name": "Đạn Pháo Bùng Nổ",
+    "description": {
+      "0": "Bắn Siêu Tên Lửa Cá Mập truy kích kẻ địch, gây <hydro>Sát Thương Phạm Vi Nguyên Tố Thủy</hydro> dựa vào Giới Hạn HP của Mualani.",
+      "1": "<br/>",
+      "2": "<i>Mualani đặt tên cho nó như vậy là do nó có chứa yếu tố của nước và lửa, nghe giống như suối nước nóng vậy.</i>"
+    },
+    "skillParams": {
+      "0": "Sát Thương Kỹ Năng",
+      "1": "CD",
+      "2": "Năng Lượng Nguyên Tố",
+      "3": "",
+      "4": "",
+      "5": "",
+      "6": "",
+      "7": "",
+      "8": "",
+      "9": "",
+      "10": "",
+      "11": "",
+      "12": "",
+      "13": "",
+      "14": "",
+      "15": ""
+    }
+  },
+  "passive1": {
+    "name": "Bóng Nước Kháng Nhiệt",
+    "description": {
+      "0": "Sóng Cá Mập Cắn Xé khi trúng kẻ địch sẽ sản sinh một Bóng Nổi ở gần đó. Khi nhận Bóng Nổi của bản thân tạo ra, Mualani sẽ hồi phục 25 điểm Dạ Hồn. Trong một lần Dạ Hồn Chúc Phúc tối đa chỉ có thể tạo ra 1 quả Bóng Nổi bằng cách này."
+    }
+  },
+  "passive2": {
+    "name": "Hướng Dẫn Viên Giỏi Nhất Natlan",
+    "description": {
+      "0": "Khi nhân vật trong đội ở gần kích hoạt \"Dạ Hồn Bùng Nổ\", Mualani nhận một tầng Kinh Nghiệm Lướt Sóng trong 20s,tối đa cộng dồn 3 tầng. Khi thi triển <strong>Đạn Pháo Bùng Nổ</strong>, Mualani sẽ xóa tất cả Kinh Nghiệm Lướt Sóng, đồng thời căn cứ vào số tầng đã xóa để tăng sát thương Đạn Pháo Bùng Nổ gây ra dựa trên 20%/30%/40% Giới Hạn HP."
+    }
+  },
+  "passive3": {
+    "name": "Món Quà Dạ Vực - Đỉnh Và Đáy Sóng",
+    "description": {
+      "0": "Sau khi dùng hết điểm Dạ Hồn, Mualani sẽ chuyển sang tiêu hao Phlogiston để duy trì trạng thái Dạ Hồn Chúc Phúc.",
+      "1": "Khi ở trong khu vực có Thiết Bị Phlogiston của Natlan, có thể tiến hành Dạ Hồn Chuyển Hóa - Kachina. Nhân vật trong trận khi xung kích, bơi lội, trong trạng thái di chuyển của Thiên Phú cố định hoặc đang ở trên không với độ cao nhất định, đổi sang Mualani ra trận sẽ kích hoạt: Mualani sẽ vào trạng thái Dạ Hồn Chúc Phúc, đồng thời nhận 40 điểm Dạ Hồn. Mỗi 10s chỉ kích hoạt một lần Dạ Hồn Chuyển Hóa.",
+      "2": "<br/>",
+      "3": "Ngoài ra, Mualani di chuyển trên mặt nước khi ở trong trạng thái Dạ Hồn Chúc Phúc: Mức tiêu hao điểm Dạ Hồn hoặc Phlogiston khi ở trong khu vực Natlan giảm đến 25%, mức tiêu hao điểm Dạ Hồn hoặc Phlogiston khi ở ngoài khu vực Natlan giảm đến 65%."
+    }
+  },
+  "constellation1": {
+    "name": "\"Meztli\" Nhàn Nhã...",
+    "description": {
+      "0": "Khi không trong trạng thái chiến đấu, điểm Dạ Hồn và Phlogiston tiêu hao trong trạng thái Dạ Hồn Chúc Phúc của Mualani giảm còn 70%.",
+      "1": "Ngoài ra, tăng sát thương Sóng Cá Mập Cắn Xé và Tên Lửa Cá Mập kích hoạt từ nó của lần đầu tiên sau khi vào trạng thái Dạ Hồn Chúc Phúc, mức tăng tương ứng với 75% Giới Hạn HP của Mualani. Lần tăng sát thương này cũng áp dụng quy tắc giảm sát thương của <strong>Cá Mập Xuyên Sóng</strong>."
+    }
+  },
+  "constellation2": {
+    "name": "Mualani, Dốc Toàn Lực!",
+    "description": {
+      "0": "Khi vào trạng thái Dạ Hồn Chúc Phúc, Mualani nhận 2 tầng Động Lượng Sóng của <strong>Cá Mập Xuyên Sóng</strong>; Khi Mualani nhận được Bóng Nổi, sẽ nhận được 1 tầng Động Lượng Sóng.",
+      "1": "Ngoài ra, trong một lần Dạ Hồn Chúc Phúc, số lượng Bóng Nổi sản sinh từ Sóng Cá Mập Cắn Xé sẽ tăng đến 2.",
+      "2": "Cần mở khóa thiên phú \"Bóng Nước Kháng Nhiệt\"."
+    }
+  },
+  "constellation3": {
+    "name": "Lướt Sóng Trên Biển Hân Hoan",
+    "description": {
+      "0": "Cấp kỹ năng <strong>Cá Mập Xuyên Sóng</strong> +3.",
+      "1": "Tăng tối đa đến cấp 15."
+    }
+  },
+  "constellation4": {
+    "name": "Cá Mập Ăn Bóng Nước",
+    "description": {
+      "0": "Khi nhận được Bóng Nổi, Mualani hồi phục 7 điểm Năng Lượng Nguyên Tố; Hiệu quả này cần mở khóa thiên phú \"Bóng Nước Kháng Nhiệt\".",
+      "1": "Ngoài ra, sát thương gây ra từ <strong>Đạn Pháo Bùng Nổ</strong> tăng 200%."
+    }
+  },
+  "constellation5": {
+    "name": "Ván Lướt Sóng Cùng Mẫu Đang Bán",
+    "description": {
+      "0": "Cấp kỹ năng <strong>Đạn Pháo Bùng Nổ</strong> +3.",
+      "1": "Tăng tối đa đến cấp 15."
+    }
+  },
+  "constellation6": {
+    "name": "Tinh Thần Cư Dân Suối Nước",
+    "description": {
+      "0": "Hiệu quả tăng sát thương từ cung mệnh \"'Meztli' Nhàn Nhã...\" không chỉ kích hoạt một lần trong trạng thái Dạ Hồn Chúc Phúc, đồng thời tăng 5% Tỷ Lệ Bạo Kích và 10% Sát Thương Bạo Kích của Sóng Cá Mập Cắn Xé và Tên Lửa Cá Mập kích hoạt từ nó."
+    }
+  }
+}
