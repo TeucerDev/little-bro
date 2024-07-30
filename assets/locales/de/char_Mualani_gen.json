@@ -1,8 +1,8 @@
 {
   "name": "Mualani",
-  "title": "",
+  "title": "Plitsch-Platsch-Wellenjägerin",
   "description": "",
-  "constellationName": "",
+  "constellationName": "Phoca Neomonachus",
   "auto": {
     "name": "Kühlende Behandlung",
     "fields": {
@@ -49,17 +49,17 @@
       "5": [
         " Steigt auf das Haifisch-Surfbrett und erhöht Mualanis Bewegungsgeschwindigkeit. Mualani kann sich über Wasser und flüssiges Phlogiston bewegen, während dieser Zustand aktiv ist, und sie erleidet keinen Schaden durch flüssiges Phlogiston.",
         " Wandelt Standardangriffe in Haifischbisse um, die mit Nachtseelen versehenen <hydro>Hydro-Schaden</hydro> basierend auf Mualanis max. LP verursachen. Haifischbisse können in der Luft ausgeführt werden. Der auf diese Weise verursachte Schaden wird als Schaden des Standardangriffs betrachtet.",
-        " Wenn sie in diesem Zustand mit Gegnern in Kontakt kommt, werden diese als Beute markiert und Mualani erhält selbst 1 Stapelung „Wellenschwung“, max, 3-fach stapelbar."
+        " Wenn sie in diesem Zustand mit Gegnern in Kontakt kommt, werden diese als Beute markiert und Mualani erhält selbst 1 Stapelung „Wellenschwung“, 3-fach stapelbar. Pro Gegner alle 0,8 s 1 Stapelung möglich."
       ],
       "6": "<br/>",
       "7": "<strong>Wellenschwung und Markierung der Beute</strong>",
       "8": "Erhöht, wenn Mualani den Haifischbiss einsetzt, den von ihr verursachten Schaden basierend auf der Menge an Stapelungen von Wellenschwung. Bei 3 Stapelungen wird der Haifischbiss in Wogender Haibiss umgewandelt, was ihren Schaden weiter erhöht und danach alle Stapelungen von Wellenschwung entfernt.",
-      "9": "Entfernt, wenn der Haifischbiss einen Gegner trifft, der als Beute markiert ist, diese Markierung und feuert Haifischgeschosse auf bis zu 5 als Beute markierte Gegner in der Nähe ab, die ihnen Schaden in gleicher Höhe wie dem des diesmaligen Haifischbisses zufügen und ihre Markierungen entfernen. Verringert, wenn mehr als 1 Gegner Ziel von Haifischbiss und Haifischgeschossen ist, den verursachten Schaden, wobei die max. Verringerung 24 % beträgt, wenn 3 Gegner betroffen sind.",
+      "9": "Entfernt, wenn der Haifischbiss einen Gegner trifft, die Markierung und feuert Haifischgeschosse auf bis zu 5 als Beute markierte Gegner in der Nähe ab, die ihnen Schaden in gleicher Höhe wie dem des diesmaligen Haifischbisses zufügen und ihre Markierungen entfernen. Verringert, wenn mehr als 1 Gegner Ziel von Haifischbiss und Haifischgeschossen ist, den verursachten Schaden, wobei die max. Verringerung 28 % beträgt, wenn 3 Gegner betroffen sind.",
       "10": "<br/>",
       "11": "<i>Erstens ist mein kleiner Hai nicht nur ein Surfbrett, sondern auch ein Süßwasserhai. Zweitens muss er nicht wirklich fressen, aber er beißt trotzdem.</i>"
     },
     "skillParams": {
-      "0": "Haifischbiss Basis-SCH",
+      "0": "Basis-SCH Haifischbiss",
       "1": "SCH-Bonus von Wellenschwung",
       "2": "Zusätzlicher SCH-Bonus von Wogender Haibiss",
       "3": "Abklingzeit von Haifischbiss",
@@ -106,36 +106,42 @@
   "passive1": {
     "name": "Hitzebeständiger Süßwasserschwimmer",
     "description": {
-      "0": "Erzeugt in der Nähe einen Schwimmer, wenn ein Gegner von Wogender Haibiss getroffen wird. Stellt Mualani selbst 25 Punkte Nachtseelenpunkt wieder her, wenn sie einen von ihr selbst erzeugten Schwimmer erhält. Während einer einzigen Auslösung von Nachtseelensegen kann höchstens 1 solcher Schwimmer auf diese Weise erschaffen werden."
+      "0": "Erzeugt in der Nähe einen Schwimmerßßß, wenn ein Gegner von Wogender Haibiss getroffen wird. Stellt Mualani selbst 22 Nachtseelenpunkte wieder her, wenn sie einen von ihr selbst erzeugten Schwimmer erhält. Während einer einzigen Auslösung von Nachtseelensegen kann höchstens 1 solcher Schwimmer auf diese Weise erschaffen werden."
     }
   },
   "passive2": {
     "name": "Beste Reiseführerin von Natlan",
     "description": {
-      "0": "Wenn ein in der Nähe befindliches Truppenmitglied den Nachtseelenaufbruch auslöst, erhält Mualani 1 Stapelung „Wellenreiterserfahrung“, hält 20 s, 3-fach stapelbar. Wenn Mualani <strong>Sturmexplosions-Geschoss</strong> einsetzt, werden alle Stapelungen von „Wellenreiterserfahrung“ verbraucht, erhöht den diesmaligen verursachten Schaden von Sturmexplosions-Geschoss basierend auf den verbrauchten Stapelungen um je 20 %/30 %/40 % von Mualanis max. LP."
+      "0": "Verleiht, wenn ein in der Nähe befindliches Truppenmitglied Nachtseelenaufbruch auslöst, Mualani 1 Stapelung „Wellenreitererfahrung“, hält 20 s, 3-fach stapelbar. Verbraucht, wenn Mualani <strong>Sturmexplosions-Geschoss</strong> einsetzt, alle Stapelungen von „Wellenreitererfahrung“, erhöht den diesmal verursachten Schaden von Sturmexplosions-Geschoss basierend auf den verbrauchten Stapelungen um 20/30/40 % von Mualanis max. LP."
     }
   },
   "passive3": {
-    "name": "Das Geschenk des Nachtreichs: Wellenberge und Wellentäler",
+    "name": "Geschenk des Nachtreichs – Wellenberge und Wellentäler",
     "description": {
-      "0": "Nachdem ihre Nachtseelenpunkte aufgebraucht sind, kann Mualani zum Konsum von Phlogiston wechseln, um ihren Nachtseelensegen aufrechtzuerhalten.",
-      "1": "Wenn man sich in einem Gebiet mit Phlogiston-Mechanismus in Natlan befindet, kann die Nachtseelen-Übertragung – Mualani verwendet werden. Wenn die aktuelle Figur gerade rennt, schwimmt, sich in einem Bewegungsmodus befindet, der durch bestimmte Talente ausgelöst wird, oder sich in einer bestimmten Höhe in der Luft befindet, wird beim Wechsel zu Mualani Folgendes ausgelöst: Mualani tritt in den Zustand des Nachtseelensegens ein und erhält 40 Punkte Nachtseelenpunkt. 10 s Abklingzeit für das Auslösen der Nachtseelen-Übertragung.",
+      "0": "Sobald ihre Nachtseelenpunkte aufgebraucht sind, kann Mualani zum Verbrauch von Phlogiston wechseln, um ihren Nachtseelensegen aufrechtzuerhalten.",
+      "1": "Beim Aufenthalt in einem Gebiet mit Phlogiston-Mechanismus in Natlan kann die Nachtseelen-Übertragung – Mualani verwendet werden. Wenn die aktuelle Figur gerade rennt, schwimmt, sich in einem Bewegungsmodus befindet, der durch bestimmte Talente ausgelöst wird, oder sich in einer bestimmten Höhe in der Luft befindet, wird beim Wechsel zu Mualani Folgendes ausgelöst: Mualani tritt in den Zustand des Nachtseelensegens ein und erhält 40 Nachtseelenpunkte. 10 s Abklingzeit für das Auslösen der Nachtseelen-Übertragung.",
       "2": "<br/>",
-      "3": "Außerdem verbraucht Mualani in Natlan nur 25 % der ursprünglichen Nachtseelenpunkte oder Phlogiston, wenn sie sich im Zustand „Nachtseelensegen“ über Wasser bewegt, und nur 65 % der ursprünglichen Nachtseelenpunkte, wenn sie dasselbe außerhalb Natlans tut."
+      "3": "Außerdem verbraucht Mualani in Natlan 75 % weniger Nachtseelenpunkte oder Phlogiston, wenn sie sich im Zustand „Nachtseelensegen“ auf dem Wasser bewegt, und 35 % weniger Nachtseelenpunkte, wenn sie dasselbe außerhalb Natlans tut."
+    }
+  },
+  "passive": {
+    "name": "Lächeln ist der Trick!",
+    "description": {
+      "0": "Stellt beim Aufenthalt in einem Gebiet mit Phlogiston-Mechanismus in Natlan für das Einsammeln einiger sammelbarer Materialien 15 Punkte Phlogiston wieder her. Zeigt außerdem alle <strong>Besonderheiten Natlans</strong> in der Nähe auf der Minikarte an."
     }
   },
   "constellation1": {
-    "name": "Dasßßß gemütliche „Meztli“ ...",
+    "name": "Die gemütlichen „Meztli“ ...",
     "description": {
-      "0": "Mualanis Konsum von Nachtseelenpunkten und Phlogiston im Zustand Nachtseelensegen wird auf 70 % verringert, wenn sie sich nicht im Kampf befindet.",
-      "1": "Erhöht außerdem den von dem ersten Wogender Haibiss sowie von ihm ausgelösten Haifischgeschossen nach dem Eintritt in den Zustand Nachtseelensegen verursachten Schaden um 75 % von Mualanis max. LP. Dieser erhöhte Schaden unterliegt den SCH-Reduktionsregeln von <strong>Haifischreitende Wellenspalterin</strong>."
+      "0": "Verringert Mualanis Verbrauch von Nachtseelenpunkten und Phlogiston im Zustand Nachtseelensegen um 30 %, wenn sie sich nicht im Kampf befindet.",
+      "1": "Erhöht außerdem den von dem ersten Wogenden Haibiss sowie von den davon ausgelösten Haifischgeschossen nach dem Eintritt in den Zustand Nachtseelensegen verursachten Schaden um 75 % von Mualanis max. LP. Dieser erhöhte Schaden unterliegt den SCH-Reduktionsregeln von <strong>Haifischreitende Wellenspalterin</strong>."
     }
   },
   "constellation2": {
-    "name": "Mualani, die alles gibt!",
+    "name": "Mualani gibt alles!",
     "description": {
       "0": "Verleiht Mualani 2 Stapelungen Wellenschwung von <strong>Haifischreitende Wellenspalterin</strong>, wenn sie in den Zustand Nachtseelensegen tritt. Verleiht ihr 1 Stapelung Wellenschwung, wenn sie einen Schwimmerßßß erhält.",
-      "1": "Erhöht zusätzlich die max. Anzahl von Schwimmern, die sie durch einen einmaligen Wogenden Haibiss erzeugen kann, auf 2.",
+      "1": "Stellt abgesehen von der eigentlichen Wiederherstellung von Nachtseelenpunkten zusätzlich innerhalb von 4 s nach dem Erhalten eines Schwimmers 20 weitere Nachtseelenpunkte wieder her.",
       "2": "Das passive Talent „Hitzebeständiger Süßwasserschwimmer“ muss zuerst freigeschaltet werden."
     }
   },
@@ -149,7 +155,7 @@
   "constellation4": {
     "name": "Haifisch frisst Schwimmer",
     "description": {
-      "0": "Stellt Mualani beim Erhalten eines Schwimmers 7 Punkte Elementarenergie wieder her. Das passive Talent „Hitzebeständiger Süßwasserschwimmer“ muss zuerst freigeschaltet werden.",
+      "0": "Stellt Mualani beim Erhalten eines Schwimmersßßß 7 Punkte Elementarenergie wieder her. Das passive Talent „Hitzebeständiger Süßwasserschwimmer“ muss zuerst freigeschaltet werden.",
       "1": "Erhöht außerdem den durch <strong>Sturmexplosions-Geschoss</strong> verursachten Schaden um 200 %."
     }
   },
@@ -163,7 +169,7 @@
   "constellation6": {
     "name": "Der Geist der Menschen der Quellen",
     "description": {
-      "0": "Der SCH-Erhöhungseffekt des Sternbildes „Das gemütliche ,Meztli‘ ...“ kann mehr als einmal pro Nachtseelensegen ausgelöst werden. Erhöht außerdem die KT von Wogender Haibiss und den dadurch ausgelösten Haifischgeschossen um 5 % und deren KSCH um 10 %."
+      "0": "Der SCH-Erhöhungseffekt des Sternbildes „Die gemütlichen ,Meztli‘ ...“ kann mehr als einmal pro Nachtseelensegen ausgelöst werden. Erhöht außerdem die KT von Wogender Haibiss und den dadurch ausgelösten Haifischgeschossen um 5 % sowie deren KSCH um 10 %."
     }
   }
 }

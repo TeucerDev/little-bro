@@ -1,8 +1,8 @@
 {
   "name": "Kachina",
-  "title": "",
+  "title": "Or brut moucheté",
   "description": "",
-  "constellationName": "",
+  "constellationName": "Ochotona Princeps",
   "auto": {
     "name": "Morsure de crête",
     "fields": {
@@ -43,10 +43,10 @@
     "description": {
       "0": "Combattez aux côtés du fidèle Virevolturbo !",
       "1": "Invoque Virevolturbo. Avec un appui long, Kachina invoque et chevauche Virevolturbo.",
-      "2": "Après utilisation, Kachina obtient 50 pts de noctâme et entre dans l'état Bénédiction noctâme.",
+      "2": "Après utilisation, Kachina obtient 60 pts de noctâme et entre dans l'état Bénédiction noctâme.",
       "3": "<br/>",
       "4": "<strong>Bénédiction noctâme : Kachina</strong>",
-      "5": "Les différentes actions de Virevolturbo consomme les points de noctâme de Kachina.",
+      "5": "Les différentes actions de Virevolturbo consomment les points de noctâme de Kachina.",
       "6": "L'état Bénédiction noctâme de Kachina dure jusqu'à ce que tous les points de noctâme soient épuisés.",
       "7": "<br/>",
       "8": "<strong>Virevolturbo</strong>",
@@ -111,7 +111,7 @@
   "passive1": {
     "name": "Écho de la montagne",
     "description": {
-      "0": "Lorsqu'un membre de l'équipe à proximité déclenche un éclatement noctâme, le <geo>bonus de DGT Géo</geo> de Kachina augmente de 20 % pendant 10 s."
+      "0": "Lorsqu'un membre de l'équipe à proximité déclenche une éruption noctâme, le <geo>bonus de DGT Géo</geo> de Kachina augmente de 20 % pendant 12 s."
     }
   },
   "passive2": {
@@ -123,10 +123,16 @@
   "passive3": {
     "name": "Don de la nuit : Foyer de l'unité",
     "description": {
-      "0": "Après avoir épuisé ses points de noctâme, Kachina change pour consommer de la phlogistique afin de maintenir sa bénédiction noctâme.",
-      "1": "Dans une zone de Natlan avec des appareils phlogistiques, la transmission noctâme « Kachina » peut être utilisée. Lorsque le personnage déployé sprinte, escalade, est en plein mouvement provoqué par une aptitude particulière ou est à une certaine hauteur dans les airs, le déploiement de Kachina au combat déclenche l'effet suivant : Kachina entre dans l'état Bénédiction noctâme, chevauche <strong>Virevolturbo</strong> en arrivant sur le terrain et obtient XX pts de noctâme. La transmission noctâme peut être déclenchée une fois toutes les 10 s.",
+      "0": "Après avoir épuisé ses points de noctâme, Kachina change pour consommer du phlogistique afin de maintenir sa bénédiction noctâme.",
+      "1": "Dans une zone de Natlan avec des mécanismes phlogistiques, la transmission noctâme « Kachina » peut être utilisée. Lorsque le personnage déployé sprinte, escalade, est en plein mouvement provoqué par une aptitude particulière ou est à une certaine hauteur dans les airs, le déploiement de Kachina au combat déclenche l'effet suivant : Kachina entre dans l'état Bénédiction noctâme, chevauche <strong>Virevolturbo</strong> en arrivant sur le terrain et obtient 30 pts de noctâme. La transmission noctâme peut être déclenchée une fois toutes les 10 s.",
       "2": "<br/>",
       "3": "De plus, la consommation d'endurance de Kachina lors de l'escalade diminue de 90 % lorsqu'elle chevauche <strong>Virevolturbo</strong> dans la région de Natlan."
+    }
+  },
+  "passive": {
+    "name": "Bénédiction des flammes cristallines",
+    "description": {
+      "0": "Dans une zone de Natlan avec des mécanismes phlogistiques, interagir avec certains objets récoltables restaure 20 pts d'endurance. De plus, l'emplacement des <strong>produits de Natlan</strong> est affiché sur la mini-carte."
     }
   },
   "constellation1": {
@@ -139,7 +145,7 @@
   "constellation2": {
     "name": "Jamais sans... Virevolturbo",
     "description": {
-      "0": "Lorsque Kachina utilise <strong>Un peu de sérieux !</strong>, elle récupère 16 pts de noctâme. Si aucun <strong>Virevolturbo</strong> de Kachina n'est sur le terrain lors de l'utilisation, Kachina passe en bénédiction noctâme et en invoque un."
+      "0": "Lorsque Kachina utilise <strong>Un peu de sérieux !</strong>, elle récupère 20 pts de noctâme. Si aucun <strong>Virevolturbo</strong> de Kachina n'est sur le terrain lors de l'utilisation, Kachina passe en bénédiction noctâme et en invoque un."
     }
   },
   "constellation3": {

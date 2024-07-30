@@ -1,8 +1,8 @@
 {
   "name": "Kinich",
-  "title": "",
-  "description": "",
-  "constellationName": "",
+  "title": "Wendefeuerjagd",
+  "description": "Ein Saurierjäger der Huitztlan, der gut darin ist, den richtigen Preis zu finden.",
+  "constellationName": "Chimaera Alebriius",
   "auto": {
     "name": "Stil der Nachtsonne",
     "fields": {
@@ -59,7 +59,7 @@
       "11": "<i>„Alle Dinge haben ihren Preis. Ich schlage vor, du machst ein angemessenes Angebot ... Was? Nein, ich lasse mich nicht auf Ratenzahlungen ein.“</i>"
     },
     "skillParams": {
-      "0": "SCH umlaufendes Schussangriffs",
+      "0": "SCH drehender Schussangriff",
       "1": "SCH Schuppendurchschlagskanone",
       "2": "Max. Nachtseelenpunkte",
       "3": "Abklingzeit",
@@ -80,10 +80,10 @@
   "burst": {
     "name": "Gegrüßt sei der allmächtige Drachenfürst",
     "description": {
-      "0": "Entfesselt die Kraft von Ajaw, der Drakonischen Majestät (auf einer begrenzten, bedingten, eingeschränkten, vertraglichen, teilweise festgelegten, vorübergehenden Grundlage) und verursacht dabei <dendro>Dendro-Flächenschaden</dendro>. Ajaw lässt während der Wirkungsdauer in regelmäßigen Abständen seinen Drachenatem los und verursacht dabei <dendro>Dendro-Flächenschaden</dendro>.",
+      "0": "Entfesselt die Kraft von Ajaw, dem Allmächtigen Drachenfürsten (auf einer begrenzten, bedingten, eingeschränkten, vertraglichen, teilweise festgelegten, vorübergehenden Grundlage), und verursacht dabei mit Nachtseelen versehenen <dendro>Dendro-Flächenschaden</dendro>. Ajaw lässt während der Wirkungsdauer in regelmäßigen Abständen seinen Drachenatem los und verursacht dabei mit Nachtseelen versehenen <dendro>Dendro-Flächenschaden</dendro>.",
       "1": "Befindet sich Kinich während des Einsetzens im Zustand Nachtseelensegen, so wird die Dauer des diesmaligen Zustands Nachtseelensegen um 2 s verlängert.",
       "2": "<br/>",
-      "3": "<i>„Ja, genau! Vor dir steht die Drakonische Majestät K’uhul Ajaw. Komm nach vorn, knie nieder und küss meine Füße!“</i>"
+      "3": "<i>„Ja, genau! Vor dir steht der Allmächtige Drachenfürst K’uhul Ajaw. Komm nach vorn, knie nieder und küss meine Füße!“</i>"
     },
     "skillParams": {
       "0": "Fähigkeits-SCH",
@@ -107,56 +107,58 @@
   "passive1": {
     "name": "Der Preis der Verwüstung",
     "description": {
-      "0": "Wenn Kinich sich im Zustand Nachtseelensegen befindet, werden Gegner, die vom Schaden der Elementarfähigkeit Kinichs getroffen werden, in den Zustand Verwüstung versetzt, wenn sie vom Schaden der Reaktionen „in Flammen“ oder „Flammenspross“ betroffen sind, werden sie ihm 7 Punkte Nachtseelenpunkt verleihen. Nachtseelenpunkte können auf diese Weise einmal alle 0,8 s gewonnen werden. Der Zustand Verwüstung hält an, bis diesmaliger Nachtseelensegen von Kinich endet."
+      "0": "Wenn Kinich sich im Zustand Nachtseelensegen befindet, werden Gegner, die vom Schaden der Elementarfähigkeit von Kinich getroffen werden, in den Zustand Verwüstung versetzt. Wenn sie vom Schaden der Reaktionen „in Flammen“ oder „Flammenspross“ betroffen sind, verleihen sie ihm 7 Nachtseelenpunkte. Nachtseelenpunkte können auf diese Weise einmal alle 0,8 s gewonnen werden. Der Zustand Verwüstung hält, bis der diesmalige Nachtseelensegen von Kinich endet."
     }
   },
   "passive2": {
     "name": "Flammengeist-Pakt",
     "description": {
-      "0": "Wenn ein in der Nähe befindliches Truppenmitglied den Nachtseelenaufbruch auslöst, erhält Kinich 1 Stapelung „Jägerserfahrung“, hält 15 s, 2-fach stapelbar. Wenn Kinich die Schuppendurchschlagskanone von <strong>Seiljäger: Hoch hinaus</strong> einsetzt, werden alle Stapelungen von „Jägerserfahrung“ verbraucht, erhöht für jede verbrauchte Stapelung den verursachten Schaden diesmaliger Schuppendurchschlagskanone um 320 % von Kinichs ANG."
+      "0": "Verleiht, wenn ein in der Nähe befindliches Truppenmitglied Nachtseelenaufbruch auslöst, Kinich 1 Stapelung „Jägererfahrung“, hält 15 s, 2-fach stapelbar. Verbraucht, wenn Kinich die Schuppendurchschlagskanone von <strong>Seiljäger – Hoch hinaus</strong> einsetzt, alle Stapelungen von „Jägererfahrung“ und erhöht für jede verbrauchte Stapelung den verursachten Schaden des diesmaligen Schuppendurchschlagskanone um 320 % von Kinichs ANG."
     }
   },
   "passive3": {
-    "name": "Das Geschenk des Nachtreichs: Vollständig zurückgezahlt",
+    "name": "Geschenk des Nachtreichs – Vollständig zurückgezahlt",
     "description": {
-      "0": "Wenn Kinich sich nach dem Schwingen durch <strong>Seiljäger: Hoch hinaus</strong> noch in der Luft befindet, kann er 10 Punkte Phlogiston verbrauchen, um ein weiteres Schwingen in der Luft auszuführen.",
-      "1": "Wenn man sich in einem Gebiet mit Phlogiston-Mechanismus in Natlan befindet, kann die Nachtseelen-Übertragung – Kinich verwendet werden. Wenn die aktuelle Figur gerade rennt, sich in einem Bewegungsmodus befindet, der durch bestimmte Talente ausgelöst wird, oder sich in einer bestimmten Höhe in der Luft befindet, wird beim Wechsel zu Kinich Folgendes ausgelöst: Kinich feuert ein Kletterseil und schwingt in der Luft. Gültige Spiralgras-Siegel werden von Kinich als Ziele des Kletterseils bevorzugt. 10 s Abklingzeit für das Auslösen der Nachtseelen-Übertragung.",
-      "2": "Bei der Interaktion mit Spiralgras-Siegeln und anderen Objekten, die mit Yumkasauriern interagieren können, wird „Seiljäger: Hoch hinaus“ in „Yumkasaurier-Mimesis“ umgewandelt, wodurch die Interaktionen mit solchen Objekten den für den Yumkasaurier geltenden Regeln folgen und „Seiljäger: Hoch hinaus“ nicht in die Abklingphase übergeht."
+      "0": "Wenn Kinich sich nach dem Schwingen durch <strong>Seiljäger – Hoch hinaus</strong> noch in der Luft befindet, kann er 10 Punkte Phlogiston verbrauchen, um ein weiteres Schwingen in der Luft auszuführen.",
+      "1": "Bei Aufenthalt in einem Gebiet mit Phlogiston-Mechanismus in Natlan kann die Nachtseelen-Übertragung – Kinich verwendet werden. Wenn die aktuelle Figur gerade rennt, sich in einem Bewegungsmodus befindet, der durch bestimmte Talente ausgelöst wird, oder sich in einer bestimmten Höhe in der Luft befindet, wird beim Wechsel zu Kinich Folgendes ausgelöst: Kinich feuert ein Kletterseil ab und schwingt in der Luft. Gültige Spiralgras-Siegel werden von Kinich als Ziele des Kletterseils bevorzugt. 10 s Abklingzeit für das Auslösen der Nachtseelen-Übertragung.",
+      "2": "Bei der Interaktion mit Spiralgras-Siegeln und anderen Objekten, die mit Yumkasauriern interagieren können, wird „Seiljäger – Hoch hinaus“ in „Yumkasaurier-Mimesis“ umgewandelt, wodurch die Interaktionen mit solchen Objekten den für den Yumkasaurier geltenden Regeln folgen und „Seiljäger – Hoch hinaus“ nicht in die Abklingphase übergeht."
     }
   },
   "passive": {
-    "name": "",
-    "description": {}
+    "name": "Flinker Bote",
+    "description": {
+      "0": "Erhöht beim Aufenthalt in einem Gebiet mit Phlogiston-Mechanismus in Natlan für das Einsammeln einiger sammelbarer Materialien die Bewegungs-GSW eigener Truppenmitglieder 10 s lang um 15 %. Zeigt außerdem alle <strong>Besonderheiten Natlans</strong> in der Nähe auf der Minikarte an."
+    }
   },
   "constellation1": {
     "name": "Schnabel des Papageis",
     "description": {
-      "0": "Nachdem Kinich von Schwingen in der Luft durch <strong>Seiljäger: Hoch hinaush</strong> landet, erhöht sich seine Bewegungsgeschwindigkeit 5 s lang um 20 %.",
-      "1": "Zusätzlich wird der Kritische Schaden von Schuppendurchschlagskanone um 90 % erhöht."
+      "0": "Erhöht, sobald Kinich vom Schwingen in der Luft durch <strong>Seiljäger – Hoch hinaus</strong> landet, seine Bewegungs-GSW 5 s lang um 20 %.",
+      "1": "Erhöht zusätzlich den KSCH von Schuppendurchschlagskanone um 90 %."
     }
   },
   "constellation2": {
     "name": "Klaue des Tigers",
     "description": {
-      "0": "Verringert dessen Dendro-WDS 6 s lang um 30 %, wenn die Elementarfähigkeit von Kinich einen Gegner trifft.",
-      "1": "Außerdem hat die erste Schuppendurchschlagskanone, die Kinich nach dem Eintritt in den Zustand „Nachtseelensegen“ abfeuert, einen erhöhten Wirkungsbereich und ihr Schaden erhöht sich um 100 %."
+      "0": "Verringert Kinichs Dendro-WDS 6 s lang um 30 %, wenn seine Elementarfähigkeit einen Gegner trifft.",
+      "1": "Vergrößert außerdem den Wirkungsbereich der ersten Schuppendurchschlagskanone, die Kinich nach dem Eintritt in den Zustand „Nachtseelensegen“ abfeuert, und erhöht den verursachten Schaden um 100 %."
     }
   },
   "constellation3": {
     "name": "Kralle des Protokrokodils",
     "description": {
-      "0": "Erhöht die Stufe der Fähigkeit <strong>Seiljäger: Hoch hinaus</strong> um 3.",
+      "0": "Erhöht die Stufe der Fähigkeit <strong>Seiljäger – Hoch hinaus</strong> um 3.",
       "1": "Höchststufe 15."
     }
   },
   "constellation4": {
     "name": "Feder des Kolibris",
     "description": {
-      "0": "Stellt Kinich 5 Punkte Elementarenergie wieder her, nachdem er im Zustand Nachtseelensegen einen umlaufenden Schussangriff ausgeführt oder eine Schuppendurchschlagskanone abgefeuert hat. 2,8 s Abklingzeit."
+      "0": "Stellt Kinich 5 Punkte Elementarenergie wieder her, nachdem er im Zustand Nachtseelensegen einen drehenden Schussangriff ausgeführt oder eine Schuppendurchschlagskanone abgefeuert hat. 2,8 s Abklingzeit."
     }
   },
   "constellation5": {
-    "name": "Schwanz des Brüllaffens",
+    "name": "Schwanz des Brüllaffen",
     "description": {
       "0": "Erhöht die Stufe der Fähigkeit <strong>Gegrüßt sei der allmächtige Drachenfürst</strong> um 3.",
       "1": "Höchststufe 15."
@@ -165,7 +167,7 @@
   "constellation6": {
     "name": "Verkörperung der glückverheißenden Bestie",
     "description": {
-      "0": "Nachdem die Schuppendurchschlagskanone einen Gegner getroffen hat, springt sie einmal zwischen den Gegnern hin und her und verursacht dabei <dendro>Dendro-SCH</dendro> in Höhe von 600 % des ANG von Kinich."
+      "0": "Nachdem die Schuppendurchschlagskanone einen Gegner getroffen hat, springt sie einmal zwischen den Gegnern hin und her und verursacht dabei <dendro>Dendro-Schaden</dendro> in Höhe von 700 % des ANG von Kinich."
     }
   }
 }

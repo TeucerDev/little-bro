@@ -1,8 +1,8 @@
 {
   "name": "Kachina",
-  "title": "",
+  "title": "Khoáng Thạch Ánh Vàng",
   "description": "",
-  "constellationName": "",
+  "constellationName": "Cung Thử Thố",
   "auto": {
     "name": "Vết Cắn Của Núi",
     "fields": {
@@ -41,19 +41,19 @@
   "skill": {
     "name": "Mũi Khoan Quay Tròn, Xuất Kích!",
     "description": {
-      "0": "Chiến đấu cùng Mũi Khoan Quay Tròn!",
+      "0": "Chiến đấu cùng Mũi Khoan Quay Tròn đáng tin cậy!",
       "1": "Triệu hồi \"Mũi Khoan Quay Tròn\"; Khi nhấn giữ thi triển, Kachina sẽ triệu hồi và lái Mũi Khoan Quay Tròn.",
-      "2": "Sau khi thi triển, Kachina sẽ nhận 50 điểm Dạ Hồn và tiến vào trạng thái Dạ Hồn Chúc Phúc.",
+      "2": "Sau khi thi triển, Kachina sẽ nhận 60 điểm Dạ Hồn và tiến vào trạng thái Dạ Hồn Chúc Phúc.",
       "3": "<br/>",
       "4": "<strong>Dạ Hồn Chúc Phúc - Kachina</strong>",
       "5": "Các hành động của Mũi Khoan Quay Tròn sẽ tiêu hao điểm Dạ Hồn.",
       "6": "Khi tiêu hao hết điểm Dạ Hồn, Kachina sẽ kết thúc trạng thái Dạ Hồn Chúc Phúc của mình.",
       "7": "<br/>",
       "8": "<strong>Mũi Khoan Quay Tròn</strong>",
-      "9": "Có thể tồn tại độc lập hoặc do Kachina lái để điều khiển. Khi Mũi Khoan Quay Tròn tồn tại, Kỹ Năng Nguyên Tố \"Mũi Khoan Quay Tròn, Xuất Kích!\" của Kachina sẽ đổi thành lái hoặc thoát Mũi Khoan Quay Tròn.",
+      "9": "Có thể tồn tại độc lập hoặc do Kachina lái. Khi Mũi Khoan Quay Tròn tồn tại, Kỹ Năng Nguyên Tố \"Mũi Khoan Quay Tròn, Xuất Kích!\" của Kachina sẽ đổi thành lái hoặc thoát Mũi Khoan Quay Tròn.",
       "10": [
         "Khi Mũi Khoan Quay Tròn tồn tại độc lập, sẽ xung kích xuống mặt đất theo từng đợt, gây <geo>Sát Thương Phạm Vi Nguyên Tố Nham</geo> mang thuộc tính Dạ Hồn dựa vào Phòng Ngự của Kachina;",
-        "Kachina khi lái Mũi Khoan Quay Tròn thì sẽ có thể điều khiển tốc độ di chuyển của nó, leo trèo, và dùng Tấn Công Thường để xung kích xuống mặt đất, gây <geo>Sát Thương Phạm Vi Nguyên Tố Nham</geo> mang thuộc tính Dạ Hồn dựa vào Phòng Ngự của Kachina."
+        "Kachina khi lái Mũi Khoan Quay Tròn sẽ có thể điều khiển tốc độ di chuyển của nó, leo trèo, và dùng Tấn Công Thường để xung kích xuống mặt đất, gây <geo>Sát Thương Phạm Vi Nguyên Tố Nham</geo> mang thuộc tính Dạ Hồn dựa vào Phòng Ngự của Kachina."
       ],
       "11": "<br/>",
       "12": "Mũi Khoan Quay Tròn sẽ biến mất khi Dạ Hồn Chúc Phúc của Kachina kết thúc, và nó được xem là tạo vật nguyên tố Nham; Cùng lúc chỉ có thể tồn tại một Mũi Khoan Quay Tròn của bản thân Kachina.",
@@ -82,7 +82,7 @@
   "burst": {
     "name": "Đến Lúc Nghiêm Túc Rồi!",
     "description": {
-      "0": "Xung kích mặt đất, gây <geo>Sát Thương Phạm Vi Nguyên Tố Nham</geo> căn cứ vào Phòng Ngự của Kachina, đồng thời tạo ra Khu Vực Khoan Đục.",
+      "0": "Xung kích mặt đất, gây <geo>Sát Thương Phạm Vi Nguyên Tố Nham</geo> dựa vào Phòng Ngự của Kachina, đồng thời tạo ra Khu Vực Khoan Đục.",
       "1": "Khu Vực Khoan Đục sẽ tăng phạm vi tấn công của Mũi Khoan Quay Tròn và tăng tốc độ di chuyển khi lái nó.",
       "2": "<br/>",
       "3": "Khi thi triển, nếu trong trận có tồn tại Mũi Khoan Quay Tròn của bản thân Kachina thì sẽ triệu hồi nó đến bên cạnh.",
@@ -111,26 +111,32 @@
   "passive1": {
     "name": "Tiếng Vang Của Núi",
     "description": {
-      "0": "Khi nhân vật trong đội ở gần kích hoạt \"Dạ Hồn Bùng Nổ\", <geo>Buff Sát Thương Nguyên Tố Nham</geo> của Kachina tăng 20% trong 10s."
+      "0": "Khi nhân vật trong đội ở gần kích hoạt \"Dạ Hồn Bùng Nổ\", <geo>Buff Sát Thương Nguyên Tố Nham</geo> của Kachina tăng 20% trong 12s."
     }
   },
   "passive2": {
     "name": "Sức Nặng Đá Tảng",
     "description": {
-      "0": "Sát thương gây ra của <strong>Mũi Khoan Quay Tròn</strong> tăng dựa trên 20% Phòng Ngự của Kachina."
+      "0": "Tăng sát thương gây ra của <strong>Mũi Khoan Quay Tròn</strong>, mức tăng tương ứng 20% Phòng Ngự của Kachina."
     }
   },
   "passive3": {
     "name": "Món Quà Dạ Vực - Lõi Đoàn Kết",
     "description": {
       "0": "Sau khi dùng hết điểm Dạ Hồn, Kachina sẽ chuyển sang tiêu hao Phlogiston để duy trì trạng thái Dạ Hồn Chúc Phúc.",
-      "1": "Khi ở trong khu vực có Thiết Bị Phlogiston của Natlan, có thể tiến hành Dạ Hồn Chuyển Hóa - Kachina. Nhân vật trong trận khi xung kích, leo trèo, trong trạng thái di chuyển của Thiên Phú cố định hoặc đang ở trên không với độ cao nhất định, đổi sang Kachina ra trận sẽ kích hoạt: Kachina sẽ vào trạng thái Dạ Hồn Chúc Phúc, lái <strong>Mũi Khoan Quay Tròn</strong> xuất trận, đồng thời nhận XX điểm Dạ Hồn. Mỗi 10s chỉ kích hoạt một lần Dạ Hồn Chuyển Hóa.",
+      "1": "Khi ở trong khu vực có cơ chế Phlogiston của Natlan, có thể tiến hành Dạ Hồn Chuyển Hóa - Kachina. Nhân vật trong trận khi xung kích, leo trèo, trong trạng thái di chuyển đặc biệt của Thiên Phú cố định hoặc đang ở độ cao nhất định trên không, đổi sang Kachina ra trận sẽ kích hoạt: Kachina sẽ vào trạng thái Dạ Hồn Chúc Phúc, lái <strong>Mũi Khoan Quay Tròn</strong> xuất trận, đồng thời nhận 30 điểm Dạ Hồn. Mỗi 10s chỉ kích hoạt một lần Dạ Hồn Chuyển Hóa.",
       "2": "<br/>",
       "3": "Ngoài ra, khi ở trong khu vực Natlan, thể lực tiêu hao khi Kachina lái <strong>Mũi Khoan Quay Tròn</strong> để leo trèo sẽ giảm 90%."
     }
   },
+  "passive": {
+    "name": "Chúc Phúc Tinh Thạch Lửa",
+    "description": {
+      "0": "Trong khu vực có cơ chế Phlogiston tại Natlan, tương tác với một số vật thu thập có thể hồi 20 điểm thể lực. Ngoài ra, hiển thị vị trí <strong>đặc sản khu vực Natlan</strong> trên bản đồ nhỏ."
+    }
+  },
   "constellation1": {
-    "name": "Mảnh Tinh Thạch Cũng Lá Đá Quý",
+    "name": "Mảnh Tinh Thạch Cũng Là Đá Quý",
     "description": {
       "0": "Kachina khi lái và thoát <strong>Mũi Khoan Quay Tròn</strong>, sẽ thu thập mảnh tinh thể sinh ra từ phản ứng Kết Tinh ở xung quanh.",
       "1": "Ngoài ra, khi nhân vật trong đội nhận mảnh tinh thể, sẽ hồi phục 3 điểm Năng Lượng Nguyên Tố cho Kachina. Mỗi 5s tối đa hồi phục một lần Năng Lượng Nguyên Tố bằng cách này."
@@ -139,7 +145,7 @@
   "constellation2": {
     "name": "Không Thể Thiếu... Mũi Khoan Quay Tròn",
     "description": {
-      "0": "Khi Kachina thi triển <strong>Đến Lúc Nghiêm Túc Rồi!</strong>, sẽ hồi phục 16 điểm Dạ Hồn; Nếu khi thi triển không có <strong>Mũi Khoan Quay Tròn</strong> của bản thân Kachina trong trận thì sẽ vào trạng thái Dạ Hồn Chúc Phúc và triệu hồi Mũi Khoan Quay Tròn."
+      "0": "Khi Kachina thi triển <strong>Đến Lúc Nghiêm Túc Rồi!</strong>, sẽ hồi phục 20 điểm Dạ Hồn; Nếu khi thi triển không có <strong>Mũi Khoan Quay Tròn</strong> của bản thân Kachina trong trận thì sẽ vào trạng thái Dạ Hồn Chúc Phúc và triệu hồi Mũi Khoan Quay Tròn."
     }
   },
   "constellation3": {
@@ -152,7 +158,7 @@
   "constellation4": {
     "name": "Địch Càng Nhiều, Càng Cẩn Thận",
     "description": {
-      "0": "Trong Khu Vực Khoan Đục của <strong>Đến Lúc Nghiêm Túc Rồi!</strong>, số lượng địch tồn tại trong đó là 1/2/3/4 hoặc hơn thì Phòng Ngự của nhân vật ra trận trong đội hiện tại tăng 8%/12%/16%/20%."
+      "0": "Trong Khu Vực Khoan Đục của <strong>Đến Lúc Nghiêm Túc Rồi!</strong>, số lượng kẻ địch trong đó là 1/2/3/4 hoặc hơn thì Phòng Ngự của nhân vật ra trận trong đội hiện tại ở trong khu vực đó tăng 8%/12%/16%/20%."
     }
   },
   "constellation5": {
@@ -165,7 +171,7 @@
   "constellation6": {
     "name": "Lần Này, Nhất Định Phải Thắng",
     "description": {
-      "0": "Khi khiên của nhân vật trong trận của bản thân bị thay thế hoặc bị phá hủy vì bất kỳ nguyên nhân nào, Kachina sẽ gây <geo>Sát Thương Phạm Vi Nguyên Tố Nham</geo> bằng 200% Phòng Ngự của em ấy. Hiệu quả này mỗi 5s tối đa kích hoạt một lần."
+      "0": "Khi khiên nhân vật trong đội ra trận bị thay thế hoặc bị phá hủy vì bất kỳ nguyên nhân nào, Kachina sẽ gây <geo>Sát Thương Phạm Vi Nguyên Tố Nham</geo> bằng 200% Phòng Ngự của em ấy. Hiệu quả này mỗi 5s tối đa kích hoạt một lần."
     }
   }
 }

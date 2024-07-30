@@ -1,8 +1,8 @@
 {
   "name": "Kinich",
-  "title": "",
-  "description": "",
-  "constellationName": "",
+  "title": "Turnfire Hunt",
+  "description": "Pemburu Saurian dari Huitztlan, ahli dalam menghitung biaya.",
+  "constellationName": "Chimaera Alebriius",
   "auto": {
     "name": "Nightsun Style",
     "skillParams": {
@@ -27,26 +27,25 @@
   "skill": {
     "name": "Canopy Hunter: Riding High",
     "description": {
-      "0": "Dengan pengalamannya dalam memburu, Kinich bergerak atau menyerang musuhnya dengan cepat.",
-      "1": "Jika tidak ada musuh di sekitar, akan menembakkan pengait ke arah depan dan mengayunkannya di udara, membuat CD Skill berkurang 60%; Jika ada musuh di sekitar, maka akan mengaitkan pengait ke target musuh, dan memasuki status Nightsoul's Blessing dengan biaya 0 poin Nightsoul. Saat ditahan, akan membidik untuk menentukan arah pelemparan pengait.",
+      "0": "Berbekal pengalamannya dalam berburu, Kinich dapat bergerak atau menyerang musuhnya dengan cepat.",
+      "1": "Jika tidak ada musuh di sekitar, akan menembakkan pengait ke arah depan dan mengayunkannya di udara, membuat CD Skill berkurang 60%. Jika ada musuh di sekitar, maka akan mengaitkan pengait ke target musuh, dan memasuki status Nightsoul's Blessing dengan biaya 0 poin Nightsoul. Saat ditahan, akan membidik untuk menentukan arah lemparan pengait.",
       "2": "<br/>",
-      "3": "<br/>",
-      "4": "<strong>Nightsoul's Blessing: Kinich</strong>",
-      "5": "Status Nightsoul's Blessing Kinich berlangsung 10 detik, dan akan menghasilkan 2 poin Nightsoul setiap detiknya.",
-      "6": "Dalam status Nightsoul's Blessing, Kinich akan mengaitkan pengait ke musuh di sisinya, dan akan mengubah pola serangannya:",
-      "7": [
-        "Saat melancarkan Normal Attack: dengan arah sekarang sebagai landasannya, melakukan tembakan melingkar dengan target pengait sebagai pusat serangannya, mengakibatkan <dendro>Dendro DMG Area</dendro> dengan Nightsoul Attribute, serta menghasilkan 3 poin Nightsoul. DMG yang diakibatkan oleh ayunan di tengah udara akan dianggap sebagai DMG Elemental Skill;",
-        "Saat nilai Nightsoul mencapai batas maksimumnya, akan bisa melancarkan Elemental Skill \"Scalespiker Cannon\": Mengonsumsi seluruh Nightsoul dan mengakibatkan <dendro>Dendro DMG</dendro> dengan Nightsoul Attribute. Saat Scalespiker Cannon dilancarkan dengan cara ditahan, akan bisa membidik untuk menentukan target serangan. Setelah Scalespiker Cannon dilancarkan, Kinich akan mencoba untuk mengait target Scalespiker Cannon."
+      "3": "<strong>Nightsoul's Blessing: Kinich</strong>",
+      "4": "Status Nightsoul's Blessing Kinich berlangsung 10 detik, dan akan menghasilkan 2 poin Nightsoul setiap detiknya.",
+      "5": "Dalam status Nightsoul's Blessing, Kinich akan mengaitkan pengait ke musuh di sisinya, dan akan melancarkan berbagai pola serangan:",
+      "6": [
+        "Saat melancarkan Normal Attack: dengan arah sekarang sebagai landasannya, melakukan tembakan melingkar dengan target pengait sebagai pusat serangannya, mengakibatkan <dendro>Dendro DMG</dendro> dengan atribut Nightsoul, serta menghasilkan 3 poin Nightsoul. DMG yang diakibatkan oleh ayunan di tengah udara akan dianggap sebagai DMG Elemental Skill.",
+        "Saat nilai Nightsoul mencapai batas maksimumnya, akan bisa melancarkan Elemental Skill \"Scalespiker Cannon\": Mengonsumsi seluruh Nightsoul dan mengakibatkan <dendro>Dendro DMG</dendro> dengan atribut Nightsoul. Saat \"Scalespiker Cannon\" dilancarkan dengan cara ditahan, akan bisa membidik untuk menentukan target serangan. Setelah Scalespiker Cannon dilancarkan, Kinich akan mencoba untuk mengait target."
       ],
-      "8": "Dalam status Nightsoul's Blessing, setelah musuh terkait atau setelah Scalespiker Cannon dilancarkan, akan membentuk sebuah Dead Zone di sisi musuh. Saat Kinich memasuki Dead Zone, 4 poin Nightsoul akan dipulihkan dan Dead Zone akan hilang.",
-      "9": "Saat kaitan terpusu karena melebihi jarak, Normal Attack yang dilancarkan akan kembali membentuk hubungan yang baru dengan musuh di sekitar dan akan melancarkan tembakan melingkar",
-      "10": "<br/>",
-      "11": "<i>\"Semua kan ada harganya. Aku sarankan kamu tawar dengan harga yang cocok deh ... Hah? Cicilan? Tidak terima cicilan, bos.\"</i>"
+      "7": "Dalam status Nightsoul's Blessing, setelah musuh terkait atau setelah Scalespiker Cannon dilancarkan, akan membentuk sebuah Dead Zone di sisi musuh. Saat Kinich memasuki Dead Zone, 4 poin Nightsoul akan dipulihkan dan Dead Zone akan hilang.",
+      "8": "Jika kaitan terputus karena melebihi jarak, Normal Attack yang dilancarkan akan kembali membentuk hubungan yang baru dengan musuh di sekitar dan akan melancarkan tembakan melingkar",
+      "9": "<br/>",
+      "10": "<i>\"Semua kan ada harganya. Aku sarankan kamu tawar dengan harga yang cocok deh ... Hah? Cicilan? Tidak terima cicilan, bos.\"</i>"
     },
     "skillParams": {
       "0": "DMG Tembakan Melingkar: {param1:F1P}{param1:F1P}×2",
       "1": "DMG Scalespiker Cannon",
-      "2": "Batas Nightsoul",
+      "2": "Batas Poin Nightsoul",
       "3": "Cooldown",
       "4": "",
       "5": "",
@@ -65,15 +64,15 @@
   "burst": {
     "name": "Hail to the Almighty Dragonlord",
     "description": {
-      "0": "Melepaskan kekuatan Yang Mulia Draconian Ajaw (secara terbatas, bersyarat, tertentu, sesuai kontrak, sebagian, sementara) dan mengakibatkan <dendro>Dendro DMG Area</dendro>. Ajaw akan terus mengembuskan napas naga secara berkala dan yang mengakibatkan <dendro>Dendro DMG Area</dendro>.",
+      "0": "Melepaskan kekuatan Yang Mulia Raja Naga Ajaw (secara terbatas, bersyarat, tertentu, sesuai kontrak, sebagian, sementara) dan mengakibatkan <dendro>Dendro DMG Area</dendro> dengan atribut Nightsoul. Ajaw akan terus mengembuskan napas naga secara berkala yang mengakibatkan <dendro>Dendro DMG Area</dendro> dengan atribut Nightsoul.",
       "1": "Saat dilancarkan, jika Kinich sedang berada dalam status Nightsoul's Blessing, durasi Nightsoul's Blessing kali ini diperpanjang 2 detik",
       "2": "<br/>",
-      "3": "<i>\"Benar sekali! Yang ada di hadapan kalian sekarang adalah Yang Mulia Draconian, K'uhul Ajaw! Majulah, berlutut, dan cium kakiku!\"</i>"
+      "3": "<i>\"Benar sekali! Yang ada di hadapan kalian sekarang adalah Yang Mulia Raja Naga, K'uhul Ajaw! Majulah, berlutut, dan cium kakiku!\"</i>"
     },
     "skillParams": {
       "0": "DMG Skill",
       "1": "DMG Laser",
-      "2": "Durasi Naga__",
+      "2": "Durasi Naga",
       "3": "Cooldown",
       "4": "Konsumsi Energy",
       "5": "",
@@ -92,7 +91,7 @@
   "passive1": {
     "name": "The Price of Desolation",
     "description": {
-      "0": "Saat dalam status Nightsoul's Blessing dan Elemental Skill Kinich mengenai musuh, akan memasuki status Desolation: Saat menerima DMG reaksi Burning atau Burgeon, akan memulihkan 7 poin Nightsoul bagi Kinich, pemulihan Nightsoul yang bisa diperoleh dengan cara ini adalah maksimum sekalis etiap 0,8 detik. Status Desolation berlangsung hingga status Nightsoul's Blessing Kinich kali ini berakhir."
+      "0": "Saat dalam status Nightsoul's Blessing dan Elemental Skill Kinich mengenai musuh, akan memasuki status Desolation: Saat menerima DMG reaksi Burning atau Burgeon, akan memulihkan 7 poin Nightsoul bagi Kinich, maksimum pemulihan Nightsoul yang bisa diperoleh dengan cara ini adalah sekali setiap 0,8 detik. Status Desolation berlangsung hingga status Nightsoul's Blessing Kinich kali ini berakhir."
     }
   },
   "passive2": {
@@ -105,13 +104,15 @@
     "name": "Night Realm's Gift: Repaid in Full",
     "description": {
       "0": "Saat Kinich sedang melayang setelah mengayun di udara melalui <strong>Canopy Hunter: Riding High</strong>, dia dapat mengonsumsi 10 poin Phlogiston untuk mengayun kembali di udara.",
-      "1": "aat berada lokasi yang memiliki Phlogiston Device__ di Natlan, bisa melancarkan Nightsoul Transmission: Kinich. Saat Karakter aktif sedang berlari atau sedang bergerak yang dikarenakan oleh Talenta tertentu, atau saat melayang di ketinggian tertentu, dan mengganti Karakter menjadi Kinich, akan memicu efek: Kinich akan melemparkan pengait dan mengayun di udara. Kinich akan menjadikan Coilgrass Sigil__ yang memenuhi syarat untuk menjadi prioritas target kaitannya. Nightsoul Transmission dapat terpicu sekali setiap 10 detik.",
-      "2": "Saat berinteraksi dengan Coilgrass Sigil dan item lain yang bisa berinteraksi dengan Yumkasaurus, \"Canopy Hunter: Riding High\" akan diganti menjadi \"Yumkasaur Mimesis\" yang membuat interaksi terhadap item-item jenis tersebut mengikuti peraturan yang berlaku terhadap Yumkasaurus, dan tidak akan membuat Canopy Hunter: Riding High memasuki CD."
+      "1": "Saat berada di lokasi yang memiliki Phlogiston Mechanic di Natlan, bisa melancarkan Nightsoul Transmission: Kinich. Saat Karakter aktif sedang berlari atau sedang bergerak yang dikarenakan oleh Talenta tertentu, atau saat melayang di ketinggian tertentu, dan mengganti Karakter menjadi Kinich, akan memicu efek: Kinich akan melemparkan pengait dan mengayun di udara. Kinich akan menjadikan Coilgrass Sigil yang memenuhi syarat untuk menjadi prioritas target kaitannya. Nightsoul Transmission dapat terpicu sekali setiap 10 detik.",
+      "2": "Saat berinteraksi dengan Coilgrass Sigil dan item lain yang bisa berinteraksi dengan Yumkasaurus, \"Canopy Hunter: Riding High\" akan diganti menjadi \"Yumkasaurus Mimesis\" yang membuat interaksi terhadap item-item jenis tersebut mengikuti peraturan yang berlaku terhadap Yumkasaurus, dan tidak akan membuat Canopy Hunter: Riding High memasuki CD."
     }
   },
   "passive": {
-    "name": "",
-    "description": {}
+    "name": "Swift Envoy",
+    "description": {
+      "0": "Saat ada area dengan mekanisme Phlogiston di Natlan, berinteraksi dengan item tertentu yang bisa dikumpulkan, akan meningkatkan 15% Movement SPD Karakter sendiri yang berada di dalam party selama 10 detik. Selain ini, akan menunjukkan posisi <strong>Produk Khas Natlan</strong> yang ada di sekitar pada peta kecil."
+    }
   },
   "constellation1": {
     "name": "Parrot's Beak",
@@ -150,7 +151,7 @@
   "constellation6": {
     "name": "Auspicious Beast's Shape",
     "description": {
-      "0": "Setelah mengenai musuh, Scalespiker Cannon akan melambung satu kali di antara musuh dan mengakibatkan <dendro>Dendro DMG</dendro> sebesar 600% ATK Kinich."
+      "0": "Setelah mengenai musuh, Scalespiker Cannon akan melambung satu kali di antara musuh dan mengakibatkan <dendro>Dendro DMG</dendro> sebesar 700% ATK Kinich."
     }
   }
 }

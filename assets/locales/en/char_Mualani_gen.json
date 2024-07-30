@@ -2,7 +2,7 @@
   "name": "Mualani",
   "title": "Splish-Splash Wavechaser",
   "description": "",
-  "constellationName": "",
+  "constellationName": "Phoca Neomonachus",
   "auto": {
     "name": "Cooling Treatment",
     "fields": {
@@ -49,12 +49,12 @@
       "5": [
         "Mounts the Sharky Surfboard, increasing Mualani's Movement SPD. Mualani can move on water and in liquid Phlogiston while this state is active, and she will take no DMG from the latter.",
         "Normal Attacks will be converted to Sharky's Bites, dealing <hydro>Hydro DMG</hydro> based on Mualani's Max HP with the Nightsoul attribute. Sharky's Bites can take place in mid-air. DMG dealt this way is considered Normal Attack DMG.",
-        "When she makes contact with opponents in this state, Mualani applies \"Marked as Prey\" to them and gains 1 Wave Momentum stack. Max 3 stacks."
+        "When she makes contact with opponents in this state, Mualani applies \"Marked as Prey\" to them and gains 1 Wave Momentum stack. Max 3 stacks. 1 stack can be gained every 0.8s per opponent."
       ],
       "6": "<br/>",
       "7": "<strong>Wave Momentum and Marked as Prey</strong>",
       "8": "When Mualani uses Sharky's Bite, her DMG dealt increases based on Wave Momentum stacks. When she has 3 stacks, a Normal Attack will use Sharky's Surging Bite instead, further increasing her DMG and canceling all stacks thereafter.",
-      "9": "When Shark Bite hits opponents Marked as Prey, that mark is removed, and she will fire Shark Missiles at up to 5 nearby opponents Marked as Prey, dealing DMG to them equal to this Sharky's Bite instance and clearing their Marks. If more than 1 opponent is the target of Sharky's Bite and Shark Missiles, the DMG dealt will decrease, with 24% being the maximum decrease when at least 3 opponents are targeted.",
+      "9": "When Shark Bite hits opponents Marked as Prey, that mark is removed, and she will fire Shark Missiles at up to 5 nearby opponents Marked as Prey, dealing DMG to them equal to this Sharky's Bite instance and clearing their Marks. If more than 1 opponent is the target of Sharky's Bite and Shark Missiles, the DMG dealt will decrease, with 28% being the maximum decrease when at least 3 opponents are targeted.",
       "10": "<br/>",
       "11": "<i>First off, Sharky is a freshwater shark on top of being a surfboard. Second, it doesn't truly need to eat, but it definitely will bite.</i>"
     },
@@ -106,7 +106,7 @@
   "passive1": {
     "name": "Heat-Resistant Freshwater Floater",
     "description": {
-      "0": "When Sharky's Surging Bite hits an opponent, it will generate a Floater nearby. Mualani will restore 25 Nightsoul points when she picks up a Floater she has created. Only 1 such Floater can be created in this way during a single use of Nightsoul's Blessing."
+      "0": "When Sharky's Surging Bite hits an opponent, it will generate a Floater nearby. Mualani will restore 22 Nightsoul points when she picks up a Floater she has created. Only 1 such Floater can be created in this way during a single use of Nightsoul's Blessing."
     }
   },
   "passive2": {
@@ -119,15 +119,21 @@
     "name": "Night Realm's Gift: Crests and Troughs",
     "description": {
       "0": "After her Nightsoul points are depleted, Mualani can switch to consuming Phlogiston to maintain her Nightsoul's Blessing.",
-      "1": "While in an area with Phlogiston Device(s) within Natlan, she can use Nightsoul Transmission: Mualani. When the active character is currently sprinting, swimming, in a movement mode caused by certain Talents, or at a certain height in the air, the following will trigger when switching to Mualani: Mualani will enter the Nightsoul's Blessing state and gain 40 Nightsoul points. She can trigger Nightsoul Transmission every 10s.",
+      "1": "While in an area with Phlogiston Mechanics within Natlan, she can use Nightsoul Transmission: Mualani. When the active character is currently sprinting, swimming, in a movement mode caused by certain Talents, or at a certain height in the air, the following will trigger when switching to Mualani: Mualani will enter the Nightsoul's Blessing state and gain 40 Nightsoul points. She can trigger Nightsoul Transmission every 10s.",
       "2": "<br/>",
-      "3": "Additionally, Mualani's Nightsoul point or Phlogiston consumption while moving on water during Nightsoul's Blessing is decreased to 25% while in Natlan, and to 65% when doing the same outside Natlan."
+      "3": "Additionally, Mualani's Nightsoul point or Phlogiston consumption while moving on water during Nightsoul's Blessing is decreased by 75% while in Natlan, and by 35% when doing the same outside Natlan."
+    }
+  },
+  "passive": {
+    "name": "The Trick is to Keep Smiling!",
+    "description": {
+      "0": "While in an area with Phlogiston Mechanics within Natlan, 15 Phlogiston can be restored when interacting with some harvestable items. Additionally, the location of items <strong>unique to Natlan</strong> will appear on your mini-map."
     }
   },
   "constellation1": {
     "name": "The Leisurely \"Meztli\"...",
     "description": {
-      "0": "Mualani's Nightsoul point and Phlogiston consumption in Nightsoul's Blessing is decreased to 70% while not in combat.",
+      "0": "Mualani's Nightsoul point and Phlogiston consumption in Nightsoul's Blessing is decreased by 30% while not in combat.",
       "1": "Additionally, the first Sharky's Surging Bite she performs once she enters Nightsoul's Blessing and the Shark Missiles this Bite triggers deal 75% of her Max HP as increased DMG. This DMG is subject to the DMG decrease rules imposed by <strong>Surfshark Wavebreaker</strong>."
     }
   },
@@ -135,7 +141,7 @@
     "name": "Mualani, Going All Out!",
     "description": {
       "0": "Mualani gains 2 of <strong>Surfshark Wavebreaker</strong>'s Wave Momentum stacks when she enters Nightsoul's Blessing. She will gain 1 stack when obtaining a Floater.",
-      "1": "Additionally, the maximum number of Floaters she can generate through Sharky's Surging Bites in a single use of Nightsoul's Blessing is increased to 2.",
+      "1": "Additionally, aside from pre-existing Nightsoul point regeneration, Mualani will also restore 20 Nightsoul points in the 4s after she obtains a Floater.",
       "2": "Must first unlock the Passive Talent \"Heat-Resistant Freshwater Floater.\""
     }
   },
@@ -147,7 +153,7 @@
     }
   },
   "constellation4": {
-    "name": "Sharky Eats Floaters",
+    "name": "Sharky Eats Floaties",
     "description": {
       "0": "Mualani regenerates 7 Energy when obtaining a Floater. Must first unlock the Passive Talent \"Heat-Resistant Freshwater Floater.\"",
       "1": "Additionally, <strong>Stormburst Shot</strong> deals 200% increased DMG."

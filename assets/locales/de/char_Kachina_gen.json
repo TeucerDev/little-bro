@@ -1,8 +1,8 @@
 {
   "name": "Kachina",
-  "title": "",
+  "title": "Gesprenkeltes Rohgold",
   "description": "",
-  "constellationName": "",
+  "constellationName": "Ochotona Princeps",
   "auto": {
     "name": "Felsenbeißer",
     "fields": {
@@ -43,7 +43,7 @@
     "description": {
       "0": "Kämpft gemeinsam mit dem vertrauenswürdigen kleinen Wirbelwind!",
       "1": "Beschwört den kleinen Wirbelwind. Beim Auslösen durch Gedrückthalten beschwört Kachina den kleinen Wirbelwind und reitet auf ihm.",
-      "2": "Nach dem Auslösen erhält Kachina 50 Nachtseelenpunkte und tritt in den Zustand des Nachtseelensegens ein.",
+      "2": "Nach dem Auslösen erhält Kachina 60 Nachtseelenpunkte und tritt in den Zustand des Nachtseelensegens ein.",
       "3": "<br/>",
       "4": "<strong>Nachtseelensegen – Kachina</strong>",
       "5": "Die verschiedenen Aktionen des kleinen Wirbelwinds verbrauchen Kachinas Nachtseelenpunkte.",
@@ -61,7 +61,7 @@
       "14": "<i>Der kleine Wirbelwind sieht nur aus wie ein Kreisel, in Wirklichkeit ist er ein Bohrer, der selbst den stärksten Felsen aufbrechen kann!</i>"
     },
     "skillParams": {
-      "0": "SCH beim Aufsteigen des kleinen Wirbelwinds",
+      "0": "SCH beim Reiten auf dem kleinen Wirbelwind",
       "1": "Unabhängiger SCH des kleinen Wirbelwinds",
       "2": "Max. Nachtseelenpunkte",
       "3": "Abklingzeit",
@@ -111,7 +111,7 @@
   "passive1": {
     "name": "Gebirgsechos",
     "description": {
-      "0": "Erhöht Kachinas <geo>Geo-SCH-Bonus</geo> 10 s lang um 20 %, wenn ein Truppenmitglied in der Nähe „Nachtseelenaufbruch“ auslöst."
+      "0": "Erhöht Kachinas <geo>Geo-SCH-Bonus</geo> 12 s lang um 20 %, wenn ein Truppenmitglied in der Nähe „Nachtseelenaufbruch“ auslöst."
     }
   },
   "passive2": {
@@ -124,9 +124,15 @@
     "name": "Geschenk des Nachtreichs – Herz der Einheit",
     "description": {
       "0": "Nachdem ihre Nachtseelenpunkte aufgebraucht sind, kann Kachina zum Konsum von Phlogiston wechseln, um ihren Nachtseelensegen aufrechtzuerhalten.",
-      "1": "Bei Aufenthalt in einem Gebiet mit Phlogiston-Mechanismus in Natlan kann die Nachtseelen-Übertragung – Kachina verwendet werden. Wenn die aktuelle Figur gerade rennt, klettert, sich in einem Bewegungsmodus befindet, der durch bestimmte Talente ausgelöst wird, oder sich in einer bestimmten Höhe in der Luft befindet, wird beim Wechsel zu Kachina Folgendes ausgelöst: Kachina tritt in den Zustand des Nachtseelensegens ein und reitet auf dem <strong>kleinen Wirbelwind</strong>, wenn sie das Feld betritt. Außerdem erhält sie XX Nachtseelenpunkte. 10 s Abklingzeit für das Auslösen der Nachtseelen-Übertragung.",
+      "1": "Bei Aufenthalt in einem Gebiet mit Phlogiston-Mechanismus in Natlan kann die Nachtseelen-Übertragung – Kachina verwendet werden. Wenn die aktuelle Figur gerade rennt, klettert, sich in einem Bewegungsmodus befindet, der durch bestimmte Talente ausgelöst wird, oder sich in einer bestimmten Höhe in der Luft befindet, wird beim Wechsel zu Kachina Folgendes ausgelöst: Kachina tritt in den Zustand des Nachtseelensegens ein und reitet auf dem <strong>kleinen Wirbelwind</strong>, wenn sie das Feld betritt. Außerdem erhält sie 30 Nachtseelenpunkte. 10 s Abklingzeit für das Auslösen der Nachtseelen-Übertragung.",
       "2": "<br/>",
       "3": "Außerdem verbraucht Kachina 90 % weniger Ausdauer, wenn sie beim Klettern in Natlan auf dem <strong>kleinen Wirbelwind</strong> reitet."
+    }
+  },
+  "passive": {
+    "name": "Segen der Kristallflamme",
+    "description": {
+      "0": "Stellt beim Aufenthalt in einem Gebiet mit Phlogiston-Mechanismus in Natlan für das Einsammeln einiger sammelbarer Materialien 20 Punkte Ausdauer wieder her. Zeigt außerdem alle <strong>Besonderheiten Natlans</strong> in der Nähe auf der Minikarte an."
     }
   },
   "constellation1": {
@@ -139,7 +145,7 @@
   "constellation2": {
     "name": "Niemals das Haus verlassen ohne ... den kleinen Wirbelwind",
     "description": {
-      "0": "Stellt Kachina, wenn sie <strong>„Jetzt wird es ernst!“</strong> einsetzt, 16 Nachtseelenpunkte wieder her. Wenn sich kein <strong>kleiner Wirbelwind</strong>, der ihr selbst gehört, auf dem Feld befindet, wird sie in den Zustand Nachtseelensegen treten und einen beschwören."
+      "0": "Stellt Kachina, wenn sie <strong>„Jetzt wird es ernst!“</strong> einsetzt, 20 Nachtseelenpunkte wieder her. Wenn sich kein <strong>kleiner Wirbelwind</strong>, der ihr selbst gehört, auf dem Feld befindet, wird sie in den Zustand Nachtseelensegen treten und einen beschwören."
     }
   },
   "constellation3": {
@@ -152,7 +158,7 @@
   "constellation4": {
     "name": "Mehr Gegner, mehr Vorsicht",
     "description": {
-      "0": "Wenn sich 1/2/3/4 oder mehr Gegner innerhalb des durch <strong>„Jetzt wird es ernst!“</strong> erzeugten Superbohrfeldes befinden, wird die VTD der aktuellen Figur der Truppe innerhalb des Felds um jeweils 8 %/12 %/16 %/20 % erhöht."
+      "0": "Erhöht, wenn sich 1/2/3/4 oder mehr Gegner innerhalb des durch <strong>„Jetzt wird es ernst!“</strong> erzeugten Superbohrfeldes befinden, die VTD der aktuellen Figur der Truppe innerhalb des Felds um 8/12/16/20 %."
     }
   },
   "constellation5": {
@@ -165,7 +171,7 @@
   "constellation6": {
     "name": "Diesmal muss ich gewinnen",
     "description": {
-      "0": "Wenn der Schild deiner aktiven Figur in der Truppe aus irgendeinem Grund ersetzt oder zerstört wird, verursacht Kachina einen <geo>Geo-Flächenschaden</geo> in Höhe von 200 % ihrer VTD, 5 s Abklingzeit."
+      "0": "Wenn der Schild deiner aktiven Figur in der Truppe aus irgendeinem Grund ersetzt oder zerstört wird, verursacht Kachina <geo>Geo-Flächenschaden</geo> in Höhe von 200 % ihrer VTD, 5 s Abklingzeit."
     }
   }
 }

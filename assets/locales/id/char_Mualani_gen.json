@@ -1,8 +1,8 @@
 {
   "name": "Mualani",
-  "title": "",
+  "title": "Splish-Splash Wavechaser",
   "description": "",
-  "constellationName": "",
+  "constellationName": "Phoca Neomonachus",
   "auto": {
     "name": "Cooling Treatment",
     "fields": {
@@ -12,11 +12,11 @@
       },
       "charged": {
         "0": "<strong>Charged Attack</strong>",
-        "1": "Mengonsumsi sejumlah Stamina untuk melemparkan Capybara Ball ke udara yang bisa mengakibatkan <hydro>Hydro DMG area</hydro> saat mendarat/jatuh/menyentuh permukaan tanah__."
+        "1": "Mengonsumsi sejumlah Stamina untuk melemparkan Pufferball ke udara yang bisa mengakibatkan <hydro>Hydro DMG area</hydro> saat mendarat."
       },
       "plunging": {
         "0": "<strong>Plunging Attack</strong>",
-        "1": "Mengumpulkan kekuatan Hydro dan menerjang tanah, menyerang musuh di jalur terjangan dan mengakibatkan <hydro>Hydro DMG area</hydro> saat mendarat."
+        "1": "Mengumpulkan kekuatan Hydro dan menerjang tanah, menyerang musuh di jalur terjangan dan mengakibatkan <hydro>Hydro DMG area</hydro> saat mendarat di tanah."
       }
     },
     "skillParams": {
@@ -41,29 +41,29 @@
   "skill": {
     "name": "Surfshark Wavebreaker",
     "description": {
-      "0": "Dengan kemampuan mengendalikan kecepatan dan ombak, Mualani bisa berselancar kapan pun di mana pun.",
+      "0": "Dengan kemampuan mengendalikan kecepatan dan mengendarai ombak, Mualani bisa berselancar kapan pun dan di mana pun.",
       "1": "Setelah dilancarkan, Mualani akan mendapatkan 60 poin Nightsoul dan memasuki status Nightsoul's Blessing.",
       "2": "<br/>",
       "3": "<strong>Nightsoul's Blessing: Mualani</strong>",
-      "4": "Terus mengonsumsi Nightsoul. Saat sudah habis dikonsumsi atau saat dilancarkan sekali lagi, Nightsoul's Blessing Mualani akan berakhir. Nightsoul's Blessing memiliki karakteristik sebagai berikut:",
+      "4": "Terus mengonsumsi poin Nightsoul. Saat sudah habis dikonsumsi atau saat dilancarkan sekali lagi, Nightsoul's Blessing Mualani akan berakhir. Nightsoul's Blessing memiliki karakteristik sebagai berikut:",
       "5": [
-        "Saat menaiki Sharky Surfboard, meningkatkan Movement SPD Mualani. Dalam status ini, Mualani akan bisa bergerak di atas permukaan air dan di dalam Phlogiston berwujud cairan.",
-        "Saat melancarkan Normal Attack, akan mengubahnya menjadi Sharky's Bites yang mengakibatkan <hydro>Hydro DMG</hydro> dengan Nightsoul Alignment__. Sharky's Bites bisa dilancarkan saat melayang di udara, dan DMG yang diakibatkan akan diangap sebagai DMG Normal Attack;",
-        "Saat menyentuh musuh dalam kondisi ini, Mualani akan memberikan Marked as Prey kepada musuh dan mendapatkan 1 lapis Wave Momentum. Wave Momentum dapat ditumpuk sampai 3 lapis."
+        "Saat menaiki Sharky Surfboard, meningkatkan Movement SPD Mualani. Dalam status ini, Mualani akan bisa bergerak di atas permukaan air dan di dalam Phlogiston berwujud cairan, dalam kondisi ini Mualani tidak akan menerima DMG dari Phlogiston.",
+        "Saat melancarkan Normal Attack, akan mengubahnya menjadi Sharky's Bites yang mengakibatkan <hydro>Hydro DMG</hydro> dengan atribut Nightsoul. Sharky's Bites bisa dilancarkan saat melayang di udara, dan DMG yang diakibatkan akan diangap sebagai DMG Normal Attack.",
+        "Saat menyentuh musuh dalam kondisi ini, Mualani akan memberikan \"Marked as Prey\" kepada musuh dan mendapatkan 1 lapis Wave Momentum. Wave Momentum dapat ditumpuk sampai 3 lapis. Setiap 0,8 detik, Mualani dapat memperoleh 1 lapis Momentum Wave dari 1 musuh yang sama."
       ],
       "6": "<br/>",
       "7": "<strong>Wave Momentum dan Marked as Prey</strong>",
-      "8": "Saat melancarkan Sharky's Bite, DMG Mualani akan meningkat berdasarkan jumlah lapisan Wave Momentum yang dimiliki. Saat memiliki 3 lapis Wave Momentum, Sharky's Bite Mualani akan dikonversi menjadi Sharky's Surging Bite yang mengakibatkan DMG yang lebih kuat; dan akan menghapus Wave Momentum setelahnya__.",
-      "9": "Saat Sharky's Bite mengenai musuh dalam status Marked as Prey, akan menghapus status ini dari musuh yang bersangkutan, dan menembakkan Shark Missile terhadap maksimum 5 musuh di sekitar yang berada dalam status Marked as Prey, mengakibatkan DMG yang sama dengan DMG Sharky's Bite kali ini, dan menghapus status Marked as Prey dari seluruh musuh-musuh ini. Jika musuh target Sharky's Bite dan Sharky Missile kali ini berjumlah lebih dari 1 orang, maka DMG yang diakibatkan akan berkurang, dengan pengurangan maksimum sebesar 24% untuk 3 musuh.",
+      "8": "Saat melancarkan Sharky's Bite, DMG Mualani akan meningkat berdasarkan jumlah lapisan Wave Momentum yang dimiliki. Saat memiliki 3 lapis Wave Momentum, Normal Attack-nya akan dikonversi menjadi Sharky's Surging Bite yang mengakibatkan DMG yang lebih kuat dan akan menghapus semua lapisan Wave Momentum setelahnya.",
+      "9": "Saat Sharky's Bite mengenai musuh yang terkena Marked as Prey, akan menghapus status tersebut dari musuh yang bersangkutan, dan menembakkan Shark Missile terhadap maksimum 5 musuh di sekitar yang berada dalam status Marked as Prey tersebut, mengakibatkan DMG yang sama dengan DMG Sharky's Bite kali ini, dan menghapus status Marked as Prey dari seluruh musuh-musuh tersebut. Jika musuh target Sharky's Bite dan Sharky Missile kali ini berjumlah lebih dari 1 target, maka DMG yang diakibatkan akan berkurang, dengan pengurangan maksimum sebesar 28% untuk 3 musuh yang ditarget.",
       "10": "<br/>",
-      "11": "<i>Pertama, selain papan selancar, Sharky itu hiu air tawar. Kedua, dia tidak usah dikasih makan kok, dia bakal menggigit sendiri.</i>"
+      "11": "<i>Pertama, selain papan selancar, Sharky itu hiu air tawar. Kedua, dia tidak usah dikasih makan kok, dia bakal gigit sendiri.</i>"
     },
     "skillParams": {
       "0": "DMG Dasar Sharky's Bite",
       "1": "Peningkatan DMG Wave Momentum",
       "2": "Peningkatan Tambahan DMG Sharky's Surging Bite",
       "3": "Cooldown Sharky's Bite",
-      "4": "Batas Nightsoul",
+      "4": "Batas Poin Nightsoul",
       "5": "Cooldown",
       "6": "",
       "7": "",
@@ -82,7 +82,7 @@
     "description": {
       "0": "Menembakkan Super Shark Missile yang bisa mengejar musuh, mengakibatkan <hydro>Hydro DMG Area</hydro> berdasarkan Max HP Mualani.",
       "1": "<br/>",
-      "2": "<i>Mualani bisa memberi nama Shark Missile seperti itu karena kombinasi api dan air yang terkandung di dalamnya. Yah, biar mirip mata air lah.</i>"
+      "2": "<i>Mualani bisa memberi nama Shark Missile seperti itu karena kombinasi api dan air yang terkandung di dalamnya. Yah, maksudnya sih biar terkesan ada unsur mirip pemandian air panas.</i>"
     },
     "skillParams": {
       "0": "DMG Skill",
@@ -106,7 +106,7 @@
   "passive1": {
     "name": "Heat-Resistant Freshwater Floater",
     "description": {
-      "0": "Saat Surging Bike Sharky mengenai musuh, akan menghasilkan satu Floater di sekitar. Saat mengambil Floater yang dihasilkan oleh diri sendiri, Mualani akan memulihkan 25 poin Nightsoul. Dalam satu kali durasi Nightsoul's Blessing, maksimum 1 Floater yang bisa dihasilkan dengan cara seperti ini."
+      "0": "Saat Surging Bite-nya Sharky mengenai musuh, akan menghasilkan satu Floater di sekitar. Saat mengambil Floater yang dihasilkan oleh diri sendiri, Mualani akan memulihkan 22 poin Nightsoul. Dalam satu kali durasi Nightsoul's Blessing, maksimum 1 Floater yang bisa dihasilkan dengan cara seperti ini."
     }
   },
   "passive2": {
@@ -119,15 +119,21 @@
     "name": "Night Realm's Gift: Crests and Troughs",
     "description": {
       "0": "Setelah Nightsoul habis terkonsumsi, Mualani akan mengonsumsi Phlogiston untuk mempertahankan status Nightsoul's Blessing-nya.",
-      "1": "Saat berada lokasi yang memiliki Phlogiston Device__ di Natlan, Mualani bisa melancarkan Nightsoul Transmission: Kachina. Saat Karakter aktif sedang berlari, berenang, atau sedang bergerak yang dikarenakan oleh Talenta tertentu, atau saat melayang di ketinggian tertentu, dan mengganti Karakter menjadi Kachina, akan memicu efek: Mualani akan memasuki medan pertempuran dengan status Nightsoul's Blessing dan mendapatkan 40 poin Nightsoul. Nightsoul Transmission dapat terpicu sekali setiap 10 detik.",
+      "1": "Saat berada di lokasi yang memiliki Phlogiston Mechanic di Natlan, Mualani bisa melancarkan Nightsoul Transmission: Mualani. Saat Karakter aktif sedang berlari, berenang, atau sedang bergerak yang dikarenakan oleh Talenta tertentu, atau saat melayang di ketinggian tertentu, dan mengganti Karakter menjadi Mualani, akan memicu efek: Mualani akan memasuki medan pertempuran dengan status Nightsoul's Blessing dan mendapatkan 40 poin Nightsoul. Nightsoul Transmission dapat terpicu sekali setiap 10 detik.",
       "2": "<br/>",
-      "3": "Selain itu, saat Mualani bergerak di permukaan air dalam status Nightsoul's Blessing: Nightsoul atau Phlogiston yang dikonsumsi di area Natlan berkurang hingga 25%, tapi di area selain Natlan akan berkurang hingga 65%."
+      "3": "Selain itu, saat Mualani bergerak di permukaan air dalam status Nightsoul's Blessing: Nightsoul atau Phlogiston yang dikonsumsi di area Natlan berkurang hingga 75%, tapi di area selain Natlan akan berkurang hingga 35%."
+    }
+  },
+  "passive": {
+    "name": "The Trick is to Keep Smiling!",
+    "description": {
+      "0": "Saat ada area dengan mekanisme Phlogiston di Natlan, berinteraksi dengan item tertentu yang bisa dikumpulkan, akan memulihkan 20 poin Phlogiston. Selain ini, akan menunjukkan posisi <strong>Produk Khas Natlan</strong> yang ada di sekitar pada peta kecil."
     }
   },
   "constellation1": {
     "name": "The Leisurely \"Meztli\"...",
     "description": {
-      "0": "Saat tidak dalam kondisi bertempur, konsumsi Nightsoul dan Phlogiston Mualani saat dalam statu Nightsoul's Blessing berkurang hingga 70%.",
+      "0": "Saat tidak dalam kondisi bertempur, konsumsi Nightsoul dan Phlogiston Mualani saat dalam statu Nightsoul's Blessing berkurang hingga 30%.",
       "1": "Selain itu, DMG Surging Bite Sharky pertama dan seluruh Shark Missile yang terpicu olehnya meningkat sebesar 75% Max HP Mualani. Peningkatan DMG kali ini mengikuti ketentuan pengurangan DMG <strong>Surfshark Wavebreaker</strong>."
     }
   },
@@ -135,7 +141,7 @@
     "name": "Mualani, Going All Out!",
     "description": {
       "0": "Saat dalam status Nightsoul's Blessing, Mualani mendapatkan 2 lapis Wave Momentum dari <strong>Surfshark Wavebreaker</strong>: Saat Mualani mendapatkan Floater, akan mendapatkan 1 lapis Wave Momentum.",
-      "1": "Selain itu, dalam durasi satu kali Nightsoul's Blessing, jumlah maksimum Floater yang bisa dihasilkan oleh Surging Bite Sharky meningkat hingga 2 buah.",
+      "1": "Selain itu, selain pemulihan poin Nightsoul awal, Mualani juga akan mendapatkan pemulihan 20 poin Nightsoul tambahan dalam 4 detik setelah mendapatkan Floater.",
       "2": "Harus membuka Talenta Pasif \"Heat-Resistant Freshwater Floater\" terlebih dahulu."
     }
   },

@@ -1,8 +1,8 @@
 {
   "name": "Kinich",
-  "title": "",
-  "description": "",
-  "constellationName": "",
+  "title": "El Cazador del Fuego Reminiscente",
+  "description": "Un cazasaurios de Huitztlán experto en calcular el precio de las cosas.",
+  "constellationName": "Chimaera Alebriius",
   "auto": {
     "name": "Técnica del sol nocturno",
     "fields": {
@@ -80,7 +80,7 @@
   "burst": {
     "name": "Alabado sea el todopoderoso Señor de los Dragones",
     "description": {
-      "0": "Libera el poder de Ahau, Señor de los Dragones (de forma limitada, condicional, restrictiva, contractual, parcial y temporal), para infligir <dendro>Daño Dendro en el AdE</dendro>. Mientras este efecto esté activo, K'uhul Ahau libera cada cierto tiempo su dragoaliento para infligir <dendro>Daño Dendro en el AdE</dendro>.",
+      "0": "Libera el poder de Ahau, Señor de los Dragones (de forma limitada, condicional, restrictiva, contractual, parcial y temporal), para infligir <dendro>Daño Dendro en el AdE</dendro> de naturaleza noctámbula. Mientras este efecto esté activo, K'uhul Ahau libera cada cierto tiempo su dragoaliento para infligir <dendro>Daño Dendro en el AdE</dendro> de naturaleza noctámbula.",
       "1": "Si al hacerlo Kinich se encuentra bajo los efectos del estado de bendición noctámbula, la duración de dicho estado aumenta 2 s.",
       "2": "<br/>",
       "3": "<i>“¡En efecto! ¡Estás ante la presencia del todopoderoso Señor de los Dragones, K'uhul Ahau! ¡Da un paso al frente, arrodíllate y bésame los pies!”.</i>"
@@ -125,8 +125,10 @@
     }
   },
   "passive": {
-    "name": "",
-    "description": {}
+    "name": "Emisario presto",
+    "description": {
+      "0": "La Vel. Movimiento de tus personajes del equipo aumenta en un 15% durante 10 s al interactuar con algunos objetos recolectables en zonas de Natlan con mecánicas de flogisto. Además, muestra la ubicación de los <strong>objetos típicos de Natlan</strong> cercanos en el minimapa."
+    }
   },
   "constellation1": {
     "name": "Pico de loro",
@@ -165,7 +167,7 @@
   "constellation6": {
     "name": "Forma de bestia auspiciosa",
     "description": {
-      "0": "Tras golpear a un enemigo con el Cañón perforaescamas, el disparo rebotará una vez entre los enemigos para infligir <dendro>Daño Dendro</dendro> en una cantidad equivalente al 600% del ATQ de Kinich."
+      "0": "Tras golpear a un enemigo con el Cañón perforaescamas, el disparo rebotará una vez entre los enemigos para infligir <dendro>Daño Dendro</dendro> en una cantidad equivalente al 700% del ATQ de Kinich."
     }
   }
 }

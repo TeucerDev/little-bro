@@ -1,8 +1,8 @@
 {
   "name": "Kachina",
-  "title": "",
+  "title": "La Gema de Oro en Bruto",
   "description": "",
-  "constellationName": "",
+  "constellationName": "Ochotona Princeps",
   "auto": {
     "name": "Riscomordisco",
     "fields": {
@@ -43,7 +43,7 @@
     "description": {
       "0": "¡Lucha junto a su superadorable turbogirador!",
       "1": "Invoca al turbogirador. Al mantener pulsado, Kachina invoca al turbogirador y se monta en él.",
-      "2": "Al usar esta habilidad, Kachina obtiene 50 pts. de noctambulismo y entra en el estado de “bendición noctámbula”.",
+      "2": "Al usar esta habilidad, Kachina obtiene 60 pts. de noctambulismo y entra en el estado de “bendición noctámbula”.",
       "3": "<br/>",
       "4": "<strong>Bendición noctámbula: Kachina</strong>",
       "5": "Las acciones del turbogirador consumen pts. de noctambulismo.",
@@ -111,7 +111,7 @@
   "passive1": {
     "name": "Eco montañoso",
     "description": {
-      "0": "Cuando un personaje cercano del equipo activa una explosión noctámbula, Kachina obtiene un 20% de <geo>Bono de Daño Geo</geo> durante 10 s."
+      "0": "Cuando un personaje cercano del equipo activa una explosión noctámbula, Kachina obtiene un 20% de <geo>Bono de Daño Geo</geo> durante 12 s."
     }
   },
   "passive2": {
@@ -124,9 +124,15 @@
     "name": "Gracia de la noche: Corazones unidos",
     "description": {
       "0": "Cuando no tenga más pts. de noctambulismo, Kachina consumirá flogisto para conservar la bendición noctámbula.",
-      "1": "Si se encuentre en una zona con alguna mecánica de flogisto de Natlan, podrá utilizar “Transmisión noctambular: Kachina”. Cuando el personaje en uso esté esprintando, escalando, se encuentre en un estado de movimiento derivado de algún talento o esté a cierta altura en el aire, al cambiar a Kachina, esta entrará en estado de bendición noctámbula, se subirá al <strong>turbogirador</strong> y obtendrá XX pts. de noctambulismo. Transmisión noctambular solo se puede activar una vez cada 10 s.",
+      "1": "Si se encuentra en una zona con alguna mecánica de flogisto de Natlan, podrá utilizar “Transmisión noctambular: Kachina”. Cuando el personaje en uso esté esprintando, escalando, se encuentre en un estado de movimiento derivado de algún talento o esté a cierta altura en el aire, al cambiar a Kachina, esta entrará en estado de bendición noctámbula, se subirá al <strong>turbogirador</strong> y obtendrá 30 pts. de noctambulismo. Transmisión noctambular solo se puede activar una vez cada 10 s.",
       "2": "<br/>",
       "3": "Además, al estar en Natlan, el Coste de Aguante de Kachina al escalar mientras está montada en el <strong>turbogirador</strong> se reduce en un 90%."
+    }
+  },
+  "passive": {
+    "name": "Bendición pirominera",
+    "description": {
+      "0": "Restaura 20 pts. de Aguante al interactuar con algunos objetos recolectables en zonas de Natlan con mecánicas de flogisto. Además, muestra la ubicación de los <strong>objetos típicos de Natlan</strong> cercanos en el minimapa."
     }
   },
   "constellation1": {
@@ -139,7 +145,7 @@
   "constellation2": {
     "name": "Nunca puede faltar... ¡mi turbogirador!",
     "description": {
-      "0": "Cuando Kachina usa <strong>¡Ahora voy en serio!</strong>, recupera 16 pts. de noctambulismo. Si al usar dicha habilidad no hay ningún <strong>turbogirador</strong> suyo en el campo de batalla, Kachina entrará en el estado de bendición noctámbula e invocará uno."
+      "0": "Cuando Kachina usa <strong>¡Ahora voy en serio!</strong>, recupera 20 pts. de noctambulismo. Si al usar dicha habilidad no hay ningún <strong>turbogirador</strong> suyo en el campo de batalla, Kachina entrará en el estado de bendición noctámbula e invocará uno."
     }
   },
   "constellation3": {

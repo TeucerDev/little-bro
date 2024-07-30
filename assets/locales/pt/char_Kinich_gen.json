@@ -1,8 +1,8 @@
 {
   "name": "Kinich",
-  "title": "",
-  "description": "",
-  "constellationName": "",
+  "title": "Caçador da Têmpera",
+  "description": "Um Caçador de Saurianos de Huitztlan, é habilidoso em contar custos.",
+  "constellationName": "Chimaera Alebriius",
   "auto": {
     "name": "Estilo do Sol Noturno",
     "fields": {
@@ -24,7 +24,7 @@
       "0": "Dano do 1° Golpe",
       "1": "Dano do 2° Golpe",
       "2": "Dano do 3° Golpe",
-      "3": "Dano do Ataque Normal Aéreo",
+      "3": "Dano do Ataque Normal no Ar",
       "4": "Dano de Ataque Carregado",
       "5": "Consumo de Stamina de Ataque Carregado",
       "6": "Dano Durante a Queda",
@@ -43,17 +43,17 @@
     "name": "Caçador de Dossel: Montando nas Alturas",
     "description": {
       "0": "Usando suas habilidades de caçador de grandes presas, Kinich se move rapidamente ou ataca seus inimigos.",
-      "1": "Quando não há oponentes por perto, ele dispara um gancho e balança no ar, e a Recarga de sua Habilidade diminui em 60%. Quando um oponente está presente, dispara o gancho contra o oponente e entra no estado Bênção do Espírito da Noite com 0 pontos de Espírito da Noite.",
+      "1": "Quando não há oponentes por perto, ele dispara um gancho e balança no ar, e a Recarga de sua Habilidade diminui em 60%. Quando um oponente está presente, dispara o gancho contra o oponente, se prende a ele e entra no estado Bênção do Espírito da Noite com 0 pontos de Espírito da Noite.",
       "2": "Pode manter pressionado. Ao manter pressionado, mira o gancho.",
       "3": "<br/>",
       "4": "<strong>Bênção do Espírito da Noite: Kinich</strong>",
       "5": "A Bênção do Espírito da Noite de Kinich dura 10s e gera 2 pontos de Espírito da Noite por segundo.",
       "6": "Nesse estado, Kinich se prende a um oponente próximo e faz um ataque variável:",
       "7": [
-        " Usar um Ataque Normal fará um ataque giratório contra o alvo preso de acordo com a direção atual de movimento, causando <dendro>Dano Dendro</dendro> com o alinhamento Espírito da Noite e gerando 3 pontos de Espírito da Noite. Dano causado no ar é considerado Dano de Habilidade Elemental.",
+        " Usar um Ataque Normal fará um Disparo Circular contra o alvo preso de acordo com a direção atual de movimento, causando <dendro>Dano Dendro</dendro> com o alinhamento Espírito da Noite e gerando 3 pontos de Espírito da Noite. Dano causado no ar é considerado Dano de Habilidade Elemental.",
         " Quando os pontos de Espírito da Noite estão no máximo, ele pode usar a Habilidade Elemental \"Canhão Perfurador Giratório\": consome todos os pontos de Espírito da Noite para causa <dendro>Dano Dendro</dendro> com o alinhamento Espírito da Noite. Quando mantém pressionado \"Canhão Perfurador Giratório\", é possível mirar no alvo. Após disparar, Kinich tentará se prender a seu alvo."
       ],
-      "8": "Enquanto estiver no estado Bênção do Espírito da Noite, Kinich gerará uma Zona Morta ao lado do inimigo que ele se prendeu ou que disparou o Canhão contra. Quando entrar nessa Zona, remove ela e regenera 4 pontos do Espírito da Noite.",
+      "8": "Enquanto estiver no estado Bênção do Espírito da Noite, depois que se prender a um inimigo ou atirar o Canhão Perfurador Giratório, gera uma Zona Morta ao lado do inimigo, e se Kinich entrar nela, regenerará 4 pontos de Espírito da Noite, removendo a Zona Morta.",
       "9": "Se a conexão do gancho quebrar por causa da distância, usar um Ataque Normal estabelecerá uma nova conexão com um oponente próximo antes de fazer um ataque giratório.",
       "10": "<br/>",
       "11": "<i>\"Tudo tem um custo. Sugiro você fazer uma oferta aceitável... O quê? Não, eu não aceito prestações.\"</i>"
@@ -80,7 +80,7 @@
   "burst": {
     "name": "Saúdem o Poderoso Dragão Soberano",
     "description": {
-      "0": "Lança o poder do Dragão Soberano Poderoso Ajaw (limitada, condicional, restrita, contratual, parcial e temporariamente), causando<dendro>Dano Dendro em AdE</dendro>. Ajaw periodicamente lançará sua Respiração Draconiana, causando <dendro>Dano Dendro em AdE</dendro>",
+      "0": "Lança o poder do Dragão Soberano Poderoso Ajaw (limitada, condicional, restrita, contratual, parcial e temporariamente), causando<dendro>Dano Dendro em AdE</dendro> com alinhamento Espírito da Noite. Ajaw periodicamente lançará sua Respiração Draconiana, causando <dendro>Dano Dendro em AdE</dendro> com alinhamento Espírito da Noite.",
       "1": "Ao lançar, se Kinich estiver no estado Bênção do Espírito da Noite, a duração da Bênção do Espírito da Noite é prolongada em 2s.",
       "2": "<br/>",
       "3": "<i>\"Isso mesmo! Você está perante o Dragão Soberano K'uhul Ajaw! Se aproxime, se ajoelhe e beije meus pés!\"</i>"
@@ -107,13 +107,13 @@
   "passive1": {
     "name": "Preço da Desolação",
     "description": {
-      "0": "Quando está no estado Bênção do Espírito da Noite, os oponentes atingidos por Dano da Habilidade Elemental de Kinich entrarão no estado Desolação, e quando afetados por Queimaduras ou Germinação, regenerarão 7 pontos de Espírito da Noite para ele. Os pontos de Espírito da Noite podem ser ganhos dessa forma uma vez a cada 0.8s. O estado de Desolação persistirá até que essa instância do estado Bênção do Espírito da Noite de Kinich acabe."
+      "0": "Quando está no estado Bênção do Espírito da Noite, os oponentes atingidos por Dano da Habilidade Elemental de Kinich entrarão no estado Desolação, e quando sofrerem Dano de Queimaduras ou Germinação, regenerarão 7 pontos de Espírito da Noite para ele. Os pontos de Espírito da Noite podem ser ganhos dessa forma uma vez a cada 0.8s. O estado de Desolação persistirá até que essa instância do estado Bênção do Espírito da Noite de Kinich acabe."
     }
   },
   "passive2": {
     "name": "Contrato do Espírito Flamejante",
     "description": {
-      "0": "Quando um membro próximo da equipe ativa a Explosão do Espírito da Noite, Kinich ganha 1 acúmulo de Experiência do Caçador que dura 15s. Máximo de 2 acúmulos. Quando Kinich usa o Canhão Perfurador Giratório de <strong>Caçador de Dossel: Montando nas Alturas</strong>, todos os acúmulos serão consumidos, com cada um aumentando o Dano causado pelo disparo do Chão em 320% do ATQ de Kinich."
+      "0": "Quando um membro próximo da equipe ativa a Explosão do Espírito da Noite, Kinich ganha 1 acúmulo de Experiência do Caçador que dura 15s. Máximo de 2 acúmulos. Quando Kinich usa o Canhão Perfurador Giratório de <strong>Caçador de Dossel: Montando nas Alturas</strong>, todos os acúmulos serão consumidos, com cada um aumentando o Dano causado pelo disparo do Canhão em 320% do ATQ de Kinich."
     }
   },
   "passive3": {
@@ -125,8 +125,10 @@
     }
   },
   "passive": {
-    "name": "",
-    "description": {}
+    "name": "Emissário Veloz",
+    "description": {
+      "0": "Quando estiver em uma área de Natlan com Dispositivos de Flogisto, interagir com alguns itens coletáveis aumentará a Veloc. Mov. dos membros da equipe em 15% por 10s. Além disso, exibe no mini-mapa o local das <strong>especialidades de Natlan</strong> próximas."
+    }
   },
   "constellation1": {
     "name": "Bico de Papagaio",
@@ -152,7 +154,7 @@
   "constellation4": {
     "name": "Pena de Beija-flor",
     "description": {
-      "0": "Quando estiver sob a Bênção do Espírito da Noite, Kinich restaurará 5 de Energia após usar seu Disparo Circular ou após disparar o Canhão Perfurador Giratório. A regeneração de Energia pode acontecer dessa maneira uma vez a cada 2,8s."
+      "0": "Quando estiver sob a Bênção do Espírito da Noite, Kinich restaurará 5 de Energia após usar seu Disparo Circular ou após disparar o Canhão Perfurador Giratório. A regeneração de Energia pode acontecer dessa maneira uma vez a cada 2.8s."
     }
   },
   "constellation5": {
@@ -165,7 +167,7 @@
   "constellation6": {
     "name": "Forma da Besta Auspiciosa",
     "description": {
-      "0": "Após o Canhão Perfurador Giratório atingir um oponente, ele irá ricochetear uma vez entre os oponentes, causando 600% do ATQ de Kinich como <dendro>Dano Dendro</dendro>."
+      "0": "Após o Canhão Perfurador Giratório atingir um oponente, ele irá ricochetear uma vez entre os oponentes, causando 700% do ATQ de Kinich como <dendro>Dano Dendro</dendro>."
     }
   }
 }

@@ -1,8 +1,8 @@
 {
   "name": "Kachina",
-  "title": "",
+  "title": "Minério de Ouro Não Fundido",
   "description": "",
-  "constellationName": "",
+  "constellationName": "Ochotona Princeps",
   "auto": {
     "name": "Mordida Perfuradora",
     "fields": {
@@ -43,16 +43,16 @@
     "description": {
       "0": "Lute junto com Pirueta Turbo, o turbo confiável!",
       "1": "Invoca Pirueta Turbo. Ao manter pressionado, Kachina invoca e monta em Pirueta Turbo.",
-      "2": "Depois de lançar, Kachina obtém 50 pontos de Espírito da Noite e entra no estado Bênção do Espírito da Noite.",
+      "2": "Depois de lançar, Kachina obtém 60 pontos de Espírito da Noite e entra no estado Bênção do Espírito da Noite.",
       "3": "<br/>",
       "4": "<strong>Bênção do Espírito da Noite: Kachina</strong>",
-      "5": "As ações de Turbo Pirueta consomem pontos de Espírito da Noite.",
+      "5": "As ações de Pirueta Turbo consomem pontos de Espírito da Noite.",
       "6": "Quando os pontos de Espírito da Noite acabarem, o estado Bênção do Espírito da Noite de Kachina acabará.",
       "7": "<br/>",
       "8": "<strong>Pirueta Turbo</strong>",
       "9": "É capaz de existir independentemente, ou pode ser montado por Kachina. Enquanto Pirueta Turbo existir, a Habilidade Elemental de Kachina \"Ataque, Pirueta Turbo!\" será substituída por montar ou desmontar de Pirueta Turbo.",
       "10": [
-        " Enquanto Pirueta Turbo existir independente, periodicamente golpeará o chão, causando <geo>Dano Geo em AdE </geo> baseado na DEF de Kachina que possui o alinhamento Espírito da Noite.",
+        " Enquanto Pirueta Turbo existir independente, periodicamente golpeará o chão, causando <geo>Dano Geo em AdE</geo> baseado na DEF de Kachina que possui o alinhamento Espírito da Noite.",
         " Quando Kachina montar em Pirueta Turbo, poderá controlá-lo para se mover e escalar rapidamente, e ao fazer um Ataque Normal, golpeará o chão, causando <geo>Dano Geo em AdE</geo> baseado na sua DEF que possui o alinhamento Espírito da Noite."
       ],
       "11": "<br/>",
@@ -61,8 +61,8 @@
       "14": "<i>Pirueta Turbo só parece uma tampa, mas é uma broca que pode perfurar até mesmo as mais profundas rochas!</i>"
     },
     "skillParams": {
-      "0": "Dano do Passeio de Pirueta Turbo",
-      "1": "Dano da Pirueta Turbo Independente",
+      "0": "Dano Montada em Pirueta Turbo",
+      "1": "Dano de Pirueta Turbo Independente",
       "2": "Limite de Pontos de Espírito da Noite",
       "3": "Tempo de Recarga",
       "4": "",
@@ -111,7 +111,7 @@
   "passive1": {
     "name": "Eco das Montanhas",
     "description": {
-      "0": "Quando membros próximos do grupo desencadeiam uma Explosão do Espírito da Noite, o <geo>Bônus de Dano Geo</geo> de Kachina aumenta em 20% por 10s."
+      "0": "Quando membros próximos da equipe desencadeiam uma Explosão do Espírito da Noite, o <geo>Bônus de Dano Geo</geo> de Kachina aumenta em 20% por 12s."
     }
   },
   "passive2": {
@@ -124,22 +124,28 @@
     "name": "Presente do Reino da Noite: Coração da Unidade",
     "description": {
       "0": "Depois que os pontos de Espírito da Noite de Kachina acabarem, ela mudará para consumir Flogisto para manter a Bênção do Espírito da Noite.",
-      "1": "Enquanto em Natlan ou numa área com Dispositivos de Flogisto, ela pode usar Transmissão do Espírito da Noite: Kachina. Quando o personagem ativo estiver correndo, escalando ou sob um estado especial de movimento de um Talento, trocar para Kachina como personagem ativa desencadeará: Kachina entra no estado Bênção do Espírito da Noite e monta <strong>Pirueta Turbo</strong> ao virar a personagem ativa, ganhando XX pontos de Espírito da Noite. É possível entrar em Transmissão do Espírito da Noite: Kachina uma vez a cada 10s.",
+      "1": "Enquanto em Natlan ou numa área com Dispositivos de Flogisto, ela pode usar Transmissão do Espírito da Noite: Kachina. Quando o personagem ativo estiver correndo, escalando, sob um estado especial de movimento de um Talento ou em uma certa altura no ar, trocar para Kachina como personagem ativa desencadeará: Kachina entra no estado Bênção do Espírito da Noite e monta <strong>Pirueta Turbo</strong> ao virar a personagem ativa, ganhando 30 pontos de Espírito da Noite. É possível entrar em Transmissão do Espírito da Noite: Kachina uma vez a cada 10s.",
       "2": "<br/>",
-      "3": "Além disso, Kachina consumirá 90% a menos de Stamina enquanto estiver montada em <strong>Pirueta Turbo</strong> em Natlan."
+      "3": "Além disso, Kachina consumirá 90% a menos de Stamina enquanto estiver escalando e montada em <strong>Pirueta Turbo</strong> em Natlan."
+    }
+  },
+  "passive": {
+    "name": "Bênção da Chama de Cristal",
+    "description": {
+      "0": "Quando estiver em uma área de Natlan com Dispositivos de Flogisto, interagir com alguns itens coletáveis regenerará 20 de Stamina. Além disso, exibe no mini-mapa o local das <strong>especialidades de Natlan</strong> próximas."
     }
   },
   "constellation1": {
     "name": "Fragmentos São Gemas Também",
     "description": {
-      "0": "Quando Kachina monta ou desmonta a <strong>Pirueta Turbo</strong>, ela absorverá Fragmentos Elementais criados pela Reação de Cristalização.",
+      "0": "Quando Kachina monta ou desmonta de <strong>Pirueta Turbo</strong>, ela absorverá Fragmentos Elementais criados pela Reação de Cristalização.",
       "1": "Além disso, quando um membro da equipe pegar tal Fragmento, 3 de Energia Elemental serão restaurados para Kachina. A Energia pode ser restaurada dessa forma uma vez a cada 5s."
     }
   },
   "constellation2": {
-    "name": "Nunca Saia de Casa Sem a... Pirueta Turbo",
+    "name": "Nunca Saia de Casa Sem... Pirueta Turbo",
     "description": {
-      "0": "Quando Kachina usa <strong>\"Hora de Ficar Séria!\"</strong>, ela recuperará 16 pontos de Espírito da Noite. Se não houver uma <strong>Pirueta Turbo</strong> pertencente a ela no campo, ela entrará no estado de Bênção do Espírito da Noite e invocará uma."
+      "0": "Quando Kachina usa <strong>\"Hora de Ficar Séria!\"</strong>, ela recuperará 20 pontos de Espírito da Noite. Se não houver uma <strong>Pirueta Turbo</strong> pertencente a ela no campo, ela entrará no estado de Bênção do Espírito da Noite e invocará uma."
     }
   },
   "constellation3": {
