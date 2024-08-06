@@ -50,7 +50,7 @@
       "5": "Kinichs Zustand „Nachtseelensegen“ hält 10 s lang an und erzeugt jede s 2 Nachtseelenpunkte.",
       "6": "In diesem Zustand verbindet sich Kinich mit dem Kletterseil mit einem Gegner in der Nähe und führt seinen Angriff entsprechend aus:",
       "7": [
-        " Mit einem Standardangriff wird ein sich um das verbundene Ziel drehender Schussangriff basierend auf der aktuellen Bewegungsrichtung ausgeführt, der mit Nachtseelen versehenen <dendro>Dendro-Schaden</dendro> verursacht und 3 Nachtseelenpunkte erzeugt. Der Schaden des Schwungangriffs wird als Schaden der Elementarfähigkeit betrachtet.",
+        " Mit einem Standardangriff wird ein sich um das verbundene Ziel drehender Schussangriff basierend auf der aktuellen Bewegungsrichtung ausgeführt, der mit Nachtseelen versehenen <dendro>Dendro-Schaden</dendro> verursacht und 3 Nachtseelenpunkte erzeugt. Der Schaden des drehenden Schussangriffs wird als Schaden der Elementarfähigkeit betrachtet.",
         " Wenn die maximale Anzahl an Nachtseelenpunkten erreicht ist, kann die Elementarfähigkeit „Schuppendurchschlagskanone“ eingesetzt werden: Verbraucht alle Nachtseelenpunkte und verursacht dabei mit Nachtseelen versehenen <dendro>Dendro-Schaden</dendro>. Beim Einsetzen der „Schuppendurchschlagskanone“ durch Gedrückthalten kann das Ziel des Angriffs durch das Zielen bestimmt werden. Nach dem Einsetzen der „Schuppendurchschlagskanone“ wird Kinich versuchen, mit dem Ziel der „Schuppendurchschlagskanone“ in Verbindung zu treten."
       ],
       "8": "Während Kinich sich im Zustand „Nachtseelensegen“ befindet, wird eine tote Zone neben dem Gegner erzeugt, nachdem er mit diesem in Verbindung getreten ist oder die Kanone abgefeuert hat. Wenn Kinich diese Zone betritt, wird sie deaktiviert, wodurch Kinich 4 Nachtseelenpunkte erhält.",
@@ -133,8 +133,8 @@
   "constellation1": {
     "name": "Schnabel des Papageis",
     "description": {
-      "0": "Erhöht, sobald Kinich vom Schwingen in der Luft durch <strong>Seiljäger – Hoch hinaus</strong> landet, seine Bewegungs-GSW 5 s lang um 20 %.",
-      "1": "Erhöht zusätzlich den KSCH von Schuppendurchschlagskanone um 90 %."
+      "0": "Erhöht, sobald Kinich vom Schwingen in der Luft durch <strong>Seiljäger – Hoch hinaus</strong> landet, seine Bewegungs-GSW 6 s lang um 30 %.",
+      "1": "Erhöht zusätzlich den KSCH von Schuppendurchschlagskanone um 100 %."
     }
   },
   "constellation2": {
@@ -154,7 +154,8 @@
   "constellation4": {
     "name": "Feder des Kolibris",
     "description": {
-      "0": "Stellt Kinich 5 Punkte Elementarenergie wieder her, nachdem er im Zustand Nachtseelensegen einen drehenden Schussangriff ausgeführt oder eine Schuppendurchschlagskanone abgefeuert hat. 2,8 s Abklingzeit."
+      "0": "Stellt Kinich 5 Punkte Elementarenergie wieder her, nachdem er im Zustand Nachtseelensegen einen drehenden Schussangriff ausgeführt oder eine Schuppendurchschlagskanone abgefeuert hat. 2,8 s Abklingzeit.",
+      "1": "Erhöht außerdem den durch <strong>Gegrüßt sei der allmächtige Drachenfürst</strong> verursachten Schaden um 70 %."
     }
   },
   "constellation5": {
@@ -167,7 +168,8 @@
   "constellation6": {
     "name": "Verkörperung der glückverheißenden Bestie",
     "description": {
-      "0": "Nachdem die Schuppendurchschlagskanone einen Gegner getroffen hat, springt sie einmal zwischen den Gegnern hin und her und verursacht dabei <dendro>Dendro-Schaden</dendro> in Höhe von 700 % des ANG von Kinich."
+      "0": "Nach dem Treffen von Gegnern durch die Schuppendurchschlagskanone hüpft diese einmal zwischen den Gegnern hin und her und verursacht <dendro>Dendro-Schaden</dendro> in Höhe von 700 % von Kinichs ANG.",
+      "1": "Wenn die diesmalige Schuppendurchschlagskanone den Verstärkungseffekt für die Schuppendurchschlagskanone des passiven Talents Flammengeist-Pakt oder des Sternbildes Klaue des Tigers ausgelöst hat, wird der von ihr ausgelöste hüpfende Angriff ebenfalls verstärkt."
     }
   }
 }

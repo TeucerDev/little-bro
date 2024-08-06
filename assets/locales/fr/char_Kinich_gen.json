@@ -50,7 +50,7 @@
       "5": "La bénédiction noctâme de Kinich dure 10 s et lui accorde 2 pts de noctâme toutes les secondes.",
       "6": "Dans cet état, Kinich accroche son grappin sur un ennemi proche et effectue une attaque variable :",
       "7": [
-        " Utiliser une attaque normale prend en compte la direction actuelle du déplacement pour déclencher un tir circulaire avec la cible accrochée comme centre, infligeant des <dendro>DGT Dendro</dendro> infusés de noctâme et créant 3 pts de noctâme. Les DGT infligés par l'attaque de balancement sont considérés comme des DGT de compétence élémentaire.",
+        " Utiliser une attaque normale prend en compte la direction actuelle du déplacement pour déclencher un tir circulaire avec la cible accrochée comme centre, infligeant des <dendro>DGT Dendro</dendro> infusés de noctâme et créant 3 pts de noctâme. Les DGT infligés par le tir circulaire sont considérés comme des DGT de compétence élémentaire.",
         " Lorsque les points de noctâme sont au maximum, Kinich peut utiliser la compétence élémentaire « Canon à pointe d'écailles » : consomme tous les points de noctâme pour infliger des <dendro>DGT Dendro</dendro> infusés de noctâme. Un appui long pour déclencher son canon à pointe d'écailles permet à Kinich de viser une cible. Après avoir utilisé ce canon, Kinich tente de s'accrocher à la cible."
       ],
       "8": "Pendant la bénédiction noctâme, Kinich génère une zone d'angle mort à proximité de l'ennemi après en avoir accroché un ou utilisé son canon à pointe d'écailles. La zone d'angle mort disparaît et restaure 4 pts de noctâme à Kinich lorsque ce dernier entre à l'intérieur.",
@@ -120,7 +120,7 @@
     "name": "Don de la nuit : Remboursement total",
     "description": {
       "0": "Lorsque Kinich est en plein air après s'être balancé dans les airs en utilisant <strong>Chasse canopéenne : En altitude</strong>, il peut consommer 10 pts de phlogistique pour se balancer une nouvelle fois.",
-      "1": "Dans une zone de Natlan avec des mécanismes phlogistiques, la transmission noctâme « Kinich » peut être utilisée. Lorsque le personnage déployé sprinte, est en plein mouvement provoqué par une aptitude particulière ou est à une certaine hauteur dans les airs, le déploiement de Kinich au combat déclenche l'effet suivant : Kinich tire son grappin pour se balancer dans les airs en visant en priorité les sceaux de bobherbe appropriés. La transmission noctâme peut être déclenchée une fois toutes les 10 s.",
+      "1": "Dans une zone de Natlan avec des mécanismes phlogistiques, la transmission noctâme « Kinich » peut être utilisée. Lorsque le personnage déployé sprinte, est en plein mouvement provoqué par une aptitude particulière ou est à une certaine hauteur dans les airs, le déploiement de Kinich déclenche l'effet suivant : Kinich tire son grappin pour se balancer dans les airs en visant en priorité les sceaux de bobherbe appropriés. La transmission noctâme peut être déclenchée une fois toutes les 10 s.",
       "2": "Lorsque Kinich interagit avec des sceaux de bobherbe ou d'autres éléments pouvant interagir avec les yumkasaures, la compétence « Chasse canopéenne : En altitude » est convertie en « Mimétisme yumkasaure ». En utilisant « Mimétisme yumkasaure » pour interagir avec ces éléments, leurs règles d'interaction suivent celles applicables aux yumkasaures et la compétence « Chasse canopéenne : En altitude » n'entre pas en TdR."
     }
   },
@@ -133,8 +133,8 @@
   "constellation1": {
     "name": "Bec de perroquet",
     "description": {
-      "0": "Lorsque Kinich a atterri après s'être balancé dans les airs en utilisant <strong>Chasse canopéenne : En altitude</strong>, sa VIT de déplacement augmente de 20 % pendant 5 s.",
-      "1": "De plus, les DGT CRIT du canon à pointe d'écailles augmentent de 90 %."
+      "0": "Lorsque Kinich a atterri après s'être balancé dans les airs en utilisant <strong>Chasse canopéenne : En altitude</strong>, sa VIT de déplacement augmente de 30 % pendant 6 s.",
+      "1": "De plus, les DGT CRIT du canon à pointe d'écailles augmentent de 100 %."
     }
   },
   "constellation2": {
@@ -154,7 +154,8 @@
   "constellation4": {
     "name": "Plume de colibri",
     "description": {
-      "0": "Lorsque Kinich bénéficie d'une bénédiction noctâme, il récupère 5 pts d'énergie élémentaire après avoir effectué un tir circulaire ou utilisé son canon à pointe d'écailles. L'énergie élémentaire peut être restaurée une fois toutes les 2,8 s de cette manière."
+      "0": "Lorsque Kinich bénéficie d'une bénédiction noctâme, il récupère 5 pts d'énergie élémentaire après avoir effectué un tir circulaire ou utilisé son canon à pointe d'écailles. L'énergie élémentaire peut être restaurée une fois toutes les 2,8 s de cette manière.",
+      "1": "De plus, les DGT infligés par <strong>Louée soit Sa majesté saurienne suprême</strong> augmentent de 70 %."
     }
   },
   "constellation5": {
@@ -167,7 +168,8 @@
   "constellation6": {
     "name": "Forme de bête augurale",
     "description": {
-      "0": "Après avoir touché un ennemi, le canon à pointe d'écailles rebondit une fois entre les ennemis, infligeant des <dendro>DGT Dendro</dendro> d'une valeur équivalant à 700 % de l'ATQ de Kinich."
+      "0": "Après avoir touché un ennemi, le canon à pointe d'écailles rebondit une fois entre les ennemis, infligeant des <dendro>DGT Dendro</dendro> d'une valeur équivalant à 700 % de l'ATQ de Kinich.",
+      "1": "Si ce canon à pointe d'écailles déclenche les améliorations que l'aptitude passive « Pacte de l'esprit enflammé » ou la constellation « Paume de coléoptère » peuvent lui conférer, l'attaque rebondissante en bénéfice également."
     }
   }
 }

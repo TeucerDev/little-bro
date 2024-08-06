@@ -50,7 +50,7 @@
       "5": "La bendición noctámbula de Kinich dura 10 s y genera 2 pts. de noctambulismo por segundo.",
       "6": "Cuando está en este estado, Kinich lanzará su gancho a un enemigo cercano y cambiará su estilo de ataque:",
       "7": [
-        "Al ejecutar un Ataque Normal, ejecuta un ataque circundante alrededor del objetivo del gancho de agarre según la dirección de movimiento actual, lo que inflige <dendro>Daño Dendro</dendro> de naturaleza noctámbula y genera 3 pts. de noctambulismo. El daño del corte aéreo se considera daño de Habilidad Elemental.",
+        "Al ejecutar un Ataque Normal, ejecuta un ataque circundante alrededor del objetivo del gancho de agarre según la dirección de movimiento actual, lo que inflige <dendro>Daño Dendro</dendro> de naturaleza noctámbula y genera 3 pts. de noctambulismo. El daño del ataque circundante se considera daño de Habilidad Elemental.",
         "Cuando los pts. de noctambulismo estén al máximo, Kinich podrá usar la Habilidad Elemental “Cañón perforaescamas”, de manera que consume todos los pts. de noctambulismo para infligir <dendro>Daño Dendro</dendro> de naturaleza noctámbula. Al mantener pulsado Cañón perforaescamas, Kinich puede apuntar a su objetivo y, tras disparar, intentará engancharse a él."
       ],
       "8": "Durante el estado de bendición noctámbula, tras haberse enganchado a un enemigo o haber disparado el Cañón perforaescamas, Kinich generará un área segura al lado del enemigo. Al entrar en dicha área, recuperará 4 pts. de noctambulismo, tras lo que el área desaparecerá.",
@@ -133,8 +133,8 @@
   "constellation1": {
     "name": "Pico de loro",
     "description": {
-      "0": "Después de que Kinich aterrice tras ejecutar el corte aéreo de <strong>Caza en suspensión: Persecución aérea</strong>, su Vel. Movimiento aumenta en un 20% durante 5 s.",
-      "1": "Además, aumenta en un 90% el Daño CRIT del Cañón perforaescamas."
+      "0": "Después de que Kinich aterrice tras ejecutar el corte aéreo de <strong>Caza en suspensión: Persecución aérea</strong>, su Vel. Movimiento aumenta en un 30% durante 6 s.",
+      "1": "Además, aumenta en un 100% el Daño CRIT del Cañón perforaescamas."
     }
   },
   "constellation2": {
@@ -154,7 +154,8 @@
   "constellation4": {
     "name": "Pluma de colibrí",
     "description": {
-      "0": "Cuando Kinich ejecuta un ataque circundante o usa el Cañón perforaescamas mientras está en estado de bendición noctámbula, recupera 5 pts. de Energía Elemental. Solo puede regenerar Energía Elemental una vez cada 2.8 s de esta manera."
+      "0": "Cuando Kinich ejecuta un ataque circundante o usa el Cañón perforaescamas mientras está en estado de bendición noctámbula, recupera 5 pts. de Energía Elemental. Solo puede regenerar Energía Elemental una vez cada 2.8 s de esta manera.",
+      "1": "Además, aumenta en un 70% el daño infligido con <strong>Alabado sea el todopoderoso Señor de los Dragones</strong>."
     }
   },
   "constellation5": {
@@ -167,7 +168,8 @@
   "constellation6": {
     "name": "Forma de bestia auspiciosa",
     "description": {
-      "0": "Tras golpear a un enemigo con el Cañón perforaescamas, el disparo rebotará una vez entre los enemigos para infligir <dendro>Daño Dendro</dendro> en una cantidad equivalente al 700% del ATQ de Kinich."
+      "0": "Tras golpear a un enemigo con el Cañón perforaescamas, el disparo rebotará una vez entre los enemigos para infligir <dendro>Daño Dendro</dendro> en una cantidad equivalente al 700% del ATQ de Kinich.",
+      "1": "Si el Cañón perforaescamas activa el fortalecimiento de dicho cañón por medio de los efectos del talento “Pacto del espíritu flamígero” o la constelación “Palma de tigre estelar”, el rebote que produzca también se verá fortalecido por dichos efectos."
     }
   }
 }

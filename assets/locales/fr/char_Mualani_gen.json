@@ -1,7 +1,7 @@
 {
   "name": "Mualani",
   "title": "Chasseuse des vagues rugissantes",
-  "description": "",
+  "description": "Une guide bien connue à Natlan qui possède un magasin de sports nautiques et est experte dans toutes les formes de sport aquatique.",
   "constellationName": "Phoca Neomonachus",
   "auto": {
     "name": "Réfrigération",
@@ -49,7 +49,7 @@
       "5": [
         " En surfant sur la planche « Requinou », Mualani augmente sa VIT de déplacement et peut se déplacer sur l'eau et sur le phlogistique liquide pendant la durée de l'état sans subir de DGT à cause de ce phlogistique liquide.",
         " L'attaque normale de Mualani est convertie en morsure de Requinou, infligeant des <hydro>DGT Hydro</hydro> infusés de noctâme selon les PV max de Mualani. Les morsures de Requinou peuvent être utilisées dans les airs et les DGT qu'elles infligent sont considérés comme des DGT d'attaque normale.",
-        " Lorsque Mualani touche un ennemi pendant cet état, elle leur applique une marque de proie et obtient 1 cumul d'élan houleux. Cet effet peut être cumulé 3 fois maximum, et un même ennemi peut accorder un cumul une fois toutes les 0,8 s."
+        " Lorsque Mualani touche un ennemi pendant cet état, elle leur applique une marque de proie et obtient 1 cumul d'élan houleux. Cet effet peut être cumulé 3 fois maximum, et un même ennemi peut accorder un cumul une fois toutes les 0,7 s."
       ],
       "6": "<br/>",
       "7": "<strong>Élan houleux et marque de proie</strong>",
@@ -106,7 +106,7 @@
   "passive1": {
     "name": "Bouée d'eau douce thermorésistante",
     "description": {
-      "0": "Toucher un ennemi avec une morsure déferlante de Requinou génère une globi-bouée à proximité, et Mualani peut récupérer 22 pts de noctâme en collectant une globi-bouée qu'elle a créée. Une seule globi-bouée peut être créée de cette manière pendant la durée d'une utilisation de la bénédiction noctâme."
+      "0": "Toucher un ennemi avec une morsure déferlante de Requinou génère une globi-bouée à proximité, et Mualani peut récupérer 35 pts de noctâme en collectant une globi-bouée qu'elle a créée. Une seule globi-bouée peut être créée de cette manière pendant la durée d'une utilisation de la bénédiction noctâme."
     }
   },
   "passive2": {
@@ -119,9 +119,9 @@
     "name": "Don de la nuit : Crêtes et creux",
     "description": {
       "0": "Après avoir épuisé ses points de noctâme, Mualani change pour consommer du phlogistique afin de maintenir sa bénédiction noctâme.",
-      "1": "Dans une zone de Natlan avec des mécanismes phlogistiques, la transmission noctâme « Mualani » peut être utilisée. Lorsque le personnage déployé sprinte, nage, est en plein mouvement provoqué par une aptitude particulière ou est à une certaine hauteur dans les airs, le déploiement de Mualani au combat déclenche l'effet suivant : Mualani entre dans l'état Bénédiction noctâme et obtient 40 pts de noctâme. La transmission noctâme peut être déclenchée une fois toutes les 10 s.",
+      "1": "Dans une zone de Natlan avec des mécanismes phlogistiques, la transmission noctâme « Mualani » peut être utilisée. Lorsque le personnage déployé sprinte, nage, est en plein mouvement provoqué par une aptitude particulière ou est à une certaine hauteur dans les airs, le déploiement de Mualani déclenche l'effet suivant : Mualani entre dans l'état Bénédiction noctâme et obtient 40 pts de noctâme. La transmission noctâme peut être déclenchée une fois toutes les 10 s.",
       "2": "<br/>",
-      "3": "De plus, lorsque Mualani se déplace sur l'eau pendant sa bénédiction noctâme, la consommation de points de noctâme ou de phlogistique diminue de 75 % dans la région de Natlan et de 35 % dans les régions hors de Natlan."
+      "3": "De plus, lorsque Mualani se déplace sur l'eau ou le phlogistique liquide pendant sa bénédiction noctâme, la consommation de points de noctâme ou de phlogistique diminue de 75 % dans la région de Natlan et de 35 % dans les régions hors de Natlan."
     }
   },
   "passive": {
@@ -134,14 +134,14 @@
     "name": "Le Meztli oisif...",
     "description": {
       "0": "La consommation de points de noctâme ou de phlogistique de l'état Bénédiction noctâme de Mualani diminue de 30 % lorsqu'elle n'est pas en combat.",
-      "1": "De plus, les DGT infligés par la première morsure déferlante de Requinou après le début de la bénédiction noctâme et par les missiles de Requinou que cette morsure déclenche augmentent d'une valeur équivalant à 75 % des PV max de Mualani. Ces DGT sont cependant sujets à la règle d'atténuation des DGT de <strong>Squalisurf brise-vagues</strong>."
+      "1": "De plus, les DGT infligés par la première morsure déferlante de Requinou après le début de la bénédiction noctâme et par les missiles de Requinou que cette morsure déclenche augmentent d'une valeur équivalant à 60 % des PV max de Mualani. Ces DGT sont cependant sujets à la règle d'atténuation des DGT de <strong>Squalisurf brise-vagues</strong>."
     }
   },
   "constellation2": {
     "name": "Mualani à fond !",
     "description": {
       "0": "Mualani obtient 2 cumuls d'élan houleux de <strong>Squalisurf brise-vagues</strong> lorsqu'elle active sa bénédiction noctâme et 1 cumul lorsqu'elle collecte une globi-bouée.",
-      "1": "De plus, Mualani récupère 20 pts de noctâme dans les 4 secondes après avoir obtenu une globi-bouée, en plus de la restauration d'origine de points de noctâme.",
+      "1": "De plus, Mualani récupère 25 pts de noctâme dans les 5 secondes après avoir obtenu une globi-bouée, en plus de la restauration d'origine de points de noctâme.",
       "2": "L'aptitude passive « Bouée d'eau douce thermorésistante » doit être déjà débloquée."
     }
   },
@@ -155,8 +155,8 @@
   "constellation4": {
     "name": "Requinou mange des bouées",
     "description": {
-      "0": "Mualani récupère 7 pts d'énergie élémentaire lorsqu'elle collecte une globi-bouée. L'aptitude passive « Bouée d'eau douce thermorésistante » doit être déjà débloquée.",
-      "1": "De plus, les DGT infligés par <strong>Tir de cascade brûlante</strong> augmentent de 200 %."
+      "0": "Mualani récupère 15 pts d'énergie élémentaire lorsqu'elle collecte une globi-bouée. L'aptitude passive « Bouée d'eau douce thermorésistante » doit être déjà débloquée.",
+      "1": "De plus, les DGT infligés par <strong>Tir de cascade brûlante</strong> augmentent de 75 %."
     }
   },
   "constellation5": {
@@ -169,7 +169,7 @@
   "constellation6": {
     "name": "Esprit du Peuple des sources",
     "description": {
-      "0": "L'effet d'augmentation de DGT de la constellation « Le Meztli oisif... » peut maintenant être déclenché plus d'une fois par bénédiction noctâme. De plus, le taux CRIT et les DGT CRIT des morsures déferlantes de Requinou et des missiles de Requinou que ces morsures déclenchent augmentent respectivement de 5 % et de 10 %."
+      "0": "L'effet d'augmentation de DGT de la constellation « Le Meztli oisif... » peut maintenant être déclenché plus d'une fois par bénédiction noctâme."
     }
   }
 }

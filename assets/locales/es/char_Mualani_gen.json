@@ -1,7 +1,7 @@
 {
   "name": "Mualani",
   "title": "La Cabalgadora de Olas Rugientes",
-  "description": "",
+  "description": "Una guía de Natlan muy famosa que lleva una tienda de suministros acuáticos, así como una surfera experta en todo tipo de deportes de agua.",
   "constellationName": "Phoca Neomonachus",
   "auto": {
     "name": "Refrescamiento",
@@ -49,7 +49,7 @@
       "5": [
         "Se sube a su escualotabla de surf y aumenta la Vel. Movimiento de Mualani. Mientras esté en este estado, podrá moverse sobre el agua y sobre el flogisto líquido, a cuyo daño también será inmune.",
         "Al ejecutar un Ataque Normal, en su lugar realizará un escualomordisco que inflige <hydro>Daño Hydro</hydro> de naturaleza noctámbula en función de la Vida Máx. de Mualani. El escualomordisco se puede ejecutar en el aire y el daño que inflige se considera daño de Ataque Normal.",
-        "Al entrar en contacto con un enemigo en este estado, Mualani aplicará sobre dicho enemigo una marca depredadora y obtendrá 1 carga de “energía mareal”, lo cual se puede acumular hasta 3 veces. Solo puede obtener 1 carga cada 0.8 s por cada enemigo."
+        "Al entrar en contacto con un enemigo en este estado, Mualani aplicará sobre dicho enemigo una marca depredadora y obtendrá 1 carga de “energía mareal”, lo cual se puede acumular hasta 3 veces. Solo puede obtener 1 carga cada 0.7 s por cada enemigo."
       ],
       "6": "<br/>",
       "7": "<strong>Energía mareal y marca depredadora</strong>",
@@ -106,7 +106,7 @@
   "passive1": {
     "name": "Peciglobo antitérmico de agua dulce",
     "description": {
-      "0": "Al golpear a un enemigo con el escualomordisco tsunámico, se crea un peciglobo en las cercanías. Al recoger un peciglobo creado por ella misma, Mualani recupera 22 pts. de noctambulismo. Como máximo, solo se puede crear 1 peciglobo de esta manera mientras esté activa una bendición noctámbula."
+      "0": "Al golpear a un enemigo con el escualomordisco tsunámico, se crea un peciglobo en las cercanías. Al recoger un peciglobo creado por ella misma, Mualani recupera 35 pts. de noctambulismo. Como máximo, solo se puede crear 1 peciglobo de esta manera mientras esté activa una bendición noctámbula."
     }
   },
   "passive2": {
@@ -121,7 +121,7 @@
       "0": "Cuando no tenga más pts. de noctambulismo, Mualani consumirá flogisto para conservar la bendición noctámbula.",
       "1": "Si se encuentra en una zona con alguna mecánica de flogisto de Natlan, podrá utilizar “Transmisión noctambular: Mualani”. Cuando el personaje en uso esté esprintando, nadando, se encuentre en un estado de movimiento derivado de algún talento o esté a cierta altura en el aire, al cambiar a Mualani, esta entrará en estado de bendición noctámbula y obtendrá 40 pts. de noctambulismo. Transmisión noctambular solo se puede activar una vez cada 10 s.",
       "2": "<br/>",
-      "3": "Además, cuando Mualani se mueva sobre el agua mientras está en estado de bendición noctámbula, consumirá un 75% menos de pts. de noctambulismo o de flogisto si está dentro de Natlan, y un 35% menos de pts. de noctambulismo si está fuera de dicha nación."
+      "3": "Además, cuando Mualani se mueva sobre el agua o el flogisto líquido mientras está en estado de bendición noctámbula, consumirá un 75% menos de pts. de noctambulismo o de flogisto si está dentro de Natlan, y un 35% menos de pts. de noctambulismo si está fuera de dicha nación."
     }
   },
   "passive": {
@@ -134,14 +134,14 @@
     "name": "Parsimonia de Meztli",
     "description": {
       "0": "Mientras Mualani no esté en combate, los pts. de noctambulismo y de flogisto que consume su estado de bendición noctámbula se reducen en un 30%.",
-      "1": "Además, el daño que inflige el primer escualomordisco tsunámico que realice tras entrar en estado de bendición noctámbula y sus escualoproyectiles aumenta en una cantidad equivalente al 75% de la Vida Máx. de Mualani. Este aumento de daño sigue las normas de disminución de daño de <strong>Escualosurf rompeolas</strong>."
+      "1": "Además, el daño que inflige el primer escualomordisco tsunámico que realice tras entrar en estado de bendición noctámbula y sus escualoproyectiles aumenta en una cantidad equivalente al 60% de la Vida Máx. de Mualani. Este aumento de daño sigue las normas de disminución de daño de <strong>Escualosurf rompeolas</strong>."
     }
   },
   "constellation2": {
     "name": "¡Mualani dándolo todo!",
     "description": {
       "0": "Al entrar en estado de bendición noctámbula, Mualani obtiene 2 cargas de energía mareal de <strong>Escualosurf rompeolas</strong>, y al recoger un peciglobo, obtiene 1 carga.",
-      "1": "Asimismo, además de los pts. de noctambulismo que recupera de por sí, Mualani recuperará otros 20 pts. adicionales durante 4 s después de recoger un peciglobo.",
+      "1": "Asimismo, además de los pts. de noctambulismo que recupera de por sí, Mualani recuperará otros 25 pts. adicionales durante 5 s después de recoger un peciglobo.",
       "2": "Es necesario desbloquear el talento pasivo “Peciglobo antitérmico de agua dulce”."
     }
   },
@@ -156,7 +156,7 @@
     "name": "Tiburón devorapeciglobos",
     "description": {
       "0": "Al recoger un peciglobo, Mualani obtiene 7 pts. de Energía Elemental. Para que se active este efecto, es necesario desbloquear el talento pasivo “Peciglobo antitérmico de agua dulce”.",
-      "1": "Además, aumenta en un 200% el daño infligido con <strong>Misiles acuaexplosivos</strong>."
+      "1": "Además, aumenta en un 75% el daño infligido con <strong>Misiles acuaexplosivos</strong>."
     }
   },
   "constellation5": {
@@ -169,7 +169,7 @@
   "constellation6": {
     "name": "Espíritu del Pueblo de los Manantiales",
     "description": {
-      "0": "El aumento de daño de la constelación “Parsimonia de Meztli” puede activarse más de una vez durante el estado de bendición noctámbula. Además, la Prob. CRIT del escualomordisco tsunámico y sus escualoproyectiles aumenta en un 5%, y su Daño CRIT aumenta en un 10%."
+      "0": "El aumento de daño otorgado por la constelación “Parsimonia de Meztli” se puede activar más de una vez durante el estado de bendición noctámbula."
     }
   }
 }

@@ -1,7 +1,7 @@
 {
   "name": "Mualani",
   "title": "Plitsch-Platsch-Wellenjägerin",
-  "description": "",
+  "description": "Eine weithin bekannte Fremdenführerin aus Natlan, Inhaberin eines Ladens für Wassersportausrüstungen sowie eine erfahrene Wellenreiterin, die sich auf alle Arten von Wasseraktivitäten spezialisiert hat.",
   "constellationName": "Phoca Neomonachus",
   "auto": {
     "name": "Kühlende Behandlung",
@@ -49,7 +49,7 @@
       "5": [
         " Steigt auf das Haifisch-Surfbrett und erhöht Mualanis Bewegungsgeschwindigkeit. Mualani kann sich über Wasser und flüssiges Phlogiston bewegen, während dieser Zustand aktiv ist, und sie erleidet keinen Schaden durch flüssiges Phlogiston.",
         " Wandelt Standardangriffe in Haifischbisse um, die mit Nachtseelen versehenen <hydro>Hydro-Schaden</hydro> basierend auf Mualanis max. LP verursachen. Haifischbisse können in der Luft ausgeführt werden. Der auf diese Weise verursachte Schaden wird als Schaden des Standardangriffs betrachtet.",
-        " Wenn sie in diesem Zustand mit Gegnern in Kontakt kommt, werden diese als Beute markiert und Mualani erhält selbst 1 Stapelung „Wellenschwung“, 3-fach stapelbar. Pro Gegner alle 0,8 s 1 Stapelung möglich."
+        " Wenn sie in diesem Zustand mit Gegnern in Kontakt kommt, werden diese als Beute markiert und Mualani erhält selbst 1 Stapelung „Wellenschwung“, 3-fach stapelbar. Pro Gegner alle 0,7 s 1 Stapelung möglich."
       ],
       "6": "<br/>",
       "7": "<strong>Wellenschwung und Markierung der Beute</strong>",
@@ -104,9 +104,9 @@
     }
   },
   "passive1": {
-    "name": "Hitzebeständiger Süßwasserschwimmer",
+    "name": "Hitzebeständiger Süßwasserkugelfisch",
     "description": {
-      "0": "Erzeugt in der Nähe einen Schwimmerßßß, wenn ein Gegner von Wogender Haibiss getroffen wird. Stellt Mualani selbst 22 Nachtseelenpunkte wieder her, wenn sie einen von ihr selbst erzeugten Schwimmer erhält. Während einer einzigen Auslösung von Nachtseelensegen kann höchstens 1 solcher Schwimmer auf diese Weise erschaffen werden."
+      "0": "Erzeugt in der Nähe einen Kugelfisch-Ball, wenn ein Gegner von Wogender Haibiss getroffen wird. Stellt Mualani selbst 35 Nachtseelenpunkte wieder her, wenn sie einen von ihr selbst erzeugten Kugelfisch-Ball erhält. Während einer einzigen Auslösung von Nachtseelensegen kann höchstens 1 solcher Kugelfisch-Ball auf diese Weise erschaffen werden."
     }
   },
   "passive2": {
@@ -121,7 +121,7 @@
       "0": "Sobald ihre Nachtseelenpunkte aufgebraucht sind, kann Mualani zum Verbrauch von Phlogiston wechseln, um ihren Nachtseelensegen aufrechtzuerhalten.",
       "1": "Beim Aufenthalt in einem Gebiet mit Phlogiston-Mechanismus in Natlan kann die Nachtseelen-Übertragung – Mualani verwendet werden. Wenn die aktuelle Figur gerade rennt, schwimmt, sich in einem Bewegungsmodus befindet, der durch bestimmte Talente ausgelöst wird, oder sich in einer bestimmten Höhe in der Luft befindet, wird beim Wechsel zu Mualani Folgendes ausgelöst: Mualani tritt in den Zustand des Nachtseelensegens ein und erhält 40 Nachtseelenpunkte. 10 s Abklingzeit für das Auslösen der Nachtseelen-Übertragung.",
       "2": "<br/>",
-      "3": "Außerdem verbraucht Mualani in Natlan 75 % weniger Nachtseelenpunkte oder Phlogiston, wenn sie sich im Zustand „Nachtseelensegen“ auf dem Wasser bewegt, und 35 % weniger Nachtseelenpunkte, wenn sie dasselbe außerhalb Natlans tut."
+      "3": "Außerdem verbraucht Mualani in Natlan 75 % weniger Nachtseelenpunkte oder Phlogiston, wenn sie sich im Zustand „Nachtseelensegen“ auf dem Wasser oder flüssigen Phlogiston bewegt, und 35 % weniger Nachtseelenpunkte, wenn sie dasselbe außerhalb Natlans tut."
     }
   },
   "passive": {
@@ -134,15 +134,15 @@
     "name": "Die gemütlichen „Meztli“ ...",
     "description": {
       "0": "Verringert Mualanis Verbrauch von Nachtseelenpunkten und Phlogiston im Zustand Nachtseelensegen um 30 %, wenn sie sich nicht im Kampf befindet.",
-      "1": "Erhöht außerdem den von dem ersten Wogenden Haibiss sowie von den davon ausgelösten Haifischgeschossen nach dem Eintritt in den Zustand Nachtseelensegen verursachten Schaden um 75 % von Mualanis max. LP. Dieser erhöhte Schaden unterliegt den SCH-Reduktionsregeln von <strong>Haifischreitende Wellenspalterin</strong>."
+      "1": "Erhöht außerdem den von dem ersten Wogenden Haibiss sowie von den davon ausgelösten Haifischgeschossen nach dem Eintritt in den Zustand Nachtseelensegen verursachten Schaden um 60 % von Mualanis max. LP. Dieser erhöhte Schaden unterliegt den SCH-Reduktionsregeln von <strong>Haifischreitende Wellenspalterin</strong>."
     }
   },
   "constellation2": {
     "name": "Mualani gibt alles!",
     "description": {
-      "0": "Verleiht Mualani 2 Stapelungen Wellenschwung von <strong>Haifischreitende Wellenspalterin</strong>, wenn sie in den Zustand Nachtseelensegen tritt. Verleiht ihr 1 Stapelung Wellenschwung, wenn sie einen Schwimmerßßß erhält.",
-      "1": "Stellt abgesehen von der eigentlichen Wiederherstellung von Nachtseelenpunkten zusätzlich innerhalb von 4 s nach dem Erhalten eines Schwimmers 20 weitere Nachtseelenpunkte wieder her.",
-      "2": "Das passive Talent „Hitzebeständiger Süßwasserschwimmer“ muss zuerst freigeschaltet werden."
+      "0": "Verleiht Mualani 2 Stapelungen Wellenschwung von <strong>Haifischreitende Wellenspalterin</strong>, wenn sie in den Zustand Nachtseelensegen tritt. Verleiht ihr 1 Stapelung Wellenschwung, wenn sie einen Kugelfisch-Ball erhält.",
+      "1": "Stellt abgesehen von der eigentlichen Wiederherstellung von Nachtseelenpunkten zusätzlich innerhalb von 5 s nach dem Erhalten eines Kugelfisch-Balls 25 weitere Nachtseelenpunkte wieder her.",
+      "2": "Das passive Talent „Hitzebeständiger Süßwasserkugelfisch“ muss zuerst freigeschaltet werden."
     }
   },
   "constellation3": {
@@ -153,10 +153,10 @@
     }
   },
   "constellation4": {
-    "name": "Haifisch frisst Schwimmer",
+    "name": "Haifisch frisst Kugelfische",
     "description": {
-      "0": "Stellt Mualani beim Erhalten eines Schwimmersßßß 7 Punkte Elementarenergie wieder her. Das passive Talent „Hitzebeständiger Süßwasserschwimmer“ muss zuerst freigeschaltet werden.",
-      "1": "Erhöht außerdem den durch <strong>Sturmexplosions-Geschoss</strong> verursachten Schaden um 200 %."
+      "0": "Stellt Mualani beim Erhalten eines Kugelfisch-Balls 15 Punkte Elementarenergie wieder her. Das passive Talent „Hitzebeständiger Süßwasserkugelfisch“ muss zuerst freigeschaltet werden.",
+      "1": "Erhöht außerdem den durch <strong>Sturmexplosions-Geschoss</strong> verursachten Schaden um 75 %."
     }
   },
   "constellation5": {
@@ -169,7 +169,7 @@
   "constellation6": {
     "name": "Der Geist der Menschen der Quellen",
     "description": {
-      "0": "Der SCH-Erhöhungseffekt des Sternbildes „Die gemütlichen ,Meztli‘ ...“ kann mehr als einmal pro Nachtseelensegen ausgelöst werden. Erhöht außerdem die KT von Wogender Haibiss und den dadurch ausgelösten Haifischgeschossen um 5 % sowie deren KSCH um 10 %."
+      "0": "Der Schadenbonus durch das Sternbild „Die gemütlichen ‚Meztli‘ ...“ ist nicht mehr darauf beschränkt, einmal pro Nachtseelensegen ausgelöst zu werden."
     }
   }
 }

@@ -1,7 +1,7 @@
 {
   "name": "Mualani",
   "title": "Splish-Splash Wavechaser",
-  "description": "",
+  "description": "A well-known guide in Natlan who owns a watersports shop, and expert in all forms of wave-chasing.",
   "constellationName": "Phoca Neomonachus",
   "auto": {
     "name": "Cooling Treatment",
@@ -49,7 +49,7 @@
       "5": [
         "Mounts the Sharky Surfboard, increasing Mualani's Movement SPD. Mualani can move on water and in liquid Phlogiston while this state is active, and she will take no DMG from the latter.",
         "Normal Attacks will be converted to Sharky's Bites, dealing <hydro>Hydro DMG</hydro> based on Mualani's Max HP with the Nightsoul attribute. Sharky's Bites can take place in mid-air. DMG dealt this way is considered Normal Attack DMG.",
-        "When she makes contact with opponents in this state, Mualani applies \"Marked as Prey\" to them and gains 1 Wave Momentum stack. Max 3 stacks. 1 stack can be gained every 0.8s per opponent."
+        "When she makes contact with opponents in this state, Mualani applies \"Marked as Prey\" to them and gains 1 Wave Momentum stack. Max 3 stacks. 1 stack can be gained every 0.7s per opponent."
       ],
       "6": "<br/>",
       "7": "<strong>Wave Momentum and Marked as Prey</strong>",
@@ -104,9 +104,9 @@
     }
   },
   "passive1": {
-    "name": "Heat-Resistant Freshwater Floater",
+    "name": "Heat-Resistant Freshwater Puffer",
     "description": {
-      "0": "When Sharky's Surging Bite hits an opponent, it will generate a Floater nearby. Mualani will restore 22 Nightsoul points when she picks up a Floater she has created. Only 1 such Floater can be created in this way during a single use of Nightsoul's Blessing."
+      "0": "When Sharky's Surging Bite hits an opponent, it will generate a Puffer nearby. Mualani will restore 35 Nightsoul points when she picks up a Puffer she has created. Only 1 such Puffer can be created in this way during a single use of Nightsoul's Blessing."
     }
   },
   "passive2": {
@@ -121,7 +121,7 @@
       "0": "After her Nightsoul points are depleted, Mualani can switch to consuming Phlogiston to maintain her Nightsoul's Blessing.",
       "1": "While in an area with Phlogiston Mechanics within Natlan, she can use Nightsoul Transmission: Mualani. When the active character is currently sprinting, swimming, in a movement mode caused by certain Talents, or at a certain height in the air, the following will trigger when switching to Mualani: Mualani will enter the Nightsoul's Blessing state and gain 40 Nightsoul points. She can trigger Nightsoul Transmission every 10s.",
       "2": "<br/>",
-      "3": "Additionally, Mualani's Nightsoul point or Phlogiston consumption while moving on water during Nightsoul's Blessing is decreased by 75% while in Natlan, and by 35% when doing the same outside Natlan."
+      "3": "Additionally, Mualani's Nightsoul point or Phlogiston consumption while moving on water and Liquid Phlogiston during Nightsoul's Blessing is decreased by 75% while in Natlan, and by 35% when doing the same outside Natlan."
     }
   },
   "passive": {
@@ -134,15 +134,15 @@
     "name": "The Leisurely \"Meztli\"...",
     "description": {
       "0": "Mualani's Nightsoul point and Phlogiston consumption in Nightsoul's Blessing is decreased by 30% while not in combat.",
-      "1": "Additionally, the first Sharky's Surging Bite she performs once she enters Nightsoul's Blessing and the Shark Missiles this Bite triggers deal 75% of her Max HP as increased DMG. This DMG is subject to the DMG decrease rules imposed by <strong>Surfshark Wavebreaker</strong>."
+      "1": "Additionally, the DMG of the first Sharky's Surging Bite she performs once she enters Nightsoul's Blessing and the Shark Missiles this Bite triggers is increased by an amount equal to 60% of her Max HP. This DMG is subject to the DMG decrease rules imposed by <strong>Surfshark Wavebreaker</strong>."
     }
   },
   "constellation2": {
     "name": "Mualani, Going All Out!",
     "description": {
-      "0": "Mualani gains 2 of <strong>Surfshark Wavebreaker</strong>'s Wave Momentum stacks when she enters Nightsoul's Blessing. She will gain 1 stack when obtaining a Floater.",
-      "1": "Additionally, aside from pre-existing Nightsoul point regeneration, Mualani will also restore 20 Nightsoul points in the 4s after she obtains a Floater.",
-      "2": "Must first unlock the Passive Talent \"Heat-Resistant Freshwater Floater.\""
+      "0": "Mualani gains 2 of <strong>Surfshark Wavebreaker</strong>'s Wave Momentum stacks when she enters Nightsoul's Blessing. She will gain 1 stack when obtaining a Puffer.",
+      "1": "Additionally, aside from pre-existing Nightsoul point regeneration, Mualani will also restore 25 Nightsoul points over 5s after she obtains a Puffer.",
+      "2": "Must first unlock the Passive Talent \"Heat-Resistant Freshwater Puffer.\""
     }
   },
   "constellation3": {
@@ -153,10 +153,10 @@
     }
   },
   "constellation4": {
-    "name": "Sharky Eats Floaties",
+    "name": "Sharky Eats Puffies",
     "description": {
-      "0": "Mualani regenerates 7 Energy when obtaining a Floater. Must first unlock the Passive Talent \"Heat-Resistant Freshwater Floater.\"",
-      "1": "Additionally, <strong>Stormburst Shot</strong> deals 200% increased DMG."
+      "0": "Mualani regenerates 15 Energy when obtaining a Puffer. Must first unlock the Passive Talent \"Heat-Resistant Freshwater Puffer.\"",
+      "1": "Additionally, <strong>Stormburst Shot</strong> deals 75% increased DMG."
     }
   },
   "constellation5": {
@@ -169,7 +169,7 @@
   "constellation6": {
     "name": "Spirit of the Springs' People",
     "description": {
-      "0": "The DMG increase effect of the Constellation \"The Leisurely 'Meztli'...\" can be triggered more than once per Nightsoul's Blessing. Sharky's Surging Bite and the Shark Missiles triggered by it have their CRIT Rate and CRIT DMG increased by 5% and 10% respectively."
+      "0": "The DMG increase from the Constellation \"The Leisurely 'Meztli'...\" is no longer limited to being triggered once every Nightsoul's Blessing."
     }
   }
 }

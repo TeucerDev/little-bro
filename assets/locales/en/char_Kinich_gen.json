@@ -50,11 +50,11 @@
       "5": "Kinich's Nightsoul's Blessing lasts 10s and generates 2 Nightsoul points every second.",
       "6": "In this state, Kinich will hook onto a nearby opponent and perform a variable attack:",
       "7": [
-        "Using a Normal Attack will perform a loop shot around the grapple target based on current movement direction, dealing <dendro>Dendro DMG</dendro> with the Nightsoul attribute and generating 3 Nightsoul points. Mid-air swing DMG is considered Elemental Skill DMG.",
+        "Using a Normal Attack will perform loop shots around the grapple target based on current movement direction, dealing <dendro>Dendro DMG</dendro> with the Nightsoul attribute and generating 3 Nightsoul points. Loop shot DMG is considered Elemental Skill DMG.",
         "When Nightsoul points are at max, he can use the Elemental Skill \"Scalespiker Cannon\": Consume all Nightsoul points to deal <dendro>Dendro DMG</dendro> with the Nightsoul attribute. When \"Scalespiker Cannon\" is held, Kinich can take aim at his target. After firing the Cannon, Kinich will try to grapple to its target."
       ],
       "8": "While in Nightsoul's Blessing, Kinich will generate a Blind Spot beside an opponent he has grappled to or fired the Cannon at. When he enters this Blind Spot, it will be canceled, and Kinich will gain 4 Nightsoul points.",
-      "9": "If the grapple connection should snap due to exceeded distance or some other reason, using a Normal Attack will establish a new connection with a nearby opponent before performing a loop shot.",
+      "9": "If the grapple connection should snap due to exceeded distance or some other reason, using a Normal Attack will establish a new connection with a nearby opponent before performing loop shots.",
       "10": "<br/>",
       "11": "<i>\"All things come with a cost. I suggest you make a suitable offer... What? No, I don't do installments.\"</i>"
     },
@@ -133,8 +133,8 @@
   "constellation1": {
     "name": "Parrot's Beak",
     "description": {
-      "0": "After Kinich lands from <strong>Canopy Hunter: Riding High</strong>'s mid-air swing, his Movement SPD will increase by 20% for 5s.",
-      "1": "Additionally, Scalespiker Cannon's CRIT DMG is increased by 90%."
+      "0": "After Kinich lands from <strong>Canopy Hunter: Riding High</strong>'s mid-air swing, his Movement SPD will increase by 30% for 6s.",
+      "1": "Additionally, Scalespiker Cannon's CRIT DMG is increased by 100%."
     }
   },
   "constellation2": {
@@ -154,7 +154,8 @@
   "constellation4": {
     "name": "Hummingbird's Feather",
     "description": {
-      "0": "When in Nightsoul's Blessing, Kinich will restore 5 Energy after using his loop shots or after unleashing the Scalespiker Cannon. Energy regeneration can happen this way once every 2.8s."
+      "0": "When in Nightsoul's Blessing, Kinich will restore 5 Energy after using his loop shots or after unleashing the Scalespiker Cannon. Energy regeneration can happen this way once every 2.8s.",
+      "1": "Additionally, <strong>Hail to the Almighty Dragonlord</strong> deals 70% more DMG."
     }
   },
   "constellation5": {
@@ -167,7 +168,8 @@
   "constellation6": {
     "name": "Auspicious Beast's Shape",
     "description": {
-      "0": "After the Scalespiker Cannon hits an opponent, it will bounce once between opponents, dealing 700% of Kinich's ATK as <dendro>Dendro DMG</dendro>."
+      "0": "After Scalespiker Cannon hits an opponent, it will bounce once between opponents, dealing 700% of Kinich's ATK as <dendro>Dendro DMG</dendro>.",
+      "1": "If this Scalespiker Cannon triggers the buffs that Passive Talent \"Flame Spirit Pact\" or the Constellation \"Tiger Beetle's Palm\" grant to the Cannon, the bouncing attack will also obtain the relevant buffs."
     }
   }
 }

@@ -50,10 +50,10 @@
       "5": "A Bênção do Espírito da Noite de Kinich dura 10s e gera 2 pontos de Espírito da Noite por segundo.",
       "6": "Nesse estado, Kinich se prende a um oponente próximo e faz um ataque variável:",
       "7": [
-        " Usar um Ataque Normal fará um Disparo Circular contra o alvo preso de acordo com a direção atual de movimento, causando <dendro>Dano Dendro</dendro> com o alinhamento Espírito da Noite e gerando 3 pontos de Espírito da Noite. Dano causado no ar é considerado Dano de Habilidade Elemental.",
+        " Usar um Ataque Normal fará um Disparo Circular contra o alvo preso de acordo com a direção atual de movimento, causando <dendro>Dano Dendro</dendro> com o alinhamento Espírito da Noite e gerando 3 pontos de Espírito da Noite. O Dano do Disparo Circular é considerado Dano de Habilidade Elemental.",
         " Quando os pontos de Espírito da Noite estão no máximo, ele pode usar a Habilidade Elemental \"Canhão Perfurador Giratório\": consome todos os pontos de Espírito da Noite para causa <dendro>Dano Dendro</dendro> com o alinhamento Espírito da Noite. Quando mantém pressionado \"Canhão Perfurador Giratório\", é possível mirar no alvo. Após disparar, Kinich tentará se prender a seu alvo."
       ],
-      "8": "Enquanto estiver no estado Bênção do Espírito da Noite, depois que se prender a um inimigo ou atirar o Canhão Perfurador Giratório, gera uma Zona Morta ao lado do inimigo, e se Kinich entrar nela, regenerará 4 pontos de Espírito da Noite, removendo a Zona Morta.",
+      "8": "Enquanto estiver no estado Bênção do Espírito da Noite, depois que se prender a um inimigo ou atirar o Canhão Perfurador Giratório, gera um Ponto Cego ao lado do inimigo, e se Kinich entrar nele, regenerará 4 pontos de Espírito da Noite, removendo o Ponto Cego.",
       "9": "Se a conexão do gancho quebrar por causa da distância, usar um Ataque Normal estabelecerá uma nova conexão com um oponente próximo antes de fazer um ataque giratório.",
       "10": "<br/>",
       "11": "<i>\"Tudo tem um custo. Sugiro você fazer uma oferta aceitável... O quê? Não, eu não aceito prestações.\"</i>"
@@ -133,8 +133,8 @@
   "constellation1": {
     "name": "Bico de Papagaio",
     "description": {
-      "0": "Após Kinich aterrissar do ataque aéreo de <strong>Caçador de Dossel: Montando nas Alturas</strong>, sua Veloc. Mov. aumentará em 20% por 5s. ",
-      "1": "Além disso, o Dano CRIT do Canhão Perfurador Giratório é aumentado em 90%."
+      "0": "Após Kinich aterrissar do ataque aéreo de <strong>Caçador de Dossel: Montando nas Alturas</strong>, sua Veloc. Mov. aumentará em 30% por 6s. ",
+      "1": "Além disso, o Dano CRIT do Canhão Perfurador Giratório é aumentado em 100%."
     }
   },
   "constellation2": {
@@ -154,7 +154,8 @@
   "constellation4": {
     "name": "Pena de Beija-flor",
     "description": {
-      "0": "Quando estiver sob a Bênção do Espírito da Noite, Kinich restaurará 5 de Energia após usar seu Disparo Circular ou após disparar o Canhão Perfurador Giratório. A regeneração de Energia pode acontecer dessa maneira uma vez a cada 2.8s."
+      "0": "Quando estiver sob a Bênção do Espírito da Noite, Kinich restaurará 5 de Energia após usar seu Disparo Circular ou após disparar o Canhão Perfurador Giratório. A regeneração de Energia pode acontecer dessa maneira uma vez a cada 2.8s.",
+      "1": "Além disso, o Dano causado por <strong>Saúdem o Poderoso Dragão Soberano</strong> é aumentado em 70%."
     }
   },
   "constellation5": {
@@ -167,7 +168,8 @@
   "constellation6": {
     "name": "Forma da Besta Auspiciosa",
     "description": {
-      "0": "Após o Canhão Perfurador Giratório atingir um oponente, ele irá ricochetear uma vez entre os oponentes, causando 700% do ATQ de Kinich como <dendro>Dano Dendro</dendro>."
+      "0": "Quando o Canhão Perfurador Giratório atinge um inimigo, ricocheteia entre inimigos uma vez, causando <dendro>Dano Dendro</dendro> equivalente a 700% do ATQ de Kinich.",
+      "1": "Se esse Canhão Perfurador Giratório desencadear o efeito de fortalecimento do Canhão Perfurador Giratório do Talento Passivo \"Contrato do Espírito Flamejante\" ou da Constelação \"Palma do Tigre Estelar\" , o ataque ricocheteador obterá o efeito de fortalecimento descrito acima."
     }
   }
 }

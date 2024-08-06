@@ -50,11 +50,11 @@
       "5": "La Grazia di Kinich dura 10 s e genera 2 punti Anima della Notte al secondo.",
       "6": "Quando è in questo stato, Kinich afferra col rampino uno degli avversari vicini ed esegue un attacco variabile.",
       "7": [
-        " Con l'attacco normale, sferra un colpo ciclico intorno al bersaglio afferrato dal rampino in base all'attuale direzione di movimento, infliggendo <dendro>DAN da Dendro</dendro> dotato di attributo Anima della Notte, generando 3 punti Anima della Notte. I DAN inflitti oscillando a mezz'aria vengono considerati DAN da abilità elementale.",
-        " Quando i punti Anima della Notte sono al massimo, Kinich può usare l'abilità elementale Cannone Squamocuspide, che consuma tutti i punti Anima della Notte per infliggere <dendro>DAN da Dendro</dendro> con attributo Anima della Notte. Quando possiede il Cannone Squamocuspide, Kinich può mirare per scegliere il bersaglio. Dopo aver fatto fuoco, Kinich tenterà di aggrapparsi al bersaglio."
+        " Con l'attacco normale, sferra dei colpi ciclici intorno al bersaglio afferrato dal rampino in base all'attuale direzione di movimento, infliggendo <dendro>DAN da Dendro</dendro> dotati di attributo Anima della Notte, generando 3 punti Anima della Notte. I DAN inflitti dai colpi ciclici vengono considerati DAN da abilità elementale.",
+        " Quando i punti Anima della Notte sono al massimo, Kinich può usare l'abilità elementale Cannone Squamocuspide, che consuma tutti i punti Anima della Notte per infliggere <dendro>DAN da Dendro</dendro> dotati di attributo Anima della Notte. Quando possiede il Cannone Squamocuspide, Kinich può mirare per scegliere il bersaglio. Dopo aver fatto fuoco, Kinich tenterà di aggrapparsi al bersaglio."
       ],
-      "8": "Mentre la Grazia persiste, Kinich genera un Punto cieco accanto all'avversario a cui è aggrappato o ha sparato con il Cannone. Quando Kinich entra nella Zona, quest'ultima svanisce donando a Kinich 4 punti Anima della Notte.",
-      "9": "Se la connessione del rampino si spezza, a causa della troppa distanza o di qualunque altro motivo, usare l'attacco normale ne stabilirà una nuova con un altro avversario nelle vicinanze, permettendo a Kinich di sferrare un colpo ciclico.",
+      "8": "Mentre la Grazia persiste, Kinich genera un Punto cieco accanto all'avversario a cui è aggrappato o ha sparato con il Cannone. Quando Kinich entra nel Punto cieco, quest'ultimo svanisce donando a Kinich 4 punti Anima della Notte.",
+      "9": "Se la connessione del rampino si spezza, a causa della troppa distanza o di qualunque altro motivo, usare l'attacco normale ne stabilirà una nuova con un altro avversario nelle vicinanze, permettendo a Kinich di sferrare colpi ciclici.",
       "10": "<br/>",
       "11": "<i>\"Ogni cosa ha il suo costo. Ti suggerisco di fare un'offerta adeguata... Cosa? No, niente rateizzazioni.\"</i>"
     },
@@ -78,12 +78,12 @@
     }
   },
   "burst": {
-    "name": "Sia lode al potente Signore dei Draghi",
+    "name": "Sia lode all'onnipotente Signore dei Draghi",
     "description": {
-      "0": "Scatena il potere di Ajaw, il potente Signore dei Draghi (a titolo limitato, condizionato, riservato, contrattato, parziale e temporaneo), infliggendo <dendro>DAN da Dendro ad area</dendro> con l'attributo Anima della Notte. Ajaw sprigiona il suo alito di drago a intervalli regolari, infliggendo <dendro>DAN da Dendro ad area</dendro>mcon l'attributo Anima della Notte.",
+      "0": "Scatena il potere di Ajaw, l'onnipotente Signore dei Draghi (a titolo limitato, condizionato, riservato, contrattato, parziale e temporaneo), infliggendo <dendro>DAN da Dendro ad area</dendro> dotati di attributo Anima della Notte. Ajaw sprigiona il suo alito di drago a intervalli regolari, infliggendo <dendro>DAN da Dendro ad area</dendro> dotati di attributo Anima della Notte.",
       "1": "Se Kinich usa il Tripudio mentre è in stato di Grazia dell'Anima della Notte, la durata di quest'ultimo si estende di 2 s.",
       "2": "<br/>",
-      "3": "<i>\"Oh, sì! Dinanzi a te si erge K'uhul Ajaw, il potente Signore dei Draghi! Orsù, dunque! Vieni avanti, prostrati a noi e baciaci i piedi!\"</i>"
+      "3": "<i>\"Oh, sì! Dinanzi a te si erge K'uhul Ajaw, l'onnipotente Signore dei Draghi! Orsù, dunque! Vieni avanti, prostrati a noi e baciaci i piedi!\"</i>"
     },
     "skillParams": {
       "0": "DAN da abilità",
@@ -105,7 +105,7 @@
     }
   },
   "passive1": {
-    "name": "Prezzo della desolazione",
+    "name": "Il prezzo della desolazione",
     "description": {
       "0": "Quando Kinich è in stato di Grazia dell'Anima della Notte, gli avversari che colpisce con l'abilità elementale entrano in stato di Desolazione, e quando subiscono DAN da reazione di Ustione o Germinazione ripristinano 7 punti Anima della Notte di Kinich. È possibile ottenere punti Anima della Notte in questo modo una volta ogni 0,8 s. Lo stato di Desolazione persiste fino alla fine della Grazia dell'Anima della Notte di Kinich."
     }
@@ -120,7 +120,7 @@
     "name": "Dono del Regno della Notte: Estinzione del debito",
     "description": {
       "0": "Quando Kinich è sospeso dopo aver usato il colpo oscillante a mezz'aria di <strong>Cacciatore delle Vette: Al settimo cielo</strong>, può consumare 10 punti Flogisto per eseguire un ulteriore oscillazione a mezz'aria.",
-      "1": "Se si trova in un'area di Natlan dove sono presenti uno o più Meccanismi flogistici, può usare Trasmissione dell'Anima della Notte: Kinich. Quando il personaggio attivo sta eseguendo uno Scatto, sta compiendo un movimento causato da determinati talenti o è sospeso in aria a una certa altezza, passare il controllo a Kinich attiva il seguente effetto: Kinich usa il suo rampino e compie un'oscillazione. Kinich tende a scegliere come bersagli del rampino prima i Sigilli Spiralerba validi. Kinich può entrare nello stato di Trasmissione dell'Anima della Notte una volta ogni 10 s.",
+      "1": "Se si trova in un'area di Natlan dove sono presenti uno o più Meccanismi flogistici, può usare Trasmissione dell'Anima della Notte: Kinich. Quando il personaggio attivo sta eseguendo uno Scatto, sta compiendo un movimento causato da determinati talenti o è sospeso in aria a una certa altezza, passare il controllo a Kinich attiva il seguente effetto: Kinich usa il suo rampino e compie un'oscillazione. Il personaggio tende a scegliere come bersagli del rampino prima i Sigilli Spiralerba validi, e può entrare nello stato di Trasmissione dell'Anima della Notte una volta ogni 10 s.",
       "2": "Quando interagisce con i Sigilli Spiralerba e altri oggetti con cui possono interagire gli Yumkasauri, \"Cacciatore delle Vette: Al settimo cielo\" viene convertito in \"Mimesi yumkasaurica\", facendo in modo che le interazioni con questi oggetti seguano le regole applicate agli Yumkasauri, senza attivare il TdR di Cacciatore delle Vette: Al settimo cielo."
     }
   },
@@ -133,8 +133,8 @@
   "constellation1": {
     "name": "Becco del pappagallo",
     "description": {
-      "0": "Quando Kinich atterra dopo aver usato il colpo oscillante di <strong>Cacciatore delle Vette: Al settimo cielo</strong>, la sua VEL di movimento aumenta di un 20% per 5 s.",
-      "1": "Inoltre, i DAN da CRIT di Cannone Squamocuspide aumentano di un 90%."
+      "0": "Quando Kinich atterra dopo aver effettuato l'oscillazione a mezz'aria di <strong>Cacciatore delle Vette: Al settimo cielo</strong>, la sua VEL di movimento aumenta di un 30% per 6 s.",
+      "1": "Inoltre, i DAN da CRIT di Cannone Squamocuspide aumentano di un 100%."
     }
   },
   "constellation2": {
@@ -154,20 +154,22 @@
   "constellation4": {
     "name": "Piuma del colibrì",
     "description": {
-      "0": "Quando Kinich è nello stato di Grazia dell'Anima della Notte, la sua energia si ripristina di 5 ogni volta che sferra i suoi colpi ciclici o dopo aver sparato un colpo di Cannone Squamocuspide. Il ripristino dell'energia può verificarsi una volta ogni 2,8 s."
+      "0": "Quando Kinich è nello stato di Grazia dell'Anima della Notte, la sua energia si ripristina di 5 ogni volta che sferra i suoi colpi ciclici o dopo aver sparato un colpo di Cannone Squamocuspide. Il ripristino dell'energia può verificarsi una volta ogni 2,8 s.",
+      "1": "Inoltre, <strong>Sia lode all'onnipotente Signore dei Draghi</strong> infligge un 70% di DAN in più."
     }
   },
   "constellation5": {
     "name": "Coda della scimmia urlatrice",
     "description": {
-      "0": "Aumenta di 3 il livello di <strong>Sia lode al potente Signore dei Draghi</strong>.",
+      "0": "Aumenta di 3 il livello di <strong>Sia lode all'onnipotente Signore dei Draghi</strong>.",
       "1": "Il livello di potenziamento massimo è 15."
     }
   },
   "constellation6": {
     "name": "Forma della bestia propizia",
     "description": {
-      "0": "Dopo aver colpito un avversario con Cannone Squamocuspide, il colpo rimbalza una volta tra gli avversari infliggendo <dendro>DAN da Dendro</dendro> pari a un 700% dell'ATT di Kinich."
+      "0": "Dopo aver colpito un avversario, il proiettile di Cannone Squamocuspide rimbalza tra gli avversari infliggendo <dendro>DAN da Dendro</dendro> pari a un 700% dell'ATT di Kinich.",
+      "1": "Se questa iterazione di Cannone Squamocuspide attiva i potenziamenti conferiti dal talento passivo Patto dello Spirito fiammeggiante o dalla costellazione Zampa della cicindela, anche l'attacco rimbalzante riceve i relativi potenziamenti."
     }
   }
 }
