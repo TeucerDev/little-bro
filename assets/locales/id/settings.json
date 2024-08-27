@@ -1,9 +1,6 @@
 {
   "title": "Pengaturan",
-  "languageCard": {
-    "selectLanguage": "Pilih Bahasa",
-    "languageFormat": "Bahasa: {{language}}"
-  },
+  "languageCard": { "languageFormat": "Bahasa: {{language}}" },
   "uploadCard": {
     "title": "Unggah Database",
     "replaceDatabase": "Perbarui Database",
@@ -13,7 +10,7 @@
       "jsonParse": "Tidak dapat mengurai file JSON.",
       "unknown": "Format file tidak dikenal.",
       "monaInvalid": "Format file Mona-Uranai tidak valid",
-      "goInvalid": "Format file cadangan LB tidak valid."
+      "goInvalid": "Format file cadangan GO tidak valid."
     },
     "dbSource": "Sumber data:",
     "goodUpload": {
@@ -25,9 +22,9 @@
       "delNotInImport": "Hapus item yang tidak di impor"
     },
     "tooltip": {
-      "detectdup": "Temukan upgrade/duplikat di inventaris LB dan gabungkan impor ke dalam LB.",
-      "ignoreDup": "Jangan deteksi Upgrade/duplikat, impor ditambahkan di atas inventaris LB yang ada.",
-      "delNotInImport": "Asumsikan impor menjadi inventaris penuh.  Item dalam Inventaris LB yang tidak ada dalam impor akan dihapus.",
+      "detectdup": "Temukan upgrade/duplikat di inventaris GO dan gabungkan impor ke dalam GO.",
+      "ignoreDup": "Jangan deteksi Upgrade/duplikat, impor ditambahkan di atas inventaris GO yang ada.",
+      "delNotInImport": "Asumsikan impor menjadi inventaris penuh.  Item dalam Inventaris GO yang tidak ada dalam impor akan dihapus.",
       "keepNotInImport": "Asumsikan impor adalah inventaris parsial.  Tidak ada yang akan dihapus."
     }
   },

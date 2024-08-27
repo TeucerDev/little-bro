@@ -1,7 +1,7 @@
 {
   "name": "Kachina",
   "title": "Gesprenkeltes Rohgold",
-  "description": "",
+  "description": "Eine junge Kämpferin der Nanatzcayan, die den antiken Namen „Uthabiti“ erhielt. Eine gutmütige, entschlossene junge Frau, die stets an ihren Misserfolgen wächst.",
   "constellationName": "Ochotona Princeps",
   "auto": {
     "name": "Felsenbeißer",
@@ -42,7 +42,7 @@
     "name": "Los, kleiner Wirbelwind!",
     "description": {
       "0": "Kämpft gemeinsam mit dem vertrauenswürdigen kleinen Wirbelwind!",
-      "1": "Beschwört den kleinen Wirbelwind. Beim Auslösen durch Gedrückthalten beschwört Kachina den kleinen Wirbelwind und reitet auf ihm.",
+      "1": "Beschwört den kleinen Wirbelwind. Beim Auslösen durch Gedrückthalten wird Kachina den kleinen Wirbelwind beschwören und auf ihm reiten.",
       "2": "Nach dem Auslösen erhält Kachina 60 Nachtseelenpunkte und tritt in den Zustand des Nachtseelensegens ein.",
       "3": "<br/>",
       "4": "<strong>Nachtseelensegen – Kachina</strong>",
@@ -85,7 +85,7 @@
       "0": "Schlägt auf den Boden und verursacht <geo>Geo-Flächenschaden</geo> basierend auf Kachinas VTD und erzeugt daraufhin ein Superbohrfeld.",
       "1": "Das Superbohrfeld erhöht die Angriffsreichweite des kleinen Wirbelwinds sowie die Bewegungsgeschwindigkeit beim Reiten.",
       "2": "<br/>",
-      "3": "Beschört den kleinen Wirbelwind an ihre Seite, wenn beim Einsetzen dieser Fähigkeit Kachinas eigener kleiner Wirbelwind auf dem Feld ist.",
+      "3": "Beschwört den kleinen Wirbelwind an ihre Seite, wenn beim Einsetzen dieser Fähigkeit Kachinas eigener kleiner Wirbelwind bereits auf dem Feld ist.",
       "4": "<br/>",
       "5": "<i>So wie nervöse Künstler sich die Zuschauer gern als Holzpuppen vorstellen, stellt sich Kachina vor, dass ihre Gegner die schönsten Edelsteine wären, die man stolz nach Hause bringen und horten kann.</i>"
     },
@@ -111,7 +111,7 @@
   "passive1": {
     "name": "Gebirgsechos",
     "description": {
-      "0": "Erhöht Kachinas <geo>Geo-SCH-Bonus</geo> 12 s lang um 20 %, wenn ein Truppenmitglied in der Nähe „Nachtseelenaufbruch“ auslöst."
+      "0": "Erhöht Kachinas <geo>Geo-SCH-Bonus</geo> 12 s lang um 20 %, sobald ein Truppenmitglied in der Nähe „Nachtseelenaufbruch“ auslöst."
     }
   },
   "passive2": {
@@ -124,7 +124,7 @@
     "name": "Geschenk des Nachtreichs – Herz der Einheit",
     "description": {
       "0": "Nachdem ihre Nachtseelenpunkte aufgebraucht sind, kann Kachina zum Konsum von Phlogiston wechseln, um ihren Nachtseelensegen aufrechtzuerhalten.",
-      "1": "Bei Aufenthalt in einem Gebiet mit Phlogiston-Mechanismus in Natlan kann die Nachtseelen-Übertragung – Kachina verwendet werden. Wenn die aktuelle Figur gerade rennt, klettert, sich in einem Bewegungsmodus befindet, der durch bestimmte Talente ausgelöst wird, oder sich in einer bestimmten Höhe in der Luft befindet, wird beim Wechsel zu Kachina Folgendes ausgelöst: Kachina tritt in den Zustand des Nachtseelensegens ein und reitet auf dem <strong>kleinen Wirbelwind</strong>, wenn sie das Feld betritt. Außerdem erhält sie 30 Nachtseelenpunkte. 10 s Abklingzeit für das Auslösen der Nachtseelen-Übertragung.",
+      "1": "Bei Aufenthalt in einem Gebiet mit Phlogiston-Mechanismus in Natlan kann die Nachtseelen-Übertragung – Kachina verwendet werden. Wenn die aktuelle Figur gerade rennt, klettert, sich in einem Bewegungsmodus befindet, der durch bestimmte Talente ausgelöst wird, oder sich in einer bestimmten Höhe in der Luft befindet, wird beim Wechsel zu Kachina Folgendes ausgelöst: Kachina tritt in den Zustand des Nachtseelensegens ein und reitet auf dem <strong>kleinen Wirbelwind</strong>, wenn sie das Feld betritt. Außerdem erhält sie 30 Nachtseelenpunkte. 10 s Abklingzeit für das Auslösen der Nachtseelen-Übertragung innerhalb der eigenen Truppe.",
       "2": "<br/>",
       "3": "Außerdem verbraucht Kachina 90 % weniger Ausdauer, wenn sie beim Klettern in Natlan auf dem <strong>kleinen Wirbelwind</strong> reitet."
     }
@@ -138,7 +138,7 @@
   "constellation1": {
     "name": "Auch Kristallsplitter sind Edelsteine",
     "description": {
-      "0": "Wenn Kachina auf den <strong>kleinen Wirbelwind</strong> steigt oder von ihm absteigt, sammelt sie die Splitter in der Nähe ein, die durch die Reaktion Kristallisation erzeugt wurden.",
+      "0": "Wenn Kachina auf den <strong>kleinen Wirbelwind</strong> steigt oder von ihm absteigt, sammelt sie die Splitter in der Nähe ein, die durch die Reaktion „Kristallisation“ erzeugt wurden.",
       "1": "Wenn ein Truppenmitglied einen Splitter einsammelt, werden Kachina außerdem 3 Punkte Elementarenergie wiederhergestellt. Elementarenergie kann auf diese Weise einmal alle 5 s wiederhergestellt werden."
     }
   },

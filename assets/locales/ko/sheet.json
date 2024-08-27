@@ -34,8 +34,6 @@
     "skillPress": "원소 전투 스킬 사용 후 (짧은 터치)",
     "skillHold": "원소 전투 스킬 사용 후 (홀드)"
   },
-  "hits_one": "{{count}}회 명중",
-  "hits_other": "{{count}}회 명중",
   "lessEqPercentHP": "HP가 {{percent}}% 이하",
   "greaterPercentHP": "HP가 {{percent}}% 초과",
   "greaterEqPercentHP": "HP가 {{percent}}% 이상",
@@ -44,12 +42,6 @@
   "enemyLessEqPercentHP": "적의 HP가 {{percent}}% 이하",
   "enemyGreaterPercentHP": "적의 HP가 {{percent}}% 초과",
   "enemyGreaterEqPercentHP": "적의 HP가 {{percent}}% 이상",
-  "stack_one": "{{count}} 스택",
-  "stack_other": "{{count}} 스택",
-  "seconds_one": "{{count}}초",
-  "seconds_other": "{{count}}초",
-  "uses_one": "{{count}}회 사용",
-  "uses_other": "{{count}}회 사용",
   "afterDefeatEnemy": "적 처치 후",
   "afterSprint": "대시 후",
   "skillCDRed": "원소 전투 스킬 재사용 대시시간 감소",
@@ -145,8 +137,6 @@
     "atkInc": "공격력 증가량"
   },
   "teamBuff": "파티 버프",
-  "opponents_one": "{{count}} 마리",
-  "opponents_other": "{{count}} 마리",
   "dmgMult": {
     "normal": "일반 공격 피해량 계수",
     "charged": "강공격 피해량 계수",
@@ -173,12 +163,12 @@
   "immuneToElectroCharged": "<electrocharged>감전</electrocharged> 반응 피해 면역",
   "charOffField": "캐릭터가 대기상태",
   "attackAoeInc": "공격 범위 증가",
-  "members_one": "{{count}} 인",
-  "members_other": "{{count}} 인",
   "charOnField": "캐릭터가 필드 위에 나옴",
   "timeOnField": "필드 위에 나온 시간",
   "hpChange": "HP가 증가 혹은 감소 후",
   "afterHeal": "치유를 받은 후",
   "activeChar": "필드 위 캐릭터",
-  "otherHpChange": "파티원의 HP가 변화한 후"
+  "otherHpChange": "파티원의 HP가 변화한 후",
+  "reactionOp": { "overload": "<overloaded>과부하</overloaded> 반응 발동 후" },
+  "afterOverflow": "치유 회복량이 초과"
 }

@@ -43,7 +43,7 @@
     "name": "Caçador de Dossel: Montando nas Alturas",
     "description": {
       "0": "Usando suas habilidades de caçador de grandes presas, Kinich se move rapidamente ou ataca seus inimigos.",
-      "1": "Quando não há oponentes por perto, ele dispara um gancho e balança no ar, e a Recarga de sua Habilidade diminui em 60%. Quando um oponente está presente, dispara o gancho contra o oponente, se prende a ele e entra no estado Bênção do Espírito da Noite com 0 pontos de Espírito da Noite.",
+      "1": "Quando um oponente, ou objeto que pode ser atacado está por perto, dispara o gancho contra o oponente, se prende a ele e entra no estado Bênção do Espírito da Noite com 0 pontos de Espírito da Noite. Se não houver oponentes por perto, ele dispara um gancho e balança no ar, e a Recarga de sua Habilidade diminui em 60%. ",
       "2": "Pode manter pressionado. Ao manter pressionado, mira o gancho.",
       "3": "<br/>",
       "4": "<strong>Bênção do Espírito da Noite: Kinich</strong>",
@@ -51,10 +51,10 @@
       "6": "Nesse estado, Kinich se prende a um oponente próximo e faz um ataque variável:",
       "7": [
         " Usar um Ataque Normal fará um Disparo Circular contra o alvo preso de acordo com a direção atual de movimento, causando <dendro>Dano Dendro</dendro> com o alinhamento Espírito da Noite e gerando 3 pontos de Espírito da Noite. O Dano do Disparo Circular é considerado Dano de Habilidade Elemental.",
-        " Quando os pontos de Espírito da Noite estão no máximo, ele pode usar a Habilidade Elemental \"Canhão Perfurador Giratório\": consome todos os pontos de Espírito da Noite para causa <dendro>Dano Dendro</dendro> com o alinhamento Espírito da Noite. Quando mantém pressionado \"Canhão Perfurador Giratório\", é possível mirar no alvo. Após disparar, Kinich tentará se prender a seu alvo."
+        " Quando os pontos de Espírito da Noite estão no máximo, ele pode usar a Habilidade Elemental \"Canhão Perfurador Giratório\": consome todos os pontos de Espírito da Noite para causar <dendro>Dano Dendro</dendro> com o alinhamento Espírito da Noite. Quando mantém pressionado \"Canhão Perfurador Giratório\", é possível mirar no alvo. Após disparar, Kinich tentará se prender a seu alvo."
       ],
-      "8": "Enquanto estiver no estado Bênção do Espírito da Noite, depois que se prender a um inimigo ou atirar o Canhão Perfurador Giratório, gera um Ponto Cego ao lado do inimigo, e se Kinich entrar nele, regenerará 4 pontos de Espírito da Noite, removendo o Ponto Cego.",
-      "9": "Se a conexão do gancho quebrar por causa da distância, usar um Ataque Normal estabelecerá uma nova conexão com um oponente próximo antes de fazer um ataque giratório.",
+      "8": "Enquanto estiver no estado Bênção do Espírito da Noite, depois que se prender a um inimigo ou atirar o Canhão Perfurador Giratório, gera um Ponto Cego ao lado do inimigo, e se Kinich entrar nele, gerará 4 pontos de Espírito da Noite, removendo o Ponto Cego.",
+      "9": "Se a conexão do gancho quebrar devido à distância ou outro motivo, usar um Ataque Normal estabelecerá uma nova conexão com um oponente próximo antes de fazer um ataque giratório.",
       "10": "<br/>",
       "11": "<i>\"Tudo tem um custo. Sugiro você fazer uma oferta aceitável... O quê? Não, eu não aceito prestações.\"</i>"
     },
@@ -81,14 +81,14 @@
     "name": "Saúdem o Poderoso Dragão Soberano",
     "description": {
       "0": "Lança o poder do Dragão Soberano Poderoso Ajaw (limitada, condicional, restrita, contratual, parcial e temporariamente), causando<dendro>Dano Dendro em AdE</dendro> com alinhamento Espírito da Noite. Ajaw periodicamente lançará sua Respiração Draconiana, causando <dendro>Dano Dendro em AdE</dendro> com alinhamento Espírito da Noite.",
-      "1": "Ao lançar, se Kinich estiver no estado Bênção do Espírito da Noite, a duração da Bênção do Espírito da Noite é prolongada em 2s.",
+      "1": "Ao lançar, se Kinich estiver no estado Bênção do Espírito da Noite, a duração da Bênção do Espírito da Noite é prolongada em 1.7s.",
       "2": "<br/>",
       "3": "<i>\"Isso mesmo! Você está perante o Dragão Soberano K'uhul Ajaw! Se aproxime, se ajoelhe e beije meus pés!\"</i>"
     },
     "skillParams": {
       "0": "Dano de Habilidade",
-      "1": "Dano do Laser",
-      "2": "Duração do Dragão",
+      "1": "Dano da Respiração Draconiana",
+      "2": "Duração",
       "3": "Tempo de Recarga",
       "4": "Energia Elemental",
       "5": "",
@@ -107,21 +107,28 @@
   "passive1": {
     "name": "Preço da Desolação",
     "description": {
-      "0": "Quando está no estado Bênção do Espírito da Noite, os oponentes atingidos por Dano da Habilidade Elemental de Kinich entrarão no estado Desolação, e quando sofrerem Dano de Queimaduras ou Germinação, regenerarão 7 pontos de Espírito da Noite para ele. Os pontos de Espírito da Noite podem ser ganhos dessa forma uma vez a cada 0.8s. O estado de Desolação persistirá até que essa instância do estado Bênção do Espírito da Noite de Kinich acabe."
+      "0": "Quando está no estado Bênção do Espírito da Noite, os oponentes atingidos pela Habilidade Elemental de Kinich entrarão no estado Desolação, e quando sofrerem Dano de Queimaduras ou Germinação, regenerarão 7 pontos de Espírito da Noite para ele. Os pontos de Espírito da Noite podem ser ganhos dessa forma uma vez a cada 0.8s. O estado de Desolação persistirá até que essa instância do estado Bênção do Espírito da Noite de Kinich acabe."
     }
   },
   "passive2": {
     "name": "Contrato do Espírito Flamejante",
     "description": {
-      "0": "Quando um membro próximo da equipe ativa a Explosão do Espírito da Noite, Kinich ganha 1 acúmulo de Experiência do Caçador que dura 15s. Máximo de 2 acúmulos. Quando Kinich usa o Canhão Perfurador Giratório de <strong>Caçador de Dossel: Montando nas Alturas</strong>, todos os acúmulos serão consumidos, com cada um aumentando o Dano causado pelo disparo do Canhão em 320% do ATQ de Kinich."
+      "0": "Depois que um membro próximo da equipe ativa a Explosão do Espírito da Noite, Kinich ganha 1 acúmulo de Experiência do Caçador que dura 15s. Máximo de 2 acúmulos. Quando Kinich usa o Canhão Perfurador Giratório de <strong>Caçador de Dossel: Montando nas Alturas</strong>, todos os acúmulos serão consumidos, com cada um aumentando o Dano causado pelo disparo do Canhão em 320% do ATQ de Kinich."
     }
   },
   "passive3": {
     "name": "Presente do Reino da Noite: Pagamento Completo",
     "description": {
       "0": "Quando Kinich está no ar logo após o golpe no ar de <strong>Caçador de Dossel: Montando nas Alturas</strong>, pode consumir 10 de Flogisto para fazer outro ataque no ar.",
-      "1": "Quando estiver em uma área com um Dispositivo de Flogisto em Natlan, ele pode usar Transmissão do Espírito da Noite: Kinich. Quando o personagem ativo estiver correndo, em estados de movimento causados por Talentos específicos, ou numa certa altura no ar, mudar para Kinich ativará o seguinte: Kinich dispara uma Corda-gancho e balançará no ar. Kinich priorizará Selos da Grama como alvos para se prender. Ele pode usar Transmissão do Espírito da Noite uma vez a cada 10s.",
-      "2": "Quando estiver interagindo com Selos da Grama e outros itens que podem interagir com Yumkassauros, \"Caçador de Dossel: Montando nas Alturas\" será convertido em \"Mimésis Yumkassauro\", que faz interações com tais itens seguir regras aplicáveis a Yumkassauros, e que não farão \"Caçador de Dossel: Montando nas Alturas\" entrar em Recarga."
+      "1": "Quando estiver em uma área com um Dispositivo de Flogisto em Natlan, ele pode usar Transmissão do Espírito da Noite: Kinich. Quando o personagem ativo estiver correndo, em estados de movimento causados por Talentos específicos, ou no ar, mudar para Kinich ativará uma das seguintes ações de acordo com as circunstâncias:",
+      "2": [
+        " Quando puder interagir com Selo da Grama na sua direção: dispara uma Corda-gancho nele e se move.",
+        " Quando há um inimigo por perto e está no estado de combate: desencadeia Caçador de Dossel: Montando nas Alturas nesse inimigo."
+      ],
+      "3": "Caso contrário, Kinich dispara uma Corda-gancho e balançará no ar. Kinich priorizará Selos da Grama como alvos para se prender.",
+      "4": "Sua equipe pode usar Transmissão do Espírito da Noite uma vez a cada 10s.",
+      "5": "<br/>",
+      "6": "Quando estiver interagindo com Selos da Grama e outros itens que podem interagir com Yumkassauros, \"Caçador de Dossel: Montando nas Alturas\" será convertido em \"Mimésis Yumkassauro\", que faz interações com tais itens seguir regras aplicáveis a Yumkassauros, e que não farão \"Caçador de Dossel: Montando nas Alturas\" entrar em Recarga."
     }
   },
   "passive": {

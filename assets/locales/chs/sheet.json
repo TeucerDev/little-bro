@@ -30,8 +30,6 @@
     "burst": "使用元素爆发后",
     "skillOrBurst": "释放元素战技或元素爆发后"
   },
-  "hits_one": "命中{{count}}次",
-  "hits_other": "命中{{count}}次",
   "lessEqPercentHP": "生命值低于或等于{{percent}}%",
   "greaterPercentHP": "生命值高于{{percent}}%",
   "greaterEqPercentHP": "生命值高于或等于{{percent}}%",
@@ -40,12 +38,6 @@
   "enemyLessEqPercentHP": "敌人生命值低于或等于{{percent}}%",
   "enemyGreaterPercentHP": "敌人生命值高于{{percent}}%",
   "enemyGreaterEqPercentHP": "敌人生命值高于或等于{{percent}}%",
-  "stack_one": "{{count}}层",
-  "stack_other": "{{count}}层",
-  "seconds_one": "{{count}} 秒",
-  "seconds_other": "{{count}} 秒",
-  "uses_one": "{{count}}使用次数",
-  "uses_other": "{{count}}使用次数",
   "afterDefeatEnemy": "击败敌人后",
   "afterSprint": "冲刺后",
   "skillCDRed": "元素战技冷却时间减少",
@@ -91,10 +83,7 @@
     "dendro": "草元素伤害吸收量",
     "geo": "岩元素伤害吸收量",
     "none": "伤害吸收",
-    "max": {
-      "none": "护盾吸收量上限",
-      "pyro": "护盾对火元素伤害的吸收量上限"
-    }
+    "max": { "none": "护盾吸收量上限", "pyro": "护盾对火元素伤害的吸收量上限" }
   },
   "addlCharge": "额外使用次数",
   "conditional": "有条件的",
@@ -132,13 +121,9 @@
     "hydro": "触发<hydro>水元素相关</hydro>反应后",
     "electro": "触发<electro>雷元素相关</electro>反应后"
   },
-  "bonusScaling": {
-    "skill_": "元素战技额外倍率"
-  },
+  "bonusScaling": { "skill_": "元素战技额外倍率" },
   "energy": "能量",
   "teamBuff": "队伍加成",
-  "opponents_one": "{{count}} 个敌人",
-  "opponents_other": "{{count}} 个敌人",
   "dmgMult": {
     "normal": "普攻伤害倍率",
     "charged": "重击伤害倍率",

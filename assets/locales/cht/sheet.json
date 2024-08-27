@@ -21,7 +21,8 @@
     "dendro": "After dealing <dendro>Dendro DMG</dendro>",
     "normalEle": "After dealing Elemental DMG through a Normal Attack",
     "ele": "After dealing Elemental DMG",
-    "weakSpot": "After hitting an enemy Weak Spot with a Charged Shot"
+    "weakSpot": "After hitting an enemy Weak Spot with a Charged Shot",
+    "self": "受到敵人攻擊之後"
   },
   "eleAbsor": "Elemental Absorption",
   "absorDot": "Absorption DoT",
@@ -32,8 +33,6 @@
     "skillPress": "$t(afterUse.skill) ($t(press))",
     "skillHold": "$t(afterUse.skill) ($t(hold))"
   },
-  "hits_one": "{{count}} Hit",
-  "hits_other": "{{count}} Hits",
   "lessEqPercentHP": "HP less than or equal to {{percent}}%",
   "greaterPercentHP": "HP greater than {{percent}}%",
   "greaterEqPercentHP": "HP greater than or equal to {{percent}}%",
@@ -42,12 +41,6 @@
   "enemyLessEqPercentHP": "Enemy HP less than or equal to {{percent}}%",
   "enemyGreaterPercentHP": "Enemy HP greater than {{percent}}%",
   "enemyGreaterEqPercentHP": "Enemy HP greater than or equal to {{percent}}%",
-  "stack_one": "{{count}} Stack",
-  "stack_other": "{{count}} Stacks",
-  "seconds_one": "{{count}} Second",
-  "seconds_other": "{{count}} Seconds",
-  "uses_one": "{{count}} Use",
-  "uses_other": "{{count}} Uses",
   "afterDefeatEnemy": "After defeating an opponent",
   "afterSprint": "After Sprint",
   "skillCDRed": "Ele. Skill CD Reduction",
@@ -92,7 +85,9 @@
     "electro": "Electro DMG Absorption",
     "dendro": "Dendro DMG Absorption",
     "geo": "Geo DMG Absorption",
-    "none": "DMG Absorption"
+    "none": "DMG Absorption",
+    "increase": "增加護盾量",
+    "max": { "none": "最大護盾量" }
   },
   "addlCharge": "Additional charge",
   "conditional": "Conditional",
@@ -130,13 +125,9 @@
     "hydro": "After triggering a <hydro>Hydro-related</hydro> Elemental Reaction",
     "electro": "After triggering an <electro>Electro-related</electro> Elemental Reaction"
   },
-  "bonusScaling": {
-    "skill_": "Ele. Skill Bonus Scaling"
-  },
+  "bonusScaling": { "skill_": "Ele. Skill Bonus Scaling" },
   "energy": "Energy",
   "teamBuff": "Team Buff",
-  "opponents_one": "{{count}} Opponent",
-  "opponents_other": "{{count}} Opponents",
   "dmgMult": {
     "normal": "Normal Att. DMG Mult.",
     "charged": "Charged Att. DMG Mult.",
@@ -155,5 +146,11 @@
     "cryo": "Enemy is affected by <cryo>Cryo</cryo>"
   },
   "getElementalOrbParticle": "After picking up an Elemental Orb or Particle",
-  "notProtectedByShield": "While not protected by a shield"
+  "notProtectedByShield": "While not protected by a shield",
+  "percentCurrentHP": "目前生命值百分比",
+  "enerRegenPerHit": "每次攻擊回復的能量",
+  "interval": "時間間隔",
+  "immuneToElectroCharged": "對 <electrocharged>感電</electrocharged> 免疫",
+  "charOffField": "角色不在場上",
+  "otherHpChange": "在隊友的生命值變動後"
 }

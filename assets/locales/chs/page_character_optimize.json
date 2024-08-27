@@ -4,10 +4,7 @@
       "title": "等级假设",
       "desc": "修改主词条数值至某等级之上，但不改变副词条。"
     },
-    "assumptionLvl": {
-      "no": "无等级假设",
-      "lvl": "假设等级为{{lvl}}级"
-    },
+    "assumptionLvl": { "no": "无等级假设", "lvl": "假设等级为{{lvl}}级" },
     "title": "主词条筛选/配置"
   },
   "tcGraph": {
@@ -61,10 +58,6 @@
   "buildDropdownDesc": "减少生成的配装数量可以减少生成大量配装时的计算时间。",
   "threadDropdownDesc": "增加线程数可以加快速度，但是也会耗费更多CPU算力。",
   "noArtis": "哎呀！你似乎还没有在GO中添加圣遗物！你应该先在<1>圣遗物<1>页面中添加一些！",
-  "build_one": "<0>{{count}}</0> 组配装",
-  "build_other": "<0>{{count}}</0> 组配装",
-  "thread_one": "<0>{{count}}</0> 线程",
-  "thread_other": "<0>{{count}}</0> 线程",
   "targetSelector": {
     "selectOptTarget": "选择优化目标",
     "selectGraphTarget": "选择绘图目标",
@@ -72,10 +65,7 @@
     "selectBuildTarget": "选择一种配装限制条件"
   },
   "selectTargetFirst": "首先选择一个优化目标",
-  "generateButton": {
-    "cancel": "取消",
-    "generateBuilds": "生成配装"
-  },
+  "generateButton": { "cancel": "取消", "generateBuilds": "生成配装" },
   "removeBuildButton": "移除配装",
   "theorycraftButton": "理论分析",
   "currentlyEquippedBuild": "当前已装备的",
@@ -84,14 +74,9 @@
   "excludeArt": {
     "title_exclude": "排除的圣遗物",
     "title_tooltip": "添加圣遗物到该角色的排除列表，排除列表里的圣遗物在配装时将不会考虑。",
-    "excNum_one": "<0>{{count}}</0>件圣遗物已排除",
-    "excNum_other": "<0>{{count}}</0>件圣遗物已排除",
     "addExc": "添加圣遗物到该角色的排除列表",
     "selExc": "选择圣遗物以添加到该角色的排除列表",
     "deSelectExc": "点击圣遗物以从该角色的排除列表中移除",
-    "excludeArtifactTip": "如果排除了某件圣遗物，则该角色生成配装时不会使用该圣遗物。",
-    "excluded": "这件圣遗物已排除。",
-    "included": "这件圣遗物未排除。",
     "usingNum": "使用<1>{{totalStr}}</1>件已排除的圣遗物"
   },
   "excludeChar": {
@@ -101,8 +86,6 @@
       "disallow_All": "将以下所有角色从允许列表中移除"
     },
     "allowEquip": "允许使用来自这些的圣遗物",
-    "usingNumTot_one": "使用来自<3>{{count}}</3>位角色的<1>{{arts}}</1>件圣遗物",
-    "usingNumTot_other": "使用来自<3>{{count}}</3>位角色的<1>{{arts}}</1>件圣遗物",
     "tooltip": "添加其他角色到该角色的允许列表，在生成配装时，会考虑这些角色已装备的圣遗物。你可以在仅使用未装备圣遗物、自定义列表和使用所有圣遗物之间切换。",
     "chars": "角色",
     "artis": "圣遗物",
@@ -115,7 +98,5 @@
   },
   "buildCompleted": "配装完成",
   "notifyTooltip": "配装完成时发出声音，如果焦点不在本页面，还会显示提示。",
-  "bonusStats": {
-    "title": "增益状态"
-  }
+  "bonusStats": { "title": "增益状态" }
 }

@@ -47,14 +47,14 @@
       "3": "<strong>Bênção do Espírito da Noite: Mualani</strong>",
       "4": "Consome continuamente pontos de Espírito da Noite. Quando eles acabam ou quando a Habilidade é usada novamente, o estado Bênção do Espírito da Noite de Mualani acaba. O estado possui as seguintes características:",
       "5": [
-        " Monta a Prancha Tubarão, aumentando a Veloc. Mov. de Mualani. Mualani pode se mover na água e em Flogisto Líquido enquanto esse estado está ativo, e ela não sofrerá Dano do Flogisto Líquido.",
+        " Monta a Prancha Tubarão, aumentando a Veloc. Mov. e Resistência contra Interrupção de Mualani. Mualani pode se mover na água e em Flogisto Líquido enquanto esse estado está ativo, e ela não sofrerá Dano do Flogisto Líquido.",
         " Ataques Normais serão convertidos em Mordidas do Tubarão, causando <hydro>Dano Hydro</hydro> com alinhamento Espírito da Noite. As Mordidas do Tubarão podem ocorrer no ar. O Dano causado dessa forma é considerado Dano de Ataque Normal.",
         " Quando ela entra em contato com oponentes nesse estado, Mualani aplica \"Marcado como Presa\" neles e ganha 1 acúmulo de Impulso da Onda. Máximo de 3 acúmulos. É possível obter 1 acúmulo do mesmo inimigo uma vez a cada 0.7s."
       ],
       "6": "<br/>",
       "7": "<strong>Impulso da Onda e Marcado como Presa</strong>",
-      "8": "Quando Mualani usa Mordida do Tubarão, seu Dano causado aumenta baseado na quantidade de acúmulos de Impulso da Onda. Quando ela possui 3 acúmulos, um Ataque Normal usará ao invés disso a Mordida do Tubarão Gigante aumentando ainda mais seu Dano e removendo todos os acúmulos de Marcado como Presa.",
-      "9": "Quando Mordidas do Tubarão atingem oponentes, essa marca é removida e ela dispara Mísseis Tubarão em até 5 oponentes Marcados como Presa, causando Dano contra eles equivalente a essa instância de Mordida do Tubarão e removendo Marcado como Presa deles. Se mais de 1 oponente é alvo de Mordida do Tubarão e Míssil Tubarão, o Dano causado diminuirá com 28% sendo a redução máxima quando 3 oponentes são mirados.",
+      "8": "Quando Mualani usa Mordida do Tubarão, seu Dano causado aumenta baseado na quantidade de acúmulos de Impulso da Onda. Quando ela possui 3 acúmulos, um Ataque Normal usará ao invés disso a Mordida do Tubarão Gigante aumentando ainda mais seu Dano e removendo todos os acúmulos de Marcado como Presa ao atingir um inimigo.",
+      "9": "Quando Mordidas do Tubarão atingem oponentes, essa marca é removida e ela dispara Mísseis Tubarão em até 5 oponentes Marcados como Presa, causando Dano contra eles equivalente a essa instância de Mordida do Tubarão e removendo Marcado como Presa deles. Se mais de 1 oponente é alvo de Mordida do Tubarão e Míssil Tubarão, o Dano causado será 72% do Dano original quando atingir 3 oponentes.",
       "10": "<br/>",
       "11": "<i>Primeiro, Tubarão é um tubarão de água doce, bem como uma prancha. Segundo, ele não precisa comer, mas com certeza vai morder.</i>"
     },
@@ -80,7 +80,7 @@
   "burst": {
     "name": "Disparo da Tempestade Explosiva",
     "description": {
-      "0": "Dispara um Super Míssil Tubarão que rastreia os oponentes, causando <hydro>Dano Hydro em AdE</hydro> baseado na Vida Máxima de Mualani.",
+      "0": "Dispara um Super Míssil Tubarão que rastreia os oponentes, causando <hydro>Dano Hydro em AdE</hydro> com alinhamento Espírito da Noite baseado na Vida Máxima de Mualani.",
       "1": "<br/>",
       "2": "<i>Mualani nomeou eles como Mísseis de Tubarão por causa da combinação de água e fogo, deixando o nome mais parecido com fontes termais.</i>"
     },
@@ -106,20 +106,20 @@
   "passive1": {
     "name": "Flutuador de Água Doce Antitérmico",
     "description": {
-      "0": "Quando a Mordida do Tubarão atinge um oponente, ela gerará um Flutuador nas proximidades. Mualani restaurará 35 pontos de Espírito da Noite quando ela pegar um Flutuador que criou. Apenas 1 Flutuador pode ser criado dessa maneira durante em um estado da Bênção do Espírito da Noite."
+      "0": "Quando a Mordida do Tubarão atinge um oponente, ela gerará um Flutuador nas proximidades. Mualani restaurará 20 pontos de Espírito da Noite quando ela pegar um Flutuador. Apenas 2 Flutuadores podem ser criados dessa maneira durante um estado da Bênção do Espírito da Noite."
     }
   },
   "passive2": {
     "name": "Melhor Guia de Natlan",
     "description": {
-      "0": "Quando um membro próximo da equipe ativa uma Explosão do Espírito da Noite, Mualani ganha 1 acúmulo de Façanhas da Surfista que dura 20s. Máximo de 3 acúmulos. Quando ela usa <strong>Disparo da Tempestade Explosiva</strong>, Mualani remove todos os acúmulos e aumenta o Dano causado por Disparo da Tempestade Explosiva em 20%/30%/40% de sua Vida Máxima."
+      "0": "Depois que um membro próximo da equipe ativa uma Explosão do Espírito da Noite, Mualani ganha 1 acúmulo de Façanhas da Surfista que dura 20s. Máximo de 3 acúmulos. Quando ela usa <strong>Disparo da Tempestade Explosiva</strong>, Mualani remove todos os acúmulos e aumenta o Dano causado por Disparo da Tempestade Explosiva em 15%/30%/45% de sua Vida Máxima."
     }
   },
   "passive3": {
     "name": "Presente do Reino da Noite: Na Cresta e Fundo das Ondas",
     "description": {
       "0": "Depois que os pontos de Espírito da Noite de Mualani acabam, ela pode trocar para consumir Flogisto e manter sua Bênção do Espírito da Noite.",
-      "1": "Enquanto estiver em uma área com um Dispositivo de Flogisto em Natlan, ela pode usar Transmissão do Espírito da Noite: Mualani. Quando o personagem ativo estiver correndo, nadando ou em um modo de movimento causado por certos Talentos, ou estiver em uma certa altura no ar, o seguinte efeito será desencadeado quando trocar para Mualani: ela entrará no estado Bênção do Espírito da Noite e ganhará 40 pontos de Espírito da Noite. É possível desencadear essa Transmissão do Espírito da Noite uma vez a cada 10s.",
+      "1": "Enquanto estiver em uma área com um Dispositivo de Flogisto em Natlan, ela pode usar Transmissão do Espírito da Noite: Mualani. Quando o personagem ativo estiver correndo, nadando ou em um modo de movimento causado por certos Talentos, ou estiver em uma certa altura no ar, o seguinte efeito será desencadeado quando trocar para Mualani: ela entrará no estado Bênção do Espírito da Noite e ganhará 40 pontos de Espírito da Noite. Sua própria equipe pode desencadear essa Transmissão do Espírito da Noite uma vez a cada 10s.",
       "2": "<br/>",
       "3": "Além disso, quando estiver em Natlan, Mualani consumirá 75% a menos de pontos de Espírito da Noite ou de Flogisto ao se mover na água e em Flogisto Líquido durante Bênção do Espírito da Noite, e consumirá 35% a menos de pontos de Espírito da Noite enquanto estiver fazendo o mesmo fora de Natlan."
     }
@@ -133,16 +133,15 @@
   "constellation1": {
     "name": "O \"Meztli\" Relaxado...",
     "description": {
-      "0": "Os pontos de Espírito da Noite de Flogistos consumidos em Bênção do Espírito da Noite de Mualani são reduzidos em 30% quando não estiver em combate.",
-      "1": "Além disso, a primeira Mordida do Tubarão Gigante que ela fizer ao entrar em Bênção do Espírito da Noite e os Mísseis Tubarão dessa mordida causarão 60% a mais de Dano baseado em sua Vida Máxima. Esse Dano é sujeito as regras de redução de Dano de <strong>Tubarão Surfista das Ondas</strong>."
+      "0": "Depois de entrar na Bênção do Espírito da Noite, aumenta o Dano causado pela primeira vez que fizer Mordida do Tubarão Gigante e desencadear Míssil Tubarão. O valor do aumento de Dano é baseado em 66% da Vida Máxima de Mualani. Esse aumento de Dano está sujeito às regras de redução de Dano de <strong>Tubarão Surfista das Ondas</strong>.",
+      "1": "Além disso, quando não estiver em combate, reduz o consumo de pontos de Espírito da Noite e Flogisto do estado Bênção do Espírito da Noite em 30%."
     }
   },
   "constellation2": {
     "name": "Mualani, Força Total!",
     "description": {
-      "0": "Mualani ganha 2 acúmulos de Impulso da Onda de <strong>Tubarão Surfista das Ondas</strong> ao entrar no estado Bênção do Espírito da Noite. Ela ganhará 1 acúmulo ao obter um Flutuador.",
-      "1": "Além disso, fora a regeneração original de pontos de Espírito da Noite, Mualani obtém 25 pontos de Espírito adicionais nos 5s após obter um Flutuador.",
-      "2": "Deve primeiro ter desbloqueado o Talento Passivo \"Flutuador de Água Doce Antitérmico\"."
+      "0": "Ao entrar em Bênção do Espírito da Noite, Mualani obtém 2 acúmulos de Impulso da Onda de <strong>Tubarão Surfista das Ondas</strong>. Quando Mualani obtém um Flutuador, obtém 1 acúmulo de Impulso da Onda.",
+      "1": "Além disso, quando Mualani obter 2 Flutuadores em uma instância de Bênção do Espírito da Noite, regenerará 12 pontos de Espírito da Noite em 2s. Esse efeito requer que o Talento Passivo \"Flutuador de Água Doce Antitérmico\" esteja desbloqueado."
     }
   },
   "constellation3": {
@@ -155,7 +154,7 @@
   "constellation4": {
     "name": "Tubarãozinho Come Flutuadorzinho",
     "description": {
-      "0": "Mualani regenera 15 de Energia Elemental ao obter um Flutuador. Primeiro é necessário desbloquear o Talento Passivo \"Flutuador de Água Doce Antitérmico\".",
+      "0": "Mualani regenera 8 de Energia Elemental ao obter um Flutuador. Primeiro é necessário desbloquear o Talento Passivo \"Flutuador de Água Doce Antitérmico\".",
       "1": "Além disso, <strong>Disparo da Tempestade Explosiva</strong> causa 75% a mais de Dano."
     }
   },
@@ -169,7 +168,7 @@
   "constellation6": {
     "name": "Espírito do Povo das Termas",
     "description": {
-      "0": "O efeito de aumento de Dano da Constelação \"O 'Meztli' Relaxado...\" não pode ser mais desencadeado só uma vez no estado Bênção do Espírito da Noite."
+      "0": "Remove o limite original do efeito de aumento de Dano da Constelação \"O 'Meztli' Relaxado...\" só podia ser desencadeado uma vez por estado de Bênção do Espírito da Noite."
     }
   }
 }

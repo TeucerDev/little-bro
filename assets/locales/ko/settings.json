@@ -1,9 +1,6 @@
 {
   "title": "설정",
-  "languageCard": {
-    "selectLanguage": "언어 선택",
-    "languageFormat": "언어: {{language}}"
-  },
+  "languageCard": { "languageFormat": "언어: {{language}}" },
   "uploadCard": {
     "title": "데이터베이스 업로드",
     "replaceDatabase": "데이터베이스 덮어쓰기",
@@ -13,7 +10,7 @@
       "jsonParse": "JSON 파일을 해석 할 수 없습니다.",
       "unknown": "알 수 없는 파일 형식입니다.",
       "monaInvalid": "잘못된 Mona-Uranai 파일 형식",
-      "goInvalid": "잘못된 LB 백업 파일 형식"
+      "goInvalid": "잘못된 GO 백업 파일 형식"
     },
     "dbSource": "데이터 출처:",
     "goodUpload": {
@@ -25,8 +22,8 @@
       "delNotInImport": "가져오기에 포함되지 않은 아이템 삭제"
     },
     "tooltip": {
-      "detectdup": "LB 보관함과 가져오는 내용중에 강화되었거나 중복된 것들을 찾습니다.",
-      "ignoreDup": "강화되거나 중복된 것들을 찾지 않습니다. 가져오기한 것들은 LB 보관함의 상단에 추가됩니다.",
+      "detectdup": "GO 보관함과 가져오는 내용중에 강화되었거나 중복된 것들을 찾습니다.",
+      "ignoreDup": "강화되거나 중복된 것들을 찾지 않습니다. 가져오기한 것들은 GO 보관함의 상단에 추가됩니다.",
       "delNotInImport": "가져오기의 내용이 보관함 전체의 내용이라고 가정합니다. 가져오기에 포함되지 않은 것들은 삭제됩니다.",
       "keepNotInImport": "가져오기의 내용이 보관함의 일부라고 가정합니다. 아무것도 삭제되지 않습니다."
     }
@@ -62,5 +59,6 @@
       "enabled": "Silly Optimizer 활성화",
       "disabled": "Silly Optimizer 비활성화"
     }
-  }
+  },
+  "letsnow": "눈 내리기"
 }

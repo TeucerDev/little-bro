@@ -61,10 +61,6 @@
   "buildDropdownDesc": "최종 생성 조합 가짓수를 줄이면 조합 계산 시간을 줄일 수 있습니다.",
   "threadDropdownDesc": "쓰레드 개수를 늘리면 조합 생성 시간은 줄어들지만 CPU 파워를 좀 더 사용할 것입니다.",
   "noArtis": "웁스! GO에 성유물을 하나도 추가하지 않으셨습니다! <1>성유물</1> 페이지로 가셔서 성유물을 추가하셔야 합니다!",
-  "build_one": "<0>{{count}}</0> 조합",
-  "build_other": "<0>{{count}}</0> 조합",
-  "thread_one": "<0>{{count}}</0> 쓰레드",
-  "thread_other": "<0>{{count}}</0> 쓰레드",
   "targetSelector": {
     "selectOptTarget": "최적화 대상 선택",
     "selectGraphTarget": "도식화 대상 선택",
@@ -72,10 +68,7 @@
     "selectBuildTarget": "제한 조건 대상 선택"
   },
   "selectTargetFirst": "최적화 대상을 먼저 선택하세요",
-  "generateButton": {
-    "cancel": "취소",
-    "generateBuilds": "조합 생성"
-  },
+  "generateButton": { "cancel": "취소", "generateBuilds": "조합 생성" },
   "removeBuildButton": "조합 제거",
   "theorycraftButton": "이론 연구실",
   "currentlyEquippedBuild": "현재 사용중",
@@ -84,14 +77,9 @@
   "excludeArt": {
     "title_exclude": "재외된 성유물",
     "title_tooltip": "이 캐릭터의 제외 리스트에 성유물을 추가합니다. 이 리스트 내의 성유물은 조합 생성 시 고려되지 않습니다.",
-    "excNum_one": "<0>{{count}}</0>개의 성유물 제외됨",
-    "excNum_other": "<0>{{count}}</0>개의 성유물 제외됨",
     "addExc": "이 캐릭터의 제외 리스트에 성유물 추가",
     "selExc": "이 캐릭터의 제외 리스트에 추가할 성유물 선택",
     "deSelectExc": "제외 리스트에서 제거하기 위해선 해당 성유물을 클릭하세요",
-    "excludeArtifactTip": "성유물을 제외시키면 이 캐릭터의 조합 생성에 포함되지 않습니다.",
-    "excluded": "이 성유물은 제외되었습니다.",
-    "included": "이 성유물은 제외되지 않았습니다.",
     "usingNum": "<1>{{totalStr}}</1>개의 제외된 성유물 사용중",
     "button_txt": "성유물 제외"
   },
@@ -102,8 +90,6 @@
       "disallow_All": "모든 캐릭터를 허용 리스트에서 제거"
     },
     "allowEquip": "이 캐릭터의 성유물을 사용:",
-    "usingNumTot_one": "<3>{{count}}</3> 캐릭터의 <1>{{arts}}</1>개 성유물 사용",
-    "usingNumTot_other": "<3>{{count}}</3> 캐릭터의 <1>{{arts}}</1>개 성유물 사용",
     "tooltip": "캐릭터들을 허용 리스트에 추가합니다. 이 허용 리스트의 캐릭터들은 조합 생성에 사용됩니다. 또한 미착용 성유물만 사용하거나 사용자 정의 리스트, 그리고 모든 착용 및 미착용 성유물을 사용하도록 선택할 수 있습니다.",
     "chars": "캐릭터",
     "artis": "성유물",

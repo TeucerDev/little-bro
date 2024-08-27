@@ -59,11 +59,7 @@
   },
   "buildDropdownDesc": "Mengurangi jumlah build yang dihasilkan akan mengurangi waktu perhitungan build untuk build dalam jumlah besar.",
   "threadDropdownDesc": "Meningkatkan jumlah thread akan mempercepat waktu build, tetapi akan menggunakan lebih banyak daya CPU.",
-  "noArtis": "Ups! Sepertinya kamu belum menambahkan artefak ke LB!  Kamu harus membuka halaman <1>Artifacts</1> dan menambahkan beberapa!",
-  "build_one": "<0>{{count}}</0> Build",
-  "build_other": "<0>{{count}}</0> Build",
-  "thread_one": "<0>{{count}}</0> Thread",
-  "thread_other": "<0>{{count}}</0> Thread",
+  "noArtis": "Ups! Sepertinya kamu belum menambahkan artefak ke GO!  Kamu harus membuka halaman <1>Artifacts</1> dan menambahkan beberapa!",
   "targetSelector": {
     "selectOptTarget": "Pilih Target Optimisasi",
     "selectGraphTarget": "Pilih Target Grafik",
@@ -71,10 +67,7 @@
     "selectBuildTarget": "Pilih Target Build Constraint"
   },
   "selectTargetFirst": "Pilih Target Optimisasi terlebih dahulu",
-  "generateButton": {
-    "cancel": "Batal",
-    "generateBuilds": "Hasilkan Build"
-  },
+  "generateButton": { "cancel": "Batal", "generateBuilds": "Hasilkan Build" },
   "removeBuildButton": "Hapus Build",
   "theorycraftButton": "Theorycraft",
   "currentlyEquippedBuild": "Saat ini Digunakan",
@@ -83,14 +76,9 @@
   "excludeArt": {
     "title_exclude": "Kecualikan Artefak",
     "title_tooltip": "Tambahkan artefak ke daftar pengecualian karakter ini. Artefak dalam daftar pengecualian tidak akan dipertimbangkan untuk pembuatan build.",
-    "excNum_one": "<1>{{count}}</1> artefak dikecualikan",
-    "excNum_other": "<1>{{count}}</1> artefak dikecualikan",
     "addExc": "Tambahkan artefak ke daftar pengecualian karakter ini",
     "selExc": "Pilih artefak untuk ditambahkan ke daftar pengecualian karakter ini",
-    "deSelectExc": "Klik artefak untuk menghapusnya dari daftar pengecualian",
-    "excludeArtifactTip": "Mengecualikan artefak akan mencegah generator build menggunakannya untuk karakter ini.",
-    "excluded": "Artefak ini dikecualikan.",
-    "included": "Artefak ini tidak dikecualikan."
+    "deSelectExc": "Klik artefak untuk menghapusnya dari daftar pengecualian"
   },
   "excludeChar": {
     "title": "Izinkan Artefak yang Dilengkapi",
@@ -98,9 +86,7 @@
       "allow_all": "Tambahkan semua karakter ke daftar yang diizinkan",
       "disallow_All": "Hapus semua karakter dari daftar yang diizinkan"
     },
-    "allowEquip": "Izinkan menggunakan artefak dari",
-    "usingNumTot_one": "Menggunakan <1>{{arts}}</1> artefak dari <3>{{count}}</3> karakter",
-    "usingNumTot_other": "Menggunakan <1>{{arts}}</1> artefak dari <3>{{count}}</3> karakter"
+    "allowEquip": "Izinkan menggunakan artefak dari"
   },
   "buildCompleted": "Build Selesai",
   "notifyTooltip": "Mainkan suara saat build selesai dibuat. Juga akan menampilkan prompt alarm saat keluar tab."

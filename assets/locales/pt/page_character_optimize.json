@@ -60,22 +60,15 @@
   },
   "buildDropdownDesc": "Diminuir o número de Builds geradas diminuirá o tempo de processamento quando há um grande número de Builds.",
   "threadDropdownDesc": "Aumentar o número de threads usadas acelerará a Geração de Builds, mas usará mais processamento da CPU.",
-  "noArtis": "Opa! Parece que você ainda não adicionou nenhum artefato ao LB ainda. Você deveria ir à página <1>Artefatos</1> e adicionar alguns!",
-  "build_one": "<0>{{count}}</0> Build",
-  "build_other": "<0>{{count}}</0> Builds",
-  "thread_one": "<0>{{count}}</0> Thread",
-  "thread_other": "<0>{{count}}</0> Threads",
+  "noArtis": "Opa! Parece que você ainda não adicionou nenhum artefato ao GO ainda. Você deveria ir à página <1>Artefatos</1> e adicionar alguns!",
   "targetSelector": {
     "selectOptTarget": "Selecione um Objetivo de Otimização",
     "selectGraphTarget": "Selecione um Objetivo do Gráfico",
     "invalidTarget": "OBJETIVO INVÁLIDO",
-    "selectBuildTarget": "Selecione um Requisito para a Build"
+    "selectBuildTarget": "Selecione um requisito para a Build"
   },
   "selectTargetFirst": "Selecione um Objetivo de Otimização antes",
-  "generateButton": {
-    "cancel": "Cancelar",
-    "generateBuilds": "Gerar Builds"
-  },
+  "generateButton": { "cancel": "Cancelar", "generateBuilds": "Gerar Builds" },
   "removeBuildButton": "Remover Build",
   "theorycraftButton": "Theorycraft",
   "currentlyEquippedBuild": "Atualmente Equipada",
@@ -84,14 +77,9 @@
   "excludeArt": {
     "title_exclude": "Bloquear Artefatos",
     "title_tooltip": "Acrescente artefatos à lista de bloqueios deste personagem.  Artefatos na lista de bloqueios não serão considerados ao gerar Builds.",
-    "excNum_one": "<1>{{count}}</1> artefato está bloqueado",
-    "excNum_other": "<1>{{count}}</1> artefatos estão bloqueados",
     "addExc": "Adicionar artefato à lista de bloqueios deste personagem",
     "selExc": "Selecione o artefato para adicionar à lista de bloqueios",
     "deSelectExc": "Clique num artefato para tirá-lo da lista de bloqueios",
-    "excludeArtifactTip": "Bloquear um artefato impedirá o gerador de Builds de usá-lo para este personagem.",
-    "excluded": "Este artefato está bloqueado.",
-    "included": "Este artefato não está bloqueado.",
     "usingNum": "Usando <1>{{totalStr}}</1> artefato(s) bloqueado(s)",
     "button_txt": "Bloquear Artefatos",
     "excNum": {
@@ -106,8 +94,6 @@
       "disallow_All": "Tirar personagens visíveis da lista de permissão"
     },
     "allowEquip": "Permitir o uso de artefatos de",
-    "usingNumTot_one": "Usando <1>{{arts}}</1> artefato de <3>{{count}}</3> personagem",
-    "usingNumTot_other": "Usando <1>{{arts}}</1> artefato de <3>{{count}}</3> personagens",
     "tooltip": "Adicione personagens à lista de permissão deste personagem. Personagens na lista de permissão terão seus artefatos considerados na geração de builds. Também é possível alterar entre usar apenas artefatos desequipados, usar os de sua lista personalizada ou usar todos os artefatos equipados e desequipados.",
     "chars": "Personagens",
     "artis": "Artefatos",
@@ -124,9 +110,7 @@
   },
   "buildCompleted": "Build Concluída",
   "notifyTooltip": "Toca um som quando a geração de Build terminar. Também mostrará uma notificação caso esteja em outra aba.",
-  "bonusStats": {
-    "title": "Atributos Bônus"
-  },
+  "bonusStats": { "title": "Atributos Bônus" },
   "build": {
     "one": "<0>{{count}}</0> Build",
     "other": "<0>{{count}}</0> Builds"

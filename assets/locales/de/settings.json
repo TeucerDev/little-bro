@@ -1,9 +1,6 @@
 {
   "title": "Einstellungen",
-  "languageCard": {
-    "selectLanguage": "Sprache auswählen",
-    "languageFormat": "Sprache: {{language}}"
-  },
+  "languageCard": { "languageFormat": "Sprache: {{language}}" },
   "uploadCard": {
     "title": "Datenbank importieren",
     "replaceDatabase": "Datenbank ersetzen",
@@ -26,5 +23,17 @@
     "removed": "Entfernt:",
     "unchanged": "Unverändert:",
     "invalid": "Ungültig:"
-  }
+  },
+  "DatabaseCard": {
+    "title": "Datenbank",
+    "button": {
+      "download": "Herunterladen",
+      "copy": "Zwischenablage",
+      "delete": "Löschen",
+      "upload": "Hochladen",
+      "swap": "Wechseln"
+    },
+    "currentDB": "Aktuelle Datenbank"
+  },
+  "letsnow": "Lass es schneien!"
 }

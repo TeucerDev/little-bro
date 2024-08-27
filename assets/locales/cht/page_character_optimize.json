@@ -60,11 +60,7 @@
   },
   "buildDropdownDesc": "Decreasing the number of generated build will decrease build calculation time for large number of builds.",
   "threadDropdownDesc": "Increasing the number of threads will speed up build time, but will use more CPU power.",
-  "noArtis": "Oops! It looks like you haven't added any artifacts to LB yet! You should go to the <1>Artifacts</1> page and add some!",
-  "build_one": "<0>{{count}}</0> Build",
-  "build_other": "<0>{{count}}</0> Builds",
-  "thread_one": "<0>{{count}}</0> Thread",
-  "thread_other": "<0>{{count}}</0> Threads",
+  "noArtis": "Oops! It looks like you haven't added any artifacts to GO yet! You should go to the <1>Artifacts</1> page and add some!",
   "targetSelector": {
     "selectOptTarget": "Select an Optimization Target",
     "selectGraphTarget": "Select a Graph Target",
@@ -72,10 +68,7 @@
     "selectBuildTarget": "Select a Build Constraint Target"
   },
   "selectTargetFirst": "Select an Optimization Target first",
-  "generateButton": {
-    "cancel": "取消",
-    "generateBuilds": "Generate Builds"
-  },
+  "generateButton": { "cancel": "取消", "generateBuilds": "Generate Builds" },
   "removeBuildButton": "Remove Build",
   "theorycraftButton": "Theorycraft",
   "currentlyEquippedBuild": "Currently Equipped",
@@ -84,14 +77,9 @@
   "excludeArt": {
     "title_exclude": "Excluded Artifacts",
     "title_tooltip": "Add artifacts to this character's exclusion list. Artifacts in the exclusion list will not be considered for build generation.",
-    "excNum_one": "<0>{{count}}</0> artifact is excluded",
-    "excNum_other": "<0>{{count}}</0> artifacts are excluded",
     "addExc": "Add artifact to this character's exclusion list",
     "selExc": "Select artifact to add to this character's exclusion list",
     "deSelectExc": "Click on an artifact to remove it from the exclusion list",
-    "excludeArtifactTip": "Excluding an artifact will prevent the build generator from using it for this character.",
-    "excluded": "This artifact is excluded.",
-    "included": "This artifact is not excluded.",
     "usingNum": "Using <1>{{totalStr}}</1> excluded artifact(s)",
     "button_txt": "Exclude Artifacts"
   },
@@ -102,8 +90,6 @@
       "disallow_All": "Remove all shown characters from the allow list"
     },
     "allowEquip": "Allow using artifacts from",
-    "usingNumTot_one": "Using <1>{{arts}}</1> artifacts from <3>{{count}}</3> character",
-    "usingNumTot_other": "Using <1>{{arts}}</1> artifacts from <3>{{count}}</3> characters",
     "tooltip": "Add characters to this character's allow list. Characters in the allow list will be considered for build generation. You can also toggle between using only unequipped artifacts, your custom allow list, and using all equipped and unequipped artifacts.",
     "chars": "Characters",
     "artis": "Artifacts",
@@ -116,7 +102,5 @@
   },
   "buildCompleted": "Build Completed",
   "notifyTooltip": "Play a sound when builds finish generating. Will also show an alarm prompt when tabbed out.",
-  "bonusStats": {
-    "title": "Bonus Stats"
-  }
+  "bonusStats": { "title": "Bonus Stats" }
 }
