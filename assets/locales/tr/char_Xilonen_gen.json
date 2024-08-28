@@ -1,0 +1,197 @@
+{
+  "name": "Xilonen",
+  "title": "",
+  "description": "",
+  "constellationName": "",
+  "auto": {
+    "name": "Ehecatl'ın Kükreyişi",
+    "fields": {
+      "normal": {
+        "0": "<strong>Normal Saldırı</strong>",
+        "1": "En fazla 3 hızlı saldırı yapar."
+      },
+      "charged": {
+        "0": "<strong>Yüklü Saldırı</strong>",
+        "1": "Belirli bir miktar Dayanıklılık tüketerek ileri doğru bir tekme savurur."
+      },
+      "plunging": {
+        "0": "<strong>Havadan Saldırı</strong>",
+        "1": "Havadayken dalışa geçerek yere vurur ve Xilonen'in Savunmasına göre yoluna çıkan düşmanlara Alan Hasarı verir."
+      },
+      "nightsoul": {
+        "0": "<strong>Gece Ruhunun Lütfu: Keskin Paten</strong>",
+        "1": "Gece Ruhunun Lütfu etkinken Xilonen Keskin Paten moduna girer. Bu moddayken Xilonen Normal Saldırı yaptığında patenleriyle en fazla 4 tekme savurur ve Yüklü Saldırı yapamaz.",
+        "2": "Bu moddayken Normal ve Havadan Saldırıları Savunmasına göre gerçekleşir ve diğer elementlerin tesiriyle değişemeyecek şekilde <geo>Toprak Hasarı</geo> verir."
+      }
+    },
+    "skillParams": {
+      "0": "1 Vuruş Hasarı",
+      "1": "2 Vuruş Hasarı",
+      "2": "3 Vuruş Hasarı",
+      "3": "Yüklü Saldırı Hasarı",
+      "4": "Yüklü Saldırı Dayanıklılık Maliyeti",
+      "5": "Havadan Saldırı Hasarı",
+      "6": "Havadan Saldırı Hasarı (Alçaktan/Yüksekten)",
+      "7": "Keskin Paten 1 Vuruş Hasarı",
+      "8": "Keskin Paten 2 Vuruş Hasarı",
+      "9": "Keskin Paten 3 Vuruş Hasarı",
+      "10": "Keskin Paten 4 Vuruş Hasarı",
+      "11": "",
+      "12": "",
+      "13": "",
+      "14": "",
+      "15": ""
+    }
+  },
+  "skill": {
+    "name": "Yohual Pençesi",
+    "description": {
+      "0": "Tutku dolu ritimler tüm ulusta yankılansın! Xilonen hızlı dövüşmek için keskin ekipmanlarını kuşanarak belirli bir mesafe ileriye fırlar ve Savunmasına göre Gece Ruhu tesirli <geo>Toprak Hasarı</geo> verir.",
+      "1": "Xilonen bundan sonra 45 Gece Ruhu puanı kazanarak Gece Ruhunun Lütfu durumuna girer. Bu durumdayken Xilonen Keskin Paten moduna geçer.",
+      "2": "<br/>",
+      "3": "<strong>Örnek Kaydı</strong>",
+      "4": "Xilonen'in, diğer grup üyelerinin Element Türlerine göre Ses Manzaraları oluşturabildiği 3 Örnekleyicisi vardır. Bunları etkinleştirdiğinde yakındaki düşmanların karşılık gelen Element Dirençlerini düşürür.",
+      "5": "Her Örnekleyicideki ilk Örnek Kaydı <geo>Toprak</geo> elementidir ve <pyro>Ateş</pyro>/<hydro>Su</hydro>/<cryo>Buz</cryo>/<electro>Elektrik</electro> elementlerinden olan her bir grup üyesi için 1 <geo>Toprak</geo> Örnekleyicisi karşılık gelen elemente dönüşür.",
+      "6": "Xilonen Gece Ruhunun Lütfu durumundayken taşıdığı <geo>Toprak</geo> Örnek Kayıtları devamlı olarak aktif kalır. \"Netotiliztli'nin Yankıları\" Pasif Yeteneğinin kilidi açıldığında Xilonen bu Yeteneğin etkilerini tetikleyerek kendine Gece Ruhu puanı yenileyebilir. Gece Ruhu puanı en üst seviyeye ulaştığında tüm Gece Ruhu puanlarını tüketir ve 15 saniyeliğine elindeki 3 Örnek Kaydını etkinleştirir.",
+      "7": "Örnek Kayıtları etkinken yakındaki düşmanların karşılık gelen Element Dirençleri azalır. Aynı Element Türüne ait Örnek Kayıtları birikmez. Xilonen, bu etkileri alanda değilken de tetikleyebilir.",
+      "8": "<br/>",
+      "9": "<strong>Gece Ruhunun Lütfu: Xilonen</strong>",
+      "10": "Devamlı olarak Gece Ruhu puanı tüketir. Puanlar tükendiğinde ya da tekrar kullanıldığında mevcut Gece Ruhunun Lütfu durumu sona erer. Bu durumun şu etkileri vardır:",
+      "11": [
+        "Keskin Paten durumuna geçerek Xilonen'in Hareket Hızı ve tırmanma hızını artırır, tırmanırken Oselo Formuna geçerek yüksek hızlı atlayışlar gerçekleştirebilir.",
+        "Xilonen'in Gece Ruhunun Lütfu şu kısıtlamalara sahiptir: Bu durumdayken Xilonen'in Gece Ruhu puanlarının 9 saniyelik bir zaman sınırı vardır. Bu sınır aşıldığında Gece Ruhu puanları derhal tükenir."
+      ],
+      "12": "<br/>",
+      "13": "Xilonen, Gece Ruhunun Lütfu durumundayken Gece Ruhu puanları tükendiğinde artık \"Netotiliztli'nin Yankıları\" Pasif Yeteneği ile Gece Ruhu puanı üretemez.",
+      "14": "<br/>",
+      "15": "<i>Mücevher işleme ile müzik yapmak arasında benzer ortak prensipler vardır: Saf olmayanları filtrele ve yalnızca en parlak olanları tut.",
+      "16": "Fakat Xilonen ikisini de çok sever, onları ayırt etmez!</i>"
+    },
+    "skillParams": {
+      "0": "Atılma Hasarı",
+      "1": "Element Direnci Azalması",
+      "2": "Örnek Kaydı Etkinleşme Süresi",
+      "3": "Gece Ruhu Puanı Süre Sınırı",
+      "4": "Gece Ruhu Puanı Sınırı",
+      "5": "BS",
+      "6": "",
+      "7": "",
+      "8": "",
+      "9": "",
+      "10": "",
+      "11": "",
+      "12": "",
+      "13": "",
+      "14": "",
+      "15": ""
+    }
+  },
+  "burst": {
+    "name": "Oselo Ritmi!",
+    "description": {
+      "0": "Filojiston Stereo Mikseri (Taşınabilir Versiyon) tam güçte etkinleştirerek Xilonen'in Savunmasına göre Gece Ruhu tesirli <geo>Toprak Alan Hasarı</geo> verir.",
+      "1": "<br/>",
+      "2": "Ayrıca sahip olduğu farklı Örnek Kayıtlarına göre şu etkileri tetikler:",
+      "3": [
+        "Element Dönüşümü geçirmiş en az 2 Örnek Kaydı olduğunda Xilonen, Coşkulu ritim çalarak belirli aralıklarla yakındaki aktif karakterleri Savunmasına göre iyileştirir.",
+        "Element Dönüşümü geçirmiş Örnek Kaydı 2'den az olduğunda Xilonen, Ateşli ritim çalarak iki farklı melodi daha ekler ve Savunmasına göre Gece Ruhu tesirli <geo>Toprak Alan Hasarı</geo> verir."
+      ],
+      "4": "<br/>",
+      "5": "<i>\"Tamam, bir mola vakti geldi!\"",
+      "6": "\"Sorun değil, bu kısmı kaydettim bile. Üzerine ritim eklediğimizde nasıl olacak bakalım!</i>"
+    },
+    "skillParams": {
+      "0": "Beceri Hasarı{param1:F1P} Savunma",
+      "1": "Sürekli İyileştirme",
+      "2": "Eklenen Melodi Hasarı",
+      "3": "BS",
+      "4": "Enerji Maliyeti",
+      "5": "",
+      "6": "",
+      "7": "",
+      "8": "",
+      "9": "",
+      "10": "",
+      "11": "",
+      "12": "",
+      "13": "",
+      "14": "",
+      "15": ""
+    }
+  },
+  "passive1": {
+    "name": "Netotiliztli'nin Yankıları",
+    "description": {
+      "0": "Gece Ruhunun Lütfu durumundayken Xilonen'in Normal ve Havadan Saldırıları, mevcut Örnek Kaydı türüne göre şu güçlendirmeleri kazanır:",
+      "1": [
+        "Element Dönüşümüne girmiş en az 2 Örnek Kaydı olduğu zaman bir düşmana vurduğunda 35 Gece Ruhu puanı verir. Her 0,1 saniyede bir tetiklenebilir.",
+        "Element Dönüşümüne girmiş Örnek Kaydı 2'den az olduğunda verilen Hasar %30 artar."
+      ]
+    }
+  },
+  "passive2": {
+    "name": "Taşınabilir Zırhlı Kılıf",
+    "description": {
+      "0": "Gece Ruhunun Lütfu durumundayken Xilonen'in Gece Ruhu puanı en yüksek seviyeye ulaştığında Gece Ruhu Patlamasına eş değer bir etki tetikler. Bu etki her 14 saniyede bir tetiklenebilir.",
+      "1": "Ayrıca yakındaki grup üyeleri bir Gece Ruhu Patlaması tetiklediğinde 15sn boyunca Xilonen'in Savunması %20 artar."
+    }
+  },
+  "passive3": {
+    "name": "Gece Diyarının Armağanı: Döküm Ateşinin Lütfu",
+    "description": {
+      "0": "Xilonen, Gece Ruhu puanları tükendiğinde Filojiston harcayarak Gece Ruhunun Lütfu durumunda kalmaya devam eder.",
+      "1": "Xilonen, Natlan'da Filojiston Mekanikleri bulunan bir bölgedeyken \"Gece Ruhu Aktarımı: Xilonen\" kullanabilir. Aktif karakter depar atarken, tırmanırken, belirli Yeteneklerden kaynaklı bir hareket modundayken veya havada belirli bir yükseklikteyken Xilonen'e geçildiğinde şu etkiler tetiklenir: Xilonen, Gece Ruhunun Lütfu durumuna girer ve 20 Gece Ruhu puanı kazanır. Bu durumdayken Xilonen'in Gece Ruhu puanlarının 4 saniyelik bir zaman sınırı olur, bundan sonra tüm Gece Ruhu puanları derhal tüketilir. Xilonen bu süre içerisinde <strong>Yohual Pençesi</strong> yeteneğini kullandığında Gece ruhu puanı zaman sınırı 9 saniyeye uzatılır. Gece Ruhu Aktarımı kendi takımın tarafından 10 saniyede bir tetiklenebilir.",
+      "2": "<br/>",
+      "3": " Ayrıca Xilonen Natlan'da Gece Ruhunun Lütfu durumundayken tırmandığında Dayanıklılık tüketmez."
+    }
+  },
+  "constellation1": {
+    "name": "Yıllık İzin",
+    "description": {
+      "0": "Xilonen Gece Ruhunun Lütfu durumundayken tükettiği Gece Ruhu puanı ve Filojiston %30 azalır, Gece Ruhu puanı zaman sınırı %45 uzar.",
+      "1": "Ayrıca Xilonen'in Örnek Kayıtları etkinken yakındaki karakterlerin müdahale dirençleri de artar."
+    }
+  },
+  "constellation2": {
+    "name": "Chiucue Miksi",
+    "description": {
+      "0": "Xilonen'in Örnek Kayıtları etkinken yakındaki tüm grup üyeleri, kendi Element Türlerine denk gelen aktif Örnek Kayıtlara göre şu etkileri kazanır:",
+      "1": [
+        "<geo>Toprak</geo>: Kritik Oranı +%30.",
+        "<pyro>Ateş</pyro>: Saldırı +%40.",
+        "<hydro>Su</hydro>: Maks. Can +%40.",
+        "<cryo>Buz</cryo>: Kritik Hasar +%50.",
+        "<electro>Elektrik</electro>: 20 Enerji yeniler, Element Patlaması Bekleme Süresi 5sn kısalır."
+      ]
+    }
+  },
+  "constellation3": {
+    "name": "Tonalpohualli Döngüsü",
+    "description": {
+      "0": "<strong>Yohual Pençesi</strong> seviyesini 3 artırır.",
+      "1": "Maksimum yükseltme seviyesi 15'tir."
+    }
+  },
+  "constellation4": {
+    "name": "Suchitl Transı",
+    "description": {
+      "0": "Xilonen <strong>Yohual Pençesi</strong> kullandıktan sonra yakındaki tüm grup üyelerine 15sn boyunca Görkem Lütfu etkisi verir. Görkem Lütfu alan karakterlerin Normal, Yüklü ve Havadan Saldırı Hasarı, Xilonen'in Savunmasının %65'i kadar artar. Bu etki 6 kere tetiklendiğinde veya süre sona erdiğinde iptal olur.",
+      "1": "Birden fazla düşmana isabet ettiğinde tetiklenmeler vurulan düşman sayısına göre hesap edilir. Görkem Lütfuna sahip tüm grup üyeleri için tetiklenme sayısı ayrı hesaplanır."
+    }
+  },
+  "constellation5": {
+    "name": "Tlaltecuhtli Geçişi",
+    "description": {
+      "0": "<strong>Oselo Ritmi!</strong> Seviyesini 3 artırır.",
+      "1": "Maksimum yükseltme seviyesi 15'tir."
+    }
+  },
+  "constellation6": {
+    "name": "Ölümsüz Gece Karnavalı",
+    "description": {
+      "0": "Xilonen, Gece Ruhunun Lütfu durumundayken depar attığında, zıpladığında ve Normal ya da Havadan Saldırı yaptığında Ölümsüz Gece Kutsaması kazanır. Bu durumdayken Gece Ruhunun Lütfu sınırlamalarını yok sayar, 5sn boyunca Normal ve Havadan Saldırılarının verdiği Hasar artar.",
+      "1": "Bu süre boyunca Gece Ruhunun Lütfu süre sınırının geri sayımı dondurulur. Xilonen'in Gece Ruhu puanları, Filojistonu ve Dayanıklılığı azalmaz, Gece Ruhu puanı en üst sınıra ulaştığında Gece Ruhunun Lütfu durumu da sona ermez. Ayrıca Xilonen Gece Ruhunun Lütfu durumundayken Normal ve Havadan Saldırı Hasarı, Savunmasının %300'ü kadar artar.",
+      "2": "Xilonen her 15 saniyede 1 Ölümsüz Gece Kutsaması kazanabilir."
+    }
+  }
+}
