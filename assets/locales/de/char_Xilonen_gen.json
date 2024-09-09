@@ -1,8 +1,8 @@
 {
   "name": "Xilonen",
-  "title": "",
-  "description": "",
-  "constellationName": "",
+  "title": "Im Feuer geschmiedete Seele",
+  "description": "Als Namenschmiedin der Nanatzcayan ist sie besonders geschickt darin, ein gutes Gleichgewicht zwischen der schweren Verantwortung ihres Berufs und einem angenehmen Leben zu finden.",
+  "constellationName": "Panthera Ocelota",
   "auto": {
     "name": "Ehecatls Gebrüll",
     "fields": {
@@ -103,10 +103,10 @@
     "skillParams": {
       "0": "Fähigkeits-SCH",
       "1": "Fortlaufende Heilung",
-      "2": "SCH zusätzlicher Takt",
-      "3": "Abklingzeit",
-      "4": "Elementarenergie",
-      "5": "",
+      "2": "Dauer des wogenden Rhythmus",
+      "3": "SCH zusätzlicher Takt",
+      "4": "Abklingzeit",
+      "5": "Elementarenergie",
       "6": "",
       "7": "",
       "8": "",
@@ -146,8 +146,11 @@
     }
   },
   "passive": {
-    "name": "",
-    "description": {}
+    "name": "Reise durch die Gebirge",
+    "description": {
+      "0": "Stellt sich beim Auslösen der Nachtseelen-Übertragung 10 Punkte Phlogiston wieder her und erhält den Effekt „Brennende Verfolgung“: Erhöht die Bewegungs-GSW aller eigenen Truppenmitglieder 10 s lang um 15 %.",
+      "1": "Der Effekt „Brennende Verfolgung“ ist nicht stapelbar."
+    }
   },
   "constellation1": {
     "name": "Dem sorglosen Schlafen gewidmete Urlaubstage",

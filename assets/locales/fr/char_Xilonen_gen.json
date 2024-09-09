@@ -1,7 +1,7 @@
 {
   "name": "Xilonen",
-  "title": "???",
-  "description": "",
+  "title": "Âme forgée par les vives flammes",
+  "description": "Une forgeuse-nomenclatrice des Nanatzcayens. Elle est particulièrement douée pour trouver l'équilibre entre les lourdes responsabilités de son travail et son envie de mener une vie agréable.",
   "constellationName": "Panthera Ocelota",
   "auto": {
     "name": "Cri d'Ehecatl",
@@ -46,7 +46,7 @@
   "skill": {
     "name": "Griffure de Yohual",
     "description": {
-      "0": "Que les rythmes de la passion résonnent à travers le pays ! Xilonen enfile un équipement de combat à grande vitesse et se rue en avant sur une certaine distance pour infliger des <geo>DGT Géo</geo> infusés de noctâme selon sa DÉF.",
+      "0": "Que les rythmes de la passion résonnent à travers la nation ! Xilonen enfile un équipement de combat à grande vitesse et se rue en avant sur une certaine distance pour infliger des <geo>DGT Géo</geo> infusés de noctâme selon sa DÉF.",
       "1": "Après utilisation, Xilonen obtient 45 pts de noctâme et entre dans l'état Bénédiction noctâme, état pendant lequel elle passe en mode Roulette de patin.",
       "2": "<br/>",
       "3": "<strong>Échantillons sources</strong>",
@@ -103,10 +103,10 @@
     "skillParams": {
       "0": "DGT compétence",
       "1": "Soins continus",
-      "2": "DGT battement supplémentaire",
-      "3": "Temps de recharge",
-      "4": "Énergie élémentaire",
-      "5": "",
+      "2": "Durée de rythme exubérant",
+      "3": "DGT battement supplémentaire",
+      "4": "Temps de recharge",
+      "5": "Énergie élémentaire",
       "6": "",
       "7": "",
       "8": "",
@@ -146,8 +146,11 @@
     }
   },
   "passive": {
-    "name": "",
-    "description": {}
+    "name": "Course à travers les montagnes",
+    "description": {
+      "0": "Déclencher une transmission noctâme restaure 10 pts de phlogistique et accorde l'effet Poursuite bouillonnante : augmente la VIT de déplacement de vos personnages dans l'équipe de 15 % pendant 10 s.",
+      "1": "L'effet Poursuite bouillonnante ne se cumule pas."
+    }
   },
   "constellation1": {
     "name": "Phrase sabbatique",

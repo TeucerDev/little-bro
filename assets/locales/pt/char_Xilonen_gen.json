@@ -1,7 +1,7 @@
 {
   "name": "Xilonen",
-  "title": "",
-  "description": "",
+  "title": "Fogo Ardente Forja a Alma",
+  "description": "Uma Forjadora de Nome de Nanatzcayan, ela é especialmente habilidosa em encontrar um bom equilíbrio entre as pesadas responsabilidades de seu trabalho e viver bem.",
   "constellationName": "Panthera Ocelota",
   "auto": {
     "name": "Rugido de Ehecatl",
@@ -12,7 +12,7 @@
       },
       "charged": {
         "0": "<strong>Ataque Carregado</strong>",
-        "1": "Cosome uma certa quantidade de Stamina para fazer um chute em frente."
+        "1": "Consome uma certa quantidade de Stamina para fazer um chute em frente."
       },
       "plunging": {
         "0": "<strong>Ataque Imersivo</strong>",
@@ -71,7 +71,7 @@
       "0": "Dano de Investida",
       "1": "Diminuição de RES Elemental",
       "2": "Duração de Ativação da Amostra da Origem",
-      "3": "Limite d Tempo de Pontos de Espírito da Noite",
+      "3": "Limite de Tempo de Pontos de Espírito da Noite",
       "4": "Limite de Pontos de Espírito da Noite",
       "5": "Tempo de Recarga",
       "6": "",
@@ -89,7 +89,7 @@
   "burst": {
     "name": "Ponto Ocelotlicue!",
     "description": {
-      "0": "Ativa o Mixer Estéreo de Flogisto (Edição Portátil) na potência máxima, causando <geo>Dano Geo em AdE</geo> com base na DEF de Xilonen.",
+      "0": "Ativa o Mixer Estéreo de Flogisto (Edição Portátil) na potência máxima, causando <geo>Dano Geo em AdE</geo> com alinhamento Espírito da Noite com base na DEF de Xilonen.",
       "1": "<br/>",
       "2": "Além disso, desencadeia os seguintes efeitos com base nos tipos de Amostra da Origem:",
       "3": [
@@ -103,10 +103,10 @@
     "skillParams": {
       "0": "Dano de Habilidade",
       "1": "Cura Contínua",
-      "2": "Dano da Batida Adicional",
-      "3": "Tempo de Recarga",
-      "4": "Energia Elemental",
-      "5": "",
+      "2": "Duração do Ritmo Solta a Alegria",
+      "3": "Dano da Batida Adicional",
+      "4": "Tempo de Recarga",
+      "5": "Energia Elemental",
       "6": "",
       "7": "",
       "8": "",
@@ -146,8 +146,11 @@
     }
   },
   "passive": {
-    "name": "",
-    "description": {}
+    "name": "Corrida pelas Montanhas",
+    "description": {
+      "0": "Ativar a Transmissão do Espírito da Noite restaurará 10 de Flogisto e concederá o efeito Perseguição Flamejante: Aumenta a Veloc. Mov. dos membros do seu grupo em 15% por 10s.",
+      "1": "Perseguição Flamejante não pode ser acumulada."
+    }
   },
   "constellation1": {
     "name": "Férias Sabáticas",

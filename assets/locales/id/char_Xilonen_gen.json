@@ -1,7 +1,7 @@
 {
   "name": "Xilonen",
-  "title": "???",
-  "description": "",
+  "title": "Ardent Flames Forge the Soul",
+  "description": "Seorang Pengukir Marga Nanatzcayan yang sangat terampil dalam mencari keseimbangan antara beban kerja yang berat dan hidup dengan nyaman.",
   "constellationName": "Panthera Ocelota",
   "auto": {
     "name": "Ehecatl's Roar",
@@ -103,10 +103,10 @@
     "skillParams": {
       "0": "DMG Skill",
       "1": "Pemulihan Berkelanjutan",
-      "2": "DMG Ketukan Tambahan",
-      "3": "Cooldown",
-      "4": "Konsumsi Energy",
-      "5": "",
+      "2": "Durasi Ebullient Rhythm",
+      "3": "DMG Ketukan Tambahan",
+      "4": "Cooldown",
+      "5": "Konsumsi Energy",
       "6": "",
       "7": "",
       "8": "",
@@ -146,8 +146,11 @@
     }
   },
   "passive": {
-    "name": "",
-    "description": {}
+    "name": "Racing Through the Mountains",
+    "description": {
+      "0": "Saat memicu Nightsoul Transmission, memulihkan 10 Phlogiston dan mendapatkan efek Blazing Pursuit: Membuat Movement SPD anggota party sendiri meningkat 15% selama 10 detik.",
+      "1": "Efek Blazing Pursuit tidak dapat ditumpuk."
+    }
   },
   "constellation1": {
     "name": "Sabbatical Phrase",

@@ -1,7 +1,7 @@
 {
   "name": "Xilonen",
-  "title": "???",
-  "description": "",
+  "title": "Ardent Flames Forge the Soul",
+  "description": "A Name Engraver of the Nanatzcayan, she is especially skilled at finding a good balance between the heavy responsibilities of her job and living well.",
   "constellationName": "Panthera Ocelota",
   "auto": {
     "name": "Ehecatl's Roar",
@@ -103,10 +103,10 @@
     "skillParams": {
       "0": "Skill DMG",
       "1": "Continuous Healing",
-      "2": "Additional Beat DMG",
-      "3": "CD",
-      "4": "Energy Cost",
-      "5": "",
+      "2": "Ebullient Rhythm Duration",
+      "3": "Follow-Up Beat DMG",
+      "4": "CD",
+      "5": "Energy Cost",
       "6": "",
       "7": "",
       "8": "",
@@ -146,8 +146,11 @@
     }
   },
   "passive": {
-    "name": "",
-    "description": {}
+    "name": "Racing Through the Mountains",
+    "description": {
+      "0": "Triggering Nightsoul Transmission will restore 10 Phlogiston and will grant the Blazing Pursuit effect: Increase your own party members' Movement SPD by 15% for 10s.",
+      "1": "Blazing Pursuit cannot stack."
+    }
   },
   "constellation1": {
     "name": "Sabbatical Phrase",

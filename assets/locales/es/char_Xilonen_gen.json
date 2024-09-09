@@ -1,8 +1,8 @@
 {
   "name": "Xilonen",
-  "title": "",
-  "description": "",
-  "constellationName": "",
+  "title": "La Forjaalmas Candente",
+  "description": "Una maestra forjanombres de Nanatzcayan experta en encontrar el equilibrio entre el ajetreo del trabajo y una vida cómoda.",
+  "constellationName": "Panthera Ocelota",
   "auto": {
     "name": "Cacería punzante",
     "fields": {
@@ -103,10 +103,10 @@
     "skillParams": {
       "0": "Daño de habilidad",
       "1": "Curación continua",
-      "2": "Daño de pulso adicional",
-      "3": "TdE",
-      "4": "Energía Elemental",
-      "5": "",
+      "2": "Duración de melodía jubilosa",
+      "3": "Daño de pulso adicional",
+      "4": "TdE",
+      "5": "Energía Elemental",
       "6": "",
       "7": "",
       "8": "",
@@ -146,8 +146,11 @@
     }
   },
   "passive": {
-    "name": "",
-    "description": {}
+    "name": "Corriendo entre montañas",
+    "description": {
+      "0": "Al activar la Transmisión noctambular, recupera 10 pts. de flogisto y obtiene el efecto de “persiguellamas”, el cual aumenta la Vel. Movimiento de tus personajes del equipo en un 15% durante 10 s.",
+      "1": "El efecto de persiguellamas no se puede acumular."
+    }
   },
   "constellation1": {
     "name": "Letargo vacacional",
