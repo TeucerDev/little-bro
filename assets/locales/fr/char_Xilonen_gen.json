@@ -44,9 +44,9 @@
     }
   },
   "skill": {
-    "name": "Griffure de Yohual",
+    "name": "Scratch de Yohual",
     "description": {
-      "0": "Que les rythmes de la passion résonnent à travers la nation ! Xilonen enfile un équipement de combat à grande vitesse et se rue en avant sur une certaine distance pour infliger des <geo>DGT Géo</geo> infusés de noctâme selon sa DÉF.",
+      "0": "Que les rythmes de la passion résonnent à travers la nation ! Xilonen enfile ses patins de combat rapide et se rue en avant sur une certaine distance pour infliger des <geo>DGT Géo</geo> infusés de noctâme selon sa DÉF.",
       "1": "Après utilisation, Xilonen obtient 45 pts de noctâme et entre dans l'état Bénédiction noctâme, état pendant lequel elle passe en mode Roulette de patin.",
       "2": "<br/>",
       "3": "<strong>Échantillons sources</strong>",
@@ -87,9 +87,9 @@
     }
   },
   "burst": {
-    "name": "Rythme d'Ocelotlicue",
+    "name": "Rythme d'Ocelotlicue !",
     "description": {
-      "0": "Active le mixeur stéréo au phlogistique (version portable) à pleine puissance pour infliger des <geo>DGT Géo de zone</geo> infusés de noctâme selon la DÉF de Xilonen.",
+      "0": "Active la platine de mixage au phlogistique (version portable) à pleine puissance pour infliger des <geo>DGT Géo de zone</geo> infusés de noctâme selon la DÉF de Xilonen.",
       "1": "<br/>",
       "2": "De plus, les effets suivants se déclenchent selon les différents échantillons sources :",
       "3": [
@@ -98,7 +98,7 @@
       ],
       "4": "<br/>",
       "5": "<i>« Bon, faisons une pause !",
-      "6": "— Ça ira, j'ai enregistré ces battements il y a un moment. Voyons ce que ça donne si on mixe nos rythmes, hein ? »</i>"
+      "6": "— Ça ira, j'ai enregistré ces rythmes il y a un moment. Voyons ce que ça donne si on mixe nos tempos, hein ? »</i>"
     },
     "skillParams": {
       "0": "DGT compétence",
@@ -122,10 +122,10 @@
   "passive1": {
     "name": "Écho de Netotiliztli",
     "description": {
-      "0": "Pendant sa bénédiction noctâme, les attaques normales et plongeantes de Xilonen sont renforcées selon les différents échantillons sources :",
+      "0": "Pendant la bénédiction noctâme :",
       "1": [
-        " Si un minimum de 2 échantillons sources ont changé de type élémentaire : Xilonen obtient 35 pts de noctâme en touchant un ennemi, cet effet pouvant être déclenché une fois toutes les 0,1 s.",
-        " Si moins de 2 échantillons sources ont changé de type élémentaire : les DGT infligés augmentent de 30 %."
+        " Si un minimum de 2 échantillons sources de Xilonen ont changé de type élémentaire : elle obtient 35 pts de noctâme en touchant un ennemi avec une attaque normale ou plongeante, cet effet pouvant être déclenché une fois toutes les 0,1 s.",
+        " Si moins de 2 échantillons sources de Xilonen ont changé de type élémentaire : les DGT infligés par ses attaques normales et plongeantes augmentent de 30 %."
       ]
     }
   },
@@ -140,16 +140,15 @@
     "name": "Don de la nuit : Bénédiction des feux de forge",
     "description": {
       "0": "Après avoir épuisé ses points de noctâme, Xilonen change pour consommer du phlogistique afin de maintenir sa bénédiction noctâme.",
-      "1": "Dans une zone de Natlan avec des mécanismes phlogistiques, la transmission noctâme « Xilonen » peut être utilisée. Lorsque le personnage déployé sprinte, escalade, est en plein mouvement provoqué par une aptitude particulière ou est à une certaine hauteur dans les airs, le déploiement de Xilonen déclenche l'effet suivant : Xilonen entre dans l'état Bénédiction noctâme et obtient 20 pts de noctâme. Dans cet état, les points de noctâme de Xilonen ont une durée limite de 4 s, après quoi ils sont immédiatement épuisés, Xilonen pouvant cependant utiliser <strong>Griffure de Yohual</strong> pendant cette durée pour prolonger la durée de ses points de noctâme de 9 s. La transmission noctâme peut être déclenchée une fois toutes les 10 s par votre équipe.",
+      "1": "Dans une zone de Natlan avec des mécanismes phlogistiques, la transmission noctâme « Xilonen » peut être utilisée. Lorsque le personnage déployé sprinte, escalade, est en plein mouvement provoqué par une aptitude particulière ou est à une certaine hauteur dans les airs, le déploiement de Xilonen déclenche l'effet suivant : Xilonen entre dans l'état Bénédiction noctâme et obtient 20 pts de noctâme. Dans cet état, les points de noctâme de Xilonen ont une durée limite de 4 s, après quoi ils sont immédiatement épuisés, Xilonen pouvant cependant utiliser <strong>Scratch de Yohual</strong> pendant cette durée pour prolonger la durée de ses points de noctâme de 9 s. La transmission noctâme peut être déclenchée une fois toutes les 10 s par votre équipe.",
       "2": "<br/>",
       "3": "De plus, Xilonen ne consomme pas d'endurance lorsqu'elle escalade dans la région de Natlan pendant sa bénédiction noctâme."
     }
   },
   "passive": {
-    "name": "Course à travers les montagnes",
+    "name": "Tour de Tepeilhuitl",
     "description": {
-      "0": "Déclencher une transmission noctâme restaure 10 pts de phlogistique et accorde l'effet Poursuite bouillonnante : augmente la VIT de déplacement de vos personnages dans l'équipe de 15 % pendant 10 s.",
-      "1": "L'effet Poursuite bouillonnante ne se cumule pas."
+      "0": "Déclencher une transmission noctâme restaure 15 pts de phlogistique."
     }
   },
   "constellation1": {
@@ -162,35 +161,35 @@
   "constellation2": {
     "name": "Arrangement de Chiucue",
     "description": {
-      "0": "Lorsque les échantillons sources de Xilonen sont activés, tous les personnages de l'équipe à proximité ayant un type élémentaire correspondant obtiennent l'effet concerné :",
+      "0": "Les échantillons sources <geo>Géo</geo> que Xilonen possède restent activés. De plus, lorsque ses échantillons sources sont activés, tous les personnages de l'équipe à proximité ayant un type élémentaire correspondant obtiennent l'effet concerné :",
       "1": [
-        " <geo>Géo</geo> : augmente le taux CRIT de 30 %.",
-        " <pyro>Pyro</pyro> : augmente l'ATQ de 40 %.",
-        " <hydro>Hydro</hydro> : augmente les PV max de 40 %.",
-        " <cryo>Cryo</cryo> : augmente les DGT CRIT de 50 %.",
-        " <electro>Électro</electro> : restaure 20 pts d'énergie élémentaire et diminue le TdR des déchaînements élémentaires de 5 s."
+        " <geo>Géo</geo> : augmente les DGT infligés de 50 %.",
+        " <pyro>Pyro</pyro> : augmente l'ATQ de 45 %.",
+        " <hydro>Hydro</hydro> : augmente les PV max de 45 %.",
+        " <cryo>Cryo</cryo> : augmente les DGT CRIT de 60 %.",
+        " <electro>Électro</electro> : restaure 25 pts d'énergie élémentaire et diminue le TdR des déchaînements élémentaires de 6 s."
       ]
     }
   },
   "constellation3": {
     "name": "Boucle de Tonalpohualli",
     "description": {
-      "0": "Niveau d'aptitude <strong>Griffure de Yohual</strong> +3.",
+      "0": "Niveau d'aptitude <strong>Scratch de Yohual</strong> +3.",
       "1": "Niveau max : 15"
     }
   },
   "constellation4": {
     "name": "Transe de Suchitl",
     "description": {
-      "0": "Lorsque Xilonen a utilisé <strong>Griffure de Yohual</strong>, tous les personnages de l'équipe à proximité obtiennent l'effet Don fleuri pendant 15 s.",
-      "1": "Les DGT infligés par les attaques normales, chargées et plongeantes des personnages bénéficiant d'un don fleuri augmentent d'une valeur équivalant à 65 % de la DÉF de Xilone, cet effet étant annulé après avoir été déclenché 6 fois ou à la fin de sa durée.",
+      "0": "Lorsque Xilonen a utilisé <strong>Scratch de Yohual</strong>, tous les personnages de l'équipe à proximité obtiennent l'effet Don fleuri pendant 15 s.",
+      "1": "Les DGT infligés par les attaques normales, chargées et plongeantes des personnages bénéficiant d'un don fleuri augmentent d'une valeur équivalant à 65 % de la DÉF de Xilonen, cet effet étant annulé après avoir été déclenché 6 fois ou à la fin de sa durée.",
       "2": "En touchant plusieurs ennemis en même temps, un déclenchement est comptabilisé pour chaque ennemi touché. De plus, les déclenchements des dons fleuris des personnages de l'équipe sont calculés indépendamment."
     }
   },
   "constellation5": {
     "name": "Fondu enchaîné de Tlaltecuhtli",
     "description": {
-      "0": "Niveau d'aptitude <strong>Rythme d'Ocelotlicue</strong> +3.",
+      "0": "Niveau d'aptitude <strong>Rythme d'Ocelotlicue !</strong> +3.",
       "1": "Niveau max : 15"
     }
   },
@@ -198,8 +197,13 @@
     "name": "Carnaval de la nuit impérissable",
     "description": {
       "0": "Lorsque Xilonen bénéficie d'une bénédiction noctâme, elle obtient une bénédiction de la nuit impérissable lorsqu'elle sprinte, saute et utilise une attaque normale ou plongeante, ce qui lui permet d'ignorer les restrictions de sa bénédiction noctâme et d'augmenter les DGT infligés par ses attaques normales et plongeantes pendant 5 s.",
-      "1": "Pendant cette durée, le compte à rebours de la durée limite des points de noctâme de Xilonen s'arrête, ses points de noctâme, son phlogistique et son endurance ne diminuent plus, et sa bénédiction noctâme ne s'arrête plus lorsque ses points de noctâme atteignent le maximum. De plus, les DGT infligés par les attaques normales plongeante de Xilonen lorsqu'elle bénéficie d'une bénédiction noctâme augmentent d'une valeur équivalant à 300 % de sa DÉF.",
-      "2": "Une bénédiction de la nuit impérissable peut être obtenue une fois toutes les 15 s."
+      "1": "Pendant cette durée :",
+      "2": [
+        " Le compte à rebours de la durée limite des points de noctâme de Xilonen s'arrête, ses points de noctâme, son phlogistique et son endurance ne diminuent plus, et sa bénédiction noctâme ne s'arrête plus lorsque ses points de noctâme atteignent le maximum.",
+        " Les DGT infligés par les attaques normales et plongeantes de Xilonen lorsqu'elle bénéficie d'une bénédiction noctâme augmentent d'une valeur équivalant à 300 % de sa DÉF.",
+        " Xilonen soigne les PV de tous les personnages de l'équipe à proximité d'une valeur équivalant à 120 % de sa DÉF toutes les 1,5 s."
+      ],
+      "3": "Une bénédiction de la nuit impérissable peut être obtenue une fois toutes les 15 s."
     }
   }
 }

@@ -50,8 +50,8 @@
       "5": "A Bênção do Espírito da Noite de Kinich dura 10s e gera 2 pontos de Espírito da Noite por segundo.",
       "6": "Nesse estado, Kinich se prende a um oponente próximo e faz um ataque variável:",
       "7": [
-        " Usar um Ataque Normal fará um Disparo Circular contra o alvo preso de acordo com a direção atual de movimento, causando <dendro>Dano Dendro</dendro> com o alinhamento Espírito da Noite e gerando 3 pontos de Espírito da Noite. O Dano do Disparo Circular é considerado Dano de Habilidade Elemental.",
-        " Quando os pontos de Espírito da Noite estão no máximo, ele pode usar a Habilidade Elemental \"Canhão Perfurador Giratório\": consome todos os pontos de Espírito da Noite para causar <dendro>Dano Dendro</dendro> com o alinhamento Espírito da Noite. Quando mantém pressionado \"Canhão Perfurador Giratório\", é possível mirar no alvo. Após disparar, Kinich tentará se prender a seu alvo."
+        " Usar um Ataque Normal fará um Disparo Circular contra o alvo preso de acordo com a direção atual de movimento, causando <dendro>Dano Dendro</dendro> com o alinhamento de Espírito da Noite e gerando 3 pontos de Espírito da Noite. O Dano do Disparo Circular é considerado Dano de Habilidade Elemental.",
+        " Quando os pontos de Espírito da Noite estão no máximo, ele pode usar a Habilidade Elemental \"Canhão Perfurador Giratório\": consome todos os pontos de Espírito da Noite para causar <dendro>Dano Dendro</dendro> com o alinhamento de Espírito da Noite. Quando mantém pressionado \"Canhão Perfurador Giratório\", é possível mirar no alvo. Após disparar, Kinich tentará se prender a seu alvo."
       ],
       "8": "Enquanto estiver no estado Bênção do Espírito da Noite, depois que se prender a um inimigo ou atirar o Canhão Perfurador Giratório, gera um Ponto Cego ao lado do inimigo, e se Kinich entrar nele, gerará 4 pontos de Espírito da Noite, removendo o Ponto Cego.",
       "9": "Se a conexão do gancho quebrar devido à distância ou outro motivo, usar um Ataque Normal estabelecerá uma nova conexão com um oponente próximo e fará um Disparo Circular.",
@@ -80,7 +80,7 @@
   "burst": {
     "name": "Saúdem o Poderoso Dragão Soberano",
     "description": {
-      "0": "Lança o poder do Dragão Soberano Poderoso Ajaw (de forma limitada, condicional, restrita, contratual, parcial e temporária), causando <dendro>Dano Dendro em AdE</dendro> com alinhamento Espírito da Noite. Ajaw periodicamente lançará sua Respiração Draconiana, causando <dendro>Dano Dendro em AdE</dendro> com alinhamento Espírito da Noite.",
+      "0": "Lança o poder do Dragão Soberano Poderoso Ajaw (de forma limitada, condicional, restrita, contratual, parcial e temporária), causando <dendro>Dano Dendro em AdE</dendro> com alinhamento de Espírito da Noite. Ajaw periodicamente lançará sua Respiração Draconiana, causando <dendro>Dano Dendro em AdE</dendro> com alinhamento de Espírito da Noite.",
       "1": "Ao lançar, se Kinich estiver no estado Bênção do Espírito da Noite, a duração da Bênção do Espírito da Noite é prolongada em 1.7s.",
       "2": "<br/>",
       "3": "<i>\"Isso mesmo! Você está perante o Dragão Soberano K'uhul Ajaw! Se aproxime, se ajoelhe e beije meus pés!\"</i>"
@@ -134,8 +134,7 @@
   "passive": {
     "name": "Emissário Veloz",
     "description": {
-      "0": "A localização das <strong>Especialidades de Natlan</strong> próximos aparecerá no seu mini-mapa. Além disso, enquanto estiver em uma área com Dispositivo de Flogisto dentro de Natlan, interagir com alguns itens coletáveis concederá o efeito Perseguição Flamejante: Aumenta a Veloc. Mov. dos membros da sua equipe em 15% por 10s.",
-      "1": "Perseguição Flamejante não pode ser acumulada."
+      "0": "Quando estiver em uma área de Natlan com Dispositivos de Flogisto, interagir com alguns itens coletáveis aumentará a Veloc. Mov. dos membros da equipe em 15% por 10s. Além disso, exibe no mini-mapa o local das <strong>especialidades de Natlan</strong> próximas."
     }
   },
   "constellation1": {

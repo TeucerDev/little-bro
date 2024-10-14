@@ -21,7 +21,7 @@
       "nightsoul": {
         "0": "<strong>Nightsoul's Blessing: Blade Roller</strong>",
         "1": "When in the Nightsoul's Blessing state, Xilonen will enter the Blade Roller mode. While in this mode, Xilonen's Normal Attacks will allow her to perform up to 4 kicks using her roller blades, and she will be unable to use Charged Attacks.",
-        "2": "When she uses Normal and Plunging Attacks in this mode, they will switch to being based on her DEF, and she will deal <geo>Geo DMG</geo> that cannot be overridden."
+        "2": "When her Normal and Plunging Attacks are used in this mode, they will switch to being based on her DEF, and Xilonen will deal Nightsoul-aligned <geo>Geo DMG</geo> that cannot be overridden."
       }
     },
     "skillParams": {
@@ -50,19 +50,19 @@
       "1": "After using this, Xilonen will gain 45 Nightsoul points and enter the Nightsoul's Blessing state. In this state, she will shift to the Blade Roller mode.",
       "2": "<br/>",
       "3": "<strong>Source Samples</strong>",
-      "4": "Xilonen has 3 Samplers with her that can generate different Soundscapes based on her other party members' Elemental Types, decreasing nearby opponents' corresponding Elemental RES when activated.",
-      "5": "The initial recorded Source Sample within each Sampler will be <geo>Geo</geo>, and for each party member who is <pyro>Pyro</pyro>/<hydro>Hydro</hydro>/<cryo>Cryo</cryo>/<electro>Electro</electro>, 1 <geo>Geo</geo> Sampler will change to that corresponding Element.",
-      "6": "When Xilonen is in the Nightsoul's Blessing state, the <geo>Geo</geo> Source Sample she carries will remain active throughout. After unlocking her Passive Talent, \"Netotiliztli's Echoes,\" Xilonen can trigger said Passive Talent's effects to regenerate Nightsoul points for herself. When her Nightsoul points hit maximum, she will consume all her Nightsoul points and activate the 3 Source Samples she has on hand for 15s.",
+      "4": "Xilonen has 3 Samplers with her that can generate different Soundscapes based on her other party members' Elemental Types, decreasing nearby opponents' corresponding Elemental RES while active.",
+      "5": "The initial recorded Source Sample within each Sampler will be <geo>Geo</geo>, and for each party member who is <pyro>Pyro</pyro>/<hydro>Hydro</hydro>/<cryo>Cryo</cryo>/<electro>Electro</electro>, 1 <geo>Geo</geo> Sample will change to that corresponding Element.",
+      "6": "While Xilonen is in the Nightsoul's Blessing state, the <geo>Geo</geo> Source Sample she carries will always be active. After unlocking her Passive Talent, \"Netotiliztli's Echoes,\" Xilonen can trigger said Passive Talent's effects to regenerate Nightsoul points for herself. When her Nightsoul points hit the maximum, she will consume all her Nightsoul points and activate the 3 Source Samples she has on hand for 15s.",
       "7": "When the Source Samples are active, nearby opponents' corresponding Elemental RES will decrease. Source Sample effects of the same Elemental Type cannot stack. Xilonen can trigger these effects even when off-field.",
       "8": "<br/>",
       "9": "<strong>Nightsoul's Blessing: Xilonen</strong>",
-      "10": "Continuously consume Nightsoul points. When these points deplete or if used again, this Nightsoul's Blessing state will end. This state has the following traits:",
+      "10": "Continuously consume Nightsoul points. When these points are depleted or if used again, this Nightsoul's Blessing state will end. This state has the following traits:",
       "11": [
         "Switches to the Blade Roller mode, increasing Xilonen's Movement SPD and climbing speed, and she can perform high-speed leaps in Ocelot Form while climbing.",
-        "Xilonen's Nightsoul's Blessing has the following restrictions: When in this state, Xilonen's Nightsoul points have a 9s time limit. After you exceed this limit, her Nightsoul points will immediately deplete."
+        "Xilonen's Nightsoul's Blessing has the following restrictions: When in this state, Xilonen's Nightsoul points have a 9s time limit. After this limit passes, her Nightsoul points will immediately expire."
       ],
       "12": "<br/>",
-      "13": "After Xilonen's Nightsoul points have depleted while she is in the Nightsoul's Blessing state, she will no longer be able to generate Nightsoul points via the Passive Talent \"Netotiliztli's Echoes.\"",
+      "13": "After Xilonen's Nightsoul points have expired while she is in the Nightsoul's Blessing state, she will no longer be able to generate Nightsoul points via the Passive Talent \"Netotiliztli's Echoes.\"",
       "14": "<br/>",
       "15": "<i>In some ways, gem-craft and music-mixing share similar principles: Filtering out impurities and retaining only the most radiant things.",
       "16": "Xilonen isn't picky about the two, however. She enjoys both immensely, after all!</i>"
@@ -89,16 +89,16 @@
   "burst": {
     "name": "Ocelotlicue Point!",
     "description": {
-      "0": "Activates the Phlogiston Stereo Mixer (Portable Edition) at full power, dealing Nightsoul-aligned <geo>AoE Geo DMG</geo> based on Xilonen's DEF.",
+      "0": "Activates the Phlogiston Stereo DJ Controller (Portable) at full power, dealing Nightsoul-aligned <geo>AoE Geo DMG</geo> based on Xilonen's DEF.",
       "1": "<br/>",
       "2": "Additionally, she will trigger the following effects based on her different Source Samples:",
       "3": [
-        "If she has at least 2 Source Samples that have undergone Elemental Conversion, Xilonen will play an Ebullient rhythm, healing nearby active characters at intervals based on her DEF.",
-        "If she has less than 2 Source Samples that have undergone Elemental Conversion, Xilonen will start up an Ardent rhythm, which will play two additional beats that deal Nightsoul-aligned <geo>AoE Geo DMG</geo> based on her DEF."
+        "If she has at least 2 Source Samples that have had their Elemental Types changed, Xilonen will play an Ebullient rhythm, healing nearby active characters at intervals based on her DEF.",
+        "If she has fewer than 2 Source Samples that have had their Elemental Types changed, Xilonen will start up an Ardent rhythm, which will play two additional beats that deal Nightsoul-aligned <geo>AoE Geo DMG</geo> based on her DEF."
       ],
       "4": "<br/>",
       "5": "<i>\"Alright, time for a time-out!\"",
-      "6": "\"No worries, I recorded those beats just now. Let's see what we'll get when we mix our rhythms, shall we?\"</i>"
+      "6": "\"It's cool, I recorded those beats just now. Let's see what we get when we mix our rhythms!\"</i>"
     },
     "skillParams": {
       "0": "Skill DMG",
@@ -122,34 +122,33 @@
   "passive1": {
     "name": "Netotiliztli's Echoes",
     "description": {
-      "0": "While in the Nightsoul's Blessing state, Xilonen's Normal and Plunging Attacks gain the following buffs based on her current Source Sample types:",
+      "0": "While in the Nightsoul's Blessing state:",
       "1": [
-        "Should she have at least 2 Source Samples that have undergone Elemental Conversion: Gain 35 Nightsoul points upon hitting an opponent. Can be triggered once every 0.1s.",
-        "Should she have less than 2 Source Samples that have undergone Elemental Conversion: DMG dealt is increased by 30%."
+        "If Xilonen has at least 2 Source Samples that have had their Elemental Types changed, she gains 35 Nightsoul points when her Normal or Plunging Attacks hit opponents. Can be triggered once every 0.1s.",
+        "If Xilonen has fewer than 2 Source Samples that have had their Elemental Types changed, her Normal and Plunging Attacks deal 30% increased DMG."
       ]
     }
   },
   "passive2": {
     "name": "Portable Armored Sheath",
     "description": {
-      "0": "While in the Nightsoul's Blessing state, when Xilonen's Nightsoul points reach maximum, she will trigger an effect equal to that of her Nightsoul Burst. This effect can be triggered once every 14s.",
+      "0": "While in the Nightsoul's Blessing state, when Xilonen's Nightsoul points reach the maximum, she will trigger an effect equal to that of her Nightsoul Burst. This effect can be triggered once every 14s.",
       "1": "Additionally, when nearby party members trigger a Nightsoul Burst, Xilonen's DEF is increased by 20% for 15s."
     }
   },
   "passive3": {
     "name": "Night Realm's Gift: Blessing of Forge-Fire",
     "description": {
-      "0": "After her Nightsoul points are depleted, Xilonen will switch to consuming Phlogiston to maintain her Nightsoul's Blessing.",
-      "1": "While in an area with Phlogiston Mechanics within Natlan, she can use Nightsoul Transmission: Xilonen. When the active character is currently sprinting, climbing, in a movement mode caused by certain Talents, or at a certain height in the air, the following will trigger when switching to Xilonen: Xilonen will enter the Nightsoul's Blessing state and gain 20 Nightsoul points. In this situation, Xilonen's Nightsoul points have a 4s time limit, after which her Nightsoul points will be immediately depleted. After she uses <strong>Yohual's Scratch</strong> within this time limit, her Nightsoul point time limit will be extended by 9s. Nightsoul Transmission can be triggered once every 10s by your own team.",
+      "0": "After her Nightsoul points are fully depleted, Xilonen will switch to consuming Phlogiston to maintain her Nightsoul's Blessing.",
+      "1": "While in an area with Phlogiston Mechanics within Natlan, she can use Nightsoul Transmission: Xilonen. When the active character is currently sprinting, climbing, in a movement mode caused by certain Talents, or at a certain height in the air, the following will trigger when switching to Xilonen: Xilonen will enter the Nightsoul's Blessing state and gain 20 Nightsoul points. In this situation, Xilonen's Nightsoul points have a 4s time limit, after which her Nightsoul points will immediately expire. After she uses <strong>Yohual's Scratch</strong> within this time limit, her Nightsoul point time limit will be extended by 9s. Nightsoul Transmission can be triggered once every 10s by your own team.",
       "2": "<br/>",
       "3": "Additionally, while in Natlan, Xilonen will not consume Stamina when climbing while in the Nightsoul's Blessing state."
     }
   },
   "passive": {
-    "name": "Racing Through the Mountains",
+    "name": "Tour of Tepeilhuitl",
     "description": {
-      "0": "Triggering Nightsoul Transmission will restore 10 Phlogiston and will grant the Blazing Pursuit effect: Increase your own party members' Movement SPD by 15% for 10s.",
-      "1": "Blazing Pursuit cannot stack."
+      "0": "Triggering Nightsoul Transmission restores 15 Phlogiston."
     }
   },
   "constellation1": {
@@ -162,13 +161,13 @@
   "constellation2": {
     "name": "Chiucue Mix",
     "description": {
-      "0": "When Xilonen's Source Samples are active, all nearby party members will gain effects corresponding to the active Source Sample that matches their Elemental Type:",
+      "0": "Xilonen's <geo>Geo</geo> Source Samples will always remain active. Additionally, when her Source Samples activate, all nearby party members will gain effects corresponding to the active Source Sample that matches their Elemental Type:",
       "1": [
-        "<geo>Geo</geo>: CRIT Rate +30%.",
-        "<pyro>Pyro</pyro>: ATK +40%.",
-        "<hydro>Hydro</hydro>: Max HP +40%.",
-        "<cryo>Cryo</cryo>: CRIT DMG +50%.",
-        "<electro>Electro</electro>: Restore 20 Energy, Elemental Burst CD decreased by 5s."
+        "<geo>Geo</geo>: DMG dealt +50%.",
+        "<pyro>Pyro</pyro>: ATK +45%.",
+        "<hydro>Hydro</hydro>: Max HP +45%.",
+        "<cryo>Cryo</cryo>: CRIT DMG +60%.",
+        "<electro>Electro</electro>: Restore 25 Energy, decrease Elemental Burst CD by 6s."
       ]
     }
   },
@@ -183,7 +182,7 @@
     "name": "Suchitl's Trance",
     "description": {
       "0": "After Xilonen uses <strong>Yohual's Scratch</strong>, she will grant all nearby party members the Blooming Blessing effect for 15s.",
-      "1": "Characters with Blooming Blessing deal increased Normal, Charged, and Plunging Attack DMG based on 65% of Xilonen's DEF. This effect will be canceled after triggering 6 times or when the duration ends.",
+      "1": "Characters with Blooming Blessing deal 65% of Xilonen's DEF as increased Normal, Charged, and Plunging Attack DMG. This effect will be removed after triggering 6 times or when the duration ends.",
       "2": "When you hit more than one opponent, trigger counts will be consumed based on the number of opponents hit. The counts for each party member with Blooming Blessing are counted independently."
     }
   },
@@ -198,8 +197,13 @@
     "name": "Imperishable Night Carnival",
     "description": {
       "0": "When Xilonen is in the Nightsoul's Blessing state, when she sprints, leaps, or uses Normal or Plunging Attacks, she will gain Imperishable Night's Blessing, ignoring the limitations of her Nightsoul's Blessing state and increasing the DMG dealt by her Normal and Plunging Attacks for 5s.",
-      "1": "During this time, her Nightsoul's Blessing time limit countdown will be paused. Xilonen's Nightsoul points, Phlogiston, and Stamina will not decrease, and when her Nightsoul points reach maximum, her Nightsoul's Blessing state will not end either. Additionally, Xilonen will deal 300% of her DEF as increased Normal and Plunging Attack DMG while in the Nightsoul's Blessing state.",
-      "2": "She can gain 1 Imperishable Night's Blessing once every 15s."
+      "1": "During this time:",
+      "2": [
+        "Her Nightsoul's Blessing time limit countdown will be paused. Xilonen's Nightsoul points, Phlogiston, and Stamina will not decrease, and when her Nightsoul points reach the maximum, her Nightsoul's Blessing state will not end either.",
+        "Xilonen deals 300% of her DEF as increased Normal and Plunging Attack DMG while in the Nightsoul's Blessing state.",
+        "She heals nearby party members for 120% of her DEF every 1.5s."
+      ],
+      "3": "She can gain 1 Imperishable Night's Blessing once every 15s."
     }
   }
 }

@@ -1,0 +1,179 @@
+{
+  "name": "Ororon",
+  "title": "???",
+  "description": "",
+  "constellationName": "Hayalet Yarasa",
+  "auto": {
+    "name": "Ruh Meskeni Yıldırım Oku",
+    "fields": {
+      "normal": {
+        "0": "<strong>Normal Saldırı</strong>",
+        "1": "Arka arkaya en fazla 3 ok atar."
+      },
+      "charged": {
+        "0": "<strong>Yüklü Saldırı</strong>",
+        "1": "Daha isabetli ve daha yüksek Hasar veren bir <strong>Hedefli Atış</strong> yapar.",
+        "2": "Nişan alırken okun ucunda Elektrik enerjisi birikir. Tam yüklü bir ok yüksek miktarda <dendro>Elektrik Hasarı</dendro> verir.",
+        "3": "Ayrıca nişan almak için basılı tutulduğunda Ororon Ruh Seslenicisi durumuna girer ve bu durumdayken Gece Ruhu Grafitisi ile Gece Ruhu Mühürlerinden bilgi ve güç alabilir."
+      },
+      "plunging": {
+        "0": "<strong>Havadan Saldırı</strong>",
+        "1": "Havadayken yaylım ok atışı yapar ve dalışa geçerek yere vurur. Yere vurduğunda Alan Hasarı verir."
+      }
+    },
+    "skillParams": {
+      "0": "1 Vuruş Hasarı",
+      "1": "2 Vuruş Hasarı",
+      "2": "3 Vuruş Hasarı",
+      "3": "Hedefli Atış",
+      "4": "Tam Yüklü Hedefli Atış",
+      "5": "Havadan Saldırı Hasarı",
+      "6": "Havadan Saldırı Hasarı (Alçaktan/Yüksekten)",
+      "7": "",
+      "8": "",
+      "9": "",
+      "10": "",
+      "11": "",
+      "12": "",
+      "13": "",
+      "14": "",
+      "15": ""
+    }
+  },
+  "skill": {
+    "name": "Gece İpi",
+    "description": {
+      "0": "Ororon, Gece Rüzgarının Ustalarının kadim bir mistik tekniğini gece yarısı gölgesinin bir <strong>Ruh Özü</strong> olarak gösterir ve bunu düşmanına fırlatıp Gece Ruhu tesirli <electro>Elektrik Hasarı</electro> verir.",
+      "1": "Diğer düşmanlar yakındayken Ruh Özü onların arasında seker ve Gece Ruhu tesirli <electro>Elektrik Hasarı</electro> verir. Gece İpi her kullanıldığında her düşman yalnızca bir defa hedef olarak seçilebilir.",
+      "2": "3 defa sektikten sonra veya uygun hedef kalmadıysa Öz yok olur. Aynı anda Ororon tarafından oluşturulan sadece 1 Öz bulunabilir.",
+      "3": "<br/>",
+      "4": "<i>\"İnsanlar hep geleceği bilmek isterler ancak bunun nedeni henüz yapmaları gereken şeyi keşfedememeleri olabilir... Pardon, yine karmaşık şeyler söylemeye başladım...\"</i>"
+    },
+    "skillParams": {
+      "0": "Beceri Hasarı",
+      "1": "BS",
+      "2": "",
+      "3": "",
+      "4": "",
+      "5": "",
+      "6": "",
+      "7": "",
+      "8": "",
+      "9": "",
+      "10": "",
+      "11": "",
+      "12": "",
+      "13": "",
+      "14": "",
+      "15": ""
+    }
+  },
+  "burst": {
+    "name": "Karanlık Seslerin Yankıları",
+    "description": {
+      "0": "Ororon, Gece Ruhu tesirli <electro>Elektrik Alan Hasarı</electro> veren ve bir Süpersonik Özü çağırır.",
+      "1": "<br/>",
+      "2": "<strong>Süpersonik Özü</strong>",
+      "3": [
+        "Yakındaki düşmanları sürekli kışkırtarak saldırılarını kendine çeker.",
+        "Sürekli olarak döner ve Gece Ruhu tesirli <electro>Elektrik Hasarı</electro> veren sonik dalgalar ateşler."
+      ],
+      "4": "<br/>",
+      "5": "<i>Yeterince keski duyuları olanlar tüm şeylerden yayılan en ince sesleri bile duyabilirler. Bu sayede uzun ve ışıksız gecelerde bile yollarını kaybetmezler.</i>"
+    },
+    "skillParams": {
+      "0": "Etkinleştirme Hasarı",
+      "1": "Sonar Çarpışma Hasarı",
+      "2": "Süre",
+      "3": "BS",
+      "4": "Enerji Maliyeti",
+      "5": "",
+      "6": "",
+      "7": "",
+      "8": "",
+      "9": "",
+      "10": "",
+      "11": "",
+      "12": "",
+      "13": "",
+      "14": "",
+      "15": ""
+    }
+  },
+  "passive1": {
+    "name": "Gece Gölgesi Sinestezisi",
+    "description": {
+      "0": "Yakındaki bir grup üyesi bir Gece Ruhu Patlaması tetiklediğinde Ororon 40 Gece Ruhu puanı kazanır. Element Becerisini kullandıktan sonra 15 saniyeliğine yakındaki aktif karakterler <hydro>Su Hasarı</hydro> veya <electro>Elektrik Hasarı</electro> verdiğinde Ororon 5 Gece Ruhu puanı yeniler, bu etki 0,3 saniyede bir uygulanabilir. 15 saniyelik süresi boyunca 10 defa tetiklenebilir.",
+      "1": "<br/>",
+      "2": "Ayrıca yakındaki düşmanlar <electro>Elektrik Yüklü</electro> tepkimesinden Hasar aldıklarında veya yakındaki karakterler Gece Ruhu tesirli Hasar verdiğinde Ororon, 10 Gece Ruhu puanı tüketir (en az 10 Gece Ruhu puanı varsa), Gece Ruhunun Lütfu durumuna girer ve Süper Duyu etkisini tetikler. Bu etki, Bu etki, yakındaki en fazla 4 düşmana Saldırısının %130'u kadar Gece Ruhu tesirli <electro>Elektrik Hasarı</electro> verir, 1,8 saniyede bir tetiklenebilir.",
+      "3": "<br/>",
+      "4": "<strong>Gece Ruhunun Lütfu: Ororon</strong>",
+      "5": "Ororon'un Gece Ruhunun Lütfu durumu 6sn sürer."
+    }
+  },
+  "passive2": {
+    "name": "Suret Katalizörü",
+    "description": {
+      "0": "<strong>Gece İpi</strong> Element Becerisinin <strong>Ruh Özü</strong> bir düşmana isabet ettikten sonra Ororon 15 saniyeliğine Suret Mührü etkisi kazanır.",
+      "1": "<br/>",
+      "2": "<strong>Suret Mührü</strong>",
+      "3": "Yakındaki aktif karakter <hydro>Su Hasarı</hydro> veya <electro>Elektrik Hasarı</electro> verdiğinde bu karakter için 3 Enerji yenilenir. Ororon alanda değilse Ororon için de 3 Enerji yenilenir. Bu etki her 1 saniyede bir tetiklenebilir, etki süresi boyunca 3 defa tetiklenebilir."
+    }
+  },
+  "passive3": {
+    "name": "Gece Diyarının Armağanı: Akan Sis, Canlı Gölgeler",
+    "description": {
+      "0": "Natlan'da Filojiston Mekanikleri olan bir bölgedeyken Gece Ruhu Aktarımı: Ororon kullanabilir. Aktif karakter belirli Yeteneklerden kaynaklı bir hareket modundayken veya havada belirli bir yükseklikteyken Ororon'a geçildiğinde şu etkiler tetiklenir: Ororon yükseğe atlar. Gece Ruhu Aktarımı her 10 saniyede bir tetiklenebilir.",
+      "1": "<br/>",
+      "2": "Ayrıca sıçrama butonuna basılı tutulduğunda Ororon 75 Dayanıklılık tüketir ve atlar. Natlan'da Filojiston mekaniklerinin olduğu bir bölgedeyken, Ororon daha yükseğe sıçramak için öncelikle 5 Filojiston tüketir."
+    }
+  },
+  "passive": {
+    "name": "Yaşam Yeteneği",
+    "description": {}
+  },
+  "constellation1": {
+    "name": "Sisli Ormandaki İzler",
+    "description": {
+      "0": "<strong>Gece İpi</strong> Element Becerisinin <strong>Ruh Özü</strong> 2 defa daha sekebilir.",
+      "1": "Ayrıca <strong>Ruh Özü</strong> bir düşmana isabet ettikten sonra 12 saniyeliğine Gece Gelgiti etkisi uygular. Gece Gelgiti etkisindeki düşmanların Pasif Yetenek \"Gece Gölgesi Sinestezisi\" ile tetiklenen Süper Duyudan aldıkları Hasar %60 artar. Bu etkiyi tetiklemek için bu Pasif Yeteneğin açılmış olması gerekir."
+    }
+  },
+  "constellation2": {
+    "name": "Bal Şarabını Saklayan Ana Arı",
+    "description": {
+      "0": "<strong>Karanlık Seslerin Yankıları</strong> Element Patlamasını kullandıktan sonra Ororon 9 saniyeliğine Ruhsal Süperduyu etkisi kazanır.",
+      "1": "<strong>Ruhsal Süperduyu</strong>",
+      "2": "%12 <electro>Elektrik Hasarı Bonusu</electro> kazanır.",
+      "3": "Bu sürede Element Patlaması <strong>Karanlık Seslerin Yankıları</strong> veya <strong>Süpersonik Özü</strong> vurulan her bir fazladan düşman için Ororon %12 ek <electro>Elektrik Hasar Bonusu</electro> kazanır. Bu şekilde kazanılabilecek maksimum <electro>Elektrik Hasarı Bonusu</electro> %60 olur."
+    }
+  },
+  "constellation3": {
+    "name": "Tünemiş Yarasanın Ruh Kafesi",
+    "description": {
+      "0": "<strong>Karanlık Seslerin Yankıları</strong> Seviyesini 3 artırır.",
+      "1": "Maksimum yükseltme seviyesi 15'tir."
+    }
+  },
+  "constellation4": {
+    "name": "Gece Rüzgarının Sırları Misali",
+    "description": {
+      "0": "Element Patlaması <strong>Karanlık Seslerin Yankıları</strong> ile çağırılan <strong>Süpersonik Özü</strong> %25 daha hızlı döner."
+    }
+  },
+  "constellation5": {
+    "name": "Ruh İçin Bir Hediye",
+    "description": {
+      "0": "<strong>Gece İpi</strong> Seviyesini 3 artırır.",
+      "1": "Maksimum yükseltme seviyesi 15'tir."
+    }
+  },
+  "constellation6": {
+    "name": "Derin Pınarların Kasidesi",
+    "description": {
+      "0": "Pasif Yetenek Gece Gölgesi Sinestezisi ile Süper Duyu tetiklendikten sonra 9 saniyeliğine aktif karakterinin Saldırısı %10 artar. En fazla 3 kademe birikir, her kademenin süresi ayrıca hesaplanır.",
+      "1": "Ayrıca, Element Patlaması <strong>Karanlık Seslerin Yankıları</strong> kullandığında \"Süper Duyu\" olarak sayılan bir saldırı tetiklenir ve orijinal Hasarın %200'ü kadar Hasar verir.",
+      "2": "Öncelikle \"Gece Gölgesi Sinestezisi\" Pasif Yeteneğinin açılmış olması gerekir."
+    }
+  }
+}

@@ -1,0 +1,180 @@
+{
+  "name": "Ororon",
+  "title": "???",
+  "description": "",
+  "constellationName": "Cung Dạ Bức",
+  "auto": {
+    "name": "Mũi Tên Linh Hồn",
+    "fields": {
+      "normal": {
+        "0": "<strong>Tấn Công Thường</strong>",
+        "1": "Thực hiện tối đa 3 lần bắn tên liên tiếp."
+      },
+      "charged": {
+        "0": "<strong>Trọng Kích</strong>",
+        "1": "<strong>Ngắm bắn</strong> chuẩn hơn, sát thương cao hơn.",
+        "2": "Khi ngắm bắn, nguyên tố Lôi sẽ tích tụ trên mũi tên. Mũi tên mang nguyên tố Lôi sẽ gây <electro>Sát Thương Nguyên Tố Lôi</electro>.",
+        "3": "Ngoài ra, khi ngắm chuẩn, Ororon sẽ vào trạng thái \"Linh Giác\", nhận được hiệu ứng thông tin và sức mạnh, tương ứng với \"Graffiti Linh Hồn\" và \"Hoa Văn Linh Hồn\"."
+      },
+      "plunging": {
+        "0": "<strong>Tấn Công Khi Đáp</strong>",
+        "1": "Bắn mưa tên liên tiếp xuống mặt đất, đồng thời lao nhanh xuống đất và gây sát thương phạm vi khi chạm đất."
+      }
+    },
+    "skillParams": {
+      "0": "Sát Thương Lần 1",
+      "1": "Sát Thương Lần 2",
+      "2": "Sát Thương Lần 3",
+      "3": "Ngắm Bắn",
+      "4": "Tụ Lực Ngắm Bắn",
+      "5": "Sát Thương Khi Đáp",
+      "6": "Sát Thương Khi Đáp Từ Độ Cao Thấp/Cao",
+      "7": "",
+      "8": "",
+      "9": "",
+      "10": "",
+      "11": "",
+      "12": "",
+      "13": "",
+      "14": "",
+      "15": ""
+    }
+  },
+  "skill": {
+    "name": "Màn Đêm Trói Buộc",
+    "description": {
+      "0": "Ororon đã cụ thể hóa bí thuật của Chủ Nhân Gió Đêm thành <strong>Mắt Linh Hồn</strong> của màn đêm và ném vào kẻ địch, gây <electro>Sát Thương Nguyên Tố Lôi</electro> mang thuộc tính Dạ Hồn.",
+      "1": "Khi xung quanh có kẻ địch khác, Mắt Linh Hồn sẽ nảy bật giữa các kẻ địch, gây <electro>Sát Thương Nguyên Tố Lôi</electro> mang thuộc tính Dạ Hồn. Sau mỗi lần thi triển Màn Đêm Trói Buộc, mỗi kẻ địch chỉ được chọn làm mục tiêu một lần.",
+      "2": "Khi nảy bật 3 lần hoặc không còn kẻ địch bị chọn làm mục tiêu thì Mắt Linh Hồn sẽ biến mất. Cùng lúc chỉ có thể tồn tại tối đa một Mắt Linh Hồn do chính Ororon tạo ra.",
+      "3": "<br/>",
+      "4": "<i>\"Con người luôn muốn dự đoán tương lai, nhưng đó có lẽ là vì họ chưa tìm được việc mình nên làm... Xin lỗi, lại nói những lời khó hiểu rồi.\"</i>"
+    },
+    "skillParams": {
+      "0": "Sát Thương Kỹ Năng",
+      "1": "CD",
+      "2": "",
+      "3": "",
+      "4": "",
+      "5": "",
+      "6": "",
+      "7": "",
+      "8": "",
+      "9": "",
+      "10": "",
+      "11": "",
+      "12": "",
+      "13": "",
+      "14": "",
+      "15": ""
+    }
+  },
+  "burst": {
+    "name": "Tiếng Vọng U Ám",
+    "description": {
+      "0": "Ororon riệu hồi nghi thức cổ đại, gây <electro>Sát Thương Phạm Vi Nguyên Tố Lôi</electro> mang thuộc tính Dạ Hồn, đồng thời triệu hồi Mắt Siêu Âm.",
+      "1": "<br/>",
+      "2": "<strong>Mắt Siêu Âm</strong>",
+      "3": [
+        "Liên tục khiêu khích kẻ địch xung quanh tấn công.",
+        "Liên tục xoay tròn và bắn sóng âm, gây cho địch xung quanh <electro>Sát Thương Nguyên Tố Lôi</electro> mang thuộc tính Dạ Hồn."
+      ],
+      "4": "<br/>",
+      "5": "<i>Người đủ nhạy bén sẽ nghe được âm thanh của vạn vật. Như vậy cho dù là đêm dài tăm tối thì cũng sẽ không bị mất phương hướng.</i>"
+    },
+    "skillParams": {
+      "0": "Sát Thương Thi Triển",
+      "1": "Sát Thương Sóng Âm Xung Kích",
+      "2": "Thời Gian Kéo Dài",
+      "3": "CD",
+      "4": "Năng Lượng Nguyên Tố",
+      "5": "",
+      "6": "",
+      "7": "",
+      "8": "",
+      "9": "",
+      "10": "",
+      "11": "",
+      "12": "",
+      "13": "",
+      "14": "",
+      "15": ""
+    }
+  },
+  "passive1": {
+    "name": "Cảm Nhận Trong Đêm Tối",
+    "description": {
+      "0": "Khi nhân vật trong đội ở gần kích hoạt Dạ Hồn Bùng Nổ, Ororon sẽ nhận 40 điểm Dạ Hồn. Trong 15s sau khi thi triển Kỹ Năng Nguyên Tố, khi nhân vật ra trận trong đội gần đó gây <hydro>Sát Thương Nguyên Tố Thủy</hydro> hoặc <electro>Sát Thương Nguyên Tố Lôi</electro>, Ororon sẽ nhận 5 điểm Dạ Hồn. Hiệu quả này mỗi 0.3s tối đa kích hoạt một lần, trong thời gian duy trì tối đa kích hoạt 10 lần.",
+      "1": "<br/>",
+      "2": "Ngoài ra, khi kẻ địch gần đó chịu phải sát thương phản ứng <electro>Điện Cảm</electro> hoặc sát thương thuộc tính Dạ Hồn do nhân vật khác trong đội gần đó gây ra, nếu Ororon có ít nhất 10 điểm Dạ Hồn thì anh ta sẽ tiêu hao 10 điểm Dạ Hồn đó để tiến vào trạng thái Dạ Hồn Chúc Phúc và kích hoạt hiệu quả \"Siêu Giác Quan\": Gây <electro>Sát Thương Nguyên Tố Lôi</electro> mang thuộc tính Dạ Hồn cho tối đa 4 kẻ địch xung quanh tương đương 130% Tấn Công của Ororon. Hiệu quả trên mỗi 1.8s tối đa kích hoạt một lần.",
+      "3": "<br/>",
+      "4": "<strong>Dạ Hồn Chúc Phúc - Ororon</strong>",
+      "5": "Trạng thái Dạ Hồn Chúc Phúc của Ororon tối đa duy trì 6s."
+    }
+  },
+  "passive2": {
+    "name": "Chất Xúc Tác Diện Mạo",
+    "description": {
+      "0": "Sau khi <strong>Mắt Linh Hồn</strong> từ Kỹ Năng Nguyên Tố <strong>Màn Đêm Trói Buộc</strong> trúng kẻ địch, Ororon sẽ nhận được hiệu quả Ấn Diện Mạo trong 15s.",
+      "1": "<br/>",
+      "2": "<strong>Ấn Diện Mạo</strong>",
+      "3": "Nhân vật ra trận trong đội gần đó gây <hydro>Sát Thương Nguyên Tố Thủy</hydro> hoặc <electro>Sát Thương Nguyên Tố Lôi</electro> thì sẽ hồi phục cho nhân vật đó 3 điểm Năng Lượng Nguyên Tố. Nếu Ororon không ra trận thì Ororon cũng sẽ được hồi phục 3 điểm Năng Lượng Nguyên Tố. Hiệu quả này mỗi 1s tối đa kích hoạt một lần, trong thời gian duy trì tối đa kích hoạt 3 lần."
+    }
+  },
+  "passive3": {
+    "name": "Món Quà Dạ Vực - Sương Ảnh Hoạt Náo",
+    "description": {
+      "0": "Khi ở trong khu vực có cơ chế Phlogiston của Natlan, có thể tiến hành Dạ Hồn Chuyển Hóa - Ororon. Nhân vật trong trận khi trong trạng thái di chuyển đặc biệt của thiên phú cố định hoặc đang ở độ cao nhất định trên không, khi đổi sang Ororon ra trận sẽ kích hoạt: Ororon sẽ nhảy lên cao. Đội bản thân mỗi 10s có thể kích hoạt một lần Dạ Hồn Chuyển Hóa.",
+      "1": "<br/>",
+      "2": "Ngoài ra, khi nhấn giữ nút nhảy, Ororon sẽ tiêu hao 75 điểm Thể Lực để nhảy cao. Khi ở trong khu vực có cơ chế Phlogiston của Natlan, Ororon sẽ ưu tiên tiêu hao 5 điểm Phlogiston để nhảy đến độ cao cao hơn."
+    }
+  },
+  "passive": {
+    "name": "Thiên Phú Sinh Hoạt",
+    "description": {}
+  },
+  "constellation1": {
+    "name": "Vết Tích Giữa Rừng Sương",
+    "description": {
+      "0": "<strong>Mắt Linh Hồn</strong> từ Kỹ Năng Nguyên Tố <strong>Màn Đêm Trói Buộc</strong> có thể nảy thêm 2 lần.",
+      "1": "Ngoài ra, sau khi <strong>Mắt Linh Hồn</strong> trúng kẻ địch, sẽ thi triển hiệu quả Thủy Triều Đêm lên kẻ địch trong 12s. Sát thương gây ra từ hiệu ứng Siêu Giác Quan của thiên phú \"Cảm Nhận Trong Đêm Tối\" sẽ tăng 60% cho kẻ địch bị ảnh hưởng bởi Thủy Triều Đêm. Hiệu quả này cần mở khóa thiên phú \"Cảm Nhận Trong Đêm Tối\" trước."
+    }
+  },
+  "constellation2": {
+    "name": "Vua Ong Giấu Rượu Mật",
+    "description": {
+      "0": "Sau khi thi triển Kỹ Năng Nộ <strong>Tiếng Vọng U Ám</strong>, Ororon sẽ nhận được hiệu quả Siêu Tâm Linh trong 9s.",
+      "1": "<br/>",
+      "2": "<strong>Siêu Tâm Linh</strong>",
+      "3": "Nhận 12% <electro>Buff Sát Thương Nguyên Tố Lôi</electro>.",
+      "4": "Trong thời gian duy trì, Kỹ Năng Nộ <strong>Tiếng Vọng U Ám</strong> hoặc <strong>Mắt Siêu Âm</strong> mỗi trúng thêm một kẻ địch, sẽ khiến Ororon nhận thêm 12% <electro>Buff Sát Thương Nguyên Tố Lôi</electro>. Tối đa nhận được 60% <electro>Buff Sát Thương Nguyên Tố Lôi</electro> bằng cách này."
+    }
+  },
+  "constellation3": {
+    "name": "Lồng Linh Hồn Của Dơi",
+    "description": {
+      "0": "Cấp kỹ năng <strong>Tiếng Vọng U Ám</strong> +3.",
+      "1": "Tăng tối đa đến cấp 15."
+    }
+  },
+  "constellation4": {
+    "name": "Làn Sương Trong Gió Đêm",
+    "description": {
+      "0": "Tốc độ xoay của <strong>Mắt Siêu Âm</strong> từ Kỹ Năng Nộ <strong>Tiếng Vọng U Ám</strong> tăng 25%."
+    }
+  },
+  "constellation5": {
+    "name": "Quà Tặng Cho Tâm Hồn",
+    "description": {
+      "0": "Cấp kỹ năng <strong>Màn Đêm Trói Buộc</strong> +3.",
+      "1": "Tăng tối đa đến cấp 15."
+    }
+  },
+  "constellation6": {
+    "name": "Lời Ca Đến Suối Sâu",
+    "description": {
+      "0": "Sau khi kích hoạt Siêu Giác Quan từ thiên phú \"Cảm Nhận Trong Đêm Tối\", sẽ tăng 10% Tấn Công của nhân vật ra trận trong đội bản thân, duy trì 9s. Hiệu quả này tối đa cộng dồn 3 tầng, mỗi tầng tính giờ riêng.",
+      "1": "Ngoài ra, khi thi triển Kỹ Năng Nộ <strong>Tiếng Vọng U Ám</strong>, sẽ kích hoạt một lần hiệu ứng tương đương với Siêu Giác Quan, gây sát thương bằng 200% sát thương gốc.",
+      "2": "Hiệu quả này cần mở khóa thiên phú \"Cảm Nhận Trong Đêm Tối\"."
+    }
+  }
+}

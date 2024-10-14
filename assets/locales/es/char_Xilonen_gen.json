@@ -4,7 +4,7 @@
   "description": "Una maestra forjanombres de Nanatzcayan experta en encontrar el equilibrio entre el ajetreo del trabajo y una vida cómoda.",
   "constellationName": "Panthera Ocelota",
   "auto": {
-    "name": "Cacería punzante",
+    "name": "Cacería de Ehécatl",
     "fields": {
       "normal": {
         "0": "<strong>Ataque Normal</strong>",
@@ -44,22 +44,22 @@
     }
   },
   "skill": {
-    "name": "Temple musical",
+    "name": "Mezcla de la yohual",
     "description": {
       "0": "¡Que el ritmo de la pasión suene en el mundo entero! Xilonen se pone sus patines para combatir a toda velocidad y arremete hacia delante para infligir <geo>Daño Geo</geo> de naturaleza noctámbula en función de su DEF.",
       "1": "Tras usar esta habilidad, Xilonen obtiene 45 pts. de noctambulismo y entra en estado de bendición noctámbula, lo que, a su vez, le hará entrar en el modo “caza sobre ruedas”.",
       "2": "<br/>",
       "3": "<strong>Muestras musicales</strong>",
-      "4": "Xilonen posee tres muestreadores que presentarán diferentes marcas musicales dependiendo del tipo elemental de los demás miembros del equipo, y que pueden activarse para reducir la RES de los enemigos cercanos a esos elementos en particular.",
-      "5": "Inicialmente, las muestras musicales recolectadas por los tres muestreadores serán todas <geo>Geo</geo>, y por cada personaje del equipo que sea <pyro>Pyro</pyro>, <hydro>Hydro</hydro>, <cryo>Cryo</cryo> o <electro>Electro</electro>, una muestra <geo>Geo</geo> se transformará en el tipo elemental correspondiente.",
+      "4": "Xilonen posee tres sámplers que presentarán diferentes marcas musicales dependiendo del tipo elemental de los demás miembros del equipo, y que pueden activarse para reducir la RES de los enemigos cercanos a esos elementos en particular.",
+      "5": "Inicialmente, las muestras musicales recolectadas por los tres sámplers serán todas <geo>Geo</geo>, y por cada personaje del equipo que sea <pyro>Pyro</pyro>, <hydro>Hydro</hydro>, <cryo>Cryo</cryo> o <electro>Electro</electro>, una muestra <geo>Geo</geo> se transformará en el tipo elemental correspondiente.",
       "6": "Mientras esté en estado de bendición noctámbula, las muestras musicales <geo>Geo</geo> que lleve Xilonen permanecerán activas. Tras desbloquear el talento pasivo “Eco de Netotiliztli”, Xilonen podrá recuperar pts. de noctambulismo al activar los efectos de dicho talento, y al alcanzar el máximo de pts., los consumirá todos para activar durante 15 s las tres muestras musicales que lleve.",
       "7": "Al hacerlo, reducirá las RES Elementales correspondientes de los enemigos, pero los efectos de las muestras musicales no se podrán acumular para un mismo tipo elemental. Esto puede ocurrir incluso cuando Xilonen está en tu equipo pero no en uso.",
       "8": "<br/>",
       "9": "<strong>Bendición noctámbula: Xilonen</strong>",
-      "10": "Consume continuamente pts. de noctambulismo. Al agotarse todos o al usar de nuevo la habilidad, terminará la duración de la bendición noctámbula de Xilonen. Dicha bendición tiene las siguientes propiedades:",
+      "10": "Consume continuamente pts. de noctambulismo. Al agotarse todos o al usar de nuevo la habilidad, terminará el estado de bendición noctámbula de Xilonen. Dicha bendición tiene las siguientes propiedades:",
       "11": [
-        "Al entrar en modo caza sobre ruedas, aumenta la Vel. Movimiento y la velocidad de escalada de Xilonen. Además, al escalar, puede ejecutar saltos rápidos en forma de ocelote.",
-        "El estado de bendición noctámbula de Xilonen tiene una restricción por la cual, cuando se encuentre en dicho estado, sus pts. de noctambulismo solo durarán 9 s, y transcurrido ese tiempo, se agotarán."
+        "Al entrar en modo caza sobre ruedas, aumenta la Vel. Movimiento y la velocidad de escalada de Xilonen. Además, al escalar, puede adoptar la forma de un ocelote para ejecutar saltos rápidos.",
+        "El estado de bendición noctámbula de Xilonen tiene una restricción por la cual, cuando se encuentre en dicho estado, sus pts. de noctambulismo solo durarán 9 s y, transcurrido ese tiempo, se agotarán."
       ],
       "12": "<br/>",
       "13": "Tras agotarse todos los pts. de noctambulismo mientras está en estado de bendición noctámbula, Xilonen no podrá obtener más pts. por medio del talento pasivo “Eco de Netotiliztli”.",
@@ -122,10 +122,10 @@
   "passive1": {
     "name": "Eco de Netotiliztli",
     "description": {
-      "0": "En estado de bendición noctámbula, el Ataque Normal y Descendente de Xilonen se fortalece en función de los tipos de muestras musicales que tenga:",
+      "0": "En estado de bendición noctámbula:",
       "1": [
-        "Cuando tenga al menos dos muestras musicales que hayan sufrido un cambio elemental, obtiene 35 pts. de noctambulismo al golpear a un enemigo. Este efecto solo se puede activar una vez cada 0.1 s.",
-        "Cuando tenga menos de dos muestras musicales que hayan sufrido un cambio elemental, el daño que inflige aumenta en un 30%."
+        "Cuando Xilonen tiene al menos dos muestras musicales que hayan sufrido un cambio elemental, obtiene 35 pts. de noctambulismo al golpear a un enemigo con un Ataque Normal o Descendente. Este efecto solo se puede activar una vez cada 0.1 s.",
+        "Cuando tiene menos de dos muestras musicales que hayan sufrido un cambio elemental, el daño que inflige con su Ataque Normal y Descendente aumenta en un 30%."
       ]
     }
   },
@@ -140,16 +140,15 @@
     "name": "Gracia de la noche: Bendición forjallamas",
     "description": {
       "0": "Cuando no tenga más pts. de noctambulismo, Xilonen consumirá flogisto para conservar la bendición noctámbula.",
-      "1": "Si se encuentra en una zona con alguna mecánica de flogisto de Natlan, podrá utilizar “Transmisión noctambular: Xilonen”. Cuando el personaje en uso esté esprintando, escalando, se encuentre en un estado de movimiento derivado de algún talento o esté a cierta altura en el aire, al cambiar a Xilonen, esta entrará en estado de bendición noctámbula y obtendrá 20 pts. de noctambulismo. En esta situación, sus pts. de noctambulismo solo durarán 4 s y, pasado ese tiempo, se agotarán. Tras usar <strong>Temple musical</strong> en algún momento durante esos 4 s, la duración de los pts. de noctambulismo de Xilonen aumentará en 9 s. Tu equipo solo puede activar Transmisión noctambular una vez cada 10 s.",
+      "1": "Si se encuentra en una zona con alguna mecánica de flogisto de Natlan, podrá utilizar “Transmisión noctambular: Xilonen”. Cuando el personaje en uso esté esprintando, escalando, se encuentre en un estado de movimiento derivado de algún talento o esté a cierta altura en el aire, al cambiar a Xilonen, esta entrará en estado de bendición noctámbula y obtendrá 20 pts. de noctambulismo. En esta situación, sus pts. de noctambulismo solo durarán 4 s y, pasado ese tiempo, se agotarán. Tras usar <strong>Mezcla de la yohual</strong> en algún momento durante esos 4 s, la duración de los pts. de noctambulismo de Xilonen aumentará en 9 s. Tu equipo solo puede activar Transmisión noctambular una vez cada 10 s.",
       "2": "<br/>",
       "3": "Además, al estar en Natlan, mientras el estado de bendición noctámbula esté activo, Xilonen no consumirá Aguante al escalar."
     }
   },
   "passive": {
-    "name": "Corriendo entre montañas",
+    "name": "Gira del Tepeilhuitl",
     "description": {
-      "0": "Al activar la Transmisión noctambular, recupera 10 pts. de flogisto y obtiene el efecto de “persiguellamas”, el cual aumenta la Vel. Movimiento de tus personajes del equipo en un 15% durante 10 s.",
-      "1": "El efecto de persiguellamas no se puede acumular."
+      "0": "Recupera 15 pts. de flogisto al activar la Transmisión noctambular."
     }
   },
   "constellation1": {
@@ -160,29 +159,29 @@
     }
   },
   "constellation2": {
-    "name": "Quinteto de Chicue",
+    "name": "Quinteto de Chiucue",
     "description": {
-      "0": "Al activarse las muestras musicales de Xilonen, todos los personajes cercanos del equipo obtienen los siguientes efectos en función de la muestra musical que coincida con su tipo elemental:",
+      "0": "Las muestras musicales <geo>Geo</geo> que lleve Xilonen permanecerán siempre activas. Además, al activarse las muestras de Xilonen, todos los personajes cercanos del equipo obtienen los siguientes efectos en función de la muestra musical que coincida con su tipo elemental:",
       "1": [
-        "<geo>Geo</geo>: la Prob. CRIT aumenta en un 30%.",
-        "<pyro>Pyro</pyro>: el ATQ aumenta en un 40%.",
-        "<hydro>Hydro</hydro>: la Vida Máx. aumenta en un 40%.",
-        "<cryo>Cryo</cryo>: el Daño CRIT aumenta en un 50%.",
-        "<electro>Electro</electro>: restaura 20 pts. de Energía Elemental y reduce en 5 s el TdE de la Habilidad Definitiva."
+        "<geo>Geo</geo>: el daño infligido aumenta en un 50%.",
+        "<pyro>Pyro</pyro>: el ATQ aumenta en un 45%.",
+        "<hydro>Hydro</hydro>: la Vida Máx. aumenta en un 45%.",
+        "<cryo>Cryo</cryo>: el Daño CRIT aumenta en un 60%.",
+        "<electro>Electro</electro>: restaura 25 pts. de Energía Elemental y reduce en 6 s el TdE de la Habilidad Definitiva."
       ]
     }
   },
   "constellation3": {
     "name": "Bucle del tonalpohualli",
     "description": {
-      "0": "Aumenta el nivel de habilidad de <strong>Temple musical</strong> +3.",
+      "0": "Aumenta el nivel de habilidad de <strong>Mezcla de la yohual</strong> +3.",
       "1": "Puede ser aumentado hasta Niv. 15."
     }
   },
   "constellation4": {
     "name": "Trance de las suchitl",
     "description": {
-      "0": "Tras usar <strong>Temple musical</strong>, Xilonen aplica sobre todos los personajes cercanos del equipo el efecto de “gracia de las flores” durante 15 s.",
+      "0": "Tras usar <strong>Mezcla de la yohual</strong>, Xilonen aplica sobre todos los personajes cercanos del equipo el efecto de “gracia de las flores” durante 15 s.",
       "1": "El daño de los Ataques Normales, Cargados y Descendentes de los personajes bajo los efectos de gracia de las flores aumenta en una cantidad equivalente al 65% de la DEF de Xilonen. Este efecto se elimina tras activarse 6 veces o al terminar su duración.",
       "2": "Al golpear a varios enemigos, se consumirán activaciones dependiendo del número de enemigos golpeados. Las activaciones de los personajes que tengan el efecto de gracia de las flores se calculan de forma independiente."
     }
@@ -198,8 +197,13 @@
     "name": "Procesión de la noche perpetua",
     "description": {
       "0": "Cuando Xilonen esprinta, salta o ejecuta un Ataque Normal o Descendente mientras está en estado de bendición noctámbula, obtiene la “bendición de la noche perpetua”, la cual ignora las restricciones del estado de bendición noctámbula y aumenta el daño que inflige con su Ataque Normal y Descendente durante 5 s.",
-      "1": "Mientras este efecto está activo, se suspende la restricción de duración de los pts. de noctambulismo, sus pts. de noctambulismo, de flogisto y de Aguante no disminuirán y, mientras tenga el máximo de puntos, la bendición noctámbula de Xilonen no terminará. Además, el daño que infligen sus Ataques Normales y Descendentes mientras está en estado de bendición noctámbula aumenta en una cantidad equivalente al 300% de la DEF de Xilonen.",
-      "2": "La bendición de la noche perpetua solo se puede obtener una vez cada 15 s."
+      "1": "Mientras este efecto está activo, ocurren los siguientes efectos:",
+      "2": [
+        "Se suspende la restricción de duración de los pts. de noctambulismo; sus pts. de noctambulismo, de flogisto y de Aguante no disminuirán y, mientras tenga el máximo de puntos, la bendición noctámbula de Xilonen no terminará.",
+        "El daño que infligen sus Ataques Normales y Descendentes mientras está en estado de bendición noctámbula aumenta en una cantidad equivalente al 300% de la DEF de Xilonen.",
+        "Cada 1.5 s, restaura Vida a todos los miembros del equipo cercanos en una cantidad equivalente al 120% de la DEF de Xilonen."
+      ],
+      "3": "La bendición de la noche perpetua solo se puede obtener una vez cada 15 s."
     }
   }
 }
