@@ -1,13 +1,24 @@
 {
   "name": "Ororon",
-  "title": "???",
+  "title": "Sombra do Vento Noturno",
   "description": "",
   "constellationName": "Vespertilio Noctis",
   "auto": {
     "name": "Ataque Normal",
     "fields": {
-      "normal": "<",
-      "charged": "s"
+      "normal": {
+        "0": "<strong>Ataque Normal</strong>",
+        "1": "Realiza até 3 disparos consecutivos com o arco."
+      },
+      "charged": {
+        "0": "<strong>Ataque Carregado</strong>",
+        "1": "Realiza um <strong>Disparo com Mira</strong> mais preciso e com mais dano.",
+        "2": "Enquanto mira, elemento Electro irá acumular na ponta da flecha. Uma flecha completamente carregada irá causar muito <dendro>Dano Electro</dendro>."
+      },
+      "plunging": {
+        "0": "<strong>Ataque Imersivo</strong>",
+        "1": "Dispara uma chuva de flechas do ar antes de cair e impactar o chão, causando Dano em uma AdE no impacto."
+      }
     },
     "skillParams": {
       "0": "Dano do 1° Golpe",
@@ -31,14 +42,14 @@
   "skill": {
     "name": "Rastreamento da Escuridão",
     "description": {
-      "0": "Ororon joga contra os inimigos o antigo item secreto dos Mestres do Vento Noturno, o escuro <strong>Olho Espiritual</strong>, causando <electro>Dano Electro</electro> com alinhamento Espírito da Noite.",
-      "1": "Quando há outros inimigos por perto, o Olho Espiritual ricocheteia entre os inimigos, causando <electro>Dano Electro</electro> com alinhamento Espírito da Noite. Cada inimigo só pode escolhido uma vez por lançamento de Rastreamento da Escuridão.",
-      "2": "Quando ricochetear 3 vezes ou não houver mais inimigos selecionáveis como alvo por perto, o Olho Espiritual desaparecerá. Só é possível existir até 1 Olho Espiritual criado por Ororon simultaneamente.",
+      "0": "Ororon joga contra os inimigos o antigo item secreto dos Mestres do Vento Noturno, o escuro <strong>Orbe Espiritual Noturno</strong>, causando <electro>Dano Electro</electro> com alinhamento Espírito da Noite.",
+      "1": "Quando há outros inimigos por perto, o Orbe Espiritual Noturno ricocheteia entre os inimigos, causando <electro>Dano Electro</electro> com alinhamento Espírito da Noite. Cada inimigo só pode escolhido uma vez por lançamento de Rastreamento da Escuridão.",
+      "2": "Quando ricochetear 3 vezes ou não houver mais inimigos selecionáveis como alvo por perto, o Orbe Espiritual Noturno desaparecerá. Só é possível existir até 1 Orbe Espiritual Noturno criado por Ororon simultaneamente.",
       "3": "<br/>",
       "4": "<i>\"As pessoas sempre querem prever o futuro, mas isso é porque ainda não encontraram o que devem fazer... Sinto muito, comecei a contar um conto de fadas novamente\".</i>"
     },
     "skillParams": {
-      "0": "Dano de Habilidade",
+      "0": "Dano do Orbe Espiritual Noturno",
       "1": "Tempo de Recarga",
       "2": "",
       "3": "",
@@ -69,7 +80,7 @@
       "5": "<i>As pessoas que possuem percepção o suficiente podem ouvir as vozes sussurrantes de tudo. Por isso, mesmo na longa noite sem luz, elas não perdem o seu caminho.</i>"
     },
     "skillParams": {
-      "0": "Dano ao Lançar",
+      "0": "Dano do Ritual Secreto",
       "1": "Dano de Colisão da Onda de Som",
       "2": "Duração",
       "3": "Tempo de Recarga",
@@ -110,20 +121,25 @@
   "passive3": {
     "name": "Presente do Reino da Noite: Sombra da Neblina",
     "description": {
-      "0": "Enquanto em Natlan ou numa área com Dispositivos de Flogisto, ela pode usar Transmissão do Espírito da Noite:Ororon. Quando o personagem ativo estiver sob um estado especial de movimento de um Talento ou em uma certa altura no ar, trocar para Ororon como personagem ativo desencadeará: Ororon poderá saltar alto. É possível entrar em Transmissão do Espírito da Noite: Ororon uma vez a cada 10s.",
+      "0": "Enquanto numa área de Natlan com Dispositivos de Flogisto, pode usar Transmissão do Espírito da Noite: Ororon. Quando o personagem ativo estiver no ar, trocar para Ororon como personagem ativo desencadeará: Ororon poderá saltar alto. É possível entrar em Transmissão do Espírito da Noite: Ororon uma vez a cada 10s.",
       "1": "<br/>",
-      "2": "Além disso, ao manter pressionado para saltar, Ororon consome 75 de Stamina para saltar alto, e quando está em uma área de Natlan com Dispositivos de Flogisto, Ororon priorizará consumir 5 de Flogisto para fazer esse salto mais alto."
+      "2": "Além disso, ao manter pressionado para mirar, Ororon entrará no estado Proferespírito. Enquanto nesse estado, Ororon poderá interagir com o Grafite do Espírito Noturno e o Selo do Espírito Noturno, obtendo as informações e poder deles, as regras de interação com esses itens segue as mesmas regras de interação com os Iktomissauros.",
+      "3": "<br/>",
+      "4": "Além disso, ao manter pressionado para saltar, Ororon consome 75 de Stamina para saltar alto, e quando está em uma área de Natlan com Dispositivos de Flogisto, Ororon priorizará consumir 5 de Flogisto para fazer esse salto mais alto."
     }
   },
   "passive": {
     "name": "Talento de Vida",
-    "description": {}
+    "description": {
+      "0": "Aumenta a velocidade de planar para os personagens da equipe em 15%.",
+      "1": "Não acumula com outros Talentos Passivos que fornecem o mesmo efeito."
+    }
   },
   "constellation1": {
     "name": "Rastros Entre a Floresta Enevoada",
     "description": {
-      "0": "O <strong>Olho Espiritual</strong> da Habilidade Elemental <strong>Rastreamento da Escuridão</strong> pode ricochetear mais duas vezes.",
-      "1": "Além disso, quando o <strong>Olho Espiritual</strong> atinge um inimigo, aplica o efeito \"Noite Escura\" nesse inimigo por 12s. Aumenta em 60% o Dano causado por Super Exibição do Talento Passivo \"Sensações da Cortina Noturna\" contra o inimigo que está afetado pelo efeito Noite Escura. Esse efeito requer que o Talento Passivo \"Sensações da Cortina Noturna\" seja desbloqueado."
+      "0": "O <strong>Orbe Espiritual Noturno</strong> da Habilidade Elemental <strong>Rastreamento da Escuridão</strong> pode ricochetear mais duas vezes.",
+      "1": "Além disso, quando o <strong>Orbe Espiritual Noturno</strong> atinge um inimigo, aplica o efeito \"Noite Escura\" nesse inimigo por 12s. Aumenta em 60% o Dano causado por Super Exibição do Talento Passivo \"Sensações da Cortina Noturna\" contra o inimigo que está afetado pelo efeito Noite Escura. Esse efeito requer que o Talento Passivo \"Sensações da Cortina Noturna\" seja desbloqueado."
     }
   },
   "constellation2": {

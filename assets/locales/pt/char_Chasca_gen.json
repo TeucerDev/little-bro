@@ -1,6 +1,6 @@
 {
   "name": "Chasca",
-  "title": "???",
+  "title": "Exploradora Celestial",
   "description": "",
   "constellationName": "Divinum Vultur",
   "auto": {
@@ -37,27 +37,29 @@
       "3": "<strong>Bênção do Espírito da Noite: Chasca</strong>",
       "4": "Consome continuamente pontos de Espírito da Noite. Quando os pontos de Espírito da Noite forem totalmente esgotados ou a habilidade for usada novamente, o estado de Bênção do Espírito da Noite de Chasca terminará. A Bênção do Espírito da Noite possui as seguintes características:",
       "5": [
-        "Empunha a \"Atiradora de Almas: Cajado Ritual\", aumentando a Veloc. Mov. de Chasca e sua Resistência contra Interrupção. Neste estado, Chasca consumirá continuamente pontos de Espírito da Noite ou Flogisto e permanecerá no ar. Ao saltar ou aumentar a altura, pontos de Espírito da Noite extras ou Flogisto serão consumidos.",
-        "Ao usar Ataques Normais ou Carregados, Pressione ou Mantenha pressionado para alternar entre usar \"Disparo Múltiplo\" de diferentes maneiras."
+        " Empunha a \"Atiradora de Almas: Cajado Ritual\", aumentando a Veloc. Mov. de Chasca e sua Resistência contra Interrupção. Neste estado, Chasca consumirá continuamente pontos de Espírito da Noite e permanecerá no ar. Ao saltar ou aumentar a altura, pontos de Espírito da Noite extras serão consumidos.",
+        " Ao usar Ataques Normais ou Carregados, Pressione ou Mantenha pressionado para alternar entre usar \"Disparo Múltiplo\" de diferentes maneiras."
       ],
       "6": "<br/>",
       "7": "<strong>Disparo Múltiplo</strong>",
       "8": "<strong>Pressionar</strong>",
       "9": "Causa <anemo>Dano Anemo</anemo> com alinhamento Espírito da Noite aos inimigos à frente. Este Dano é considerado Dano de Ataque Normal.",
       "10": "<strong>Manter pressionado</strong>",
-      "11": "Entra no Modo de Mira, carregando balas em um carregador e escolhendo um certo número de inimigos dentro de um certo alcance, antes de disparar até 6 Projéteis Caçassombra nos inimigos selecionados com base no tempo de carregamento do ataque. Após manter pressionado por um certo tempo, Chasca finalizará o carregamento do carregador e disparará diretamente X Projéteis Caçadores de Sombras nos inimigos selecionados.",
+      "11": "Entra no Modo de Mira, escolhendo um certo número de inimigos dentro de uma certa AdE, disparando 6 Projéteis Caçadores de Sombras de acordo com o tempo de carregamento. Ao carregar os seis projéteis ou ao parar de carregar, disparará contra os inimigos selecionados.",
       "12": "<br/>",
       "13": "<strong>Projéteis Caçadores de Sombras</strong>",
       "14": [
-        "Causam <anemo>Dano Anemo</anemo> com alinhamento Espírito da Noite, considerado Dano de Ataque Carregado.",
-        "Os 4º, 5º e 6º Projéteis passarão por Conversão Elemental com base nos Tipos Elementais dos outros personagens na equipe: Para cada personagem <pyro>Pyro</pyro>, <hydro>Hydro</hydro>, <cryo>Cryo</cryo> ou <electro>Electro</electro> na equipe, um Projétil Caçador de Sombras será convertido em um \"Projétil Caçador de Sombras Brilhante\" do Tipo Elemental correspondente, causando Dano com alinhamento Espírito da Noite correspondente ao Tipo Elemental. Este Dano é considerado Dano de Ataque Carregado.",
-        "O último Projétil Caçador de Sombras carregado no carregador é disparado primeiro."
+        " Causam <anemo>Dano Anemo</anemo> com alinhamento Espírito da Noite, considerado Dano de Ataque Carregado.",
+        " Os 4º, 5º e 6º Projéteis disparados passarão por Conversão Elemental com base nos Tipos Elementais dos outros personagens na equipe: Para cada personagem <pyro>Pyro</pyro>, <hydro>Hydro</hydro>, <cryo>Cryo</cryo> ou <electro>Electro</electro> na equipe, um Projétil Caçador de Sombras será convertido aleatoriamente em um \"Projétil Caçador de Sombras Brilhante\" de um dos Tipos Elementais correspondentes, causando Dano com alinhamento Espírito da Noite correspondente ao Tipo Elemental. Este Dano é considerado Dano de Ataque Carregado.",
+        " O último Projétil Caçador de Sombras carregado no carregador é disparado primeiro."
       ],
       "15": "<br/>",
-      "16": "<i>Em teoria, enquanto ela quiser, essas rédeas podem domar qualquer coisa... Mas o que poderia ser mais legal que um canhão de mão gigante?</i>"
+      "16": "Além disso, quando estiver no estado Bênção do Espírito da Noite, ao manter pressionado para lançar a Habilidade Elemental <strong>Rédeas Espirituais, Caça Sombria</strong>, Chasca converterá para um Ataque Imersivo que possui alinhamento Espírito da Noite, e ao soltar, poderá interromper o Ataque Imersivo para se manter no ar. Quando Chasca atingir o chão com seu Ataque Imersivo, a Bênção do Espírito da Noite acabará.",
+      "17": "<br/>",
+      "18": "<i>Em teoria, enquanto ela quiser, essas rédeas podem domar qualquer coisa... Mas o que poderia ser mais legal que um canhão de mão gigante?</i>"
     },
     "skillParams": {
-      "0": "Dano de Habilidade",
+      "0": "Dano de Ressonância",
       "1": "Dano de Pressionamento de Mira Múltipla ",
       "2": "Dano do Projétil Caçador de Sombras",
       "3": "Dano do Projétil Caçador de Sombras Brilhante",
@@ -83,7 +85,7 @@
       "2": "<strong>Projétil Ceifador de Almas</strong>",
       "3": [
         " Causa <anemo>Dano Anemo</anemo> com alinhamento Espírito da Noite.",
-        " Para cada personagem <pyro>Pyro</pyro>, <hydro>Hydro</hydro>,<cryo>Cryo</cryo> <electro>Electro</electro> da equpe, dois Projéteis Ceifador de Almas serão convertidos para Projéteis Ceifador de Almas Brilhante do Tipo Elemental correspondente, causando Dano Elemental correspondente com alinhamento Espírito da Noite."
+        " Para cada personagem <pyro>Pyro</pyro>, <hydro>Hydro</hydro>,<cryo>Cryo</cryo> <electro>Electro</electro> da equipe, dois Projéteis Ceifador de Almas aleatórios serão convertidos para Projéteis Ceifador de Almas Brilhante um dos Tipos Elementais correspondentes, causando Dano Elemental correspondente com alinhamento Espírito da Noite."
       ],
       "4": "<br/>",
       "5": "<i>Ninguém pode escapar dos sussurros incessantes da noite e do luar, assim como nenhum inimigo pode fugir de seus olhos atentos quando ela mira neles.</i>"
@@ -110,7 +112,11 @@
   "passive1": {
     "name": "Truque do Projétil",
     "description": {
-      "0": "Ao lançar os <strong>Disparos Múltiplos</strong> da Habilidade Elemental <strong>Rédeas Espirituais, Caça Sombria</strong>, se a equipe possuir 1/2/3 personagens dos Tipos Elementais <pyro>Pyro</pyro>, <hydro>Hydro</hydro>, <cryo>Cryo</cryo> ou <electro>Electro</electro>, possuirá 33%/67%/100% de chance de desencadear Conversão Espiritual, fazendo o terceiro <strong>Projétil Caçador de Sombra</strong> carregado ser convertido para o respectivo Tipo Elemental de <strong>Projéteis Caçadores de Sombras Brilhantes</strong>."
+      "0": "Quando a Habilidade Elemental <strong>Rédeas Espirituais, Caça Sombria</strong> estiver sendo carregada com o <strong>Disparo Múltiplo</strong>, se houver membros da equipe que atendam aos requisitos do Tipo de Conversão Elemental, ganha os seguintes efeitos segundo o número de Tipos Elementais diferentes presentes:",
+      "1": [
+        " Há uma chance de 33.3%/66.7%/100%, baseada no número de Tipos Elementais elegíveis presentes, para que cada Tipo desencadeie a \"Conversão Espiritual\" e faça com que o 3º <strong>Projétil Caçador de Sombras</strong> carregado no cilindro seja aleatoriamente convertido em um <strong>Projétil Brilhante da Caça Sombria</strong> de um dos Tipos Elementais correspondentes.",
+        " Cada Tipo Elemental concederá a Chasca 1 acúmulo do \"Espírito da Sombra\", aumentando o Dano di Projétil Caçador de Sombras Brilhantes em 15%/35%/65%. Esse efeito dura até o fim do Disparo Múltiplo atual. Máximo de 3 acúmulos."
+      ]
     }
   },
   "passive2": {
@@ -123,31 +129,31 @@
   "passive3": {
     "name": "Presente do Reino da Noite: Coração Inextinguível",
     "description": {
-      "0": "Quando acabarem os pontos de Espírito da Noite, Chasca passará a consumir Flogisto para manter o estado Bênção do Espírito da Noite.",
-      "1": "Quando estiver em uma área de Natlan com um Dispositivo de Flogisto, ela pode fazer Transmissão do Espírito da Noite: Chasca. Quando o personagem ativo estiver em uma certa altura no ar, trocar para Chasca ativará os seguintes efeitos: Chasca entrará no estado Bênção do Espírito da Noite, e obterá 32 pontos de Espírito da Noite. Os membros de sua equipe podem ativar a Transmissão do Espírito da Noite uma vez a cada 10s.",
-      "2": "<br/>",
-      "3": "Além disso, quando está na Bênção do Espírito da Noite, ao manter pressionada a sua Habilidade Elemental <strong>Rédeas Espirituais, Caça Sombria</strong>, Chasca passará a fazer Ataques Imersivos com alinhamento Espírito da Noite. Soltar a Habilidade a permitirá interromper o Ataque Imersivo e se manter no ar. Quando seu Ataque Imersivo atingir o chão, o estado Bênção do Espírito da Noite de Chasca acabará."
+      "0": "Depois que os pontos de Espírito da Noite de Chasca acabarem, ela mudará para consumir Flogisto para manter a Bênção do Espírito da Noite.",
+      "1": "Enquanto estiver numa área de Natlan com Dispositivos de Flogisto, ela pode usar Transmissão do Espírito da Noite: Chasca. Quando o personagem ativo estiver no ar, trocar para Chasca como personagem ativa desencadeará: Chasca entra no estado Bênção do Espírito da Noite e obtém 32 pontos de Espírito da Noite. Sua própria equipe pode entrar em Transmissão do Espírito da Noite uma vez a cada 10s."
     }
   },
   "passive": {
-    "name": "Talento de Vida",
-    "description": {}
+    "name": "O Verdadeiro Significado da Mediação",
+    "description": {
+      "0": "Quando um personagem da sua equipe derrota um inimigo, regenera 24 de Flogisto. Esse efeito pode ser desencadeado uma vez a cada 12s.",
+      "1": "Esse efeito não surtirá em domínios, Domínios Dizimados e Abismo do Espiral."
+    }
   },
   "constellation1": {
     "name": "Munição Carregada, Roleta Engatilhada",
     "description": {
-      "0": "Quando desencadear a Conversão Espiritual do Talento Passivo \"Truque do Projétil\", o segundo <strong>Projétil Caçador de Sombras</strong> carregado adicional disparado será convertido em <strong>Projétil Caçador de Sombras Brilhantes</strong>.",
-      "1": "Além disso, aumenta a chance de desencadear a Conversão Espiritual: se a equipe possuir 1/2/3 personagens de Tipo Elemental <pyro>Pyro</pyro>, <hydro>Hydro</hydro>, <cryo>Cryo</cryo> ou <electro>Electro</electro>, aumenta a chance para desencadear Conversão Espiritual para 66%/100%/100%.",
+      "0": "Quando desencadear a Conversão Espiritual do Talento Passivo \"Truque do Projétil\", o segundo <strong>Projétil Caçador de Sombras</strong> carregado adicional será convertido em <strong>Projétil Caçador de Sombras Brilhantes</strong>.",
+      "1": "Aumenta a chance de desencadear \"Conversão Espiritual\": se houverem personagem na equipe com Tipos Elementais com as condições de Conversão Elemental correspondente, aumenta a chance de Conversão Espiritual para 33.3%, podendo aumentar até 100%.",
       "2": "<br/>",
-      "3": "É necessário desbloquear o Talento Passivo \"Truque do Projétil\".",
-      "4": "<br/>",
-      "5": "Além disso, reduz o consumo de pontos de Espírito da Noite e de Flogisto de Chasca no estado Bênção do Espírito da Noite em 30%."
+      "3": "É necessário ter desbloqueado o Talento Passivo \"Truque do Projétil\".",
+      "4": "Além disso, quando não está ativo em batalha, o estado Bênção do Espírito da Noite de Chasca consumirá 30% a menos de pontos de Espírito da Noite e de Flogisto."
     }
   },
   "constellation2": {
     "name": "Fumaça Flamejante do Disparo",
     "description": {
-      "0": "Ao lançar os <strong>Disparos Múltiplos</strong> da Habilidade Elemental <strong>Rédeas Espirituais, Caça Sombria</strong>, quando os  <strong>Projéteis Caçadores de Sombras Brilhantes</strong> de Chasca atingirem os inimigos, causarão 400% do ATQ de Chasca como Dano Elemental em AdE do Elemento correspondente de <strong>Projéteis Caçadores de Sombras Brilhantes</strong>. Esse efeito pode ser desencadeado uma vez por <strong>Disparos Múltiplos</strong> lançados."
+      "0": "Quando Chasca se torna a personagem ativa no campo de batalha, ela obtém um acúmulo de \"Espírito da Sombra\" do Talento Passivo \"Truque do Projétil\". É necessário ter desbloqueado o Talento Passivo \"Truque do Projétil\" para esse efeito. Ao lançar os <strong>Disparos Múltiplos</strong> da Habilidade Elemental <strong>Rédeas Espirituais, Caça Sombria</strong>, quando os  <strong>Projéteis Caçadores de Sombras Brilhantes</strong> de Chasca atingirem os inimigos, causarão 400% do ATQ de Chasca como Dano Elemental em AdE do Elemento correspondente de <strong>Projéteis Caçadores de Sombras Brilhantes</strong>, esse Dano é considerado Dano de Ataque Carregado. Esse efeito pode ser desencadeado uma vez por <strong>Disparos Múltiplos</strong> lançados."
     }
   },
   "constellation3": {
@@ -173,9 +179,9 @@
   "constellation6": {
     "name": "Batalha Gloriosa Decisiva",
     "description": {
-      "0": "Depois de desencadear a Conversão Espiritual do Talento Passivo \"Truque do Projétil\", Chasca obtém o estado \"Ataque Predestinado\", fazendo com que nos próximos 3s, os próximos <strong>Disparos Múltiplos</strong> ao lançar a próxima <strong>Rédeas Espirituais, Caça Sombria</strong> carreguem completamente imediatamente, e aumentando o Dano CRIT desses <strong>Disparos Múltiplos</strong> em 120%.",
+      "0": "O tempo necessário de carregamento do <strong>Disparo Múltiplo</strong> de Chasca é reduzido, e depois de desencadear a Conversão Espiritual do Talento Passivo \"Truque do Projétil\", Chasca obtém o estado \"Ataque Predestinado\", fazendo com que nos próximos 3s, os próximos <strong>Disparos Múltiplos</strong> ao lançar a próxima <strong>Rédeas Espirituais, Caça Sombria</strong> carreguem completamente imediatamente, e aumentando o Dano CRIT desses <strong>Disparos Múltiplos</strong> em 120%.",
       "1": "<br/>",
-      "2": "É necessário ter desbloqueado o Talento Passivo \"Truque do Projétil\"."
+      "2": "Esses efeitos requerem ter desbloqueado o Talento Passivo \"Truque do Projétil\""
     }
   }
 }
