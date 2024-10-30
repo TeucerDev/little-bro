@@ -44,7 +44,7 @@
     "description": {
       "0": "Ororon joga contra os inimigos o antigo item secreto dos Mestres do Vento Noturno, o escuro <strong>Orbe Espiritual Noturno</strong>, causando <electro>Dano Electro</electro> com alinhamento Espírito da Noite.",
       "1": "Quando há outros inimigos por perto, o Orbe Espiritual Noturno ricocheteia entre os inimigos, causando <electro>Dano Electro</electro> com alinhamento Espírito da Noite. Cada inimigo só pode escolhido uma vez por lançamento de Rastreamento da Escuridão.",
-      "2": "Quando ricochetear 3 vezes ou não houver mais inimigos selecionáveis como alvo por perto, o Orbe Espiritual Noturno desaparecerá. Só é possível existir até 1 Orbe Espiritual Noturno criado por Ororon simultaneamente.",
+      "2": "Quando ricochetear 3 vezes ou não houver mais inimigos selecionáveis como alvo por perto, o Orbe Espiritual Noturno desaparecerá.",
       "3": "<br/>",
       "4": "<i>\"As pessoas sempre querem prever o futuro, mas isso é porque ainda não encontraram o que devem fazer... Sinto muito, comecei a contar um conto de fadas novamente\".</i>"
     },
@@ -101,9 +101,9 @@
   "passive1": {
     "name": "Sensações da Cortina Noturna",
     "description": {
-      "0": "Quando um personagem próximo na equipe desencadeia a \"Explosão do Espírito da Noite\", Ororon receberá 40 pontos de Espírito da Noite. Nos 15s após lançar sua Habilidade Elemental, quando o personagem atual da equipe próximo causar <hydro>Dano Hydro</hydro> ou <electro>Dano Electro</electro>, Ororon ganhará 5 pontos de Espírito da Noite, esse efeito pode ser ativado no máximo 1 vez a cada 0,3s, com um limite de 10 ativações durante o período.",
+      "0": "Após um personagem próximo na equipe desencadeia a \"Explosão do Espírito da Noite\", Ororon receberá 40 pontos de Espírito da Noite. Nos 15s após lançar sua Habilidade Elemental, quando outro personagem causar <hydro>Dano Hydro</hydro> ou <electro>Dano Electro</electro>, Ororon ganhará 5 pontos de Espírito da Noite, esse efeito pode ser ativado no máximo 1 vez a cada 0.3s, com um limite de 10 ativações durante o período.",
       "1": "<br/>",
-      "2": "Além disso, quando inimigos próximos receberem dano da reação <electro>Eletricamente Carregado</electro> ou outros personagens próximos da equipe causarem dano com alinhamento Espírito da Noite, se Ororon possuir pelo menos 10 pontos de Espírito da Noite, ele consumirá 10 pontos e entrará no estado de Bênção do Espírito da Noite, ativando o efeito \"Super Exibição\": com base em 130% do ATQ de Ororon, causará <electro>Dano Electro</electro> com alinhamento Espírito da Noite a até 4 inimigos ao redor. Este efeito pode ser ativado no máximo uma vez a cada 1,8s.",
+      "2": "Além disso, quando inimigos próximos receberem dano da reação <electro>Eletricamente Carregado</electro> ou outros personagens próximos da equipe causarem dano com alinhamento Espírito da Noite, se Ororon possuir pelo menos 10 pontos de Espírito da Noite, ele consumirá 10 pontos e entrará no estado de Bênção do Espírito da Noite, ativando o efeito \"Super Exibição\": com base em 160% do ATQ de Ororon, causará <electro>Dano Electro</electro> com alinhamento Espírito da Noite a até 4 inimigos ao redor. Este efeito pode ser ativado no máximo uma vez a cada 1.8s.",
       "3": "<br/>",
       "4": "<strong>Bênção do Espírito da Noite: Ororon</strong>",
       "5": "O estado de Bênção do Espírito da Noite de Ororon dura até 6s."
@@ -112,10 +112,10 @@
   "passive2": {
     "name": "Condutor Espiritual",
     "description": {
-      "0": "Quando o <strong>Olho Espiritual</strong> da Habilidade Elemental <strong>Rastreamento da Escuridão</strong> atinge um inimigo, Ororon obtém o efeito \"Marca do Olhar\" por 15.",
+      "0": "Quando o <strong>Orbe Espiritual Noturno</strong> da Habilidade Elemental <strong>Rastreamento da Escuridão</strong> atinge um inimigo, Ororon obtém o efeito \"Marca do Olhar\" por 15.",
       "1": "<br/>",
       "2": "<strong>Marca do Olhar</strong>",
-      "3": "Quando o personagem ativo próximo da equipe causa <hydro>Dano Hydro</hydro> ou <electro>Dano Electro</electro>, regenerará 3 de Energia Elemental para esse personagem. Se Ororon não for o personagem ativo, regenerará 3 de Energia Elemental para ele. Esse efeito pode ser desencadeado uma vez por segundo, e pode ser desencadeado até 3 vezes por duração."
+      "3": "Quando o personagem ativo próximo da equipe causa atingir um inimigo com um Ataque Normal, Carregado ou Imersivo, regenerará 3 de Energia Elemental para esse personagem. Se Ororon não for o personagem ativo, regenerará 3 de Energia Elemental para ele. Esse efeito pode ser desencadeado uma vez por segundo, e pode ser desencadeado até 3 vezes por duração."
     }
   },
   "passive3": {
@@ -125,7 +125,8 @@
       "1": "<br/>",
       "2": "Além disso, ao manter pressionado para mirar, Ororon entrará no estado Proferespírito. Enquanto nesse estado, Ororon poderá interagir com o Grafite do Espírito Noturno e o Selo do Espírito Noturno, obtendo as informações e poder deles, as regras de interação com esses itens segue as mesmas regras de interação com os Iktomissauros.",
       "3": "<br/>",
-      "4": "Além disso, ao manter pressionado para saltar, Ororon consome 75 de Stamina para saltar alto, e quando está em uma área de Natlan com Dispositivos de Flogisto, Ororon priorizará consumir 5 de Flogisto para fazer esse salto mais alto."
+      "4": "Além disso, ao manter pressionado para saltar, Ororon consome 75 de Stamina para saltar alto, e quando está em uma área de Natlan com Dispositivos de Flogisto, Ororon priorizará consumir 5 de Flogisto para fazer esse salto mais alto.",
+      "5": "Quando estiver no ar, Ororon pode manter pressionado seu Ataque Normal para consumir Flogisto ou Stamina e entrar no Modo de Mira."
     }
   },
   "passive": {
@@ -139,7 +140,7 @@
     "name": "Rastros Entre a Floresta Enevoada",
     "description": {
       "0": "O <strong>Orbe Espiritual Noturno</strong> da Habilidade Elemental <strong>Rastreamento da Escuridão</strong> pode ricochetear mais duas vezes.",
-      "1": "Além disso, quando o <strong>Orbe Espiritual Noturno</strong> atinge um inimigo, aplica o efeito \"Noite Escura\" nesse inimigo por 12s. Aumenta em 60% o Dano causado por Super Exibição do Talento Passivo \"Sensações da Cortina Noturna\" contra o inimigo que está afetado pelo efeito Noite Escura. Esse efeito requer que o Talento Passivo \"Sensações da Cortina Noturna\" seja desbloqueado."
+      "1": "Além disso, quando o <strong>Orbe Espiritual Noturno</strong> atinge um inimigo, aplica o efeito \"Noite Escura\" nesse inimigo por 12s. Aumenta em 50% o Dano causado por Super Exibição do Talento Passivo \"Sensações da Cortina Noturna\" contra o inimigo que está afetado pelo efeito Noite Escura. Esse efeito requer que o Talento Passivo \"Sensações da Cortina Noturna\" seja desbloqueado."
     }
   },
   "constellation2": {
@@ -148,8 +149,8 @@
       "0": "Depois de lançar o Supremo <strong>Ecos Sombrios</strong>, Ororon obtém o efeito \"Super Percepção Espiritual\" por 9s.",
       "1": "<br/>",
       "2": "<strong>Super Percepção Espiritual</strong>",
-      "3": "Obtém 12% de <electro>Bônus de Dano Electro</electro>.",
-      "4": "Na duração, cada inimigo adicional que o Supremo <strong>Ecos Sombrios</strong> ou <strong>Super Olho Espiritual</strong> atingirem aumentam o <electro>Bônus de Dano Electro</electro> de Ororon em mais 12%. É possível obter até 60% de <electro>Bônus de Dano Electro</electro> dessa forma."
+      "3": "Obtém 8% de <electro>Bônus de Dano Electro</electro>.",
+      "4": "Na duração, cada inimigo adicional que o Supremo <strong>Ecos Sombrios</strong> ou <strong>Super Olho Espiritual</strong> atingirem aumentam o <electro>Bônus de Dano Electro</electro> de Ororon em mais 8%. É possível obter até 40% de <electro>Bônus de Dano Electro</electro> dessa forma."
     }
   },
   "constellation3": {

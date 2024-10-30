@@ -6,8 +6,19 @@
   "auto": {
     "name": "Phantom Feather Flurry",
     "fields": {
-      "normal": "<",
-      "charged": "s"
+      "normal": {
+        "0": "<strong>Normal Attack</strong>",
+        "1": "Melancarkan hingga 4 tembakan panah berturut-turut menggunakan busur."
+      },
+      "charged": {
+        "0": "<strong>Charged Attack</strong>",
+        "1": "Melancarkan sebuah <strong>Serangan Membidik</strong> yang lebih akurat untuk mengakibatkan DMG yang lebih besar.",
+        "2": "Saat membidik, angin kuat akan berkumpul di ujung anak panah. Panah dengan angin kuat yang terkumpul penuh akan mengakibatkan <anemo>Anemo DMG</anemo>."
+      },
+      "plunging": {
+        "0": "<strong>Plunging Attack</strong>",
+        "1": "Melancarkan hujan panah dari udara, menerjang tanah dengan kecepatan tinggi, menyerang musuh di jalur terjangan, dan mengakibatkan DMG Area saat mendarat."
+      }
     },
     "skillParams": {
       "0": "DMG Tahap 1",
@@ -167,7 +178,7 @@
   "constellation4": {
     "name": "Sparks, the Sudden Shot",
     "description": {
-      "0": "Saat <strong>Radiant Soulreaper Shell</strong> dari Elemental Burst <strong>Soul Reaper's Fatal Round</strong> mengenai musuh, akan memulihkan 1,5 Energy untuk Chasca dan mengakibatkan DMG Elemental Area sebesar 400% ATK Chasca yang elemennya sesuai dengan jenis elemen dari <strong>Radiant Soulreaper Shell</strong>. Efek ini dapat terpicu sekali setiap kali Chasca melancarkan <strong>Soul Reaper's Fatal Round</strong>."
+      "0": "Saat <strong>Radiant Soulseeker Shell</strong> dari Elemental Burst <strong>Soul Reaper's Fatal Round</strong> mengenai musuh, akan memulihkan 1,5 Energy untuk Chasca dan mengakibatkan DMG Elemental Area sebesar 400% ATK Chasca yang elemennya sesuai dengan jenis elemen dari <strong>Radiant Soulseeker Shell</strong>. Efek ini dapat terpicu sekali setiap kali Chasca melancarkan <strong>Soul Reaper's Fatal Round</strong>."
     }
   },
   "constellation5": {

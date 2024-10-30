@@ -6,8 +6,19 @@
   "auto": {
     "name": "Mưa Lông Vũ",
     "fields": {
-      "normal": "<",
-      "charged": "s"
+      "normal": {
+        "0": "<strong>Tấn Công Thường</strong>",
+        "1": "Thực hiện tối đa 4 lần bắn tên liên tiếp."
+      },
+      "charged": {
+        "0": "<strong>Trọng Kích</strong>",
+        "1": "Tiến hành <strong>ngắm bắn</strong> chuẩn hơn, có sát thương cao hơn.",
+        "2": "Khi ngắm bắn, gió sẽ tích tụ trên mũi tên. Mũi tên đầy gió sẽ gây <anemo>Sát Thương Nguyên Tố Phong</anemo>."
+      },
+      "plunging": {
+        "0": "<strong>Tấn Công Khi Đáp</strong>",
+        "1": "Bắn mưa tên xuống mặt đất, đồng thời lao nhanh xuống đất, tấn công kẻ địch trên đường và gây sát thương phạm vi khi chạm đất."
+      }
     },
     "skillParams": {
       "0": "Sát Thương Lần 1",

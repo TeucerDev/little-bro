@@ -44,7 +44,7 @@
     "description": {
       "0": "Ororon lässt die aus der Ewigkeit ererbte geheime Kunst der Meister des Nachtwinds als eine nachtfarbene <strong>Seelenkugel</strong> erscheinen und wirft sie auf einen Gegner, wobei mit Nachtseelen versehener <electro>Elektro-Schaden</electro> verursacht wird.",
       "1": "Wenn es andere Gegner in der Nähe gibt, hüpft die Seelenkugel zwischen Gegnern in der Nähe hin und her und verursacht dabei mit Nachtseelen versehenen <electro>Elektro-Schaden</electro>. Jeder Gegner kann nach einem einzelnen Einsetzen der „Kette des Zwielichts“ höchstens einmal als Ziel des Herumhüpfens ausgewählt werden.",
-      "2": "Wenn sie 3-mal herumgehüpft ist oder sich in der Nähe keine Gegner befinden, die als Ziel ausgewählt werden können, verschwindet die Seelenkugel. Es kann zu einem Zeitpunkt nur eine Seelenkugel existieren, die von Ororon selbst erschaffen wurde.",
+      "2": "Wenn sie 3-mal herumgehüpft ist oder sich in der Nähe keine Gegner befinden, die als Ziel ausgewählt werden können, verschwindet die Seelenkugel.",
       "3": "<br/>",
       "4": "<i>„Die Menschen wollen immer die Zukunft voraussagen, aber das liegt vielleicht daran, dass sie noch nicht entdecktt haben, was sie tun sollten ... Tut mir leid, ich rede wieder unverständliches Zeug.“</i>"
     },
@@ -102,9 +102,9 @@
   "passive1": {
     "name": "Nachtschatten-Synästhesie",
     "description": {
-      "0": "Verleiht Ororon, wenn ein Truppenmitglied in der Nähe „Nachtseelenaufbruch“ auslöst, 40 Nachtseelenpunkte. Verleiht Ororon, wenn eine aktuelle Figur der Truppe in der Nähe innerhalb von 15 s nach Anwendung von Ororonsßßß Elementarfähigkeit <hydro>Hydro-Schaden</hydro> oder <electro>Elektro-Schaden</electro> verursacht, 5 Nachtseelenpunkte, 0,3 s Abklingzeit, während der Wirkungsdauer bis zu 10-mal auszulösen.",
+      "0": "Verleiht Ororon, wenn ein Truppenmitglied in der Nähe „Nachtseelenaufbruch“ auslöst, 40 Nachtseelenpunkte. Verleiht Ororon, wenn ein anderes Truppenmitglied innerhalb von 15 s nach Anwendung von Ororonsßßß Elementarfähigkeit <hydro>Hydro-Schaden</hydro> oder <electro>Elektro-Schaden</electro> verursacht, 5 Nachtseelenpunkte, 0,3 s Abklingzeit, während der Wirkungsdauer bis zu 10-mal auszulösen.",
       "1": "<br/>",
-      "2": "Verbraucht außerdem, wenn Ororon mindestens 10 Nachtseelenpunkte hat und ein Gegner in der Nähe Schaden von der Reaktion <electro>Unter Strom</electro> erleidet oder ein anderes Truppenmitglied in der Nähe mit Nachtseelen versehen Schaden verursacht, 10 Nachtseelenpunkte und geht in den Zustand des Nachtseelensegens über. Löst danach den Effekt „Feinfühligkeit“ aus: Fügt bis zu 4 Gegnern in der Umgebung mit Nachtseelen versehen <electro>Elektro-Schaden</electro> in Höhe vonßßß 130 % von Ororons ANG zu, 1,8 s Abklingzeit.",
+      "2": "Verbraucht außerdem, wenn Ororon mindestens 10 Nachtseelenpunkte hat und ein Gegner in der Nähe Schaden von der Reaktion <electro>Unter Strom</electro> erleidet oder ein anderes Truppenmitglied in der Nähe mit Nachtseelen versehen Schaden verursacht, 10 Nachtseelenpunkte und geht in den Zustand des Nachtseelensegens über. Löst danach den Effekt „Feinfühligkeit“ aus: Fügt bis zu 4 Gegnern in der Umgebung mit Nachtseelen versehen <electro>Elektro-Schaden</electro> in Höhe von 160 % von Ororons ANG zu, 1,8 s Abklingzeit.",
       "3": "<br/>",
       "4": "<strong>Nachtseelensegen – Ororon</strong>",
       "5": "Ororons Nachtseelensegen hält bis zu 6 s."
@@ -113,10 +113,10 @@
   "passive2": {
     "name": "Aspekt-Katalysator",
     "description": {
-      "0": "Verleiht Ororon, wenn das <strong>Seelenauge</strong> der Elementarfähigkeit <strong>Kette des Zwielichts</strong> Gegner trifft, 15 s lang den Effekt „Aspektsiegel“.",
+      "0": "Verleiht Ororon, wenn die <strong>Seelenkugel</strong> der Elementarfähigkeit <strong>Kette des Zwielichts</strong> Gegner trifft, 15 s lang den Effekt „Aspektsiegel“.",
       "1": "<br/>",
       "2": "<strong>Aspektsiegel</strong>",
-      "3": "Stellt aktuellen Figuren der Truppe in der Nähe, wenn diese <hydro>Hydro-Schaden</hydro> oder <electro>Elektro-Schaden</electro> verursachen, 3 Punkte Elementarenergie wieder her. Stellt, wenn Ororon inaktiv in der Truppe ist, ihm ebenfalls 3 Punkte Elementarenergie wieder her. 1 s Abklingzeit, während der Wirkungsdauer bis zu 3-mal auszulösen."
+      "3": "Stellt aktuellen Figuren der Truppe in der Nähe, wenn diese mit Standardangriffen, heftigen Schlägen oder Angriffen aus dem Fall Gegner treffen, 3 Punkte Elementarenergie wieder her. Stellt, wenn Ororon inaktiv in der Truppe ist, ihm ebenfalls 3 Punkte Elementarenergie wieder her. 1 s Abklingzeit, während der Wirkungsdauer bis zu 3-mal auszulösen."
     }
   },
   "passive3": {
@@ -126,7 +126,8 @@
       "1": "<br/>",
       "2": "Beim Gedrückthalten zum Zielen wechselt Ororon in den „Seelensprecher“-Zustand, der es ihm ermöglicht, mit „Nachtgeist-Graffitis“ und „Nachtgeist-Mustern“ zu interagieren und ihre Informationen und Kräfte zu extrahieren. Die Regeln für die Interaktion mit diesen Objekten folgen den Regeln der Iktomisaurier.",
       "3": "<br/>",
-      "4": "Verbraucht außerdem beim Gedrückthalten zum Springen 75 Punkte Ausdauer und springt dann hoch. Beim Aufenthalt in einem Gebiet mit Phlogiston-Mechanismus in Natlan verbraucht Ororon vorrangig 5 Punkte Phlogiston und springt damit noch höher."
+      "4": "Verbraucht außerdem beim Gedrückthalten zum Springen 75 Punkte Ausdauer und springt dann hoch. Beim Aufenthalt in einem Gebiet mit Phlogiston-Mechanismus in Natlan verbraucht Ororon vorrangig 5 Punkte Phlogiston und springt damit noch höher.",
+      "5": "In der Luft kann der Standardangriff gedrückt gehalten werden, damit Ororon Phlogiston oder Ausdauer verbraucht, um zu zielen."
     }
   },
   "passive": {
@@ -140,7 +141,7 @@
     "name": "Pfad im Waldnebel",
     "description": {
       "0": "Lässt die <strong>Seelenkugel</strong> der Elementarfähigkeit <strong>Kette des Zwielichts</strong> 2-mal zusätzlich hüpfen.",
-      "1": "Verleiht von der <strong>Seelenkugel</strong> getroffenen Gegnern außerdem den 12 s anhaltenden Effekt „Dunkelheit der Nacht“: Erhöht den von diesem Effekt betroffenen Gegnern mit „Feinfühligkeit“ des passiven Talents „Nachtschatten-Synästhesie“ zugefügten Schaden um 60 %, das passive Talent „Nachtschatten-Synästhesie“ muss für diesen Effekt zuerst freigeschaltet werden."
+      "1": "Verleiht von der <strong>Seelenkugel</strong> getroffenen Gegnern außerdem den 12 s anhaltenden Effekt „Dunkelheit der Nacht“: Erhöht den von diesem Effekt betroffenen Gegnern mit „Feinfühligkeit“ des passiven Talents „Nachtschatten-Synästhesie“ zugefügten Schaden um 50 %, das passive Talent „Nachtschatten-Synästhesie“ muss für diesen Effekt zuerst freigeschaltet werden."
     }
   },
   "constellation2": {
@@ -149,8 +150,8 @@
       "0": "Verleiht Ororon nach Anwenden der Spezialfähigkeit <strong>Gedämpftes Echo der Finsternis</strong> den Effekt „Spirituelle Empfindlichkeit“, hält 9 s.",
       "1": "<br/>",
       "2": "<strong>Spirituelle Empfindlichkeit</strong>",
-      "3": "Erhöht den <electro>Elektro-Schaden</electro> um 12 %.",
-      "4": "Erhöht beim Treffen jedes zusätzlichen Gegners mit der Spezialfähigkeit <strong>Gedämpftes Echo der Finsternis</strong> oder <strong>Ultraschall-Seelenauge</strong> während der Wirkungsdauer Ororons <electro>Elektro-Schaden</electro> zusätzlich um 12 %. Erhöht den <electro>Elektro-Schaden</electro> auf diese Weise um bis zu 60 %."
+      "3": "Erhöht den <electro>Elektro-Schaden</electro> um 8 %.",
+      "4": "Erhöht beim Treffen jedes zusätzlichen Gegners mit der Spezialfähigkeit <strong>Gedämpftes Echo der Finsternis</strong> oder <strong>Ultraschall-Seelenauge</strong> während der Wirkungsdauer Ororons <electro>Elektro-Schaden</electro> zusätzlich um 8 %. Erhöht den <electro>Elektro-Schaden</electro> auf diese Weise um bis zu 40 %."
     }
   },
   "constellation3": {

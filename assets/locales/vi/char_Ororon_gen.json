@@ -44,7 +44,7 @@
     "description": {
       "0": "Ororon đã cụ thể hóa bí thuật của Chủ Nhân Gió Đêm thành <strong>Ngọc Linh Hồn</strong> của màn đêm và ném vào kẻ địch, gây <electro>Sát Thương Nguyên Tố Lôi</electro> mang thuộc tính Dạ Hồn.",
       "1": "Khi xung quanh có kẻ địch khác, Ngọc Linh Hồn sẽ nảy bật giữa những kẻ địch, gây <electro>Sát Thương Nguyên Tố Lôi</electro> mang thuộc tính Dạ Hồn. Sau mỗi lần thi triển Màn Đêm Trói Buộc, mỗi kẻ địch chỉ được chọn làm mục tiêu một lần.",
-      "2": "Khi nảy bật 3 lần hoặc không còn kẻ địch bị chọn làm mục tiêu thì Ngọc Linh Hồn sẽ biến mất. Cùng lúc chỉ có thể tồn tại tối đa một Ngọc Linh Hồn do chính Ororon tạo ra.",
+      "2": "Khi nảy bật 3 lần hoặc không còn kẻ địch bị chọn làm mục tiêu thì Ngọc Linh Hồn sẽ biến mất.",
       "3": "<br/>",
       "4": "<i>\"Con người luôn muốn dự đoán tương lai, nhưng đó có lẽ là vì họ chưa tìm được việc mình nên làm... Xin lỗi, lại nói những lời khó hiểu rồi.\"</i>"
     },
@@ -102,9 +102,9 @@
   "passive1": {
     "name": "Cảm Nhận Trong Đêm Tối",
     "description": {
-      "0": "Khi nhân vật trong đội ở gần kích hoạt Dạ Hồn Bùng Nổ, Ororon sẽ nhận 40 điểm Dạ Hồn. Trong 15s sau khi thi triển Kỹ Năng Nguyên Tố, khi nhân vật ra trận trong đội gần đó gây <hydro>Sát Thương Nguyên Tố Thủy</hydro> hoặc <electro>Sát Thương Nguyên Tố Lôi</electro>, Ororon sẽ nhận 5 điểm Dạ Hồn. Hiệu quả này mỗi 0.3s tối đa kích hoạt một lần, trong thời gian duy trì tối đa kích hoạt 10 lần.",
+      "0": "Sau khi nhân vật trong đội ở gần kích hoạt Dạ Hồn Bùng Nổ, Ororon sẽ nhận 40 điểm Dạ Hồn. Trong 15s sau khi thi triển Kỹ Năng Nguyên Tố, những nhân vật khác trong đội gần đó gây <hydro>Sát Thương Nguyên Tố Thủy</hydro> hoặc <electro>Sát Thương Nguyên Tố Lôi</electro>, Ororon sẽ nhận 5 điểm Dạ Hồn. Hiệu quả này mỗi 0.3s tối đa kích hoạt một lần, trong thời gian duy trì tối đa kích hoạt 10 lần.",
       "1": "<br/>",
-      "2": "Ngoài ra, khi kẻ địch gần đó chịu phải sát thương phản ứng <electro>Điện Cảm</electro> hoặc sát thương thuộc tính Dạ Hồn do nhân vật khác trong đội gần đó gây ra, nếu Ororon có ít nhất 10 điểm Dạ Hồn thì anh ta sẽ tiêu hao 10 điểm Dạ Hồn đó để tiến vào trạng thái Dạ Hồn Chúc Phúc và kích hoạt hiệu quả \"Siêu Giác Quan\": Gây <electro>Sát Thương Nguyên Tố Lôi</electro> mang thuộc tính Dạ Hồn cho tối đa 4 kẻ địch xung quanh tương đương 130% Tấn Công của Ororon. Hiệu quả trên mỗi 1.8s tối đa kích hoạt một lần.",
+      "2": "Ngoài ra, khi kẻ địch gần đó chịu phải sát thương phản ứng <electro>Điện Cảm</electro> hoặc sát thương thuộc tính Dạ Hồn do nhân vật khác trong đội gần đó gây ra, nếu Ororon có ít nhất 10 điểm Dạ Hồn thì anh ta sẽ tiêu hao 10 điểm Dạ Hồn đó để tiến vào trạng thái Dạ Hồn Chúc Phúc và kích hoạt hiệu quả \"Siêu Giác Quan\": Gây <electro>Sát Thương Nguyên Tố Lôi</electro> mang thuộc tính Dạ Hồn cho tối đa 4 kẻ địch xung quanh tương đương 160% Tấn Công của Ororon. Hiệu quả trên mỗi 1.8s tối đa kích hoạt một lần.",
       "3": "<br/>",
       "4": "<strong>Dạ Hồn Chúc Phúc - Ororon</strong>",
       "5": "Trạng thái Dạ Hồn Chúc Phúc của Ororon tối đa duy trì 6s."
@@ -113,10 +113,10 @@
   "passive2": {
     "name": "Chất Xúc Tác Diện Mạo",
     "description": {
-      "0": "Sau khi <strong>Mắt Linh Hồn</strong> từ Kỹ Năng Nguyên Tố <strong>Màn Đêm Trói Buộc</strong> trúng kẻ địch, Ororon sẽ nhận được hiệu quả Ấn Diện Mạo trong 15s.",
+      "0": "Sau khi <strong>Ngọc Linh Hồn</strong> từ Kỹ Năng Nguyên Tố <strong>Màn Đêm Trói Buộc</strong> trúng kẻ địch, Ororon sẽ nhận được hiệu quả Ấn Diện Mạo trong 15s.",
       "1": "<br/>",
       "2": "<strong>Ấn Diện Mạo</strong>",
-      "3": "Nhân vật ra trận trong đội gần đó gây <hydro>Sát Thương Nguyên Tố Thủy</hydro> hoặc <electro>Sát Thương Nguyên Tố Lôi</electro> thì sẽ hồi phục cho nhân vật đó 3 điểm Năng Lượng Nguyên Tố. Nếu Ororon không ra trận thì Ororon cũng sẽ được hồi phục 3 điểm Năng Lượng Nguyên Tố. Hiệu quả này mỗi 1s tối đa kích hoạt một lần, trong thời gian duy trì tối đa kích hoạt 3 lần."
+      "3": "Nhân vật ra trận trong đội gần đó tiến hành Tấn Công Thường, Trọng Kích hoặc Tấn Công Khi Đáp trúng kẻ địch, sẽ hồi phục cho nhân vật đó 3 điểm Năng Lượng Nguyên Tố. Nếu Ororon không ra trận thì Ororon cũng sẽ được hồi phục 3 điểm Năng Lượng Nguyên Tố. Hiệu quả này mỗi 1s tối đa kích hoạt một lần, trong thời gian duy trì tối đa kích hoạt 3 lần."
     }
   },
   "passive3": {
@@ -126,7 +126,8 @@
       "1": "<br/>",
       "2": "Khi nhấn giữ ngắm chuẩn, Ororon sẽ vào trạng thái \"Ngoại Cảm\". Khi ở trong trạng thái này, Ororon có thể tương tác với Graffiti Linh Hồn và Hoa Văn Linh Hồn để lấy thông tin và sức mạnh. Quy tắc tương tác vật phẩm này dựa theo quy tắc của Iktomisaurus.",
       "3": "<br/>",
-      "4": "Ngoài ra, khi nhấn giữ nút nhảy, Ororon sẽ tiêu hao 75 điểm Thể Lực để nhảy lên cao. Khi ở trong khu vực có cơ chế Phlogiston của Natlan, Ororon sẽ ưu tiên tiêu hao 5 điểm Phlogiston để nhảy đến độ cao cao hơn."
+      "4": "Ngoài ra, khi nhấn giữ nút nhảy, Ororon sẽ tiêu hao 75 điểm Thể Lực để nhảy lên cao. Khi ở trong khu vực có cơ chế Phlogiston của Natlan, Ororon sẽ ưu tiên tiêu hao 5 điểm Phlogiston để nhảy đến độ cao cao hơn.",
+      "5": "Khi trong không trung, Ororon có thể nhấn giữ Tấn Công Thường để tiêu hao Phlogiston mà tiến hành ngắm bắn."
     }
   },
   "passive": {
@@ -140,7 +141,7 @@
     "name": "Vết Tích Giữa Rừng Sương",
     "description": {
       "0": "<strong>Ngọc Linh Hồn</strong> từ Kỹ Năng Nguyên Tố <strong>Màn Đêm Trói Buộc</strong> có thể nảy thêm 2 lần.",
-      "1": "Ngoài ra, sau khi <strong>Ngọc Linh Hồn</strong> trúng kẻ địch, sẽ thi triển hiệu quả Thủy Triều Đêm lên kẻ địch trong 12s. Sát thương gây ra từ hiệu ứng Siêu Giác Quan của thiên phú \"Cảm Nhận Trong Đêm Tối\" sẽ tăng 60% cho kẻ địch bị ảnh hưởng bởi Thủy Triều Đêm. Hiệu quả này cần mở khóa thiên phú \"Cảm Nhận Trong Đêm Tối\" trước."
+      "1": "Ngoài ra, sau khi <strong>Ngọc Linh Hồn</strong> trúng kẻ địch, sẽ thi triển hiệu quả Thủy Triều Đêm lên kẻ địch trong 12s. Sát thương gây ra từ hiệu ứng Siêu Giác Quan của thiên phú \"Cảm Nhận Trong Đêm Tối\" sẽ tăng 50% cho kẻ địch bị ảnh hưởng bởi Thủy Triều Đêm. Hiệu quả này cần mở khóa thiên phú \"Cảm Nhận Trong Đêm Tối\" trước."
     }
   },
   "constellation2": {
@@ -149,8 +150,8 @@
       "0": "Sau khi thi triển Kỹ Năng Nộ <strong>Tiếng Vọng U Ám</strong>, Ororon sẽ nhận được hiệu quả Siêu Tâm Linh trong 9s.",
       "1": "<br/>",
       "2": "<strong>Siêu Tâm Linh</strong>",
-      "3": "Nhận 12% <electro>Buff Sát Thương Nguyên Tố Lôi</electro>.",
-      "4": "Trong thời gian duy trì, Kỹ Năng Nộ <strong>Tiếng Vọng U Ám</strong> hoặc <strong>Mắt Siêu Âm</strong> mỗi trúng thêm một kẻ địch, sẽ khiến Ororon nhận thêm 12% <electro>Buff Sát Thương Nguyên Tố Lôi</electro>. Tối đa nhận được 60% <electro>Buff Sát Thương Nguyên Tố Lôi</electro> bằng cách này."
+      "3": "Nhận 8% <electro>Buff Sát Thương Nguyên Tố Lôi</electro>.",
+      "4": "Trong thời gian duy trì, Kỹ Năng Nộ <strong>Tiếng Vọng U Ám</strong> hoặc <strong>Mắt Siêu Âm</strong> mỗi trúng thêm một kẻ địch, sẽ khiến Ororon nhận thêm 8% <electro>Buff Sát Thương Nguyên Tố Lôi</electro>. Tối đa nhận được 40% <electro>Buff Sát Thương Nguyên Tố Lôi</electro> bằng cách này."
     }
   },
   "constellation3": {

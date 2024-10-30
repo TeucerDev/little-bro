@@ -44,7 +44,7 @@
     "description": {
       "0": "Ororon manifeste une ancienne technique mystique des Maîtres du vent nocturne sous la forme d'un <strong>spiritorbe</strong> de couleur nocturne et le lance sur un ennemi pour infliger des <electro>DGT Électro</electro> infusés de noctâme.",
       "1": "Lorsque d'autres ennemis sont présents à proximité, le spiritorbe rebondit entre les ennemis proches pour infliger des <electro>DGT Électro</electro> infusés de noctâme, chaque ennemi ne pouvant être ciblé qu'une seule fois par utilisation de Cordon fermement crépusculaire.",
-      "2": "Le spiritorbe disparaît après 3 rebonds ou si aucun ennemi ne peut être ciblé. Il ne peut exister qu'un seul spiritorbe créé par Ororon à la fois.",
+      "2": "Le spiritorbe disparaît après 3 rebonds ou si aucun ennemi ne peut être ciblé.",
       "3": "<br/>",
       "4": "<i>« Les gens veulent toujours prédire l'avenir, mais c'est peut-être parce qu'ils n'ont pas encore découvert ce qu'ils doivent faire... Désolé, je dis encore des choses compliquées, je sais... »</i>"
     },
@@ -102,9 +102,9 @@
   "passive1": {
     "name": "Synesthésie sombrement nocturne",
     "description": {
-      "0": "Lorsqu'un membre de l'équipe à proximité déclenche une éruption noctâme, Ororon obtient 40 pts de noctâme. Pendant 15 s après l'utilisation d'une compétence élémentaire, Ororon obtient 5 pts de noctâmes lorsqu'un personnage déployé de l'équipe à proximité inflige des <hydro>DGT Hydro</hydro> ou des <electro>DGT Électro</electro>, cet effet pouvant être déclenché une fois toutes les 0,3 s et un maximum de 10 fois pendant cette durée de 15 s.",
+      "0": "Lorsqu'un membre de l'équipe à proximité a déclenché une éruption noctâme, Ororon obtient 40 pts de noctâme. Pendant 15 s après l'utilisation d'une compétence élémentaire, Ororon obtient 5 pts de noctâmes lorsqu'un autre personnage de l'équipe inflige des <hydro>DGT Hydro</hydro> ou des <electro>DGT Électro</electro>, cet effet pouvant être déclenché une fois toutes les 0,3 s et un maximum de 10 fois pendant cette durée de 15 s.",
       "1": "<br/>",
-      "2": "De plus, lorsqu'un ennemi proche subit des DGT d'une réaction d'<electro>Électrocution</electro> ou des DGT infusés de noctâme d'un autre personnage de l'équipe à proximité, Ororon consomme, si possible, 10 pts de noctâme pour entrer dans l'état Bénédiction noctâme et déclencher l'effet Hyper-sens : inflige des <electro>DGT Électro</electro> infusés de noctâme d'une valeur équivalant à 130 % de l'ATQ d'Ororon à un maximum de 4 ennemis à proximité. Cet effet peut être déclenché une fois toutes les 1,8 s.",
+      "2": "De plus, lorsqu'un ennemi proche subit des DGT d'une réaction d'<electro>Électrocution</electro> ou des DGT infusés de noctâme d'un autre personnage de l'équipe à proximité, Ororon consomme, si possible, 10 pts de noctâme pour entrer dans l'état Bénédiction noctâme et déclencher l'effet Hyper-sens : inflige des <electro>DGT Électro</electro> infusés de noctâme d'une valeur équivalant à 160 % de l'ATQ d'Ororon à un maximum de 4 ennemis à proximité. Cet effet peut être déclenché une fois toutes les 1,8 s.",
       "3": "<br/>",
       "4": "<strong>Bénédiction noctâme : Ororon</strong>",
       "5": "La bénédiction noctâme d'Ororon dure un maximum de 6 s."
@@ -113,10 +113,10 @@
   "passive2": {
     "name": "Catalyseur manifestement spirituel",
     "description": {
-      "0": "Lorsqu'un <strong>spiroculus</strong> de la compétence élémentaire <strong>Cordon fermement crépusculaire</strong> a touché un ennemi, Ororon obtient une marque manifeste pendant 15 s.",
+      "0": "Lorsqu'un <strong>spiritorbe</strong> de la compétence élémentaire <strong>Cordon fermement crépusculaire</strong> a touché un ennemi, Ororon obtient une marque manifeste pendant 15 s.",
       "1": "<br/>",
       "2": "<strong>Marque manifeste</strong>",
-      "3": "Lorsqu'un personnage déployé de l'équipe à proximité inflige des <hydro>DGT Hydro</hydro> ou des <electro>DGT Électro</electro>, il récupère 3 pts d'énergie élémentaire. Si Ororon fait partie de l'équipe mais n'est pas déployé, il récupère également 3 pts d'énergie élémentaire. Cet effet peut être déclenché une fois toutes les secondes, et un maximum de 3 fois pendant la durée de cette marque."
+      "3": "Lorsqu'un personnage déployé de l'équipe à proximité a touché un ennemi avec une attaque normale, chargée ou plongeante, il récupère 3 pts d'énergie élémentaire. Si Ororon fait partie de l'équipe mais n'est pas déployé, il récupère également 3 pts d'énergie élémentaire. Cet effet peut être déclenché une fois toutes les secondes, et un maximum de 3 fois pendant la durée de cette marque."
     }
   },
   "passive3": {
@@ -126,7 +126,8 @@
       "1": "<br/>",
       "2": "Maintenir pour viser fait passer Ororon dans l'état Spiritorateur, ce qui lui permet d'interagir avec les graffitis et insignes de spirinocturne pour extraire les informations et la puissance à l'intérieur. Les règles d'interaction avec ces éléments suivent les mêmes règles que celles régissant les interactions avec les iktomisaures.",
       "3": "<br/>",
-      "4": "De plus, maintenir le saut fait consommer 75 pts d'endurance à Ororon pour sauter. Dans une zone de Natlan avec des mécanismes phlogistiques, Ororon consomme en priorité 5 pts de phlogistique pour sauter encore plus haut."
+      "4": "De plus, maintenir le saut fait consommer 75 pts d'endurance à Ororon pour sauter. Dans une zone de Natlan avec des mécanismes phlogistiques, Ororon consomme en priorité 5 pts de phlogistique pour sauter encore plus haut.",
+      "5": "Dans les airs, Ororon peut maintenir l'attaque normale et consommer du phlogistique ou de l'endurance pour passer en mode visée."
     }
   },
   "passive": {
@@ -140,7 +141,7 @@
     "name": "Traces de la forêt brumeuse",
     "description": {
       "0": "Les <strong>spiritorbes</strong> de la compétence élémentaire <strong>Cordon fermement crépusculaire</strong> peuvent rebondir 2 fois supplémentaires.",
-      "1": "De plus, lorsqu'un <strong>spiritorbe</strong> a touché un ennemi, ce dernier est affligé de l'effet Nuit noire pendant 12 s : les DGT infligé par l'hyper-sens de l'aptitude passive « Synesthésie sombrement nocturne » aux ennemis sous l'effet d'une nuit noire augmentent de 60 %, l'aptitude passive « Synesthésie sombrement nocturne » devant être déjà débloquée."
+      "1": "De plus, lorsqu'un <strong>spiritorbe</strong> a touché un ennemi, ce dernier est affligé de l'effet Nuit noire pendant 12 s : les DGT infligé par l'hyper-sens de l'aptitude passive « Synesthésie sombrement nocturne » aux ennemis sous l'effet d'une nuit noire augmentent de 50 %, l'aptitude passive « Synesthésie sombrement nocturne » devant être déjà débloquée."
     }
   },
   "constellation2": {
@@ -149,8 +150,8 @@
       "0": "Après avoir utilisé le déchaînement élémentaire <strong>Écho opaquement étouffé</strong>, Ororon obtient l'effet Spiri-sens pendant 9 s.",
       "1": "<br/>",
       "2": "<strong>Spiri-sens</strong>",
-      "3": "Accorde un <electro>bonus de DGT Électro</electro> de 12 %.",
-      "4": "Pendant la durée de l'effet, chaque ennemi supplémentaire touché par le déchaînement élémentaire <strong>Écho opaquement étouffé</strong> et les <strong>spiroculus soniques</strong> accorde à Ororon un <electro>bonus de DGT Électro</electro> supplémentaire de 12 %, le <electro>bonus de DGT Électro</electro> pouvant atteindre 60 % de cette manière."
+      "3": "Accorde un <electro>bonus de DGT Électro</electro> de 8 %.",
+      "4": "Pendant la durée de l'effet, chaque ennemi supplémentaire touché par le déchaînement élémentaire <strong>Écho opaquement étouffé</strong> et les <strong>spiroculus soniques</strong> accorde à Ororon un <electro>bonus de DGT Électro</electro> supplémentaire de 8 %, le <electro>bonus de DGT Électro</electro> pouvant atteindre 40 % de cette manière."
     }
   },
   "constellation3": {

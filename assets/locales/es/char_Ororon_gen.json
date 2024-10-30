@@ -44,7 +44,7 @@
     "description": {
       "0": "Ororon manifiesta una técnica arcaica de los Augures Vientonocturno en la forma de un <strong>orbe espiritual</strong> oscuro que lanza contra el enemigo para infligirle <electro>Daño Electro</electro> de naturaleza noctámbula.",
       "1": "Si en las cercanías hay más enemigos, el orbe espiritual rebotará en ellos y les infligirá <electro>Daño Electro</electro> de naturaleza noctámbula. Cada enemigo solo podrá ser fijado como objetivo una vez por cada vez que se use “Amparo de la noche”.",
-      "2": "El orbe espiritual desaparecerá tras rebotar 3 veces o si en las cercanías no hay ningún enemigo que pueda servir como objetivo. Solo puede haber un orbe espiritual creado por Ororon al mismo tiempo.",
+      "2": "El orbe espiritual desaparecerá tras rebotar 3 veces o si en las cercanías no hay ningún enemigo que pueda servir como objetivo.",
       "3": "<br/>",
       "4": "<i>“Todo el mundo quiere conocer el futuro, pero probablemente sea porque aún no saben lo que deben hacer... Perdón, otra vez estoy diciendo cosas difíciles de entender”.</i>"
     },
@@ -102,9 +102,9 @@
   "passive1": {
     "name": "Sinestesia noctívaga",
     "description": {
-      "0": "Cuando un personaje cercano del equipo causa una explosión noctámbula, Ororon obtiene 40 pts. de noctambulismo. Durante 15 s tras usar la Habilidad Elemental, cuando un personaje en uso cercano del equipo inflige <hydro>Daño Hydro</hydro> o <electro>Electro</electro>, Ororon obtiene 5 pts. de noctambulismo. Este efecto solo se puede activar una vez cada 0.3 s y solo puede ocurrir 10 veces mientras esté activo.",
+      "0": "Cuando un personaje cercano del equipo causa una explosión noctámbula, Ororon obtiene 40 pts. de noctambulismo. Durante 15 s tras usar la Habilidad Elemental, cuando otro personaje del equipo inflige <hydro>Daño Hydro</hydro> o <electro>Electro</electro>, Ororon obtiene 5 pts. de noctambulismo. Este efecto solo se puede activar una vez cada 0.3 s y solo puede ocurrir 10 veces mientras esté activo.",
       "1": "<br/>",
-      "2": "Además, cuando un enemigo cercano recibe daño de la reacción de <electro>Electrocargado</electro> o cuando otro personaje cercano del equipo inflige daño de naturaleza noctámbula, si Ororon tiene al menos 10 pts. de noctambulismo, los consumirá todos para entrar en estado de bendición noctámbula y activar el efecto de “ultrapercepción”, el cual inflige <electro>Daño Electro</electro> de naturaleza noctámbula a un máximo de 4 enemigos cercanos en una cantidad equivalente al 130% del ATQ de Ororon. Este efecto solo se puede activar una vez cada 1.8 s.",
+      "2": "Además, cuando un enemigo cercano recibe daño de la reacción de <electro>Electrocargado</electro> o cuando otro personaje cercano del equipo inflige daño de naturaleza noctámbula, si Ororon tiene al menos 10 pts. de noctambulismo, los consumirá todos para entrar en estado de bendición noctámbula y activar el efecto de “ultrapercepción”, el cual inflige <electro>Daño Electro</electro> de naturaleza noctámbula a un máximo de 4 enemigos cercanos en una cantidad equivalente al 160% del ATQ de Ororon. Este efecto solo se puede activar una vez cada 1.8 s.",
       "3": "<br/>",
       "4": "<strong>Bendición noctámbula: Ororon</strong>",
       "5": "El estado de bendición noctámbula de Ororon dura 6 s."
@@ -113,10 +113,10 @@
   "passive2": {
     "name": "Presencia manifiesta",
     "description": {
-      "0": "Tras golpear a un enemigo con el <strong>ojo espiritual</strong> de su Habilidad Elemental, <strong>Amparo de la noche</strong>, Ororon obtiene el efecto de “sello presencial” durante 15 s.",
+      "0": "Tras golpear a un enemigo con el <strong>orbe espiritual</strong> de su Habilidad Elemental, <strong>Amparo de la noche</strong>, Ororon obtiene el efecto de “sello presencial” durante 15 s.",
       "1": "<br/>",
       "2": "<strong>Sello presencial</strong>",
-      "3": "Cuando un personaje en uso cercano del equipo inflige <hydro>Daño Hydro</hydro> o <electro>Electro</electro>, dicho personaje recupera 3 pts. de Energía Elemental. Si Ororon está en tu equipo pero no en uso, también recupera 3 pts. de Energía Elemental. Este efecto solo se puede activar una vez por segundo y solo puede ocurrir 3 veces mientras esté activo."
+      "3": "Cuando un personaje en uso cercano del equipo golpea a un enemigo con un Ataque Normal, Cargado o Descendente, dicho personaje recupera 3 pts. de Energía Elemental. Si Ororon está en tu equipo pero no en uso, también recupera 3 pts. de Energía Elemental. Este efecto solo se puede activar una vez por segundo y solo puede ocurrir 3 veces mientras esté activo."
     }
   },
   "passive3": {
@@ -126,7 +126,8 @@
       "1": "<br/>",
       "2": "Al mantener pulsado para apuntar, Ororon entrará en estado de “espiritismo”, en el cual puede interactuar con pintadas e inscripciones místicas para extraer la información y el poder que contienen. Para interactuar con estos objetos, se seguirán las mismas reglas de interacción de los Iktomisaurios.",
       "3": "<br/>",
-      "4": "Además, al mantener pulsado para saltar, Ororon consumirá 75 pts. de Aguante para dar un salto. Al encontrarse en una zona con alguna mecánica de flogisto de Natlan, Ororon consumirá con prioridad 5 pts. de flogisto para saltar aún más alto."
+      "4": "Además, al mantener pulsado para saltar, Ororon consumirá 75 pts. de Aguante para dar un salto. Si se encuentra en una zona con alguna mecánica de flogisto de Natlan, Ororon consumirá con prioridad 5 pts. de flogisto para saltar aún más alto.",
+      "5": "Cuando está en el aire, Ororon puede mantener pulsado el Ataque Normal para apuntar consumiendo flogisto o Aguante."
     }
   },
   "passive": {
@@ -140,7 +141,7 @@
     "name": "Huellas en el bosque brumoso",
     "description": {
       "0": "El <strong>orbe espiritual</strong> de la Habilidad Elemental, <strong>Amparo de la noche</strong>, puede rebotar 2 veces más.",
-      "1": "Además, cuando el <strong>orbe espiritual</strong> golpea a un enemigo, le aplica el efecto de “lobreguez” durante 12 s, el cual aumenta en un 60% el daño que recibe con el efecto de ultrapercepción del talento pasivo “Sinestesia noctívaga”. Es necesario desbloquear previamente el talento pasivo “Sinestesia noctívaga”."
+      "1": "Además, cuando el <strong>orbe espiritual</strong> golpea a un enemigo, le aplica el efecto de “lobreguez” durante 12 s, el cual aumenta en un 50% el daño que recibe con el efecto de ultrapercepción del talento pasivo “Sinestesia noctívaga”. Es necesario desbloquear previamente el talento pasivo “Sinestesia noctívaga”."
     }
   },
   "constellation2": {
@@ -149,8 +150,8 @@
       "0": "Tras usar la Habilidad Definitiva, <strong>Eco de la oscuridad</strong>, Ororon obtiene el efecto de “percepción espiritual” durante 9 s.",
       "1": "<br/>",
       "2": "<strong>Percepción espiritual</strong>",
-      "3": "Otorga un 12% de <electro>Bono de Daño Electro</electro>.",
-      "4": "Mientras este efecto está activo, Ororon obtiene un 12% de <electro>Bono de Daño Electro</electro> extra por cada enemigo adicional golpeado con la Habilidad Definitiva, <strong>Eco de la oscuridad</strong>, o con el <strong>ojo sonicoespiritual</strong>. Como máximo, podrá obtener un 60% de <electro>Bono de Daño Electro</electro> de esta manera."
+      "3": "Otorga un 8% de <electro>Bono de Daño Electro</electro>.",
+      "4": "Mientras este efecto está activo, Ororon obtiene un 8% de <electro>Bono de Daño Electro</electro> extra por cada enemigo adicional golpeado con la Habilidad Definitiva, <strong>Eco de la oscuridad</strong>, o con el <strong>ojo sonicoespiritual</strong>. Como máximo, podrá obtener un 40% de <electro>Bono de Daño Electro</electro> de esta manera."
     }
   },
   "constellation3": {

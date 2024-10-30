@@ -2,12 +2,23 @@
   "name": "Chasca",
   "title": "Arbitre du ciel",
   "description": "",
-  "constellationName": "Divinum Vultur",
+  "constellationName": "Vultur Gryphus",
   "auto": {
     "name": "Rafale de plumes fantômes",
     "fields": {
-      "normal": "<",
-      "charged": "s"
+      "normal": {
+        "0": "<strong>Attaque normale</strong>",
+        "1": "Enchaîne jusqu'à 4 tirs consécutifs."
+      },
+      "charged": {
+        "0": "<strong>Attaque chargée</strong>",
+        "1": "Effectue un <strong>tir visé</strong> plus précis infligeant davantage de DGT.",
+        "2": "Lors de la visée, la flèche se charge de vents puissants, infligeant de considérables <anemo>DGT Anémo</anemo> quand elle est complètement chargée."
+      },
+      "plunging": {
+        "0": "<strong>Attaque plongeante</strong>",
+        "1": "Tire une pluie de flèches depuis les airs et plonge au sol, attaquant les ennemis en chemin et infligeant des DGT de zone à l'impact."
+      }
     },
     "skillParams": {
       "0": "DGT 1er coup",
