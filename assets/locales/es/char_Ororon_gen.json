@@ -1,7 +1,7 @@
 {
   "name": "Ororon",
   "title": "La Sombra del Viento Nocturno",
-  "description": "",
+  "description": "Un joven de los Augures Vientonocturno que vive en la naturaleza junto a toda clase de seres vivos.",
   "constellationName": "Vampyrum Spectrum",
   "auto": {
     "name": "Flecha albergaespíritus",
@@ -102,12 +102,13 @@
   "passive1": {
     "name": "Sinestesia noctívaga",
     "description": {
-      "0": "Cuando un personaje cercano del equipo causa una explosión noctámbula, Ororon obtiene 40 pts. de noctambulismo. Durante 15 s tras usar la Habilidad Elemental, cuando otro personaje del equipo inflige <hydro>Daño Hydro</hydro> o <electro>Electro</electro>, Ororon obtiene 5 pts. de noctambulismo. Este efecto solo se puede activar una vez cada 0.3 s y solo puede ocurrir 10 veces mientras esté activo.",
-      "1": "<br/>",
-      "2": "Además, cuando un enemigo cercano recibe daño de la reacción de <electro>Electrocargado</electro> o cuando otro personaje cercano del equipo inflige daño de naturaleza noctámbula, si Ororon tiene al menos 10 pts. de noctambulismo, los consumirá todos para entrar en estado de bendición noctámbula y activar el efecto de “ultrapercepción”, el cual inflige <electro>Daño Electro</electro> de naturaleza noctámbula a un máximo de 4 enemigos cercanos en una cantidad equivalente al 160% del ATQ de Ororon. Este efecto solo se puede activar una vez cada 1.8 s.",
-      "3": "<br/>",
-      "4": "<strong>Bendición noctámbula: Ororon</strong>",
-      "5": "El estado de bendición noctámbula de Ororon dura 6 s."
+      "0": "Cuando un personaje cercano del equipo causa una explosión noctámbula, Ororon obtiene 40 pts. de noctambulismo. Durante 15 s tras usar la Habilidad Elemental, cuando otro personaje del equipo golpea a un enemigo con un ataque <hydro>Hydro</hydro> o <electro>Electro</electro>, Ororon obtiene 5 pts. de noctambulismo. Este efecto solo se puede activar una vez cada 0.3 s y solo puede ocurrir 10 veces mientras esté activo.",
+      "1": "El máximo de pts. de noctambulismo que puede tener Ororon es 80.",
+      "2": "<br/>",
+      "3": "Además, cuando un enemigo cercano recibe daño de la reacción de <electro>Electrocargado</electro> o cuando otro personaje cercano del equipo inflige daño de naturaleza noctámbula, si Ororon tiene al menos 10 pts. de noctambulismo, los consumirá todos para entrar en estado de bendición noctámbula y activar el efecto de “ultrapercepción”, el cual inflige <electro>Daño Electro</electro> de naturaleza noctámbula a un máximo de 4 enemigos cercanos en una cantidad equivalente al 160% del ATQ de Ororon. Este efecto solo se puede activar una vez cada 1.8 s.",
+      "4": "<br/>",
+      "5": "<strong>Bendición noctámbula: Ororon</strong>",
+      "6": "El estado de bendición noctámbula de Ororon dura 6 s."
     }
   },
   "passive2": {
@@ -131,7 +132,7 @@
     }
   },
   "passive": {
-    "name": "Talento cotidiano",
+    "name": "Caminando con pieles",
     "description": {
       "0": "Aumenta en un 15% la Vel. de Vuelo de tus personajes del equipo.",
       "1": "No se puede acumular con otros talentos pasivos que tengan los mismos efectos."
@@ -151,7 +152,7 @@
       "1": "<br/>",
       "2": "<strong>Percepción espiritual</strong>",
       "3": "Otorga un 8% de <electro>Bono de Daño Electro</electro>.",
-      "4": "Mientras este efecto está activo, Ororon obtiene un 8% de <electro>Bono de Daño Electro</electro> extra por cada enemigo adicional golpeado con la Habilidad Definitiva, <strong>Eco de la oscuridad</strong>, o con el <strong>ojo sonicoespiritual</strong>. Como máximo, podrá obtener un 40% de <electro>Bono de Daño Electro</electro> de esta manera."
+      "4": "Además, mientras este efecto está activo, Ororon obtiene un 8% de <electro>Bono de Daño Electro</electro> extra por cada enemigo adicional golpeado con la Habilidad Definitiva, <strong>Eco de la oscuridad</strong>, o con el <strong>ojo sonicoespiritual</strong>. Como máximo, podrá obtener un 32% de <electro>Bono de Daño Electro</electro> de esta manera."
     }
   },
   "constellation3": {
@@ -164,7 +165,8 @@
   "constellation4": {
     "name": "Humo vientonocturno",
     "description": {
-      "0": "Aumenta en un 25% la velocidad de giro del <strong>ojo sonicoespiritual</strong> de la Habilidad Definitiva, <strong>Eco de la oscuridad</strong>."
+      "0": "Aumenta en un 25% la velocidad de giro del <strong>ojo sonicoespiritual</strong> invocado con la Habilidad Definitiva, <strong>Eco de la oscuridad</strong>.",
+      "1": "Además, Ororon recupera 8 pts. de Energía Elemental tras usar <strong>Eco de la oscuridad</strong>."
     }
   },
   "constellation5": {

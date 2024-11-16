@@ -1,7 +1,7 @@
 {
   "name": "Chasca",
   "title": "Arbitre du ciel",
-  "description": "",
+  "description": "La médiatrice des Tlalocans, celle qui met fin à toutes les querelles.",
   "constellationName": "Vultur Gryphus",
   "auto": {
     "name": "Rafale de plumes fantômes",
@@ -48,7 +48,7 @@
       "3": "<strong>Bénédiction noctâme : Chasca</strong>",
       "4": "La bénédiction noctâme de Chasca consomme de façon continue ses points de noctâme et prend fin une fois les points épuisés ou lors d'une nouvelle utilisation de la compétence. L'état Bénédiction noctâme de Chasca possède les propriétés spéciales suivantes :",
       "5": [
-        " En montant sur son spiribâton rituel, Chasca augmente sa VIT de déplacement et sa µRÉS à l'interruption et consomme de façon continue ses points de noctâme pour flotter dans les airs, sprinter et flotter plus haut consommant des points de noctâme supplémentaires.",
+        " En montant sur son spiribâton rituel, Chasca augmente sa VIT de déplacement et sa RÉS à l'interruption et consomme de façon continue ses points de noctâme pour flotter dans les airs, sprinter et flotter plus haut consommant des points de noctâme supplémentaires.",
         " En utilisant une attaque normale ou chargée, l'appui simple et l'appui long permettent de basculer entre différentes façons d'utiliser la visée multiple."
       ],
       "6": "<br/>",
@@ -178,7 +178,8 @@
   "constellation4": {
     "name": "Étincelles, le tir soudain",
     "description": {
-      "0": "Lorsqu'une <strong>cartouche brisâme de lumière</strong> du déchaînement élémentaire <strong>Assaut de faucheur d'âmes</strong> touche un ennemi, Chasca récupère 1,5 pt d'énergie élémentaire et la <strong>cartouche brisâme de lumière</strong> inflige des DGT de son élément d'une valeur équivalant à 400 % de l'ATQ de Chasca. Cet effet peut être déclenché une fois par <strong>Assaut de faucheur d'âmes</strong>."
+      "0": "Lorsqu'une <strong>cartouche brisâme de lumière</strong> du déchaînement élémentaire <strong>Assaut de faucheur d'âmes</strong> touche un ennemi, Chasca récupère 1,5 pt d'énergie élémentaire et la <strong>cartouche brisâme de lumière</strong> inflige des DGT de zone de son élément d'une valeur équivalant à 400 % de l'ATQ de Chasca, ces DGT étant considérés comme des DGT d'attaque chargée.",
+      "1": "Cet effet de DGT élémentaire de zone peut être déclenché une fois par <strong>Assaut de faucheur d'âmes</strong>."
     }
   },
   "constellation5": {
@@ -191,7 +192,7 @@
   "constellation6": {
     "name": "Affrontement, la gloire guerrière",
     "description": {
-      "0": "Le temps de charge requis lorsque Chasca effectue une <strong>visée multiple</strong> diminue et, après avoir déclenché une conversion spirituelle de l'aptitude passive « Astuce balistique », Chasca passe en état Assaut fatal : pendant les 3 prochaines secondes, la prochaine <strong>visée multiple</strong> de la compétence élémentaire <strong>Chasse des rênes spirituelles</strong> de Chasca est immédiatement chargée au maximum et les DGT CRIT de cette <strong>visée multiple</strong> augmentent de 120 %.",
+      "0": "Le temps de charge requis lorsque Chasca effectue une <strong>visée multiple</strong> diminue et, après avoir déclenché une conversion spirituelle de l'aptitude passive « Astuce balistique », Chasca passe en état Assaut fatal : pendant les 3 prochaines secondes, la prochaine <strong>visée multiple</strong> de la compétence élémentaire <strong>Chasse des rênes spirituelles</strong> de Chasca est immédiatement chargée au maximum et les DGT CRIT de cette <strong>visée multiple</strong> augmentent de 120 %. L'état Assaut fatal peut être obtenu une fois toutes les 3 s.",
       "1": "<br/>",
       "2": "L'aptitude passive « Astuce balistique » doit être déjà débloquée."
     }

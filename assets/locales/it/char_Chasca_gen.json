@@ -1,7 +1,7 @@
 {
   "name": "Chasca",
   "title": "Mediatrice celeste",
-  "description": "",
+  "description": "La Pacificatrice di Tlalocan, conciliatrice di ogni controversia.",
   "constellationName": "Vultur Gryphus",
   "auto": {
     "name": "Raffica Spettropiuma",
@@ -91,7 +91,7 @@
   "burst": {
     "name": "Colpo fatale della mietitrice",
     "description": {
-      "0": "Chasca concentra tutta la sua volontà e spara un singolo Proiettile Cercanime squarciavento che infligge <anemo>DAN da Anemo</anemo> con attributo Anima della Notte. In seguito, il suddetto Proiettile si divide in 6 Proiettili Cercanime che attaccano gli avversari circostanti.",
+      "0": "Chasca concentra tutta la sua volontà e spara un singolo Proiettile Cercanime squarciavento che infligge <anemo>DAN da Anemo ad area</anemo> con attributo Anima della Notte. In seguito, il suddetto Proiettile si divide in 6 Proiettili Cercanime che attaccano gli avversari circostanti.",
       "1": "<br/>",
       "2": "<strong>Proiettili Cercanime</strong>",
       "3": [
@@ -133,7 +133,7 @@
   "passive2": {
     "name": "Desiderio di proteggere",
     "description": {
-      "0": "Quando un membro vicino del gruppo innesca un Impeto dell'Anima della Notte, Chasca spara un Colpo Cacciaombre ardente contro un avversario vicino, infliggendo <anemo>DAN da Anemo</anemo> con attributo Anima della Notte pari a un 150% dei DAN da <strong>Proiettile Cacciaombre</strong> della sua abilità elementale <strong>Redini dello spirito, Caccia nell'ombra</strong>. Se nel gruppo sono presenti personaggi di <pyro>Pyro</pyro>/<hydro>Hydro</hydro>/<cryo>Cryo</cryo>/<electro>Electro</electro>, il Colpo Cacciaombre ardente viene convertito per infliggere DAN con attributo Anima della Notte del tipo elementale corrispondente pari a un 150% dei DAN inflitti dai <strong>Proiettili Scacciaombre radiosi</strong> dell'abilità elementale <strong>Redini dello spirito, Caccia nell'ombra</strong>.",
+      "0": "Quando un membro vicino del gruppo innesca un Impeto dell'Anima della Notte, Chasca spara un Colpo Cacciaombre ardente contro un avversario vicino, infliggendo <anemo>DAN da Anemo</anemo> con attributo Anima della Notte pari a un 150% dei DAN da <strong>Proiettile Cacciaombre</strong> della sua abilità elementale <strong>Redini dello spirito, Caccia nell'ombra</strong>. Se nel gruppo sono presenti personaggi di <pyro>Pyro</pyro>/<hydro>Hydro</hydro>/<cryo>Cryo</cryo>/<electro>Electro</electro>, il Colpo Cacciaombre ardente viene convertito per infliggere DAN con attributo Anima della Notte del tipo elementale corrispondente pari a un 150% dei DAN inflitti dai <strong>Proiettili Cacciaombre radiosi</strong> dell'abilità elementale <strong>Redini dello spirito, Caccia nell'ombra</strong>.",
       "1": "I DAN inflitti in questo modo sono considerati DAN da attacco caricato."
     }
   },
@@ -170,7 +170,7 @@
     }
   },
   "constellation3": {
-    "name": "Il controllo, l'attenta padronanza di sé",
+    "name": "Le redini, l'attenta padronanza di sé",
     "description": {
       "0": "Aumenta di 3 il livello di <strong>Redini dello spirito, Caccia nell'ombra</strong>.",
       "1": "Il livello di potenziamento massimo è 15."
@@ -179,7 +179,8 @@
   "constellation4": {
     "name": "Le scintille, uno sparo improvviso",
     "description": {
-      "0": "Quando i <strong>Proiettili Cercanime radiosi</strong> del Tripudio elementale <strong>Colpo fatale della mietitrice</strong> colpiscono gli avversari, questi ripristinano di 1,5 l'energia elementale di Chasca, e infliggono DAN elementali ad area del tipo elementale di ciascun <strong>Proiettile Cercanime radioso</strong> pari a un 400% del suo ATT. Quest'effetto può attivarsi una volta per ciascun uso di <strong>Colpo fatale della mietitrice</strong>."
+      "0": "Quando i <strong>Proiettili Cercanime radiosi</strong> del Tripudio elementale <strong>Colpo fatale della mietitrice</strong> colpiscono gli avversari, questi ripristinano di 1,5 l'energia elementale di Chasca, e infliggono DAN elementali ad area del tipo elementale di ciascun <strong>Proiettile Cercanime radioso</strong> pari a un 400% del suo ATT. Tali DAN sono considerati DAN da attacco caricato.",
+      "1": "L'effetto di DAN elementali ad area sopracitato può verificarsi una volta per ciascun uso di <strong>Colpo fatale della mietitrice</strong>."
     }
   },
   "constellation5": {
@@ -190,9 +191,9 @@
     }
   },
   "constellation6": {
-    "name": "Il duello, la gloria della battaglia",
+    "name": "La resa dei conti, la gloria della battaglia",
     "description": {
-      "0": "Il tempo di carica del <strong>Fuoco multibersaglio</strong> di Chasca si riduce e, dopo aver innescato la Conversione del Vincolo spirituale del talento passivo Trucco del proiettile, Chasca entra nello stato Colpi fatali: per i successivi 3 s, la volta successiva che Chasca usa <strong>Fuoco multibersaglio</strong> dell'abilità elementale <strong>Redini dello spirito, Caccia nell'ombra</strong>, i proiettili si caricano all'istante, e i DAN da CRIT di questa iterazione di <strong>Fuoco multibersaglio</strong> aumentano di un 120%.",
+      "0": "Il tempo di carica del <strong>Fuoco multibersaglio</strong> di Chasca si riduce e, dopo aver innescato la Conversione del Vincolo spirituale del talento passivo Trucco del proiettile, Chasca entra nello stato Colpi fatali: per i successivi 3 s, la volta successiva che Chasca usa <strong>Fuoco multibersaglio</strong> dell'abilità elementale <strong>Redini dello spirito, Caccia nell'ombra</strong>, i proiettili si caricano all'istante, e i DAN da CRIT di questa iterazione di <strong>Fuoco multibersaglio</strong> aumentano di un 120%. Si può ottenere l'effetto Colpi fatali una volta ogni 3 s.",
       "1": "<br/>",
       "2": "L'accesso al suddetto effetto richiede il talento passivo Trucco del proiettile."
     }

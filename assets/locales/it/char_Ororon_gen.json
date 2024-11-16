@@ -1,7 +1,7 @@
 {
   "name": "Ororon",
   "title": "Ombra del Vento della Notte",
-  "description": "",
+  "description": "Un giovane membro dei Maestri del Vento della Notte, che invece vive in mezzo alla natura, accanto a ogni sorta di forma di vita.",
   "constellationName": "Vampyrum Spectrum",
   "auto": {
     "name": "Freccia albergaspiriti",
@@ -42,14 +42,14 @@
   "skill": {
     "name": "Lancio della Notte",
     "description": {
-      "0": "Ororon rivela un'antica tecnica mistica dei Maestri del Vento della Notte dando forma a una <strong>Sfera spirituale</strong> fatta di ombre notturne, che lancia contro il suo avversario infliggendo <electro>DAN da Electro</electro> con attributo Anima della Notte.",
-      "1": "Quando sono presenti altri avversari vicini, la Sfera spirituale rimbalza tra loro, infliggendo <electro>DAN da Electro</electro> con attributo Anima della Notte. Per ogni uso dell'abilità elementale Lancio della Notte, ciascun avversario può essere designato come bersaglio una volta sola.",
-      "2": "Dopo 3 rimbalzi o quando non ci sono più bersagli disponibili, la Sfera spirituale svanisce.",
+      "0": "Ororon rivela un'antica tecnica mistica dei Maestri del Vento della Notte dando forma a una <strong>Sfera spiritica</strong> fatta di ombre notturne, che lancia contro il suo avversario infliggendo <electro>DAN da Electro</electro> con attributo Anima della Notte.",
+      "1": "Quando sono presenti altri avversari vicini, la Sfera spiritica rimbalza tra loro, infliggendo <electro>DAN da Electro</electro> con attributo Anima della Notte. Per ogni uso dell'abilità elementale Lancio della Notte, ciascun avversario può essere designato come bersaglio una volta sola.",
+      "2": "Dopo 3 rimbalzi o quando non ci sono più bersagli disponibili, la Sfera spiritica svanisce.",
       "3": "<br/>",
       "4": "<i>\"Le persone desiderano sempre predire il futuro, ma forse è perché devono ancora scoprire ciò che devono fare... Chiedo scusa, lo so, sto dicendo di nuovo cose complicate...\"</i>"
     },
     "skillParams": {
-      "0": "DAN da Sfera spirituale",
+      "0": "DAN da Sfera spiritica",
       "1": "TdR",
       "2": "",
       "3": "",
@@ -102,9 +102,9 @@
   "passive1": {
     "name": "Sinestesia notturna",
     "description": {
-      "0": "Dopo che un membro del gruppo innesca un Impeto dell'Anima della Notte, Ororon recupera 40 punti Anima della Notte. Per 15 s dopo aver usato l'abilità, Ororon recupera 5 punti Anima della Notte dopo che altri membri del gruppo colpiscono gli avversari infliggendo <hydro>DAN da Hydro</hydro> o <electro>da Electro</electro>. Quest'effetto può attivarsi un massimo di 10 volte nel corso della sua durata, e permette a Ororon di recuperare punti Anima della Notte una volta ogni 0,3 s.",
-      "1": "<br/>",
-      "2": "Inoltre, quando gli avversari vicini subiscono DAN da reazione di <electro>Electrocarica</electro> o DAN con attributo Anima della Notte inflitti da altri personaggi vicini, Ororon consuma 10 punti Anima della Notte (se ne ha almeno 10), entra nello stato di Grazia dell'Anima della Notte e innesca l'effetto Ultrasenso, che infligge <electro>DAN da Electro</electro> pari a un 160% del suo ATT a un massimo di 4 avversari vicini. Quest'effetto può attivarsi una volta ogni 1,8 s.",
+      "0": "Dopo che un membro del gruppo ha innescato un Impeto dell'Anima della Notte, Ororon recupera 40 punti Anima della Notte. Per 15 s dopo aver usato l'abilità, Ororon recupera 5 punti Anima della Notte quando altri membri del gruppo di elemento <hydro>Hydro</hydro> o <electro>Electro</electro>colpiscono gli avversari. Quest'effetto può attivarsi una volta ogni 0,3 s per un massimo di 10 volte nel corso della sua durata.",
+      "1": "Ororon può avere un massimo di 80 punti Anima della Notte.",
+      "2": "Inoltre, quando gli avversari vicini subiscono DAN da reazione di <electro>Electrocarica</electro> o DAN con attributo Anima della Notte inflitti da altri personaggi vicini, Ororon consuma 10 punti Anima della Notte (se li ha a disposizione), entra nello stato di Grazia dell'Anima della Notte e innesca l'effetto Ultrasenso, che infligge <electro>DAN da Electro</electro> pari a un 160% del suo ATT a un massimo di 4 avversari vicini. Quest'effetto può attivarsi una volta ogni 1,8 s.",
       "3": "<br/>",
       "4": "<strong>Grazia dell'Anima della Notte: Ororon</strong>",
       "5": "Lo stato di Grazia dell'Anima della Notte di Ororon dura 6 s."
@@ -113,7 +113,7 @@
   "passive2": {
     "name": "Catalizzatore dello spirito",
     "description": {
-      "0": "Quando la <strong>Sfera spirituale</strong> dell'abilità elementale <strong>Lancio della Notte</strong> colpisce un avversario, Ororon ottiene l'effetto Sigillo dello spirito per 15 s.",
+      "0": "Quando la <strong>Sfera spiritica</strong> dell'abilità elementale <strong>Lancio della Notte</strong> colpisce un avversario, Ororon ottiene l'effetto Sigillo dello spirito per 15 s.",
       "1": "<br/>",
       "2": "<strong>Sigillo dello spirito</strong>",
       "3": "Quando un membro attivo del gruppo colpisce un avversario con degli attacchi normali, caricati o in picchiata, l'energia di quest'ultimo si ripristina di 3. Se Ororon non è in campo, anche la sua energia si ripristina di 3. Quest'effetto può attivarsi una volta ogni 1 s e fino a un massimo di 3 volte nel corso della sua durata."
@@ -127,7 +127,7 @@
       "2": "Passare alla modalità di mira permette a Ororon di entrare nello stato medianico, che gli consente di interagire con i Graffiti e i Sigilli dello Spirito della Notte ed estrarne informazioni e potere. Le regole per l'interazione con gli oggetti sopracitati sono le stesse seguite dagli Iktomisauri.",
       "3": "<br/>",
       "4": "Inoltre, la pressione prolungata del tasto di salto fa consumare a Ororon 75 punti di vigore per eseguire il balzo. Nelle aree di Natlan dove sono presenti dei Meccanismi flogistici, Ororon dà la priorità al consumo di Flogisto, usando 5 punti di quest'ultimo per saltare ancora più in alto.",
-      "5": "Quando è in aria, tenendo premuto l'attacco normale, Ororon consuma Flogisto o vigore ed entra in modalità di mira."
+      "5": "Quando è in aria, la pressione prolungata dell'attacco normale permette a Ororon di consumare Flogisto o vigore per entrare in modalità di mira."
     }
   },
   "passive": {
@@ -140,8 +140,8 @@
   "constellation1": {
     "name": "Tracce nel bosco brumoso",
     "description": {
-      "0": "La <strong>Sfera spirituale</strong> dell'abilità elementale <strong>Lancio della Notte</strong> può rimbalzare 2 volte in più.",
-      "1": "Inoltre, quando la <strong>Sfera spirituale</strong> colpisce un avversario, applica l'effetto Nottescura per 12 s. Gli avversari sotto l'effetto di Nottescura subiscono il 50% di DAN in più da Ultrasenso, innescato dal talento passivo Sinestesia notturna. Innescare quest'effetto richiede il sopracitato talento passivo."
+      "0": "La <strong>Sfera spiritica</strong> dell'abilità elementale <strong>Lancio della Notte</strong> può rimbalzare 2 volte in più.",
+      "1": "Inoltre, quando la <strong>Sfera spiritica</strong> colpisce un avversario, applica l'effetto Nottescura per 12 s. Gli avversari sotto l'effetto di Nottescura subiscono il 50% di DAN in più da Ultrasenso, innescato dal talento passivo Sinestesia notturna. Innescare quest'effetto richiede il sopracitato talento passivo."
     }
   },
   "constellation2": {
@@ -151,7 +151,7 @@
       "1": "<br/>",
       "2": "<strong>Supersenso spirituale</strong>",
       "3": "Ottiene un 8% di <electro>bonus DAN da Electro</electro>.",
-      "4": "Mentre l'effetto è attivo, ogni nemico aggiuntivo colpito dal Tripudio elementale <strong>Eco di voci oscure</strong> o dall'<strong>Occhio supersonico</strong> conferisce a Ororon un ulteriore 8% di <electro>bonus DAN da Electro</electro>. Il bonus massimo che è possibile ottenere in questo modo è pari a un 40%."
+      "4": "Inoltre, mentre l'effetto è attivo, ogni nemico aggiuntivo colpito dal Tripudio elementale <strong>Eco di voci oscure</strong> o dall'<strong>Occhio supersonico</strong> conferisce a Ororon un ulteriore 8% di <electro>bonus DAN da Electro</electro>. Il bonus massimo che è possibile ottenere in questo modo è pari a un 32%."
     }
   },
   "constellation3": {
@@ -164,7 +164,8 @@
   "constellation4": {
     "name": "Come i misteri del Vento della Notte",
     "description": {
-      "0": "Aumenta di un 25% la velocità di rotazione dell'<strong>Occhio supersonico</strong> evocato dal Tripudio elementale <strong>Eco di voci oscure</strong>."
+      "0": "Aumenta di un 25% la velocità di rotazione dell'<strong>Occhio supersonico</strong> evocato dal Tripudio elementale <strong>Eco di voci oscure</strong>.",
+      "1": "Inoltre, dopo aver usato <strong>Eco di voci oscure</strong>, l'energia di Ororon si ripristina di 8."
     }
   },
   "constellation5": {

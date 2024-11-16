@@ -1,10 +1,10 @@
 {
   "name": "Ororon",
   "title": "Sombra do Vento Noturno",
-  "description": "",
-  "constellationName": "Vespertilio Noctis",
+  "description": "Um jovem vindo dos Mestres do Vento Noturno, mas que vive nos campos com milhares de criaturas vivas.",
+  "constellationName": "Vampyrum Spectrum",
   "auto": {
-    "name": "Ataque Normal",
+    "name": "Flecha Veloz Espiritual",
     "fields": {
       "normal": {
         "0": "<strong>Ataque Normal</strong>",
@@ -101,12 +101,13 @@
   "passive1": {
     "name": "Sensações da Cortina Noturna",
     "description": {
-      "0": "Após um personagem próximo na equipe desencadeia a \"Explosão do Espírito da Noite\", Ororon receberá 40 pontos de Espírito da Noite. Nos 15s após lançar sua Habilidade Elemental, quando outro personagem causar <hydro>Dano Hydro</hydro> ou <electro>Dano Electro</electro>, Ororon ganhará 5 pontos de Espírito da Noite, esse efeito pode ser ativado no máximo 1 vez a cada 0.3s, com um limite de 10 ativações durante o período.",
-      "1": "<br/>",
-      "2": "Além disso, quando inimigos próximos receberem dano da reação <electro>Eletricamente Carregado</electro> ou outros personagens próximos da equipe causarem dano com alinhamento Espírito da Noite, se Ororon possuir pelo menos 10 pontos de Espírito da Noite, ele consumirá 10 pontos e entrará no estado de Bênção do Espírito da Noite, ativando o efeito \"Super Exibição\": com base em 160% do ATQ de Ororon, causará <electro>Dano Electro</electro> com alinhamento Espírito da Noite a até 4 inimigos ao redor. Este efeito pode ser ativado no máximo uma vez a cada 1.8s.",
-      "3": "<br/>",
-      "4": "<strong>Bênção do Espírito da Noite: Ororon</strong>",
-      "5": "O estado de Bênção do Espírito da Noite de Ororon dura até 6s."
+      "0": "Após um personagem próximo na equipe desencadear a \"Explosão do Espírito da Noite\", Ororon receberá 40 pontos de Espírito da Noite. Nos 15s após lançar sua Habilidade Elemental, quando o ataque de outro personagem da equipe de Tipo Elemental <hydro>Hydro</hydro> ou <electro>Electro</electro> atingir um inimigo, Ororon obtém 5 pontos de Espírito da Noite, esse efeito pode ser ativado no máximo 1 vez a cada 0.3s, com um limite de 10 ativações durante o período.",
+      "1": "O máximo de pontos de Espírito da Noite que Ororon pode ter é 80.",
+      "2": "<br/>",
+      "3": "Além disso, quando inimigos próximos receberem dano da reação <electro>Eletricamente Carregado</electro> ou outros personagens próximos da equipe causarem dano com alinhamento Espírito da Noite, se Ororon possuir pelo menos 10 pontos de Espírito da Noite, ele consumirá 10 pontos e entrará no estado de Bênção do Espírito da Noite, ativando o efeito \"Super Exibição\": com base em 160% do ATQ de Ororon, causará <electro>Dano Electro</electro> com alinhamento Espírito da Noite a até 4 inimigos ao redor. Este efeito pode ser ativado no máximo uma vez a cada 1.8s.",
+      "4": "<br/>",
+      "5": "<strong>Bênção do Espírito da Noite: Ororon</strong>",
+      "6": "O estado de Bênção do Espírito da Noite de Ororon dura até 6s."
     }
   },
   "passive2": {
@@ -130,7 +131,7 @@
     }
   },
   "passive": {
-    "name": "Talento de Vida",
+    "name": "Talento Cotidiano",
     "description": {
       "0": "Aumenta a velocidade de planar para os personagens da equipe em 15%.",
       "1": "Não acumula com outros Talentos Passivos que fornecem o mesmo efeito."
@@ -150,7 +151,7 @@
       "1": "<br/>",
       "2": "<strong>Super Percepção Espiritual</strong>",
       "3": "Obtém 8% de <electro>Bônus de Dano Electro</electro>.",
-      "4": "Na duração, cada inimigo adicional que o Supremo <strong>Ecos Sombrios</strong> ou <strong>Super Olho Espiritual</strong> atingirem aumentam o <electro>Bônus de Dano Electro</electro> de Ororon em mais 8%. É possível obter até 40% de <electro>Bônus de Dano Electro</electro> dessa forma."
+      "4": "Na duração, cada inimigo adicional que o Supremo <strong>Ecos Sombrios</strong> ou <strong>Super Olho Espiritual</strong> atingirem aumentam o <electro>Bônus de Dano Electro</electro> de Ororon em mais 8%. É possível obter até 32% de <electro>Bônus de Dano Electro</electro> dessa forma."
     }
   },
   "constellation3": {
@@ -163,13 +164,14 @@
   "constellation4": {
     "name": "Como uma Neblina Misteriosa da Noite",
     "description": {
-      "0": "Aumenta a velocidade de giro do <strong>Super Olho Espiritual</strong> invocado pelo Supremo <strong>Ecos Sombrios</strong> em 25%."
+      "0": "Aumenta a velocidade de giro do <strong>Super Olho Espiritual</strong> invocado pelo Supremo <strong>Ecos Sombrios</strong> em 25%.",
+      "1": "Além disso, depois de lançar <strong>Ecos Sombrios</strong>, regenera 8 de Energia Elemental para Ororon."
     }
   },
   "constellation5": {
     "name": "Tributo para o Coração Espiritual",
     "description": {
-      "0": "Aumenta o nível da Habilidade Elemental<strong>Rastreamento da Escuridão</strong> em 3 níveis. ",
+      "0": "Aumenta o nível da Habilidade Elemental <strong>Rastreamento da Escuridão</strong> em 3 níveis. ",
       "1": "O nível máximo de elevação é 15."
     }
   },
