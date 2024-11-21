@@ -61,7 +61,7 @@
       "13": "<strong>Projéteis Caçadores de Sombras</strong>",
       "14": [
         " Causam <anemo>Dano Anemo</anemo> com alinhamento Espírito da Noite, considerado Dano de Ataque Carregado.",
-        " Os 4º, 5º e 6º Projéteis disparados passarão por Conversão Elemental com base nos Tipos Elementais dos outros personagens na equipe: Para cada personagem <pyro>Pyro</pyro>, <hydro>Hydro</hydro>, <cryo>Cryo</cryo> ou <electro>Electro</electro> na equipe, um Projétil Caçador de Sombras será convertido aleatoriamente em um \"Projétil Caçador de Sombras Brilhante\" de um dos Tipos Elementais correspondentes, causando Dano com alinhamento Espírito da Noite correspondente ao Tipo Elemental. Este Dano é considerado Dano de Ataque Carregado.",
+        " O 4º, 5º e 6º Projéteis disparados passarão por Conversão Elemental com base nos Tipos Elementais dos outros personagens na equipe: Para cada personagem <pyro>Pyro</pyro>, <hydro>Hydro</hydro>, <cryo>Cryo</cryo> ou <electro>Electro</electro> na equipe, um Projétil Caçador de Sombras será convertido aleatoriamente em um \"Projétil Caçador de Sombras Brilhante\" de um dos Tipos Elementais correspondentes, causando Dano com alinhamento Espírito da Noite correspondente ao Tipo Elemental. Este Dano é considerado Dano de Ataque Carregado.",
         " O último Projétil Caçador de Sombras carregado no carregador é disparado primeiro."
       ],
       "15": "<br/>",
@@ -96,7 +96,7 @@
       "2": "<strong>Projétil Ceifador de Almas</strong>",
       "3": [
         " Causa <anemo>Dano Anemo</anemo> com alinhamento Espírito da Noite.",
-        " Para cada personagem <pyro>Pyro</pyro>, <hydro>Hydro</hydro>,<cryo>Cryo</cryo> <electro>Electro</electro> da equipe, dois Projéteis Ceifador de Almas aleatórios serão convertidos para Projéteis Ceifador de Almas Brilhante um dos Tipos Elementais correspondentes, causando Dano Elemental correspondente com alinhamento Espírito da Noite."
+        " Para cada personagem <pyro>Pyro</pyro>, <hydro>Hydro</hydro>, <cryo>Cryo</cryo> e <electro>Electro</electro> da equipe, dois Projéteis Ceifador de Almas aleatórios serão convertidos para Projéteis Ceifador de Almas Brilhante em um dos Tipos Elementais correspondentes, causando Dano Elemental correspondente com alinhamento Espírito da Noite."
       ],
       "4": "<br/>",
       "5": "<i>Ninguém pode escapar dos sussurros incessantes da noite e do luar, assim como nenhum inimigo pode fugir de seus olhos atentos quando ela mira neles.</i>"
@@ -123,7 +123,7 @@
   "passive1": {
     "name": "Truque do Projétil",
     "description": {
-      "0": "Quando a Habilidade Elemental <strong>Rédeas Espirituais, Caça Sombria</strong> estiver sendo carregada com o <strong>Disparo Múltiplo</strong>, se houver membros da equipe que atendam aos requisitos do Tipo Elemental de Conversão Elemental, ganha os seguintes efeitos segundo o número de Tipos Elementais diferentes presentes:",
+      "0": "Quando o <strong>Disparo Múltiplo</strong> da Habilidade Elemental <strong>Rédeas Espirituais, Caça Sombria</strong> carregar, se houver membros da equipe que atendam aos requisitos do Tipo Elemental de Conversão Elemental, ganha os seguintes efeitos segundo o número de Tipos Elementais diferentes presentes:",
       "1": [
         " Há uma chance de 33.3%/66.7%/100%, baseada no número de Tipos Elementais elegíveis presentes, para que cada Tipo desencadeie a \"Conversão Espiritual\" e faça com que o 3º <strong>Projétil Caçador de Sombras</strong> carregado no cilindro seja aleatoriamente convertido em um <strong>Projétil Caçador de Sombras Brilhantes</strong> de um dos Tipos Elementais correspondentes.",
         " Cada Tipo Elemental concederá a Chasca 1 acúmulo do efeito \"Espírito da Sombra\", aumentando o Dano do Projétil Caçador de Sombras Brilhantes em 15%/35%/65%. Esse efeito dura até o fim do Disparo Múltiplo atual. Máximo de 3 acúmulos."
@@ -155,7 +155,7 @@
     "name": "Munição Carregada, Roleta Engatilhada",
     "description": {
       "0": "Quando desencadear a Conversão Espiritual do Talento Passivo \"Truque do Projétil\", o segundo <strong>Projétil Caçador de Sombras</strong> adicional será convertido em <strong>Projétil Caçador de Sombras Brilhantes</strong>.",
-      "1": "Aumenta a chance de desencadear \"Conversão Espiritual\": se houverem personagem na equipe com Tipos Elementais com as condições de Conversão Elemental correspondente, aumenta a chance de Conversão Espiritual para 33.3%, podendo aumentar até 100%.",
+      "1": "Aumenta a chance de desencadear \"Conversão Espiritual\": se houver personagens na equipe com Tipos Elementais com as condições de Conversão Elemental correspondentes, aumenta a chance de Conversão Espiritual para 33.3%, podendo aumentar em até 100%.",
       "2": "<br/>",
       "3": "É necessário ter desbloqueado o Talento Passivo \"Truque do Projétil\".",
       "4": "Além disso, quando não está ativo em batalha, o estado Bênção do Espírito da Noite de Chasca consumirá 30% a menos de pontos de Espírito da Noite e de Flogisto."
@@ -165,7 +165,7 @@
     "name": "Fumaça Flamejante do Disparo",
     "description": {
       "0": "Quando Chasca se torna a personagem ativa no campo de batalha, ela obtém um acúmulo de \"Espírito da Sombra\" do Talento Passivo \"Truque do Projétil\". É necessário ter desbloqueado o Talento Passivo \"Truque do Projétil\" para esse efeito.",
-      "1": "Além disso, ao lançar os <strong>Disparos Múltiplos</strong> da Habilidade Elemental <strong>Rédeas Espirituais, Caça Sombria</strong>, quando os  <strong>Projéteis Caçadores de Sombras Brilhantes</strong> de Chasca atingirem os inimigos, causarão 400% do ATQ de Chasca como Dano Elemental em AdE do Elemento correspondente de <strong>Projéteis Caçadores de Sombras Brilhantes</strong>, esse Dano é considerado Dano de Ataque Carregado. Esse efeito pode ser desencadeado uma vez por <strong>Disparos Múltiplos</strong> lançados."
+      "1": "Além disso, ao lançar os <strong>Disparos Múltiplos</strong> da Habilidade Elemental <strong>Rédeas Espirituais, Caça Sombria</strong>, quando os <strong>Projéteis Caçadores de Sombras Brilhantes</strong> de Chasca atingirem os inimigos, causarão 400% do ATQ de Chasca como Dano Elemental em AdE do Elemento correspondente de <strong>Projéteis Caçadores de Sombras Brilhantes</strong>, esse Dano é considerado Dano de Ataque Carregado. Esse efeito pode ser desencadeado uma vez por <strong>Disparos Múltiplos</strong> lançados."
     }
   },
   "constellation3": {
@@ -192,7 +192,7 @@
   "constellation6": {
     "name": "Batalha Gloriosa Decisiva",
     "description": {
-      "0": "O tempo necessário de carregamento do <strong>Disparo Múltiplo</strong> de Chasca é reduzido, e depois de desencadear a Conversão Espiritual do Talento Passivo \"Truque do Projétil\", Chasca obtém o estado \"Ataque Predestinado\", fazendo com que nos próximos 3s, o próximo<strong>Disparo Múltiplo</strong> da próxima <strong>Rédeas Espirituais, Caça Sombria</strong> lançada carregue completamente imediatamente, e aumentando o Dano CRIT desse <strong>Disparo Múltiplo</strong> em 120%. 1 efeito de \"Ataque Predestinado\" pode ser obtido a cada 3s.",
+      "0": "O tempo necessário de carregamento do <strong>Disparo Múltiplo</strong> de Chasca é reduzido, e depois de desencadear a Conversão Espiritual do Talento Passivo \"Truque do Projétil\", Chasca obtém o estado \"Ataque Predestinado\", fazendo com que nos próximos 3s, o próximo<strong>Disparo Múltiplo</strong> da próxima <strong>Rédeas Espirituais, Caça Sombria</strong> lançada carregue completamente imediatamente, e aumentando o Dano CRIT do <strong>Projétil Caçador de Sombras</strong> e do <strong>Projétil Caçador de Sombras Brilhantes</strong> do <strong>Disparo Múltiplo</strong> em 120%. 1 efeito de \"Ataque Predestinado\" pode ser obtido a cada 3s.",
       "1": "<br/>",
       "2": "Esse efeito requer ter desbloqueado o Talento Passivo \"Truque do Projétil\"."
     }

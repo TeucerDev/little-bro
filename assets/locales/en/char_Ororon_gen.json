@@ -13,7 +13,7 @@
       "charged": {
         "0": "<strong>Charged Attack</strong>",
         "1": "Performs a more precise <strong>Aimed Shot</strong> with increased DMG.",
-        "2": "While aiming, Electro energy will accumulate on the arrowhead. A fully charged arrow will deal immense <electro>Electro DMG</electro>."
+        "2": "While aiming, Electro energy will accumulate on the arrowhead. A fully charged arrow will deal <electro>Electro DMG</electro>."
       },
       "plunging": {
         "0": "<strong>Plunging Attack</strong>",
@@ -102,7 +102,7 @@
   "passive1": {
     "name": "Nightshade Synesthesia",
     "description": {
-      "0": "After a nearby party member triggers Nightsoul Burst, Ororon will gain 40 Nightsoul points. Within 15s after using his Elemental Skill, when attacks from other party members who are <hydro>Hydro</hydro> or <electro>Electro</electro> hit opponents, Ororon will gain 5 Nightsoul points, an effect that can occur every 0.3s for a maximum of 10 times during this 15s duration.",
+      "0": "After a nearby party member triggers Nightsoul Burst, Ororon will gain 40 Nightsoul points. Within 15s after using his Elemental Skill, when other party members' <hydro>Hydro</hydro> or <electro>Electro</electro> attacks hit opponents, Ororon will gain 5 Nightsoul points, an effect that can occur every 0.3s for a maximum of 10 times during this 15s duration.",
       "1": "Ororon can have a maximum of 80 Nightsoul points.",
       "2": "<br/>",
       "3": "Also, when nearby opponents take <electro>Electro-Charged</electro> reaction DMG or Nightsoul-aligned DMG dealt by other nearby characters, Ororon will consume 10 Nightsoul points (provided he has at least that amount), entering the Nightsoul's Blessing state and triggering the Hypersense effect: Deal Nightsoul-aligned <electro>Electro DMG</electro> based on 160% of Ororon's ATK to at most 4 nearby opponents. The aforementioned effect can trigger once every 1.8s.",
@@ -125,14 +125,14 @@
     "description": {
       "0": "While in an area with Phlogiston Mechanics within Natlan, he can use Nightsoul Transmission: Ororon. When the active character is currently in the air, the following will trigger when switching to Ororon: Ororon will leap up high. Nightsoul Transmission can be triggered once every 10s by your party.",
       "1": "<br/>",
-      "2": "Holding Aiming Mode will cause Ororon to enter the \"Spiritspeaker\" state, which will allow him to interact with \"Nightspirit Graffiti\" and \"Nightspirit Bodies,\" extracting information and power from them. The rules for interacting with these objects follow the same rules as those governing Iktomisaurus interactions.",
+      "2": "Holding Aiming Mode will cause Ororon to enter the \"Spiritspeaker\" state, which will allow him to interact with \"Nightspirit Graffiti\" and \"Nightspirit Sigils,\" extracting information and power from them. The rules for interacting with these objects follow the same rules as those governing Iktomisaurus interactions.",
       "3": "<br/>",
       "4": "Additionally, holding the jump button will cause Ororon to consume 75 Stamina and leap. In areas within Natlan where Phlogiston mechanics are present, Ororon will prioritize consuming 5 Phlogiston to leap to a height higher still.",
-      "5": "When in the air, Ororon can hold his Normal Attack to consume Phlogiston or Stamina and enter Aiming Mode."
+      "5": "When in the air, Ororon can Hold his Normal Attack to consume Phlogiston or Stamina and enter Aiming Mode."
     }
   },
   "passive": {
-    "name": "The Art of Skin-Walking",
+    "name": "The Art of Skinchanging",
     "description": {
       "0": "Increases gliding SPD for your own party members by 15%.",
       "1": "Not stackable with Passive Talents that provide the exact same effects."
@@ -149,9 +149,10 @@
     "name": "King Bee of the Hidden Honeyed Wine",
     "description": {
       "0": "After using his Elemental Burst, <strong>Dark Voices Echo</strong>, Ororon will obtain the Spiritual Supersense effect for 9s.",
-      "1": "<strong>Spiritual Supersense</strong>",
-      "2": "Gain 8% <electro>Electro DMG Bonus</electro>.",
-      "3": "Additionally, during this time, every additional opponent hit by the Elemental Burst <strong>Dark Voices Echo</strong> or <strong>Supersonic Oculus</strong> will grant Ororon a further 8% <electro>Electro DMG Bonus</electro>. The maximum that can be gained this way is 32% <electro>Electro DMG Bonus</electro>."
+      "1": "<br/>",
+      "2": "<strong>Spiritual Supersense</strong>",
+      "3": "Gain 8% <electro>Electro DMG Bonus</electro>.",
+      "4": "Additionally, during this time, every additional opponent hit by the Elemental Burst <strong>Dark Voices Echo</strong> or <strong>Supersonic Oculus</strong> will grant Ororon a further 8% <electro>Electro DMG Bonus</electro>. The maximum that can be gained this way is 32% <electro>Electro DMG Bonus</electro>."
     }
   },
   "constellation3": {

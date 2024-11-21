@@ -1,0 +1,171 @@
+{
+  "name": "Mavuika",
+  "title": "???",
+  "description": "",
+  "constellationName": "Invicta Solis Flamma",
+  "auto": {
+    "name": "Flames Weave Life",
+    "fields": {
+      "normal": {
+        "0": "<strong>Normal Attack</strong>",
+        "1": "Performs up to 4 consecutive claymore strikes."
+      },
+      "charged": {
+        "0": "<strong>Charged Attack</strong>",
+        "1": "Consumes a certain amount of Stamina to perform an especially powerful Severing Splendor strike toward the front."
+      },
+      "plunging": {
+        "0": "<strong>Plunging Attack</strong>",
+        "1": "Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact."
+      }
+    },
+    "skillParams": {
+      "0": "1-Hit DMG",
+      "1": "2-Hit DMG",
+      "2": "3-Hit DMG",
+      "3": "4-Hit DMG",
+      "4": "Charged Attack Final DMG",
+      "5": "Charged Attack Stamina Cost",
+      "6": "Plunge DMG",
+      "7": "Low/High Plunge DMG",
+      "8": "",
+      "9": "",
+      "10": "",
+      "11": "",
+      "12": "",
+      "13": "",
+      "14": "",
+      "15": ""
+    }
+  },
+  "skill": {
+    "name": "The Named Moment",
+    "description": {
+      "0": "Calling upon her authority over \"conflict,\" Mavuika summons the All-Fire Armaments passed down through the line of human Archons, dealing Nightsoul-aligned <pyro>Pyro DMG</pyro>",
+      "1": "After using this, Mavuika's Nightsoul points are restored to max value, and she enters the Nightsoul's Blessing state.",
+      "2": "<br/>",
+      "3": "<strong>All-Fire Armaments</strong>",
+      "4": "Has different forms when Tapped or Held.",
+      "5": "<br/>",
+      "6": "<strong>Tap</strong>",
+      "7": "\"Divine Name Unleashed\": The All-Fire Armaments manifest as Rings of Searing Radiance. The Rings follow the current active character and attack nearby opponents at intervals, dealing Nightsoul-aligned <pyro>Pyro DMG</pyro>.",
+      "8": "<br/>",
+      "9": "<strong>Hold</strong>",
+      "10": "\"Ancient Name Unbound\": The All-Fire Armaments manifest as a Flamestrider. In this state, Mavuika can ride the Flamestrider at high speed, or activate its hidden backup propulsion module to temporarily cross various terrain types and glide in mid-air temporarily. Mavuika's Normal, Charged, and Plunging Attacks will also be converted to deal Nightsoul-aligned <pyro>Pyro DMG</pyro>, which cannot be overridden. When sprinting, she also deals Nightsoul-aligned <pyro>Pyro DMG</pyro> to opponents along her path.",
+      "11": "<br/>",
+      "12": "While in the Nightsoul's Blessing state, Tapping the Elemental Skill can switch the All-Fire Armaments' form. The Armaments will disappear once Mavuika's Nightsoul's Blessing state ends.",
+      "13": "<br/>",
+      "14": "<strong>Nightsoul's Blessing: Mavuika</strong>",
+      "15": "Continuously consumes Nightsoul points according to the All-Fire Armaments' form. Mavuika's Nightsoul's Blessing state ends once Nightsoul points are exhausted.",
+      "16": "<br/>",
+      "17": "<i>If you told Mavuika that vehicles like the Flamestrider require license plates for identification in another world, that would make her happy too:",
+      "18": "\"See, mine's the only one that exists here. So, I get to pick my plate number, right?\"</i>"
+    },
+    "skillParams": {
+      "0": "Activation DMG",
+      "1": "Remote Weapon Interval DMG",
+      "2": "Remote Weapon Trigger Interval",
+      "3": "Motorcycle Normal Attack 1-Hit DMG",
+      "4": "Motorcycle Normal Attack 2-Hit DMG",
+      "5": "Motorcycle Normal Attack 3-Hit DMG",
+      "6": "Motorcycle Normal Attack 4-Hit DMG",
+      "7": "Motorcycle Normal Attack 5-Hit DMG",
+      "8": "Motorcycle Sprint DMG",
+      "9": "Motorcycle Charged Attack Cyclic DMG",
+      "10": "Motorcycle Charged Attack Final DMG",
+      "11": "Motorcycle Plunge DMG",
+      "12": "Nightsoul Points",
+      "13": "CD",
+      "14": "",
+      "15": ""
+    }
+  },
+  "burst": {
+    "name": "Hour of Burning Skies",
+    "description": {
+      "0": "Let the inner voices of the people reach the divine throne in the heavens.",
+      "1": "<strong>Mavuika's Elemental Burst is not reliant on Energy, but instead, on \"Fighting Spirit.\"</strong>",
+      "2": "<br/>",
+      "3": "<strong>Fighting Spirit</strong>",
+      "4": "When Mavuika has at least 50% Fighting Spirit, she can consume it all to unleash her Elemental Burst.",
+      "5": "Mavuika can obtain Fighting Spirit via the following methods:",
+      "6": [
+        " When in combat, Nightsoul points consumed by nearby party members are converted to Fighting Spirit.",
+        " When nearby party members' Normal Attacks hit opponents, Mavuika gains 1.5 Fighting Spirit. This can trigger once every 0.1s."
+      ],
+      "7": "<br/>",
+      "8": "After using this, Mavuika gains 10 Nightsoul points and enters the Nightsoul's Blessing state. Riding her Flamestrider high in the air, she uses a powerful Sunfell Slice against opponents on the ground, dealing Nightsoul-aligned <pyro>AoE Pyro DMG</pyro> and entering the \"Crucible of Death and Life\" state.",
+      "9": "<br/>",
+      "10": "<strong>Crucible of Death and Life</strong>",
+      "11": "During this time, Mavuika's various actions will no longer consume Nightsoul points, and her interruption resistance is increased. Also, the DMG dealt by Sunfell Slice and the Flamestrider form's Normal and Charged Attacks is increased based on the amount of Fighting Spirit she has when using the Elemental Burst.",
+      "12": "The Crucible of Death and Life will be canceled when Mavuika leaves the field.",
+      "13": "<br/>",
+      "14": "<i>\"—But this time, I shall shatter this destiny with my own hands.\"</i>"
+    },
+    "skillParams": {
+      "0": "Explosion DMG",
+      "1": "War God Form Duration",
+      "2": "Burst DMG Bonus",
+      "3": "Motorcycle Normal Attack Bonus",
+      "4": "Motorcycle Charged Attack Bonus",
+      "5": "Normal Attack War God Energy Gain",
+      "6": "CD",
+      "7": "War God Energy",
+      "8": "",
+      "9": "",
+      "10": "",
+      "11": "",
+      "12": "",
+      "13": "",
+      "14": "",
+      "15": ""
+    }
+  },
+  "passive1": {
+    "name": "Ascension 1",
+    "description": {}
+  },
+  "passive2": {
+    "name": "Ascension 2",
+    "description": {
+      "0": "After using the Elemental Burst, increase the active party member's DMG by a maximum of 50% based on the Nightsoul points available when it is used. This DMG Bonus will decay over the next 20s until it reaches 0."
+    }
+  },
+  "passive3": {
+    "name": "Natlan Talent",
+    "description": {
+      "0": "After Nightsoul points have been depleted, Mavuika will switch to using Phlogiston to maintain her motorcycle.",
+      "1": "While in an area with Phlogiston Mechanics within Natlan, Nightsoul Transmission: Mavuika, can be used. When the current active character is sprinting, climbing, swimming, in the air, or in movement modes caused by certain Talents, switching to Mavuika will trigger: Mavuika entering the Nightsoul's Blessing state and ride her motorcycle onto the field, obtaining half the usual amount of Nightsoul points. Nightsoul Transmission can be triggered once every 10s by your own party."
+    }
+  },
+  "passive": {
+    "name": "Life Talent",
+    "description": {
+      "0": "When Nightsoul Burst is triggered, restore 20 Phlogiston to the party. This cannot take effect in Domains, Trounce Domains, or the Spiral Abyss."
+    }
+  },
+  "constellation1": {
+    "name": "Constellation 1",
+    "description": {}
+  },
+  "constellation2": {
+    "name": "Constellation 2",
+    "description": {}
+  },
+  "constellation3": {
+    "name": "Constellation 3",
+    "description": {}
+  },
+  "constellation4": {
+    "name": "Constellation 4",
+    "description": {}
+  },
+  "constellation5": {
+    "name": "Constellation 5",
+    "description": {}
+  },
+  "constellation6": {
+    "name": "Constellation 6",
+    "description": {}
+  }
+}

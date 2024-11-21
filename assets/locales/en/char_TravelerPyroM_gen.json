@@ -1,0 +1,132 @@
+{
+  "auto": {
+    "name": "Foreign Blaze",
+    "fields": {
+      "normal": {
+        "0": "<strong>Normal Attack</strong>",
+        "1": "Performs up to 5 rapid strikes."
+      },
+      "charged": {
+        "0": "<strong>Charged Attack</strong>",
+        "1": "Consumes a certain amount of Stamina to unleash 2 rapid sword strikes."
+      },
+      "plunging": {
+        "0": "<strong>Plunging Attack</strong>",
+        "1": "Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact."
+      }
+    },
+    "skillParams": {
+      "0": "1-Hit DMG",
+      "1": "2-Hit DMG",
+      "2": "3-Hit DMG",
+      "3": "4-Hit DMG",
+      "4": "5-Hit DMG",
+      "5": "Charged Attack DMG",
+      "6": "Charged Attack Stamina Cost",
+      "7": "Plunge DMG",
+      "8": "Low/High Plunge DMG",
+      "9": "",
+      "10": "",
+      "11": "",
+      "12": "",
+      "13": "",
+      "14": "",
+      "15": ""
+    }
+  },
+  "skill": {
+    "name": "Flowfire Blade",
+    "description": {
+      "0": "Wields a searing flame that can incinerate the very earth. Has different effects when Tapped or Held.",
+      "1": "<br/>",
+      "2": "<strong>Tap</strong>",
+      "3": "Call forth flames in a raging blaze. When used, the Traveler gains 42 Nightsoul points and enters the Nightsoul's Blessing state, summoning a Blazing Threshold that follows the current active character.",
+      "4": "When the Blazing Threshold gets close to opponents, it will deal Nightsoul-aligned <pyro>Pyro DMG</pyro> to nearby opponents at intervals based on the Traveler's ATK.",
+      "5": "<br/>",
+      "6": "<strong>Hold</strong>",
+      "7": "Unleash fire in a composed manner. When used, the Traveler gains 42 Nightsoul points and enters the Nightsoul's Blessing state, summoning a Scorching Threshold that follows the current active character.",
+      "8": "When the current active character within a Scorching Threshold deals DMG to opponents, the Threshold will launch a Coordinated Attack that deals Nightsoul-aligned <pyro>Pyro DMG</pyro> based on the Traveler's ATK. This effect can occur once every 3s.",
+      "9": "<br/>",
+      "10": "<strong>Nightsoul's Blessing: Traveler</strong>",
+      "11": "Continuously consumes Nightsoul points. The Traveler's Nightsoul's Blessing state lasts 12s at maximum, and when their Nightsoul points are exhausted, or if the skill is used again, this state will end.",
+      "12": "Blazing and Scorching Thresholds will disappear once the Traveler's Nightsoul's Blessing state ends, and 1 Blazing or Scorching Threshold summoned by the Traveler themselves can exist at any one time.",
+      "13": "<br/>",
+      "14": "<i>You and Paimon watched the shifting colors of the flowing flames together.</i>"
+    },
+    "skillParams": {
+      "0": "Swiftblaze Ring DMG",
+      "1": "Slowflame Ring Instant DMG",
+      "2": "Slowflame Ring DMG",
+      "3": "Nightsoul Point Limit",
+      "4": "CD",
+      "5": "",
+      "6": "",
+      "7": "",
+      "8": "",
+      "9": "",
+      "10": "",
+      "11": "",
+      "12": "",
+      "13": "",
+      "14": "",
+      "15": ""
+    }
+  },
+  "burst": {
+    "name": "Plains Scorcher",
+    "description": {
+      "0": "Condense the flames into a mark, dealing Nightsoul-aligned <pyro>AoE Pyro DMG</pyro> to opponents up ahead. Within the next 4s, the Traveler restores 7 Nightsoul points per second.",
+      "1": "<i>You and Paimon study the principles behind an undying flame.</i>"
+    },
+    "skillParams": {
+      "0": "Skill DMG",
+      "1": "CD",
+      "2": "Energy Cost",
+      "3": "",
+      "4": "",
+      "5": "",
+      "6": "",
+      "7": "",
+      "8": "",
+      "9": "",
+      "10": "",
+      "11": "",
+      "12": "",
+      "13": "",
+      "14": "",
+      "15": ""
+    }
+  },
+  "passive1": {
+    "name": "",
+    "description": {}
+  },
+  "passive2": {
+    "name": "",
+    "description": {}
+  },
+  "constellation1": {
+    "name": "Constellation 1",
+    "description": {}
+  },
+  "constellation2": {
+    "name": "Constellation 2",
+    "description": {}
+  },
+  "constellation3": {
+    "name": "Constellation 3",
+    "description": {}
+  },
+  "constellation4": {
+    "name": "Constellation 4",
+    "description": {}
+  },
+  "constellation5": {
+    "name": "Constellation 5",
+    "description": {}
+  },
+  "constellation6": {
+    "name": "Constellation 6",
+    "description": {}
+  }
+}

@@ -1,7 +1,7 @@
 {
   "name": "Ororon",
   "title": "Ombra del Vento della Notte",
-  "description": "Un giovane membro dei Maestri del Vento della Notte, che invece vive in mezzo alla natura, accanto a ogni sorta di forma di vita.",
+  "description": "Un giovane membro dei Maestri del Vento della Notte che ama vivere in mezzo alla natura, accanto a forme di vita d'ogni sorta.",
   "constellationName": "Vampyrum Spectrum",
   "auto": {
     "name": "Freccia albergaspiriti",
@@ -75,7 +75,7 @@
       "2": "<strong>Occhio supersonico</strong>",
       "3": [
         " Provoca continuamente gli avversari, attirando i loro attacchi.",
-        " Gira costantemente scagliando onde sonore che infliggono <electro>DAN da Electro</electro> con attributo Anima della Notte agli avversari."
+        " Gira costantemente scagliando onde soniche che infliggono <electro>DAN da Electro</electro> con attributo Anima della Notte agli avversari."
       ],
       "4": "<br/>",
       "5": "<i>Le persone che hanno sensi sufficientemente acuti riescono a sentire le voci distanti con cui tutte le cose parlano. Così facendo, non potranno mai perdersi, neanche nelle lunghe notti senza luce.</i>"
@@ -102,12 +102,13 @@
   "passive1": {
     "name": "Sinestesia notturna",
     "description": {
-      "0": "Dopo che un membro del gruppo ha innescato un Impeto dell'Anima della Notte, Ororon recupera 40 punti Anima della Notte. Per 15 s dopo aver usato l'abilità, Ororon recupera 5 punti Anima della Notte quando altri membri del gruppo di elemento <hydro>Hydro</hydro> o <electro>Electro</electro>colpiscono gli avversari. Quest'effetto può attivarsi una volta ogni 0,3 s per un massimo di 10 volte nel corso della sua durata.",
+      "0": "Dopo che un membro del gruppo ha innescato un Impeto dell'Anima della Notte, Ororon recupera 40 punti Anima della Notte. Per 15 s dopo aver usato l'abilità elementale, Ororon recupera 5 punti Anima della Notte quando altri membri del gruppo colpiscono gli avversari con attacchi di <hydro>Hydro</hydro> o <electro>Electro</electro>. Quest'effetto può attivarsi una volta ogni 0,3 s per un massimo di 10 volte nel corso della sua durata.",
       "1": "Ororon può avere un massimo di 80 punti Anima della Notte.",
-      "2": "Inoltre, quando gli avversari vicini subiscono DAN da reazione di <electro>Electrocarica</electro> o DAN con attributo Anima della Notte inflitti da altri personaggi vicini, Ororon consuma 10 punti Anima della Notte (se li ha a disposizione), entra nello stato di Grazia dell'Anima della Notte e innesca l'effetto Ultrasenso, che infligge <electro>DAN da Electro</electro> pari a un 160% del suo ATT a un massimo di 4 avversari vicini. Quest'effetto può attivarsi una volta ogni 1,8 s.",
-      "3": "<br/>",
-      "4": "<strong>Grazia dell'Anima della Notte: Ororon</strong>",
-      "5": "Lo stato di Grazia dell'Anima della Notte di Ororon dura 6 s."
+      "2": "<br/>",
+      "3": "Inoltre, quando gli avversari circostanti subiscono DAN da reazione di <electro>Electrocarica</electro> o DAN con attributo Anima della Notte inflitti da altri personaggi vicini, Ororon consuma 10 punti Anima della Notte (se li ha a disposizione), entra nello stato di Grazia dell'Anima della Notte e innesca l'effetto Ultrasenso, che infligge <electro>DAN da Electro</electro> con attributo Anima della Notte pari a un 160% del suo ATT a un massimo di 4 avversari vicini. Quest'effetto può attivarsi una volta ogni 1,8 s.",
+      "4": "<br/>",
+      "5": "<strong>Grazia dell'Anima della Notte: Ororon</strong>",
+      "6": "Lo stato di Grazia dell'Anima della Notte di Ororon dura 6 s."
     }
   },
   "passive2": {
@@ -131,7 +132,7 @@
     }
   },
   "passive": {
-    "name": "Talento vitale",
+    "name": "Arte metamorfica",
     "description": {
       "0": "Aumenta di un 15% la VEL di planata per i membri del tuo gruppo.",
       "1": "Non è cumulabile con talenti passivi che conferiscono gli stessi effetti."
@@ -141,7 +142,7 @@
     "name": "Tracce nel bosco brumoso",
     "description": {
       "0": "La <strong>Sfera spiritica</strong> dell'abilità elementale <strong>Lancio della Notte</strong> può rimbalzare 2 volte in più.",
-      "1": "Inoltre, quando la <strong>Sfera spiritica</strong> colpisce un avversario, applica l'effetto Nottescura per 12 s. Gli avversari sotto l'effetto di Nottescura subiscono il 50% di DAN in più da Ultrasenso, innescato dal talento passivo Sinestesia notturna. Innescare quest'effetto richiede il sopracitato talento passivo."
+      "1": "Inoltre, quando la <strong>Sfera spiritica</strong> colpisce un avversario, applica l'effetto Nottescura per 12 s. Se il talento passivo Sinestesia notturna è sbloccato, gli avversari sotto l'effetto di Nottescura subiscono un 50% di DAN in più dall'effetto Ultrasenso innescato dal suddetto talento passivo."
     }
   },
   "constellation2": {
@@ -178,8 +179,8 @@
   "constellation6": {
     "name": "Ode alle sorgenti profonde",
     "description": {
-      "0": "Dopo aver innescato Ultrasenso tramite il talento passivo Sinestesia notturna, l'ATT del personaggio attivo aumenta di un 10% per 9 s.",
-      "1": "Inoltre, usare il Tripudio elementale <strong>Eco di voci oscure</strong> innesca un'iterazione di un effetto equivalente a Ultrasenso che infligge il 200% dei DAN originali.",
+      "0": "Dopo aver innescato Ultrasenso tramite il talento passivo Sinestesia notturna, l'ATT del personaggio attivo aumenta di un 10% per 9 s. Tale aumento è cumulabile fino a 3 volte, e ciascun accumulo è conteggiato in modo indipendente.",
+      "1": "Inoltre, usare il Tripudio elementale <strong>Eco di voci oscure</strong> innesca un'iterazione di un effetto equivalente a Ultrasenso che infligge il 200% dei suoi DAN originali.",
       "2": "Richiede il talento passivo Sinestesia notturna."
     }
   }
