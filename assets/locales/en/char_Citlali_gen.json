@@ -1,6 +1,6 @@
 {
   "name": "Citlali",
-  "title": "???",
+  "title": "Obsidian Opalstar",
   "description": "",
   "constellationName": "Patina Anavatlaca",
   "auto": {
@@ -42,7 +42,7 @@
     "name": "Dawnfrost Darkstar",
     "description": {
       "0": "Invoking secret pacts passed down by her tribe over the millennia, Citlali deploys an Opal Shield and calls forth \"Obsidian Tzitzimitl: Itzpapa,\" a creature that is (reputedly) terrifying beyond compare, dealing Nightsoul-aligned <cryo>AoE Cryo DMG</cryo>.",
-      "1": "The Opal Shield's DMG absorption scales based on Citlali's Elemental Mastery, and absorbs <cryo>Cryo DMG</cryo> with 250% efficiency.",
+      "1": "The Opal Shield's DMG absorption scales based on Citlali's Elemental Mastery, and absorbs <cryo>Cryo DMG</cryo> with 250% efficiency. When it is deployed, it will cause Citlali to briefly be <cryo>affected by Cryo</cryo>.",
       "2": "After using this skill, Citlali gains 24 Nightsoul points and enters the Nightsoul's Blessing state.",
       "3": "<br/>",
       "4": "<strong>Nightsoul's Blessing: Citlali</strong>",
@@ -65,8 +65,8 @@
       "3": "Itzpapa Duration",
       "4": "Itzpapa: Opal Fire Nightsoul Point Consumption",
       "5": "Frostfall Storm DMG",
-      "6": "CD",
-      "7": "",
+      "6": "Nightsoul Point Limit",
+      "7": "CD",
       "8": "",
       "9": "",
       "10": "",
@@ -128,13 +128,14 @@
     }
   },
   "passive": {
-    "name": "Life Talent",
+    "name": "Songs of Profound Mystery",
     "description": {
-      "0": "When Nightsoul Burst is triggered, restore 20 Phlogiston to the party. This cannot take effect in Domains, Trounce Domains, or the Spiral Abyss."
+      "0": "While in an area with Phlogiston Mechanics within Natlan, triggering \"Nightsoul Burst\" restores 20 Phlogiston.",
+      "1": "This cannot take effect in Domains, Trounce Domains, or the Spiral Abyss."
     }
   },
   "constellation1": {
-    "name": "Bladed Light of Four Hundred Stars",
+    "name": "Radiant Blades of Centzon Mimixcoah",
     "description": {
       "0": "When she uses the Elemental Skill <strong>Dawnfrost Darkstar</strong>, Citlali gains the \"Opalstar Vestments\" effect until her Nightsoul's Blessing state ends. During this time, she will obtain 10 Stellar Blades. When a nearby active character other than Citlali deals DMG, consume 1 Blade to increase the DMG dealt by 200% of Citlali's Elemental Mastery.",
       "1": "After nearby party members trigger Frozen or Melt, Citlali will gain another 3 Stellar Blades. This effect can trigger once every 8s.",
@@ -167,17 +168,17 @@
     }
   },
   "constellation5": {
-    "name": "Curse of the Five Blighted Days",
+    "name": "Nemontemi's Hex",
     "description": {
       "0": "Increases the Level of <strong>Edict of Entwined Splendor</strong> by 3.",
       "1": "Maximum upgrade level is 15."
     }
   },
   "constellation6": {
-    "name": "Secret Pact of Wisdom",
+    "name": "Teoiztac's Secret Pact",
     "description": {
-      "0": "The Itzpapa summoned by Elemental Skill <color=E586>Dawnfrost Darkstar</undefined> will always be in the Opal Fire state, and when Nightsoul points are exhausted, this state will not end.",
-      "1": "Additionally, <strong>Dawnfrost Darkstar</strong> is used, Itzpapa will consume all Nightsoul points, and while it is on the field, it will continuously consume Nightsoul points to grant all nearby party members <pyro>Pyro</pyro>, <hydro>Hydro</hydro>, and <cryo>Cryo</cryo> DMG Bonuses, with each consumed Nightsoul point granting 1.5% of the corresponding DMG Bonus. The maximum DMG Bonus that can be gained this way is 60%."
+      "0": "The Itzpapa summoned by Elemental Skill <strong>Dawnfrost Darkstar</strong> will always be in the Opal Fire state, and when Nightsoul points are exhausted, this state will not end.",
+      "1": "Additionally, when <strong>Dawnfrost Darkstar</strong> is used, Itzpapa will consume all Nightsoul points, and while it is on the field, it will continuously consume Nightsoul points to grant all nearby party members <pyro>Pyro</pyro>, <hydro>Hydro</hydro>, and <cryo>Cryo</cryo> DMG Bonuses, with each consumed Nightsoul point granting 1.5% of the corresponding DMG Bonus. The maximum DMG Bonus that can be gained this way is 60%."
     }
   }
 }

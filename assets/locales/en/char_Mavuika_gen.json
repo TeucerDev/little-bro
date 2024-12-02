@@ -1,6 +1,6 @@
 {
   "name": "Mavuika",
-  "title": "???",
+  "title": "Night-Igniting Flame",
   "description": "",
   "constellationName": "Sol Invictus",
   "auto": {
@@ -24,7 +24,7 @@
       "1": "2-Hit DMG",
       "2": "3-Hit DMG",
       "3": "4-Hit DMG",
-      "4": "Charged Attack Final DMG",
+      "4": "Charged Attack DMG",
       "5": "Charged Attack Stamina Cost",
       "6": "Plunge DMG",
       "7": "Low/High Plunge DMG",
@@ -62,19 +62,19 @@
       "18": "\"Well, mine's the only one that exists here. Guess that means I get to pick whatever plate number I want, huh?\"</i>"
     },
     "skillParams": {
-      "0": "Activation DMG",
-      "1": "Remote Weapon Interval DMG",
-      "2": "Remote Weapon Trigger Interval",
-      "3": "Motorcycle Normal Attack 1-Hit DMG",
-      "4": "Motorcycle Normal Attack 2-Hit DMG",
-      "5": "Motorcycle Normal Attack 3-Hit DMG",
-      "6": "Motorcycle Normal Attack 4-Hit DMG",
-      "7": "Motorcycle Normal Attack 5-Hit DMG",
-      "8": "Motorcycle Sprint DMG",
-      "9": "Motorcycle Charged Attack Cyclic DMG",
-      "10": "Motorcycle Charged Attack Final DMG",
-      "11": "Motorcycle Plunge DMG",
-      "12": "Nightsoul Points",
+      "0": "Skill DMG",
+      "1": "Rings of Searing Radiance DMG",
+      "2": "Rings of Searing Radiance Attack Interval",
+      "3": "Flamestrider Normal Attack 1-Hit DMG",
+      "4": "Flamestrider Normal Attack 2-Hit DMG",
+      "5": "Flamestrider Normal Attack 3-Hit DMG",
+      "6": "Flamestrider Normal Attack 4-Hit DMG",
+      "7": "Flamestrider Normal Attack 5-Hit DMG",
+      "8": "Flamestrider Sprint DMG",
+      "9": "Flamestrider Charged Attack Cyclic DMG",
+      "10": "Flamestrider Charged Attack Final DMG",
+      "11": "Flamestrider Plunge DMG",
+      "12": "Nightsoul Point Limit",
       "13": "CD",
       "14": "",
       "15": ""
@@ -103,13 +103,13 @@
       "14": "<i>\"—But this time, I shall shatter this destiny with my own hands.\"</i>"
     },
     "skillParams": {
-      "0": "Explosion DMG",
-      "1": "War God Form Duration",
-      "2": "Burst DMG Bonus",
-      "3": "Motorcycle Normal Attack Bonus",
-      "4": "Motorcycle Charged Attack Bonus",
-      "5": "Normal Attack War God Energy Gain",
-      "6": "CD",
+      "0": "Skill DMG",
+      "1": "Crucible of Death and Life Duration",
+      "2": "Sunfell Slice DMG Bonus",
+      "3": "Flamestrider Normal Attack DMG Bonus",
+      "4": "Flamestrider Charged Attack DMG Bonus",
+      "5": "CD",
+      "6": "Fighting Spirit Limit",
       "7": "",
       "8": "",
       "9": "",
@@ -130,7 +130,7 @@
   "passive2": {
     "name": "\"Kiongozi\"",
     "description": {
-      "0": "After using her Elemental Burst, <strong>Hour of Burning Skies</strong>, every point of Fighting Spirit present when it is used increases the DMG that the current active character deals by 0.25%. The maximum increase obtainable this way is 50%, and this effect lasts 20s, decaying over this duration until it reaches 0."
+      "0": "After using her Elemental Burst, <strong>Hour of Burning Skies</strong>, every point of Fighting Spirit present when it is used increases the DMG that the current active party member deals by 0.25%. The maximum increase obtainable this way is 50%, and this effect lasts 20s, decaying over this duration until it reaches 0."
     }
   },
   "passive3": {
@@ -141,7 +141,7 @@
     }
   },
   "passive": {
-    "name": "Life Talent",
+    "name": "Night-Shattering Radiance",
     "description": {
       "0": "The party's Nightsoul Transmission CD is decreased by 20%."
     }
@@ -159,7 +159,7 @@
       "0": "When in the Nightsoul's Blessing State, Mavuika's Base ATK is increased by 300, and she obtains the following effects based on All-Fire Armaments' form:",
       "1": [
         " Rings of Searing Radiance: Nearby opponents' DEF decreased by 20%.",
-        " Flamestrider: Each point of Mavuika's ATK increases her Normal Attack DMG by 1, and her Charged Attack DMG by 1.5."
+        " Flamestrider: Mavuika's Normal Attacks, Charged Attacks, and her Sunfell Slice from the Elemental Burst <strong>Hour of Burning Skies</strong> deal 80%, 130%, and 180% of her ATK as increased DMG respectively."
       ]
     }
   },
@@ -188,13 +188,13 @@
   "constellation6": {
     "name": "\"Humanity's Name\" Unfettered",
     "description": {
-      "0": "The All-Fire Armaments from the Elemental Skill <strong>The Named Moment</strong> receive all-around improvements:",
+      "0": "The All-Fire Armaments from the Elemental Skill <strong>The Named Moment</strong> receive all-round improvements:",
       "1": [
         " Rings of Searing Radiance: When the Rings' attacks hit opponents, a Flamestrider will crash into the struck opponent, dealing 200% of ATK as Nightsoul-aligned <pyro>AoE Pyro DMG</pyro>.",
         " Flamestrider: When Mavuika is riding the Flamestrider, Rings of Searing Radiance will also follow her, dealing 400% of ATK as Nightsoul-aligned <pyro>AoE Pyro DMG</pyro> to nearby opponents once every 3s. Mavuika's terrain-crossing abilities will also be further improved."
       ],
       "2": "<br/>",
-      "3": "Additionally, when Mavuika is riding her Flamestrider and is not in combat, when her Nightsoul points drop to 5, she will gain 80 points. This effect can trigger once every 15s."
+      "3": "Additionally, when Mavuika is riding her Flamestrider and is not in combat, when her Nightsoul points drop to 5, she will gain 80 Nightsoul points. This effect can trigger once every 15s."
     }
   }
 }
