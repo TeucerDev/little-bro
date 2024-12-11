@@ -48,7 +48,7 @@
       "4": "Has different forms when Tapped or Held.",
       "5": "<br/>",
       "6": "<strong>Tap</strong>",
-      "7": "\"Divine Name Unleashed\": The All-Fire Armaments manifest as Rings of Searing Radiance. The Rings follow the current active character and attack nearby opponents at intervals, dealing Nightsoul-aligned <pyro>Pyro DMG</pyro>.",
+      "7": "\"Divine Name Unleashed\": The All-Fire Armaments manifest as a Ring of Searing Radiance. The Ring follows the current active character and attacks nearby opponents at intervals, dealing Nightsoul-aligned <pyro>Pyro DMG</pyro>.",
       "8": "<br/>",
       "9": "<strong>Hold</strong>",
       "10": "\"Ancient Name Unbound\": The All-Fire Armaments manifest as a Flamestrider. In this state, Mavuika can ride the Flamestrider at high speed, or activate its hidden backup propulsion module to temporarily cross various terrain types and glide in mid-air. Mavuika's Normal, Charged, and Plunging Attacks will also be converted to deal Nightsoul-aligned <pyro>Pyro DMG</pyro> which cannot be overridden. When sprinting, she also deals Nightsoul-aligned <pyro>Pyro DMG</pyro> to opponents along her path.",
@@ -63,8 +63,8 @@
     },
     "skillParams": {
       "0": "Skill DMG",
-      "1": "Rings of Searing Radiance DMG",
-      "2": "Rings of Searing Radiance Attack Interval",
+      "1": "Ring of Searing Radiance DMG",
+      "2": "Ring of Searing Radiance Attack Interval",
       "3": "Flamestrider Normal Attack 1-Hit DMG",
       "4": "Flamestrider Normal Attack 2-Hit DMG",
       "5": "Flamestrider Normal Attack 3-Hit DMG",
@@ -124,13 +124,13 @@
   "passive1": {
     "name": "Gift of Flaming Flowers",
     "description": {
-      "0": "When a nearby party member triggers a Nightsoul Burst, Mavuika's ATK increases by 35% for 10s."
+      "0": "When a nearby party member triggers a Nightsoul Burst, Mavuika's ATK increases by 30% for 10s."
     }
   },
   "passive2": {
     "name": "\"Kiongozi\"",
     "description": {
-      "0": "After using her Elemental Burst, <strong>Hour of Burning Skies</strong>, every point of Fighting Spirit present when it is used increases the DMG that the current active party member deals by 0.25%. The maximum increase obtainable this way is 50%, and this effect lasts 20s, decaying over this duration until it reaches 0."
+      "0": "After using her Elemental Burst, <strong>Hour of Burning Skies</strong>, every point of Fighting Spirit present when it is used increases the DMG that the current active party member deals by 0.2%. The maximum increase obtainable this way is 40%, and this effect lasts 20s, decaying over this duration until it reaches 0."
     }
   },
   "passive3": {
@@ -156,10 +156,10 @@
   "constellation2": {
     "name": "The Ashen Price",
     "description": {
-      "0": "When in the Nightsoul's Blessing State, Mavuika's Base ATK is increased by 300, and she obtains the following effects based on All-Fire Armaments' form:",
+      "0": "When in the Nightsoul's Blessing State, Mavuika's Base ATK is increased by 200, and she obtains the following effects based on All-Fire Armaments' form:",
       "1": [
-        " Rings of Searing Radiance: Nearby opponents' DEF decreased by 20%.",
-        " Flamestrider: Mavuika's Normal Attacks, Charged Attacks, and her Sunfell Slice from the Elemental Burst <strong>Hour of Burning Skies</strong> deal 80%, 130%, and 180% of her ATK as increased DMG respectively."
+        " Ring of Searing Radiance: Nearby opponents' DEF decreased by 20%.",
+        " Flamestrider: Mavuika's Normal Attacks, Charged Attacks, and her Sunfell Slice from the Elemental Burst <strong>Hour of Burning Skies</strong> deal 60%, 90%, and 120% of her ATK as increased DMG respectively."
       ]
     }
   },
@@ -174,7 +174,7 @@
     "name": "The Leader's Resolve",
     "description": {
       "0": "Enhances the effects of the Passive Talent \"Kiongozi\":",
-      "1": "The DMG increase gained after using the Elemental Burst <strong>Hour of Burning Skies</strong> will not decay over time.",
+      "1": "The DMG increase gained after using the Elemental Burst <strong>Hour of Burning Skies</strong> will not decay over time, and an additional 10% DMG Bonus will be gained.",
       "2": "You must first unlock the Passive Talent \"Kiongozi.\""
     }
   },
@@ -190,8 +190,8 @@
     "description": {
       "0": "The All-Fire Armaments from the Elemental Skill <strong>The Named Moment</strong> receive all-round improvements:",
       "1": [
-        " Rings of Searing Radiance: When the Rings' attacks hit opponents, a Flamestrider will crash into the struck opponent, dealing 200% of ATK as Nightsoul-aligned <pyro>AoE Pyro DMG</pyro>.",
-        " Flamestrider: When Mavuika is riding the Flamestrider, Rings of Searing Radiance will also follow her, dealing 400% of ATK as Nightsoul-aligned <pyro>AoE Pyro DMG</pyro> to nearby opponents once every 3s. Mavuika's terrain-crossing abilities will also be further improved."
+        " Ring of Searing Radiance: When the Ring's attacks hit opponents, a Flamestrider will crash into the struck opponent, dealing 200% of ATK as Nightsoul-aligned <pyro>AoE Pyro DMG</pyro>.",
+        " Flamestrider: When Mavuika is riding the Flamestrider, she will also summon a Scorching Ring of Searing Radiance to follow her, which will decrease nearby opponents' DEF by 20% and deal 400% of ATK as Nightsoul-aligned <pyro>AoE Pyro DMG</pyro> to nearby opponents once every 3s. Mavuika's terrain-crossing abilities will also be further improved."
       ],
       "2": "<br/>",
       "3": "Additionally, when Mavuika is riding her Flamestrider and is not in combat, when her Nightsoul points drop to 5, she will gain 80 Nightsoul points. This effect can trigger once every 15s."
