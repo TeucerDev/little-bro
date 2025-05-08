@@ -1,7 +1,7 @@
 {
   "name": "Ifa",
   "title": "In the Wake of Wandering Winds",
-  "description": "???",
+  "description": "A vet from the Flower-Feather Clan who cherishes the life he leads alongside all manner of living things — people, animals, you name it.",
   "constellationName": "Catena Opele",
   "auto": {
     "name": "Rite of Dispelling Winds",
@@ -60,8 +60,9 @@
     "name": "Airborne Disease Prevention",
     "description": {
       "0": "It's time for the real bash bros to step up! Ifa calls Cacucu in as backup.",
-      "1": "After using this skill, Ifa gains 80 Nightsoul points and enters the {LINK#N11130003}<strong>Nightsoul's Blessing</strong>{/LINK} state. In the Nightsoul's Blessing state, Ifa will hover with Cacucu's help. When he uses Normal Attacks in this state, he will use different kinds of {LINK#N11130001}<strong>Supporting Fire</strong>{/LINK} depending on whether you Tap or Hold, firing Tonicshots that are capable of healing all party members.",
-      "2": "Additionally, Holding the Elemental Skill <strong>Airborne Disease Prevention</strong> while Ifa is in Nightsoul's Blessing will cause him to use a Nightsoul-aligned Plunging Attack. Letting go of the skill button will interrupt this Plunging Attack to maintain his hover. If Ifa lands due to this Plunging Attack, his Nightsoul's Blessing state will end."
+      "1": "After using this skill, Ifa gains 80 Nightsoul points and enters the <strong>Nightsoul's Blessing</strong> state. In the Nightsoul's Blessing state, Ifa will hover with Cacucu's help. When he uses Normal Attacks in this state, he will use different kinds of <strong>Supporting Fire</strong> depending on whether you Tap or Hold, firing Tonicshots that are capable of healing all party members.",
+      "2": "<br/>",
+      "3": "Additionally, Holding the Elemental Skill <strong>Airborne Disease Prevention</strong> while Ifa is in Nightsoul's Blessing will cause him to use a Nightsoul-aligned Plunging Attack. Letting go of the skill button will interrupt this Plunging Attack to maintain his hover. If Ifa lands due to this Plunging Attack, his Nightsoul's Blessing state will end."
     },
     "skillParams": {
       "0": "Tonicshot DMG",
@@ -103,8 +104,8 @@
   "burst": {
     "name": "Compound Sedation Field",
     "description": {
-      "0": "Fires a therapeutic sedative at a (temporarily aggressive) opponent. The sedative will explode on impact, creating a restraining wind current that pulls nearby objects and opponents while dealing Nightsoul-aligned <anemo>AoE Anemo DMG</anemo>.",
-      "1": "When the therapeutic sedative hits an opponent affected by <hydro>Hydro</hydro>/<pyro>Pyro</pyro>/<cryo>Cryo</cryo>/<electro>Electro</electro>, it will apply a {LINK#N11130004}<strong>Sedation Mark</strong>{/LINK} to them, which will explode after a short delay and disappear, dealing AoE DMG aligned with the corresponding element."
+      "0": "Fires a Therapeutic Sedative at a (temporarily aggressive) opponent. The sedative will explode on impact, creating a restraining wind current that pulls nearby objects and opponents in while dealing Nightsoul-aligned <anemo>AoE Anemo DMG</anemo>.",
+      "1": "When the Therapeutic Sedative hits an opponent affected by <hydro>Hydro</hydro>/<pyro>Pyro</pyro>/<cryo>Cryo</cryo>/<electro>Electro</electro>, it will apply a <strong>Sedation Mark</strong> to them."
     },
     "skillParams": {
       "0": "Skill DMG",
@@ -146,7 +147,7 @@
   "passive1": {
     "name": "Field Medic's Vision",
     "description": {
-      "0": "When Ifa is in the Nightsoul's Blessing state, every 1 Nightsoul point out of the total in his entire party will grant him 1 {LINK#N11130002}<strong>Rescue Essentials</strong>{/LINK} point. Rescue Essentials will increase the Swirl and Electro-Charged DMG dealt by all nearby party members."
+      "0": "When Ifa is in the Nightsoul's Blessing state, every 1 Nightsoul point out of the total in his entire party will grant him 1 <strong>Rescue Essentials</strong> point. Rescue Essentials will increase the Swirl and Electro-Charged DMG dealt by all nearby party members."
     }
   },
   "passive2": {
@@ -158,48 +159,48 @@
   "passive3": {
     "name": "Tactical Warm Compress Bandaging",
     "description": {
-      "0": "While in an area with Phlogiston Mechanics within Natlan, when the current active party member or indwelt saurian has less than 40% HP, Ifa will consume 10 Phlogiston and restore HP to them based on 150% of Ifa's Elemental Mastery. This effect can trigger once every 10s, and does not take effect in Domains, Trounce Domains, or the Spiral Abyss."
+      "0": "While in an area with Phlogiston Mechanics within Natlan, when the current active party member or indwelt saurian has less than 40% HP, Ifa will consume 10 Phlogiston and restore 40% of their HP. This effect can trigger once every 10s, and does not take effect in Domains, Trounce Domains, or the Spiral Abyss."
     }
   },
   "constellation1": {
     "name": "Vitiferous Elixir's Concoction",
     "description": {
-      "0": "When {LINK#N11130001}<strong>Supporting Fire</strong>{/LINK} hits an opponent, it will restore 6 Energy for Ifa. One such Energy restoration can be triggered once every 8s."
+      "0": "When <strong>Supporting Fire</strong> hits an opponent, it will restore 6 Energy for Ifa. One such Energy restoration can be triggered once every 8s."
     }
   },
   "constellation2": {
     "name": "Guiding Spirit of Ballistic Prayer",
     "description": {
-      "0": "When Ifa is in the Nightsoul's Blessing state, every Nightsoul point the party has above a total of 60 will grant Ifa 3 additional {LINK#N11130002}<strong>Rescue Essentials</strong>{/LINK} points.",
-      "1": "Additionally, Ifa's Rescue Essentials limit is increased by 30.",
-      "2": "You must first unlock the Passive Talent {LINK#P1132101}<strong>Field Medic's Vision</strong>{/LINK}."
+      "0": "When Ifa is in the Nightsoul's Blessing state, every Nightsoul point the party has above a total of 60 will grant Ifa 4 additional <strong>Rescue Essentials</strong> points.",
+      "1": "Additionally, Ifa's Rescue Essentials limit is increased by 50.",
+      "2": "You must first unlock the Passive Talent <strong>Field Medic's Vision</strong>."
     }
   },
   "constellation3": {
     "name": "Rebuttal in Negotiations With the Night",
     "description": {
-      "0": "Increases the Level of <strong>{LINK#S11132}Airborne Disease Prevention{/LINK}</strong> by 3.",
+      "0": "Increases the Level of <strong>Airborne Disease Prevention</strong> by 3.",
       "1": "Maximum upgrade level is 15."
     }
   },
   "constellation4": {
     "name": "Decayed Vessel's Permutation",
     "description": {
-      "0": "The restraining wind current created by the Elemental Burst <strong>{LINK#S11135}Compound Sedation Field{/LINK}</strong> lasts for 3 extra seconds.",
+      "0": "The restraining wind current created by the Elemental Burst <strong>Compound Sedation Field</strong> has its duration extended to 3s.",
       "1": "Additionally, Ifa gains 100 Elemental Mastery for 15s after using his Elemental Burst <strong>Compound Sedation Field</strong>."
     }
   },
   "constellation5": {
     "name": "Vow of Universal Coexistence",
     "description": {
-      "0": "Increases the Level of <strong>{LINK#S11135}Compound Sedation Field{/LINK}</strong> by 3.",
+      "0": "Increases the Level of <strong>Compound Sedation Field</strong> by 3.",
       "1": "Maximum upgrade level is 15."
     }
   },
   "constellation6": {
     "name": "Oath on a Feathered Knot",
     "description": {
-      "0": "When Ifa uses the Hold version of his {LINK#N11130001}<strong>Supporting Fire</strong>{/LINK}, there is a 50% chance that he will fire an additional Tonicshot that deals 120% of its original DMG. This DMG is considered Normal Attack DMG.",
+      "0": "When Ifa uses the Hold version of his <strong>Supporting Fire</strong>, there is a 50% chance that he will fire an additional Tonicshot that deals 120% of Ifa's ATK as Anemo DMG. This DMG is considered Normal Attack DMG.",
       "1": "Additionally, when he is not in combat, Ifa will consume 20% less Nightsoul points and Phlogiston in his Nightsoul's Blessing state."
     }
   }
