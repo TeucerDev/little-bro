@@ -62,11 +62,11 @@
       "0": "Imitates the combat style of \"The Foul.\" Produces different effects depending on whether you Tap or Hold.",
       "1": "<br/>",
       "2": "<strong>Tap</strong>",
-      "3": "Skirk gains 45 <strong>Serpent's Subtlety</strong> and switches to the <strong>Seven-Phase Flash</strong> mode.",
+      "3": "Skirk gains 45 <strong>Serpent's Subtlety</strong> and switches to <strong>Seven-Phase Flash</strong> mode.",
       "4": "<br/>",
       "5": "<strong>Hold</strong>",
       "6": "Skirk gains 45 Serpent's Subtlety and will continuously move at high speed. Her interruption resistance is increased in this state.",
-      "7": "During this time, Skirk can control her movement direction. She can also use this Skill again to end rapid movement prematurely."
+      "7": "During this time, Skirk can control her movement direction and move atop water. She can also use this Skill again to end rapid movement prematurely."
     },
     "skillParams": {
       "0": "1-Hit DMG",
@@ -109,9 +109,9 @@
     "name": "Havoc: Ruin",
     "description": {
       "0": "Skirk's Elemental Burst is not reliant on Elemental Energy but instead on <strong>Serpent's Subtlety</strong>.",
-      "1": "When Skirk has at least 50 <strong>Serpent's Subtlety</strong>, she can expend all her <strong>Serpent's Subtlety</strong> to unleash her Elemental Burst, ripping the space before her apart and using rapid consecutive slashes that deal <cryo>AoE Cryo DMG</cryo>. At the same time, the DMG dealt by an instance of this Elemental Burst can be increased by every point of <strong>Serpent's Subtlety</strong> over 50 when it is unleashed. Up to 12 points can be counted for this purpose.",
+      "1": "When Skirk has at least 50 Serpent's Subtlety, she can expend all her Serpent's Subtlety to unleash her Elemental Burst, ripping the space before her apart and using rapid consecutive slashes that deal <cryo>AoE Cryo DMG</cryo>. At the same time, the DMG dealt by an instance of this Elemental Burst will be increased by every point of Serpent's Subtlety over 50 when it is unleashed. Up to 12 points can be counted for this purpose.",
       "2": "<br/>",
-      "3": "When Skirk is in the <strong>Seven-Phase Slash</strong> mode, Havoc: Ruin will be replaced by Havoc: Extinction.",
+      "3": "When Skirk is in <strong>Seven-Phase Flash</strong> mode, Havoc: Ruin will be replaced by Havoc: Extinction.",
       "4": "<br/>",
       "5": "<strong>Havoc: Extinction</strong>",
       "6": "A special Elemental Burst that can be used even without consuming Serpent's Subtlety.",
@@ -164,7 +164,7 @@
       "2": "Skirk can use the following methods to absorb nearby Void Rifts:",
       "3": [
         " When she hits an opponent with a Charged Attack in her <strong>Seven-Phase Flash</strong> mode.",
-        " When she uses the special Elemental Burst <strong>Havoc: Extinction</strong> while in the Seven-Phase Flash mode.",
+        " When she uses the special Elemental Burst <strong>Havoc: Extinction</strong> while in Seven-Phase Flash mode.",
         " When she Holds her Elemental Skill <strong>Havoc: Warp</strong> to engage in rapid movement."
       ],
       "4": "<br/>",
@@ -187,7 +187,7 @@
   "constellation1": {
     "name": "Far to Fall",
     "description": {
-      "0": "Enhances the effects of the Passive Talent <strong>Reason Beyond Reason</strong>: After absorbing a Void Rift, Skirk will summon a crystal blade to attack nearby opponents, dealing 500% of her ATK as <cryo>Cryo DMG</cryo>. This DMG is considered Charged Attack DMG.",
+      "0": "Enhances the effects of the Passive Talent <strong>Reason Beyond Reason</strong>: Every Void Rift absorbed will summon a crystal blade to attack nearby opponents, dealing 500% of Skirk's ATK as <cryo>Cryo DMG</cryo>. This DMG is considered Charged Attack DMG.",
       "1": "You must first unlock the Passive Talent <strong>Reason Beyond Reason</strong>."
     }
   },
@@ -196,7 +196,7 @@
     "description": {
       "0": "After unleashing her Elemental Skill <strong>Havoc: Warp</strong>, Skirk will gain 12 additional <strong>Serpent's Subtlety</strong> points.",
       "1": "The Elemental Burst <strong>Havoc: Ruin</strong> is also enhanced: The maximum Serpent's Subtlety points above 50 factored into the DMG increase effect when she uses this Elemental Burst is increased by an additional 12.",
-      "2": "Additionally, her Normal Attack DMG is increased by 60% when she is in the <strong>Seven-Phase Flash</strong> mode."
+      "2": "Additionally, her Normal Attack DMG is increased by 60% when she is in <strong>Seven-Phase Flash</strong> mode."
     }
   },
   "constellation3": {
@@ -214,7 +214,7 @@
     }
   },
   "constellation5": {
-    "name": "Wish Ender",
+    "name": "End of Wishes",
     "description": {
       "0": "Increases the Level of <strong>Havoc: Warp</strong> by 3.",
       "1": "Maximum upgrade level is 15."
@@ -223,14 +223,14 @@
   "constellation6": {
     "name": "To the Source",
     "description": {
-      "0": "Each Void Rift Skirk absorbs via the effects of the Passive Talent <strong>Reason Beyond Reason</strong> will grant her 1 Havoc: Sever stack for 15s. Max 3 stacks. Each stack's duration is independently considered.",
+      "0": "Each Void Rift Skirk absorbs via the effects of the Passive Talent <strong>Reason Beyond Reason</strong> will grant her 1 Havoc: Sever stack for 15s. Max 3 stacks, each stack's duration is counted independently.",
       "1": "You must first unlock the Passive Talent \"Reason Beyond Reason.\"",
       "2": "<br/>",
       "3": "<strong>Havoc: Sever</strong>",
       "4": [
         " When she uses the Elemental Burst <strong>Havoc: Ruin</strong>, she will consume all <strong>Havoc: Sever</strong> stacks to initiate a coordinated attack in which each <strong>Havoc: Sever</strong> stack will deal 600% of Skirk's ATK as <cryo>Cryo DMG</cryo>. This DMG is considered Elemental Burst DMG.",
-        " When she uses Normal Attacks while in <strong>Seven-Phase Flash</strong> mode, 1 <strong>Havoc: Sever</strong> stack will be consumed when her third or fifth attack sequences hit an opponent to launch 3 coordinated attacks. Each coordinated attack deals 150% of Skirk's ATK as <cryo>Cryo DMG</cryo>. This damage is considered Normal Attack DMG.",
-        " When Skirk takes DMG while in <strong>Seven-Phase Flash</strong> mode, 1 <strong>Havoc: Sever</strong> stack will be consumed to decrease this DMG instance by 80% and attack nearby opponent(s) 3 times, with each attack dealing 150% of Skirk's ATK as <cryo>Cryo DMG</cryo>. This DMG is considered Charged Attack DMG."
+        " When she uses Normal Attacks while in <strong>Seven-Phase Flash</strong> mode, 1 <strong>Havoc: Sever</strong> stack will be consumed when her third or fifth sequenced attacks hit an opponent to launch 3 coordinated attacks. Each coordinated attack deals 150% of Skirk's ATK as <cryo>Cryo DMG</cryo>. This damage is considered Normal Attack DMG.",
+        " When Skirk takes DMG while in <strong>Seven-Phase Flash</strong> mode, 1 <strong>Havoc: Sever</strong> stack will be consumed to decrease this DMG instance by 80% and attack nearby opponents 3 times, with each attack dealing 150% of Skirk's ATK as <cryo>Cryo DMG</cryo>. This DMG is considered Charged Attack DMG."
       ]
     }
   }
