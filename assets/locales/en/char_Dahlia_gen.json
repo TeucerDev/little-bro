@@ -1,7 +1,7 @@
 {
   "name": "Dahlia",
-  "title": "???",
-  "description": "???",
+  "title": "Ode and Oblation",
+  "description": "Deacon of the Church of Favonius and the Anemo Archon's representative in the church.",
   "constellationName": "Cantus Choralis",
   "auto": {
     "name": "Ritual",
@@ -59,20 +59,20 @@
   "skill": {
     "name": "Immersive Ordinance",
     "description": {
-      "0": "Time for a fun little trick! Summons the Mist-Rain Mystery in different ways depending on whether you Tap or Hold it.",
+      "0": "Time for a fun little trick! Summons the Sacramental Shower in different ways depending on whether you Tap or Hold it.",
       "1": "<br/>",
       "2": "<strong>Tap</strong>",
-      "3": "After a short prayer, summons the Mist-Rain Mystery in front.",
+      "3": "After a short prayer, summons the Sacramental Shower in front.",
       "4": "<br/>",
       "5": "<strong>Hold</strong>",
-      "6": "Engages in continuous prayer, and when done, summons forth a Mist-Rain Mystery in the designated position.",
+      "6": "Engages in continuous prayer, and when done, summons forth a Sacramental Shower in the designated position.",
       "7": "<br/>",
-      "8": "<strong>Mist-Rain Mystery</strong>",
-      "9": "When opponents or nearby party members touch the Mist-Rain Mystery, different effects will occur depending on the one who touches it:",
-      "10": "If an opponent touches the Mystery, it will explode and deal <hydro>AoE Hydro DMG</hydro> to nearby opponents.",
+      "8": "<strong>Sacramental Shower</strong>",
+      "9": "When opponents or nearby party members touch the Sacramental Shower, different effects will occur depending on the one who touches it:",
+      "10": "If an opponent touches the Shower, it will explode and deal <hydro>AoE Hydro DMG</hydro> to nearby opponents.",
       "11": "If a nearby party member touches it, it will bounce the one who touches it high in the air.",
       "12": "<br/>",
-      "13": "Only 1 Mist-Rain Mystery summoned by Dahlia himself can be on the field at once."
+      "13": "Only 1 Sacramental Shower summoned by Dahlia himself can be on the field at once."
     },
     "skillParams": {
       "0": "Skill DMG",
@@ -118,14 +118,14 @@
       "1": "The Shield of Sacred Favor's DMG absorption is based on Dahlia's Max HP, and it will absorb <hydro>Hydro DMG</hydro> with 250% effectiveness.",
       "2": "<br/>",
       "3": "<strong>Favonian Favor</strong>",
-      "4": "While this effect is active, 1 Benison stack may be consumed to summon a new Shield of Sacred Favor when an existing Shield expires or is broken via DMG.",
+      "4": "While this effect is active, 1 Benison stack may be consumed to summon a new Shield of Sacred Favor when an existing Shield is broken via DMG.",
       "5": "<br/>",
       "6": "Dahlia can obtain Benison via the following methods:",
       "7": [
         " He will gain 1 Benison stack when his own active party member hits opponents 4 times with Normal Attacks while affected by Favonian Favor.",
         " After triggering the effect of his Passive Talent, \"The Wind's Gentle Grace\" (You must first unlock this Passive Talent.)"
       ],
-      "8": "Dahlia can gain a maximum of 5 Benison stacks per Favonian Favor duration."
+      "8": "Dahlia can gain a maximum of 4 Benison stacks per Favonian Favor duration."
     },
     "skillParams": {
       "0": "Skill DMG",
@@ -173,7 +173,7 @@
   "passive2": {
     "name": "Prayer of Well-Wrought Joy",
     "description": {
-      "0": "When your active party member is affected by the Favonian Favor effect of the Elemental Burst \"Radiant Psalter,\" their ATK SPD will increase based on Dahlia's Max HP: Every 1,000 Max HP will cause an increase of 0.4%, up to a maximum of 15%."
+      "0": "When your active party member is affected by the Favonian Favor effect of the Elemental Burst \"Radiant Psalter,\" their ATK SPD will increase based on Dahlia's Max HP: Every 1,000 Max HP will cause an increase of 0.5%, up to a maximum of 20%."
     }
   },
   "passive3": {
@@ -186,7 +186,7 @@
   "constellation1": {
     "name": "Infallible Procession",
     "description": {
-      "0": "Each time Dahlia gains 1 of his Elemental Burst <strong>Radiant Psalter</strong>'s Benison stacks, he will regain 2 Elemental Energy."
+      "0": "Each time Dahlia gains 1 of his Elemental Burst <strong>Radiant Psalter</strong>'s Benison stacks, he will regain 2.5 Elemental Energy."
     }
   },
   "constellation2": {
