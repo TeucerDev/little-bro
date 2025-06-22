@@ -174,21 +174,22 @@
   "passive2": {
     "name": "Return to Oblivion",
     "description": {
-      "0": "When nearby <hydro>Hydro</hydro> party members deal <hydro>Hydro DMG</hydro>, or when nearby <cryo>Cryo</cryo> party members apart from Skirk deal <cryo>Cryo DMG</cryo>, Skirk will gain the \"Death's Crossing\" effect for 20s. Max 3 stacks, each stack's duration is counted independently. Each character can grant Skirk at most 1 \"Death's Crossing\" stack by this means.",
-      "1": "Each \"Death's Crossing\" stack increases the Normal Attack DMG dealt by Skirk in <strong>Seven-Phase Flash</strong> mode to 110%/120%/170% of its original DMG and the DMG dealt when using her Elemental Burst <strong>Havoc: Ruin</strong> to 105%/115%/160% of its original DMG."
+      "0": "When nearby <hydro>Hydro</hydro> party members' <hydro>Hydro</hydro> attacks hit opponents, or when nearby <cryo>Cryo</cryo> party members apart from Skirk hit opponents with <cryo>Cryo</cryo> attacks, Skirk will gain the \"Death's Crossing\" effect for 20s. Max 3 stacks, each stack's duration is counted independently.",
+      "1": "Each character can grant Skirk at most 1 \"Death's Crossing\" stack by this means.",
+      "2": "Each \"Death's Crossing\" stack increases the Normal Attack DMG dealt by Skirk in <strong>Seven-Phase Flash</strong> mode to 110%/120%/170% of its original DMG and the DMG dealt when using her Elemental Burst <strong>Havoc: Ruin</strong> to 105%/115%/160% of its original DMG."
     }
   },
   "passive3": {
     "name": "Mutual Weapons Mentorship",
     "description": {
-      "0": "When all party members are either <hydro>Hydro</hydro> or <cryo>Cryo</cryo>, and if there is at least 1 Hydro and 1 Cryo character, party members' <strong>Elemental Skill</strong> Level is increased by 1."
+      "0": "When all party members are either <hydro>Hydro</hydro> or <cryo>Cryo</cryo>, and if there is at least 1 Hydro and 1 Cryo character, your own party members' <strong>Elemental Skill</strong> Level is increased by 1."
     }
   },
   "constellation1": {
     "name": "Far to Fall",
     "description": {
       "0": "Enhances the effects of the Passive Talent <strong>Reason Beyond Reason</strong>: Every Void Rift absorbed will summon a crystal blade to attack nearby opponents, dealing 500% of Skirk's ATK as <cryo>Cryo DMG</cryo>. This DMG is considered Charged Attack DMG.",
-      "1": "You must first unlock the Passive Talent <strong>Reason Beyond Reason</strong>."
+      "1": "You must first unlock the Passive Talent Reason Beyond Reason."
     }
   },
   "constellation2": {
@@ -196,7 +197,7 @@
     "description": {
       "0": "After unleashing her Elemental Skill <strong>Havoc: Warp</strong>, Skirk will gain 10 additional <strong>Serpent's Subtlety</strong> points.",
       "1": "When using her Elemental Burst <strong>Havoc: Ruin</strong>, the DMG of this Elemental Burst instance will be increased by taking up to 10 more Serpent's Subtlety points into account.",
-      "2": "Additionally, within 12.5s after Skirk unleashes the special Elemental Burst <strong>Havoc: Extinction</strong> while in her <strong>Seven-Phase Flash</strong> mode, her ATK is increased by 60%. This effect will be canceled when she leaves the Seven-Phase Flash mode."
+      "2": "Additionally, within 12.5s after Skirk unleashes the special Elemental Burst <strong>Havoc: Extinction</strong> while in her <strong>Seven-Phase Flash</strong> mode, her ATK is increased by 70%. This effect will be canceled when she leaves the Seven-Phase Flash mode."
     }
   },
   "constellation3": {
@@ -209,8 +210,8 @@
   "constellation4": {
     "name": "Fractured Flow",
     "description": {
-      "0": "Enhances the effects of the Passive Talent <strong>Return to Oblivion</strong>: Each Death's Crossing stack also increases Skirk's ATK by 10%/20%/50%.",
-      "1": "You must first unlock the Passive Talent <strong>Return to Oblivion</strong>."
+      "0": "Enhances the effects of the Passive Talent <strong>Return to Oblivion</strong>: Each Death's Crossing stack also increases Skirk's ATK by 10%/20%/40%.",
+      "1": "You must first unlock the Passive Talent Return to Oblivion."
     }
   },
   "constellation5": {
@@ -228,9 +229,9 @@
       "2": "<br/>",
       "3": "<strong>Havoc: Sever</strong>",
       "4": [
-        " When Skirk uses the Elemental Burst <strong>Havoc: Ruin</strong>, she will consume all <strong>Havoc: Sever</strong> stacks to initiate a coordinated attack in which each <strong>Havoc: Sever</strong> stack will deal 600% of Skirk's ATK as <cryo>Cryo DMG</cryo>. This DMG is considered Elemental Burst DMG.",
-        " When she uses Normal Attacks while in Seven-Phase Flash mode, 1 <strong>Havoc: Sever</strong> stack will be consumed when her third or fifth sequenced attacks hit an opponent to launch 3 coordinated attacks. Each coordinated attack deals 150% of Skirk's ATK as <cryo>Cryo DMG</cryo>. This damage is considered Normal Attack DMG.",
-        " When Skirk takes DMG while in Seven-Phase Flash mode, 1 <strong>Havoc: Sever</strong> stack will be consumed to decrease this DMG instance by 80% and attack nearby opponents 3 times, with each attack dealing 150% of Skirk's ATK as <cryo>Cryo DMG</cryo>. This DMG is considered Charged Attack DMG."
+        " When Skirk uses the Elemental Burst <strong>Havoc: Ruin</strong>, she will consume all <strong>Havoc: Sever</strong> stacks to initiate a coordinated attack in which each <strong>Havoc: Sever</strong> stack will deal 750% of Skirk's ATK as <cryo>Cryo DMG</cryo>. This DMG is considered Elemental Burst DMG.",
+        " When she uses Normal Attacks while in Seven-Phase Flash mode, 1 <strong>Havoc: Sever</strong> stack will be consumed when her third or fifth sequenced attacks hit an opponent to launch 3 coordinated attacks. Each coordinated attack deals 180% of Skirk's ATK as <cryo>Cryo DMG</cryo>. This damage is considered Normal Attack DMG.",
+        " When Skirk takes DMG while in Seven-Phase Flash mode, 1 <strong>Havoc: Sever</strong> stack will be consumed to decrease this DMG instance by 80% and attack nearby opponents 3 times, with each attack dealing 180% of Skirk's ATK as <cryo>Cryo DMG</cryo>. This DMG is considered Charged Attack DMG."
       ]
     }
   }
