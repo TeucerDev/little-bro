@@ -1,8 +1,8 @@
 {
   "name": "Ineffa",
-  "title": "",
-  "description": "",
-  "constellationName": "",
+  "title": "Boom Boom Thunderwave",
+  "description": "A multifunctional robot containing integrated mechanical components from various nations. The Source Core in her chest has endured the passage of countless years.",
+  "constellationName": "Vanilla Planifolia",
   "auto": {
     "name": "Cyclonic Duster",
     "fields": {
@@ -104,9 +104,7 @@
     "description": {
       "0": "The Multipurpose Smart Assistance Unit, <strong>Birgitta</strong>, can use Rocket Punches to quickly clean up opponents! Ineffa shoots Birgitta into the fray, dealing <electro>AoE Electro DMG</electro> and allowing Birgitta to remain on the field.",
       "1": "<br/>",
-      "2": "If Birgitta is already on the field, having been summoned by Ineffa, this Skill will re-summon Birgitta at the target's location and reset her duration.",
-      "3": "<br/>",
-      "4": "<i>It's said that switching Rocket Punches to Red Mode (Aino's terminology) increases their power threefold. In reality, it simply results in Ineffa ejecting Birgitta with three times the force.</i>"
+      "2": "If Birgitta is already on the field, having been summoned by Ineffa, this Skill will re-summon Birgitta at the target's location and reset her duration."
     },
     "skillParams": {
       "0": "Skill DMG",
@@ -148,18 +146,22 @@
   "passive1": {
     "name": "Overclocking Circuit",
     "description": {
-      "0": "If there are thunderclouds nearby when <strong>Birgitta</strong> attacks, she will initiate an additional attack, dealing DMG equal to 80% of Ineffa's ATK. This DMG is considered Lunar-Charged DMG."
+      "0": "If there are thunderclouds created by Lunar-Charged reactions nearby when <strong>Birgitta</strong> unleashes Discharge attacks, she will initiate an additional attack, dealing DMG equal to 80% of Ineffa's ATK. This DMG is considered Lunar-Charged DMG."
     }
   },
   "passive2": {
     "name": "Panoramic Permutation Protocol",
     "description": {
-      "0": "After using the Elemental Burst <strong>Supreme Instruction: Cyclonic Exterminator</strong>, all nearby party members will gain the Parameter Permutation effect: Increases Ineffa and your own active party member's Elemental Mastery by 6% of Ineffa's ATK for 20s."
+      "0": "When using the Elemental Burst <strong>Supreme Instruction: Cyclonic Exterminator</strong>, all your party members will gain the Parameter Permutation effect: Increases Ineffa and your own active party member's Elemental Mastery by 6% of Ineffa's ATK for 20s."
     }
   },
   "passive": {
     "name": "Assemblage Hub",
-    "description": {}
+    "description": {
+      "0": "When a party member triggers an Electro-Charged reaction, it will be converted into the Lunar-Charged reaction, with every 100 ATK that Ineffa has increasing Lunar-Charged's Base DMG by 0.7%, up to a maximum of 14%.",
+      "1": "<br/>",
+      "2": "Further blessings may follow the new moon's rise..."
+    }
   },
   "passive3": {
     "name": "Flavor Synthesis Unit",
@@ -170,13 +172,13 @@
   "constellation1": {
     "name": "Rectifying Processor",
     "description": {
-      "0": "When Ineffa activates her Optical Flow Shield Barrier, all nearby party members will gain the Carrier Flow Composite effect: Increases Lunar-Charged DMG by 2.5% for every 100 ATK that Ineffa has, up to a maximum of 50%."
+      "0": "When Ineffa activates her Optical Flow Shield Barrier, all nearby party members will gain the Carrier Flow Composite effect for 20s: Increases Lunar-Charged DMG by 2.5% for every 100 ATK that Ineffa has, up to a maximum of 50%."
     }
   },
   "constellation2": {
     "name": "Support Cleaning Module",
     "description": {
-      "0": "When the Elemental Burst <strong>Supreme Instruction: Cyclonic Exterminator</strong> hits opponents, it will inflict the Punishment Edict status on one of those hit opponents: After a brief delay, or when this opponent is attacked, nearby opponents will take <electro>AoE Electro DMG</electro> equal to 400% of Ineffa's ATK. This DMG is considered Lunar-Charged DMG.",
+      "0": "After the Elemental Burst <strong>Supreme Instruction: Cyclonic Exterminator</strong> hits opponents, it will inflict the Punishment Edict status on one of those hit opponents: After a brief delay, or when this opponent is attacked, nearby opponents will take <electro>AoE Electro DMG</electro> equal to 400% of Ineffa's ATK. This DMG is considered Lunar-Charged DMG.",
       "1": "Additionally, when the Elemental Burst <strong>Supreme Instruction: Cyclonic Exterminator</strong> is unleashed, nearby party members will gain Optical Flow Shield Barriers."
     }
   },
