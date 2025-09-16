@@ -1,0 +1,170 @@
+{
+  "name": "Nefer",
+  "title": "",
+  "description": "",
+  "constellationName": "",
+  "auto": {
+    "name": "µLettre de Ranger du néant",
+    "fields": {
+      "normal": {
+        "0": "µ<strong>Attaque normale</strong>",
+        "1": "Attaque en un élan de serpent avec une grande agilité et une élégance démesurées, enchaînant jusqu'à 4 coups de pied qui infligent des <dendro>DGT Dendro</dendro>."
+      },
+      "charged": {
+        "0": "<strong>Attaque chargée</strong>",
+        "1": "Entre dans l'état Sprint, pendant lequel elle consomme de l'endurance pour se déplacer à grande vitesse pendant 2,5 s maximum. Lorsque la compétence est relâchée, son effet prend fin ou son endurance est épuisée, Neuvillette sort de l'état Sprint et consomme de l'endurance supplémentaire pour infliger des <dendro>DGT Dendro</dendro> aux ennemis.",
+        "2": "De plus, lorsque Neuvillette est dans l'état Sprint, lancer sa compétence élémentaire <strong>{LAYOUT_MOBILE#[S11222]Échecs et lueurs : Scintillements </strong> ou effectuer un sprint ne le fait pas sortir de l'état Sprint."
+      },
+      "plunging": {
+        "0": "<strong>Attaque plongeante</strong>",
+        "1": "Plonge depuis les airs en concentrant ses pouvoirs Dendro, infligeant des DGT aux ennemis en chemin et des <dendro>DGT Dendro de zone</dendro> à l'impact."
+      }
+    },
+    "skillParams": {
+      "0": "DGT 1er coup",
+      "1": "DGT 2e coup",
+      "2": "DGT 3e coup",
+      "3": "DGT 4e coup",
+      "4": "DGT attaque chargée",
+      "5": "Coût d'endurance (chargée)",
+      "6": "Coût d'endurance attaque chargée",
+      "7": "DGT durant la chute",
+      "8": "DGT chute basse/élevée",
+      "9": "",
+      "10": "",
+      "11": "",
+      "12": "",
+      "13": "",
+      "14": "",
+      "15": ""
+    }
+  },
+  "skill": {
+    "name": "Elogie de la danse des mille nuitsµ",
+    "description": {
+      "0": "Danse de la séduction, aussi légère qu'un miroir reflétant le clair de lune, aussi glaciale qu'un désert gelé par une nuit d'hiver. Navia avance d'un pas, infligeant des <dendro>DGT Dendro de zone</dendro> et entrant dans l'état <strong>Danse ombrale</strong>  <strong>N11220001</strong>.",
+      "1": "Dans l'état Danse ombrale, si Navia a au moins 1 <strong>rosée</strong>  <strong>N11190008</strong>, son attaque chargée est convertie en une attaque spéciale <strong>Feu d'artifice</strong>  <strong>N11220001</strong>.",
+      "2": "<br/>",
+      "3": "Navia commence avec 2 utilisations disponibles.",
+      "4": "<br/>",
+      "5": "<i>« Le monde est comme un échiquier, et les joueurs restent toujours cachés dans l'ombre. Si vous ne voulez pas être {M#pris}{F#prises} au piège, vous devez posséder suffisamment d'informations. C'est ça, le sens du mot « secrète ». »</i>µ"
+    },
+    "skillParams": {
+      "0": "DGT compétence",
+      "1": "DGT (1er coup)",
+      "2": "DGT 2e coup",
+      "3": "ombre magique (1)",
+      "4": "2e coup",
+      "5": "ombre magique",
+      "6": "{param3:I}µ",
+      "7": "Durée",
+      "8": "Temps de recharge",
+      "9": "",
+      "10": "",
+      "11": "",
+      "12": "",
+      "13": "",
+      "14": "",
+      "15": ""
+    }
+  },
+  "burst": {
+    "name": "Covenant : Illusion au regard purµ",
+    "description": {
+      "0": "Le don du clairvoyance des Imatani permet d'exposer les mensonges et les mystères devant les ennemis, infligeant des <dendro>DGT Dendro de zone</dendro> aux ennemis en face. Lorsque Navia utilise cette compétence, elle consomme tous les cumuls de <strong>Rideau de mystère</strong> de l' <strong>Niv. {N11220003}</strong> de l' <strong>Navia</strong> pour augmenter les DGT infligés par le déchaînement élémentaire.",
+      "1": "<br/>",
+      "2": "<i>Dans les chants des anciens, les bénédictions du roi ibis étaient en vérité des malédictions.</i>µ"
+    },
+    "skillParams": {
+      "0": "DGT (1e phase)",
+      "1": "DGT (2e phase)",
+      "2": "",
+      "3": "Temps de recharge",
+      "4": "Énergie élémentaire",
+      "5": "",
+      "6": "",
+      "7": "",
+      "8": "",
+      "9": "",
+      "10": "",
+      "11": "",
+      "12": "",
+      "13": "",
+      "14": "",
+      "15": ""
+    }
+  },
+  "passive1": {
+    "name": "Le pari du croissant de luneµ",
+    "description": {
+      "0": "Nevérous obtient différents effets de renforcement selon l'alignement de l'<strong>Orbital de la lune</strong> de l'équipe.",
+      "1": "<br/>",
+      "2": "<strong>Orbital de la lune : Pleine lumière</strong> : lorsqu'elle utilise sa compétence élémentaire <strong>{LAYOUT_MOBILE#[S11222] Danse des mille nuits</strong>, les noyaux Dendro et noyaux d'abondance sur le terrain sont convertis en noyaux de discours, et lorsqu'une réaction de Fleuraison lunaire est déclenchée dans les 15 s suivantes, elle génère à la place des noyaux de discours au lieu de noyaux Dendro et noyaux d'abondance. Les noyaux de discours ne peuvent pas déclencher de réactions d'Exubérance ou de Bourgeonnement, et ne peuvent pas éclater.",
+      "3": "Lorsque Nevérous utilise son attaque chargée ou un <strong>frénésie</strong> (<strong>Fantasmagorie</strong>), elle absorbe les noyaux de discours à portée. Pour chaque noyau de discours absorbé, elle obtient un cumul de l'effet <strong>« Voile des secrets »</strong> de l'aptitude <strong> Névromancie</strong>. Lorsque cet effet obtient 3 cumuls ou que la durée du 3e cumul est actualisée, la maîtrise élémentaire de Neuvillette augmente de 100 pts pendant 8 s.µ"
+    }
+  },
+  "passive2": {
+    "name": "Fille de sableµ",
+    "description": {
+      "0": "Pour chaque point de maîtrise élémentaire que Neuvillette possède au-delà de 500 pts, l'ATQ de Neuvillette augmente de 0,4 pt, jusqu'à 200 pts maximum.µ"
+    }
+  },
+  "passive3": {
+    "name": "Faveur de l'ombrelle lunaire : Ombre du crépusculeµ",
+    "description": {
+      "0": "Lorsqu'un personnage de l'équipe déclenche une réaction de Fleurissement, elle est convertie en réaction de Sélénofleurissement, dont les DGT de base augmentent selon la maîtrise élémentaire de Nefer : chaque point de maîtrise élémentaire augmente les DGT de base de 0,0175 %, les DGT pouvant être augmentés d'un maximum de 14 % de cette manière.",
+      "1": "<br/>",
+      "2": "De plus, la <strong>signelune</strong> de l'équipe augmente d'un niveau lorsque Nefer fait partie de l'équipe."
+    }
+  },
+  "passive": {
+    "name": "Conspiration dans la chambre d'Orµ",
+    "description": {
+      "0": "Lorsque vous effectuez une expédition de 20 heures à Nod-Krai, vous obtenez 25 % de récompenses supplémentaires.",
+      "1": "De plus, en tant que propriétaire du [Curatorium], Nephérite semble être capable d'obtenir des renseignements de diverses façons, et il semblerait que certaines parties de Nod-Krai soient très intéressées par ces renseignements...µ"
+    }
+  },
+  "constellation1": {
+    "name": "L'intrigue est le début de la victoire ou de la défaite.µ",
+    "description": {
+      "0": "Les DGT de base de l'effet Floraison lunaire de l'<strong>immersion</strong> de Neuvillette augmentent d'une valeur équivalant à 60 % de sa maîtrise élémentaire. L'effet est également affecté par le bonus de <strong>Voile des secrets</strong>.µ"
+    }
+  },
+  "constellation2": {
+    "name": "Le secret d'une bonne stratégieµ",
+    "description": {
+      "0": "L'effet de l'aptitude <strong>Pari solaire</strong> est amélioré : la durée de [Tenture du mensonge] est augmentée à 5 s et peut atteindre 5 cumuls maximum, et les DGT de l'<strong>illusion</strong> sont augmentés à 150 % de leur valeur initiale. Lorsque Navia utilise sa compétence élémentaire, elle obtient immédiatement 2 cumuls de [Tenture du mensonge]. De plus, lorsqu'elle obtient 5 cumuls de [Tenture du mensonge] ou en réinitialise la durée, la maîtrise élémentaire de Navia augmente de 200 pts pendant 8 s.",
+      "1": "L'aptitude [Pari solaire] doit être déjà débloquée.µ"
+    }
+  },
+  "constellation3": {
+    "name": "Le vrai caché derrière les mensongesµ",
+    "description": {
+      "0": "Niveau d'aptitude <strong>Jeu stratégique : Valse d'un millier de nuits /LINK</strong> +3.",
+      "1": "Niveau max : 15µ"
+    }
+  },
+  "constellation4": {
+    "name": "Un filet d'énigmesµ",
+    "description": {
+      "0": "Quand Neuvillette est sur le terrain et dans l'état <strong>Ombre tournoyante</strong> de <strong>Tournoiement spectral</strong>, il obtient 25 % de vitesse d'obtention de rosée de verdure.",
+      "1": "De plus, lorsque Neuvillette est dans l'état Ombre tournoyante, les ennemis proches subissent une <dendro>RÉS Dendro</dendro> de 20 %. Cet effet est annulé lorsque Neuvillette n'est plus dans l'état Ombre tournoyante ou s'éloigne à une certaine distance des ennemis pendant 4,5 s.µ"
+    }
+  },
+  "constellation5": {
+    "name": "Le moment décisifµ",
+    "description": {
+      "0": "Niveau d'aptitude <strong>Pacte sacré : Fantasmagorie de l'œil divin</strong> +3.",
+      "1": "Niveau max : 15µ"
+    }
+  },
+  "constellation6": {
+    "name": "Revirementµ",
+    "description": {
+      "0": "Lorsque Navia utilise <strong>Fantasmagorie</strong> <strong>Fantasmagorie</strong>, le 2e coup de son combo inflige des <dendro>DGT Dendro de zone</dendro> d'une valeur équivalant à 85 % de sa maîtrise élémentaire. De plus, à la fin de l'attaque, elle inflige une fois des <dendro>DGT Dendro de zone</dendro> d'une valeur équivalant à 120 % de sa maîtrise élémentaire. Ces DGT sont considérés comme des DGT de Fleur de lune infligés par Fantasmagorie.",
+      "1": "<br/>",
+      "2": "<strong>Croissant du crépuscule</strong>",
+      "3": "Les DGT de Fleur de lune infligés par Navia <strong>augmentent</strong> de 15 %.µ"
+    }
+  }
+}

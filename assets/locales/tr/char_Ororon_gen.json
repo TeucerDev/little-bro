@@ -104,10 +104,11 @@
     "description": {
       "0": "Yakındaki bir grup üyesi bir Gece Ruhu Patlaması tetiklediğinde Ororon 40 Gece Ruhu puanı kazanır. Element Becerisini kullandıktan sonra 15 saniyeliğine diğer grup üyelerinin <hydro>Su</hydro> veya <electro>Elektrik</electro> saldırıları düşmanlara isabet ettiğinde Ororon 5 Gece Ruhu puanı kazanır, bu etki 0,3 saniyede bir uygulanabilir. 15 saniyelik bu süre boyunca en fazla 10 defa tetiklenebilir.",
       "1": "Ororon en fazla 80 Gece Ruhu puanına sahip olabilir.",
-      "2": "Ayrıca yakındaki düşmanlar, yakındaki diğer karakterlerden <electro>Elektrik Yüklü</electro> tepkimesi Hasarı veya Gece Ruhu tesirli Hasar aldıklarında Ororon 10 Gece Ruhu puanı tüketir (en az 10 Gece Ruhu puanı varsa), Gece Ruhunun Lütfu durumuna girer ve Süper Duyu etkisini tetikler. Bu etki, yakındaki en fazla 4 düşmana Ororon'un Saldırısının %160'ı kadar Gece Ruhu tesirli <electro>Elektrik Hasarı</electro> verir ve 1,8 saniyede bir tetiklenebilir.",
-      "3": "<br/>",
-      "4": "<strong>Gece Ruhunun Lütfu: Ororon</strong>",
-      "5": "Ororon'un Gece Ruhunun Lütfu durumu 6sn sürer."
+      "2": "<br/>",
+      "3": "Ayrıca yakındaki düşmanlar, yakındaki diğer karakterlerden <electro>Elektrik Yüklü ya da Ay Yüklü</electro> tepkimesi Hasarı veya Gece Ruhu tesirli Hasar aldıklarında Ororon 10 Gece Ruhu puanı tüketir (en az 10 Gece Ruhu puanı varsa), Gece Ruhunun Lütfu durumuna girer ve Süper Duyu etkisini tetikler. Bu etki, yakındaki en fazla 4 düşmana Ororon'un Saldırısının %160'ı kadar Gece Ruhu tesirli <electro>Elektrik Hasarı</electro> verir ve 1,8 saniyede bir tetiklenebilir.",
+      "4": "<br/>",
+      "5": "<strong>Gece Ruhunun Lütfu: Ororon</strong>",
+      "6": "Ororon'un Gece Ruhunun Lütfu durumu 6sn sürer."
     }
   },
   "passive2": {
@@ -141,7 +142,7 @@
     "name": "Sisli Ormandaki İzler",
     "description": {
       "0": "<strong>Gece Sapanı</strong> Element Becerisinin <strong>Ruh Küresi</strong> 2 defa daha sekebilir.",
-      "1": "Ayrıca <strong>Ruh Küresi</strong> bir düşmana isabet ettikten sonra 12 saniyeliğine Gece Gelgiti etkisi uygular. Gece Gelgiti etkisindeki düşmanların \"Gece Gölgesi Sinestezisi\" Pasif Yeteneği tarafından tetiklenen Süper Duyudan aldıkları Hasar %50 artar. Bu etkiyi tetiklemek için \"Gece Gölgesi Sinestezisi\" Pasif Yeteneğinin açılmış olması gerekir."
+      "1": "Ayrıca <strong>Ruh Küresi</strong> bir düşmana isabet ettikten sonra 12 saniyeliğine Gece Gelgiti etkisi uygular. Gece Gelgiti etkisindeki düşmanların \"Gece Gölgesi Sinestezisi\" Yükseltme Yeteneği tarafından tetiklenen Süper Duyudan aldıkları Hasar %50 artar. \"Gece Gölgesi Sinestezisi\" Yükseltme Yeteneğinin açılmış olması gerekir."
     }
   },
   "constellation2": {
@@ -178,9 +179,9 @@
   "constellation6": {
     "name": "Derin Pınarların Kasidesi",
     "description": {
-      "0": "Pasif Yetenek Gece Gölgesi Sinestezisi ile Süper Duyu tetiklendikten sonra 9 saniyeliğine aktif karakterinin Saldırısı %10 artar. En fazla 3 kademe birikir, her kademenin süresi birbirinden bağımsızdır.",
+      "0": "\"Gece Gölgesi Sinestezisi\" Yükseltme Yeteneği ile Süper Duyu tetiklendikten sonra 9 saniyeliğine aktif karakterinin Saldırısı %10 artar. En fazla 3 kademe birikir, her kademenin süresi birbirinden bağımsızdır.",
       "1": "Ayrıca, Element Patlaması <strong>Karanlık Seslerin Yankıları</strong> kullandığında \"Süper Duyu\" ile eşdeğer bir etki tetiklenir ve orijinal Hasarın %200'ü kadar Hasar verir.",
-      "2": "\"Gece Gölgesi Sinestezisi\" Pasif Yeteneğinin açılmış olması gerekir."
+      "2": "\"Gece Gölgesi Sinestezisi\" Yükseltme Yeteneğinin açılmış olması gerekir."
     }
   }
 }
