@@ -1,8 +1,8 @@
 {
   "name": "Nefer",
-  "title": "",
+  "title": "???",
   "description": "",
-  "constellationName": "",
+  "constellationName": "Ludus Latrunculorum",
   "auto": {
     "name": "Gespaltene Zunge",
     "fields": {
@@ -13,7 +13,7 @@
       "charged": {
         "0": "<strong>Heftiger Schlag</strong> ",
         "1": "Wechselt in den Schlangenzustand und verbraucht Ausdauer, um sich bis zu 2,5 s lang schnell zu bewegen. Beim Loslassen der Fähigkeit, bei der Beendigung der Dauer oder beim Aufbrauchen der Ausdauer verlässt Nefer den Schlangenzustand und verbraucht zusätzlich eine bestimmte Menge Ausdauer, um Gegnern <dendro>Dendro-Schaden</dendro> zuzufügen.",
-        "2": "Beim Anwenden der Elementarfähigkeit <strong>Spielstrategie – Tanz der tausend Nächte</strong> oder beim Rennen im Schlangenzustand verlässt Nefer diesen nicht."
+        "2": "Beim Anwenden der Elementarfähigkeit <strong>Spielstrategie – Tanz der tausend Nächte</strong> im Schlangenzustand oder beim Rennen im Schlangenzustand verlässt Nefer diesen nicht."
       },
       "plunging": {
         "0": "<strong>Angriff aus dem Fall</strong> ",
@@ -26,7 +26,7 @@
       "2": "SCH Phase 3",
       "3": "SCH Phase 4",
       "4": "SCH heftiger Schläge",
-      "5": "Fortlaufender Ausdauerverbrauch bei aufgeladenen heftigen Schlägen",
+      "5": "Fortlaufender Ausdauerverbrauch beim Aufladen heftiger Schläge",
       "6": "Ausdauerverbrauch heftiger Schläge",
       "7": "SCH beim Fallen",
       "8": "SCH beim Fallen aus niedriger/großer Höhe",
@@ -42,8 +42,8 @@
   "skill": {
     "name": "Spielstrategie – Tanz der tausend Nächte",
     "description": {
-      "0": "Ein überwältigender Tanz, so sanft wie ein mondbeschienener Schleier, doch so durchdringend wie ein Sandmeer in der kalten Nacht. Nefer stürmt eine gewisse Strecke nach vorne, verursacht <dendro>Dendro-Flächenschaden</dendro> und tritt in den Zustand<strong>Schattentanz</strong> ein.",
-      "1": "Wandelt, wenn Nefer sich im Zustand Schattentanz befindet und über mindestens eine Stapelung <strong>Grünender Tau</strong> verfügt, ihren heftigen Schlag in den besonders heftigen Schlag <strong>Fantasmaauftritt</strong> um.",
+      "0": "Ein überwältigender Tanz, so sanft wie ein mondbeschienener Schleier, doch so durchdringend wie ein Sandmeer in der kalten Nacht. Nefer stürmt eine gewisse Strecke nach vorne, verursacht <dendro>Dendro-Flächenschaden</dendro> und tritt in den Zustand <strong>Schattentanz</strong> ein.",
+      "1": "Wandelt, wenn Nefer sich im Zustand Schattentanz befindet und über mindestens eine Stapelung <strong>Grünender Tau</strong> verfügt, ihren heftigen Schlag in den besonderen heftigen Schlag <strong>Fantasmaauftritt</strong> um.",
       "2": "<br/>",
       "3": "Kann anfänglich zweimal angewendet werden.",
       "4": "<br/>",
@@ -51,11 +51,11 @@
     },
     "skillParams": {
       "0": "Fähigkeits-SCH",
-      "1": "SCH durch Phase 1 von Fantasmaauftritt",
-      "2": "SCH durch Phase 2 von Fantasmaauftritt",
-      "3": "Phase 1 von Fantasmaauftritt (Trugbild)",
-      "4": "Phase 2 von Fantasmaauftritt (Trugbild)",
-      "5": "Phase 3 von Fantasmaauftritt (Trugbild)",
+      "1": "SCH Phase 1 von Fantasmaauftritt (Nefer)",
+      "2": "SCH Phase 2 von Fantasmaauftritt (Nefer)",
+      "3": "SCH Phase 1 von Fantasmaauftritt (Trugbild)",
+      "4": "SCH Phase 2 von Fantasmaauftritt (Trugbild)",
+      "5": "SCH Phase 3 von Fantasmaauftritt (Trugbild)",
       "6": "Einsatzmöglichkeiten von Fantasmaauftritt",
       "7": "Dauer von Schattentanz",
       "8": "Abklingzeit",
@@ -99,7 +99,7 @@
     "description": {
       "0": "Verleiht Nefer basierend auf dem in der Truppe vorhandenen <strong>Mondomen</strong> den entsprechenden Verstärkungseffekt.",
       "1": "<br/>",
-      "2": "<strong>Mondomen – Reifer Glanz</strong>: Wandelt beim Anwenden der Elementarfähigkeit <strong>Spielstrategie – Tanz der tausend Nächte</strong> die sich aktuell auf dem Feld befindenden „Dendro-Kerne“ und „Kerne der Fülle“ in „Kerne der List“ um. Erzeugt beim Anwenden der Reaktion Mondspross zudem 15 s lang „Kerne der List“ anstelle von „Dendro-Kernen“ und „Kernen der Fülle“. „Kerne der List“ können weder die Reaktionen Supraspross oder Flammenspross auslösen, noch aufbrechen.",
+      "2": "<strong>Mondomen – Reifer Glanz</strong>: Wandelt beim Anwenden der Elementarfähigkeit <strong>Spielstrategie – Tanz der tausend Nächte</strong> die sich aktuell auf dem Feld befindenden „Dendro-Kerne“ und „Kerne der Fülle“ in „Kerne der List“ um. Erzeugt beim Anwenden der Reaktion Mondspross durch alle Figuren zudem 15 s lang „Kerne der List“ anstelle von „Dendro-Kernen“ und „Kernen der Fülle“. „Kerne der List“ können weder die Reaktionen Supraspross oder Flammenspross auslösen, noch aufbrechen.",
       "3": "Bei heftigen Schlägen oder <strong>Fantasmaauftritten</strong> kann Nefer „Kerne der List“ in einem bestimmten Bereich absorbieren. Für jeden absorbierten „Kern der List“ erhält sie 1 Stapelung des Effekts <strong>Schleier der Scheingeheimnisse</strong>. Wenn dieser Effekt 3-fach gestapelt oder die Dauer aktualisiert wird, erhöht sich Nefers Elementarkunde um 100 Punkte, hält 8 s."
     }
   },
@@ -112,7 +112,7 @@
   "passive3": {
     "name": "Mondomen-Segen – Schatten unter dem Sims",
     "description": {
-      "0": "Wandelt, wenn eine Figur in der Truppe die Reaktion Sprießen auslöst, diese in die Reaktion Mondspross um, wobei der Basis-SCH der Reaktion Mondspross auf der Grundlage von Nefers Elementarkunde erhöht wird: Erhöht für jeden Punkt Elementarkunde den Basis-SCH der Reaktion Mondspross um 0,0175 %. Auf diese Weise kann der Schaden um bis zu 14 % erhöht werden.",
+      "0": "Wandelt, wenn eine Figur in der Truppe die Reaktion Sprießen auslöst, diese in die Reaktion Mondspross um, wobei der Basis-SCH der Reaktion Mondspross, die durch Truppenmitglieder ausgelöst wird, auf der Grundlage von Nefers Elementarkunde erhöht wird: Erhöht für jeden Punkt Elementarkunde den Basis-SCH der Reaktion Mondspross um 0,0175 %. Auf diese Weise kann der Schaden um bis zu 14 % erhöht werden.",
       "1": "<br/>",
       "2": "Erhöht zudem die Stufe vom <strong>Mondomen</strong> der Truppe um 1, wenn sich Nefer in der Truppe befindet."
     }
