@@ -1,0 +1,161 @@
+{
+  "name": "Zibai",
+  "title": "???",
+  "description": "",
+  "constellationName": "",
+  "auto": {
+    "name": "Altın Kılıcın Çiçekli Dokunuşu",
+    "fields": {
+      "normal": {
+        "0": "<strong>Normal Saldırı</strong>",
+        "1": "En fazla 4 hızlı saldırı yapar."
+      },
+      "charged": {
+        "0": "<strong>Yüklü Saldırı</strong>",
+        "1": "Belirli miktarda Dayanıklılık harcayarak 2 hızlı kılıç saldırısı yapar."
+      },
+      "plunging": {
+        "0": "<strong>Havadan Saldırı</strong>",
+        "1": "Havadayken dalışa geçerek yere vurur ve yoluna çıkan düşmanlara Alan Hasarı verir."
+      }
+    },
+    "skillParams": {
+      "0": "1 Vuruş Hasarı",
+      "1": "2 Vuruş Hasarı",
+      "2": "3 Vuruş Hasarı",
+      "3": "4 Vuruş Hasarı",
+      "4": "Yüklü Saldırı Hasarı",
+      "5": "Yüklü Saldırı Dayanıklılık Maliyeti",
+      "6": "Havadan Saldırı Hasarı",
+      "7": "Havadan Saldırı Hasarı (Alçaktan/Yüksekten)",
+      "8": "",
+      "9": "",
+      "10": "",
+      "11": "",
+      "12": "",
+      "13": "",
+      "14": "",
+      "15": ""
+    }
+  },
+  "skill": {
+    "name": "Yerin ve Göğün Tezahürü",
+    "description": {
+      "0": "Eski güçlerinin bir gölgesini çağırarak <strong>Ay Döngüsü Değişimi</strong> moduna girer.",
+      "1": "Bu moddayken Zibai'ın Normal Saldırıları ve Yüklü Saldırıları, başka tesirlerle değiştirilemez şekilde <geo>Toprak Hasarı</geo> verir. Zibai bu moddayken farklı yöntemlerle özel <strong>Döngü Değişimi Işıltısı</strong> biriktirebilir ve <strong>Döngü Değişimi Işıltısı</strong> tüketerek özel <strong>Ruh Atının Koşusu</strong> Element Becerisini kullanabilir.",
+      "2": "<br/>",
+      "3": "<strong>Ay Sembolü: Yükselen Parıltı</strong>",
+      "4": "<strong>Ay Döngüsü Değişimi</strong> modundayken Zibai Normal Saldırı yaptığında dördüncü saldırısı asıl Hasara eşit ek bir <geo>Toprak Hasarı</geo> verir. Bu ek Hasar Ay Kristalleşmesi Hasarı sayılır."
+    },
+    "skillParams": {
+      "0": "Ay Döngüsü Değişimi 1 Vuruş Hasarı",
+      "1": "Ay Döngüsü Değişimi Gelişmiş 2 Vuruş Hasarı",
+      "2": "Ay Döngüsü Değişimi 3 Vuruş Hasarı",
+      "3": "Ay Döngüsü Değişimi 4 Vuruş Hasarı",
+      "4": "Ay Döngüsü Değişimi Yüklü Saldırı Hasarı",
+      "5": "Ruh Atının Koşusu 1 Vuruş Hasarı",
+      "6": "Ruh Atının Koşusu 2 Vuruş Hasarı",
+      "7": "Ay Döngüsü Değişimi 4 Vuruş Yükselen Parıltı Hasarı",
+      "8": "Ay Döngüsü Değişimi Süresi",
+      "9": "BS",
+      "10": "",
+      "11": "",
+      "12": "",
+      "13": "",
+      "14": "",
+      "15": ""
+    }
+  },
+  "burst": {
+    "name": "Üç Küreli Kudret",
+    "description": {
+      "0": "Zibai ilahi bir nişanı kullanarak iki defa <geo>Toprak Hasarı</geo> verir. İkinci hasar, Ay Kristalleşmesi Hasarı olarak kabul edilir."
+    },
+    "skillParams": {
+      "0": "Beceri 1 Vuruş Hasarı",
+      "1": "Beceri 2 Vuruş Hasarı",
+      "2": "BS",
+      "3": "Enerji Maliyeti",
+      "4": "",
+      "5": "",
+      "6": "",
+      "7": "",
+      "8": "",
+      "9": "",
+      "10": "",
+      "11": "",
+      "12": "",
+      "13": "",
+      "14": "",
+      "15": ""
+    }
+  },
+  "passive1": {
+    "name": "Ay Adeptusunun İnişi",
+    "description": {
+      "0": "<strong>Yerin ve Göğün Tezahürü</strong> Element Becerisi kullanıldığında veya Ay Akıntısı Ahengi tetiklendiğinde Zibai, 4 saniyeliğine <strong>Aydüşen</strong> etkisini kazanır: <strong>Ruh Atının Koşusu</strong> tarafından verilen Hasar, Zibai'ın Savunmasının %40'ı kadar artar."
+    }
+  },
+  "passive2": {
+    "name": "Katmanlı Zirveler Bulutları Deler",
+    "description": {
+      "0": "Diğer <geo>Toprak</geo> grup üyelerinin her biri Zibai'ın Savunmasını %15 artırır. Diğer <hydro>Su</hydro> grup üyelerinin her biri ise Zibai'ın Element Ustalığını 60 artırır."
+    }
+  },
+  "passive3": {
+    "name": "Ay Sembolü Kutsaması: Güneşin ve Ayın Seyri",
+    "description": {
+      "0": "Bir grup üyesi Su Kristalleşmesi tepkimesi tetiklediğinde bu Ay Kristalleşmesi tepkimesine dönüşür. Zibai'ın sahip olduğu her 100 Savunma, Ay Kristalleşmesi tepkimesinin Temel Hasarını %0,7 artırır; bu Temel Hasar en fazla %14 artabilir.",
+      "1": "<br/>",
+      "2": "Ayrıca grubunda Zibai olduğunda, grubunun <strong>Ay Sembolü</strong> 1 seviye yükselir."
+    }
+  },
+  "passive": {
+    "name": "Mehtaplı Çiçek Ormanı",
+    "description": {
+      "0": "Gece (18:00 – 06:00) savaşta değilken Zibai her 2 saniyede 1 Element Enerjisi yeniler.",
+      "1": "Bu etki Zindanlarda, Ezici Zindanlarda veya Hiçlik Sarmalında tetiklenmez."
+    }
+  },
+  "constellation1": {
+    "name": "Coşkuyla İlerle Lakin Sessizce Gir",
+    "description": {
+      "0": "<strong>Yerin ve Göğün Tezahürü</strong> Element Becerisi kullanıldıktan sonra Zibai anında 100 <strong>Döngü Değişimi Işıltısı</strong> kazanır ve <strong>Ay Döngüsü Değişimi</strong> modu başına <strong>Ruh Atının Koşusu</strong> maksimum kullanım sayısı 5'e çıkar.",
+      "1": "Ayrıca <strong>Ay Döngüsü Değişimi</strong> moduna her geçildiğinde ilk kullanılan <strong>Ruh Atının Koşusunda</strong> 2. vuruştaki Ay Kristalleşmesi Hasarı %200 artar."
+    }
+  },
+  "constellation2": {
+    "name": "Doğumda Ruhlar Doğar, Ölümde İse Yalnızca Kabuklar Kalır",
+    "description": {
+      "0": "<strong>Ay Döngüsü Değişimi</strong> modundayken Zibai'ın Savunması %50 artar.",
+      "1": "Ayrıca, <strong>Ay Adeptusunun İnişi</strong> Pasif Yeteneği gelişir: <strong>Ruh Atının Koşusu</strong> Hasarı, Zibai'ın Savunmasının %100'ü kadar daha artar. <strong>\"Ay Adeptusunun İnişi\"</strong> Pasif Yeteneğinin açılmış olması gerekir."
+    }
+  },
+  "constellation3": {
+    "name": "Kısıtlamalardan ve Dünyevi Bağlardan Azade",
+    "description": {
+      "0": "<strong>Yerin ve Göğün Tezahürü</strong> Seviyesini 3 artırır.",
+      "1": "Maksimum yükseltme seviyesi 15'tir."
+    }
+  },
+  "constellation4": {
+    "name": "İrade Geçer, Biçim Takip Eder",
+    "description": {
+      "0": "<strong>Ay Döngüsü Değişimi</strong> modundayken Zibai'ın Normal Saldırı sekansı sıfırlanmaz. Ayrıca <strong>Ruh Atının Koşusu</strong> düşmanlara isabet ettiğinde Zibai <strong>Ayın Saçılan İhtişamı</strong> etkisini kazanır: Bir sonraki Normal Saldırı kullanışında 4. vuruşun verdiği ek Ay Kristalleşmesi Hasarı, Zibai'ın Savunmasının %60'ı kadar artar."
+    }
+  },
+  "constellation5": {
+    "name": "Değersiz Olanı Anla, Münazara Etme",
+    "description": {
+      "0": "<strong>Üç Küreli Kudret</strong> Seviyesini 3 artırır.",
+      "1": "Maksimum yükseltme seviyesi 15'tir."
+    }
+  },
+  "constellation6": {
+    "name": "Dünya, Gelip Geçen Bir Yolculuk",
+    "description": {
+      "0": "Zibai <strong>Ay Döngüsü Değişimi</strong> modundayken <strong>Döngü Değişimi Işıltısı</strong> elde etme oranı %40 artar.",
+      "1": "Ayrıca <strong>Ruh Atının Koşusu</strong> tüm <strong>Döngü Değişimi Işıltısı</strong> puanlarını tüketecek şekilde değişir. Bu durum, <strong>Ruh Atının Koşusunun</strong> bu sefer verdiği Hasarı <strong>yükseltir</strong> ve Zibai'ın sonraki 3sn içinde verdiği Ay Kristalleşmesi Hasarı, 70'in üzerinde tüketilen her puan başına %1,6 artar."
+    }
+  }
+}

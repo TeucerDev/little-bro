@@ -234,7 +234,19 @@
     "name": "軍團士氣"
   },
   "PrepProgress": {
-    "name": ""
+    "name": "完備進度"
+  },
+  "BlazingSpirit": {
+    "name": "熾魂豪氣"
+  },
+  "FortuneCoin": {
+    "name": "吉語錢"
+  },
+  "SightseeingExperience": {
+    "name": "遊賞見聞"
+  },
+  "CollectionOfExperiences": {
+    "name": "珍賞見聞"
   },
   "Primogem": {
     "name": "原石"
@@ -278,8 +290,8 @@
   "ArcaneKeystone": {
     "name": "綺刻之楔"
   },
-  "RecreationGeode": {
-    "name": ""
+  "GeodeOfReplication": {
+    "name": "重現晶簇"
   },
   "EngravedShard": {
     "name": "刻印片形"
@@ -288,16 +300,19 @@
     "name": "盛會之匙"
   },
   "LuminousKeystone": {
-    "name": ""
+    "name": "明刻之楔"
   },
-  "WonderlandExperience": {
-    "name": ""
+  "WonderlandEXP": {
+    "name": "奇域經驗"
   },
   "ChronicleEXP": {
-    "name": ""
+    "name": "紀遊經驗"
   },
   "ChroniclesOfTheRealms": {
-    "name": ""
+    "name": "諸界紀遊"
+  },
+  "PrismaticCrystal": {
+    "name": "奇麗凝晶"
   },
   "PyroSigil": {
     "name": "火之印"
@@ -909,10 +924,10 @@
     "name": "重立名約之契"
   },
   "OverwriteKeyLeft": {
-    "name": ""
+    "name": "覆寫秘鑰·其左"
   },
   "OverwriteKeyRight": {
-    "name": ""
+    "name": "覆寫秘鑰·其右"
   },
   "EnergyOrbPyro": {
     "name": "元素能量球(火)"
@@ -1107,7 +1122,22 @@
     "name": "愛諾"
   },
   "Nefer": {
-    "name": ""
+    "name": "奈芙爾"
+  },
+  "Durin": {
+    "name": "杜林"
+  },
+  "Jahoda": {
+    "name": "雅珂達"
+  },
+  "Columbina": {
+    "name": "哥倫比婭"
+  },
+  "Zibai": {
+    "name": "茲白"
+  },
+  "Illuga": {
+    "name": "葉洛亞"
   },
   "KachinasStellaFortuna": {
     "name": "卡齊娜的命星"
@@ -1170,7 +1200,22 @@
     "name": "愛諾的命星"
   },
   "NefersStellaFortuna": {
-    "name": ""
+    "name": "奈芙爾的命星"
+  },
+  "DurinsStellaFortuna": {
+    "name": "杜林的命星"
+  },
+  "JahodasStellaFortuna": {
+    "name": "雅珂達的命星"
+  },
+  "ColumbinasStellaFortuna": {
+    "name": "哥倫比婭的命星"
+  },
+  "ZibaisStellaFortuna": {
+    "name": "茲白的命星"
+  },
+  "IllugasStellaFortuna": {
+    "name": "葉洛亞的命星"
   },
   "Apple": {
     "name": "蘋果"
@@ -3625,6 +3670,12 @@
   },
   "MidsommarBerry": {
     "name": "夏槲果"
+  },
+  "WinterIcelea": {
+    "name": "冬凌草"
+  },
+  "PineAmber": {
+    "name": "松珀香"
   },
   "BirchWood": {
     "name": "樺木"
@@ -8073,34 +8124,103 @@
     "name": "糖雕・菲林斯"
   },
   "SuspiciousLakkaberryPie": {
-    "name": ""
+    "name": "奇怪的白靈果派"
   },
   "LakkaberryPie": {
-    "name": ""
+    "name": "白靈果派"
   },
   "DeliciousLakkaberryPie": {
-    "name": ""
+    "name": "美味的白靈果派"
   },
   "SuspiciousLohikeitto": {
-    "name": ""
+    "name": "奇怪的鮮奶油鮭魚湯"
   },
   "Lohikeitto": {
-    "name": ""
+    "name": "鮮奶油鮭魚湯"
   },
   "DeliciousLohikeitto": {
-    "name": ""
+    "name": "美味的鮮奶油鮭魚湯"
   },
-  "PiramidasNightingale": {
-    "name": ""
+  "PiramidaNightingale": {
+    "name": "「皮拉米達的夜鶯」"
   },
   "FrontierLand": {
-    "name": ""
+    "name": "邊陲之地"
   },
-  "ForagersWay": {
-    "name": ""
+  "WildberryTrail": {
+    "name": "野漿果之路"
   },
-  "ExchangedWhisper": {
-    "name": ""
+  "SecretsExchanged": {
+    "name": "「秘聞交易」"
+  },
+  "SugarSculptureNefer": {
+    "name": "糖雕・奈芙爾"
+  },
+  "AfterClassPractice": {
+    "name": "「課後作業」"
+  },
+  "AppleStewTrialVersion": {
+    "name": "蘋果燜肉（初試版）"
+  },
+  "SuspiciousSpicedFriedChicken": {
+    "name": "奇怪的香辛炸雞塊"
+  },
+  "SpicedFriedChicken": {
+    "name": "香辛炸雞塊"
+  },
+  "DeliciousSpicedFriedChicken": {
+    "name": "美味的香辛炸雞塊"
+  },
+  "SugarSculptureJahoda": {
+    "name": "糖雕・雅珂達"
+  },
+  "SugarSculptureKuuhenki": {
+    "name": "糖雕・月靈"
+  },
+  "SuspiciousFruityHerbalCandy": {
+    "name": "奇怪的花果草糖"
+  },
+  "FruityHerbalCandy": {
+    "name": "花果草糖"
+  },
+  "DeliciousFruityHerbalCandy": {
+    "name": "美味的花果草糖"
+  },
+  "SuspiciousVeggiePotSoup": {
+    "name": "奇怪的蔬菜罐罐湯"
+  },
+  "VeggiePotSoup": {
+    "name": "蔬菜罐罐湯"
+  },
+  "DeliciousVeggiePotSoup": {
+    "name": "美味的蔬菜罐罐湯"
+  },
+  "SuspiciousFiresideMerriment": {
+    "name": "奇怪的篝火邊的歡騰"
+  },
+  "FiresideMerriment": {
+    "name": "篝火邊的歡騰"
+  },
+  "DeliciousFiresideMerriment": {
+    "name": "美味的篝火邊的歡騰"
+  },
+  "SuspiciousMushroomPhantasm": {
+    "name": "奇怪的蘑幻之菇"
+  },
+  "MushroomPhantasm": {
+    "name": "蘑幻之菇"
+  },
+  "DeliciousMushroomPhantasm": {
+    "name": "美味的蘑幻之菇"
+  },
+  "MoonlitMirage": {
+    "name": "皎月渺渺"
+  },
+  "NightwatchSoup": {
+    "name": "夜守暖湯"
+  },
+  "CharredMushroomPhantasm": {
+    "name": "如同焦炭的蘑幻之菇"
   },
   "RecipeItem": {
     "name": "食譜道具"
@@ -8868,10 +8988,25 @@
     "name": "食譜：白靈果釀雞"
   },
   "RecipeLakkaberryPie": {
-    "name": ""
+    "name": "食譜：白靈果派"
   },
   "RecipeLohikeitto": {
-    "name": ""
+    "name": "食譜：鮮奶油鮭魚湯"
+  },
+  "RecipeSpicedFriedChicken": {
+    "name": "食譜：香辛炸雞塊"
+  },
+  "RecipeFruityHerbalCandy": {
+    "name": "食譜：花果草糖"
+  },
+  "RecipeVeggiePotSoup": {
+    "name": "食譜：蔬菜罐罐湯"
+  },
+  "RecipeFiresideMerriment": {
+    "name": "食譜：篝火邊的歡騰"
+  },
+  "RecipeMushroomPhantasm": {
+    "name": "食譜：蘑幻之菇"
   },
   "CraftedItems": {
     "name": "合成產物"
@@ -9422,6 +9557,15 @@
   "MistshroudHelmet": {
     "name": "幽霧兜盔"
   },
+  "FracturedEyeOfTheDeepShadow": {
+    "name": "深黯的裂眼"
+  },
+  "AberrantCoreOfTheDeepShadow": {
+    "name": "深黯的怪核"
+  },
+  "BeakOfTheDeepShadow": {
+    "name": "深黯的鉤喙"
+  },
   "HurricaneSeed": {
     "name": "颶風之種"
   },
@@ -9656,8 +9800,14 @@
   "LightbearingScaleFeather": {
     "name": "承光的鱗羽"
   },
-  "GlowingAntler": {
-    "name": ""
+  "RadiantAntler": {
+    "name": "漫光的輝角"
+  },
+  "CyclicMilitaryKuuvahkiCore": {
+    "name": "循環式軍用月矩核心"
+  },
+  "RemnantOfTheDreadwing": {
+    "name": "魘翼枯骸"
   },
   "TileOfDecarabiansTower": {
     "name": "高塔孤王的破瓦"
@@ -12749,8 +12899,8 @@
   "MysteriousMap": {
     "name": "神秘的地圖"
   },
-  "DazzlingMysteriousGift": {
-    "name": "綺燦而神秘的贈禮"
+  "WonderlandCosmosphere": {
+    "name": "奇域樞景球"
   },
   "LetterOfUnknownOrigin": {
     "name": "來源不明的信件"
@@ -12956,8 +13106,14 @@
   "SomeonesLostPassword": {
     "name": "某人遺失的口令"
   },
+  "MemorataCognoscentisJest": {
+    "name": "憶識者的戲言"
+  },
   "InscriptaCognoscentisFeather": {
     "name": "鐫識者的鴉翎"
+  },
+  "DevocinaCognoscentisSorrow": {
+    "name": "眷識者的哀慕"
   },
   "WeavenexaCognoscentisIntoxication": {
     "name": "織識者的傾醉"
@@ -12971,6 +13127,9 @@
   "SomeonesRequestForHelp": {
     "name": "某人的求助信"
   },
+  "ShelterSpareHandwheel": {
+    "name": "避難所備用手輪"
+  },
   "BountyTokenTrickstersRedSatin": {
     "name": "懸賞證物：欺詐師的紅綢"
   },
@@ -12979,6 +13138,9 @@
   },
   "BountyTokenMudStainedHandguard": {
     "name": "懸賞證物：泥染的刀鐔"
+  },
+  "RecordedIntel": {
+    "name": "已記載的情報"
   },
   "MessilyScribbledNotesI": {
     "name": "字跡潦草的手記·其一"
@@ -13031,6 +13193,15 @@
   "SomeonesResearchNotes": {
     "name": "誰人的研究手記"
   },
+  "BasicShelterKeyCard": {
+    "name": "避難所金鑰卡·初階"
+  },
+  "AdvancedShelterKeyCard": {
+    "name": "避難所金鑰卡·進階"
+  },
+  "SuperiorShelterKeyCard": {
+    "name": "避難所金鑰卡·高階"
+  },
   "Toolkit": {
     "name": "工具包"
   },
@@ -13058,6 +13229,9 @@
   "AunisNotes": {
     "name": "奧妮的筆記"
   },
+  "CollatedIntel": {
+    "name": "情報整合冊"
+  },
   "BackupProgramModule": {
     "name": "備份程式模組"
   },
@@ -13066,6 +13240,27 @@
   },
   "OpenedSecretLetter": {
     "name": "已開啟的密信"
+  },
+  "WayOpeningKey": {
+    "name": "開啟通路的鑰匙"
+  },
+  "RaggedNotes": {
+    "name": "殘舊的筆記"
+  },
+  "OrderedNotes": {
+    "name": "整理後的筆記"
+  },
+  "GoldenKey": {
+    "name": "金鑰匙"
+  },
+  "SilverKey": {
+    "name": "銀鑰匙"
+  },
+  "IronKey": {
+    "name": "鐵鑰匙"
+  },
+  "StrangeIronCoin": {
+    "name": "奇怪的鐵錢"
   },
   "ConchNotebook": {
     "name": "海螺筆記本"
@@ -13112,7 +13307,118 @@
   "AilasNotes": {
     "name": "愛依菈的筆記"
   },
+  "TheManWhoBecameAMule": {
+    "name": "變成騾子的人"
+  },
+  "HalfBurnedPage": {
+    "name": "半燒毀的紙頁"
+  },
+  "AgedPinecone": {
+    "name": "陳年的松果"
+  },
+  "AgedRye": {
+    "name": "陳年的黑麥"
+  },
   "CuratoriumFunds": {
+    "name": "「秘聞館」資金"
+  },
+  "ShutterflashKamera": {
+    "name": ""
+  },
+  "TheShiniestAndBrightestBerylConch": {
+    "name": ""
+  },
+  "RhinedottirsGift": {
+    "name": "萊茵多特的「禮物」"
+  },
+  "RaggedDoll": {
+    "name": "破舊的「玩偶」"
+  },
+  "ScribbledLetter": {
+    "name": "筆跡潦草的信件"
+  },
+  "MoonPrayerNightPamphlet": {
+    "name": "「祈月之夜」導覽冊"
+  },
+  "GreetingCardForColumbina": {
+    "name": "送給哥倫比婭的賀卡"
+  },
+  "MoonPrayerCandyFromColumbina": {
+    "name": "哥倫比婭準備的祈月糖"
+  },
+  "TheSoulblazerSagaVolume2": {
+    "name": "熾魂鬥士戰記·第二冊"
+  },
+  "TaleOfDurin": {
+    "name": "名為「杜林」的故事"
+  },
+  "LanternRiteGiftGiftOfTheBrightNight": {
+    "name": ""
+  },
+  "LanternRiteGiftGiftOfLightSeeking": {
+    "name": ""
+  },
+  "LanternRiteGiftGiftOfDistantRemembrance": {
+    "name": ""
+  },
+  "LanternRiteGiftGiftOfJoyousWishes": {
+    "name": ""
+  },
+  "LanternRiteGiftGiftOfVirtuousVeneration": {
+    "name": ""
+  },
+  "LanternRiteGiftGiftOfMoonlight": {
+    "name": ""
+  },
+  "AncientIncantations": {
+    "name": "古老的咒文"
+  },
+  "Wish": {
+    "name": ""
+  },
+  "Moonlight": {
+    "name": ""
+  },
+  "LostNotesIV": {
+    "name": ""
+  },
+  "LostNotesII": {
+    "name": ""
+  },
+  "LostNotesI": {
+    "name": ""
+  },
+  "IrismoonSeal": {
+    "name": "虹月印磐"
+  },
+  "LostNotesIII": {
+    "name": ""
+  },
+  "ProspectorsCommand": {
+    "name": ""
+  },
+  "FreshRye": {
+    "name": ""
+  },
+  "TheFirstIronCoin": {
+    "name": ""
+  },
+  "SilverLampwick": {
+    "name": "銀燈芯"
+  },
+  "UnknownPersonsAbandonedDiary": {
+    "name": ""
+  },
+  "NeatlyWrittenDiaryI": {
+    "name": ""
+  },
+  "NeatlyWrittenDiaryII": {
+    "name": ""
+  },
+  "NeatlyWrittenDiaryIII": {
+    "name": ""
+  },
+  "ForgottenKey": {
     "name": ""
   },
   "TearsAmongTheStars": {
@@ -13243,6 +13549,12 @@
   },
   "LakkaberrySeed": {
     "name": "「白靈果」的種子"
+  },
+  "WinterIceleaSeed": {
+    "name": ""
+  },
+  "PineAmberSeed": {
+    "name": ""
   },
   "Medaka": {
     "name": "花鱂"
@@ -14024,6 +14336,18 @@
   "XiaoLantern": {
     "name": "霄燈"
   },
+  "CelebratoryXiaoLantern": {
+    "name": ""
+  },
+  "GiftXiaoLantern": {
+    "name": ""
+  },
+  "XiaoLanternFormationManual": {
+    "name": ""
+  },
+  "BrightMoonSpringUnfolds": {
+    "name": ""
+  },
   "RimeWornFragment": {
     "name": "霜噬碎屑"
   },
@@ -14104,6 +14428,9 @@
   },
   "GoldenStrings": {
     "name": "金色弦絲"
+  },
+  "RefinedHeart": {
+    "name": "練心"
   },
   "FalconsDance": {
     "name": "鷹隼之舞"
@@ -15026,7 +15353,31 @@
   "CelebrationSublimeFlavors": {
     "name": "慶典·至味"
   },
+  "NeferSecrets": {
+    "name": "奈芙爾·秘聞"
+  },
   "TravelNotesBygoneRuins": {
+    "name": "紀行·故墟"
+  },
+  "DurinRadiantHeart": {
+    "name": "杜林·曜心"
+  },
+  "JahodaHelpingHand": {
+    "name": "雅珂達·幫手"
+  },
+  "TravelNotesBlazingSnow": {
+    "name": "紀行·熾雪"
+  },
+  "CelebrationDreamReader": {
+    "name": "慶典·夢讀"
+  },
+  "AchievementFarSighted": {
+    "name": ""
+  },
+  "NodKraiLanternOfLongNights": {
+    "name": ""
+  },
+  "TravelNotesLanternlit": {
     "name": ""
   },
   "EchoDandelionKnight": {
@@ -15073,6 +15424,12 @@
   },
   "EchoPhysicOfPurity": {
     "name": "遊跡·白草淨華"
+  },
+  "EchoKreideprinz": {
+    "name": "遊跡·白堊之子"
+  },
+  "EchoFleeingSunlight": {
+    "name": "遊跡·逃跑的太陽"
   },
   "FaintGlow": {
     "name": "薄光"
@@ -15403,6 +15760,9 @@
   },
   "LunarArcanaCase": {
     "name": "月諭之匣"
+  },
+  "TheLittleWitchsDictionary": {
+    "name": "小魔女辭典"
   },
   "InstructionsAnemoculusResonanceStone": {
     "name": "說明：風神瞳共鳴石"
@@ -15873,21 +16233,63 @@
     "name": "斟酌措辭"
   },
   "BattlePreparation": {
-    "name": ""
+    "name": "戰鬥準備"
   },
   "GatheredOverDrinks": {
-    "name": ""
+    "name": "共飲之邀"
   },
   "BrandishingWeapons": {
-    "name": ""
+    "name": "揮動武器"
   },
   "TeachingAjawALesson": {
-    "name": ""
+    "name": "教訓阿喬"
   },
   "ALittleScare": {
-    "name": ""
+    "name": "小小驚嚇"
   },
   "EagerAndReady": {
+    "name": "摩拳擦掌"
+  },
+  "SharpObserver": {
+    "name": "觀察探尋"
+  },
+  "TeaTime": {
+    "name": "品茶時間"
+  },
+  "MerchantsAura": {
+    "name": "富商氣勢"
+  },
+  "IngeniousForesight": {
+    "name": "巧思遠慮"
+  },
+  "CelebrityCountenance": {
+    "name": "明星儀容"
+  },
+  "CoolWatcher": {
+    "name": "冷靜觀望"
+  },
+  "SignOfProsperity": {
+    "name": "發財預兆"
+  },
+  "EyesOverAll": {
+    "name": ""
+  },
+  "EssentialsOfQuickSketching": {
+    "name": ""
+  },
+  "AllUnderControl": {
+    "name": ""
+  },
+  "TalismanicGrace": {
+    "name": ""
+  },
+  "TheArtOfCreation": {
+    "name": ""
+  },
+  "IngeniousAdeptalArts": {
+    "name": ""
+  },
+  "ByDecree": {
     "name": ""
   },
   "FantasticalMarvel": {
@@ -15949,6 +16351,9 @@
   },
   "VigorousYapping": {
     "name": "活力相談"
+  },
+  "DiligentStudy": {
+    "name": "勤思勉學"
   },
   "RhodeiaOfLoch": {
     "name": "純水精靈·洛蒂婭"
@@ -16042,6 +16447,12 @@
   },
   "HydroTulpa": {
     "name": "水形幻人"
+  },
+  "BlackSerpentKnightRockbreakerAx": {
+    "name": "黑蛇騎士·摧岩之鉞"
+  },
+  "ConsecratedHornedCrocodile": {
+    "name": "聖骸角鱷"
   },
   "UndividedHeart": {
     "name": "唯此一心"
@@ -16415,6 +16826,24 @@
   "FlowConvergence": {
     "name": "匯流"
   },
+  "TeaPartiesBurstingWithColor": {
+    "name": "虹彩繽紛的甜點茶話"
+  },
+  "BringerOfBlessing": {
+    "name": "通明庇佑"
+  },
+  "OnceStoodAgainstTheTideOfDarkWatersLikeBedrock": {
+    "name": "「曾如磐石抵擋黑水奔流…」"
+  },
+  "FarToFall": {
+    "name": "湮遠"
+  },
+  "TrailsAmidstTheForestFog": {
+    "name": "林霧間的行跡"
+  },
+  "DeathlyOverflow": {
+    "name": "亡水溢流"
+  },
   "MagicGuide": {
     "name": "魔導緒論"
   },
@@ -16745,6 +17174,15 @@
   "NoblesseOblige": {
     "name": "昔日宗室之儀"
   },
+  "NymphsDream": {
+    "name": "水仙之夢"
+  },
+  "StarcallersWatch": {
+    "name": "祭星者之望"
+  },
+  "FlameForgedInsight": {
+    "name": "拾慧鑄熔"
+  },
   "LiyueHarborWharf": {
     "name": "璃月港口"
   },
@@ -16930,6 +17368,12 @@
   },
   "AdventurersGuild": {
     "name": "冒險家協會"
+  },
+  "Seymour": {
+    "name": "西摩爾"
+  },
+  "BonaAndCocouik": {
+    "name": "玻娜與「綠松石」"
   },
   "ElementalResonanceWovenIce": {
     "name": "元素共鳴：交織之冰"
@@ -17147,6 +17591,9 @@
   "NarrationFootnotes": {
     "name": "旁白的註腳"
   },
+  "BrokenSea": {
+    "name": "破碎之海"
+  },
   "ABlessingFromM": {
     "name": "「魔女M的祝福」"
   },
@@ -17155,6 +17602,18 @@
   },
   "AnAncientSacrificeOfSacredBrocade": {
     "name": "祀瓏在昔，靈錦歆誠"
+  },
+  "LostLegaciesInTheSand": {
+    "name": "「沙中遺事」"
+  },
+  "TheNarzissenkreuzAdventure": {
+    "name": "水仙十字大冒險"
+  },
+  "PlanToSaveTheWorld": {
+    "name": "拯救世界的計畫"
+  },
+  "AnAdventureThroughTheMorningMist": {
+    "name": "「穿越晨靄的冒險」"
   },
   "Origin": {
     "name": "原初"
@@ -17227,6 +17686,12 @@
   },
   "SeaOfBygoneErasSlumber": {
     "name": "舊日之海·沉眠"
+  },
+  "FontaLakelightLuminance": {
+    "name": ""
+  },
+  "SeaOfBygoneErasCrown": {
+    "name": ""
   },
   "BeginnerPlayerBadge": {
     "name": "初級牌手徽章"
@@ -17311,6 +17776,9 @@
   },
   "AdventuresInBlazingHue": {
     "name": "熾繪奇旅"
+  },
+  "TowardTheDistantHorizon": {
+    "name": "故事的遠方"
   },
   "RadiantPhantasm": {
     "name": "幻煌至形"
@@ -17876,6 +18344,12 @@
   "CloudWrappedMoon": {
     "name": "「如絮雲纏抱」"
   },
+  "TheLonelyWayfarer": {
+    "name": "「獨步行者」"
+  },
+  "TimelessShine": {
+    "name": "「不變的明光」"
+  },
   "EfflorescentIllumination": {
     "name": "「花葉百相之光」"
   },
@@ -17939,11 +18413,11 @@
   "XochicuicatlMarketingMethod": {
     "name": "「花歌的主推方式」"
   },
-  "TestBlackMarketYorozuyaCabinet": {
-    "name": ""
+  "DeductionAndInduction": {
+    "name": "「推演與歸納」"
   },
-  "TestArmsFactoryStorageCabinet": {
-    "name": ""
+  "FactoryCabinetSlapdashStorage": {
+    "name": "工廠儲櫃-「隨意堆疊」"
   },
   "TwoTierLibraryBookshelf": {
     "name": "圖書館雙層書架"
@@ -18116,14 +18590,14 @@
   "FairsSimpleSalesStrategy": {
     "name": "「市集的推銷策略」"
   },
-  "TestArmsFactoryTable": {
-    "name": ""
+  "FactoryLongTableNoTimeToWaste": {
+    "name": "工廠長桌-「時間緊迫」"
   },
-  "TestLargeLodgeTable": {
-    "name": ""
+  "TavernSquareTableSelfDefense": {
+    "name": "酒館方桌-「自我防護」"
   },
-  "TestBlackMarketYorozuyaTable": {
-    "name": ""
+  "IndoorLongTableMarksOfLove": {
+    "name": "室內長桌-「悉心養護」"
   },
   "BreezeBlessedBed": {
     "name": "柔風加護的床榻"
@@ -18152,6 +18626,12 @@
   "StoneBedPeacefulSleep": {
     "name": "石製床鋪-「安眠」"
   },
+  "FriendsThroughFriction": {
+    "name": "「跌跌撞撞之誼」"
+  },
+  "TavernBedNotGreatNotTerrible": {
+    "name": "酒館床鋪-「躺感適中」"
+  },
   "PineReceptionCounter": {
     "name": "松木客棧櫃檯"
   },
@@ -18179,8 +18659,8 @@
   "TeahouseStoveSlowSteaming": {
     "name": "茶坊爐灶-「細蒸緩焙」"
   },
-  "TestBlackMarketYorozuyaConsoleTable": {
-    "name": ""
+  "QuestionWithAPriceTag": {
+    "name": "「代價內的詢問」"
   },
   "SoftLoungeSofa": {
     "name": "柔軟的會客廳沙發"
@@ -18262,6 +18742,15 @@
   },
   "GlugInOneGo": {
     "name": "「咕嚕一口」"
+  },
+  "QuietAndCozy": {
+    "name": "「靜謐與溫馨」"
+  },
+  "HazelwoodJadeBackedChair": {
+    "name": "榛木碧玉靠背椅"
+  },
+  "FactoryStoolMultiroleSeatingDevice": {
+    "name": "工廠矮凳-「多面工作」"
   },
   "NorthernStoneHearth": {
     "name": "北地石製壁爐"
@@ -18449,17 +18938,17 @@
   "PortableAllPurposeGrill": {
     "name": "攜帶式通用烤爐"
   },
-  "TestBlackMarketYorozuyaArmchair": {
-    "name": ""
+  "BoatOfClouds": {
+    "name": "「如雲朵小船般」"
   },
-  "TestLodgeMusicPlayer": {
-    "name": ""
+  "TipsyPlaylist": {
+    "name": "「微醺配樂」"
   },
-  "TestBlackMarketYorozuyaCatTree": {
-    "name": ""
+  "MultifunctionalPedunculateOakWoodCatTree": {
+    "name": "夏櫟木多功能貓爬架"
   },
-  "TestBlackMarketYorozuyaBookcase": {
-    "name": ""
+  "HiddenSecrets": {
+    "name": "「隱藏的秘密」"
   },
   "MondstadtRugCrimsonArdor": {
     "name": "蒙德地毯-「明紅的熱忱」"
@@ -18515,11 +19004,11 @@
   "FairCarpetWarmthAndPassion": {
     "name": "市集地毯-「熱情與溫暖」"
   },
-  "TestBlackMarketYorozuyaRug1": {
-    "name": ""
+  "IndoorRugSoftPlush": {
+    "name": "室內地毯-「厚密柔順」"
   },
-  "TestBlackMarketYorozuyaRug2": {
-    "name": ""
+  "IndoorRugStarlitNight": {
+    "name": "室內地毯-「晦夜星章」"
   },
   "VibrantPotBornInFlames": {
     "name": "炫彩陶罐-「生於烈焰」"
@@ -18782,6 +19271,15 @@
   "ModelDishSaurusCrackers": {
     "name": "菜餚模型-「龍龍餅乾」"
   },
+  "GleamGlow": {
+    "name": "「奇妙閃閃」"
+  },
+  "LuckySpin": {
+    "name": "「好運速轉」"
+  },
+  "BurstOfAppetite": {
+    "name": "「食欲迸發」"
+  },
   "RealizationsFromTheLandOfWisdom": {
     "name": "「卓識之地的餘醒」"
   },
@@ -18902,11 +19400,14 @@
   "SaveyWaveyLifeRing": {
     "name": "「急急救生圈」"
   },
-  "TestArmsFactoryPlayer": {
-    "name": ""
+  "FactoryBroadcastInvigoration": {
+    "name": "工廠廣播-「提神醒腦」"
   },
-  "TestLodgeDartboard": {
-    "name": ""
+  "TavernDartboardValidThrow": {
+    "name": "酒館鏢靶-「有效得分」"
+  },
+  "TavernNoticeWhispersOfTheStreet": {
+    "name": "酒館公告-「市井傳聞」"
   },
   "LingeringMoment": {
     "name": "「縈絆之刻」"
@@ -20300,6 +20801,9 @@
   "SoftHuedHydrangeas": {
     "name": "「素色繡球」"
   },
+  "PetalsWithoutPerfume": {
+    "name": "「失芬芳之花」"
+  },
   "FirShelves": {
     "name": "杉木置物架"
   },
@@ -20864,6 +21368,9 @@
   "SmallCargoContainerSafeStowage": {
     "name": "小型貨箱-「妥善安置」"
   },
+  "UtilityPocketDetector": {
+    "name": "「實用型隨身探測器」"
+  },
   "WeatheredBambooFence": {
     "name": "飽經風雨的竹製圍籬"
   },
@@ -21227,6 +21734,21 @@
   "MediumCargoHoldSwiftTransport": {
     "name": "中型貨艙-「高效運輸」"
   },
+  "PuzzlepalKeepCalmAndCarryOn": {
+    "name": "解謎夥伴-「緊張走開」"
+  },
+  "OneSecWhiz": {
+    "name": "「一秒鐘快快」"
+  },
+  "GrillmasterSupreme": {
+    "name": "「超級烤肉傳奇」"
+  },
+  "WobblyPonyRide": {
+    "name": "「搖搖小馬」"
+  },
+  "VerticalBipolarTriLegTower": {
+    "name": "立式三腳雙極塔"
+  },
   "SirCapyOfTheLongIncisors": {
     "name": "「睏睏門牙騎士」"
   },
@@ -21236,7 +21758,19 @@
   "PorkyWorkyChef": {
     "name": "「圓圓帽大廚」"
   },
-  "TestBPFurniture": {
-    "name": ""
+  "LoafingKitty": {
+    "name": "「趴趴小貓」"
+  },
+  "LittleFinchie": {
+    "name": "「小小雀雀」"
+  },
+  "GourmetBandit": {
+    "name": "「美食大盜」"
+  },
+  "MasterWeaselmind": {
+    "name": "「幕後黑鼬」"
+  },
+  "DragonOnTheMove": {
+    "name": "「魔龍出擊」"
   }
 }

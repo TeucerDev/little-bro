@@ -1,1 +1,0 @@
-import{a9 as l,aa as d,ab as i,ac as v}from"./index-CICsvQQX.js";var e={},a;function p(){if(a)return e;a=1;var r=l();Object.defineProperty(e,"__esModule",{value:!0}),e.default=void 0;var t=r(d()),o=i(),u=(0,t.default)((0,o.jsx)("path",{d:"M5 20h14v-2H5v2zm0-10h4v6h6v-6h4l-7-7-7 7z"}),"Upload");return e.default=u,e}var n=p();const f=v(n);export{f as U};

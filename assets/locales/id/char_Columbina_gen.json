@@ -1,0 +1,188 @@
+{
+  "name": "Columbina",
+  "title": "",
+  "description": "",
+  "constellationName": "Columbina Hyposelenia",
+  "auto": {
+    "name": "Moondew Cascade",
+    "fields": {
+      "normal": {
+        "0": "<strong>Normal Attack</strong>",
+        "1": "Memanggil Moonlit Tides, melancarkan hingga 3 serangan yang mengakibatkan <hydro>Hydro DMG</hydro>."
+      },
+      "charged": {
+        "0": "<strong>Charged Attack</strong>",
+        "1": "Mengonsumsi sejumlah Stamina untuk mengakibatkan <hydro>Hydro DMG area</hydro> setelah jeda singkat.",
+        "2": "Jika memiliki setidaknya 1 <strong>Verdant Dew</strong>, Charged Attack Columbina akan digantikan oleh Charged Attack khusus yang tidak mengonsumsi Stamina, yaitu <strong>Moondew Cleanse</strong>: Mengonsumsi 1 Verdant Dew untuk mengakibatkan 3 kali <dendro>Dendro DMG Area</dendro> terhadap musuh di depan. DMG ini dianggap sebagai DMG reaksi Lunar-Bloom.",
+        "3": "<strong>Plunging Attack</strong>",
+        "4": "Menerjang tanah, menyerang musuh di jalur terjangan dan mengakibatkan <hydro>Hydro DMG area</hydro> saat mendarat."
+      }
+    },
+    "skillParams": {
+      "0": "DMG Tahap 1",
+      "1": "DMG Tahap 2",
+      "2": "DMG Tahap 3",
+      "3": "DMG Charged Attack",
+      "4": "Konsumsi Stamina Charged Attack",
+      "5": "DMG Charged Attack Verdant Dew",
+      "6": "DMG Selama Plunging",
+      "7": "DMG Plunging Attack Rendah/Tinggi",
+      "8": "",
+      "9": "",
+      "10": "",
+      "11": "",
+      "12": "",
+      "13": "",
+      "14": "",
+      "15": ""
+    }
+  },
+  "skill": {
+    "name": "Eternal Tides",
+    "description": {
+      "0": "Membangkitkan Moonbound Tides, mengakibatkan <hydro>Hydro DMG Area</hydro>, dan memanggil <strong>Gravity Ripple</strong>.",
+      "1": "<strong>Gravity Ripple</strong> akan mengikuti Karakter aktif, dan terus mengakibatkan <hydro>Hydro DMG Area</hydro> terhadap musuh di sekitar. Selama <strong>Gravity Ripple</strong> aktif, saat Karakter party di sekitar memicu atau mengakibatkan DMG reaksi Lunar, maka Columbina akan mengakumulasi nilai <strong>Gravity</strong> yang spesial. Saat mencapai nilai maksimumnya, Columbina akan mengakibatkan DMG yang berbeda berdasarkan reaksi Lunar yang paling banyak mengakumulasi nilai <strong>Gravity</strong> untuk Columbina."
+    },
+    "skillParams": {
+      "0": "DMG Skill",
+      "1": "DMG Berkelanjutan Moonreel",
+      "2": "DMG Moonreel: Lunar-Charged",
+      "3": "DMG Moonreel: Lunar-Bloom",
+      "4": "DMG Moonreel: Lunar-Crystallize",
+      "5": "Batas Charge Moonreel",
+      "6": "Durasi Moonreel",
+      "7": "Cooldown",
+      "8": "",
+      "9": "",
+      "10": "",
+      "11": "",
+      "12": "",
+      "13": "",
+      "14": "",
+      "15": ""
+    }
+  },
+  "burst": {
+    "name": "Moonlit Melancholy",
+    "description": {
+      "0": "Menghubungkan gunung dan laut atas nama bulan baru yang tak ternoda. Columbina membuat tanah di sekitar berubah menjadi <strong>Lunar Domain</strong> untuk sementara dan mengakibatkan <hydro>Hydro DMG Area</hydro>."
+    },
+    "skillParams": {
+      "0": "DMG Skill",
+      "1": "Peningkatan DMG Reaksi Lunar",
+      "2": "Durasi Domain",
+      "3": "Cooldown",
+      "4": "Konsumsi Energy",
+      "5": "",
+      "6": "",
+      "7": "",
+      "8": "",
+      "9": "",
+      "10": "",
+      "11": "",
+      "12": "",
+      "13": "",
+      "14": "",
+      "15": ""
+    }
+  },
+  "passive1": {
+    "name": "Call of the Moon",
+    "description": {
+      "0": "Saat memicu <strong>Kuuvahki Interference</strong>, Columbina akan mendapatkan efek Lunacy, membuat CRIT Rate diri sendiri meningkat 5% selama 10 detik. Efek ini dapat ditumpuk sampai 3 lapis."
+    }
+  },
+  "passive2": {
+    "name": "Law of the New Moon",
+    "description": {
+      "0": "Karakter yang berada dalam <strong>Lunar Domain</strong> akan mendapatkan efek berikut saat memicu reaksi Lunar:",
+      "1": [
+        "<strong>Reaksi Lunar-Charged</strong>: Jeda serangan awan petir berkurang 0,5 detik.",
+        "<strong>Reaksi Lunar-Bloom</strong>: Saat memicu reaksi Lunar-Bloom, party akan mendapatkan 1 lapis efek Moonridge Dew khusus, maksimum 3 Moonridge Dew dapat diperoleh dengan cara ini setiap 18 detik.",
+        "<strong>Reaksi Lunar-Crystallize</strong>: Saat memicu Moondrift Harmony, setiap Moondrift memiliki 33% kemungkinan untuk melakukan 1 kali serangan tambahan."
+      ]
+    }
+  },
+  "passive3": {
+    "name": "Moonsign Benediction: Borrowed Moonlight",
+    "description": {
+      "0": "Saat Karakter di dalam party memicu reaksi Electro-Charged/Bloom/Hydro-Crystallize, reaksi tersebut akan dikonversi menjadi reaksi Lunar-Charged/Lunar-Bloom/Lunar-Crystallize. DMG dasar reaksi ini meningkat berdasarkan Max HP Columbina. Setiap 1.000 poin Max HP akan membuat DMG dasar reaksi Lunar meningkat 0,2%, hingga maksimum 7%.",
+      "1": "<br/>",
+      "2": "Selain itu saat Columbina berada di dalam party, <strong>Moonsign</strong> party meningkat 1 level."
+    }
+  },
+  "passive": {
+    "name": "Lunar Vigil",
+    "description": {
+      "0": "Jika Karakter sendiri di dalam party kalah saat berada di area Nod-Krai, Columbina akan membangkitkan Karakter ini dan memulihkan HP-nya, HP akan dipulihkan berdasarkan level Persahabatan Columbina. Efek ini dapat terpicu sekali setiap 100 deitk.",
+      "1": "Selain itu, Columbina sepertinya memiliki kedekatan khusus dengan sebagian hewan yang dipengaruhi oleh kuuvahki ...."
+    }
+  },
+  "constellation1": {
+    "name": "Radiance Over Blossoms and Peaks",
+    "description": {
+      "0": "Melancarkan Elemental Skill <strong>Eternal Tides</strong> akan segera memicu satu kali efek yang setara dengan <strong>Kuuvahki Interference</strong>. Efek ini dapat terpicu sekali setiap 15 detik.",
+      "1": "<strong>Moonsign: Ascendant Gleam</strong>",
+      "2": "Saat memicu Kuuvahki Interference, jika jenis Gravity reaksi Lunar tertinggi yang diakumulasi Columbina adalah:",
+      "3": [
+        "<strong>Reaksi Lunar-Charged</strong>: Memulihkan 6 poin Energy untuk Karakter aktif sendiri dalam party;",
+        "<strong>Reaksi Lunar-Bloom</strong>: Meningkatkan ketahanan Karakter aktif sendiri terhadap interupsi selama 8 detik;",
+        "<strong>Reaksi Lunar-Crystallize</strong>: Menciptakan <strong>Rainsea Shield</strong> yang dapat menyerap DMG sebesar 12% Max HP Columbina dan memiliki 250% pertahanan terhadap <hydro>Hydro DMG</hydro>, bertahan selama 8 detik."
+      ],
+      "4": "<br/>",
+      "5": "DMG reaksi Lunar yang diakibatkan seluruh anggota party <strong>bertumbuh</strong> 3%."
+    }
+  },
+  "constellation2": {
+    "name": "Not in Lone Splendor",
+    "description": {
+      "0": "<strong>Gravity</strong> akan terakumulasi 34% lebih cepat.",
+      "1": "Saat <strong>Kuuvahki Interference</strong> terpicu, Columbina akan mendapatkan efek <strong>Lunar Brilliance</strong>, meningkatkan 30% Max HP selama 8 detik.",
+      "2": "<strong>Moonsign: Ascendant Gleam</strong>:",
+      "3": "Selama efek <strong>Lunar Brilliance</strong> aktif, jika jenis Gravity reaksi Lunar tertinggi yang diakumulasi Columbina saat <strong>Kuuvahki Interference</strong> terpicu kali ini adalah:",
+      "4": [
+        "<strong>Reaksi Lunar-Charged</strong>: ATK Karakter aktif party sendiri meningkat sebesar 0,7% Max HP Columbina;",
+        "<strong>Reaksi Lunar-Bloom</strong>: Elemental Mastery Karakter aktif dalam party sendiri meningkat sebesar 0,35% Max HP Columbina;",
+        "<strong>Reaksi Lunar-Crystallize</strong>: DEF Karakter aktif dalam party sendiri meningkat sebesar 0,7% Max HP Columbina."
+      ],
+      "5": "<br/>",
+      "6": "DMG reaksi Lunar yang diakibatkan seluruh anggota party <strong>bertumbuh</strong> 3%."
+    }
+  },
+  "constellation3": {
+    "name": "Dreamlike Glow Across Tranquil Waters",
+    "description": {
+      "0": "Meningkatkan 3 level Elemental Skill <strong>Eternal Tides</strong>.",
+      "1": "Maksimum: Lv. 15.",
+      "2": "<br/>",
+      "3": "DMG reaksi Lunar yang diakibatkan seluruh anggota party <strong>bertumbuh</strong> 3%."
+    }
+  },
+  "constellation4": {
+    "name": "Cloudveiled Ridges in Floral Mists",
+    "description": {
+      "0": "Saat memicu <strong>Kuuvahki Interference</strong>, akan memulihkan 4 poin Energy Columbina;",
+      "1": "<br/>",
+      "2": "Selain itu, berdasarkan jenis <strong>Gravity</strong> reaksi Lunar tertinggi yang diakumulasi Columbina, jika reaksinya adalah Lunar-Charged/Lunar-Bloom/Lunar-Crystallize, maka DMG reaksi Lunar yang diakibatkan oleh Kuuvahki Interference kali ini akan meningkat sebesar 12.5%/2.5%/12.5% dari Max HP Columbina. Efek di atas dapat dipicu maksimum sekali setiap 15 detik.",
+      "3": "<br/>",
+      "4": "DMG reaksi Lunar yang diakibatkan seluruh anggota party <strong>bertumbuh</strong> 3%."
+    }
+  },
+  "constellation5": {
+    "name": "Silence Tending One Lone Song",
+    "description": {
+      "0": "Meningkatkan 3 level Elemental Burst <strong>Moonlit Melancholy</strong>.",
+      "1": "Maksimum: Lv. 15.",
+      "2": "<br/>",
+      "3": "DMG reaksi Lunar yang diakibatkan seluruh anggota party <strong>bertumbuh</strong> 3%."
+    }
+  },
+  "constellation6": {
+    "name": "Through Darkness Led by Moonlight",
+    "description": {
+      "0": "Setelah seluruh Karakter dalam party yang berada dalam <strong>Lunar Domain</strong> memicu reaksi Lunar, berdasarkan jenis elemen yang terlibat dalam reaksi elemental, CRIT DMG dari jenis elemen yang sesuai untuk seluruh Karakter dalam party akan meningkat 80% selama 8 detik. CRIT DMG dari jenis elemen yang sama tidak dapat ditumpuk.",
+      "1": "<br/>",
+      "2": "DMG reaksi Lunar yang diakibatkan seluruh anggota party <strong>bertumbuh</strong> 3%."
+    }
+  }
+}

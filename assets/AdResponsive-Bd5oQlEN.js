@@ -1,1 +1,0 @@
-import{eT as p,x as u,l as s,eU as d,B as x}from"./index-EieDzLXl.js";function g({dataAdSlot:t,bgt:r="normal",maxHeight:e=350}){const{width:o,height:n,ref:a}=p(),[i,f,h]=u(!0);return i?s(x,{ref:a,sx:{height:"100%",width:"100%",maxHeight:e},children:o&&s(d,{bgt:r,onClose:l=>{l.stopPropagation(),h()},dataAdSlot:t,sx:{width:o,height:Math.max(n,e)}})}):null}export{g as A};

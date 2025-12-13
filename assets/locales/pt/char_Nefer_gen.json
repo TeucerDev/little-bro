@@ -1,18 +1,18 @@
 {
   "name": "Nefer",
-  "title": "",
-  "description": "",
-  "constellationName": "",
+  "title": "Segredo Sob as Areias",
+  "description": "A dona incrivelmente engenhosa da Curadoria dos Segredos.",
+  "constellationName": "Ludus Latrunculorum",
   "auto": {
     "name": "Mensagem da Serpente Itinerante",
     "fields": {
       "normal": {
         "0": "<strong>Ataque Normal</strong>",
-        "1": "Realiza até 4 chutes com sua postura de serpente marinha feroz e elegante, causando <dendro>Dano Dendro</dendro>."
+        "1": "Realiza até 4 chutes com sua postura de serpente feroz e elegante, causando <dendro>Dano Dendro</dendro>."
       },
       "charged": {
         "0": "<strong>Ataque Carregado</strong>",
-        "1": "Entra na Postura da Serpente, consumindo Stamina para se mover rapidamente por até 2.5s. Ao soltar essa Habilidade, quando a duração acabar ou a Stamina exaurir, Nefer retornará para o estado da Postura da Serpente, e consome uma certa quantidade adicional de Stamina para causar <dendro>Dano Dendro</dendro> contra o inimigo.",
+        "1": "Entra na Postura da Serpente, consumindo Stamina para se mover rapidamente por até 2.5s. Ao soltar essa Habilidade, quando a duração acabar ou a Stamina exaurir, Nefer retornará para o estado da Postura da Serpente, e consome uma certa quantidade adicional de Stamina para causar <dendro>Dano Dendro</dendro> contra o inimigo. Quando estiver no estado <strong>Baile das Sombras</strong>, seu consumo adicional de Stamina será reduzido.",
         "2": "Além disso, quando Nefer está em Postura da Serpente, e lançar sua Habilidade Elemental <strong>Estratégia de Senet: Dança de Mil Noites</strong>, ou quando correr, não mais sairá da Postura da Serpente."
       },
       "plunging": {
@@ -28,9 +28,9 @@
       "4": "Dano de Ataque Carregado",
       "5": "Consumo de Stamina do Carregamento do Ataque Carregado",
       "6": "Consumo de Stamina de Ataque Carregado",
-      "7": "Dano Durante a Queda",
-      "8": "Dano de Queda de Baixa/Alta Altitude",
-      "9": "",
+      "7": "Custo de Stamina do Ataque Carregado do Baile das Sombras",
+      "8": "Dano Durante a Queda",
+      "9": "Dano de Queda de Baixa/Alta Altitude",
       "10": "",
       "11": "",
       "12": "",
@@ -43,7 +43,7 @@
     "name": "Estratégia de Senet: Dança de Mil Noites",
     "description": {
       "0": "Uma dança que dissolveu dinastias, gelada como uma noite de inverno no grande mar de areias, mas ainda com o carinho remanescente do luar. Nefer avança em frente, causando <dendro>Dano Dendro em AdE</dendro> e entrando no estado <strong>Baile das Sombras</strong>.",
-      "1": "No estado Baile das Sombras, se possuir pelo menos 1 <strong>Orvalho Verdejante</strong>, o Ataque Carregado lançado de Nefer será substituído pelo Ataque Carregado especial <strong>Truque Fantástico</strong>.",
+      "1": "No estado Baile das Sombras, se possuir pelo menos 1 <strong>Orvalho Verdejante</strong>, o Ataque Carregado lançado de Nefer será substituído pelo Ataque Carregado especial <strong>Truque Fantástico</strong> que não consome Stamina. O estado Baile das Sombras aumenta a RES contra interrupção de Nefer.",
       "2": "<br/>",
       "3": "Inicialmente possui 2 Usos.",
       "4": "<br/>",
@@ -99,14 +99,14 @@
     "description": {
       "0": "Nefer obtém os seguintes fortalecimentos de acordo com o <strong>Presságio Lunar</strong> da equipe.",
       "1": "<br/>",
-      "2": "<strong>Presságio Lunar: Reluzir Cheio</strong>: ao lançar a Habilidade Elemental <strong>Estratégia de Senet: Dança de Mil Noites</strong>, mudará os Núcleos Dendro e Núcleos da Riqueza em campo para Núcleos da Falsidade, e nos próximos 15s, quando um personagem próximo desencadear Florescimento Lunar, substituirá os Núcleos Dendro e Núcleos da Riqueza para gerar Núcleos da Falsidade. Os Núcleos da Falsidade não podem desencadear Superflorescimento e Germinação, e também não podem explodir.",
+      "2": "<strong>Presságio Lunar: Reluzir Cheio</strong>: ao lançar a Habilidade Elemental <strong>Estratégia de Senet: Dança de Mil Noites</strong>, mudará os Núcleos Dendro em campo para Núcleos da Falsidade, e nos próximos 15s, quando um personagem próximo desencadear Florescimento Lunar, substituirá os Núcleos Dendro e Núcleos da Riqueza para gerar Núcleos da Falsidade. Os Núcleos da Falsidade não podem desencadear Superflorescimento e Germinação, e também não podem explodir.",
       "3": "Quando Nefer realizar um Ataque Carregado ou <strong>Truque Fantástico</strong>, poderá absorver os Núcleos da Falsidade dentro de uma certa AdE. Cada Núcleo da Falsidade absorvido fará ela obter 1 acúmulo de <strong>Cortina do Segredo Falso</strong>. Quando esse efeito acumular até 3 vezes ou redefinir a duração de 3 acúmulos, aumenta a Proficiência Elemental de Nefer em 100 por 8s."
     }
   },
   "passive2": {
     "name": "Filha das Areias",
     "description": {
-      "0": "Cada 1 de Proficiência Elemental que ultrapasse 500 aumentará o ATQ de Nefer em 0.4. É possível aumentar o ATQ de Nefer em até 200 dessa forma."
+      "0": "Quando Nefer está no estado <strong>Baile das Sombras</strong>, durante 5s após um membro da equipe desencadear uma reação de Florescimento Lunar, o estado <strong>Postura da Serpente</strong> de Nefer fornecerá <strong>Orvalho Verdejante</strong> adicional. A cada 100 pontos de Proficiência Elemental de Nefer acima de 500, esse efeito adicional de provisão será fortalecido em 10%. O aumento máximo que pode ser alcançado dessa forma é de 50%."
     }
   },
   "passive3": {
@@ -120,8 +120,7 @@
   "passive": {
     "name": "Conspiração do Cofre Dourado",
     "description": {
-      "0": "Quando é enviada em uma Expedição de 20 horas em Nod-Krai, obtém 25% a mais de recompensas.",
-      "1": "Além disso, como mestre da Curadoria dos Segredos, Nefer parece ter alguma forma de obter informações, e algumas facções da Cidade de Nasha parecem ter muito interesse nelas..."
+      "0": "Ganha 25% de recompensas a mais quando enviada numa Expedição em Nod-Krai por 20 horas."
     }
   },
   "constellation1": {
@@ -133,7 +132,7 @@
   "constellation2": {
     "name": "Precisão Planejada",
     "description": {
-      "0": "Fortalece o efeito do Talento de Ascensão <strong>Aposta Sob o Luar</strong>: prolonga a duração de <strong>Cortina do Segredo Falso</strong> por 5s, aumenta o máximo de acúmulos para 5, e o Dano de <strong>Truque Fantástico</strong> para 150% do Dano original causado. Quando Nefer lançar sua Habilidade, imediatamente obtém 2 acúmulos de Cortina do Segredo Falso. Além disso, quando acumular 5 Cortinas do Segredo Falso, ou quando redefinir a duração dos 5 acúmulos, aumenta a Proficiência Elemental de Nefer em 500 por 8s.",
+      "0": "Fortalece o efeito do Talento de Ascensão <strong>Aposta Sob o Luar</strong>: prolonga a duração de <strong>Cortina do Segredo Falso</strong> por 5s, aumenta o máximo de acúmulos para 5, e o Dano de <strong>Truque Fantástico</strong> para 140% do Dano original causado. Quando Nefer lançar sua Habilidade Elemental <strong>Estratégia de Senet: Dança de Mil Noites</strong>, imediatamente obtém 2 acúmulos de Cortina do Segredo Falso. Além disso, quando acumular 5 Cortinas do Segredo Falso, ou quando redefinir a duração dos 5 acúmulos, aumenta a Proficiência Elemental de Nefer em 200 por 8s.",
       "1": "É necessário desbloquear o Talento de Ascensão Aposta Sob o Luar."
     }
   },
@@ -148,7 +147,7 @@
     "name": "Mergulho da Rede do Mistério",
     "description": {
       "0": "Quando Nefer é a personagem ativa e está no estado <strong>Baile das Sombras</strong>, o Orvalho Verdejante obtém um aumento de velocidade de 25%.",
-      "1": "Além disso, quando Nefer está no Baile das Sombras, reduz a <dendro>RES Dendro</dendro> dos inimigos próximos em 20%. Esse efeito será removido quando Nefer não estiver no estado Baile das Sombras, ou 4.5s após se afastar uma certa distância do inimigo."
+      "1": "Além disso, quando Nefer está no Baile das Sombras, reduz a <dendro>RES Dendro</dendro> dos inimigos próximos em 20%. Quando Nefer não estiver no estado Baile das Sombras ou após se afastar uma certa distância dos inimigos, removerá esse efeito após 4.5s."
     }
   },
   "constellation5": {
