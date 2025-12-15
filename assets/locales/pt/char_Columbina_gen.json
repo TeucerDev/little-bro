@@ -1,8 +1,8 @@
 {
   "name": "Columbina",
-  "title": "???",
+  "title": "Retorno da Lua Nova",
   "description": "",
-  "constellationName": "Columbina Hyposelenia",
+  "constellationName": "???",
   "auto": {
     "name": "Cascata do Orvalho do Luar",
     "fields": {
@@ -26,7 +26,7 @@
       "2": "Dano do 3° Golpe",
       "3": "Dano de Ataque Carregado",
       "4": "Consumo de Stamina de Ataque Carregado",
-      "5": "Dano de Ataque Carregado do Orvalho Verdejante",
+      "5": "Dano de Lavagem do Orvalho Lunar",
       "6": "Dano Durante a Queda",
       "7": "Dano de Queda de Baixa/Alta Altitude",
       "8": "",
@@ -43,16 +43,17 @@
     "name": "Maré Eterna",
     "description": {
       "0": "Invoca as marés da Lua, causando <hydro>Dano Hydro em AdE</hydro> e invocando a <strong>Onda Gravitacional</strong>.",
-      "1": "<strong>Onda Gravitacional</strong> segue o personagem ativo e causa <hydro>Dano Hydro em AdE</hydro> continuamente contra os inimigos próximos. Enquanto <strong>Onda Gravitacional</strong> existir, quando um personagem próximo desencadear Reações Lunares ou causar Dano de Reações Lunares, Columbina acumulará <strong>Gravitação</strong> especial. Ao acumular até o valor máximo, causará tipos de Danos diferentes contra os inimigos de acordo com o valor máximo de <strong>Gravitação</strong> acumulado do tipo de Reação Lunar."
+      "1": "<strong>Onda Gravitacional</strong> segue o personagem ativo e causa <hydro>Dano Hydro em AdE</hydro> continuamente contra os inimigos próximos. Enquanto <strong>Onda Gravitacional</strong> existir, quando um personagem próximo desencadear Reações Lunares ou causar Dano de Reações Lunares, Columbina acumulará <strong>Gravitação</strong> especial. Ao acumular até o valor máximo, causará tipos de Danos diferentes contra os inimigos de acordo com o valor máximo de <strong>Gravitação</strong> acumulado do tipo de Reação Lunar.",
+      "2": "<strong>Presságio Lunar: Reluzir Cheio</strong>: <strong>Onda Gravitacional</strong> causa <hydro>Dano Hydro em AdE</hydro> de maior alcance."
     },
     "skillParams": {
       "0": "Dano de Habilidade",
-      "1": "Dano Contínuo do Círculo Lunar",
-      "2": "Dano da Carga Lunar do Círculo Lunar",
-      "3": "Dano do Florescimento Lunar do Círculo Lunar",
-      "4": "Dano da Cristalização Lunar do Círculo Lunar",
-      "5": "Limite do Medidor do Círculo Lunar",
-      "6": "Duração do Círculo Lunar",
+      "1": "Dano Contínuo de Onda Gravitacional",
+      "2": "Dano de Carga Lunar de Interferência Kuuvahki",
+      "3": "Dano de Florescimento da Interferência Kuuvahki",
+      "4": "Dano de Cristalização Lunar da Interferência Kuuvahki",
+      "5": "Gravitação Máxima",
+      "6": "Duração de Onda Gravitacional",
       "7": "Recarga",
       "8": "",
       "9": "",
@@ -72,7 +73,7 @@
     "skillParams": {
       "0": "Dano de Habilidade",
       "1": "Aumento de Dano das Reações Lunares",
-      "2": "Duração da Área",
+      "2": "Duração de Domínio Lunar",
       "3": "Tempo de Recarga",
       "4": "Energia Elemental",
       "5": "",
@@ -164,8 +165,8 @@
   "constellation4": {
     "name": "Picos Entre Névoas Florais",
     "description": {
-      "0": "Ao desencadear <strong>Interferência Grandiosa</strong>, regenera 4 de Energia Elemental para Columbina.",
-      "1": "Além disso, de acordo com o tipo de Reação Lunar que acumulou <strong>Gravitação</strong>, se for Carga Lunar/Florescimento Lunar/Cristalização Lunar, aumenta o Dano da reação de Carga Lunar dessa Interferência Grandiosa. O valor de aumento é baseado em 12.5%/2.5%/12.5% da Vida Máxima de Columbina. Esse efeito pode ser desencadeado uma vez a cada 15s.",
+      "0": "Ao desencadear <strong>Interferência Kuuvahki</strong>, regenera 4 de Energia Elemental para Columbina.",
+      "1": "Além disso, de acordo com o tipo de Reação Lunar que acumulou <strong>Gravitação</strong>, se for Carga Lunar/Florescimento Lunar/Cristalização Lunar, aumenta o Dano da reação de Carga Lunar dessa Interferência Kuuvahki. O valor de aumento é baseado em 12.5%/2.5%/12.5% da Vida Máxima de Columbina. Esse efeito pode ser desencadeado uma vez a cada 15s.",
       "2": "<br/>",
       "3": "O Dano de Reações Lunares de todos os membros próximos da equipe é <strong>Elevado</strong> em 3%."
     }

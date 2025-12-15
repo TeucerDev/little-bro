@@ -1,8 +1,8 @@
 {
   "name": "Columbina",
-  "title": "???",
+  "title": "Welkin Moon's Homecoming",
   "description": "",
-  "constellationName": "Columbina Hyposelenia",
+  "constellationName": "???",
   "auto": {
     "name": "Moondew Cascade",
     "fields": {
@@ -26,7 +26,7 @@
       "2": "3-Hit DMG",
       "3": "Charged Attack DMG",
       "4": "Charged Attack Stamina Cost",
-      "5": "Verdant Dew Charged Attack DMG",
+      "5": "Moondew Cleanse DMG",
       "6": "Plunge DMG",
       "7": "Low/High Plunge DMG",
       "8": "",
@@ -61,16 +61,17 @@
     "name": "Eternal Tides",
     "description": {
       "0": "Awaken Moonbound Tides, dealing <hydro>AoE Hydro DMG</hydro> and summoning <strong>Gravity Ripple</strong>.",
-      "1": "<strong>Gravity Ripple</strong> will follow the active character on the field, while continuously dealing <hydro>AoE Hydro DMG</hydro> to surrounding opponents. While <strong>Gravity Ripple</strong> is on the field, and nearby party members trigger Lunar reactions or inflict Lunar Reaction DMG, Columbina will accrue a special <strong>Gravity</strong>. Once Gravity is accumulated to its limit, different types of damage will be dealt to enemies based on the type of Lunar Reaction that has accumulated the most <strong>Gravity</strong> for Columbina."
+      "1": "<strong>Gravity Ripple</strong> will follow the active character on the field, while continuously dealing <hydro>AoE Hydro DMG</hydro> to surrounding opponents. While <strong>Gravity Ripple</strong> is on the field, and nearby party members trigger Lunar reactions or inflict Lunar Reaction DMG, Columbina will accrue a special <strong>Gravity</strong>. Once Gravity is accumulated to its limit, different types of damage will be dealt to enemies based on the type of Lunar Reaction that has accumulated the most <strong>Gravity</strong> for Columbina.",
+      "2": "<strong>Moonsign: Ascendant Gleam</strong>: <strong>Gravity Ripple</strong> inflicts <hydro>AoE Hydro DMG</hydro> over a wider area."
     },
     "skillParams": {
       "0": "Skill DMG",
-      "1": "Moonreel Continuous DMG",
-      "2": "Moonreel: Lunar-Charged DMG",
-      "3": "Moonreel: Lunar-Bloom DMG",
-      "4": "Moonreel: Lunar-Crystallize DMG",
-      "5": "Max Moonreel Charge",
-      "6": "Moonreel Duration",
+      "1": "Gravity Ripple: Continuous DMG",
+      "2": "Gravity Interference: Lunar-Charged DMG",
+      "3": "Gravity Interference: Lunar-Bloom DMG",
+      "4": "Gravity Interference: Lunar-Crystallize DMG",
+      "5": "Gravity Limit",
+      "6": "Gravity Ripple Duration",
       "7": "CD",
       "8": "",
       "9": "",
@@ -85,7 +86,7 @@
       "0": "{{0, percent(fixed: 1)}}% Max HP",
       "1": "{{1, percent(fixed: 1)}}% Max HP",
       "2": "{{2, percent(fixed: 2)}}% Max HP",
-      "3": "{{3, percent(fixed: 2)}}% Max HP × 5",
+      "3": "{{3, percent(fixed: 2)}}% Max HP ×5",
       "4": "{{4, percent(fixed: 2)}}% Max HP",
       "5": "{{7}}",
       "6": "{{8, fixed(fixed: 1)}}s",
@@ -108,7 +109,7 @@
     "skillParams": {
       "0": "Skill DMG",
       "1": "Lunar Reaction DMG Bonus",
-      "2": "Domain Duration",
+      "2": "Lunar Domain Duration",
       "3": "CD",
       "4": "Energy Cost",
       "5": "",
@@ -145,7 +146,7 @@
   "passive1": {
     "name": "Call of the Moon",
     "description": {
-      "0": "When triggering <strong>Kuuvahki Interference</strong>, Columbina gains the Lunacy effect, increasing her CRIT Rate by 5% for 10s. This effect can be stacked up to 3 times."
+      "0": "When triggering <strong>Gravity Interference</strong>, Columbina gains the Lunacy effect, increasing her CRIT Rate by 5% for 10s. This effect can be stacked up to 3 times."
     }
   },
   "passive2": {
@@ -177,9 +178,9 @@
   "constellation1": {
     "name": "Radiance Over Blossoms and Peaks",
     "description": {
-      "0": "Unleashing her Elemental Skill <strong>Eternal Tides</strong> will immediately trigger an effect equivalent to the effect of <strong>Kuuvahki Interference</strong>. This effect can be triggered once every 15s.",
+      "0": "Unleashing her Elemental Skill <strong>Eternal Tides</strong> will immediately trigger an effect equivalent to the effect of <strong>Gravity Interference</strong>. This effect can be triggered once every 15s.",
       "1": "<strong>Moonsign: Ascendant Gleam</strong>",
-      "2": "When Kuuvahki Interference is triggered, if the Lunar reaction type that has accumulated the most Gravity for Columbina is:",
+      "2": "When Gravity Interference is triggered, if the Lunar reaction type that has accumulated the most Gravity for Columbina is:",
       "3": [
         " <strong>Lunar-Charged</strong>: Current active character will recover 6 Energy.",
         " <strong>Lunar-Bloom</strong>: Active character's interruption resistance will be increased for 8s.",
@@ -193,9 +194,9 @@
     "name": "Not in Lone Splendor",
     "description": {
       "0": "Rate of accumulating <strong>Gravity</strong> increases by 34%. ",
-      "1": "When <strong>Kuuvahki Interference</strong> is triggered, Columbina will receive the <strong>Lunar Brilliance</strong> effect, which increases her Max HP by 30% for 8s.",
+      "1": "When <strong>Gravity Interference</strong> is triggered, Columbina will receive the <strong>Lunar Brilliance</strong> effect, which increases her Max HP by 30% for 8s.",
       "2": "<strong>Moonsign: Ascendant Gleam</strong>:",
-      "3": "When <strong>Lunar Brilliance</strong> is active, if, during the current trigger of <strong>Kuuvahki Interference</strong>, the Lunar reaction type that has accumulated the most Gravity for Columbina is:",
+      "3": "When <strong>Lunar Brilliance</strong> is active, if, during the current trigger of <strong>Gravity Interference</strong>, the Lunar reaction type that has accumulated the most Gravity for Columbina is:",
       "4": [
         " <strong>Lunar-Charged</strong>: The party's current active character gains ATK equal to 0.7% of Columbina's Max HP.",
         " <strong>Lunar-Bloom</strong>: Elemental Mastery of the party's current active character increases. Increase in Elemental Mastery is equal to 0.35% of Columbina's Max HP.",
@@ -217,8 +218,8 @@
   "constellation4": {
     "name": "Cloudveiled Ridges in Floral Mists",
     "description": {
-      "0": "When Kuuvahki Interference is triggered, 4 Elemental Energy will be restored to Columbina;",
-      "1": "Additionally, if the Lunar reaction type that accumulates the most <strong>Gravity</strong> for Columbina is Lunar-Charged, Lunar-Bloom, or Lunar-Crystallize, the Lunar Reaction DMG dealt by this instance of Kuuvahki Interference is increased by 12.5%/2.5%/12.5% of Columbina's Max HP respectively. This effect can be triggered at most once every 15s.",
+      "0": "When <strong>Gravity Interference</strong> is triggered, 4 Elemental Energy will be restored to Columbina;",
+      "1": "Additionally, if the Lunar reaction type that accumulates the most <strong>Gravity</strong> for Columbina is Lunar-Charged, Lunar-Bloom, or Lunar-Crystallize, the Lunar Reaction DMG dealt by this instance of Gravity Interference is increased by 12.5%/2.5%/12.5% of Columbina's Max HP respectively. This effect can be triggered at most once every 15s.",
       "2": "<br/>",
       "3": "All nearby party members' Lunar Reaction DMG is <strong>elevated</strong> by 3%."
     }

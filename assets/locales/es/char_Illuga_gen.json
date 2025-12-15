@@ -1,6 +1,6 @@
 {
   "name": "Illuga",
-  "title": "¿?",
+  "title": "El Corazón Ardiente de la Pesadilla",
   "description": "",
   "constellationName": "Oriolus",
   "auto": {
@@ -109,7 +109,7 @@
   "passive2": {
     "name": "Crepúsculo del cazador de demonios",
     "description": {
-      "0": "Fortalece los efectos de <strong>canto del ruiseñor</strong>, de manera que, cuando en el equipo haya 1/2/3 personajes <hydro>Hydro</hydro> o <geo>Geo</geo>, canto del ruiseñor aumenta aún más el daño infligido en una cantidad equivalente al 7%/14%/24% de la Maestría Elemental de Illuga. Si dicho daño es causado por la reacción de Cristalización Lunar, el aumento de daño será equivalente al 60%/120%/200% de la Maestría Elemental de Illuga."
+      "0": "Fortalece los efectos de <strong>canto del ruiseñor</strong>, de manera que, cuando en el equipo haya 1/2/3 personajes <hydro>Hydro</hydro> o <geo>Geo</geo>, canto del ruiseñor aumenta aún más el daño infligido en una cantidad equivalente al 7/14/24% de la Maestría Elemental de Illuga. Si dicho daño es causado por la reacción de Cristalización Lunar, el aumento de daño será equivalente al 60/120/200% de la Maestría Elemental de Illuga."
     }
   },
   "passive3": {
@@ -122,49 +122,50 @@
     "name": "Marcha del vigilante nocturno",
     "description": {
       "0": "Tus personajes del equipo obtienen el efecto de “paso ligero”, de manera que su Vel. Movimiento aumenta en un 10% por la noche (18-06 h).",
-      "1": "Este efecto no se activará en dominios, Dominios de la cruzada y la Espiral del Abismo, y no se puede acumular con otros efectos de paso ligero."
+      "1": "Este efecto no se activará en dominios, Dominios de la cruzada y la Espiral del Abismo, y no se puede acumular con otros efectos de paso ligero.",
+      "2": "Además, parece que Illuga es capaz de entender los susurros de la Cacería salvaje..."
     }
   },
   "constellation1": {
     "name": "Faisán centinela",
     "description": {
-      "0": "Cuando Illuga esté en uso, recupera 12 pts. de Energía Elemental tras haber causado una <geo>reacción Geo</geo>. Este efecto puede ocurrir una vez cada 15 s."
+      "0": "Cuando Illuga esté en uso, recuperará 12 pts. de Energía Elemental tras haber causado una <geo>Reacción Elemental Geo</geo>. Este efecto solo puede ocurrir una vez cada 15 s."
     }
   },
   "constellation2": {
     "name": "Alce devorarramas",
     "description": {
-      "0": "Durante la Habilidad Definitiva <strong>Reflejo sin sombra</strong>, mientras el efecto canto del ruiseñor en una noche embrujada esté activo, cada vez que se consuman 7 acumulaciones de <strong>canto del ruiseñor nocturno</strong>, Illuga invocará a Aedón para infligir <geo>Daño Geo</geo> a un enemigo cercano en una cantidad equivalente al 400% de la Maestría Elemental de Illuga y el 200% de su DEF."
+      "0": "Mientras el efecto de canto nochembrujado del oriol de la Habilidad Definitiva, <strong>Reflejo sin sombra</strong>, esté activo, cada vez que se consuman 7 cargas de <strong>canto del ruiseñor</strong>, Illuga invocará a Aedón para infligir una vez <geo>Daño Geo</geo> a un enemigo cercano en una cantidad equivalente al 400% de la Maestría Elemental de Illuga y el 200% de su DEF."
     }
   },
   "constellation3": {
-    "name": "Fauces estremecedoras",
+    "name": "Oso estremecedor",
     "description": {
       "0": "Aumenta el nivel de habilidad de <strong>Reflejo sin sombra</strong> +3.",
       "1": "Puede ser aumentado hasta Niv. 15."
     }
   },
   "constellation4": {
-    "name": "Lobo acechasol",
+    "name": "Lobo acechasoles",
     "description": {
-      "0": "Mientras el efecto canto del ruiseñor en una noche embrujada de la Habilidad Definitiva <strong>Reflejo sin sombra</strong> está activo, la DEF de los personajes en uso cercanos del equipo aumenta en 200 pts."
+      "0": "Mientras el efecto de canto nochembrujado del oriol de la Habilidad Definitiva, <strong>Reflejo sin sombra</strong>, esté activo, la DEF de los personajes en uso cercanos del equipo aumenta en 200 pts."
     }
   },
   "constellation5": {
     "name": "Corcel ululante",
     "description": {
-      "0": "Aumenta el nivel de la Habilidad Elemental <strong>Ruiseñor del amanecer</strong> +3.",
+      "0": "Aumenta el nivel de habilidad de <strong>Ruiseñor del amanecer</strong> +3.",
       "1": "Puede ser aumentado hasta Niv. 15."
     }
   },
   "constellation6": {
     "name": "Orioles de la Pesadilla",
     "description": {
-      "0": "El talento pasivo <strong>Pacto del Forjador de Lámparas</strong> fortalece el efecto de Forjador de Lámparas: al infligir <geo>Daño Geo</geo> a los enemigos, la Prob. CRIT aumenta un 10% y el Daño CRIT aumenta un 30%.",
+      "0": "Fortalece el efecto de juramento del lamparero del talento pasivo <strong>Pacto del Forjador de Lámparas</strong>, de manera que la Prob. CRIT de los ataques que infligen <geo>Daño Geo</geo> aumenta en un 10%, y el Daño CRIT de dichos ataques aumenta en un 30%.",
       "1": "<br/>",
       "2": "<strong>Presagio lunar: resplandor ascendente</strong>",
-      "3": "Los personajes bajo el efecto de juramento del lamparero obtienen 80 pts. de Maestría Elemental.",
-      "4": "Es necesario desbloquear el talento pasivo “<strong>Pacto del Forjador de Lámparas</strong>”."
+      "3": "La Maestría Elemental de los personajes afectados por juramento del lamparero aumenta en 80 pts.",
+      "4": "Es necesario desbloquear el talento pasivo <strong>Pacto del Forjador de Lámparas</strong>."
     }
   }
 }

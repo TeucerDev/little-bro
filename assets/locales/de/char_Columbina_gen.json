@@ -1,6 +1,6 @@
 {
   "name": "Columbina",
-  "title": "",
+  "title": "Heimkehr des leeren Mondes",
   "description": "",
   "constellationName": "???",
   "auto": {
@@ -26,7 +26,7 @@
       "2": "SCH Phase 3",
       "3": "SCH heftiger Schläge",
       "4": "Ausdauerverbrauch heftiger Schläge",
-      "5": "SCH heftiger Schläge mithilfe „Grünender Tau“",
+      "5": "SCH durch „Mondtau-Reinigung“",
       "6": "SCH beim Fallen",
       "7": "SCH beim Fallen aus niedriger/großer Höhe",
       "8": "",
@@ -42,17 +42,18 @@
   "skill": {
     "name": "Ewige Gezeiten",
     "description": {
-      "0": "Ruft Gezeiten des Mondmeeres herbei, verursacht <hydro>Hydro-Flächenschaden</hydro> und erschafft eineßßß <strong>Gravitationswelle</strong>.",
-      "1": "Die <strong>Gravitationswelle</strong> folgt der aktuellen Figur und fügt Gegnern in der Umgebung fortlaufend <hydro>Hydro-Flächenschaden</hydro> zu. Während die <strong>Gravitationswelle</strong> existiert und Truppenmitglieder in der Nähe eine Mondleuchten-Reaktion auslösen oder Schaden durch eine Mondleuchten-Reaktion verursachen, wird eine besondere <strong>Gravitation</strong> für Columbina angesammelt. Fügt, wenn deren Maximalwert erreicht ist, Gegnern Schaden der Art der Mondleuchten-Reaktion zu, durch die Columbina am meisten <strong>Gravitation</strong> gesammelt hat."
+      "0": "Ruft Gezeiten des Mondmeeres herbei, verursacht <hydro>Hydro-Flächenschaden</hydro> und erschafft eine <strong>Gravitationswelle</strong>.",
+      "1": "Die <strong>Gravitationswelle</strong> folgt der aktuellen Figur und fügt Gegnern in der Umgebung fortlaufend <hydro>Hydro-Flächenschaden</hydro> zu. Während die <strong>Gravitationswelle</strong> existiert und Truppenmitglieder in der Nähe eine Mondleuchten-Reaktion auslösen oder Schaden durch eine Mondleuchten-Reaktion verursachen, wird eine besondere <strong>Gravitation</strong> für Columbina angesammelt. Fügt, wenn deren Maximalwert erreicht ist, Gegnern Schaden der Art der Mondleuchten-Reaktion zu, durch die Columbina am meisten <strong>Gravitation</strong> gesammelt hat.",
+      "2": "<strong>Mondomen – Reifer Glanz</strong>: Die <strong>Gravitationswelle</strong> verursacht <hydro>Hydro-Flächenschaden</hydro> mit größerer Reichweite."
     },
     "skillParams": {
       "0": "Fähigkeits-SCH",
-      "1": "Fortlaufender SCH durch Mondrolle",
-      "2": "SCH durch „Mondrolle – Mond unter Strom“",
-      "3": "SCH durch „Mondrolle – Mondspross“",
-      "4": "SCH durch „Mondrolle – Mond-Kristallisation“",
-      "5": "Höchstwert von Mondrolle",
-      "6": "Dauer von Mondrolle",
+      "1": "Gravitationswelle – Fortlaufender SCH",
+      "2": "Gravitations-Interferenz – SCH durch „Mond unter Strom“",
+      "3": "Gravitations-Interferenz – SCH durch „Mondspross“",
+      "4": "Gravitations-Interferenz – SCH durch „Mond-Kristallisation“",
+      "5": "Gravitations-Obergrenze",
+      "6": "Gravitationswellen-Dauer",
       "7": "Abklingzeit",
       "8": "",
       "9": "",
@@ -72,7 +73,7 @@
     "skillParams": {
       "0": "Fähigkeits-SCH",
       "1": "SCH-Bonus für Mondleuchten-Reaktion",
-      "2": "Gebietsdauer",
+      "2": "Mondgebiets-Dauer",
       "3": "Abklingzeit",
       "4": "Elementarenergie",
       "5": "",
@@ -91,7 +92,7 @@
   "passive1": {
     "name": "Mondbedingter Wahnsinn",
     "description": {
-      "0": "Verleiht Columbina beim Auslösen der <strong>Kuuvahki-Interferenz</strong> den Effekt „Mondbedingter Wahnsinn“, der die eigenen KT 10 s lang um 5 % erhöht, max. 3-fach stapelbar."
+      "0": "Verleiht Columbina beim Auslösen der <strong>Gravitations-Interferenz</strong> den Effekt „Mond-Wahnsinn“, der die eigenen KT 10 s lang um 5 % erhöht, max. 3-fach stapelbar."
     }
   },
   "passive2": {
@@ -101,7 +102,7 @@
       "1": [
         " <strong>Mond unter Strom</strong>: Verkürzt die Zeit zwischen Angriffen mit Gewitterwolken um 0,5 s.",
         " <strong>Mondspross</strong>: Verleiht der Truppe beim Auslösen der Reaktion „Mondspross“ 1 Stapelung besonderen Grünenden Mondtau. Auf diese Weise können alle 18 s bis zu 3 Stapelungen „Grünender Mondtau“ für die Truppe generiert werden.",
-        " <strong>Mond-Kristallisation</strong>: Gibt beim Auslösen von „Harmonie des Mondkäfigs“ jedem Mondkäfig eine Möglichkeit von 33 %, zusätzlich einen Angriff auszuführen."
+        " <strong>Mond-Kristallisation</strong>: Gibt beim Auslösen von „Harmonie der Mondkäfige“ jedem Mondkäfig eine Möglichkeit von 33 %, zusätzlich einen Angriff auszuführen."
       ]
     }
   },
@@ -116,16 +117,16 @@
   "passive": {
     "name": "Mondwache",
     "description": {
-      "0": "Wenn du dich in Nod-Krai befindest und ein Truppenmitglied ohnmächtig wird, belebt Columbina diese Figur wieder und stellt ihre LP wieder her. Der Wiederherstellungswert ist abhängig von Columbinas Freundschaftsstufe, 100 s Abklingzeit.",
-      "1": "Außerdem scheint Columbina eine Affinität zu bestimmten kleinen Tieren zu haben, die von Kuuvahki beeinflusst sind ..."
+      "0": "Wenn in Nod-Krai ein Truppenmitglied ohnmächtig wird, belebt Columbina diese Figur wieder und stellt ihre LP wieder her; der Wiederherstellungswert ist abhängig von Columbinas Freundschaftsstufe; 100 s Abklingzeit.",
+      "1": "Außerdem scheint Columbina eine besondere Verbindung zu einigen kleinen Tieren zu haben, die von Kuuvahki beeinflusst sind ..."
     }
   },
   "constellation1": {
     "name": "Strahlkraft über Blüten und Gipfeln",
     "description": {
-      "0": "Löst, wenn die Elementarfähigkeit <strong>Ewige Gezeiten</strong> angewendet wird, sofort einmal einen der <strong>Kuuvahki-Interferenz</strong> entsprechenden Effekt aus. 15 s Abklingzeit.",
+      "0": "Löst, wenn die Elementarfähigkeit <strong>Ewige Gezeiten</strong> angewendet wird, sofort einmal einen der <strong>Gravitations-Interferenz</strong> entsprechenden Effekt aus. 15 s Abklingzeit.",
       "1": "<strong>Mondomen – Reifer Glanz</strong> ",
-      "2": "Wenn beim Auslösen der Kuuvahki-Interferenz die Art von Mondleuchten-Reaktion, die am meisten Gravitation für Columbina angesammelt hat, folgende ist:",
+      "2": "Wenn beim Auslösen der Gravitations-Interferenz die Art von Mondleuchten-Reaktion, die am meisten Gravitation für Columbina angesammelt hat, folgende ist:",
       "3": [
         " <strong>Mond unter Strom</strong>: Stellt dem eigenen aktuellen  Truppenmitglied 6 Punkte Elementarenergie wieder her.",
         " <strong>Mondspross</strong>: Erhöht den Unterbrechungs-WDS des eigenen aktuellen  Truppenmitglieds 8 s lang.",
@@ -139,9 +140,9 @@
     "name": "Nicht in einsamer Pracht",
     "description": {
       "0": "Erhöht die Ansammlungsgeschwindigkeit der <strong>Gravitation</strong> um 34 %.",
-      "1": "Verleiht Columbina, wenn die <strong>Kuuvahki-Interferenz</strong> ausgelöst wird, den Effekt <strong>Mondstrahlung</strong>, der die max. LP 8 s lang um 30 % erhöht.",
+      "1": "Verleiht Columbina, wenn die <strong>Gravitations-Interferenz</strong> ausgelöst wird, den Effekt <strong>Mondstrahlung</strong>, der die max. LP 8 s lang um 30 % erhöht.",
       "2": "<strong>Mondomen – Reifer Glanz</strong>:",
-      "3": "Wenn während der Wirkungsdauer von <strong>Mondstrahlung</strong> beim Auslösen dieser <strong>Kuuvahki-Interferenz</strong> die Art von Mondleuchten-Reaktion, die am meisten Gravitation für Columbina angesammelt hat, folgende ist:",
+      "3": "Wenn während der Wirkungsdauer von <strong>Mondstrahlung</strong> beim Auslösen dieser <strong>Gravitations-Interferenz</strong> die Art von Mondleuchten-Reaktion, die am meisten Gravitation für Columbina angesammelt hat, folgende ist:",
       "4": [
         " <strong>Mond unter Strom</strong>: Erhöht den ANG des eigenen aktuellen Truppenmitglieds um 0,7 % von Columbinas max. LP.",
         " <strong>Mondspross</strong>: Erhöht die Elementarkunde des eigenen aktuellen Truppenmitglieds um 0,35 % von Columbinas max. LP.",
@@ -163,8 +164,8 @@
   "constellation4": {
     "name": "Wolkige Berge in blumigem Nebel",
     "description": {
-      "0": "Stellt Columbina, wenn die <strong>Kuuvahki-Interferenz</strong> ausgelöst wird, auch 4 Punkte Elementarenergie wieder her.",
-      "1": "Erhöht zudem, wenn die Art Mondleuchten-Reaktion, die am meisten <strong>Gravitation</strong> für Columbina angesammelt hat, Mond unter Strom/Mondspross/Mond-Kristallisation ist, den durch diese Kuuvahki-Interferenz verursachten Schaden der Mondleuchten-Reaktion jeweils um 12,5 %/2,5 %/12,5 % von Columbinas max. LP. 15 s Abklingzeit.",
+      "0": "Stellt Columbina, wenn die <strong>Gravitations-Interferenz</strong> ausgelöst wird, auch 4 Punkte Elementarenergie wieder her.",
+      "1": "Erhöht zudem, wenn die Art Mondleuchten-Reaktion, die am meisten <strong>Gravitation</strong> für Columbina angesammelt hat, Mond unter Strom/Mondspross/Mond-Kristallisation ist, den durch diese Gravitations-Interferenz verursachten Schaden der Mondleuchten-Reaktion jeweils um 12,5 %/2,5 %/12,5 % von Columbinas max. LP. 15 s Abklingzeit.",
       "2": "<br/>",
       "3": "<strong>Erhöht</strong> den von allen Truppenmitgliedern in der Nähe verursachten Schaden durch Mondleuchten-Reaktionen um 3 %."
     }

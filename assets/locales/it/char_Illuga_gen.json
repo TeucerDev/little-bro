@@ -1,6 +1,6 @@
 {
   "name": "Illuga",
-  "title": "???",
+  "title": "Cuore ardente dell'incubo",
   "description": "",
   "constellationName": "Oriolus",
   "auto": {
@@ -41,13 +41,13 @@
   "skill": {
     "name": "Uccello canterino dell'alba",
     "description": {
-      "0": "Evoca il fidato uccello messaggero \"Tormenta\". Gli effetti ottenuti variano in base alla diversa pressione dell'abilità.",
+      "0": "Evoca il fidato uccello messaggero \"Burrasca\". Gli effetti ottenuti variano in base alla diversa pressione dell'abilità.",
       "1": "<br/>",
       "2": "<strong>Pressione</strong>",
-      "3": "Tormenta scatta verso i nemici di fronte a lui, infliggendo <geo>DAN da Geo</geo> ai nemici con cui entra in contatto.",
+      "3": "Burrasca scatta verso i nemici di fronte a lui, infliggendo <geo>DAN da Geo</geo> ai nemici con cui entra in contatto.",
       "4": "<br/>",
       "5": "<strong>Pressione prolungata</strong>",
-      "6": "Entra in modalità di mira e dà a Tormenta l'ordine di scagliarsi contro i nemici indicati, infliggendo <geo>DAN da Geo</geo> agli avversari con cui entra in contatto."
+      "6": "Entra in modalità di mira e dà a Burrasca l'ordine di scagliarsi contro i nemici indicati, infliggendo <geo>DAN da Geo</geo> agli avversari con cui entra in contatto."
     },
     "skillParams": {
       "0": "DAN da pressione",
@@ -71,7 +71,7 @@
   "burst": {
     "name": "Riflesso senz'ombra",
     "description": {
-      "0": "Accende la lanterna, infligge <geo>DAN da Geo ad area</geo> e ottiene l'effetto Canto dell'oriolo nella notte spettrale per 200 s. Illuga ottiene 21 accumuli di <strong>Canzone dell'usignolo</strong>. Quando gli attacchi normali, gli attacchi caricati, gli attacchi in picchiata, le abilità elementali e i Tripudi elementali dei membri attivi del gruppo vicini infliggono <geo>DAN da Geo</geo> agli avversari, viene consumato 1 accumulo di Canzone dell'usignolo per aumentare i DAN inflitti. L'aumento dei DAN si basa sulla maestria elementale di Illuga. Se i DAN inflitti sono di Cristallizzazione lunare, i DAN inflitti aumentano ulteriormente.",
+      "0": "Accende la lanterna, infligge <geo>DAN da Geo ad area</geo> e ottiene l'effetto Canto dell'oriolo nella notte spettrale per 20 s. Illuga ottiene 21 accumuli di <strong>Canzone dell'usignolo</strong>. Quando gli attacchi normali, gli attacchi caricati, gli attacchi in picchiata, le abilità elementali e i Tripudi elementali dei membri attivi del gruppo vicini infliggono <geo>DAN da Geo</geo> agli avversari, viene consumato 1 accumulo di Canzone dell'usignolo per aumentare i DAN inflitti. L'aumento dei DAN si basa sulla maestria elementale di Illuga. Se i DAN inflitti sono di Cristallizzazione lunare, i DAN inflitti aumentano ulteriormente.",
       "1": "Quando i <geo>DAN da Geo</geo> inflitti in questo modo colpiscono molteplici avversari, vengono consumati diversi accumuli di Canzone dell'usignolo, in base al numero di avversari colpiti.",
       "2": "<br/>",
       "3": "Inoltre, se in campo ci sono dei <geo>costrutti di Geo</geo> creati dai membri vicini del gruppo mentre Illuga scatena il suo Tripudio elementale o quando i membri vicini del gruppo creano dei <geo>costrutti di Geo</geo> mentre è attivo l'effetto di Canto dell'oriolo nella notte spettrale, ogni <geo>costrutto di Geo</geo> in campo permette a Illuga di ottenere 5 accumuli aggiuntivi di Canzone dell'usignolo. Illuga può ottenere in questo modo un massimo di 15 accumuli aggiuntivi di Canzone dell'usignolo per un massimo di 20 s dopo aver innescato il suo Tripudio elementale.",
@@ -122,7 +122,8 @@
     "name": "Marcia del guardiano della notte",
     "description": {
       "0": "Di notte (18:00-06:00), i membri del tuo gruppo ottengono l'effetto Piè veloce: la VEL di movimento aumenta di un 10%.",
-      "1": "Non ha effetto all'interno di domini, Domini della conquista o Abisso a spirale. Piè veloce non è cumulabile."
+      "1": "Non ha effetto all'interno di domini, Domini della conquista o Abisso a spirale. Piè veloce non è cumulabile.",
+      "2": "Illuga sembra inoltre in grado di decifrare i sussurri della Caccia selvaggia..."
     }
   },
   "constellation1": {
@@ -134,7 +135,7 @@
   "constellation2": {
     "name": "Alce dal palco zannuto",
     "description": {
-      "0": "Quando l'effetto Canto dell'oriolo nella notte spettrale del Tripudio elementale <strong>Riflesso senz'ombra</strong> è attivo, per ogni 7 accumuli di <strong>Canzone dell'usignolo</strong> consumati, Illuga evoca Tormenta, infliggendo una iterazione di <geo>DAN da Geo</geo> a 1 avversario vicino. I DAN inflitti si basano su un 400% della maestria elementale e a un 200% della DIF di Illuga."
+      "0": "Quando l'effetto Canto dell'oriolo nella notte spettrale del Tripudio elementale <strong>Riflesso senz'ombra</strong> è attivo, per ogni 7 accumuli di <strong>Canzone dell'usignolo</strong> consumati, Illuga evoca Burrasca, infliggendo una iterazione di <geo>DAN da Geo</geo> a 1 avversario vicino. I DAN inflitti si basano su un 400% della maestria elementale e a un 200% della DIF di Illuga."
     }
   },
   "constellation3": {

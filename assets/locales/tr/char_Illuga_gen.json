@@ -1,8 +1,8 @@
 {
   "name": "Illuga",
-  "title": "???",
+  "title": "Kabusun Alevli Kalbi",
   "description": "",
-  "constellationName": "",
+  "constellationName": "Sarıasma",
   "auto": {
     "name": "Söz Erinin Mızrağı",
     "fields": {
@@ -46,8 +46,7 @@
       "2": "<strong>Dokun</strong>",
       "3": "Fırtına öndeki düşmanlara doğru atılır ve temas ettiği düşmanlara <geo>Toprak Hasarı</geo> verir.",
       "4": "<br/>",
-      "5": "<strong>Basılı Tut</strong>",
-      "6": "Nişan Alma Modu açılır. Fırtına, nişan alınan düşmanlara doğru atılır ve temas ettiği düşmanlara <geo>Toprak Hasarı</geo> verir."
+      "5": "<strong>Basılı Tuttuğunda</strong> nişan alma modu açılır. Fırtına, nişan alınan düşmanlara doğru atılır ve temas ettiği düşmanlara <geo>Toprak Hasarı</geo> verir."
     },
     "skillParams": {
       "0": "Basma Hasarı",
@@ -71,7 +70,7 @@
   "burst": {
     "name": "Gölgesiz Yansıma",
     "description": {
-      "0": "Lambayı yakarak <geo>Toprak Alan Hasarı</geo> verir ve 20 saniyeliğine Lanetli Gecede Öten Sarıasma etkisini kazanır. Bu etki aktifken Illuga 21 kademe <strong>Bülbülün Şarkısı</strong> kazanır. Yakındaki aktif grup üyelerinin Normal Saldırıları, Yüklü Saldırıları, Havadan Saldırıları, Element Becerileri ve Element Patlamaları düşmanlara <geo>Toprak Hasarı</geo> verdiğinde 1 kademe Bülbülün Şarkısı tüketilir ve verilen Hasar artar. Hasar artışı Illuga'nın Element Ustalığına bağlıdır. Hasar, Ay Kristalleşmesi ile verilirse daha da artar.",
+      "0": "Lambayı yakmak <geo>Toprak Alan Hasarı</geo> verir ve 20 saniyeliğine Lanetli Gecede Öten Sarıasma etkisi kazanılır. Bu etki aktifken Illuga 21 kademe <strong>Bülbülün Şarkısı</strong> kazanır. Yakındaki aktif grup üyelerinin Normal Saldırıları, Yüklü Saldırıları, Havadan Saldırıları, Element Becerileri ve Element Patlamaları düşmanlara <geo>Toprak Hasarı</geo> verdiğinde 1 kademe Bülbülün Şarkısı tüketilir ve verilen Hasar artar. Hasar artışı Illuga'nın Element Ustalığına bağlıdır. Hasar, Ay Kristalleşmesi ile verilirse daha da artar.",
       "1": "Bu şekilde verilen <geo>Toprak Hasarı</geo> birden fazla düşmana isabet ettiğinde isabet alan düşman sayısına bağlı olarak birden fazla Bülbülün Şarkısı kademesi tüketilir.",
       "2": "<br/>",
       "3": "Ayrıca savaş alanında yakındaki grup üyeleri tarafından oluşturulmuş <geo>Toprak Yapıları</geo> varken Illuga Element Patlamasını kullandığında veya Lanetli Gecede Öten Sarıasma aktifken yakındaki grup üyeleri <geo>Toprak Yapıları</geo> oluşturduğunda, savaş alanındaki her bir <geo>Toprak Yapısı</geo> Illuga'ya ilave 5 Bülbülün Şarkısı kademesi kazandırır. Illuga Element Patlamasını kullandıktan sonra 20 saniyeye kadar bu şekilde en fazla 15 ilave Bülbülün Şarkısı kademesi kazanabilir.",
@@ -109,7 +108,7 @@
   "passive2": {
     "name": "İblis Avcısının Alacakaranlığı",
     "description": {
-      "0": "<strong>Bülbülün Şarkısı</strong> etkileri gelişir: Grupta 1/2/3 <hydro>Su</hydro> veya <geo>Toprak</geo> karakteri olduğunda Bülbülün Şarkısı Hasarı daha da artar. Hasar artışı, Illuga'nın Element Ustalığının %7/%14/%24'üne eşittir. Bahsi geçen bu Hasar bir Ay Kristalleşmesi tepkimesiyle verilirse Hasar artışı, Illuga'nın Element Ustalığının %60/%120/%200'üne eşit olur."
+      "0": "<strong>Bülbülün Şarkısı</strong> etkileri gelişir: Grupta 1/2/3 <hydro>Su</hydro> veya <geo>Toprak</geo> karakteri olduğunda Bülbülün Şarkısı Hasarı daha da artar. Hasar artışı, Illuga'nın Element Ustalığının %7/%14/%24'üne eşittir. Söz konusu Hasar bir Ay Kristalleşmesi tepkimesiyle verilirse Hasar artışı, Illuga'nın Element Ustalığının %60/%120/%200'üne eşit olur."
     }
   },
   "passive3": {
@@ -122,7 +121,8 @@
     "name": "Gece Nöbetçisinin Adımları",
     "description": {
       "0": "Geceleri (18:00 - 06:00) grup üyelerin Hızlı Adım etkisi kazanır: Hareket Hızı %10 artar.",
-      "1": "Zindanlarda, Ezici Zindanlarda veya Hiçlik Sarmalında etkili değildir. Hızlı Adım etkileri birikmez."
+      "1": "Zindanlarda, Ezici Zindanlarda veya Hiçlik Sarmalında etkili değildir. Hızlı Adım etkileri birikmez.",
+      "2": "Ayrıca Illuga, Vahşi Avın fısıltılarını deşifre edebiliyor..."
     }
   },
   "constellation1": {
@@ -134,13 +134,13 @@
   "constellation2": {
     "name": "Sivri Boynuzlu Geyik",
     "description": {
-      "0": "<strong>Gölgesiz Yansıma</strong> Element Patlamasının Lanetli Gecede Öten Sarıasma etkisi aktifken tüketilen her 7 <strong>Bülbülün Şarkısı</strong> birikimi için Illuga, Fırtına'yı çağırarak yakındaki 1 düşmana tek seferlik <geo>Toprak Hasarı</geo> verir. Verilen Hasar, Illuga'nın Element Ustalığının %400'ü ve Savunmasının %200'ü kadardır."
+      "0": "<strong>Gölgesiz Yansıma</strong> Element Patlamasının Lanetli Gecede Öten Sarıasma etkisi aktifken tüketilen her 7 <strong>Bülbülün Şarkısı</strong> kademesi için Illuga, Fırtına'yı çağırarak yakındaki 1 düşmana tek seferlik <geo>Toprak Hasarı</geo> verir. Verilen Hasar, Illuga'nın Element Ustalığının %400'ü ve Savunmasının %200'ü kadardır."
     }
   },
   "constellation3": {
     "name": "Yeri Sarsan Ayı",
     "description": {
-      "0": "<strong>Gölgesiz Yansıma</strong> Seviyesini 3 artırır.",
+      "0": "<strong>Gölgesiz Yansıma</strong> Element Patlamasının Seviyesini 3 artırır.",
       "1": "Maksimum yükseltme seviyesi 15'tir."
     }
   },
@@ -153,7 +153,7 @@
   "constellation5": {
     "name": "Kasırga Küheylanı",
     "description": {
-      "0": "<strong>Şafak Şarkısı Kuşu</strong> Seviyesini 3 artırır.",
+      "0": "<strong>Şafak Şarkısı Kuşu</strong> Element Becerisinin Seviyesini 3 artırır.",
       "1": "Maksimum yükseltme seviyesi 15'tir."
     }
   },

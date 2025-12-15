@@ -1,8 +1,8 @@
 {
   "name": "Zibai",
-  "title": "",
+  "title": "La Yegua del Manantial Escondido",
   "description": "",
-  "constellationName": "",
+  "constellationName": "Equa Alba",
   "auto": {
     "name": "Toque floral filoáureo",
     "fields": {
@@ -42,19 +42,19 @@
     "name": "Manifestación terraceleste",
     "description": {
       "0": "Evoca un fragmento de sus antiguos poderes y cambia al modo <strong>intersticio faselunar</strong>.",
-      "1": "En este modo, el daño de los Ataques Normales y Cargados de Zibai se convierte en <geo>Daño Geo</geo>, el cual no puede sustituirse imbuyéndose de otro elemento, y también podrá acumular un <strong>fulgor intersticial</strong> especial de diferentes maneras. Zibai puede consumir el <strong>fulgor intersticial</strong> para usar la Habilidad Elemental especial <strong>Pisotón yeguaespiritual</strong>.",
+      "1": "En este modo, el daño de los Ataques Normales y Cargados de Zibai se convierte en <geo>Daño Geo</geo>, el cual no puede sustituirse imbuyéndose de otro elemento, y también podrá acumular un <strong>fulgor intersticial</strong> especial de diferentes maneras. Zibai puede consumir el fulgor intersticial para usar la Habilidad Elemental especial <strong>Pisotón yeguaespiritual</strong>.",
       "2": "<br/>",
       "3": "<strong>Presagio lunar: resplandor ascendente</strong>",
       "4": "Cuando Zibai está en modo <strong>intersticio faselunar</strong>, el cuarto golpe de su Ataque Normal infligirá <geo>Daño Geo</geo> adicional en una cantidad equivalente a su daño original. Este daño se considera daño de Cristalización Lunar."
     },
     "skillParams": {
       "0": "Daño de 1er golpe de intersticio faselunar",
-      "1": "Daño de 2.º golpe fortalecido de intersticio faselunar",
+      "1": "Daño de 2.º golpe de intersticio faselunar",
       "2": "Daño de 3er golpe de intersticio faselunar",
       "3": "Daño de 4.º golpe de intersticio faselunar",
       "4": "Daño de ATQ Cargado de intersticio faselunar",
       "5": "Daño de 1er golpe de Pisotón yeguaespiritual",
-      "6": "Daño de 2.º golpe de Pisotón yeguaespiritual{param2:F1P} de DEF",
+      "6": "Daño de 2.º golpe de Pisotón yeguaespiritual",
       "7": "Daño de resplandor ascendente del 4.º golpe de intersticio faselunar",
       "8": "Duración de intersticio faselunar",
       "9": "TdE",
@@ -93,7 +93,7 @@
   "passive1": {
     "name": "Descenso de la Adeptus lunar",
     "description": {
-      "0": "Al usar la Habilidad Elemental, <strong>Manifestación terraceleste</strong>, o al activar la resonancia lunar, Zibai obtiene el efecto de <strong>descenso lunar</strong> durante 4 s, el cual aumenta el daño de <strong>Pisotón yeguaespiritual</strong> en una cantidad equivalente al 40% de su DEF."
+      "0": "Al usar la Habilidad Elemental, <strong>Manifestación terraceleste</strong>, o al activar la resonancia lunar, Zibai obtiene el efecto de <strong>descenso lunar</strong> durante 4 s, el cual aumenta el daño del segundo golpe de <strong>Pisotón yeguaespiritual</strong> en una cantidad equivalente al 40% de su DEF."
     }
   },
   "passive2": {
@@ -113,7 +113,7 @@
   "passive": {
     "name": "Flores bañadas por la luna",
     "description": {
-      "0": "Zibai recupera 1 pt. de Energía Elemental cada 2 s cuando no está en combate. por la noche (18-06 h).",
+      "0": "Zibai recupera 1 pt. de Energía Elemental cada 2 s cuando no está en combate por la noche (18-06 h).",
       "1": "Este efecto no se activará en dominios, Dominios de la cruzada o en la Espiral del Abismo."
     }
   },
@@ -121,14 +121,16 @@
     "name": "Surgir con ímpetu y entrar con serenidad",
     "description": {
       "0": "Tras usar la Habilidad Elemental, <strong>Manifestación terraceleste</strong>, Zibai obtendrá inmediatamente 100 pts. de <strong>fulgor intersticial</strong>, y el máximo de cargas de <strong>Pisotón yeguaespiritual</strong> del modo <strong>intersticio faselunar</strong> aumenta a 5.",
-      "1": "Además, cada vez que Zibai cambie al modo <strong>intersticio faselunar</strong>, al usar <strong>Pisotón yeguaespiritual</strong> por primera vez, el daño de Cristalización Lunar del segundo golpe aumenta en un 200%."
+      "1": "Además, cada vez que Zibai cambie al modo intersticio faselunar, la primera vez que use Pisotón yeguaespiritual, el daño de Cristalización Lunar del segundo golpe aumenta en un 200%."
     }
   },
   "constellation2": {
     "name": "Almas del nacimiento y cascarones de la muerte",
     "description": {
       "0": "La DEF de Zibai aumenta en un 50% cuando está en el modo <strong>intersticio faselunar</strong>.",
-      "1": "Además, potencia el efecto del talento pasivo <strong>Descenso de la Adeptus lunar</strong>, de manera que el daño de <strong>Pisotón yeguaespiritual</strong> aumenta adicionalmente en una cantidad equivalente al 100% de la DEF de Zibai. Es necesario desbloquear el talento pasivo <strong>Descenso de la Adeptus lunar</strong>."
+      "1": "<br/>",
+      "2": "<strong>Presagio lunar: resplandor ascendente</strong>",
+      "3": "Potencia el efecto del talento de ascensión <strong>Descenso de la Adeptus lunar</strong>, de manera que el daño del segundo golpe de <strong>Pisotón yeguaespiritual</strong> aumenta adicionalmente en una cantidad equivalente al 100% de la DEF de Zibai. Es necesario desbloquear el talento de ascensión “Descenso de la Adeptus lunar”."
     }
   },
   "constellation3": {
@@ -155,7 +157,7 @@
     "name": "El mundo, un viaje transitorio",
     "description": {
       "0": "Mientras esté en el modo <strong>intersticio faselunar</strong>, la eficiencia con la que Zibai obtiene <strong>fulgor intersticial</strong> aumenta en un 40%.",
-      "1": "Además, <strong>Pisotón yeguaespiritual</strong> pasa a consumir todos los pts. de <strong>fulgor intersticial</strong>, de manera que, por cada pt. adicional de <strong>fulgor intersticial</strong> consumido por encima los 70 pts., el daño de <strong>Pisotón yeguaespiritual</strong> y el de Cristalización Lunar que Zibai inflija en los siguientes 3 s <strong>asciende</strong> en un 1.6%. Este efecto no se puede acumular."
+      "1": "Además, <strong>Pisotón yeguaespiritual</strong> pasa a consumir todos los pts. de fulgor intersticial, de manera que, por cada pt. adicional de fulgor intersticial consumido por encima los 70 pts., el daño de Pisotón yeguaespiritual y el de Cristalización Lunar que Zibai inflija en los siguientes 3 s <strong>asciende</strong> en un 1.6%. Este efecto no se puede acumular."
     }
   }
 }

@@ -1,8 +1,8 @@
 {
   "name": "Columbina",
-  "title": "???",
+  "title": "Không Nguyệt Trở Về",
   "description": "",
-  "constellationName": "Cung Ngự Nguyệt Cáp",
+  "constellationName": "???",
   "auto": {
     "name": "Sương Trăng Đổ Xuống",
     "fields": {
@@ -26,7 +26,7 @@
       "2": "Sát Thương Lần 3",
       "3": "Sát Thương Trọng Kích",
       "4": "Thể lực Trọng Kích tiêu hao",
-      "5": "Sát thương Trọng Kích Sương Xanh",
+      "5": "Sát thương Sương Trăng Gột Rửa",
       "6": "Sát Thương Khi Đáp",
       "7": "Sát Thương Khi Đáp Từ Độ Cao Thấp/Cao",
       "8": "",
@@ -43,16 +43,17 @@
     "name": "Thủy Triều Vĩnh Cửu",
     "description": {
       "0": "Đánh thức thủy triều biển trăng, gây <hydro>Sát Thương Phạm Vi Nguyên Tố Thủy</hydro> và triệu hồi <strong>Gợn Sóng Hấp Dẫn</strong>.",
-      "1": "<strong>Gợn Sóng Hấp Dẫn</strong> sẽ đi theo nhân vật trong trận, liên tục gây <hydro>Sát Thương Phạm Vi Nguyên Tố Thủy</hydro> lên kẻ địch xung quanh. Trong thời gian tồn tại <strong>Gợn Sóng Hấp Dẫn</strong>, khi nhân vật trong đội ở gần kích hoạt phản ứng Nguyệt hoặc gây sát thương phản ứng Nguyệt, sẽ còn tích lũy <strong>Lực Hấp Dẫn</strong> đặc biệt cho Columbina. Khi tích lũy đầy, sẽ căn cứ vào <strong>Lực Hấp Dẫn</strong> của loại phản ứng Nguyệt mà Columbina tích lũy nhiều nhất để gây sát thương khác nhau cho kẻ địch."
+      "1": "<strong>Gợn Sóng Hấp Dẫn</strong> sẽ đi theo nhân vật trong trận, liên tục gây <hydro>Sát Thương Phạm Vi Nguyên Tố Thủy</hydro> lên kẻ địch xung quanh. Trong thời gian tồn tại <strong>Gợn Sóng Hấp Dẫn</strong>, khi nhân vật trong đội ở gần kích hoạt phản ứng Nguyệt hoặc gây sát thương phản ứng Nguyệt, sẽ còn tích lũy <strong>Lực Hấp Dẫn</strong> đặc biệt cho Columbina. Khi tích lũy đầy, sẽ căn cứ vào loại phản ứng Nguyệt mà Columbina tích lũy nhiều <strong>Lực Hấp Dẫn</strong> nhất để gây sát thương khác nhau cho kẻ địch.",
+      "2": "<strong>Nguyệt Triệu - Rực Sáng</strong>: <strong>Gợn Sóng Hấp Dẫn</strong> sẽ gây <hydro>Sát Thương Phạm Vi Nguyên Tố Thủy</hydro> trên phạm vi rộng hơn."
     },
     "skillParams": {
       "0": "Sát Thương Kỹ Năng",
-      "1": "Sát thương duy trì Nguyệt Luân",
-      "2": "Sát thương Nguyệt Luân: Nguyệt-Điện Cảm",
-      "3": "Sát thương Nguyệt Luân: Nguyệt-Sum Suê",
-      "4": "Sát thương Nguyệt Luân: Nguyệt-Kết Tinh",
-      "5": "Giới hạn giá trị Nguyệt Luân",
-      "6": "Thời gian duy trì Nguyệt Luân",
+      "1": "Sát thương duy trì Gợn Sóng Hấp Dẫn",
+      "2": "Sát thương Giao Thoa Trọng Lực: Nguyệt-Điện Cảm",
+      "3": "Sát thương Giao Thoa Trọng Lực: Nguyệt-Sum Suê",
+      "4": "Sát thương Giao Thoa Trọng Lực: Nguyệt-Kết Tinh",
+      "5": "Giới hạn Lực Hấp Dẫn",
+      "6": "Thời gian duy trì Gợn Sóng Hấp Dẫn",
       "7": "CD",
       "8": "",
       "9": "",
@@ -67,12 +68,12 @@
   "burst": {
     "name": "Nỗi Nhớ Quê Nhà",
     "description": {
-      "0": "Liên kết núi và biển dưới danh nghĩa trăng non thuần khiết, khiến mặt đất xung quanh tạm thời biến thành <strong>Vùng Ánh Trăng</strong> đồng thời gây <hydro>Sát Thương Phạm Vi Nguyên Tố Thủy</hydro>."
+      "0": "Liên kết núi và biển dưới danh nghĩa trăng non thanh khiết, khiến mặt đất xung quanh tạm thời biến thành <strong>Vùng Ánh Trăng</strong> đồng thời gây <hydro>Sát Thương Phạm Vi Nguyên Tố Thủy</hydro>."
     },
     "skillParams": {
       "0": "Sát Thương Kỹ Năng",
       "1": "Tăng sát thương phản ứng Nguyệt",
-      "2": "Thời gian duy trì khu vực",
+      "2": "Thời gian duy trì Vùng Ánh Trăng",
       "3": "CD",
       "4": "Năng Lượng Nguyên Tố",
       "5": "",
@@ -91,13 +92,13 @@
   "passive1": {
     "name": "Cuồng Bạo Của Mặt Trăng",
     "description": {
-      "0": "Khi kích hoạt <strong>Giao Thoa Kuuvahki</strong>, Columbina sẽ nhận hiệu quả Ánh Trăng Dẫn Lối, khiến bản thân tăng 5% Tỷ Lệ Bạo Kích trong 10s. Hiệu quả này tối đa cộng dồn 3 tầng."
+      "0": "Khi kích hoạt <strong>Giao Thoa Trọng Lực</strong>, Columbina sẽ nhận hiệu quả Ánh Trăng Dẫn Lối, khiến bản thân tăng 5% Tỷ Lệ Bạo Kích trong 10s. Hiệu quả này tối đa cộng dồn 3 tầng."
     }
   },
   "passive2": {
     "name": "Quy Tắc Của Tân Nguyệt",
     "description": {
-      "0": "Khi nhân vật ở trong <strong>Vùng Ánh Trăng</strong> kích hoạt phản ứng Nguyệt, sẽ lần lượt nhận hiệu quả sau:",
+      "0": "Khi nhân vật trong <strong>Vùng Ánh Trăng</strong> kích hoạt phản ứng Nguyệt, sẽ lần lượt nhận hiệu quả sau:",
       "1": [
         "<strong>Nguyệt-Điện Cảm</strong>: Giãn cách tấn công của Mây Sấm Sét rút ngắn 0.5s.",
         "<strong>Nguyệt-Sum Suê</strong>: Khi kích hoạt phản ứng Nguyệt-Sum Suê, sẽ cung cấp một giọt Sương Xanh Trăng Núi đặc biệt cho đội, mỗi 18s tối đa cung cấp 3 Sương Xanh Trăng Núi cho đội theo cách này.",
@@ -114,7 +115,7 @@
     }
   },
   "passive": {
-    "name": "Canh Gác Của Mặt Trăng",
+    "name": "Cảnh Giác Của Mặt Trăng",
     "description": {
       "0": "Tại khu vực Nod-Krai, khi nhân vật của bản thân trong đội bị hạ gục, Columbina sẽ hồi sinh nhân vật này và hồi phục HP cho mục tiêu, lượng hồi phục dựa trên Cấp Yêu Thích của Columbina. Hiệu quả này mỗi 100s tối đa kích hoạt một lần.",
       "1": "Ngoài ra, dường như Columbina có tương thích đặc biệt với một số động vật nhỏ bị ảnh hưởng bởi Kuuvahki..."
@@ -123,9 +124,9 @@
   "constellation1": {
     "name": "Chiếu Sáng Biển Hoa, Ẩn Mình Giữa Núi",
     "description": {
-      "0": "Khi thi triển Kỹ Năng Nguyên Tố<strong>Thủy Triều Vĩnh Cửu</strong>, sẽ còn lập tức kích hoạt một lần hiệu quả tương đương với <strong>Giao Thoa Kuuvahki</strong>, hiệu quả này mỗi 15s tối đa kích hoạt một lần.",
+      "0": "Khi thi triển Kỹ Năng Nguyên Tố <strong>Thủy Triều Vĩnh Cửu</strong>, sẽ còn lập tức kích hoạt một lần hiệu quả tương đương với <strong>Giao Thoa Trọng Lực</strong>, hiệu quả này mỗi 15s tối đa kích hoạt một lần.",
       "1": "<strong>Nguyệt Triệu - Rực Sáng</strong>",
-      "2": "Khi kích hoạt Giao Thoa Kuuvahki, nếu phản ứng Nguyệt mà Columbina tích lũy Lực Hấp Dẫn nhiều nhất là:",
+      "2": "Khi kích hoạt Giao Thoa Trọng Lực, nếu loại phản ứng Nguyệt mà Columbina tích lũy Lực Hấp Dẫn nhiều nhất là:",
       "3": [
         "<strong>Nguyệt-Điện Cảm</strong>: Hồi phục 6 điểm Năng Lượng Nguyên Tố cho nhân vật ra trận hiện tại trong đội bản thân.",
         "<strong>Nguyệt-Sum Suê</strong>: Tăng Kháng Gián Đoạn cho nhân vật ra trận hiện tại trong đội bản thân, duy trì 8s.",
@@ -139,9 +140,9 @@
     "name": "Tô Sáng Đêm Đen, Đồng Hành Xa Xôi",
     "description": {
       "0": "Tốc độ tích lũy <strong>Lực Hấp Dẫn</strong> tăng 34%.",
-      "1": "Khi kích hoạt <strong>Giao Thoa Kuuvahki</strong>, Columbina sẽ nhận hiệu quả <strong>Trăng Sáng Chói</strong>, tăng 30% Giới Hạn HP trong 8s.",
+      "1": "Khi kích hoạt <strong>Giao Thoa Trọng Lực</strong>, Columbina sẽ nhận hiệu quả <strong>Trăng Sáng Chói</strong>, tăng 30% Giới Hạn HP trong 8s.",
       "2": "<strong>Nguyệt Triệu - Rực Sáng</strong>:",
-      "3": "Trong thời gian duy trì hiệu quả <strong>Trăng Sáng Chói</strong>, khi kích hoạt <strong>Giao Thoa Kuuvahki</strong> lần này, nếu phản ứng Nguyệt mà Columbina tích lũy Lực Hấp Dẫn nhiều nhất là:",
+      "3": "Trong thời gian duy trì hiệu quả <strong>Trăng Sáng Chói</strong>, khi kích hoạt <strong>Giao Thoa Trọng Lực</strong> lần này, nếu loại phản ứng Nguyệt mà Columbina tích lũy Lực Hấp Dẫn nhiều nhất là:",
       "4": [
         "<strong>Nguyệt-Điện Cảm</strong>: Tăng Tấn Công cho nhân vật ra trận hiện tại trong đội bản thân, mức tăng tương đương 0.7% Giới Hạn HP của Columbina.",
         "<strong>Nguyệt-Sum Suê</strong>: Tăng Tinh Thông Nguyên Tố cho nhân vật ra trận hiện tại trong đội bản thân, mức tăng tương đương 0.35% Giới Hạn HP của Columbina.",
@@ -163,8 +164,8 @@
   "constellation4": {
     "name": "Biển Mây Mịt Mù, Bóng Cây Núi Đá",
     "description": {
-      "0": "Khi kích hoạt <strong>Giao Thoa Kuuvahki</strong>, sẽ hồi phục 4 điểm Năng Lượng Nguyên Tố cho Columbina.",
-      "1": "Ngoài ra, dựa trên loại phản ứng Nguyệt mà Columbina tích lũy <strong>Lực Hấp Dẫn</strong> nhiều nhất, nếu là phản ứng Nguyệt-Điện Cảm/Nguyệt-Sum Suê/Nguyệt-Kết Tinh, thì sẽ tăng sát thương phản ứng Nguyệt gây ra bởi Giao Thoa Kuuvahki lần này, mức tăng lần lượt tương đương 12.5%/2.5%/12.5% Giới Hạn HP của Columbina. Hiệu quả trên mỗi 15s tối đa kích hoạt một lần.",
+      "0": "Khi kích hoạt <strong>Giao Thoa Trọng Lực</strong>, sẽ hồi phục 4 điểm Năng Lượng Nguyên Tố cho Columbina.",
+      "1": "Ngoài ra, dựa trên loại phản ứng Nguyệt mà Columbina tích lũy <strong>Lực Hấp Dẫn</strong> nhiều nhất, nếu là phản ứng Nguyệt-Điện Cảm/Nguyệt-Sum Suê/Nguyệt-Kết Tinh, thì sẽ tăng sát thương phản ứng Nguyệt gây ra bởi Giao Thoa Trọng Lực lần này, mức tăng lần lượt tương đương 12.5%/2.5%/12.5% Giới Hạn HP của Columbina. Hiệu quả trên mỗi 15s tối đa kích hoạt một lần.",
       "2": "<br/>",
       "3": "Sát thương phản ứng Nguyệt của tất cả nhân vật trong đội ở gần sẽ <strong>Thăng Tiến</strong> 3%."
     }
@@ -181,7 +182,7 @@
   "constellation6": {
     "name": "Đêm Đen U Tối, Theo Chân Ánh Trăng",
     "description": {
-      "0": "Tất cả nhân vật trong phạm vi <strong>Vùng Ánh Trăng</strong>, trong vòng 8s sau khi kích hoạt phản ứng Nguyệt, sẽ căn cứ vào loại nguyên tố tham gia phản ứng, khiến tất cả nhân vật trong đội tăng 80% Sát Thương Bạo Kích khi gây sát thương nguyên tố tương ứng. Hiệu quả tăng Sát Thương Bạo Kích của cùng loại nguyên tố không thể cộng dồn.",
+      "0": "Tất cả nhân vật trong phạm vi <strong>Vùng Ánh Trăng</strong>, trong vòng 8s sau khi kích hoạt phản ứng Nguyệt, sẽ căn cứ vào loại nguyên tố tham gia phản ứng, khiến tất cả nhân vật trong đội tăng 80% Sát Thương Bạo Kích khi gây sát thương nguyên tố tương ứng. Hiệu quả tăng Sát Thương Bạo Kích của cùng loại nguyên tố sẽ không thể cộng dồn.",
       "1": "<br/>",
       "2": "Sát thương phản ứng Nguyệt của tất cả nhân vật trong đội ở gần sẽ <strong>Thăng Tiến</strong> 5%."
     }

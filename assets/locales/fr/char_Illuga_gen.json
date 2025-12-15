@@ -1,6 +1,6 @@
 {
   "name": "Illuga",
-  "title": "???",
+  "title": "Cœur ardent des nuits terrifiantes",
   "description": "",
   "constellationName": "Oriolus",
   "auto": {
@@ -41,7 +41,7 @@
   "skill": {
     "name": "Alouette de l'aube naissante",
     "description": {
-      "0": "Invoque le fidèle oiseau messager « Zef », différents effets se produisant selon la méthode de déclenchement :",
+      "0": "Invoque le fidèle oiseau messager « Zef », différents effets se produisant selon la méthode de déclenchement :",
       "1": "<br/>",
       "2": "<strong>Appui simple</strong>",
       "3": "Zef fonce vers les ennemis en avant, infligeant des <geo>DGT Géo</geo> aux ennemis touchés.",
@@ -71,7 +71,7 @@
   "burst": {
     "name": "Reflet sans ombre",
     "description": {
-      "0": "Allume la lanterne, infligeant des<geo>DGT Géo de zone</geo> et accordant l'effet Chant nocturne d'oriole pendant 20 s : pendant cette durée, Illuga obtient 21 cumuls de <strong>chant de rossignol</strong>. Lorsqu'un personnage déployé de l'équipe à proximité inflige des <geo>DGT Géo</geo> à un ennemi avec une attaque normale, une attaque chargée, une attaque plongeante, une compétence élémentaire ou un déchaînement élémentaire, Illuga consomme 1 cumul de chant de rossignol pour augmenter les DGT selon sa maîtrise élémentaire, les DGT augmentant davantage s'ils sont le résultat d'une réaction de Sélénocristallisation.",
+      "0": "Allume la lanterne, infligeant des <geo>DGT Géo de zone</geo> et accordant l'effet Chant nocturne d'oriole pendant 20 s : pendant cette durée, Illuga obtient 21 cumuls de <strong>chant de rossignol</strong>. Lorsqu'un personnage déployé de l'équipe à proximité inflige des <geo>DGT Géo</geo> à un ennemi avec une attaque normale, une attaque chargée, une attaque plongeante, une compétence élémentaire ou un déchaînement élémentaire, Illuga consomme 1 cumul de chant de rossignol pour augmenter les DGT selon sa maîtrise élémentaire, les DGT augmentant davantage s'ils sont le résultat d'une réaction de Sélénocristallisation.",
       "1": "En infligeant ainsi des <geo>DGT Géo</geo> à plusieurs ennemis, le nombre de cumuls de chant de rossignol consommés dépend de la quantité d'ennemis touchés.",
       "2": "<br/>",
       "3": "De plus, lorsque Illuga utilise un déchaînement élémentaire alors qu'une <geo>construction Géo</geo> générée par un personnage de l'équipe à proximité est présente sur le champ de bataille, ou lorsqu'un personnage de l'équipe à proximité génère une <geo>construction Géo</geo> pendant la durée de l'effet Chant nocturne d'oriole, chaque <geo>construction Géo</geo> sur le terrain permet à Illuga d'obtenir 5 cumuls supplémentaires de chant de rossignol. Illuga peut obtenir un maximum de 15 cumuls supplémentaires de cette manière pendant les 20 s qui suivent chaque déclenchement de son déchaînement élémentaire.",
@@ -122,13 +122,14 @@
     "name": "Foulée du veilleur de nuit",
     "description": {
       "0": "La nuit (18 h 00 - 06 h 00), vos personnages dans l'équipe obtiennent l'effet Foulée célère : augmente la VIT de déplacement de 10 %.",
-      "1": "Cet effet ne s'applique pas dans les donjons, dans les Donjons de la conquête et dans les Profondeurs spiralées, et ne peut pas être cumulé."
+      "1": "Cet effet ne s'applique pas dans les donjons, dans les Donjons de la conquête et dans les Profondeurs spiralées, et ne peut pas être cumulé.",
+      "2": "De plus, Illuga semble capable de déchiffrer les murmures de la Chasse sauvage..."
     }
   },
   "constellation1": {
     "name": "Sentinelle vigilante",
     "description": {
-      "0": "Lorsqu'Illuga est sur le terrain, il récupère 12 points d'énergie élémentaire après le déclenchement d'une réaction géo-élémentaire. Cet effet peut être déclenché une fois toutes les 15 secondes."
+      "0": "Lorsque Illuga est déployé, déclencher une <geo>réaction liée à l'élément Géo</geo> lui permet de récupérer 12 pts d'énergie élémentaire, cet effet pouvant être déclenché une fois toutes les 15 s."
     }
   },
   "constellation2": {

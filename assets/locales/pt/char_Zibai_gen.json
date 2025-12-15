@@ -1,6 +1,6 @@
 {
   "name": "Zibai",
-  "title": "???",
+  "title": "Primavera Efêmera do Cavalo Branco",
   "description": "",
   "constellationName": "Equa Alba",
   "auto": {
@@ -42,14 +42,14 @@
     "name": "Céu e Terra Manifestados",
     "description": {
       "0": "Invoca uma sombra de seus antigos poderes, trocando para o modo <strong>Conversão de Fase Lunar</strong>.",
-      "1": "Nesse modo, quando Zibai realizar um Ataque Normal ou Carregado, causará <geo>Dano Geo</geo> que não pode ser substituído, e acumula a especial <strong>Radiância da Conversão</strong> de formas diferentes. Zibai pode consumir <strong>Radiância da Conversão</strong> para lançar a Habilidade Elemental especial <strong>Passos do Alazão Espiritual</strong>.",
+      "1": "Nesse modo, quando Zibai realizar um Ataque Normal ou Carregado, causará <geo>Dano Geo</geo> que não pode ser substituído, e acumula a especial <strong>Radiância da Conversão</strong> de formas diferentes. Zibai pode consumir Radiância da Conversão para lançar a Habilidade Elemental especial <strong>Passos do Alazão Espiritual</strong>.",
       "2": "<br/>",
       "3": "<strong>Presságio Lunar: Reluzir Cheio</strong>",
       "4": "Quando Zibai está no modo <strong>Conversão de Fase Lunar</strong> e realiza um Ataque Normal, o ataque do 4º golpe causará uma instância de <geo>Dano Geo</geo> de Dano Original. Esse Dano é considerado Dano de Cristalização Lunar."
     },
     "skillParams": {
       "0": "Dano do 1° Golpe de Conversão de Fase Lunar",
-      "1": "Dano do 2° Golpe de Conversão de Fase Lunar Fortalecido",
+      "1": "Dano do 2° Golpe da Conversão de Fase Lunar",
       "2": "Dano do 3° Golpe de Conversão de Fase Lunar",
       "3": "Dano do 4° Golpe da Conversão de Fase Lunar",
       "4": "Dano de Ataque Carregado da Conversão de Fase Lunar",
@@ -93,7 +93,7 @@
   "passive1": {
     "name": "A Adeptus Lunar Desce",
     "description": {
-      "0": "Ao lançar a Habilidade Elemental <strong>Céu e Terra Manifestados</strong>, ou ao desencadear Sonata da Jaula Lunar, Zibai obtém o efeito Descida Lunar por 4s: aumenta o Dano causado por <strong>Passos do Alazão Espiritual</strong> em 40% da DEF de Zibai."
+      "0": "Ao lançar a Habilidade Elemental <strong>Céu e Terra Manifestados</strong>, ou ao desencadear Sonata da Jaula Lunar, Zibai obtém o efeito Descida Lunar por 4s: aumenta o Dano do 2º ataque causado por <strong>Passos do Alazão Espiritual</strong> em 40% da DEF de Zibai."
     }
   },
   "passive2": {
@@ -121,14 +121,15 @@
     "name": "Avance Vigorosamente, mas Silenciosamente",
     "description": {
       "0": "Depois de lançar a Habilidade Elemental <strong>Céu e Terra Manifestados</strong>, Zibai acumula 100 de <strong>Radiância da Conversão</strong> e aumenta os Usos de <strong>Radiância da Conversão</strong> para 5.",
-      "1": "Além disso, cada vez que trocar para o modo <strong>Radiância da Conversão</strong>, aumenta o Dano de Cristalização Lunar do 2º Ataque da primeira vez que lançar <strong>Passos do Alazão Espiritual</strong> em 200%."
+      "1": "Além disso, cada vez que trocar para o modo Radiância da Conversão, aumenta o Dano de Cristalização Lunar do 2º Ataque da primeira vez que lançar <strong>Passos do Alazão Espiritual</strong> em 200%."
     }
   },
   "constellation2": {
     "name": "Almas Surgem no Nascimento e na Morte Deixam Carcaças",
     "description": {
       "0": "Quando está no modo <strong>Conversão de Fase Lunar</strong>, aumenta a DEF de Zibai em 50%.",
-      "1": "Além disso, o efeito do Talento Passivo <strong>A Adeptus Lunar Desce</strong> é fortalecido: aumenta ainda mais o Dano de <strong>Passos do Alazão Espiritual</strong>, o aumento é de 100% da DEF de Zibai. Esse efeito requer que o Talento Passivo <strong>A Adeptus Lunar Desce</strong> seja desbloqueado."
+      "1": "<br/>",
+      "2": "<strong>Presságio Lunar: Reluzir Cheio</strong>: Talento de Ascensão <strong>A Adeptus Lunar Desce</strong> é fortalecido aumenta ainda mais o Dano do 2º ataque de <strong>Passos do Alazão Espiritual</strong>, o aumento é de 100% da DEF de Zibai. Esse efeito requer que o Talento de Ascensão \"A Adeptus Lunar Desce\" seja desbloqueado."
     }
   },
   "constellation3": {
@@ -155,7 +156,7 @@
     "name": "O Mundo é uma Jornada Passageira",
     "description": {
       "0": "Quando está no modo <strong>Conversão de Fase Lunar</strong>, aumenta a eficiência de acúmulo de <strong>Radiância da Conversão</strong> em 40%.",
-      "1": "Além disso, <strong>Passos do Alazão Espiritual</strong> passa a consumir todos os acúmulos de <strong>Radiância da Conversão</strong>, e cada 1 ponto de <strong>Radiância da Conversão</strong> acima de 70 que for consumido faz o Dano de Cristalização Lunar de <strong>Passos do Alazão Espiritual</strong> ser <strong>Elevado</strong> em 1.6% nos próximos 3s. Esse efeito não é acumulável."
+      "1": "Além disso, <strong>Passos do Alazão Espiritual</strong> passa a consumir todos os acúmulos de Radiância da Conversão, e cada 1 ponto de F>Radiância da Conversão acima de 70 que for consumido faz o Dano de Cristalização Lunar de Passos do Alazão Espiritual ser <strong>Elevado</strong> em 1.6% nos próximos 3s. Esse efeito não é acumulável."
     }
   }
 }
