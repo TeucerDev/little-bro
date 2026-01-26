@@ -1,0 +1,173 @@
+{
+  "name": "Varka",
+  "title": "",
+  "description": "",
+  "constellationName": "",
+  "auto": {
+    "name": "Radiant Waltz",
+    "fields": {
+      "normal": {
+        "0": "<strong>Normal Attack</strong>",
+        "1": "Meniru tarian perang knight zaman dulu, Varka memegang pedang claymore-nya dengan kedua tangan dan melancarkan hingga 5 serangan berturut-turut."
+      },
+      "charged": {
+        "0": "<strong>Charged Attack</strong>",
+        "1": "Mengonsumsi sejumlah Stamina, menerjang ke arah depan dan melancarkan satu kali tebasan dua pedang yang sangat kuat."
+      },
+      "plunging": {
+        "0": "<strong>Plunging Attack</strong>",
+        "1": "Menerjang dari udara untuk menghantam tanah, menyerang musuh di jalur terjangan dan mengakibatkan DMG Area saat mendarat."
+      }
+    },
+    "skillParams": {
+      "0": "DMG Tahap 1",
+      "1": "DMG Tahap 2",
+      "2": "DMG Tahap 3",
+      "3": "DMG Tahap 4",
+      "4": "DMG Tahap 5",
+      "5": "DMG Charged Attack",
+      "6": "Konsumsi Stamina Charged Attack",
+      "7": "DMG Selama Plunging",
+      "8": "DMG Plunging Attack Min./Maks.",
+      "9": "",
+      "10": "",
+      "11": "",
+      "12": "",
+      "13": "",
+      "14": "",
+      "15": ""
+    }
+  },
+  "skill": {
+    "name": "Windbound Execution",
+    "description": {
+      "0": "Menampilkan esensi dari Favonius Bladework dengan kekuatan mutlaknya. Talenta ini akan menghasilkan efek yang berbeda berdasarkan Mode Tekan atau Mode Tahan.",
+      "1": "<br/>",
+      "2": "<strong>Mode Tekan</strong>",
+      "3": "Melompat ke arah depan dan melakukan tebasan dalam satu gerakan mulus, mengakibatkan <anemo>Anemo DMG Area</anemo> dan berganti ke mode <tooltip ns=tooltips_gen baseKey18=11280001 values=[]><strong>Stormward Charge</strong></tooltip>.",
+      "4": "Saat dalam mode <strong>Stormward Charge</strong>, DMG Normal Attack Varka akan meningkat, tetapi tidak bisa melancarkan Plunging Attack. Saat melancarkan Normal Attack dan Charged Attack, pedang claymore di kedua tangan Varka akan mengakibatkan Elemental DMG dengan jenis elemen yang sesuai berdasarkan jenis elemen Karakter dalam party. Elemental DMG ini tidak bisa ditimpa Elemental Infusion lainnya.",
+      "5": "Selain itu, saat berada dalam mode <strong>Stormward Charge</strong>, jika ada Karakter <pyro>Pyro</pyro>, <hydro>Hydro</hydro>, <electro>Electro</electro>, atau <cryo>Cryo</cryo>, maka Elemental Skill Varka <strong>Windbound Execution</strong> akan dikonversi menjadi Elemental Skill Khusus <tooltip ns=tooltips_gen baseKey18=11280002 values=[]><strong>Four Winds' Ascension</strong></tooltip> yang dapat mengakibatkan Elemental DMG dengan jenis elemen yang sesuai dan juga <anemo>Anemo DMG</anemo>. Selain itu, Varka juga dapat mengonsumsi jumlah penggunaan Elemental Skill Khusus <strong>Four Winds' Ascension</strong> untuk melancarkan Charged Attack khusus yang tidak mengonsumsi Stamina, <strong>Azure Devour</strong>. Charged Attack khusus ini akan mengakibatkan Elemental DMG dengan jenis elemen yang sesuai dan juga <anemo>Anemo DMG</anemo>.",
+      "6": "<br/>",
+      "7": "<strong>Mode Tahan</strong>",
+      "8": "Melompat ke depan setelah mengisi energi. Jarak lompatannya akan bertambah seiring dengan waktu pengisian energi."
+    },
+    "skillParams": {
+      "0": "DMG Skill",
+      "1": "Durasi Skill",
+      "2": "DMG Tahap 1",
+      "3": "DMG Tahap 2",
+      "4": "DMG Tahap 3",
+      "5": "DMG Tahap 4",
+      "6": "DMG Tahap 5",
+      "7": "DMG Charged Attack",
+      "8": "DMG Follow-up__ Skill",
+      "9": "DMG Tambahan Follow-up__ Charged Attack",
+      "10": "CD Follow-up__ Skill",
+      "11": "CD Skill",
+      "12": "CD Four Winds' Ascension",
+      "13": "",
+      "14": "",
+      "15": ""
+    }
+  },
+  "burst": {
+    "name": "Avatar of the Northwind",
+    "description": {
+      "0": "Atas nama Knight of Boreas yang paling kuat, Varka melancarkan dua kali tebasan beruntun yang kuat ke arah depan dan mengakibatkan <anemo>Anemo DMG</anemo>.",
+      "1": "Jika ada Karakter <pyro>Pyro</pyro>, <hydro>Hydro</hydro>, <electro>Electro</electro>, atau <cryo>Cryo</cryo> di dalam party, maka tebasan pertama akan dikonversi menjadi Elemental DMG dengan jenis elemen yang sesuai berdasarkan urutan prioritas elemen yang disebutkan di atas."
+    },
+    "skillParams": {
+      "0": "DMG Tahap 1",
+      "1": "DMG Tahap 2",
+      "2": "Cooldown",
+      "3": "Konsumsi Energy",
+      "4": "",
+      "5": "",
+      "6": "",
+      "7": "",
+      "8": "",
+      "9": "",
+      "10": "",
+      "11": "",
+      "12": "",
+      "13": "",
+      "14": "",
+      "15": ""
+    }
+  },
+  "passive1": {
+    "name": "Dawn Wind's March",
+    "description": {
+      "0": "Saat ada Karakter <pyro>Pyro</pyro>, <hydro>Hydro</hydro>, <electro>Electro</electro>, atau <cryo>Cryo</cryo> dalam party, untuk setiap 1.000 poin ATK yang dimiliki Varka, ia akan mendapatkan peningkatan <anemo>10%</anemo> Anemo DMG Bonus dan Elemental DMG Bonus untuk jenis elemen yang sesuai (maksimum 1 jenis elemen dari elemen yang disebutkan di atas yang bisa diperoleh dengan cara ini), hingga maksimum 10%.",
+      "1": "<br/>",
+      "2": "Selain itu, saat ada setidaknya 2 Karakter <anemo>Anemo</anemo> dalam party, atau ada setidaknya 2 Karakter <pyro>Pyro</pyro>, <hydro>Hydro</hydro>, <electro>Electro</electro>, atau <cryo>Cryo</cryo> dengan jenis elemen yang sama, maka Normal Attack, Charged Attack, Charged Attack Khusus <strong>Azure Devour</strong>, dan Elemental Skill Khusus <tooltip ns=tooltips_gen baseKey18=11280002 values=[]><strong>Four Winds' Ascension</strong></tooltip> Varka yang dilancarkan dalam mode <tooltip ns=tooltips_gen baseKey18=11280001 values=[]><strong>Stormward Charge</strong></tooltip> akan mengakibatkan 140% dari DMG awalnya. Jika party memiliki setidaknya 2 Karakter <anemo>Anemo</anemo> dan setidaknya 2 Karakter <pyro>Pyro</pyro>, <hydro>Hydro</hydro>, <electro>Electro</electro>, atau <cryo>Cryo</cryo> dengan jenis elemen yang sama, maka efek di atas meningkat menjadi 220%."
+    }
+  },
+  "passive2": {
+    "name": "Wind's Vanguard",
+    "description": {
+      "0": "Saat Karakter party di sekitar memicu reaksi Swirl, Varka mendapatkan 1 lapis <strong>Azure Fang's Oath</strong>yang akan meningkatkan DMG Normal Attack, Charged Attack, Charged Attack Khusus <strong>Azure Devour</strong>, dan Elemental Skill Khusus <tooltip ns=tooltips_gen baseKey18=11280002 values=[]><strong>Four Winds' Ascension</strong></tooltip> Varka yang dilancarkan dalam mode <tooltip ns=tooltips_gen baseKey18=11280001 values=[]><strong>Stormward Charge</strong></tooltip> sebesar 7,5% detik selama 8 detik. Efek ini dapat ditumpuk sampai 4 lapis. Setiap Karakter dapat memberikan 1 lapis <strong>Azure Fang's Oath</strong> untuk Varka sekali setiap detik dengan cara ini."
+    }
+  },
+  "passive3": {
+    "name": "Homebound Wind's Paean",
+    "description": {
+      "0": "Untuk setiap 1 Karakter Mondstadt dalam party, CD Elemental Skill <strong>Windbound Execution</strong> berkurang 5%.",
+      "1": "Efek ini tidak aktif dalam Domain, Trounce Domain, atau Spiral Abyss."
+    }
+  },
+  "lockedPassive": {
+    "name": "Witch's Eve Rite: Dawn's Return",
+    "description": {
+      "0": "Setelah menyelesaikan <strong>PR Penyihir: Pertanyaan Tanpa Judul</strong>, Varka akan berubah menjadi Karakter <strong>Hexerei</strong>. Saat ada setidaknya 2 Karakter Hexerei di dalam party, akan mendapatkan efek <strong>Hexerei: Secret Rite</strong> yang memperkuat Karakter Hexerei.",
+      "1": "<br/>",
+      "2": "<strong>Hexerei: Secret Rite</strong>",
+      "3": "Elemental Skill Khusus <tooltip ns=tooltips_gen baseKey18=11280002 values=[]><strong>Four Winds' Ascension</strong></tooltip> diperkuat: Saat Normal Attack Varka dalam mode <tooltip ns=tooltips_gen baseKey18=11280001 values=[]><strong>Stormward Charge</strong></tooltip> mengenai musuh, maka CD <strong>Four Winds' Ascension</strong> berkurang 1 detik."
+    }
+  },
+  "constellation1": {
+    "name": "\"Come, my friend, let us waltz beneath the moon's soft glow.\"",
+    "description": {
+      "0": "Saat Varka beralih ke mode <tooltip ns=tooltips_gen baseKey18=11280001 values=[]><strong>Stormward Charge</strong></tooltip>, akan mendapatkan 1 kali kesempatan penggunaan Elemental Skill Khusus <tooltip ns=tooltips_gen baseKey18=11280002 values=[]><strong>Four Winds' Ascension</strong></tooltip>.",
+      "1": "Selain itu, setelah berganti ke mode <strong>Stormward Charge</strong>, Varka akan mendapatkan efek <strong>Lyrical Libation</strong>: Saat melancakran Elemental Skill Khusus<strong>Four Winds' Ascension</strong> atau melancarkan Charged Attack khusus <strong>Azure Devour</strong>, Varka akan mengonsumsi efek ini dan membuat <strong>Four Winds' Ascension</strong> atau <strong>Azure Devour</strong> mengakibatkan 200% dari DMG awalnya."
+    }
+  },
+  "constellation2": {
+    "name": "\"When dawn breaks, our journey shall take flight.\"",
+    "description": {
+      "0": "Saat melancarkan Elemental Skill Khusus <tooltip ns=tooltips_gen baseKey18=11280002 values=[]><strong>Four Winds' Ascension</strong></tooltip> atau Charged Attack Khusus <strong>Azure Devour</strong>, Varka akan melancarkan satu kali serangan tambahan yang mengakibatkan <anemo>Anemo DMG Area</anemo> sebesar 800% ATK-nya."
+    }
+  },
+  "constellation3": {
+    "name": "\"O friend, quaff not the bitter wine that brings tears of woe.\"",
+    "description": {
+      "0": "Meningkatkan 3 level Elemental Skill <strong>Windbound Execution</strong>.",
+      "1": "Maksimum: Lv. 15."
+    }
+  },
+  "constellation4": {
+    "name": "\"For none may take from us our freedom of song.\"",
+    "description": {
+      "0": "Saat Varka memicu reaksi Swirl, seluruh Karakter dalam party akan mendapatkan 20% <anemo>Anemo DMG Bonus</anemo> dan juga Elemental DMG Bonus untuk jenis elemen yang terlibat dalam reaksi tersebut, berlangsung selama 10 detik."
+    }
+  },
+  "constellation5": {
+    "name": "\"Fill high the cup with fine wine, for tyrants come and go.\"",
+    "description": {
+      "0": "Meningkatkan 3 level Elemental Burst <strong>Avatar of the Northwind</strong>.",
+      "1": "Maksimum: Lv. 15."
+    }
+  },
+  "constellation6": {
+    "name": "\"Beloved Mondstadt, steadfast you shall shine.\"",
+    "description": {
+      "0": "Mode <tooltip ns=tooltips_gen baseKey18=11280001 values=[]><strong>Stormward Charge</strong></tooltip> mendapatkan penguatan:",
+      "1": [
+        "Sesaat setelah melancarkan Elemental Skill Khusus <tooltip ns=tooltips_gen baseKey18=11280002 values=[]><strong>Four Winds' Ascension</strong></tooltip>, Varka dapat menekan Elemental Skill atau menahan tombol Normal Attack  untuk melancarkan satu kali Charged Attack Khusus <strong>Azure Devour</strong> tanpa mengonsumsi jumlah penggunaan <strong>Four Winds' Ascension</strong>.",
+        "Setelah melancarkan Charged Attack Khusus <strong>Azure Devour</strong>, Varka bisa menekan Elemental Skill untuk melancarkan satu kali <strong>Four Winds' Ascension</strong> tanpa mengonsumsi jumlah penggunaan <strong>Four Winds' Ascension</strong>."
+      ],
+      "2": "<br/>",
+      "3": "Selain itu, efek <strong>Azure Fang's Oath</strong> dari Talenta Pasif <link>Wind's Vanguard</link> diperkuat: Setiap lapis <strong>Azure Fang's Oath</strong> akan meningkatkan 15% CRIT DMG Varka."
+    }
+  }
+}

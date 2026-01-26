@@ -1,7 +1,7 @@
 {
   "name": "Illuga",
   "title": "Cuore ardente dell'incubo",
-  "description": "",
+  "description": "Membro della squadra investigativa Orioli dell'incubo e il più giovane capitano tra i Guardaluce.",
   "constellationName": "Oriolus",
   "auto": {
     "name": "Lancia del giuramento",
@@ -41,13 +41,13 @@
   "skill": {
     "name": "Uccello canterino dell'alba",
     "description": {
-      "0": "Evoca il fidato uccello messaggero \"Burrasca\". Gli effetti ottenuti variano in base alla diversa pressione dell'abilità.",
+      "0": "Evoca Burrasca, il suo fidato uccello messaggero. Gli effetti ottenuti variano in base alla diversa pressione dell'abilità.",
       "1": "<br/>",
       "2": "<strong>Pressione</strong>",
-      "3": "Burrasca scatta verso i nemici di fronte a lui, infliggendo <geo>DAN da Geo</geo> ai nemici con cui entra in contatto.",
+      "3": "Burrasca si scaglia contro i nemici di fronte a sé, infliggendo <geo>DAN da Geo</geo> ai nemici con cui entra in contatto.",
       "4": "<br/>",
       "5": "<strong>Pressione prolungata</strong>",
-      "6": "Entra in modalità di mira e dà a Burrasca l'ordine di scagliarsi contro i nemici indicati, infliggendo <geo>DAN da Geo</geo> agli avversari con cui entra in contatto."
+      "6": "Entra in modalità di mira e dà a Burrasca l'ordine di scagliarsi contro i nemici puntati, infliggendo <geo>DAN da Geo</geo> agli avversari con cui entra in contatto."
     },
     "skillParams": {
       "0": "DAN da pressione",
@@ -71,10 +71,10 @@
   "burst": {
     "name": "Riflesso senz'ombra",
     "description": {
-      "0": "Accende la lanterna, infligge <geo>DAN da Geo ad area</geo> e ottiene l'effetto Canto dell'oriolo nella notte spettrale per 20 s. Illuga ottiene 21 accumuli di <strong>Canzone dell'usignolo</strong>. Quando gli attacchi normali, gli attacchi caricati, gli attacchi in picchiata, le abilità elementali e i Tripudi elementali dei membri attivi del gruppo vicini infliggono <geo>DAN da Geo</geo> agli avversari, viene consumato 1 accumulo di Canzone dell'usignolo per aumentare i DAN inflitti. L'aumento dei DAN si basa sulla maestria elementale di Illuga. Se i DAN inflitti sono di Cristallizzazione lunare, i DAN inflitti aumentano ulteriormente.",
-      "1": "Quando i <geo>DAN da Geo</geo> inflitti in questo modo colpiscono molteplici avversari, vengono consumati diversi accumuli di Canzone dell'usignolo, in base al numero di avversari colpiti.",
+      "0": "Illuga accende la lanterna, infliggendo <geo>DAN da Geo ad area</geo>, e attiva l'effetto Canto dell'oriolo nella notte spettrale per 20 s, ottenendo 21 accumuli di <tooltip ns=tooltips_gen baseKey18=11270001 values=[]><strong>Canzone dell'usignolo</strong></tooltip>. Quando gli attacchi normali, gli attacchi caricati, gli attacchi in picchiata, le abilità elementali e i Tripudi elementali dei membri attivi del gruppo vicini infliggono <geo>DAN da Geo</geo> agli avversari, viene consumato 1 accumulo di Canzone dell'usignolo per aumentare i DAN inflitti in base alla maestria elementale di Illuga. Se i DAN inflitti sono di Cristallizzazione lunare, si verifica un ulteriore aumento.",
+      "1": "Quando i <geo>DAN da Geo</geo> inflitti in questo modo colpiscono più avversari, vengono consumati più accumuli di Canzone dell'usignolo in base al numero di avversari colpiti.",
       "2": "<br/>",
-      "3": "Inoltre, se in campo ci sono dei <geo>costrutti di Geo</geo> creati dai membri vicini del gruppo mentre Illuga scatena il suo Tripudio elementale o quando i membri vicini del gruppo creano dei <geo>costrutti di Geo</geo> mentre è attivo l'effetto di Canto dell'oriolo nella notte spettrale, ogni <geo>costrutto di Geo</geo> in campo permette a Illuga di ottenere 5 accumuli aggiuntivi di Canzone dell'usignolo. Illuga può ottenere in questo modo un massimo di 15 accumuli aggiuntivi di Canzone dell'usignolo per un massimo di 20 s dopo aver innescato il suo Tripudio elementale.",
+      "3": "Inoltre, se in campo sono presenti dei <geo>costrutti di Geo</geo> creati dai membri vicini del gruppo quando Illuga scatena il suo Tripudio elementale, o se i membri vicini del gruppo creano dei <geo>costrutti di Geo</geo> mentre l'effetto di Canto dell'oriolo nella notte spettrale è attivo, ogni <geo>costrutto di Geo</geo> in campo permette a Illuga di ottenere 5 accumuli aggiuntivi di Canzone dell'usignolo. Illuga può ottenere in questo modo un massimo di 15 accumuli aggiuntivi per un massimo di 20 s dopo l'attivazione del Tripudio elementale.",
       "4": "<br/>",
       "5": "Quando vengono consumati tutti gli accumuli di Canzone dell'usignolo, o quando la durata di questo stato termina, anche l'effetto Canto dell'oriolo nella notte spettrale finisce."
     },
@@ -100,7 +100,7 @@
   "passive1": {
     "name": "Patto del Forgialuce",
     "description": {
-      "0": "Dopo aver usato l'abilità elementale <strong>Uccello canterino dell'alba</strong> o il Tripudio elementale <strong>Riflesso senz'ombra</strong>, i membri vicini del gruppo ottengono l'effetto Giuramento del Guardaluce per 20 s. I <geo>DAN da Geo</geo> inflitti agli avversari e il tasso di CRIT aumentano di un 5%, mentre i DAN da CRIT di un 10%.",
+      "0": "Dopo aver usato l'abilità elementale <strong><tooltip ns=char_Illuga_gen baseKey18=skill>Uccello canterino dell'alba</tooltip></strong> o il Tripudio elementale <strong><tooltip ns=char_Illuga_gen baseKey18=burst>Riflesso senz'ombra</tooltip></strong>, i membri vicini del gruppo ottengono l'effetto Giuramento del Guardaluce per 20 s, che aumenta di un 5% il tasso di CRIT per i <geo>DAN da Geo</geo> inflitti agli avversari, e di un 10% i DAN da CRIT.",
       "1": "<br/>",
       "2": "<strong>Presagio lunare: Barlume ascendente</strong>",
       "3": "Quando i personaggi del gruppo sono potenziati dall'effetto Giuramento del Guardaluce, la maestria elementale aumenta di 50."
@@ -109,7 +109,7 @@
   "passive2": {
     "name": "Crepuscolo del Cacciademoni",
     "description": {
-      "0": "Gli effetti di <strong>Canzone dell'usignolo</strong> sono potenziati. Quando ci sono 1/2/3 personaggi di <hydro>Hydro</hydro> o <geo>Geo</geo> nel gruppo, Canzone dell'usignolo aumenta ulteriormente i DAN. L'aumento dei DAN è pari a un 7%/14%/24% della maestria elementale di Illuga. Se i DAN sopracitati sono inflitti da una reazione di Cristallizzazione lunare, l'aumento dei DAN è pari a un 60%/120%/200% della maestria elementale di Illuga."
+      "0": "Gli effetti di <tooltip ns=tooltips_gen baseKey18=11270001 values=[]><strong>Canzone dell'usignolo</strong></tooltip> sono potenziati. Quando ci sono 1/2/3 personaggi di <hydro>Hydro</hydro> o <geo>Geo</geo> nel gruppo, i DAN di Canzone dell'usignolo aumentano ulteriormente. L'aumento dei DAN è pari a un 7%/14%/24% della maestria elementale di Illuga. Se i DAN sopracitati vengono inflitti da una reazione di Cristallizzazione lunare, l'aumento dei DAN è pari a un 48%/96%/160% della maestria elementale di Illuga."
     }
   },
   "passive3": {
@@ -122,20 +122,20 @@
     "name": "Marcia del guardiano della notte",
     "description": {
       "0": "Di notte (18:00-06:00), i membri del tuo gruppo ottengono l'effetto Piè veloce: la VEL di movimento aumenta di un 10%.",
-      "1": "Non ha effetto all'interno di domini, Domini della conquista o Abisso a spirale. Piè veloce non è cumulabile.",
-      "2": "Illuga sembra inoltre in grado di decifrare i sussurri della Caccia selvaggia..."
+      "1": "Non ha effetto all'interno di domini, Domini della conquista o Abisso a spirale e non è cumulabile.",
+      "2": "Inoltre, Illuga sembra in grado di decifrare i sussurri della Caccia selvaggia..."
     }
   },
   "constellation1": {
     "name": "Sentinella vigile",
     "description": {
-      "0": "Quando Illuga è in campo, ripristina 12 di energia elementale dopo che viene innescata una <geo>reazione di Geo</geo>. Quest'effetto può attivarsi una volta ogni 15 s."
+      "0": "Quando Illuga è in campo, la sua energia elementale si ripristina di 12 dopo che viene innescata una <geo>reazione di Geo</geo>. Quest'effetto può attivarsi una volta ogni 15 s."
     }
   },
   "constellation2": {
     "name": "Alce dal palco zannuto",
     "description": {
-      "0": "Quando l'effetto Canto dell'oriolo nella notte spettrale del Tripudio elementale <strong>Riflesso senz'ombra</strong> è attivo, per ogni 7 accumuli di <strong>Canzone dell'usignolo</strong> consumati, Illuga evoca Burrasca, infliggendo una iterazione di <geo>DAN da Geo</geo> a 1 avversario vicino. I DAN inflitti si basano su un 400% della maestria elementale e a un 200% della DIF di Illuga."
+      "0": "Quando l'effetto Canto dell'oriolo nella notte spettrale del Tripudio elementale <tooltip ns=char_Illuga_gen baseKey18=burst><strong>Riflesso senz'ombra</strong></tooltip> è attivo, per ogni 7 accumuli di <tooltip ns=tooltips_gen baseKey18=11270001 values=[]><strong>Canzone dell'usignolo</strong></tooltip> consumati, Illuga evoca Burrasca, infliggendo una singola iterazione di <geo>DAN da Geo</geo> a 1 avversario vicino. I DAN inflitti si basano su un 400% della maestria elementale e a un 200% della DIF di Illuga."
     }
   },
   "constellation3": {
@@ -154,14 +154,14 @@
   "constellation5": {
     "name": "Destriero dell'uragano",
     "description": {
-      "0": "Aumenta di 3 il livello dell'abilità elementale <strong>Uccello canterino dell'alba</strong>.",
+      "0": "Aumenta di 3 il livello dell'abilità elementale <strong><tooltip ns=char_Illuga_gen baseKey18=skill>Uccello canterino dell'alba</tooltip></strong>.",
       "1": "Il livello di potenziamento massimo è 15."
     }
   },
   "constellation6": {
     "name": "Orioli dell'incubo",
     "description": {
-      "0": "Potenzia l'effetto di Giuramento del Guardaluce del talento passivo <strong>Patto del Forgialuce</strong>. Per i <geo>DAN da Geo</geo> inflitti agli avversari, il tasso di CRIT e i DAN da CRIT aumentano rispettivamente di un 10% e di un 30%.",
+      "0": "Potenzia l'effetto di Giuramento del Guardaluce del talento passivo <strong><tooltip ns=char_Illuga_gen baseKey18=passive1>Patto del Forgialuce</tooltip></strong>: il tasso di CRIT e i DAN da CRIT dei <geo>DAN da Geo</geo> inflitti agli avversari aumentano rispettivamente di un 10% e di un 30%.",
       "1": "<br/>",
       "2": "<strong>Presagio lunare: Barlume ascendente</strong>",
       "3": "Quando i personaggi del gruppo sono potenziati dall'effetto Giuramento del Guardaluce, la maestria elementale aumenta di 80.",

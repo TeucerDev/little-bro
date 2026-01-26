@@ -1,0 +1,173 @@
+{
+  "name": "Varka",
+  "title": "",
+  "description": "",
+  "constellationName": "",
+  "auto": {
+    "name": "Vals fulgurante",
+    "fields": {
+      "normal": {
+        "0": "<strong>Ataque Normal</strong>",
+        "1": "Emula una antigua danza de batalla caballeresca y empuña sus dos espadas para realizar hasta 5 golpes consecutivos."
+      },
+      "charged": {
+        "0": "<strong>Ataque Cargado</strong>",
+        "1": "Consume cierta cantidad de Aguante para arremeter hacia delante y realizar un golpe más poderoso con sus dos espadas."
+      },
+      "plunging": {
+        "0": "<strong>Ataque Descendente</strong>",
+        "1": "Se lanza desde el aire para golpear el suelo, atacando a los enemigos que encuentre en su trayecto e infligiendo Daño en el AdE en el momento del impacto."
+      }
+    },
+    "skillParams": {
+      "0": "Daño de 1er golpe",
+      "1": "Daño de 2.º golpe",
+      "2": "Daño de 3er golpe",
+      "3": "Daño de 4.º golpe",
+      "4": "Daño de 5.º golpe",
+      "5": "Daño de ATQ Cargado",
+      "6": "Coste de Aguante de ATQ Cargado",
+      "7": "Daño de Caída",
+      "8": "Daño de impacto de caída baja/alta",
+      "9": "",
+      "10": "",
+      "11": "",
+      "12": "",
+      "13": "",
+      "14": "",
+      "15": ""
+    }
+  },
+  "skill": {
+    "name": "Tempestad precipitante",
+    "description": {
+      "0": "Muestra la esencia de la Técnica de espada Favonius con una fuerza absoluta y produce diferentes efectos dependiendo de si se pulsa una vez o se mantiene pulsado.",
+      "1": "<br/>",
+      "2": "<strong>Pulsar una vez</strong>",
+      "3": "Salta hacia delante para realizar un tajo que inflige <anemo>Daño Anemo en el AdE</anemo> y entra en el modo de <tooltip ns=tooltips_gen baseKey18=11280001 values=[]><strong>acometida huracanada</strong></tooltip>.",
+      "4": "En este modo, el daño de los Ataques Normales de Varka aumentará y no podrá realizar Ataques Descendentes. Además, al ejecutar un Ataque Normal o Cargado, empuñará sus dos espadas para infligir daño del elemento correspondiente, el cual no puede sustituirse imbuyéndose de otro elemento, en función de los tipos elementales de los personajes del equipo.",
+      "5": "Asimismo, si en el equipo hay algún personaje <pyro>Pyro</pyro>, <hydro>Hydro</hydro>, <electro>Electro</electro> o <cryo>Cryo</cryo> mientras Varka está en el modo de <strong>acometida huracanada</strong>, su Habilidad Elemental, <strong>Tempestad precipitante</strong>, se remplazará por la Habilidad Elemental especial <tooltip ns=tooltips_gen baseKey18=11280002 values=[]><strong>Vientos alzantes</strong></tooltip>, la cual infligirá tanto daño del elemento correspondiente como <anemo>Daño Anemo</anemo>. Varka también podrá consumir usos de la Habilidad Elemental especial <strong>Vientos alzantes</strong> para realizar el Ataque Cargado especial <strong>Devorazul</strong>, el cual no consume Aguante e inflige tanto daño del elemento correspondiente como <anemo>Daño Anemo</anemo>.",
+      "6": "<br/>",
+      "7": "<strong>Mantener pulsado</strong>",
+      "8": "Salta hacia delante tras un tiempo de carga. Cuanto más largo sea este tiempo, más lejos saltará."
+    },
+    "skillParams": {
+      "0": "Daño de habilidad",
+      "1": "Duración de la habilidad",
+      "2": "Daño de 1er golpe",
+      "3": "Daño de 2.º golpe",
+      "4": "Daño de 3er golpe",
+      "5": "Daño de 4.º golpe",
+      "6": "Daño de 5.º golpe",
+      "7": "Daño de ATQ Cargado",
+      "8": "Daño habilidad subsecuente",
+      "9": "Daño adicional de ATQ Cargado subsecuente",
+      "10": "TdE de habilidad subsecuente",
+      "11": "TdE de habilidad",
+      "12": "TdE de Vientos alzantes",
+      "13": "",
+      "14": "",
+      "15": ""
+    }
+  },
+  "burst": {
+    "name": "Soy el viento boreal",
+    "description": {
+      "0": "Evocando el título del poderoso Caballero de Boreas, ejecuta hacia dos potentes tajos consecutivos que infligen <anemo>Daño Anemo</anemo> dos veces.",
+      "1": "Si en el equipo hay algún personaje <pyro>Pyro</pyro>, <hydro>Hydro</hydro>, <electro>Electro</electro> o <cryo>Cryo</cryo>, el primer tajo infligirá daño del elemento correspondiente según dicho orden de prioridad."
+    },
+    "skillParams": {
+      "0": "Daño de 1er golpe",
+      "1": "Daño de 2.º golpe",
+      "2": "TdE",
+      "3": "Energía Elemental",
+      "4": "",
+      "5": "",
+      "6": "",
+      "7": "",
+      "8": "",
+      "9": "",
+      "10": "",
+      "11": "",
+      "12": "",
+      "13": "",
+      "14": "",
+      "15": ""
+    }
+  },
+  "passive1": {
+    "name": "Marcha del viento del alba",
+    "description": {
+      "0": "Cuando en el equipo haya algún personaje <pyro>Pyro</pyro>, <hydro>Hydro</hydro>, <electro>Electro</electro> o <cryo>Cryo</cryo>, por cada 1000 pts. de ATQ que tenga Varka, obtendrá un 10% de <anemo>Bono de Daño Anemo</anemo> y bono de daño del elemento correspondiente (entre los elementos anteriormente mencionados, solamente uno podrá beneficiarse de un bono de daño obtenido de esta manera). Como máximo, el bono de daño obtenido de este modo solo podrá ser del 25%.",
+      "1": "<br/>",
+      "2": "Además, si en el equipo hay al menos 2 personajes <anemo>Anemo</anemo> o 2 personajes <pyro>Pyro</pyro>, <hydro>Hydro</hydro>, <electro>Electro</electro> o <cryo>Cryo</cryo>, los Ataques Normales y Cargados, el Ataque Cargado especial <strong>Devorazul</strong> y la Habilidad Elemental especial <tooltip ns=tooltips_gen baseKey18=11280002 values=[]><strong>Vientos alzantes</strong></tooltip> que Varka ejecute en el modo <tooltip ns=tooltips_gen baseKey18=11280001 values=[]><strong>acometida huracanada</strong></tooltip> infligirán un 140% de su daño original. Si en el equipo hay al menos 2 personajes <anemo>Anemo</anemo> y 2 personajes <pyro>Pyro</pyro>, <hydro>Hydro</hydro>, <electro>Electro</electro> o <cryo>Cryo</cryo> al mismo tiempo, dicho efecto aumentará hasta un 220%."
+    }
+  },
+  "passive2": {
+    "name": "Estandarte del viento",
+    "description": {
+      "0": "Cuando un personaje cercano del equipo causa una reacción de Torbellino, Varka obtiene 1 carga de <strong>juramento colmilloazur</strong>, lo cual aumenta en un 7.5% el daño infligido por los Ataques Normales y Cargados, el Ataque Cargado especial <strong>Devorazul</strong> y la Habilidad Elemental especial <tooltip ns=tooltips_gen baseKey18=11280002 values=[]><strong>Vientos alzantes</strong></tooltip> que Varka ejecute en el modo <tooltip ns=tooltips_gen baseKey18=11280001 values=[]><strong>acometida huracanada</strong></tooltip>. Este efecto dura 8 s y puede acumularse hasta 4 veces. Como máximo, cada personaje puede otorgar a Varka 1 carga de <strong>juramento colmilloazur</strong> por segundo de esta forma."
+    }
+  },
+  "passive3": {
+    "name": "Peán del viento retornante",
+    "description": {
+      "0": "Por cada personaje de Mondstadt que haya en el equipo, el TdE de la Habilidad Elemental, <strong>Tempestad precipitante</strong>, se reduce en un 5%.",
+      "1": "Este efecto no se activará en dominios, Dominios de la cruzada o en la Espiral del Abismo."
+    }
+  },
+  "lockedPassive": {
+    "name": "Rito de la noche de brujas: Retorno del alba",
+    "description": {
+      "0": "Tras completar la misión <strong>«Lecciones del Aquelarre: De preguntas enigmáticas»</strong>, Varka se convertirá en un personaje <strong>taumatúrgico</strong>. Cuando en el equipo haya al menos 2 personajes taumatúrgicos, estos obtendrán el efecto de <strong>taumaturgia: rito secreto</strong>, el cual les otorgará ciertos fortalecimientos.",
+      "1": "<br/>",
+      "2": "<strong>Taumaturgia: rito secreto</strong>",
+      "3": "Fortalece la Habilidad Elemental especial <tooltip ns=tooltips_gen baseKey18=11280002 values=[]><strong>Vientos alzantes</strong></tooltip>, de manera que, cuando Varka golpea a un enemigo con un Ataque Normal mientras está en modo <tooltip ns=tooltips_gen baseKey18=11280001 values=[]><strong>acometida huracanada</strong></tooltip>, el TdE de <strong>Vientos alzantes</strong> se reduce en 1 s."
+    }
+  },
+  "constellation1": {
+    "name": "“Ven y bailemos bajo la luz de la luna”",
+    "description": {
+      "0": "Cuando Varka cambia al modo <tooltip ns=tooltips_gen baseKey18=11280001 values=[]><strong>acometida huracanada</strong></tooltip>, obtendrá 1 uso adicional de su Habilidad Elemental especial <tooltip ns=tooltips_gen baseKey18=11280002 values=[]><strong>Vientos alzantes</strong></tooltip>.",
+      "1": "Además, tras cambiar al modo <strong>acometida huracanada</strong>, Varka obtendrá el efecto de <strong>vino lírico</strong>, el cual consumirá al usar la Habilidad Elemental especial <strong>Vientos alzantes</strong> o al ejecutar el Ataque Cargado especial <strong>Devorazul</strong> para que dichos ataques inflijan un 200% de su daño original."
+    }
+  },
+  "constellation2": {
+    "name": "“Emprenderemos nuestro camino al amanecer”",
+    "description": {
+      "0": "Al usar la Habilidad Elemental especial <tooltip ns=tooltips_gen baseKey18=11280002 values=[]><strong>Vientos alzantes</strong></tooltip> o al ejecutar el Ataque Cargado especial <strong>Devorazul</strong>, Varka realizará un ataque adicional que inflige <anemo>Daño Anemo en el AdE</anemo> equivalente al 800% de su ATQ."
+    }
+  },
+  "constellation3": {
+    "name": "“No bebas más del amargo vino melancólico”",
+    "description": {
+      "0": "Aumenta el nivel de habilidad de <strong>Tempestad precipitante</strong> +3.",
+      "1": "Puede ser aumentado hasta Niv. 15."
+    }
+  },
+  "constellation4": {
+    "name": "“Pues nadie puede arrebatarnos la libertad de cantar”",
+    "description": {
+      "0": "Cuando Varka causa una reacción de Torbellino, todos los personajes cercanos del equipo obtienen durante 10 s un 20% de <anemo>Bono de Daño Anemo</anemo> y bono de daño del elemento correspondiente en función de los elementos que hayan contribuido a la reacción."
+    }
+  },
+  "constellation5": {
+    "name": "“Llena la copa de vino, pues los tiranos van y vienen”",
+    "description": {
+      "0": "Aumenta el nivel de habilidad de <strong>Soy el viento boreal</strong> +3.",
+      "1": "Puede ser aumentado hasta Niv. 15."
+    }
+  },
+  "constellation6": {
+    "name": "“Mi amada Mondstadt, tan firme como siempre”",
+    "description": {
+      "0": "Fortalece el modo <tooltip ns=tooltips_gen baseKey18=11280001 values=[]><strong>acometida huracanada</strong></tooltip>:",
+      "1": [
+        "Durante un breve periodo de tiempo tras usar la Habilidad Elemental especial <tooltip ns=tooltips_gen baseKey18=11280002 values=[]><strong>Vientos alzantes</strong></tooltip>, Varka puede pulsar una vez la Habilidad Elemental o mantener pulsado el Ataque Normal para realizar un Ataque Cargado especial <strong>Devorazul</strong> sin consumir ningún uso de <strong>Vientos alzantes</strong>.",
+        "Tras ejecutar el Ataque Cargado especial <strong>Devorazul</strong>, Varka puede pulsar una vez la Habilidad Elemental para usar <strong>Vientos alzantes</strong> una vez sin consumir usos."
+      ],
+      "2": "<br/>",
+      "3": "Además, el efecto de <strong>juramento colmilloazur</strong> del talento pasivo <link>Estandarte del viento</link> se fortalece, de manera que cada carga de <strong>juramento colmilloazur</strong> aumenta el Daño CRIT de Varka en un 15%."
+    }
+  }
+}

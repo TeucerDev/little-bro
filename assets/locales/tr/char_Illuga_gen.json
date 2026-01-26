@@ -1,7 +1,7 @@
 {
   "name": "Illuga",
   "title": "Kabusun Alevli Kalbi",
-  "description": "",
+  "description": "Kabus Sarıasmaları araştırma ekibinin bir üyesi ve Işık Muhafızlarının en genç ekip komutanı.",
   "constellationName": "Sarıasma",
   "auto": {
     "name": "Söz Erinin Mızrağı",
@@ -70,7 +70,7 @@
   "burst": {
     "name": "Gölgesiz Yansıma",
     "description": {
-      "0": "Lambayı yakmak <geo>Toprak Alan Hasarı</geo> verir ve 20 saniyeliğine Lanetli Gecede Öten Sarıasma etkisi kazanılır. Bu etki aktifken Illuga 21 kademe <strong>Bülbülün Şarkısı</strong> kazanır. Yakındaki aktif grup üyelerinin Normal Saldırıları, Yüklü Saldırıları, Havadan Saldırıları, Element Becerileri ve Element Patlamaları düşmanlara <geo>Toprak Hasarı</geo> verdiğinde 1 kademe Bülbülün Şarkısı tüketilir ve verilen Hasar artar. Hasar artışı Illuga'nın Element Ustalığına bağlıdır. Hasar, Ay Kristalleşmesi ile verilirse daha da artar.",
+      "0": "Lambayı yakmak <geo>Toprak Alan Hasarı</geo> verir ve 20 saniyeliğine Lanetli Gecede Öten Sarıasma etkisi kazanılır. Bu etki aktifken Illuga 21 kademe <tooltip ns=tooltips_gen baseKey18=11270001 values=[]><strong>Bülbülün Şarkısı</strong></tooltip> kazanır. Yakındaki aktif grup üyelerinin Normal Saldırıları, Yüklü Saldırıları, Havadan Saldırıları, Element Becerileri ve Element Patlamaları düşmanlara <geo>Toprak Hasarı</geo> verdiğinde 1 kademe Bülbülün Şarkısı tüketilir ve verilen Hasar artar. Hasar artışı Illuga'nın Element Ustalığına bağlıdır. Hasar, Ay Kristalleşmesi ile verilirse daha da artar.",
       "1": "Bu şekilde verilen <geo>Toprak Hasarı</geo> birden fazla düşmana isabet ettiğinde isabet alan düşman sayısına bağlı olarak birden fazla Bülbülün Şarkısı kademesi tüketilir.",
       "2": "<br/>",
       "3": "Ayrıca savaş alanında yakındaki grup üyeleri tarafından oluşturulmuş <geo>Toprak Yapıları</geo> varken Illuga Element Patlamasını kullandığında veya Lanetli Gecede Öten Sarıasma aktifken yakındaki grup üyeleri <geo>Toprak Yapıları</geo> oluşturduğunda, savaş alanındaki her bir <geo>Toprak Yapısı</geo> Illuga'ya ilave 5 Bülbülün Şarkısı kademesi kazandırır. Illuga Element Patlamasını kullandıktan sonra 20 saniyeye kadar bu şekilde en fazla 15 ilave Bülbülün Şarkısı kademesi kazanabilir.",
@@ -99,7 +99,7 @@
   "passive1": {
     "name": "Meşale Ustasının Ahdi",
     "description": {
-      "0": "<strong>Şafak Şarkısı Kuşu</strong> Element Becerisi veya <strong>Gölgesiz Yansıma</strong> Element Patlaması kullanıldıktan sonra 20 saniyeliğine yakındaki grup üyeleri Işık Muhafızı Yemini etkisini kazanır: Düşmanlara verilen <geo>Toprak Hasarı</geo> ve Kritik Oranı %5, Kritik Hasar ise %10 artar.",
+      "0": "<strong><tooltip ns=char_Illuga_gen baseKey18=skill>Şafak Şarkısı Kuşu</tooltip></strong> Element Becerisi veya <strong><tooltip ns=char_Illuga_gen baseKey18=burst>Gölgesiz Yansıma</tooltip></strong> Element Patlaması kullanıldıktan sonra 20 saniyeliğine yakındaki grup üyeleri Işık Muhafızı Yemini etkisini kazanır: Düşmanlara verilen <geo>Toprak Hasarı</geo> için Kritik Oranı %5, Kritik Hasar ise %10 artar.",
       "1": "<br/>",
       "2": "<strong>Ay Sembolü: Yükselen Parıltı</strong>",
       "3": "Grup üyeleri Işık Muhafızı Yemini etkisindeyken Element Ustalığı 50 artar."
@@ -108,7 +108,7 @@
   "passive2": {
     "name": "İblis Avcısının Alacakaranlığı",
     "description": {
-      "0": "<strong>Bülbülün Şarkısı</strong> etkileri gelişir: Grupta 1/2/3 <hydro>Su</hydro> veya <geo>Toprak</geo> karakteri olduğunda Bülbülün Şarkısı Hasarı daha da artar. Hasar artışı, Illuga'nın Element Ustalığının %7/%14/%24'üne eşittir. Söz konusu Hasar bir Ay Kristalleşmesi tepkimesiyle verilirse Hasar artışı, Illuga'nın Element Ustalığının %60/%120/%200'üne eşit olur."
+      "0": "<tooltip ns=tooltips_gen baseKey18=11270001 values=[]><strong>Bülbülün Şarkısı</strong></tooltip> etkileri gelişir: Grupta 1/2/3 <hydro>Su</hydro> veya <geo>Toprak</geo> karakteri olduğunda Bülbülün Şarkısı Hasarı daha da artar. Hasar artışı, Illuga'nın Element Ustalığının %7/%14/%24'üne eşittir. Söz konusu Hasar bir Ay Kristalleşmesi tepkimesiyle verilirse Hasar artışı, Illuga'nın Element Ustalığının %48/%96/%160'ına eşit olur."
     }
   },
   "passive3": {
@@ -134,7 +134,7 @@
   "constellation2": {
     "name": "Sivri Boynuzlu Geyik",
     "description": {
-      "0": "<strong>Gölgesiz Yansıma</strong> Element Patlamasının Lanetli Gecede Öten Sarıasma etkisi aktifken tüketilen her 7 <strong>Bülbülün Şarkısı</strong> kademesi için Illuga, Fırtına'yı çağırarak yakındaki 1 düşmana tek seferlik <geo>Toprak Hasarı</geo> verir. Verilen Hasar, Illuga'nın Element Ustalığının %400'ü ve Savunmasının %200'ü kadardır."
+      "0": "<tooltip ns=char_Illuga_gen baseKey18=burst><strong>Gölgesiz Yansıma</strong></tooltip> Element Patlamasının Lanetli Gecede Öten Sarıasma etkisi aktifken tüketilen her 7 <tooltip ns=tooltips_gen baseKey18=11270001 values=[]><strong>Bülbülün Şarkısı</strong></tooltip> kademesi için Illuga, Fırtına'yı çağırarak yakındaki 1 düşmana tek seferlik <geo>Toprak Hasarı</geo> verir. Verilen Hasar, Illuga'nın Element Ustalığının %400'ü ve Savunmasının %200'ü kadardır."
     }
   },
   "constellation3": {
@@ -153,14 +153,14 @@
   "constellation5": {
     "name": "Kasırga Küheylanı",
     "description": {
-      "0": "<strong>Şafak Şarkısı Kuşu</strong> Element Becerisinin Seviyesini 3 artırır.",
+      "0": "<strong><tooltip ns=char_Illuga_gen baseKey18=skill>Şafak Şarkısı Kuşu</tooltip></strong> Element Becerisinin Seviyesini 3 artırır.",
       "1": "Maksimum yükseltme seviyesi 15'tir."
     }
   },
   "constellation6": {
     "name": "Kabus Sarıasmaları",
     "description": {
-      "0": "<strong>Meşale Ustasının Ahdi</strong> Pasif Yeteneğindeki Işık Muhafızı Yemini etkisini geliştirir: Düşmanlara verilen <geo>Toprak Hasarı</geo> için Kritik Oranı %10, Kritik Hasar %30 artar.",
+      "0": "<strong><tooltip ns=char_Illuga_gen baseKey18=passive1>Meşale Ustasının Ahdi</tooltip></strong> Pasif Yeteneğindeki Işık Muhafızı Yemini etkisini geliştirir: Düşmanlara verilen <geo>Toprak Hasarı</geo> için Kritik Oranı %10, Kritik Hasar %30 artar.",
       "1": "<br/>",
       "2": "<strong>Ay Sembolü: Yükselen Parıltı:</strong>",
       "3": "Karakterler Işık Muhafızı Yemini etkisindeyken Element Ustalığı 80 artar.",

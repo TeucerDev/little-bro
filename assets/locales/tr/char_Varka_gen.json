@@ -1,0 +1,173 @@
+{
+  "name": "Varka",
+  "title": "???",
+  "description": "",
+  "constellationName": "Büyük Kurt",
+  "auto": {
+    "name": "Dans Eden Parıltı",
+    "fields": {
+      "normal": {
+        "0": "<strong>Normal Saldırı</strong>",
+        "1": "Varka, kadim bir şövalye savaş dansını taklit ederek çift kılıcıyla arka arkaya en fazla 5 saldırı yapar."
+      },
+      "charged": {
+        "0": "<strong>Yüklü Saldırı</strong>",
+        "1": "Belirli miktarda Dayanıklılık harcayarak ileri doğru atılır ve öne doğru oldukça güçlü bir çift kılıç saldırısı yapar."
+      },
+      "plunging": {
+        "0": "<strong>Havadan Saldırı</strong>",
+        "1": "Havadayken dalışa geçerek yere vurur ve yoluna çıkan düşmanlara Alan Hasarı verir."
+      }
+    },
+    "skillParams": {
+      "0": "1 Vuruş Hasarı",
+      "1": "2 Vuruş Hasarı",
+      "2": "3 Vuruş Hasarı",
+      "3": "4 Vuruş Hasarı",
+      "4": "5 Vuruş Hasarı",
+      "5": "Yüklü Saldırı Hasarı",
+      "6": "Yüklü Saldırı Dayanıklılık Maliyeti",
+      "7": "Havadan Saldırı Hasarı",
+      "8": "Havadan Saldırı Hasarı (Alçaktan/Yüksekten)",
+      "9": "",
+      "10": "",
+      "11": "",
+      "12": "",
+      "13": "",
+      "14": "",
+      "15": ""
+    }
+  },
+  "skill": {
+    "name": "Rüzgarın İnfazı",
+    "description": {
+      "0": "Favonius Kılıç Tekniğinin gerçek özünü mutlak güçle ortaya çıkarır. Becerinin Dokunma veya Basılı Tutma durumuna bağlı olarak farklı etkiler yaratır.",
+      "1": "<br/>",
+      "2": "<strong>Dokun</strong>",
+      "3": "İleri atılıp tek bir akıcı hareketle keserek <anemo>Rüzgar Alan Hasarı</anemo> verir ve <tooltip ns=tooltips_gen baseKey18=11280001 values=[]><strong>Fırtına Hücumu</strong></tooltip> moduna geçer.",
+      "4": "<strong>Fırtına Hücumu</strong> modundayken Varka'nın Normal Saldırı Hasarı artar ve Havadan Saldırı yapamaz. Varka Normal veya Yüklü Saldırı yaptığında çift elli kılıçları sırasıyla gruptaki karakterlerin Element Türlerine göre ilgili Element Hasarını verir. Bu Element Hasarı başka tesirlerle değiştirilemez.",
+      "5": "Ayrıca <strong>Fırtına Hücumu</strong> modundayken grupta <pyro>Ateş</pyro>, <hydro>Su</hydro>, <electro>Elektrik</electro> veya <cryo>Buz</cryo> karakterleri varsa Varka'nın <strong>Rüzgarın İnfazı</strong> Element Becerisi değişerek ilgili Element Hasarını ve <anemo>Rüzgar Hasarı</anemo> veren özel Element Becerisi <tooltip ns=tooltips_gen baseKey18=11280002 values=[]><strong>Dört Rüzgarın Yükselişi</strong></tooltip> olur. Ayrıca Varka, <strong>Dört Rüzgarın Yükselişi</strong> özel Element Becerisinin kullanım hakkını harcayarak Dayanıklılık tüketmeden ilgili Element Hasarını ve <anemo>Rüzgar Hasarı</anemo> veren özel Yüklü Saldırı <strong>Gök Yutan</strong>ı gerçekleştirebilir.",
+      "6": "<br/>",
+      "7": "<strong>Basılı Tut</strong>",
+      "8": "Bir süre güç topladıktan sonra ileri atılır. Güç toplama süresi atılma mesafesini artırır."
+    },
+    "skillParams": {
+      "0": "Beceri Hasarı",
+      "1": "Beceri Süresi",
+      "2": "1 Vuruş Hasarı",
+      "3": "2 Vuruş Hasarı",
+      "4": "3 Vuruş Hasarı",
+      "5": "4 Vuruş Hasarı",
+      "6": "5 Vuruş Hasarı",
+      "7": "Yüklü Saldırı Hasarı",
+      "8": "Takip Eden Beceri Hasarı",
+      "9": "Takip Eden Yüklü Saldırı Bonus Hasarı",
+      "10": "Takip Eden Beceri BS",
+      "11": "Beceri BS",
+      "12": "Dört Rüzgarın Yükselişi BS",
+      "13": "",
+      "14": "",
+      "15": ""
+    }
+  },
+  "burst": {
+    "name": "Kuzey Rüzgarının Tezahürü",
+    "description": {
+      "0": "Kudretli Poyraz Şövalyesi adına öne doğru güçlü bir ikili darbe saldırısı yaparak 2 defa <anemo>Rüzgar Hasarı</anemo> verir.",
+      "1": "Grupta <pyro>Ateş</pyro>, <hydro>Su</hydro>, <electro>Elektrik</electro> veya <cryo>Buz</cryo> karakteri varsa ilk darbe, bahsedilen bu Element Türlerinin öncelik sırasına göre ilgili Element Hasarını verir."
+    },
+    "skillParams": {
+      "0": "1 Vuruş Hasarı",
+      "1": "2 Vuruş Hasarı",
+      "2": "BS",
+      "3": "Enerji Maliyeti",
+      "4": "",
+      "5": "",
+      "6": "",
+      "7": "",
+      "8": "",
+      "9": "",
+      "10": "",
+      "11": "",
+      "12": "",
+      "13": "",
+      "14": "",
+      "15": ""
+    }
+  },
+  "passive1": {
+    "name": "Şafak Rüzgarının Yürüyüşü",
+    "description": {
+      "0": "Grupta <pyro>Ateş</pyro>, <hydro>Su</hydro>, <electro>Elektrik</electro> veya <cryo>Buz</cryo> karakteri varken Varka'nın sahip olduğu her 1.000 Saldırı puanı, Varka'ya %10 <anemo>Rüzgar Hasarı Bonusu</anemo> ve buna karşılık gelen bir Element Hasarı Bonusu verir. Bahsedilen Element Türlerinden yalnızca biri bu şekilde Hasar Bonusu alabilir. Bu şekilde en fazla %25 Hasar Bonusu kazanılabilir.",
+      "1": "<br/>",
+      "2": "Ayrıca grupta en az 2 <anemo>Rüzgar</anemo> karakteri veya aynı elementten en az 2 <pyro>Ateş</pyro>, <hydro>Su</hydro>, <electro>Elektrik</electro> ya da <cryo>Buz</cryo> karakteri varsa Varka, <tooltip ns=tooltips_gen baseKey18=11280001 values=[]><strong>Fırtına Hücumu</strong></tooltip> etkisindeyken kullandığı Normal Saldırılar, Yüklü Saldırılar, <strong>Gök Yutan</strong> ve özel Yüklü Saldırı ve <tooltip ns=tooltips_gen baseKey18=11280002 values=[]><strong>Dört Rüzgarın Yükselişi</strong></tooltip> özel Element Becerisi orijinal Hasarının %140'ı kadar Hasar verir. Grupta aynı anda en az 2 <anemo>Rüzgar</anemo> karakteri ve <pyro>Ateş</pyro>, <hydro>Su</hydro>, <electro>Elektrik</electro> veya <cryo>Buz</cryo> elementlerinden aynı elementte en az 2 karakter daha varsa bahsedilen etki %220'ye yükseltilir."
+    }
+  },
+  "passive2": {
+    "name": "Rüzgarın Öncüsü",
+    "description": {
+      "0": "Yakındaki grup üyeleri Girdap tepkimesi tetiklediğinde Varka bir <strong>Mavi Dişin Yemini</strong> kademesi kazanır. Bu kademe <tooltip ns=tooltips_gen baseKey18=11280001 values=[]><strong>Fırtına Hücumu</strong></tooltip> durumundayken 8 saniyeliğine Normal Saldırıların, Yüklü Saldırıların, özel Yüklü Saldırı <strong>Gök Yutan</strong>ın ve özel Element Becerisi <tooltip ns=tooltips_gen baseKey18=11280002 values=[]><strong>Dört Rüzgarın Yükselişi</strong></tooltip>nin verdiği Hasarı %7,5 artırır. 4 kademeye kadar birikebilir. Her karakter Varka'ya bu şekilde her saniye 1 kademe <strong>Mavi Dişin Yemini</strong> kazandırabilir."
+    }
+  },
+  "passive3": {
+    "name": "Eve Dönen Rüzgarın Şarkısı",
+    "description": {
+      "0": "Mondstadtlı her grup üyesi başına <strong>Rüzgarın İnfazı</strong> Element Becerisinin bekleme süresi %5 azalır.",
+      "1": "Bu etki Zindanlarda, Ezici Zindanlarda veya Hiçlik Sarmalında tetiklenmez."
+    }
+  },
+  "lockedPassive": {
+    "name": "Cadının Gece Ayini: Şafağın Dönüşü",
+    "description": {
+      "0": "<strong>Cadının Ödevi: Başlıksız Soru</strong> tamamlandıktan sonra Varka bir <strong>Cadılık</strong> karakteri olur. Grupta en az 2 Cadılık karakteri olduğunda, Cadılık karakterlerini güçlendiren <strong>Cadılık: Saklı Ayin</strong> etkisi kazanırsın.",
+      "1": "<br/>",
+      "2": "<strong>Cadılık: Saklı Ayin</strong>",
+      "3": "<tooltip ns=tooltips_gen baseKey18=11280002 values=[]>Dört Rüzgarın Yükselişi</tooltip> özel Element Becerisini geliştirir: Varka <tooltip ns=tooltips_gen baseKey18=11280001 values=[]><strong>Fırtına Hücumu</strong></tooltip> modundayken Nromal Saldırılarıyla bir düşmana vurduğunda <strong>Dört Rüzgarın Yükselişi</strong> bekleme süresi 1sn azalır."
+    }
+  },
+  "constellation1": {
+    "name": "\"Gel Dostum, Ayın Yumuşak Parıltısında Dans Edelim\"",
+    "description": {
+      "0": "Varka <tooltip ns=tooltips_gen baseKey18=11280001 values=[]><strong>Fırtına Hücumuna</strong></tooltip> geçtiğinde özel Element Becerisi <tooltip ns=tooltips_gen baseKey18=11280002 values=[]><strong>Dört Rüzgarın Yükselişi</strong></tooltip> için ek bir kullanım hakkı elde eder.",
+      "1": "Ayrıca <strong>Fırtına Hücumuna</strong> geçtikten sonra Varka, <strong>Lirik Ziyafet</strong> etkisini kazanır: Özel Element Becerisi <strong>Dört Rüzgarın Yükselişi</strong> kullanıldığında veya özel Yüklü Saldırı <strong>Gök Yutan</strong> gerçekleştirildiğinde Varka, bu etkiyi tüketerek <strong>Dört Rüzgarın Yükselişi</strong> veya <strong>Gök Yutan</strong> tarafından verilen orijinal Hasarın %200'ü kadar Hasar verebilir."
+    }
+  },
+  "constellation2": {
+    "name": "\"Şafak Söktüğünde Başlayacak Yolculuğumuz\"",
+    "description": {
+      "0": "Özel Element Becerisi <tooltip ns=tooltips_gen baseKey18=11280002 values=[]><strong>Dört Rüzgarın Yükselişi</strong></tooltip> kullanıldığında veya özel Yüklü Saldırı <strong>Gök Yutan</strong> gerçekleştirildiğinde Varka ek bir vuruş yaparak Saldırısının %800'ü kadar <anemo>Rüzgar Alan Hasarı</anemo> verir."
+    }
+  },
+  "constellation3": {
+    "name": "\"Ey Dost, Kederli Gözyaşları Getiren Acı Şarabı İçme\"",
+    "description": {
+      "0": "<strong>Rüzgarın İnfazı</strong> Element Becerisinin Seviyesini 3 artırır.",
+      "1": "Maksimum yükseltme seviyesi 15'tir."
+    }
+  },
+  "constellation4": {
+    "name": "\"Kimse Alamaz Şarkı Söyleme Özgürlüğümüzü Elimizden\"",
+    "description": {
+      "0": "Varka bir Girdap tepkimesi tetiklediğinde tepkimeye dahil olan Element Türlerine bağlı olarak 10 saniyeliğine yakındaki tüm grup üyeleri %20 <anemo>Rüzgar Hasarı Bonusu</anemo> ve ilgili Element Hasarı Bonusu kazanır."
+    }
+  },
+  "constellation5": {
+    "name": "\"Despotlar Gelir Geçer, Sen Kadehini En İyi Şarapla Doldur\"",
+    "description": {
+      "0": "<strong>Kuzey Rüzgarının Tezahürü</strong> Element Patlamasının Seviyesini 3 artırır.",
+      "1": "Maksimum yükseltme seviyesi 15'tir."
+    }
+  },
+  "constellation6": {
+    "name": "\"Sevgili Mondstadt, Daima Parlayacaksın Sen\"",
+    "description": {
+      "0": "<tooltip ns=tooltips_gen baseKey18=11280001 values=[]><strong>Fırtına Hücumu</strong></tooltip> güçlendirilir:",
+      "1": [
+        "Özel Element Becerisi <tooltip ns=tooltips_gen baseKey18=11280002 values=[]><strong>Dört Rüzgarın Yükselişi</strong></tooltip> kullanıldıktan kısa bir süre sonra Varka'nın Element Becerisine dokunmak veya Normal Saldırısını basılı tutmak, <strong>Dört Rüzgarın Yükselişi</strong> kullanım hakkı harcamaz ve özel Yüklü Saldırısı <strong>Gök Yutanı</strong> gerçekleştirir.",
+        "Özel Yüklü Saldırı <strong>Gök Yutan</strong> gerçekleştirildikten sonra Varka'nın Element Becerisine dokunmak, <strong>Dört Rüzgarın Yükselişi</strong> kullanım hakkı harcamadan bir <strong>Dört Rüzgarın Yükselişi</strong> uygular."
+      ],
+      "2": "<br/>",
+      "3": "Ayrıca, Rüzgarın Öncüsü Pasif Yeteneğindeki <strong>Mavi Dişin Yemini</strong> etkisi güçlendirilir: Her <strong>Mavi Dişin Yemini</strong> kademesi Varka'nın Kritik Hasarını %15 artırır."
+    }
+  }
+}

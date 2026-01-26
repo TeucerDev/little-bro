@@ -1,7 +1,7 @@
 {
   "name": "Illuga",
   "title": "หัวใจเพลิงผลาญฝันร้าย",
-  "description": "",
+  "description": "สมาชิกหน่วยสืบสวน \"นกขมิ้นแห่งราตรีฝันร้าย\" และหัวหน้าหน่วย ที่อายุน้อยที่สุดของผู้เฝ้าประภาคาร",
   "constellationName": "Oriolus",
   "auto": {
     "name": "Oathkeeper's Spear",
@@ -71,7 +71,7 @@
   "burst": {
     "name": "Shaowless Reflection",
     "description": {
-      "0": "ส่องไฟให้สว่าง สร้าง<geo>ความเสียหายหินวงกว้าง</geo> และได้รับเอฟเฟกต์ \"Haunted Night's Oriole-Song\" เป็นเวลา 20 วินาที: ในช่วงเวลาต่อเนื่อง Illuga จะได้รับ <strong>Nightingale's Song (บทเพลงไนติงเกล)</strong> 21 ชั้น เมื่อตัวละครในทีมที่เข้าร่วมการต่อสู้ในขณะนั้นที่อยู่ใกล้เคียง ใช้การโจมตีปกติ, ชาร์จโจมตี, โจมตีพุ่งลงจากอากาศ, สกิลธาตุ หรือท่าไม้ตาย สร้าง<geo>ความเสียหายหิน</geo>แก่ศัตรู จะใช้ Nightingale's Song 1 ชั้น เพื่อเพิ่มความเสียหายที่สร้างขึ้น โดยค่าที่เพิ่มขึ้นขึ้นอยู่กับความชำนาญธาตุของ Illuga; หากความเสียหายนั้นเกิดจากปฏิกิริยาตกผลึกจันทรา จะเพิ่มความเสียหายที่สร้างขึ้นมากยิ่งขึ้น",
+      "0": "ส่องไฟให้สว่าง สร้าง<geo>ความเสียหายหินวงกว้าง</geo> และได้รับเอฟเฟกต์ \"Haunted Night's Oriole-Song\" เป็นเวลา 20 วินาที: ในช่วงเวลาต่อเนื่อง Illuga จะได้รับ <tooltip ns=tooltips_gen baseKey18=11270001 values=[]><strong>Nightingale's Song (บทเพลงไนติงเกล)</strong></tooltip> 21 ชั้น เมื่อตัวละครในทีมที่เข้าร่วมการต่อสู้ในขณะนั้นที่อยู่ใกล้เคียง ใช้การโจมตีปกติ, ชาร์จโจมตี, โจมตีพุ่งลงจากอากาศ, สกิลธาตุ หรือท่าไม้ตาย สร้าง<geo>ความเสียหายหิน</geo>แก่ศัตรู จะใช้ Nightingale's Song 1 ชั้น เพื่อเพิ่มความเสียหายที่สร้างขึ้น โดยค่าที่เพิ่มขึ้นขึ้นอยู่กับความชำนาญธาตุของ Illuga; หากความเสียหายนั้นเกิดจากปฏิกิริยาตกผลึกจันทรา จะเพิ่มความเสียหายที่สร้างขึ้นมากยิ่งขึ้น",
       "1": "<br/>",
       "2": "เมื่อ<geo>ความเสียหายหิน</geo>ที่สร้างขึ้นด้วยวิธีข้างต้นโดนศัตรูหลายตัวพร้อมกัน จะใช้จำนวนชั้นของ Nightingale's Song ตามจำนวนศัตรูที่โดนโจมตี",
       "3": "<br/>",
@@ -101,7 +101,7 @@
   "passive1": {
     "name": "Torchforger's Covenant",
     "description": {
-      "0": "หลังจากใช้สกิลธาตุ<strong> Dawnbearing Songbird</strong> หรือท่าไม้ตาย <strong>Shaowless Reflection</strong> ตัวละครอื่น ๆ ในทีมที่อยู่ใกล้เคียงจะได้รับเอฟเฟกต์ Lightkeeper's Oath เป็นเวลา 20 วินาที: <geo>ความเสียหายหิน</geo>ที่สร้างแก่ศัตรูมีอัตราคริเพิ่มขึ้น 5%, ความแรงคริเพิ่มขึ้น 10%",
+      "0": "หลังจากใช้สกิลธาตุ<strong><tooltip ns=char_Illuga_gen baseKey18=skill> Dawnbearing Songbird</tooltip></strong> หรือท่าไม้ตาย <strong><tooltip ns=char_Illuga_gen baseKey18=burst>Shaowless Reflection</tooltip></strong> ตัวละครอื่น ๆ ในทีมที่อยู่ใกล้เคียงจะได้รับเอฟเฟกต์ Lightkeeper's Oath เป็นเวลา 20 วินาที: <geo>ความเสียหายหิน</geo>ที่สร้างแก่ศัตรูมีอัตราคริเพิ่มขึ้น 5%, ความแรงคริเพิ่มขึ้น 10%",
       "1": "<br/>",
       "2": "<strong>ลัคนาจันทร์ - จรัสแสง</strong> ",
       "3": "ความชำนาญธาตุของตัวละครที่อยู่ภายใต้ผลของเอฟเฟกต์ Lightkeeper's Oath เพิ่มขึ้น 50 หน่วย"
@@ -110,7 +110,7 @@
   "passive2": {
     "name": "Demonhunter's Dusk",
     "description": {
-      "0": "เอฟเฟกต์ <strong>Nightingale's Song (บทเพลงไนติงเกล)</strong> ได้รับการเสริมพลัง: เมื่อในทีมมีตัวละคร<hydro>ธาตุน้ำ</hydro>หรือ<geo>ธาตุหิน</geo> 1/2/3 ตัว Nightingale's Song จะเพิ่มความเสียหายที่สร้างขึ้นอีกขั้น โดยค่าที่เพิ่มขึ้นจะเท่ากับ 7%/14%/24% ของความชำนาญธาตุของ Illuga; หากความเสียหายดังกล่าวเกิดจากปฏิกิริยาตกผลึกจันทรา ค่าที่เพิ่มขึ้นจะเท่ากับ 60%/120%/200% ของความชำนาญธาตุของ Illuga"
+      "0": "เอฟเฟกต์ <tooltip ns=tooltips_gen baseKey18=11270001 values=[]><strong>Nightingale's Song (บทเพลงไนติงเกล)</strong></tooltip> ได้รับการเสริมพลัง: เมื่อในทีมมีตัวละคร<hydro>ธาตุน้ำ</hydro>หรือ<geo>ธาตุหิน</geo> 1/2/3 ตัว Nightingale's Song จะเพิ่มความเสียหายที่สร้างขึ้นอีกขั้น โดยค่าที่เพิ่มขึ้นจะเท่ากับ 7%/14%/24% ของความชำนาญธาตุของ Illuga; หากความเสียหายดังกล่าวเกิดจากปฏิกิริยาตกผลึกจันทรา ค่าที่เพิ่มขึ้นจะเท่ากับ 48%/96%/160% ของความชำนาญธาตุของ Illuga"
     }
   },
   "passive3": {
@@ -136,33 +136,33 @@
   "constellation2": {
     "name": "Elk with Fanged Antlers",
     "description": {
-      "0": "ในช่วงเวลาต่อเนื่องของเอฟเฟกต์ Haunted Night's Oriole-Song ในท่าไม้ตาย <strong>Shadowless Reflection</strong> ทุกครั้งที่ใช้ <strong>Nightingale's Song (บทเพลงไนติงเกล)</strong> 7 ชั้น Illuga จะเรียก Aedon ออกมาสร้าง<geo>ความเสียหายหิน</geo>แก่ศัตรูหนึ่งตัวที่อยู่รอบข้าง 1 ครั้ง โดยค่าความเสียหายเท่ากับ 400% ของความชำนาญธาตุ และ 200% ของพลังป้องกันของ Illuga"
+      "0": "ในช่วงเวลาต่อเนื่องของเอฟเฟกต์ Haunted Night's Oriole-Song ในท่าไม้ตาย <tooltip ns=char_Illuga_gen baseKey18=burst><strong>Shadowless Reflection</strong></tooltip> ทุกครั้งที่ใช้ <tooltip ns=tooltips_gen baseKey18=11270001 values=[]><strong>Nightingale's Song (บทเพลงไนติงเกล)</strong></tooltip> 7 ชั้น Illuga จะเรียก Aedon ออกมาสร้าง<geo>ความเสียหายหิน</geo>แก่ศัตรูหนึ่งตัวที่อยู่รอบข้าง 1 ครั้ง โดยค่าความเสียหายเท่ากับ 400% ของความชำนาญธาตุ และ 200% ของพลังป้องกันของ Illuga"
     }
   },
   "constellation3": {
     "name": "Earthshaking Bear",
     "description": {
-      "0": "เพิ่มเลเวลสกิลของท่าไม้ตาย <strong>Shadowless Reflection</strong> ขึ้น 3 ระดับ",
+      "0": "เพิ่มเลเวลสกิลของท่าไม้ตาย <strong><tooltip ns=char_Illuga_gen baseKey18=burst>Shadowless Reflection</tooltip></strong> ขึ้น 3 ระดับ",
       "1": "เพิ่มได้สูงสุดถึงระดับ 15"
     }
   },
   "constellation4": {
     "name": "Solarhunter Wolf",
     "description": {
-      "0": "ในช่วงเวลาต่อเนื่องของเอฟเฟกต์ Haunted Night's Oriole-Song ของท่าไม้ตาย <strong>Shadowless Reflection</strong> พลังป้องกันของตัวละครในทีมที่เข้าร่วมการต่อสู้ในขณะนั้น ที่อยู่ใกล้เคียงจะเพิ่มขึ้น 200 หน่วย"
+      "0": "ในช่วงเวลาต่อเนื่องของเอฟเฟกต์ Haunted Night's Oriole-Song ของท่าไม้ตาย <strong><tooltip ns=char_Illuga_gen baseKey18=burst>Shadowless Reflection</tooltip></strong> พลังป้องกันของตัวละครในทีมที่เข้าร่วมการต่อสู้ในขณะนั้น ที่อยู่ใกล้เคียงจะเพิ่มขึ้น 200 หน่วย"
     }
   },
   "constellation5": {
     "name": "Hurricane Steed",
     "description": {
-      "0": "เพิ่มเลเวลสกิลของสกิลธาตุ <strong>Dawnbearing Songbird</strong> ขึ้น 3 ระดับ",
+      "0": "เพิ่มเลเวลสกิลของสกิลธาตุ <strong><tooltip ns=char_Illuga_gen baseKey18=skill>Dawnbearing Songbird</tooltip></strong> ขึ้น 3 ระดับ",
       "1": "เพิ่มได้สูงสุดถึงระดับ 15"
     }
   },
   "constellation6": {
     "name": "Nightmare Orioles",
     "description": {
-      "0": "เอฟเฟกต์ Lightkeeper's Oath ใน พรสวรรค์ติดตัว <strong>Torchforger's Covenant</strong> ได้รับการเสริมพลัง: <geo>ความเสียหายหิน</geo>ที่สร้างแก่ศัตรูมีอัตราคริเพิ่มขึ้น 10%, ความแรงคริเพิ่มขึ้น 30%",
+      "0": "เอฟเฟกต์ Lightkeeper's Oath ใน พรสวรรค์ติดตัว <strong><tooltip ns=char_Illuga_gen baseKey18=passive1>Torchforger's Covenant</tooltip></strong> ได้รับการเสริมพลัง: <geo>ความเสียหายหิน</geo>ที่สร้างแก่ศัตรูมีอัตราคริเพิ่มขึ้น 10%, ความแรงคริเพิ่มขึ้น 30%",
       "1": "<br/>",
       "2": "<strong>ลัคนาจันทร์ - จรัสแสง</strong>",
       "3": "ความชำนาญธาตุของตัวละครที่อยู่ภายใต้ผลของเอฟเฟกต์ Lightkeeper's Oath เพิ่มขึ้น 80 หน่วย",

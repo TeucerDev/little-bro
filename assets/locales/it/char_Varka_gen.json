@@ -1,0 +1,173 @@
+{
+  "name": "Varka",
+  "title": "???",
+  "description": "",
+  "constellationName": "Lupus Majoris",
+  "auto": {
+    "name": "Danza splendente",
+    "fields": {
+      "normal": {
+        "0": "<strong>Attacco normale</strong>",
+        "1": "Imitando un'antica danza di guerra cavalleresca, Varka impugna le sue due claymore per sferrare fino a 5 colpi consecutivi."
+      },
+      "charged": {
+        "0": "<strong>Attacco caricato</strong>",
+        "1": "Consuma una determinata quantità di vigore per scattare in avanti e sferrare un colpo particolarmente potente davanti a sé con le sue lame."
+      },
+      "plunging": {
+        "0": "<strong>Attacco in picchiata</strong>",
+        "1": "Attacca scagliandosi contro il suolo da mezz'aria, infliggendo DAN agli avversari lungo la traiettoria e DAN ad area all'impatto."
+      }
+    },
+    "skillParams": {
+      "0": "DAN da 1º colpo",
+      "1": "DAN da 2º colpo",
+      "2": "DAN da 3º colpo",
+      "3": "DAN da 4º colpo",
+      "4": "DAN da 5º colpo",
+      "5": "DAN da ATT caricato",
+      "6": "Costo vigore ATT caricato",
+      "7": "DAN da ATT in picchiata",
+      "8": "DAN da ATT in picchiata basso/alto",
+      "9": "",
+      "10": "",
+      "11": "",
+      "12": "",
+      "13": "",
+      "14": "",
+      "15": ""
+    }
+  },
+  "skill": {
+    "name": "Sentenza legata al vento",
+    "description": {
+      "0": "Mostra la vera essenza della Tecnica di Favonius con una forza assoluta. Gli effetti ottenuti variano in base alla diversa pressione dell'abilità.",
+      "1": "<br/>",
+      "2": "<strong>Pressione</strong>",
+      "3": "Balza in avanti sferrando un fendente con un movimento fluido, infliggendo <anemo>DAN da Anemo ad area</anemo> e passando alla modalità <tooltip ns=tooltips_gen baseKey18=11280001 values=[]><strong>Carica tempestosa</strong></tooltip>.",
+      "4": "Durante <strong>Carica tempestosa</strong>, i DAN da attacco normale di Varka aumentano e non può eseguire attacchi in picchiata. Quando esegue attacchi normali o caricati, le due claymore di Varka infliggono DAN elementali corrispondenti ai tipi elementali dei personaggi nel gruppo. Questi DAN elementali non sono influenzabili da altre infusioni elementali.",
+      "5": "Inoltre, durante <strong>Carica tempestosa</strong>, se nel gruppo sono presenti personaggi di <pyro>Pyro</pyro>, <hydro>Hydro</hydro>, <electro>Electro</electro> o <cryo>Cryo</cryo>, l'abilità elementale di Varka <strong>Sentenza legata al vento</strong> viene convertita nell'abilità elementale speciale <tooltip ns=tooltips_gen baseKey18=11280002 values=[]><strong>Ascensione dei Quattro Venti</strong></tooltip>, che infligge DAN elementali corrispondenti e <anemo>DAN da Anemo</anemo>. Inoltre, Varka può anche consumare gli usi dell'abilità elementale speciale <strong>Ascensione dei Quattro Venti</strong> per eseguire un attacco caricato speciale, <strong>Divorazzurro</strong>, che non consuma vigore e infligge DAN elementali corrispondenti e <anemo>DAN da Anemo</anemo>.",
+      "6": "<br/>",
+      "7": "<strong>Pressione prolungata</strong>",
+      "8": "Balza in avanti dopo un breve caricamento. La durata del caricamento aumenta la distanza del salto."
+    },
+    "skillParams": {
+      "0": "DAN da abilità",
+      "1": "Durata abilità",
+      "2": "DAN da 1º colpo",
+      "3": "DAN da 2º colpo",
+      "4": "DAN da 3º colpo",
+      "5": "DAN da 4º colpo",
+      "6": "DAN da 5º colpo",
+      "7": "DAN da attacco caricato",
+      "8": "DAN da abilità aggiuntiva",
+      "9": "Bonus DAN attacco caricato aggiuntivo",
+      "10": "TdR abilità aggiuntiva",
+      "11": "TdR abilità",
+      "12": "Durata Ascensione dei Quattro Venti",
+      "13": "",
+      "14": "",
+      "15": ""
+    }
+  },
+  "burst": {
+    "name": "Incarnazione del Vento del Nord",
+    "description": {
+      "0": "Nel nome del potente Cavaliere di Boreas, sferra un potente fendente con le sue due lame, infliggendo 2 iterazioni di <anemo>DAN da Anemo</anemo>.",
+      "1": "Se nel gruppo sono presenti personaggi di <pyro>Pyro</pyro>, <hydro>Hydro</hydro>, <electro>Electro</electro> o <cryo>Cryo</cryo>, il primo fendente viene convertito per infliggere DAN elementali corrispondenti in base all'ordine di priorità dei suddetti tipi elementali."
+    },
+    "skillParams": {
+      "0": "DAN da 1º colpo",
+      "1": "DAN da 2º colpo",
+      "2": "TdR",
+      "3": "Costo energia",
+      "4": "",
+      "5": "",
+      "6": "",
+      "7": "",
+      "8": "",
+      "9": "",
+      "10": "",
+      "11": "",
+      "12": "",
+      "13": "",
+      "14": "",
+      "15": ""
+    }
+  },
+  "passive1": {
+    "name": "Marcia del vento dell'alba",
+    "description": {
+      "0": "Quando nel gruppo sono presenti personaggi di <pyro>Pyro</pyro>, <hydro>Hydro</hydro>, <electro>Electro</electro> o <cryo>Cryo</cryo>, per ogni 1.000 punti di ATT di Varka, quest'ultimo ottiene un 10% di <anemo>bonus DAN da Anemo</anemo> e bonus DAN elementali corrispondente (tra i tipi elementali sopracitati, solo uno può ottenere il bonus DAN in questo modo). In questo modo è possibile ottenere fino a un 25% di bonus DAN.",
+      "1": "<br/>",
+      "2": "Inoltre, se ci sono almeno 2 personaggi di <anemo>Anemo</anemo> o 2 personaggi dello stesso elemento tra <pyro>Pyro</pyro>, <hydro>Hydro</hydro>, <electro>Electro</electro> o <cryo>Cryo</cryo> nel gruppo, gli attacchi normali, gli attacchi caricati, l'attacco caricato speciale <strong>Divorazzurro</strong> e l'abilità elementale speciale <tooltip ns=tooltips_gen baseKey18=11280002 values=[]><strong>Ascensione dei Quattro Venti</strong></tooltip> scatenati da Varka mentre è nella modalità <tooltip ns=tooltips_gen baseKey18=11280001 values=[]><strong>Carica tempestosa</strong></tooltip> infliggono un 140% dei loro DAN originali. Se nel gruppo sono presenti 2 personaggi di <anemo>Anemo</anemo> e almeno 2 personaggi dello stesso elemento tra <pyro>Pyro</pyro>, <hydro>Hydro</hydro>, <electro>Electro</electro> o <cryo>Cryo</cryo>, l'effetto sopracitato aumenta a un 220%."
+    }
+  },
+  "passive2": {
+    "name": "Avanguardia del vento",
+    "description": {
+      "0": "Quando i membri del gruppo vicini innescano una o più reazioni di Turbinio, Varka ottiene 1 accumulo di <strong>Giuramento della Zanna azzurra</strong>, che aumenta di un 7,5% per 8 s i DAN inflitti dai suoi attacchi normali, attacchi caricati, dall'attacco caricato speciale <strong>Divorazzurro</strong> e dall'abilità elementale speciale <tooltip ns=tooltips_gen baseKey18=11280002 values=[]><strong>Ascensione dei Quattro Venti</strong></tooltip> mentre si trova nella modalità di <tooltip ns=tooltips_gen baseKey18=11280001 values=[]><strong>Carica tempestosa</strong></tooltip>. Massimo 4 accumuli. Ogni personaggio può fornire a Varka 1 accumulo di <strong>Giuramento della Zanna azzurra</strong> al secondo in questo modo."
+    }
+  },
+  "passive3": {
+    "name": "Peana del vento del ritorno",
+    "description": {
+      "0": "Per ogni membro di Mondstadt presente nel gruppo, il TdR dell'abilità elementale <strong>Sentenza legata al vento</strong> diminuisce di un 5%.",
+      "1": "Non si attiva nei domini, nei Domini della conquista o nell'Abisso a spirale."
+    }
+  },
+  "lockedPassive": {
+    "name": "Rito della Vigilia della strega: Ritorno dell'alba",
+    "description": {
+      "0": "Dopo aver completato <strong>Compiti della strega: La domanda senza titolo</strong>, Varka acquisisce l'attributo <strong>Hexerei</strong>. Quando il gruppo include almeno 2 personaggi con attributo Hexerei, questi ultimi ottengono l'effetto di potenziamento <strong>Hexerei: Rito segreto</strong>.",
+      "1": "<br/>",
+      "2": "<strong>Hexerei: Rito segreto</strong>",
+      "3": "Potenzia l'abilità elementale speciale <tooltip ns=tooltips_gen baseKey18=11280002 values=[]><strong>Ascensione dei Quattro Venti</strong></tooltip>: quando Varka colpisce un nemico con degli attacchi normali in modalità <tooltip ns=tooltips_gen baseKey18=11280001 values=[]><strong>Carica tempestosa</strong></tooltip>, il TdR di <strong>Ascensione dei Quattro Venti</strong> si riduce di 1 s."
+    }
+  },
+  "constellation1": {
+    "name": "\"Vieni, balliamo sotto il dolce chiaro di luna.\"",
+    "description": {
+      "0": "Quando Varka passa a <tooltip ns=tooltips_gen baseKey18=11280001 values=[]><strong>Carica tempestosa</strong></tooltip>, ottiene un utilizzo aggiuntivo dell'abilità elementale speciale <tooltip ns=tooltips_gen baseKey18=11280002 values=[]><strong>Ascensione dei Quattro Venti</strong></tooltip>.",
+      "1": "Inoltre, dopo essere passato a <strong>Carica tempestosa</strong>, Varka ottiene l'effetto <strong>Libagione lirica</strong>: quando scatena l'abilità elementale speciale <strong>Ascensione dei Quattro Venti</strong> o esegue l'attacco caricato speciale <strong>Divorazzurro</strong>, può consumare questo effetto per infliggere un 200% dei DAN originali di <strong>Ascensione dei Quattro Venti</strong> o <strong>Divorazzurro</strong>."
+    }
+  },
+  "constellation2": {
+    "name": "\"All'alba, intraprenderemo il nostro viaggio.\"",
+    "description": {
+      "0": "Quando Varka scatena l'abilità elementale speciale <tooltip ns=tooltips_gen baseKey18=11280002 values=[]><strong>Ascensione dei Quattro Venti</strong></tooltip> o esegue l'attacco caricato speciale <strong>Divorazzurro</strong>, sferra un colpo aggiuntivo che infligge <anemo>DAN da Anemo ad area</anemo> pari a un 800% del suo ATT."
+    }
+  },
+  "constellation3": {
+    "name": "\"Non bere il vino amaro che porta lacrime di dolore.\"",
+    "description": {
+      "0": "Aumenta di 3 il livello dell'abilità elementale <strong>Sentenza legata al vento</strong>",
+      "1": "Il livello di potenziamento massimo è 15."
+    }
+  },
+  "constellation4": {
+    "name": "\"Poiché nessuno potrà mai privarci della nostra libertà di cantare.\"",
+    "description": {
+      "0": "Quando Varka innesca una reazione di Turbinio, tutti i membri vicini del gruppo ottengono per 10 s un 20% di <anemo>bonus DAN da Anemo</anemo> e bonus DAN elementali corrispondente in base ai tipi elementali coinvolti nella reazione."
+    }
+  },
+  "constellation5": {
+    "name": "\"Riempi la coppa di vino pregiato, poiché i tiranni vanno e vengono.\"",
+    "description": {
+      "0": "Aumenta di 3 il livello del Tripudio elementale <strong>Incarnazione del Vento del Nord</strong>.",
+      "1": "Il livello di potenziamento massimo è 15."
+    }
+  },
+  "constellation6": {
+    "name": "\"Amata Mondstadt, che tu possa risplendere come sempre.\"",
+    "description": {
+      "0": "<tooltip ns=tooltips_gen baseKey18=11280001 values=[]><strong>Carica tempestosa</strong></tooltip> viene potenziata.",
+      "1": " · Per un breve periodo di tempo dopo aver scatenato l'abilità elementale speciale <tooltip ns=tooltips_gen baseKey18=11280002 values=[]><strong>Ascensione dei Quattro Venti</strong></tooltip>, attraverso la pressione dell'abilità elementale di Varka o tenendo premuto il suo attacco normale non vengono consumati utilizzi di <strong>Ascensione dei Quattro Venti</strong> e viene eseguito l'attacco caricato speciale <strong>Divorazzurro</strong>.",
+      "2": [
+        " Dopo aver eseguito l'attacco caricato speciale <strong>Divorazzurro</strong>, la pressione dell'abilità elementale di Varka permette di scatenare un'iterazione di <strong>Ascensione dei Quattro Venti</strong> senza consumarne utilizzi."
+      ],
+      "3": "<br/>",
+      "4": "Inoltre, l'effetto di <strong>Giuramento della Zanna azzurra</strong> del talento passivo <link>Avanguardia del vento</link> viene potenziato: ogni accumulo di <strong>Giuramento della Zanna azzurra</strong> aumenta i DAN da CRIT di Varka di un 15%."
+    }
+  }
+}

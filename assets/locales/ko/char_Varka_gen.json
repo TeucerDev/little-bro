@@ -1,0 +1,173 @@
+{
+  "name": "바르카",
+  "title": "",
+  "description": "",
+  "constellationName": "",
+  "auto": {
+    "name": "흐르는 빛의 춤",
+    "fields": {
+      "normal": {
+        "0": "<strong>일반 공격</strong>",
+        "1": "고대 기사의 전무를 모방해 양손의 대검으로 최대 5번 공격한다."
+      },
+      "charged": {
+        "0": "<strong>강공격</strong>",
+        "1": "일정 스태미나를 소모해 전방으로 돌진한 후, 쌍검으로 베기 공격을 진행한다."
+      },
+      "plunging": {
+        "0": "<strong>낙하 공격</strong>",
+        "1": "공중에서 땅을 내려찍어 경로상의 적을 공격하고 착지 시 범위 피해를 준다"
+      }
+    },
+    "skillParams": {
+      "0": "1단 공격 피해",
+      "1": "2단 공격 피해",
+      "2": "3단 공격 피해",
+      "3": "4단 공격 피해",
+      "4": "5단 공격 피해",
+      "5": "강공격 피해",
+      "6": "강공격 스태미나 소모",
+      "7": "낙하 기간 피해",
+      "8": "저공/고공 추락 충격 피해",
+      "9": "",
+      "10": "",
+      "11": "",
+      "12": "",
+      "13": "",
+      "14": "",
+      "15": ""
+    }
+  },
+  "skill": {
+    "name": "추락하는 열풍",
+    "description": {
+      "0": "절대적인 힘으로 페보니우스 검술의 진수를 선보인다. 짧은 터치 또는 홀드에 따라 각기 다른 효과가 발생한다.",
+      "1": "<br/>",
+      "2": "<strong>짧은 터치</strong>",
+      "3": "전방으로 도약하며 검을 내려 찍어 <anemo>바람 원소 범위 피해</anemo>를 주고, <tooltip ns=tooltips_gen baseKey18=11280001 values=[]><strong>광풍 돌진</strong></tooltip> 모드로 전환한다.",
+      "4": "<strong>광풍 돌진</strong> 모드일 때 바르카의 일반 공격으로 주는 피해가 증가하고 낙하 공격을 할 수 없다. 또한 일반 공격과 강공격 시, 파티 내 캐릭터의 원소 타입에 따라, 양손의 대검이 각각 다른 원소 부여 효과로 대체될 수 없는 원소 피해를 준다.",
+      "5": "또한 <strong>광풍 돌진</strong> 모드일 때 파티에 <pyro>불 원소</pyro>, <hydro>물 원소</hydro>, <electro>번개 원소</electro> 또는 <cryo>얼음 원소</cryo> 캐릭터가 존재할 경우, 바르카의 원소전투 스킬 <strong>열풍의 추락</strong>이 특수 원소전투 스킬 <tooltip ns=tooltips_gen baseKey18=11280002 values=[]><strong>사풍의 도래</strong></tooltip>로 대체되어, 대응하는 원소 피해와 <anemo>바람 원소 피해</anemo>를 준다. 또한, 바르카는 특수 원소전투 스킬 <strong>사풍의 도래</strong>의 사용 가능 횟수를 소모해, 스태미나를 소모하지 않는 특수 강공격 <strong>푸른 포식</strong>을 발동하여 대응하는 원소 피해와 <anemo>바람 원소 피해</anemo>를 준다.",
+      "6": "<br/>",
+      "7": "<strong>홀드</strong>",
+      "8": "차지 후 전방으로 도약한다. 차지 시간에 따라 도약 거리가 증가한다"
+    },
+    "skillParams": {
+      "0": "스킬 피해",
+      "1": "스킬 지속 시간",
+      "2": "1단 공격 피해",
+      "3": "2단 공격 피해",
+      "4": "3단 공격 피해",
+      "5": "4단 공격 피해",
+      "6": "5단 공격 피해",
+      "7": "강공격 피해",
+      "8": "파생 전투 스킬 피해",
+      "9": "파생 강공격 추가 피해",
+      "10": "파생 스킬 재사용 대기시간",
+      "11": "스킬 재사용 대기시간",
+      "12": "사풍의 도래 재사용 대기시간",
+      "13": "",
+      "14": "",
+      "15": ""
+    }
+  },
+  "burst": {
+    "name": "내가 바로 북풍이다",
+    "description": {
+      "0": "최강의 북풍 기사의 이름으로 전방에 강력한 2연속 참격을 날려 2회의 <anemo>바람 원소 피해</anemo>를 준다.",
+      "1": "파티에 <pyro>불 원소</pyro>, <hydro>물 원소</hydro>, <electro>번개 원소</electro> 또는 <cryo>얼음 원소</cryo> 캐릭터가 존재할 경우, 첫 번째 참격은 상술한 원소 타입의 우선순위에 따라 해당 원소 피해로 전환된다"
+    },
+    "skillParams": {
+      "0": "1단 공격 피해",
+      "1": "2단 공격 피해",
+      "2": "재사용 대기시간",
+      "3": "원소 에너지",
+      "4": "",
+      "5": "",
+      "6": "",
+      "7": "",
+      "8": "",
+      "9": "",
+      "10": "",
+      "11": "",
+      "12": "",
+      "13": "",
+      "14": "",
+      "15": ""
+    }
+  },
+  "passive1": {
+    "name": "새벽 바람의 행군",
+    "description": {
+      "0": "파티에 <pyro>불 원소</pyro>, <hydro>물 원소</hydro>, <electro>번개 원소</electro> 또는 <cryo>얼음 원소</cryo> 캐릭터가 존재할 시, 바르카의 공격력에 기반해 공격력 1000pt마다 바르카가 10%의 <anemo>바람 원소 피해 보너스</anemo>와 상응하는 원소 피해 보너스를 획득한다(해당 방식으로 상술한 원소 타입 중 최대 한 가지 원소 타입의 피해 보너스만 획득 가능). 해당 방식으로 최대 25%의 보너스를 획득할 수 있다.",
+      "1": "<br/>",
+      "2": "또한 파티에 <anemo>바람 원소</anemo> 캐릭터가 2명 이상 존재하거나, 원소 타입이 동일한 <pyro>불 원소</pyro>, <hydro>물 원소</hydro>, <electro>번개 원소</electro> 또는 <cryo>얼음 원소</cryo> 캐릭터가 2명 이상 존재할 경우, 바르카가 <tooltip ns=tooltips_gen baseKey18=11280001 values=[]><strong>광풍 돌진</strong></tooltip> 모드에서 일반 공격, 강공격, 특수 강공격 <strong>푸른 포식</strong> 및 특수 원소전투 스킬 <tooltip ns=tooltips_gen baseKey18=11280002 values=[]><strong>사풍의 도래</strong></tooltip> 발동 시 기존의 140%에 해당하는 피해를 준다. 파티에 <anemo>바람 원소</anemo> 캐릭터가 2명 이상 존재하는 동시에 원소 타입이 동일한 <pyro>불 원소</pyro>, <hydro>물 원소</hydro>, <electro>번개 원소</electro> 또는 <cryo>얼음 원소</cryo> 캐릭터가 2명 이상 존재할 경우, 상술한 효과가 220%까지 증가한다"
+    }
+  },
+  "passive2": {
+    "name": "바람 깃발의 인도",
+    "description": {
+      "0": "주변에 있는 파티 내 캐릭터가 확산 반응 발동 시, 바르카가 <strong>「창아의 맹세」</strong>를 1스택 획득하고, 바르카가 <tooltip ns=tooltips_gen baseKey18=11280001 values=[]><strong>광풍 돌진</strong></tooltip> 모드에서 일반 공격, 강공격, 특수 강공격 <strong>푸른 포식</strong> 및 특수 원소전투 스킬 <tooltip ns=tooltips_gen baseKey18=11280002 values=[]><strong>사풍의 도래</strong></tooltip>로 주는 피해가 7.5% 증가한다. 지속 시간: 8초, 최대 중첩수: 4스택. 해당 방식을 통해 캐릭터마다 바르카에게 1초에 최대 1스택의 <strong>「창아의 맹세」</strong> 효과를 부여할 수 있다"
+    }
+  },
+  "passive3": {
+    "name": "돌아온 바람의 노래",
+    "description": {
+      "0": "파티 내 몬드 캐릭터 1명당 원소전투 스킬 <strong>추락하는 열풍</strong>의 재사용 대기시간이 5% 감소한다.",
+      "1": "해당 효과는 비경, 영역 토벌, 나선 비경에서 적용되지 않는다"
+    }
+  },
+  "lockedPassive": {
+    "name": "마녀의 전야제·돌아온 새벽 빛",
+    "description": {
+      "0": "<strong>마녀의 과제·무제</strong> 완료 후, 바르카는 <strong>마도</strong> 캐릭터가 된다. 파티에 마도 캐릭터를 2명 이상 편성하면 <strong>마도·비밀 의식</strong> 효과를 획득해 마도 캐릭터가 강화된다.",
+      "1": "<br/>",
+      "2": "<strong>마도·비밀 의식</strong>",
+      "3": "특수 원소전투 스킬 <tooltip ns=tooltips_gen baseKey18=11280002 values=[]><strong>사풍의 도래</strong></tooltip> 강화: 바르카가 <tooltip ns=tooltips_gen baseKey18=11280001 values=[]><strong>광풍 돌진</strong></tooltip> 모드에서 일반 공격으로 적 명중 시, <strong>사풍의 도래</strong>의 재사용 대기시간이 1초 감소한다"
+    }
+  },
+  "constellation1": {
+    "name": "「친구여, 달빛 아래에서 함께 춤을 추자」",
+    "description": {
+      "0": "바르카가 <tooltip ns=tooltips_gen baseKey18=11280001 values=[]><strong>광풍 돌진</strong></tooltip> 모드로 전환 시, 특수 원소전투 스킬 <tooltip ns=tooltips_gen baseKey18=11280002 values=[]><strong>사풍의 도래</strong></tooltip>의 사용 가능 횟수를 추가로 1회 획득한다.",
+      "1": "또한 <strong>광풍 돌진</strong> 모드로 전환 후, 바르카가 <strong>「노래로 빚은 술」</strong> 효과를 획득한다: 특수 원소전투 스킬 <strong>사풍의 도래</strong> 발동 또는 특수 강공격 <strong>푸른 포식</strong> 발동 시 해당 효과를 소모해, <strong>사풍의 도래</strong> 또는 <strong>푸른 포식</strong>이 기존의  200%에 해당하는 피해를 준다"
+    }
+  },
+  "constellation2": {
+    "name": "「새벽빛이 밝아오면, 우리는 여정에 오를테니」",
+    "description": {
+      "0": "특수 원소전투 스킬 <tooltip ns=tooltips_gen baseKey18=11280002 values=[]><strong>사풍의 도래</strong></tooltip> 발동 또는 특수 강공격 <strong>푸른 포식</strong> 발동 시, 바르카가 1회의 추가 공격으로 공격력의 800%에 해당하는 <anemo>바람 원소 범위 피해</anemo>를 준다"
+    }
+  },
+  "constellation3": {
+    "name": "「친구여, 눈물이 담긴 술잔은 내려놓자」",
+    "description": {
+      "0": "원소전투 스킬 <strong>추락하는 열풍</strong>의 스킬 레벨+3",
+      "1": "최대 Lv.15까지 상승"
+    }
+  },
+  "constellation4": {
+    "name": "「그 누구도 우리가 노래할 자유를 뺏을 순 없으리라」",
+    "description": {
+      "0": "바르카가 확산 반응을 발동 시, 반응에 참여한 원소 타입에 따라, 주변에 있는 파티 내 모든 캐릭터가 각각 20%의 <anemo>바람 원소 피해 보너스</anemo>와 상응하는 원소 피해 보너스를 획득한다. 지속 시간: 10초"
+    }
+  },
+  "constellation5": {
+    "name": "「폭군이 돌아갔다, 잔에 술을 가득 따르자」",
+    "description": {
+      "0": "원소폭발 <strong>내가 바로 북풍이다</strong>의 스킬 레벨+3",
+      "1": "최대 Lv.15까지 상승"
+    }
+  },
+  "constellation6": {
+    "name": "「사랑하는 나의 몬드는 여전히 굳건하구나」",
+    "description": {
+      "0": "<tooltip ns=tooltips_gen baseKey18=11280001 values=[]><strong>광풍 돌진</strong></tooltip> 모드 강화:",
+      "1": [
+        "특수 원소전투 스킬 <tooltip ns=tooltips_gen baseKey18=11280002 values=[]><strong>사풍의 도래</strong></tooltip> 발동 후 짧은 시간 동안, 바르카가 원소전투 스킬을 짧게 터치하거나 일반 공격을 홀드하면 <strong>사풍의 도래</strong>의 사용 가능 횟수를 소모하지 않는 특수 강공격 <strong>푸른 포식</strong>을 1회 발동한다.",
+        "특수 강공격 <strong>푸른 포식</strong> 발동 후, 바르카는 원소전투 스킬을 짧게 터치해 사용 가능 횟수를 소모하지 않는 <strong>사풍의 태동</strong>을 1회 발동한다."
+      ],
+      "2": "<br/>",
+      "3": "또한, 고유 특성 <link>「바람 깃발의 인도」</link>의 <strong>「푸른 포식」</strong> 효과가 강화된다: <strong>「푸른 포식」</strong> 1스택마다 바르카의 치명타 피해가 추가로 15% 증가한다"
+    }
+  }
+}

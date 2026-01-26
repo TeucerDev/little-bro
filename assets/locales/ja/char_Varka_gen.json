@@ -1,0 +1,171 @@
+{
+  "name": "ファルカ",
+  "title": "？？？",
+  "description": "",
+  "constellationName": "",
+  "auto": {
+    "name": "西風剣術・流光の舞JP0D",
+    "fields": {
+      "normal": {
+        "0": "<strong>通常攻撃</strong>",
+        "1": "古代騎士の戦の舞を真似て、両手に持った剣による最大5段の連続攻撃を行う。"
+      },
+      "charged": {
+        "0": "<strong>重撃</strong>",
+        "1": "一定のスタミナを消費し、前方に突進した後、より強力な一撃を放つ。"
+      },
+      "plunging": {
+        "0": "<strong>落下攻撃</strong>",
+        "1": "空中から落下し地面に衝撃を与える。経路上の敵を攻撃し、落下時に範囲ダメージを与える。JP0D"
+      }
+    },
+    "skillParams": {
+      "0": "1段ダメージ",
+      "1": "2段ダメージ",
+      "2": "3段ダメージ",
+      "3": "4段ダメージ",
+      "4": "5段ダメージ",
+      "5": "重撃ダメージ",
+      "6": "重撃スタミナ消費",
+      "7": "落下期間のダメージ",
+      "8": "低空/高空落下攻撃ダメージ",
+      "9": "",
+      "10": "",
+      "11": "",
+      "12": "",
+      "13": "",
+      "14": "",
+      "15": ""
+    }
+  },
+  "skill": {
+    "name": "堕ちる烈風JP0D",
+    "description": {
+      "0": "絶対的な力で西風剣術の真髄を示し、一回押し・長押しによって異なる効果を発動する。",
+      "1": "<br/>",
+      "2": "<strong>一回押し</strong>",
+      "3": "前方へ跳躍して斬撃を繰り出し、<anemo>風元素範囲ダメージ</anemo>を与え、<tooltip ns=tooltips_gen baseKey18=11280001 values=[]><strong>荒れ狂う突進</strong></tooltip>モードに切り替わる。",
+      "4": "<strong>荒れ狂う突進</strong>モード時、ファルカの通常攻撃によるダメージがアップし、落下攻撃ができなくなる。通常攻撃と重撃を行う時、チーム内キャラクターの元素タイプに応じて、両手に持った大剣がそれぞれ元素付与によって他の元素に変化しない対応する元素ダメージを与える。",
+      "5": "また、<strong>荒れ狂う突進</strong>モード時、チーム内に<pyro>炎元素</pyro>、<hydro>水元素</hydro>、<electro>雷元素</electro>または<cryo>氷元素</cryo>キャラクターが存在する場合、ファルカの元素スキル<strong>堕ちる烈風</strong>は特殊元素スキル<tooltip ns=tooltips_gen baseKey18=11280002 values=[]><strong>巻き起こる風</strong></tooltip>に置き換わり、それに対応する元素ダメージと<anemo>風元素ダメージ</anemo>を与える。さらに、ファルカは特殊元素スキル<strong>巻き起こる風</strong>の使用可能回数を消費することで、スタミナを消費しない特殊重撃<strong>蒼噬</strong>を行い、対応する元素ダメージと<anemo>風元素ダメージ</anemo>を与えることができる。",
+      "6": "<br/>",
+      "7": "<strong>長押し</strong>",
+      "8": "力を溜めた後、前方へ跳躍する。力を溜めた時間によって跳躍距離が長くなる。JP0D"
+    },
+    "skillParams": {
+      "0": "スキルダメージ",
+      "1": "スキル継続時間",
+      "2": "1段ダメージ",
+      "3": "2段ダメージ",
+      "4": "3段ダメージ",
+      "5": "4段ダメージ",
+      "6": "5段ダメージ",
+      "7": "重撃ダメージ",
+      "8": "派生スキルのダメージ",
+      "9": "派生重撃追加ダメージ",
+      "10": "派生スキルのクールタイム",
+      "11": "スキルクールタイム",
+      "12": "巻き起こる風クールタイム",
+      "13": "",
+      "14": "",
+      "15": ""
+    }
+  },
+  "burst": {
+    "name": "朔風となりてJP0D",
+    "description": {
+      "0": "最強の北風騎士の名において、前方に強力な二連斬を繰り出し、<anemo>風元素ダメージ</anemo>を2回与える。",
+      "1": "チーム内に<pyro>炎元素</pyro>、<hydro>水元素</hydro>、<electro>雷元素</electro>または<cryo>氷元素</cryo>キャラクターが存在する場合、1撃目は上記の元素タイプ順に、その元素ダメージを与えるように変換される。JP0D"
+    },
+    "skillParams": {
+      "0": "1段ダメージ",
+      "1": "2段ダメージ",
+      "2": "クールタイム",
+      "3": "元素エネルギー",
+      "4": "",
+      "5": "",
+      "6": "",
+      "7": "",
+      "8": "",
+      "9": "",
+      "10": "",
+      "11": "",
+      "12": "",
+      "13": "",
+      "14": "",
+      "15": ""
+    }
+  },
+  "passive1": {
+    "name": "暁の風の行軍JP0D",
+    "description": {
+      "0": "チーム内に<pyro>炎元素</pyro>、<hydro>水元素</hydro>、<electro>雷元素</electro>または<cryo>氷元素</cryo>キャラクターが存在する時、ファルカの攻撃力を基準として、攻撃力1000ごとにファルカは10%の<anemo>風元素ダメージアップ効果</anemo>と対応する元素のダメージアップ効果を獲得する（上記の元素タイプの中で、最大1種類の元素タイプがこの方法でダメージアップ効果を獲得できる）。この方法で獲得できる効果は最大25%まで。",
+      "1": "<br/>",
+      "2": "さらに、チーム内に2名以上の<anemo>風元素</anemo>キャラクターが存在する場合、または2名以上の元素タイプが同じ（<pyro>炎元素</pyro>、<hydro>水元素</hydro>、<electro>雷元素</electro>または<cryo>氷元素</cryo>）キャラクターが存在する場合、ファルカが<tooltip ns=tooltips_gen baseKey18=11280001 values=[]><strong>荒れ狂う突進</strong></tooltip>モードで行う通常攻撃、重撃、特殊重撃<strong>蒼噬</strong>、および発動する特殊元素スキル<tooltip ns=tooltips_gen baseKey18=11280002 values=[]><strong>巻き起こる風</strong></tooltip>は、本来の140%のダメージを与える。チーム内に2名以上の<anemo>風元素</anemo>キャラクターと、2名以上の元素タイプが同じ（<pyro>炎元素</pyro>、<hydro>水元素</hydro>、<electro>雷元素</electro>または<cryo>氷元素</cryo>）キャラクターが同時に存在する場合、上記の効果は220%にアップする。JP0D"
+    }
+  },
+  "passive2": {
+    "name": "風の旗の導きJP0D",
+    "description": {
+      "0": "付近にいるチーム内キャラクターが拡散反応を起こした時、ファルカは<strong>「蒼牙の誓い」</strong>を1層獲得し、ファルカの<tooltip ns=tooltips_gen baseKey18=11280001 values=[]><strong>荒れ狂う突進</strong></tooltip>モード中に行う通常攻撃、重撃、特殊重撃<strong>蒼噬</strong>および発動した特殊元素スキル<tooltip ns=tooltips_gen baseKey18=11280002 values=[]><strong>巻き起こる風</strong></tooltip>の与えるダメージ+7.5%。この効果は継続時間8秒、最大4層まで重ねられる。この方法によって、各キャラクターがファルカに付与できる<strong>「蒼牙の誓い」</strong>は1秒毎に1層のみ。JP0D"
+    }
+  },
+  "passive3": {
+    "name": "帰る風の凱歌JP0D",
+    "description": {
+      "0": "チーム内にモンドキャラクターが1人いる毎に、元素スキル<strong>堕ちる烈風</strong>のクールタイム-5%。",
+      "1": "この効果は秘境、征討領域、深境螺旋では発動しない。JP0D"
+    }
+  },
+  "lockedPassive": {
+    "name": "魔女からの贈り物・朝を迎える光JP0D",
+    "description": {
+      "0": "<strong>魔女の課題・無題の題</strong>を完了すると、ファルカは<strong>魔導</strong>キャラクターとして扱われるようになる。チームに魔導キャラクターを2名以上編成すると、<strong>魔導秘儀</strong>効果が発動し、魔導キャラクターは強化される。",
+      "1": "<br/>",
+      "2": "<strong>魔導秘儀</strong>",
+      "3": "特殊元素スキル<tooltip ns=tooltips_gen baseKey18=11280002 values=[]><strong>巻き起こる風</strong></tooltip>が強化され、ファルカが<tooltip ns=tooltips_gen baseKey18=11280001 values=[]><strong>荒れ狂う突進</strong></tooltip>モード中に通常攻撃で敵に命中すると、<strong>巻き起こる風</strong>で短縮されるクールタイムは-1秒となる。JP0D"
+    }
+  },
+  "constellation1": {
+    "name": "「さあ友よ、月明かりの下で踊ろう」JP0D",
+    "description": {
+      "0": "ファルカが<tooltip ns=tooltips_gen baseKey18=11280001 values=[]><strong>荒れ狂う突進</strong></tooltip>モードに切り替わる時、特殊元素スキル<tooltip ns=tooltips_gen baseKey18=11280002 values=[]><strong>巻き起こる風</strong></tooltip>の使用可能回数を追加で1回獲得する。",
+      "1": "さらに、<strong>巻き起こる風</strong>モードに切り替わった後、ファルカは<strong>「歌われる佳醸」</strong>効果を獲得し、特殊元素スキル<strong>巻き起こる風</strong>を発動時、または特殊重撃<strong>蒼噬</strong>を行った時、この効果を消費し、<strong>巻き起こる風</strong>または<strong>蒼噬</strong>が与えるダメージを200%にする。JP0D"
+    }
+  },
+  "constellation2": {
+    "name": "「夜明けが訪れる頃、我らは旅路へ出る」JP0D",
+    "description": {
+      "0": "特殊元素スキル<tooltip ns=tooltips_gen baseKey18=11280002 values=[]><strong>巻き起こる風</strong></tooltip>発動時、または特殊重撃<strong>蒼噬</strong>を行った時、ファルカは追加攻撃を1回行い、攻撃力800%の<anemo>風元素範囲ダメージ</anemo>を与える。JP0D"
+    }
+  },
+  "constellation3": {
+    "name": "「友よ、涙の味のする酒をこれ以上飲むなよ」JP0D",
+    "description": {
+      "0": "元素スキル<strong>堕ちる烈風</strong>のスキルLv.+3。",
+      "1": "最大Lv.15まで。"
+    }
+  },
+  "constellation4": {
+    "name": "「我らの歌う自由は誰にも奪われないものだから」JP0D",
+    "description": {
+      "0": "ファルカが拡散反応を起こした時、反応に関わった元素タイプに応じて、チーム内の周囲にいるキャラクター全員がそれぞれ20%<anemo>風元素ダメージアップ効果</anemo>と対応する元素のダメージアップ効果を獲得する。継続時間10秒。JP0D"
+    }
+  },
+  "constellation5": {
+    "name": "「杯に美酒を注ごう、暴君が来てまた去っていく」JP0D",
+    "description": {
+      "0": "元素爆発<strong>朔風となりて</strong>のスキルLv.+3。",
+      "1": "最大Lv.15まで。"
+    }
+  },
+  "constellation6": {
+    "name": "「我が愛しきモンドよ、変わらぬ姿でそこにあれ」JP0D",
+    "description": {
+      "0": "<tooltip ns=tooltips_gen baseKey18=11280001 values=[]><strong>荒れ狂う突進</strong></tooltip>モードが次のように強化される。",
+      "1": "・特殊元素スキル<tooltip ns=tooltips_gen baseKey18=11280002 values=[]><strong>巻き起こる風</strong></tooltip>発動後の短時間、ファルカは元素スキルを一回押しまたは通常攻撃を長押しすることで、<strong>巻き起こる風</strong>の使用可能回数を消費せずに、特殊重撃<strong>蒼噬</strong>を1回行うことができる。",
+      "2": "・特殊重撃<strong>蒼噬</strong>を行った後、ファルカは元素スキルを一回押しすることで、<strong>巻き起こる風</strong>の使用可能回数を消費せずに、<strong>巻き起こる風</strong>を1回発動できる。",
+      "3": "<br/>",
+      "4": "さらに、固有天賦<link>「風の旗の導き」</link>における<strong>「蒼牙の誓い」</strong>の効果が強化され、<strong>「蒼牙の誓い」</strong>1層につき、ファルカの会心ダメージ+15%。JP0D"
+    }
+  }
+}
